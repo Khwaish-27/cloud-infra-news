@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud &amp; Infrastructure Intelligence Briefing</title>
+<style>
+  :root {
+    --blue-primary: #0057A8;
+    --blue-dark: #003F7A;
+    --blue-light: #EBF3FF;
+    --blue-mid: #4A90D9;
+    --text-dark: #0F1F2E;
+    --text-body: #2D3748;
+    --text-muted: #6B7280;
+    --border: #D1DCE8;
+    --bg: #F3F7FB;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Helvetica Neue, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text-body);
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  /* ── Header ── */
+  header { background: var(--blue-primary); color: white; }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 48px 18px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+
+  .brand-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.6);
+    font-weight: 500;
+    margin-bottom: 3px;
+  }
+
+  .brand-title {
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: white;
+  }
+
+  .header-stats {
+    display: flex;
+    gap: 32px;
+    text-align: right;
+  }
+
+  .stat-block { display: flex; flex-direction: column; align-items: flex-end; }
+
+  .stat-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.7rem;
+    color: rgba(255,255,255,0.6);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* ── Filter nav ── */
+  .filter-nav {
+    display: flex;
+    padding: 0 40px;
+    overflow-x: auto;
+    gap: 0;
+  }
+
+  .filter-btn {
+    background: transparent;
+    color: rgba(255,255,255,0.65);
+    border: none;
+    border-bottom: 3px solid transparent;
+    padding: 11px 18px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    transition: all 0.15s;
+  }
+
+  .filter-btn:hover { color: white; background: rgba(255,255,255,0.07); }
+
+  .filter-btn.active {
+    color: white;
+    border-bottom-color: #7EC8F5;
+    font-weight: 700;
+    background: rgba(255,255,255,0.1);
+  }
+
+  /* ── Search bar ── */
+  .search-bar {
+    background: white;
+    border-bottom: 1px solid var(--border);
+    padding: 10px 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #search {
+    border: 1px solid var(--border);
+    background: white;
+    color: var(--text-body);
+    padding: 7px 14px 7px 34px;
+    border-radius: 4px;
+    font-size: 0.83rem;
+    width: 320px;
+    outline: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='13' viewBox='0 0 24 24' fill='none' stroke='%236B7280' stroke-width='2.5'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='m21 21-4.35-4.35'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 11px center;
+  }
+
+  #search:focus { border-color: var(--blue-primary); box-shadow: 0 0 0 2px #d0e8ff; }
+
+  .search-hint { font-size: 0.75rem; color: var(--text-muted); }
+
+  /* ── Main layout ── */
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 36px 48px 80px;
+  }
+
+  /* ── Category section ── */
+  .cat-section { margin-bottom: 44px; }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--blue-primary);
+    margin-bottom: 0;
+  }
+
+  .section-name {
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--blue-primary);
+  }
+
+  .section-count {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    background: var(--blue-light);
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+
+  /* ── Article rows ── */
+  .article-row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 0 24px;
+    padding: 15px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: start;
+    background: white;
+    margin-top: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: background 0.1s;
+  }
+
+  .article-row:hover { background: #F7FBFF; }
+  .article-row:last-child { border-bottom: 1px solid var(--border); }
+
+  .article-meta { padding-top: 1px; }
+
+  .article-source {
+    font-size: 0.68rem;
+    font-weight: 700;
+    color: var(--blue-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+
+  .article-date {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+  }
+
+  .article-title {
+    font-size: 0.93rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    text-decoration: none;
+    line-height: 1.4;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .article-title:hover { color: var(--blue-primary); text-decoration: underline; }
+
+  .article-summary {
+    font-size: 0.81rem;
+    color: #4A5568;
+    line-height: 1.6;
+    margin-bottom: 7px;
+  }
+
+  .article-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+
+  .tag {
+    font-size: 0.65rem;
+    background: var(--blue-light);
+    color: var(--blue-primary);
+    padding: 2px 9px;
+    border-radius: 2px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  /* ── Empty / footer ── */
+  .empty {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 60px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    border-top: 2px solid var(--blue-primary);
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.73rem;
+    padding: 18px;
+    background: white;
+    letter-spacing: 0.03em;
+  }
+
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-thumb { background: #c1cdd8; border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <div>
+      <div class="brand-label">Daily Intelligence Briefing</div>
+      <div class="brand-title">Cloud &amp; Infrastructure Monitor</div>
+    </div>
+    <div class="header-stats">
+      <div class="stat-block">
+        <span class="stat-value">{{ total }}</span>
+        <span class="stat-label">Articles</span>
+      </div>
+      <div class="stat-block">
+        <span class="stat-value" style="font-size:1rem; padding-top:4px;">{{ updated }}</span>
+        <span class="stat-label">Last Updated</span>
+      </div>
+    </div>
+  </div>
+  <nav class="filter-nav">
+    <button class="filter-btn active" data-cat="all" onclick="filter(this,'all')">All Topics</button>
+    {% for cat in categories %}
+    <button class="filter-btn" data-cat="{{ cat }}" onclick="filter(this,'{{ cat }}')">{{ cat }}</button>
+    {% endfor %}
+  </nav>
+</header>
+
+<div class="search-bar">
+  <input id="search" type="text" placeholder="Search by company, topic, keyword..." oninput="doSearch(this.value)">
+  <span class="search-hint">Filter across all articles</span>
+</div>
+
+<main id="content">
+  {% for cat, items in grouped.items() %}
+  <section class="cat-section" data-cat="{{ cat }}">
+    <div class="section-header">
+      <span class="section-name">{{ cat }}</span>
+      <span class="section-count">{{ items|length }} articles</span>
+    </div>
+    {% for a in items %}
+    <div class="article-row" data-text="{{ (a.title ~ ' ' ~ a.summary)|lower }}">
+      <div class="article-meta">
+        <div class="article-source">{{ a.source }}</div>
+        {% if a.published %}<div class="article-date">{{ a.published[:10] }}</div>{% endif %}
+      </div>
+      <div>
+        <a class="article-title" href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title }}</a>
+        <div class="article-summary">{{ a.summary }}</div>
+        <div class="article-tags">
+          {% for c in a.categories %}<span class="tag">{{ c }}</span>{% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endfor %}
+  <div class="empty" id="noresults" style="display:none;">No matching articles found.</div>
+</main>
+
+<footer>
+  CLOUD &amp; INFRASTRUCTURE INTELLIGENCE &nbsp;·&nbsp; GENERATED LOCALLY &nbsp;·&nbsp; REFRESH BY RE-RUNNING RUN.PY
+</footer>
+
+<script>
+  function filter(btn, cat) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.cat-section').forEach(s => {
+      s.style.display = (cat === 'all' || s.dataset.cat === cat) ? '' : 'none';
+    });
+    applySearch();
+  }
+  let term = '';
+  function doSearch(v) { term = v.toLowerCase().trim(); applySearch(); }
+  function applySearch() {
+    let visible = 0;
+    document.querySelectorAll('.cat-section').forEach(s => {
+      if (s.style.display === 'none') return;
+      let shown = 0;
+      s.querySelectorAll('.article-row').forEach(c => {
+        const match = !term || c.dataset.text.includes(term);
+        c.style.display = match ? '' : 'none';
+        if (match) { shown++; visible++; }
+      });
+      s.style.display = shown ? '' : 'none';
+    });
+    document.getElementById('noresults').style.display = visible ? 'none' : '';
+  }
+</script>
+</body>
+</html>
