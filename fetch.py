@@ -8,8 +8,11 @@ import urllib.parse
 from datetime import datetime, timezone, timedelta
 
 import feedparser
+import requests
 import yaml
 from bs4 import BeautifulSoup
+
+FETCH_TIMEOUT = 15  # seconds per feed before giving up
 
 
 def _clean_html(raw: str) -> str:
@@ -60,11 +63,14 @@ def fetch_all(sources: dict, log=print) -> list[dict]:
     """Fetch every source and return a flat list of normalized articles."""
     articles: list[dict] = []
 
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; NewsBot/1.0)"}
+
     # 1. Direct publisher RSS feeds
     for feed in sources.get("rss_feeds", []):
         name, url = feed["name"], feed["url"]
         try:
-            parsed = feedparser.parse(url)
+            resp = requests.get(url, timeout=FETCH_TIMEOUT, headers=headers)
+            parsed = feedparser.parse(resp.content)
             count = len(parsed.entries)
             for entry in parsed.entries:
                 articles.append(_normalize(entry, name))
@@ -78,7 +84,8 @@ def fetch_all(sources: dict, log=print) -> list[dict]:
         name, query = q["name"], q["query"]
         url = _google_news_url(query, locale)
         try:
-            parsed = feedparser.parse(url)
+            resp = requests.get(url, timeout=FETCH_TIMEOUT, headers=headers)
+            parsed = feedparser.parse(resp.content)
             count = len(parsed.entries)
             for entry in parsed.entries:
                 articles.append(_normalize(entry, f"Google News: {name}"))
