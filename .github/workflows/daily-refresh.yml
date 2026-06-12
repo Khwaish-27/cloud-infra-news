@@ -2,7 +2,9 @@ name: Daily News Refresh
 
 on:
   schedule:
-    - cron: '30 2 * * *'   # runs 2:30am UTC = 8:00am IST every day
+    - cron: '30 2 * * *'   # 8:00am IST
+    - cron: '30 4 * * *'   # 10:00am IST (backup)
+    - cron: '30 6 * * *'   # 12:00pm IST (second backup)
   workflow_dispatch:        # allows you to trigger it manually from GitHub too
 
 permissions:
