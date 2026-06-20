@@ -964,32 +964,6 @@
     "summary": "Teams digging out of security debt need to answer only two simple questions: Which vulnerabilities in our systems are exposed, and how long should they stay that way?"
   },
   {
-    "title": "EU Gets a Head Start in Developing 6G Network Security",
-    "url": "https://www.darkreading.com/cybersecurity-operations/eu-6g-network-security",
-    "source": "Dark Reading",
-    "published": "2026-06-18T07:00:00+00:00",
-    "raw_text": "\"Shield-6G\" will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow.",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "network security"
-      ],
-      "Cybersecurity": [
-        "threat",
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "\"Shield-6G\" will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow."
-  },
-  {
     "title": "In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum",
     "url": "https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/",
     "source": "SecurityWeek",
@@ -1496,89 +1470,6 @@
     "summary": "In the high-stakes world of tech entrepreneurship, the leap from a brilliant prototype to a scalable, market-defining business can be brutal. Founders need much more than capital; they need deep architectural guidance, sovereign-level policy alignment, and technical systems engineered to enable rapid growth. Joy’s Law states: \"[N]o matter who you are, most of the smartest people work for someone else.\" We recognize that true innovation inherently happens “elsewhere.” This philosophy drives our active support of global accelerators across a diverse, geographic footprint of innovation markets to tap into this decentralized brilliance. For over a decade, our Google accelerator program has acted as a catalyst for this exact transition."
   },
   {
-    "title": "Agent Factory Recap: 100X engineering with AI agents in Google Antigravity 2.0",
-    "url": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-100x-engineering-with-ai-agents-in-google-antigravity-20/",
-    "source": "Google Cloud Blog",
-    "published": "2026-06-18T07:00:00+00:00",
-    "raw_text": "In this episode of the Agent Factory, I sat down with Rody Davis, one of Google’s top agentic engineers. We dive into the massive shift from traditional IDEs to agent-first platforms, the reality of code reviews in an AI-driven world, and how to use \"skills\" to perform at a 100X level. This post guides you through the key ideas from our conversation. Use it to quickly recap topics or dive deeper into specific segments with links and timestamps. Google Antigravity 2.0 - What is it? Antigravity 2.0 has evolved from a simple agentic IDE into a full-scale agent-first platform. It now consists of four core pillars: a standalone desktop Agent Manager for orchestration, a robust CLI for server-side work, an SDK for custom Python-based workflows, and a specialized IDE . This unbundled approach allows developers to compose their own environment, managing multiple folders and complex project structures without being forced into a single-workspace layout. Rody Davis on 100X Engineering We explored the strategies elite engineers use to scale their impact and reduce the \"cognitive toil\" of daily development. Scaling Impact and Reducing Toil Timestamp: 01:55 Rody explains that AI isn't just about writing code; it's about accelerating the entire lifecycle. He uses agents to write richer test suites and prototype multiple versions of an app before committing to a framework. By offloading \"toil\", like building marketing sites, he can focus on high-level architecture and problem-solving. Skills as \"Context Cheat Sheets\" Timestamp: 03:05 A core philosophy in Rody’s workflow is the use of \"Skills.\" He views skills as a way to compress context for the model. \"It’s literally a cheat sheet for the agent,\" Rody notes. By providing the agent with specific design systems or API documentation, the model becomes significantly faster and more accurate, avoiding the latency of searching through massive, unorganized docs. Customizations, Skills, and MCP Servers Timestamp: 04:17 Rody walks us through the customizations tab in Antigravity 2.0, showing how to extend an agent's capabilities: Android CLI: Building and deploying mobile apps directly from the command line. Modern Web Guidance: Grounding the agent in the latest CSS and accessibility standards. MCP Servers: Using the Model Context Protocol to enable features like hot reloading for Flutter and Dart. The Bonsai Approach to Code Review Timestamp: 05:27 Rody compares maintaining a codebase to being a Bonsai artist: constantly pruning to keep things simple. He advocates for flat architectures where state, UI, and data are strictly separated. This makes it easier for a human to \"steer\" the agent; if the agent starts putting files in the wrong place, the architectural violation is immediately obvious. Do you review 100% of agent-generated code? Timestamp: 07:11 Rody’s answer depends on the task. For a marketing site, he focuses on the visual output rather than the code. However, for backend logic, he cares deeply about API contracts and schemas. He recommends writing the first example yourself so the agent can simply \"copy the pattern\" for the rest of the codebase. Building Extensions to Solve Daily Friction Timestamp: 09:05 To solve the problem of managing files across multiple Git projects, Rody used Antigravity to build a custom macOS Finder extension in Swift. This tool allows him to filter files by time boxes (today, last week, etc.), demonstrating how agents can build specialized utilities that reduce daily friction. Do AI engineers still write code by hand? Timestamp: 10:22 \"Oh yeah,\" Rody says. He still loves the syntax of languages like Go and the challenge of controlling computers. He believes it's vital to understand the building blocks deeply so that when you face a problem two years down the road, you know exactly which \"old project\" to reach back for. Powering Personal Websites with Gemma 4 Timestamp: 11:42 Rody showcases his personal website, which uses Gemma 4 and Embedding Gemma to provide dynamic content recommendations offline. By vectorizing post summaries at compile time, the site can suggest related content via a local vector database without needing a live backend server. The Factory Floor The Factory Floor is our segment for getting hands-on. Here, we moved from high-level concepts to practical code with live demos. Multi-Agent Parallelism in Action Timestamp: 14:02 I n this demo, Rody uses a single stream-of-thought voice prompt to build a full-stack application. We watched as Antigravity: Spun up parallel sub-agents, including a dedicated DevOps and QA engineer. (see 19:48 ) Built a multilingual note-taking app using Vite, Go, and SQLite. Orchestrated the entire stack via Docker Compose. Localized the app into five different languages simultaneously. Unbundling the IDE Ecosystem Timestamp: 15:35 We discussed why Google separated the IDE from the Agent Manager. Rody highlights that this unlocks different workflows: the CLI is perfect for SSH sessions on a Raspberry Pi, while the Agent Manager handles general knowledge work and orchestration across multiple folders. Turning Documentation into Reusable Skills Timestamp: 25:41 Rody shares his process for turning documentation into skills. He wrote a Go CLI that parses websites into markdown, allowing him to install hundreds of skills for the sites he visits frequently. This ensures the agent always has access to the specific version of the docs he is using. Rapid Fire: Future Tech Predictions Timestamp: 27:35 We put Rody on the spot with some controversial takes: Vibe Coding: Rody believes a non-technical founder will launch a company using only vibe coding by 2026, but the real test will be maintaining it in years 2 through 5. Production Failures: Rody agrees that vibe coding will cause significant production failures, leading to a new hot job for software engineers: consulting to solve those failures. Codebase Health: Rody argues that poor codebase health, not context windows, is the biggest bottleneck in AI speed. Grounding Yourself in a Changing Landscape Timestamp: 31:10 Rody advises engineers to focus on why they were hired: to solve problems and engineer things that didn't exist before. He suggests using AI to provide better communication handoffs between colleagues, making artifacts so easy to approve that they are \"ready to sign off\" the moment they are handed over. Conclusion The era of agentic engineering is here, but as Rody Davis demonstrated, it requires more architectural discipline, not less. By treating your codebase like a Bonsai tree and your agents like an orchestra, you can move past the \"toil\" and focus on building the frameworks of the future. Your turn to build Are you ready to build anything? We’ve officially launched the #NapkinChallenge . Take a handwritten sketch of an app idea, use Antigravity 2.0 to build it, and share your creation on social media. Try Antigravity 2.0: antigravity.google Join the Challenge: Napkin Challenge Details Rody’s personal website , github repo and skills Connect with us Rody Davis → X , LinkedIn Shir Meir Lador → X , LinkedIn",
-    "categories": [
-      "Networks",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "devops"
-      ],
-      "Networks": [
-        "latency",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey",
-        "consulting"
-      ]
-    },
-    "summary": "In this episode of the Agent Factory, I sat down with Rody Davis, one of Google’s top agentic engineers. We dive into the massive shift from traditional IDEs to agent-first platforms, the reality of code reviews in an AI-driven world, and how to use \"skills\" to perform at a 100X level. This post guides you through the key ideas from our conversation. Use it to quickly recap topics or dive deeper into specific segments with links and timestamps."
-  },
-  {
-    "title": "Choice, compliance, and collaboration: Europe’s path to open digital sovereignty",
-    "url": "https://cloud.google.com/blog/products/identity-security/choice-compliance-and-collaboration-europes-path-to-open-digital-sovereignty/",
-    "source": "Google Cloud Blog",
-    "published": "2026-06-18T07:00:00+00:00",
-    "raw_text": "The European Commission’s Tech Sovereignty Package comes at a defining moment for the continent's digital future. European competitiveness and security are top of the agenda for European business, institutions, and citizens, and a significant investment in European digital capacity is needed to deliver those goals. In that context, it is understandable that Europe is considering how to boost the European Union digital footprint from chips, to cloud adoption, to AI data infrastructure. The European Commission’s strategy is to be grounded in \"openness, partnership, and fair competition.\" Indeed, the package contains bold measures consistent with these principles on interoperability to address vendor lock-in and an open source strategy for the public sector, as well as on more rapid data center deployment. We will work cooperatively with the EU institutions providing our best knowledge about how to achieve these stated objectives in practical terms. To that end, we believe certain elements of the Cloud and AI Development Act (CADA) should be changed to avoid unintended market isolation, ensuring that trusted global partners can continue to support Europe’s security and scaling goals under a framework of true openness. Our approach to sovereignty, developed over many years, is grounded in delivering tangible, technical, and verifiable control and open choice, while investing in the growth and security of Europe’s digital infrastructure — consistent with what we understand to be the goals of this strategy. We have engineered a comprehensive menu of Sovereign Cloud solutions, designed to meet Europe's tiered compliance requirements at every level. From standard public cloud configurations with strict European data boundaries to independently operated regional cloud services to fully air-gapped solutions for the most sensitive public-sector operations, we ensure that compliance never requires sacrificing technological excellence. Through our deep “Made with Europe” collaborations with regional champions — including S3NS in France; Thales, the Schwarz Group, and T-Systems in Germany; PSN in Italy; Clarence in Luxembourg; and Telefónica in Spain — we are actively delivering the operational resilience and jurisdictional controls designed to meet the highest regulatory standards of existing sovereignty frameworks at national level. Across our partner-led sovereign solutions, the S3NS offering in France has been qualified to meet SecNumCloud 3.2, Europe’s highest sovereignty regulatory bar . Our partners Clarence and S3NS, together with Mistral, offer services that have been approved by the EU Directorate-General for Digital Services (DIGIT) for use by EU Institutions who have sovereign cloud needs. We believe this is what constitutes a true trusted partnership and encourage the Commission to follow this existing path, which is already meeting sovereign expectations across Europe today. 1. Refining sovereign certification A primary concern within the CADA proposal is the design of the Union Assurance Levels (UALs). While harmonizing sovereignty criteria across member states is a constructive step, criteria at each of the four UALs would limit or exclude global providers, regardless of the security mitigations they offer. Regulations should create space for innovative and effective technology approaches to sovereign control, instead of rigid geographic criteria that sacrifice the potential to have control without undue disruption to global supply chains. We understand and support the data sovereignty and extra-territorial risk-mitigation priorities of European policymakers. Through capabilities like Cloud External Key Manager (EKM), one of the tools within our suite of sovereign solutions, Google Cloud allows customers to maintain their encryption keys outside of Google's infrastructure. This control creates a technical barrier to unauthorized access to unencrypted data by third parties without the explicit consent and awareness of the customer. The EU has already designed an alternative, more balanced model in the proposed Industrial Accelerator Act . This framework has the potential to successfully maintain collaboration with trusted non-EU partners under a default presumption that trusted partners can operate as EU origin, underpinned by robust global trade rules and strong back-stop powers. We urge co-legislators to apply a similar philosophy to CADA. 2. Promoting interoperability, combating vendor lock-in, and reforming procurement Sovereignty must empower end-users with more choice, not less. A healthy European digital ecosystem requires open foundations that prevent vendor lock-in, restrict choice, and drive up costs. We strongly support CADA's goal to foster an open, interoperable cloud ecosystem. To make this meaningful, we believe that the policy must align with a commitment to openness across every level of the digital stack — infrastructure, models, and applications. Our own approach is built on this foundation: We offer open, portable infrastructure with no data transfer exit fees , we champion open AI models like Gemma, and we support open-standards applications. Our stack-wide open approach is designed to help European enterprises build, migrate, and scale without friction. Yet organizations can’t maximize the benefits of an open approach because restrictive licensing practices lock customers into a single ecosystem. To restore true choice, we advocate for three straightforward reforms: allowing users to move their software licenses freely, ensuring fair pricing for legacy software, and guaranteeing that software runs equally well on any cloud platform. 3. Building sustainable, open infrastructure for Europe's AI future Physical compute infrastructure is the bedrock of digital sovereignty. While we support the ambitions of the Chips Act 2.0 to invest €30 billion in European semiconductor research and development, we believe that this investment is just as important as establishing regulatory rules that attract large scale investments in compute infrastructure. To help achieve that goal, we recommend the measures outlined below. As a long-standing investor in European data infrastructure, operating 13 European cloud regions and deepening that commitment with recent investments in Germany, Belgium and Sweden, we hope to see a policy that leverages the pace and scale of committed global investors like us. We welcome the introduction of \"special project\" status to streamline permitting, grid access, and power purchase agreements (PPAs) in designated zones. To ensure these measures succeed, we support: Prioritizing fast-track permitting benefits for highly sustainable infrastructure projects. Aligning national sustainability criteria with the upcoming EU-wide rating scheme, ensuring it does not penalize energy-efficient technologies like water cooling. Ensuring that these acceleration zones do not artificially constrain the geographic location of new sites, and extending supportive grid connection measures to viable data centers operating outside of designated zones. The path forward: Made with Europe As ministers prepare to gather for the upcoming Council Summit, Europe has a historic opportunity to build a resilient, competitive, and truly open digital future. By championing open-source software — from our contributions to Kubernetes, Chromium, Android, TensorFlow, and open AI models like Gemma — and by co-engineering solutions with Europe's industrial leaders, we are proving that global innovation and European values can be furthered together. We look forward to collaborating with Member States, European policymakers and our regional partners to ensure that the final Tech Sovereignty Package fosters local economic growth, safeguards national security, and keeps Europe at the cutting edge of global AI innovation.",
-    "categories": [
-      "Cloud Infrastructure",
-      "GRC",
-      "Data Centres",
-      "Industry & Market",
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud",
-        "kubernetes",
-        "cloud platform",
-        "cloud services"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "encryption",
-        "security",
-        "edr"
-      ],
-      "GRC": [
-        "compliance",
-        "regulation",
-        "regulatory",
-        "policy",
-        "nist"
-      ],
-      "Data Centres": [
-        "data center",
-        "cooling",
-        "rack",
-        "capacity",
-        "sustainable infrastructure"
-      ],
-      "Industry & Market": [
-        "partnership",
-        "investment",
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "The European Commission’s Tech Sovereignty Package comes at a defining moment for the continent's digital future. European competitiveness and security are top of the agenda for European business, institutions, and citizens, and a significant investment in European digital capacity is needed to deliver those goals. In that context, it is understandable that Europe is considering how to boost the European Union digital footprint from chips, to cloud adoption, to AI data infrastructure. The European Commission’s strategy is to be grounded in \"openness, partnership, and fair competition.\" Indeed, the package contains bold measures consistent with these principles on interoperability to address vendor lock-in and an open source strategy for the public sector, as well as on more rapid data center deployment."
-  },
-  {
     "title": "Temporary Cloudflare Accounts for AI agents",
     "url": "https://blog.cloudflare.com/temporary-accounts/",
     "source": "Cloudflare Blog",
@@ -2079,6 +1970,22 @@
     "summary": "Every major technology shift changes cybersecurity. I’ve spent much of my career working through major technology transitions, from the rise of the commercial internet to mobile and cloud computing. Each shift created new opportunities for innovation, but it also created new security problems organizations weren’t fully prepared for. AI may resemble previous technology shifts in some ways, but it differs in one important respect: it challenges one of the foundational assumptions modern security programs were built around: predictability."
   },
   {
+    "title": "Sponsored: BESS Is becoming the bridge between AI data centers and the grid",
+    "url": "https://www.datacenterdynamics.com/en/opinions/bess-is-becoming-the-bridge-between-ai-data-centers-and-the-grid/",
+    "source": "DataCenterDynamics",
+    "published": "2026-06-20T07:00:00+00:00",
+    "raw_text": "Battery energy storage is becoming essential for AI data centers, helping bridge grid constraints, support resilience, and accelerate speed-to-power",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Battery energy storage is becoming essential for AI data centers, helping bridge grid constraints, support resilience, and accelerate speed-to-power"
+  },
+  {
     "title": "Nuclear physics research lab Jefferson Lab breaks ground on 30,000 sq ft data center",
     "url": "https://www.datacenterdynamics.com/en/news/nuclear-physics-research-lab-jefferson-lab-breaks-ground-on-30000-sq-ft-data-center/",
     "source": "DataCenterDynamics",
@@ -2430,20 +2337,509 @@
     "summary": "Thefts took place across two different tower sites 24 hours apart"
   },
   {
-    "title": "FERC orders US grid operators to justify or reform how data centers connect to the grid",
-    "url": "https://www.datacenterdynamics.com/en/news/ferc-orders-us-grid-operators-to-justify-or-reform-how-data-centers-connect-to-the-grid/",
-    "source": "DataCenterDynamics",
-    "published": "2026-06-19T09:17:33+00:00",
-    "raw_text": "Applies to all of the country's RTOs",
+    "title": "Britain sending Ukraine an extra 30,000 drones – now 150,000 all up",
+    "url": "https://www.theregister.com/offbeat/2026/06/20/britain-sending-ukraine-an-extra-30000-drones-now-150000-all-up/5258833",
+    "source": "The Register",
+    "published": "2026-06-20T07:30:00+00:00",
+    "raw_text": "Missiles and radars also included in £752M aid package",
     "categories": [
-      "Data Centres"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Missiles and radars also included in £752M aid package"
+  },
+  {
+    "title": "Researchers drop checkm8-style BootROM exploit for A12 and A13 iPhones",
+    "url": "https://www.theregister.com/security/2026/06/19/researchers-drop-checkm8-style-bootrom-exploit-for-a12-and-a13-iphones/5259028",
+    "source": "The Register",
+    "published": "2026-06-19T16:02:00+00:00",
+    "raw_text": "Owners of affected iPhones can stop checking for patches now: the fix for this SecureROM bug comes in a new handset",
+    "categories": [
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "data center"
+      "Cybersecurity": [
+        "exploit"
       ]
     },
-    "summary": "Applies to all of the country's RTOs"
+    "summary": "Owners of affected iPhones can stop checking for patches now: the fix for this SecureROM bug comes in a new handset"
+  },
+  {
+    "title": "Tensordyne makes a big bet on log math to beat Nvidia",
+    "url": "https://www.theregister.com/systems/2026/06/19/tensordyne-makes-a-big-bet-on-log-math-to-beat-nvidia/5258662",
+    "source": "The Register",
+    "published": "2026-06-19T15:30:00+00:00",
+    "raw_text": "Who needs compute-hungry multiplications when you can just add logarithms",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Who needs compute-hungry multiplications when you can just add logarithms"
+  },
+  {
+    "title": "Bcachefs exits experimental status in new 'performance release'",
+    "url": "https://www.theregister.com/software/2026/06/19/bcachefs-exits-experimental-status-in-new-performance-release/5258801",
+    "source": "The Register",
+    "published": "2026-06-19T14:47:00+00:00",
+    "raw_text": "More Rust, but more trouble with AI slop, too",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "More Rust, but more trouble with AI slop, too"
+  },
+  {
+    "title": "Waymo hits the brakes after robotaxis keep missing the signs for freeway construction zones",
+    "url": "https://www.theregister.com/offbeat/2026/06/19/waymo-hits-the-brakes-after-robotaxis-keep-missing-the-signs-for-freeway-construction-zones/5258951",
+    "source": "The Register",
+    "published": "2026-06-19T14:03:00+00:00",
+    "raw_text": "Nearly 4,000 vehicles recalled for driving past closure warnings and between cones marking shut lanes",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Nearly 4,000 vehicles recalled for driving past closure warnings and between cones marking shut lanes"
+  },
+  {
+    "title": "Telegram founder accuses Meta of sabotaging access in India with BGP hijacks",
+    "url": "https://www.theregister.com/networks/2026/06/19/telegram-founder-accuses-meta-of-sabotaging-access-in-india-with-bgp-hijacks/5258866",
+    "source": "The Register",
+    "published": "2026-06-19T13:31:00+00:00",
+    "raw_text": "Allegations of fake routes are fake news, says Indian telco Jio",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "telco"
+      ]
+    },
+    "summary": "Allegations of fake routes are fake news, says Indian telco Jio"
+  },
+  {
+    "title": "Everything's bigger and better in Texas – even data breaches",
+    "url": "https://www.theregister.com/security/2026/06/19/texas-gov-vendor-breach-exposes-data-of-3m-hunters-anglers/5258815",
+    "source": "The Register",
+    "published": "2026-06-19T13:01:00+00:00",
+    "raw_text": "Hunting and fishing license incident catches 3M residents",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach"
+      ]
+    },
+    "summary": "Hunting and fishing license incident catches 3M residents"
+  },
+  {
+    "title": "Vercel debuts eve open source agent framework, tries to fix shadow AI with Passport",
+    "url": "https://www.theregister.com/devops/2026/06/19/vercel-debuts-eve-open-source-agent-framework-tries-to-fix-shadow-ai-with-passport/5258726",
+    "source": "The Register",
+    "published": "2026-06-19T12:35:00+00:00",
+    "raw_text": "Cost premium of using AWS indirectly via Vercel is mitigated by more efficient use of compute resources, CTO claims",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "Cost premium of using AWS indirectly via Vercel is mitigated by more efficient use of compute resources, CTO claims"
+  },
+  {
+    "title": "Microsoft's latest Windows bug belongs in the Recycle Bin",
+    "url": "https://www.theregister.com/personal-tech/2026/06/19/microsofts-latest-windows-bug-belongs-in-the-recycle-bin/5258779",
+    "source": "The Register",
+    "published": "2026-06-19T12:06:04+00:00",
+    "raw_text": "File deletion dialog swaps recognizable names for internal gibberish",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "File deletion dialog swaps recognizable names for internal gibberish"
+  },
+  {
+    "title": "Britain's privacy watchdog quits after 'poor judgment' admission",
+    "url": "https://www.theregister.com/security/2026/06/19/britains-privacy-watchdog-quits-after-poor-judgment-admission/5258926",
+    "source": "The Register",
+    "published": "2026-06-19T11:14:34+00:00",
+    "raw_text": "John Edwards says his position had become 'untenable' following investigation into conduct including inappropriate attempts at humor",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "privacy"
+      ]
+    },
+    "summary": "John Edwards says his position had become 'untenable' following investigation into conduct including inappropriate attempts at humor"
+  },
+  {
+    "title": "Rights groups brand Home Office's AI age guesser for asylum-seekers as biased and inaccurate",
+    "url": "https://www.theregister.com/security/2026/06/19/rights-groups-brand-home-offices-ai-age-guesser-for-asylum-seekers-as-biased-and-inaccurate/5258892",
+    "source": "The Register",
+    "published": "2026-06-19T11:02:46+00:00",
+    "raw_text": "Campaigners say tech is unable to reliably distinguish between kids and adults at the boundary where use is planned",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Campaigners say tech is unable to reliably distinguish between kids and adults at the boundary where use is planned"
+  },
+  {
+    "title": "Geopolitical jitters push Europe's internet registry away from cloud-first strategy",
+    "url": "https://www.theregister.com/networks/2026/06/19/geopolitical-jitters-push-europes-internet-registry-away-from-cloud-first-strategy/5258704",
+    "source": "The Register",
+    "published": "2026-06-19T10:24:41+00:00",
+    "raw_text": "Members aren't RIPE for a new charging scheme, though",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ]
+    },
+    "summary": "Members aren't RIPE for a new charging scheme, though"
+  },
+  {
+    "title": "Devs in the trenches are stressed from the mandate to automate everything, but Render thinks it can help",
+    "url": "https://www.theregister.com/ai-and-ml/2026/06/19/devs-in-the-trenches-are-stressed-from-the-mandate-to-automate-everything-but-render-thinks-it-can-help/5258595",
+    "source": "The Register",
+    "published": "2026-06-19T10:15:00+00:00",
+    "raw_text": "San Francisco plays host to hosting company's Localhost conference",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "San Francisco plays host to hosting company's Localhost conference"
+  },
+  {
+    "title": "Rockstar Games faces full hearing over alleged union busting",
+    "url": "https://www.theregister.com/offbeat/2026/06/19/rockstar-games-faces-full-hearing-over-alleged-union-busting/5258514",
+    "source": "The Register",
+    "published": "2026-06-19T09:04:33+00:00",
+    "raw_text": "Tribunal rejects bid to strike blacklisting claims, with proceedings due to conclude shortly before GTA VI launches",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Tribunal rejects bid to strike blacklisting claims, with proceedings due to conclude shortly before GTA VI launches"
+  },
+  {
+    "title": "Nutanix's Tech Day London 2026 offers infrastructure insights",
+    "url": "https://www.theregister.com/systems/2026/06/19/nutanixs-tech-day-london-2026-offers-infrastructure-insights/5258635",
+    "source": "The Register",
+    "published": "2026-06-19T08:00:00+00:00",
+    "raw_text": "SPONSORED POST: Come join this working afternoon for infrastructure teams",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SPONSORED POST: Come join this working afternoon for infrastructure teams"
+  },
+  {
+    "title": "Use of HMRC's taxing IR35 status tool drops 71% in two years",
+    "url": "https://www.theregister.com/public-sector/2026/06/19/use-of-hmrcs-taxing-ir35-status-tool-drops-71-in-two-years/5258452",
+    "source": "The Register",
+    "published": "2026-06-19T08:00:00+00:00",
+    "raw_text": "Data suggests firms are turning away from CEST as critics say it fails to reflect recent court rulings",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Data suggests firms are turning away from CEST as critics say it fails to reflect recent court rulings"
+  },
+  {
+    "title": "Users claimed they’d never seen a spell checker and panicked at the sight of red squiggles",
+    "url": "https://www.theregister.com/personal-tech/2026/06/19/users-claimed-theyd-never-seen-a-spell-checker-and-panicked-at-the-sight-of-red-squiggles/5257476",
+    "source": "The Register",
+    "published": "2026-06-19T06:28:00+00:00",
+    "raw_text": "Techie couldn’t help but be a little blunt when the support call came in – but has no regrets!",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Techie couldn’t help but be a little blunt when the support call came in – but has no regrets!"
+  },
+  {
+    "title": "2,000 retired Google Pixel phones get a second life as a private cloud",
+    "url": "https://www.theregister.com/on-prem/2026/06/18/2000-retired-google-pixel-phones-get-a-second-life-as-a-private-cloud/5258035",
+    "source": "The Register",
+    "published": "2026-06-18T21:39:28+00:00",
+    "raw_text": "You might say the system packs two kilapixels of compute",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ]
+    },
+    "summary": "You might say the system packs two kilapixels of compute"
+  },
+  {
+    "title": "Midjourney pivots from AI image generation to body scanning medical spa where patients bathe in 'golden light'",
+    "url": "https://www.theregister.com/ai-and-ml/2026/06/18/midjourney-pivots-from-ai-image-generation-to-body-scanning-medical-spa-where-patients-bathe-in-golden-light/5258429",
+    "source": "The Register",
+    "published": "2026-06-18T18:18:25+00:00",
+    "raw_text": "The underlying technology is real...and borrowed from a partner the company failed to mention",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "The underlying technology is real...and borrowed from a partner the company failed to mention"
+  },
+  {
+    "title": "Committed skeptic finds himself warming to new Amazon AI products that actually don't suck",
+    "url": "https://www.theregister.com/ai-and-ml/2026/06/18/committed-skeptic-finds-himself-warming-to-new-amazon-ai-products-that-actually-dont-suck/5258414",
+    "source": "The Register",
+    "published": "2026-06-18T17:30:00+00:00",
+    "raw_text": "Ed's note to Corey: Blink once if you're safe, twice if you're in danger",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Ed's note to Corey: Blink once if you're safe, twice if you're in danger"
+  },
+  {
+    "title": "Citrix now lets you run virtual desktops like a cost-conscious private equityeer",
+    "url": "https://www.theregister.com/virtualization/2026/06/18/citrixs-daas-flex-aims-to-delay-pricey-pc-upgrades/5258476",
+    "source": "The Register",
+    "published": "2026-06-18T16:59:51+00:00",
+    "raw_text": "Soaring PC prices make alternatives to hardware refreshes interesting",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Soaring PC prices make alternatives to hardware refreshes interesting"
+  },
+  {
+    "title": "Canonical reveals Myna, its local speech-to-text app",
+    "url": "https://www.theregister.com/os-platforms/2026/06/18/canonical-unveils-myna-speech-to-text-app-for-ubuntu-2610/5258376",
+    "source": "The Register",
+    "published": "2026-06-18T16:04:09+00:00",
+    "raw_text": "Bird-branded AI will ride on Stonking Stingray",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Bird-branded AI will ride on Stonking Stingray"
+  },
+  {
+    "title": "NASA payload to ride commercial Mars orbiter from rocket biz yet to reach orbit",
+    "url": "https://www.theregister.com/science/2026/06/18/nasa-payload-to-ride-commercial-mars-orbiter-from-rocket-biz-yet-to-reach-orbit/5258341",
+    "source": "The Register",
+    "published": "2026-06-18T15:25:15+00:00",
+    "raw_text": "Aeolus mission promises better Martian weather models, assuming Relativity Space can get its Terran R off the ground",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Aeolus mission promises better Martian weather models, assuming Relativity Space can get its Terran R off the ground"
+  },
+  {
+    "title": "ZTE and China Telecom Guangdong advance cross‑vendor IP network simulation pilots, paving the way for intelligent network operations",
+    "url": "https://www.theregister.com/networks/2026/06/18/zte-and-china-telecom-guangdong-advance-crossvendor-ip-network-simulation-pilots-paving-the-way-for-intelligent-network-operations/5258361",
+    "source": "The Register",
+    "published": "2026-06-18T15:21:55+00:00",
+    "raw_text": "PARTNER CONTENT: Leveraging >95% digital twin fidelity and multi-vendor collaboration to eliminate network change risks and achieve zero-error OM",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "telecom"
+      ],
+      "Industry & Market": [
+        "vendor"
+      ]
+    },
+    "summary": "PARTNER CONTENT: Leveraging >95% digital twin fidelity and multi-vendor collaboration to eliminate network change risks and achieve zero-error OM"
+  },
+  {
+    "title": "The AI tipping point: where enterprise AI runs at scale",
+    "url": "https://www.theregister.com/ai-and-ml/2026/06/18/the-ai-tipping-point-where-enterprise-ai-runs-at-scale/5258147",
+    "source": "The Register",
+    "published": "2026-06-18T15:00:00+00:00",
+    "raw_text": "PARTNER CONTENT: AI's cloud journey homeward bound: enterprises prefer private clouds for scaling AI workloads.",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "PARTNER CONTENT: AI's cloud journey homeward bound: enterprises prefer private clouds for scaling AI workloads."
+  },
+  {
+    "title": "Google told researcher 'Nice catch!' Then denied bug bounty for flaw it still hasn't fixed",
+    "url": "https://www.theregister.com/security/2026/06/18/google-told-researcher-nice-catch-then-denied-bug-bounty-for-flaw-it-still-hasnt-fixed/5258076",
+    "source": "The Register",
+    "published": "2026-06-18T15:00:00+00:00",
+    "raw_text": "EXCLUSIVE 'Working as intended' for the win … again",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EXCLUSIVE 'Working as intended' for the win … again"
+  },
+  {
+    "title": "Neuromorphic computing may one day offer AI a power-saving brainwave",
+    "url": "https://www.theregister.com/science/2026/06/18/neuromorphic-computing-may-one-day-offer-ai-a-power-saving-brainwave/5258316",
+    "source": "The Register",
+    "published": "2026-06-18T14:01:33+00:00",
+    "raw_text": "Hybrid systems could bring efficiency gains at the edge, but conventional infrastructure isn't going anywhere fast",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Hybrid systems could bring efficiency gains at the edge, but conventional infrastructure isn't going anywhere fast"
+  },
+  {
+    "title": "KDE Plasma 6.7 brings the X11 era to a close",
+    "url": "https://www.theregister.com/os-platforms/2026/06/18/kde-plasma-67-brings-the-x11-era-to-a-close/5258247",
+    "source": "The Register",
+    "published": "2026-06-18T12:57:26+00:00",
+    "raw_text": "Plenty of new shiny in the service of improved usability",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Plenty of new shiny in the service of improved usability"
+  },
+  {
+    "title": "AI nose uses 'Smell Language Model' to sniff out signs of disease",
+    "url": "https://www.theregister.com/ai-and-ml/2026/06/18/ai-nose-uses-smell-language-model-to-sniff-out-signs-of-disease/5258190",
+    "source": "The Register",
+    "published": "2026-06-18T12:45:00+00:00",
+    "raw_text": "Sampling patients' breath may save lives and emergency room resources",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Sampling patients' breath may save lives and emergency room resources"
+  },
+  {
+    "title": "Microsoft once used its own brand of 'Lego' to optimize Windows",
+    "url": "https://www.theregister.com/offbeat/2026/06/18/microsoft-once-used-its-own-brand-of-lego-to-optimize-windows/5258261",
+    "source": "The Register",
+    "published": "2026-06-18T12:00:00+00:00",
+    "raw_text": "Making software feel snappier when you only have 12 MB RAM",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Making software feel snappier when you only have 12 MB RAM"
+  },
+  {
+    "title": "India blocks Telegram ahead of scandal-hit medical school entrance exam",
+    "url": "https://www.theregister.com/public-sector/2026/06/18/india-blocks-telegram-ahead-of-scandal-hit-medical-school-entrance-exam/5258218",
+    "source": "The Register",
+    "published": "2026-06-18T11:24:36+00:00",
+    "raw_text": "2.3 million people sit test chasing 100,000 places, and country already canceled it once this year",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "2.3 million people sit test chasing 100,000 places, and country already canceled it once this year"
+  },
+  {
+    "title": "FreeBSD 15.1 lands, but desktop dabblers still have to draw their own GUI",
+    "url": "https://www.theregister.com/os-platforms/2026/06/18/freebsd-151-lands-but-desktop-dabblers-still-have-to-draw-their-own-gui/5257681",
+    "source": "The Register",
+    "published": "2026-06-18T10:45:00+00:00",
+    "raw_text": "Better laptop sleep and Wi-Fi support make the beastie more portable-friendly, but getting beyond the shell remains a DIY job",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Better laptop sleep and Wi-Fi support make the beastie more portable-friendly, but getting beyond the shell remains a DIY job"
+  },
+  {
+    "title": "Transport for London keeps Capita behind wheel of road charging ops in £912M extension",
+    "url": "https://www.theregister.com/public-sector/2026/06/18/transport-for-london-keeps-capita-behind-wheel-of-road-charging-ops-in-912m-extension/5257770",
+    "source": "The Register",
+    "published": "2026-06-18T10:00:00+00:00",
+    "raw_text": "Replacement deal now expected in mid-2029 as body says safe transition will take at least five years",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Replacement deal now expected in mid-2029 as body says safe transition will take at least five years"
+  },
+  {
+    "title": "Oracle support timelines for Fusion Middleware tighter than expected",
+    "url": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
+    "source": "The Register",
+    "published": "2026-06-18T09:15:00+00:00",
+    "raw_text": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users"
+  },
+  {
+    "title": "UK Cabinet Office hiring AI and innovation 'influencer' to build 'AI-first culture' in civil service",
+    "url": "https://www.theregister.com/public-sector/2026/06/18/uk-cabinet-office-hiring-ai-and-innovation-influencer-to-build-ai-first-culture-in-civil-service/5257817",
+    "source": "The Register",
+    "published": "2026-06-18T08:30:00+00:00",
+    "raw_text": "Every buzzword deployed in quest to transform into 'country that is equipped for an AI world'",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Every buzzword deployed in quest to transform into 'country that is equipped for an AI world'"
   },
   {
     "title": "Civil society: Police facial recognition must be strictly limited",
@@ -2924,53 +3320,6 @@
     "summary": "<p>While two-thirds (64%) of UK finance firms are planning to increase overall expenditure, 91% said they will spend more on tech, with emerging tech now topping growth priorities.</p> <p>Emerging tech investment is the top growth priority for UK finance firms for the first time in the 10 year’s Lloyds Bank has carried out its <i><a href=\"https://www.lloydsbank.com/business/resource-centre/insight/financial-institutions-sentiment-survey.html\">Financial institutions sentiment survey</a></i>.</p> <p>The survey of more than 100 senior decision-makers at UK banks, insurers, private equity firms, and asset and wealth managers, found that over three-quarters (77%) see emerging-tech investment as a growth priority, compared to just 41% last year. Within this, 93% ranked artificial Intelligence (AI) as the most impactful tech of the next five years.</p> <p><a target=\"_blank\" href=\"https://www.linkedin.com/in/rodhawan/\" rel=\"noopener\">Rohit Dhawan</a>, group executive director of AI at the bank, said AI has “crossed a threshold”, adding: “The question is no longer whether it works, but how quickly we can embed it at scale. At Lloyds, that means investing in technology, talent and governance in parallel, because deploying AI responsibly is what turns capability into sustained value for customers and the UK economy.”</p> <p>There is also confidence in the sector, according to the survey, with 94% of respondents expecting their business to grow over the next decade, compared to 81% in last year’s survey. Nearly three-quarters (71%) of respondents backed the UK to retain its strong position in global financial services, up from 60% last year.</p> <p>“This renewed confidence is being underpinned by a dramatic shift in focus towards new and emerging technologies, as institutions move from testing to deployment."
   },
   {
-    "title": "What are the cyber threats to the 2026 Fifa World Cup?",
-    "url": "https://www.computerweekly.com/feature/What-are-the-cyber-threats-to-the-2026-Fifa-World-Cup",
-    "source": "ComputerWeekly",
-    "published": "2026-06-18T07:52:00+00:00",
-    "raw_text": "<p>In the run up to the troubled <a href=\"https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener\">Fifa World Cup 2026</a> in Canada, Mexico and the US, national headlines have been dominated not by cyber security, but by border security, with tighter entry and Visa restrictions in the US leaving teams, players and officials in a bind, with some <a href=\"https://www.aljazeera.com/sports/2026/6/11/which-world-cup-teams-players-and-officials-were-denied-us-visas-entry\" target=\"_blank\" rel=\"noopener\">banned from entering the country</a> altogether.</p> <p>Fortunately, at the time of writing – mere hours before <a href=\"https://www.bbc.com/sport/football/live/cp36z3qpzrxt\" target=\"_blank\" rel=\"noopener\">England’s Wednesday 17 June opener against Croatia</a> – no major cyber breaches have come to light.</p> <p>But behind the scenes, the security community has been warning for weeks that the 2026 tournament faces a level of cyber threat <a href=\"https://www.computerweekly.com/news/366644594/2026-World-Cup-billed-as-largest-entertainment-attack-surface-in-history\" target=\"_blank\" rel=\"noopener\">unprecedented in the tournament’s history</a> – although, granted, the threat was low to non-existent up to the early 2000s.</p> <p>Kevin Curran is a senior member of the <a href=\"https://www.ieee.org/\" target=\"_blank\" rel=\"noopener\">Institute for Electrical and Electronics Engineers</a> (IEEE) and professor of cyber security at <a href=\"https://www.ulster.ac.uk/\" target=\"_blank\" rel=\"noopener\">Ulster University</a> in Northern Ireland. He says that besides being the largest World Cup in history, the digitisation of everything from ticketing systems to official apps, streaming services, accreditation databases, stadium networks, sponsor platforms, and much more, has dramatically widened the tournament’s attack surface.</p> <p>He describes each of these systems as a door that someone must keep locked for the duration of the event. “Attackers only need to find one that is ajar – defenders must secure all of them,” he says.</p> <p>Sadly, these attackers are getting through all too often. Research published earlier in June by UK cyber firm <a href=\"https://www.darktrace.com/?r=0\" target=\"_blank\" rel=\"noopener\">Darktrace</a> revealed that over 80% of the professional sports organisations <a href=\"https://www.mclaren.com/racing/partners/darktrace/\" target=\"_blank\" rel=\"noopener\">it works with</a> were affected by cyber security incidents in the past 12 months, with 57% experiencing multiple attacks. The average cyber incident in sports now costs $169,000 (£126,000) but Darktrace says the real financial impact is compounded, with the most frequently victimised organisations facing cumulative annual remediation and recovery costs of almost $2m.</p> <p>But the impact is not just financial, with exposed data leading to deep and immediate public and reputational impacts. Sports teams and other bodies inevitably hold private data on multiple famous and high net worth individuals, so contents of the databases held by Premier League teams are inevitably a temptation to attackers.</p> <p>Darktrace’s report, titled <i>Cyber security in global sport: threats, signals, and strategic implications for a digitised industry</i>, also reveals that Darktrace’s sports sector customers are on the receiving end of a fifth more phishing emails than other industries. Its proprietary <a href=\"https://www.darktrace.com/products/email\" target=\"_blank\" rel=\"noopener\">/EMAIL</a> service stopped more than 116,000 distinct emails targeting such customers in the six months up to March 2026.</p> <p>Out of these malicious messages, 21% targeted VIPs, 38% were spear-phishing attempts, 84% successfully passed DMARC authentication, and 37% contained “novel social engineering features”, according to Darktrace.</p> <p>“Professional sport is a high-pressure environment where timing matters,” says Nathaniel Jones, vice-president of security and AI strategy at Darktrace. “A suspicious login, unusual data movement or unexpected AI agent action may look small in isolation, but during a live event it can become operationally significant very quickly.&nbsp;</p> <p>“The most effective way to mitigate the risks facing sports organisations both internally and from external actors today is to adapt a behavioural approach to security. That means shifting away from rules and signatures and focusing on understanding both human and AI [artificial intelligence] behaviour inside your environment.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"The challenge of AI\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The challenge of AI</h2> <p>Jones rightly raises the spectre of artificial intelligence (AI), which is now almost but not quite as pervasive as the melody of <i><a href=\"https://en.wikipedia.org/wiki/The_England_Band\" target=\"_blank\" rel=\"noopener\">The Great Escape</a></i> theme during an England game.</p> <p>The Darktrace study found that 83% of cyber pros working in the sports industry believed they had detected AI being used against them in the past year, and 72% believe AI will increase cyber risk over the next year. At the World Cup, the risk is compounded by the confluence of high-profile live events, high-value user data, public pressure, fixed schedules, large partner and supplier networks, and the chance for a successful cyber attacker to have their name plastered all over the front pages.</p> <p>But AI is also an internal issue in sports; a third of participants in Darktrace’s study said they were using or planning to use AI in areas like ticketing, fan engagement, or marketing, compounding the headache for defenders who are left to deal with the risks development and deploying AI introduce to the business – almost half said this was a concern.</p> <p>Darktrace said that as sports organisations expand their AI use into more critical areas of operation, they must give their security teams better visibility into what AI tools are able to access, what they can do and how the underlying AI infrastructure itself might be misused.</p> <p>As AI expands across the industry, the advice to sports organisations differs little from that offered to any other vertical – behavioural approaches to security will become more vital to securing events, and as part of that defenders must understand what normal looks like so that they can detect threats blending into normal activity, whether they emanate from an external attacker, a compromised account or an “offside” AI agent.</p> <p>The report highlights six areas that need urgent focus:</p> <ul class=\"default-list\"> <li>Threat modelling;</li> <li>Supply chain governance and vendor access control;</li> <li>Segmentation across information and operational technology (IT/OT) and public-facing systems;</li> <li>Identity-centric security, including universal multifactor authentication (MFA);</li> <li>Phishing resilience;</li> <li>Operational playbooks aligned to live event constraints.</li> </ul> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">The quantum World Cup</h3> <p>With a surge in online activity around the World Cup, attackers will likely exploit high engagement levels with ticketing platforms, fantasy leagues, merch drops and streaming services to quietly collect, sift and stockpile personal data for future use.</p> <p>This phenomena, known as “harvest now, decrypt later”, heralds the advent of workable quantum computers that will almost certainly break existing data encryption standards, at which point any encrypted data stolen in the past can be exposed at will.</p> <p>Spencer Starkey, executive vice-president at <a target=\"_blank\" href=\"https://www.sonicwall.com/\" rel=\"noopener\">SonicWall</a>, warns that the World Cup presents an ideal opportunity for such data collection, and unfortunately any engaged fan could be at risk.</p> <p>“Adversaries are focusing on harvesting data – names, payment details, location patterns – all from people who are just excited to be there or watching from home. They are signing up for free drink vouchers and entering competitions to win certain players’ tops. They aren’t paying attention,” says Starkey.</p> <p>“The data probably won’t get used straight away, it will get stockpiled. And when quantum computing makes encrypted datasets readable, everything collected now becomes a liability. So, you might not see the real threat from the World Cup for another decade.”&nbsp;</p> </div> </div> <p>But generative AI (GenAI) is not just an internal problem for sports teams and organisations such as Fifa. It’s affecting fans too, whether watching from the comfort of their living rooms or pre-gaming in an American dive bar.</p> <p>“Generative AI has lowered the cost of deception. A convincing phishing email no longer betrays itself through clumsy grammar; it can be produced flawlessly, in any language and personalised at scale,” says the IEEE’s Curran.</p> <p>“Voice cloning and deepfake videos have moved from novelty to a fraud instrument, and we are already aware of AI-generated content weaponised around sporting and geopolitical events in 2026. A fan who once learned to spot the tell-tale signs of a scam is now facing forgeries with no obvious tells,” he says.</p> <p>“The tournament [also] depends on a sprawling supply chain of vendors, contractors and third-party platforms, any one of which can become the weak link that exposes the whole. [For example], travelling fans connect devices to unfamiliar public Wi-Fi in three countries, often roaming and distracted, which is precisely the condition attackers prefer.”</p> <p>Chris Olson, CEO of <a href=\"https://mediatrust.com/\">The Media Trust</a>, which supplies digital trust and safety systems to digital publishers, adtech companies and media outlets including the <em>BBC</em> and <em>NBC</em> in the US, makes a similar point to Curran.</p> <p>“The World Cup doesn’t just sell out stadiums, it sells out consumers,” says Olson. “What most people don’t realise is that scammers aren’t just building fake ticket sites and waiting, they’re buying ad placements to put those sites directly in front of you. The same programmatic advertising infrastructure that serves you a legitimate commercial can, with minimal friction, serve you a malvertisement that leads straight to a credential-harvesting page dressed up in FIFA branding.</p> <p>“With AI now generating flawless storefronts and deepfaked urgency, the old advice of ‘trust your gut’ is officially outdated. My advice: assume any World Cup deal that reached you through a social media ad or search result is suspect until proven otherwise. Go direct, go official and treat any countdown clock or ‘limited seats remaining’ message as the manipulation tactic it almost certainly is.”</p> <p>The good news is that for those England and Scotland devotees who have braved the long-haul flight to the US, the advice – while not particularly glamorous – should be effective.</p> <p>“Type web addresses by hand rather than trusting search adverts or links in messages. Buy tickets and merchandise only through official channels. Enable MFA. Treat any unexpected prize, refund or last-minute ticket as a scam until proven otherwise,” says Curran. “None of this is new advice, and that is rather the point: the attacks evolve, but the basic hygiene that defeats most of them does not.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about cyber security in sports</h3> <ul style=\"list-style-type: square;\" class=\"default-list\"> <li>Informa TechTarget editors discuss the&nbsp;<a href=\"https://www.techtarget.com/searchsecurity/video/Lessons-in-incident-response-from-the-Olympics-World-Cup\">prevalence of cyber attacks on global sporting events</a>&nbsp;and how the challenges these events face are the same as those of everyday organisations.</li> <li>Oracle Red Bull Racing is&nbsp;<a href=\"https://www.computerweekly.com/news/366579832/How-Oracle-Red-Bull-Racing-guards-against-cyber-threats\">tapping managed security services, conducting penetration tests and improving security awareness</a>&nbsp;among employees to fend off cyber threats such as phishing and ransomware.</li> <li><a href=\"https://www.computerweekly.com/news/366561697/Report-reveals-sorry-state-of-cyber-security-at-UK-football-clubs\">UK football clubs demonstrate a critical lack of cyber resilience</a>, putting the data of fans and players alike at risk from a myriad of potential threats.</li> <li>The user names and passwords of Tokyo 2020 ticket holders and event volunteers were&nbsp;<a href=\"https://www.computerweekly.com/news/252504456/Tokyo-2020-hit-by-data-breach\">reportedly compromised</a>, but government official claims the data leak was not large.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Networks",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "ransomware",
-        "phishing",
-        "exploit",
-        "threat",
-        "encryption",
-        "data leak",
-        "security",
-        "cyber",
-        "soc",
-        "managed security"
-      ],
-      "GRC": [
-        "governance",
-        "cyber risk"
-      ],
-      "Data Centres": [
-        "ai infrastructure"
-      ],
-      "Industry & Market": [
-        "expands",
-        "raises",
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "<p>In the run up to the troubled <a href=\"https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026\" target=\"_blank\" rel=\"noopener\">Fifa World Cup 2026</a> in Canada, Mexico and the US, national headlines have been dominated not by cyber security, but by border security, with tighter entry and Visa restrictions in the US leaving teams, players and officials in a bind, with some <a href=\"https://www.aljazeera.com/sports/2026/6/11/which-world-cup-teams-players-and-officials-were-denied-us-visas-entry\" target=\"_blank\" rel=\"noopener\">banned from entering the country</a> altogether.</p> <p>Fortunately, at the time of writing – mere hours before <a href=\"https://www.bbc.com/sport/football/live/cp36z3qpzrxt\" target=\"_blank\" rel=\"noopener\">England’s Wednesday 17 June opener against Croatia</a> – no major cyber breaches have come to light.</p> <p>But behind the scenes, the security community has been warning for weeks that the 2026 tournament faces a level of cyber threat <a href=\"https://www.computerweekly.com/news/366644594/2026-World-Cup-billed-as-largest-entertainment-attack-surface-in-history\" target=\"_blank\" rel=\"noopener\">unprecedented in the tournament’s history</a> – although, granted, the threat was low to non-existent up to the early 2000s.</p> <p>Kevin Curran is a senior member of the <a href=\"https://www.ieee.org/\" target=\"_blank\" rel=\"noopener\">Institute for Electrical and Electronics Engineers</a> (IEEE) and professor of cyber security at <a href=\"https://www.ulster.ac.uk/\" target=\"_blank\" rel=\"noopener\">Ulster University</a> in Northern Ireland. He says that besides being the largest World Cup in history, the digitisation of everything from ticketing systems to official apps, streaming services, accreditation databases, stadium networks, sponsor platforms, and much more, has dramatically widened the tournament’s attack surface.</p> <p>He describes each of these systems as a door that someone must keep locked for the duration of the event. “Attackers only need to find one that is ajar – defenders must secure all of them,” he says.</p> <p>Sadly, these attackers are getting through all too often. Research published earlier in June by UK cyber firm <a href=\"https://www.darktrace.com/?r=0\" target=\"_blank\" rel=\"noopener\">Darktrace</a> revealed that over 80% of the professional sports organisations <a href=\"https://www.mclaren.com/racing/partners/darktrace/\" target=\"_blank\" rel=\"noopener\">it works with</a> were affected by cyber security incidents in the past 12 months, with 57% experiencing multiple attacks."
-  },
-  {
     "title": "This HP Omen gaming laptop is $700 off on Amazon - and it's a serious powerhouse",
     "url": "https://www.zdnet.com/article/hp-omen-gaming-laptop-amazon-prime-day-deal-2026/",
     "source": "ZDNet",
@@ -3363,6 +3712,59 @@
     "summary": "HOUSTON, June 19, 2026 /PRNewswire/ -- OTB Hospitality, the operating company of On The Border Mexican Grill & Cantina, has voluntarily filed for liquidation under Chapter 7 of the United States Bankruptcy Code on June 19 after closing all company-owned locations earlier this month. The..."
   },
   {
+    "title": "Sportradar Securities Fraud Class Action Result of Compliance Misrepresentations and 22% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/sportradar-securities-fraud-class-action-result-of-compliance-misrepresentations-and-22-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805586.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-20T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until July 17, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "compliance"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until July 17, 2026 to file lead plaintiff applications in a..."
+  },
+  {
+    "title": "GeneDx Holdings Securities Fraud Class Action Result of Acquisition Performance Misrepresentations and 49% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-securities-fraud-class-action-result-of-acquisition-performance-misrepresentations-and-49-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805582.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-20T02:00:00+00:00",
+    "raw_text": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquisition",
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a..."
+  },
+  {
+    "title": "SES AI Corporation Securities Fraud Class Action Result of Weak Revenue Guidance and 37% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/ses-ai-corporation-securities-fraud-class-action-result-of-weak-revenue-guidance-and-37-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805587.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-20T02:00:00+00:00",
+    "raw_text": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a..."
+  },
+  {
     "title": "Activision Blizzard, Inc. Notice of June 30, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
     "url": "https://www.prnewswire.com/news-releases/activision-blizzard-inc-notice-of-june-30-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302805612.html",
     "source": "PR Newswire - Technology",
@@ -3381,6 +3783,26 @@
       ]
     },
     "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 30, 2026 to file lead plaintiff applications in a..."
+  },
+  {
+    "title": "PicS N.V. Notice of August 4, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+    "url": "https://www.prnewswire.com/news-releases/pics-nv-notice-of-august-4-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302805581.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-20T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS..."
   },
   {
     "title": "Erasca, Inc. Notice of August 10, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
@@ -3403,26 +3825,6 @@
     "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Erasca, Inc. (\"Erasca\" or the \"Company\") (NasdaqGS: ERAS) of a class action securities lawsuit. CLASS..."
   },
   {
-    "title": "Sportradar Securities Fraud Class Action Result of Compliance Misrepresentations and 22% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/sportradar-securities-fraud-class-action-result-of-compliance-misrepresentations-and-22-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805586.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-20T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until July 17, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "compliance"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until July 17, 2026 to file lead plaintiff applications in a..."
-  },
-  {
     "title": "ADMA Biologics, Inc. Notice of August 10, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
     "url": "https://www.prnewswire.com/news-releases/adma-biologics-inc-notice-of-august-10-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302805578.html",
     "source": "PR Newswire - Technology",
@@ -3441,59 +3843,6 @@
       ]
     },
     "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in ADMA Biologics, Inc. (\"ADMA\" or the \"Company\") (NasdaqGM: ADMA) of a class action securities lawsuit...."
-  },
-  {
-    "title": "SES AI Corporation Securities Fraud Class Action Result of Weak Revenue Guidance and 37% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/ses-ai-corporation-securities-fraud-class-action-result-of-weak-revenue-guidance-and-37-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805587.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-20T02:00:00+00:00",
-    "raw_text": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a..."
-  },
-  {
-    "title": "GeneDx Holdings Securities Fraud Class Action Result of Acquisition Performance Misrepresentations and 49% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-securities-fraud-class-action-result-of-acquisition-performance-misrepresentations-and-49-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805582.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-20T02:00:00+00:00",
-    "raw_text": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquisition",
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a..."
-  },
-  {
-    "title": "PicS N.V. Notice of August 4, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/pics-nv-notice-of-august-4-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302805581.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-20T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS..."
   },
   {
     "title": "Via Transportation, Inc. Securities Class Action Result of Undisclosed Growth Obstacles and approximately 70% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
@@ -3574,6 +3923,18 @@
       ]
     },
     "summary": "FARMINGDALE, N.Y., June 19, 2026 /PRNewswire/ -- Alcott HR announces Michael Pascucci as Director of Strategic Projects. Michael brings over ten years of experience in HR operations and project management. Before joining Alcott HR, he held senior roles leading technology upgrades and..."
+  },
+  {
+    "title": "Pet Wearable Market Size to Hit $16.7 Billion by 2035 | Research by SNS Insider",
+    "url": "https://www.globenewswire.com/news-release/2026/06/20/3314924/0/en/Pet-Wearable-Market-Size-to-Hit-16-7-Billion-by-2035-Research-by-SNS-Insider.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-20T07:32:00+00:00",
+    "raw_text": "Global Pet Wearable Market Size, Share, Revenue Trends & Segment by Technology, Product, Animal Type, Application, Sales Channel and Forecast 2026-2035",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Global Pet Wearable Market Size, Share, Revenue Trends & Segment by Technology, Product, Animal Type, Application, Sales Channel and Forecast 2026-2035"
   },
   {
     "title": "FREELANDER 8 Makes First Public Appearance Ahead of Official Abu Dhabi Launch",
@@ -3876,43 +4237,5 @@
       ]
     },
     "summary": "MILESEEY Opens Pre-Orders for the S50C, the World's Premier Outdoor Green Laser Measure with Next-Level Precision"
-  },
-  {
-    "title": "Toll Brothers Announces New Luxury Townhome Community Coming Soon to Doylestown, Pennsylvania",
-    "url": "https://www.globenewswire.com/news-release/2026/06/19/3314811/1924/en/Toll-Brothers-Announces-New-Luxury-Townhome-Community-Coming-Soon-to-Doylestown-Pennsylvania.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-19T14:44:00+00:00",
-    "raw_text": "280 North at Doylestown will offer elegant four-story townhomes with walkability to shopping, dining, and recreation in the heart of Bucks County 280 North at Doylestown will offer elegant four-story townhomes with walkability to shopping, dining, and recreation in the heart of Bucks County",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "280 North at Doylestown will offer elegant four-story townhomes with walkability to shopping, dining, and recreation in the heart of Bucks County 280 North at Doylestown will offer elegant four-story townhomes with walkability to shopping, dining, and recreation in the heart of Bucks County"
-  },
-  {
-    "title": "Accenture Launches Cybersecurity Platform to Protect Critical Infrastructure - CXOToday.com",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYjFzWUF3ZXR5MWdOSXRvUl93aC11SkVITVRXNm5zc0N1LWhLcnNwaWVnLVZjRTk2RjdYMk9EdmRBekNxazhONTU3ckxnRk1GMWRGQXp6bDNOU1JoQXRDWXFIQjk5dlhhVnUyalF4b29lTXpDLVdQa3Bmc0sxcnptanRRRHpDVWpLcGtSMWlaN2xka2VDQXg3aERCMVljb1V5OThqSDRsdWN4N0hFQ2Qybm5wSQ?oc=5",
-    "source": "Google News: Consulting Firm Announcements",
-    "published": "2026-06-18T12:31:00+00:00",
-    "raw_text": "Accenture Launches Cybersecurity Platform to Protect Critical Infrastructure CXOToday.com",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "launches",
-        "accenture"
-      ]
-    },
-    "summary": "Accenture Launches Cybersecurity Platform to Protect Critical Infrastructure CXOToday.com"
   }
 ]
