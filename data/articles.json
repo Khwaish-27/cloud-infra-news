@@ -1278,38 +1278,6 @@
     "summary": "CloudSEK maps Operation Escaneo, a campaign hitting Latin American infrastructure via perimeter bugs"
   },
   {
-    "title": "Hostile States Behind 75% of Cyber-Attacks on UK Critical Infrastructure, NCSC Warns",
-    "url": "https://www.infosecurity-magazine.com/news/hostile-states-cni-75-percent-ncsc/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-06-18T09:10:00+00:00",
-    "raw_text": "Richard Horne, the NCSC CEO, said three-quarters of cyber-attacks targeting UK critical infrastructure came from nation-state actors",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
-      ]
-    },
-    "summary": "Richard Horne, the NCSC CEO, said three-quarters of cyber-attacks targeting UK critical infrastructure came from nation-state actors"
-  },
-  {
-    "title": "Cybercrime Surges in APAC as Digitalization Takes Hold",
-    "url": "https://www.infosecurity-magazine.com/news/cybercrime-surges-apac-digitization/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-06-18T08:30:00+00:00",
-    "raw_text": "Interpol claims cybercrime accounts for third of crime in over half of Asia and South Pacific countries",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
-      ]
-    },
-    "summary": "Interpol claims cybercrime accounts for third of crime in over half of Asia and South Pacific countries"
-  },
-  {
     "title": "Announcing Amazon EC2 G7 instances accelerated by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs",
     "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
     "source": "AWS News Blog",
@@ -1883,93 +1851,6 @@
     "summary": "The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security officer (CISO) for the first time to support a deeper commitment to information security. Follow this column to keep up with new appointments to senior-level security roles and perhaps gain a little insight into hiring trends. If you have an announcement of your own that you would like us to include here, contact Peter Sayer, executive editor of news, at peter_sayer@foundryco.com ."
   },
   {
-    "title": "5 new security operations roles the AI-SOC will create",
-    "url": "https://www.csoonline.com/article/4186569/5-new-security-operations-roles-the-ai-soc-will-create.html",
-    "source": "CSO Online",
-    "published": "2026-06-18T09:01:00+00:00",
-    "raw_text": "For years we’ve heard the frightening prediction that AI will take jobs away from people. It will and it already is , but that doesn’t mean it won’t also create new jobs and skills demands — like every other labor trend driven by technology advances. Take security operations for example. Historically, security operations centers (SOCs) were built on a three-tier analyst model. Tier 1 analysts were junior personnel, paid to monitor activity and triage alerts. Their job was often described as “eyes-on-glass” as they tried to uncover signals among the noise. Tier 2 analysts specialized in investigating alerts (lots of them) that seemed fishy to the Tier 1 crew. When something was truly suspicious or malicious, they took remediation actions or worked with IT teams and others on incident response. Finally, Tier 3 analysts were the most senior and generally focused on threat hunting and engineering. Beyond hunting, these gurus performed deep forensic investigations, controls tuning, and detection engineering . Fast forward to 2026 and the AI-SOC (or the agentic SOC, autonomous SOC, human-augmented AI-SOC, etc.) is not only here but also maturing quickly. At last count, there are over 120 vendors claiming to participate in this market. As of today, AI-SOC capabilities center on autonomous alert triage and basic investigations. When something looks awry — a suspicious login, an EDR alert, etc. — agents call disparate tools to enrich the alert, create a timeline of activities, produce a confidence score, and even suggest steps for remediation. Sounds like an efficient Tier 1 analyst to me. In the near future, AI-SOCs will delve into Tier 2 analyst tasks with automated remediation. Additionally, agent swarms will have specialized roles for detection, investigations, remediation, and even system tuning. Some vendors also propose agents for threat hunting and continuous posture management. There’s still a lot of innovation, development, and real-world testing needed, but it’s clear that agents will increasingly perform more of the heavy lifting. So where does that leave humans? Here are a few roles where cybersecurity professional skills will be needed and in high demand. Security data engineer AI agents can deliver value only if they have continuous access to the right data. This requires moving beyond basic SIEM parsers and API connectors. Security data engineers must know the ins-and-outs of all the data: threat intelligence, identity and access management (IAM), cloud logs, endpoint/network/application telemetry, business context, third-party access patterns, and so on. All this data must fit into unified data layers that support multi-modal ingestion. This requires managing massive data pipelines to ensure context-rich, normalized, and high-fidelity logging from a potpourri of assets, cloud infrastructures, SaaS applications, and identity providers. Ideally, security data engineers will transform today’s data format and API mess into cohesive data layers using standards such as the Open Cybersecurity Schema Framework (OCSF). AI security agent orchestrators As agent-based solutions proliferate into swarms, someone has to act as the conductor of the orchestra. This involves an understanding of how to piece together multi-agent systems while defining boundaries and guardrails, establishing memory persistence, and determining which agents can take autonomous actions and which activities still demand a human-in-the-loop. Aside from technical agentic chops, AI security agent orchestrators will need a keen understanding of business-centric AI applications and workflows, as well as how all this relates to the latest threat intelligence. AI model trainers Rather than “set it and forget it,” AI models for security operations demand continuous updating and specific context for each individual organization based on threats, industry, and business processes. AI model trainers must become adroit with retrieval-augmented generation (RAG) to update models with local threat intelligence, asset criticality maps, new identities, and internal network architectural changes. Trainers must also be experts at fine-tuning datasets to ensure accurate and optimized results. AI-augmented threat hunters With AI agents in tow, threat hunting evolves from a sporadic to continuous activity . This means moving beyond cyber threat intelligence (CTI) update triggers such as new indicators of compromise (IoCs) to focus on adversary behavioral knowledge across entire campaigns and TTPs (throughout the MITRE ATT&CK framework). In the near future, agents do the basic work while AI-augmented threat hunters use their experience to come up with highly sophisticated, creative, and complex attack scenarios that standard detection logic likely misses. Hunters then utilize AI to instantly write complex queries across massive datasets. The goal? Hunt for adversary intentions — sensitive data exfiltration, data encryption, etc. — rather than easy adversary tradecraft such as file hashes or IoCs. AI-savvy red teaming/penetration tester As AI cascades across the enterprise, SaaS applications, and third-parties, organizations will need a new breed of red teamers to discover weaknesses and gaps in enterprise AI infrastructure and applications across the software supply chain. To accomplish this, AI-savvy red teams and penetration testers must possess the skill set and knowledge to circumvent new types of AI-enabled security defenses. Once beyond security controls, red teaming and penetration testing roles move on to attack an enterprise’s internal AI deployments — testing for things such as data poisoning, prompt injection vulnerabilities, and unauthorized access to underlying data stores used for building and fine-tuning various AI-models. As the saying goes, “AI won’t take your job, but someone who knows how to use AI to their advantage will.” Cybersecurity professionals who follow this logic, invest in their skill sets, and pursue jobs like those described above will flourish professionally, prosper economically, and be extremely valuable to their organizations.",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "saas"
-      ],
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "threat",
-        "encryption",
-        "security",
-        "cyber",
-        "siem",
-        "soc",
-        "threat intelligence",
-        "incident response",
-        "penetration testing",
-        "red team",
-        "edr"
-      ],
-      "Data Centres": [
-        "ai infrastructure"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "For years we’ve heard the frightening prediction that AI will take jobs away from people. It will and it already is , but that doesn’t mean it won’t also create new jobs and skills demands — like every other labor trend driven by technology advances. Take security operations for example. Historically, security operations centers (SOCs) were built on a three-tier analyst model."
-  },
-  {
-    "title": "Cybersecurity was built for predictable systems. AI changes the rules",
-    "url": "https://www.csoonline.com/article/4186374/cybersecurity-was-built-for-predictable-systems-ai-changes-the-rules.html",
-    "source": "CSO Online",
-    "published": "2026-06-18T09:00:00+00:00",
-    "raw_text": "Every major technology shift changes cybersecurity. I’ve spent much of my career working through major technology transitions, from the rise of the commercial internet to mobile and cloud computing. Each shift created new opportunities for innovation, but it also created new security problems organizations weren’t fully prepared for. AI may resemble previous technology shifts in some ways, but it differs in one important respect: it challenges one of the foundational assumptions modern security programs were built around: predictability. For most of my career, security teams operated in environments where systems behaved deterministically. Applications generally executed the same way every time. Infrastructure changed slowly enough for humans to map dependencies, understand trust boundaries and implement controls around them. Even cloud transformation allowed us to apply familiar security models to new infrastructure. AI changes those assumptions. Agentic systems make decisions dynamically. Large language models generate different outputs based on context. AI systems increasingly interact with external tools, APIs and environments in ways their developers can’t always fully predict ahead of time. When systems stop behaving consistently, the traditional “keep bad things out” approach to cybersecurity starts to break down. Prevention still matters. But prevention alone is structurally insufficient for environments where risk evolves continuously at runtime. Security was built for deterministic systems When I was helping build security programs years ago, much of the focus centered on hardening systems before deployment. Security teams tried to identify vulnerabilities early, reduce exposure and prevent attackers from gaining access in the first place. Even during the early years of cloud adoption, most organizations still approached security primarily through configuration and policy management. We worried about permissions, exposed storage buckets and identity sprawl while cloud security tools focused heavily on identifying misconfigurations and locking down infrastructure. Those controls remain critically important today. But the cloud era also taught us that security failures rarely happen in static diagrams. They happen in live environments, where permissions change, APIs evolve and identities gain unexpected access paths while systems interact in ways architects never fully anticipated. By the time organizations map one state of the environment, it’s already changed. Risk increasingly emerges at runtime, when identities inherit unintended access, APIs change behavior or AI agents interact with systems in ways no architecture diagram captured. In conversations I’ve had with companies, I’ve seen them go from generating hundreds of thousands of lines of code per month to millions. AI-assisted development tools are fundamentally changing software engineering workflows. A Harvard Business School study found that after developers gained access to GitHub Copilot, coding activity increased by 12.4% while time spent on project management tasks dropped by nearly 25% – a shift that can leave less time for the reviews and coordination governance depends on. From a business perspective, acceleration creates leverage, but it also compresses the time security teams have to understand what’s entering production. Attackers are beginning to use AI to reduce the manual effort historically required for reconnaissance, exploit chaining and vulnerability validation at scale. Security by obscurity isn’t a winning strategy. For years, organizations often accepted certain vulnerabilities because exploitation required too much time, expertise or effort from attackers. Vulnerabilities once considered difficult to chain together are becoming easier to operationalize at scale as attackers use AI to automate portions of the process. Security leaders need to recognize that some of the prioritization models organizations built over the last decade may no longer reflect today’s reality. Why prevention alone no longer works As AI systems become more autonomous, runtime visibility becomes critical. Many organizations historically treated runtime monitoring as a secondary layer behind prevention, viewing it mainly as a safety net for edge cases. That model breaks down when systems can evolve and interact faster than security teams can realistically validate in real time. If an AI agent can interact with multiple systems, generate new actions independently or adapt its behavior based on changing context, organizations can’t rely exclusively on pre-deployment controls. Security teams need visibility into what these systems are doing while they operate. That includes: What data AI systems can access How identities interact with sensitive environments What actions agents are taking Whether systems are deviating from expected behavior How quickly organizations can contain unintended consequences In many ways, modern security is shifting from trying to prevent every compromise to limiting how quickly unintended behavior can spread once systems begin acting autonomously. Security leaders should be careful not to overreact to this shift with fear-driven narratives. AI will absolutely create new security challenges, but it also creates opportunities for defenders. Security teams can’t scale using human labor alone anymore. The sheer volume of infrastructure changes, software generation and vulnerability management exceeds what most organizations can handle manually. We’re already seeing organizations experiment with AI-assisted triage, automated investigation workflows and defensive agents that can help security teams move faster and manage growing operational complexity. Security products are beginning to evolve into operational extensions of security teams rather than passive alerting systems. That evolution makes sense. Attackers are using automation and AI to increase speed and scale. Defenders will need to do the same to maintain parity. 5 priorities for security leaders in the AI era The organizations that adapt best to AI-driven risk won’t necessarily be the ones with the largest security teams or the biggest budgets. More often, they’ll be the ones that adjust fastest as software, infrastructure and attacker behavior evolve more quickly than traditional security operations were built to handle. That shift requires you to think differently about how you manage risk, operations and resilience. 1. Rebuild vulnerability management for AI-scale software development Many vulnerability management programs were already overwhelmed before AI accelerated software generation and lowered portions of the attacker cost curve. That challenge is becoming exponentially harder. Stop assuming old exploitability models will hold up in an environment where attackers can use AI to accelerate reconnaissance, vulnerability chaining and exploit development. You need to reassess how vulnerabilities are prioritized, validated and remediated because some of the assumptions organizations made over the last decade about attacker limitations may no longer reflect reality. Some organizations are already investing in model harnesses to deploy new AI models more effectively and securely. 2. Treat runtime visibility as a primary control Runtime monitoring can no longer be treated as a secondary capability behind prevention. Every team needs to invest in new forms of tooling to gain this visibility. That said, runtime monitoring is not something security organizations can vibe code into existence. We need to expect our security vendors to build continuous visibility into workloads, identities, APIs and AI system behavior in production environments. Prioritize clearer context around which vulnerabilities are reachable, exposed or being actively leveraged. This becomes increasingly important as AI systems interact with infrastructure and data in less predictable ways. 3. Use AI to augment defensive operations Most organizations can’t hire enough people to keep pace with the operational demands AI introduces. Use automation and AI to reduce investigation time, automate repetitive workflows and improve response speed. Human judgment still matters, but security teams are operating in environments where the volume of alerts, infrastructure changes and software generation exceeds what people can manage manually. AI can help teams focus on higher-order decisions instead of operational noise. 4. Focus on resilience and containment Perfect prevention has never existed, but it becomes even less realistic in highly dynamic AI environments. Think more carefully about blast radius reduction, rapid containment and operational resilience. Your ability to detect unintended behavior quickly and limit downstream impact will matter far more as organizations deploy more autonomous systems. I think many security leaders are still too focused on whether AI systems can fail instead of preparing for how to operate safely when they inevitably do. 5. Position security as an enabler of transformation One of the biggest mistakes security organizations can make right now is to approach AI primarily as something to stop. Boards and CEOs are pushing aggressively toward AI adoption because they view it as strategically necessary. If you position security purely as a blocking function, you risk losing influence during one of the most important technology transitions in decades. Executive teams understand AI transformation can’t succeed without strong security leadership guiding risk decisions in real time. That creates an opportunity to help your business move faster safely while building security programs better equipped for dynamic environments. AI is forcing a new security operating model The core challenge AI creates for security teams isn’t simply scale. It’s the erosion of predictability. The pace of change will accelerate as AI systems become more deeply integrated into business operations. To operate effectively in this environment, focus on building security programs that can adapt quickly, contain risk in real time and support innovation without losing visibility or control. Drive this evolution through both hiring and vendor investments, with a stronger focus on AI fluency and operational expertise. Only with prioritized investment in staff and tooling can you achieve stronger runtime awareness, faster response capabilities and operating models that keep pace with continuously changing infrastructure and software environments. This article is published as part of the Foundry Expert Contributor Network. Want to join?",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "GRC",
-      "Industry & Market",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "cloud computing"
-      ],
-      "Networks": [
-        "network",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "security",
-        "cyber",
-        "cloud security"
-      ],
-      "GRC": [
-        "governance",
-        "policy",
-        "nist"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "Every major technology shift changes cybersecurity. I’ve spent much of my career working through major technology transitions, from the rise of the commercial internet to mobile and cloud computing. Each shift created new opportunities for innovation, but it also created new security problems organizations weren’t fully prepared for. AI may resemble previous technology shifts in some ways, but it differs in one important respect: it challenges one of the foundational assumptions modern security programs were built around: predictability."
-  },
-  {
     "title": "Sponsored: BESS Is becoming the bridge between AI data centers and the grid",
     "url": "https://www.datacenterdynamics.com/en/opinions/bess-is-becoming-the-bridge-between-ai-data-centers-and-the-grid/",
     "source": "DataCenterDynamics",
@@ -2335,6 +2216,18 @@
     ],
     "matched_keywords": {},
     "summary": "Thefts took place across two different tower sites 24 hours apart"
+  },
+  {
+    "title": "EU won't force publishers to grant dead video games an afterlife",
+    "url": "https://www.theregister.com/offbeat/2026/06/20/eu-wont-force-publishers-to-grant-dead-video-games-an-afterlife/5258163",
+    "source": "The Register",
+    "published": "2026-06-20T08:30:00+00:00",
+    "raw_text": "Stop Killing Games campaign suffers setback as European Commission favors industry code of conduct over legal obligation",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Stop Killing Games campaign suffers setback as European Commission favors industry code of conduct over legal obligation"
   },
   {
     "title": "Britain sending Ukraine an extra 30,000 drones – now 150,000 all up",
@@ -2814,34 +2707,6 @@
     "summary": "Replacement deal now expected in mid-2029 as body says safe transition will take at least five years"
   },
   {
-    "title": "Oracle support timelines for Fusion Middleware tighter than expected",
-    "url": "https://www.theregister.com/software/2026/06/18/oracle-support-timelines-for-fusion-middleware-tighter-than-expected/5257698",
-    "source": "The Register",
-    "published": "2026-06-18T09:15:00+00:00",
-    "raw_text": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Big Red drops ominous mention of 'Market Driven Support' beyond 2027 - but there's good news for AIX users"
-  },
-  {
-    "title": "UK Cabinet Office hiring AI and innovation 'influencer' to build 'AI-first culture' in civil service",
-    "url": "https://www.theregister.com/public-sector/2026/06/18/uk-cabinet-office-hiring-ai-and-innovation-influencer-to-build-ai-first-culture-in-civil-service/5257817",
-    "source": "The Register",
-    "published": "2026-06-18T08:30:00+00:00",
-    "raw_text": "Every buzzword deployed in quest to transform into 'country that is equipped for an AI world'",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Every buzzword deployed in quest to transform into 'country that is equipped for an AI world'"
-  },
-  {
     "title": "Civil society: Police facial recognition must be strictly limited",
     "url": "https://www.computerweekly.com/news/366644838/Civil-society-Police-facial-recognition-must-be-strictly-limited",
     "source": "ComputerWeekly",
@@ -3208,116 +3073,6 @@
       ]
     },
     "summary": "<p>Emmanuel Frenehard, <a href=\"https://www.techtarget.com/searchcio/tip/Chief-digital-officer-vs-chief-technology-officer-An-explainer\">chief digital officer</a> (CDO) at biopharmaceutical giant Sanofi, recognises that the CDO role often means different things in different companies.</p> <p>At Sanofi, it was decided that the role would be an all-encompassing position, overseeing business applications, infrastructure, cyber security, data, artificial intelligence (AI) and digital services. There are also professionals in Frenehard’s team who cover research and development, manufacturing and commercial activities.</p> <p>“But there’s a common thread – and that’s our intention to save time for patients,” he says.</p> <p>“We’ve set ourselves this ambition – which is not mathematically tracked – to say, can we halve the time of drug development? Because it takes 10 to 12 years to create a new drug and take it to patients, and 90% of drugs fail. What if, through the power of data, digital, AI and software development, you could reduce that time to five to six years?”</p> <p>Frenehard describes his role as humbling."
-  },
-  {
-    "title": "Gulf CIOs shift focus from recovery to cyber resilience as regional threats intensify",
-    "url": "https://www.computerweekly.com/news/366644877/Gulf-CIOs-shift-focus-from-recovery-to-cyber-resilience-as-regional-threats-intensify",
-    "source": "ComputerWeekly",
-    "published": "2026-06-18T08:56:00+00:00",
-    "raw_text": "<p>Cyber resilience has become a board-level priority for organisations across the Gulf as regional tensions, increasingly sophisticated <a href=\"https://www.computerweekly.com/news/366642842/AI-threats-push-Middle-East-CISOs-towards-identity-first-security\" target=\"_blank\" rel=\"noopener\">cyber attacks</a> and the rapid adoption of artificial intelligence (AI) reshape enterprise risk strategies.</p> <p>According to Yahya Kassab, senior director and general manager for Gulf and Saudi Arabia at Commvault, recent <a href=\"https://www.computerweekly.com/news/366639768/CISOs-on-alert-Strengthening-cyber-resilience-amid-geopolitical-tensions-in-the-Middle-East\">geopolitical developments have acted as a wake-up call</a> for many organisations, accelerating efforts to strengthen recovery capabilities and protect critical data assets.</p> <p>“Historically, organisations implemented backup and data protection primarily for compliance reasons,” Kassab tells Computer Weekly. “But cyber resilience is a different story. It requires different processes, different technologies and a different approach to recovery.”</p> <p>While traditional disaster recovery strategies focus on <a href=\"https://www.techtarget.com/searchstorage/feature/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective\">recovery point objectives (RPOs) and recovery time objectives (RTOs)</a>, cyber incidents demand a different mindset.</p> <p>“In a cyber attack, the key question is how quickly you can recover a clean copy of your data,” he says. “If your production environment is compromised, your disaster recovery environment may be compromised as well. Without cyber-resilient capabilities, recovery becomes extremely difficult.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Awareness remains the biggest challenge\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Awareness remains the biggest challenge</h2> <p>Despite significant investment in cyber security technologies across the Gulf Cooperation Council (GCC) countries, Kassab believes awareness remains one of the region’s most pressing challenges. Many organisations continue to view disaster recovery and cyber resilience as interchangeable disciplines, creating dangerous gaps in preparedness.</p> <p>“Some organisations think that because they have a disaster recovery plan, they are protected from cyber threats,” he says. “The reality is that <a href=\"https://www.computerweekly.com/ehandbook/Cyber-resilience-under-pressure-How-to-demonstrate-readiness\">cyber resilience</a> requires additional controls and dedicated recovery capabilities.”</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Yahya-Kassab-Commvault-140x180px.jpg\" alt=\"Photo of Yahya Kassab, senior director and general manager for Gulf and Saudi Arabia at Commvault\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“In a cyber attack, the key question is how quickly you can recover a clean copy of your data. If your production environment is compromised, your disaster recovery environment may be compromised as well. Without cyber-resilient capabilities, recovery becomes extremely difficult”</span></strong></span></p> <p><em><span style=\"color: #34495e;\">Yahya Kassab, Commvault</span></em></p> </blockquote> <p>Recent events across the region have prompted many IT and security leaders to reassess their readiness for ransomware attacks and other disruptive cyber incidents. Kassab said Commvault has seen increased demand from organisations seeking assistance with cyber recovery planning and resilience assessments.</p> <p>“The events we have witnessed recently have opened the eyes of many customers and increased the priority they place on cyber-resilient solutions,” he says.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"AI creates both opportunities and risks\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>AI creates both opportunities and risks</h2> <p>The rapid adoption of AI across government and enterprise sectors is adding further complexity to cyber security and data protection strategies.</p> <p>Kassab points to the <a href=\"https://www.computerweekly.com/news/366642372/UAE-targets-agentic-AI-to-power-half-of-government-operations\">UAE government’s ambitions around agentic AI</a> as an example of the scale of transformation underway. “AI is very important for digital transformation, but it also increases complexity,” he says. “Organisations will have to manage significantly larger volumes of data, new AI-driven identities and entirely new operational models.”</p> <p>Commvault is approaching AI from three perspectives – using it to simplify operations and threat detection, applying it to improve visibility and governance of enterprise data, and protecting AI models themselves.</p> <p>“The third area is becoming increasingly important,” adds Kassab. “Organisations are making significant investments in AI models and training data. These assets must be protected in the same way as any other critical business resource.”</p> <p>As agentic AI deployments increase, ensuring the security, governance and recoverability of AI systems is expected to become a major priority for CIOs across the region.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Hybrid cloud becomes the default model\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Hybrid cloud becomes the default model</h2> <p><a href=\"https://www.computerweekly.com/news/366637278/Zoho-opens-its-first-UAE-datacentres-to-boost-cloud-adoption\">Cloud adoption continues to accelerate across Saudi Arabia and the UAE</a>, driven by ongoing digital transformation programmes and growing investments from hyperscale providers.</p> <p>However, Kassab believes the debate is no longer about choosing between cloud and on-premise infrastructure. “The question today is not cloud or non-cloud,” he says. “Both will continue to exist, and hybrid cloud is becoming the dominant model.”</p> <p>Organisations are increasingly evaluating cloud adoption on a workload-by-workload basis. Sensitive applications and data may remain on-premise, while other workloads are migrated to public cloud environments.</p> <p>“The decision is driven by the workload itself,” he says. “Some workloads make perfect sense in the cloud, while others are too sensitive or have specific regulatory requirements.”</p> <p>This growing complexity is increasing demand for unified data protection and cyber resilience platforms capable of securing workloads across multiple cloud and on-premise environments.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Aligning with national transformation agendas\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Aligning with national transformation agendas</h2> <p>As Gulf governments continue to pursue ambitious digital transformation programmes, technology suppliers are also adapting their strategies to meet local regulatory and sovereignty requirements.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> Organisations need to be prepared for both disaster recovery and cyber recovery. The ability to recover clean data and continue operations is becoming one of the most important measures of resilience </figure> <figcaption> <strong>Yahya Kassab, Commvault</strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>Kassab says Commvault is working closely with governments across the region to align with national cyber security frameworks and data residency regulations. “Every country has its own requirements around data sovereignty, and it is important that we align with those regulations,” he says.</p> <p>Beyond compliance, Commvault is also investing in local skills development and cyber security capacity building. The company recently announced plans to establish an Innovation Excellence Centre in Abu Dhabi, which will focus on research, development and workforce training.</p> <p>“The objective is to help build local cyber resilience capabilities and prepare the next generation of cyber security professionals,” says Kassab.</p> <p>For <a href=\"https://www.computerweekly.com/news/366640646/The-UAE-CIO-From-technology-operator-to-digital-value-architect\">CIOs across the GCC</a>, the message is increasingly clear: cyber resilience is no longer solely an IT concern but a business continuity imperative.</p> <p>As organisations accelerate cloud adoption, embrace AI and navigate a more volatile threat landscape, the ability to recover trusted data quickly has become just as important as preventing attacks in the first place.</p> <p>Recent regional events may have heightened the sense of urgency, but according to Kassab, the underlying challenge remains unchanged. “Organisations need to be prepared for both disaster recovery and cyber recovery,” he says. “The ability to recover clean data and continue operations is becoming one of the most important measures of resilience.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3>Read more about cyber security</h3> <ul style=\"list-style-type: square;\" class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366639768/CISOs-on-alert-Strengthening-cyber-resilience-amid-geopolitical-tensions-in-the-Middle-East\">Strengthening cyber resilience amid geopolitical tensions in the Middle East</a>: As regional uncertainty rises, security leaders across the Gulf focus on resilience, faster incident response and deeper threat intelligence to protect critical systems and data</li> <li><a target=\"_blank\" href=\"https://www.techtarget.com/healthtechsecurity/news/366640347/CISA-urges-companies-to-bolster-Microsoft-Intune-systems-after-Stryker-cyberattack\" rel=\"noopener\">CISA urges companies to bolster Microsoft Intune systems after Stryker cyber attack</a>: CISA is urging US organisations to strengthen the security of their endpoint management systems after cyberthreat actors infiltrated Stryker’s Microsoft environment.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Cloud Infrastructure",
-      "Data Centres",
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "hybrid cloud",
-        "digital transformation"
-      ],
-      "Networks": [
-        "cdn",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "ransomware",
-        "cyberattack",
-        "threat",
-        "security",
-        "cyber",
-        "threat intelligence",
-        "incident response"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "regulation",
-        "regulatory",
-        "data protection",
-        "enterprise risk"
-      ],
-      "Data Centres": [
-        "hyperscale",
-        "capacity",
-        "colo"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p>Cyber resilience has become a board-level priority for organisations across the Gulf as regional tensions, increasingly sophisticated <a href=\"https://www.computerweekly.com/news/366642842/AI-threats-push-Middle-East-CISOs-towards-identity-first-security\" target=\"_blank\" rel=\"noopener\">cyber attacks</a> and the rapid adoption of artificial intelligence (AI) reshape enterprise risk strategies.</p> <p>According to Yahya Kassab, senior director and general manager for Gulf and Saudi Arabia at Commvault, recent <a href=\"https://www.computerweekly.com/news/366639768/CISOs-on-alert-Strengthening-cyber-resilience-amid-geopolitical-tensions-in-the-Middle-East\">geopolitical developments have acted as a wake-up call</a> for many organisations, accelerating efforts to strengthen recovery capabilities and protect critical data assets.</p> <p>“Historically, organisations implemented backup and data protection primarily for compliance reasons,” Kassab tells Computer Weekly. “But cyber resilience is a different story. It requires different processes, different technologies and a different approach to recovery.”</p> <p>While traditional disaster recovery strategies focus on <a href=\"https://www.techtarget.com/searchstorage/feature/What-is-the-difference-between-RPO-and-RTO-from-a-backup-perspective\">recovery point objectives (RPOs) and recovery time objectives (RTOs)</a>, cyber incidents demand a different mindset.</p> <p>“In a cyber attack, the key question is how quickly you can recover a clean copy of your data,” he says. “If your production environment is compromised, your disaster recovery environment may be compromised as well."
-  },
-  {
-    "title": "CMA puts in place fair ranking measures on Google Search",
-    "url": "https://www.computerweekly.com/news/366644859/CMA-puts-in-place-fair-ranking-measures-on-Google-Search",
-    "source": "ComputerWeekly",
-    "published": "2026-06-18T08:45:00+00:00",
-    "raw_text": "<p>Under the UK’s digital markets competition regime, the Competition and Markets Authority (CMA) has said Google will be required to improve transparency and fairness in how <a href=\"https://www.computerweekly.com/news/366616261/More-Google-search-woes\">search results are ranked</a>.</p> <p>It said that businesses have noted that current ranking practices are neither fair nor transparent. The CMA said businesses also found that changes made by Google were being rolled out without sufficient notice. When such changes have a business impact, the businesses that raised concerns with the CMA said they did not have effective ways to raise concerns.</p> <p>Last June, under the Digital Markets Competition Regime, the <a href=\"https://www.computerweekly.com/news/366626385/CMA-consults-on-Googles-search-dominance\">CMA began a consultation</a>&nbsp;on whether to designate Google with strategic market status (SMS). The result of its investigation is that <a href=\"https://www.computerweekly.com/news/366632720/What-will-happen-now-Google-has-been-given-strategic-market-status-by-CMA\">Google is now designated with SMS</a>.</p> <p>A few weeks ago, the CMA imposed a new conduct requirement on Google, enabling publishers to opt-out of having their continent appear in Google AI Overviews. It has now introduced the Fair Ranking conduct requirement to address concerns raised by businesses over Google search results.</p> <p>As a result of the Fair Ranking requirement, Google will be required to rank organic search results and provide AI Overviews using objective and non-discriminatory criteria. Google will also need to provide greater transparency to businesses about how rankings work, give advance notice of significant changes and put in place clear processes for businesses to raise concerns about how its ranks results and have them addressed effectively.</p> <p>The CMA has also aligned with the EU’s Digital Markets Act covering Google’s data sharing process. The voluntary process already in place through Google’s UK Data Portability application programming interface (API) will now have a legal footing.</p> <p>According to the CMA, this gives third-party firms the confidence to offer people new products and services based on their Google search data. For instance, the legal requirement for Google to share data would enable third parties to offer people more personalised features such as tailored travel suggestions, more relevant shopping deals and rewards, including cashback and discounts.</p> <p>To port their data, a user needs to sign up to a third-party service, such as a rewards platform or personalised recommendation service. In the third-party service, the user is prompted to connect their Google account and explicitly authorise the transfer of their search data. The third party uses Google’s Data Portability API to request the relevant data. Google processes the request and transfers the data securely to the third party. The data is then used to deliver a service, such as personalised recommendations or tailored offers or discounts.</p> <p>Will Hayter, executive director for digital markets at the CMA, said: “Search is a vital gateway for businesses in the UK to reach customers, and clearer, predictable and more transparent ranking systems could give them greater scope to expand and invest.</p> <p>“These new measures will ensure search results are ranked fairly and objectively, with clearer information about changes and effective routes to raise concerns. At the same time, innovative businesses will have the confidence that they can access search data in practice, unlocking investment and innovation in new products and services for users.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more CMA stories</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366642945/CMA-launches-investigation-into-Microsoft-business-software\">CMA launches investigation</a> into Microsoft business software: The CMA says it will investigate whether Microsoft’s product bundles, product integration and default settings are anti-competitive.</li> <li>Regulate AWS and Microsoft, says UK cloud provider survey: Open Cloud Coalition survey, commissioned ahead of the <a href=\"https://www.computerweekly.com/news/366639822/Regulate-AWS-and-Microsoft-says-UK-cloud-provider-survey\">CMA’s decision</a> on measures against the two hyperscale giants, finds competing cloud providers demand regulation.</li> </ul> </div> </div>",
-    "categories": [
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws"
-      ],
-      "GRC": [
-        "regulation"
-      ],
-      "Data Centres": [
-        "hyperscale"
-      ],
-      "Industry & Market": [
-        "launches",
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p>Under the UK’s digital markets competition regime, the Competition and Markets Authority (CMA) has said Google will be required to improve transparency and fairness in how <a href=\"https://www.computerweekly.com/news/366616261/More-Google-search-woes\">search results are ranked</a>.</p> <p>It said that businesses have noted that current ranking practices are neither fair nor transparent. The CMA said businesses also found that changes made by Google were being rolled out without sufficient notice. When such changes have a business impact, the businesses that raised concerns with the CMA said they did not have effective ways to raise concerns.</p> <p>Last June, under the Digital Markets Competition Regime, the <a href=\"https://www.computerweekly.com/news/366626385/CMA-consults-on-Googles-search-dominance\">CMA began a consultation</a>&nbsp;on whether to designate Google with strategic market status (SMS). The result of its investigation is that <a href=\"https://www.computerweekly.com/news/366632720/What-will-happen-now-Google-has-been-given-strategic-market-status-by-CMA\">Google is now designated with SMS</a>.</p> <p>A few weeks ago, the CMA imposed a new conduct requirement on Google, enabling publishers to opt-out of having their continent appear in Google AI Overviews."
-  },
-  {
-    "title": "Emerging tech is top growth priority for UK finance firms",
-    "url": "https://www.computerweekly.com/news/366644934/Emerging-tech-is-top-growth-priority-for-UK-finance-firms",
-    "source": "ComputerWeekly",
-    "published": "2026-06-18T08:20:00+00:00",
-    "raw_text": "<p>While two-thirds (64%) of UK finance firms are planning to increase overall expenditure, 91% said they will spend more on tech, with emerging tech now topping growth priorities.</p> <p>Emerging tech investment is the top growth priority for UK finance firms for the first time in the 10 year’s Lloyds Bank has carried out its <i><a href=\"https://www.lloydsbank.com/business/resource-centre/insight/financial-institutions-sentiment-survey.html\">Financial institutions sentiment survey</a></i>.</p> <p>The survey of more than 100 senior decision-makers at UK banks, insurers, private equity firms, and asset and wealth managers, found that over three-quarters (77%) see emerging-tech investment as a growth priority, compared to just 41% last year. Within this, 93% ranked artificial Intelligence (AI) as the most impactful tech of the next five years.</p> <p><a target=\"_blank\" href=\"https://www.linkedin.com/in/rodhawan/\" rel=\"noopener\">Rohit Dhawan</a>, group executive director of AI at the bank, said AI has “crossed a threshold”, adding: “The question is no longer whether it works, but how quickly we can embed it at scale. At Lloyds, that means investing in technology, talent and governance in parallel, because deploying AI responsibly is what turns capability into sustained value for customers and the UK economy.”</p> <p>There is also confidence in the sector, according to the survey, with 94% of respondents expecting their business to grow over the next decade, compared to 81% in last year’s survey. Nearly three-quarters (71%) of respondents backed the UK to retain its strong position in global financial services, up from 60% last year.</p> <p>“This renewed confidence is being underpinned by a dramatic shift in focus towards new and emerging technologies, as institutions move from testing to deployment. Investment in this area is now a leading growth lever,” said the Lloyds Bank report.</p> <p>Lisa Francis, global head of corporate and institutional banking coverage at Lloyds, said despite global uncertainty, financial institutions are “building confidence by harnessing technology to drive long-term growth”.</p> <p>She added: “The sector is prioritising the areas that will define future competitiveness, from AI and emerging technology to data, talent and international expansion. What is clear is that growth in the next decade will be shaped by the ability to adapt, invest and scale new capabilities.</p> <p>“Advanced AI and data solutions are moving from ambition to adoption, with institutions increasingly looking at how these technologies can improve productivity, deepen client relationships and create opportunities across markets.”</p> <p>Lloyds Bank, for example, is heavily backing AI. In January, it <a href=\"https://www.computerweekly.com/news/366637423/Lloyds-Bank-to-train-all-staff-on-artificial-intelligence\">announced plans to train all 67,000 of its employees</a> in how to use the technology this year via its AI Academy. The bank said staff will be given interactive training modules, short courses, articles, podcasts and opportunities for community learning.&nbsp;It will kick off with every member of staff completing a module on responsible, safe and ethical AI use.</p> <p>Lloyds wants its staff to be able to use AI in their everyday roles, with Ron van Kemenade, group chief operating officer at the banking group, saying: “Scaling AI is about getting real use cases into production so we can simplify processes for colleagues and deliver more personalised services for customers.</p> <p>“By investing in the skills of our people, we can do this responsibly and at pace, improving service today and building the foundations to scale new innovations in the future.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Lloyds backing artificial intelligence tech</h3> <ul class=\"default-list\"> <li>Lloyds Banking Group will <a href=\"https://www.computerweekly.com/news/366637423/Lloyds-Bank-to-train-all-staff-on-artificial-intelligence\">train all 67,000 of its employees how to use artificial intelligence (AI)</a> this year.</li> <li>Bank is <a href=\"https://www.computerweekly.com/news/366609673/Lloyds-Bank-uses-artificial-intelligence-to-check-trade-finance-documents\">automating checks of digital and paper-based documentation</a> in trade financing with the help of artificial intelligence.</li> <li>Lloyds Banking Group is running a six-month training programme with the aim of <a href=\"https://www.computerweekly.com/news/366621318/More-than-200-Lloyds-bank-bosses-to-receive-artificial-intelligence-training\">building AI skills among its senior leadership</a>.</li> </ul> </div> </div>",
-    "categories": [
-      "Networks",
-      "Industry & Market",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "GRC": [
-        "governance"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p>While two-thirds (64%) of UK finance firms are planning to increase overall expenditure, 91% said they will spend more on tech, with emerging tech now topping growth priorities.</p> <p>Emerging tech investment is the top growth priority for UK finance firms for the first time in the 10 year’s Lloyds Bank has carried out its <i><a href=\"https://www.lloydsbank.com/business/resource-centre/insight/financial-institutions-sentiment-survey.html\">Financial institutions sentiment survey</a></i>.</p> <p>The survey of more than 100 senior decision-makers at UK banks, insurers, private equity firms, and asset and wealth managers, found that over three-quarters (77%) see emerging-tech investment as a growth priority, compared to just 41% last year. Within this, 93% ranked artificial Intelligence (AI) as the most impactful tech of the next five years.</p> <p><a target=\"_blank\" href=\"https://www.linkedin.com/in/rodhawan/\" rel=\"noopener\">Rohit Dhawan</a>, group executive director of AI at the bank, said AI has “crossed a threshold”, adding: “The question is no longer whether it works, but how quickly we can embed it at scale. At Lloyds, that means investing in technology, talent and governance in parallel, because deploying AI responsibly is what turns capability into sustained value for customers and the UK economy.”</p> <p>There is also confidence in the sector, according to the survey, with 94% of respondents expecting their business to grow over the next decade, compared to 81% in last year’s survey. Nearly three-quarters (71%) of respondents backed the UK to retain its strong position in global financial services, up from 60% last year.</p> <p>“This renewed confidence is being underpinned by a dramatic shift in focus towards new and emerging technologies, as institutions move from testing to deployment."
   },
   {
     "title": "This HP Omen gaming laptop is $700 off on Amazon - and it's a serious powerhouse",
@@ -3712,6 +3467,22 @@
     "summary": "HOUSTON, June 19, 2026 /PRNewswire/ -- OTB Hospitality, the operating company of On The Border Mexican Grill & Cantina, has voluntarily filed for liquidation under Chapter 7 of the United States Bankruptcy Code on June 19 after closing all company-owned locations earlier this month. The..."
   },
   {
+    "title": "SES AI Corporation Securities Fraud Class Action Result of Weak Revenue Guidance and 37% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/ses-ai-corporation-securities-fraud-class-action-result-of-weak-revenue-guidance-and-37-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805587.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-20T02:00:00+00:00",
+    "raw_text": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a..."
+  },
+  {
     "title": "Sportradar Securities Fraud Class Action Result of Compliance Misrepresentations and 22% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
     "url": "https://www.prnewswire.com/news-releases/sportradar-securities-fraud-class-action-result-of-compliance-misrepresentations-and-22-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805586.html",
     "source": "PR Newswire - Technology",
@@ -3747,22 +3518,6 @@
       ]
     },
     "summary": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a..."
-  },
-  {
-    "title": "SES AI Corporation Securities Fraud Class Action Result of Weak Revenue Guidance and 37% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/ses-ai-corporation-securities-fraud-class-action-result-of-weak-revenue-guidance-and-37-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805587.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-20T02:00:00+00:00",
-    "raw_text": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK CITY and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until June 26, 2026 to file lead plaintiff applications in a..."
   },
   {
     "title": "Activision Blizzard, Inc. Notice of June 30, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
@@ -3805,6 +3560,22 @@
     "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS..."
   },
   {
+    "title": "Via Transportation, Inc. Securities Class Action Result of Undisclosed Growth Obstacles and approximately 70% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/via-transportation-inc-securities-class-action-result-of-undisclosed-growth-obstacles-and-approximately-70-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805590.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-20T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 10, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 10, 2026 to file lead plaintiff applications in a..."
+  },
+  {
     "title": "Erasca, Inc. Notice of August 10, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
     "url": "https://www.prnewswire.com/news-releases/erasca-inc-notice-of-august-10-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302805579.html",
     "source": "PR Newswire - Technology",
@@ -3843,22 +3614,6 @@
       ]
     },
     "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in ADMA Biologics, Inc. (\"ADMA\" or the \"Company\") (NasdaqGM: ADMA) of a class action securities lawsuit...."
-  },
-  {
-    "title": "Via Transportation, Inc. Securities Class Action Result of Undisclosed Growth Obstacles and approximately 70% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/via-transportation-inc-securities-class-action-result-of-undisclosed-growth-obstacles-and-approximately-70-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302805590.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-20T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 10, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, June 19, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 10, 2026 to file lead plaintiff applications in a..."
   },
   {
     "title": "SIFF lancia \"AI BACKLOT\": la nuova frontiera della collaborazione tra IA e industria cinematografica",
@@ -3923,6 +3678,70 @@
       ]
     },
     "summary": "FARMINGDALE, N.Y., June 19, 2026 /PRNewswire/ -- Alcott HR announces Michael Pascucci as Director of Strategic Projects. Michael brings over ten years of experience in HR operations and project management. Before joining Alcott HR, he held senior roles leading technology upgrades and..."
+  },
+  {
+    "title": "Defiance 推出欧洲首只 Memory UCITS ETF (DRAM)",
+    "url": "https://www.globenewswire.com/news-release/2026/06/20/3314927/0/zh-hans/Defiance-%E6%8E%A8%E5%87%BA%E6%AC%A7%E6%B4%B2%E9%A6%96%E5%8F%AA-Memory-UCITS-ETF-DRAM.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-20T09:43:00+00:00",
+    "raw_text": "迈阿密, June 20, 2026 (GLOBE NEWSWIRE) -- 作为欧洲首只内存主题 ETF，Defiance ETFs 欣然宣布推出 Defiance Memory UCITS ETF (代码：DRAM)。 该基金旨在提供对从事半导体内存及数据存储系统开发、制造、商业化和存储业务相关公司的投资敞口。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "迈阿密, June 20, 2026 (GLOBE NEWSWIRE) -- 作为欧洲首只内存主题 ETF，Defiance ETFs 欣然宣布推出 Defiance Memory UCITS ETF (代码：DRAM)。 该基金旨在提供对从事半导体内存及数据存储系统开发、制造、商业化和存储业务相关公司的投资敞口。"
+  },
+  {
+    "title": "Defiance 隆重推出歐洲首個記憶體 UCITS ETF (DRAM)",
+    "url": "https://www.globenewswire.com/news-release/2026/06/20/3314927/0/zh-hant/Defiance-%E9%9A%86%E9%87%8D%E6%8E%A8%E5%87%BA%E6%AD%90%E6%B4%B2%E9%A6%96%E5%80%8B%E8%A8%98%E6%86%B6%E9%AB%94-UCITS-ETF-DRAM.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-20T09:43:00+00:00",
+    "raw_text": "邁阿密, June 20, 2026 (GLOBE NEWSWIRE) -- Defiance ETFs 隆重宣佈推出歐洲首個記憶體 ETF——Defiance Memory UCITS ETF（股票代號：DRAM）。 此基金旨在讓投資者參與投資於記憶體半導體及數據儲存系統開發、製造、商業化及儲存等範疇的企業。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "邁阿密, June 20, 2026 (GLOBE NEWSWIRE) -- Defiance ETFs 隆重宣佈推出歐洲首個記憶體 ETF——Defiance Memory UCITS ETF（股票代號：DRAM）。 此基金旨在讓投資者參與投資於記憶體半導體及數據儲存系統開發、製造、商業化及儲存等範疇的企業。"
+  },
+  {
+    "title": "ディファイアンス、欧州初のメモリUCITS ETF (DRAM) を上場",
+    "url": "https://www.globenewswire.com/news-release/2026/06/20/3314927/0/ja/%E3%83%87%E3%82%A3%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B9-%E6%AC%A7%E5%B7%9E%E5%88%9D%E3%81%AE%E3%83%A1%E3%83%A2%E3%83%AAUCITS-ETF-DRAM-%E3%82%92%E4%B8%8A%E5%A0%B4.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-20T09:43:00+00:00",
+    "raw_text": "マイアミ発, June 20, 2026 (GLOBE NEWSWIRE) -- ディファイアンスETFs (Defiance ETFs) は、欧州初のメモリETFであるディファイアンス・メモリUCITS ETF (Defiance Memory UCITS ETF) (ティッカー: DRAM) のローンチを発表する。 本ファンドは、メモリ半導体およびデータストレージシステムの開発、製造、商品化、保管に携わる企業への投資機会の提供を目指す。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "マイアミ発, June 20, 2026 (GLOBE NEWSWIRE) -- ディファイアンスETFs (Defiance ETFs) は、欧州初のメモリETFであるディファイアンス・メモリUCITS ETF (Defiance Memory UCITS ETF) (ティッカー: DRAM) のローンチを発表する。 本ファンドは、メモリ半導体およびデータストレージシステムの開発、製造、商品化、保管に携わる企業への投資機会の提供を目指す。"
+  },
+  {
+    "title": "Defiance Mengumumkan Pelancaran ETF UCITS Memori Pertama di Eropah (DRAM)",
+    "url": "https://www.globenewswire.com/news-release/2026/06/20/3314927/0/ms/Defiance-Mengumumkan-Pelancaran-ETF-UCITS-Memori-Pertama-di-Eropah-DRAM.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-20T09:43:00+00:00",
+    "raw_text": "MIAMI, June 20, 2026 (GLOBE NEWSWIRE) -- Defiance ETFs dengan sukacitanya mengumumkan pelancaran Defiance Memory UCITS ETF (kod dagangan: DRAM), iaitu ETF memori pertama di Eropah. Dana ini bertujuan untuk memberikan pendedahan kepada syarikat yang terlibat dalam pembangunan, pembuatan, pengkomersialan serta penyimpanan semikonduktor memori dan sistem storan data.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "MIAMI, June 20, 2026 (GLOBE NEWSWIRE) -- Defiance ETFs dengan sukacitanya mengumumkan pelancaran Defiance Memory UCITS ETF (kod dagangan: DRAM), iaitu ETF memori pertama di Eropah. Dana ini bertujuan untuk memberikan pendedahan kepada syarikat yang terlibat dalam pembangunan, pembuatan, pengkomersialan serta penyimpanan semikonduktor memori dan sistem storan data."
+  },
+  {
+    "title": "Defiance, 유럽 최초의 메모리 UCITS ETF ‘DRAM’ 출시",
+    "url": "https://www.globenewswire.com/news-release/2026/06/20/3314927/0/ko/Defiance-%EC%9C%A0%EB%9F%BD-%EC%B5%9C%EC%B4%88%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-UCITS-ETF-DRAM-%EC%B6%9C%EC%8B%9C.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-20T09:43:00+00:00",
+    "raw_text": "마이애미, June 20, 2026 (GLOBE NEWSWIRE) -- , June 19, 2026 (GLOBE NEWSWIRE) -- Defiance ETFs가 유럽 최초의 메모리 반도체 ETF인 Defiance Memory UCITS ETF(티커: DRAM)를 출시했다고 발표했다. 이 펀드는 메모리 반도체 및 데이터 저장 시스템의 개발, 제조, 상용화, 저장 기술과 관련된 기업들에 투자 기회를 제공하는 것을 목표로 한다.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "마이애미, June 20, 2026 (GLOBE NEWSWIRE) -- , June 19, 2026 (GLOBE NEWSWIRE) -- Defiance ETFs가 유럽 최초의 메모리 반도체 ETF인 Defiance Memory UCITS ETF(티커: DRAM)를 출시했다고 발표했다. 이 펀드는 메모리 반도체 및 데이터 저장 시스템의 개발, 제조, 상용화, 저장 기술과 관련된 기업들에 투자 기회를 제공하는 것을 목표로 한다."
   },
   {
     "title": "Pet Wearable Market Size to Hit $16.7 Billion by 2035 | Research by SNS Insider",
@@ -4161,81 +3980,5 @@
       ]
     },
     "summary": "The openings further expand Saia’s Midwest presence and strengthen its service capabilities across the region The openings further expand Saia’s Midwest presence and strengthen its service capabilities across the region"
-  },
-  {
-    "title": "More Adults Are Turning to Better Sleep Hygiene in a Phone-Free Bedtime Environment",
-    "url": "https://www.globenewswire.com/news-release/2026/06/19/3314853/0/en/More-Adults-Are-Turning-to-Better-Sleep-Hygiene-in-a-Phone-Free-Bedtime-Environment.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-19T16:44:00+00:00",
-    "raw_text": "Improve your sleep hygiene with Sleenova SoundMask. Our phone-free, wearable system blocks light and plays custom audio for deep, distraction-free rest.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Improve your sleep hygiene with Sleenova SoundMask. Our phone-free, wearable system blocks light and plays custom audio for deep, distraction-free rest."
-  },
-  {
-    "title": "Red Chris Mine Receives Major Regulatory Authorizations for Block Cave Project",
-    "url": "https://www.globenewswire.com/news-release/2026/06/19/3314844/0/en/Red-Chris-Mine-Receives-Major-Regulatory-Authorizations-for-Block-Cave-Project.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-19T16:16:00+00:00",
-    "raw_text": "VANCOUVER, British Columbia, June 19, 2026 (GLOBE NEWSWIRE) -- Imperial Metals Corporation (“Imperial”) (TSX:III) is pleased to report that the Province of British Columbia has granted key authorizations approving the transition of Red Chris from open pit operations to a block cave mine. The authorization of an amended Environmental Assessment Certificate, following a consent-based framework with the Tahltan Nation, and an amended Mines Act authorization effectively permit an extension of mine life into the mid-2040s.",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "regulatory"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "VANCOUVER, British Columbia, June 19, 2026 (GLOBE NEWSWIRE) -- Imperial Metals Corporation (“Imperial”) (TSX:III) is pleased to report that the Province of British Columbia has granted key authorizations approving the transition of Red Chris from open pit operations to a block cave mine. The authorization of an amended Environmental Assessment Certificate, following a consent-based framework with the Tahltan Nation, and an amended Mines Act authorization effectively permit an extension of mine life into the mid-2040s."
-  },
-  {
-    "title": "Playing For Change Unites Global Voices for Mother Earth with New Song Around The World, “Acontecer”",
-    "url": "https://www.globenewswire.com/news-release/2026/06/19/3314827/0/en/Playing-For-Change-Unites-Global-Voices-for-Mother-Earth-with-New-Song-Around-The-World-Acontecer.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-19T16:00:00+00:00",
-    "raw_text": "“Mamazonia” is calling and music is answering with a powerful new anthem for Mother Earth—\"Acontecer\" Song Around The World.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "“Mamazonia” is calling and music is answering with a powerful new anthem for Mother Earth—\"Acontecer\" Song Around The World."
-  },
-  {
-    "title": "SmallBizSEO Expands SEO Services to Help Local Businesses Increase Visibility Across Google and AI-Powered Search Platforms",
-    "url": "https://www.globenewswire.com/news-release/2026/06/19/3314823/0/en/SmallBizSEO-Expands-SEO-Services-to-Help-Local-Businesses-Increase-Visibility-Across-Google-and-AI-Powered-Search-Platforms.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-19T15:48:00+00:00",
-    "raw_text": "Data-backed SEO strategies help local and service-based businesses improve Google rankings, increase AI search visibility, and attract qualified leads. Data-backed SEO strategies help local and service-based businesses improve Google rankings, increase AI search visibility, and attract qualified leads.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "Data-backed SEO strategies help local and service-based businesses improve Google rankings, increase AI search visibility, and attract qualified leads. Data-backed SEO strategies help local and service-based businesses improve Google rankings, increase AI search visibility, and attract qualified leads."
-  },
-  {
-    "title": "MILESEEY Opens Pre-Orders for the S50C, the World's Premier Outdoor Green Laser Measure with Next-Level Precision",
-    "url": "https://www.globenewswire.com/news-release/2026/06/19/3314812/0/en/MILESEEY-Opens-Pre-Orders-for-the-S50C-the-World-s-Premier-Outdoor-Green-Laser-Measure-with-Next-Level-Precision.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-19T15:00:00+00:00",
-    "raw_text": "MILESEEY Opens Pre-Orders for the S50C, the World's Premier Outdoor Green Laser Measure with Next-Level Precision",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "MILESEEY Opens Pre-Orders for the S50C, the World's Premier Outdoor Green Laser Measure with Next-Level Precision"
   }
 ]
