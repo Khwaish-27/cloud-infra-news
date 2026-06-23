@@ -1,10 +1,26 @@
 [
   {
+    "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+    "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+    "source": "The Hacker News",
+    "published": "2026-06-23T05:38:40+00:00",
+    "raw_text": "Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Management (RMM) software. Per findings from Kaspersky, the active campaign is targeting users of WhatsApp Desktop and WhatsApp Web across Malaysia, Brazil, India, Mexico, Singapore, the U.K., Spain, Taiwan, Australia,",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "Direct messages sent via WhatsApp are being used to distribute malicious Visual Basic Script (VBScript) files that lead to the installation of legitimate Remote Monitoring and Management (RMM) software. Per findings from Kaspersky, the active campaign is targeting users of WhatsApp Desktop and WhatsApp Web across Malaysia, Brazil, India, Mexico, Singapore, the U.K., Spain, Taiwan, Australia,"
+  },
+  {
     "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
     "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
     "source": "The Hacker News",
     "published": "2026-06-23T03:56:58+00:00",
-    "raw_text": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative, the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to identify",
+    "raw_text": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to",
     "categories": [
       "Cybersecurity",
       "Cloud Infrastructure",
@@ -22,7 +38,7 @@
         "expands"
       ]
     },
-    "summary": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative, the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to identify"
+    "summary": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to"
   },
   {
     "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
@@ -898,7 +914,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/python-udf-in-bigquery-now-generally-available/",
     "source": "Google Cloud Blog",
     "published": "2026-06-22T17:00:00+00:00",
-    "raw_text": "SQL is the industry standard for high-performance structured data analysis. However, expressing complex procedural logic, scientific computations, advanced string manipulations, or machine learning workflows in pure SQL can be highly challenging, if not impossible. That kind of work is better done with Python. Data practitioners often take on additional infrastructure management tasks — maintaining custom images and containers, and working with additional compute services — just to run simple helper functions with custom Python code and libraries. Today, we are thrilled to announce the general availability (GA) of BigQuery Managed Python User-Defined Functions (UDFs) . This launch represents a major milestone in BigQuery’s extensibility strategy, allowing data scientists, engineers, and analysts to execute custom Python code directly and securely inside BigQuery using standard SQL queries or BigQuery DataFrames (BigFrames) in Python. With this release, Python UDFs are fully supported for production enterprise workloads and completely integrated into BigQuery's billing SKUs. Bridging SQL and the Rich Python Ecosystem BigQuery Managed Python UDFs run on BigQuery-managed serverless resources that automatically scales to billions of rows, without having to set up infrastructure or manage containers. BigQuery automatically handles the compilation, image building, security patching, deployment, and execution of your Python code, making it super simple to use Python functions in your SQL. Core benefits Flexibility: Access the vast Python ecosystem — including top-tier scientific and mathematical libraries like NumPy, SciPy, pandas, scikit-learn and more — directly in your SQL select statements. Tight external API integration: Clean and enrich your BigQuery tables in real time by calling external web APIs or Google Cloud services such as Cloud Translation, Gemini Enterprise Agent Platform or custom microservices securely within your queries. Fully managed and serverless: BigQuery handles the underlying container infrastructure and auto-scales performance dynamically. Code example Here is an example of a Python UDF that utilizes a popular Python package — beautifulsoup — to remove HTML tags. We use this function to process StackOverflow answer bodies that are stored in a BigQuery public table: code_block <ListValue: [StructValue([('code', 'CREATE OR REPLACE FUNCTION `your_project.your_dataset.clean_html`(html_content STRING)\\r\\nRETURNS STRING\\r\\nLANGUAGE python\\r\\nOPTIONS (\\r\\n runtime_version = \\'python-3.11\\',\\r\\n entry_point = \\'strip_tags\\',\\r\\n packages = [\\'beautifulsoup4>=4.12.0\\']\\r\\n) AS r\\'\\'\\'\\r\\nfrom bs4 import BeautifulSoup\\r\\n\\r\\ndef strip_tags(html_content):\\r\\n if not html_content:\\r\\n return \"\"\\r\\n soup = BeautifulSoup(html_content, \"html.parser\")\\r\\n return soup.get_text(separator=\" \")\\r\\n\\'\\'\\';'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fed031a2d00>)])]> How to query it: code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n id, \\r\\n `your_project.your_dataset.clean_html`(body) AS cleaned_answer_body\\r\\nFROM \\r\\n `bigquery-public-data.stackoverflow.posts_answers`\\r\\nLIMIT 100'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fed031a2c10>)])]> Advanced capabilities For advanced users, Python UDF adds a set of capabilities to tune the performance as well as monitor the usage. Here are some examples. Vectorized processing with Pandas PyArrow To maximize throughput, the GA release supports direct processing of vectorized input as PyArrow RecordBatches. By processing columns of data in bulk rather than row-by-row, PyArrow eliminates Python serialization and conversion overhead, boosting performance by up to 10x for data-intensive calculations. Configurable container resources For heavy-duty data science and ML data preparation, you can now provision container memory (up to 16 GB) and CPU (up to 4 vCPUs) per function. This enables memory-intensive workloads (such as loading large serialized models or geospatial datasets) to run directly within the sandbox. Customizable concurrency Optimize your throughput and resource efficiency by configuring concurrent requests per container (up to 1,000 concurrent operations). This helps ensure that your scale-out execution is highly cost-effective and performs exceptionally well under heavy parallel loads. Streaming logs and real-time metrics Easily d ebug and monitor your production workloads. The BigQuery console now features a direct link from your query results to real-time CPU, memory, and concurrency metrics in Cloud Monitoring. Billing BigQuery Managed Python UDF are billed with BigQuery Services SKU . This SKU is fully eligible for BigQuery spend commitment-based usage discounts (CUDs) , allowing you to maximize budget efficiency. You can also get cost observability through INFORMATION_SCHEMA.JOBS as well as using billing labels MANAGED_ROUTINE_EXECUTION and MANAGED_ROUTINE_BUILD ). See more details in the Pricing section of the documentation. Getting started To get started with BigQuery Python UDFs, first check out product documentation . Then, try out the functions published in the public BigQuery dataset. For example, run the following code in a BigQuery project to tokenize country names data from BigQuery public data. Under the hood, the token UDF utilizes the o200k_base tokenizer library. code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n country_code,\\r\\n country_name,\\r\\n `bigquery-public-data`.python_udfs.tokenize(country_name) AS name_tokens,\\r\\n ARRAY_LENGTH(`bigquery-public-data`.python_udfs.tokenize(country_name)) AS token_count\\r\\nFROM \\r\\n `bigquery-public-data.census_bureau_international.country_names_area`\\r\\nORDER BY \\r\\n country_name'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fed031a2700>)])]> Or, try out this code lab to explore some advanced scenarios. Then, to learn how to implement other advanced design patterns, we encourage you to explore our official public documentation guides: Calling Google Cloud or online services (with connections): To connect to first-party Google Cloud services such as Gemini Enterprise Agent Platform or Cloud Translation, or external API endpoints securely using Cloud Resource connections, - check out the Call Google Cloud or online services in Python code guide . BigQuery DataFrames (BigFrames) Python UDFs: To learn how to write, deploy, and scale custom Python functions natively from standard Jupyter notebook or Colab environments using BigQuery DataFrames, visit the Customize Python functions for BigQuery DataFrames guide . Bring your Python workflows out of isolation and directly into the heart of your data warehouse today!",
+    "raw_text": "SQL is the industry standard for high-performance structured data analysis. However, expressing complex procedural logic, scientific computations, advanced string manipulations, or machine learning workflows in pure SQL can be highly challenging, if not impossible. That kind of work is better done with Python. Data practitioners often take on additional infrastructure management tasks — maintaining custom images and containers, and working with additional compute services — just to run simple helper functions with custom Python code and libraries. Today, we are thrilled to announce the general availability (GA) of BigQuery Managed Python User-Defined Functions (UDFs) . This launch represents a major milestone in BigQuery’s extensibility strategy, allowing data scientists, engineers, and analysts to execute custom Python code directly and securely inside BigQuery using standard SQL queries or BigQuery DataFrames (BigFrames) in Python. With this release, Python UDFs are fully supported for production enterprise workloads and completely integrated into BigQuery's billing SKUs. Bridging SQL and the Rich Python Ecosystem BigQuery Managed Python UDFs run on BigQuery-managed serverless resources that automatically scales to billions of rows, without having to set up infrastructure or manage containers. BigQuery automatically handles the compilation, image building, security patching, deployment, and execution of your Python code, making it super simple to use Python functions in your SQL. Core benefits Flexibility: Access the vast Python ecosystem — including top-tier scientific and mathematical libraries like NumPy, SciPy, pandas, scikit-learn and more — directly in your SQL select statements. Tight external API integration: Clean and enrich your BigQuery tables in real time by calling external web APIs or Google Cloud services such as Cloud Translation, Gemini Enterprise Agent Platform or custom microservices securely within your queries. Fully managed and serverless: BigQuery handles the underlying container infrastructure and auto-scales performance dynamically. Code example Here is an example of a Python UDF that utilizes a popular Python package — beautifulsoup — to remove HTML tags. We use this function to process StackOverflow answer bodies that are stored in a BigQuery public table: code_block <ListValue: [StructValue([('code', 'CREATE OR REPLACE FUNCTION `your_project.your_dataset.clean_html`(html_content STRING)\\r\\nRETURNS STRING\\r\\nLANGUAGE python\\r\\nOPTIONS (\\r\\n runtime_version = \\'python-3.11\\',\\r\\n entry_point = \\'strip_tags\\',\\r\\n packages = [\\'beautifulsoup4>=4.12.0\\']\\r\\n) AS r\\'\\'\\'\\r\\nfrom bs4 import BeautifulSoup\\r\\n\\r\\ndef strip_tags(html_content):\\r\\n if not html_content:\\r\\n return \"\"\\r\\n soup = BeautifulSoup(html_content, \"html.parser\")\\r\\n return soup.get_text(separator=\" \")\\r\\n\\'\\'\\';'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f7f633e5b50>)])]> How to query it: code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n id, \\r\\n `your_project.your_dataset.clean_html`(body) AS cleaned_answer_body\\r\\nFROM \\r\\n `bigquery-public-data.stackoverflow.posts_answers`\\r\\nLIMIT 100'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f7f633e5700>)])]> Advanced capabilities For advanced users, Python UDF adds a set of capabilities to tune the performance as well as monitor the usage. Here are some examples. Vectorized processing with Pandas PyArrow To maximize throughput, the GA release supports direct processing of vectorized input as PyArrow RecordBatches. By processing columns of data in bulk rather than row-by-row, PyArrow eliminates Python serialization and conversion overhead, boosting performance by up to 10x for data-intensive calculations. Configurable container resources For heavy-duty data science and ML data preparation, you can now provision container memory (up to 16 GB) and CPU (up to 4 vCPUs) per function. This enables memory-intensive workloads (such as loading large serialized models or geospatial datasets) to run directly within the sandbox. Customizable concurrency Optimize your throughput and resource efficiency by configuring concurrent requests per container (up to 1,000 concurrent operations). This helps ensure that your scale-out execution is highly cost-effective and performs exceptionally well under heavy parallel loads. Streaming logs and real-time metrics Easily d ebug and monitor your production workloads. The BigQuery console now features a direct link from your query results to real-time CPU, memory, and concurrency metrics in Cloud Monitoring. Billing BigQuery Managed Python UDF are billed with BigQuery Services SKU . This SKU is fully eligible for BigQuery spend commitment-based usage discounts (CUDs) , allowing you to maximize budget efficiency. You can also get cost observability through INFORMATION_SCHEMA.JOBS as well as using billing labels MANAGED_ROUTINE_EXECUTION and MANAGED_ROUTINE_BUILD ). See more details in the Pricing section of the documentation. Getting started To get started with BigQuery Python UDFs, first check out product documentation . Then, try out the functions published in the public BigQuery dataset. For example, run the following code in a BigQuery project to tokenize country names data from BigQuery public data. Under the hood, the token UDF utilizes the o200k_base tokenizer library. code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n country_code,\\r\\n country_name,\\r\\n `bigquery-public-data`.python_udfs.tokenize(country_name) AS name_tokens,\\r\\n ARRAY_LENGTH(`bigquery-public-data`.python_udfs.tokenize(country_name)) AS token_count\\r\\nFROM \\r\\n `bigquery-public-data.census_bureau_international.country_names_area`\\r\\nORDER BY \\r\\n country_name'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f7f633e5160>)])]> Or, try out this code lab to explore some advanced scenarios. Then, to learn how to implement other advanced design patterns, we encourage you to explore our official public documentation guides: Calling Google Cloud or online services (with connections): To connect to first-party Google Cloud services such as Gemini Enterprise Agent Platform or Cloud Translation, or external API endpoints securely using Cloud Resource connections, - check out the Call Google Cloud or online services in Python code guide . BigQuery DataFrames (BigFrames) Python UDFs: To learn how to write, deploy, and scale custom Python functions natively from standard Jupyter notebook or Colab environments using BigQuery DataFrames, visit the Customize Python functions for BigQuery DataFrames guide . Bring your Python workflows out of isolation and directly into the heart of your data warehouse today!",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -979,6 +995,64 @@
     ],
     "matched_keywords": {},
     "summary": "By rearchitecting the Images binding, we accidentally uncovered a bug that existed in the open-source hyper library across multiple major versions."
+  },
+  {
+    "title": "Cybersecurity is no longer about protection. It’s about survival.",
+    "url": "https://www.csoonline.com/article/4188186/cybersecurity-is-no-longer-about-protection-its-about-survival.html",
+    "source": "CSO Online",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "For years, cybersecurity professionals have been repeating the same warning: Every company will eventually be breached. Fine. Let’s accept that. Then why do so many organizations still behave as if the near sole purpose of cybersecurity is to prevent the breach from ever happening? That is the contradiction at the heart of modern cybersecurity strategy. We say, “Assume the breach,” but we budget, govern, architect, and rehearse as if the wall will hold. We tell boards compromise is inevitable, then ask for more money to make the wall higher, thicker, smarter, and more AI-enabled. We buy more tools. We tune more dashboards. We polish the gate. We call it maturity. And then, when the wall of our gloriously protected city cracks, it turns out that half the city has no food, no command structure, no working roads, no backup water supply, and no idea who is supposed to organize the response. That is not security. Or at least, it should no longer be understood as security. Pure prevention is the past The age of having a pure prevention focus has ended. Not because prevention is dead. That would be a childish argument. WAFs matter. MFA matters. Patching matters. Hardening matters. The familiar machinery still matters: hardened systems, sane configurations, patching discipline, identity controls, endpoint visibility, email defenses, logging, segmentation, and the rest of the security plumbing. Nobody serious is suggesting we kick open the gates and invite the attackers in. But prevention alone is no longer a credible operating model. It no longer works as the primary focal point. The strategic question is no longer simply, “Can we stop the attack?” The better question is, “Can the organization continue to function when the attack succeeds?” That is the shift. Cybersecurity is not primarily about protection anymore. It is about survival. Survival means breach readiness. It means continuity. It means recoverability. It means identity restoration when the identity provider is compromised. It means knowing which systems can be rebuilt cleanly and which ones are held together by duct tape, vendor promises, and one engineer we are all praying will never retire. It means backup integrity, crisis governance, legal and communications alignment, supplier fallback, product resilience, clean deployment pipelines, tested incident response, and executives who understand that cyber risk is not a quarterly awareness slide. Survival means designing organizations that can absorb breach, disruption, AI acceleration, supplier failure, regulatory pressure, and systemic shock without collapsing entirely. This is not just philosophy. The world is moving there whether companies enjoy the view or not. The critical question In Europe, under the EU legislative umbrella, cyber resilience is becoming explicit regulatory language. DORA makes digital operational resilience a serious financial-sector obligation. NIS2 widens the net around essential and important entities. The Cyber Resilience Act pushes security into the lifecycle of products with digital elements, from planning and design to development and maintenance. Europe, in its very European way, is saying: You shall be resilient, and there shall be paperwork . The US is taking a different, perhaps more laissez-faire path. It is pushing accountability through disclosure, enforcement, sector rules, procurement pressure, and public-private nudging. The SEC wants material cyber risk and incidents visible to investors. CIRCIA aims to force critical infrastructure operators to report substantial incidents and ransom payments. CISA pushes Secure by Design pledges . All that sounds good. But there is a catch, and it lies in the unresolved question of criticality. Critical for whom? Critical for the government? For consumers? For markets? For the company’s customers? Critical for a supply chain that no regulator has fully mapped because the economy now runs on a cesspool of unmanaged SaaS dependencies? Europe is increasingly trying to define resilience as an obligation. The US, more characteristically, is trying to produce accountability through disclosure, enforcement, procurement pressure, and market signaling. The problem is that market signaling collapses when nobody wants to admit they are part of the market’s critical nervous system. This is where the comfortable policy language starts to wobble. “Critical infrastructure” is treated as if it were a natural category. It is not natural. It is political, legal, economic, operational, and worst of all, highly fluid. Companies are trying to avoid being seen as critical when the label brings obligations, reporting duties, scrutiny, liability, and expense. That is not cynicism. That is incentives doing what incentives do: rewarding ambiguity, punishing transparency, and giving everyone a reason to stay conveniently uncritical until the blast radius proves otherwise. The deeper issue is not only critical infrastructure. It is critical dependency. A company may not be critical to the state, but it may be critical to every customer that relies on it. A vendor may avoid the regulatory label, but not the blast radius. A minor-looking SaaS provider, identity layer, CI/CD platform, payment processor, LLM tool, MSP, open-source package, or API gateway can become the point where hundreds of organizations discover that their business continuity plan was a PDF bundled in mindless optimism. This is why voluntary pledges are useful but insufficient. They create norms and language. They help responsible companies signal intent. But a pledge is not a control. A pledge without evidence, enforcement, procurement consequences, customer pressure, or liability is policy theater with potential. Better than silence, yes. Better than mandatory resilience? Not even close. And then AI permeates the world as an accelerant poured across the entire problem. The AI uprising AI compresses time. It lowers attacker skill barriers . It improves phishing, reconnaissance, exploit development, malware support, impersonation, fraud, and social engineering. It also expands the attack surface inside companies through shadow AI , AI agents , sensitive data leakage, automated decisions, insecure integrations, and systems that can act without anyone fully understanding how far their permissions reach . The uncomfortable part is that defenders need AI, too. Nobody is going to manually out-click, out-triage, and out-correlate machine-speed attacks with heroic analysts and vibes. Defensive AI is necessary. AI-assisted testing is necessary. Runtime analysis is becoming more important . Agentic security workflows will grow . Humans matter, of course, but they will need to move from being button-pushers to decision-makers, validators, and designers of boundaries. Recent Mythos revelation, whatever one thinks of it, exposed the broader truth : AI is not merely another asset to secure. It changes the tempo of security. It changes what “timely” means. If attackers can move from discovery to exploitation faster than a company can schedule a change committee meeting, prevention-first chest-thumping becomes blind, brainless bravado. Consequently, that is also where application security becomes central, but not in the narrow old sense. AppSec shows the way AppSec has traditionally been treated as prevention: find bugs, fix bugs, block exploit paths, test before release, scan the API, harden the app, stop the vulnerability from becoming an incident. That is still true. But modern AppSec is also resilience. Secure-by-design systems fail less catastrophically. Well-tested applications reduce blast radius. Strong API authorization protects business logic when identity is abused. Good software supply-chain controls make recovery possible because you know what you shipped, where it came from, and whether you can trust it. Continuous testing shortens the time between exposure and correction. Runtime visibility tells you what is actually happening, not what the architecture diagram claimed would happen in calmer weather. The mature AppSec question is no longer only whether a vulnerability exists. It is how quickly the organization can discover exposure, validate exploitability, prioritize business impact, reduce blast radius, and prove the fix actually reduced risk. So AppSec is preventive in method, but resilient in strategic value. That matters because the old budget logic still lingers. Many organizations talk about resilience at the board level while still spending and operating like the real work is another tool, another dashboard, another rule, another exception queue, another heroic security team tuning SIEM alerts at midnight. There is a widening gap between the talk and the walk. The talk says resilience. The walk still mainly says prevention, compliance, and hope. Resilience becomes duty This is not to mock prevention. Prevention is valuable. It reduces noise and buys time. It blocks commodity attacks. Prevention keeps the easy doors closed and the lazy criminals moving. Good. Keep it. Fund it. Improve it. But stop pretending it is the whole castle. At some point, reinforcing the gate drains us of good iron. Or cash, as may be the case. The cannon is already here. Sometimes the cannon is ransomware. Sometimes it is a supplier compromise. Sometimes it is an AI-assisted vulnerability chain. Sometimes it is a cloud identity failure. Sometimes it is a security vendor update that helpfully demonstrates the concept of systemic risk by taking half the planet down before breakfast. The organizations that survive will not be the ones with the prettiest walls. They will be the ones that know what happens when the walls fail. They will know which services matter most. They will know their dependencies, how to isolate blast radius, how to restore from clean sources. They will know who decides, who communicates, who pays, who informs regulators, who speaks to customers, and who has authority to shut something down before the whole environment becomes a crime scene with invoices. They will practice. Not once a year in a tabletop exercise where everyone nods politely and pretends Legal will respond in real-time. They will practice seriously. They will break assumptions. They will test recovery. They will challenge vendors. They will treat incident response as an organizational muscle, not a binder. This is also where CISO accountability must be discussed honestly . It is easy to demand accountability from the security leader after the fire. It is harder to ask whether the CISO had budget, authority, board access, engineering influence, product leverage, procurement power, and documented risk acceptance before the fire. If a company wants the CISO to be accountable for survival, then the CISO must be empowered to design for survival . Otherwise, accountability is just corporate theater, and the CISO is one person selected in advance to stand under the falling chandelier . The same applies to boards. A board that funds only prevention but expects resilience after failure is not governing cyber risk. It is buying a bucketload of denial. Cybersecurity cannot remain a narrow technical department expected to compensate for fragile business architecture, reckless supplier dependence, poor software practices, underfunded recovery, unclear executive authority, and magical thinking about AI. If cybersecurity is survival, then everyone who shapes organizational resilience shapes cybersecurity. Engineering shapes it. Procurement shapes it. Legal shapes it. Finance, Product, HR, Communications — they all shape it. The board, too, and the CEO. Security may lead the discipline, but it cannot be the only organ responsible for keeping the body alive. That is the point. Not that prevention no longer matters. Not that we should abandon controls and have minstrels sing of resilience while attackers empty the database. The point is that protection is no longer enough to define security . A company that collapses when prevention fails was never truly secure. It was only protected until the first failure. The cybersecurity paradigm of today and tomorrow must be built around survival: surviving breach, surviving disruption, surviving AI acceleration, surviving dependency failure, surviving regulatory scrutiny, and surviving the moment when the neat diagram meets the ugly incident. We still need walls, gates, and guards. But the wall is not the city, nor its citizens. And if the city and the citizens cannot survive after the wall falls, then maybe the wall was never a viable strategy. Maybe it was just a waste of that good iron.",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "saas"
+      ],
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "ransomware",
+        "malware",
+        "vulnerability",
+        "phishing",
+        "exploit",
+        "data leak",
+        "security",
+        "cyber",
+        "siem",
+        "soc",
+        "incident response",
+        "application security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "regulatory",
+        "dora",
+        "nis2",
+        "policy",
+        "cyber risk"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "expands",
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "For years, cybersecurity professionals have been repeating the same warning: Every company will eventually be breached. Fine. Let’s accept that. Then why do so many organizations still behave as if the near sole purpose of cybersecurity is to prevent the breach from ever happening?"
   },
   {
     "title": "Change your cyber risk strategy to meet AI threats, Five Eyes countries warn CSOs",
@@ -1251,6 +1325,23 @@
       ]
     },
     "summary": "At Zenith Live 2026 held on 16-17 June in Vienna, Zscaler sharpened a reality that Southeast Asia CIOs and CISOs are already sensing, which are, AI agents are quickly becoming digital workers inside their organisations, while regulators tighten data residency rules and supply‑chain attacks move closer to core business operations. Zscaler’s solution is to extend its Zero Trust Exchange and SASE platform beyond users and workloads to AI agents, unmanaged devices, multi‑cloud workloads, and B2B partners, effectively positioning zero trust as the control plane for secure AI adoption in highly connected, highly regulated markets like Southeast Asia. In my opinion, three moves stand out for Southeast Asia organisations at the AI layer: 1. An AI Broker with an Agent Registry that governs how AI agents talk to data, applications, and other agents, inspecting prompts and responses and enforcing least‑privilege access in real time."
+  },
+  {
+    "title": "Sponsored: Rethinking security for the AI era",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/rethinking-security-for-the-ai-era/",
+    "source": "DataCenterDynamics",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "The threats may not be entirely new, but the stakes have never been higher, says Axis Communications’ Ettiene Van Der Watt",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "The threats may not be entirely new, but the stakes have never been higher, says Axis Communications’ Ettiene Van Der Watt"
   },
   {
     "title": "Microsoft plans 2GW data center campus in Pecos, Texas",
@@ -1548,7 +1639,7 @@
     "summary": "Company has established its foundation cluster in just five months"
   },
   {
-    "title": "Amazon workers testify against data centers, claim they faced backlash at work",
+    "title": "Amazon workers testify in favor of regulating data centers, claim they faced backlash at work",
     "url": "https://www.datacenterdynamics.com/en/news/amazon-workers-testify-against-data-centers-face-backlash-at-work/",
     "source": "DataCenterDynamics",
     "published": "2026-06-22T11:10:00+00:00",
@@ -1600,20 +1691,25 @@
     "summary": "Will impact projects with a capacity of 75MW or more"
   },
   {
-    "title": "Tesla files trademark for modular data center offering",
-    "url": "https://www.datacenterdynamics.com/en/news/tesla-files-trademark-for-modular-data-center-offering/",
-    "source": "DataCenterDynamics",
-    "published": "2026-06-22T10:30:09+00:00",
-    "raw_text": "Company looks to protect Megapod name ahead of potential product launch",
+    "title": "Five Eyes spooks warn AI means infosec incidents can become ‘major operational and financial crises’",
+    "url": "https://www.theregister.com/security/2026/06/23/five-eyes-spooks-warn-ai-means-infosec-incidents-can-become-major-operational-and-financial-crises/5259916",
+    "source": "The Register",
+    "published": "2026-06-23T05:29:41+00:00",
+    "raw_text": "Bosses told to step up and get cybersecurity right",
     "categories": [
-      "Data Centres"
+      "Cybersecurity",
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "data center"
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "ey"
       ]
     },
-    "summary": "Company looks to protect Megapod name ahead of potential product launch"
+    "summary": "Bosses told to step up and get cybersecurity right"
   },
   {
     "title": "India and China are home to 2.9 billion people – and together they bought just 13 million PCs in Q1",
@@ -2669,63 +2765,557 @@
     "summary": "The latest Apple AirTag is finally on sale for Prime Day."
   },
   {
-    "title": "CityUHK (Dongguan) organiza la ceremonia inaugural de graduación de 2026 en CityUHK",
-    "url": "https://www.prnewswire.com/news-releases/cityuhk-dongguan-organiza-la-ceremonia-inaugural-de-graduacion-de-2026-en-cityuhk-302807353.html",
+    "title": "European Library of Information and Culture Built on Penetron Concrete Durability",
+    "url": "https://www.prnewswire.com/news-releases/european-library-of-information-and-culture-built-on-penetron-concrete-durability-302805064.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:23:00+00:00",
-    "raw_text": "HONG KONG, 23 de junio de 2026 /PRNewswire/ -- La Universidad de la Ciudad de Hong Kong (Dongguan) celebró su primera ceremonia de graduación el 22 de junio de 2026. Más de 420 graduados MSc viajaron desde Dongguan a Hong Kong para asistir a la ceremonia, convirtiéndose así en la primera...",
+    "published": "2026-06-23T08:00:00+00:00",
+    "raw_text": "ORLANDO, Fla., June 23, 2026 /PRNewswire/ -- The new European Library of Information and Culture (BEIC) in Milan, Italy was ceremoniously inaugurated on June 30, 2026 and set to go fully online during the following semester. PENETRON ADMIX, a crystalline waterproofing admixture, was...",
     "categories": [
-      "Uncategorised"
+      "Networks"
     ],
-    "matched_keywords": {},
-    "summary": "HONG KONG, 23 de junio de 2026 /PRNewswire/ -- La Universidad de la Ciudad de Hong Kong (Dongguan) celebró su primera ceremonia de graduación el 22 de junio de 2026. Más de 420 graduados MSc viajaron desde Dongguan a Hong Kong para asistir a la ceremonia, convirtiéndose así en la primera..."
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "ORLANDO, Fla., June 23, 2026 /PRNewswire/ -- The new European Library of Information and Culture (BEIC) in Milan, Italy was ceremoniously inaugurated on June 30, 2026 and set to go fully online during the following semester. PENETRON ADMIX, a crystalline waterproofing admixture, was..."
   },
   {
-    "title": "Hanon Systems Supports Youth Education and Talent Development Initiatives Across Global Operations",
-    "url": "https://www.prnewswire.com/news-releases/hanon-systems-supports-youth-education-and-talent-development-initiatives-across-global-operations-302807354.html",
+    "title": "ADIPEC 2026 Technical Conferences attract record submissions in response to rising demand and energy security pressures",
+    "url": "https://www.prnewswire.com/news-releases/adipec-2026-technical-conferences-attract-record-submissions-in-response-to-rising-demand-and-energy-security-pressures-302806800.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:23:00+00:00",
-    "raw_text": "Supports STEM education through partnership with U.S. student robotics team competing in FIRST World Championship Promotes career exploration, strengthens industry-academia collaboration, and encourages outreach initiatives at global sites that foster student interest in STEM subjects and...",
+    "published": "2026-06-23T08:00:00+00:00",
+    "raw_text": "7,261 submissions reinforce ADIPEC's role in advancing technical innovation across the energy sector. AI & Digital Transformation becomes the largest SPE category, up 11.6% year on year. Record Downstream Conference submissions driven by digital transformation and advanced manufacturing...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "digital transformation"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "7,261 submissions reinforce ADIPEC's role in advancing technical innovation across the energy sector. AI & Digital Transformation becomes the largest SPE category, up 11.6% year on year. Record Downstream Conference submissions driven by digital transformation and advanced manufacturing..."
+  },
+  {
+    "title": "Mycom launches AIpulse, transforming CSP decision-making with AI-powered, data-agnostic, real-time executive dashboards",
+    "url": "https://www.prnewswire.com/news-releases/mycom-launches-aipulse-transforming-csp-decision-making-with-ai-powered-data-agnostic-real-time-executive-dashboards-302806725.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T08:00:00+00:00",
+    "raw_text": "LONDON, June 23, 2026 /PRNewswire/ -- Mycom, an Assurance leader offering AI, Data and Automation solutions to some of the world's largest communications service providers (CSPs), today announced AIpulse, a next-generation AI-powered dashboarding application that helps CSPs measure,...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "partnership"
+        "launches",
+        "service provider"
       ]
     },
-    "summary": "Supports STEM education through partnership with U.S. student robotics team competing in FIRST World Championship Promotes career exploration, strengthens industry-academia collaboration, and encourages outreach initiatives at global sites that foster student interest in STEM subjects and..."
+    "summary": "LONDON, June 23, 2026 /PRNewswire/ -- Mycom, an Assurance leader offering AI, Data and Automation solutions to some of the world's largest communications service providers (CSPs), today announced AIpulse, a next-generation AI-powered dashboarding application that helps CSPs measure,..."
   },
   {
-    "title": "Die CityUHK (Dongguan) veranstaltet die erste Abschlussfeier 2026 an der CityUHK",
-    "url": "https://www.prnewswire.com/news-releases/die-cityuhk-dongguan-veranstaltet-die-erste-abschlussfeier-2026-an-der-cityuhk-302807349.html",
+    "title": "Luxshare Precision Releases 2025 Sustainability Report",
+    "url": "https://www.prnewswire.com/news-releases/luxshare-precision-releases-2025-sustainability-report-302807422.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:18:00+00:00",
-    "raw_text": "HONGKONG, 23. Juni 2026 /PRNewswire/ -- Die City University of Hong Kong (Dongguan) veranstaltete am 22. Juni die erste Abschlussfeier 2026 an der City University of Hong Kong. Über 420 MSc-Absolventen reisten von Dongguan nach Hongkong, um an der Abschlussfeier teilzunehmen. Damit...",
+    "published": "2026-06-23T07:31:00+00:00",
+    "raw_text": "NEW YORK, June 23, 2026 /PRNewswire/ -- Luxshare Precision Industry Co., Ltd., has recently released its 2025 Sustainability Report, detailing progress across environmental, social and governance (ESG) priorities and reinforcing its commitment to responsible operations worldwide. The...",
+    "categories": [
+      "GRC",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "GRC": [
+        "governance",
+        "esg"
+      ]
+    },
+    "summary": "NEW YORK, June 23, 2026 /PRNewswire/ -- Luxshare Precision Industry Co., Ltd., has recently released its 2025 Sustainability Report, detailing progress across environmental, social and governance (ESG) priorities and reinforcing its commitment to responsible operations worldwide. The..."
+  },
+  {
+    "title": "TripleLift CTV Campaigns Deliver Up to 26x Industry Benchmarks, Proving the Power of Non-Standard Formats",
+    "url": "https://www.prnewswire.com/news-releases/triplelift-ctv-campaigns-deliver-up-to-26x-industry-benchmarks-proving-the-power-of-non-standard-formats-302807396.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:17:00+00:00",
+    "raw_text": "Analysis from real-world campaigns finds Pause Ads, Social to CTV, and Product Spotlight formats consistently outperform traditional TV spots performance CANNES, France, June 23, 2026 /PRNewswire/ -- TripleLift, the Creative SSP powered by TL Spark, today announced new results from a...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "Analysis from real-world campaigns finds Pause Ads, Social to CTV, and Product Spotlight formats consistently outperform traditional TV spots performance CANNES, France, June 23, 2026 /PRNewswire/ -- TripleLift, the Creative SSP powered by TL Spark, today announced new results from a..."
+  },
+  {
+    "title": "Configit Named as a Sample Vendor in the Gartner® Hype Cycle™ for Digital Commerce, 2026",
+    "url": "https://www.prnewswire.com/news-releases/configit-named-as-a-sample-vendor-in-the-gartner-hype-cycle-for-digital-commerce-2026-302805646.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:03:00+00:00",
+    "raw_text": "Global leader recognized among 11 vendors in the 2026 report COPENHAGEN, Denmark, June 23, 2026 /PRNewswire/ -- Configit, the global leader in Configuration Lifecycle Management (CLM), today announced it has been named as a Sample Vendor in the Gartner Hype Cycle for Digital Commerce,...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "gartner",
+        "vendor"
+      ]
+    },
+    "summary": "Global leader recognized among 11 vendors in the 2026 report COPENHAGEN, Denmark, June 23, 2026 /PRNewswire/ -- Configit, the global leader in Configuration Lifecycle Management (CLM), today announced it has been named as a Sample Vendor in the Gartner Hype Cycle for Digital Commerce,..."
+  },
+  {
+    "title": "Amflow lance Amflow TL Carbon, un VTT électrique entièrement équipé pour tous les scénarios de conduite tout-terrain.",
+    "url": "https://www.prnewswire.com/news-releases/amflow-lance-amflow-tl-carbon-un-vtt-electrique-entierement-equipe-pour-tous-les-scenarios-de-conduite-tout-terrain-302807182.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:01:00+00:00",
+    "raw_text": "Propulsé par Avinox et doté d'une suspension intégrale co-développée avec FOX, le nouveau vélo de randonnée électrique Amflow fait évoluer la marque au-delà des VTTAE traditionnels. SHENZHEN, 23 juin 2026 /PRNewswire/ -- Amflow, la marque de vélos axée sur l'innovation qui vise la fusion...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Propulsé par Avinox et doté d'une suspension intégrale co-développée avec FOX, le nouveau vélo de randonnée électrique Amflow fait évoluer la marque au-delà des VTTAE traditionnels. SHENZHEN, 23 juin 2026 /PRNewswire/ -- Amflow, la marque de vélos axée sur l'innovation qui vise la fusion..."
+  },
+  {
+    "title": "Amflow präsentiert das Amflow TL Carbon, ein voll ausgestattetes SUV-E-Bike für Fahrten auf unterschiedlichstem Terrain",
+    "url": "https://www.prnewswire.com/news-releases/amflow-prasentiert-das-amflow-tl-carbon-ein-voll-ausgestattetes-suv-e-bike-fur-fahrten-auf-unterschiedlichstem-terrain-302807183.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:01:00+00:00",
+    "raw_text": "Angetrieben vom Avinox System und mit einem gemeinsam mit FOX entwickelten Vollfederungsfahrwerk erweitert das neue Touring-E-Bike von Amflow die Marke über das traditionelle E-Mountainbike-Segment hinaus. SHENZHEN, 23. Juni 2026 /PRNewswire/ -- Amflow, die innovationsgetriebene...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "HONGKONG, 23. Juni 2026 /PRNewswire/ -- Die City University of Hong Kong (Dongguan) veranstaltete am 22. Juni die erste Abschlussfeier 2026 an der City University of Hong Kong. Über 420 MSc-Absolventen reisten von Dongguan nach Hongkong, um an der Abschlussfeier teilzunehmen."
+    "summary": "Angetrieben vom Avinox System und mit einem gemeinsam mit FOX entwickelten Vollfederungsfahrwerk erweitert das neue Touring-E-Bike von Amflow die Marke über das traditionelle E-Mountainbike-Segment hinaus. SHENZHEN, 23. Juni 2026 /PRNewswire/ -- Amflow, die innovationsgetriebene..."
   },
   {
-    "title": "CATL Debuts World's First Field-Validated Sodium-Ion BESS, Bringing Sodium Storage to Commercial Reality",
-    "url": "https://www.prnewswire.com/news-releases/catl-debuts-worlds-first-field-validated-sodium-ion-bess-bringing-sodium-storage-to-commercial-reality-302807350.html",
+    "title": "PointsKash Announces Strategic Partnership with BitCorp Inc. to Accelerate Nationwide Merchant Expansion Across More Than 100,000 Potential Locations",
+    "url": "https://www.prnewswire.com/news-releases/pointskash-announces-strategic-partnership-with-bitcorp-inc-to-accelerate-nationwide-merchant-expansion-across-more-than-100-000-potential-locations-302806887.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:18:00+00:00",
-    "raw_text": "MUNICH, June 23, 2026 /PRNewswire/ -- On June 22, 2026, CATL officially unveiled the TENER Sodium Energy Storage System, the world's first real-world validated sodium-ion energy storage solution in Munich, Germany. The solution has reached full commercial maturity across technology,...",
+    "published": "2026-06-23T07:01:00+00:00",
+    "raw_text": "Partnership Includes Existing Enterprise Agreements Representing Approximately 18,500 Locations and Establishes Framework for Significant National Growth BOCA RATON, Fla., June 23, 2026 /PRNewswire/ -- PointsKash, Inc. (\"PointsKash\"), a rapidly emerging financial commerce and loyalty...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "partnership",
+        "announces"
+      ]
+    },
+    "summary": "Partnership Includes Existing Enterprise Agreements Representing Approximately 18,500 Locations and Establishes Framework for Significant National Growth BOCA RATON, Fla., June 23, 2026 /PRNewswire/ -- PointsKash, Inc. (\"PointsKash\"), a rapidly emerging financial commerce and loyalty..."
+  },
+  {
+    "title": "Amflow lanza Amflow TL Carbon",
+    "url": "https://www.prnewswire.com/news-releases/amflow-lanza-amflow-tl-carbon-302807402.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:01:00+00:00",
+    "raw_text": "una bicicleta eléctrica para todo tipo de usos completamente equipada para recorridos todoterreno SHENZHEN, 23 de junio de 2026 /PRNewswire/ -- Amflow, la marca de bicicletas impulsada por la innovación que busca la máxima fusión entre tecnología y mecánica, anuncia hoy su primera...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ipo"
+      ]
+    },
+    "summary": "una bicicleta eléctrica para todo tipo de usos completamente equipada para recorridos todoterreno SHENZHEN, 23 de junio de 2026 /PRNewswire/ -- Amflow, la marca de bicicletas impulsada por la innovación que busca la máxima fusión entre tecnología y mecánica, anuncia hoy su primera..."
+  },
+  {
+    "title": "Innovapptive Appoints Former 3M Executive and TireHub CEO Peter Gibbons to Board of Directors",
+    "url": "https://www.prnewswire.com/news-releases/innovapptive-appoints-former-3m-executive-and-tirehub-ceo-peter-gibbons-to-board-of-directors-302805899.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:01:00+00:00",
+    "raw_text": "Gibbons brings decades of global manufacturing and supply chain expertise from leadership roles at 3M, TireHub, Mattel, and Starbucks to help shape Innovapptive's category-defining \"Industrial Execution\" layer. HOUSTON, June 23, 2026 /PRNewswire/ -- Innovapptive, a leading provider of...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "MUNICH, June 23, 2026 /PRNewswire/ -- On June 22, 2026, CATL officially unveiled the TENER Sodium Energy Storage System, the world's first real-world validated sodium-ion energy storage solution in Munich, Germany. The solution has reached full commercial maturity across technology,..."
+    "summary": "Gibbons brings decades of global manufacturing and supply chain expertise from leadership roles at 3M, TireHub, Mattel, and Starbucks to help shape Innovapptive's category-defining \"Industrial Execution\" layer. HOUSTON, June 23, 2026 /PRNewswire/ -- Innovapptive, a leading provider of..."
   },
   {
-    "title": "Vicuna Air expands In-Cabin Pet Flights to Amsterdam, Frankfurt, and Brussels",
-    "url": "https://www.prnewswire.com/news-releases/vicuna-air-expands-in-cabin-pet-flights-to-amsterdam-frankfurt-and-brussels-302806756.html",
+    "title": "Amflow lancia Amflow TL Carbon, una bicicletta elettrica adatta a ogni scenario e completamente equipaggiata per la guida su ogni tipo di terreno.",
+    "url": "https://www.prnewswire.com/news-releases/amflow-lancia-amflow-tl-carbon-una-bicicletta-elettrica-adatta-a-ogni-scenario-e-completamente-equipaggiata-per-la-guida-su-ogni-tipo-di-terreno-302807185.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:15:00+00:00",
-    "raw_text": "Dogs now fly in the cabin between the United States and four Northern European cities – never in cargo. NEW YORK and LONDON, June 23, 2026 /PRNewswire/ -- Vicuna Air, a London-based private pet aviation company, now operates shared charter flights between the United States and four...",
+    "published": "2026-06-23T07:01:00+00:00",
+    "raw_text": "Grazie all'unità motore Avinox e alla doppia sospensione sviluppata in collaborazione con FOX, la nuova bicicletta elettrica da cicloturismo di Amflow porta il marchio oltre le tradizionali eMTB. SHENZHEN, 23 giugno 2026 /PRNewswire/ -- Amflow, il marchio di biciclette orientato...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ipo"
+      ]
+    },
+    "summary": "Grazie all'unità motore Avinox e alla doppia sospensione sviluppata in collaborazione con FOX, la nuova bicicletta elettrica da cicloturismo di Amflow porta il marchio oltre le tradizionali eMTB. SHENZHEN, 23 giugno 2026 /PRNewswire/ -- Amflow, il marchio di biciclette orientato..."
+  },
+  {
+    "title": "Amflow launches the Amflow TL Carbon, an SUV e-bike fully loaded for all-terrain riding scenario",
+    "url": "https://www.prnewswire.com/news-releases/amflow-launches-the-amflow-tl-carbon-an-suv-e-bike-fully-loaded-for-all-terrain-riding-scenario-302807347.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:01:00+00:00",
+    "raw_text": "Powered by Avinox with full suspension co-developed with FOX, Amflow's new touring e-bike takes the brand beyond traditional eMTBs SHENZHEN, China, June 23, 2026 /PRNewswire/ -- Amflow, the innovation-driven bike brand that pursues the ultimate fusion of technology and mechanics, today...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches",
+        "ey"
+      ]
+    },
+    "summary": "Powered by Avinox with full suspension co-developed with FOX, Amflow's new touring e-bike takes the brand beyond traditional eMTBs SHENZHEN, China, June 23, 2026 /PRNewswire/ -- Amflow, the innovation-driven bike brand that pursues the ultimate fusion of technology and mechanics, today..."
+  },
+  {
+    "title": "AbbVie Announces European Commission Approval of SKYRIZI® (risankizumab) for the Treatment of Pediatric Patients with Moderate to Severe Plaque Psoriasis",
+    "url": "https://www.prnewswire.com/news-releases/abbvie-announces-european-commission-approval-of-skyrizi-risankizumab-for-the-treatment-of-pediatric-patients-with-moderate-to-severe-plaque-psoriasis-302807045.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "SKYRIZI® (risankizumab) expands its indication for children and adolescents six years of age and older with moderate to severe plaque psoriasis1 Approval was based on the pivotal Phase 3 OptIMMize-1 and OptIMMize-2 trials which include a new 55 mg pre-filled syringe to support...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands",
+        "announces"
+      ]
+    },
+    "summary": "SKYRIZI® (risankizumab) expands its indication for children and adolescents six years of age and older with moderate to severe plaque psoriasis1 Approval was based on the pivotal Phase 3 OptIMMize-1 and OptIMMize-2 trials which include a new 55 mg pre-filled syringe to support..."
+  },
+  {
+    "title": "Clarivate Releases 2025 Sustainability Report",
+    "url": "https://www.prnewswire.com/news-releases/clarivate-releases-2025-sustainability-report-302806748.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "New report highlights progress against goals and a decline in total carbon emissions LONDON, June 23, 2026 /PRNewswire/ -- Clarivate Plc (NYSE:CLVT), a leading global provider of transformative intelligence, today released its 2025 Sustainability Report, highlighting continued progress...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "New report highlights progress against goals and a decline in total carbon emissions LONDON, June 23, 2026 /PRNewswire/ -- Clarivate Plc (NYSE:CLVT), a leading global provider of transformative intelligence, today released its 2025 Sustainability Report, highlighting continued progress..."
+  },
+  {
+    "title": "\"All Access hosted by Andy Garcia\" Explores the Human Element of Risk with the Independent Insurance Agents of Wisconsin",
+    "url": "https://www.prnewswire.com/news-releases/all-access-hosted-by-andy-garcia-explores-the-human-element-of-risk-with-the-independent-insurance-agents-of-wisconsin-302805604.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "When Disaster Strikes, Can Code Replace Commitment? LOS ANGELES, June 23, 2026 /PRNewswire/ -- As digital marketplaces obscure the personal value of risk management, a new educational documentary project highlights how independent advisors protect families and businesses when disaster...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "risk management"
+      ]
+    },
+    "summary": "When Disaster Strikes, Can Code Replace Commitment? LOS ANGELES, June 23, 2026 /PRNewswire/ -- As digital marketplaces obscure the personal value of risk management, a new educational documentary project highlights how independent advisors protect families and businesses when disaster..."
+  },
+  {
+    "title": "Narwal Rolls Out the Biggest Prime Day Offer Yet, With Record-Low Prices Across Full Lineup",
+    "url": "https://www.prnewswire.com/news-releases/narwal-rolls-out-the-biggest-prime-day-offer-yet-with-record-low-prices-across-full-lineup-302806329.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "The 2026 Flagship Narwal Flow 2 Debuts at Its Most Accessible Price Point Since Launch NEW YORK, June 23, 2026 /PRNewswire/ -- Narwal, a global leader in smart home cleaning, is unveiling its deepest Prime Day deals to date, running June 23 to June 26, with significant value opportunities...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The 2026 Flagship Narwal Flow 2 Debuts at Its Most Accessible Price Point Since Launch NEW YORK, June 23, 2026 /PRNewswire/ -- Narwal, a global leader in smart home cleaning, is unveiling its deepest Prime Day deals to date, running June 23 to June 26, with significant value opportunities..."
+  },
+  {
+    "title": "Power Metallic reports New Lion drill intercepts of 13.30 Meters of 3.98% CuEqRec¹ in Hole 26-115 and 5.26 Meters of 8.45% CuEqRec¹ in Hole 26-105 at Lion",
+    "url": "https://www.prnewswire.com/news-releases/power-metallic-reports-new-lion-drill-intercepts-of-13-30-meters-of-3-98-cueqrec-in-hole-26-115-and-5-26-meters-of-8-45-cueqrec-in-hole-26-105-at-lion-302807026.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "TORONTO, June 23, 2026 /PRNewswire/ - Power Metallic Mines Inc. (the \"Company\" or \"Power Metallic\") (TSXV: PNPN) (OTCBB: PNPNF) (Frankfurt: IVV1) is pleased to provide additional assay results from its Winter 2026 drill program. Summary These additional assays from Power Metallic's winter...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "TORONTO, June 23, 2026 /PRNewswire/ - Power Metallic Mines Inc. (the \"Company\" or \"Power Metallic\") (TSXV: PNPN) (OTCBB: PNPNF) (Frankfurt: IVV1) is pleased to provide additional assay results from its Winter 2026 drill program. Summary These additional assays from Power Metallic's winter..."
+  },
+  {
+    "title": "Enjoy more security, less worry this Prime Day: EZVIZ rolls out irresistible deals on trusted smart home solutions for greater everyday confidence",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315746/0/en/Enjoy-more-security-less-worry-this-Prime-Day-EZVIZ-rolls-out-irresistible-deals-on-trusted-smart-home-solutions-for-greater-everyday-confidence.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T08:00:00+00:00",
+    "raw_text": "HOOFDDORP, Netherlands, June 23, 2026 (GLOBE NEWSWIRE) -- A safer home often starts with the everyday moments people care about most: knowing who is at the door, checking whether a package has arrived, keeping an eye on the garden, or making sure loved ones and pets are safe indoors. This Prime Day, EZVIZ is making those moments easier to protect，with limited-time savings on trusted smart home products designed to bring greater visibility, convenience and confidence to daily life.",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "HOOFDDORP, Netherlands, June 23, 2026 (GLOBE NEWSWIRE) -- A safer home often starts with the everyday moments people care about most: knowing who is at the door, checking whether a package has arrived, keeping an eye on the garden, or making sure loved ones and pets are safe indoors. This Prime Day, EZVIZ is making those moments easier to protect，with limited-time savings on trusted smart home products designed to bring greater visibility, convenience and confidence to daily life."
+  },
+  {
+    "title": "Profitez de plus de sécurité et de moins d’inquiétudes pendant ce Prime Day: EZVIZ lance des offres irrésistibles sur des solutions de maison intelligente fiables pour plus de sérénité au quotidien",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315746/0/fr/Profitez-de-plus-de-s%C3%A9curit%C3%A9-et-de-moins-d-inqui%C3%A9tudes-pendant-ce-Prime-Day-EZVIZ-lance-des-offres-irr%C3%A9sistibles-sur-des-solutions-de-maison-intelligente-fiables-pour-plus-de-s%C3%A9r%C3%A9n.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T08:00:00+00:00",
+    "raw_text": "HOOFDDORP, Pays-Bas, 23 juin 2026 (GLOBE NEWSWIRE) -- Un foyer plus sûr commence souvent par les moments du quotidien qui comptent le plus pour les personnes : savoir qui est à la porte, vérifier si un colis est arrivé, garder un œil sur le jardin ou s’assurer que les proches et les animaux de compagnie sont en sécurité à l’intérieur. À l’occasion de ce Prime Day, EZVIZ facilite la protection de ces moments grâce à des réductions à durée limitée sur des produits de maison intelligente fiables, conçus pour apporter davantage de visibilité, de praticité et de confiance au quotidien.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "HOOFDDORP, Pays-Bas, 23 juin 2026 (GLOBE NEWSWIRE) -- Un foyer plus sûr commence souvent par les moments du quotidien qui comptent le plus pour les personnes : savoir qui est à la porte, vérifier si un colis est arrivé, garder un œil sur le jardin ou s’assurer que les proches et les animaux de compagnie sont en sécurité à l’intérieur. À l’occasion de ce Prime Day, EZVIZ facilite la protection de ces moments grâce à des réductions à durée limitée sur des produits de maison intelligente fiables, conçus pour apporter davantage de visibilité, de praticité et de confiance au quotidien."
+  },
+  {
+    "title": "Mehr Sicherheit, weniger Sorgen – genießen Sie diesen Prime Day: EZVIZ bietet unwiderstehliche Angebote für bewährte Smart-Home-Lösungen für mehr Sicherheit im Alltag",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315746/0/de/Mehr-Sicherheit-weniger-Sorgen-genie%C3%9Fen-Sie-diesen-Prime-Day-EZVIZ-bietet-unwiderstehliche-Angebote-f%C3%BCr-bew%C3%A4hrte-Smart-Home-L%C3%B6sungen-f%C3%BCr-mehr-Sicherheit-im-Alltag.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T08:00:00+00:00",
+    "raw_text": "HOOFDDORP, Niederlande, June 23, 2026 (GLOBE NEWSWIRE) -- Ein sicheres Zuhause beginnt oft mit den alltäglichen Momenten, die den Menschen besonders wichtig sind: zu wissen, wer vor der Tür steht, zu prüfen, ob ein Paket angekommen ist, den Garten im Blick zu behalten oder sicherzustellen, dass Angehörige und Haustiere im Haus geschützt sind. An diesem Prime Day macht EZVIZ es einfacher, genau diese Momente zu schützen – mit zeitlich begrenzten Preisnachlässen auf bewährte Smart-Home-Produkte, die für mehr Überblick, Komfort und Sicherheit im Alltag sorgen.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "HOOFDDORP, Niederlande, June 23, 2026 (GLOBE NEWSWIRE) -- Ein sicheres Zuhause beginnt oft mit den alltäglichen Momenten, die den Menschen besonders wichtig sind: zu wissen, wer vor der Tür steht, zu prüfen, ob ein Paket angekommen ist, den Garten im Blick zu behalten oder sicherzustellen, dass Angehörige und Haustiere im Haus geschützt sind. An diesem Prime Day macht EZVIZ es einfacher, genau diese Momente zu schützen – mit zeitlich begrenzten Preisnachlässen auf bewährte Smart-Home-Produkte, die für mehr Überblick, Komfort und Sicherheit im Alltag sorgen."
+  },
+  {
+    "title": "In-Store Digital Advertising Display Market Size to Hit USD 12.77 Billion by 2035 | Research by SNS Insider",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315734/0/en/In-Store-Digital-Advertising-Display-Market-Size-to-Hit-USD-12-77-Billion-by-2035-Research-by-SNS-Insider.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:30:00+00:00",
+    "raw_text": "Global In-Store Digital Advertising Display Market Size, Share, Trends & Segmented by Component, Product Type, Technology, End Use & Forecast 2026-2035",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Global In-Store Digital Advertising Display Market Size, Share, Trends & Segmented by Component, Product Type, Technology, End Use & Forecast 2026-2035"
+  },
+  {
+    "title": "VIVI Youth Launches Women’s Methylated Vitamin B Complex Featuring Bioactive B Vitamins",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315729/0/en/VIVI-Youth-Launches-Women-s-Methylated-Vitamin-B-Complex-Featuring-Bioactive-B-Vitamins.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:06:00+00:00",
+    "raw_text": "VIVI Youth launches its BioActive Vitamin B-Complex for Women, featuring methylated B vitamins to support energy metabolism and emotional wellness.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "VIVI Youth launches its BioActive Vitamin B-Complex for Women, featuring methylated B vitamins to support energy metabolism and emotional wellness."
+  },
+  {
+    "title": "Bullbit Launches $BUBI, Building Toward a Comprehensive Ecosystem",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315723/0/en/Bullbit-Launches-BUBI-Building-Toward-a-Comprehensive-Ecosystem.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "No summary available."
+  },
+  {
+    "title": "World Finance Awards 2026 Affirm Trusted, Reliable FX and CFD Trading for Clients Worldwide",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315724/0/en/World-Finance-Awards-2026-Affirm-Trusted-Reliable-FX-and-CFD-Trading-for-Clients-Worldwide.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group secures two global honours at the World Finance Forex Awards, part of the World Finance Awards 2026, recognising the transparency, secure market access, and consistent service its clients rely on across FX and CFD trading. EBC Financial Group secures two global honours at the World Finance Forex Awards, part of the World Finance Awards 2026, recognising the transparency, secure market access, and consistent service its clients rely on across FX and CFD trading.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group secures two global honours at the World Finance Forex Awards, part of the World Finance Awards 2026, recognising the transparency, secure market access, and consistent service its clients rely on across FX and CFD trading. EBC Financial Group secures two global honours at the World Finance Forex Awards, part of the World Finance Awards 2026, recognising the transparency, secure market access, and consistent service its clients rely on across FX and CFD trading."
+  },
+  {
+    "title": "World Finance Awards 2026 认可全球客户值得信赖、可靠的外汇及差价合约交易",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/zh-hans/World-Finance-Awards-2026-%E8%AE%A4%E5%8F%AF%E5%85%A8%E7%90%83%E5%AE%A2%E6%88%B7%E5%80%BC%E5%BE%97%E4%BF%A1%E8%B5%96-%E5%8F%AF%E9%9D%A0%E7%9A%84%E5%A4%96%E6%B1%87%E5%8F%8A%E5%B7%AE%E4%BB%B7%E5%90%88%E7%BA%A6%E4%BA%A4%E6%98%93.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "作为 World Finance Awards 2026 评选大奖之一，World Finance Forex Awards 授予 EBC Financial Group 两项全球荣誉，以表彰其在外汇及差价合约交易领域，为客户提供的透明度、安全市场准入和始终如一的服务。 作为 World Finance Awards 2026 评选大奖之一，World Finance Forex Awards 授予 EBC Financial Group 两项全球荣誉，以表彰其在外汇及差价合约交易领域，为客户提供的透明度、安全市场准入和始终如一的服务。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "作为 World Finance Awards 2026 评选大奖之一，World Finance Forex Awards 授予 EBC Financial Group 两项全球荣誉，以表彰其在外汇及差价合约交易领域，为客户提供的透明度、安全市场准入和始终如一的服务。 作为 World Finance Awards 2026 评选大奖之一，World Finance Forex Awards 授予 EBC Financial Group 两项全球荣誉，以表彰其在外汇及差价合约交易领域，为客户提供的透明度、安全市场准入和始终如一的服务。"
+  },
+  {
+    "title": "World Finance Awards 2026 表揚備受全球客戶信賴而穩妥可靠的外匯及差價合約交易服務",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/zh-hant/World-Finance-Awards-2026-%E8%A1%A8%E6%8F%9A%E5%82%99%E5%8F%97%E5%85%A8%E7%90%83%E5%AE%A2%E6%88%B6%E4%BF%A1%E8%B3%B4%E8%80%8C%E7%A9%A9%E5%A6%A5%E5%8F%AF%E9%9D%A0%E7%9A%84%E5%A4%96%E5%8C%AF%E5%8F%8A%E5%B7%AE%E5%83%B9%E5%90%88%E7%B4%84%E4%BA%A4%E6%98%93%E6%9C%8D%E5%8B%99.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group 於 World Finance Forex Awards (World Finance Awards 2026 旗下獎項) 中勇奪兩項全球大獎，這是表彰該集團在外匯及差價合約交易上，憑藉透明運作、安全准入及穩定服務深得客戶信賴。 EBC Financial Group 於 World Finance Forex Awards (World Finance Awards 2026 旗下獎項) 中勇奪兩項全球大獎，這是表彰該集團在外匯及差價合約交易上，憑藉透明運作、安全准入及穩定服務深得客戶信賴。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group 於 World Finance Forex Awards (World Finance Awards 2026 旗下獎項) 中勇奪兩項全球大獎，這是表彰該集團在外匯及差價合約交易上，憑藉透明運作、安全准入及穩定服務深得客戶信賴。 EBC Financial Group 於 World Finance Forex Awards (World Finance Awards 2026 旗下獎項) 中勇奪兩項全球大獎，這是表彰該集團在外匯及差價合約交易上，憑藉透明運作、安全准入及穩定服務深得客戶信賴。"
+  },
+  {
+    "title": "Les World Finance Awards 2026 saluent la fiabilité et la sécurité des services de trading FX et CFD proposés aux clients du monde entier",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/fr/Les-World-Finance-Awards-2026-saluent-la-fiabilit%C3%A9-et-la-s%C3%A9curit%C3%A9-des-services-de-trading-FX-et-CFD-propos%C3%A9s-aux-clients-du-monde-entier.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group remporte deux distinctions mondiales aux World Finance Forex Awards, dans le cadre des World Finance Awards 2026, récompensant la transparence, l’accès sécurisé aux marchés et la qualité de service constante sur lesquels ses clients s’appuient pour leurs opérations de trading FX et CFD. EBC Financial Group remporte deux distinctions mondiales aux World Finance Forex Awards, dans le cadre des World Finance Awards 2026, récompensant la transparence, l’accès sécurisé aux marchés et la qualité de service constante sur lesquels ses clients s’appuient pour leurs opérations de trading FX et CFD.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group remporte deux distinctions mondiales aux World Finance Forex Awards, dans le cadre des World Finance Awards 2026, récompensant la transparence, l’accès sécurisé aux marchés et la qualité de service constante sur lesquels ses clients s’appuient pour leurs opérations de trading FX et CFD. EBC Financial Group remporte deux distinctions mondiales aux World Finance Forex Awards, dans le cadre des World Finance Awards 2026, récompensant la transparence, l’accès sécurisé aux marchés et la qualité de service constante sur lesquels ses clients s’appuient pour leurs opérations de trading FX et CFD."
+  },
+  {
+    "title": "World Finance Awards 2026 bestätigen transparenten und verlässlichen Devisen- und CFD-Handel für Kunden weltweit",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/de/World-Finance-Awards-2026-best%C3%A4tigen-transparenten-und-verl%C3%A4sslichen-Devisen-und-CFD-Handel-f%C3%BCr-Kunden-weltweit.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "Die EBC Financial Group erhält im Rahmen der World Finance Awards 2026 zwei globale Auszeichnungen bei den World Finance Forex Awards. Gewürdigt werden damit die Transparenz, der sichere Marktzugang und der verlässliche Service, auf den Kunden beim Devisen- und CFD-Handel vertrauen. Die EBC Financial Group erhält im Rahmen der World Finance Awards 2026 zwei globale Auszeichnungen bei den World Finance Forex Awards. Gewürdigt werden damit die Transparenz, der sichere Marktzugang und der verlässliche Service, auf den Kunden beim Devisen- und CFD-Handel vertrauen.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Die EBC Financial Group erhält im Rahmen der World Finance Awards 2026 zwei globale Auszeichnungen bei den World Finance Forex Awards. Gewürdigt werden damit die Transparenz, der sichere Marktzugang und der verlässliche Service, auf den Kunden beim Devisen- und CFD-Handel vertrauen. Die EBC Financial Group erhält im Rahmen der World Finance Awards 2026 zwei globale Auszeichnungen bei den World Finance Forex Awards. Gewürdigt werden damit die Transparenz, der sichere Marktzugang und der verlässliche Service, auf den Kunden beim Devisen- und CFD-Handel vertrauen."
+  },
+  {
+    "title": "פרסי הפיננסים העולמיים 2026 מאשרים מסחר אמין ואמין במט\"ח וב-CFD עבור לקוחות ברחבי העולם",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/he/%D7%A4%D7%A8%D7%A1%D7%99-%D7%94%D7%A4%D7%99%D7%A0%D7%A0%D7%A1%D7%99%D7%9D-%D7%94%D7%A2%D7%95%D7%9C%D7%9E%D7%99%D7%99%D7%9D-2026-%D7%9E%D7%90%D7%A9%D7%A8%D7%99%D7%9D-%D7%9E%D7%A1%D7%97%D7%A8-%D7%90%D7%9E%D7%99%D7%9F-%D7%95%D7%90%D7%9E%D7%99%D7%9F-%D7%91%D7%9E%D7%98-%D7%97-%D7%95%D7%91-CFD-%D7%A2%D7%91%D7%95%D7%A8-%D7%9C%D7%A7%D7%95%D7%97%D7%95%D7%AA-%D7%91%D7%A8%D7%97%D7%91%D7%99-%D7%94%D7%A2%D7%95%D7%9C%D7%9D.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "קבוצת EBC Financial זכתה בשני פרסים בינלאומיים בטקס פרסי World Finance Forex, כחלק מטקס פרסי World Finance Awards 2026, המכירים בשקיפות, בגישה מאובטחת לשוק ובשירות העקבי שעליהם סומכים לקוחותיה במסחר במט\"ח וב-CFD. קבוצת EBC Financial זכתה בשני פרסים בינלאומיים בטקס פרסי World Finance Forex, כחלק מטקס פרסי World Finance Awards 2026, המכירים בשקיפות, בגישה מאובטחת לשוק ובשירות העקבי שעליהם סומכים לקוחותיה במסחר במט\"ח וב-CFD.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "קבוצת EBC Financial זכתה בשני פרסים בינלאומיים בטקס פרסי World Finance Forex, כחלק מטקס פרסי World Finance Awards 2026, המכירים בשקיפות, בגישה מאובטחת לשוק ובשירות העקבי שעליהם סומכים לקוחותיה במסחר במט\"ח וב-CFD. קבוצת EBC Financial זכתה בשני פרסים בינלאומיים בטקס פרסי World Finance Forex, כחלק מטקס פרסי World Finance Awards 2026, המכירים בשקיפות, בגישה מאובטחת לשוק ובשירות העקבי שעליהם סומכים לקוחותיה במסחר במט\"ח וב-CFD."
+  },
+  {
+    "title": "World Finance Awards 2026 Mengukuhkan Reputasi Layanan Trading Valas dan CFD yang Tepercaya dan Andal bagi Klien di Seluruh Dunia",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/id/World-Finance-Awards-2026-Mengukuhkan-Reputasi-Layanan-Trading-Valas-dan-CFD-yang-Tepercaya-dan-Andal-bagi-Klien-di-Seluruh-Dunia.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group meraih dua penghargaan global di World Finance Forex Awards, bagian dari World Finance Awards 2026, yang mengakui transparansi, akses pasar yang aman, serta layanan konsisten yang diandalkan klien dalam trading Valas dan CFD. EBC Financial Group meraih dua penghargaan global di World Finance Forex Awards, bagian dari World Finance Awards 2026, yang mengakui transparansi, akses pasar yang aman, serta layanan konsisten yang diandalkan klien dalam trading Valas dan CFD.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group meraih dua penghargaan global di World Finance Forex Awards, bagian dari World Finance Awards 2026, yang mengakui transparansi, akses pasar yang aman, serta layanan konsisten yang diandalkan klien dalam trading Valas dan CFD. EBC Financial Group meraih dua penghargaan global di World Finance Forex Awards, bagian dari World Finance Awards 2026, yang mengakui transparansi, akses pasar yang aman, serta layanan konsisten yang diandalkan klien dalam trading Valas dan CFD."
+  },
+  {
+    "title": "2026年ワールド・ファイナンス・アワード、世界中の顧客に向けた、信頼性と確実性を兼ね備えたFXおよびCFD取引を評価",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/ja/2026%E5%B9%B4%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%8A%E3%83%B3%E3%82%B9-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%89-%E4%B8%96%E7%95%8C%E4%B8%AD%E3%81%AE%E9%A1%A7%E5%AE%A2%E3%81%AB%E5%90%91%E3%81%91%E3%81%9F-%E4%BF%A1%E9%A0%BC%E6%80%A7%E3%81%A8%E7%A2%BA%E5%AE%9F%E6%80%A7%E3%82%92%E5%85%BC%E3%81%AD%E5%82%99%E3%81%88%E3%81%9FFX%E3%81%8A%E3%82%88%E3%81%B3CFD%E5%8F%96%E5%BC%95%E3%82%92%E8%A9%95%E4%BE%A1.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBCファイナンシャルグループは、FXおよびCFD取引において、顧客が信頼を寄せる透明性、セキュアな市場アクセス、そして一貫したサービスが評価され、2026年ワールド・ファイナンス・アワードの一環であるワールド・ファイナンス・フォレックス・アワードにおいて、2つの世界的栄誉を獲得した。 EBCファイナンシャルグループは、FXおよびCFD取引において、顧客が信頼を寄せる透明性、セキュアな市場アクセス、そして一貫したサービスが評価され、2026年ワールド・ファイナンス・アワードの一環であるワールド・ファイナンス・フォレックス・アワードにおいて、2つの世界的栄誉を獲得した。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBCファイナンシャルグループは、FXおよびCFD取引において、顧客が信頼を寄せる透明性、セキュアな市場アクセス、そして一貫したサービスが評価され、2026年ワールド・ファイナンス・アワードの一環であるワールド・ファイナンス・フォレックス・アワードにおいて、2つの世界的栄誉を獲得した。 EBCファイナンシャルグループは、FXおよびCFD取引において、顧客が信頼を寄せる透明性、セキュアな市場アクセス、そして一貫したサービスが評価され、2026年ワールド・ファイナンス・アワードの一環であるワールド・ファイナンス・フォレックス・アワードにおいて、2つの世界的栄誉を獲得した。"
+  },
+  {
+    "title": "월드 파이낸스 어워즈 2026, 전 세계 고객이 신뢰하는 EBC의 외환·CFD 거래 서비스 인정",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/ko/%EC%9B%94%EB%93%9C-%ED%8C%8C%EC%9D%B4%EB%82%B8%EC%8A%A4-%EC%96%B4%EC%9B%8C%EC%A6%88-2026-%EC%A0%84-%EC%84%B8%EA%B3%84-%EA%B3%A0%EA%B0%9D%EC%9D%B4-%EC%8B%A0%EB%A2%B0%ED%95%98%EB%8A%94-EBC%EC%9D%98-%EC%99%B8%ED%99%98-CFD-%EA%B1%B0%EB%9E%98-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9D%B8%EC%A0%95.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group, 월드 파이낸스 어워즈 2026의 외환 부문인 월드 파이낸스 포렉스 어워즈에서 2관왕을 차지하며, 외환(FX) 및 차액결제거래(CFD) 서비스 전반에 걸쳐 고객들이 신뢰해온 투명성, 안전한 시장 접근성, 일관된 서비스 품질을 인정받았다. EBC Financial Group, 월드 파이낸스 어워즈 2026의 외환 부문인 월드 파이낸스 포렉스 어워즈에서 2관왕을 차지하며, 외환(FX) 및 차액결제거래(CFD) 서비스 전반에 걸쳐 고객들이 신뢰해온 투명성, 안전한 시장 접근성, 일관된 서비스 품질을 인정받았다.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group, 월드 파이낸스 어워즈 2026의 외환 부문인 월드 파이낸스 포렉스 어워즈에서 2관왕을 차지하며, 외환(FX) 및 차액결제거래(CFD) 서비스 전반에 걸쳐 고객들이 신뢰해온 투명성, 안전한 시장 접근성, 일관된 서비스 품질을 인정받았다. EBC Financial Group, 월드 파이낸스 어워즈 2026의 외환 부문인 월드 파이낸스 포렉스 어워즈에서 2관왕을 차지하며, 외환(FX) 및 차액결제거래(CFD) 서비스 전반에 걸쳐 고객들이 신뢰해온 투명성, 안전한 시장 접근성, 일관된 서비스 품질을 인정받았다."
+  },
+  {
+    "title": "World Finance Awards 2026 Mengesahkan Kredibiliti Dagangan FX dan CFD yang Telus dan Boleh Dipercayai untuk Klien di Seluruh Dunia",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/ms/World-Finance-Awards-2026-Mengesahkan-Kredibiliti-Dagangan-FX-dan-CFD-yang-Telus-dan-Boleh-Dipercayai-untuk-Klien-di-Seluruh-Dunia.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group meraih dua pengiktirafan antarabangsa di World Finance Forex Awards, sebahagian daripada World Finance Awards 2026, yang mengiktiraf ketelusan, akses pasaran yang selamat, dan kualiti perkhidmatan yang konsisten yang menjadi sandaran klien dalam dagangan FX dan CFD. EBC Financial Group meraih dua pengiktirafan antarabangsa di World Finance Forex Awards, sebahagian daripada World Finance Awards 2026, yang mengiktiraf ketelusan, akses pasaran yang selamat, dan kualiti perkhidmatan yang konsisten yang menjadi sandaran klien dalam dagangan FX dan CFD.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group meraih dua pengiktirafan antarabangsa di World Finance Forex Awards, sebahagian daripada World Finance Awards 2026, yang mengiktiraf ketelusan, akses pasaran yang selamat, dan kualiti perkhidmatan yang konsisten yang menjadi sandaran klien dalam dagangan FX dan CFD. EBC Financial Group meraih dua pengiktirafan antarabangsa di World Finance Forex Awards, sebahagian daripada World Finance Awards 2026, yang mengiktiraf ketelusan, akses pasaran yang selamat, dan kualiti perkhidmatan yang konsisten yang menjadi sandaran klien dalam dagangan FX dan CFD."
+  },
+  {
+    "title": "World Finance Awards 2026 Confirmam a Confiabilidade e Segurança das Operações de FX e CFD para Clientes em Todo o Mundo",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/pt/World-Finance-Awards-2026-Confirmam-a-Confiabilidade-e-Seguran%C3%A7a-das-Opera%C3%A7%C3%B5es-de-FX-e-CFD-para-Clientes-em-Todo-o-Mundo.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "O EBC Financial Group conquistou duas honras globais no World Finance Forex Awards, parte do World Finance Awards 2026, confirmando a transparência, o acesso seguro ao mercado e o serviço consistente em que seus clientes confiam nas negociações de FX e CFD O EBC Financial Group conquistou duas honras globais no World Finance Forex Awards, parte do World Finance Awards 2026, confirmando a transparência, o acesso seguro ao mercado e o serviço consistente em que seus clientes confiam nas negociações de FX e CFD",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "O EBC Financial Group conquistou duas honras globais no World Finance Forex Awards, parte do World Finance Awards 2026, confirmando a transparência, o acesso seguro ao mercado e o serviço consistente em que seus clientes confiam nas negociações de FX e CFD O EBC Financial Group conquistou duas honras globais no World Finance Forex Awards, parte do World Finance Awards 2026, confirmando a transparência, o acesso seguro ao mercado e o serviço consistente em que seus clientes confiam nas negociações de FX e CFD"
+  },
+  {
+    "title": "Premios World Finance 2026 ratifican un trading de FX y CFD confiable y seguro para clientes en todo el mundo",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/es/Premios-World-Finance-2026-ratifican-un-trading-de-FX-y-CFD-confiable-y-seguro-para-clientes-en-todo-el-mundo.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group obtiene dos reconocimientos globales en los World Finance Forex Awards, parte de los World Finance Awards 2026, que destacan la transparencia, el acceso seguro al mercado y el servicio consistente en el que sus clientes confían para operar en mercados de divisas (FX) y contratos por diferencia (CFD) EBC Financial Group obtiene dos reconocimientos globales en los World Finance Forex Awards, parte de los World Finance Awards 2026, que destacan la transparencia, el acceso seguro al mercado y el servicio consistente en el que sus clientes confían para operar en mercados de divisas (FX) y contratos por diferencia (CFD)",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group obtiene dos reconocimientos globales en los World Finance Forex Awards, parte de los World Finance Awards 2026, que destacan la transparencia, el acceso seguro al mercado y el servicio consistente en el que sus clientes confían para operar en mercados de divisas (FX) y contratos por diferencia (CFD) EBC Financial Group obtiene dos reconocimientos globales en los World Finance Forex Awards, parte de los World Finance Awards 2026, que destacan la transparencia, el acceso seguro al mercado y el servicio consistente en el que sus clientes confían para operar en mercados de divisas (FX) y contratos por diferencia (CFD)"
+  },
+  {
+    "title": "รางวัล World Finance Awards 2026 ตอกย้ำการเทรด FX และ CFD ที่น่าเชื่อถือและไว้วางใจได้สำหรับลูกค้าทั่วโลก",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315725/0/th/%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%A7%E0%B8%B1%E0%B8%A5-World-Finance-Awards-2026-%E0%B8%95%E0%B8%AD%E0%B8%81%E0%B8%A2%E0%B9%89%E0%B8%B3%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%97%E0%B8%A3%E0%B8%94-FX-%E0%B9%81%E0%B8%A5%E0%B8%B0-CFD-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%96%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%84%E0%B8%A7%E0%B9%89%E0%B8%A7%E0%B8%B2%E0%B8%87%E0%B9%83%E0%B8%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%84%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%82%E0%B8%A5%E0%B8%81.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "EBC Financial Group คว้ารางวัลระดับโลกสองรายการจากเวที World Finance Forex Awards ซึ่งเป็นส่วนหนึ่งของงาน World Finance Awards 2026 รางวัลนี้ยกย่องความโปร่งใส การเข้าถึงตลาดที่ปลอดภัย และบริการที่สม่ำเสมอซึ่งลูกค้าไว้วางใจในการเทรด FX และ CFD EBC Financial Group คว้ารางวัลระดับโลกสองรายการจากเวที World Finance Forex Awards ซึ่งเป็นส่วนหนึ่งของงาน World Finance Awards 2026 รางวัลนี้ยกย่องความโปร่งใส การเข้าถึงตลาดที่ปลอดภัย และบริการที่สม่ำเสมอซึ่งลูกค้าไว้วางใจในการเทรด FX และ CFD",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "EBC Financial Group คว้ารางวัลระดับโลกสองรายการจากเวที World Finance Forex Awards ซึ่งเป็นส่วนหนึ่งของงาน World Finance Awards 2026 รางวัลนี้ยกย่องความโปร่งใส การเข้าถึงตลาดที่ปลอดภัย และบริการที่สม่ำเสมอซึ่งลูกค้าไว้วางใจในการเทรด FX และ CFD EBC Financial Group คว้ารางวัลระดับโลกสองรายการจากเวที World Finance Forex Awards ซึ่งเป็นส่วนหนึ่งของงาน World Finance Awards 2026 รางวัลนี้ยกย่องความโปร่งใส การเข้าถึงตลาดที่ปลอดภัย และบริการที่สม่ำเสมอซึ่งลูกค้าไว้วางใจในการเทรด FX และ CFD"
+  },
+  {
+    "title": "Pragmatic Semiconductor Expands Product Portfolio with Pragmatic NFC Protect to Combat Product Tampering and Counterfeiting",
+    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315727/0/en/Pragmatic-Semiconductor-Expands-Product-Portfolio-with-Pragmatic-NFC-Protect-to-Combat-Product-Tampering-and-Counterfeiting.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-23T07:00:00+00:00",
+    "raw_text": "Pragmatic NFC Protect PR1311 introduces new tamper detection capabilities to help brands safeguard product integrity and protect customers.",
     "categories": [
       "Industry & Market"
     ],
@@ -2734,542 +3324,7 @@
         "expands"
       ]
     },
-    "summary": "Dogs now fly in the cabin between the United States and four Northern European cities – never in cargo. NEW YORK and LONDON, June 23, 2026 /PRNewswire/ -- Vicuna Air, a London-based private pet aviation company, now operates shared charter flights between the United States and four..."
-  },
-  {
-    "title": "Vicuna Air étend son offre de vols avec transport d'animaux de compagnie en cabine vers Amsterdam, Francfort et Bruxelles",
-    "url": "https://www.prnewswire.com/news-releases/vicuna-air-etend-son-offre-de-vols-avec-transport-danimaux-de-compagnie-en-cabine-vers-amsterdam-francfort-et-bruxelles-302806961.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:15:00+00:00",
-    "raw_text": "Les chiens voyagent désormais en cabine sur les vols reliant les États-Unis à quatre villes d'Europe du Nord – jamais en soute. NEW YORK et LONDRES, 23 juin 2026 /PRNewswire/ -- Vicuna Air, une compagnie aérienne privée spécialisée dans le transport d'animaux de compagnie et basée à...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Les chiens voyagent désormais en cabine sur les vols reliant les États-Unis à quatre villes d'Europe du Nord – jamais en soute. NEW YORK et LONDRES, 23 juin 2026 /PRNewswire/ -- Vicuna Air, une compagnie aérienne privée spécialisée dans le transport d'animaux de compagnie et basée à..."
-  },
-  {
-    "title": "Vicuna Air erweitert sein Angebot an Flügen mit Haustieren in der Kabine auf Amsterdam, Frankfurt und Brüssel",
-    "url": "https://www.prnewswire.com/news-releases/vicuna-air-erweitert-sein-angebot-an-flugen-mit-haustieren-in-der-kabine-auf-amsterdam-frankfurt-und-brussel-302806951.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:15:00+00:00",
-    "raw_text": "Hunde reisen nun auf Flügen zwischen den Vereinigten Staaten und vier nordeuropäischen Städten in der Kabine – niemals im Frachtraum. NEW YORK und LONDON, 23. Juni 2026 /PRNewswire/ -- Vicuna Air, ein in London ansässiges privates Luftfahrtunternehmen für den Transport von Haustieren,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Hunde reisen nun auf Flügen zwischen den Vereinigten Staaten und vier nordeuropäischen Städten in der Kabine – niemals im Frachtraum. NEW YORK und LONDON, 23. Juni 2026 /PRNewswire/ -- Vicuna Air, ein in London ansässiges privates Luftfahrtunternehmen für den Transport von Haustieren,..."
-  },
-  {
-    "title": "L'université de la ville de Hong Kong (CityUHK) à Dongguan organise sa première cérémonie de remise des diplômes à la CityUHK pour la promotion 2026",
-    "url": "https://www.prnewswire.com/news-releases/luniversite-de-la-ville-de-hong-kong-cityuhk-a-dongguan-organise-sa-premiere-ceremonie-de-remise-des-diplomes-a-la-cityuhk-pour-la-promotion-2026-302807343.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:14:00+00:00",
-    "raw_text": "HONG KONG, 23 juin 2026 /PRNewswire/ -- L'université de la ville de Hong Kong (Dongguan) a organisé le 22 juin sa première cérémonie de remise des diplômes 2026 à la CityUHK pour la promotion 2026. Plus de 420 diplômés de master de la première promotion de l'université ont fait le...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "HONG KONG, 23 juin 2026 /PRNewswire/ -- L'université de la ville de Hong Kong (Dongguan) a organisé le 22 juin sa première cérémonie de remise des diplômes 2026 à la CityUHK pour la promotion 2026. Plus de 420 diplômés de master de la première promotion de l'université ont fait le..."
-  },
-  {
-    "title": "Omada Introduces Omada Identity Sovereign, Bringing Digital Sovereignty for Regulated Organizations",
-    "url": "https://www.prnewswire.com/news-releases/omada-introduces-omada-identity-sovereign-bringing-digital-sovereignty-for-regulated-organizations-302805626.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:03:00+00:00",
-    "raw_text": "New solution will enable regulated European organizations to deploy and operate identity governance on infrastructure of their own choosing, with no non-European entity in the chain COPENHAGEN, Denmark, June 23, 2026 /PRNewswire/ -- Omada, Europe's leading provider of Identity Governance...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "governance"
-      ]
-    },
-    "summary": "New solution will enable regulated European organizations to deploy and operate identity governance on infrastructure of their own choosing, with no non-European entity in the chain COPENHAGEN, Denmark, June 23, 2026 /PRNewswire/ -- Omada, Europe's leading provider of Identity Governance..."
-  },
-  {
-    "title": "Elkem Silicones wird zu Bluestar Silicones und präsentiert sein neues Erscheinungsbild für das nächste Kapitel",
-    "url": "https://www.prnewswire.com/news-releases/elkem-silicones-wird-zu-bluestar-silicones-und-prasentiert-sein-neues-erscheinungsbild-fur-das-nachste-kapitel-302806759.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "Das Unternehmen kehrt zu einem bewährten Markennamen zurück, führt gleichzeitig eine neue visuelle Identität ein und bekräftigt damit die Kontinuität gegenüber Kunden, Partnern und Interessengruppen. LYON, Frankreich, 23. Juni 2026 /PRNewswire/ -- Elkem Silicones gab heute bekannt, dass...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Das Unternehmen kehrt zu einem bewährten Markennamen zurück, führt gleichzeitig eine neue visuelle Identität ein und bekräftigt damit die Kontinuität gegenüber Kunden, Partnern und Interessengruppen. LYON, Frankreich, 23. Juni 2026 /PRNewswire/ -- Elkem Silicones gab heute bekannt, dass..."
-  },
-  {
-    "title": "Omnicom Launches Acxiom Fan Graph to Give Brands a More Complete View of Sports Fandom",
-    "url": "https://www.prnewswire.com/news-releases/omnicom-launches-acxiom-fan-graph-to-give-brands-a-more-complete-view-of-sports-fandom-302806736.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "New sports marketing intelligence solution unifies fan data across media, commerce, and consumer engagement PARIS, June 23, 2026 /PRNewswire/ -- Omnicom (NYSE: OMC) today announced the launch of Acxiom Fan Graph, a new sports marketing intelligence solution anchored by Real ID™. The...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "New sports marketing intelligence solution unifies fan data across media, commerce, and consumer engagement PARIS, June 23, 2026 /PRNewswire/ -- Omnicom (NYSE: OMC) today announced the launch of Acxiom Fan Graph, a new sports marketing intelligence solution anchored by Real ID™. The..."
-  },
-  {
-    "title": "Elkem Silicones se convierte en Bluestar Silicones, revelando su identidad para el próximo capítulo",
-    "url": "https://www.prnewswire.com/news-releases/elkem-silicones-se-convierte-en-bluestar-silicones-revelando-su-identidad-para-el-proximo-capitulo-302806778.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "La empresa retoma una marca consolidada, al tiempo que introduce una nueva identidad visual y reafirma la continuidad para clientes, socios y partes interesadas. LYON, Francia, 23 de junio de 2026 /PRNewswire/ --Elkem Silicones anunció hoy su cambio de nombre a Bluestar Silicones, lo que...",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "La empresa retoma una marca consolidada, al tiempo que introduce una nueva identidad visual y reafirma la continuidad para clientes, socios y partes interesadas. LYON, Francia, 23 de junio de 2026 /PRNewswire/ --Elkem Silicones anunció hoy su cambio de nombre a Bluestar Silicones, lo que..."
-  },
-  {
-    "title": "Al Dahra Releases Sustainability Report: From Foundations to Execution",
-    "url": "https://www.prnewswire.com/news-releases/al-dahra-releases-sustainability-report-from-foundations-to-execution-302806252.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "The report, now in its sixth year, details progress across climate, water stewardship, regenerative agriculture, responsible sourcing, employee engagement, and community impact – guided by Al Dahra's purpose of Sustainably Feeding a Growing World. ABU DHABI, UAE, June 23, 2026...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The report, now in its sixth year, details progress across climate, water stewardship, regenerative agriculture, responsible sourcing, employee engagement, and community impact – guided by Al Dahra's purpose of Sustainably Feeding a Growing World. ABU DHABI, UAE, June 23, 2026..."
-  },
-  {
-    "title": "Bouygues Telecom Enhances Quality-of-Experience for Millions of French Broadband Subscribers with AI-Driven Expresse from AXON Networks",
-    "url": "https://www.prnewswire.com/news-releases/bouygues-telecom-enhances-quality-of-experience-for-millions-of-french-broadband-subscribers-with-ai-driven-expresse-from-axon-networks-302806762.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "Leading French service provider upgrades broadband service assurance capabilities with advanced AI solution delivering enhanced network visibility and a superior customer experience MEUDON LA FORÊT, France and IRVINE, Calif., June 23, 2026 /PRNewswire/ -- Bouygues Telecom, a leading...",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "telecom",
-        "broadband"
-      ],
-      "Industry & Market": [
-        "service provider"
-      ]
-    },
-    "summary": "Leading French service provider upgrades broadband service assurance capabilities with advanced AI solution delivering enhanced network visibility and a superior customer experience MEUDON LA FORÊT, France and IRVINE, Calif., June 23, 2026 /PRNewswire/ -- Bouygues Telecom, a leading..."
-  },
-  {
-    "title": "Nordiska Elevates its Payments Infrastructure with Finastra, Powering Direct Connectivity to Sweden's Payment Rails",
-    "url": "https://www.prnewswire.com/news-releases/nordiska-elevates-its-payments-infrastructure-with-finastra-powering-direct-connectivity-to-swedens-payment-rails-302804720.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "The bank's selection of Finastra's Swift Service Bureau enables a secure, compliant, and resilient foundation to support its current operations and future growth including RIX INST access STOCKHOLM, June 23, 2026 /PRNewswire/ -- Bankaktiebolaget Nordiska (Nordiska), a challenger bank...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "connectivity"
-      ]
-    },
-    "summary": "The bank's selection of Finastra's Swift Service Bureau enables a secure, compliant, and resilient foundation to support its current operations and future growth including RIX INST access STOCKHOLM, June 23, 2026 /PRNewswire/ -- Bankaktiebolaget Nordiska (Nordiska), a challenger bank..."
-  },
-  {
-    "title": "Elkem Silicones becomes Bluestar Silicones, unveiling its identity for the next chapter",
-    "url": "https://www.prnewswire.com/news-releases/elkem-silicones-becomes-bluestar-silicones-unveiling-its-identity-for-the-next-chapter-302806735.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "The company returns to a well-established brand name, while introducing a new visual identity and reaffirming continuity for customers, partners and stakeholders LYON, France, June 23, 2026 /PRNewswire/ -- Elkem Silicones today announced its rebranding as Bluestar Silicones, marking a...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The company returns to a well-established brand name, while introducing a new visual identity and reaffirming continuity for customers, partners and stakeholders LYON, France, June 23, 2026 /PRNewswire/ -- Elkem Silicones today announced its rebranding as Bluestar Silicones, marking a..."
-  },
-  {
-    "title": "Marketplacer Joins Snowflake's MCD Program to Accelerate AI-Powered Autonomous Commerce",
-    "url": "https://www.prnewswire.com/news-releases/marketplacer-joins-snowflakes-mcd-program-to-accelerate-ai-powered-autonomous-commerce-302806926.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "Expanded collaboration enables enterprise retailers, brands, and operators to unlock real-time marketplace intelligence and automate supply-side operations through the Snowflake AI Data Cloud MELBOURNE, Australia, June 23, 2026 /PRNewswire/ -- Marketplacer, the global marketplace platform...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ]
-    },
-    "summary": "Expanded collaboration enables enterprise retailers, brands, and operators to unlock real-time marketplace intelligence and automate supply-side operations through the Snowflake AI Data Cloud MELBOURNE, Australia, June 23, 2026 /PRNewswire/ -- Marketplacer, the global marketplace platform..."
-  },
-  {
-    "title": "ANTHBOT Brings Stadium-Inspired Lawn Care Home with Prime Day Savings on M Series Robot Lawn Mowers",
-    "url": "https://www.prnewswire.com/news-releases/anthbot-brings-stadium-inspired-lawn-care-home-with-prime-day-savings-on-m-series-robot-lawn-mowers-302807293.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "Prime Day campaign offers up to €279 / $279 off M Series bundles across Europe and the United States DÜSSELDORF, Germany, June 23, 2026 /PRNewswire/ -- Following its partnership with world-renowned goalkeeper Marc ter Stegen, ANTHBOT today announced Prime Day promotions for its M Series...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "Prime Day campaign offers up to €279 / $279 off M Series bundles across Europe and the United States DÜSSELDORF, Germany, June 23, 2026 /PRNewswire/ -- Following its partnership with world-renowned goalkeeper Marc ter Stegen, ANTHBOT today announced Prime Day promotions for its M Series..."
-  },
-  {
-    "title": "Keurig Dr Pepper Announces Leadership Updates",
-    "url": "https://www.prnewswire.com/news-releases/keurig-dr-pepper-announces-leadership-updates-302807091.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-23T06:00:00+00:00",
-    "raw_text": "FRISCO, Texas and BURLINGTON, Mass., June 23, 2026 /PRNewswire/ -- Keurig Dr Pepper Inc. (NASDAQ: KDP) today announced leadership updates as the Company advances preparations for its planned separation into Beverage Co. and Global Coffee Co., which is targeted for early 2027. Rafa...",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "FRISCO, Texas and BURLINGTON, Mass., June 23, 2026 /PRNewswire/ -- Keurig Dr Pepper Inc. (NASDAQ: KDP) today announced leadership updates as the Company advances preparations for its planned separation into Beverage Co. and Global Coffee Co., which is targeted for early 2027. Rafa..."
-  },
-  {
-    "title": "Take Care of the Family this Father’s Day: Uncle Brown Celebrates with Up to 30% Off Smart Toilets",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315708/0/en/Take-Care-of-the-Family-this-Father-s-Day-Uncle-Brown-Celebrates-with-Up-to-30-Off-Smart-Toilets.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T05:49:00+00:00",
-    "raw_text": "Uncle Brown ST12 Smart Toilet is offering 30% off from June 21–26. It combines hands-free convenience, advanced sanitization, and personalized comfort.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Uncle Brown ST12 Smart Toilet is offering 30% off from June 21–26. It combines hands-free convenience, advanced sanitization, and personalized comfort."
-  },
-  {
-    "title": "BienRaíz Launches Vitamin D3 5000 IU Softgels: A High-Potency, Simple Formula for Everyday Wellness",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315707/0/en/BienRa%C3%ADz-Launches-Vitamin-D3-5000-IU-Softgels-A-High-Potency-Simple-Formula-for-Everyday-Wellness.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T05:44:00+00:00",
-    "raw_text": "BienRaíz launches Vitamin D3 5000 IU Softgels with sunflower oil. Soy-free & clean-label to support bone, muscle, and immune health.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "BienRaíz launches Vitamin D3 5000 IU Softgels with sunflower oil. Soy-free & clean-label to support bone, muscle, and immune health."
-  },
-  {
-    "title": "Toobit Brings Dark Horse Football (DHF) Presale to Launchpad",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315706/0/en/Toobit-Brings-Dark-Horse-Football-DHF-Presale-to-Launchpad.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T05:39:00+00:00",
-    "raw_text": "GEORGE TOWN, Cayman Islands, June 23, 2026 (GLOBE NEWSWIRE) -- Toobit, the award-winning global cryptocurrency exchange, today announces the presale of Dark Horse Football (DHF) on Toobit Launchpad .",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "GEORGE TOWN, Cayman Islands, June 23, 2026 (GLOBE NEWSWIRE) -- Toobit, the award-winning global cryptocurrency exchange, today announces the presale of Dark Horse Football (DHF) on Toobit Launchpad ."
-  },
-  {
-    "title": "SKHTU Exchange Actively Engages With Regulatory Authorities To Advance FCA License Approval",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315693/0/en/SKHTU-Exchange-Actively-Engages-With-Regulatory-Authorities-To-Advance-FCA-License-Approval.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T03:48:00+00:00",
-    "raw_text": "DENVER, June 23, 2026 (GLOBE NEWSWIRE) -- Recently, regulatory oversight of digital assets in Europe has continued to intensify. SKHTU Exchange has formally submitted its license application materials to the UK Financial Conduct Authority (FCA) and maintains close communication with the regulatory body during the approval process.",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "regulatory"
-      ]
-    },
-    "summary": "DENVER, June 23, 2026 (GLOBE NEWSWIRE) -- Recently, regulatory oversight of digital assets in Europe has continued to intensify. SKHTU Exchange has formally submitted its license application materials to the UK Financial Conduct Authority (FCA) and maintains close communication with the regulatory body during the approval process."
-  },
-  {
-    "title": "Bursa SKHTU Komited Hubungi Badan Kawal Selia Demi Memacu Kelulusan Lesen FCA",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315693/0/ms/Bursa-SKHTU-Komited-Hubungi-Badan-Kawal-Selia-Demi-Memacu-Kelulusan-Lesen-FCA.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T03:48:00+00:00",
-    "raw_text": "DENVER, June 23, 2026 (GLOBE NEWSWIRE) -- Baru-baru ini, penguatkuasaan kawal selia Eropah terhadap aset digital terus meningkat. Bursa SKHTU telah menyerahkan dokumen permohonan lesen secara rasmi kepada Pihak Berkuasa Kelakuan Kewangan UK (FCA), serta mengekalkan komunikasi yang rapat dengan badan kawal selia tersebut sepanjang proses kelulusan dijalankan.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ]
-    },
-    "summary": "DENVER, June 23, 2026 (GLOBE NEWSWIRE) -- Baru-baru ini, penguatkuasaan kawal selia Eropah terhadap aset digital terus meningkat. Bursa SKHTU telah menyerahkan dokumen permohonan lesen secara rasmi kepada Pihak Berkuasa Kelakuan Kewangan UK (FCA), serta mengekalkan komunikasi yang rapat dengan badan kawal selia tersebut sepanjang proses kelulusan dijalankan."
-  },
-  {
-    "title": "Rentomojo Sees Rising Demand for Chair and Office Chair Rentals Across Bangalore, Delhi, Gurgaon, Hyderabad, Mumbai, Noida, and Pune as ₹700/Month Plans Challenge ₹25,000 Seating Setup Costs",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315692/0/en/Rentomojo-Sees-Rising-Demand-for-Chair-and-Office-Chair-Rentals-Across-Bangalore-Delhi-Gurgaon-Hyderabad-Mumbai-Noida-and-Pune-as-700-Month-Plans-Challenge-25-000-Seating-Setup-Cos.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T03:30:00+00:00",
-    "raw_text": "Chair and office chair rentals gain momentum across Indian metros as hybrid workers, students, freelancers, and startup teams choose flexible monthly plans over high upfront seating costs. Chair and office chair rentals gain momentum across Indian metros as hybrid workers, students, freelancers, and startup teams choose flexible monthly plans over high upfront seating costs.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Chair and office chair rentals gain momentum across Indian metros as hybrid workers, students, freelancers, and startup teams choose flexible monthly plans over high upfront seating costs. Chair and office chair rentals gain momentum across Indian metros as hybrid workers, students, freelancers, and startup teams choose flexible monthly plans over high upfront seating costs."
-  },
-  {
-    "title": "FINO Cannabis Announces First Florida Dispensary Opening in Clermont, Bringing a New Patient-First Cannabis Experience to Central Florida",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315688/0/en/FINO-Cannabis-Announces-First-Florida-Dispensary-Opening-in-Clermont-Bringing-a-New-Patient-First-Cannabis-Experience-to-Central-Florida.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T02:33:00+00:00",
-    "raw_text": "FINO Brands Enters Florida Medical Marijuana Market with Felda Cultivation and Clermont Retail Debut Tuesday, June 23rd, 2026.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "FINO Brands Enters Florida Medical Marijuana Market with Felda Cultivation and Clermont Retail Debut Tuesday, June 23rd, 2026."
-  },
-  {
-    "title": "Sofucor Releases Outdoor Ceiling Fan Models Designed for Modern Outdoor Living Spaces",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315685/0/en/Sofucor-Releases-Outdoor-Ceiling-Fan-Models-Designed-for-Modern-Outdoor-Living-Spaces.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T02:00:00+00:00",
-    "raw_text": "As outdoor living grows, Sofucor offers 3 modern wood ceiling fans blending comfort & design for pergolas, patios & outdoor rooms.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "As outdoor living grows, Sofucor offers 3 modern wood ceiling fans blending comfort & design for pergolas, patios & outdoor rooms."
-  },
-  {
-    "title": "Crypto News Today: AlphaPepe Nears Third CEX Partnership as Ethereum Price Prediction Targets $7,000",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315684/0/en/Crypto-News-Today-AlphaPepe-Nears-Third-CEX-Partnership-as-Ethereum-Price-Prediction-Targets-7-000.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T01:00:00+00:00",
-    "raw_text": "MONACO, June 22, 2026 (GLOBE NEWSWIRE) -- Crypto news today is turning toward AlphaPepe as buyers watch speculation around a possible third CEX partnership after the project announced Azbit and BiFinance. The presale has now raised $1.73 million, passed 9,600 holders, and reached $0.01973 while Stage 18 moves closer to selling out.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "MONACO, June 22, 2026 (GLOBE NEWSWIRE) -- Crypto news today is turning toward AlphaPepe as buyers watch speculation around a possible third CEX partnership after the project announced Azbit and BiFinance. The presale has now raised $1.73 million, passed 9,600 holders, and reached $0.01973 while Stage 18 moves closer to selling out."
-  },
-  {
-    "title": "FREELANDER International Announces the Dimensions of Its First Strategic Model: FREELANDER 8",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315678/0/en/FREELANDER-International-Announces-the-Dimensions-of-Its-First-Strategic-Model-FREELANDER-8.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T00:07:00+00:00",
-    "raw_text": "FREELANDER reveals the dimensions of the brand's first strategic model which built in a unified global architecture to meet all regulations and habits.",
-    "categories": [
-      "Networks",
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "regulation"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "FREELANDER reveals the dimensions of the brand's first strategic model which built in a unified global architecture to meet all regulations and habits."
-  },
-  {
-    "title": "iCAUR V23 Wins Red Dot Award: Design Concept 2026, Gaining International Recognition for Classic Design",
-    "url": "https://www.globenewswire.com/news-release/2026/06/23/3315677/0/en/iCAUR-V23-Wins-Red-Dot-Award-Design-Concept-2026-Gaining-International-Recognition-for-Classic-Design.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-23T00:02:00+00:00",
-    "raw_text": "Chery Group's iCAUR V23 has won the Red Dot Award: Design Concept 2026 in Germany.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Chery Group's iCAUR V23 has won the Red Dot Award: Design Concept 2026 in Germany."
-  },
-  {
-    "title": "The Health Institute Announces Heal Your Cells, a New Book by Dr. Josh Axe and Dr. Will Cole on Cellular Health and Healthy Aging",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315671/0/en/The-Health-Institute-Announces-Heal-Your-Cells-a-New-Book-by-Dr-Josh-Axe-and-Dr-Will-Cole-on-Cellular-Health-and-Healthy-Aging.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T23:00:00+00:00",
-    "raw_text": "Inspired by personal loss and years of clinical practice, the forthcoming release explores how cellular function may influence energy, wellness, and long-term health. Inspired by personal loss and years of clinical practice, the forthcoming release explores how cellular function may influence energy, wellness, and long-term health.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Inspired by personal loss and years of clinical practice, the forthcoming release explores how cellular function may influence energy, wellness, and long-term health. Inspired by personal loss and years of clinical practice, the forthcoming release explores how cellular function may influence energy, wellness, and long-term health."
-  },
-  {
-    "title": "MarketWise Announces Premier Partnership with USA Field Hockey",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315660/0/en/MarketWise-Announces-Premier-Partnership-with-USA-Field-Hockey.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T22:04:00+00:00",
-    "raw_text": "MarketWise Logo to Debut on U.S. National Team uniforms beginning at the 2026 FIH Hockey World Cup MarketWise Logo to Debut on U.S. National Team uniforms beginning at the 2026 FIH Hockey World Cup",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership",
-        "announces",
-        "ey"
-      ]
-    },
-    "summary": "MarketWise Logo to Debut on U.S. National Team uniforms beginning at the 2026 FIH Hockey World Cup MarketWise Logo to Debut on U.S. National Team uniforms beginning at the 2026 FIH Hockey World Cup"
-  },
-  {
-    "title": "NEXE Innovations Provides Update on Partner Transition to BPI-Certified Compostable Pods",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315658/0/en/NEXE-Innovations-Provides-Update-on-Partner-Transition-to-BPI-Certified-Compostable-Pods.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T22:01:00+00:00",
-    "raw_text": "NEXE (TSXV: NEXE) large scale partner transition on track, progress across multiple fronts reflect continued adoption of NEXE's BPI-certified coffee pod.",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "NEXE (TSXV: NEXE) large scale partner transition on track, progress across multiple fronts reflect continued adoption of NEXE's BPI-certified coffee pod."
-  },
-  {
-    "title": "An AI Helped Build a Full Online Game World in a Weekend. Then Players Around the World Started Building It Too.",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315641/0/en/An-AI-Helped-Build-a-Full-Online-Game-World-in-a-Weekend-Then-Players-Around-the-World-Started-Building-It-Too.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T21:21:00+00:00",
-    "raw_text": "World of ClaudeCraft began as a 48-hour experiment with Anthropic's Claude Fable 5. It's now a free, living multiplayer game with a global community of contributors, seeded by an AI model that was publicly available for just three days.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "World of ClaudeCraft began as a 48-hour experiment with Anthropic's Claude Fable 5. It's now a free, living multiplayer game with a global community of contributors, seeded by an AI model that was publicly available for just three days."
-  },
-  {
-    "title": "MONAT Recognized with DSA Canada Industry Innovation Award for Pioneering Social Commerce in Direct Selling",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315633/0/en/MONAT-Recognized-with-DSA-Canada-Industry-Innovation-Award-for-Pioneering-Social-Commerce-in-Direct-Selling.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T21:02:00+00:00",
-    "raw_text": "MONAT has been recognized with the Direct Selling Association (DSA) Industry Innovation Award for its pioneering leadership in social commerce.",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "MONAT has been recognized with the Direct Selling Association (DSA) Industry Innovation Award for its pioneering leadership in social commerce."
-  },
-  {
-    "title": "SPEA Welcomes Federal Nuclear Strategy as a Historic Vote of Confidence in Canadian Engineering",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315625/0/en/SPEA-Welcomes-Federal-Nuclear-Strategy-as-a-Historic-Vote-of-Confidence-in-Canadian-Engineering.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T20:46:00+00:00",
-    "raw_text": "Society of Professional Engineers and Associates (SPEA) applauds Canada's Nuclear Energy Strategy",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "Society of Professional Engineers and Associates (SPEA) applauds Canada's Nuclear Energy Strategy"
-  },
-  {
-    "title": "General Fusion Achieves Compressional Plasma Heating with LM26 Magnetized Target Fusion Machine",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315624/0/en/General-Fusion-Achieves-Compressional-Plasma-Heating-with-LM26-Magnetized-Target-Fusion-Machine.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T20:45:00+00:00",
-    "raw_text": "The results, submitted for peer review and publicly available, demonstrate significant progress toward key 1 keV electron temperature milestone",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "The results, submitted for peer review and publicly available, demonstrate significant progress toward key 1 keV electron temperature milestone"
-  },
-  {
-    "title": "Giga Metals Launches Summer Geophysics Program to Advance Attic Zone",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315620/0/en/Giga-Metals-Launches-Summer-Geophysics-Program-to-Advance-Attic-Zone.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T20:33:00+00:00",
-    "raw_text": "VANCOUVER, British Columbia, June 22, 2026 (GLOBE NEWSWIRE) -- Giga Metals Corp. (“Giga Metals” or the “Company”) (TSX-V: GIGA; OTCQB: GIGGF; FSE: BRR2) is pleased to announce the commencement of a property-scale geophysical survey program at its Turnagain Project , a joint venture with Mitsubishi Corporation.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "joint venture",
-        "launches",
-        "ey"
-      ]
-    },
-    "summary": "VANCOUVER, British Columbia, June 22, 2026 (GLOBE NEWSWIRE) -- Giga Metals Corp. (“Giga Metals” or the “Company”) (TSX-V: GIGA; OTCQB: GIGGF; FSE: BRR2) is pleased to announce the commencement of a property-scale geophysical survey program at its Turnagain Project , a joint venture with Mitsubishi Corporation."
-  },
-  {
-    "title": "i10X launches Superagent",
-    "url": "https://www.globenewswire.com/news-release/2026/06/22/3315618/0/en/i10X-launches-Superagent.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-22T20:25:00+00:00",
-    "raw_text": "AI Agent That Works Like a Chief of Staff - and Checks In Before Anything That Matters AI Agent That Works Like a Chief of Staff - and Checks In Before Anything That Matters",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "AI Agent That Works Like a Chief of Staff - and Checks In Before Anything That Matters AI Agent That Works Like a Chief of Staff - and Checks In Before Anything That Matters"
+    "summary": "Pragmatic NFC Protect PR1311 introduces new tamper detection capabilities to help brands safeguard product integrity and protect customers."
   },
   {
     "title": "Global Router And Switch Market Size Forecast To Cross $83.13 Billion By 2030 - EIN News",
