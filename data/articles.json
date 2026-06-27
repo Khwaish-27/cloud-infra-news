@@ -1382,7 +1382,7 @@
     "url": "https://cloud.google.com/blog/products/management-tools/alert-with-sql-in-cloud-monitoring-observability-analytics/",
     "source": "Google Cloud Blog",
     "published": "2026-06-26T16:30:00+00:00",
-    "raw_text": "Traditional alerting systems often force a compromise: you can either alert immediately on simple, noisy log events, or monitor rigid, pre-configured metrics that fail when faced with data with many unique answers like user sessions or IP addresses. But the most critical system issues — like a 20% spike in error rates for a specific customer or a latency anomaly correlated with database timeouts — are hidden in the aggregates and relationships between these signals. Recently, we announced that you can now use SQL to query logs and traces in Observability Analytics (formerly Log Analytics). But the story gets better. You can also use SQL to create alerts in Observability Analytics. By bringing SQL directly to your alerting engine, you can write complex analytical queries over logs and traces and turn them into alerts. Whether you need to calculate error percentages, analyze high-cardinality dimensions, or JOIN logs and traces, SQL alerting helps you go from basic threshold monitoring to deep, contextual detection that goes beyond the capabilities of traditional alerting systems. SQL alerting is now in preview. How SQL-based alerting works SQL alerting in Observability Analytics is available as part of Cloud Monitoring . An alerting policy runs your SQL query on a schedule you define (for example, every 10 minutes). It automatically applies a \"lookback window\" to your query, so it only analyzes the log entries or trace spans it received since the last time it ran. If the results of your query meet the condition you set, Cloud Monitoring creates an incident and sends a notification to your chosen channels, like email, Slack, or PagerDuty. Please note that because SQL-based alerting uses BigQuery to process telemetry data, query executions are billed through BigQuery under your standard on-demand pricing or BigQuery reservations. Two ways to trigger an alert You can choose between two types of alert conditions. Row count threshold: This is the simplest option. The alert fires if your query returns a number of rows that is greater than, equal to, or less than a threshold you set. This is perfect for \"alert me if more than 10 users have failed logins\" scenarios. Boolean: This is the most powerful option. The alert fires if your query returns any row where a specific column you define has a value of true. This lets you build complex logic, like calculating percentages, directly in your SQL query. Example 1: Alerting on payment gateway failures (row count) Scenario: Imagine that you’re an e-commerce operator, and you want to be alerted immediately if your payment gateway is experiencing systemic outages, while ignoring occasional, normal card declines (like an incorrect PIN). To do this, you can write a query to filter for log entries indicating gateway timeouts, and use a row count threshold to trigger the alert only if the volume of these errors spikes. code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n JSON_VALUE(json_payload.transaction_id) AS transaction_id,\\r\\n JSON_VALUE(json_payload.error_code) AS error_code\\r\\nFROM\\r\\n `my-project-id.my-dataset.my-log-view`\\r\\nWHERE\\r\\n JSON_VALUE(json_payload.status) = 'FAILED'\\r\\n -- Filter for systemic gateway issues, not user-input errors like WRONG_PIN\\r\\n AND JSON_VALUE(json_payload.failure_reason) = 'GATEWAY_TIMEOUT'\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f97f42b91c0>)])]> Alert configuration: Condition type: Row count threshold Trigger condition: Fired when row counts greater than ( > ) 10 Evaluation window / lookback: 5 minutes (checks the last 5 minutes of data on your defined schedule) Example 2: Alerting on agent latency (traces) Scenario: You’re an AI platform engineer, and you want to ensure your multi-step AI agents are responding within acceptable time limits. You want to monitor the 99th percentile (p99) latency of the orchestrator service and get alerted if performance degrades. To do this, you can write a SQL query against your trace data that calculates the p99 latency for all services and returns true if your agent-orchestrator exceeds 5 seconds (5000 milliseconds). code_block <ListValue: [StructValue([('code', 'WITH latency_data AS (\\r\\n SELECT\\r\\n APPROX_QUANTILES(duration_nano, 100)[OFFSET(99)] / 1000000 AS p99_ms\\r\\n FROM\\r\\n `my-project-id.us._Trace.Spans._AllSpans`\\r\\n WHERE\\r\\n -- Examine rows produced by the agent-orchestrator\\r\\n JSON_VALUE(resource.attributes, \\'$.\"service.name\"\\') = \\'agent-orchestrator\\'\\r\\n GROUP BY\\r\\n service_name\\r\\n)\\r\\nSELECT\\r\\n \"agent-orchestrator\" AS service_name,\\r\\n p99_ms,\\r\\n -- Boolean logic: Alert if p99 exceeds 5000ms\\r\\n (p99_ms > 5000) AS has_latency_spike\\r\\nFROM\\r\\n latency_data'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f97f42b9940>)])]> Alert configuration: Condition type: Boolean Target column: has_latency_spike Trigger condition: Fired when the query returns any row where this column evaluates to true. Evaluation window / lookback: 10 minutes (or your preferred scheduling interval) Before you begin Before you can create a SQL-based alert, you need to set up a few things: Analytics enabled: For logs : Upgrade your log bucket to use Observability Analytics (if not already updated). For traces : Cloud Trace must be collected and stored in your project. Linked BigQuery dataset: Create a linked BigQuery dataset for the telemetry source (either the log bucket or the trace dataset ). SQL-based alerts query the data through this BigQuery link. IAM permissions: Grant the IAM roles necessary to create an SQL-based alert policy: Monitoring AlertPolicy Editor and Logging SqlAlert Writer (applies to both log and trace alerts). Notification channels: Configure the notification channels (like email or Slack) where you want to receive alerts. How to create your alert Creating a sql-based alert policy is straightforward: Navigate to Observability Analytics in the Google Cloud console. Compose and validate your SQL query. Select the Run on BigQuery query engine in the UI. Click the Create alert button from the results toolbar. Define your condition (row count or boolean) and your evaluation schedule. Add your notification channels, give your alert a clear name, and click Save . For Infrastructure as Code (IaC) pipelines, you can also configure alerts via the API and Terraform . Get started Ready to build more powerful, insightful alerts? Open the Observability Analytics page in the console and try writing your first SQL query today. You can find more details and advanced examples in the official documentation .",
+    "raw_text": "Traditional alerting systems often force a compromise: you can either alert immediately on simple, noisy log events, or monitor rigid, pre-configured metrics that fail when faced with data with many unique answers like user sessions or IP addresses. But the most critical system issues — like a 20% spike in error rates for a specific customer or a latency anomaly correlated with database timeouts — are hidden in the aggregates and relationships between these signals. Recently, we announced that you can now use SQL to query logs and traces in Observability Analytics (formerly Log Analytics). But the story gets better. You can also use SQL to create alerts in Observability Analytics. By bringing SQL directly to your alerting engine, you can write complex analytical queries over logs and traces and turn them into alerts. Whether you need to calculate error percentages, analyze high-cardinality dimensions, or JOIN logs and traces, SQL alerting helps you go from basic threshold monitoring to deep, contextual detection that goes beyond the capabilities of traditional alerting systems. SQL alerting is now in preview. How SQL-based alerting works SQL alerting in Observability Analytics is available as part of Cloud Monitoring . An alerting policy runs your SQL query on a schedule you define (for example, every 10 minutes). It automatically applies a \"lookback window\" to your query, so it only analyzes the log entries or trace spans it received since the last time it ran. If the results of your query meet the condition you set, Cloud Monitoring creates an incident and sends a notification to your chosen channels, like email, Slack, or PagerDuty. Please note that because SQL-based alerting uses BigQuery to process telemetry data, query executions are billed through BigQuery under your standard on-demand pricing or BigQuery reservations. Two ways to trigger an alert You can choose between two types of alert conditions. Row count threshold: This is the simplest option. The alert fires if your query returns a number of rows that is greater than, equal to, or less than a threshold you set. This is perfect for \"alert me if more than 10 users have failed logins\" scenarios. Boolean: This is the most powerful option. The alert fires if your query returns any row where a specific column you define has a value of true. This lets you build complex logic, like calculating percentages, directly in your SQL query. Example 1: Alerting on payment gateway failures (row count) Scenario: Imagine that you’re an e-commerce operator, and you want to be alerted immediately if your payment gateway is experiencing systemic outages, while ignoring occasional, normal card declines (like an incorrect PIN). To do this, you can write a query to filter for log entries indicating gateway timeouts, and use a row count threshold to trigger the alert only if the volume of these errors spikes. code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n JSON_VALUE(json_payload.transaction_id) AS transaction_id,\\r\\n JSON_VALUE(json_payload.error_code) AS error_code\\r\\nFROM\\r\\n `my-project-id.my-dataset.my-log-view`\\r\\nWHERE\\r\\n JSON_VALUE(json_payload.status) = 'FAILED'\\r\\n -- Filter for systemic gateway issues, not user-input errors like WRONG_PIN\\r\\n AND JSON_VALUE(json_payload.failure_reason) = 'GATEWAY_TIMEOUT'\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd818badb50>)])]> Alert configuration: Condition type: Row count threshold Trigger condition: Fired when row counts greater than ( > ) 10 Evaluation window / lookback: 5 minutes (checks the last 5 minutes of data on your defined schedule) Example 2: Alerting on agent latency (traces) Scenario: You’re an AI platform engineer, and you want to ensure your multi-step AI agents are responding within acceptable time limits. You want to monitor the 99th percentile (p99) latency of the orchestrator service and get alerted if performance degrades. To do this, you can write a SQL query against your trace data that calculates the p99 latency for all services and returns true if your agent-orchestrator exceeds 5 seconds (5000 milliseconds). code_block <ListValue: [StructValue([('code', 'WITH latency_data AS (\\r\\n SELECT\\r\\n APPROX_QUANTILES(duration_nano, 100)[OFFSET(99)] / 1000000 AS p99_ms\\r\\n FROM\\r\\n `my-project-id.us._Trace.Spans._AllSpans`\\r\\n WHERE\\r\\n -- Examine rows produced by the agent-orchestrator\\r\\n JSON_VALUE(resource.attributes, \\'$.\"service.name\"\\') = \\'agent-orchestrator\\'\\r\\n GROUP BY\\r\\n service_name\\r\\n)\\r\\nSELECT\\r\\n \"agent-orchestrator\" AS service_name,\\r\\n p99_ms,\\r\\n -- Boolean logic: Alert if p99 exceeds 5000ms\\r\\n (p99_ms > 5000) AS has_latency_spike\\r\\nFROM\\r\\n latency_data'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd818bad310>)])]> Alert configuration: Condition type: Boolean Target column: has_latency_spike Trigger condition: Fired when the query returns any row where this column evaluates to true. Evaluation window / lookback: 10 minutes (or your preferred scheduling interval) Before you begin Before you can create a SQL-based alert, you need to set up a few things: Analytics enabled: For logs : Upgrade your log bucket to use Observability Analytics (if not already updated). For traces : Cloud Trace must be collected and stored in your project. Linked BigQuery dataset: Create a linked BigQuery dataset for the telemetry source (either the log bucket or the trace dataset ). SQL-based alerts query the data through this BigQuery link. IAM permissions: Grant the IAM roles necessary to create an SQL-based alert policy: Monitoring AlertPolicy Editor and Logging SqlAlert Writer (applies to both log and trace alerts). Notification channels: Configure the notification channels (like email or Slack) where you want to receive alerts. How to create your alert Creating a sql-based alert policy is straightforward: Navigate to Observability Analytics in the Google Cloud console. Compose and validate your SQL query. Select the Run on BigQuery query engine in the UI. Click the Create alert button from the results toolbar. Define your condition (row count or boolean) and your evaluation schedule. Add your notification channels, give your alert a clear name, and click Save . For Infrastructure as Code (IaC) pipelines, you can also configure alerts via the API and Terraform . Get started Ready to build more powerful, insightful alerts? Open the Observability Analytics page in the console and try writing your first SQL query today. You can find more details and advanced examples in the official documentation .",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -2269,6 +2269,22 @@
     "summary": "After 35 years Carolina West Wireless will transition its network to Verizon"
   },
   {
+    "title": "It's looking like a hot, messy summer for security teams as AI finds countless previously hidden vulns",
+    "url": "https://www.theregister.com/security/2026/06/27/its-looking-like-a-hot-messy-summer-for-security-teams-as-ai-finds-countless-previously-hidden-vulns/5260478",
+    "source": "The Register",
+    "published": "2026-06-27T06:59:00+00:00",
+    "raw_text": "Time to start praying to the goddess of wisdom and war",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Time to start praying to the goddess of wisdom and war"
+  },
+  {
     "title": "Even the Secret Service won't use company-issued phones",
     "url": "https://www.theregister.com/security/2026/06/26/even-the-secret-service-wont-use-company-issued-phones/5263356",
     "source": "The Register",
@@ -2682,8 +2698,8 @@
     "summary": "Spotted in intrusions targeting insurance, education, IT, and professional services sectors"
   },
   {
-    "title": "They read the scroll thing! AI helps decipher ancient document charred by Vesuvius",
-    "url": "https://www.theregister.com/offbeat/2026/06/25/they-read-the-scroll-thing-ai-helps-decipher-ancient-document-charred-by-vesuvius/5262525",
+    "title": "They've read the scroll thing! AI helps decipher ancient document charred by Vesuvius",
+    "url": "https://www.theregister.com/offbeat/2026/06/25/theyve-read-the-scroll-thing-ai-helps-decipher-ancient-document-charred-by-vesuvius/5262525",
     "source": "The Register",
     "published": "2026-06-25T21:18:47+00:00",
     "raw_text": "'Having certainly strained ourselves to the utmost through research and learning, we will no longer be inferior to them,' reads a scroll virtually unwrapped with the help of AI",
@@ -2983,38 +2999,6 @@
       ]
     },
     "summary": "PARTNER CONTENT: As agentic AI systems scale across cloud and datacenter environments, CPUs remain the control plane coordinating performance and efficiency."
-  },
-  {
-    "title": "UK school’s network left wide open for invasion, student found",
-    "url": "https://www.theregister.com/security/2026/06/25/uk-schools-network-left-wide-open-for-invasion-student-found/5261567",
-    "source": "The Register",
-    "published": "2026-06-25T07:00:00+00:00",
-    "raw_text": "And the admin password was right in the Active Directory description field",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ]
-    },
-    "summary": "And the admin password was right in the Active Directory description field"
-  },
-  {
-    "title": "Infosys boss says vibe coding is no threat because there’s more to writing software than writing software",
-    "url": "https://www.theregister.com/channel/2026/06/25/infosys-boss-says-vibe-coding-is-no-threat-because-theres-more-to-writing-software-than-writing-software/5261900",
-    "source": "The Register",
-    "published": "2026-06-25T06:13:18+00:00",
-    "raw_text": "Despite warnings of revenue deflation, chairman predicts AI will make more work, not less, for services orgs",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat"
-      ]
-    },
-    "summary": "Despite warnings of revenue deflation, chairman predicts AI will make more work, not less, for services orgs"
   },
   {
     "title": "Why frontier AI must be stress-tested before CISOs trust it",
@@ -3462,42 +3446,6 @@
     "summary": "<p>Nationwide Building Society has extended its contract with Broadcom covering <a href=\"https://www.computerweekly.com/news/366642853/Broadcom-updates-VCF-to-address-on-premise-AI\">VMware Cloud Foundation (VCF)</a>. The virtualisation platform forms the foundation for a fully integrated, enterprise-grade private cloud platform. Nationwide said the Broadcom software helps it to deliver more secure, resilient and scalable digital services, while supporting coordination and integration across the organisation following its acquisition of Virgin Money.</p> <p>The decision to extend its VMware contract comes at a time when some companies are <a href=\"https://www.computerweekly.com/news/366623726/Broadcom-letters-demonstrate-push-to-VMware-subscriptions\">seeing substantial price increases</a> in the cost of licensing and of ongoing support for the virtualisation platform. In fact, some companies such as Tesco&nbsp;– which has a contract dispute with Broadcom, VMware and its reseller, Computacenter – are moving off VMware to alternative virtualisation platform providers (<em>see <a href=\"#Tesco_case\">Broadcom responds to Tesco</a> box</em>).</p> <p>VMware Cloud Foundation is a unified, private cloud platform with integrated, compute, storage, networking, management and security, with automation and intelligent operations."
   },
   {
-    "title": "Finland drives AI growth amid low take-up concerns",
-    "url": "https://www.computerweekly.com/news/366644920/Finland-drives-AI-growth-amid-low-take-up-concerns",
-    "source": "ComputerWeekly",
-    "published": "2026-06-25T07:15:00+00:00",
-    "raw_text": "<p>Finland plans to ramp up funding for advanced technology-specific research and development projects and key state industrial development agencies in a bid to bolster innovation and use of artificial intelligence (AI) among Finnish enterprises.</p> <p>The drive comes as a countrywide AI survey, <em><a target=\"_blank\" href=\"https://mb.cision.com/Public/13697/4355210/b1329ebdb75ee6ab.pdf\" rel=\"noopener\">Unlocking AI value in Finnish organisations</a></em>, raises concerns over the prospect of Finland falling behind international competitors in the use of AI and digital technologies.</p> <p>The Finnish government’s response to AI growth is happening against a backdrop where indigenous companies and their central industry organisations have intensified lobbying efforts in search of enhanced financial incentives.</p> <p>This is to help small and medium-sized enterprises access state funding to train their employees in next-generation technologies, and acquire talent in the AI and digital fields.</p> <p>The industry survey, conducted by Finnish financial group OP Pohjola in collaboration with global management consultancy Accenture, found that just 11% of Finnish companies are using AI strategically despite growing investments in the technology.</p> <p>Released on 29 May, the survey revealed that while Finnish companies are raising investments in AI, almost 89% are failing to use the technology “with a clear strategic focus to meet customer needs”. Data produced for the survey was collected during the period between December 2025 and March 2026.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Concerning findings\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Concerning findings</h2> <p>According to the Accenture-OP Pohjola survey, based on interviews and written responses from executives holding leading decision-making technology advancement roles in their enterprises, approximately 40% of Finnish companies believe their AI investments will grow by at least 25% over the next two years. Additionally, around 20% of executives forecast that AI investments might plateau or decrease in the future.</p> <p>The survey’s findings show that the adoption of AI tends to be mainly reactive in Finland at present, said OP Pohjola CIO&nbsp;<a href=\"https://www.linkedin.com/in/kasimir-hirn/\">Kasimir Hirn</a>.</p> <p>A deeper analysis of data collated, he said, indicates that the optimum potential benefits of planned investments by companies may never be realised given the low percentage of enterprises that are currently not using AI strategically.</p> <p>“There have been many reports on the uptake of AI in Finland, and some reveal a lag in leveraging the benefits of the technology,” said Hirn. “The survey revealed precisely why this is the case, as well as why some companies are succeeding and others not. Those in the ‘not’ category tend to lack strategic clarity about the benefits of using AI. These organisations are acting hastily due to the fear of being left behind. Their AI experiments focus on automation of internal processes and use of efficiency indicators.”</p> <p>The survey infers that many of those Finnish organisations “experimenting” with the technology at present are finding it difficult to harness AI in a way that provides strategic value to their companies and business operations.</p> <p>Moreover, some 70% of executives surveyed stated that AI has not delivered on initial expectations to raise turnover. Moreover, 68% of responding executives maintain that AI has not contributed to generating cost savings in their organisations.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Two groups\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Two groups</h2> <p>The survey reveals “opposite thinking” on AI that places corporations into two distinct groups, said Hirn. The first group, composed of Finnish organisations succeeding with AI, have adopted strategies that are based on using AI to create unique value in their business operations. The second group, which are failing to leverage optimum gains from the technology, are likely to involve enterprises preoccupied with the question, “What can AI automate?”</p> <p>“These companies may be optimising processes that become irrelevant as customer expectations change and competitors implement the same efficiencies,” he said.</p> <p>OP Pohjola sharpened its profile as a leading Nordic financial services player in the AI space in February 2026, when it partnered with Qutwo, the Helsinki-headquartered AI and quantum computing (QC) technology development firm, to establish a joint R&amp;D unit.</p> <p>The Helsinki-based QC-AI R&amp;D unit is tasked with identifying the opportunities that advanced QC and AI can offer financial services providers such as OP Pohjola, while accelerating the development of offerings leveraging these technologies.</p> <p>The uptick in state investments earmarked to grow AI is reflected in the Finnish government’s Technology Advancement Strategy, contained in the 2026 budget. The budget has provisioned €1bn in spending across a range of AI-related projects over the period between 2026 and 2028. The elevated level of AI investments will require a higher role for key state industrial development agencies such as Invest in Finland (IIF) and Tesi.&nbsp;&nbsp;&nbsp;</p> <p>The increased state funding flowing to IIF is powering core innovation-led initiatives, including the development of Finnish ecosystems to drive innovation in space technology and defence AI. The long-term strategic objective is to build ecosystems that can serve as launchpads for startups with pioneering ideas and AI technologies.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about AI in Finland</h3> <ul class=\"default-list\"> <li>The success of an online&nbsp;<a href=\"https://www.computerweekly.com/news/252464060/Finland-globalises-AI-training-programme\">course in understanding artificial intelligence</a>&nbsp;launched in Finland has led to a global roll-out.</li> <li>Authorities in Helsinki <a href=\"https://www.computerweekly.com/news/252493225/Finland-examines-wider-use-of-AI-video-camera-technology\">will use artificial intelligence and video technologies</a>&nbsp;to help them automate monitoring of crowds.</li> <li>Finland could play an important role in <a href=\"https://www.computerweekly.com/news/252510587/Finland-looks-to-democratise-the-wild-west-of-artificial-intelligence\">increasing the understanding of what artificial intelligence software can do</a> for society.</li> </ul> </div> </div> <p>Finland is looking to a multi-track approach of home-grown innovation and spending, inward investments and international partnerships to optimise its potential to grow as a competitive global player in the AI domain, said <a href=\"https://www.linkedin.com/posts/meetteamiif-leadership-cultures-share-7151126523750629377-WcSi/\">Lars Hagebris</a>, the head of International Operations at IIF.</p> <p>“Finland ranks among the most innovative ecosystems worldwide,” he said. “For global innovators, predictability is the key and we are well-positioned to deliver on that expectation.”</p> <p>The Finnish government’s higher level of ambition and deepening commitment to driving economic growth through AI-led innovation is welded to the target of having 4% of the country’s GDP invested in R&amp;D by 2030. In a parallel economic growth-driven goal, Finland is also on course to become carbon neutral by 2035.</p> <p>With strengthened funding at IIF and Tesi, the more productive environment for strategic partnerships has resulted in some of Finland’s leading technology brands and innovators forming strategic AI partnerships to access critical state funding.</p> <p>Among the more high-profile collaborations is a partnership between Nokia and NestAI to develop AI-based defence technologies. The AI joint venture is backed by a €100m investment from Tesi (Teollisuussijoitus), the state-owned company created in 1995 to invest in venture capital and private equity funds, as well as directly in startups, scaleups and large industrial projects.​</p> <p>The Nokia-NestAI partnership will harness Nokia’s expertise with secure connectivity and multimedia platforms with NestAI’s mission-critical physical AI-driven capabilities and systems for unmanned vehicles and command and control applications.</p> <p>The joint venture was rolled out in the wake of Nokia establishing its dedicated Nokia Defence and AI/digital technologies development unit. The unit is expanding the company’s profile in the national security and defence sphere. Nokia Defence’s lead product development areas include battlefield communications, AI-enhanced sensing and real-time data systems for military use.</p> <p>“This was a logical course for Nokia to take,” said Justin Hotard, Nokia’s chief executive. “Our partnership with NestAI, and the overall investment, will help shape the future of AI-driven solutions. The investment will accelerate the development of next-generation capabilities for defence and national security.”</p> </section>",
-    "categories": [
-      "Industry & Market",
-      "Networks",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan",
-        "connectivity"
-      ],
-      "Cybersecurity": [
-        "security",
-        "soc"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "partnership",
-        "joint venture",
-        "funding",
-        "investment",
-        "raises",
-        "accenture",
-        "ey"
-      ]
-    },
-    "summary": "<p>Finland plans to ramp up funding for advanced technology-specific research and development projects and key state industrial development agencies in a bid to bolster innovation and use of artificial intelligence (AI) among Finnish enterprises.</p> <p>The drive comes as a countrywide AI survey, <em><a target=\"_blank\" href=\"https://mb.cision.com/Public/13697/4355210/b1329ebdb75ee6ab.pdf\" rel=\"noopener\">Unlocking AI value in Finnish organisations</a></em>, raises concerns over the prospect of Finland falling behind international competitors in the use of AI and digital technologies.</p> <p>The Finnish government’s response to AI growth is happening against a backdrop where indigenous companies and their central industry organisations have intensified lobbying efforts in search of enhanced financial incentives.</p> <p>This is to help small and medium-sized enterprises access state funding to train their employees in next-generation technologies, and acquire talent in the AI and digital fields.</p> <p>The industry survey, conducted by Finnish financial group OP Pohjola in collaboration with global management consultancy Accenture, found that just 11% of Finnish companies are using AI strategically despite growing investments in the technology.</p> <p>Released on 29 May, the survey revealed that while Finnish companies are raising investments in AI, almost 89% are failing to use the technology “with a clear strategic focus to meet customer needs”. Data produced for the survey was collected during the period between December 2025 and March 2026.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Concerning findings\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Concerning findings</h2> <p>According to the Accenture-OP Pohjola survey, based on interviews and written responses from executives holding leading decision-making technology advancement roles in their enterprises, approximately 40% of Finnish companies believe their AI investments will grow by at least 25% over the next two years. Additionally, around 20% of executives forecast that AI investments might plateau or decrease in the future.</p> <p>The survey’s findings show that the adoption of AI tends to be mainly reactive in Finland at present, said OP Pohjola CIO&nbsp;<a href=\"https://www.linkedin.com/in/kasimir-hirn/\">Kasimir Hirn</a>.</p> <p>A deeper analysis of data collated, he said, indicates that the optimum potential benefits of planned investments by companies may never be realised given the low percentage of enterprises that are currently not using AI strategically.</p> <p>“There have been many reports on the uptake of AI in Finland, and some reveal a lag in leveraging the benefits of the technology,” said Hirn. “The survey revealed precisely why this is the case, as well as why some companies are succeeding and others not."
-  },
-  {
     "title": "Prime Day is ending: We hand-picked the 100+ best deals still live from Apple, Garmin, Bose, & more",
     "url": "https://www.zdnet.com/article/amazon-june-prime-day-live-blog-06-26-2026/",
     "source": "ZDNet",
@@ -3766,6 +3714,106 @@
     "summary": "Prime Day is almost over. Score record-low early prices on Samsung Galaxy smartphones, smartwatches, and 4K TVs on Amazon today."
   },
   {
+    "title": "L'institut texan des arythmies cardiaques du St. David's Medical Center organise une conférence internationale sur les arythmies cardiaques complexes",
+    "url": "https://www.prnewswire.com/news-releases/linstitut-texan-des-arythmies-cardiaques-du-st-davids-medical-center-organise-une-conference-internationale-sur-les-arythmies-cardiaques-complexes-302812544.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T07:08:00+00:00",
+    "raw_text": "La conférence EPLive 2026 a rassemblé 1 600 des meilleurs spécialistes mondiaux en électrophysiologie cardiaque AUSTIN, Texas, 27 juin 2026 /PRNewswire/ -- L'institut texan des arythmies cardiaques du St. David's Medical Center a tenu son huitième symposium international sur les arythmies...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "La conférence EPLive 2026 a rassemblé 1 600 des meilleurs spécialistes mondiaux en électrophysiologie cardiaque AUSTIN, Texas, 27 juin 2026 /PRNewswire/ -- L'institut texan des arythmies cardiaques du St. David's Medical Center a tenu son huitième symposium international sur les arythmies..."
+  },
+  {
+    "title": "Envision Energy s'associe à SOLA Group et WBHO pour la mise en place d'un système de stockage d'énergie par batterie (SSEB) de 660 MWh dans le cadre d'un projet d'énergie électrique privé d'envergure en Afrique du Sud",
+    "url": "https://www.prnewswire.com/news-releases/envision-energy-sassocie-a-sola-group-et-wbho-pour-la-mise-en-place-dun-systeme-de-stockage-denergie-par-batterie-sseb-de-660-mwh-dans-le-cadre-dun-projet-denergie-electrique-prive-denvergure-en-afrique-du-sud-302812539.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T07:03:00+00:00",
+    "raw_text": "LE CAP, Afrique du Sud, 27 juin 2026 /PRNewswire/ -- Envision Energy, leader mondial des technologies vertes, a signé un contrat de fourniture d'un système de stockage d'énergie par batterie (BESS) d'une capacité de 660 MWh avec le groupe SOLA et WBHO dans le cadre du projet phare Naos-1....",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "LE CAP, Afrique du Sud, 27 juin 2026 /PRNewswire/ -- Envision Energy, leader mondial des technologies vertes, a signé un contrat de fourniture d'un système de stockage d'énergie par batterie (BESS) d'une capacité de 660 MWh avec le groupe SOLA et WBHO dans le cadre du projet phare Naos-1...."
+  },
+  {
+    "title": "ZTE presenteert volledige AI-oplossingen op MWC Shanghai 2026 en maakt de weg vrij voor een nieuw tijdperk in tokenverwerking",
+    "url": "https://www.prnewswire.com/news-releases/zte-presenteert-volledige-ai-oplossingen-op-mwc-shanghai-2026-en-maakt-de-weg-vrij-voor-een-nieuw-tijdperk-in-tokenverwerking-302812536.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T06:55:00+00:00",
+    "raw_text": "ZTE presenteerde op MWC Shanghai 2026 een end-to-end AI-oplossing gericht op token-efficiëntie en lage kosten, met een hechte synergie tussen verschillende elementen, zoals SuperPod, uiterst kostenefficiënte inferentie en AIDC met ultieme energie-efficiëntie. ZTE lanceerde de NewStart...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "idc"
+      ]
+    },
+    "summary": "ZTE presenteerde op MWC Shanghai 2026 een end-to-end AI-oplossing gericht op token-efficiëntie en lage kosten, met een hechte synergie tussen verschillende elementen, zoals SuperPod, uiterst kostenefficiënte inferentie en AIDC met ultieme energie-efficiëntie. ZTE lanceerde de NewStart..."
+  },
+  {
+    "title": "Fox ESS schittert op The Smarter E Europe 2026 met zijn full-ecosystem-aanbod en door AI aangedreven standervaring",
+    "url": "https://www.prnewswire.com/news-releases/fox-ess-schittert-op-the-smarter-e-europe-2026-met-zijn-full-ecosystem-aanbod-en-door-ai-aangedreven-standervaring-302812532.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T06:42:00+00:00",
+    "raw_text": "MÜNCHEN, 27 juni 2026 /PRNewswire/ -- Fox ESS, een wereldleider in oplossingen voor hernieuwbare energie, heeft een opvallende aanwezigheid afgeleverd op The Smarter E Europe 2026. Terwijl het bedrijf zijn Europese debuut maakte, onthulde het een dynamische rebrandzone met in het...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "edr"
+      ]
+    },
+    "summary": "MÜNCHEN, 27 juni 2026 /PRNewswire/ -- Fox ESS, een wereldleider in oplossingen voor hernieuwbare energie, heeft een opvallende aanwezigheid afgeleverd op The Smarter E Europe 2026. Terwijl het bedrijf zijn Europese debuut maakte, onthulde het een dynamische rebrandzone met in het..."
+  },
+  {
+    "title": "Dahua Technology toont \"zichtbare AI in nieuwe energie\" op Intersolar Europe 2026",
+    "url": "https://www.prnewswire.com/news-releases/dahua-technology-toont-zichtbare-ai-in-nieuwe-energie-op-intersolar-europe-2026-302812530.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T06:33:00+00:00",
+    "raw_text": "MÜNCHEN, 27 juni 2026 /PRNewswire/ -- Dahua Technology, een toonaangevende video-gerichte AIoT-oplossing en dienstverlener, heeft zijn nieuwste innovaties voor de sector van hernieuwbare energie gepresenteerd op Intersolar Europe 2026. Onder het thema \"zichtbare AI in nieuwe energie\"...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ]
+    },
+    "summary": "MÜNCHEN, 27 juni 2026 /PRNewswire/ -- Dahua Technology, een toonaangevende video-gerichte AIoT-oplossing en dienstverlener, heeft zijn nieuwste innovaties voor de sector van hernieuwbare energie gepresenteerd op Intersolar Europe 2026. Onder het thema \"zichtbare AI in nieuwe energie\"..."
+  },
+  {
+    "title": "Parties seen as key to driving global governance, modernization",
+    "url": "https://www.prnewswire.com/news-releases/parties-seen-as-key-to-driving-global-governance-modernization-302812521.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T06:05:00+00:00",
+    "raw_text": "BEIJING, June 27, 2026 /PRNewswire/ -- This is a news report from China Daily: When seeking economic growth and delivering benefits to the people, political parties in Global South countries should act based on their national conditions, chart suitable paths to achieve modernization,...",
+    "categories": [
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "governance"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "BEIJING, June 27, 2026 /PRNewswire/ -- This is a news report from China Daily: When seeking economic growth and delivering benefits to the people, political parties in Global South countries should act based on their national conditions, chart suitable paths to achieve modernization,..."
+  },
+  {
     "title": "MoEngage adquiere Aampe para ofrecer toma de decisiones personalizada a los equipos de marketing B2C",
     "url": "https://www.prnewswire.com/news-releases/moengage-adquiere-aampe-para-ofrecer-toma-de-decisiones-personalizada-a-los-equipos-de-marketing-b2c-302812508.html",
     "source": "PR Newswire - Technology",
@@ -3822,22 +3870,6 @@
     "summary": "NEW YORK, June 26, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Veritone, Inc. (NASDAQ: VERI) between October 14, 2025 and April 14, 2026, inclusive (the \"Class Period\"), of the important July 20, 2026 lead plaintiff..."
   },
   {
-    "title": "Notice of Data Security Event",
-    "url": "https://www.prnewswire.com/news-releases/notice-of-data-security-event-302812197.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "LEWES, Del., June 26, 2026 /PRNewswire/ -- Women's Wellness of Southern Delaware (\"WWSD\") is notifying individuals of a data security incident that may have affected their personal information. While we are unaware of any attempted or actual misuse of individuals' personal information, we...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "LEWES, Del., June 26, 2026 /PRNewswire/ -- Women's Wellness of Southern Delaware (\"WWSD\") is notifying individuals of a data security incident that may have affected their personal information. While we are unaware of any attempted or actual misuse of individuals' personal information, we..."
-  },
-  {
     "title": "Erasca Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Erasca - ERAS",
     "url": "https://www.prnewswire.com/news-releases/erasca-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-erasca---eras-302812267.html",
     "source": "PR Newswire - Technology",
@@ -3858,6 +3890,22 @@
     "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Erasca, Inc. (NasdaqGS: ERAS) (\"Erasca\" or the..."
   },
   {
+    "title": "Notice of Data Security Event",
+    "url": "https://www.prnewswire.com/news-releases/notice-of-data-security-event-302812197.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "LEWES, Del., June 26, 2026 /PRNewswire/ -- Women's Wellness of Southern Delaware (\"WWSD\") is notifying individuals of a data security incident that may have affected their personal information. While we are unaware of any attempted or actual misuse of individuals' personal information, we...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "LEWES, Del., June 26, 2026 /PRNewswire/ -- Women's Wellness of Southern Delaware (\"WWSD\") is notifying individuals of a data security incident that may have affected their personal information. While we are unaware of any attempted or actual misuse of individuals' personal information, we..."
+  },
+  {
     "title": "Sportradar Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Sportradar Group AG - SRAD",
     "url": "https://www.prnewswire.com/news-releases/sportradar-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-sportradar-group-ag---srad-302812289.html",
     "source": "PR Newswire - Technology",
@@ -3876,63 +3924,6 @@
       ]
     },
     "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until July 17, 2026 to file lead plaintiff applications in a securities class action lawsuit against Sportradar Group AG (NasdaqGS: SRAD) (\"Sportradar\" or the..."
-  },
-  {
-    "title": "AeroVironment Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against AeroVironment, Inc. - AVAV",
-    "url": "https://www.prnewswire.com/news-releases/aerovironment-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-aerovironment-inc---avav-302812278.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until July 27, 2026 to file lead plaintiff applications in a securities class action lawsuit against AeroVironment, Inc. (NasdaqGS: AVAV) (\"AeroVironment\" or...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until July 27, 2026 to file lead plaintiff applications in a securities class action lawsuit against AeroVironment, Inc. (NasdaqGS: AVAV) (\"AeroVironment\" or..."
-  },
-  {
-    "title": "Via Transportation Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Via Transportation, Inc. - VIA",
-    "url": "https://www.prnewswire.com/news-releases/via-transportation-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-via-transportation-inc---via-302812298.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or..."
-  },
-  {
-    "title": "GeneDx Holdings Securities Fraud Class Action Result of Acquisition Performance Misrepresentations and 49% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-securities-fraud-class-action-result-of-acquisition-performance-misrepresentations-and-49-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302812341.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquisition",
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a..."
   },
   {
     "title": "Zillow Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Zillow Group, Inc. - ZG, Z",
@@ -3975,6 +3966,63 @@
     "summary": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS..."
   },
   {
+    "title": "GeneDx Holdings Securities Fraud Class Action Result of Acquisition Performance Misrepresentations and 49% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-securities-fraud-class-action-result-of-acquisition-performance-misrepresentations-and-49-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302812341.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquisition",
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a..."
+  },
+  {
+    "title": "Via Transportation Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Via Transportation, Inc. - VIA",
+    "url": "https://www.prnewswire.com/news-releases/via-transportation-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-via-transportation-inc---via-302812298.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or..."
+  },
+  {
+    "title": "AeroVironment Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against AeroVironment, Inc. - AVAV",
+    "url": "https://www.prnewswire.com/news-releases/aerovironment-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-aerovironment-inc---avav-302812278.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until July 27, 2026 to file lead plaintiff applications in a securities class action lawsuit against AeroVironment, Inc. (NasdaqGS: AVAV) (\"AeroVironment\" or...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until July 27, 2026 to file lead plaintiff applications in a securities class action lawsuit against AeroVironment, Inc. (NasdaqGS: AVAV) (\"AeroVironment\" or..."
+  },
+  {
     "title": "ADMA Biologics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against ADMA Biologics, Inc. - ADMA",
     "url": "https://www.prnewswire.com/news-releases/adma-biologics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-adma-biologics-inc---adma-302812275.html",
     "source": "PR Newswire - Technology",
@@ -4005,90 +4053,6 @@
     ],
     "matched_keywords": {},
     "summary": "DALLAS, TX, 27 de junio de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Cuáles son las ventajas de contratar una firma que habla español después de un accidente de automóvil? La pregunta está en un artículo de HelloNation (en inglés y en español), presentando a la abogada de lesiones personales..."
-  },
-  {
-    "title": "EVA Air Debuts the First Washington, D.C. to Taipei Nonstop Service",
-    "url": "https://www.prnewswire.com/news-releases/eva-air-debuts-the-first-washington-dc-to-taipei-nonstop-service-302812477.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T01:16:00+00:00",
-    "raw_text": "This route marks the airline's 10th North American gateway, enhancing access between the U.S. capital region and Asia TAIPEI, June 26, 2026 /PRNewswire/ -- EVA Air celebrated the launch of its new nonstop service between Washington D.C. and Taipei, marking a significant expansion as the...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "This route marks the airline's 10th North American gateway, enhancing access between the U.S. capital region and Asia TAIPEI, June 26, 2026 /PRNewswire/ -- EVA Air celebrated the launch of its new nonstop service between Washington D.C. and Taipei, marking a significant expansion as the..."
-  },
-  {
-    "title": "Shell aportará 5 millones de dólares en ayuda humanitaria para Venezuela",
-    "url": "https://www.prnewswire.com/news-releases/shell-aportara-5-millones-de-dolares-en-ayuda-humanitaria-para-venezuela-850931630.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T01:13:00+00:00",
-    "raw_text": "CARACAS, Venezuela, 26 de junio de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Shell expresa su más profunda solidaridad con todas las personas afectadas por los devastadores terremotos ocurridos esta semana en Venezuela. Nuestros pensamientos están con las familias y comunidades que han...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "CARACAS, Venezuela, 26 de junio de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Shell expresa su más profunda solidaridad con todas las personas afectadas por los devastadores terremotos ocurridos esta semana en Venezuela. Nuestros pensamientos están con las familias y comunidades que han..."
-  },
-  {
-    "title": "Persistent and Nagarro sign Business Combination Agreement to form the Persistent - Nagarro Group, a global leader in AI-led digital engineering",
-    "url": "https://www.prnewswire.com/news-releases/persistent-and-nagarro-sign-business-combination-agreement-to-form-the-persistent---nagarro-group-a-global-leader-in-ai-led-digital-engineering-302812476.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T01:08:00+00:00",
-    "raw_text": "Persistent announces the intention to launch a voluntary public takeover offer for all outstanding Nagarro shares at EUR 81 per share All-cash offer represents a highly attractive premium of ~140% to the undisturbed closing price on June 25, 2026, and ~94% to the three-month...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Persistent announces the intention to launch a voluntary public takeover offer for all outstanding Nagarro shares at EUR 81 per share All-cash offer represents a highly attractive premium of ~140% to the undisturbed closing price on June 25, 2026, and ~94% to the three-month..."
-  },
-  {
-    "title": "CCF's Impact Fund Announces $1.5 Million in Grants to More Than 20 Nonprofit Partners to Provide Critical Relief to Boyle Heights and Eastside Communities",
-    "url": "https://www.prnewswire.com/news-releases/ccfs-impact-fund-announces-1-5-million-in-grants-to-more-than-20-nonprofit-partners-to-provide-critical-relief-to-boyle-heights-and-eastside-communities-302812475.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T01:05:00+00:00",
-    "raw_text": "Grants will help support immediate community needs like food, masks, air purifiers, and other basic need essentials LOS ANGELES, June 26, 2026 /PRNewswire/ -- Today, CCF announced grants to more than 20 community organizations through its recently activated Impact Fund, to provide...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Grants will help support immediate community needs like food, masks, air purifiers, and other basic need essentials LOS ANGELES, June 26, 2026 /PRNewswire/ -- Today, CCF announced grants to more than 20 community organizations through its recently activated Impact Fund, to provide..."
-  },
-  {
-    "title": "INTURAI ADVANCES DRONE, DEFENCE AND IN-HOME INTELLIGENCE WITH NEW TECHNOLOGY",
-    "url": "https://www.prnewswire.com/news-releases/inturai-advances-drone-defence-and-in-home-intelligence-with-new-technology-302812473.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T00:55:00+00:00",
-    "raw_text": "(CSE: URAI / OTC: URAIF / FSE: 3QG0) investor@inturai.com Highlights Inturai's sensors now work without an internet connection, making them much easier to set up and more globally deployable in all commercial, intelligence and operational environments. The Company is currently testing...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "(CSE: URAI / OTC: URAIF / FSE: 3QG0) investor@inturai.com Highlights Inturai's sensors now work without an internet connection, making them much easier to set up and more globally deployable in all commercial, intelligence and operational environments. The Company is currently testing..."
-  },
-  {
-    "title": "In HelloNation, Spanish-Speaking Personal Injury Attorney Roxane M. Guerrero of Dallas, TX, Explains the Benefits of Bilingual Legal Services After a Car Accident",
-    "url": "https://www.prnewswire.com/news-releases/in-hellonation-spanish-speaking-personal-injury-attorney-roxane-m-guerrero-of-dallas-tx-explains-the-benefits-of-bilingual-legal-services-after-a-car-accident-302812472.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T00:53:00+00:00",
-    "raw_text": "DALLAS, June 26, 2026 /PRNewswire/ -- What are the advantages of hiring a Spanish-Speaking personal injury attorney after a car accident? That question is addressed in a HelloNation article (in English and in Spanish) featuring Spanish-Speaking Personal Injury Attorney Roxane M. Guerrero...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "DALLAS, June 26, 2026 /PRNewswire/ -- What are the advantages of hiring a Spanish-Speaking personal injury attorney after a car accident? That question is addressed in a HelloNation article (in English and in Spanish) featuring Spanish-Speaking Personal Injury Attorney Roxane M. Guerrero..."
   },
   {
     "title": "Hi3D Launches an AI-Powered Workflow for 3D Printing Creators",
