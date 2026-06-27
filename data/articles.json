@@ -324,26 +324,6 @@
     "summary": "A previously undocumented Rust-based macOS implant and information stealer has been found to embed a prompt injection payload designed to trick a malware analyst's artificial intelligence (AI) tools and trick it into aborting or refusing an analysis of the artifact. The malware has been codenamed Gaslight owing to this deceptive behavior. It's been assessed with high confidence that the tool is"
   },
   {
-    "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
-    "url": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
-    "source": "The Hacker News",
-    "published": "2026-06-25T08:54:37+00:00",
-    "raw_text": "A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026. According to Symantec and Carbon Black's Threat Hunter Team, the backdoor, also tracked as MLTBackdoor, is said to be linked to an initial access broker (IAB) named",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "A new, stealthy backdoor named Mistic has been deployed as part of suspected financially motivated attacks aimed at multiple organizations spanning insurance, education, IT, and professional services sectors since April 2026. According to Symantec and Carbon Black's Threat Hunter Team, the backdoor, also tracked as MLTBackdoor, is said to be linked to an initial access broker (IAB) named"
-  },
-  {
     "title": "FBI: Russian hackers now target Signal backup recovery keys",
     "url": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/",
     "source": "BleepingComputer",
@@ -1382,7 +1362,7 @@
     "url": "https://cloud.google.com/blog/products/management-tools/alert-with-sql-in-cloud-monitoring-observability-analytics/",
     "source": "Google Cloud Blog",
     "published": "2026-06-26T16:30:00+00:00",
-    "raw_text": "Traditional alerting systems often force a compromise: you can either alert immediately on simple, noisy log events, or monitor rigid, pre-configured metrics that fail when faced with data with many unique answers like user sessions or IP addresses. But the most critical system issues — like a 20% spike in error rates for a specific customer or a latency anomaly correlated with database timeouts — are hidden in the aggregates and relationships between these signals. Recently, we announced that you can now use SQL to query logs and traces in Observability Analytics (formerly Log Analytics). But the story gets better. You can also use SQL to create alerts in Observability Analytics. By bringing SQL directly to your alerting engine, you can write complex analytical queries over logs and traces and turn them into alerts. Whether you need to calculate error percentages, analyze high-cardinality dimensions, or JOIN logs and traces, SQL alerting helps you go from basic threshold monitoring to deep, contextual detection that goes beyond the capabilities of traditional alerting systems. SQL alerting is now in preview. How SQL-based alerting works SQL alerting in Observability Analytics is available as part of Cloud Monitoring . An alerting policy runs your SQL query on a schedule you define (for example, every 10 minutes). It automatically applies a \"lookback window\" to your query, so it only analyzes the log entries or trace spans it received since the last time it ran. If the results of your query meet the condition you set, Cloud Monitoring creates an incident and sends a notification to your chosen channels, like email, Slack, or PagerDuty. Please note that because SQL-based alerting uses BigQuery to process telemetry data, query executions are billed through BigQuery under your standard on-demand pricing or BigQuery reservations. Two ways to trigger an alert You can choose between two types of alert conditions. Row count threshold: This is the simplest option. The alert fires if your query returns a number of rows that is greater than, equal to, or less than a threshold you set. This is perfect for \"alert me if more than 10 users have failed logins\" scenarios. Boolean: This is the most powerful option. The alert fires if your query returns any row where a specific column you define has a value of true. This lets you build complex logic, like calculating percentages, directly in your SQL query. Example 1: Alerting on payment gateway failures (row count) Scenario: Imagine that you’re an e-commerce operator, and you want to be alerted immediately if your payment gateway is experiencing systemic outages, while ignoring occasional, normal card declines (like an incorrect PIN). To do this, you can write a query to filter for log entries indicating gateway timeouts, and use a row count threshold to trigger the alert only if the volume of these errors spikes. code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n JSON_VALUE(json_payload.transaction_id) AS transaction_id,\\r\\n JSON_VALUE(json_payload.error_code) AS error_code\\r\\nFROM\\r\\n `my-project-id.my-dataset.my-log-view`\\r\\nWHERE\\r\\n JSON_VALUE(json_payload.status) = 'FAILED'\\r\\n -- Filter for systemic gateway issues, not user-input errors like WRONG_PIN\\r\\n AND JSON_VALUE(json_payload.failure_reason) = 'GATEWAY_TIMEOUT'\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd818badb50>)])]> Alert configuration: Condition type: Row count threshold Trigger condition: Fired when row counts greater than ( > ) 10 Evaluation window / lookback: 5 minutes (checks the last 5 minutes of data on your defined schedule) Example 2: Alerting on agent latency (traces) Scenario: You’re an AI platform engineer, and you want to ensure your multi-step AI agents are responding within acceptable time limits. You want to monitor the 99th percentile (p99) latency of the orchestrator service and get alerted if performance degrades. To do this, you can write a SQL query against your trace data that calculates the p99 latency for all services and returns true if your agent-orchestrator exceeds 5 seconds (5000 milliseconds). code_block <ListValue: [StructValue([('code', 'WITH latency_data AS (\\r\\n SELECT\\r\\n APPROX_QUANTILES(duration_nano, 100)[OFFSET(99)] / 1000000 AS p99_ms\\r\\n FROM\\r\\n `my-project-id.us._Trace.Spans._AllSpans`\\r\\n WHERE\\r\\n -- Examine rows produced by the agent-orchestrator\\r\\n JSON_VALUE(resource.attributes, \\'$.\"service.name\"\\') = \\'agent-orchestrator\\'\\r\\n GROUP BY\\r\\n service_name\\r\\n)\\r\\nSELECT\\r\\n \"agent-orchestrator\" AS service_name,\\r\\n p99_ms,\\r\\n -- Boolean logic: Alert if p99 exceeds 5000ms\\r\\n (p99_ms > 5000) AS has_latency_spike\\r\\nFROM\\r\\n latency_data'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd818bad310>)])]> Alert configuration: Condition type: Boolean Target column: has_latency_spike Trigger condition: Fired when the query returns any row where this column evaluates to true. Evaluation window / lookback: 10 minutes (or your preferred scheduling interval) Before you begin Before you can create a SQL-based alert, you need to set up a few things: Analytics enabled: For logs : Upgrade your log bucket to use Observability Analytics (if not already updated). For traces : Cloud Trace must be collected and stored in your project. Linked BigQuery dataset: Create a linked BigQuery dataset for the telemetry source (either the log bucket or the trace dataset ). SQL-based alerts query the data through this BigQuery link. IAM permissions: Grant the IAM roles necessary to create an SQL-based alert policy: Monitoring AlertPolicy Editor and Logging SqlAlert Writer (applies to both log and trace alerts). Notification channels: Configure the notification channels (like email or Slack) where you want to receive alerts. How to create your alert Creating a sql-based alert policy is straightforward: Navigate to Observability Analytics in the Google Cloud console. Compose and validate your SQL query. Select the Run on BigQuery query engine in the UI. Click the Create alert button from the results toolbar. Define your condition (row count or boolean) and your evaluation schedule. Add your notification channels, give your alert a clear name, and click Save . For Infrastructure as Code (IaC) pipelines, you can also configure alerts via the API and Terraform . Get started Ready to build more powerful, insightful alerts? Open the Observability Analytics page in the console and try writing your first SQL query today. You can find more details and advanced examples in the official documentation .",
+    "raw_text": "Traditional alerting systems often force a compromise: you can either alert immediately on simple, noisy log events, or monitor rigid, pre-configured metrics that fail when faced with data with many unique answers like user sessions or IP addresses. But the most critical system issues — like a 20% spike in error rates for a specific customer or a latency anomaly correlated with database timeouts — are hidden in the aggregates and relationships between these signals. Recently, we announced that you can now use SQL to query logs and traces in Observability Analytics (formerly Log Analytics). But the story gets better. You can also use SQL to create alerts in Observability Analytics. By bringing SQL directly to your alerting engine, you can write complex analytical queries over logs and traces and turn them into alerts. Whether you need to calculate error percentages, analyze high-cardinality dimensions, or JOIN logs and traces, SQL alerting helps you go from basic threshold monitoring to deep, contextual detection that goes beyond the capabilities of traditional alerting systems. SQL alerting is now in preview. How SQL-based alerting works SQL alerting in Observability Analytics is available as part of Cloud Monitoring . An alerting policy runs your SQL query on a schedule you define (for example, every 10 minutes). It automatically applies a \"lookback window\" to your query, so it only analyzes the log entries or trace spans it received since the last time it ran. If the results of your query meet the condition you set, Cloud Monitoring creates an incident and sends a notification to your chosen channels, like email, Slack, or PagerDuty. Please note that because SQL-based alerting uses BigQuery to process telemetry data, query executions are billed through BigQuery under your standard on-demand pricing or BigQuery reservations. Two ways to trigger an alert You can choose between two types of alert conditions. Row count threshold: This is the simplest option. The alert fires if your query returns a number of rows that is greater than, equal to, or less than a threshold you set. This is perfect for \"alert me if more than 10 users have failed logins\" scenarios. Boolean: This is the most powerful option. The alert fires if your query returns any row where a specific column you define has a value of true. This lets you build complex logic, like calculating percentages, directly in your SQL query. Example 1: Alerting on payment gateway failures (row count) Scenario: Imagine that you’re an e-commerce operator, and you want to be alerted immediately if your payment gateway is experiencing systemic outages, while ignoring occasional, normal card declines (like an incorrect PIN). To do this, you can write a query to filter for log entries indicating gateway timeouts, and use a row count threshold to trigger the alert only if the volume of these errors spikes. code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n JSON_VALUE(json_payload.transaction_id) AS transaction_id,\\r\\n JSON_VALUE(json_payload.error_code) AS error_code\\r\\nFROM\\r\\n `my-project-id.my-dataset.my-log-view`\\r\\nWHERE\\r\\n JSON_VALUE(json_payload.status) = 'FAILED'\\r\\n -- Filter for systemic gateway issues, not user-input errors like WRONG_PIN\\r\\n AND JSON_VALUE(json_payload.failure_reason) = 'GATEWAY_TIMEOUT'\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f62f794b580>)])]> Alert configuration: Condition type: Row count threshold Trigger condition: Fired when row counts greater than ( > ) 10 Evaluation window / lookback: 5 minutes (checks the last 5 minutes of data on your defined schedule) Example 2: Alerting on agent latency (traces) Scenario: You’re an AI platform engineer, and you want to ensure your multi-step AI agents are responding within acceptable time limits. You want to monitor the 99th percentile (p99) latency of the orchestrator service and get alerted if performance degrades. To do this, you can write a SQL query against your trace data that calculates the p99 latency for all services and returns true if your agent-orchestrator exceeds 5 seconds (5000 milliseconds). code_block <ListValue: [StructValue([('code', 'WITH latency_data AS (\\r\\n SELECT\\r\\n APPROX_QUANTILES(duration_nano, 100)[OFFSET(99)] / 1000000 AS p99_ms\\r\\n FROM\\r\\n `my-project-id.us._Trace.Spans._AllSpans`\\r\\n WHERE\\r\\n -- Examine rows produced by the agent-orchestrator\\r\\n JSON_VALUE(resource.attributes, \\'$.\"service.name\"\\') = \\'agent-orchestrator\\'\\r\\n GROUP BY\\r\\n service_name\\r\\n)\\r\\nSELECT\\r\\n \"agent-orchestrator\" AS service_name,\\r\\n p99_ms,\\r\\n -- Boolean logic: Alert if p99 exceeds 5000ms\\r\\n (p99_ms > 5000) AS has_latency_spike\\r\\nFROM\\r\\n latency_data'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f62f794bee0>)])]> Alert configuration: Condition type: Boolean Target column: has_latency_spike Trigger condition: Fired when the query returns any row where this column evaluates to true. Evaluation window / lookback: 10 minutes (or your preferred scheduling interval) Before you begin Before you can create a SQL-based alert, you need to set up a few things: Analytics enabled: For logs : Upgrade your log bucket to use Observability Analytics (if not already updated). For traces : Cloud Trace must be collected and stored in your project. Linked BigQuery dataset: Create a linked BigQuery dataset for the telemetry source (either the log bucket or the trace dataset ). SQL-based alerts query the data through this BigQuery link. IAM permissions: Grant the IAM roles necessary to create an SQL-based alert policy: Monitoring AlertPolicy Editor and Logging SqlAlert Writer (applies to both log and trace alerts). Notification channels: Configure the notification channels (like email or Slack) where you want to receive alerts. How to create your alert Creating a sql-based alert policy is straightforward: Navigate to Observability Analytics in the Google Cloud console. Compose and validate your SQL query. Select the Run on BigQuery query engine in the UI. Click the Create alert button from the results toolbar. Define your condition (row count or boolean) and your evaluation schedule. Add your notification channels, give your alert a clear name, and click Save . For Infrastructure as Code (IaC) pipelines, you can also configure alerts via the API and Terraform . Get started Ready to build more powerful, insightful alerts? Open the Observability Analytics page in the console and try writing your first SQL query today. You can find more details and advanced examples in the official documentation .",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1835,57 +1815,6 @@
       ]
     },
     "summary": "The new CIO mandate is clear: facilitate AI adoption across the enterprise at speed. According to CIO.com’s State of the CIO survey, CEOs’ to p priority for their IT executives is to capitalize on AI . From researching to evaluating AI products, CIOs are now the central figures in their organizations’ AI strategies. And company leaders are looking for real outcomes."
-  },
-  {
-    "title": "GRC is broken. FedRAMP 20x might fix it",
-    "url": "https://www.csoonline.com/article/4188995/grc-is-broken-fedramp-20x-might-fix-it.html",
-    "source": "CSO Online",
-    "published": "2026-06-25T09:00:00+00:00",
-    "raw_text": "We are auditing a curated version of history. I’ve worked in security long enough now to know something most of us don’t really say out loud. A lot of compliance is theatre. Not all of it, and not all auditors or frameworks, but enough of it that most experienced CISOs know exactly what I mean. If you understand how audits work, know how controls are interpreted and can manage scope and narrative well enough, you can often steer things where you need them to go. That’s uncomfortable to admit, but it’s true. The market now treats things like SOC 2 and ISO 27001 as direct statements about operational maturity and security posture when they really aren’t. They are snapshots. Point-in-time reviews based on selected evidence and sampled testing. That doesn’t make them useless. These frameworks were built for a completely different world where cloud infrastructure was less dynamic, APIs weren’t everywhere and continuous telemetry at scale simply wasn’t realistic. Sampling existed because there wasn’t much of an alternative. That’s before we even mention AI, where technology now changes on a monthly cadence against a regulatory backdrop that speaks in years. The issue is that the world moved on, but assurance largely didn’t. The team behind FedRAMP 20x are attempting to address exactly that problem, pushing assurance towards automation, machine-readable evidence and continuous validation rather than documentation-heavy compliance exercises. Most compliance programs still revolve around screenshots, exported evidence, manually curated narratives and carefully staged representations of reality. And that word, reality, is the important bit because in many cases, we are not auditing reality at all. We are auditing a curated version of history. That’s why one of the most important things I’ve heard said around FedRAMP 20x is this: Passing audits does not equal security . Exactly. A company can pass an audit while engineers bypass processes every Friday night to hit deadlines. Controls can drift quietly over time while nobody notices because the evidence only exists for a specific audit window. The audit passes because the story passes, and honestly, I think that’s the bit the industry is becoming increasingly uncomfortable with. How many times a year is the production push made as a “hot fix”? And honestly, I think that’s why movements like GRC engineering are getting so much traction. Not because people suddenly wanted a trendy new title for compliance. But because there’s growing frustration with how artificial parts of the industry have become. A few months ago, I gave a talk in Seattle comparing the rise of GRC engineering to the rise of grunge music. I’m a huge Nirvana fan, so maybe the analogy was inevitable, but the more I thought about it, the more it made sense. Grunge didn’t emerge because people desperately wanted something shiny and new. It emerged because people stopped believing the polished version was real. Hair metal had become overproduced and performative. Grunge felt rough around the edges, but it also felt honest. That’s exactly where GRC feels like it is right now. Too much compliance has become about presenting the cleanest possible version of reality instead of exposing operational truth. Too many clean reports. Too many green ticks on trust centers. Too many perfect policies. The sat nav problem Which brings me to one of the dumbest weekends of my life. Many years ago, my wife decided she wanted to go glamping in the Lake District for Valentine’s Day. We drove north through classic, miserable British weather in a tiny little car completely unsuited for what was coming. As we got closer to the Lakes, the rain slowly turned into heavy snow. Then a full blizzard. The sat nav confidently directed us up a tiny snow-covered road that we physically could not drive up. We got stuck. Eventually, we got free. The sat nav recalculated and sent us up another equally impossible road. Same outcome. This happened multiple times until we eventually ended up buried in a snow drift somewhere in the middle of nowhere, waiting for a bloke in a 4×4 to rescue us while trying not to laugh too hard at the idiots in the tiny car. After about seventeen hours of driving, we gave up and drove home. Completely failed Valentine’s trip. But honestly, I think about that weekend a lot when I think about GRC because the sat nav had data. What it lacked was context. It didn’t understand the environment, the conditions, the capability of the vehicle or even the actual outcome we were trying to achieve. We became obsessed with following the prescribed route instead of stepping back and asking whether the route itself still made sense. It reminds me of stories like tourists literally driving into the sea while blindly following GPS directions. The problem wasn’t the absence of data. The problem was understanding the context around the data. Tourists drive into sea following GPS directions. A lot of compliance programs behave the same way. The objective quietly becomes “pass the audit” instead of “reduce meaningful risk”, and once that happens, teams start optimising for the framework rather than the security outcome. That’s the shift I think FedRAMP 20x and the broader GRC engineering movement are trying to force. Not just better automation or more integrations, but a fundamentally different way of thinking about trust. Compliance becomes an engineering problem One of the central ideas behind FedRAMP 20x is that assurance increasingly needs to be treated as an engineering challenge rather than a documentation exercise. Historically, most compliance has been based on samples. Sampled pull requests, sampled access reviews and sampled infrastructure evidence. FedRAMP 20x pushes in a very different direction with machine-readable evidence, APIs, telemetry and complete datasets instead of manually curated snapshots. Many of these principles closely mirror those outlined in the GRC Engineering Manifesto , which argues that modern assurance should be built on automation, telemetry and engineering disciplines rather than static evidence collection. One of the biggest mindset shifts for our engineering teams was realising FedRAMP wasn’t really asking for selected evidence anymore. They wanted the underlying operational data itself. Not a screenshot proving something was configured correctly on one specific day, but the actual flow of telemetry that underpinned the control or assurance statement. That’s a completely different way of thinking about compliance because the conversation moves away from “prove this existed once” and towards “show me the operational reality continuously.” Instead of showing a screenshot proving a virtual machine was configured correctly on one day, you expose every VM in the environment alongside drift data over time. Instead of selecting a handful of GitHub pull requests, you expose the entire development workflow, including the messy bits where processes were bypassed. Instead of showing sampled JML evidence, you expose the full lifecycle history of identity management over years. Honestly, it should feel uncomfortable because that discomfort is probably a sign you’re finally exposing operational truth instead of polishing it away. Trust shouldn’t come from perfection. It should come from transparency. We thought we were ready And honestly, that’s exactly why our own FedRAMP 20x journey became so interesting. We originally planned to move towards moderate through a much longer runway. Then the programme timings changed, government shutdowns caused disruption, and suddenly we found ourselves with around six or seven weeks before audit activity started. We thought we had a solid plan. We didn’t. Or at least not one that was mature enough yet. We had missed the low pilot earlier in the journey and entered the moderate phase without having already gone through that foundational learning process. We were also the only organization in our pilot group that hadn’t already completed the low pathway first. That mattered. We didn’t yet have the operational muscle memory. No established playbook. No previous iteration. No deeply embedded understanding of how this model actually behaved in practice. At the same time, we weren’t trying to approach FedRAMP 20x like traditional compliance. We built direct API connectivity that allowed FedRAMP and auditors to pull complete machine-readable datasets in JSON format directly from the platform. Human-readable exports still existed where required, but the focus was on exposing operational truth rather than curating static evidence. That’s also one of the core principles behind FedRAMP 20x itself. Controls increasingly need to be both machine-readable and human-readable. The baseline expectation is that a large percentage of controls should be automated with continuous evidence flowing behind them instead of static evidence being manually assembled before an audit. What that means in practice is that auditors no longer just review a point-in-time evidence pack. They gain ongoing visibility into operational datasets and can interrogate those environments in a much more dynamic way. That’s a very different mindset from traditional compliance. And honestly, I think that difference is part of what made the journey so valuable. We didn’t fail. We iterated Because I don’t actually think what happened next was failure. I think it was iteration. Modern engineering teams don’t release perfect software on day one. They test, rebuild, refactor, improve and iterate continuously based on telemetry and feedback. Applications go through: Testing User feedback Redesign Bug fixing Telemetry analysis Continuous improvement Nobody expects version one to be perfect. Yet historically, GRC has behaved completely differently. Build the controls. Collect the evidence. Pass the audit. Repeat next year. The audit becomes the finish line. Our finish line became a “good effort,” “we think you’re ready for a Low authorization, but not Moderate just yet.” For a moment, it felt like failure. It hurt. It felt fundamentally different from any other assessment or audit as we genuinely didn’t know what we’d achieved. In fact, FedRAMP 20x feels fundamentally different and maybe that’s the whole point. The process itself became feedback. Not: Can you tell a convincing enough story? But: What does your environment actually look like and how do you continuously improve it? That’s a completely different mindset. One of the recurring themes throughout FedRAMP 20x is that assurance should improve through continuous iteration rather than annual point-in-time validation. Exactly. That’s how engineering works. The Low authorization wasn’t the end state. It was a checkpoint and a recalibration moment that helped us understand where the next iteration needed to go. And honestly, if you can speedrun moderate FedRAMP with perfectly polished dashboards and no uncomfortable truths exposed, then the framework probably isn’t doing its job. That’s one of the things I genuinely appreciate about FedRAMP 20x. It challenges your assumptions. It forces you to rethink approaches that have become normalized across large parts of the compliance industry. Historically, proving infrastructure security often meant screenshots or exported configs. Now we can expose every VM, every drift event and the full history of posture changes across the environment. That changes behavior massively because you can no longer optimize around the cleanest possible sample. You have to maintain the actual posture continuously. Historically, proving SDLC maturity meant selecting a handful of pull requests. Now we can expose the entire workflow, including every bypassed approval or manual push into production. Historically, proving identity governance meant sampled JML reviews. Now we can expose the operational history of the full identity lifecycle over years. And honestly, that was one of the areas that challenged some of our own assumptions the most. Traditional sampled evidence can make processes look consistently successful because you’re only reviewing selected examples. But operational truth is different. You only need one joiner, mover or leaver process to fail in the wrong way for the risk to become real. That’s exactly the kind of thing continuous operational visibility exposes much more quickly than traditional evidence collection. That’s not just better evidence. It’s a fundamentally different philosophy of assurance. The rise of GRC engineering And this is where I think GRC engineering becomes genuinely important. Not because everybody suddenly needs to become a software engineer, but because the discipline itself is evolving from a documentation exercise into an operational engineering problem. Modern GRC teams are increasingly building telemetry pipelines, integrations, APIs, infrastructure visibility and continuous assurance layers. And honestly, some of those pipelines are much harder to build than people realize. Cloud infrastructure, CSPM tooling and application security platforms are relatively straightforward because the data is already fairly structured and accessible. The really difficult parts are the messy operational systems that organizations historically handled through process and human coordination. Things like policy management workflows, budget approvals, software bill of materials tracking and non-standard operational processes are far harder to standardize and expose consistently. That’s another reason this shift matters so much. It forces organizations to operationalize areas that historically lived in spreadsheets, meetings or tribal knowledge. That’s a very different skillset from managing spreadsheets and coordinating screenshots. More importantly, it changes the conversations. One of the things I enjoyed most throughout the FedRAMP 20x process was that discussions increasingly stopped being: How do we satisfy this control? And became: What risk are we actually trying to reduce here? That’s such a healthier conversation for security teams to have. Because not every risk matters equally to every organization. Not every control meaningfully improves security posture. Not every framework requirement deserves the same operational investment. Traditional compliance often struggles with that nuance because it optimizes around consistency and uniformity. Modern engineering-led assurance feels different. It feels more contextual, more operational and honestly far more honest. And honestly, honesty is probably the biggest thing missing from large parts of compliance today. We’ve built an industry where everyone feels pressure to look perfect. Perfect dashboards. Perfect controls. Perfect audit outcomes. But real engineering environments are never perfect. They have bugs, drift, exceptions, failures, temporary workarounds and weird edge cases. That doesn’t automatically mean the environment is insecure. It means it’s real. I actually think one of the biggest mindset shifts FedRAMP 20x and the broader GRC engineering movement are pushing is this: nonconformities should not automatically destroy trust. Handled correctly, they should build it. Because mature organizations are not the ones pretending problems don’t exist. They’re the ones capable of identifying issues quickly, exposing them honestly and improving continuously. That’s engineering. And maybe that’s where compliance finally starts becoming useful again. The future of trust For organizations participating in the current pilots, many of these concepts are already being tested through automation-first assessments, machine-readable evidence and continuous visibility. FedRAMP 20x Phase 2 . Because right now, most compliance still works like we’re printing MapQuest directions in 2004 and hoping nothing changes between point A and point B. The environment changes constantly. Cloud infrastructure drifts, engineers move quickly, businesses evolve and threat actors adapt far faster than annual audits ever could. Yet most assurance still relies on frozen snapshots and sampled evidence that were already out of date the second they were exported into a PDF. That’s the bit I think FedRAMP 20x genuinely understands. This isn’t just about modernising audits. It’s about acknowledging that modern systems are living systems. They are transient, constantly changing and impossible to understand properly through static evidence alone. That’s why the move towards APIs, telemetry and machine-readable evidence matters so much. Not because APIs are trendy. Because they allow us to expose operational truth continuously instead of periodically reconstructing it after the fact. And honestly, I think that changes the future of trust. In five years, I don’t think organizations will primarily send customers PDFs and certifications. I think they’ll expose assurance layers. APIs. Telemetry. Machine-readable evidence. Instead of saying: Here’s our SOC 2. They’ll say: Here’s the operational data. Query it yourself. Auditors won’t disappear, but I think their role changes significantly. Less time auditing screenshots and selected controls. More time validating whether the underlying evidence pipelines are complete, accurate and trustworthy. Modern audit becomes less about auditing controls and more about auditing data integrity. And honestly? That feels like a much healthier future than the one we’ve built today. Because the future of trust probably isn’t polished dashboards and carefully curated evidence. It’s operational truth, and operational truth is messy. It contains drift, exceptions, bypasses, gaps and uncomfortable findings, but that’s exactly why it’s valuable. Stop rewarding the best storytellers Maybe that’s the biggest shift FedRAMP 20x is trying to create. Not better paperwork. Better visibility. For years, we’ve rewarded organizations for telling the cleanest story. Maybe it’s finally time we reward them for exposing the truth instead. That’s the revolution FedRAMP 20x and GRC engineering are leading. This article is published as part of the Foundry Expert Contributor Network. Want to join?",
-    "categories": [
-      "GRC",
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "network",
-        "wan",
-        "lan",
-        "connectivity",
-        "iot"
-      ],
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "soc",
-        "edr",
-        "application security"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "regulatory",
-        "audit",
-        "soc 2",
-        "policy",
-        "iso 27001"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "We are auditing a curated version of history. I’ve worked in security long enough now to know something most of us don’t really say out loud. A lot of compliance is theatre. Not all of it, and not all auditors or frameworks, but enough of it that most experienced CISOs know exactly what I mean."
   },
   {
     "title": "Edged tops out data center in Council Bluffs, Iowa",
@@ -2964,43 +2893,6 @@
     "summary": "Minutes will not be published, and MPs still have no answer on the group's budget or how its members were chosen"
   },
   {
-    "title": "Salyut 5 at 50: The Soviet space station that sickened one crew and nearly drowned another",
-    "url": "https://www.theregister.com/science/2026/06/25/salyut-5-at-50-the-soviet-space-station-that-sickened-one-crew-and-nearly-drowned-another/5261425",
-    "source": "The Register",
-    "published": "2026-06-25T08:21:00+00:00",
-    "raw_text": "The last inhabited Almaz outpost was short-lived, secretive, and remarkably accident-prone",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The last inhabited Almaz outpost was short-lived, secretive, and remarkably accident-prone"
-  },
-  {
-    "title": "The CPU's growing role in agentic AI infrastructure",
-    "url": "https://www.theregister.com/ai-and-ml/2026/06/25/the-cpus-growing-role-in-agentic-ai-infrastructure/5261720",
-    "source": "The Register",
-    "published": "2026-06-25T08:00:00+00:00",
-    "raw_text": "PARTNER CONTENT: As agentic AI systems scale across cloud and datacenter environments, CPUs remain the control plane coordinating performance and efficiency.",
-    "categories": [
-      "Data Centres",
-      "Cloud Infrastructure",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "datacenter",
-        "ai infrastructure"
-      ]
-    },
-    "summary": "PARTNER CONTENT: As agentic AI systems scale across cloud and datacenter environments, CPUs remain the control plane coordinating performance and efficiency."
-  },
-  {
     "title": "Why frontier AI must be stress-tested before CISOs trust it",
     "url": "https://www.computerweekly.com/opinion/Why-frontier-AI-must-be-stress-tested-before-CISOs-trust-it",
     "source": "ComputerWeekly",
@@ -3405,47 +3297,6 @@
     "summary": "<p><a href=\"https://www.computerweekly.com/news/366578682/Boomi-CEO-anticipates-rise-of-the-AI-agent-economy\">Boomi is hoping it can provide IT leaders</a> with greater visibility on their token spend, something that is lacking across the industry.</p> <p>The company is developing a tool called Boomi Prompt, which acts as middleware between enterprise applications and large language models (LLMs), and the <a href=\"https://www.techtarget.com/searchdatamanagement/news/366623994/Boomi-launches-agentic-AI-development-tools-support-for-MCP\">artificial intelligence (AI) agents</a> that need to access these systems to perform a task on behalf of a human user.</p> <p>As the use of artificial intelligence and AI agents starts ramping up, providers of LLMs and AI tools are moving from subscription or software as a service (SaaS)-style software licensing to pricing based on the costs associated with AI inference, measured in tokens.</p> <p>A token is the smallest piece of information an AI engine or LLM takes as input, such as a word in a sentence. The larger the volume of tokens submitted to the LLM, the larger the token usage, and this equates to more computational resources needed by the provider. That cost is the token cost the organisation pays to submit the query to the AI tool.</p> <p>If a query is continuously being submitted, the token cost is paid again and again, even if the organisation already has the answer. Boomi aims to cache such repeated responses, to avoid organisations spending unnecessarily on tokens when they already have the answer.</p> <p>According to Boomi, the Prompt tool is also able to figure out what LLM is least expensive to answer a user or AI agent’s question.</p> <p>Speaking at the Boomi World Tour in London, the company’s CEO,&nbsp;<a href=\"https://www.computerweekly.com/news/366578682/Boomi-CEO-anticipates-rise-of-the-AI-agent-economy\">Steve Lucas</a>, said the company will release a tool called Prompt later this year that “provides a layer” between an AI engine and any backend system.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more stories about AI costs</h3> <ul class=\"default-list\"> <li>AI’s effect on <a href=\"https://www.techtarget.com/searchunifiedcommunications/feature/The-death-of-the-seat-AIs-effect-on-UC-pricing-model\">UC pricing models</a>: AI costs are threatening traditional SaaS budgets."
   },
   {
-    "title": "Nationwide bets on VCF as Broadcom responds to Tesco",
-    "url": "https://www.computerweekly.com/news/366645022/Nationwide-bets-on-VCF-as-Broadcom-responds-to-Tesco",
-    "source": "ComputerWeekly",
-    "published": "2026-06-25T08:55:00+00:00",
-    "raw_text": "<p>Nationwide Building Society has extended its contract with Broadcom covering <a href=\"https://www.computerweekly.com/news/366642853/Broadcom-updates-VCF-to-address-on-premise-AI\">VMware Cloud Foundation (VCF)</a>. The virtualisation platform forms the foundation for a fully integrated, enterprise-grade private cloud platform. Nationwide said the Broadcom software helps it to deliver more secure, resilient and scalable digital services, while supporting coordination and integration across the organisation following its acquisition of Virgin Money.</p> <p>The decision to extend its VMware contract comes at a time when some companies are <a href=\"https://www.computerweekly.com/news/366623726/Broadcom-letters-demonstrate-push-to-VMware-subscriptions\">seeing substantial price increases</a> in the cost of licensing and of ongoing support for the virtualisation platform. In fact, some companies such as Tesco&nbsp;– which has a contract dispute with Broadcom, VMware and its reseller, Computacenter – are moving off VMware to alternative virtualisation platform providers (<em>see <a href=\"#Tesco_case\">Broadcom responds to Tesco</a> box</em>).</p> <p>VMware Cloud Foundation is a unified, private cloud platform with integrated, compute, storage, networking, management and security, with automation and intelligent operations. For Nationwide, this provides a standardised foundation for running traditional, cloud native and eventually AI applications, while maintaining performance, governance and compliance requirements.</p> <p>Nationwide said the extension of the agreement is part of its plans to build a modern private cloud that balances agility with operational control. “Our extended partnership with Broadcom represents a significant step forward in our technology strategy,” said Paul Walsh, director of infrastructure and service delivery at Nationwide.</p> <p>“As we continue to evolve as a business, including integrating Virgin Money into the group, it is vital that we have a resilient, scalable and secure technology foundation. A private cloud built on VMware Cloud Foundation enables us to simplify operations, accelerate innovation and deliver seamless digital experiences for our members, while maintaining the trust and stability that define the Nationwide brand.”</p> <p>Discussing the contract extension, Joe Baguley, EMEA chief technology officer (CTO) of Broadcom, said: “Nationwide is taking a deliberate and strategic approach to private cloud that balances agility with control and innovation with resilience. By extending our partnership and adopting VMware Cloud Foundation as a consistent platform across the group, Nationwide will be able to integrate operations more efficiently, accelerate service delivery and reduce operational complexity, while maintaining the security and governance expected of a leading UK financial services brand.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\"><a id=\"Tesco_case\"></a>Broadcom responds to Tesco</h3> <p>The legal case Tesco has brought against VMware and Broadcom shows the challenges some companies are facing as they look at <a href=\"https://www.computerweekly.com/news/366637500/The-impact-of-Tesco-versus-Broadcom-lawsuit-on-software-procurement\">migrating to an alternative hypervisor</a> for server virtualisation. In a <a href=\"https://www.computerweekly.com/news/366644902/Tesco-offloads-VMware-and-CA-software-as-Broadcom-case-rolls-on\">recent legal filing</a>, the retailer said that the timeframe of the migration has created operational and commercial risk, as well as resulting in “material cost and disruption to the business”.</p> <p>Tesco has claimed that VMware’s dominant market position means there is <a href=\"https://www.computerweekly.com/news/366588665/VMware-Broadcom-Prepare-for-legacy-support\">no direct alternative server virtualisation platforms</a> that have the integration with some of third-party software it uses, such as Veeam backup and Zerto’s data security.&nbsp;</p> <p>In Tesco’s complaint, the retailer also said that it was being offered product bundles rather than individual software products when it tried to renew its VMware contract with Broadcom.</p> <p>In Broadcom’s response to these allegations, the company said it has been prepared to propose to Tesco licensing arrangements on a product-by-product basis, without any obligation for Tesco to purchase all products together as part of a strategic proposal.</p> <p>It also disputes Tesco’s claim that VMware has a dominant market position, since the Tesco filing shows that the retailer has already begun work to migrate to alternative suppliers.</p> </div> </div>",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "Industry & Market",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "cloud native",
-        "cloud platform"
-      ],
-      "Networks": [
-        "network",
-        "networking",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security",
-        "soc"
-      ],
-      "GRC": [
-        "governance",
-        "compliance"
-      ],
-      "Industry & Market": [
-        "acquisition",
-        "partnership",
-        "ey"
-      ]
-    },
-    "summary": "<p>Nationwide Building Society has extended its contract with Broadcom covering <a href=\"https://www.computerweekly.com/news/366642853/Broadcom-updates-VCF-to-address-on-premise-AI\">VMware Cloud Foundation (VCF)</a>. The virtualisation platform forms the foundation for a fully integrated, enterprise-grade private cloud platform. Nationwide said the Broadcom software helps it to deliver more secure, resilient and scalable digital services, while supporting coordination and integration across the organisation following its acquisition of Virgin Money.</p> <p>The decision to extend its VMware contract comes at a time when some companies are <a href=\"https://www.computerweekly.com/news/366623726/Broadcom-letters-demonstrate-push-to-VMware-subscriptions\">seeing substantial price increases</a> in the cost of licensing and of ongoing support for the virtualisation platform. In fact, some companies such as Tesco&nbsp;– which has a contract dispute with Broadcom, VMware and its reseller, Computacenter – are moving off VMware to alternative virtualisation platform providers (<em>see <a href=\"#Tesco_case\">Broadcom responds to Tesco</a> box</em>).</p> <p>VMware Cloud Foundation is a unified, private cloud platform with integrated, compute, storage, networking, management and security, with automation and intelligent operations."
-  },
-  {
     "title": "Prime Day is ending: We hand-picked the 100+ best deals still live from Apple, Garmin, Bose, & more",
     "url": "https://www.zdnet.com/article/amazon-june-prime-day-live-blog-06-26-2026/",
     "source": "ZDNet",
@@ -3714,6 +3565,23 @@
     "summary": "Prime Day is almost over. Score record-low early prices on Samsung Galaxy smartphones, smartwatches, and 4K TVs on Amazon today."
   },
   {
+    "title": "Waton Financial Launches MoTA Alpha, Marking Full Strategic Pivot to AI-Native Finance",
+    "url": "https://www.prnewswire.com/news-releases/waton-financial-launches-mota-alpha-marking-full-strategic-pivot-to-ai-native-finance-302812548.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T07:34:00+00:00",
+    "raw_text": "HONG KONG, June 27, 2026 /PRNewswire/ -- Waton Financial Limited (NASDAQ: WTF) today announced the release of MoTA Alpha, a major upgrade to its flagship AI-powered investment platform. First unveiled in closed beta in May 2026, MoTA (Manager of Trading Agents) now introduces the Agent...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches",
+        "investment"
+      ]
+    },
+    "summary": "HONG KONG, June 27, 2026 /PRNewswire/ -- Waton Financial Limited (NASDAQ: WTF) today announced the release of MoTA Alpha, a major upgrade to its flagship AI-powered investment platform. First unveiled in closed beta in May 2026, MoTA (Manager of Trading Agents) now introduces the Agent..."
+  },
+  {
     "title": "L'institut texan des arythmies cardiaques du St. David's Medical Center organise une conférence internationale sur les arythmies cardiaques complexes",
     "url": "https://www.prnewswire.com/news-releases/linstitut-texan-des-arythmies-cardiaques-du-st-davids-medical-center-organise-une-conference-internationale-sur-les-arythmies-cardiaques-complexes-302812544.html",
     "source": "PR Newswire - Technology",
@@ -3870,6 +3738,103 @@
     "summary": "NEW YORK, June 26, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Veritone, Inc. (NASDAQ: VERI) between October 14, 2025 and April 14, 2026, inclusive (the \"Class Period\"), of the important July 20, 2026 lead plaintiff..."
   },
   {
+    "title": "Via Transportation Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Via Transportation, Inc. - VIA",
+    "url": "https://www.prnewswire.com/news-releases/via-transportation-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-via-transportation-inc---via-302812298.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or..."
+  },
+  {
+    "title": "Zillow Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Zillow Group, Inc. - ZG, Z",
+    "url": "https://www.prnewswire.com/news-releases/zillow-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-zillow-group-inc--zg-z-302812330.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Zillow Group, Inc. (NasdaqGS: ZG, Z) (\"Zillow\" or the...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Zillow Group, Inc. (NasdaqGS: ZG, Z) (\"Zillow\" or the..."
+  },
+  {
+    "title": "GeneDx Holdings Securities Fraud Class Action Result of Acquisition Performance Misrepresentations and 49% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-securities-fraud-class-action-result-of-acquisition-performance-misrepresentations-and-49-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302812341.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquisition",
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a..."
+  },
+  {
+    "title": "PicS N.V. Notice of August 4, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+    "url": "https://www.prnewswire.com/news-releases/pics-nv-notice-of-august-4-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302812310.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS..."
+  },
+  {
+    "title": "ADMA Biologics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against ADMA Biologics, Inc. - ADMA",
+    "url": "https://www.prnewswire.com/news-releases/adma-biologics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-adma-biologics-inc---adma-302812275.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-27T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against ADMA Biologics, Inc. (NasdaqGM: ADMA) (\"ADMA\" or the...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against ADMA Biologics, Inc. (NasdaqGM: ADMA) (\"ADMA\" or the..."
+  },
+  {
     "title": "Erasca Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Erasca - ERAS",
     "url": "https://www.prnewswire.com/news-releases/erasca-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-erasca---eras-302812267.html",
     "source": "PR Newswire - Technology",
@@ -3926,83 +3891,6 @@
     "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until July 17, 2026 to file lead plaintiff applications in a securities class action lawsuit against Sportradar Group AG (NasdaqGS: SRAD) (\"Sportradar\" or the..."
   },
   {
-    "title": "Zillow Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Zillow Group, Inc. - ZG, Z",
-    "url": "https://www.prnewswire.com/news-releases/zillow-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-zillow-group-inc--zg-z-302812330.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Zillow Group, Inc. (NasdaqGS: ZG, Z) (\"Zillow\" or the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Zillow Group, Inc. (NasdaqGS: ZG, Z) (\"Zillow\" or the..."
-  },
-  {
-    "title": "PicS N.V. Notice of August 4, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/pics-nv-notice-of-august-4-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302812310.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in PicS N.V. (\"PicS\" or the \"Company\") (NasdaqGS: PICS) of a class action securities lawsuit. CLASS..."
-  },
-  {
-    "title": "GeneDx Holdings Securities Fraud Class Action Result of Acquisition Performance Misrepresentations and 49% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-securities-fraud-class-action-result-of-acquisition-performance-misrepresentations-and-49-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302812341.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquisition",
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, June 26, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 3, 2026 to file lead plaintiff applications in a..."
-  },
-  {
-    "title": "Via Transportation Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Via Transportation, Inc. - VIA",
-    "url": "https://www.prnewswire.com/news-releases/via-transportation-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-via-transportation-inc---via-302812298.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against Via Transportation, Inc. (NYSE: VIA), pursuant to and/or..."
-  },
-  {
     "title": "AeroVironment Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against AeroVironment, Inc. - AVAV",
     "url": "https://www.prnewswire.com/news-releases/aerovironment-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-aerovironment-inc---avav-302812278.html",
     "source": "PR Newswire - Technology",
@@ -4023,36 +3911,16 @@
     "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until July 27, 2026 to file lead plaintiff applications in a securities class action lawsuit against AeroVironment, Inc. (NasdaqGS: AVAV) (\"AeroVironment\" or..."
   },
   {
-    "title": "ADMA Biologics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against ADMA Biologics, Inc. - ADMA",
-    "url": "https://www.prnewswire.com/news-releases/adma-biologics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-adma-biologics-inc---adma-302812275.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against ADMA Biologics, Inc. (NasdaqGM: ADMA) (\"ADMA\" or the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, June 26, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until August 10, 2026 to file lead plaintiff applications in a securities class action lawsuit against ADMA Biologics, Inc. (NasdaqGM: ADMA) (\"ADMA\" or the..."
-  },
-  {
-    "title": "En HelloNation, abogada de lesiones personales de habla hispana Roxane M. Guerrero de Dallas, TX, explica las ventajas de contar con servicios jurídicos bilingües tras un accidente de auto",
-    "url": "https://www.prnewswire.com/news-releases/en-hellonation-abogada-de-lesiones-personales-de-habla-hispana-roxane-m-guerrero-de-dallas-tx-explica-las-ventajas-de-contar-con-servicios-juridicos-bilingues-tras-un-accidente-de-auto-858281246.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-27T01:19:00+00:00",
-    "raw_text": "DALLAS, TX, 27 de junio de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Cuáles son las ventajas de contratar una firma que habla español después de un accidente de automóvil? La pregunta está en un artículo de HelloNation (en inglés y en español), presentando a la abogada de lesiones personales...",
+    "title": "SOUEAST Launched S06 DM and S08 DM in Egypt",
+    "url": "https://www.globenewswire.com/news-release/2026/06/27/3318532/0/en/SOUEAST-Launched-S06-DM-and-S08-DM-in-Egypt.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-27T07:56:00+00:00",
+    "raw_text": "CAIRO, Egypt, June 27, 2026 (GLOBE NEWSWIRE) -- On June 24, SOUEAST launched two plug-in hybrid SUV models: the S06 DM and S08 DM, marking SOUEAST's first hybrid model launch in Egypt, which caters to distinct customers.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "DALLAS, TX, 27 de junio de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Cuáles son las ventajas de contratar una firma que habla español después de un accidente de automóvil? La pregunta está en un artículo de HelloNation (en inglés y en español), presentando a la abogada de lesiones personales..."
+    "summary": "CAIRO, Egypt, June 27, 2026 (GLOBE NEWSWIRE) -- On June 24, SOUEAST launched two plug-in hybrid SUV models: the S06 DM and S08 DM, marking SOUEAST's first hybrid model launch in Egypt, which caters to distinct customers."
   },
   {
     "title": "Hi3D Launches an AI-Powered Workflow for 3D Printing Creators",
@@ -4354,22 +4222,6 @@
       ]
     },
     "summary": "How Brands Can Protect Their Inbox Placement and Maximize Campaign ROI How Brands Can Protect Their Inbox Placement and Maximize Campaign ROI"
-  },
-  {
-    "title": "BingX Launches BingX Card, Bringing Crypto into Everyday Spending",
-    "url": "https://www.globenewswire.com/news-release/2026/06/26/3318378/0/en/BingX-Launches-BingX-Card-Bringing-Crypto-into-Everyday-Spending.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-26T16:15:00+00:00",
-    "raw_text": "PANAMA CITY, June 26, 2026 (GLOBE NEWSWIRE) -- BingX , a leading cryptocurrency exchange and Web3-AI company, today announced the launch of the BingX Card, a new payment solution designed to integrate digital assets into everyday utility. Built around the vision of bringing crypto to everyday life, the BingX Card empowers users to spend, withdraw, and earn rewards with their crypto holdings.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "PANAMA CITY, June 26, 2026 (GLOBE NEWSWIRE) -- BingX , a leading cryptocurrency exchange and Web3-AI company, today announced the launch of the BingX Card, a new payment solution designed to integrate digital assets into everyday utility. Built around the vision of bringing crypto to everyday life, the BingX Card empowers users to spend, withdraw, and earn rewards with their crypto holdings."
   },
   {
     "title": "AWS vs Azure vs Google Cloud 2026: 28% vs 21% vs 14% - tech-insider.org",
