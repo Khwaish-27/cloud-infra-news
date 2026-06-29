@@ -1,5 +1,22 @@
 [
   {
+    "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
+    "url": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+    "source": "The Hacker News",
+    "published": "2026-06-29T08:32:31+00:00",
+    "raw_text": "Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal credentials and run ad fraud. The company calls it StegoAd, a mash-up of steganography and adware, and ties 119 extensions to a single threat actor it says has been active since at least 2021.",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "threat"
+      ]
+    },
+    "summary": "Microsoft has shut down a long-running malicious extension operation on the Edge Add-ons store that hid its payloads inside ordinary image and font files, then woke up days after install to steal credentials and run ad fraud. The company calls it StegoAd, a mash-up of steganography and adware, and ties 119 extensions to a single threat actor it says has been active since at least 2021."
+  },
+  {
     "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
     "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
     "source": "The Hacker News",
@@ -74,6 +91,18 @@
     "summary": "OpenAI on Friday released three versions of GPT-5.6, called Sol, Terra, and Luna, as a limited preview to a small number of companies as part of an ongoing engagement with the U.S. government. While Sol is the latest flagship model and the most powerful, Terra strikes a balance between efficiency and power, and Luna is fine-tuned for speed and affordability. \"GPT‑5.6 Sol launches with our most"
   },
   {
+    "title": "US seizes hundreds of FIFA World Cup illegal streaming domains",
+    "url": "https://www.bleepingcomputer.com/news/security/us-seizes-hundreds-of-fifa-world-cup-illegal-streaming-domains/",
+    "source": "BleepingComputer",
+    "published": "2026-06-29T11:21:03+00:00",
+    "raw_text": "The U.S. Justice Department's Criminal Division has seized nearly 400 web domains used for illegally streaming matches at the FIFA World Cup. [...]",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The U.S. Justice Department's Criminal Division has seized nearly 400 web domains used for illegally streaming matches at the FIFA World Cup. [...]"
+  },
+  {
     "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
     "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
     "source": "BleepingComputer",
@@ -114,6 +143,52 @@
       ]
     },
     "summary": "An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human reviewers. [...]"
+  },
+  {
+    "title": "Mozilla warns of indirect prompt injection risk in AI coding agents",
+    "url": "https://www.helpnetsecurity.com/2026/06/29/mozilla-warns-of-indirect-prompt-injection-risk-in-ai-coding-agents/",
+    "source": "Help Net Security",
+    "published": "2026-06-29T10:48:12+00:00",
+    "raw_text": "A malicious GitHub repository can silently compromise a developer’s machine without containing a single line of malicious code, security researchers at Mozilla’s Zero Day Investigative Network (0DIN) warned. The attack The proof-of-concept attack targets AI-powered coding agents such as Claude Code, and uses indirect prompt injection to manipulate an AI agent into taking harmful actions the developer never explicitly authorized. The attack chain is as follows: The malicious repository presents normal-looking setup instructions in the … More → The post Mozilla warns of indirect prompt injection risk in AI coding agents appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "zero day",
+        "security"
+      ]
+    },
+    "summary": "A malicious GitHub repository can silently compromise a developer’s machine without containing a single line of malicious code, security researchers at Mozilla’s Zero Day Investigative Network (0DIN) warned. The attack The proof-of-concept attack targets AI-powered coding agents such as Claude Code, and uses indirect prompt injection to manipulate an AI agent into taking harmful actions the developer never explicitly authorized. The attack chain is as follows: The malicious repository presents normal-looking setup instructions in the … More → The post Mozilla warns of indirect prompt injection risk in AI coding agents appeared first on Help Net Security ."
+  },
+  {
+    "title": "GPT-5.6 gets better at cybersecurity",
+    "url": "https://www.helpnetsecurity.com/2026/06/29/openai-gpt-5-6-models-preview/",
+    "source": "Help Net Security",
+    "published": "2026-06-29T09:13:39+00:00",
+    "raw_text": "OpenAI has started rolling out the GPT-5.6 series models in limited preview to a small group of trusted partners through the API and Codex. The series includes Sol as the flagship model, Terra as a balanced option, and Luna as the fastest and most cost-efficient model. The rollout is being coordinated with the U.S. government before expanding to ChatGPT, Codex, and API users in the coming weeks. “GPT-5.6 Sol launches with our most robust safety … More → The post GPT-5.6 gets better at cybersecurity appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "OpenAI has started rolling out the GPT-5.6 series models in limited preview to a small group of trusted partners through the API and Codex. The series includes Sol as the flagship model, Terra as a balanced option, and Luna as the fastest and most cost-efficient model. The rollout is being coordinated with the U.S. government before expanding to ChatGPT, Codex, and API users in the coming weeks."
   },
   {
     "title": "DarkMoon: Open-source AI pentesting platform",
@@ -245,6 +320,61 @@
     "summary": "Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks."
   },
   {
+    "title": "‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access",
+    "url": "https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access/",
+    "source": "SecurityWeek",
+    "published": "2026-06-29T11:20:13+00:00",
+    "raw_text": "A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges. The post ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "security"
+      ]
+    },
+    "summary": "A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges. The post ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access appeared first on SecurityWeek ."
+  },
+  {
+    "title": "OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review",
+    "url": "https://www.securityweek.com/openai-and-anthropic-limit-new-ai-models-to-trump-approved-customers-during-cybersecurity-review/",
+    "source": "SecurityWeek",
+    "published": "2026-06-29T10:14:01+00:00",
+    "raw_text": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration. The post OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration. The post OpenAI and Anthropic Limit New AI Models to Trump-Approved Customers During Cybersecurity Review appeared first on SecurityWeek ."
+  },
+  {
+    "title": "US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve",
+    "url": "https://www.securityweek.com/us-offers-10-million-bounty-for-russian-state-hackers-as-messaging-app-attacks-evolve/",
+    "source": "SecurityWeek",
+    "published": "2026-06-29T09:29:34+00:00",
+    "raw_text": "UNC5792 and UNC4221 have been targeting US government officials, military leaders, and allied personnel. The post US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "hacker",
+        "security"
+      ]
+    },
+    "summary": "UNC5792 and UNC4221 have been targeting US government officials, military leaders, and allied personnel. The post US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve appeared first on SecurityWeek ."
+  },
+  {
     "title": "OpenAI Unveils GPT-5.6 Sol as Its Most Advanced Cybersecurity AI",
     "url": "https://www.securityweek.com/openai-unveils-gpt-5-6-sol-as-its-most-advanced-cybersecurity-ai/",
     "source": "SecurityWeek",
@@ -287,6 +417,48 @@
     "summary": "Threat actors are selling investment scam templates created using the legitimate DCloud Uni-App toolkit. The post Chinese Framework Powers 200,000 Scam Sites appeared first on SecurityWeek ."
   },
   {
+    "title": "US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw",
+    "url": "https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-06-29T10:00:00+00:00",
+    "raw_text": "An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "zero day",
+        "exploit",
+        "soc"
+      ]
+    },
+    "summary": "An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system"
+  },
+  {
+    "title": "Russian Hackers Accused of Destructive Cyber-Attack on Jaguar Land Rover",
+    "url": "https://www.infosecurity-magazine.com/news/russian-hackers-destructive-jaguar/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-06-29T09:15:00+00:00",
+    "raw_text": "Experts warn the Jaguar Land Rover breach bears hallmarks of Kremlin-backed hackers, citing novel ransomware, strategic timing and efforts to obscure attribution",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "ransomware",
+        "hacker",
+        "cyber"
+      ]
+    },
+    "summary": "Experts warn the Jaguar Land Rover breach bears hallmarks of Kremlin-backed hackers, citing novel ransomware, strategic timing and efforts to obscure attribution"
+  },
+  {
     "title": "FBI Sounds Alarm Over Russian Intelligence Signal Phishing",
     "url": "https://www.infosecurity-magazine.com/news/fbi-alarm-russian-intelligence/",
     "source": "InfoSecurity Magazine",
@@ -305,6 +477,26 @@
       ]
     },
     "summary": "The FBI claims Russian spies are targeting Signal backup keys"
+  },
+  {
+    "title": "Elea announces AI data center in the Amazon region of Brazil",
+    "url": "https://www.datacenterdynamics.com/en/news/elea-announces-first-ai-data-center-in-the-amazon-region-with-electrical-infrastructure-provided-by-axia-energia/",
+    "source": "DataCenterDynamics",
+    "published": "2026-06-29T11:05:00+00:00",
+    "raw_text": "Project expected to begin operations in the second quarter of 2027",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Project expected to begin operations in the second quarter of 2027"
   },
   {
     "title": "Sponsored: Secure destruction goes hyperscale",
@@ -330,7 +522,7 @@
     "title": "Elon Musk gets FTC nod to acquire data center optics business Mesh Optical",
     "url": "https://www.datacenterdynamics.com/en/news/elon-musk-gets-ftc-nod-to-acquire-data-center-optics-business-mesh-optical/",
     "source": "DataCenterDynamics",
-    "published": "2026-06-28T22:43:35+00:00",
+    "published": "2026-06-28T22:43:00+00:00",
     "raw_text": "The transceiver company was founded by SpaceX employees",
     "categories": [
       "Data Centres"
@@ -357,6 +549,22 @@
       ]
     },
     "summary": "The future of sustainable data center design"
+  },
+  {
+    "title": "UK firm bombarded debt-ridden people with 5.5M texts",
+    "url": "https://www.theregister.com/public-sector/2026/06/29/uk-firm-bombarded-debt-ridden-people-with-55m-texts/5262776",
+    "source": "The Register",
+    "published": "2026-06-29T09:15:00+00:00",
+    "raw_text": "KRA Consultancy Ltd fined £300K over fake bailiff threats in 'calculated' scheme that caused 'real fear and distress'",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "threat"
+      ]
+    },
+    "summary": "KRA Consultancy Ltd fined £300K over fake bailiff threats in 'calculated' scheme that caused 'real fear and distress'"
   },
   {
     "title": "Telling internet platforms where to stick public service media will serve nobody. Turn it on its head",
@@ -443,18 +651,6 @@
     "summary": "Time to switch back to paper and harvest that suddenly valuable RAM"
   },
   {
-    "title": "NASA tests AI medic for astronauts too far from Earth to call a doctor",
-    "url": "https://www.theregister.com/ai-and-ml/2026/06/27/nasa-tests-ai-medic-for-astronauts-too-far-from-earth-to-call-a-doctor/5262828",
-    "source": "The Register",
-    "published": "2026-06-27T09:20:00+00:00",
-    "raw_text": "Please state the nature of the medical emergency",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Please state the nature of the medical emergency"
-  },
-  {
     "title": "UK businesses fear stigma of ransomware",
     "url": "https://www.computerweekly.com/news/366645146/UK-businesses-fear-stigma-of-ransomware",
     "source": "ComputerWeekly",
@@ -494,11 +690,35 @@
     "summary": "<p>Fear of stigmatisation is likely leading businesses across the UK to drastically underreport data on <a href=\"https://www.computerweekly.com/opinion/Ransomware-bans-wont-stop-ransomware-Resilience-might\" target=\"_blank\" rel=\"noopener\">ransomware attacks</a>, especially when they have paid a ransom to a cyber criminal gang, as admission of such is often seen as supporting further criminal activity or defying compliance regulations.</p> <p>Data gleaned from the national <a href=\"https://reportfraud.police.uk/\" target=\"_blank\" rel=\"noopener\">Report Fraud</a> service – which is run by the <a href=\"https://www.cityoflondon.police.uk/\" target=\"_blank\" rel=\"noopener\">City of London Police</a> – reveals that 323 organisations in the UK reported a ransomware attack to it between April 2025 and March 2026.</p> <p>Out of these, 175, over 50% of the total, related to small and medium enterprises (SMEs), said the force, and combined, all the reported attacks resulted in financial losses of £270,000, a figure that likely highlights the extent of underreporting in the business community.</p> <p>“Ransomware remains a serious and evolving threat to organisations of all sizes across the UK,” said Report Fraud operations head, chief superintendent Amanda Wolf.</p> <p>“The most effective defence is preparation. We encourage businesses to be proactive – through regular data backups, strong access controls, keeping systems up to date and following National Cyber Security Centre [NCSC] guidance. These can all significantly reduce the risk and impact of an attack.</p> <p>“If a business is experiencing a ransomware attack, it should be reported immediately by calling Report Fraud on 0300 123 2040, where a dedicated team is available to provide support and guidance during an incident,” she said.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Security without shame\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Security without shame</h2> <p>Jake Moore, global cyber security advisor at <a href=\"https://www.eset.com/uk/\" target=\"_blank\" rel=\"noopener\">ESET</a>, said: “One of the biggest barriers to tackling ransomware is that so many organisations still feel they have to deal with it in silence.</p> <p>“Falling victim has been seen as a weakness, with businesses fearing reputational damage or criticism if they admit to an attack. But with every incident that goes unreported, it makes it harder for law enforcement and peers to understand how these groups operate.”</p> <p>Moore told Computer Weekly that the more open organisations are to admitting that they have fallen victim to ransomware, the quicker everybody can learn how to better protect themselves going forward.</p> <p>“Learning a ransomware group’s craft and sharing their techniques is actually one of the strongest tactics to mitigate against ransomware and will better protect future targets than keeping it all under wraps,” said Moore.</p> <p>“The few organisations <a href=\"https://www.computerweekly.com/news/366573453/British-Library-opens-up-over-ransomware-attack-to-help-others\" target=\"_blank\" rel=\"noopener\">that have blogged about their specific attacks</a> will have inevitably saved many more attempts from being successful."
   },
   {
+    "title": "AI in fashion retail: A Computer Weekly Downtime Upload podcast",
+    "url": "https://www.computerweekly.com/podcast/AI-in-fashion-retail-A-Computer-Weekly-Downtime-Upload-podcast",
+    "source": "ComputerWeekly",
+    "published": "2026-06-29T04:13:00+00:00",
+    "raw_text": "<p>Fashion retailer Asos has been working with Microsoft to fine-tune large language models (LLMs) specifically for fashion. “The longer you engage, the more context the stylist understands,” says Asos chief technology officer, Przemek Czarnecki.&nbsp;</p> <p>Czarnecki believes artificial intelligence (AI) is a technology that will completely change the way the business operates and how it offers services and products to customers. Looking at the Asos AI Stylist as an example, Czarnecki says: “AI is something that transforms the customer experience. It allows &nbsp;you not only to provide customers with a search that they're used to but it also allows customers to state their intent and discuss in plain language what they are looking for.”&nbsp;</p> <p>This is how AI can be used at the front-end to boost the customer experience. On the back-end, he says: “We are also using AI to make our business more performant, more operationally efficient.”</p> <p>He says AI is being used both to improve how Asos presents products to its customers and to augment teams.&nbsp;</p> <p>While it is easy to get carried away with the benefits of deploying AI, Czarnecki notes that the starting point for an AI initiative is not actually AI at all, but data. He says: “If you can't get your data right and the quality of the data across the enterprise is not sufficient then you your AI will have the wrong foundation.”</p> <p>The retailer previously had a&nbsp; handful of data platforms which were being used by different teams. As Asos embarked on its AI initiative Czarnecki says the first step was to centralise all the data into an Azure data lake.</p> <p>“Many companies struggle with having multiple sources of the same information,” says Czarnecki. “Bringing data into one central repository creates massive simplification.”</p> <p>That centralisation enables teams across Asos to access data in a self-service way, helping remove friction and accelerate decision-making, he says.</p> <p>Reducing complexity and improving operational efficiency not only cut costs but also enables Asos grow faster, says Czarnecki.</p> <p>Asos has deployed Microsoft M365 Copilot acrossd the business. “We rolled out a wealth of training programmes everybody has the same starting point,” says Czarnecki. “They can develop simple agents and start getting proficient with prompting, which sometimes is a skill that some people have to learn.” Beyond learning how to compose prompts for an LLM, he says Asos is also providing training to help its staff start developing agents. He says: “People will start developing agents for themselves and over time, we can see how these agents become useful.”</p> <p>The company is also working with Microsoft on Dynamics 365 Finance &amp; Operations and AI agents to simplify and automate core back-office processes – such as invoice and inventory management, purchasing and so on – across finance and supply chain.</p> <p>Going &nbsp;forward, Czarnecki &nbsp;says Asos’ goal is to start connecting these agents so that they can perform process automation end-to-end across the business. As well as user-generated agented, more complex agents will be developed by central teams.” Asos has also worked with &nbsp;Microsoft to identify 93 potential agentic use cases.</p>",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ],
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<p>Fashion retailer Asos has been working with Microsoft to fine-tune large language models (LLMs) specifically for fashion. “The longer you engage, the more context the stylist understands,” says Asos chief technology officer, Przemek Czarnecki.&nbsp;</p> <p>Czarnecki believes artificial intelligence (AI) is a technology that will completely change the way the business operates and how it offers services and products to customers. Looking at the Asos AI Stylist as an example, Czarnecki says: “AI is something that transforms the customer experience. It allows &nbsp;you not only to provide customers with a search that they're used to but it also allows customers to state their intent and discuss in plain language what they are looking for.”&nbsp;</p> <p>This is how AI can be used at the front-end to boost the customer experience."
+  },
+  {
     "title": "How IAM providers are preparing for agentic AI",
     "url": "https://www.computerweekly.com/feature/How-IAM-providers-are-preparing-for-agentic-AI",
     "source": "ComputerWeekly",
     "published": "2026-06-29T04:00:00+00:00",
-    "raw_text": "<p>There is a very real sense that every organisation dabbling with artificial intelligence (AI) – in particular, agentic AI – is heading directly into an&nbsp;<a href=\"https://www.techtarget.com/searchcio/tip/AI-agents-are-running-wild-Secure-the-reasoning-layer-now\">IT security catastrophe</a>.</p> <p>Richard Wainwright, field chief technology officer for Europe, the Middle East and Africa at Okta, says most of the businesses he speaks to seem stuck in pilots and are not obtaining value from the AI investments they’re making.</p> <p>“They are building AI agents using a combination of API [application programming interface] keys and service accounts, which offer long-lived credentials to provide non-human identities [NHIs] with access to the corporate IT environment,” he says.&nbsp;</p> <p>Wainwright warns that this creates a range of problems for IT security professionals. “It’s almost impossible to tie what the agent has done back to the person who called it,” he says.</p> <p>Another area of concern, according to Wainwright, is that if a service account is used by a generalist AI agent, the scope it has is wide open. “This means it’s really powerful, but it can also break a lot of stuff,” he warns.</p> <p>In its <em>Workforce identity security platforms, Q2 2026</em> report, analyst firm Forrester recognises the limitations of identity access management (IAM) for tasks that many enterprises are looking to streamline using agentic AI.</p> <p>In the report, the Forrester notes that modern identity security platforms unify authentication, authorisation, lifecycle governance and identity risk intelligence across human, machine and AI agent identities to deliver consistent, policy-driven controls at scale.</p> <p>Many organisations’ use of AI and agentic AI is at a stage where the agentic functionality being used is very limited and controlled. Identity and access management for AI agents is a bit different to the way organisations manage employees.</p> <p>Przemek Czarnecki, chief technology officer at fashion retailer Asos, notes that while agentic AI is not the same as human identity and access management, it is hard to tell the difference. For example, he says: “If you are in Teams, you may confuse an AI agent for a human because agents in the Microsoft environment show up on Teams in the same way as humans.”&nbsp;</p> <p>Asos is using Microsoft Copilot in phase one of its AI strategy, where employees are using it to start building agentic AI. “We have defined a very limited set of actions these agents can do because we want to make sure that agents developed by everybody cannot do harm to the company,” says Czarnecki.</p> <p>The fashion retailer is democratising the use of AI across the business, which potentially enables IT and security teams to understand how people in the business are deploying agentic AI. This is an important first step in putting in place the right observability tools and dashboards.&nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Observing actions of AI agents\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Observing actions of AI agents</h2> <p>Visibility is perhaps the first challenge enterprises face when assessing the risk of introducing agentic AI into their organisations.</p> <p>Amarinder Jassal, senior vice-president and global leader for pre- and post-sales engineering at Saviynt, says there are no industry standards or certification authorities that can certify that an agent is not a bad actor, or working on behalf of a bad actor, and does not lead to sensitive data being compromised, or that it has been audited and has achieved a level of quality assurance that makes it enterprise-ready.</p> <p>Jassal says Saviynt is seeking to bring AI agents under one umbrella to observe their behaviour. “We are trying to bring all these agents into a single repository, which works rather like a CMDB [configuration management database]. There is one centralised repository for all the AI agents in your environment, whether they are registered or unregistered,” he adds.</p> <p>To achieve this, Saviynt has developed integration with technical partners and is working with the likes of Zscaler and CrowdStrike to capture shadow aspects of agentic AI.</p> <p>Observability is key because even legitimate uses of agentic AI systems can perform tasks they are not designed for.</p> <p><a href=\"https://www.computerweekly.com/news/366625105/SailPoint-charts-course-for-AI-driven-identity-security\">Chandra Gnanasambandam, executive vice-president of product and chief technology officer at SailPoint</a>, recently came across an AI-powered loan processing system that had inadvertently bypassed security measures to complete a credit check it was not supposed to run. “The agent’s intent was to solve a task, and it found ways to do so even when it was being told not to do so,” he says.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about agentic AI security</h3> <ul class=\"default-list\"> <li>Identity <a href=\"https://www.techtarget.com/searchsecurity/opinion/Identity-security-for-AI-agents-The-proliferation-challenge\">security for AI agents</a>: The proliferation challenge: Identity teams can accelerate AI adoption with strong security foundations. But managing nondeterministic AI agents is different from securing human identities and traditional NHIs.</li> <li>What it takes to <a href=\"https://www.computerweekly.com/news/366639228/What-it-takes-to-secure-agentic-commerce\">secure agentic commerce</a>: With AI agents increasingly acting as digital concierges for shoppers, verifying bot identities, securing the APIs they rely on and detecting anomalous behaviour will be key to safeguarding automated transactions.</li> </ul> </div> </div> <p>In this example, Gnanasambandam says a bank had deployed a supervisor agent to manage the loan approval process, with various helper agents to perform specific tasks. One of these agents was tasked with performing a credit check, but it was denied access to the internal credit-checking application. It reported to the supervisor agent that it did not have access to this application and so could not complete the task. However, the supervisor agent had a goal to complete loan applications in three minutes, and all the other helper agents had already completed their work.</p> <p>According to Gnanasambandam, the supervisor agent refused to accept the helper agent’s inability to complete its task. As a consequence, seeking an alternative way to complete its task, the helper agent searched the internet for vulnerabilities in the credit risk system.</p> <p>“It was trying to access a credit risk score and found a GitHub repository where a developer had accidentally left in a token that provides access to the system. So it found the token and accessed the credit risk system. The task was complete – except it did something it was not supposed to do,” he says.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Monitoring agentic AI access\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Monitoring agentic AI access</h2> <p>This example is illustrative of the IT governance nightmare that is likely to unfold as agentic AI is deployed in live production environments. What is clear is that AI agents cannot simply be treated in the same way as human users, and they have the ability to work around security measures that limit what they are authorised to do.</p> <p>Okta is identified by Forrester as a leader in IAM. It recently updated its Auth0 IAM tool for autonomous agents. The <a href=\"https://www.computerweekly.com/news/366635665/Strategic-shift-pays-off-as-Okta-bids-to-ease-agentic-AI-risk\">Auth0 for AI Agents</a> aims to address the difference between how software developers write software for human users and when an agent is deployed to run the software. The approach Okta is taking shows the challenges IAM software providers are looking to address, along with usability, performance and scalability considerations.</p> <p>Traditional permission models tend to use APIs to authenticate users to applications. But according to Okta, this approach slows performance in an agentic AI workflow and prevents the deployment of AI agents in production environments, as Gareth Davies, Auth0 chief product officer, explains: “When an AI agent needs to access dozens of different tools, developers are often forced to manually hardcode API keys or build custom authorisation logic from scratch. This impacts productivity and exponentially increases the risk of a breach.”</p> <p>He says Auth0 for Agents provides an independent identity platform that securely connects agents to any tool, any system and any provider, which means developers can focus on building applications.</p> <p>Rather than treating AI agents as user extensions, which Okta says can lead to overly broad permissions or shadow identities that bypass enterprise controls, Auth0 for Agents offers a feature called Agent as Principal. This enables software developers to assign unique identities to AI agents, which Okta says are distinct from the users they serve and means agent actions can be independently permissioned and audited, enabling them to operate with proper oversight.</p> <p>Another problem area Okta is seeking to address with Auth0 for Agents is the performance overhead incurred by fine-grained authentication (FGA) when deploying relationship-based access control. FGA is a way to ensure that only data the user or the agent is authorised to view is accessed when they run a search query across enterprise systems.</p> <p>This can be achieved by using an AI agent that performs retrieval-augmented generation (RAG) to run a search with a permissions task to augment and generate the responses it is authorised to access. Okta says developers need to make trade-offs: either building a secure system that is too slow to use, or a fast system that risks sensitive data being disclosed. To overcome these trade-offs, Auth0 implements a permissions index, which works rather like a database index, for lookups of permissions data. Since permissions are stored locally in a standard database format, Okta says applications or search engines can query business data that the user or agent is authorised to access by looking up a precomputed permissions table.</p> <p>Identity and access management companies are taking different approaches to securing agentic AI systems. What is clear from the conversations Computer Weekly has had with IAM firms is that monitoring agentic AI is key.</p> <p>Simon Gooch, field CIO at Saviynt, says: “Agentic AI is fundamentally shadow IT back with a vengeance.” As organisations start democratising the use of agentic AI, Gooch urges IT and security leaders to ensure they have controls in place to make sure that the democratisation of agentic AI is predictable and the technology is being used sensibly within a framework that the organisation considers safe and secure.&nbsp;</p> </section>",
+    "raw_text": "<p>There is a very real sense that every organisation dabbling with artificial intelligence (AI) – in particular, agentic AI – is heading directly into an&nbsp;<a href=\"https://www.techtarget.com/searchcio/tip/AI-agents-are-running-wild-Secure-the-reasoning-layer-now\">IT security catastrophe</a>.</p> <p>Richard Wainwright, field chief technology officer for Europe, the Middle East and Africa at Okta, says most of the businesses he speaks to seem stuck in pilots and are not obtaining value from the AI investments they’re making.</p> <p>“They are building AI agents using a combination of API [application programming interface] keys and service accounts, which offer long-lived credentials to provide non-human identities [NHIs] with access to the corporate IT environment,” he says.&nbsp;</p> <p>Wainwright warns that this creates a range of problems for IT security professionals. “It’s almost impossible to tie what the agent has done back to the person who called it,” he says.</p> <p>Another area of concern, according to Wainwright, is that if a service account is used by a generalist AI agent, the scope it has is wide open. “This means it’s really powerful, but it can also break a lot of stuff,” he warns.</p> <p>In its <em>Workforce identity security platforms, Q2 2026</em> report, analyst firm Forrester recognises the limitations of identity access management (IAM) for tasks that many enterprises are looking to streamline using agentic AI.</p> <p>In the report, Forrester notes that modern identity security platforms unify authentication, authorisation, lifecycle governance and identity risk intelligence across human, machine and AI agent identities to deliver consistent, policy-driven controls at scale.</p> <p>Many organisations’ use of AI and agentic AI is at a stage where the agentic functionality being used is very limited and controlled. Identity and access management for AI agents is a bit different to the way organisations manage employees.</p> <p>Przemek Czarnecki, chief technology officer at fashion retailer Asos, notes that while agentic AI is not the same as human identity and access management, it is hard to tell the difference. For example, he says: “If you are in Teams, you may confuse an AI agent for a human because agents in the Microsoft environment show up on Teams in the same way as humans.”&nbsp;</p> <p>Asos is using Microsoft Copilot in phase one of its AI strategy, where employees are using it to start building agentic AI. “We have defined a very limited set of actions these agents can do because we want to make sure that agents developed by everybody cannot do harm to the company,” says Czarnecki.</p> <div class=\"podcastdownload alignCenter\"> <audio id=\"podcastPlayer\" src=\"https://cdn.ttgtmedia.com/rms/podcasts/ASOS_mixdown.mp3\" type=\"audio/mp3\" controls=\"controls\"></audio> <p><a type=\"audio/mpeg\" href=\"https://cdn.ttgtmedia.com/rms/podcasts/ASOS_mixdown.mp3\">Download this podcast</a></p> </div> <p>The fashion retailer is democratising the use of AI across the business, which potentially enables IT and security teams to understand how people in the business are deploying agentic AI. This is an important first step in putting in place the right observability tools and dashboards.&nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Observing actions of AI agents\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Observing actions of AI agents</h2> <p>Visibility is perhaps the first challenge enterprises face when assessing the risk of introducing agentic AI into their organisations.</p> <p>Amarinder Jassal, senior vice-president and global leader for pre- and post-sales engineering at Saviynt, says there are no industry standards or certification authorities that can certify that an agent is not a bad actor, or working on behalf of a bad actor, and does not lead to sensitive data being compromised, or that it has been audited and has achieved a level of quality assurance that makes it enterprise-ready.</p> <p>Jassal says Saviynt is seeking to bring AI agents under one umbrella to observe their behaviour. “We are trying to bring all these agents into a single repository, which works rather like a CMDB [configuration management database]. There is one centralised repository for all the AI agents in your environment, whether they are registered or unregistered,” he adds.</p> <p>To achieve this, Saviynt has developed integration with technical partners and is working with the likes of Zscaler and CrowdStrike to capture shadow aspects of agentic AI.</p> <p>Observability is key because even legitimate uses of agentic AI systems can perform tasks they are not designed for.</p> <p><a href=\"https://www.computerweekly.com/news/366625105/SailPoint-charts-course-for-AI-driven-identity-security\">Chandra Gnanasambandam, executive vice-president of product and chief technology officer at SailPoint</a>, recently came across an AI-powered loan processing system that had inadvertently bypassed security measures to complete a credit check it was not supposed to run. “The agent’s intent was to solve a task, and it found ways to do so even when it was being told not to do so,” he says.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about agentic AI security</h3> <ul class=\"default-list\"> <li>Identity <a href=\"https://www.techtarget.com/searchsecurity/opinion/Identity-security-for-AI-agents-The-proliferation-challenge\">security for AI agents</a>: The proliferation challenge: Identity teams can accelerate AI adoption with strong security foundations. But managing nondeterministic AI agents is different from securing human identities and traditional NHIs.</li> <li>What it takes to <a href=\"https://www.computerweekly.com/news/366639228/What-it-takes-to-secure-agentic-commerce\">secure agentic commerce</a>: With AI agents increasingly acting as digital concierges for shoppers, verifying bot identities, securing the APIs they rely on and detecting anomalous behaviour will be key to safeguarding automated transactions.</li> </ul> </div> </div> <p>In this example, Gnanasambandam says a bank had deployed a supervisor agent to manage the loan approval process, with various helper agents to perform specific tasks. One of these agents was tasked with performing a credit check, but it was denied access to the internal credit-checking application. It reported to the supervisor agent that it did not have access to this application and so could not complete the task. However, the supervisor agent had a goal to complete loan applications in three minutes, and all the other helper agents had already completed their work.</p> <p>According to Gnanasambandam, the supervisor agent refused to accept the helper agent’s inability to complete its task. As a consequence, seeking an alternative way to complete its task, the helper agent searched the internet for vulnerabilities in the credit risk system.</p> <p>“It was trying to access a credit risk score and found a GitHub repository where a developer had accidentally left in a token that provides access to the system. So it found the token and accessed the credit risk system. The task was complete – except it did something it was not supposed to do,” he says.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Monitoring agentic AI access\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Monitoring agentic AI access</h2> <p>This example is illustrative of the IT governance nightmare that is likely to unfold as agentic AI is deployed in live production environments. What is clear is that AI agents cannot simply be treated in the same way as human users, and they have the ability to work around security measures that limit what they are authorised to do.</p> <p>Okta is identified by Forrester as a leader in IAM. It recently updated its Auth0 IAM tool for autonomous agents. The <a href=\"https://www.computerweekly.com/news/366635665/Strategic-shift-pays-off-as-Okta-bids-to-ease-agentic-AI-risk\">Auth0 for AI Agents</a> aims to address the difference between how software developers write software for human users and when an agent is deployed to run the software. The approach Okta is taking shows the challenges IAM software providers are looking to address, along with usability, performance and scalability considerations.</p> <p>Traditional permission models tend to use APIs to authenticate users to applications. But according to Okta, this approach slows performance in an agentic AI workflow and prevents the deployment of AI agents in production environments, as Gareth Davies, Auth0 chief product officer, explains: “When an AI agent needs to access dozens of different tools, developers are often forced to manually hardcode API keys or build custom authorisation logic from scratch. This impacts productivity and exponentially increases the risk of a breach.”</p> <p>He says Auth0 for Agents provides an independent identity platform that securely connects agents to any tool, any system and any provider, which means developers can focus on building applications.</p> <p>Rather than treating AI agents as user extensions, which Okta says can lead to overly broad permissions or shadow identities that bypass enterprise controls, Auth0 for Agents offers a feature called Agent as Principal. This enables software developers to assign unique identities to AI agents, which Okta says are distinct from the users they serve and means agent actions can be independently permissioned and audited, enabling them to operate with proper oversight.</p> <p>Another problem area Okta is seeking to address with Auth0 for Agents is the performance overhead incurred by fine-grained authentication (FGA) when deploying relationship-based access control. FGA is a way to ensure that only data the user or the agent is authorised to view is accessed when they run a search query across enterprise systems.</p> <p>This can be achieved by using an AI agent that performs retrieval-augmented generation (RAG) to run a search with a permissions task to augment and generate the responses it is authorised to access. Okta says developers need to make trade-offs: either building a secure system that is too slow to use, or a fast system that risks sensitive data being disclosed. To overcome these trade-offs, Auth0 implements a permissions index, which works rather like a database index, for lookups of permissions data. Since permissions are stored locally in a standard database format, Okta says applications or search engines can query business data that the user or agent is authorised to access by looking up a precomputed permissions table.</p> <p>Identity and access management companies are taking different approaches to securing agentic AI systems. What is clear from the conversations Computer Weekly has had with IAM firms is that monitoring agentic AI is key.</p> <p>Simon Gooch, field CIO at Saviynt, says: “Agentic AI is fundamentally shadow IT back with a vengeance.” As organisations start democratising the use of agentic AI, Gooch urges IT and security leaders to ensure they have controls in place to make sure that the democratisation of agentic AI is predictable and the technology is being used sensibly within a framework that the organisation considers safe and secure.&nbsp;</p> </section>",
     "categories": [
       "GRC",
       "Cybersecurity",
@@ -507,6 +727,7 @@
     ],
     "matched_keywords": {
       "Networks": [
+        "cdn",
         "wan"
       ],
       "Cybersecurity": [
@@ -526,7 +747,7 @@
         "forrester"
       ]
     },
-    "summary": "<p>There is a very real sense that every organisation dabbling with artificial intelligence (AI) – in particular, agentic AI – is heading directly into an&nbsp;<a href=\"https://www.techtarget.com/searchcio/tip/AI-agents-are-running-wild-Secure-the-reasoning-layer-now\">IT security catastrophe</a>.</p> <p>Richard Wainwright, field chief technology officer for Europe, the Middle East and Africa at Okta, says most of the businesses he speaks to seem stuck in pilots and are not obtaining value from the AI investments they’re making.</p> <p>“They are building AI agents using a combination of API [application programming interface] keys and service accounts, which offer long-lived credentials to provide non-human identities [NHIs] with access to the corporate IT environment,” he says.&nbsp;</p> <p>Wainwright warns that this creates a range of problems for IT security professionals. “It’s almost impossible to tie what the agent has done back to the person who called it,” he says.</p> <p>Another area of concern, according to Wainwright, is that if a service account is used by a generalist AI agent, the scope it has is wide open. “This means it’s really powerful, but it can also break a lot of stuff,” he warns.</p> <p>In its <em>Workforce identity security platforms, Q2 2026</em> report, analyst firm Forrester recognises the limitations of identity access management (IAM) for tasks that many enterprises are looking to streamline using agentic AI.</p> <p>In the report, the Forrester notes that modern identity security platforms unify authentication, authorisation, lifecycle governance and identity risk intelligence across human, machine and AI agent identities to deliver consistent, policy-driven controls at scale.</p> <p>Many organisations’ use of AI and agentic AI is at a stage where the agentic functionality being used is very limited and controlled. Identity and access management for AI agents is a bit different to the way organisations manage employees.</p> <p>Przemek Czarnecki, chief technology officer at fashion retailer Asos, notes that while agentic AI is not the same as human identity and access management, it is hard to tell the difference."
+    "summary": "<p>There is a very real sense that every organisation dabbling with artificial intelligence (AI) – in particular, agentic AI – is heading directly into an&nbsp;<a href=\"https://www.techtarget.com/searchcio/tip/AI-agents-are-running-wild-Secure-the-reasoning-layer-now\">IT security catastrophe</a>.</p> <p>Richard Wainwright, field chief technology officer for Europe, the Middle East and Africa at Okta, says most of the businesses he speaks to seem stuck in pilots and are not obtaining value from the AI investments they’re making.</p> <p>“They are building AI agents using a combination of API [application programming interface] keys and service accounts, which offer long-lived credentials to provide non-human identities [NHIs] with access to the corporate IT environment,” he says.&nbsp;</p> <p>Wainwright warns that this creates a range of problems for IT security professionals. “It’s almost impossible to tie what the agent has done back to the person who called it,” he says.</p> <p>Another area of concern, according to Wainwright, is that if a service account is used by a generalist AI agent, the scope it has is wide open. “This means it’s really powerful, but it can also break a lot of stuff,” he warns.</p> <p>In its <em>Workforce identity security platforms, Q2 2026</em> report, analyst firm Forrester recognises the limitations of identity access management (IAM) for tasks that many enterprises are looking to streamline using agentic AI.</p> <p>In the report, Forrester notes that modern identity security platforms unify authentication, authorisation, lifecycle governance and identity risk intelligence across human, machine and AI agent identities to deliver consistent, policy-driven controls at scale.</p> <p>Many organisations’ use of AI and agentic AI is at a stage where the agentic functionality being used is very limited and controlled. Identity and access management for AI agents is a bit different to the way organisations manage employees.</p> <p>Przemek Czarnecki, chief technology officer at fashion retailer Asos, notes that while agentic AI is not the same as human identity and access management, it is hard to tell the difference."
   },
   {
     "title": "CW@60: An award-winning, ZX81-frisbee-throwing tech journalism career",
@@ -561,6 +782,18 @@
       ]
     },
     "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 1966,&nbsp; the launch issue of the world’s first weekly technology newspaper was published – today Computer Weekly is the UK’s oldest business IT title. What's changed the most for you since then? Here, our award-winning chief reporter, Karl Flinders, looks at how he became the unlikeliest tech journalist he knows.</i></p> <p>I am ashamed to say I once used a Sinclair ZX81 as a frisbee - but the British Computer Society gave me an award anyway.</p> <p>When I tell people I don’t know much about computers they can’t fathom the idea. “But <a href=\"https://www.techtarget.com/contributor/Karl-Flinders\">you write for Computer Weekly</a>?”</p> <p>The number of times I have tried to explain that I am a journalist who happens to write about the use of IT in business."
+  },
+  {
+    "title": "8 plug-in gadgets that take your outlets from basic to better (including a lifesaver)",
+    "url": "https://www.zdnet.com/article/best-wall-outlet-gadgets/",
+    "source": "ZDNet",
+    "published": "2026-06-29T10:00:39+00:00",
+    "raw_text": "These plug-in gadgets make your home's routine easier. Here's why I recommend them.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "These plug-in gadgets make your home's routine easier. Here's why I recommend them."
   },
   {
     "title": "How to make Linux look like MacOS for free - with a few simple ZorinOS tweaks",
@@ -791,280 +1024,27 @@
     "summary": "Skip the streaming stick - here's how I used a spare Pixel phone to watch movies on my TV."
   },
   {
-    "title": "13 Google Photos settings I always change on every new device - and why",
-    "url": "https://www.zdnet.com/article/google-photos-settings-i-change-on-new-android-iphone-why/",
-    "source": "ZDNet",
-    "published": "2026-06-27T10:01:04+00:00",
-    "raw_text": "Before I let Google Photos loose on my Android or iPhone camera roll, I check these backup, privacy, and AI settings first.",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "privacy"
-      ]
-    },
-    "summary": "Before I let Google Photos loose on my Android or iPhone camera roll, I check these backup, privacy, and AI settings first."
-  },
-  {
-    "title": "I made Linux look like Windows 11 for free - with a few simple tweaks to Zorin OS",
-    "url": "https://www.zdnet.com/article/i-made-linux-look-like-windows-11-for-free-simple-tweaks-to-zorin-os/",
-    "source": "ZDNet",
-    "published": "2026-06-27T10:01:02+00:00",
-    "raw_text": "If you fancy a Windows 11 layout, but want to use Linux, you're in luck.",
+    "title": "Coppin State University Lowers Costs for Residential Students Amid Rising Higher Education Expenses",
+    "url": "https://www.prnewswire.com/news-releases/coppin-state-university-lowers-costs-for-residential-students-amid-rising-higher-education-expenses-302809518.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:23:00+00:00",
+    "raw_text": "12% Reduction in Dining Plan Costs Helps Ease Financial Burdens on Students and Families BALTIMORE, June 29, 2026 /PRNewswire/ -- As colleges and universities across Maryland and the nation continue to raise costs for students and families, Coppin State University, Maryland's most...",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "If you fancy a Windows 11 layout, but want to use Linux, you're in luck."
-  },
-  {
-    "title": "Linux Mint vs RefreshOS: I found the best distro for new users",
-    "url": "https://www.zdnet.com/article/linux-mint-vs-refreshos-best-distro-for-new-users/",
-    "source": "ZDNet",
-    "published": "2026-06-27T10:00:45+00:00",
-    "raw_text": "These two user-friendly distributions take different routes to the 'best Linux' crown. In the end, it all comes down to the desktop.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "These two user-friendly distributions take different routes to the 'best Linux' crown. In the end, it all comes down to the desktop."
-  },
-  {
-    "title": "CVLT Investors Have Opportunity to Lead Commvault Systems, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/cvlt-investors-have-opportunity-to-lead-commvault-systems-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302813015.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T09:03:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Commvault Systems, Inc. (\"Commvault\" or \"the Company\") (NASDAQ: CVLT) for violations of §§10(b) and 20(a) of the Securities...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Commvault Systems, Inc. (\"Commvault\" or \"the Company\") (NASDAQ: CVLT) for violations of §§10(b) and 20(a) of the Securities..."
-  },
-  {
-    "title": "Transit Technologies Relocates Corporate Headquarters to Charlotte, North Carolina",
-    "url": "https://www.prnewswire.com/news-releases/transit-technologies-relocates-corporate-headquarters-to-charlotte-north-carolina-302812382.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T09:00:00+00:00",
-    "raw_text": "Company Deepens Commitment to American-Built Mobility Solutions Across the Transit Industry CHARLOTTE, N.C., June 29, 2026 /PRNewswire/ -- Transit Technologies, a leading provider of software solutions powering modern mobility systems, today announced the relocation of its corporate...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Company Deepens Commitment to American-Built Mobility Solutions Across the Transit Industry CHARLOTTE, N.C., June 29, 2026 /PRNewswire/ -- Transit Technologies, a leading provider of software solutions powering modern mobility systems, today announced the relocation of its corporate..."
-  },
-  {
-    "title": "Auto Shop Answers Announces Bryan Stasch as Vice President of Coaching, Peer Groups & Member Success",
-    "url": "https://www.prnewswire.com/news-releases/auto-shop-answers-announces-bryan-stasch-as-vice-president-of-coaching-peer-groups--member-success-302812763.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T09:00:00+00:00",
-    "raw_text": "HOUSTON, June 29, 2026 /PRNewswire/ -- Auto Shop Answers proudly announces that Bryan Stasch has joined the organization as Vice President of Coaching, Peer Groups & Member Success, marking another significant milestone in the company's rapid national expansion. With more than 25 years of...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "HOUSTON, June 29, 2026 /PRNewswire/ -- Auto Shop Answers proudly announces that Bryan Stasch has joined the organization as Vice President of Coaching, Peer Groups & Member Success, marking another significant milestone in the company's rapid national expansion. With more than 25 years of..."
-  },
-  {
-    "title": "High Templar Tech Announces Final Results of Modified Dutch Auction Tender Offer",
-    "url": "https://www.prnewswire.com/news-releases/high-templar-tech-announces-final-results-of-modified-dutch-auction-tender-offer-302812952.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T09:00:00+00:00",
-    "raw_text": "XIAMEN, China, June 29, 2026 /PRNewswire/ -- High Templar Tech Limited (the \"Company,\" \"High Templar\" or \"we\") (NYSE: HTT), announced today the final results of its \"modified Dutch Auction\" tender offer to purchase up to 39 million American Depositary Shares (the \"ADSs\") of the Company,...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "XIAMEN, China, June 29, 2026 /PRNewswire/ -- High Templar Tech Limited (the \"Company,\" \"High Templar\" or \"we\") (NYSE: HTT), announced today the final results of its \"modified Dutch Auction\" tender offer to purchase up to 39 million American Depositary Shares (the \"ADSs\") of the Company,..."
-  },
-  {
-    "title": "Seed Junky Genetics Announces Exclusive Illinois Licensing Agreement with Echelon Grow",
-    "url": "https://www.prnewswire.com/news-releases/seed-junky-genetics-announces-exclusive-illinois-licensing-agreement-with-echelon-grow-302809901.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T09:00:00+00:00",
-    "raw_text": "New Partnership Establishes Echelon Grow as Sole Authorized Illinois Operator, Expanding Seed Junky's Regional Licensing Model LOS ANGELES, June 29, 2026 /PRNewswire/ -- Seed Junky Genetics today announced an exclusive IP licensing agreement with Echelon Grow, designating the company as...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership",
-        "announces"
-      ]
-    },
-    "summary": "New Partnership Establishes Echelon Grow as Sole Authorized Illinois Operator, Expanding Seed Junky's Regional Licensing Model LOS ANGELES, June 29, 2026 /PRNewswire/ -- Seed Junky Genetics today announced an exclusive IP licensing agreement with Echelon Grow, designating the company as..."
-  },
-  {
-    "title": "Solidion Technology (Nasdaq: STI) Adopts SpaceX-Focused Treasury Strategy for Corporate Cash Reserves",
-    "url": "https://www.prnewswire.com/news-releases/solidion-technology-nasdaq-sti-adopts-spacex-focused-treasury-strategy-for-corporate-cash-reserves-302812921.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T09:00:00+00:00",
-    "raw_text": "Company intends to opportunistically acquire SpaceX shares as a long-term strategic treasury holding, reflecting alignment with the next era of aerospace, energy, and transportation infrastructure DALLAS, June 29, 2026 /PRNewswire/ -- Solidion Technology, Inc. (Nasdaq: STI), an advanced...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Company intends to opportunistically acquire SpaceX shares as a long-term strategic treasury holding, reflecting alignment with the next era of aerospace, energy, and transportation infrastructure DALLAS, June 29, 2026 /PRNewswire/ -- Solidion Technology, Inc. (Nasdaq: STI), an advanced..."
-  },
-  {
-    "title": "Black Rock Coffee Bar, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BRCB",
-    "url": "https://www.prnewswire.com/news-releases/black-rock-coffee-bar-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--brcb-302812972.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:58:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5..."
-  },
-  {
-    "title": "Embecta Corp. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - EMBC",
-    "url": "https://www.prnewswire.com/news-releases/embecta-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--embc-302812969.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:58:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by..."
-  },
-  {
-    "title": "ZoomInfo Technologies Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - GTM",
-    "url": "https://www.prnewswire.com/news-releases/zoominfo-technologies-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--gtm-302812964.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:56:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against ZoomInfo Technologies Inc. (\"ZoomInfo\" or \"the Company\") (NASDAQ: GTM) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against ZoomInfo Technologies Inc. (\"ZoomInfo\" or \"the Company\") (NASDAQ: GTM) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
-  },
-  {
-    "title": "GTM Investors Have Opportunity to Lead ZoomInfo Technologies Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/gtm-investors-have-opportunity-to-lead-zoominfo-technologies-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302812878.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:53:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against ZoomInfo Technologies Inc. (\"ZoomInfo\" or \"the Company\") (NASDAQ: GTM) for violations of §§10(b) and 20(a) of the Securities...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against ZoomInfo Technologies Inc. (\"ZoomInfo\" or \"the Company\") (NASDAQ: GTM) for violations of §§10(b) and 20(a) of the Securities..."
-  },
-  {
-    "title": "Peabody Energy Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BTU",
-    "url": "https://www.prnewswire.com/news-releases/peabody-energy-corporation-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--btu-302812960.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:53:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
-  },
-  {
-    "title": "FSLR Investors Have Opportunity to Lead First Solar, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/fslr-investors-have-opportunity-to-lead-first-solar-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302812962.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:51:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities..."
-  },
-  {
-    "title": "First Solar, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FSLR",
-    "url": "https://www.prnewswire.com/news-releases/first-solar-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fslr-302812955.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:50:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
-  },
-  {
-    "title": "Global Times: Fangchenggang in Guangxi turns space-to-ground innovation into ecological gains",
-    "url": "https://www.prnewswire.com/news-releases/global-times-fangchenggang-in-guangxi-turns-space-to-ground-innovation-into-ecological-gains-302813040.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:50:00+00:00",
-    "raw_text": "BEIJING, June 29, 2026 /PRNewswire/ -- On a crisp late autumn morning at the Beilun Estuary National Nature Reserve in Fangchenggang, South China's Guangxi Zhuang Autonomous Region, a ranger team led by Chen Hanbo, director of the reserve, was patrolling the mangrove-lined wetlands when...",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
         "lan"
-      ],
-      "Data Centres": [
-        "colo"
       ]
     },
-    "summary": "BEIJING, June 29, 2026 /PRNewswire/ -- On a crisp late autumn morning at the Beilun Estuary National Nature Reserve in Fangchenggang, South China's Guangxi Zhuang Autonomous Region, a ranger team led by Chen Hanbo, director of the reserve, was patrolling the mangrove-lined wetlands when..."
+    "summary": "12% Reduction in Dining Plan Costs Helps Ease Financial Burdens on Students and Families BALTIMORE, June 29, 2026 /PRNewswire/ -- As colleges and universities across Maryland and the nation continue to raise costs for students and families, Coppin State University, Maryland's most..."
   },
   {
-    "title": "Ever Supreme Launches Phase IIa Clinical Trial for CAR001, Accelerating Global Market Expansion",
-    "url": "https://www.prnewswire.com/news-releases/ever-supreme-launches-phase-iia-clinical-trial-for-car001-accelerating-global-market-expansion-302813036.html",
+    "title": "Power Knot Launches OGF Organic Wastewater Filter System",
+    "url": "https://www.prnewswire.com/news-releases/power-knot-launches-ogf-organic-wastewater-filter-system-302812433.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:47:00+00:00",
-    "raw_text": "TAICHUNG, June 29, 2026 /PRNewswire/ -- Ever Supreme Bio Technology Co., Ltd. (TWSE: 6712) announced on June 28 that CAR001, its proprietarily developed, allogeneic, \"off-the-shelf\" CAR-T cell therapy for cancer, has successfully cleared review by the Safety Monitoring Committee (SMC)....",
+    "published": "2026-06-29T11:18:00+00:00",
+    "raw_text": "Power Knot LLC, the market leader for on site organic waste management solutions, has launched the OGF™ organic filter system designed for organizations managing waste water with a high organic content. FREMONT, Calif., June 29, 2026 /PRNewswire/ -- Power Knot LLC, the market leader for...",
     "categories": [
       "Industry & Market"
     ],
@@ -1073,67 +1053,467 @@
         "launches"
       ]
     },
-    "summary": "TAICHUNG, June 29, 2026 /PRNewswire/ -- Ever Supreme Bio Technology Co., Ltd. (TWSE: 6712) announced on June 28 that CAR001, its proprietarily developed, allogeneic, \"off-the-shelf\" CAR-T cell therapy for cancer, has successfully cleared review by the Safety Monitoring Committee (SMC)...."
+    "summary": "Power Knot LLC, the market leader for on site organic waste management solutions, has launched the OGF™ organic filter system designed for organizations managing waste water with a high organic content. FREMONT, Calif., June 29, 2026 /PRNewswire/ -- Power Knot LLC, the market leader for..."
   },
   {
-    "title": "SHERPA TUTORS LAUNCHES SEN TUTORING DIVISION AS NUMBER OF SEN PUPILS REACHES RECORD 1.8 MILLION",
-    "url": "https://www.prnewswire.com/news-releases/sherpa-tutors-launches-sen-tutoring-division-as-number-of-sen-pupils-reaches-record-1-8-million-302813030.html",
+    "title": "Global M&A momentum builds in 2026 as megadeals surge, but acquirers confront a new AI \"winner's paradox\"--Bain & Company M&A Midyear Report",
+    "url": "https://www.prnewswire.com/news-releases/global-ma-momentum-builds-in-2026-as-megadeals-surge-but-acquirers-confront-a-new-ai-winners-paradoxbain--company-ma-midyear-report-302812175.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:43:00+00:00",
-    "raw_text": "1,300 SEN Teaching Specialists to Support Growing Demand for Online Tutoring MARLOW, England, June 29, 2026 /PRNewswire/ -- Sherpa Tutors, one of the UK's leading online tutoring platforms, announces the launch of its dedicated Special Educational Needs (SEN) Tutoring Division, created to...",
+    "published": "2026-06-29T11:15:00+00:00",
+    "raw_text": "As bold deals reshape industries for a fast-changing world, leading companies must now pair complex integrations with the AI transformation that disruption demands Global M&A rose 41% year-over-year to $2.4 trillion in the first five months of 2026, putting the market on track for its...",
     "categories": [
-      "Industry & Market",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "As bold deals reshape industries for a fast-changing world, leading companies must now pair complex integrations with the AI transformation that disruption demands Global M&A rose 41% year-over-year to $2.4 trillion in the first five months of 2026, putting the market on track for its..."
+  },
+  {
+    "title": "The Coolest Meet-Cute Yet: 7-Eleven, Inc. Celebrates 60 Years of Slurpee® by Setting Out to Spark More Anniversaries with the First-Ever Slurpee Date",
+    "url": "https://www.prnewswire.com/news-releases/the-coolest-meet-cute-yet-7-eleven-inc-celebrates-60-years-of-slurpee-by-setting-out-to-spark-more-anniversaries-with-the-first-ever-slurpee-date-302812553.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:11:00+00:00",
+    "raw_text": "This Slurpee Day, free Slurpee drinks and the new Mountain Dew® Confetti Chill Slurpee flavor are the ultimate plus-one to every Slurpee Date IRVING, Texas, June 29, 2026 /PRNewswire/ -- The Slurpee® drink is turning 60, and 7-Eleven, Inc. is celebrating the milestone with a toast to six...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "This Slurpee Day, free Slurpee drinks and the new Mountain Dew® Confetti Chill Slurpee flavor are the ultimate plus-one to every Slurpee Date IRVING, Texas, June 29, 2026 /PRNewswire/ -- The Slurpee® drink is turning 60, and 7-Eleven, Inc. is celebrating the milestone with a toast to six..."
+  },
+  {
+    "title": "Comment une entreprise peut-elle s'adapter aux cycles économiques et parvenir à un succès durable : Président-directeur général du groupe Midea",
+    "url": "https://www.prnewswire.com/news-releases/comment-une-entreprise-peut-elle-sadapter-aux-cycles-economiques-et-parvenir-a-un-succes-durable--president-directeur-general-du-groupe-midea-302813143.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:11:00+00:00",
+    "raw_text": "GUANGZHOU, Chine, 29 juin 2026 /PRNewswire/ -- Ceci est un article de presse de South : À partir du 27 juin, Guangdong lancera la série de vidéos « Beacon Over Lingnan » sur les principales plateformes en ligne. Le premier épisode présente un entretien avec Fang Hongbo,...",
+    "categories": [
       "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "GUANGZHOU, Chine, 29 juin 2026 /PRNewswire/ -- Ceci est un article de presse de South : À partir du 27 juin, Guangdong lancera la série de vidéos « Beacon Over Lingnan » sur les principales plateformes en ligne. Le premier épisode présente un entretien avec Fang Hongbo,..."
+  },
+  {
+    "title": "Globeducate conclut un partenariat avec la Fédération mondiale des associations pour les Nations Unies",
+    "url": "https://www.prnewswire.com/news-releases/globeducate-conclut-un-partenariat-avec-la-federation-mondiale-des-associations-pour-les-nations-unies-302813141.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:10:00+00:00",
+    "raw_text": "MADRID, 29 juin 2026 /PRNewswire/ -- Globeducate a annoncé un nouveau partenariat stratégique avec la Fédération mondiale des associations pour les Nations Unies (WFUNA), qui prendra effet en septembre 2026. Ce partenariat permettra de faire progresser le programme de citoyenneté mondiale...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "MADRID, 29 juin 2026 /PRNewswire/ -- Globeducate a annoncé un nouveau partenariat stratégique avec la Fédération mondiale des associations pour les Nations Unies (WFUNA), qui prendra effet en septembre 2026. Ce partenariat permettra de faire progresser le programme de citoyenneté mondiale..."
+  },
+  {
+    "title": "En obtenant l'autorisation de la Therapeutic Goods Administration (TGA - Administration des produits thérapeutiques) pour sa solution CT:VQ™, 4DMedical lance en Australie l'imagerie de ventilation-perfusion sans produit de contraste",
+    "url": "https://www.prnewswire.com/news-releases/en-obtenant-lautorisation-de-la-therapeutic-goods-administration-tga---administration-des-produits-therapeutiques-pour-sa-solution-ctvq-4dmedical-lance-en-australie-limagerie-de-ventilation-perfusion-sans-produit-de-contras-302813140.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:09:00+00:00",
+    "raw_text": "L'imagerie de ventilation-perfusion sans produit de contraste à partir de tomodensitométries thoraciques de routine MELBOURNE, Australie, 29 juin 2026 /PRNewswire/ -- 4DMedical Limited (ASX : 4DX), leader mondial de l'imagerie respiratoire de pointe, a annoncé aujourd'hui que sa...",
+    "categories": [
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "L'imagerie de ventilation-perfusion sans produit de contraste à partir de tomodensitométries thoraciques de routine MELBOURNE, Australie, 29 juin 2026 /PRNewswire/ -- 4DMedical Limited (ASX : 4DX), leader mondial de l'imagerie respiratoire de pointe, a annoncé aujourd'hui que sa..."
+  },
+  {
+    "title": "Antier Sets a New Global Standard for Blockchain Development - Every Layer, Every Industry, One Partner",
+    "url": "https://www.prnewswire.com/news-releases/antier-sets-a-new-global-standard-for-blockchain-development---every-layer-every-industry-one-partner-302813138.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:08:00+00:00",
+    "raw_text": "MOHALI, India, June 29, 2026 /PRNewswire/ -- Antier, a globally recognized blockchain development company, has established a unified blockchain delivery model spanning Layer 0 protocols, Layer 1 networks, Layer 2 scaling solutions, Layer 3 appchains, and Rollup-as-a-Service. Designed to...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ]
+    },
+    "summary": "MOHALI, India, June 29, 2026 /PRNewswire/ -- Antier, a globally recognized blockchain development company, has established a unified blockchain delivery model spanning Layer 0 protocols, Layer 1 networks, Layer 2 scaling solutions, Layer 3 appchains, and Rollup-as-a-Service. Designed to..."
+  },
+  {
+    "title": "Modular Data Center Joint Development Agreement Signed Between PowerBank Corporation and Nodiac.ai",
+    "url": "https://www.prnewswire.com/news-releases/modular-data-center-joint-development-agreement-signed-between-powerbank-corporation-and-nodiacai-302812717.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:07:00+00:00",
+    "raw_text": "Agreement unlocks new revenue from PowerBank's existing assets by co-locating containerized AI compute Distributed, speed-to-power model pairs energy generation with AI compute to shorten transmission-queue bottlennecks TORONTO, June 29, 2026 /PRNewswire/ - PowerBank Corporation (NASDAQ:...",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Agreement unlocks new revenue from PowerBank's existing assets by co-locating containerized AI compute Distributed, speed-to-power model pairs energy generation with AI compute to shorten transmission-queue bottlennecks TORONTO, June 29, 2026 /PRNewswire/ - PowerBank Corporation (NASDAQ:..."
+  },
+  {
+    "title": "Honeywell Aerospace completes spin-off from Honeywell Technologies and begins trading on Nasdaq",
+    "url": "https://www.prnewswire.com/news-releases/honeywell-aerospace-completes-spin-off-from-honeywell-technologies-and-begins-trading-on-nasdaq-302813137.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:06:00+00:00",
+    "raw_text": "Establishes Honeywell Aerospace as an independent, global leader in the aerospace and defense industry Positions the company to deliver long-term profitable growth by expanding market leadership, investing in innovation, and strengthening operational capabilities Shares begin trading...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Establishes Honeywell Aerospace as an independent, global leader in the aerospace and defense industry Positions the company to deliver long-term profitable growth by expanding market leadership, investing in innovation, and strengthening operational capabilities Shares begin trading..."
+  },
+  {
+    "title": "Updates About the Expanded Access Program for MN-166 in ALS",
+    "url": "https://www.prnewswire.com/news-releases/updates-about-the-expanded-access-program-for-mn-166-in-als-302811403.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:05:00+00:00",
+    "raw_text": "Program to provide investigational drug to ALS patients who would otherwise be ineligible for clinical trials SAN JOSE, Calif., June 29, 2026 /PRNewswire/ -- WideTrial is pleased to share that the Expanded Access Program it launched in 2025, Scalable Expanded Access with Analysis of...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Program to provide investigational drug to ALS patients who would otherwise be ineligible for clinical trials SAN JOSE, Calif., June 29, 2026 /PRNewswire/ -- WideTrial is pleased to share that the Expanded Access Program it launched in 2025, Scalable Expanded Access with Analysis of..."
+  },
+  {
+    "title": "REGENXBIO Announces First Patient Dosed in Phase IIb/III NAAVIGATE Trial of Surabgene Lomparvovec in Diabetic Retinopathy; Company to Receive $100 Million Milestone",
+    "url": "https://www.prnewswire.com/news-releases/regenxbio-announces-first-patient-dosed-in-phase-iibiii-naavigate-trial-of-surabgene-lomparvovec-in-diabetic-retinopathy-company-to-receive-100-million-milestone-302812721.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:05:00+00:00",
+    "raw_text": "New long-term data from diabetic retinopathy and wet AMD programs to be presented at American Society of Retina Specialists (ASRS) 2026 ROCKVILLE, Md., June 29, 2026 /PRNewswire/ -- REGENXBIO Inc. (Nasdaq: RGNX) today announced the first patient has been dosed in the Phase IIb/III...",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "New long-term data from diabetic retinopathy and wet AMD programs to be presented at American Society of Retina Specialists (ASRS) 2026 ROCKVILLE, Md., June 29, 2026 /PRNewswire/ -- REGENXBIO Inc. (Nasdaq: RGNX) today announced the first patient has been dosed in the Phase IIb/III..."
+  },
+  {
+    "title": "Achieve's Jordan Figueroa honored with Diversity & Inclusion Champion Hero Award",
+    "url": "https://www.prnewswire.com/news-releases/achieves-jordan-figueroa-honored-with-diversity--inclusion-champion-hero-award-302812965.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "Recognition comes as Achieve is also named a top workplace for LGBTQ+ employees SAN MATEO, Calif., June 29, 2026 /PRNewswire/ -- Achieve, the leader in digital personal finance, is celebrating a major honor for one of its employees during Pride Month. Jordan Figueroa, senior program...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Recognition comes as Achieve is also named a top workplace for LGBTQ+ employees SAN MATEO, Calif., June 29, 2026 /PRNewswire/ -- Achieve, the leader in digital personal finance, is celebrating a major honor for one of its employees during Pride Month. Jordan Figueroa, senior program..."
+  },
+  {
+    "title": "OpenBox AI Partners with CopilotKit to Bring Enterprise-Grade Trust to Agentic AI",
+    "url": "https://www.prnewswire.com/news-releases/openbox-ai-partners-with-copilotkit-to-bring-enterprise-grade-trust-to-agentic-ai-302811355.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "As AG-UI becomes a standard interaction layer, this runtime governance integration enables secure, policy-compliant AI agents without disrupting development workflows. SAN FRANCISCO, June 29, 2026 /PRNewswire/ -- OpenBox AI today announced an integration with CopilotKit, the creators of...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "governance",
+        "policy"
+      ]
+    },
+    "summary": "As AG-UI becomes a standard interaction layer, this runtime governance integration enables secure, policy-compliant AI agents without disrupting development workflows. SAN FRANCISCO, June 29, 2026 /PRNewswire/ -- OpenBox AI today announced an integration with CopilotKit, the creators of..."
+  },
+  {
+    "title": "OnePlan Expands AI-Powered Strategic Portfolio Management in the June 2026 Release",
+    "url": "https://www.prnewswire.com/news-releases/oneplan-expands-ai-powered-strategic-portfolio-management-in-the-june-2026-release-302811313.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "OnePlan advances enterprise PPM with enhanced visibility, collaboration, and global support, including German. SAN MARCOS, Calif., June 29, 2026 /PRNewswire/ -- OnePlan, a global leader in Strategic Portfolio Management (SPM) and enterprise Project Portfolio Management (PPM), today...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
       "Industry & Market": [
-        "launches",
+        "expands"
+      ]
+    },
+    "summary": "OnePlan advances enterprise PPM with enhanced visibility, collaboration, and global support, including German. SAN MARCOS, Calif., June 29, 2026 /PRNewswire/ -- OnePlan, a global leader in Strategic Portfolio Management (SPM) and enterprise Project Portfolio Management (PPM), today..."
+  },
+  {
+    "title": "VERSABANK LAUNCHES BREAKTHROUGH REAL-TIME STRUCTURED RECEIVABLE PROGRAM TO POINT-OF-SALE INDUSTRY IN CANADA AND UNITED STATES",
+    "url": "https://www.prnewswire.com/news-releases/versabank-launches-breakthrough-real-time-structured-receivable-program-to-point-of-sale-industry-in-canada-and-united-states-302812765.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "– Bank Goes Live with First Real-Time SRP Partner, Financeit, and Expects to Roll Out to Other Partners Imminently – – Industry First, AI-Enabled Real-Time SRP Capability Significantly Expands VersaBank's Addressable Point-of-Sale Market – LONDON, ON, June 29, 2026 /PRNewswire/ -...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands",
+        "launches"
+      ]
+    },
+    "summary": "– Bank Goes Live with First Real-Time SRP Partner, Financeit, and Expects to Roll Out to Other Partners Imminently – – Industry First, AI-Enabled Real-Time SRP Capability Significantly Expands VersaBank's Addressable Point-of-Sale Market – LONDON, ON, June 29, 2026 /PRNewswire/ -..."
+  },
+  {
+    "title": "Cellular Sales Earns Spot on Newsweek's America's Greatest Workplaces List for Second Consecutive Year",
+    "url": "https://www.prnewswire.com/news-releases/cellular-sales-earns-spot-on-newsweeks-americas-greatest-workplaces-list-for-second-consecutive-year-302812365.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "KNOXVILLE, Tenn, June 29, 2026 /PRNewswire/ -- Cellular Sales, one of the nation's largest authorized Verizon retailers, has been named one of Newsweek's America's Greatest Workplaces for 2026, earning the national recognition for the second consecutive year. Cellular Sales earns...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "KNOXVILLE, Tenn, June 29, 2026 /PRNewswire/ -- Cellular Sales, one of the nation's largest authorized Verizon retailers, has been named one of Newsweek's America's Greatest Workplaces for 2026, earning the national recognition for the second consecutive year. Cellular Sales earns..."
+  },
+  {
+    "title": "Centage Accelerates AI Product Strategy with Appointment of Sameer Kamat as Chief Product Officer",
+    "url": "https://www.prnewswire.com/news-releases/centage-accelerates-ai-product-strategy-with-appointment-of-sameer-kamat-as-chief-product-officer-302811362.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "SAN ANTONIO, June 29, 2026 /PRNewswire/ -- Centage, the AI-native FP&A platform that helps mid-market finance teams move from manual reporting to strategic decision-making, today announced the appointment of Sameer Kamat as Chief Product Officer. Kamat joins Centage with more than two...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SAN ANTONIO, June 29, 2026 /PRNewswire/ -- Centage, the AI-native FP&A platform that helps mid-market finance teams move from manual reporting to strategic decision-making, today announced the appointment of Sameer Kamat as Chief Product Officer. Kamat joins Centage with more than two..."
+  },
+  {
+    "title": "Antinol® Plus and AKC® Challenge Dog Owners to Think Proactively About Joint Health as America Turns 250",
+    "url": "https://www.prnewswire.com/news-releases/antinol-plus-and-akc-challenge-dog-owners-to-think-proactively-about-joint-health-as-america-turns-250-302812413.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "FORT LAUDERDALE, Fla., June 29, 2026 /PRNewswire/ -- Antinol Plus and the American Kennel Club are elevating the national conversation about proactive canine health with \"AKC Celebrates USA 250\" shows that will broadcast on ESPN channels. \"AKC Celebrates USA 250\" is a series of summer...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "FORT LAUDERDALE, Fla., June 29, 2026 /PRNewswire/ -- Antinol Plus and the American Kennel Club are elevating the national conversation about proactive canine health with \"AKC Celebrates USA 250\" shows that will broadcast on ESPN channels. \"AKC Celebrates USA 250\" is a series of summer..."
+  },
+  {
+    "title": "Russell Indexes Add Z Squared Inc. to Russell 2000® and Russell 3000®",
+    "url": "https://www.prnewswire.com/news-releases/russell-indexes-add-z-squared-inc-to-russell-2000-and-russell-3000-302812718.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "FORT LAUDERDALE, Fla., June 29, 2026 /PRNewswire/ -- Z Squared Inc. (Nasdaq: ZSQR) (the \"Company\"), a digital infrastructure company expanding into AI infrastructure, today confirmed its official inclusion in the Russell 3000® Index and the Russell 2000® Index, effective after the market...",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "ai infrastructure"
+      ]
+    },
+    "summary": "FORT LAUDERDALE, Fla., June 29, 2026 /PRNewswire/ -- Z Squared Inc. (Nasdaq: ZSQR) (the \"Company\"), a digital infrastructure company expanding into AI infrastructure, today confirmed its official inclusion in the Russell 3000® Index and the Russell 2000® Index, effective after the market..."
+  },
+  {
+    "title": "Dyadic Expands IP Protection and Business Development Activities in Japan",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318859/0/en/Dyadic-Expands-IP-Protection-and-Business-Development-Activities-in-Japan.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T11:25:00+00:00",
+    "raw_text": "Dyadic Expands IP Protection and Business Development Activities in Japan",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "Dyadic Expands IP Protection and Business Development Activities in Japan"
+  },
+  {
+    "title": "Relmada Therapeutics Joins Russell 2000® and Russell 3000® Indexes",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318814/0/en/Relmada-Therapeutics-Joins-Russell-2000-and-Russell-3000-Indexes.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "CORAL GABLES, Fla., June 29, 2026 (GLOBE NEWSWIRE) -- Relmada Therapeutics, Inc. (Nasdaq: RLMD, “Relmada” or the “Company”), a clinical-stage biotechnology company advancing innovative therapies for oncology and central nervous system disorders, today announced that the Company joined the Russell 2000® Index and the Russell 3000® Index effective after the U.S. market closed on June 26, 2026, as part of the Russell Indexes reconstitution.",
+    "categories": [
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ],
+      "Data Centres": [
+        "colo"
+      ]
+    },
+    "summary": "CORAL GABLES, Fla., June 29, 2026 (GLOBE NEWSWIRE) -- Relmada Therapeutics, Inc. (Nasdaq: RLMD, “Relmada” or the “Company”), a clinical-stage biotechnology company advancing innovative therapies for oncology and central nervous system disorders, today announced that the Company joined the Russell 2000® Index and the Russell 3000® Index effective after the U.S. market closed on June 26, 2026, as part of the Russell Indexes reconstitution."
+  },
+  {
+    "title": "Koryx Copper Provides Further Drill Results for the Haib Copper Project in Southern Namibia",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318831/0/en/Koryx-Copper-Provides-Further-Drill-Results-for-the-Haib-Copper-Project-in-Southern-Namibia.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "Highlights",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Highlights"
+  },
+  {
+    "title": "Bitdeer Technologies Group Signs Colocation Lease Agreement for Tydal, Norway AI Data Center Site",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318832/0/en/Bitdeer-Technologies-Group-Signs-Colocation-Lease-Agreement-for-Tydal-Norway-AI-Data-Center-Site.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "SINGAPORE, June 29, 2026 (GLOBE NEWSWIRE) -- Bitdeer Technologies Group (NASDAQ: BTDR) (\"Bitdeer\" or the \"Company\"), a world-leading technology company for AI and Bitcoin mining infrastructure, today announced that its wholly-owned subsidiary, Tydal Data Center AS, has executed a colocation lease agreement (the \"Lease\") for its Tydal, Norway AI data center site. The Lease has not yet become effective and remains subject to the satisfaction of certain conditions precedent beyond Bitdeer's control, including the completion of certain external customer and supplier arrangements by the counterparty. There is no assurance that such conditions will be satisfied, or that the Lease will become effective.",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center",
+        "colocation",
+        "colo"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "SINGAPORE, June 29, 2026 (GLOBE NEWSWIRE) -- Bitdeer Technologies Group (NASDAQ: BTDR) (\"Bitdeer\" or the \"Company\"), a world-leading technology company for AI and Bitcoin mining infrastructure, today announced that its wholly-owned subsidiary, Tydal Data Center AS, has executed a colocation lease agreement (the \"Lease\") for its Tydal, Norway AI data center site. The Lease has not yet become effective and remains subject to the satisfaction of certain conditions precedent beyond Bitdeer's control, including the completion of certain external customer and supplier arrangements by the counterparty. There is no assurance that such conditions will be satisfied, or that the Lease will become effective."
+  },
+  {
+    "title": "A Japanese Mom Didn’t Come to America to Sell a Vegan Product. She Came to Reinvent Butter.",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318833/0/en/A-Japanese-Mom-Didn-t-Come-to-America-to-Sell-a-Vegan-Product-She-Came-to-Reinvent-Butter.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "The butter sitting in your fridge is the last thing you'd expect a Japanese mom to reinvent. Better Than Butter® just launched on Misfits Market.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The butter sitting in your fridge is the last thing you'd expect a Japanese mom to reinvent. Better Than Butter® just launched on Misfits Market."
+  },
+  {
+    "title": "Helium Evolution Announces Saskatchewan Land Tenure Cost Savings, Adjacent Crown Land Sale Results, and OTCQB Listing",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318834/0/en/Helium-Evolution-Announces-Saskatchewan-Land-Tenure-Cost-Savings-Adjacent-Crown-Land-Sale-Results-and-OTCQB-Listing.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "Helium Evolution Announces Saskatchewan Land Tenure Cost Savings, Adjacent Crown Land Sale Results, and OTCQB Listing",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Industry & Market": [
         "announces"
       ]
     },
-    "summary": "1,300 SEN Teaching Specialists to Support Growing Demand for Online Tutoring MARLOW, England, June 29, 2026 /PRNewswire/ -- Sherpa Tutors, one of the UK's leading online tutoring platforms, announces the launch of its dedicated Special Educational Needs (SEN) Tutoring Division, created to..."
+    "summary": "Helium Evolution Announces Saskatchewan Land Tenure Cost Savings, Adjacent Crown Land Sale Results, and OTCQB Listing"
   },
   {
-    "title": "BitGo Holdings, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BTGO",
-    "url": "https://www.prnewswire.com/news-releases/bitgo-holdings-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights---btgo-302812956.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:40:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Shareholders who purchased shares of BTGO during the class period...",
+    "title": "Aurora Mobile's EngageLab Announces Launch of Silent Auth to Elevate Identity Verification for the Global Market",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318843/0/en/Aurora-Mobile-s-EngageLab-Announces-Launch-of-Silent-Auth-to-Elevate-Identity-Verification-for-the-Global-Market.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T11:00:00+00:00",
+    "raw_text": "SINGAPORE, June 29, 2026 (GLOBE NEWSWIRE) -- Aurora Mobile Limited (NASDAQ: JG) (“Aurora Mobile” or the “Company”), a leading provider of customer engagement and marketing technology services, today announced that its AI-first customer engagement platform, EngageLab, officially launched \"Silent Auth\", an advanced passwordless authentication solution designed to complement existing SMS OTP services and elevate identity verification for the global market.",
     "categories": [
-      "Cloud Infrastructure"
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Industry & Market": [
+        "announces"
       ]
     },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Shareholders who purchased shares of BTGO during the class period..."
+    "summary": "SINGAPORE, June 29, 2026 (GLOBE NEWSWIRE) -- Aurora Mobile Limited (NASDAQ: JG) (“Aurora Mobile” or the “Company”), a leading provider of customer engagement and marketing technology services, today announced that its AI-first customer engagement platform, EngageLab, officially launched \"Silent Auth\", an advanced passwordless authentication solution designed to complement existing SMS OTP services and elevate identity verification for the global market."
   },
   {
-    "title": "Badger Meter, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BMI",
-    "url": "https://www.prnewswire.com/news-releases/badger-meter-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--bmi-302812951.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:40:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
+    "title": "Rystad Energy launches Spektra: the next-generation market intelligence platform, shaped by the clients who use it",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318808/0/en/Rystad-Energy-launches-Spektra-the-next-generation-market-intelligence-platform-shaped-by-the-clients-who-use-it.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:55:00+00:00",
+    "raw_text": "Rystad Energy launches Spektra, a new AI-native market intelligence platform built on 20+ years of proprietary energy data.",
     "categories": [
-      "Cloud Infrastructure"
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Industry & Market": [
+        "launches"
       ]
     },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by..."
+    "summary": "Rystad Energy launches Spektra, a new AI-native market intelligence platform built on 20+ years of proprietary energy data."
   },
   {
-    "title": "Un \"padre fundador del fitness\" - Les Mills Snr (1934-2026)",
-    "url": "https://www.prnewswire.com/news-releases/un-padre-fundador-del-fitness--les-mills-snr-1934-2026-302813033.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:40:00+00:00",
-    "raw_text": "AUCKLAND, Nueva Zelanda, 29 de junio de 2026 /PRNewswire/ -- Rendimos un sentido homenaje a nuestro fundador, Les Mills Snr, quien falleció hoy en paz a los 91 años. Les, un icono neozelandés, dejó huella en el deporte, los negocios, la política y la vida. Junto a su esposa Colleen, creó...",
+    "title": "Magna Mining Achieves Record Quarterly Tonnage at McCreedy West Mine in Sudbury and Provides Q2 Operational Update",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318800/0/en/Magna-Mining-Achieves-Record-Quarterly-Tonnage-at-McCreedy-West-Mine-in-Sudbury-and-Provides-Q2-Operational-Update.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:45:00+00:00",
+    "raw_text": "SUDBURY, Ontario, June 29, 2026 (GLOBE NEWSWIRE) -- Magna Mining Inc. (TSX: NICU) (OTCQX: MGMNF) (FSE: 8YD) (“Magna” or the “Company”) is pleased to announce that a new record for quarterly tonnage has been achieved under Magna ownership of the McCreedy West Mine (“McCreedy West”), located in the North Range of the Sudbury Basin, northeastern Ontario, Canada (Figure 1). All amounts are expressed in Canadian dollars unless otherwise indicated.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SUDBURY, Ontario, June 29, 2026 (GLOBE NEWSWIRE) -- Magna Mining Inc. (TSX: NICU) (OTCQX: MGMNF) (FSE: 8YD) (“Magna” or the “Company”) is pleased to announce that a new record for quarterly tonnage has been achieved under Magna ownership of the McCreedy West Mine (“McCreedy West”), located in the North Range of the Sudbury Basin, northeastern Ontario, Canada (Figure 1). All amounts are expressed in Canadian dollars unless otherwise indicated."
+  },
+  {
+    "title": "Midnight Sun Continues Rapid Strike Expansion at Dumbwa; Now 6.7 Kilometres of Near-Surface Copper Mineralization",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318789/0/en/Midnight-Sun-Continues-Rapid-Strike-Expansion-at-Dumbwa-Now-6-7-Kilometres-of-Near-Surface-Copper-Mineralization.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:30:00+00:00",
+    "raw_text": "Highlights include: 21.64m @ 0.42% Cu, 13.67m @ 0.51% Cu, and 25m @ 0.38% Cu Highlights include: 21.64m @ 0.42% Cu, 13.67m @ 0.51% Cu, and 25m @ 0.38% Cu",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Highlights include: 21.64m @ 0.42% Cu, 13.67m @ 0.51% Cu, and 25m @ 0.38% Cu Highlights include: 21.64m @ 0.42% Cu, 13.67m @ 0.51% Cu, and 25m @ 0.38% Cu"
+  },
+  {
+    "title": "OwlTing Group (NASDAQ: OWLS) and Saber Money Open Settlement into India's US$860 Billion Export Economy",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318784/0/en/OwlTing-Group-NASDAQ-OWLS-and-Saber-Money-Open-Settlement-into-India-s-US-860-Billion-Export-Economy.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:21:00+00:00",
+    "raw_text": "OwlTing Group (NASDAQ: OWLS) and Saber Money open Indian rupee payout via OwlPay Harbor, a near real-time path into India's US$860B export economy.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "OwlTing Group (NASDAQ: OWLS) and Saber Money open Indian rupee payout via OwlPay Harbor, a near real-time path into India's US$860B export economy."
+  },
+  {
+    "title": "Comstock Metals Advances Industry-Scale Facility Commissioning",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318780/0/en/Comstock-Metals-Advances-Industry-Scale-Facility-Commissioning.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:15:00+00:00",
+    "raw_text": "VIRGINIA CITY, Nev., June 29, 2026 (GLOBE NEWSWIRE) -- Comstock Inc. (NYSE: LODE) (“Comstock” and the “Company”) and Comstock Metals LLC (“Comstock Metals”), a leader in the responsible recycling of end-of-life solar panels with the only certified, North American, zero-landfill solution, announced today that all of the industry-scale facility precision equipment and unit operations have arrived and are assembled. Three of those unit operations have been commissioned and tested and are undergoing integration to date: the robotic loading arms, the Eddy system, and the washing system. This represents significant progress toward the full commissioning, start-up and continuous operation of the 100,000 ton per year solar panel recycling production line.",
     "categories": [
       "Networks"
     ],
@@ -1142,23 +1522,79 @@
         "lan"
       ]
     },
-    "summary": "AUCKLAND, Nueva Zelanda, 29 de junio de 2026 /PRNewswire/ -- Rendimos un sentido homenaje a nuestro fundador, Les Mills Snr, quien falleció hoy en paz a los 91 años. Les, un icono neozelandés, dejó huella en el deporte, los negocios, la política y la vida. Junto a su esposa Colleen, creó..."
+    "summary": "VIRGINIA CITY, Nev., June 29, 2026 (GLOBE NEWSWIRE) -- Comstock Inc. (NYSE: LODE) (“Comstock” and the “Company”) and Comstock Metals LLC (“Comstock Metals”), a leader in the responsible recycling of end-of-life solar panels with the only certified, North American, zero-landfill solution, announced today that all of the industry-scale facility precision equipment and unit operations have arrived and are assembled. Three of those unit operations have been commissioned and tested and are undergoing integration to date: the robotic loading arms, the Eddy system, and the washing system. This represents significant progress toward the full commissioning, start-up and continuous operation of the 100,000 ton per year solar panel recycling production line."
   },
   {
-    "title": "GeneDx Holdings Corp. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - WGS",
-    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--wgs-302812943.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-06-29T08:39:00+00:00",
-    "raw_text": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
+    "title": "Bunker Hill Produces First Concentrate on Schedule for Shipment to Trail Smelter",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318781/0/en/Bunker-Hill-Produces-First-Concentrate-on-Schedule-for-Shipment-to-Trail-Smelter.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:15:00+00:00",
+    "raw_text": "First concentrate production is a major milestone in the restart of the USA’s newest silver-zinc-lead mine First concentrate production is a major milestone in the restart of the USA’s newest silver-zinc-lead mine",
     "categories": [
-      "Cloud Infrastructure"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "First concentrate production is a major milestone in the restart of the USA’s newest silver-zinc-lead mine First concentrate production is a major milestone in the restart of the USA’s newest silver-zinc-lead mine"
+  },
+  {
+    "title": "Growgent.ai Launches an AI Growth Engine for Small Businesses",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318756/0/en/Growgent-ai-Launches-an-AI-Growth-Engine-for-Small-Businesses.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:00:00+00:00",
+    "raw_text": "Growgent.ai announced the launch of its AI Growth Engine for small and midsize businesses, an integrated suite of AI agents designed to help service-based",
+    "categories": [
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Industry & Market": [
+        "launches"
       ]
     },
-    "summary": "LOS ANGELES, June 29, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder..."
+    "summary": "Growgent.ai announced the launch of its AI Growth Engine for small and midsize businesses, an integrated suite of AI agents designed to help service-based"
+  },
+  {
+    "title": "MEXC Launches TradFi Gala With 1,000,000 USDT Reward Pool",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318759/0/en/MEXC-Launches-TradFi-Gala-With-1-000-000-USDT-Reward-Pool.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T10:00:00+00:00",
+    "raw_text": "MEXC TradFi Gala campaign combines 0-fee trading, offering users the opportunity to share a total of 1,000,000 USDT in rewards.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "MEXC TradFi Gala campaign combines 0-fee trading, offering users the opportunity to share a total of 1,000,000 USDT in rewards."
+  },
+  {
+    "title": "AI Utility Tokens Continue to Reshape the Presale Landscape While Solana Unchained Enters Its Final Phase 5 Hours",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318751/0/en/AI-Utility-Tokens-Continue-to-Reshape-the-Presale-Landscape-While-Solana-Unchained-Enters-Its-Final-Phase-5-Hours.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T09:57:00+00:00",
+    "raw_text": "",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "No summary available."
+  },
+  {
+    "title": "51Talk Rolls Out a Structured Online English Program for Young Learners Aged 3 to 7 Across Saudi Arabia and the Gulf",
+    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318743/0/en/51Talk-Rolls-Out-a-Structured-Online-English-Program-for-Young-Learners-Aged-3-to-7-Across-Saudi-Arabia-and-the-Gulf.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-06-29T09:18:00+00:00",
+    "raw_text": "51Talk introduces a structured online English program for young learners aged 3 to 7 across Saudi Arabia and the Gulf.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "51Talk introduces a structured online English program for young learners aged 3 to 7 across Saudi Arabia and the Gulf."
   },
   {
     "title": "Chennai Residents Shift to Rentomojo Water Purifier Rentals as ₹18,000 Buying Costs and Annual Maintenance Weigh on Budgets",
@@ -1203,264 +1639,5 @@
     ],
     "matched_keywords": {},
     "summary": "Wooptix installs Phemet® system at CEA-Leti’s Grenoble technology research institute for semiconductor metrology and process control."
-  },
-  {
-    "title": "Wooptix installe le premier système de métrologie Phemet® au CEA Leti",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318703/0/fr/Wooptix-installe-le-premier-syst%C3%A8me-de-m%C3%A9trologie-Phemet-au-CEA-Leti.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T08:00:00+00:00",
-    "raw_text": "Représente le premier déploiement en production de Wooptix et établit une collaboration à long terme avec l’un des principaux écosystèmes mondiaux de R&D en semi conducteurs Représente le premier déploiement en production de Wooptix et établit une collaboration à long terme avec l’un des principaux écosystèmes mondiaux de R&D en semi conducteurs",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Représente le premier déploiement en production de Wooptix et établit une collaboration à long terme avec l’un des principaux écosystèmes mondiaux de R&D en semi conducteurs Représente le premier déploiement en production de Wooptix et établit une collaboration à long terme avec l’un des principaux écosystèmes mondiaux de R&D en semi conducteurs"
-  },
-  {
-    "title": "Introducing Circeus: The AI-Native Holding Company and Announcing New Equity Financing",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318692/0/en/Introducing-Circeus-The-AI-Native-Holding-Company-and-Announcing-New-Equity-Financing.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Circeus launches as the AI-native holding company for mission-critical software, announcing an equity investment from the EBRD to scale AI deployment.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches",
-        "investment"
-      ]
-    },
-    "summary": "Circeus launches as the AI-native holding company for mission-critical software, announcing an equity investment from the EBRD to scale AI deployment."
-  },
-  {
-    "title": "AI 原生控股公司 Circeus 正式亮相，并宣布新股权融资",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/zh-hans/AI-%E5%8E%9F%E7%94%9F%E6%8E%A7%E8%82%A1%E5%85%AC%E5%8F%B8-Circeus-%E6%AD%A3%E5%BC%8F%E4%BA%AE%E7%9B%B8-%E5%B9%B6%E5%AE%A3%E5%B8%83%E6%96%B0%E8%82%A1%E6%9D%83%E8%9E%8D%E8%B5%84.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Shop Circle 背后集团推出控股公司品牌 Circeus，并获得 EBRD 的新股权投资。 Shop Circle 将继续作为集团的零售与商业软件部门运营。 该投资将加速 AI 在整个产品组合中的部署，并为持续收购支撑日常经济的软件企业提供资金。",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Shop Circle 背后集团推出控股公司品牌 Circeus，并获得 EBRD 的新股权投资。 Shop Circle 将继续作为集团的零售与商业软件部门运营。 该投资将加速 AI 在整个产品组合中的部署，并为持续收购支撑日常经济的软件企业提供资金。"
-  },
-  {
-    "title": "隆重介紹 Circeus：人工智能原生控股公司，並宣佈新股權融資",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/zh-hant/%E9%9A%86%E9%87%8D%E4%BB%8B%E7%B4%B9-Circeus-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%8E%9F%E7%94%9F%E6%8E%A7%E8%82%A1%E5%85%AC%E5%8F%B8-%E4%B8%A6%E5%AE%A3%E4%BD%88%E6%96%B0%E8%82%A1%E6%AC%8A%E8%9E%8D%E8%B3%87.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Shop Circle 所屬集團推出 Circeus 作為其控股公司品牌，並獲 EBRD 的新股權投資支持。 Shop Circle 繼續擔當集團的零售與商業軟件部門。 這筆投資將加快人工智能在集團投資組合中的應用，同時為持續收購支持日常經濟的軟件企業提供資金。",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Shop Circle 所屬集團推出 Circeus 作為其控股公司品牌，並獲 EBRD 的新股權投資支持。 Shop Circle 繼續擔當集團的零售與商業軟件部門。 這筆投資將加快人工智能在集團投資組合中的應用，同時為持續收購支持日常經濟的軟件企業提供資金。"
-  },
-  {
-    "title": "Présentation de Circeus, la société holding nativement axée sur l’IA, et annonce d’un nouveau financement en fonds propres",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/fr/Pr%C3%A9sentation-de-Circeus-la-soci%C3%A9t%C3%A9-holding-nativement-ax%C3%A9e-sur-l-IA-et-annonce-d-un-nouveau-financement-en-fonds-propres.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Le groupe à l’origine de Shop Circle lance Circeus en tant que nouvelle marque de sa société holding, avec le soutien d’un nouvel investissement en fonds propres de la BERD. Shop Circle poursuit ses activités en tant que division du groupe dédiée aux logiciels de commerce et de distribution. Cet investissement permettra d’accélérer le déploiement de l’IA dans l’ensemble du portefeuille et de financer la poursuite des acquisitions d’éditeurs de logiciels qui soutiennent l’économie du quotidien.",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "acquisition"
-      ]
-    },
-    "summary": "Le groupe à l’origine de Shop Circle lance Circeus en tant que nouvelle marque de sa société holding, avec le soutien d’un nouvel investissement en fonds propres de la BERD. Shop Circle poursuit ses activités en tant que division du groupe dédiée aux logiciels de commerce et de distribution. Cet investissement permettra d’accélérer le déploiement de l’IA dans l’ensemble du portefeuille et de financer la poursuite des acquisitions d’éditeurs de logiciels qui soutiennent l’économie du quotidien."
-  },
-  {
-    "title": "Vorstellung von Circeus: die KI-native Holdinggesellschaft – und Bekanntgebung einer neuen Eigenkapitalfinanzierung",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/de/Vorstellung-von-Circeus-die-KI-native-Holdinggesellschaft-und-Bekanntgebung-einer-neuen-Eigenkapitalfinanzierung.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Die Gruppe hinter Shop Circle führt Circeus als Marke ihrer Holdinggesellschaft ein, gestützt durch eine neue Kapitalbeteiligung der EBWE Shop Circle bleibt weiterhin der Geschäftsbereich für Einzelhandels- und Handelssoftware der Gruppe. Die Investition wird den Einsatz von KI im gesamten Portfolio beschleunigen und die weitere Übernahme von Softwareunternehmen finanzieren, die die Grundlage der täglichen Wirtschaft bilden.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Die Gruppe hinter Shop Circle führt Circeus als Marke ihrer Holdinggesellschaft ein, gestützt durch eine neue Kapitalbeteiligung der EBWE Shop Circle bleibt weiterhin der Geschäftsbereich für Einzelhandels- und Handelssoftware der Gruppe. Die Investition wird den Einsatz von KI im gesamten Portfolio beschleunigen und die weitere Übernahme von Softwareunternehmen finanzieren, die die Grundlage der täglichen Wirtschaft bilden."
-  },
-  {
-    "title": "תכירו את Circeus: חברת האחזקות המבוססת על בינה מלאכותית והכרזה על מימון הון חדש",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/he/%D7%AA%D7%9B%D7%99%D7%A8%D7%95-%D7%90%D7%AA-Circeus-%D7%97%D7%91%D7%A8%D7%AA-%D7%94%D7%90%D7%97%D7%96%D7%A7%D7%95%D7%AA-%D7%94%D7%9E%D7%91%D7%95%D7%A1%D7%A1%D7%AA-%D7%A2%D7%9C-%D7%91%D7%99%D7%A0%D7%94-%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA-%D7%95%D7%94%D7%9B%D7%A8%D7%96%D7%94-%D7%A2%D7%9C-%D7%9E%D7%99%D7%9E%D7%95%D7%9F-%D7%94%D7%95%D7%9F-%D7%97%D7%93%D7%A9.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "הקבוצה שעומדת מאחורי Shop Circle משיקה את Circeus כמותג חברת האחזקות שלה, מגובה בהשקעה חדשה של הון עצמי מבנק חברות פיננסיות ואסטרטגיות EBRD . Shop Circle ממשיכה לשמש כחטיבת תוכנת הקמעונאות והמסחר של הקבוצה. ההשקעה תאיץ את פריסת הבינה המלאכותית בכל תיק ההשקעות ותממן את המשך הרכישה של עסקי התוכנה המניעים את הכלכלה היומיומית.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "הקבוצה שעומדת מאחורי Shop Circle משיקה את Circeus כמותג חברת האחזקות שלה, מגובה בהשקעה חדשה של הון עצמי מבנק חברות פיננסיות ואסטרטגיות EBRD . Shop Circle ממשיכה לשמש כחטיבת תוכנת הקמעונאות והמסחר של הקבוצה. ההשקעה תאיץ את פריסת הבינה המלאכותית בכל תיק ההשקעות ותממן את המשך הרכישה של עסקי התוכנה המניעים את הכלכלה היומיומית."
-  },
-  {
-    "title": "Memperkenalkan Circeus: Perusahaan Induk Berbasis AI dan Pengumuman Pendanaan Ekuitas Baru",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/id/Memperkenalkan-Circeus-Perusahaan-Induk-Berbasis-AI-dan-Pengumuman-Pendanaan-Ekuitas-Baru.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Grup di balik Shop Circle meluncurkan Circeus sebagai merek perusahaan induknya, didukung oleh investasi ekuitas baru dari EBRD. Shop Circle terus beroperasi sebagai divisi perangkat lunak untuk ritel dan perdagangan milik grup. Investasi ini akan mempercepat penerapan AI di seluruh portofolio perusahaan sekaligus mendanai akuisisi berkelanjutan atas berbagai bisnis perangkat lunak yang mendukung kegiatan ekonomi sehari-hari.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Grup di balik Shop Circle meluncurkan Circeus sebagai merek perusahaan induknya, didukung oleh investasi ekuitas baru dari EBRD. Shop Circle terus beroperasi sebagai divisi perangkat lunak untuk ritel dan perdagangan milik grup. Investasi ini akan mempercepat penerapan AI di seluruh portofolio perusahaan sekaligus mendanai akuisisi berkelanjutan atas berbagai bisnis perangkat lunak yang mendukung kegiatan ekonomi sehari-hari."
-  },
-  {
-    "title": "AIネイティブの持株会社サーセウスの紹介、ならびに新たな株式資金調達の発表",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/ja/AI%E3%83%8D%E3%82%A4%E3%83%86%E3%82%A3%E3%83%96%E3%81%AE%E6%8C%81%E6%A0%AA%E4%BC%9A%E7%A4%BE%E3%82%B5%E3%83%BC%E3%82%BB%E3%82%A6%E3%82%B9%E3%81%AE%E7%B4%B9%E4%BB%8B-%E3%81%AA%E3%82%89%E3%81%B3%E3%81%AB%E6%96%B0%E3%81%9F%E3%81%AA%E6%A0%AA%E5%BC%8F%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94%E3%81%AE%E7%99%BA%E8%A1%A8.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "ショップサークルを運営するグループが、EBRDからの新たな株式投資を背景に、持株会社ブランドとしてサーセウスをローンチした。 ショップサークルは、引き続き同グループの小売・コマースソフトウェア部門として事業を展開する。 今回の投資により、ポートフォリオ全体でのAI導入が加速され、日常経済を支えるソフトウェア事業の継続的買収に資金が充当される。",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ショップサークルを運営するグループが、EBRDからの新たな株式投資を背景に、持株会社ブランドとしてサーセウスをローンチした。 ショップサークルは、引き続き同グループの小売・コマースソフトウェア部門として事業を展開する。 今回の投資により、ポートフォリオ全体でのAI導入が加速され、日常経済を支えるソフトウェア事業の継続的買収に資金が充当される。"
-  },
-  {
-    "title": "Circeus 출범: AI 네이티브 지주회사 체제로 전환하며 신규 지분 투자 유치",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/ko/Circeus-%EC%B6%9C%EB%B2%94-AI-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EC%A7%80%EC%A3%BC%ED%9A%8C%EC%82%AC-%EC%B2%B4%EC%A0%9C%EB%A1%9C-%EC%A0%84%ED%99%98%ED%95%98%EB%A9%B0-%EC%8B%A0%EA%B7%9C-%EC%A7%80%EB%B6%84-%ED%88%AC%EC%9E%90-%EC%9C%A0%EC%B9%98.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Shop Circle 운영 그룹은 유럽부흥개발은행(EBRD) 의 신규 지분 투자를 바탕으로 지주회사 브랜드를 Circeus로 새롭게 출범시켰다. Shop Circle은 앞으로도 그룹의 리테일 및 커머스 소프트웨어 사업부로 운영된다. 이번 투자는 그룹 전반에 AI 도입을 더욱 가속화하고, 실물경제를 뒷받침하는 소프트웨어 기업에 대한 인수를 지속적으로 추진하는 데 활용될 예정이다.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Shop Circle 운영 그룹은 유럽부흥개발은행(EBRD) 의 신규 지분 투자를 바탕으로 지주회사 브랜드를 Circeus로 새롭게 출범시켰다. Shop Circle은 앞으로도 그룹의 리테일 및 커머스 소프트웨어 사업부로 운영된다. 이번 투자는 그룹 전반에 AI 도입을 더욱 가속화하고, 실물경제를 뒷받침하는 소프트웨어 기업에 대한 인수를 지속적으로 추진하는 데 활용될 예정이다."
-  },
-  {
-    "title": "Memperkenalkan Circeus: Syarikat Pegangan Natif AI dan Pengumuman Pembiayaan Ekuiti Baharu",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/ms/Memperkenalkan-Circeus-Syarikat-Pegangan-Natif-AI-dan-Pengumuman-Pembiayaan-Ekuiti-Baharu.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "Kumpulan di sebalik Shop Circle melancarkan Circeus sebagai jenama syarikat pegangan, disokong oleh pelaburan ekuiti baharu daripada EBRD. Shop Circle kekal sebagai bahagian perisian runcit dan perdagangan kumpulan. Pelaburan ini akan mempercepatkan penerapan kecerdasan buatan (AI) merentasi portfolio dan membiayai pengambilalihan berterusan perniagaan perisian yang menggerakkan ekonomi harian.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Kumpulan di sebalik Shop Circle melancarkan Circeus sebagai jenama syarikat pegangan, disokong oleh pelaburan ekuiti baharu daripada EBRD. Shop Circle kekal sebagai bahagian perisian runcit dan perdagangan kumpulan. Pelaburan ini akan mempercepatkan penerapan kecerdasan buatan (AI) merentasi portfolio dan membiayai pengambilalihan berterusan perniagaan perisian yang menggerakkan ekonomi harian."
-  },
-  {
-    "title": "Lançamento da Circeus: A Holding Nativa em IA e o Novo Financiamento via Participação Societária",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/pt/Lan%C3%A7amento-da-Circeus-A-Holding-Nativa-em-IA-e-o-Novo-Financiamento-via-Participa%C3%A7%C3%A3o-Societ%C3%A1ria.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "O grupo por trás da Shop Circle lança a Circeus como a marca da sua holding, com o apoio de um novo investimento em participação acionária do EBRD. O Shop Circle continua como a divisão de software de varejo e comércio do grupo. O investimento irá acelerar a implantação da IA em todo o portfólio e financiar a aquisição contínua das empresas de software que alimentam a economia diária.",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "O grupo por trás da Shop Circle lança a Circeus como a marca da sua holding, com o apoio de um novo investimento em participação acionária do EBRD. O Shop Circle continua como a divisão de software de varejo e comércio do grupo. O investimento irá acelerar a implantação da IA em todo o portfólio e financiar a aquisição contínua das empresas de software que alimentam a economia diária."
-  },
-  {
-    "title": "Presentamos Circeus: la sociedad holding nativa de IA y el anuncio de una nueva financiación de capital",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/es/Presentamos-Circeus-la-sociedad-holding-nativa-de-IA-y-el-anuncio-de-una-nueva-financiaci%C3%B3n-de-capital.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "El grupo detrás de Shop Circle lanza Circeus como la marca de su sociedad holding, respaldada por una nueva inversión de capital del BERD. Shop Circle continúa como la división de software para comercio minorista y comercio electrónico del grupo. La inversión acelerará la implementación de la IA en todo el portafolio de empresas y financiará la adquisición continua de empresas de software que impulsan la economía cotidiana.",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "El grupo detrás de Shop Circle lanza Circeus como la marca de su sociedad holding, respaldada por una nueva inversión de capital del BERD. Shop Circle continúa como la división de software para comercio minorista y comercio electrónico del grupo. La inversión acelerará la implementación de la IA en todo el portafolio de empresas y financiará la adquisición continua de empresas de software que impulsan la economía cotidiana."
-  },
-  {
-    "title": "ขอแนะนำ Circeus: บริษัทโฮลดิ้งที่ขับเคลื่อนด้วย AI เป็นหลัก พร้อมประกาศการจัดหาเงินทุนโดยออกหุ้นรอบใหม่",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318693/0/th/%E0%B8%82%E0%B8%AD%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3-Circeus-%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%A9%E0%B8%B1%E0%B8%97%E0%B9%82%E0%B8%AE%E0%B8%A5%E0%B8%94%E0%B8%B4%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-AI-%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B9%82%E0%B8%94%E0%B8%A2%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B8%E0%B9%89%E0%B8%99%E0%B8%A3%E0%B8%AD%E0%B8%9A%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:15:00+00:00",
-    "raw_text": "กลุ่มบริษัทผู้อยู่เบื้องหลัง Shop Circle เปิดตัว Circeus ในฐานะแบรนด์บริษัทโฮลดิ้งของกลุ่ม ซึ่งได้รับการสนับสนุนการลงทุนในหุ้นทุนรอบใหม่จาก EBRD Shop Circle ยังคงดำเนินงานในฐานะแผนกซอฟต์แวร์เพื่อการค้าปลีกและการพาณิชย์ของกลุ่มบริษัทต่อไป การลงทุนในครั้งนี้จะเร่งการปรับใช้ AI ในบริษัททั้งหมดที่อยู่ในพอร์ตโฟลิโอ พร้อมทั้งให้เงินทุนสำหรับการเดินหน้าต่อในการเข้าซื้อกิจการธุรกิจซอฟต์แวร์ที่เป็นแรงขับเคลื่อนระบบเศรษฐกิจในชีวิตประจำวัน",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "กลุ่มบริษัทผู้อยู่เบื้องหลัง Shop Circle เปิดตัว Circeus ในฐานะแบรนด์บริษัทโฮลดิ้งของกลุ่ม ซึ่งได้รับการสนับสนุนการลงทุนในหุ้นทุนรอบใหม่จาก EBRD Shop Circle ยังคงดำเนินงานในฐานะแผนกซอฟต์แวร์เพื่อการค้าปลีกและการพาณิชย์ของกลุ่มบริษัทต่อไป การลงทุนในครั้งนี้จะเร่งการปรับใช้ AI ในบริษัททั้งหมดที่อยู่ในพอร์ตโฟลิโอ พร้อมทั้งให้เงินทุนสำหรับการเดินหน้าต่อในการเข้าซื้อกิจการธุรกิจซอฟต์แวร์ที่เป็นแรงขับเคลื่อนระบบเศรษฐกิจในชีวิตประจำวัน"
-  },
-  {
-    "title": "Otala.Markets launches Otala AI Pricer: the first AI-powered structured products pricer integrated with Telegram and WhatsApp",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318683/0/en/Otala-Markets-launches-Otala-AI-Pricer-the-first-AI-powered-structured-products-pricer-integrated-with-Telegram-and-WhatsApp.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:00:00+00:00",
-    "raw_text": "Otala.Markets announces the launch of Otala AI Pricer, the first AI-powered structured products pricing assistant integrated into Telegram and WhatsApp.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches",
-        "announces"
-      ]
-    },
-    "summary": "Otala.Markets announces the launch of Otala AI Pricer, the first AI-powered structured products pricing assistant integrated into Telegram and WhatsApp."
-  },
-  {
-    "title": "Codeego Launches AI-Powered Certified Software Valuation, Creating a New Category for Software Asset Assurance",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318685/0/en/Codeego-Launches-AI-Powered-Certified-Software-Valuation-Creating-a-New-Category-for-Software-Asset-Assurance.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:00:00+00:00",
-    "raw_text": "Codeego launches Certified Software Valuation: AI measures the value and risk of software as a Trusted Third Party in under 20 minutes.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches",
-        "valuation"
-      ]
-    },
-    "summary": "Codeego launches Certified Software Valuation: AI measures the value and risk of software as a Trusted Third Party in under 20 minutes."
-  },
-  {
-    "title": "Codeego lance la Valorisation Certifiée de Logiciels par IA, créant une nouvelle catégorie pour l’assurance des actifs logiciels",
-    "url": "https://www.globenewswire.com/news-release/2026/06/29/3318685/0/fr/Codeego-lance-la-Valorisation-Certifi%C3%A9e-de-Logiciels-par-IA-cr%C3%A9ant-une-nouvelle-cat%C3%A9gorie-pour-l-assurance-des-actifs-logiciels.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-06-29T07:00:00+00:00",
-    "raw_text": "Un modèle de Tiers de Confiance (Trusted Third Party) qui utilise l’IA pour mesurer la valeur technique, économique et opérationnelle du logiciel. Un modèle de Tiers de Confiance (Trusted Third Party) qui utilise l’IA pour mesurer la valeur technique, économique et opérationnelle du logiciel.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Un modèle de Tiers de Confiance (Trusted Third Party) qui utilise l’IA pour mesurer la valeur technique, économique et opérationnelle du logiciel. Un modèle de Tiers de Confiance (Trusted Third Party) qui utilise l’IA pour mesurer la valeur technique, économique et opérationnelle du logiciel."
   }
 ]
