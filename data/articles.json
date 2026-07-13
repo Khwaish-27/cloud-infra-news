@@ -1,5 +1,22 @@
 [
   {
+    "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
+    "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
+    "source": "The Hacker News",
+    "published": "2026-07-13T07:30:00+00:00",
+    "raw_text": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bash_history. From that one lapse, French security firm Lexfo lifted the operator's entire toolkit and pivoted through it to two more",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "phishing",
+        "security"
+      ]
+    },
+    "summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bash_history. From that one lapse, French security firm Lexfo lifted the operator's entire toolkit and pivoted through it to two more"
+  },
+  {
     "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
     "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
     "source": "The Hacker News",
@@ -58,6 +75,29 @@
       ]
     },
     "summary": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 2026. \"At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and"
+  },
+  {
+    "title": "US and allies warn of Russian critical infrastructure attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/",
+    "source": "BleepingComputer",
+    "published": "2026-07-13T09:32:23+00:00",
+    "raw_text": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks. [...]",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "router"
+      ],
+      "Cybersecurity": [
+        "hacker",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Cybersecurity agencies from the United States and eight other countries have issued a joint warning that Russian state hackers are targeting vulnerable and poorly configured routers to infiltrate critical infrastructure networks. [...]"
   },
   {
     "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
@@ -122,16 +162,53 @@
     "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]"
   },
   {
-    "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-    "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-    "source": "BleepingComputer",
-    "published": "2026-07-11T09:03:57+00:00",
-    "raw_text": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of numbers. [...]",
+    "title": "FastNetMon eliminates third-party bgp lookups with Netomics",
+    "url": "https://www.helpnetsecurity.com/2026/07/13/fastnetmon-netomics/",
+    "source": "Help Net Security",
+    "published": "2026-07-13T09:27:07+00:00",
+    "raw_text": "FastNetMon is introducing Netomics, a self-hosted BGP routing intelligence platform that combines live routing data, registry information, RPKI validation, routing history and AI-assisted querying into a single application. Built for internet service providers (ISPs), cloud providers, Internet Exchange Points (IXPs) and enterprises operating large IP networks, Netomics provides complete visibility into global internet routing without relying on third-party lookup services. Network engineers often need to consult multiple public tools to investigate routing incidents, validate prefix … More → The post FastNetMon eliminates third-party bgp lookups with Netomics appeared first on Help Net Security .",
     "categories": [
-      "Uncategorised"
+      "Networks",
+      "Cloud Infrastructure",
+      "Cybersecurity",
+      "Industry & Market"
     ],
-    "matched_keywords": {},
-    "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of numbers. [...]"
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "network",
+        "routing"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "service provider"
+      ]
+    },
+    "summary": "FastNetMon is introducing Netomics, a self-hosted BGP routing intelligence platform that combines live routing data, registry information, RPKI validation, routing history and AI-assisted querying into a single application. Built for internet service providers (ISPs), cloud providers, Internet Exchange Points (IXPs) and enterprises operating large IP networks, Netomics provides complete visibility into global internet routing without relying on third-party lookup services. Network engineers often need to consult multiple public tools to investigate routing incidents, validate prefix … More → The post FastNetMon eliminates third-party bgp lookups with Netomics appeared first on Help Net Security ."
+  },
+  {
+    "title": "Claude Code users keep 50% higher limits until July 19",
+    "url": "https://www.helpnetsecurity.com/2026/07/13/claude-code-weekly-limits-promotion-extended/",
+    "source": "Help Net Security",
+    "published": "2026-07-13T09:06:55+00:00",
+    "raw_text": "Anthropic has extended a limited-time promotion that increases weekly usage limits in Claude Code by 50% through July 19, 2026, at 11:59 PM PT. When the promotion ends, weekly usage limits will return to their standard levels without any changes to users’ plans or billing. The promotion is available to Pro, Max, and Team plans, as well as legacy seat-based users on Enterprise plans. Free plans and consumption-based Enterprise seats are not eligible. What’s included … More → The post Claude Code users keep 50% higher limits until July 19 appeared first on Help Net Security .",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Anthropic has extended a limited-time promotion that increases weekly usage limits in Claude Code by 50% through July 19, 2026, at 11:59 PM PT. When the promotion ends, weekly usage limits will return to their standard levels without any changes to users’ plans or billing. The promotion is available to Pro, Max, and Team plans, as well as legacy seat-based users on Enterprise plans. Free plans and consumption-based Enterprise seats are not eligible."
   },
   {
     "title": "Why SBOMs, signing, and provenance still don’t tell you if software is safe",
@@ -307,6 +384,62 @@
     "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Securing the inbox: Where identity, brand and security meet Getting a verified logo to appear next to your email has traditionally meant having to work with two separate entities. You have to work with a DMARC partner for setting up DMARC and BIMI, then use a trusted Certificate Authority (CA) to purchase a Mark Certificate, and this means having to … More → The post Week in review: Accenture data breach, great open-source cybersecurity tools appeared first on Help Net Security ."
   },
   {
+    "title": "Organizations Warned of Exploited Joomla Extension Vulnerabilities",
+    "url": "https://www.securityweek.com/organizations-warned-of-exploited-joomla-extension-vulnerabilities/",
+    "source": "SecurityWeek",
+    "published": "2026-07-13T09:08:02+00:00",
+    "raw_text": "Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "Threat actors have been targeting Balbooa Forms and iCagenda Joomla extension flaws for remote code execution. The post Organizations Warned of Exploited Joomla Extension Vulnerabilities appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns",
+    "url": "https://www.securityweek.com/progress-prompts-sharefile-storage-zone-controller-shutdown-amid-security-concerns/",
+    "source": "SecurityWeek",
+    "published": "2026-07-13T08:20:46+00:00",
+    "raw_text": "The company notified customers to manually shut down their servers while it is investigating a credible threat. The post Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "The company notified customers to manually shut down their servers while it is investigating a credible threat. The post Progress Prompts ShareFile Storage Zone Controller Shutdown Amid Security Concerns appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Centers Laboratory Data Breach Affects 540,000 Individuals",
+    "url": "https://www.securityweek.com/centers-laboratory-data-breach-affects-540000-individuals/",
+    "source": "SecurityWeek",
+    "published": "2026-07-13T08:10:44+00:00",
+    "raw_text": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "security"
+      ]
+    },
+    "summary": "The WorldLeaks extortion group claimed to have stolen 720 GB of data from the healthcare testing and laboratory services provider. The post Centers Laboratory Data Breach Affects 540,000 Individuals appeared first on SecurityWeek ."
+  },
+  {
     "title": "Ghost Accounts Abuse GitHub API in Mass Recon Campaign",
     "url": "https://www.securityweek.com/ghost-accounts-abuse-github-api-in-mass-recon-campaign/",
     "source": "SecurityWeek",
@@ -321,6 +454,82 @@
       ]
     },
     "summary": "Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members. The post Ghost Accounts Abuse GitHub API in Mass Recon Campaign appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Hacker Extradited from Ukraine Pleads Guilty to Ryuk Ransomware Charges",
+    "url": "https://www.infosecurity-magazine.com/news/hacker-extradited-ukraine-guilty/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-07-13T09:30:00+00:00",
+    "raw_text": "An Armenian man has pleaded guilty to his role in the infamous Ryuk ransomware operation",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware",
+        "hacker"
+      ]
+    },
+    "summary": "An Armenian man has pleaded guilty to his role in the infamous Ryuk ransomware operation"
+  },
+  {
+    "title": "Australian Cyber Agency Warns of Global CMS Exploitation Campaign",
+    "url": "https://www.infosecurity-magazine.com/news/australia-warns-global-cms/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-07-13T08:30:00+00:00",
+    "raw_text": "Australian Cyber Security Centre warns CMS users of mass scanning and exploitation campaign",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Australian Cyber Security Centre warns CMS users of mass scanning and exploitation campaign"
+  },
+  {
+    "title": "Your AI risk register is not an incident response plan",
+    "url": "https://www.csoonline.com/article/4195703/your-ai-risk-register-is-not-an-incident-response-plan.html",
+    "source": "CSO Online",
+    "published": "2026-07-13T09:00:00+00:00",
+    "raw_text": "Picture the moment after an AI issue is reported. A security analyst is reviewing a ticket reporting that an internal AI tool produced the wrong recommendation in a live business workflow. The risk is not theoretical anymore. Someone wants to know whether this is a security incident, a model issue, a privacy issue, a vendor issue or just “something the AI did.” The risk register has a line item for inaccurate output, and it may even have a severity rating. What it does not have is an answer to the question everyone is now asking: who has the authority to stop this thing? That is the gap many AI governance programs still need to close. Organizations are getting better at identifying AI risks, documenting them and assigning them to governance categories. What they are often less prepared for is the operational moment when an AI risk becomes a real event that has to be investigated, contained and explained. In security programs, that distinction matters. A risk register can document concerns, but it cannot preserve evidence, notify leadership, assess impact or decide whether an AI system should keep running. Security leaders do not need another spreadsheet that says AI can fail; they need an executable response model for what happens when it does. The list is not the response Risk registers are useful because they create visibility. They help organizations name risks, compare severity, assign ownership and communicate concerns to leadership. In early AI adoption, visibility matters because many organizations are still discovering where AI is being used, what data is involved and which business processes may be affected. But a risk register is not a control. Security teams already understand this in other domains. A list of vulnerabilities is not a vulnerability management program, and a list of third-party risks is not a vendor risk management function. The list is only the beginning of the work. AI risk creates the same problem. A risk entry that says “model output may be inaccurate” does not define who monitors output quality, what level of error is acceptable, what evidence should be preserved or who can pause the system. A risk entry that says “sensitive data may be exposed” does not explain whether prompts are logged, whether outputs are reviewed, whether the vendor can use submitted data or whether the event should trigger privacy, legal or security escalation. This is where AI governance can look stronger than it actually is. The organization may have a policy, a committee, an intake form and a risk register, but those artifacts do not automatically create operational readiness. When something happens, the real test is whether the organization knows what to do next. AI incidents do not always look like breaches Part of the challenge is that AI incidents do not always look like traditional cybersecurity incidents. A breach has familiar patterns: unauthorized access, data exfiltration, malware, credential compromise or suspicious activity in a system. AI failures can be messier because they may appear first as a bad recommendation, a misleading summary, an unsafe automation, a flawed classification or an output that quietly changes a decision. That does not make them less important. An AI tool used in a security workflow could misclassify an alert. A generative AI assistant could expose sensitive information in a response. A model embedded in a business process could drift over time and produce unreliable recommendations. A vendor-managed AI feature could change behavior after an update that the organization did not fully review. Security teams need a practical way to sort these events. Not every AI error should be treated as a full security incident. Still, every organization using AI in meaningful workflows should know how AI-related events are reported, triaged and escalated. Without that structure, teams may lose time debating ownership while the impact continues. The first step is defining what counts as an AI incident . That definition should be broad enough to capture security, privacy, safety, operational and compliance concerns, but specific enough that employees know when to report something. A confusing chatbot answer may not require the same response as a data exposure event, but both should have a path for review. Evidence has to exist before the investigation Incident response depends on evidence. That is obvious in cybersecurity, but it is often overlooked in AI governance conversations. If an organization cannot reconstruct what happened, who used the system, what data was involved and what output was produced, it will struggle to investigate the event or defend its response. AI systems can complicate that evidence trail. Prompts may not be logged. Outputs may not be retained. Vendor tools may provide limited visibility. Model versions may change. Users may copy AI-generated content into other systems without preserving its source. Business teams may treat AI output as a recommendation rather than a system event. Security leaders should push for evidence requirements before AI systems move into production. At a minimum, organizations should know what logs are available, how long they are retained, who can access them and whether they are sufficient for investigation. For higher-risk use cases, teams may also need records of model version, prompt history, output history, user actions, data sources and downstream decisions. This does not mean every AI interaction needs heavy surveillance. Monitoring should be proportional to risk, and organizations still need to respect privacy, legal and workforce considerations. The point is simpler: if the AI system matters enough to influence real work, it matters enough to leave an evidence trail when something goes wrong. Ownership cannot be implied AI ownership is often fragmented. A business unit may sponsor the use case, a data science team may configure the model, IT may manage the platform, security may assess risk, and a vendor may provide the underlying capability. Everyone is involved, but no one may be fully accountable after deployment. That ambiguity becomes dangerous during an incident. If an AI tool begins producing unreliable output, the organization needs to know who owns the system, who owns the business process and who owns the decision to continue or stop use. A governance committee can provide oversight, but it usually cannot serve as the operational owner of every deployed AI capability. Security programs should insist on named ownership for AI systems, especially those used in sensitive or high-impact workflows. Ownership should include responsibility for monitoring, exceptions, user guidance, vendor coordination and incident escalation. It should also include decision rights, because accountability without authority is just a name in a spreadsheet. The hardest question is often pause authority. Who can suspend, restrict, roll back or retire an AI system when risk exceeds tolerance? If that question is not answered before deployment, the organization may be forced to answer it under pressure. Security leaders need an AI response playbook An AI response playbook does not need to be complicated, but it does need to be real. It should explain how employees report AI concerns, how the event is triaged, what evidence is preserved, who investigates, when legal or privacy teams are involved, and who can make operational decisions. It should also define when executive leadership needs to be notified. The playbook should reflect the type of AI system involved. A low-risk internal productivity tool may require a lightweight review path. An AI system supporting security operations, regulated decisions, customer communication, healthcare workflows or financial processes needs stronger monitoring and escalation. The response model should fit the risk of the use case. This is where security can add discipline without turning AI governance into bureaucracy. Security teams already know how to build escalation paths, preserve evidence, run incident reviews and improve controls after failures. The opportunity is to extend that operating muscle into AI governance before incidents force the issue. Organizations should also conduct post-incident reviews for meaningful AI events. The goal should not be blame; it should be learning. Did the monitoring work? Was the owner clear? Was the evidence sufficient? Did the vendor respond? Were users confused about acceptable use? Did the organization know who could make the decision? Governance has to be executable AI governance is often discussed as a policy, ethics or compliance challenge. It is all of those things, but once AI systems enter production, it also becomes a security execution challenge. Risk has to be monitored, events have to be investigated and someone has to be able to act. That is why the next maturity step is not simply better documentation. Organizations need governance that works when a system is live, a decision is time-sensitive and the facts are incomplete. In that moment, the risk register may help explain what the organization expected, but it will not run the response. Security leaders should not wait for AI governance to arrive fully formed from somewhere else in the enterprise. They should help shape the operating model now, while many organizations are still early enough to correct course. The goal is not to own every AI risk; it is to ensure AI risk can be managed once AI becomes operational. A risk register can tell leaders what might go wrong. An incident response plan tells people what to do when it does. For AI governance to matter in security programs, organizations need both. This article is published as part of the Foundry Expert Contributor Network. Want to join?",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "malware",
+        "vulnerability",
+        "security",
+        "cyber",
+        "incident response"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "risk management",
+        "policy",
+        "privacy",
+        "vendor risk"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "Picture the moment after an AI issue is reported. A security analyst is reviewing a ticket reporting that an internal AI tool produced the wrong recommendation in a live business workflow. The risk is not theoretical anymore. Someone wants to know whether this is a security incident, a model issue, a privacy issue, a vendor issue or just “something the AI did.” The risk register has a line item for inaccurate output, and it may even have a severity rating."
   },
   {
     "title": "Can AI narrow cybersecurity’s class divide?",
@@ -417,6 +626,62 @@
     ],
     "matched_keywords": {},
     "summary": "In today's environment, speed to power becomes less about overcoming external constraints and more about internal alignment"
+  },
+  {
+    "title": "Photovoltaics are still running after a year under Swiss trains",
+    "url": "https://www.theregister.com/offbeat/2026/07/13/photovoltaics-are-still-running-after-a-year-under-swiss-trains/5269664",
+    "source": "The Register",
+    "published": "2026-07-13T09:15:00+00:00",
+    "raw_text": "Solar boss reckons challenges are regulatory, not technological",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "regulatory"
+      ]
+    },
+    "summary": "Solar boss reckons challenges are regulatory, not technological"
+  },
+  {
+    "title": "Microsoft is losing the battle to protect license lucre. It better get used to the feeling",
+    "url": "https://www.theregister.com/columnists/2026/07/13/microsoft-is-losing-the-battle-to-protect-license-lucre-it-better-get-used-to-the-feeling/5269709",
+    "source": "The Register",
+    "published": "2026-07-13T08:30:00+00:00",
+    "raw_text": "Time for the Clone Wars remake",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Time for the Clone Wars remake"
+  },
+  {
+    "title": "AI needs a home, not a hotel",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/ai-needs-a-home-not-a-hotel/5270167",
+    "source": "The Register",
+    "published": "2026-07-13T08:00:00+00:00",
+    "raw_text": "PARTNER CONTENT: Firms crafting internal AI must choose a permanent residence for their tech, not just rent server space by the hour.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "PARTNER CONTENT: Firms crafting internal AI must choose a permanent residence for their tech, not just rent server space by the hour."
+  },
+  {
+    "title": "Apple accuses OpenAI of stealing its core tech secrets",
+    "url": "https://www.theregister.com/legal/2026/07/13/apple-accuses-openai-of-stealing-its-core-tech-secrets/5270256",
+    "source": "The Register",
+    "published": "2026-07-13T07:31:00+00:00",
+    "raw_text": "Lawsuit alleges job-swappers took secrets with them, helped by coaching on how to avoid scrutiny",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "Lawsuit alleges job-swappers took secrets with them, helped by coaching on how to avoid scrutiny"
   },
   {
     "title": "User crippled a network while trying to learn Nmap",
@@ -523,6 +788,113 @@
     "summary": "Consumption rose another 10% while restrictions on most new grid connections remained around Dublin"
   },
   {
+    "title": "CW@60 - How technology has changed our lives over 60 years",
+    "url": "https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years",
+    "source": "ComputerWeekly",
+    "published": "2026-07-13T05:00:00+00:00",
+    "raw_text": "<p>On 22 September 2026, Computer Weekly turns 60.</p> <p>On that date in 1966, the launch issue of the world’s first weekly technology newspaper was published – today it is the UK’s oldest business IT title. To mark this milestone, we asked some of our friends – experts, trusted contacts, tech leaders and suppliers, as well as our journalists - for their personal perspectives on how has tech changed their lives over the past six decades.&nbsp;</p> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup>, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. This collection of essays offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p>",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<p>On 22 September 2026, Computer Weekly turns 60.</p> <p>On that date in 1966, the launch issue of the world’s first weekly technology newspaper was published – today it is the UK’s oldest business IT title. To mark this milestone, we asked some of our friends – experts, trusted contacts, tech leaders and suppliers, as well as our journalists - for their personal perspectives on how has tech changed their lives over the past six decades.&nbsp;</p> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup>, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. This collection of essays offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p>"
+  },
+  {
+    "title": "Digital devolution and taking back control",
+    "url": "https://www.computerweekly.com/opinion/Digital-devolution-and-taking-back-control",
+    "source": "ComputerWeekly",
+    "published": "2026-07-13T04:00:00+00:00",
+    "raw_text": "<p>Andy Burnham's recent vision for a \"No. 10 North\" is about far more than relocating civil servants from Whitehall to Manchester - it is an argument that economic renewal depends on rewiring how the UK is governed.</p> <p>His call for power to flow outwards - to mayors, communities and places - is rooted in a simple proposition: decisions are better made closer to the people they affect. He describes a future built on place-based collaboration, long-term thinking and a more streamlined state focused on growth and regeneration.</p> <p>It is a compelling vision.</p> <p>But if the UK is about to embark on its biggest programme of devolution for generations, one fundamental question remains unanswered - who will provide the trusted local data infrastructure that turns devolution into better outcomes for citizens?</p> <section class=\"section main-article-chapter\" data-menu-title=\"Building the digital foundations for local services\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Building the digital foundations for local services</h2> <p>History tells us that institutional reform only succeeds when it is matched by new infrastructure. The railways underpinned the Industrial Revolution. The NHS created a universal healthcare infrastructure. More recently, <a href=\"https://www.computerweekly.com/news/366639779/Open-banking-presents-43bn-opportunity-for-UK-economy-if-warnings-are-heeded\">open banking transformed financial services</a> - not by creating a national bank, but by establishing common rules that allowed trusted information to move securely between organisations while customers retained control.</p> <p>The UK's devolution agenda now needs its own digital equivalent.</p> <p>It’s widely accepted that the mechanisms of the state are not working or fit for the digital age. Today, local authorities, NHS organisations, community organisations, housing associations, colleges, employers and charities frequently support the same individuals, yet each operates separate systems. Citizens repeatedly prove who they are, complete similar forms and explain the same circumstances to different organisations.</p> <p>While artificial intelligence (AI) will undoubtedly improve productivity, it will not be able overcome fragmented public services on its own. Intelligent systems are only as effective as the information they can safely access. Fragmented data simply produces fragmented decisions.</p> <p>To date, much of the government's response to digitising public service delivery has centred on proposals for a new <a href=\"https://www.computerweekly.com/news/366640072/The-UK-governments-digital-identity-scheme-Dystopian-nightmare-or-modernised-public-services\">national digital identity</a>. While digital identity undoubtedly has a role to play, the debate has become focused on the credential itself rather than the transformation it is intended to enable. &nbsp;&nbsp;</p> <p>Further, while creating a central identity database for the UK is particularly unattractive for some, particularly those within marginalised or vulnerable groups, the new credential will still not be available until 2030 at the earliest – too late for people to feel the benefit of a Burnham government.</p> <p>There needs to be another way. How can devolved government provide a personalised holistic service to the individual that helps them live their lives well?</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Devolution requires its own digital infrastructure\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Devolution requires its own digital infrastructure</h2> <p>The devolution agenda creates the opportunity for an alternative and popular approach - one that empowers local communities, gives citizens genuine ownership of their personal data and ensures that the economic value created through digitisation remains within local communities.</p> <p>The good news is that we already have three of the four ingredients make this possible.</p> <p>First is the <a href=\"https://www.computerweekly.com/news/366635638/Use-of-digital-ID-in-UK-achieves-statutory-status\">Digital Verification Services (DVS) Trust Framework</a>. More than an identity framework, it provides the trusted national infrastructure that enables individuals to collect, control and securely reuse their verified information. Together with the forthcoming <a href=\"https://www.computerweekly.com/blog/Computer-Weekly-Editors-Blog/Government-opens-up-a-gateway-to-an-alternative-future-for-digital-identity\">Information Gateway Code of Practice</a>, it will enable verified information from public authorities to be stored and re-shared in personal data wallets, under the individual’s control, making public services simpler, faster and more trustworthy.</p> <p>Second are common data standards. Trusted identities alone are insufficient if organisations describe services in different ways. Standards such as Open Referral UK provide a common language for describing community services, allowing councils, charities, NHS organisations and technology providers to discover, connect and orchestrate services consistently. As open banking standardised financial data, Open Referral UK can standardise community service information.</p> <p>Third is local community governance. Local digital infrastructure should not be governed by Whitehall or global technology companies. If devolution is truly about taking back control, communities themselves must shape how local data ecosystems operate, how value is shared and how trust is maintained.&nbsp;This is where data cooperatives, acting as data intermediaries, can play a role.</p> <p>The missing fourth ingredient is political will. Fortunately, the ancient traditions and recent experience in Manchester also offers a solution for this too – and the devolution agenda provides the opportunity to transform and digitise public service delivery without the need to create a new centralised digital identity.</p> <p><a href=\"https://cdn.ttgtmedia.com/rms/computerweekly/David-Crack-digital-devolution-chart.png\"></a></p> <figure class=\"main-article-image full-col\" data-img-fullsize=\"https://www.computerweekly.com/rms/computerweekly/David-Crack-digital-devolution-chart.png\"> <img data-src=\"https://www.computerweekly.com/rms/computerweekly/David-Crack-digital-devolution-chart_mobile.png\" class=\"lazy\" data-srcset=\"https://www.computerweekly.com/rms/computerweekly/David-Crack-digital-devolution-chart_mobile.png 960w,https://www.computerweekly.com/rms/computerweekly/David-Crack-digital-devolution-chart.png 1280w\" alt=\"Chart explaining a Blueprint for Digital Devolution\" height=\"373\" width=\"559\"> <figcaption> <i class=\"icon pictures\" data-icon=\"z\"></i>A blueprint for digital devolution </figcaption> <div class=\"main-article-image-enlarge\"> <i class=\"icon\" data-icon=\"w\"></i> </div> </figure> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Data cooperatives - a new model for public service and community delivery data\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Data cooperatives - a new model for public service and community delivery data</h2> <p>Data cooperatives can provide a decentralised model for new democratic utilities - purpose-built data intermediaries for the digital age. A network of locally governed data cooperatives, set up by each local authority, can combine the enduring values of public service - trust, accountability and inclusion - with the creativity, pace and user-focused innovation of local communities.</p> <p>Built on the foundations of the DVS Trust Framework, Open Referral common data standards and local democratic governance, they enable communities to empower new thinking to co-design services around the needs of individuals rather than the structures of each legacy organisation.</p> <p>Instead of asking citizens to navigate fragmented public services, data cooperatives can use personal data wallets and ethical AI to connect individuals with the support they need, regardless of whether it is provided by the public, voluntary or private sector.</p> <p>They also create the conditions for a new culture of self-help and community enterprise to flourish. Free from the constraints of legacy systems and processes, they enable local government and community groups to become more agile, responsive and innovative.</p> <p>Also, as cooperatives, individuals do not simply control their data - they collectively own the digital infrastructure that manages it. This is their community’s technology company. Following cooperative principles, the economic value created through trusted data is reinvested locally rather than extracted by global technology platforms.</p> <p>The result is a more preventative, personalised and collaborative model of public service delivery that helps people live healthier, more independent and more prosperous lives while strengthening local economies and communities.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Lessons from elsewhere\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Lessons from elsewhere</h2> <p>Co-operatives are a well-understood mechanism for shared ownership and control across the world. Globally, it is estimated that 12% of the human population is part of more than three million co-operatives in existence.</p> <p>Since 2015, the Swiss Midata Co-operative in Europe has been enabling citizens to control and share health data with research organisations to develop healthcare innovations for the common good. In Barcelona, the Salus Cooperative similarly enables members to give and withdraw consent for their data to be used for health and social care research.</p> <p>With data cooperatives being recognised as data intermediaries in the EU Data Governance Act (2022), it is expected that the use of data cooperatives as a mechanism for member data control will grow.</p> <p>This model extends beyond Europe, however, with data cooperatives emerging across the Global South to serve different communities and purposes. India, with its long tradition of cooperatives, has seen the development of data cooperatives to help female agricultural workers access finance, markets and resources. The Megha Mandli co-operative in Gujarat helps women who would otherwise be unable to access finance. Members collectively use their data to develop their livelihoods.</p> <p>The concept of using data as a collective resource to empower people who have traditionally been unseen, exploited or ignored is a powerful one. In the US, Drivers Seat enabled ride-share workers to pool data on surge pricing, demand patterns and earnings, allowing drivers to optimise their work across platforms while also selling aggregated data to municipal authorities for urban planning.</p> <p>Similarly, taxi driver collectives in cities like São Paulo have developed safety platforms where workers collectively govern data on violence and dangerous areas to protect their members. These examples demonstrate how data cooperatives extend beyond health and agriculture to protect gig workers and inform public policy.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Taking back control\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Taking back control</h2> <p>The lesson from elsewhere is clear and needs to be brought back home.</p> <p>Data cooperatives can act as the new democratic utilities that enable public, private and voluntary services to organise around people rather than organisational boundaries. More than digitising existing institutions, data cooperatives provide the governance and operating model needed to redesign public services for the digital age at a local level. They are the missing institutional layer that allows devolution to move beyond the transfer of powers towards the transformation of services. They can provide the foundations for a new generation of integrated, citizen-centred public services.<a href=\"https://cdn.ttgtmedia.com/rms/computerweekly/David-Crack-data-cooperative-chart.png\"></a></p> <figure class=\"main-article-image full-col\" data-img-fullsize=\"https://www.computerweekly.com/rms/computerweekly/David-Crack-data-cooperative-chart.png\"> <img data-src=\"https://www.computerweekly.com/rms/computerweekly/David-Crack-data-cooperative-chart_mobile.png\" class=\"lazy\" data-srcset=\"https://www.computerweekly.com/rms/computerweekly/David-Crack-data-cooperative-chart_mobile.png 960w,https://www.computerweekly.com/rms/computerweekly/David-Crack-data-cooperative-chart.png 1280w\" alt=\"Chart showing how a data cooperative could work\" height=\"373\" width=\"559\"> <figcaption> <i class=\"icon pictures\" data-icon=\"z\"></i>Data cooperative informations flows </figcaption> <div class=\"main-article-image-enlarge\"> <i class=\"icon\" data-icon=\"w\"></i> </div> </figure> <p>In this model, central government provides the national vision, trust architecture, standards and shared infrastructure, while regional and local government provide leadership, democratic accountability and community governance. Citizens remain in control of their own data, choosing when and how it is shared and retaining the freedom to move between data cooperatives, creating an ecosystem built on trust, portability and choice.</p> <p>Crucially, the social and economic value created through trusted community data remains within local economies rather than being extracted by global technology platforms. It is reinvested in stronger communities, better public services and more inclusive local growth.</p> <p>Andy Burnham is right that political power should move closer to communities. But political power alone is not enough. Communities also need digital power.</p> <p>If the ambition is to rewire Britain, data cooperatives provide the operating system to make devolution work.</p> <p><i>David Crack is chair of CDD Services, leading data cooperative pilot programmes in Wigan and Wirral to develop trusted digital identity and community data-sharing models. He is also chair of the Association of Digital Verification Professionals (ADVP) and writes here in a personal capacity.</i></p> <p><i>Julian Tait is CEO and co-founder of Open Data Manchester CIC, championing responsible data use to improve communities. He leads the Data Cooperative Working Group and advises governments and international organisations on open data strategy, data maturity and digital transformation, supporting local authorities across the UK and Europe.</i></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about digital identity</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/opinion/How-digital-identity-will-empower-people-and-drive-economic-growth\">How digital identity will empower people and drive economic growth</a> - The government has finally plotted out the future of digital identity in the UK in a way that makes sense for private sector, public sector, and citizens. Now let's make it happen.</li> <li><a href=\"https://www.computerweekly.com/opinion/Building-the-foundations-A-national-roadmap-for-digital-identity-and-sovereign-data\">Building the foundations: A national roadmap for digital identity and sovereign data</a> - Now the UK government has offered some clarity on the future of private and public sector digital identity services, it's time to work together to put the essential foundations in place to make digital ID work.</li> <li><a href=\"https://www.computerweekly.com/opinion/Digital-ID-must-not-deepen-exclusion\">Digital ID must not deepen exclusion</a> - UK government plans for a national digital identity scheme risk embedding further inequalities and barriers to public services for the 19 million people currently experiencing digital exclusion.</li> </ul> </div> </div> </section>",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "GRC",
+      "Data Centres",
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "digital transformation"
+      ],
+      "Networks": [
+        "network",
+        "cdn",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "soc"
+      ],
+      "GRC": [
+        "governance",
+        "policy"
+      ],
+      "Data Centres": [
+        "rack",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<p>Andy Burnham's recent vision for a \"No. 10 North\" is about far more than relocating civil servants from Whitehall to Manchester - it is an argument that economic renewal depends on rewiring how the UK is governed.</p> <p>His call for power to flow outwards - to mayors, communities and places - is rooted in a simple proposition: decisions are better made closer to the people they affect. He describes a future built on place-based collaboration, long-term thinking and a more streamlined state focused on growth and regeneration.</p> <p>It is a compelling vision.</p> <p>But if the UK is about to embark on its biggest programme of devolution for generations, one fundamental question remains unanswered - who will provide the trusted local data infrastructure that turns devolution into better outcomes for citizens?</p> <section class=\"section main-article-chapter\" data-menu-title=\"Building the digital foundations for local services\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Building the digital foundations for local services</h2> <p>History tells us that institutional reform only succeeds when it is matched by new infrastructure. The railways underpinned the Industrial Revolution."
+  },
+  {
+    "title": "Forrester: Managing supply chain volatility with agentic AI",
+    "url": "https://www.computerweekly.com/feature/Forrester-Managing-supply-chain-volatility-with-agentic-AI",
+    "source": "ComputerWeekly",
+    "published": "2026-07-13T04:00:00+00:00",
+    "raw_text": "<p>Supply chain management has induced headaches at enterprises struggling with geopolitical challenges, sustainability mandates, and the sheer volume and velocity of decisions they must take to win, serve and retain customers. While not yet realised in the wild, <a href=\"https://www.techtarget.com/searchenterpriseai/definition/AI-agents\">artificial intelligence (AI) agents</a> offer the prospect of boosting supply chain resilience and sustainability.</p> <p>Most agentic deployments are still being established, but <a href=\"https://www.techtarget.com/searcherp/tip/Use-cases-for-machine-learning-in-the-supply-chain\">agents in the supply chain</a> will help supply chain analysts scale their insights. These analysts monitor the balance between anticipated demand and expected supply by stock-keeping unit (SKU) and fulfilment location for each period in the planning horizon.</p> <p>Enterprises that offer more product options to serve long-tail customers, value propositions like direct to consumer, or products as a service risk overwhelming analysts, desperately rebalancing stock across proliferating SKU/location combinations – not to mention generating frequent scenario analyses for executives to assess risk. Enterprises that fail to seize the opportunity to deploy agents for scaling supply chain insights risk stockouts that fail customers and overstocks that fail shareholders.</p> <p>Agentic AI also helps to reduce the burden of mundane logistics tasks. Supply chain resilience depends on a combination of capacity or inventory buffers and sourcing and transportation options. But the exercise of options is often surprisingly labour-intensive.</p> <p>According to Logistics Management’s <em>DispatchTrack</em> benchmark survey, a typical dispatcher in an enterprise transportation office makes 120 to 200 calls in an eight-hour shift. We’ve all heard stories about the scramble for alternate carriers and routes during recent crises, such as the port congestion on the US West Coast or the Ever Given ship stuck in the Suez Canal. Fortunately, there are already live examples of agents finding and negotiating rates with carriers. &nbsp;</p> <p>Another benefit is that agentic AI can manage the avalanche of <a href=\"https://www.techtarget.com/pharmalifesciences/tip/Improving-pharma-supply-chain-visibility-with-AI-technology\">paperwork across the supply chain</a>. The flow of documents should match the flow of goods in every supply chain: for example, purchase orders, purchase order acknowledgements, advanced shipping notices and bills of lading.</p> <p>There are also customer expectations about supply chain carbon footprint transparency, together with multi-tier supply chain visibility mandates, such as the <a href=\"https://www.techtarget.com/sustainability/tip/Build-a-comprehensive-supply-chain-traceability-checklist\">EU’s Supply Chain Due Diligence Law</a>. These add to the mountain of documents that supply chain professionals must parse and match to file the correct customs declarations, remit the correct tariffs, and authorise carrier or supplier invoices.</p> <p>Missing data elements or mismatched data inevitably lead to delays in customs clearance or invoice settlement, so agents that can reduce discrepancies are essential. For instance, global shipping giant Maersk uses AI agents to streamline documentation and supplier interactions, while Schneider Electric uses AI agents for document validation and sustainability tracking.&nbsp;</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about supply chain management</h3> <ul class=\"default-list\"> <li>SAP introduces <a href=\"https://www.computerweekly.com/blog/CW-Developer-Network/SAP-introduces-Autonomous-Supply-Chain-Management\">Autonomous Supply Chain Management</a>: At SAP Sapphire 2026, SAP presented what it thinks autonomy in the supply chain actually looks like when translated into production systems.</li> <li>Top 8 KPIs for <a href=\"https://www.techtarget.com/searcherp/tip/3PL-KPIs-that-can-help-you-evaluate-success\">3PL organisations</a>: Supply chain leaders can use 3PL key performance indicators to evaluate vendor performance, manage costs and ensure logistics partners meet service-level and customer experience expectations.</li> </ul> </div> </div> <section class=\"section main-article-chapter\" data-menu-title=\"A foundation for agentic AI success\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A foundation for agentic AI success</h2> <p>Beyond these benefits, agentic AI offers the prospect of mitigating supply chain instability and managing supply chain complexity by automating some analysis and supplying imbalance remediation interventions. But to seize the opportunity, technology and innovation leaders must lay the policy and planning foundation for agentic AI success and focus on data preparation, protocols and standards for execution success.</p> <p>To set the foundation for their agentic AI journey, Forrester recommends that technology and innovation leaders estimate the business opportunity. Supply chains break down when the volume, velocity and complexity of decisions overwhelm decision-makers. Supply chain decision complexity depends on factors like the combination of SKUs and supply chain nodes, as well as the level of institutional and market uncertainty.</p> <p>Savvy technology and business leaders keep track of growth in SKU/fulfilment channel combinations and layers in the supply chain and regulations – such as supply chain traceability – carefully noting the potential or actual financial impact of rushed or poorly informed decisions.</p> <p>But technology leaders need to acknowledge the frustration of rules-based automation. Forrester notes that enterprises like Siemens have successfully invested in their own operations and those of their clients’ rules-based automation technologies – such as robotic process automation (RPA) – to boost supply chain performance.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> Traditional cyber security architectures were designed for organisations built around people – agentic AI disrupts this </figure> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>However, enterprise applications governance is adapting to accommodate the changing future of work. Forrester warns that rigid rules-based task automation can fossilise the status quo, jeopardising fluid adaptability to new business opportunities, such as selling through multiple new channels or the servitisation of assets or products.</p> <p>Forrester recommends establishing a framework for agent security and authorisation. Traditional cyber security architectures were designed for organisations built around people – agentic AI disrupts this. To deploy goal-oriented, ephemeral, scalable, dynamic agents, where unpredictable emergent behaviours are incentivised to accomplish objectives, it recommends enterprises adopt Forrester’s <a href=\"mailto:https://www.forrester.com/technology/aegis-framework/\">Aegis (Agentic AI Guardrails for Information Security) framework</a>, which is designed to help chief information security officers (CISOs) secure, govern and manage AI agents and related infrastructure.</p> <p>Authorisation also applies to usage, which means enterprises will need to apply FinOps to agents.</p> <p>Forrester recommends that technology leaders develop a semantic model that embraces all supply chain processes and apps. Agentic systems require high-quality and consistent data to support precise decision-making and accurate actions. Enterprises investing in creating and maintaining a high-quality metadata layer, such as <a href=\"mailto:https://www.techtarget.com/searchenterpriseai/definition/knowledge-graph-in-ML\">knowledge graphs</a>, to help agents understand the data and business context in which they operate, are already seeing more success than those that lag.</p> <p>Building a complete semantic model that connects payments, enterprise resource planning, procurement and other areas of enterprise logistics management to partners in sales, product and customer support is essential for building next-gen, differentiated agentic applications.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Trusting agentic decisions\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Trusting agentic decisions</h2> <p>Explainability is another area technology leaders need to focus on. Trust is the primary challenge for AI agents, as most supply chain professionals bear the scars of project failures in forecasting and replenishment automation. AI-powered supply chain implementations have a 72% failure rate, so savvy technology and innovation leaders applying any technology to supply chain use cases must invest in explainability and compliance: for example, with regional AI regulations like the <a href=\"https://www.computerweekly.com/feature/Preparing-for-AI-regulation-The-EU-AI-Act\">EU’s AI Act</a>.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> Forrester urges technology leaders to exercise caution over proliferating agents in an agentic chain </figure> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>Overall, Forrester urges technology leaders to exercise caution over proliferating agents in an agentic chain. Technology and innovation professionals should consider factors like latency and performance in real-time or near-real-time applications; cloud pricing models that discourage long chains; error propagation, which amplifies ambiguity or error in agents; context window limitations that depend on token limits in large language models; and orchestration overhead. Wherever there are multiple agents in a chain, IT leaders must introduce tooling to verify agent outputs, ensuring the feasibility of results that pass to downstream agents.</p> <p>Forrester recommends that organisations establish human-in-the-loop and human-on-the-loop guidelines. This limits the responsiveness of complex supply chains to frequent shocks. However, autonomous agents always require human-in-the-loop and human-on-the-loop resolution for exceptions. For instance, companies such as Costco use supplier onboarding technology – from companies like Osapiens – to orchestrate agents retrieving data that’s vital to comply with regulations, such as the EU Supply Chain Act. But agents always route ambiguous cases to experts for resolution. &nbsp;</p> <p>Agentic systems behave unpredictably, and even competent artificial general intelligence (AGI) requires close supervision. Forrester urges IT leaders to govern decision boundaries between humans and AI, such as by deploying tools like Nvidia NeMo Guardrails.</p> <hr> <p>This article is based on Forrester’s <a href=\"https://www.forrester.com/report/the-supply-chain-platforms-landscape-q2-2026/RES194241\"><em>Agentic AI will scale and accelerate your response to supply chain volatility</em></a> report by Forrester vice-president and principal analyst <a href=\"https://www.forrester.com/analyst-bio/george-lawrie/BIO709\">George Lawrie</a>.</p> </section>",
+    "categories": [
+      "GRC",
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market",
+      "Data Centres",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "network",
+        "latency",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber",
+        "siem"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "regulation",
+        "policy"
+      ],
+      "Data Centres": [
+        "rack",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "ey",
+        "forrester",
+        "vendor"
+      ]
+    },
+    "summary": "<p>Supply chain management has induced headaches at enterprises struggling with geopolitical challenges, sustainability mandates, and the sheer volume and velocity of decisions they must take to win, serve and retain customers. While not yet realised in the wild, <a href=\"https://www.techtarget.com/searchenterpriseai/definition/AI-agents\">artificial intelligence (AI) agents</a> offer the prospect of boosting supply chain resilience and sustainability.</p> <p>Most agentic deployments are still being established, but <a href=\"https://www.techtarget.com/searcherp/tip/Use-cases-for-machine-learning-in-the-supply-chain\">agents in the supply chain</a> will help supply chain analysts scale their insights. These analysts monitor the balance between anticipated demand and expected supply by stock-keeping unit (SKU) and fulfilment location for each period in the planning horizon.</p> <p>Enterprises that offer more product options to serve long-tail customers, value propositions like direct to consumer, or products as a service risk overwhelming analysts, desperately rebalancing stock across proliferating SKU/location combinations – not to mention generating frequent scenario analyses for executives to assess risk. Enterprises that fail to seize the opportunity to deploy agents for scaling supply chain insights risk stockouts that fail customers and overstocks that fail shareholders.</p> <p>Agentic AI also helps to reduce the burden of mundane logistics tasks."
+  },
+  {
     "title": "CW@60: Preserving the wonder of a life in tech",
     "url": "https://www.computerweekly.com/feature/CW60-Preserving-the-wonder-of-a-life-in-tech",
     "source": "ComputerWeekly",
@@ -599,11 +971,77 @@
     "summary": "You should take calorie data with a grain of salt. Here's what I learned after testing the Fitbit Air's heart rate data against a gold standard heart rate monitor."
   },
   {
-    "title": "GNS Investors Have Opportunity to Lead Genius Group Limited Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/gns-investors-have-opportunity-to-lead-genius-group-limited-securities-fraud-lawsuit-with-the-schall-law-firm-302823569.html",
+    "title": "Sopra Steria nomme Laura Chaubard à la tête de son vertical Défense, Sécurité et Spatial",
+    "url": "https://www.prnewswire.com/news-releases/sopra-steria-nomme-laura-chaubard-a-la-tete-de-son-vertical-defense-securite-et-spatial-302823680.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:45:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Genius Group Limited (\"Genius\" or \"the Company\") (NYSE American: GNS) for violations of §§10(b) and 20(a) of the Securities...",
+    "published": "2026-07-13T09:51:00+00:00",
+    "raw_text": "PARIS, 13 juillet 2026 /PRNewswire/ -- Polytechnicienne, ingénieure générale de l'armement, ancienne directrice générale de l'École polytechnique, Laura Chaubard prend la direction du vertical Défense, Sécurité et Spatial de Sopra Steria. Sa nomination accélère l'ambition souveraine du...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "PARIS, 13 juillet 2026 /PRNewswire/ -- Polytechnicienne, ingénieure générale de l'armement, ancienne directrice générale de l'École polytechnique, Laura Chaubard prend la direction du vertical Défense, Sécurité et Spatial de Sopra Steria. Sa nomination accélère l'ambition souveraine du..."
+  },
+  {
+    "title": "Advancing Low-Carbon Manufacturing and Global Sustainability Commitments",
+    "url": "https://www.prnewswire.com/news-releases/advancing-low-carbon-manufacturing-and-global-sustainability-commitments-302823717.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T09:49:00+00:00",
+    "raw_text": "Report highlights clean energy, innovation and ESG recognition ZIBO, China, July 13, 2026 /PRNewswire/ -- INTCO Medical (\"the Company\"), a leading global manufacturer of disposable gloves, has released its 2025 Environmental, Social and Governance (ESG) Report, outlining progress in...",
+    "categories": [
+      "GRC",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "GRC": [
+        "governance",
+        "esg"
+      ]
+    },
+    "summary": "Report highlights clean energy, innovation and ESG recognition ZIBO, China, July 13, 2026 /PRNewswire/ -- INTCO Medical (\"the Company\"), a leading global manufacturer of disposable gloves, has released its 2025 Environmental, Social and Governance (ESG) Report, outlining progress in..."
+  },
+  {
+    "title": "BilibiliWorld 2026 Becomes Asia's Largest ACGN Convention with 400,000 Attendee Visits",
+    "url": "https://www.prnewswire.com/news-releases/bilibiliworld-2026-becomes-asias-largest-acgn-convention-with-400-000-attendee-visits-302823704.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T09:32:00+00:00",
+    "raw_text": "SHANGHAI, July 13, 2026 /PRNewswire/ -- The three-day BilibiliWorld 2026 (\"BW2026\"), Bilibili's all-encompassing ACGN convention, wrapped up on July 12. Matching last year's exhibition footprint, the 240,000-square-meter event took over eight halls of the National Exhibition and...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SHANGHAI, July 13, 2026 /PRNewswire/ -- The three-day BilibiliWorld 2026 (\"BW2026\"), Bilibili's all-encompassing ACGN convention, wrapped up on July 12. Matching last year's exhibition footprint, the 240,000-square-meter event took over eight halls of the National Exhibition and..."
+  },
+  {
+    "title": "INDIANA UNIVERSITY AND PHARMATROPHIX PRESENT FINDINGS ON PERFORMANCE OF ORAL THERAPEUTIC, LM11A-31, TO REDUCE DECLINE OF BRAIN FUNCTIONAL-NETWORK CONNECTIVITY IN ALZHEIMER'S DISEASE",
+    "url": "https://www.prnewswire.com/news-releases/indiana-university-and-pharmatrophix-present-findings-on-performance-of-oral-therapeutic-lm11a-31-to-reduce-decline-of-brain-functional-network-connectivity-in-alzheimers-disease-302822172.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T09:30:00+00:00",
+    "raw_text": "New findings presented at featured research session (FRS) during the Alzheimer's Association International Conference demonstrate statistically significant slowing of decline in brain network function with LM11A-31 vs placebo linked to cognitive domains and synaptic resilience MENLO PARK,...",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "connectivity"
+      ],
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "New findings presented at featured research session (FRS) during the Alzheimer's Association International Conference demonstrate statistically significant slowing of decline in brain network function with LM11A-31 vs placebo linked to cognitive domains and synaptic resilience MENLO PARK,..."
+  },
+  {
+    "title": "VRRM Investors Have Opportunity to Lead Verra Mobility Corporation Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/vrrm-investors-have-opportunity-to-lead-verra-mobility-corporation-securities-fraud-lawsuit-with-the-schall-law-firm-302823659.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T09:15:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Verra Mobility Corporation (\"Verra\" or \"the Company\") (NASDAQ: VRRM) for violations of §§10(b) and 20(a) of the Securities...",
     "categories": [
       "Cloud Infrastructure"
     ],
@@ -612,94 +1050,14 @@
         "aws"
       ]
     },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Genius Group Limited (\"Genius\" or \"the Company\") (NYSE American: GNS) for violations of §§10(b) and 20(a) of the Securities..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Verra Mobility Corporation (\"Verra\" or \"the Company\") (NASDAQ: VRRM) for violations of §§10(b) and 20(a) of the Securities..."
   },
   {
-    "title": "ERAS Investors Have Opportunity to Lead Erasca, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/eras-investors-have-opportunity-to-lead-erasca-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823568.html",
+    "title": "VIA Investors Have Opportunity to Lead Via Transportation, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/via-investors-have-opportunity-to-lead-via-transportation-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823636.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:41:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of..."
-  },
-  {
-    "title": "FSLR Investors Have Opportunity to Lead First Solar, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/fslr-investors-have-opportunity-to-lead-first-solar-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823564.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:39:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities..."
-  },
-  {
-    "title": "EMBC Investors Have Opportunity to Lead Embecta Corp. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/embc-investors-have-opportunity-to-lead-embecta-corp-securities-fraud-lawsuit-with-the-schall-law-firm-302823561.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:37:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act..."
-  },
-  {
-    "title": "BRCB Investors Have Opportunity to Lead Black Rock Coffee Bar, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/brcb-investors-have-opportunity-to-lead-black-rock-coffee-bar-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823559.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:35:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the..."
-  },
-  {
-    "title": "CALX Investors Have Opportunity to Lead Calix, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/calx-investors-have-opportunity-to-lead-calix-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823560.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:35:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Calix, Inc. (\"Calix\" or \"the Company\") (NYSE: CALX) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Calix, Inc. (\"Calix\" or \"the Company\") (NYSE: CALX) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934..."
-  },
-  {
-    "title": "BTGO Investors Have Opportunity to Lead BitGo Holdings, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/btgo-investors-have-opportunity-to-lead-bitgo-holdings-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823557.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:34:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Investors who...",
+    "published": "2026-07-13T09:12:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against Via Transportation, Inc. (\"Via\" or \"the Company\") (NYSE: VIA) for violations of the federal securities laws. Investors who...",
     "categories": [
       "Cloud Infrastructure",
       "Industry & Market"
@@ -712,116 +1070,42 @@
         "announces"
       ]
     },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Investors who..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against Via Transportation, Inc. (\"Via\" or \"the Company\") (NYSE: VIA) for violations of the federal securities laws. Investors who..."
   },
   {
-    "title": "BMI Investors Have Opportunity to Lead Badger Meter, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/bmi-investors-have-opportunity-to-lead-badger-meter-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823556.html",
+    "title": "Nammos Hotels & Resorts et Smokva Bay s'associent pour créer une destination emblématique dédiée à l'art de vivre méditerranéen au Monténégro",
+    "url": "https://www.prnewswire.com/news-releases/nammos-hotels--resorts-et-smokva-bay-sassocient-pour-creer-une-destination-emblematique-dediee-a-lart-de-vivre-mediterraneen-au-montenegro-302823692.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:33:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act...",
+    "published": "2026-07-13T09:10:00+00:00",
+    "raw_text": "PODGORICA, Monténégro, 13 juillet 2026 /PRNewswire/ -- Conçu pour établir une nouvelle référence en matière de vie de luxe sur la côte adriatique, Nammos Hotels & Resorts et Smokva Bay ont annoncé un partenariat visant à développer le Nammos Resort Montenegro, une destination de luxe...",
     "categories": [
-      "Cloud Infrastructure"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act..."
-  },
-  {
-    "title": "Telecom operators gain faster access to the Smart Home Security market through Egardia's new wholesale platform",
-    "url": "https://www.prnewswire.com/news-releases/telecom-operators-gain-faster-access-to-the-smart-home-security-market-through-egardias-new-wholesale-platform-302822729.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:30:00+00:00",
-    "raw_text": "First deployment with Sunrise demonstrates a new route for telecom providers to launch subscription-based home security services GORINCHEM, Netherlands, July 13, 2026 /PRNewswire/ -- Telecom operators are increasingly looking beyond connectivity for new sources of recurring revenue and...",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan",
-        "connectivity",
-        "telecom"
-      ],
       "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
+        "soc"
       ]
     },
-    "summary": "First deployment with Sunrise demonstrates a new route for telecom providers to launch subscription-based home security services GORINCHEM, Netherlands, July 13, 2026 /PRNewswire/ -- Telecom operators are increasingly looking beyond connectivity for new sources of recurring revenue and..."
+    "summary": "PODGORICA, Monténégro, 13 juillet 2026 /PRNewswire/ -- Conçu pour établir une nouvelle référence en matière de vie de luxe sur la côte adriatique, Nammos Hotels & Resorts et Smokva Bay ont annoncé un partenariat visant à développer le Nammos Resort Montenegro, une destination de luxe..."
   },
   {
-    "title": "Tomocube lance le HT-T1 Desktop pour l'analyse 3D des défauts des substrats de verre dans le conditionnement avancé",
-    "url": "https://www.prnewswire.com/news-releases/tomocube-lance-le-ht-t1-desktop-pour-lanalyse-3d-des-defauts-des-substrats-de-verre-dans-le-conditionnement-avance-302822589.html",
+    "title": "Red Cross Declares Emergency Blood Shortage after Blood Supply Falls 25%",
+    "url": "https://www.prnewswire.com/news-releases/red-cross-declares-emergency-blood-shortage-after-blood-supply-falls-25-302821097.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:30:00+00:00",
-    "raw_text": "Fournit une analyse 3D non destructive de l'emplacement, de la morphologie et du profil de profondeur des défauts internes dans les substrats de verre. Présente TAMI, une plateforme logicielle dédiée à l'analyse 3D qui relie l'analyse R&D à l'inspection directement sur la ligne de...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Fournit une analyse 3D non destructive de l'emplacement, de la morphologie et du profil de profondeur des défauts internes dans les substrats de verre. Présente TAMI, une plateforme logicielle dédiée à l'analyse 3D qui relie l'analyse R&D à l'inspection directement sur la ligne de..."
-  },
-  {
-    "title": "Tomocube präsentiert HT-T1 Desktop für die 3D-Defektanalyse von Glassubstraten im Advanced Packaging",
-    "url": "https://www.prnewswire.com/news-releases/tomocube-prasentiert-ht-t1-desktop-fur-die-3d-defektanalyse-von-glassubstraten-im-advanced-packaging-302822587.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:30:00+00:00",
-    "raw_text": "Bietet eine zerstörungsfreie 3D-Analyse von Position, Morphologie und Tiefenprofil interner Defekte in Glassubstraten. Einführung von TAMI, einer dedizierten 3D-Analyse-Softwareplattform, die F&E-Analyse mit der Überprüfung in der Produktionslinie verbindet. Beschleunigt die...",
+    "published": "2026-07-13T09:06:00+00:00",
+    "raw_text": "Donations far lower than needed as hospitals work to protect patient care News Summary: The American Red Cross is declaring an emergency blood shortage after the national blood supply fell about 25% in June. Red Cross blood distributions to hospitals are nearly 3,500 units higher per week...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Bietet eine zerstörungsfreie 3D-Analyse von Position, Morphologie und Tiefenprofil interner Defekte in Glassubstraten. Einführung von TAMI, einer dedizierten 3D-Analyse-Softwareplattform, die F&E-Analyse mit der Überprüfung in der Produktionslinie verbindet. Beschleunigt die..."
+    "summary": "Donations far lower than needed as hospitals work to protect patient care News Summary: The American Red Cross is declaring an emergency blood shortage after the national blood supply fell about 25% in June. Red Cross blood distributions to hospitals are nearly 3,500 units higher per week..."
   },
   {
-    "title": "Tomocube Launches HT-T1 Desktop for 3D Glass Substrate Defect Analysis in Advanced Packaging",
-    "url": "https://www.prnewswire.com/news-releases/tomocube-launches-ht-t1-desktop-for-3d-glass-substrate-defect-analysis-in-advanced-packaging-302822582.html",
+    "title": "GRAIL, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - GRAL",
+    "url": "https://www.prnewswire.com/news-releases/grail-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--gral-302823628.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:30:00+00:00",
-    "raw_text": "Provides non-destructive 3D analysis of the location, morphology, and depth profile of internal defects in glass substrates Introduces TAMI, a dedicated 3D analysis software platform that connects R&D analysis with production-line review Accelerates root-cause analysis and yield learning...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Provides non-destructive 3D analysis of the location, morphology, and depth profile of internal defects in glass substrates Introduces TAMI, a dedicated 3D analysis software platform that connects R&D analysis with production-line review Accelerates root-cause analysis and yield learning..."
-  },
-  {
-    "title": "Tomocube lanza el HT-T1 Desktop para el análisis de defectos en 3D de sustratos de vidrio en el empaquetado Avanzado",
-    "url": "https://www.prnewswire.com/news-releases/tomocube-lanza-el-ht-t1-desktop-para-el-analisis-de-defectos-en-3d-de-sustratos-de-vidrio-en-el-empaquetado-avanzado-302822586.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:30:00+00:00",
-    "raw_text": "Proporciona un análisis 3D no destructivo de la ubicación, morfología y perfil de profundidad de los defectos internos en los sustratos de vidrio. Presenta TAMI, una plataforma de software de análisis 3D dedicada que conecta el análisis de I+D con la inspección en la línea de producción....",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Proporciona un análisis 3D no destructivo de la ubicación, morfología y perfil de profundidad de los defectos internos en los sustratos de vidrio. Presenta TAMI, una plataforma de software de análisis 3D dedicada que conecta el análisis de I+D con la inspección en la línea de producción...."
-  },
-  {
-    "title": "AVAV Investors Have Opportunity to Lead AeroVironment, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/avav-investors-have-opportunity-to-lead-aerovironment-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823554.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:29:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of §§10(b) and 20(a) of the Securities...",
+    "published": "2026-07-13T09:03:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GRAIL, Inc. (\"Grail\" or \"the Company\") (NASDAQ: GRAL) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the...",
     "categories": [
       "Cloud Infrastructure"
     ],
@@ -830,30 +1114,131 @@
         "aws"
       ]
     },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of §§10(b) and 20(a) of the Securities..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GRAIL, Inc. (\"Grail\" or \"the Company\") (NASDAQ: GRAL) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the..."
   },
   {
-    "title": "Gentoo Media appoints Måns Svalborn as Chief Financial Officer",
-    "url": "https://www.prnewswire.com/news-releases/gentoo-media-appoints-mans-svalborn-as-chief-financial-officer-302823615.html",
+    "title": "Hub Group, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - HUBG",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--hubg-302823624.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:29:00+00:00",
-    "raw_text": "BIRKIRKARA, Malta, July 13, 2026 /PRNewswire/ -- Gentoo Media announces the appointment of Måns Svalborn as Chief Financial Officer. Måns is expected to join the company in early October 2026. Måns brings more than 20 years of financial leadership experience, including over six years as...",
+    "published": "2026-07-13T09:02:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub Group\" or \"the Company\") (NASDAQ: HUBG) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
     "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub Group\" or \"the Company\") (NASDAQ: HUBG) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder..."
+  },
+  {
+    "title": "PICS INVESTOR DEADLINE: Robbins Geller Rudman & Dowd LLP Announces that PicS N.V. Investors with Substantial Losses Have Opportunity to Lead PicS N.V. Class Action Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/pics-investor-deadline-robbins-geller-rudman--dowd-llp-announces-that-pics-nv-investors-with-substantial-losses-have-opportunity-to-lead-pics-nv-class-action-lawsuit-302823163.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T09:00:00+00:00",
+    "raw_text": "SAN DIEGO, July 13, 2026 /PRNewswire/ -- Robbins Geller Rudman & Dowd LLP announces that purchasers of PicS N.V. (NASDAQ: PICS) Class A common stock in and/or traceable to PicS N.V.'s January 30, 2026 initial public offering (\"IPO\"), have until Tuesday, August 4, 2026 to seek appointment...",
+    "categories": [
+      "Industry & Market",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "announces",
+        "ipo"
+      ]
+    },
+    "summary": "SAN DIEGO, July 13, 2026 /PRNewswire/ -- Robbins Geller Rudman & Dowd LLP announces that purchasers of PicS N.V. (NASDAQ: PICS) Class A common stock in and/or traceable to PicS N.V.'s January 30, 2026 initial public offering (\"IPO\"), have until Tuesday, August 4, 2026 to seek appointment..."
+  },
+  {
+    "title": "GemologyGeek Debuts the Ignite Collection, Merging Rare Natural Gemstones with the Optical Phenomenon of Fluorescence",
+    "url": "https://www.prnewswire.com/news-releases/gemologygeek-debuts-the-ignite-collection-merging-rare-natural-gemstones-with-the-optical-phenomenon-of-fluorescence-302823494.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T09:00:00+00:00",
+    "raw_text": "From formally trained jewelry designer and gemologist, gem dealer and educator to jewelry brand founder, Erica Silverglide inspires a reimagined brand experience NEW YORK, July 13, 2026 /PRNewswire/ -- After spending more than twenty years sourcing exceptional gemstones, and developing...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "From formally trained jewelry designer and gemologist, gem dealer and educator to jewelry brand founder, Erica Silverglide inspires a reimagined brand experience NEW YORK, July 13, 2026 /PRNewswire/ -- After spending more than twenty years sourcing exceptional gemstones, and developing..."
+  },
+  {
+    "title": "Futu Holdings Limited Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FUTU",
+    "url": "https://www.prnewswire.com/news-releases/futu-holdings-limited-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--futu-302823621.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T08:58:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Futu Holdings Limited (\"Futu\" or \"the Company\") (NASDAQ: FUTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Futu Holdings Limited (\"Futu\" or \"the Company\") (NASDAQ: FUTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder..."
+  },
+  {
+    "title": "GeneDx Holdings Corp. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - WGS",
+    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--wgs-302823618.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T08:57:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder..."
+  },
+  {
+    "title": "Leads Biolabs Announces Multiple Studies Selected for ESMO 2026, Highlighting the Growing Global Competitiveness of Its Core Pipeline",
+    "url": "https://www.prnewswire.com/news-releases/leads-biolabs-announces-multiple-studies-selected-for-esmo-2026-highlighting-the-growing-global-competitiveness-of-its-core-pipeline-302823685.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T08:56:00+00:00",
+    "raw_text": "NANJING, China, July 13, 2026 /PRNewswire/ -- Nanjing Leads Biolabs Co., Ltd. (\"Leads Biolabs\" or the \"Company,\" Stock Code: 9887.HK) today announced that six of its latest research studies have been accepted for presentation at the 2026 European Society for Medical Oncology (ESMO) Annual...",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres",
       "Industry & Market"
     ],
     "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Data Centres": [
+        "colo"
+      ],
       "Industry & Market": [
         "announces"
       ]
     },
-    "summary": "BIRKIRKARA, Malta, July 13, 2026 /PRNewswire/ -- Gentoo Media announces the appointment of Måns Svalborn as Chief Financial Officer. Måns is expected to join the company in early October 2026. Måns brings more than 20 years of financial leadership experience, including over six years as..."
+    "summary": "NANJING, China, July 13, 2026 /PRNewswire/ -- Nanjing Leads Biolabs Co., Ltd. (\"Leads Biolabs\" or the \"Company,\" Stock Code: 9887.HK) today announced that six of its latest research studies have been accepted for presentation at the 2026 European Society for Medical Oncology (ESMO) Annual..."
   },
   {
-    "title": "ADMA Investors Have Opportunity to Lead ADMA Biologics, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/adma-investors-have-opportunity-to-lead-adma-biologics-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823549.html",
+    "title": "Boostimmune Secures Japanese Patent for Sequence-Independent TCTP Antibody Technology Targeting MDSC Accumulation",
+    "url": "https://www.prnewswire.com/news-releases/boostimmune-secures-japanese-patent-for-sequence-independent-tctp-antibody-technology-targeting-mdsc-accumulation-302823682.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:26:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against ADMA Biologics, Inc. (\"ADMA\" or \"the Company\") (NASDAQ: ADMA) for violations of §§10(b) and 20(a) of the Securities Exchange...",
+    "published": "2026-07-13T08:53:00+00:00",
+    "raw_text": "Japanese patent granted for technology that inhibits TCTP released from dead tumor cells using antibodies to suppress the accumulation of MDSCs in the tumor microenvironment Granted claims are not expressly limited to specific antibody CDRs or amino acid sequences, but are defined by...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Japanese patent granted for technology that inhibits TCTP released from dead tumor cells using antibodies to suppress the accumulation of MDSCs in the tumor microenvironment Granted claims are not expressly limited to specific antibody CDRs or amino acid sequences, but are defined by..."
+  },
+  {
+    "title": "Embecta Corp. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - EMBC",
+    "url": "https://www.prnewswire.com/news-releases/embecta-corp-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--embc-302823616.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T08:49:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
     "categories": [
       "Cloud Infrastructure"
     ],
@@ -862,14 +1247,14 @@
         "aws"
       ]
     },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against ADMA Biologics, Inc. (\"ADMA\" or \"the Company\") (NASDAQ: ADMA) for violations of §§10(b) and 20(a) of the Securities Exchange..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by..."
   },
   {
-    "title": "BTU Investors Have Opportunity to Lead Peabody Energy Corporation Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/btu-investors-have-opportunity-to-lead-peabody-energy-corporation-securities-fraud-lawsuit-with-the-schall-law-firm-302823547.html",
+    "title": "First Solar, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FSLR",
+    "url": "https://www.prnewswire.com/news-releases/first-solar-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fslr-302823613.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:24:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities...",
+    "published": "2026-07-13T08:48:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
     "categories": [
       "Cloud Infrastructure"
     ],
@@ -878,14 +1263,14 @@
         "aws"
       ]
     },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
   },
   {
-    "title": "PLAB Investors Have Opportunity to Lead Photronics, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/plab-investors-have-opportunity-to-lead-photronics-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823544.html",
+    "title": "Erasca, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - ERAS",
+    "url": "https://www.prnewswire.com/news-releases/erasca-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--eras-302823610.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:22:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Photronics, Inc. (\"Photronics\" or \"the Company\") (NASDAQ: PLAB) for violations of §§10(b) and 20(a) of the Securities Exchange...",
+    "published": "2026-07-13T08:47:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the...",
     "categories": [
       "Cloud Infrastructure"
     ],
@@ -894,23 +1279,62 @@
         "aws"
       ]
     },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Photronics, Inc. (\"Photronics\" or \"the Company\") (NASDAQ: PLAB) for violations of §§10(b) and 20(a) of the Securities Exchange..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the..."
   },
   {
-    "title": "RBLX Investors Have Opportunity to Lead Roblox Corporation Securities Fraud Lawsuit with the Schall Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/rblx-investors-have-opportunity-to-lead-roblox-corporation-securities-fraud-lawsuit-with-the-schall-law-firm-302823542.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T07:17:00+00:00",
-    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Roblox Corporation (\"Roblox\" or \"the Company\") (NYSE: RBLX) for violations of §§10(b) and 20(a) of the Securities Exchange Act...",
+    "title": "cBridge now delivers STARPRIME's institutional liquidity to brokers",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325983/0/en/cBridge-now-delivers-STARPRIME-s-institutional-liquidity-to-brokers.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-13T08:53:00+00:00",
+    "raw_text": "DUBAI, United Arab Emirates, July 13, 2026 (GLOBE NEWSWIRE) -- cBridge , Spotware’s standalone fixed-price liquidity bridge, has announced a new partnership with STARPRIME , an institutional CFD liquidity provider and market maker. cBridge, Spotware’s standalone fixed-price liquidity bridge, has announced a new partnership with STARPRIME, an institutional CFD liquidity provider and market maker. Through the partnership, the brokers gain access to STARPRIME's multi-asset CFD liquidity across FX, metals, indices, commodities and crypto. For FX/CFD brokers, adding a liquidity provider is an important step. However, a strong execution setup depends just as much on how that liquidity is connected, aggregated, routed and monitored across trading platforms and client flow. STARPRIME contributes the institutional multi-asset liquidity: deep order book access, low-latency execution and reliable pricing. cBridge provides the environment in which that liquidity is put to work – managing connectivity, price aggregation, order routing, execution oversight, exposure monitoring and reporting. With STARPRIME now available through cBridge, brokers can widen their multi-LP setup while keeping liquidity management just as clean and consistent. Its pricing feeds into the same aggregation layer as other providers, letting trading desks apply routing rules suited to their execution needs, track exposure in real time and assess performance – all from a single, unified flow. This is particularly useful for brokers handling varied flow profiles across different client segments, where a single routing approach rarely fits every case. cBridge lets brokers configure routing rules around their operational needs, review LP performance and respond quickly as market conditions or flow patterns change. Taken together, the partnership opens up STARPRIME's liquidity to brokers, while cBridge supplies the operational layer that determines how it's aggregated, routed, monitored and reported.",
     "categories": [
-      "Cloud Infrastructure"
+      "Networks",
+      "Data Centres",
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Networks": [
+        "routing",
+        "latency",
+        "connectivity"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "partnership"
       ]
     },
-    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Roblox Corporation (\"Roblox\" or \"the Company\") (NYSE: RBLX) for violations of §§10(b) and 20(a) of the Securities Exchange Act..."
+    "summary": "DUBAI, United Arab Emirates, July 13, 2026 (GLOBE NEWSWIRE) -- cBridge , Spotware’s standalone fixed-price liquidity bridge, has announced a new partnership with STARPRIME , an institutional CFD liquidity provider and market maker. cBridge, Spotware’s standalone fixed-price liquidity bridge, has announced a new partnership with STARPRIME, an institutional CFD liquidity provider and market maker. Through the partnership, the brokers gain access to STARPRIME's multi-asset CFD liquidity across FX, metals, indices, commodities and crypto. For FX/CFD brokers, adding a liquidity provider is an important step."
+  },
+  {
+    "title": "Webuy Launches AI Agent-Assisted Smart Travel Card to Enhance Connected Travel Experience",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325974/0/en/Webuy-Launches-AI-Agent-Assisted-Smart-Travel-Card-to-Enhance-Connected-Travel-Experience.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-13T08:30:00+00:00",
+    "raw_text": "Webuy launches its AI Agent-driven Smart Travel Card, connecting travelers with journey information, location-based content and on-the-ground support.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches",
+        "ey"
+      ]
+    },
+    "summary": "Webuy launches its AI Agent-driven Smart Travel Card, connecting travelers with journey information, location-based content and on-the-ground support."
+  },
+  {
+    "title": "Bottomline CFO Suite Unlocks Stablecoins for Corporate Finance",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325935/28640/en/Bottomline-CFO-Suite-Unlocks-Stablecoins-for-Corporate-Finance.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-13T08:00:00+00:00",
+    "raw_text": "Bottomline CFO Suite helps finance teams manage stablecoin payments within existing cash management and payment workflows.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Bottomline CFO Suite helps finance teams manage stablecoin payments within existing cash management and payment workflows."
   },
   {
     "title": "WeRide Accelerates Global Expansion of Its End-to-End Intelligent Driving Solution",
@@ -1173,30 +1597,6 @@
       ]
     },
     "summary": "DUBAI, United Arab Emirates, July 11, 2026 (GLOBE NEWSWIRE) -- Pepeto, the Ethereum-based project operating at the intersection of meme coin culture and DeFi utility, has reported meaningful progress on its exchange launch preparations as the Binance listing approaches. The zero-fee exchange and cross-chain bridge are now confirmed as built and tested."
-  },
-  {
-    "title": "Crypto News: Pepeto Advances Toward Binance Listing with Integrated Zero-Fee Exchange and Cross-Chain Bridge",
-    "url": "https://www.globenewswire.com/news-release/2026/07/11/3325817/0/en/Crypto-News-Pepeto-Advances-Toward-Binance-Listing-with-Integrated-Zero-Fee-Exchange-and-Cross-Chain-Bridge.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-11T13:08:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, July 11, 2026 (GLOBE NEWSWIRE) -- Pepeto is progressing toward its anticipated listing on Binance, marking a notable development milestone for the project as it prepares to bring its platform infrastructure to a wider global audience.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "DUBAI, United Arab Emirates, July 11, 2026 (GLOBE NEWSWIRE) -- Pepeto is progressing toward its anticipated listing on Binance, marking a notable development milestone for the project as it prepares to bring its platform infrastructure to a wider global audience."
-  },
-  {
-    "title": "Horse Boost Gummies For Men 2026 Launch Featuring the Viral Horse Gelatin Salt Trick Recipe Male Enhancement Support By HorseBoost",
-    "url": "https://www.globenewswire.com/news-release/2026/07/11/3325810/0/en/Horse-Boost-Gummies-For-Men-2026-Launch-Featuring-the-Viral-Horse-Gelatin-Salt-Trick-Recipe-Male-Enhancement-Support-By-HorseBoost.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-11T12:35:00+00:00",
-    "raw_text": "Discover Horse Boost For Men, inspired by the viral Horse Gelatin Salt Trick recipe with Muira Puama, Maca, Ashwagandha, and L-Arginine New Horse Boost Gummies Male Health Performance. Discover Horse Boost For Men, inspired by the viral Horse Gelatin Salt Trick recipe with Muira Puama, Maca, Ashwagandha, and L-Arginine New Horse Boost Gummies Male Health Performance.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Discover Horse Boost For Men, inspired by the viral Horse Gelatin Salt Trick recipe with Muira Puama, Maca, Ashwagandha, and L-Arginine New Horse Boost Gummies Male Health Performance. Discover Horse Boost For Men, inspired by the viral Horse Gelatin Salt Trick recipe with Muira Puama, Maca, Ashwagandha, and L-Arginine New Horse Boost Gummies Male Health Performance."
   },
   {
     "title": "Cybersecurity Newsletter Weekly – The 40 Biggest Cybersecurity Stories – Accenture Breach, AI ... - gbhackers.com",
