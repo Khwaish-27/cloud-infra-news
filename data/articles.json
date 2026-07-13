@@ -1,5 +1,30 @@
 [
   {
+    "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+    "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
+    "source": "The Hacker News",
+    "published": "2026-07-13T05:36:02+00:00",
+    "raw_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "zero-day",
+        "exploit",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the"
+  },
+  {
     "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
     "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
     "source": "The Hacker News",
@@ -33,24 +58,6 @@
       ]
     },
     "summary": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat actors between February 2024 and April 2026. \"At Balochistan Police, the compromised assets included servers hosting web applications that manage police and citizen data, such as criminal and"
-  },
-  {
-    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-    "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-    "source": "The Hacker News",
-    "published": "2026-07-11T06:45:55+00:00",
-    "raw_text": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier. \"The",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "security"
-      ]
-    },
-    "summary": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier. \"The"
   },
   {
     "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits",
@@ -125,6 +132,46 @@
     ],
     "matched_keywords": {},
     "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of numbers. [...]"
+  },
+  {
+    "title": "Why SBOMs, signing, and provenance still don’t tell you if software is safe",
+    "url": "https://www.helpnetsecurity.com/2026/07/13/sbom-zero-trust-for-code/",
+    "source": "Help Net Security",
+    "published": "2026-07-13T06:30:20+00:00",
+    "raw_text": "We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028, which pushed agencies, contractors and enterprises to invest in SBOMs, signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if … More → The post Why SBOMs, signing, and provenance still don’t tell you if software is safe appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "We have made real progress in software supply chain security, improving visibility into software components, authenticity and build integrity. Much of this progress traces back to Executive Order 14028, which pushed agencies, contractors and enterprises to invest in SBOMs, signing and provenance. All of that matters, but it is not enough. The current software trust model still stops short of the question that determines risk at execution: What is this code capable of doing if … More → The post Why SBOMs, signing, and provenance still don’t tell you if software is safe appeared first on Help Net Security ."
+  },
+  {
+    "title": "Cynative: Open-source deep research agent",
+    "url": "https://www.helpnetsecurity.com/2026/07/13/cynative-open-source-deep-research-agent/",
+    "source": "Help Net Security",
+    "published": "2026-07-13T06:00:44+00:00",
+    "raw_text": "Running a large language model against a live cloud account to hunt for security holes comes with an obvious hazard. An agent that holds real credentials and a mandate to poke around can delete a bucket, flip a permission, or leak a secret on its way to a finding. Cynative, an open-source security research agent, answers that hazard by refusing to write anything by default, and by checking that refusal on every single call it … More → The post Cynative: Open-source deep research agent appeared first on Help Net Security .",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Running a large language model against a live cloud account to hunt for security holes comes with an obvious hazard. An agent that holds real credentials and a mandate to poke around can delete a bucket, flip a permission, or leak a secret on its way to a finding. Cynative, an open-source security research agent, answers that hazard by refusing to write anything by default, and by checking that refusal on every single call it … More → The post Cynative: Open-source deep research agent appeared first on Help Net Security ."
   },
   {
     "title": "Microsoft demystifies how Windows updates work",
@@ -276,6 +323,58 @@
     "summary": "Multiple campaigns are using ghost accounts to map GitHub organizations, including their repositories and members. The post Ghost Accounts Abuse GitHub API in Mass Recon Campaign appeared first on SecurityWeek ."
   },
   {
+    "title": "Can AI narrow cybersecurity’s class divide?",
+    "url": "https://www.csoonline.com/article/4195787/can-ai-narrow-cybersecuritys-class-divide.html",
+    "source": "CSO Online",
+    "published": "2026-07-13T07:00:00+00:00",
+    "raw_text": "At Amazon Web Services (AWS), artificial intelligence is already compressing security work that once took months into minutes. In the old world, human red teams would find vulnerabilities, write reports, refine those reports, and eventually hand them to defenders, who would then begin building detections or fixes, Steve Schmidt , chief security officer at AWS, tells CSO. That process could take “two, four, six, eight, 10 months,” Schmidt says. “Now with proper application of AI, we can have the detections built for the problems the red team finds in 15 minutes-ish,” he says. “I think the outside is about four hours.” That kind of workflow offers a glimpse of what AI could make possible for the most sophisticated security organizations: AI agents testing systems, other agents generating defenses, and human security engineers validating results and refining the feedback loop. But it also raises a more uncomfortable question for the rest of the cybersecurity industry: What happens to organizations that cannot build anything close to that? The concern has become significant enough that the Trump administration recently directed agencies to expand access to AI-enabled cybersecurity capabilities for resource-constrained organizations, including rural hospitals, community banks, and local utilities. The order reflects a growing fear that AI could deepen a divide that has existed in cybersecurity for years: the divide between organizations with money, expertise, and engineering depth, and those struggling to keep pace with basic security demands. Yet security leaders and practitioners suggest the impact of AI will be more complicated than a simple widening gap. Some experts say AI is merely adding a new layer to a long-standing security poverty problem. Others argue AI could democratize capabilities once reserved for elite organizations. Still others see today’s divide as real, but potentially temporary, as models become cheaper, more open, and easier to run. The class divide was already here For Matt Warner , co-founder and CTO of Blumira, the premise that AI is creating a cybersecurity class divide misses a key point: The divide already exists. “I would go even a step further and say that there has been a class divide for the last 10 to 15 years,” Warner tells CSO. What AI changes, he argues, is not necessarily the existence of the divide but how stark it becomes. Larger organizations have money, people, and time to experiment with AI. Smaller organizations often do not. “The big differences that we’re seeing, especially from where we sit in the world, is the difference is getting starker in having the resources to leverage AI and the time to leverage AI more than anything else,” Warner says. That distinction matters because many smaller organizations are already overwhelmed. Warner pointed to resource-constrained local governments and small or midmarket organizations that are still far behind large enterprises in basic IT and security maturity. “I can find you a county in Michigan with two IT people for 2,000 employees,” Warner says. “Those people don’t have time to leverage AI and even learn how to use AI because they’re mostly just trying to put out fires.” That problem is not unique to AI. Smaller organizations have long struggled to patch systems, prioritize vulnerabilities, monitor environments, and respond to incidents with limited staff. AI may help eventually, but only if those organizations have enough capacity to adopt it. Wendy Nather’s framework gets an AI layer Anton Chuvakin , security advisor in the office of the CISO for Google Cloud, sees the AI divide as part of a much older problem. “I feel like it sends me back to when Wendy Nather invented the security poverty line,” Chuvakin tells CSO, referring to Nather’s 2011 concept describing organizations that lack the money, expertise, capability, or influence to implement effective security. Chuvakin is skeptical that AI fundamentally changes that model. “I don’t think AI necessarily breaks that model,” he says. “I think it just adds another dimension.” Cybersecurity has always been shaped by unequal access to top talent, tools, and services, Chuvakin argues. Large organizations could afford better SIEM deployments, advanced DLP programs, threat hunters, application security experts, and incident response retainers. Smaller organizations often could not. AI may become another scarce resource, but Chuvakin cautions against overstating the role of model cost alone. In his view, the bigger structural issue may be talent rather than tokens. “Prices for people won’t drop, but prices for LLMs may drop,” he believes. That means the organizations with the greatest advantage may not simply be those that can afford the most expensive models. They may be the ones that can afford the people who know how to use them — and, as the frontier-access debate below suggests, that talent gap may prove more durable than any gap in model access itself. AI creates new costs — and new uncertainties Nather herself, now senior research initiatives director at 1Password, sees AI affecting every dimension of the security poverty line: money, expertise, capability, and influence. The financial challenges are not limited to whether an organization can pay for an AI tool. In some cases, organizations that cannot afford enterprise licensing may end up making tradeoffs around privacy. “If an organization can’t afford an enterprise license for the models they’re using, then they can’t keep their data private,” Nather tells CSO. “So, they have to give up privacy because they can’t afford privacy.” That’s a new twist on an old dimension of the poverty line: It’s not just that under-resourced organizations lack a capability, but that the capability they can afford comes bundled with a risk wealthier organizations don’t have to accept. Token-based pricing adds another problem: unpredictability . “At this point, nobody knows how much they’re going to burn in tokens at any given time,” she says. That makes budgeting difficult for organizations that cannot absorb surprise costs. Nather also warns that usage-based pricing is controlled by providers and can change over time, leaving customers with limited leverage . “The charging practice is in the hands of the providers, and they can change it at any time,” she says. For organizations already operating below the security poverty line, that uncertainty could make AI adoption harder, even if the technology itself becomes more capable. Access to frontier models may be a temporary divide Dave Baggett , SVP/GM of the security suite at Kaseya, agrees there is security class divide dynamic playing out today, particularly around access to frontier models. “There’s definitely a haves and have-nots issue around Mythos specifically because most people don’t have it,” Baggett tells CSO. But he doesn’t think the divide will have a long-term impact. Open-weight models, quantization, mixture-of-experts architectures, and increasingly powerful commodity hardware, he argues, are closing the gap faster than most people expect. While not every organization will build a frontier model, he says, more organizations may be able to run capable models locally or use cheaper systems that approximate what today’s elite models can do . “What it says for finding vulnerabilities is at that point, open-source people can run this stuff,” Baggett says. “Then you’re back to having a symmetrical opportunity where the defenders who are writing the open source can run the same tools the attackers would and have them fix the issues.” His bottom line is that the divide may be real but short-lived. “Right now, there certainly is a have, have-not schism, but it may not be there for long,” Baggett says — a view Chuvakin shares, though he frames it in terms of the model market rather than open source specifically. “I don’t think it’s the lowering prices example, but it’s more like you’re a top-tier model maker, I’m a second-tier model maker. My model in a year would do what your model did a year ago,” Chuvakin says. The real advantage is operational depth Schmidt’s description of AI use at AWS points to another kind of divide: not access to AI, but the ability to operationalize it. AWS uses multiple models for different tasks, Schmidt says. One model may discover vulnerabilities, while other models validate results or help build defenses. Humans remain accountable for evaluating what the systems produce. “Because we believe really strongly in human accountability for the use of AI from end to end, we still have humans take a look at what the systems come up with to determine whether they are reasonable and appropriate,” he says. That workflow requires more than a model. It requires corporate data, secure infrastructure, feedback loops, security engineers, data scientists, and AI specialists who can work together. Schmidt also pushes back on the idea that running AI locally on powerful consumer hardware is a substitute for production-grade security infrastructure. “Often the value of the model is also dependent on its proximity to data so that the model can ingest, use, and reason about data,” he says. “As a security person, I do not want that to be on your laptop.” Experimentation on a laptop is useful, Schmidt says, but it is not the same as a secure production environment. “I want the data to be somewhere safe that I can control, that I can see, that I can reason about, not sitting on your laptop,” he says. “Experimentation in there, awesome. That’s great. But it is not a production infrastructure component.” That distinction may define the emerging AI security gap. Many organizations may be able to access AI tools. Far fewer may be able to safely integrate them into real security workflows. The democratization argument Phil Venables , a partner at Ballistic Ventures and former CISO of Google Cloud, takes the most optimistic view. Asked whether AI is widening the gap between well-resourced and under-resourced security organizations, Venables tells CSO, “No, I actually think it’s the exact opposite.” The reason, he argues, is that AI packages expertise and automation in ways that can be delivered broadly. “One of the fantastic things about AI, and we’re already starting to see this, is [that it’s] a great democratizer of capabilities,” he says. “AI packages up expertise and automation capabilities at a level beyond what prior waves of technology have done, and it makes it available at scale into organizations that have not previously been able to afford these things.” He points to red teaming as an example. Nearly every organization would like a world-class red team, but few can afford one. “Pretty much every organization on the planet would love to have a world-class red team to constantly test their security to find and fix things before attackers do,” Venables says. “But very few organizations have ever been able to afford to build a high-end red team.” AI agents, he argues, could make that kind of capability available more economically. The same pattern could apply to insider threat; third-party risk; software security; governance, risk and compliance; and security operations. “So even the smallest and resource-constrained organizations can now have access to a higher-end capability,” he maintains. Venables does see a danger zone, however: under-resourced security teams inside organizations with aggressive AI ambitions. Those teams may struggle to keep up as the rest of the business adopts AI rapidly. But for many small and midsize organizations, he believes AI could improve access to security capabilities they never had before. A divide over AI — or over readiness? For elite organizations, AI is already becoming a force multiplier. Security teams with deep engineering talent, mature data infrastructure, and strong governance can use AI to accelerate testing, detection engineering, vulnerability discovery, and risk management. For smaller organizations, the picture is less clear. AI may eventually package scarce expertise into affordable services. Open models may reduce dependence on expensive frontier systems. But organizations below the security poverty line still face familiar constraints: too few people, too little time, limited expertise, unpredictable costs, and weak leverage over vendors. The emerging divide may therefore be less about who has access to AI and more about who can turn AI into durable security outcomes. That makes the question facing cybersecurity more complicated than whether AI will create haves and have-nots. The industry already had them. The real question is whether AI becomes another technology that rewards the organizations already best positioned to use it — or the first major security advance in years that helps those below the poverty line finally catch up.",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Cloud Infrastructure",
+      "Industry & Market",
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws",
+        "google cloud"
+      ],
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "threat",
+        "security",
+        "cyber",
+        "siem",
+        "incident response",
+        "red team",
+        "application security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "risk management",
+        "nist",
+        "privacy"
+      ],
+      "Data Centres": [
+        "capacity"
+      ],
+      "Industry & Market": [
+        "raises",
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "At Amazon Web Services (AWS), artificial intelligence is already compressing security work that once took months into minutes. In the old world, human red teams would find vulnerabilities, write reports, refine those reports, and eventually hand them to defenders, who would then begin building detections or fixes, Steve Schmidt , chief security officer at AWS, tells CSO. That process could take “two, four, six, eight, 10 months,” Schmidt says. “Now with proper application of AI, we can have the detections built for the problems the red team finds in 15 minutes-ish,” he says."
+  },
+  {
     "title": "The electrical infrastructure gap: What AI data center density demands from every project team",
     "url": "https://www.datacenterdynamics.com/en/opinions/the-electrical-infrastructure-gap-what-ai-data-center-density-demands-from-every-project-team/",
     "source": "DataCenterDynamics",
@@ -320,6 +419,150 @@
     "summary": "In today's environment, speed to power becomes less about overcoming external constraints and more about internal alignment"
   },
   {
+    "title": "User crippled a network while trying to learn Nmap",
+    "url": "https://www.theregister.com/networks/2026/07/13/user-crippled-a-network-while-trying-to-learn-nmap/5269687",
+    "source": "The Register",
+    "published": "2026-07-13T06:30:00+00:00",
+    "raw_text": "IT department was not pleased, but was also easily fooled",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ]
+    },
+    "summary": "IT department was not pleased, but was also easily fooled"
+  },
+  {
+    "title": "Meta admits its first ‘superintelligence’ was too stupid to survive for three days",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/meta-admits-its-first-superintelligence-was-too-stupid-to-survive-for-three-days/5270234",
+    "source": "The Register",
+    "published": "2026-07-13T03:44:28+00:00",
+    "raw_text": "Pulls AI-powered image tweaker after allowing free-for-all",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Pulls AI-powered image tweaker after allowing free-for-all"
+  },
+  {
+    "title": "Lenovo denies using banned Chinese SSDs where they're not allowed",
+    "url": "https://www.theregister.com/personal-tech/2026/07/13/lenovo-denies-using-banned-chinese-ssds-where-theyre-not-allowed/5270212",
+    "source": "The Register",
+    "published": "2026-07-13T01:14:31+00:00",
+    "raw_text": "PLUS: Canadian/Bhutanese datacenter for India; China re-uses a rocket; Australia signals AI intervention; And more!",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "datacenter"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "PLUS: Canadian/Bhutanese datacenter for India; China re-uses a rocket; Australia signals AI intervention; And more!"
+  },
+  {
+    "title": "Memory makers are slaves to the boom-bust rollercoaster, and the AI boom is the wildest ride of all",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/12/memory-makers-are-slaves-to-the-boom-bust-rollercoaster-and-the-ai-boom-is-the-wildest-ride-of-all/5269549",
+    "source": "The Register",
+    "published": "2026-07-12T11:04:00+00:00",
+    "raw_text": "The RAMpocalypse may be the precursor to the AIpocalypse",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ipo"
+      ]
+    },
+    "summary": "The RAMpocalypse may be the precursor to the AIpocalypse"
+  },
+  {
+    "title": "It's an AI web, and we're just rats in the walls",
+    "url": "https://www.theregister.com/columnists/2026/07/12/its-an-ai-web-and-were-just-rats-in-the-walls/5269760",
+    "source": "The Register",
+    "published": "2026-07-12T07:34:00+00:00",
+    "raw_text": "Bots, not people, are now the ones who use the internet the most",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Bots, not people, are now the ones who use the internet the most"
+  },
+  {
+    "title": "AI customers are coming around to the idea that small is beautiful",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/11/ai-customers-are-coming-around-to-the-idea-that-small-is-beautiful/5268070",
+    "source": "The Register",
+    "published": "2026-07-11T14:11:00+00:00",
+    "raw_text": "OpenAI and Anthropic have built AI Swiss Army Knives, but the future may be smaller built-for-purpose tools",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "OpenAI and Anthropic have built AI Swiss Army Knives, but the future may be smaller built-for-purpose tools"
+  },
+  {
+    "title": "Irish datacenters now guzzle 23% of the country's electricity",
+    "url": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+    "source": "The Register",
+    "published": "2026-07-11T10:00:00+00:00",
+    "raw_text": "Consumption rose another 10% while restrictions on most new grid connections remained around Dublin",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "datacenter"
+      ]
+    },
+    "summary": "Consumption rose another 10% while restrictions on most new grid connections remained around Dublin"
+  },
+  {
+    "title": "CW@60: Preserving the wonder of a life in tech",
+    "url": "https://www.computerweekly.com/feature/CW60-Preserving-the-wonder-of-a-life-in-tech",
+    "source": "ComputerWeekly",
+    "published": "2026-07-13T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>At the start of the century, I moved from the west coast of Ireland to Eastern China. I was fresh out of university and barely out of my teens. Wide-eyed but with the confidence of youth, I packed my life into a rucksack, and landed in a country where I couldn’t read or speak the language, or use the eating utensils. After a few months of travel, I found myself in Shanghai - population 14 million - my new home.</p> <p>Those were <a href=\"https://www.computerweekly.com/feature/CW50-How-networking-became-the-core-of-IT\">the days of dial-up internet</a>. Back home I had mostly used it at university, where web access was slow, email addresses were too long, and online chat was still new.</p> <p>I was studying politics and <a href=\"https://www.computerweekly.com/feature/CW50-The-story-of-the-internet-and-how-it-changed-the-world\">the internet was transformative</a>. Buying a daily newspaper was, of course, an important part of student life - when you could afford it. Online news opened up, quite literally, an entire world of information and opinion.</p> <p>My daily reading expanded to include global news on politics, economics, and culture. Looking back, it’s part of the reason I went to China - I was reading about the world, and I wanted to see it.</p> <p>In Shanghai, I was working to prepare young people to study at English-speaking universities abroad. I was expected to help with their studies and to provide know-how to succeed in different societies outside of everything they knew.</p> <p>To my surprise, a lot of that world was no longer as accessible as it had been back home. China was changing fast. People were moving to the cities and the economy was growing, but there were still significant state controls - especially of information.</p> <p>Back then publications like <i>The New York Times</i> weren't behind a paywall, but they were behind the Chinese government’s firewall. It didn’t have the sophistication of control which some governments now use. But my access to information was significantly curtailed by someone, somewhere, sitting in an office deciding what I could read. I bristled against that then and still do now.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Formative years\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Formative years</h2> <p>Those were formative years. I learned the language and how to use those eating utensils. I developed my love of workarounds - and found a public library with week-old copies of international newspapers. And I learned about what I value when it comes to people, governments, and technology.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\" https://cdn.ttgtmedia.com/rms/computerweekly/Linda-Griffin-Mozilla-PR-140x180.jpg\" alt=\"Photo of Linda Griffin\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“Nothing about the next 25 years of the internet is inevitable. Those of us with a voice should use it and should help others find theirs. Otherwise, we're just letting someone, somewhere, sit in an office and decide what we can read”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Linda Griffin, Mozilla</em></span></p> </blockquote> <p>Three things stick with me.</p> <p>First, the openness of the internet is vital. The promise of the web was a space for what <a href=\"https://www.computerweekly.com/news/252474494/Tim-Berners-Lee-launches-nine-principles-for-the-Web\">Tim Berners-Lee</a> has called “intercreativity” - working to build things together. I think that’s even more important today.</p> <p>Openness gives us access to information, ideas, and ways to collaborate. The web should be about public interest first - value is created where people can work together, not when we are squeezed into walled gardens.</p> <p>Second, plurality is essential, and not only in the media. Without it, our online lives, our whole world, will be in the hands of a few companies - or even a few people. True innovation is rarely the work of one person and the belief that it is, hinders rather than helps, progress.</p> <p>Third, regulation should not be a four-letter word. It’s difficult, for sure. But <a href=\"https://www.computerweekly.com/resources/IT-legislation-and-regulation\">regulation</a> itself is value neutral. What we need to understand are the values that underlie any regulatory intervention - and the values that that intervention will promote. As we begin the - so far quite messy - task to try and shape the role of AI on the web and in our lives, we need to move past lazy propaganda slogans like “innovation versus regulation,” and look for the best ways to promote long-term shared values.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Building blocks\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Building blocks</h2> <p>This has been my work for much of my career, most recently at Mozilla. I joined because we are an internet pioneer. We’ve been working on browsers and open source since the 1990s. Today we make Gecko, one of only three major browser engines in the world, and the heart of Firefox. And that complex technology that almost everyone uses every day, but almost no one thinks about, matters.</p> <p>These engines do more than display web pages. They decide what information we see, what information about us is seen, and who sees it. More and more they determine what role artificial intelligence plays in our lives. Browser engines, APIs, algorithms - these are the building blocks of a tech-infused world.</p> <p>We must keep debating how we build those blocks and what we build with them. Nothing about the next 25 years of the internet is inevitable. Those of us with a voice should use it and should help others find theirs. Otherwise, we’re just letting someone, somewhere, sit in an office and decide what we can read.</p> <p>I still have my rucksack. I’m more of a suitcase person these days, but the rucksack is a tangible reminder of my journey. It was unexpected, full of wonder, and world-altering.</p> <p>That’s life in tech today - and if we work together, it can be life in tech tomorrow too.</p> <p><i>Linda Griffin is vice president of global policy at Mozilla.</i></p> </section>",
+    "categories": [
+      "Networks",
+      "GRC",
+      "Industry & Market",
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "networking",
+        "cdn",
+        "firewall",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "soc"
+      ],
+      "GRC": [
+        "regulation",
+        "regulatory",
+        "policy"
+      ],
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
+        "launches",
+        "ey"
+      ]
+    },
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>At the start of the century, I moved from the west coast of Ireland to Eastern China. I was fresh out of university and barely out of my teens."
+  },
+  {
     "title": "The best email hosting for small businesses in 2026: Expert tested",
     "url": "https://www.zdnet.com/article/best-email-hosting-for-small-businesses/",
     "source": "ZDNet",
@@ -356,267 +599,169 @@
     "summary": "You should take calorie data with a grain of salt. Here's what I learned after testing the Fitbit Air's heart rate data against a gold standard heart rate monitor."
   },
   {
-    "title": "Elbit Systems to Report Second Quarter 2026 Financial Results on August 11, 2026",
-    "url": "https://www.prnewswire.com/news-releases/elbit-systems-to-report-second-quarter-2026-financial-results-on-august-11-2026-302823566.html",
+    "title": "GNS Investors Have Opportunity to Lead Genius Group Limited Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/gns-investors-have-opportunity-to-lead-genius-group-limited-securities-fraud-lawsuit-with-the-schall-law-firm-302823569.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T05:43:00+00:00",
-    "raw_text": "The Company will host a Conference Call to discuss its financial results on August 11, 2026 at 9:00am ET HAIFA, Israel, July 13, 2026 /PRNewswire/ -- Elbit Systems Ltd. (NASDAQ: ESLT) (TASE: ESLT) (\"Elbit Systems\" or the \"Company\") announced today that it will publish its second quarter...",
+    "published": "2026-07-13T07:45:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Genius Group Limited (\"Genius\" or \"the Company\") (NYSE American: GNS) for violations of §§10(b) and 20(a) of the Securities...",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The Company will host a Conference Call to discuss its financial results on August 11, 2026 at 9:00am ET HAIFA, Israel, July 13, 2026 /PRNewswire/ -- Elbit Systems Ltd. (NASDAQ: ESLT) (TASE: ESLT) (\"Elbit Systems\" or the \"Company\") announced today that it will publish its second quarter..."
-  },
-  {
-    "title": "Former INTERPOL President H.E. Ahmed Naser Al-Raisi Joins Robo.ai as Chairman of Neurovia AI to Build Trusted, Sovereign AI Infrastructure in the UAE and GCC Region",
-    "url": "https://www.prnewswire.com/news-releases/former-interpol-president-he-ahmed-naser-al-raisi-joins-roboai-as-chairman-of-neurovia-ai-to-build-trusted-sovereign-ai-infrastructure-in-the-uae-and-gcc-region-302823562.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T05:31:00+00:00",
-    "raw_text": "ABU DHABI, UAE, July 13, 2026 /PRNewswire/ -- Robo.ai Inc. (NASDAQ: AIIO) (the \"Company\") today announced the appointment of H.E. Ahmed Naser Al-Raisi, former President of INTERPOL, as Chairman of its subsidiary Neurovia AI, effective immediately. The appointment marks a significant...",
-    "categories": [
-      "Data Centres"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "ai infrastructure"
+      "Cloud Infrastructure": [
+        "aws"
       ]
     },
-    "summary": "ABU DHABI, UAE, July 13, 2026 /PRNewswire/ -- Robo.ai Inc. (NASDAQ: AIIO) (the \"Company\") today announced the appointment of H.E. Ahmed Naser Al-Raisi, former President of INTERPOL, as Chairman of its subsidiary Neurovia AI, effective immediately. The appointment marks a significant..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Genius Group Limited (\"Genius\" or \"the Company\") (NYSE American: GNS) for violations of §§10(b) and 20(a) of the Securities..."
   },
   {
-    "title": "Sivers Board Completes Purchase of Shares as Approved at the June 2026 AGM",
-    "url": "https://www.prnewswire.com/news-releases/sivers-board-completes-purchase-of-shares-as-approved-at-the-june-2026-agm-302823558.html",
+    "title": "ERAS Investors Have Opportunity to Lead Erasca, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/eras-investors-have-opportunity-to-lead-erasca-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823568.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T05:22:00+00:00",
-    "raw_text": "KISTA, Sweden, July 13, 2026 /PRNewswire/ -- Sivers Semiconductors AB (STO: SIVE), a global leader in photonics and wireless technologies, today announced that last week, Board members Bami Bastani, Karin Raj, Helena Svancar, Todd Thomson, and Joakim Nideborn completed the purchase of...",
+    "published": "2026-07-13T07:41:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of...",
     "categories": [
-      "Networks"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Networks": [
-        "wireless"
+      "Cloud Infrastructure": [
+        "aws"
       ]
     },
-    "summary": "KISTA, Sweden, July 13, 2026 /PRNewswire/ -- Sivers Semiconductors AB (STO: SIVE), a global leader in photonics and wireless technologies, today announced that last week, Board members Bami Bastani, Karin Raj, Helena Svancar, Todd Thomson, and Joakim Nideborn completed the purchase of..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange Act of..."
   },
   {
-    "title": "Genf behauptet den Spitzenplatz in der weltweiten Baukostenrangliste 2026 von Arcadis, während Auftraggeber mehr Kontrolle über die Planungssicherheit bei der Umsetzung anstreben",
-    "url": "https://www.prnewswire.com/news-releases/genf-behauptet-den-spitzenplatz-in-der-weltweiten-baukostenrangliste-2026-von-arcadis-wahrend-auftraggeber-mehr-kontrolle-uber-die-planungssicherheit-bei-der-umsetzung-anstreben-302823227.html",
+    "title": "FSLR Investors Have Opportunity to Lead First Solar, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/fslr-investors-have-opportunity-to-lead-first-solar-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823564.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T05:00:00+00:00",
-    "raw_text": "Eine neue weltweite Rangliste zeigt, dass die verlässliche Einhaltung von Kosten und Zeitplänen sowie die sichere Umsetzung in komplexen Baumärkten zunehmend zum Wettbewerbsvorteil werden. AMSTERDAM, 13. Juli 2026 /PRNewswire/ -- Arcadis (EURONEXT: ARCAD), das weltweit führende...",
+    "published": "2026-07-13T07:39:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities...",
     "categories": [
-      "Networks"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
+      "Cloud Infrastructure": [
+        "aws"
       ]
     },
-    "summary": "Eine neue weltweite Rangliste zeigt, dass die verlässliche Einhaltung von Kosten und Zeitplänen sowie die sichere Umsetzung in komplexen Baumärkten zunehmend zum Wettbewerbsvorteil werden. AMSTERDAM, 13. Juli 2026 /PRNewswire/ -- Arcadis (EURONEXT: ARCAD), das weltweit führende..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities..."
   },
   {
-    "title": "Genève reste à la première place du classement mondial 2026 d'Arcadis pour les coûts de construction, alors que les clients cherchent à mieux maîtriser la fiabilité des livraisons",
-    "url": "https://www.prnewswire.com/news-releases/geneve-reste-a-la-premiere-place-du-classement-mondial-2026-darcadis-pour-les-couts-de-construction-alors-que-les-clients-cherchent-a-mieux-maitriser-la-fiabilite-des-livraisons-302823226.html",
+    "title": "EMBC Investors Have Opportunity to Lead Embecta Corp. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/embc-investors-have-opportunity-to-lead-embecta-corp-securities-fraud-lawsuit-with-the-schall-law-firm-302823561.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T05:00:00+00:00",
-    "raw_text": "Le nouveau classement mondial montre que, sur les marchés de la construction de bâtiments complexes, la capacité à garantir la maîtrise des coûts, le respect des délais et la fiabilité des livraisons devient un avantage concurrentiel AMSTERDAM, 13 juillet 2026 /PRNewswire/ -- Arcadis...",
+    "published": "2026-07-13T07:37:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act...",
     "categories": [
-      "Uncategorised"
+      "Cloud Infrastructure"
     ],
-    "matched_keywords": {},
-    "summary": "Le nouveau classement mondial montre que, sur les marchés de la construction de bâtiments complexes, la capacité à garantir la maîtrise des coûts, le respect des délais et la fiabilité des livraisons devient un avantage concurrentiel AMSTERDAM, 13 juillet 2026 /PRNewswire/ -- Arcadis..."
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities Exchange Act..."
   },
   {
-    "title": "Geneva retains top spot in Arcadis' 2026 global construction cost rankings as clients seek greater control over delivery certainty",
-    "url": "https://www.prnewswire.com/news-releases/geneva-retains-top-spot-in-arcadis-2026-global-construction-cost-rankings-as-clients-seek-greater-control-over-delivery-certainty-302822761.html",
+    "title": "BRCB Investors Have Opportunity to Lead Black Rock Coffee Bar, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/brcb-investors-have-opportunity-to-lead-black-rock-coffee-bar-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823559.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T05:00:00+00:00",
-    "raw_text": "New global ranking shows that in complex buildings markets, the ability to assure cost, schedule and delivery confidence is becoming a source of competitive advantage AMSTERDAM, July 13, 2026 /PRNewswire/ -- Arcadis (EURONEXT: ARCAD), the world's leading company delivering data-driven...",
+    "published": "2026-07-13T07:35:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the...",
     "categories": [
-      "Uncategorised"
+      "Cloud Infrastructure"
     ],
-    "matched_keywords": {},
-    "summary": "New global ranking shows that in complex buildings markets, the ability to assure cost, schedule and delivery confidence is becoming a source of competitive advantage AMSTERDAM, July 13, 2026 /PRNewswire/ -- Arcadis (EURONEXT: ARCAD), the world's leading company delivering data-driven..."
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the..."
   },
   {
-    "title": "Climate and Net Zero Energy Debate Challenge issued by Friends of Science Society to UN Group by Same Name",
-    "url": "https://www.prnewswire.com/news-releases/climate-and-net-zero-energy-debate-challenge-issued-by-friends-of-science-society-to-un-group-by-same-name-302823381.html",
+    "title": "CALX Investors Have Opportunity to Lead Calix, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/calx-investors-have-opportunity-to-lead-calix-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823560.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T05:00:00+00:00",
-    "raw_text": "CALGARY, Alberta, July 13, 2026 /PRNewswire/ -- As the Friends of Science Society celebrates its 24ᵗʰ year of operation, they issue a debate challenge on climate and Net Zero targets, to the upstart UN \"Friends of Science\" group, described in this June 17, 2026, report by Inside Climate...",
+    "published": "2026-07-13T07:35:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Calix, Inc. (\"Calix\" or \"the Company\") (NYSE: CALX) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934...",
     "categories": [
-      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Calix, Inc. (\"Calix\" or \"the Company\") (NYSE: CALX) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934..."
+  },
+  {
+    "title": "BTGO Investors Have Opportunity to Lead BitGo Holdings, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/btgo-investors-have-opportunity-to-lead-bitgo-holdings-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823557.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:34:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Investors who...",
+    "categories": [
+      "Cloud Infrastructure",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "CALGARY, Alberta, July 13, 2026 /PRNewswire/ -- As the Friends of Science Society celebrates its 24ᵗʰ year of operation, they issue a debate challenge on climate and Net Zero targets, to the upstart UN \"Friends of Science\" group, described in this June 17, 2026, report by Inside Climate..."
-  },
-  {
-    "title": "New clinical data on the Leqembi® subcutaneous autoinjector presented at AAIC® 2026 support similar efficacy and safety to IV formulation in early Alzheimer's disease",
-    "url": "https://www.prnewswire.com/news-releases/new-clinical-data-on-the-leqembi-subcutaneous-autoinjector-presented-at-aaic-2026-support-similar-efficacy-and-safety-to-iv-formulation-in-early-alzheimers-disease-302823525.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:08:00+00:00",
-    "raw_text": "STOCKHOLM, July 13, 2026 /PRNewswire/ -- BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today presented new data at the 2026 Alzheimer's Association International Conference (AAIC), held in London, July 12-15, demonstrating that the Leqembi (lecanemab) subcutaneous...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "STOCKHOLM, July 13, 2026 /PRNewswire/ -- BioArctic AB's (publ) (Nasdaq Stockholm: BIOA B) partner Eisai today presented new data at the 2026 Alzheimer's Association International Conference (AAIC), held in London, July 12-15, demonstrating that the Leqembi (lecanemab) subcutaneous..."
-  },
-  {
-    "title": "Ruins highlight efforts to trace, preserve roots",
-    "url": "https://www.prnewswire.com/news-releases/ruins-highlight-efforts-to-trace-preserve-roots-302823522.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:03:00+00:00",
-    "raw_text": "BEIJING, July 13, 2026 /PRNewswire/ -- A report from China Daily Numerous exquisite bronze and other items from the earliest recorded time of Chinese civilization are testament to a widely spreading kingship of China's Central Plains, as well as China's oldest-known writing system and...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "BEIJING, July 13, 2026 /PRNewswire/ -- A report from China Daily Numerous exquisite bronze and other items from the earliest recorded time of Chinese civilization are testament to a widely spreading kingship of China's Central Plains, as well as China's oldest-known writing system and..."
-  },
-  {
-    "title": "EXTRAIT DE LA CONFÉRENCE INTERNATIONALE DE L'ASSOCIATION ALZHEIMER 2026 : UN PROGRAMME AXÉ SUR LE MODE DE VIE AMÉLIORE LA SANTÉ CÉRÉBRALE CHEZ LES PERSONNES ÂGÉES À RISQUE DE DÉMENCE EN AMÉRIQUE LATINE",
-    "url": "https://www.prnewswire.com/news-releases/extrait-de-la-conference-internationale-de-lassociation-alzheimer-2026--un-programme-axe-sur-le-mode-de-vie-ameliore-la-sante-cerebrale-chez-les-personnes-agees-a-risque-de-demence-en-amerique-latine-302823473.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:01:00+00:00",
-    "raw_text": "- Les conclusions de l'étude LatAm-FINGERS confirment et complètent les résultats de l'essai américain POINTER - - Elles démontrent que les stratégies structurées de réduction du risque de démence sont adaptables à différentes cultures - Points essentiels L'étude LatAm-FINGERS montre que...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "- Les conclusions de l'étude LatAm-FINGERS confirment et complètent les résultats de l'essai américain POINTER - - Elles démontrent que les stratégies structurées de réduction du risque de démence sont adaptables à différentes cultures - Points essentiels L'étude LatAm-FINGERS montre que..."
-  },
-  {
-    "title": "AUS DER INTERNATIONALEN KONFERENZ DER ALZHEIMER'S ASSOCIATION 2026: EIN LEBENSSTILPROGRAMM VERBESSERT DIE GEHIRNGESUNDHEIT BEI ÄLTEREN ERWACHSENEN MIT DEM RISIKO EINER DEMENZ IN GANZ LATEINAMERIKA",
-    "url": "https://www.prnewswire.com/news-releases/aus-der-internationalen-konferenz-der-alzheimers-association-2026-ein-lebensstilprogramm-verbessert-die-gehirngesundheit-bei-alteren-erwachsenen-mit-dem-risiko-einer-demenz-in-ganz-lateinamerika-302823482.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:01:00+00:00",
-    "raw_text": "- Die Ergebnisse der LatAm-FINGERS-Studie bestätigen und erweitern die Ergebnisse der US-amerikanischen POINTER-Studie – – zeigen, dass strukturierte Strategien zur Senkung des Demenzrisikos kulturübergreifend anwendbar sind – Wichtigste Erkenntnisse Die LatAm-FINGERS-Studie zeigt, dass...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "- Die Ergebnisse der LatAm-FINGERS-Studie bestätigen und erweitern die Ergebnisse der US-amerikanischen POINTER-Studie – – zeigen, dass strukturierte Strategien zur Senkung des Demenzrisikos kulturübergreifend anwendbar sind – Wichtigste Erkenntnisse Die LatAm-FINGERS-Studie zeigt, dass..."
-  },
-  {
-    "title": "DE LA ALZHEIMER'S ASSOCIATION INTERNATIONAL CONFERENCE 2026 PROGRAMA DE ESTILO DE VIDA MEJORA LA SALUD CEREBRAL ENTRE ADULTOS MAYORES EN RIESGO DE DEMENCIA EN AMÉRICA LATINA",
-    "url": "https://www.prnewswire.com/news-releases/de-la-alzheimer-s-association-international-conference-2026-programa-de-estilo-de-vida-mejora-la-salud-cerebral-entre-adultos-mayores-en-riesgo-de-demencia-en-america-latina-830429542.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:01:00+00:00",
-    "raw_text": "- Los hallazgos del estudio LatAm-FINGERS confirman y amplían los resultados DEL ENSAYO POINTER de EE. UU. -- Muestran estrategias estructuradas de reducción del riesgo de demencia adaptables a todas las culturas - Aspectos clave El estudio LatAm-FINGERS muestra que las intervenciones de...",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "esg"
-      ]
-    },
-    "summary": "- Los hallazgos del estudio LatAm-FINGERS confirman y amplían los resultados DEL ENSAYO POINTER de EE. UU. -- Muestran estrategias estructuradas de reducción del riesgo de demencia adaptables a todas las culturas - Aspectos clave El estudio LatAm-FINGERS muestra que las intervenciones de..."
-  },
-  {
-    "title": "ALZHEIMER'S ASSOCIATION LAUNCHES \"PROTECT-COG\" STUDY TO TEST U.S. POINTER LIFESTYLE AND GLP-1 OR SIMILAR DRUG TO CUT RISK OF COGNITIVE DECLINE",
-    "url": "https://www.prnewswire.com/news-releases/alzheimers-association-launches-protect-cog-study-to-test-us-pointer-lifestyle-and-glp-1-or-similar-drug-to-cut-risk-of-cognitive-decline-302823408.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:01:00+00:00",
-    "raw_text": "LONDON, July 13, 2026 /PRNewswire/ -- The Alzheimer's Association today announced the launch of the PROTECT-Cog Study (Prevention of Risk fOr cogniTive dEcline through Combined Therapy), a first-of-its-kind global clinical trial designed to evaluate whether combining a proven multidomain...",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "LONDON, July 13, 2026 /PRNewswire/ -- The Alzheimer's Association today announced the launch of the PROTECT-Cog Study (Prevention of Risk fOr cogniTive dEcline through Combined Therapy), a first-of-its-kind global clinical trial designed to evaluate whether combining a proven multidomain..."
-  },
-  {
-    "title": "FROM THE ALZHEIMER'S ASSOCIATION INTERNATIONAL CONFERENCE 2026 LIFESTYLE PROGRAM IMPROVES BRAIN HEALTH AMONG OLDER ADULTS AT RISK FOR DEMENTIA ACROSS LATIN AMERICA",
-    "url": "https://www.prnewswire.com/news-releases/from-the-alzheimers-association-international-conference-2026-lifestyle-program-improves-brain-health-among-older-adults-at-risk-for-dementia-across-latin-america-302823398.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:01:00+00:00",
-    "raw_text": "- LatAm-FINGERS Study Findings Confirm and Expand U.S. POINTER Trial Results - - Show Structured Dementia Risk Reduction Strategies Adaptable Across Cultures - Key Takeaways The LatAm-FINGERS study shows lifestyle interventions adapted across Latin American cultures, health systems and...",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "- LatAm-FINGERS Study Findings Confirm and Expand U.S. POINTER Trial Results - - Show Structured Dementia Risk Reduction Strategies Adaptable Across Cultures - Key Takeaways The LatAm-FINGERS study shows lifestyle interventions adapted across Latin American cultures, health systems and..."
-  },
-  {
-    "title": "Antengene Announces Receipt of USD 60 Million Upfront Payment from UCB",
-    "url": "https://www.prnewswire.com/news-releases/antengene-announces-receipt-of-usd-60-million-upfront-payment-from-ucb-302823509.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-13T04:00:00+00:00",
-    "raw_text": "SHANGHAI and HONG KONG, July 13, 2026 /PRNewswire/ -- Antengene Corporation Limited (\"Antengene\", SEHK: 6996.HK), a leading innovative, commercial-stage global biotech company dedicated to discovering, developing and commercializing first-in-class and/or best-in-class medicines for...",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "iot"
+      "Cloud Infrastructure": [
+        "aws"
       ],
       "Industry & Market": [
         "announces"
       ]
     },
-    "summary": "SHANGHAI and HONG KONG, July 13, 2026 /PRNewswire/ -- Antengene Corporation Limited (\"Antengene\", SEHK: 6996.HK), a leading innovative, commercial-stage global biotech company dedicated to discovering, developing and commercializing first-in-class and/or best-in-class medicines for..."
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Investors who..."
   },
   {
-    "title": "STL gewinnt Patentstreit in Europa eindeutig und bekräftigt sein Engagement für den Schutz seiner Innovationen und seines geistigen Eigentums",
-    "url": "https://www.prnewswire.com/news-releases/stl-gewinnt-patentstreit-in-europa-eindeutig-und-bekraftigt-sein-engagement-fur-den-schutz-seiner-innovationen-und-seines-geistigen-eigentums-302823514.html",
+    "title": "BMI Investors Have Opportunity to Lead Badger Meter, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/bmi-investors-have-opportunity-to-lead-badger-meter-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823556.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T03:58:00+00:00",
-    "raw_text": "LONDON, 13. Juli 2026 /PRNewswire/ -- STL (NSE: STLTECH), ein führender Anbieter von Konnektivitätslösungen für KI-fähige digitale Infrastruktur, gab heute einen endgültigen Sieg in seinem europäischen Patentstreit mit Fujikura Ltd. bekannt. Die Technische Beschwerdekammer des...",
+    "published": "2026-07-13T07:33:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act...",
     "categories": [
-      "Uncategorised"
+      "Cloud Infrastructure"
     ],
-    "matched_keywords": {},
-    "summary": "LONDON, 13. Juli 2026 /PRNewswire/ -- STL (NSE: STLTECH), ein führender Anbieter von Konnektivitätslösungen für KI-fähige digitale Infrastruktur, gab heute einen endgültigen Sieg in seinem europäischen Patentstreit mit Fujikura Ltd. bekannt. Die Technische Beschwerdekammer des..."
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act..."
   },
   {
-    "title": "Sungrow and TÜV Rheinland Redefine Industry Rule: World's First Inverter Long-Term Reliability Corporate Standards Released",
-    "url": "https://www.prnewswire.com/news-releases/sungrow-and-tuv-rheinland-redefine-industry-rule-worlds-first-inverter-long-term-reliability-corporate-standards-released-302823493.html",
+    "title": "Telecom operators gain faster access to the Smart Home Security market through Egardia's new wholesale platform",
+    "url": "https://www.prnewswire.com/news-releases/telecom-operators-gain-faster-access-to-the-smart-home-security-market-through-egardias-new-wholesale-platform-302822729.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T03:21:00+00:00",
-    "raw_text": "MUNICH, July 13, 2026 /PRNewswire/ -- During the Intersolar Europe 2026 exhibition, Sungrow and TÜV Rheinland jointly launched the world's first quantitative long-term reliability standards for PV inverters, including 2 PfG 3325 Reliability test qualification for IGBT modules in...",
+    "published": "2026-07-13T07:30:00+00:00",
+    "raw_text": "First deployment with Sunrise demonstrates a new route for telecom providers to launch subscription-based home security services GORINCHEM, Netherlands, July 13, 2026 /PRNewswire/ -- Telecom operators are increasingly looking beyond connectivity for new sources of recurring revenue and...",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan",
+        "connectivity",
+        "telecom"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "First deployment with Sunrise demonstrates a new route for telecom providers to launch subscription-based home security services GORINCHEM, Netherlands, July 13, 2026 /PRNewswire/ -- Telecom operators are increasingly looking beyond connectivity for new sources of recurring revenue and..."
+  },
+  {
+    "title": "Tomocube lance le HT-T1 Desktop pour l'analyse 3D des défauts des substrats de verre dans le conditionnement avancé",
+    "url": "https://www.prnewswire.com/news-releases/tomocube-lance-le-ht-t1-desktop-pour-lanalyse-3d-des-defauts-des-substrats-de-verre-dans-le-conditionnement-avance-302822589.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:30:00+00:00",
+    "raw_text": "Fournit une analyse 3D non destructive de l'emplacement, de la morphologie et du profil de profondeur des défauts internes dans les substrats de verre. Présente TAMI, une plateforme logicielle dédiée à l'analyse 3D qui relie l'analyse R&D à l'inspection directement sur la ligne de...",
     "categories": [
       "Networks"
     ],
@@ -625,23 +770,187 @@
         "lan"
       ]
     },
-    "summary": "MUNICH, July 13, 2026 /PRNewswire/ -- During the Intersolar Europe 2026 exhibition, Sungrow and TÜV Rheinland jointly launched the world's first quantitative long-term reliability standards for PV inverters, including 2 PfG 3325 Reliability test qualification for IGBT modules in..."
+    "summary": "Fournit une analyse 3D non destructive de l'emplacement, de la morphologie et du profil de profondeur des défauts internes dans les substrats de verre. Présente TAMI, une plateforme logicielle dédiée à l'analyse 3D qui relie l'analyse R&D à l'inspection directement sur la ligne de..."
   },
   {
-    "title": "VoicePing releases VoicePing 3.0 for enterprise multilingual communication",
-    "url": "https://www.prnewswire.com/news-releases/voiceping-releases-voiceping-3-0-for-enterprise-multilingual-communication-302823495.html",
+    "title": "Tomocube präsentiert HT-T1 Desktop für die 3D-Defektanalyse von Glassubstraten im Advanced Packaging",
+    "url": "https://www.prnewswire.com/news-releases/tomocube-prasentiert-ht-t1-desktop-fur-die-3d-defektanalyse-von-glassubstraten-im-advanced-packaging-302822587.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-13T03:21:00+00:00",
-    "raw_text": "The latest version brings together real-time translation, AI meeting minutes, voice output, terminology dictionaries, MCP/API access, QR-based event translation, file transcription, subtitles, AI dubbing, virtual office collaboration, enterprise administration, and new VoicePing ASR and...",
+    "published": "2026-07-13T07:30:00+00:00",
+    "raw_text": "Bietet eine zerstörungsfreie 3D-Analyse von Position, Morphologie und Tiefenprofil interner Defekte in Glassubstraten. Einführung von TAMI, einer dedizierten 3D-Analyse-Softwareplattform, die F&E-Analyse mit der Überprüfung in der Produktionslinie verbindet. Beschleunigt die...",
     "categories": [
-      "GRC"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Bietet eine zerstörungsfreie 3D-Analyse von Position, Morphologie und Tiefenprofil interner Defekte in Glassubstraten. Einführung von TAMI, einer dedizierten 3D-Analyse-Softwareplattform, die F&E-Analyse mit der Überprüfung in der Produktionslinie verbindet. Beschleunigt die..."
+  },
+  {
+    "title": "Tomocube Launches HT-T1 Desktop for 3D Glass Substrate Defect Analysis in Advanced Packaging",
+    "url": "https://www.prnewswire.com/news-releases/tomocube-launches-ht-t1-desktop-for-3d-glass-substrate-defect-analysis-in-advanced-packaging-302822582.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:30:00+00:00",
+    "raw_text": "Provides non-destructive 3D analysis of the location, morphology, and depth profile of internal defects in glass substrates Introduces TAMI, a dedicated 3D analysis software platform that connects R&D analysis with production-line review Accelerates root-cause analysis and yield learning...",
+    "categories": [
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "GRC": [
-        "nist"
+      "Industry & Market": [
+        "launches"
       ]
     },
-    "summary": "The latest version brings together real-time translation, AI meeting minutes, voice output, terminology dictionaries, MCP/API access, QR-based event translation, file transcription, subtitles, AI dubbing, virtual office collaboration, enterprise administration, and new VoicePing ASR and..."
+    "summary": "Provides non-destructive 3D analysis of the location, morphology, and depth profile of internal defects in glass substrates Introduces TAMI, a dedicated 3D analysis software platform that connects R&D analysis with production-line review Accelerates root-cause analysis and yield learning..."
+  },
+  {
+    "title": "Tomocube lanza el HT-T1 Desktop para el análisis de defectos en 3D de sustratos de vidrio en el empaquetado Avanzado",
+    "url": "https://www.prnewswire.com/news-releases/tomocube-lanza-el-ht-t1-desktop-para-el-analisis-de-defectos-en-3d-de-sustratos-de-vidrio-en-el-empaquetado-avanzado-302822586.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:30:00+00:00",
+    "raw_text": "Proporciona un análisis 3D no destructivo de la ubicación, morfología y perfil de profundidad de los defectos internos en los sustratos de vidrio. Presenta TAMI, una plataforma de software de análisis 3D dedicada que conecta el análisis de I+D con la inspección en la línea de producción....",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Proporciona un análisis 3D no destructivo de la ubicación, morfología y perfil de profundidad de los defectos internos en los sustratos de vidrio. Presenta TAMI, una plataforma de software de análisis 3D dedicada que conecta el análisis de I+D con la inspección en la línea de producción...."
+  },
+  {
+    "title": "AVAV Investors Have Opportunity to Lead AeroVironment, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/avav-investors-have-opportunity-to-lead-aerovironment-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823554.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:29:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "Gentoo Media appoints Måns Svalborn as Chief Financial Officer",
+    "url": "https://www.prnewswire.com/news-releases/gentoo-media-appoints-mans-svalborn-as-chief-financial-officer-302823615.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:29:00+00:00",
+    "raw_text": "BIRKIRKARA, Malta, July 13, 2026 /PRNewswire/ -- Gentoo Media announces the appointment of Måns Svalborn as Chief Financial Officer. Måns is expected to join the company in early October 2026. Måns brings more than 20 years of financial leadership experience, including over six years as...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "BIRKIRKARA, Malta, July 13, 2026 /PRNewswire/ -- Gentoo Media announces the appointment of Måns Svalborn as Chief Financial Officer. Måns is expected to join the company in early October 2026. Måns brings more than 20 years of financial leadership experience, including over six years as..."
+  },
+  {
+    "title": "ADMA Investors Have Opportunity to Lead ADMA Biologics, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/adma-investors-have-opportunity-to-lead-adma-biologics-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823549.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:26:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against ADMA Biologics, Inc. (\"ADMA\" or \"the Company\") (NASDAQ: ADMA) for violations of §§10(b) and 20(a) of the Securities Exchange...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against ADMA Biologics, Inc. (\"ADMA\" or \"the Company\") (NASDAQ: ADMA) for violations of §§10(b) and 20(a) of the Securities Exchange..."
+  },
+  {
+    "title": "BTU Investors Have Opportunity to Lead Peabody Energy Corporation Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/btu-investors-have-opportunity-to-lead-peabody-energy-corporation-securities-fraud-lawsuit-with-the-schall-law-firm-302823547.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:24:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "PLAB Investors Have Opportunity to Lead Photronics, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/plab-investors-have-opportunity-to-lead-photronics-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302823544.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:22:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Photronics, Inc. (\"Photronics\" or \"the Company\") (NASDAQ: PLAB) for violations of §§10(b) and 20(a) of the Securities Exchange...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Photronics, Inc. (\"Photronics\" or \"the Company\") (NASDAQ: PLAB) for violations of §§10(b) and 20(a) of the Securities Exchange..."
+  },
+  {
+    "title": "RBLX Investors Have Opportunity to Lead Roblox Corporation Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/rblx-investors-have-opportunity-to-lead-roblox-corporation-securities-fraud-lawsuit-with-the-schall-law-firm-302823542.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-13T07:17:00+00:00",
+    "raw_text": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Roblox Corporation (\"Roblox\" or \"the Company\") (NYSE: RBLX) for violations of §§10(b) and 20(a) of the Securities Exchange Act...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 13, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Roblox Corporation (\"Roblox\" or \"the Company\") (NYSE: RBLX) for violations of §§10(b) and 20(a) of the Securities Exchange Act..."
+  },
+  {
+    "title": "WeRide Accelerates Global Expansion of Its End-to-End Intelligent Driving Solution",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325931/0/en/WeRide-Accelerates-Global-Expansion-of-Its-End-to-End-Intelligent-Driving-Solution.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-13T07:45:00+00:00",
+    "raw_text": "WeRide disclosed its international progress of its L2++ intelligent driving business",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "WeRide disclosed its international progress of its L2++ intelligent driving business"
+  },
+  {
+    "title": "2026 Ningbo City Image Exhibition · Spain Screening Successfully Held in Madrid",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325928/0/en/2026-Ningbo-City-Image-Exhibition-Spain-Screening-Successfully-Held-in-Madrid.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-13T07:38:00+00:00",
+    "raw_text": "MADRID, July 13, 2026 (GLOBE NEWSWIRE) -- The 2026 Ningbo City Image Exhibition · Spain Screening, the fifth stop of the brand’s overseas tour, kicked off successfully at the Complutense University of Madrid on June 24 (local time). Adopting the theme of “Land and Sea Hub, One Heart on the Silk Road”, the event consisted of three featured modules: Ningbo-themed Short Film Screening, Post-screening Cultural Salon and Ningbo Culture Showcase. It drew a large crowd of hundreds of on-site participants, including university faculty and students, local cinephiles and art lovers, presenting Ningbo’s open, inclusive urban temperament and vigorous youthful image creation vitality to overseas audiences.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "MADRID, July 13, 2026 (GLOBE NEWSWIRE) -- The 2026 Ningbo City Image Exhibition · Spain Screening, the fifth stop of the brand’s overseas tour, kicked off successfully at the Complutense University of Madrid on June 24 (local time). Adopting the theme of “Land and Sea Hub, One Heart on the Silk Road”, the event consisted of three featured modules: Ningbo-themed Short Film Screening, Post-screening Cultural Salon and Ningbo Culture Showcase. It drew a large crowd of hundreds of on-site participants, including university faculty and students, local cinephiles and art lovers, presenting Ningbo’s open, inclusive urban temperament and vigorous youthful image creation vitality to overseas audiences."
+  },
+  {
+    "title": "Oxford Brain Diagnostics Advances Vision for Measuring Brain Health and Neurodegenerative Disease with Five New Studies at AAIC 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325921/0/en/Oxford-Brain-Diagnostics-Advances-Vision-for-Measuring-Brain-Health-and-Neurodegenerative-Disease-with-Five-New-Studies-at-AAIC-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-13T07:00:00+00:00",
+    "raw_text": "Oxford Brain Diagnostics Advances Vision for Measuring Brain Health and Neurodegenerative Disease with Five New Studies at AAIC 2026",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Oxford Brain Diagnostics Advances Vision for Measuring Brain Health and Neurodegenerative Disease with Five New Studies at AAIC 2026"
   },
   {
     "title": "SCENESSE® approved for EPP in Canada",
