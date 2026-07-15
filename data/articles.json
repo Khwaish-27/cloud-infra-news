@@ -1,5 +1,24 @@
 [
   {
+    "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+    "url": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+    "source": "The Hacker News",
+    "published": "2026-07-15T05:30:21+00:00",
+    "raw_text": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "zero-day",
+        "exploit"
+      ]
+    },
+    "summary": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to"
+  },
+  {
     "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
     "url": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
     "source": "The Hacker News",
@@ -408,31 +427,6 @@
     "summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bash_history. From that one lapse, French security firm Lexfo lifted the operator's entire toolkit and pivoted through it to two more"
   },
   {
-    "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
-    "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-    "source": "The Hacker News",
-    "published": "2026-07-13T05:36:02+00:00",
-    "raw_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "zero-day",
-        "exploit",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation in the wild. The vulnerabilities, both rated 10.0 on the CVSS scoring system, are below - CVE-2026-48939 - A vulnerability in the"
-  },
-  {
     "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
     "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
     "source": "BleepingComputer",
@@ -760,6 +754,23 @@
     "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb."
   },
   {
+    "title": "SingGuard-NSFA: Open-source guardrails for agentic AI",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/singguard-nsfa-open-source-agentic-ai-guardrails/",
+    "source": "Help Net Security",
+    "published": "2026-07-15T05:30:57+00:00",
+    "raw_text": "SingGuard-NSFA is an open-source guardrail framework aimed at operational threats in agent workflows. Four models ship at 0.8B, 2B, 4B, and 9B parameters, all built on Qwen3.5 base backbones. Risk taxonomy The NSFA risk taxonomy organizes threats along the CIA triad of confidentiality, integrity, and availability. It defines 185 risk variants grouped under a smaller set of top-level domains and mid-level categories, cross-validated against three OWASP guidelines. Five top-level domains cover query-side threats: prompt injection … More → The post SingGuard-NSFA: Open-source guardrails for agentic AI appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "SingGuard-NSFA is an open-source guardrail framework aimed at operational threats in agent workflows. Four models ship at 0.8B, 2B, 4B, and 9B parameters, all built on Qwen3.5 base backbones. Risk taxonomy The NSFA risk taxonomy organizes threats along the CIA triad of confidentiality, integrity, and availability. It defines 185 risk variants grouped under a smaller set of top-level domains and mid-level categories, cross-validated against three OWASP guidelines."
+  },
+  {
     "title": "The MDR renewal question: What changes when AI can handle the alerts",
     "url": "https://www.helpnetsecurity.com/2026/07/15/prophet-security-managed-detection-response-alternatives/",
     "source": "Help Net Security",
@@ -956,22 +967,6 @@
     "summary": "The vast majority of UEFI computers carry a Microsoft certificate that will trust a small first-stage loader called a shim, a program Microsoft signs so that Linux and assorted boot tools can run with Secure Boot on. Eleven of those signed shims turned out to be old enough to undo the protection they were meant to support. ESET researchers found the vulnerable versions, all at 0.9 or below, and Microsoft revoked them in its June … More → The post No one knows how many old shims can still bypass UEFI Secure Boot appeared first on Help Net Security ."
   },
   {
-    "title": "UK charges five persons linked to fraud platform behind more than a million scam calls",
-    "url": "https://www.helpnetsecurity.com/2026/07/14/russian-coms-nca-charges-scam-calls/",
-    "source": "Help Net Security",
-    "published": "2026-07-14T09:18:14+00:00",
-    "raw_text": "Five people have been charged in the UK following a National Crime Agency (NCA) investigation into Russian Coms, a caller ID spoofing service used by fraudsters. Ayoub Sehailia, 28, Zakkaria Sehailia, 30, Usman Din, 30, Denis Ozmus, 29, and Fadila Salem, 53, all of London, are charged with offences that include conspiracy to supply articles for use in fraud, transferring and converting criminal property, and, for Zakkaria Sehailia, failing to comply with a notice to … More → The post UK charges five persons linked to fraud platform behind more than a million scam calls appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Five people have been charged in the UK following a National Crime Agency (NCA) investigation into Russian Coms, a caller ID spoofing service used by fraudsters. Ayoub Sehailia, 28, Zakkaria Sehailia, 30, Usman Din, 30, Denis Ozmus, 29, and Fadila Salem, 53, all of London, are charged with offences that include conspiracy to supply articles for use in fraud, transferring and converting criminal property, and, for Zakkaria Sehailia, failing to comply with a notice to … More → The post UK charges five persons linked to fraud platform behind more than a million scam calls appeared first on Help Net Security ."
-  },
-  {
     "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
     "url": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
     "source": "Dark Reading",
@@ -1147,6 +1142,25 @@
       ]
     },
     "summary": "An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal operations."
+  },
+  {
+    "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+    "url": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
+    "source": "SecurityWeek",
+    "published": "2026-07-15T05:19:42+00:00",
+    "raw_text": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cve",
+        "zero-day",
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek ."
   },
   {
     "title": "Microsoft Patches Record 622 Vulnerabilities, Including Two Exploited Zero-Days",
@@ -1332,23 +1346,6 @@
       ]
     },
     "summary": "A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules",
-    "url": "https://www.securityweek.com/pentagon-suspends-cmmc-phase-2-as-it-rethinks-contractor-cybersecurity-rules/",
-    "source": "SecurityWeek",
-    "published": "2026-07-14T06:37:50+00:00",
-    "raw_text": "A new CMMC review and reform task force will conduct a comprehensive review of the program. The post Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "A new CMMC review and reform task force will conduct a comprehensive review of the program. The post Pentagon Suspends CMMC Phase 2 as It Rethinks Contractor Cybersecurity Rules appeared first on SecurityWeek ."
   },
   {
     "title": "US: Pentagon Suspends CMMC Phase II Requirements for Defense Contractors",
@@ -1607,7 +1604,7 @@
     "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/",
     "source": "Google Cloud Blog",
     "published": "2026-07-14T16:00:00+00:00",
-    "raw_text": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude on Google Cloud is built for exactly this. Like Monet and water lilies , frontier models and the enterprise platforms are often better together. In our case, Claude brings the reasoning, and Google Cloud brings the managed infrastructure, global reach, and compliance posture that enterprises already run on. Calling Claude becomes operationally identical to calling any other Google Cloud service — same Identity and Access Management (IAM), same VPC Service controls , same observability — so teams are able to spend their time building features instead of running inference infrastructure. This post walks through what Claude on Google Cloud delivers in production across four areas: Managed infrastructure that gives engineers their time back Global endpoints that hold latency low, and uptime high for a worldwide user base Security and data-sovereignty controls inherited straight from Google Cloud Serving-layer features that keep cost and performance optimized at scale. Managed infrastructure that frees engineering time Claude on Google Cloud runs on fully managed infrastructure, so enterprise teams ship features instead of building clusters. Compute provisioning, auto-scaling logic, load balancing, and failover at frontier-model scale are handled by the platform — work that would otherwise occupy multiple teams full-time. Claude is available through Agent Platform's Model Garden as a Model-as-a-Service offering, ready to use over standard REST / JSON over HTTP/1.1 or HTTP/2 endpoints. Invoking Claude is operationally identical to invoking any other Google Cloud service: the same IAM policies , the same VPC controls, and the same observability stack via Cloud Logging and Cloud Monitoring . Serving Claude takes a few lines of Python using the AnthropicVertex client: code_block <ListValue: [StructValue([('code', 'from anthropic import AnthropicVertex\\r\\n\\r\\nclient = AnthropicVertex(\\r\\n project_id=\"your-project-id\",\\r\\n region=\"us\"\\r\\n)\\r\\n\\r\\nmessage = client.messages.create(\\r\\n model=\"claude-opus-4-8\",\\r\\n max_tokens=1024,\\r\\n messages=[{\"role\": \"user\", \"content\": \"Analyze this system architecture.\"}]\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa50c395910>)])]> The same AnthropicVertex client handles prompt caching, tool use, structured outputs, streaming, and adaptive thinking; for batch inference, use Vertex AI Batch Prediction . Authentication uses Application Default Credentials; requests automatically inherit your project's IAM and VPC configuration. Global reach with consistent latency and built-in failover Serving a worldwide user base from a single endpoint produces high tail latency and a single point of failure. Most enterprises can't replicate inference infrastructure across continents while keeping performance consistent. Agent Platform exposes three endpoint types for Claude, each solving a different production requirement: Global endpoints route requests to a region with available AI compute capacity. For example, if us-central1 is capacity-constrained, traffic redirects to europe-west1 or another region with available capacity. That’s automatic failover and geographic load balancing without application-side routing logic. Global endpoints are ideal for maximum availability and lowest cost. Regional endpoints like us-east5 or europe-west1 keep prompts, completions, and intermediate state inside a specific geographical boundary, making it ideal for low latency and data-residency requirements. Multi-region endpoints give U.S. or EU data residency without single-region dependency. They dynamically route across regional endpoints providing built-in resilience against regional outages and capacity constraints. The diagram below shows how applications reach Claude through these endpoint types, and how the Agent Platform serving layer routes traffic to the Compute AI clusters across regions: Serving Claude Models From Regional & Global Endpoints Serving Claude Models From Multi-Region Endpoints Serving Claude Models From Regional Endpoints Enterprise security and data sovereignty built in Regulated workloads — financial services, healthcare, and government — get enterprise-grade security and data sovereignty without trading compliance for convenience, and without re-engineering the hardest layer to control: inference, where prompts, completions, and intermediate state all flow through the serving stack. Claude on Agent Platform inherits Google Cloud's full security posture. FedRAMP High and HIPAA compliance enable deployment in government, healthcare, and financial services environments. VPC Service Controls let organizations define a perimeter around Agent Platform resources, preventing data exfiltration. IAM-native access control governs Claude endpoints with the same roles and policies that protect every other Google Cloud resource — no separate API keys to manage or rotate. Cloud Logging and Cloud Monitoring provide near real-time visibility into token usage, error rates, latency, and quota consumption. Combined with the regional and multi-region endpoints above, this gives regulated customers a path to running frontier AI in production without re-auditing their compliance posture. Optimized for cost and performance at scale In production, cost and performance drive every architectural decision. Getting both right requires capabilities from two layers: Claude's native model features, and Google Cloud's serving infrastructure. Agent Platform supports both, so teams can optimize across the stack without managing them separately. Claude-native capabilities, fully supported on Agent Platform These features are built into Claude and available on Agent Platform without any additional configuration: Prompt caching stores and reuses shared prefixes — long system prompts, legal documents, codebases — reducing request latency by up to 80% and cost by up to 90%. Streaming responses over server-sent events deliver tokens as they are generated, critical for chat interfaces and coding assistants where perceived latency matters. Extended and adaptive thinking lets Claude dynamically determine when and how much to reason through complex, multi-step problems — and allows users to dial the thinking effort directly, for example to control cost. Optimized for use cases like advanced code generation, mathematical reasoning, and multi-document analysis. Extended context windows up to 1M tokens (for Claude Opus 4.6,Sonnet 4.6 and newer models) enable long-document analysis, large codebase reasoning, and multi-turn conversations at depth. Google Cloud serving infrastructure Agent Platform adds its own serving-layer capabilities on top of Claude's native features: Batch prediction handles large-scale offline workloads — document classification, content moderation, bulk summarization — asynchronously at lower priority and reduced cost. Provisioned throughput reserves dedicated inference capacity for mission-critical workloads, isolating them from public traffic and ensuring predictable performance during peak demand. Memory management and scheduling for long-context requests is handled at the infrastructure layer,. Together, these two layers give teams the full range of optimization levers — from model-level efficiency to infrastructure-level capacity control — on a single, unified platform. From inference to agents The same infrastructure that serves Claude inference powers the agent layer of Agent Platform on Google Cloud. The build-and-register flow has three steps: Build with Claude. Claude is well-suited as an orchestration backbone — its extended context window, native tool use, and adaptive thinking make it effective at planning multi-step tasks and delegating to sub-agents. Pick Claude Opus, Sonnet, or Haiku from the Model Garden, then build with the Agent Development Kit (ADK) — code-first in Python, Go, Java, or TypeScript — deploy to Agent Runtime, Cloud Run or Google Kubernetes Engine. Deploy the Agent to a Runtime. Depending on your use case, select Agent Runtime, Google Kubernetes Engine or GKE Agent Sandbox to run your deployed agents. Interoperate over A2A. The Agent2Agent protocol runs at 150+ organizations, letting a registered Claude-powered agent delegate tasks to agents from SaaS and other service providers. The result: a planning agent built on Claude can orchestrate sub-tasks across the broader agent ecosystem, under unified IAM, fully auditable, on the same infrastructure that serves the underlying inference. Start building Open the Agent Platform console , enable Claude in the Model Garden, and make your first API call with the AnthropicVertex SDK. Add prompt caching, provisioned throughput, and other features as your workload demands. When you're ready to go agentic, learn more about Claude on Agent Platform . Reach out to your Google Cloud sales representative to discuss bringing Claude into your production environment at scale.",
+    "raw_text": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude on Google Cloud is built for exactly this. Like Monet and water lilies , frontier models and the enterprise platforms are often better together. In our case, Claude brings the reasoning, and Google Cloud brings the managed infrastructure, global reach, and compliance posture that enterprises already run on. Calling Claude becomes operationally identical to calling any other Google Cloud service — same Identity and Access Management (IAM), same VPC Service controls , same observability — so teams are able to spend their time building features instead of running inference infrastructure. This post walks through what Claude on Google Cloud delivers in production across four areas: Managed infrastructure that gives engineers their time back Global endpoints that hold latency low, and uptime high for a worldwide user base Security and data-sovereignty controls inherited straight from Google Cloud Serving-layer features that keep cost and performance optimized at scale. Managed infrastructure that frees engineering time Claude on Google Cloud runs on fully managed infrastructure, so enterprise teams ship features instead of building clusters. Compute provisioning, auto-scaling logic, load balancing, and failover at frontier-model scale are handled by the platform — work that would otherwise occupy multiple teams full-time. Claude is available through Agent Platform's Model Garden as a Model-as-a-Service offering, ready to use over standard REST / JSON over HTTP/1.1 or HTTP/2 endpoints. Invoking Claude is operationally identical to invoking any other Google Cloud service: the same IAM policies , the same VPC controls, and the same observability stack via Cloud Logging and Cloud Monitoring . Serving Claude takes a few lines of Python using the AnthropicVertex client: code_block <ListValue: [StructValue([('code', 'from anthropic import AnthropicVertex\\r\\n\\r\\nclient = AnthropicVertex(\\r\\n project_id=\"your-project-id\",\\r\\n region=\"us\"\\r\\n)\\r\\n\\r\\nmessage = client.messages.create(\\r\\n model=\"claude-opus-4-8\",\\r\\n max_tokens=1024,\\r\\n messages=[{\"role\": \"user\", \"content\": \"Analyze this system architecture.\"}]\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f2790de5700>)])]> The same AnthropicVertex client handles prompt caching, tool use, structured outputs, streaming, and adaptive thinking; for batch inference, use Vertex AI Batch Prediction . Authentication uses Application Default Credentials; requests automatically inherit your project's IAM and VPC configuration. Global reach with consistent latency and built-in failover Serving a worldwide user base from a single endpoint produces high tail latency and a single point of failure. Most enterprises can't replicate inference infrastructure across continents while keeping performance consistent. Agent Platform exposes three endpoint types for Claude, each solving a different production requirement: Global endpoints route requests to a region with available AI compute capacity. For example, if us-central1 is capacity-constrained, traffic redirects to europe-west1 or another region with available capacity. That’s automatic failover and geographic load balancing without application-side routing logic. Global endpoints are ideal for maximum availability and lowest cost. Regional endpoints like us-east5 or europe-west1 keep prompts, completions, and intermediate state inside a specific geographical boundary, making it ideal for low latency and data-residency requirements. Multi-region endpoints give U.S. or EU data residency without single-region dependency. They dynamically route across regional endpoints providing built-in resilience against regional outages and capacity constraints. The diagram below shows how applications reach Claude through these endpoint types, and how the Agent Platform serving layer routes traffic to the Compute AI clusters across regions: Serving Claude Models From Regional & Global Endpoints Serving Claude Models From Multi-Region Endpoints Serving Claude Models From Regional Endpoints Enterprise security and data sovereignty built in Regulated workloads — financial services, healthcare, and government — get enterprise-grade security and data sovereignty without trading compliance for convenience, and without re-engineering the hardest layer to control: inference, where prompts, completions, and intermediate state all flow through the serving stack. Claude on Agent Platform inherits Google Cloud's full security posture. FedRAMP High and HIPAA compliance enable deployment in government, healthcare, and financial services environments. VPC Service Controls let organizations define a perimeter around Agent Platform resources, preventing data exfiltration. IAM-native access control governs Claude endpoints with the same roles and policies that protect every other Google Cloud resource — no separate API keys to manage or rotate. Cloud Logging and Cloud Monitoring provide near real-time visibility into token usage, error rates, latency, and quota consumption. Combined with the regional and multi-region endpoints above, this gives regulated customers a path to running frontier AI in production without re-auditing their compliance posture. Optimized for cost and performance at scale In production, cost and performance drive every architectural decision. Getting both right requires capabilities from two layers: Claude's native model features, and Google Cloud's serving infrastructure. Agent Platform supports both, so teams can optimize across the stack without managing them separately. Claude-native capabilities, fully supported on Agent Platform These features are built into Claude and available on Agent Platform without any additional configuration: Prompt caching stores and reuses shared prefixes — long system prompts, legal documents, codebases — reducing request latency by up to 80% and cost by up to 90%. Streaming responses over server-sent events deliver tokens as they are generated, critical for chat interfaces and coding assistants where perceived latency matters. Extended and adaptive thinking lets Claude dynamically determine when and how much to reason through complex, multi-step problems — and allows users to dial the thinking effort directly, for example to control cost. Optimized for use cases like advanced code generation, mathematical reasoning, and multi-document analysis. Extended context windows up to 1M tokens (for Claude Opus 4.6,Sonnet 4.6 and newer models) enable long-document analysis, large codebase reasoning, and multi-turn conversations at depth. Google Cloud serving infrastructure Agent Platform adds its own serving-layer capabilities on top of Claude's native features: Batch prediction handles large-scale offline workloads — document classification, content moderation, bulk summarization — asynchronously at lower priority and reduced cost. Provisioned throughput reserves dedicated inference capacity for mission-critical workloads, isolating them from public traffic and ensuring predictable performance during peak demand. Memory management and scheduling for long-context requests is handled at the infrastructure layer,. Together, these two layers give teams the full range of optimization levers — from model-level efficiency to infrastructure-level capacity control — on a single, unified platform. From inference to agents The same infrastructure that serves Claude inference powers the agent layer of Agent Platform on Google Cloud. The build-and-register flow has three steps: Build with Claude. Claude is well-suited as an orchestration backbone — its extended context window, native tool use, and adaptive thinking make it effective at planning multi-step tasks and delegating to sub-agents. Pick Claude Opus, Sonnet, or Haiku from the Model Garden, then build with the Agent Development Kit (ADK) — code-first in Python, Go, Java, or TypeScript — deploy to Agent Runtime, Cloud Run or Google Kubernetes Engine. Deploy the Agent to a Runtime. Depending on your use case, select Agent Runtime, Google Kubernetes Engine or GKE Agent Sandbox to run your deployed agents. Interoperate over A2A. The Agent2Agent protocol runs at 150+ organizations, letting a registered Claude-powered agent delegate tasks to agents from SaaS and other service providers. The result: a planning agent built on Claude can orchestrate sub-tasks across the broader agent ecosystem, under unified IAM, fully auditable, on the same infrastructure that serves the underlying inference. Start building Open the Agent Platform console , enable Claude in the Model Garden, and make your first API call with the AnthropicVertex SDK. Add prompt caching, provisioned throughput, and other features as your workload demands. When you're ready to go agentic, learn more about Claude on Agent Platform . Reach out to your Google Cloud sales representative to discuss bringing Claude into your production environment at scale.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -2589,716 +2586,6 @@
     "summary": "As Steve Smith will retire at the end of August"
   },
   {
-    "title": "Australia demands AI companies must produce more energy than they consume, stop ‘theft’ of content",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/15/australia-demands-ai-companies-must-produce-more-energy-than-they-consume-stop-theft-of-content/5271535",
-    "source": "The Register",
-    "published": "2026-07-15T03:40:17+00:00",
-    "raw_text": "PM frames sweeping new regulations as the equivalent of labour movement touchstones like winning a minimum wage",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "regulation"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "PM frames sweeping new regulations as the equivalent of labour movement touchstones like winning a minimum wage"
-  },
-  {
-    "title": "Google Cloud's VMware service loses resilience due to a dud update",
-    "url": "https://www.theregister.com/virtualization/2026/07/15/google-clouds-vmware-service-loses-resilience-due-to-a-dud-update/5271511",
-    "source": "The Register",
-    "published": "2026-07-15T00:16:21+00:00",
-    "raw_text": "As VMware itself warns of critical flaw in its load balancer",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud"
-      ],
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "As VMware itself warns of critical flaw in its load balancer"
-  },
-  {
-    "title": "OpenAI hides Codex agent instructions behind encryption, leaving developers in the dark",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/15/openai-hides-codex-agent-instructions-behind-encryption-leaving-developers-in-the-dark/5271484",
-    "source": "The Register",
-    "published": "2026-07-14T23:00:33+00:00",
-    "raw_text": "Developers worry encrypted MultiAgentV2 messages will make debugging and auditing harder",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "encryption"
-      ],
-      "GRC": [
-        "audit"
-      ]
-    },
-    "summary": "Developers worry encrypted MultiAgentV2 messages will make debugging and auditing harder"
-  },
-  {
-    "title": "Patchpocalypse Now: Microsoft tops last month's record with 622 Patch Tuesday CVEs",
-    "url": "https://www.theregister.com/security/2026/07/14/patchpocalypse-now-microsoft-tops-last-months-record-with-622-patch-tuesday-cves/5271434",
-    "source": "The Register",
-    "published": "2026-07-14T20:49:40+00:00",
-    "raw_text": "Remember when last month's 206 CVEs seemed eye-watering? Yeah, those were the days",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cve"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Remember when last month's 206 CVEs seemed eye-watering? Yeah, those were the days"
-  },
-  {
-    "title": "If you want Claude to speak nicely to you, try Hindi or Arabic",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/if-you-want-claude-to-speak-nicely-to-you-try-hindi-or-arabic/5271409",
-    "source": "The Register",
-    "published": "2026-07-14T19:39:50+00:00",
-    "raw_text": "Anthropic finds Claude expresses different values across languages",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ]
-    },
-    "summary": "Anthropic finds Claude expresses different values across languages"
-  },
-  {
-    "title": "New York becomes first state to halt datacenter buildouts",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/new-york-becomes-first-state-to-halt-datacenter-buildouts/5271377",
-    "source": "The Register",
-    "published": "2026-07-14T18:30:57+00:00",
-    "raw_text": "50 MW-plus bit barn builds on hold while Empire State hashes out rules to protect the environment and ratepayers",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "datacenter"
-      ]
-    },
-    "summary": "50 MW-plus bit barn builds on hold while Empire State hashes out rules to protect the environment and ratepayers"
-  },
-  {
-    "title": "DeepMind bigbrain calls for America to set AI standards before it's too late",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/deepmind-bigbrain-calls-for-america-to-set-ai-standards-before-its-too-late/5271343",
-    "source": "The Register",
-    "published": "2026-07-14T16:44:00+00:00",
-    "raw_text": "Industry, regulate thyself",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Industry, regulate thyself"
-  },
-  {
-    "title": "Welsh Doxbin admin jailed for egging on swatters from behind a screen",
-    "url": "https://www.theregister.com/security/2026/07/14/welsh-doxbin-admin-jailed-for-egging-on-swatters-from-behind-a-screen/5271281",
-    "source": "The Register",
-    "published": "2026-07-14T16:09:00+00:00",
-    "raw_text": "Callum Dare encouraged others to carry out dangerous hoaxes, made mini-movies from the footage",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Callum Dare encouraged others to carry out dangerous hoaxes, made mini-movies from the footage"
-  },
-  {
-    "title": "Microsoft rolls out Windows Search updates and they're... quite good",
-    "url": "https://www.theregister.com/os-platforms/2026/07/14/microsoft-rolls-out-windows-search-updates-and-theyre-quite-good/5271320",
-    "source": "The Register",
-    "published": "2026-07-14T15:38:59+00:00",
-    "raw_text": "Who are you, and what have you done with Microsoft?",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Who are you, and what have you done with Microsoft?"
-  },
-  {
-    "title": "RISC-V firmware project wants every board booting from the same hymn sheet",
-    "url": "https://www.theregister.com/software/2026/07/14/risc-v-firmware-project-wants-every-board-booting-from-the-same-hymn-sheet/5271084",
-    "source": "The Register",
-    "published": "2026-07-14T15:01:44+00:00",
-    "raw_text": "HFI proposes a familiar PC-style route from power-on to operating system",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "HFI proposes a familiar PC-style route from power-on to operating system"
-  },
-  {
-    "title": "IBM's mainframe sales get mugged by AI hardware panic, stock sheds more than a quarter of its value",
-    "url": "https://www.theregister.com/on-prem/2026/07/14/ibms-mainframe-sales-get-mugged-by-ai-hardware-panic-stock-sheds-more-than-a-quarter-of-its-value/5271230",
-    "source": "The Register",
-    "published": "2026-07-14T14:16:36+00:00",
-    "raw_text": "CEO Krishna: Customers blew their Z budgets on servers and storage before prices spike, Q2 financials 'disappointing'",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ibm"
-      ]
-    },
-    "summary": "CEO Krishna: Customers blew their Z budgets on servers and storage before prices spike, Q2 financials 'disappointing'"
-  },
-  {
-    "title": "Sun sets on Vulcan Centaur as NASA moves SunRISE to SpaceX Falcon Heavy",
-    "url": "https://www.theregister.com/science/2026/07/14/sun-sets-on-vulcan-centaur-as-nasa-moves-sunrise-to-spacex-falcon-heavy/5271170",
-    "source": "The Register",
-    "published": "2026-07-14T13:40:16+00:00",
-    "raw_text": "Solar observatory awaits a new launch date after its original ride hit booster trouble",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Solar observatory awaits a new launch date after its original ride hit booster trouble"
-  },
-  {
-    "title": "Engineer shoves Linux peg through Sega 32X-shaped hole",
-    "url": "https://www.theregister.com/offbeat/2026/07/14/engineer-shoves-linux-peg-through-sega-32x-shaped-hole/5271028",
-    "source": "The Register",
-    "published": "2026-07-14T13:03:34+00:00",
-    "raw_text": "'Performance is abysmal, bus contention is bonkers, but it does work'",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "'Performance is abysmal, bus contention is bonkers, but it does work'"
-  },
-  {
-    "title": "Musk promises purge after Grok Build caught sending entire repos to the cloud",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/5271123",
-    "source": "The Register",
-    "published": "2026-07-14T12:39:03+00:00",
-    "raw_text": "Researcher confirms the uploads have stopped, but says xAI's privacy command was not what fixed them",
-    "categories": [
-      "Cloud Infrastructure",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "GRC": [
-        "privacy"
-      ]
-    },
-    "summary": "Researcher confirms the uploads have stopped, but says xAI's privacy command was not what fixed them"
-  },
-  {
-    "title": "'The bots are alive!' Jailbroken Gemini spun up new C2 server for Russian fraudster in just 6 minutes",
-    "url": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
-    "source": "The Register",
-    "published": "2026-07-14T12:15:00+00:00",
-    "raw_text": "Human did 10% of the job, AI did 90%",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Human did 10% of the job, AI did 90%"
-  },
-  {
-    "title": "Hands off our VPNs, privacy groups tell UK ministers",
-    "url": "https://www.theregister.com/networks/2026/07/14/hands-off-our-vpns-privacy-groups-tell-uk-ministers/5271070",
-    "source": "The Register",
-    "published": "2026-07-14T11:59:03+00:00",
-    "raw_text": "Mozilla, Proton, Tor warn ministers that targeting the tech risks creating more problems than it solves",
-    "categories": [
-      "GRC",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "vpn"
-      ],
-      "GRC": [
-        "nist",
-        "privacy"
-      ]
-    },
-    "summary": "Mozilla, Proton, Tor warn ministers that targeting the tech risks creating more problems than it solves"
-  },
-  {
-    "title": "Baddies caught exploiting extensions bugs with perfect 10 scores on vulnerable Joomla websites",
-    "url": "https://www.theregister.com/security/2026/07/14/baddies-caught-exploiting-extensions-bugs-with-perfect-10-scores-on-vulnerable-joomla-websites/5271001",
-    "source": "The Register",
-    "published": "2026-07-14T11:06:00+00:00",
-    "raw_text": "Flaws in iCagenda, Balbooa Forms extensions can impact open source CMS that powers a million sites worldwide",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Cybersecurity": [
-        "exploit"
-      ]
-    },
-    "summary": "Flaws in iCagenda, Balbooa Forms extensions can impact open source CMS that powers a million sites worldwide"
-  },
-  {
-    "title": "Frame: A new X11 server – implemented directly in assembly",
-    "url": "https://www.theregister.com/software/2026/07/14/frame-a-new-x11-server-implemented-directly-in-assembly/5270498",
-    "source": "The Register",
-    "published": "2026-07-14T10:37:00+00:00",
-    "raw_text": "Joins yserver, Phoenix, and of course XLibre – and outlier Arcan",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Joins yserver, Phoenix, and of course XLibre – and outlier Arcan"
-  },
-  {
-    "title": "India's crewed space mission is ready for splashdown, but not launch",
-    "url": "https://www.theregister.com/science/2026/07/14/indias-crewed-space-mission-is-ready-for-splashdown-but-not-launch/5270879",
-    "source": "The Register",
-    "published": "2026-07-14T09:57:00+00:00",
-    "raw_text": "Gaganyaan was supposed to fly in 2022 and make the country only the fourth to put people into orbit",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Gaganyaan was supposed to fly in 2022 and make the country only the fourth to put people into orbit"
-  },
-  {
-    "title": "How do you solve a problem like Capita?",
-    "url": "https://www.theregister.com/columnists/2026/07/14/how-do-you-solve-a-problem-like-capita/5270368",
-    "source": "The Register",
-    "published": "2026-07-14T09:14:00+00:00",
-    "raw_text": "Bringing troubled contracts in-house requires skills Whitehall is already struggling to recruit",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Bringing troubled contracts in-house requires skills Whitehall is already struggling to recruit"
-  },
-  {
-    "title": "Ministers arm under-16s social media ban with least surprising study of the year",
-    "url": "https://www.theregister.com/personal-tech/2026/07/14/ministers-arm-under-16s-social-media-ban-with-least-surprising-study-of-the-year/5270924",
-    "source": "The Register",
-    "published": "2026-07-14T08:30:00+00:00",
-    "raw_text": "Boffins confirm: taking away teens' phone makes them act like humans again",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Boffins confirm: taking away teens' phone makes them act like humans again"
-  },
-  {
-    "title": "Anthropic's extravagant tokenizer complicates AI pricing",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/anthropics-extravagant-tokenizer-complicates-ai-pricing/5270792",
-    "source": "The Register",
-    "published": "2026-07-14T06:28:00+00:00",
-    "raw_text": "Token consumption doesn't tell the whole tale but it shouldn't be ignored",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Token consumption doesn't tell the whole tale but it shouldn't be ignored"
-  },
-  {
-    "title": "Big Blue thinks small, again, with POWER tower",
-    "url": "https://www.theregister.com/systems/2026/07/14/big-blue-thinks-small-again-with-power-tower/5270851",
-    "source": "The Register",
-    "published": "2026-07-14T05:01:17+00:00",
-    "raw_text": "The last proprietary minicomputer, now in ‘deskside’ form if you fancy that",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The last proprietary minicomputer, now in ‘deskside’ form if you fancy that"
-  },
-  {
-    "title": "India’s tech services giant HCL is getting into the AI datacenter business",
-    "url": "https://www.theregister.com/off-prem/2026/07/14/indias-tech-services-giant-hcl-is-getting-into-the-ai-datacenter-business/5270827",
-    "source": "The Register",
-    "published": "2026-07-14T02:18:45+00:00",
-    "raw_text": "Starting small with $37m and maybe 50MW but reckons full-stack service plan can succeed",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "datacenter"
-      ]
-    },
-    "summary": "Starting small with $37m and maybe 50MW but reckons full-stack service plan can succeed"
-  },
-  {
-    "title": "Gobi X: Creating more energy for AI, not taking it from society",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/gobi-x-creating-more-energy-for-ai-not-taking-it-from-society/5270590",
-    "source": "The Register",
-    "published": "2026-07-14T01:00:00+00:00",
-    "raw_text": "PARTNER CONTENT: How Envision is reversing the datacenter playbook by making computing chase abundant desert power, not the other way around",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Data Centres": [
-        "datacenter"
-      ]
-    },
-    "summary": "PARTNER CONTENT: How Envision is reversing the datacenter playbook by making computing chase abundant desert power, not the other way around"
-  },
-  {
-    "title": "Zuck's AI ambitions put Meta on course to become America's next big cloud provider",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/zucks-ai-ambitions-put-meta-on-course-to-become-americas-next-big-cloud-provider/5270758",
-    "source": "The Register",
-    "published": "2026-07-13T23:37:22+00:00",
-    "raw_text": "Renting out spare compute is simply the natural progression for any sufficiently large infra company",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ]
-    },
-    "summary": "Renting out spare compute is simply the natural progression for any sufficiently large infra company"
-  },
-  {
-    "title": "Zig creator calls Bun’s Claude Rust rewrite ‘unreviewed slop’",
-    "url": "https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743",
-    "source": "The Register",
-    "published": "2026-07-13T23:21:17+00:00",
-    "raw_text": "The port took just 11 days and about $165,000 at API pricing",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The port took just 11 days and about $165,000 at API pricing"
-  },
-  {
-    "title": "Excel competition goes extreme, makes spreadsheet geeks compete from the street",
-    "url": "https://www.theregister.com/offbeat/2026/07/13/excel-competition-goes-extreme-makes-spreadsheet-geeks-compete-from-the-street/5270709",
-    "source": "The Register",
-    "published": "2026-07-13T20:18:09+00:00",
-    "raw_text": "Defending world champ Diarmuid Early wins again despite being forced to solve puzzles outdoors",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Defending world champ Diarmuid Early wins again despite being forced to solve puzzles outdoors"
-  },
-  {
-    "title": "The price is wrong: AI cost calculation has to consider task completion rates, not just token costs",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/the-price-is-wrong-ai-cost-calculation-has-to-consider-task-completion-rates-not-just-token-costs/5270683",
-    "source": "The Register",
-    "published": "2026-07-13T19:26:24+00:00",
-    "raw_text": "Cheap can be expensive",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Cheap can be expensive"
-  },
-  {
-    "title": "Microsoft chief turns hostile on frontier AI labs, warns companies to guard their IP",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/microsoft-chief-turns-hostile-on-frontier-ai-labs-warns-companies-to-guard-their-ip/5270628",
-    "source": "The Register",
-    "published": "2026-07-13T17:20:00+00:00",
-    "raw_text": "Lock it down, warns Satya Nadella, seemingly forgetting the billions Redmond chipped in to OpenAI back in the good old days",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Lock it down, warns Satya Nadella, seemingly forgetting the billions Redmond chipped in to OpenAI back in the good old days"
-  },
-  {
-    "title": "German firm files for insolvency, blames cybercrims who shut down production for 6 weeks",
-    "url": "https://www.theregister.com/cyber-crime/2026/07/13/german-firm-files-for-insolvency-blames-cybercrims-who-shut-down-production-for-6-weeks/5270524",
-    "source": "The Register",
-    "published": "2026-07-13T16:53:00+00:00",
-    "raw_text": "ZEGO-TVZ says the financial fallout from a March cyberattack left shutting its doors as the only option",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyberattack",
-        "cyber"
-      ]
-    },
-    "summary": "ZEGO-TVZ says the financial fallout from a March cyberattack left shutting its doors as the only option"
-  },
-  {
-    "title": "Astronomers find sugar near the creamy center of the Milky Way (no caramel, though)",
-    "url": "https://www.theregister.com/science/2026/07/13/astronomers-find-sugar-near-the-creamy-center-of-the-milky-way-no-caramel-though/5270593",
-    "source": "The Register",
-    "published": "2026-07-13T16:20:00+00:00",
-    "raw_text": "First interstellar monosaccharide suggests some of life's ingredients may be scattered across the galaxy",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "First interstellar monosaccharide suggests some of life's ingredients may be scattered across the galaxy"
-  },
-  {
-    "title": "Philips to replace bricked Hue Bridge Pro devices",
-    "url": "https://www.theregister.com/edge-and-iot/2026/07/13/philips-to-replace-bricked-hue-bridge-pro-devices/5270545",
-    "source": "The Register",
-    "published": "2026-07-13T15:50:00+00:00",
-    "raw_text": "Company releases a fresh firmware update. Go on, install it, we dare you...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Company releases a fresh firmware update. Go on, install it, we dare you..."
-  },
-  {
-    "title": "EU and UK officially blame Russian spies for cyberattack on Poland's power grid",
-    "url": "https://www.theregister.com/security/2026/07/13/uk-eu-officially-pin-poland-energy-cyberattack-on-russia/5270458",
-    "source": "The Register",
-    "published": "2026-07-13T15:39:52+00:00",
-    "raw_text": "Sweeping sanctions and condemnation follow op that could have left half a million without power in the depths of winter",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "cyberattack",
-        "cyber"
-      ]
-    },
-    "summary": "Sweeping sanctions and condemnation follow op that could have left half a million without power in the depths of winter"
-  },
-  {
-    "title": "SREs to AI agents: Prove yourself before you touch production",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/sres-to-ai-agents-prove-yourself-before-you-touch-production/5264658",
-    "source": "The Register",
-    "published": "2026-07-13T15:00:00+00:00",
-    "raw_text": "SPONSORED FEATURE: 696 experts find co-pilot welcome, autopilot not so much",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SPONSORED FEATURE: 696 experts find co-pilot welcome, autopilot not so much"
-  },
-  {
-    "title": "Sticker shock has execs rethinking this whole AI thing",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/sticker-shock-has-execs-rethinking-this-whole-ai-thing-1/5270073",
-    "source": "The Register",
-    "published": "2026-07-13T14:16:00+00:00",
-    "raw_text": "This week on The Reg's Kettle podcast, we wonder whether tokenminning is going to bring the industry back down to Earth",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "This week on The Reg's Kettle podcast, we wonder whether tokenminning is going to bring the industry back down to Earth"
-  },
-  {
-    "title": "Lucky 13: SpaceX aims for July 16 Starship flight test",
-    "url": "https://www.theregister.com/offbeat/2026/07/13/lucky-13-spacex-aims-for-july-16-starship-flight-test/5270434",
-    "source": "The Register",
-    "published": "2026-07-13T13:32:01+00:00",
-    "raw_text": "Hopefully, the rocket won't go in the same direction as the company's share price",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Hopefully, the rocket won't go in the same direction as the company's share price"
-  },
-  {
-    "title": "Microsoft emails Windows 10 holdouts: Fine, keep your old PC another year",
-    "url": "https://www.theregister.com/os-platforms/2026/07/13/microsoft-emails-windows-10-holdouts-fine-keep-your-old-pc-another-year/5270336",
-    "source": "The Register",
-    "published": "2026-07-13T13:02:00+00:00",
-    "raw_text": "Consumer security updates now run to October 2027, and Redmond doesn't mention Windows 11 once",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Consumer security updates now run to October 2027, and Redmond doesn't mention Windows 11 once"
-  },
-  {
-    "title": "World Cup grudge attackers may have scored Argentine FA access via year-old infostealer infection",
-    "url": "https://www.theregister.com/security/2026/07/13/world-cup-grudge-attackers-may-have-scored-argentine-fa-access-via-year-old-infostealer-infection/5270302",
-    "source": "The Register",
-    "published": "2026-07-13T12:02:00+00:00",
-    "raw_text": "Footie fans? Overreacting? There's a first time for everything",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Footie fans? Overreacting? There's a first time for everything"
-  },
-  {
-    "title": "HTTP gets a QUERY method so complex searches can stop pretending to be POST",
-    "url": "https://www.theregister.com/devops/2026/07/13/http-gets-a-query-method-so-complex-searches-can-stop-pretending-to-be-post/5270192",
-    "source": "The Register",
-    "published": "2026-07-13T11:15:00+00:00",
-    "raw_text": "New verb carries request content while remaining safe, idempotent, and cacheable",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "New verb carries request content while remaining safe, idempotent, and cacheable"
-  },
-  {
-    "title": "Progress orders emergency ShareFile server shutdown over mystery security threat",
-    "url": "https://www.theregister.com/security/2026/07/13/progress-orders-emergency-sharefile-server-shutdown-over-mystery-security-threat/5270281",
-    "source": "The Register",
-    "published": "2026-07-13T10:31:00+00:00",
-    "raw_text": "Vendor insists there's no evidence of unauthorized access, but it's asking customers to take one of the most drastic precautions available",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "security"
-      ],
-      "Industry & Market": [
-        "vendor"
-      ]
-    },
-    "summary": "Vendor insists there's no evidence of unauthorized access, but it's asking customers to take one of the most drastic precautions available"
-  },
-  {
-    "title": "Backup and running? Not this digital sign",
-    "url": "https://www.theregister.com/offbeat/2026/07/13/backup-and-running-not-this-digital-sign-1/5269021",
-    "source": "The Register",
-    "published": "2026-07-13T09:59:00+00:00",
-    "raw_text": "Nagware goes large on the mean streets of Derby",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Nagware goes large on the mean streets of Derby"
-  },
-  {
-    "title": "Photovoltaics are still running after a year under Swiss trains",
-    "url": "https://www.theregister.com/offbeat/2026/07/13/photovoltaics-are-still-running-after-a-year-under-swiss-trains/5269664",
-    "source": "The Register",
-    "published": "2026-07-13T09:15:00+00:00",
-    "raw_text": "Solar boss reckons challenges are regulatory, not technological",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "regulatory"
-      ]
-    },
-    "summary": "Solar boss reckons challenges are regulatory, not technological"
-  },
-  {
-    "title": "Microsoft is losing the battle to protect license lucre. It better get used to the feeling",
-    "url": "https://www.theregister.com/columnists/2026/07/13/microsoft-is-losing-the-battle-to-protect-license-lucre-it-better-get-used-to-the-feeling/5269709",
-    "source": "The Register",
-    "published": "2026-07-13T08:30:00+00:00",
-    "raw_text": "Time for the Clone Wars remake",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Time for the Clone Wars remake"
-  },
-  {
-    "title": "AI needs a home, not a hotel",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/ai-needs-a-home-not-a-hotel/5270167",
-    "source": "The Register",
-    "published": "2026-07-13T08:00:00+00:00",
-    "raw_text": "PARTNER CONTENT: Firms crafting internal AI must choose a permanent residence for their tech, not just rent server space by the hour.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "PARTNER CONTENT: Firms crafting internal AI must choose a permanent residence for their tech, not just rent server space by the hour."
-  },
-  {
-    "title": "Apple accuses OpenAI of stealing its core tech secrets",
-    "url": "https://www.theregister.com/legal/2026/07/13/apple-accuses-openai-of-stealing-its-core-tech-secrets/5270256",
-    "source": "The Register",
-    "published": "2026-07-13T07:31:00+00:00",
-    "raw_text": "Lawsuit alleges job-swappers took secrets with them, helped by coaching on how to avoid scrutiny",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "Lawsuit alleges job-swappers took secrets with them, helped by coaching on how to avoid scrutiny"
-  },
-  {
-    "title": "User crippled a network while trying to learn Nmap",
-    "url": "https://www.theregister.com/networks/2026/07/13/user-crippled-a-network-while-trying-to-learn-nmap/5269687",
-    "source": "The Register",
-    "published": "2026-07-13T06:30:00+00:00",
-    "raw_text": "IT department was not pleased, but was also easily fooled",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ]
-    },
-    "summary": "IT department was not pleased, but was also easily fooled"
-  },
-  {
     "title": "Made in Spain: Surveillance tech banned in EU booms in India",
     "url": "https://www.computerweekly.com/news/366645826/Made-in-Spain-Surveillance-tech-banned-in-EU-booms-in-India",
     "source": "ComputerWeekly",
@@ -4259,252 +3546,335 @@
     "summary": "A QR code phishing scheme can take many forms. Here's how to recognize them and avoid becoming a victim."
   },
   {
-    "title": "Aker BP: Second quarter 2026 results",
-    "url": "https://www.prnewswire.com/news-releases/aker-bp-second-quarter-2026-results-302825976.html",
+    "title": "Decathlon alcanza las 700 tiendas equipadas con las soluciones de Vusion",
+    "url": "https://www.prnewswire.com/news-releases/decathlon-alcanza-las-700-tiendas-equipadas-con-las-soluciones-de-vusion-302825650.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T04:52:00+00:00",
-    "raw_text": "LYSAKER, Norway, July 15, 2026 /PRNewswire/ -- Aker BP advanced its strategic growth agenda in the second quarter, combining strong operational delivery with continued maturation of new resources and important milestones across its major development projects. The quarter underlined the...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "LYSAKER, Norway, July 15, 2026 /PRNewswire/ -- Aker BP advanced its strategic growth agenda in the second quarter, combining strong operational delivery with continued maturation of new resources and important milestones across its major development projects. The quarter underlined the..."
-  },
-  {
-    "title": "Bell Integration joins United Nations Global Compact, reinforcing its commitment to responsible business",
-    "url": "https://www.prnewswire.com/news-releases/bell-integration-joins-united-nations-global-compact-reinforcing-its-commitment-to-responsible-business-302824841.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T04:05:00+00:00",
-    "raw_text": "Aligning its operations with the UN Global Compact's Ten Principles LONDON, July 15, 2026 /PRNewswire/ -- Bell Integration has joined the United Nations Global Compact initiative - a voluntary initiative for the development, implementation and disclosure of responsible business practices....",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Aligning its operations with the UN Global Compact's Ten Principles LONDON, July 15, 2026 /PRNewswire/ -- Bell Integration has joined the United Nations Global Compact initiative - a voluntary initiative for the development, implementation and disclosure of responsible business practices...."
-  },
-  {
-    "title": "U.S. News & World Report Announces Inaugural Winners of the 2026-2027 Home Insurance Awards",
-    "url": "https://www.prnewswire.com/news-releases/us-news--world-report-announces-inaugural-winners-of-the-2026-2027-home-insurance-awards-302825279.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T04:01:00+00:00",
-    "raw_text": "The debut awards recognize top-rated homeowners insurance companies based on customer satisfaction, claims handling and specialized consumer needs. WASHINGTON, July 15, 2026 /PRNewswire/ -- U.S. News & World Report, the global authority in rankings and consumer advice, today recognizes...",
+    "published": "2026-07-15T06:30:00+00:00",
+    "raw_text": "La plataforma de Vusion, actualmente desplegada en 54 países de tres continentes, mejora la eficiencia operativa de los equipos de Decathlon y optimiza la experiencia del cliente. PARÍS, 15 de julio de 2026 /PRNewswire/ -- Vusion, líder mundial en soluciones de digitalización para el...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "announces"
+        "ipo"
       ]
     },
-    "summary": "The debut awards recognize top-rated homeowners insurance companies based on customer satisfaction, claims handling and specialized consumer needs. WASHINGTON, July 15, 2026 /PRNewswire/ -- U.S. News & World Report, the global authority in rankings and consumer advice, today recognizes..."
+    "summary": "La plataforma de Vusion, actualmente desplegada en 54 países de tres continentes, mejora la eficiencia operativa de los equipos de Decathlon y optimiza la experiencia del cliente. PARÍS, 15 de julio de 2026 /PRNewswire/ -- Vusion, líder mundial en soluciones de digitalización para el..."
   },
   {
-    "title": "General Motors CEO Mary Barra to be Honored at the Ad Council's 72nd Annual Public Service Award Dinner",
-    "url": "https://www.prnewswire.com/news-releases/general-motors-ceo-mary-barra-to-be-honored-at-the-ad-councils-72nd-annual-public-service-award-dinner-302825631.html",
+    "title": "Decathlon franchit le cap des 700 magasins équipés des solutions Vusion",
+    "url": "https://www.prnewswire.com/news-releases/decathlon-franchit-le-cap-des-700-magasins-equipes-des-solutions-vusion-302825698.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T04:01:00+00:00",
-    "raw_text": "NEW YORK, July 15, 2026 /PRNewswire/ -- The Ad Council announced today that Mary Barra, Chair and CEO of General Motors, will be honored at the 72nd annual Public Service Award Dinner on December 3, 2026. Barra will receive the Award for Public Service in recognition of her...",
+    "published": "2026-07-15T06:30:00+00:00",
+    "raw_text": "Déployée dans 54 pays sur trois continents, la plateforme Vusion optimise l'efficacité opérationnelle des équipes de Decathlon et améliore l'expérience client. PARIS, 15 juillet 2026 /PRNewswire/ -- Vusion, leader mondial des solutions de digitalisation du commerce physique, annonce...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "NEW YORK, July 15, 2026 /PRNewswire/ -- The Ad Council announced today that Mary Barra, Chair and CEO of General Motors, will be honored at the 72nd annual Public Service Award Dinner on December 3, 2026. Barra will receive the Award for Public Service in recognition of her..."
+    "summary": "Déployée dans 54 pays sur trois continents, la plateforme Vusion optimise l'efficacité opérationnelle des équipes de Decathlon et améliore l'expérience client. PARIS, 15 juillet 2026 /PRNewswire/ -- Vusion, leader mondial des solutions de digitalisation du commerce physique, annonce..."
   },
   {
-    "title": "BLOOD TEST MAY HELP PREDICT RISK OF COGNITIVE DECLINE DUE TO ALZHEIMER'S A DECADE BEFORE SYMPTOMS APPEAR",
-    "url": "https://www.prnewswire.com/news-releases/blood-test-may-help-predict-risk-of-cognitive-decline-due-to-alzheimers-a-decade-before-symptoms-appear-302825771.html",
+    "title": "Decathlon Reaches 700 Stores Equipped with Vusion Solutions",
+    "url": "https://www.prnewswire.com/news-releases/decathlon-reaches-700-stores-equipped-with-vusion-solutions-302825708.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T04:01:00+00:00",
-    "raw_text": "Key Takeaways Symptom-free older adults with very high levels of the Alzheimer's blood biomarker p-tau217 had an estimated 78% risk of developing cognitive impairment over 10 years. The blood test provided important clues about future Alzheimer's risk beyond what brain scans and genetic...",
+    "published": "2026-07-15T06:30:00+00:00",
+    "raw_text": "The Vusion platform, now deployed across 54 countries on three continents, enhances operational efficiency for Decathlon teams and improves customer experience. PARIS, July 15, 2026 /PRNewswire/ -- Vusion, the global leader in digitalization solutions for physical retail, today announced...",
     "categories": [
-      "Industry & Market"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The Vusion platform, now deployed across 54 countries on three continents, enhances operational efficiency for Decathlon teams and improves customer experience. PARIS, July 15, 2026 /PRNewswire/ -- Vusion, the global leader in digitalization solutions for physical retail, today announced..."
+  },
+  {
+    "title": "Decathlon erreicht Meilenstein: 700 Stores arbeiten mit den Lösungen von Vusion",
+    "url": "https://www.prnewswire.com/news-releases/decathlon-erreicht-meilenstein-700-stores-arbeiten-mit-den-losungen-von-vusion-302825653.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:30:00+00:00",
+    "raw_text": "Die Vusion-Plattform, die mittlerweile in 54 Ländern auf drei Kontinenten im Einsatz ist, steigert die betriebliche Effizienz der Decathlon-Teams und verbessert das Kundenerlebnis. PARIS, 15. Juli 2026 /PRNewswire/ -- Vusion, der weltweit führende Anbieter von Digitalisierungslösungen für...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Die Vusion-Plattform, die mittlerweile in 54 Ländern auf drei Kontinenten im Einsatz ist, steigert die betriebliche Effizienz der Decathlon-Teams und verbessert das Kundenerlebnis. PARIS, 15. Juli 2026 /PRNewswire/ -- Vusion, der weltweit führende Anbieter von Digitalisierungslösungen für..."
+  },
+  {
+    "title": "HBSS Alerts Roblox Corporation (RBLX) Investors to Expanded Class Period; Lead Plaintiff Deadline Remains August 7, 2026",
+    "url": "https://www.prnewswire.com/news-releases/hbss-alerts-roblox-corporation-rblx-investors-to-expanded-class-period-lead-plaintiff-deadline-remains-august-7-2026-302825799.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:27:00+00:00",
+    "raw_text": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- National shareholder rights firm Hagens Berman alerts investors in Roblox Corporation (NYSE: RBLX) that the alleged class period in the ongoing securities class action litigation has been expanded. A new lawsuit now covers investors who...",
+    "categories": [
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- National shareholder rights firm Hagens Berman alerts investors in Roblox Corporation (NYSE: RBLX) that the alleged class period in the ongoing securities class action litigation has been expanded. A new lawsuit now covers investors who..."
+  },
+  {
+    "title": "WGS INVESTOR DEADLINE: GeneDx Holdings Investors with Substantial Losses Have Opportunity to Lead the GeneDx Class Action Lawsuit- Hagens Berman",
+    "url": "https://www.prnewswire.com/news-releases/wgs-investor-deadline-genedx-holdings-investors-with-substantial-losses-have-opportunity-to-lead-the-genedx-class-action-lawsuit-hagens-berman-302825800.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:24:00+00:00",
+    "raw_text": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- Hagens Berman (HBSS), a national leader in securities litigation, is actively investigating claims in a securities class action lawsuit against GeneDx Holdings (NASDAQ: WGS) and its executives, alleging defendants misled investors about the...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- Hagens Berman (HBSS), a national leader in securities litigation, is actively investigating claims in a securities class action lawsuit against GeneDx Holdings (NASDAQ: WGS) and its executives, alleging defendants misled investors about the..."
+  },
+  {
+    "title": "GENMA Brand Strategic Upgrade Delivers Strong Results -- Multiple Major Orders and Global Recognition for Automation Technology",
+    "url": "https://www.prnewswire.com/news-releases/genma-brand-strategic-upgrade-delivers-strong-results--multiple-major-orders-and-global-recognition-for-automation-technology-302826104.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:21:00+00:00",
+    "raw_text": "NANTONG, China, July 15, 2026 /PRNewswire/ -- RAINBOWCO (SZ: 002483), a global leader in high-end equipment manufacturing, today announced the latest business update for its GENMA brand. Since launching a strategic brand upgrade in September 2025, GENMA's terminal container crane business...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "NANTONG, China, July 15, 2026 /PRNewswire/ -- RAINBOWCO (SZ: 002483), a global leader in high-end equipment manufacturing, today announced the latest business update for its GENMA brand. Since launching a strategic brand upgrade in September 2025, GENMA's terminal container crane business..."
+  },
+  {
+    "title": "Bell Integration se une al Pacto Mundial de las Naciones Unidas",
+    "url": "https://www.prnewswire.com/news-releases/bell-integration-se-une-al-pacto-mundial-de-las-naciones-unidas-302825056.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:05:00+00:00",
+    "raw_text": "Bell Integration se une al Pacto Mundial de las Naciones Unidas, reforzando su compromiso con los negocios responsables Alineando sus operaciones con los Diez Principios del Pacto Mundial de las Naciones Unidas. LONDRES, 15 de julio de 2026 /PRNewswire/ -- Bell Integration se ha unido a...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Bell Integration se une al Pacto Mundial de las Naciones Unidas, reforzando su compromiso con los negocios responsables Alineando sus operaciones con los Diez Principios del Pacto Mundial de las Naciones Unidas. LONDRES, 15 de julio de 2026 /PRNewswire/ -- Bell Integration se ha unido a..."
+  },
+  {
+    "title": "Bell Integration adhère au Pacte mondial des Nations Unies, renforçant ainsi son engagement en faveur d'une gestion d'entreprise responsable",
+    "url": "https://www.prnewswire.com/news-releases/bell-integration-adhere-au-pacte-mondial-des-nations-unies-renforcant-ainsi-son-engagement-en-faveur-dune-gestion-dentreprise-responsable-302825036.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:05:00+00:00",
+    "raw_text": "Aligner ses activités sur les dix principes du Pacte mondial des Nations Unies LONDRES, 15 juillet 2026 /PRNewswire/ -- Bell Integration a rejoint l'initiative volontaire du Pacte mondial des Nations Unies qui vise à développer, mettre en œuvre et communiquer des pratiques commerciales...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Aligner ses activités sur les dix principes du Pacte mondial des Nations Unies LONDRES, 15 juillet 2026 /PRNewswire/ -- Bell Integration a rejoint l'initiative volontaire du Pacte mondial des Nations Unies qui vise à développer, mettre en œuvre et communiquer des pratiques commerciales..."
+  },
+  {
+    "title": "Bell Integration tritt dem Global Compact der Vereinten Nationen bei und bekräftigt damit sein Engagement für verantwortungsvolles unternehmerisches Handeln",
+    "url": "https://www.prnewswire.com/news-releases/bell-integration-tritt-dem-global-compact-der-vereinten-nationen-bei-und-bekraftigt-damit-sein-engagement-fur-verantwortungsvolles-unternehmerisches-handeln-302825604.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:05:00+00:00",
+    "raw_text": "Ausrichtung der Geschäftstätigkeit an den zehn Prinzipien des Global Compact der Vereinten Nationen LONDON, 15. Juli 2026 /PRNewswire/ -- Bell Integration ist der Initiative Global Compact der Vereinten Nationen beigetreten – einer freiwilligen Initiative zur Entwicklung, Umsetzung und...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Ausrichtung der Geschäftstätigkeit an den zehn Prinzipien des Global Compact der Vereinten Nationen LONDON, 15. Juli 2026 /PRNewswire/ -- Bell Integration ist der Initiative Global Compact der Vereinten Nationen beigetreten – einer freiwilligen Initiative zur Entwicklung, Umsetzung und..."
+  },
+  {
+    "title": "Think closes MENA's largest AI infrastructure pre-seed round at over $8 million",
+    "url": "https://www.prnewswire.com/news-releases/think-closes-menas-largest-ai-infrastructure-pre-seed-round-at-over-8-million-302825409.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T06:00:00+00:00",
+    "raw_text": "Co-Led by RAED Ventures and Wa'ed Ventures, with participation from Dhahran Techno Valley's Venture Capital arm and strategic angels Funding will accelerate the deployment of Think's integrated hardware and orchestration platform, designed to reduce the cost and complexity of AI RIYADH,...",
+    "categories": [
+      "Industry & Market",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "ai infrastructure"
+      ],
       "Industry & Market": [
+        "funding",
         "ey"
       ]
     },
-    "summary": "Key Takeaways Symptom-free older adults with very high levels of the Alzheimer's blood biomarker p-tau217 had an estimated 78% risk of developing cognitive impairment over 10 years. The blood test provided important clues about future Alzheimer's risk beyond what brain scans and genetic..."
+    "summary": "Co-Led by RAED Ventures and Wa'ed Ventures, with participation from Dhahran Techno Valley's Venture Capital arm and strategic angels Funding will accelerate the deployment of Think's integrated hardware and orchestration platform, designed to reduce the cost and complexity of AI RIYADH,..."
   },
   {
-    "title": "Tamron 12-20mm F2.8 Di III Ultra-Wide Full Frame Lens Announced; First Look YouTube Video at B&H Photo",
-    "url": "https://www.prnewswire.com/news-releases/tamron-12-20mm-f2-8-di-iii-ultra-wide-full-frame-lens-announced-first-look-youtube-video-at-bh-photo-302825772.html",
+    "title": "Hankook Pushes the Limits on High-Speed Forest Stages at WRC Delfi Rally Estonia 2026",
+    "url": "https://www.prnewswire.com/news-releases/hankook-pushes-the-limits-on-high-speed-forest-stages-at-wrc-delfi-rally-estonia-2026-302825980.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T04:00:00+00:00",
-    "raw_text": "New From Tamron, the ultra-wide Photography News: Tamron unveils the 12-20mm f/2.8 Di III Widest Full-frame Mirrorless Zoom Yet NEW YORK, July 15, 2026 /PRNewswire/ -- B&H is pleased to share the new Tamron 12-20mm f/2.8 Di III ultra-wide mirrorless zoom lens, available for Sony E Mount...",
+    "published": "2026-07-15T06:00:00+00:00",
+    "raw_text": "Round 9 of the 2026 WRC, Delfi Rally Estonia, takes place from July 16 to 19 in Tartu and the surrounding southern regions Dynapro R213 all-terrain rally tire supplied to tackle lightning-fast unpaved surfaces and airborne jump sections Championship battle intensifies as fierce...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "New From Tamron, the ultra-wide Photography News: Tamron unveils the 12-20mm f/2.8 Di III Widest Full-frame Mirrorless Zoom Yet NEW YORK, July 15, 2026 /PRNewswire/ -- B&H is pleased to share the new Tamron 12-20mm f/2.8 Di III ultra-wide mirrorless zoom lens, available for Sony E Mount..."
+    "summary": "Round 9 of the 2026 WRC, Delfi Rally Estonia, takes place from July 16 to 19 in Tartu and the surrounding southern regions Dynapro R213 all-terrain rally tire supplied to tackle lightning-fast unpaved surfaces and airborne jump sections Championship battle intensifies as fierce..."
   },
   {
-    "title": "From permanent circuits to street circuits, Geely Cyan Racing secures fifth victory of the 2026 Kumho FIA TCR World Tour",
-    "url": "https://www.prnewswire.com/news-releases/from-permanent-circuits-to-street-circuits-geely-cyan-racing-secures-fifth-victory-of-the-2026-kumho-fia-tcr-world-tour-302825876.html",
+    "title": "StarLovin Highlights Email Capture and Contacts for Instagram DM and Facebook Messenger Automation",
+    "url": "https://www.prnewswire.com/news-releases/starlovin-highlights-email-capture-and-contacts-for-instagram-dm-and-facebook-messenger-automation-302826056.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:26:00+00:00",
-    "raw_text": "VILA REAL, Portugal, July 14, 2026 /PRNewswire/ -- The European rounds of the 2026 Kumho FIA TCR World Tour concluded in Vila Real, where Geely Cyan Racing secured its fifth victory of the season and took the lead in the Teams' Championship. French driver Yann Ehrlacher won Race 1, while...",
+    "published": "2026-07-15T05:47:00+00:00",
+    "raw_text": "RENO, Nev., July 15, 2026 /PRNewswire/ -- StarLovin, a Meta-approved creator growth automation platform, recently highlighted email capture and Contacts features for its Instagram DM and Facebook Messenger automation workflows. The update helps creators, media operators, coaches, and...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "VILA REAL, Portugal, July 14, 2026 /PRNewswire/ -- The European rounds of the 2026 Kumho FIA TCR World Tour concluded in Vila Real, where Geely Cyan Racing secured its fifth victory of the season and took the lead in the Teams' Championship. French driver Yann Ehrlacher won Race 1, while..."
+    "summary": "RENO, Nev., July 15, 2026 /PRNewswire/ -- StarLovin, a Meta-approved creator growth automation platform, recently highlighted email capture and Contacts features for its Instagram DM and Facebook Messenger automation workflows. The update helps creators, media operators, coaches, and..."
   },
   {
-    "title": "Casio zaoferuje młodym użytkownikom nowe doświadczenia związane z marką G-SHOCK na platformie Roblox",
-    "url": "https://www.prnewswire.com/news-releases/casio-zaoferuje-modym-uytkownikom-nowe-dowiadczenia-zwizane-z-mark-g-shock-na-platformie-roblox-302823778.html",
+    "title": "Förderung einer kohlenstoffarmen Fertigung und globaler Nachhaltigkeitsverpflichtungen",
+    "url": "https://www.prnewswire.com/news-releases/forderung-einer-kohlenstoffarmen-fertigung-und-globaler-nachhaltigkeitsverpflichtungen-302826054.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "Wirtualne zegarki i wyjątkowy świat marki G-SHOCK. TOKIO, 15 lipca 2026 r. /PRNewswire/ -- Firma Casio Computer Co., Ltd. ogłosiła dziś, że w ramach projektu VIRTUAL G-SHOCK rozpocznie udostępnianie treści na immersyjnej platformie do gier i tworzenia Roblox. Casio zaoferuje na platformie...",
+    "published": "2026-07-15T05:46:00+00:00",
+    "raw_text": "Der Bericht hebt saubere Energie, Innovation und ESG-Anerkennung hervor ZIBO, China, 15. Juli 2026 /PRNewswire/ -- INTCO Medical („das Unternehmen\"), ein weltweit führender Hersteller von Einweghandschuhen, hat seinen ESG-Bericht (Umwelt, Soziales und Unternehmensführung) für 2025...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "esg"
+      ]
+    },
+    "summary": "Der Bericht hebt saubere Energie, Innovation und ESG-Anerkennung hervor ZIBO, China, 15. Juli 2026 /PRNewswire/ -- INTCO Medical („das Unternehmen\"), ein weltweit führender Hersteller von Einweghandschuhen, hat seinen ESG-Bericht (Umwelt, Soziales und Unternehmensführung) für 2025..."
+  },
+  {
+    "title": "Hanshow Signs Strategic Partner Agreement with Microsoft to Accelerate Smart Retail Innovation",
+    "url": "https://www.prnewswire.com/news-releases/hanshow-signs-strategic-partner-agreement-with-microsoft-to-accelerate-smart-retail-innovation-302826049.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-15T05:44:00+00:00",
+    "raw_text": "REDMOND, Wash., July 15, 2026 /PRNewswire/ -- Hanshow, a global leader in digital store solutions, signed a Strategic Partner Agreement with Microsoft at the Microsoft Executive Briefing Center in Redmond, Washington, marking a new milestone in the companies' long-standing collaboration...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Wirtualne zegarki i wyjątkowy świat marki G-SHOCK. TOKIO, 15 lipca 2026 r. /PRNewswire/ -- Firma Casio Computer Co., Ltd. ogłosiła dziś, że w ramach projektu VIRTUAL G-SHOCK rozpocznie udostępnianie treści na immersyjnej platformie do gier i tworzenia Roblox."
+    "summary": "REDMOND, Wash., July 15, 2026 /PRNewswire/ -- Hanshow, a global leader in digital store solutions, signed a Strategic Partner Agreement with Microsoft at the Microsoft Executive Briefing Center in Redmond, Washington, marking a new milestone in the companies' long-standing collaboration..."
   },
   {
-    "title": "Casio prináša mladým ľuďom nové zážitky v Robloxe so značkou G-SHOCK",
-    "url": "https://www.prnewswire.com/news-releases/casio-prinaa-mladym-uom-nove-zaitky-v-robloxe-so-znakou-g-shock-302824718.html",
+    "title": "Skanska builds a new university campus in Kristianstad for about SEK 1 billion",
+    "url": "https://www.prnewswire.com/news-releases/skanska-builds-a-new-university-campus-in-kristianstad-for-about-sek-1-billion-302826047.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "Ponuka hodiniek a jedinečného virtuálneho sveta G-SHOCK TOKIO, 15. júl 2026 /PRNewswire/ -- Spoločnosť Casio Computer Co., Ltd. dnes oznámila, že začne ponúkať obsah na pohlcujúcej hernej a tvorivej platforme Roblox v rámci projektu VIRTUAL G-SHOCK. Spoločnosť Casio ponúkne avatary, ktoré...",
+    "published": "2026-07-15T05:43:00+00:00",
+    "raw_text": "STOCKHOLM, July 15, 2026 /PRNewswire/ -- Skanska has been commissioned by Boulevardfastigheter AB to build a citycampus forneeds-more-info Kristianstad University, Sweden. The contract is valued at about SEK 1 billion, which will be included in the order bookings for Sweden for the third...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Ponuka hodiniek a jedinečného virtuálneho sveta G-SHOCK TOKIO, 15. júl 2026 /PRNewswire/ -- Spoločnosť Casio Computer Co., Ltd. dnes oznámila, že začne ponúkať obsah na pohlcujúcej hernej a tvorivej platforme Roblox v rámci projektu VIRTUAL G-SHOCK. Spoločnosť Casio ponúkne avatary, ktoré..."
+    "summary": "STOCKHOLM, July 15, 2026 /PRNewswire/ -- Skanska has been commissioned by Boulevardfastigheter AB to build a citycampus forneeds-more-info Kristianstad University, Sweden. The contract is valued at about SEK 1 billion, which will be included in the order bookings for Sweden for the third..."
   },
   {
-    "title": "Casio дарит молодым людям новые впечатления от бренда G-SHOCK на Roblox",
-    "url": "https://www.prnewswire.com/news-releases/casio--------g-shock--roblox-302824712.html",
+    "title": "EthSystems startet mit dem Ziel, Datenschutzlösungen für Institutionen auf Ethereum zu entwickeln",
+    "url": "https://www.prnewswire.com/news-releases/ethsystems-startet-mit-dem-ziel-datenschutzlosungen-fur-institutionen-auf-ethereum-zu-entwickeln-302826038.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "предлагая варианты часов и уникальный виртуальный мир G-SHOCK ТОКИО, 15 июля 2026 г. /PRNewswire/ -- Компания Casio Computer Co., Ltd. объявила сегодня о том, что в рамках проекта VIRTUAL G-SHOCK она начнет предлагать контент на игровой платформе и системе создания игр Roblox. Casio...",
+    "published": "2026-07-15T05:39:00+00:00",
+    "raw_text": "EthSystems wurde vom Team der Institutional Privacy Task Force der Ethereum Foundation gegründet und entwickelt Datenschutz- und Compliance-Technologie für Ethereum Zu den wichtigsten Geldgebern zählen Bitmine, Sharplink und Joe Lubin NEW YORK, 15. Juli 2026 /PRNewswire/ -- EthSystems,...",
     "categories": [
-      "Uncategorised"
+      "GRC"
     ],
-    "matched_keywords": {},
-    "summary": "предлагая варианты часов и уникальный виртуальный мир G-SHOCK ТОКИО, 15 июля 2026 г. /PRNewswire/ -- Компания Casio Computer Co., Ltd. объявила сегодня о том, что в рамках проекта VIRTUAL G-SHOCK она начнет предлагать контент на игровой платформе и системе создания игр Roblox. Casio..."
+    "matched_keywords": {
+      "GRC": [
+        "compliance",
+        "privacy"
+      ]
+    },
+    "summary": "EthSystems wurde vom Team der Institutional Privacy Task Force der Ethereum Foundation gegründet und entwickelt Datenschutz- und Compliance-Technologie für Ethereum Zu den wichtigsten Geldgebern zählen Bitmine, Sharplink und Joe Lubin NEW YORK, 15. Juli 2026 /PRNewswire/ -- EthSystems,..."
   },
   {
-    "title": "Casio llevará nuevas experiencias de la marca G-SHOCK a los jóvenes en Roblox",
-    "url": "https://www.prnewswire.com/news-releases/casio-llevara-nuevas-experiencias-de-la-marca-g-shock-a-los-jovenes-en-roblox-302823769.html",
+    "title": "EthSystems lanceert oplossingen voor privacy van institutionele gebruikers op Ethereum",
+    "url": "https://www.prnewswire.com/news-releases/ethsystems-lanceert-oplossingen-voor-privacy-van-institutionele-gebruikers-op-ethereum-302826029.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "Ofreciendo artículos de relojería y un mundo virtual exclusivo de G-SHOCK TOKIO, 15 de julio de 2026 /PRNewswire/ -- Casio Computer Co., Ltd. ha dado a conocer hoy que comenzará a ofrecer contenido en la plataforma inmersiva de juegos y creación Roblox como parte del proyecto VIRTUAL...",
+    "published": "2026-07-15T05:34:00+00:00",
+    "raw_text": "EthSystems, opgericht door het team achter de Institutional Privacy Task Force van de Ethereum Foundation, ontwikkelt privacy- en compliancetechnologie voor Ethereum. Tot de belangrijkste financiers behoren Bitmine, SharpLink en Joe Lubin. NEW YORK, 15 juli 2026 /PRNewswire/ – EthSystems,...",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Ofreciendo artículos de relojería y un mundo virtual exclusivo de G-SHOCK TOKIO, 15 de julio de 2026 /PRNewswire/ -- Casio Computer Co., Ltd. ha dado a conocer hoy que comenzará a ofrecer contenido en la plataforma inmersiva de juegos y creación Roblox como parte del proyecto VIRTUAL..."
-  },
-  {
-    "title": "Casio to Bring New G-SHOCK Brand Experiences to Young People on Roblox",
-    "url": "https://www.prnewswire.com/news-releases/casio-to-bring-new-g-shock-brand-experiences-to-young-people-on-roblox-302823649.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "Offering Watch Items and a Uniquely G-SHOCK Virtual World TOKYO, July 14, 2026 /PRNewswire/ -- Casio Computer Co., Ltd. announced today that it will begin offering content on an immersive gaming and creation platform Roblox as part of the VIRTUAL G-SHOCK project. Casio will offer avatar...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Offering Watch Items and a Uniquely G-SHOCK Virtual World TOKYO, July 14, 2026 /PRNewswire/ -- Casio Computer Co., Ltd. announced today that it will begin offering content on an immersive gaming and creation platform Roblox as part of the VIRTUAL G-SHOCK project. Casio will offer avatar..."
-  },
-  {
-    "title": "Casio přinese mladým lidem na platformě Roblox nové zážitky se značkou G-SHOCK",
-    "url": "https://www.prnewswire.com/news-releases/casio-pinese-mladym-lidem-na-platform-roblox-nove-zaitky-se-znakou-g-shock-302823898.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "Nabídka hodinkových předmětů a jedinečný virtuální svět G-SHOCK TOKIO, 15. července 2026 /PRNewswire/ -- Společnost Casio Computer Co., Ltd. dnes oznámila, že začne v rámci projektu VIRTUAL G-SHOCK nabízet obsah na platformě Roblox, která se zaměřuje na imerzivní hraní a tvorbu....",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Nabídka hodinkových předmětů a jedinečný virtuální svět G-SHOCK TOKIO, 15. července 2026 /PRNewswire/ -- Společnost Casio Computer Co., Ltd. dnes oznámila, že začne v rámci projektu VIRTUAL G-SHOCK nabízet obsah na platformě Roblox, která se zaměřuje na imerzivní hraní a tvorbu...."
-  },
-  {
-    "title": "Casio s'apprête à proposer de nouvelles expériences autour de la marque G-SHOCK sur Roblox",
-    "url": "https://www.prnewswire.com/news-releases/casio-sapprete-a-proposer-de-nouvelles-experiences-autour-de-la-marque-g-shock-sur-roblox-302824080.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "Gamme d'items de montre et univers virtuel G-SHOCK exclusif TOKYO, 15 juillet 2026 /PRNewswire/ -- Casio Computer Co., Ltd. annonce aujourd'hui le lancement de contenus sur Roblox, une plateforme immersive dédiée au jeu et à la création, dans le cadre du projet VIRTUAL G-SHOCK. Casio...",
-    "categories": [
+      "GRC",
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
+      ],
+      "GRC": [
+        "compliance",
+        "privacy"
       ]
     },
-    "summary": "Gamme d'items de montre et univers virtuel G-SHOCK exclusif TOKYO, 15 juillet 2026 /PRNewswire/ -- Casio Computer Co., Ltd. annonce aujourd'hui le lancement de contenus sur Roblox, une plateforme immersive dédiée au jeu et à la création, dans le cadre du projet VIRTUAL G-SHOCK. Casio..."
+    "summary": "EthSystems, opgericht door het team achter de Institutional Privacy Task Force van de Ethereum Foundation, ontwikkelt privacy- en compliancetechnologie voor Ethereum. Tot de belangrijkste financiers behoren Bitmine, SharpLink en Joe Lubin. NEW YORK, 15 juli 2026 /PRNewswire/ – EthSystems,..."
   },
   {
-    "title": "Casio bringt neue G-SHOCK-Markenerlebnisse für junge Menschen auf Roblox",
-    "url": "https://www.prnewswire.com/news-releases/casio-bringt-neue-g-shock-markenerlebnisse-fur-junge-menschen-auf-roblox-302823822.html",
+    "title": "ZUGANG ZU ERNEUERBAREN ENERGIEN ENTSCHEIDEND, DAMIT DIE MOBILFUNKBRANCHE AUF KURS ZUM NETTO-NULL-ZIEL BLEIBT - NEUER GSMA-BERICHT",
+    "url": "https://www.prnewswire.com/news-releases/zugang-zu-erneuerbaren-energien-entscheidend-damit-die-mobilfunkbranche-auf-kurs-zum-netto-null-ziel-bleibt--neuer-gsma-bericht-302826006.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-15T03:00:00+00:00",
-    "raw_text": "Präsentation von Uhrenmodellen und einer einzigartigen virtuellen G-SHOCK-Welt TOKIO, 15. Juli 2026 /PRNewswire/ -- Casio Computer Co., Ltd. gab heute bekannt, dass das Unternehmen im Rahmen des Projekts VIRTUAL G-SHOCK Inhalte auf der immersiven Gaming- und Kreativplattform Roblox...",
+    "published": "2026-07-15T05:17:00+00:00",
+    "raw_text": "Mobilfunkbetreiber haben ihre betriebsbedingten Emissionen seit 2019 um 13 % gesenkt – trotz eines Anstiegs der Mobilfunkanschlüsse um 10 % und einer mehr als vierfachen Zunahme des Datenverkehrs –, doch ist ein schnellerer Zugang zu sauberer Energie erforderlich, um die Fortschritte zu...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Präsentation von Uhrenmodellen und einer einzigartigen virtuellen G-SHOCK-Welt TOKIO, 15. Juli 2026 /PRNewswire/ -- Casio Computer Co., Ltd. gab heute bekannt, dass das Unternehmen im Rahmen des Projekts VIRTUAL G-SHOCK Inhalte auf der immersiven Gaming- und Kreativplattform Roblox..."
+    "summary": "Mobilfunkbetreiber haben ihre betriebsbedingten Emissionen seit 2019 um 13 % gesenkt – trotz eines Anstiegs der Mobilfunkanschlüsse um 10 % und einer mehr als vierfachen Zunahme des Datenverkehrs –, doch ist ein schnellerer Zugang zu sauberer Energie erforderlich, um die Fortschritte zu..."
   },
   {
-    "title": "Q32 Bio Announces Pricing of $200 Million Public Offering of Common Stock and Pre-Funded Warrants",
-    "url": "https://www.prnewswire.com/news-releases/q32-bio-announces-pricing-of-200-million-public-offering-of-common-stock-and-pre-funded-warrants-302825849.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T02:58:00+00:00",
-    "raw_text": "WALTHAM, Mass., July 14, 2026 /PRNewswire/ -- Q32 Bio Inc. (Nasdaq: QTTB), (\"Q32 Bio\") a clinical stage biotechnology company focused on developing innovative therapies for alopecia areata and other autoimmune and inflammatory diseases, today announced the pricing of an underwritten...",
+    "title": "FREELANDER تؤكد إطلاق علامتها التجارية في أبوظبي خلال سبتمبر/أيلول في مهرجان غودوود للسرعة، في خطوة جديدة ضمن مسار توسعها العالمي",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327467/0/ar/FREELANDER-%D8%AA%D8%A4%D9%83%D8%AF-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%B9%D9%84%D8%A7%D9%85%D8%AA%D9%87%D8%A7-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A-%D8%AE%D9%84%D8%A7%D9%84-%D8%B3%D8%A8%D8%AA%D9%85%D8%A8%D8%B1-%D8%A3%D9%8A%D9%84%D9%88%D9%84-%D9%81%D9%8A-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%BA%D9%88%D8%AF%D9%88%D9%88%D8%AF-%D9%84%D9%84%D8%B3%D8%B1%D8%B9%D8%A9-%D9%81%D9%8A-%D8%AE%D8%B7%D9%88%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%B6%D9%85%D9%86-%D9%85%D8%B3%D8%A7%D8%B1-%D8%AA%D9%88%D8%B3%D8%B9%D9%87%D8%A7-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T06:06:00+00:00",
+    "raw_text": "غودوود، المملكة المتحدة, July 15, 2026 (GLOBE NEWSWIRE) -- خلال مهرجان غودوود للسرعة 2026، أعلنت العلامة التجارية البريطانية الفاخرة FREELANDER أن دولة الإمارات العربية المتحدة ستكون أول أسواقها الدولية، وذلك خلال فعالية لتبادل الخبرات في القطاع استضافها Abu Dhabi Investment Office (ADIO) في The Orangery. كما أكدت FREELANDER أن الإطلاق الدولي لعلامتها التجارية من المقرر أن يُقام خلال سبتمبر/أيلول في أبوظبي. ويمثل هذا علامة بارزة أخرى في استراتيجية التوسع العالمي للعلامة التجارية.",
     "categories": [
       "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
-        "iot"
+        "lan"
+      ],
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "غودوود، المملكة المتحدة, July 15, 2026 (GLOBE NEWSWIRE) -- خلال مهرجان غودوود للسرعة 2026، أعلنت العلامة التجارية البريطانية الفاخرة FREELANDER أن دولة الإمارات العربية المتحدة ستكون أول أسواقها الدولية، وذلك خلال فعالية لتبادل الخبرات في القطاع استضافها Abu Dhabi Investment Office (ADIO) في The Orangery. كما أكدت FREELANDER أن الإطلاق الدولي لعلامتها التجارية من المقرر أن يُقام خلال سبتمبر/أيلول في أبوظبي. ويمثل هذا علامة بارزة أخرى في استراتيجية التوسع العالمي للعلامة التجارية."
+  },
+  {
+    "title": "Nadula Highlights Protective Hairstyles Following This Year's ESSENCE Festival",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327465/0/en/Nadula-Highlights-Protective-Hairstyles-Following-This-Year-s-ESSENCE-Festival.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T06:02:00+00:00",
+    "raw_text": "True to the spirit of the Essence Festival, Nadula remains committed to providing high-quality human hair wigs that empower women to be confident.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "True to the spirit of the Essence Festival, Nadula remains committed to providing high-quality human hair wigs that empower women to be confident."
+  },
+  {
+    "title": "Toobit Brings $100K Rewards to Telegram Mini App",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327458/0/en/Toobit-Brings-100K-Rewards-to-Telegram-Mini-App.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T05:44:00+00:00",
+    "raw_text": "GEORGE TOWN, Cayman Islands, July 15, 2026 (GLOBE NEWSWIRE) -- Toobit, the award-winning global cryptocurrency exchange, announces the launch of a 100,000 USDT Lucky Drops reward campaign on Telegram, bringing interactive trading opportunities directly to its community.",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
       ],
       "Industry & Market": [
         "announces"
       ]
     },
-    "summary": "WALTHAM, Mass., July 14, 2026 /PRNewswire/ -- Q32 Bio Inc. (Nasdaq: QTTB), (\"Q32 Bio\") a clinical stage biotechnology company focused on developing innovative therapies for alopecia areata and other autoimmune and inflammatory diseases, today announced the pricing of an underwritten..."
+    "summary": "GEORGE TOWN, Cayman Islands, July 15, 2026 (GLOBE NEWSWIRE) -- Toobit, the award-winning global cryptocurrency exchange, announces the launch of a 100,000 USDT Lucky Drops reward campaign on Telegram, bringing interactive trading opportunities directly to its community."
   },
   {
-    "title": "VisualLogix stärkt seine Präsenz in Europa und sein Portfolio an Engineering-Software durch die Übernahme der refyne Group",
-    "url": "https://www.prnewswire.com/news-releases/visuallogix-starkt-seine-prasenz-in-europa-und-sein-portfolio-an-engineering-software-durch-die-ubernahme-der-refyne-group-302825829.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T02:37:00+00:00",
-    "raw_text": "NEW YORK, 15. Juli 2026 /PRNewswire/ -- VisualLogix gab heute die Übernahme der refyne Group bekannt. Damit baut das Unternehmen seine globale Engineering-Softwareplattform aus und stärkt sein Portfolio an geschäftskritischen Lösungen, die von Ingenieuren und Fertigungsunternehmen genutzt...",
+    "title": "Bitget Wallet and alfred Bring Stablecoin Access to Latin America's Local Banking Rails",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327456/0/en/Bitget-Wallet-and-alfred-Bring-Stablecoin-Access-to-Latin-America-s-Local-Banking-Rails.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T05:34:00+00:00",
+    "raw_text": "Bitget Wallet, a self-custodial crypto wallet for everyday finance, has partnered with alfred to integrate a bank transfer-based on-ramp for users across..",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "NEW YORK, 15. Juli 2026 /PRNewswire/ -- VisualLogix gab heute die Übernahme der refyne Group bekannt. Damit baut das Unternehmen seine globale Engineering-Softwareplattform aus und stärkt sein Portfolio an geschäftskritischen Lösungen, die von Ingenieuren und Fertigungsunternehmen genutzt..."
-  },
-  {
-    "title": "NATIONAL CIVIL RIGHTS TRIAL ATTORNEY JOHN GOMEZ TO ANNOUNCE WHISTLEBLOWER RETALIATION LAWSUIT AGAINST CORONA-NORCO UNIFIED SCHOOL DISTRICT",
-    "url": "https://www.prnewswire.com/news-releases/national-civil-rights-trial-attorney-john-gomez-to-announce-whistleblower-retaliation-lawsuit-against-corona-norco-unified-school-district-302825823.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T02:24:00+00:00",
-    "raw_text": "Registered Behavior Technician who will speak Thursday at 11 AM at the school district's headquarters in Riverside County Claims She Was Retaliated Against After Reporting Alleged Violations Involving a Special Needs Student's Legally Required Education Plan. NORCO, Calif., July 14, 2026...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Registered Behavior Technician who will speak Thursday at 11 AM at the school district's headquarters in Riverside County Claims She Was Retaliated Against After Reporting Alleged Violations Involving a Special Needs Student's Legally Required Education Plan. NORCO, Calif., July 14, 2026..."
+    "summary": "Bitget Wallet, a self-custodial crypto wallet for everyday finance, has partnered with alfred to integrate a bank transfer-based on-ramp for users across.."
   },
   {
     "title": "FixGo Expands to San Diego County with 20 New Tire-Installation Partners",
@@ -4768,66 +4138,6 @@
     "summary": "ATLANTA, July 14, 2026 (GLOBE NEWSWIRE) -- Webb Supply, a leading provider of HVAC/R (Heating, Ventilation, Air Conditioning, and Refrigeration) solutions and subsidiary of Heritage Distribution Holdings, today announced the grand opening of its newest branch location in Bedford Heights, Ohio. The new location underscores Webb Supply's continued investment in the region and its commitment to delivering quality products and responsive service to HVAC/R professionals."
   },
   {
-    "title": "Mobia Medical Announces Publication of Two-Year Data from VNS-REHAB Trial Demonstrating Durable and Continued Stroke Recovery with Vivistim® Paired VNS™ Therapy",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327284/0/en/Mobia-Medical-Announces-Publication-of-Two-Year-Data-from-VNS-REHAB-Trial-Demonstrating-Durable-and-Continued-Stroke-Recovery-with-Vivistim-Paired-VNS-Therapy.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T20:18:00+00:00",
-    "raw_text": "Findings published in Neurology® show improvements in upper-limb motor function, activities of daily living, and quality of life were sustained for at least two years Findings published in Neurology® show improvements in upper-limb motor function, activities of daily living, and quality of life were sustained for at least two years",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Findings published in Neurology® show improvements in upper-limb motor function, activities of daily living, and quality of life were sustained for at least two years Findings published in Neurology® show improvements in upper-limb motor function, activities of daily living, and quality of life were sustained for at least two years"
-  },
-  {
-    "title": "Monolithic Power Systems to Report Second Quarter 2026 Results on July 30, 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327234/0/en/Monolithic-Power-Systems-to-Report-Second-Quarter-2026-Results-on-July-30-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T20:01:00+00:00",
-    "raw_text": "SCHAFFHAUSEN, Switzerland, July 14, 2026 (GLOBE NEWSWIRE) -- Monolithic Power Systems, Inc. (MPS) (Nasdaq: MPWR), a fabless global company that provides high-performance, semiconductor-based power electronics solutions, today announced it will report its second quarter 2026 financial results on Thursday, July 30, 2026 after the market closes. MPS will host a question-and-answer webinar at 2:00 p.m. PT / 5:00 p.m. ET on the same day to discuss the results and business outlook.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "SCHAFFHAUSEN, Switzerland, July 14, 2026 (GLOBE NEWSWIRE) -- Monolithic Power Systems, Inc. (MPS) (Nasdaq: MPWR), a fabless global company that provides high-performance, semiconductor-based power electronics solutions, today announced it will report its second quarter 2026 financial results on Thursday, July 30, 2026 after the market closes. MPS will host a question-and-answer webinar at 2:00 p.m. PT / 5:00 p.m."
-  },
-  {
-    "title": "Wabash Announces Proposed Offering of $100 Million Convertible Senior Notes",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327239/10640/en/Wabash-Announces-Proposed-Offering-of-100-Million-Convertible-Senior-Notes.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T20:01:00+00:00",
-    "raw_text": "LAFAYETTE, Ind., July 14, 2026 (GLOBE NEWSWIRE) -- Wabash (NYSE: WNC), a leader in end-to-end supply chain solutions for the transportation, logistics and infrastructure markets, announced today that it has commenced a private offering (the “Offering”) of $100 million aggregate principal amount of convertible senior unsecured notes due 2032 (the “notes”) to persons reasonably believed to be qualified institutional buyers pursuant to Rule 144A under the Securities Act of 1933, as amended (the “Securities Act”). In connection with the Offering, Wabash expects to grant the initial purchasers of the notes an option to purchase, for settlement within a 13-day period beginning on, and including, the date on which the notes are first issued, up to an additional $15 million aggregate principal amount of the notes. The Offering of the notes is subject to market and other conditions and there can be no assurance as to whether or when the Offering may be completed, or as to the actual size or terms of the Offering.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "LAFAYETTE, Ind., July 14, 2026 (GLOBE NEWSWIRE) -- Wabash (NYSE: WNC), a leader in end-to-end supply chain solutions for the transportation, logistics and infrastructure markets, announced today that it has commenced a private offering (the “Offering”) of $100 million aggregate principal amount of convertible senior unsecured notes due 2032 (the “notes”) to persons reasonably believed to be qualified institutional buyers pursuant to Rule 144A under the Securities Act of 1933, as amended (the “Securities Act”). In connection with the Offering, Wabash expects to grant the initial purchasers of the notes an option to purchase, for settlement within a 13-day period beginning on, and including, the date on which the notes are first issued, up to an additional $15 million aggregate principal amount of the notes. The Offering of the notes is subject to market and other conditions and there can be no assurance as to whether or when the Offering may be completed, or as to the actual size or terms of the Offering."
-  },
-  {
-    "title": "Crypto News: Pepeto Crypto Presale Closes Another Stage Ahead of Schedule, Powered by EVM Layer 2 Technology",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327227/0/en/Crypto-News-Pepeto-Crypto-Presale-Closes-Another-Stage-Ahead-of-Schedule-Powered-by-EVM-Layer-2-Technology.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T19:41:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, July 14, 2026 (GLOBE NEWSWIRE) -- Pepeto ($PEPETO) presale has closed its latest stage ahead of schedule, bringing the total amount raised above $10.46 million. The stage concluded during a period of reduced activity across the broader cryptocurrency market.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "DUBAI, United Arab Emirates, July 14, 2026 (GLOBE NEWSWIRE) -- Pepeto ($PEPETO) presale has closed its latest stage ahead of schedule, bringing the total amount raised above $10.46 million. The stage concluded during a period of reduced activity across the broader cryptocurrency market."
-  },
-  {
     "title": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges - Business Wire",
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU0lFbXFHYmhWd0x1VDBORkR2dkRnc2pRaUhvZDRkRzFITlYzeTgwNlNrc09lMHpKUGtUWTkxZC03MkZVaHJKRDRLUkFQa2FGMVo0UEl5a3ZqbDZ0MnN2YUNwZGJlekJYWE5rU0trQXp6amdMcXZiQ0ZJeDVsNEdVUnBjRFdpN3VJRzFUM0RUYTB5cmdZaURqb3VXUEhMejM1REtUVkJuc1h1bFlxcTgwUGxGbkFXR09zOE1XaGRqajcwNVNLV2d6VzZpV2RpRVZaTndvUk1pekRlMmx6bk9fR0xtazI?oc=5",
     "source": "Google News: Networks",
@@ -4843,6 +4153,28 @@
       ]
     },
     "summary": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges Business Wire"
+  },
+  {
+    "title": "Vodafone Business launches SASE and Secure SD-WAN services in Greece - Telecompaper",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX181WTZTaFE3ZFJhTUNyZGlhT3hoc2pqTHN6dEFpRVpGdFFla1duV2FPT1pjLTBkWXN1LWpKWWZCTTdpUS1kamM3RUJYcG1oUUxrQWw0eHNoZXZ5SmRBU05HTlBiTC1DTy1jZk0zOGRoQjlpc1ktenRNUzJWNEowakxWOXJwQjRpVFl0bW95NFNob0FablpVQ2ZWOE03TFFtZHh5SWtiWmJPT19MZVpvTg?oc=5",
+    "source": "Google News: Networks",
+    "published": "2026-07-15T05:54:02+00:00",
+    "raw_text": "Vodafone Business launches SASE and Secure SD-WAN services in Greece Telecompaper",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "sd-wan",
+        "wan",
+        "telecom"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Vodafone Business launches SASE and Secure SD-WAN services in Greece Telecompaper"
   },
   {
     "title": "TCS expands ABB partnership with multi-million network operations deal - CRN Asia",
