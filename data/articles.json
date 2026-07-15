@@ -410,21 +410,40 @@
     "summary": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain Controller (DC) and mapped users, computers, and domains, before creating a directory and exporting out a number of files, and finally creating AD_Report.html to measure the success of the"
   },
   {
-    "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-    "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-    "source": "The Hacker News",
-    "published": "2026-07-13T07:30:00+00:00",
-    "raw_text": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bash_history. From that one lapse, French security firm Lexfo lifted the operator's entire toolkit and pivoted through it to two more",
+    "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
+    "source": "BleepingComputer",
+    "published": "2026-07-15T08:26:48+00:00",
+    "raw_text": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]"
+  },
+  {
+    "title": "US charges alleged operators of Russian bulletproof hosting service",
+    "url": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
+    "source": "BleepingComputer",
+    "published": "2026-07-15T07:45:50+00:00",
+    "raw_text": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "phishing",
-        "security"
+        "ransomware"
       ]
     },
-    "summary": "An attacker running a live Microsoft 365 phishing operation left a Python web server listening on a public port with directory listing switched on. The command that did it: python3 -m http.server 8080, was still sitting in the readable .bash_history. From that one lapse, French security firm Lexfo lifted the operator's entire toolkit and pivoted through it to two more"
+    "summary": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]"
   },
   {
     "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
@@ -668,44 +687,6 @@
     "summary": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]"
   },
   {
-    "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
-    "source": "BleepingComputer",
-    "published": "2026-07-14T09:40:13+00:00",
-    "raw_text": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "vpn"
-      ],
-      "Cybersecurity": [
-        "ransomware",
-        "malware"
-      ]
-    },
-    "summary": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]"
-  },
-  {
-    "title": "Japan's largest taxi operator shuts systems after cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
-    "source": "BleepingComputer",
-    "published": "2026-07-13T20:18:59+00:00",
-    "raw_text": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyberattack",
-        "cyber"
-      ]
-    },
-    "summary": "Japan's largest taxi operator, Nihon Kotsu, announced that its systems were compromised in a cyberattack, forcing the company to shut down part of its infrastructure. [...]"
-  },
-  {
     "title": "Microsoft Patches a Record 570 Security Flaws",
     "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
     "source": "Krebs on Security",
@@ -752,6 +733,48 @@
       ]
     },
     "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys -- in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. Experts say the gaps identified in the agency's initial response provide important lessons that all security teams should absorb."
+  },
+  {
+    "title": "Fortinet adds AI controls and data loss prevention to FortiEndpoint",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/fortinet-fortiai-assist/",
+    "source": "Help Net Security",
+    "published": "2026-07-15T07:47:57+00:00",
+    "raw_text": "Fortinet has announced new capabilities for its unified endpoint platform, FortiEndpoint, designed to help organizations securely adopt AI, protect sensitive data, and reduce risk. By bringing AI visibility and control, native data security, endpoint risk scoring, and FortiAI-assisted operations into FortiEndpoint, Fortinet enables security teams to better govern AI usage, reduce sensitive data exposure, enforce risk-aware access, and simplify security operations across distributed environments. “Organizations need a simpler and more effective way to manage security … More → The post Fortinet adds AI controls and data loss prevention to FortiEndpoint appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Fortinet has announced new capabilities for its unified endpoint platform, FortiEndpoint, designed to help organizations securely adopt AI, protect sensitive data, and reduce risk. By bringing AI visibility and control, native data security, endpoint risk scoring, and FortiAI-assisted operations into FortiEndpoint, Fortinet enables security teams to better govern AI usage, reduce sensitive data exposure, enforce risk-aware access, and simplify security operations across distributed environments. “Organizations need a simpler and more effective way to manage security … More → The post Fortinet adds AI controls and data loss prevention to FortiEndpoint appeared first on Help Net Security ."
+  },
+  {
+    "title": "Product showcase: Trust Chain TPRM turns vendor compliance evidence into verified assurance",
+    "url": "https://www.helpnetsecurity.com/2026/07/15/product-showcase-strike-graph-trust-chain-tprm/",
+    "source": "Help Net Security",
+    "published": "2026-07-15T07:30:16+00:00",
+    "raw_text": "Trust Chain is an AI-native third-party risk management (TPRM) solution by Strike Graph that replaces the security questionnaire model with validated evidence of compliance. Rather than asking vendors to self-report their security posture, Trust Chain requires vendors to submit evidence, which is then evaluated using Strike Graph’s patent-pending Verify AI technology. The evaluation tests each submission against the requesting organization’s speciﬁc requirements. The result is veriﬁed assurance rather than vendor attestation, delivered in a fraction … More → The post Product showcase: Trust Chain TPRM turns vendor compliance evidence into verified assurance appeared first on Help Net Security .",
+    "categories": [
+      "GRC",
+      "Industry & Market",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "compliance",
+        "risk management"
+      ],
+      "Industry & Market": [
+        "valuation",
+        "vendor"
+      ]
+    },
+    "summary": "Trust Chain is an AI-native third-party risk management (TPRM) solution by Strike Graph that replaces the security questionnaire model with validated evidence of compliance. Rather than asking vendors to self-report their security posture, Trust Chain requires vendors to submit evidence, which is then evaluated using Strike Graph’s patent-pending Verify AI technology. The evaluation tests each submission against the requesting organization’s speciﬁc requirements. The result is veriﬁed assurance rather than vendor attestation, delivered in a fraction … More → The post Product showcase: Trust Chain TPRM turns vendor compliance evidence into verified assurance appeared first on Help Net Security ."
   },
   {
     "title": "SingGuard-NSFA: Open-source guardrails for agentic AI",
@@ -919,52 +942,22 @@
     "summary": "A new approach tried out by Tracebit researchers has proven very effective at stopping AI agents from fully compromising targeted environments. What makes it notable isn’t the technique – prompt injection is old news – but the direction it’s pointed: not to hijack AI agents, but to defend against them. Canaries with context bombs Tracebit offers customers a range of canaries, i.e., decoy resources and credentials that, when targeted by attackers, provide early warning of … More → The post “Context bombs” can frustrate AI-driven attacks, researchers found appeared first on Help Net Security ."
   },
   {
-    "title": "Google adds FIDO2 keys and phone passkeys to Windows login via GCPW",
-    "url": "https://www.helpnetsecurity.com/2026/07/14/security-key-windows-login-google-workspace/",
-    "source": "Help Net Security",
-    "published": "2026-07-14T10:35:48+00:00",
-    "raw_text": "Google has started rolling out FIDO2-compliant physical security key support as a second factor for authentication in Google Credential Provider for Windows (GCPW) to all Google Workspace customers. GCPW is a free tool that lets users sign in to Windows computers with their Google Workspace account instead of, or alongside, a Windows username and password. The update allows organizations to strengthen account security by enabling administrators to enforce 2-step verification (2SV) with hardware security keys … More → The post Google adds FIDO2 keys and phone passkeys to Windows login via GCPW appeared first on Help Net Security .",
+    "title": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
+    "url": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits",
+    "source": "Dark Reading",
+    "published": "2026-07-15T08:00:00+00:00",
+    "raw_text": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
     "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "gcp"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Google has started rolling out FIDO2-compliant physical security key support as a second factor for authentication in Google Credential Provider for Windows (GCPW) to all Google Workspace customers. GCPW is a free tool that lets users sign in to Windows computers with their Google Workspace account instead of, or alongside, a Windows username and password. The update allows organizations to strengthen account security by enabling administrators to enforce 2-step verification (2SV) with hardware security keys … More → The post Google adds FIDO2 keys and phone passkeys to Windows login via GCPW appeared first on Help Net Security ."
-  },
-  {
-    "title": "No one knows how many old shims can still bypass UEFI Secure Boot",
-    "url": "https://www.helpnetsecurity.com/2026/07/14/eset-uefi-secure-boot-bypass/",
-    "source": "Help Net Security",
-    "published": "2026-07-14T10:26:52+00:00",
-    "raw_text": "The vast majority of UEFI computers carry a Microsoft certificate that will trust a small first-stage loader called a shim, a program Microsoft signs so that Linux and assorted boot tools can run with Secure Boot on. Eleven of those signed shims turned out to be old enough to undo the protection they were meant to support. ESET researchers found the vulnerable versions, all at 0.9 or below, and Microsoft revoked them in its June … More → The post No one knows how many old shims can still bypass UEFI Secure Boot appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
+        "cyberattack",
+        "security",
+        "cyber"
       ]
     },
-    "summary": "The vast majority of UEFI computers carry a Microsoft certificate that will trust a small first-stage loader called a shim, a program Microsoft signs so that Linux and assorted boot tools can run with Secure Boot on. Eleven of those signed shims turned out to be old enough to undo the protection they were meant to support. ESET researchers found the vulnerable versions, all at 0.9 or below, and Microsoft revoked them in its June … More → The post No one knows how many old shims can still bypass UEFI Secure Boot appeared first on Help Net Security ."
+    "summary": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency."
   },
   {
     "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
@@ -1142,6 +1135,27 @@
       ]
     },
     "summary": "An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal operations."
+  },
+  {
+    "title": "Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates",
+    "url": "https://www.securityweek.com/critical-vulnerabilities-patched-with-fresh-chrome-150-firefox-152-updates/",
+    "source": "SecurityWeek",
+    "published": "2026-07-15T07:24:52+00:00",
+    "raw_text": "Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "Public exploit code targeting the Firefox flaws exists, but no in-the-wild exploitation has been observed. The post Critical Vulnerabilities Patched With Fresh Chrome 150, Firefox 152 Updates appeared first on SecurityWeek ."
   },
   {
     "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
@@ -1331,23 +1345,6 @@
     "summary": "UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek ."
   },
   {
-    "title": "Multiple Jscrambler Packages Impacted by Supply Chain Attack",
-    "url": "https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "published": "2026-07-14T09:04:39+00:00",
-    "raw_text": "A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "security"
-      ]
-    },
-    "summary": "A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek ."
-  },
-  {
     "title": "US: Pentagon Suspends CMMC Phase II Requirements for Defense Contractors",
     "url": "https://www.infosecurity-magazine.com/news/us-pentagon-suspends-cmmc-2/",
     "source": "InfoSecurity Magazine",
@@ -1510,24 +1507,6 @@
     "summary": "An Armenian man has pleaded guilty to his role in the infamous Ryuk ransomware operation"
   },
   {
-    "title": "Australian Cyber Agency Warns of Global CMS Exploitation Campaign",
-    "url": "https://www.infosecurity-magazine.com/news/australia-warns-global-cms/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-07-13T08:30:00+00:00",
-    "raw_text": "Australian Cyber Security Centre warns CMS users of mass scanning and exploitation campaign",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "exploit",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "Australian Cyber Security Centre warns CMS users of mass scanning and exploitation campaign"
-  },
-  {
     "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
     "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
     "source": "AWS News Blog",
@@ -1604,7 +1583,7 @@
     "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/",
     "source": "Google Cloud Blog",
     "published": "2026-07-14T16:00:00+00:00",
-    "raw_text": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude on Google Cloud is built for exactly this. Like Monet and water lilies , frontier models and the enterprise platforms are often better together. In our case, Claude brings the reasoning, and Google Cloud brings the managed infrastructure, global reach, and compliance posture that enterprises already run on. Calling Claude becomes operationally identical to calling any other Google Cloud service — same Identity and Access Management (IAM), same VPC Service controls , same observability — so teams are able to spend their time building features instead of running inference infrastructure. This post walks through what Claude on Google Cloud delivers in production across four areas: Managed infrastructure that gives engineers their time back Global endpoints that hold latency low, and uptime high for a worldwide user base Security and data-sovereignty controls inherited straight from Google Cloud Serving-layer features that keep cost and performance optimized at scale. Managed infrastructure that frees engineering time Claude on Google Cloud runs on fully managed infrastructure, so enterprise teams ship features instead of building clusters. Compute provisioning, auto-scaling logic, load balancing, and failover at frontier-model scale are handled by the platform — work that would otherwise occupy multiple teams full-time. Claude is available through Agent Platform's Model Garden as a Model-as-a-Service offering, ready to use over standard REST / JSON over HTTP/1.1 or HTTP/2 endpoints. Invoking Claude is operationally identical to invoking any other Google Cloud service: the same IAM policies , the same VPC controls, and the same observability stack via Cloud Logging and Cloud Monitoring . Serving Claude takes a few lines of Python using the AnthropicVertex client: code_block <ListValue: [StructValue([('code', 'from anthropic import AnthropicVertex\\r\\n\\r\\nclient = AnthropicVertex(\\r\\n project_id=\"your-project-id\",\\r\\n region=\"us\"\\r\\n)\\r\\n\\r\\nmessage = client.messages.create(\\r\\n model=\"claude-opus-4-8\",\\r\\n max_tokens=1024,\\r\\n messages=[{\"role\": \"user\", \"content\": \"Analyze this system architecture.\"}]\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f2790de5700>)])]> The same AnthropicVertex client handles prompt caching, tool use, structured outputs, streaming, and adaptive thinking; for batch inference, use Vertex AI Batch Prediction . Authentication uses Application Default Credentials; requests automatically inherit your project's IAM and VPC configuration. Global reach with consistent latency and built-in failover Serving a worldwide user base from a single endpoint produces high tail latency and a single point of failure. Most enterprises can't replicate inference infrastructure across continents while keeping performance consistent. Agent Platform exposes three endpoint types for Claude, each solving a different production requirement: Global endpoints route requests to a region with available AI compute capacity. For example, if us-central1 is capacity-constrained, traffic redirects to europe-west1 or another region with available capacity. That’s automatic failover and geographic load balancing without application-side routing logic. Global endpoints are ideal for maximum availability and lowest cost. Regional endpoints like us-east5 or europe-west1 keep prompts, completions, and intermediate state inside a specific geographical boundary, making it ideal for low latency and data-residency requirements. Multi-region endpoints give U.S. or EU data residency without single-region dependency. They dynamically route across regional endpoints providing built-in resilience against regional outages and capacity constraints. The diagram below shows how applications reach Claude through these endpoint types, and how the Agent Platform serving layer routes traffic to the Compute AI clusters across regions: Serving Claude Models From Regional & Global Endpoints Serving Claude Models From Multi-Region Endpoints Serving Claude Models From Regional Endpoints Enterprise security and data sovereignty built in Regulated workloads — financial services, healthcare, and government — get enterprise-grade security and data sovereignty without trading compliance for convenience, and without re-engineering the hardest layer to control: inference, where prompts, completions, and intermediate state all flow through the serving stack. Claude on Agent Platform inherits Google Cloud's full security posture. FedRAMP High and HIPAA compliance enable deployment in government, healthcare, and financial services environments. VPC Service Controls let organizations define a perimeter around Agent Platform resources, preventing data exfiltration. IAM-native access control governs Claude endpoints with the same roles and policies that protect every other Google Cloud resource — no separate API keys to manage or rotate. Cloud Logging and Cloud Monitoring provide near real-time visibility into token usage, error rates, latency, and quota consumption. Combined with the regional and multi-region endpoints above, this gives regulated customers a path to running frontier AI in production without re-auditing their compliance posture. Optimized for cost and performance at scale In production, cost and performance drive every architectural decision. Getting both right requires capabilities from two layers: Claude's native model features, and Google Cloud's serving infrastructure. Agent Platform supports both, so teams can optimize across the stack without managing them separately. Claude-native capabilities, fully supported on Agent Platform These features are built into Claude and available on Agent Platform without any additional configuration: Prompt caching stores and reuses shared prefixes — long system prompts, legal documents, codebases — reducing request latency by up to 80% and cost by up to 90%. Streaming responses over server-sent events deliver tokens as they are generated, critical for chat interfaces and coding assistants where perceived latency matters. Extended and adaptive thinking lets Claude dynamically determine when and how much to reason through complex, multi-step problems — and allows users to dial the thinking effort directly, for example to control cost. Optimized for use cases like advanced code generation, mathematical reasoning, and multi-document analysis. Extended context windows up to 1M tokens (for Claude Opus 4.6,Sonnet 4.6 and newer models) enable long-document analysis, large codebase reasoning, and multi-turn conversations at depth. Google Cloud serving infrastructure Agent Platform adds its own serving-layer capabilities on top of Claude's native features: Batch prediction handles large-scale offline workloads — document classification, content moderation, bulk summarization — asynchronously at lower priority and reduced cost. Provisioned throughput reserves dedicated inference capacity for mission-critical workloads, isolating them from public traffic and ensuring predictable performance during peak demand. Memory management and scheduling for long-context requests is handled at the infrastructure layer,. Together, these two layers give teams the full range of optimization levers — from model-level efficiency to infrastructure-level capacity control — on a single, unified platform. From inference to agents The same infrastructure that serves Claude inference powers the agent layer of Agent Platform on Google Cloud. The build-and-register flow has three steps: Build with Claude. Claude is well-suited as an orchestration backbone — its extended context window, native tool use, and adaptive thinking make it effective at planning multi-step tasks and delegating to sub-agents. Pick Claude Opus, Sonnet, or Haiku from the Model Garden, then build with the Agent Development Kit (ADK) — code-first in Python, Go, Java, or TypeScript — deploy to Agent Runtime, Cloud Run or Google Kubernetes Engine. Deploy the Agent to a Runtime. Depending on your use case, select Agent Runtime, Google Kubernetes Engine or GKE Agent Sandbox to run your deployed agents. Interoperate over A2A. The Agent2Agent protocol runs at 150+ organizations, letting a registered Claude-powered agent delegate tasks to agents from SaaS and other service providers. The result: a planning agent built on Claude can orchestrate sub-tasks across the broader agent ecosystem, under unified IAM, fully auditable, on the same infrastructure that serves the underlying inference. Start building Open the Agent Platform console , enable Claude in the Model Garden, and make your first API call with the AnthropicVertex SDK. Add prompt caching, provisioned throughput, and other features as your workload demands. When you're ready to go agentic, learn more about Claude on Agent Platform . Reach out to your Google Cloud sales representative to discuss bringing Claude into your production environment at scale.",
+    "raw_text": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude on Google Cloud is built for exactly this. Like Monet and water lilies , frontier models and the enterprise platforms are often better together. In our case, Claude brings the reasoning, and Google Cloud brings the managed infrastructure, global reach, and compliance posture that enterprises already run on. Calling Claude becomes operationally identical to calling any other Google Cloud service — same Identity and Access Management (IAM), same VPC Service controls , same observability — so teams are able to spend their time building features instead of running inference infrastructure. This post walks through what Claude on Google Cloud delivers in production across four areas: Managed infrastructure that gives engineers their time back Global endpoints that hold latency low, and uptime high for a worldwide user base Security and data-sovereignty controls inherited straight from Google Cloud Serving-layer features that keep cost and performance optimized at scale. Managed infrastructure that frees engineering time Claude on Google Cloud runs on fully managed infrastructure, so enterprise teams ship features instead of building clusters. Compute provisioning, auto-scaling logic, load balancing, and failover at frontier-model scale are handled by the platform — work that would otherwise occupy multiple teams full-time. Claude is available through Agent Platform's Model Garden as a Model-as-a-Service offering, ready to use over standard REST / JSON over HTTP/1.1 or HTTP/2 endpoints. Invoking Claude is operationally identical to invoking any other Google Cloud service: the same IAM policies , the same VPC controls, and the same observability stack via Cloud Logging and Cloud Monitoring . Serving Claude takes a few lines of Python using the AnthropicVertex client: code_block <ListValue: [StructValue([('code', 'from anthropic import AnthropicVertex\\r\\n\\r\\nclient = AnthropicVertex(\\r\\n project_id=\"your-project-id\",\\r\\n region=\"us\"\\r\\n)\\r\\n\\r\\nmessage = client.messages.create(\\r\\n model=\"claude-opus-4-8\",\\r\\n max_tokens=1024,\\r\\n messages=[{\"role\": \"user\", \"content\": \"Analyze this system architecture.\"}]\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f27909c5730>)])]> The same AnthropicVertex client handles prompt caching, tool use, structured outputs, streaming, and adaptive thinking; for batch inference, use Vertex AI Batch Prediction . Authentication uses Application Default Credentials; requests automatically inherit your project's IAM and VPC configuration. Global reach with consistent latency and built-in failover Serving a worldwide user base from a single endpoint produces high tail latency and a single point of failure. Most enterprises can't replicate inference infrastructure across continents while keeping performance consistent. Agent Platform exposes three endpoint types for Claude, each solving a different production requirement: Global endpoints route requests to a region with available AI compute capacity. For example, if us-central1 is capacity-constrained, traffic redirects to europe-west1 or another region with available capacity. That’s automatic failover and geographic load balancing without application-side routing logic. Global endpoints are ideal for maximum availability and lowest cost. Regional endpoints like us-east5 or europe-west1 keep prompts, completions, and intermediate state inside a specific geographical boundary, making it ideal for low latency and data-residency requirements. Multi-region endpoints give U.S. or EU data residency without single-region dependency. They dynamically route across regional endpoints providing built-in resilience against regional outages and capacity constraints. The diagram below shows how applications reach Claude through these endpoint types, and how the Agent Platform serving layer routes traffic to the Compute AI clusters across regions: Serving Claude Models From Regional & Global Endpoints Serving Claude Models From Multi-Region Endpoints Serving Claude Models From Regional Endpoints Enterprise security and data sovereignty built in Regulated workloads — financial services, healthcare, and government — get enterprise-grade security and data sovereignty without trading compliance for convenience, and without re-engineering the hardest layer to control: inference, where prompts, completions, and intermediate state all flow through the serving stack. Claude on Agent Platform inherits Google Cloud's full security posture. FedRAMP High and HIPAA compliance enable deployment in government, healthcare, and financial services environments. VPC Service Controls let organizations define a perimeter around Agent Platform resources, preventing data exfiltration. IAM-native access control governs Claude endpoints with the same roles and policies that protect every other Google Cloud resource — no separate API keys to manage or rotate. Cloud Logging and Cloud Monitoring provide near real-time visibility into token usage, error rates, latency, and quota consumption. Combined with the regional and multi-region endpoints above, this gives regulated customers a path to running frontier AI in production without re-auditing their compliance posture. Optimized for cost and performance at scale In production, cost and performance drive every architectural decision. Getting both right requires capabilities from two layers: Claude's native model features, and Google Cloud's serving infrastructure. Agent Platform supports both, so teams can optimize across the stack without managing them separately. Claude-native capabilities, fully supported on Agent Platform These features are built into Claude and available on Agent Platform without any additional configuration: Prompt caching stores and reuses shared prefixes — long system prompts, legal documents, codebases — reducing request latency by up to 80% and cost by up to 90%. Streaming responses over server-sent events deliver tokens as they are generated, critical for chat interfaces and coding assistants where perceived latency matters. Extended and adaptive thinking lets Claude dynamically determine when and how much to reason through complex, multi-step problems — and allows users to dial the thinking effort directly, for example to control cost. Optimized for use cases like advanced code generation, mathematical reasoning, and multi-document analysis. Extended context windows up to 1M tokens (for Claude Opus 4.6,Sonnet 4.6 and newer models) enable long-document analysis, large codebase reasoning, and multi-turn conversations at depth. Google Cloud serving infrastructure Agent Platform adds its own serving-layer capabilities on top of Claude's native features: Batch prediction handles large-scale offline workloads — document classification, content moderation, bulk summarization — asynchronously at lower priority and reduced cost. Provisioned throughput reserves dedicated inference capacity for mission-critical workloads, isolating them from public traffic and ensuring predictable performance during peak demand. Memory management and scheduling for long-context requests is handled at the infrastructure layer,. Together, these two layers give teams the full range of optimization levers — from model-level efficiency to infrastructure-level capacity control — on a single, unified platform. From inference to agents The same infrastructure that serves Claude inference powers the agent layer of Agent Platform on Google Cloud. The build-and-register flow has three steps: Build with Claude. Claude is well-suited as an orchestration backbone — its extended context window, native tool use, and adaptive thinking make it effective at planning multi-step tasks and delegating to sub-agents. Pick Claude Opus, Sonnet, or Haiku from the Model Garden, then build with the Agent Development Kit (ADK) — code-first in Python, Go, Java, or TypeScript — deploy to Agent Runtime, Cloud Run or Google Kubernetes Engine. Deploy the Agent to a Runtime. Depending on your use case, select Agent Runtime, Google Kubernetes Engine or GKE Agent Sandbox to run your deployed agents. Interoperate over A2A. The Agent2Agent protocol runs at 150+ organizations, letting a registered Claude-powered agent delegate tasks to agents from SaaS and other service providers. The result: a planning agent built on Claude can orchestrate sub-tasks across the broader agent ecosystem, under unified IAM, fully auditable, on the same infrastructure that serves the underlying inference. Start building Open the Agent Platform console , enable Claude in the Model Garden, and make your first API call with the AnthropicVertex SDK. Add prompt caching, provisioned throughput, and other features as your workload demands. When you're ready to go agentic, learn more about Claude on Agent Platform . Reach out to your Google Cloud sales representative to discuss bringing Claude into your production environment at scale.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1807,6 +1786,59 @@
       ]
     },
     "summary": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher precision — while reducing friction for legitimate users."
+  },
+  {
+    "title": "7 skills and traits of elite security engineers",
+    "url": "https://www.csoonline.com/article/4196428/7-skills-and-traits-of-elite-security-engineers.html",
+    "source": "CSO Online",
+    "published": "2026-07-15T07:00:00+00:00",
+    "raw_text": "Security engineers play a pivotal role in enterprise cybersecurity, because they are the professionals who design, build, and deploy security systems to protect an organization’s data, applications, systems, networks, and other IT components against a variety of cyber threats. Finding not just qualified security engineers, but the best and brightest available, needs to be a priority for CISOs and others overseeing security at their organizations. That’s especially true with the rapid rise of AI and the threats that brings to the enterprise. Here are some of the key skills and traits of elite security engineers to look for when hiring — or to acquire in order to uplevel your cybersecurity career. Acumen with AI-powered tools These days, AI-related skills are in demand regardless of domain, and this certainly applies to security engineers. There’s a wealth of solutions leveraging AI in the market, tools that engineers can add to their defense arsenal. “AI is transforming security engineering from reactive alerting to predictive threat detection,” says Praveen Margabandhu, digital engineering anchor at financial services firm Navy Federal Credit Union. “AI-driven anomaly detection now identifies behavioral patterns that indicate fraud or compromise before traditional threshold-based systems would fire. This shifts the security engineer’s role from incident responder to threat model designer.” AI-powered tools have taken over a large portion of the detection and triage work that used to be the core of a security engineer’s day, says Maruf Ahmed, cofounder and CEO of global tech staffing firm Dexian. “Vulnerability scanning runs on its own now,” he says. “Threat flagging that used to require a team pulling through logs for hours happens in minutes.” This has freed up capacity on most security teams and changed what the day-to-day work looks like, Ahmed says. “With detection increasingly automated, the engineer’s value sits more in interpreting what gets flagged and deciding what to do about it,” he says. Keen understanding of emerging and established AI threats Engineers must also have a thorough understanding of the risks AI presents, including AI-enhanced cyberattacks using large language models (LLMs) to automate and scale highly personalized social engineering attacks , craft sophisticated malware, and generate deepfakes. Other AI threats they need to be aware of include prompt injections, data and model poisoning, disclosure of sensitive information, model theft, supply chain compromises, and excessive agency. “The same generative tools that help security teams work faster are available to adversaries, and it shows,” Ahmed says. “Phishing campaigns read better and land more precisely than they did a year ago. Social engineering is harder to catch when the language is polished and tailored to the target, and security engineers are now defending against threats built with the same class of technology they use on the defensive side.” That has raised the bar for what reliable detection looks like, Ahmed says. “The objective shift I hear most from clients is about trust in their own systems,” he says. “Two years ago, the priority was visibility — making sure you could see across your environment. Most organizations have that now. The harder problem is knowing whether what those tools are telling you holds up under scrutiny and having people on the team who can stand behind those findings in front of a regulator or a board.” Appreciation of performance and business goals The best security engineers understand how performance and security intersect, says Margabandhu, who leads performance engineering across Navy Federal Credit Union’s digital banking infrastructure, including real-time fraud detection, identity and access management, and cybersecurity infrastructure resilience. “A fraud detection system that is secure but too slow to catch transactions in real-time is not secure at all,” Margabandhu says. “Elite engineers optimize for both simultaneously.” Engineers must be able to put things in business context, Ahmed says. “An engineer who can work across domains, validate AI outputs, and learn new tools fast is valuable. But that value compounds when the person also understands what the organization is trying to protect and why,” he says. Security engineers who understand the business make better risk decisions, write more effective policies, and generate less friction with the teams around them, Ahmed says. “That is the profile employers are hiring toward right now, and it is where the talent shortage is most pronounced,” he says. Systems mindset “One of the biggest misconceptions in cybersecurity hiring is that elite security engineers are defined purely by technical certifications or tool familiarity,” says Juan Mathews Rebello Santos, an independent cybersecurity researcher and ethical hacker. “Technical skill absolutely matters, but the strongest engineers I’ve worked with consistently share a combination of analytical thinking, operational adaptability, communication ability, and deep systems understanding,” Santos says. Elite security engineers understand how infrastructure, cloud services, identity systems, applications, APIs, networks, users, and business operations connect, Santos says. “Modern attacks rarely target a single isolated component anymore,” he says. “Threat actors chain together weaknesses across environments. Engineers who can understand those relationships holistically are significantly more effective at both prevention and incident response.” Cross-disciplinary fluency and broad stack know-how Being an elite software engineer today means having a range of technology experience and knowledge. “Organizations want engineers who can work across more of the stack than they used to,” Ahmed says. “A role that might have asked for deep specialization in one area now expects someone who can move between cloud infrastructure, application security, and compliance without needing a handoff at every boundary.” The attack surface has continued to get wider, and the job descriptions for security engineers has followed suit. “That cross-domain fluency matters because security incidents rarely stay contained in one layer,” Ahmed says. “The engineer who can follow a problem from the network through the application to the data governance framework resolves it faster, with fewer people involved.” The strongest security engineers bridge infrastructure, application, and business domains, Margabandhu says. “They can speak to a CISO, a developer, and a cloud architect in the same conversation,” he says. “An engineer who can explain what an authentication problem means for fraud exposure moves faster in a room full of executives than one who can only describe it in infrastructure terms. I’ve watched technically brilliant people lose that race repeatedly.” Having the ability to communicate technical risk clearly to non-technical leadership can mean the difference between success and failure of attacks. “Many security failures today are not caused by lack of tooling, but by misalignment between technical teams and business decision-makers,” Santos says. “Elite engineers can explain operational risk, prioritization, and security tradeoffs in language executives understand.” Deep understanding of third-party risk and non-human threats Threats can come from anywhere, including supply chains and non-human combatants. Third-party cybersecurity risks are on the rise. The 2026 Global CISO Leadership Report by executive search firm Hitch Partners, based on a survey of more than 625 information security executives across the US and Canada, says 43% put third-party risks as the No. 1 priority. “Most teams are still better at securing what they own than securing what they depend on,” Margabandhu says. “The mental shift from perimeter thinking to dependency thinking is real and not everyone has made it. The engineers who treat every API call , every credentialed vendor, every third-party model as part of their attack surface approach design differently.” Another growing source of potential threats are not human. Machine identities now outnumber human identities by ratios exceeding 100 to 1 in most enterprise environments, with some sectors closer to 500 to 1, according to the ManageEngine Identity Security Outlook 2026 report. This includes service accounts, API keys, automation tokens, and AI agents, any one of which can present data governance and security risks. Many organizations are still managing machine identities through manual processes that weren’t designed for scale, Margabandhu says. “Engineers who understand non-human identity governance are rare and increasingly important. This is not a future problem.” Willingness to keep learning Security engineers need to have a desire to never stopped learning. “That sounds obvious until you work with people who’ve been doing this for 15 years and are still operating from the same threat models they built in 2012,” Margabandhu says. “Security changes fast enough that standing still is the same as going backwards.” The security engineers who keep up aren’t reading one report a year. “They’re genuinely curious about what attackers are doing right now, this month, and they adjust how they think accordingly,” Margabandhu says. “That quality is harder to hire for than most technical skills, because it’s not on a resume.” With AI presenting new and more sophisticated threats, keeping up with the latest developments is perhaps more important than ever. “Strong engineers are naturally investigative,” Santos says. “They actively study attack techniques, test assumptions, reverse engineer failures, and continuously adapt their understanding of risk.” The best security engineers are often the people who remain intellectually uncomfortable because they know the landscape is always evolving, Santos says. Employers have started paying closer attention to how fast someone can learn, Ahmed says. “The threat landscape and the defensive toolkit are both moving faster than any certification program can track, so hiring managers are probing for adaptability in interviews: how candidates have responded to recent shifts, whether they have picked up unfamiliar platforms on their own, how they work through problems they have not seen before,” he says.",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Cloud Infrastructure",
+      "GRC",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "cloud services"
+      ],
+      "Networks": [
+        "network",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "malware",
+        "vulnerability",
+        "phishing",
+        "hacker",
+        "cyberattack",
+        "threat",
+        "security",
+        "cyber",
+        "soc",
+        "identity security",
+        "incident response",
+        "application security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance"
+      ],
+      "Data Centres": [
+        "rack",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "Security engineers play a pivotal role in enterprise cybersecurity, because they are the professionals who design, build, and deploy security systems to protect an organization’s data, applications, systems, networks, and other IT components against a variety of cyber threats. Finding not just qualified security engineers, but the best and brightest available, needs to be a priority for CISOs and others overseeing security at their organizations. That’s especially true with the rapid rise of AI and the threats that brings to the enterprise. Here are some of the key skills and traits of elite security engineers to look for when hiring — or to acquire in order to uplevel your cybersecurity career."
   },
   {
     "title": "Microsoft is forcing an enterprise transition to passkeys",
@@ -2190,56 +2222,33 @@
     "summary": "Picture the moment after an AI issue is reported. A security analyst is reviewing a ticket reporting that an internal AI tool produced the wrong recommendation in a live business workflow. The risk is not theoretical anymore. Someone wants to know whether this is a security incident, a model issue, a privacy issue, a vendor issue or just “something the AI did.” The risk register has a line item for inaccurate output, and it may even have a severity rating."
   },
   {
-    "title": "Can AI narrow cybersecurity’s class divide?",
-    "url": "https://www.csoonline.com/article/4195787/can-ai-narrow-cybersecuritys-class-divide.html",
-    "source": "CSO Online",
-    "published": "2026-07-13T07:00:00+00:00",
-    "raw_text": "At Amazon Web Services (AWS), artificial intelligence is already compressing security work that once took months into minutes. In the old world, human red teams would find vulnerabilities, write reports, refine those reports, and eventually hand them to defenders, who would then begin building detections or fixes, Steve Schmidt , chief security officer at Amazon, tells CSO. That process could take “two, four, six, eight, 10 months,” Schmidt says. “Now with proper application of AI, we can have the detections built for the problems the red team finds in 15 minutes-ish,” he says. “I think the outside is about four hours.” That kind of workflow offers a glimpse of what AI could make possible for the most sophisticated security organizations: AI agents testing systems, other agents generating defenses, and human security engineers validating results and refining the feedback loop. But it also raises a more uncomfortable question for the rest of the cybersecurity industry: What happens to organizations that cannot build anything close to that? The concern has become significant enough that the Trump administration recently directed agencies to expand access to AI-enabled cybersecurity capabilities for resource-constrained organizations, including rural hospitals, community banks, and local utilities. The order reflects a growing fear that AI could deepen a divide that has existed in cybersecurity for years: the divide between organizations with money, expertise, and engineering depth, and those struggling to keep pace with basic security demands. Yet security leaders and practitioners suggest the impact of AI will be more complicated than a simple widening gap. Some experts say AI is merely adding a new layer to a long-standing security poverty problem. Others argue AI could democratize capabilities once reserved for elite organizations. Still others see today’s divide as real, but potentially temporary, as models become cheaper, more open, and easier to run. The class divide was already here For Matt Warner , co-founder and CEO of Blumira, the premise that AI is creating a cybersecurity class divide misses a key point: The divide already exists. “I would go even a step further and say that there has been a class divide for the last 10 to 15 years,” Warner tells CSO. What AI changes, he argues, is not necessarily the existence of the divide but how stark it becomes. Larger organizations have money, people, and time to experiment with AI. Smaller organizations often do not. “The big differences that we’re seeing, especially from where we sit in the world, is the difference is getting starker in having the resources to leverage AI and the time to leverage AI more than anything else,” Warner says. That distinction matters because many smaller organizations are already overwhelmed. Warner pointed to resource-constrained local governments and small or midmarket organizations that are still far behind large enterprises in basic IT and security maturity. “I can find you a county in Michigan with two IT people for 2,000 employees,” Warner says. “Those people don’t have time to leverage AI and even learn how to use AI because they’re mostly just trying to put out fires.” That problem is not unique to AI. Smaller organizations have long struggled to patch systems, prioritize vulnerabilities, monitor environments, and respond to incidents with limited staff. AI may help eventually, but only if those organizations have enough capacity to adopt it. Wendy Nather’s framework gets an AI layer Anton Chuvakin , security advisor in the office of the CISO for Google Cloud, sees the AI divide as part of a much older problem. “I feel like it sends me back to when Wendy Nather invented the security poverty line,” Chuvakin tells CSO, referring to Nather’s 2011 concept describing organizations that lack the money, expertise, capability, or influence to implement effective security. Chuvakin is skeptical that AI fundamentally changes that model. “I don’t think AI necessarily breaks that model,” he says. “I think it just adds another dimension.” Cybersecurity has always been shaped by unequal access to top talent, tools, and services, Chuvakin argues. Large organizations could afford better SIEM deployments, advanced DLP programs, threat hunters, application security experts, and incident response retainers. Smaller organizations often could not. AI may become another scarce resource, but Chuvakin cautions against overstating the role of model cost alone. In his view, the bigger structural issue may be talent rather than tokens. “Prices for people won’t drop, but prices for LLMs may drop,” he believes. That means the organizations with the greatest advantage may not simply be those that can afford the most expensive models. They may be the ones that can afford the people who know how to use them — and, as the frontier-access debate below suggests, that talent gap may prove more durable than any gap in model access itself. AI creates new costs — and new uncertainties Nather herself, now senior research initiatives director at 1Password, sees AI affecting every dimension of the security poverty line: money, expertise, capability, and influence. The financial challenges are not limited to whether an organization can pay for an AI tool. In some cases, organizations that cannot afford enterprise licensing may end up making tradeoffs around privacy. “If an organization can’t afford an enterprise license for the models they’re using, then they can’t keep their data private,” Nather tells CSO. “So, they have to give up privacy because they can’t afford privacy.” That’s a new twist on an old dimension of the poverty line: It’s not just that under-resourced organizations lack a capability, but that the capability they can afford comes bundled with a risk wealthier organizations don’t have to accept. Token-based pricing adds another problem: unpredictability . “At this point, nobody knows how much they’re going to burn in tokens at any given time,” she says. That makes budgeting difficult for organizations that cannot absorb surprise costs. Nather also warns that usage-based pricing is controlled by providers and can change over time, leaving customers with limited leverage . “The charging practice is in the hands of the providers, and they can change it at any time,” she says. For organizations already operating below the security poverty line, that uncertainty could make AI adoption harder, even if the technology itself becomes more capable. Access to frontier models may be a temporary divide Dave Baggett , SVP/GM of the security suite at Kaseya, agrees there is security class divide dynamic playing out today, particularly around access to frontier models. “There’s definitely a haves and have-nots issue around Mythos specifically because most people don’t have it,” Baggett tells CSO. But he doesn’t think the divide will have a long-term impact. Open-weight models, quantization, mixture-of-experts architectures, and increasingly powerful commodity hardware, he argues, are closing the gap faster than most people expect. While not every organization will build a frontier model, he says, more organizations may be able to run capable models locally or use cheaper systems that approximate what today’s elite models can do . “What it says for finding vulnerabilities is at that point, open-source people can run this stuff,” Baggett says. “Then you’re back to having a symmetrical opportunity where the defenders who are writing the open source can run the same tools the attackers would and have them fix the issues.” His bottom line is that the divide may be real but short-lived. “Right now, there certainly is a have, have-not schism, but it may not be there for long,” Baggett says — a view Chuvakin shares, though he frames it in terms of the model market rather than open source specifically. “I don’t think it’s the lowering prices example, but it’s more like you’re a top-tier model maker, I’m a second-tier model maker. My model in a year would do what your model did a year ago,” Chuvakin says. The real advantage is operational depth Schmidt’s description of AI use at AWS points to another kind of divide: not access to AI, but the ability to operationalize it. AWS uses multiple models for different tasks, Schmidt says. One model may discover vulnerabilities, while other models validate results or help build defenses. Humans remain accountable for evaluating what the systems produce. “Because we believe really strongly in human accountability for the use of AI from end to end, we still have humans take a look at what the systems come up with to determine whether they are reasonable and appropriate,” he says. That workflow requires more than a model. It requires corporate data, secure infrastructure, feedback loops, security engineers, data scientists, and AI specialists who can work together. Schmidt also pushes back on the idea that running AI locally on powerful consumer hardware is a substitute for production-grade security infrastructure. “Often the value of the model is also dependent on its proximity to data so that the model can ingest, use, and reason about data,” he says. “As a security person, I do not want that to be on your laptop.” Experimentation on a laptop is useful, Schmidt says, but it is not the same as a secure production environment. “I want the data to be somewhere safe that I can control, that I can see, that I can reason about, not sitting on your laptop,” he says. “Experimentation in there, awesome. That’s great. But it is not a production infrastructure component.” That distinction may define the emerging AI security gap. Many organizations may be able to access AI tools. Far fewer may be able to safely integrate them into real security workflows. The democratization argument Phil Venables , a partner at Ballistic Ventures and former CISO of Google Cloud, takes the most optimistic view. Asked whether AI is widening the gap between well-resourced and under-resourced security organizations, Venables tells CSO, “No, I actually think it’s the exact opposite.” The reason, he argues, is that AI packages expertise and automation in ways that can be delivered broadly. “One of the fantastic things about AI, and we’re already starting to see this, is [that it’s] a great democratizer of capabilities,” he says. “AI packages up expertise and automation capabilities at a level beyond what prior waves of technology have done, and it makes it available at scale into organizations that have not previously been able to afford these things.” He points to red teaming as an example. Nearly every organization would like a world-class red team, but few can afford one. “Pretty much every organization on the planet would love to have a world-class red team to constantly test their security to find and fix things before attackers do,” Venables says. “But very few organizations have ever been able to afford to build a high-end red team.” AI agents, he argues, could make that kind of capability available more economically. The same pattern could apply to insider threat; third-party risk; software security; governance, risk and compliance; and security operations. “So even the smallest and resource-constrained organizations can now have access to a higher-end capability,” he maintains. Venables does see a danger zone, however: under-resourced security teams inside organizations with aggressive AI ambitions. Those teams may struggle to keep up as the rest of the business adopts AI rapidly. But for many small and midsize organizations, he believes AI could improve access to security capabilities they never had before. A divide over AI — or over readiness? For elite organizations, AI is already becoming a force multiplier. Security teams with deep engineering talent, mature data infrastructure, and strong governance can use AI to accelerate testing, detection engineering, vulnerability discovery, and risk management. For smaller organizations, the picture is less clear. AI may eventually package scarce expertise into affordable services. Open models may reduce dependence on expensive frontier systems. But organizations below the security poverty line still face familiar constraints: too few people, too little time, limited expertise, unpredictable costs, and weak leverage over vendors. The emerging divide may therefore be less about who has access to AI and more about who can turn AI into durable security outcomes. That makes the question facing cybersecurity more complicated than whether AI will create haves and have-nots. The industry already had them. The real question is whether AI becomes another technology that rewards the organizations already best positioned to use it — or the first major security advance in years that helps those below the poverty line finally catch up.",
+    "title": "Spain's University of Granada to expand its supercomputing infrastructure with a second AI system",
+    "url": "https://www.datacenterdynamics.com/en/news/ugr-will-expand-its-supercomputing-infrastructure-with-a-second-ai-system/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-15T08:20:33+00:00",
+    "raw_text": "€3.5 million project will be funded through European Eunomia",
     "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "Networks",
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "€3.5 million project will be funded through European Eunomia"
+  },
+  {
+    "title": "Indian IT giant HCLTech gets into data centers, will invest $364m",
+    "url": "https://www.datacenterdynamics.com/en/news/indian-it-giant-hcltech-gets-into-data-centers-will-invest-364m/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-15T07:40:28+00:00",
+    "raw_text": "Says capacity will scale to 50MW",
+    "categories": [
       "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "google cloud"
-      ],
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "threat",
-        "security",
-        "cyber",
-        "siem",
-        "incident response",
-        "red team",
-        "application security"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "risk management",
-        "nist",
-        "privacy"
-      ],
       "Data Centres": [
+        "data center",
         "capacity"
-      ],
-      "Industry & Market": [
-        "raises",
-        "ey",
-        "vendor"
       ]
     },
-    "summary": "At Amazon Web Services (AWS), artificial intelligence is already compressing security work that once took months into minutes. In the old world, human red teams would find vulnerabilities, write reports, refine those reports, and eventually hand them to defenders, who would then begin building detections or fixes, Steve Schmidt , chief security officer at Amazon, tells CSO. That process could take “two, four, six, eight, 10 months,” Schmidt says. “Now with proper application of AI, we can have the detections built for the problems the red team finds in 15 minutes-ish,” he says."
+    "summary": "Says capacity will scale to 50MW"
   },
   {
     "title": "A1 Digital bets on Spain, expand Exoscale cloud infrastructure into country",
@@ -2340,7 +2349,7 @@
     "title": "The neocloud approach to sustainability",
     "url": "https://www.datacenterdynamics.com/en/analysis/the-neocloud-approach-to-sustainability/",
     "source": "DataCenterDynamics",
-    "published": "2026-07-14T16:00:36+00:00",
+    "published": "2026-07-14T16:00:00+00:00",
     "raw_text": "Can the neocloud companies bring sustainability back into fashion?",
     "categories": [
       "Cloud Infrastructure"
@@ -2557,33 +2566,774 @@
     "summary": "But it is unclear whether the country will have the resources"
   },
   {
-    "title": "African data center operator Raxio to enter Tanzania this year",
-    "url": "https://www.datacenterdynamics.com/en/news/african-data-center-operator-raxio-to-enter-tanzania-this-year/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-14T13:20:28+00:00",
-    "raw_text": "Facility will offer 6MW of capacity",
+    "title": "OpenMandriva's accused repo wrecker says it wasn't sabotage – it was a message",
+    "url": "https://www.theregister.com/os-platforms/2026/07/15/openmandrivas-accused-repo-wrecker-says-it-wasnt-sabotage-it-was-a-message/5270511",
+    "source": "The Register",
+    "published": "2026-07-15T08:30:00+00:00",
+    "raw_text": "Ex-contributor claims he wasn't a rogue admin, hadn't left the project, and never intended to harm the distro",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Ex-contributor claims he wasn't a rogue admin, hadn't left the project, and never intended to harm the distro"
+  },
+  {
+    "title": "The Star Wars cantina scene shows we need a new hope for the agentic web",
+    "url": "https://www.theregister.com/columnists/2026/07/15/the-star-wars-cantina-scene-shows-we-need-a-new-hope-for-the-agentic-web/5270946",
+    "source": "The Register",
+    "published": "2026-07-15T07:29:00+00:00",
+    "raw_text": "'We don't serve their kind here' protects today's publishers, but won't help rebels destroy the monetization Death Stars built by Google and Meta",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "'We don't serve their kind here' protects today's publishers, but won't help rebels destroy the monetization Death Stars built by Google and Meta"
+  },
+  {
+    "title": "At last, a good reason to buy an AI PC: Reining in runaway token bills",
+    "url": "https://www.theregister.com/personal-tech/2026/07/15/at-last-a-good-reason-to-buy-an-ai-pc-reining-in-runaway-token-bills/5271589",
+    "source": "The Register",
+    "published": "2026-07-15T06:26:38+00:00",
+    "raw_text": "Gartner thinks we’re headed to a hybrid AI model where you offload stuff to the desktop whenever possible",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "gartner"
+      ]
+    },
+    "summary": "Gartner thinks we’re headed to a hybrid AI model where you offload stuff to the desktop whenever possible"
+  },
+  {
+    "title": "South Korea to launch universal basic AI chatbot",
+    "url": "https://www.theregister.com/public-sector/2026/07/15/south-korea-to-launch-universal-basic-ai-chatbot/5271566",
+    "source": "The Register",
+    "published": "2026-07-15T04:54:11+00:00",
+    "raw_text": "Tender calls for providers to power free service with local LLMs, government to supply some GPUs",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Tender calls for providers to power free service with local LLMs, government to supply some GPUs"
+  },
+  {
+    "title": "Australia demands AI companies must produce more energy than they consume, stop ‘theft’ of content",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/15/australia-demands-ai-companies-must-produce-more-energy-than-they-consume-stop-theft-of-content/5271535",
+    "source": "The Register",
+    "published": "2026-07-15T03:40:17+00:00",
+    "raw_text": "PM frames sweeping new regulations as the equivalent of labour movement touchstones like winning a minimum wage",
+    "categories": [
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "regulation"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "PM frames sweeping new regulations as the equivalent of labour movement touchstones like winning a minimum wage"
+  },
+  {
+    "title": "Google Cloud's VMware service loses resilience due to a dud update",
+    "url": "https://www.theregister.com/virtualization/2026/07/15/google-clouds-vmware-service-loses-resilience-due-to-a-dud-update/5271511",
+    "source": "The Register",
+    "published": "2026-07-15T00:16:21+00:00",
+    "raw_text": "As VMware itself warns of critical flaw in its load balancer",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "google cloud"
+      ],
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "As VMware itself warns of critical flaw in its load balancer"
+  },
+  {
+    "title": "OpenAI hides Codex agent instructions behind encryption, leaving developers in the dark",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/15/openai-hides-codex-agent-instructions-behind-encryption-leaving-developers-in-the-dark/5271484",
+    "source": "The Register",
+    "published": "2026-07-14T23:00:33+00:00",
+    "raw_text": "Developers worry encrypted MultiAgentV2 messages will make debugging and auditing harder",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "encryption"
+      ],
+      "GRC": [
+        "audit"
+      ]
+    },
+    "summary": "Developers worry encrypted MultiAgentV2 messages will make debugging and auditing harder"
+  },
+  {
+    "title": "Patchpocalypse Now: Microsoft tops last month's record with 622 Patch Tuesday CVEs",
+    "url": "https://www.theregister.com/security/2026/07/14/patchpocalypse-now-microsoft-tops-last-months-record-with-622-patch-tuesday-cves/5271434",
+    "source": "The Register",
+    "published": "2026-07-14T20:49:40+00:00",
+    "raw_text": "Remember when last month's 206 CVEs seemed eye-watering? Yeah, those were the days",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cve"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Remember when last month's 206 CVEs seemed eye-watering? Yeah, those were the days"
+  },
+  {
+    "title": "If you want Claude to speak nicely to you, try Hindi or Arabic",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/if-you-want-claude-to-speak-nicely-to-you-try-hindi-or-arabic/5271409",
+    "source": "The Register",
+    "published": "2026-07-14T19:39:50+00:00",
+    "raw_text": "Anthropic finds Claude expresses different values across languages",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ]
+    },
+    "summary": "Anthropic finds Claude expresses different values across languages"
+  },
+  {
+    "title": "New York becomes first state to halt datacenter buildouts",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/new-york-becomes-first-state-to-halt-datacenter-buildouts/5271377",
+    "source": "The Register",
+    "published": "2026-07-14T18:30:57+00:00",
+    "raw_text": "50 MW-plus bit barn builds on hold while Empire State hashes out rules to protect the environment and ratepayers",
     "categories": [
       "Data Centres"
     ],
     "matched_keywords": {
       "Data Centres": [
-        "data center",
-        "capacity"
+        "datacenter"
       ]
     },
-    "summary": "Facility will offer 6MW of capacity"
+    "summary": "50 MW-plus bit barn builds on hold while Empire State hashes out rules to protect the environment and ratepayers"
   },
   {
-    "title": "Zayo Group names former Verizon exec Sowmyanarayan Sampath as CEO",
-    "url": "https://www.datacenterdynamics.com/en/news/zayo-group-names-former-verizon-exec-sowmyanarayan-sampath-as-ceo/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-14T13:03:18+00:00",
-    "raw_text": "As Steve Smith will retire at the end of August",
+    "title": "DeepMind bigbrain calls for America to set AI standards before it's too late",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/deepmind-bigbrain-calls-for-america-to-set-ai-standards-before-its-too-late/5271343",
+    "source": "The Register",
+    "published": "2026-07-14T16:44:00+00:00",
+    "raw_text": "Industry, regulate thyself",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "As Steve Smith will retire at the end of August"
+    "summary": "Industry, regulate thyself"
+  },
+  {
+    "title": "Welsh Doxbin admin jailed for egging on swatters from behind a screen",
+    "url": "https://www.theregister.com/security/2026/07/14/welsh-doxbin-admin-jailed-for-egging-on-swatters-from-behind-a-screen/5271281",
+    "source": "The Register",
+    "published": "2026-07-14T16:09:00+00:00",
+    "raw_text": "Callum Dare encouraged others to carry out dangerous hoaxes, made mini-movies from the footage",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Callum Dare encouraged others to carry out dangerous hoaxes, made mini-movies from the footage"
+  },
+  {
+    "title": "Microsoft rolls out Windows Search updates and they're... quite good",
+    "url": "https://www.theregister.com/os-platforms/2026/07/14/microsoft-rolls-out-windows-search-updates-and-theyre-quite-good/5271320",
+    "source": "The Register",
+    "published": "2026-07-14T15:38:59+00:00",
+    "raw_text": "Who are you, and what have you done with Microsoft?",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Who are you, and what have you done with Microsoft?"
+  },
+  {
+    "title": "RISC-V firmware project wants every board booting from the same hymn sheet",
+    "url": "https://www.theregister.com/software/2026/07/14/risc-v-firmware-project-wants-every-board-booting-from-the-same-hymn-sheet/5271084",
+    "source": "The Register",
+    "published": "2026-07-14T15:01:44+00:00",
+    "raw_text": "HFI proposes a familiar PC-style route from power-on to operating system",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "HFI proposes a familiar PC-style route from power-on to operating system"
+  },
+  {
+    "title": "IBM's mainframe sales get mugged by AI hardware panic, stock sheds more than a quarter of its value",
+    "url": "https://www.theregister.com/on-prem/2026/07/14/ibms-mainframe-sales-get-mugged-by-ai-hardware-panic-stock-sheds-more-than-a-quarter-of-its-value/5271230",
+    "source": "The Register",
+    "published": "2026-07-14T14:16:36+00:00",
+    "raw_text": "CEO Krishna: Customers blew their Z budgets on servers and storage before prices spike, Q2 financials 'disappointing'",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ibm"
+      ]
+    },
+    "summary": "CEO Krishna: Customers blew their Z budgets on servers and storage before prices spike, Q2 financials 'disappointing'"
+  },
+  {
+    "title": "Sun sets on Vulcan Centaur as NASA moves SunRISE to SpaceX Falcon Heavy",
+    "url": "https://www.theregister.com/science/2026/07/14/sun-sets-on-vulcan-centaur-as-nasa-moves-sunrise-to-spacex-falcon-heavy/5271170",
+    "source": "The Register",
+    "published": "2026-07-14T13:40:16+00:00",
+    "raw_text": "Solar observatory awaits a new launch date after its original ride hit booster trouble",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Solar observatory awaits a new launch date after its original ride hit booster trouble"
+  },
+  {
+    "title": "Engineer shoves Linux peg through Sega 32X-shaped hole",
+    "url": "https://www.theregister.com/offbeat/2026/07/14/engineer-shoves-linux-peg-through-sega-32x-shaped-hole/5271028",
+    "source": "The Register",
+    "published": "2026-07-14T13:03:34+00:00",
+    "raw_text": "'Performance is abysmal, bus contention is bonkers, but it does work'",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "'Performance is abysmal, bus contention is bonkers, but it does work'"
+  },
+  {
+    "title": "Musk promises purge after Grok Build caught sending entire repos to the cloud",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/5271123",
+    "source": "The Register",
+    "published": "2026-07-14T12:39:03+00:00",
+    "raw_text": "Researcher confirms the uploads have stopped, but says xAI's privacy command was not what fixed them",
+    "categories": [
+      "Cloud Infrastructure",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "GRC": [
+        "privacy"
+      ]
+    },
+    "summary": "Researcher confirms the uploads have stopped, but says xAI's privacy command was not what fixed them"
+  },
+  {
+    "title": "'The bots are alive!' Jailbroken Gemini spun up new C2 server for Russian fraudster in just 6 minutes",
+    "url": "https://www.theregister.com/research/2026/07/14/the-bots-are-alive-jailbroken-gemini-spun-up-new-c2-server-for-russian-fraudster-in-just-6-minutes/5270131",
+    "source": "The Register",
+    "published": "2026-07-14T12:15:00+00:00",
+    "raw_text": "Human did 10% of the job, AI did 90%",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Human did 10% of the job, AI did 90%"
+  },
+  {
+    "title": "Hands off our VPNs, privacy groups tell UK ministers",
+    "url": "https://www.theregister.com/networks/2026/07/14/hands-off-our-vpns-privacy-groups-tell-uk-ministers/5271070",
+    "source": "The Register",
+    "published": "2026-07-14T11:59:03+00:00",
+    "raw_text": "Mozilla, Proton, Tor warn ministers that targeting the tech risks creating more problems than it solves",
+    "categories": [
+      "GRC",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "vpn"
+      ],
+      "GRC": [
+        "nist",
+        "privacy"
+      ]
+    },
+    "summary": "Mozilla, Proton, Tor warn ministers that targeting the tech risks creating more problems than it solves"
+  },
+  {
+    "title": "Baddies caught exploiting extensions bugs with perfect 10 scores on vulnerable Joomla websites",
+    "url": "https://www.theregister.com/security/2026/07/14/baddies-caught-exploiting-extensions-bugs-with-perfect-10-scores-on-vulnerable-joomla-websites/5271001",
+    "source": "The Register",
+    "published": "2026-07-14T11:06:00+00:00",
+    "raw_text": "Flaws in iCagenda, Balbooa Forms extensions can impact open source CMS that powers a million sites worldwide",
+    "categories": [
+      "Cloud Infrastructure",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "exploit"
+      ]
+    },
+    "summary": "Flaws in iCagenda, Balbooa Forms extensions can impact open source CMS that powers a million sites worldwide"
+  },
+  {
+    "title": "Frame: A new X11 server – implemented directly in assembly",
+    "url": "https://www.theregister.com/software/2026/07/14/frame-a-new-x11-server-implemented-directly-in-assembly/5270498",
+    "source": "The Register",
+    "published": "2026-07-14T10:37:00+00:00",
+    "raw_text": "Joins yserver, Phoenix, and of course XLibre – and outlier Arcan",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Joins yserver, Phoenix, and of course XLibre – and outlier Arcan"
+  },
+  {
+    "title": "India's crewed space mission is ready for splashdown, but not launch",
+    "url": "https://www.theregister.com/science/2026/07/14/indias-crewed-space-mission-is-ready-for-splashdown-but-not-launch/5270879",
+    "source": "The Register",
+    "published": "2026-07-14T09:57:00+00:00",
+    "raw_text": "Gaganyaan was supposed to fly in 2022 and make the country only the fourth to put people into orbit",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Gaganyaan was supposed to fly in 2022 and make the country only the fourth to put people into orbit"
+  },
+  {
+    "title": "How do you solve a problem like Capita?",
+    "url": "https://www.theregister.com/columnists/2026/07/14/how-do-you-solve-a-problem-like-capita/5270368",
+    "source": "The Register",
+    "published": "2026-07-14T09:14:00+00:00",
+    "raw_text": "Bringing troubled contracts in-house requires skills Whitehall is already struggling to recruit",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Bringing troubled contracts in-house requires skills Whitehall is already struggling to recruit"
+  },
+  {
+    "title": "Ministers arm under-16s social media ban with least surprising study of the year",
+    "url": "https://www.theregister.com/personal-tech/2026/07/14/ministers-arm-under-16s-social-media-ban-with-least-surprising-study-of-the-year/5270924",
+    "source": "The Register",
+    "published": "2026-07-14T08:30:00+00:00",
+    "raw_text": "Boffins confirm: taking away teens' phone makes them act like humans again",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "Boffins confirm: taking away teens' phone makes them act like humans again"
+  },
+  {
+    "title": "Anthropic's extravagant tokenizer complicates AI pricing",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/anthropics-extravagant-tokenizer-complicates-ai-pricing/5270792",
+    "source": "The Register",
+    "published": "2026-07-14T06:28:00+00:00",
+    "raw_text": "Token consumption doesn't tell the whole tale but it shouldn't be ignored",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Token consumption doesn't tell the whole tale but it shouldn't be ignored"
+  },
+  {
+    "title": "Big Blue thinks small, again, with POWER tower",
+    "url": "https://www.theregister.com/systems/2026/07/14/big-blue-thinks-small-again-with-power-tower/5270851",
+    "source": "The Register",
+    "published": "2026-07-14T05:01:17+00:00",
+    "raw_text": "The last proprietary minicomputer, now in ‘deskside’ form if you fancy that",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The last proprietary minicomputer, now in ‘deskside’ form if you fancy that"
+  },
+  {
+    "title": "India’s tech services giant HCL is getting into the AI datacenter business",
+    "url": "https://www.theregister.com/off-prem/2026/07/14/indias-tech-services-giant-hcl-is-getting-into-the-ai-datacenter-business/5270827",
+    "source": "The Register",
+    "published": "2026-07-14T02:18:45+00:00",
+    "raw_text": "Starting small with $37m and maybe 50MW but reckons full-stack service plan can succeed",
+    "categories": [
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Data Centres": [
+        "datacenter"
+      ]
+    },
+    "summary": "Starting small with $37m and maybe 50MW but reckons full-stack service plan can succeed"
+  },
+  {
+    "title": "Gobi X: Creating more energy for AI, not taking it from society",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/gobi-x-creating-more-energy-for-ai-not-taking-it-from-society/5270590",
+    "source": "The Register",
+    "published": "2026-07-14T01:00:00+00:00",
+    "raw_text": "PARTNER CONTENT: How Envision is reversing the datacenter playbook by making computing chase abundant desert power, not the other way around",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Data Centres": [
+        "datacenter"
+      ]
+    },
+    "summary": "PARTNER CONTENT: How Envision is reversing the datacenter playbook by making computing chase abundant desert power, not the other way around"
+  },
+  {
+    "title": "Zuck's AI ambitions put Meta on course to become America's next big cloud provider",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/14/zucks-ai-ambitions-put-meta-on-course-to-become-americas-next-big-cloud-provider/5270758",
+    "source": "The Register",
+    "published": "2026-07-13T23:37:22+00:00",
+    "raw_text": "Renting out spare compute is simply the natural progression for any sufficiently large infra company",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ]
+    },
+    "summary": "Renting out spare compute is simply the natural progression for any sufficiently large infra company"
+  },
+  {
+    "title": "Zig creator calls Bun’s Claude Rust rewrite ‘unreviewed slop’",
+    "url": "https://www.theregister.com/devops/2026/07/14/zig-creator-calls-buns-claude-rust-rewrite-unreviewed-slop/5270743",
+    "source": "The Register",
+    "published": "2026-07-13T23:21:17+00:00",
+    "raw_text": "The port took just 11 days and about $165,000 at API pricing",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The port took just 11 days and about $165,000 at API pricing"
+  },
+  {
+    "title": "Excel competition goes extreme, makes spreadsheet geeks compete from the street",
+    "url": "https://www.theregister.com/offbeat/2026/07/13/excel-competition-goes-extreme-makes-spreadsheet-geeks-compete-from-the-street/5270709",
+    "source": "The Register",
+    "published": "2026-07-13T20:18:09+00:00",
+    "raw_text": "Defending world champ Diarmuid Early wins again despite being forced to solve puzzles outdoors",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Defending world champ Diarmuid Early wins again despite being forced to solve puzzles outdoors"
+  },
+  {
+    "title": "The price is wrong: AI cost calculation has to consider task completion rates, not just token costs",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/the-price-is-wrong-ai-cost-calculation-has-to-consider-task-completion-rates-not-just-token-costs/5270683",
+    "source": "The Register",
+    "published": "2026-07-13T19:26:24+00:00",
+    "raw_text": "Cheap can be expensive",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Cheap can be expensive"
+  },
+  {
+    "title": "Microsoft chief turns hostile on frontier AI labs, warns companies to guard their IP",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/microsoft-chief-turns-hostile-on-frontier-ai-labs-warns-companies-to-guard-their-ip/5270628",
+    "source": "The Register",
+    "published": "2026-07-13T17:20:00+00:00",
+    "raw_text": "Lock it down, warns Satya Nadella, seemingly forgetting the billions Redmond chipped in to OpenAI back in the good old days",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Lock it down, warns Satya Nadella, seemingly forgetting the billions Redmond chipped in to OpenAI back in the good old days"
+  },
+  {
+    "title": "German firm files for insolvency, blames cybercrims who shut down production for 6 weeks",
+    "url": "https://www.theregister.com/cyber-crime/2026/07/13/german-firm-files-for-insolvency-blames-cybercrims-who-shut-down-production-for-6-weeks/5270524",
+    "source": "The Register",
+    "published": "2026-07-13T16:53:00+00:00",
+    "raw_text": "ZEGO-TVZ says the financial fallout from a March cyberattack left shutting its doors as the only option",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cyberattack",
+        "cyber"
+      ]
+    },
+    "summary": "ZEGO-TVZ says the financial fallout from a March cyberattack left shutting its doors as the only option"
+  },
+  {
+    "title": "Astronomers find sugar near the creamy center of the Milky Way (no caramel, though)",
+    "url": "https://www.theregister.com/science/2026/07/13/astronomers-find-sugar-near-the-creamy-center-of-the-milky-way-no-caramel-though/5270593",
+    "source": "The Register",
+    "published": "2026-07-13T16:20:00+00:00",
+    "raw_text": "First interstellar monosaccharide suggests some of life's ingredients may be scattered across the galaxy",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "First interstellar monosaccharide suggests some of life's ingredients may be scattered across the galaxy"
+  },
+  {
+    "title": "Philips to replace bricked Hue Bridge Pro devices",
+    "url": "https://www.theregister.com/edge-and-iot/2026/07/13/philips-to-replace-bricked-hue-bridge-pro-devices/5270545",
+    "source": "The Register",
+    "published": "2026-07-13T15:50:00+00:00",
+    "raw_text": "Company releases a fresh firmware update. Go on, install it, we dare you...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Company releases a fresh firmware update. Go on, install it, we dare you..."
+  },
+  {
+    "title": "EU and UK officially blame Russian spies for cyberattack on Poland's power grid",
+    "url": "https://www.theregister.com/security/2026/07/13/uk-eu-officially-pin-poland-energy-cyberattack-on-russia/5270458",
+    "source": "The Register",
+    "published": "2026-07-13T15:39:52+00:00",
+    "raw_text": "Sweeping sanctions and condemnation follow op that could have left half a million without power in the depths of winter",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "cyberattack",
+        "cyber"
+      ]
+    },
+    "summary": "Sweeping sanctions and condemnation follow op that could have left half a million without power in the depths of winter"
+  },
+  {
+    "title": "SREs to AI agents: Prove yourself before you touch production",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/sres-to-ai-agents-prove-yourself-before-you-touch-production/5264658",
+    "source": "The Register",
+    "published": "2026-07-13T15:00:00+00:00",
+    "raw_text": "SPONSORED FEATURE: 696 experts find co-pilot welcome, autopilot not so much",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SPONSORED FEATURE: 696 experts find co-pilot welcome, autopilot not so much"
+  },
+  {
+    "title": "Sticker shock has execs rethinking this whole AI thing",
+    "url": "https://www.theregister.com/ai-and-ml/2026/07/13/sticker-shock-has-execs-rethinking-this-whole-ai-thing-1/5270073",
+    "source": "The Register",
+    "published": "2026-07-13T14:16:00+00:00",
+    "raw_text": "This week on The Reg's Kettle podcast, we wonder whether tokenminning is going to bring the industry back down to Earth",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "This week on The Reg's Kettle podcast, we wonder whether tokenminning is going to bring the industry back down to Earth"
+  },
+  {
+    "title": "Lucky 13: SpaceX aims for July 16 Starship flight test",
+    "url": "https://www.theregister.com/offbeat/2026/07/13/lucky-13-spacex-aims-for-july-16-starship-flight-test/5270434",
+    "source": "The Register",
+    "published": "2026-07-13T13:32:01+00:00",
+    "raw_text": "Hopefully, the rocket won't go in the same direction as the company's share price",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Hopefully, the rocket won't go in the same direction as the company's share price"
+  },
+  {
+    "title": "Microsoft emails Windows 10 holdouts: Fine, keep your old PC another year",
+    "url": "https://www.theregister.com/os-platforms/2026/07/13/microsoft-emails-windows-10-holdouts-fine-keep-your-old-pc-another-year/5270336",
+    "source": "The Register",
+    "published": "2026-07-13T13:02:00+00:00",
+    "raw_text": "Consumer security updates now run to October 2027, and Redmond doesn't mention Windows 11 once",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Consumer security updates now run to October 2027, and Redmond doesn't mention Windows 11 once"
+  },
+  {
+    "title": "World Cup grudge attackers may have scored Argentine FA access via year-old infostealer infection",
+    "url": "https://www.theregister.com/security/2026/07/13/world-cup-grudge-attackers-may-have-scored-argentine-fa-access-via-year-old-infostealer-infection/5270302",
+    "source": "The Register",
+    "published": "2026-07-13T12:02:00+00:00",
+    "raw_text": "Footie fans? Overreacting? There's a first time for everything",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Footie fans? Overreacting? There's a first time for everything"
+  },
+  {
+    "title": "HTTP gets a QUERY method so complex searches can stop pretending to be POST",
+    "url": "https://www.theregister.com/devops/2026/07/13/http-gets-a-query-method-so-complex-searches-can-stop-pretending-to-be-post/5270192",
+    "source": "The Register",
+    "published": "2026-07-13T11:15:00+00:00",
+    "raw_text": "New verb carries request content while remaining safe, idempotent, and cacheable",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "New verb carries request content while remaining safe, idempotent, and cacheable"
+  },
+  {
+    "title": "Progress orders emergency ShareFile server shutdown over mystery security threat",
+    "url": "https://www.theregister.com/security/2026/07/13/progress-orders-emergency-sharefile-server-shutdown-over-mystery-security-threat/5270281",
+    "source": "The Register",
+    "published": "2026-07-13T10:31:00+00:00",
+    "raw_text": "Vendor insists there's no evidence of unauthorized access, but it's asking customers to take one of the most drastic precautions available",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ],
+      "Industry & Market": [
+        "vendor"
+      ]
+    },
+    "summary": "Vendor insists there's no evidence of unauthorized access, but it's asking customers to take one of the most drastic precautions available"
+  },
+  {
+    "title": "Backup and running? Not this digital sign",
+    "url": "https://www.theregister.com/offbeat/2026/07/13/backup-and-running-not-this-digital-sign-1/5269021",
+    "source": "The Register",
+    "published": "2026-07-13T09:59:00+00:00",
+    "raw_text": "Nagware goes large on the mean streets of Derby",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Nagware goes large on the mean streets of Derby"
+  },
+  {
+    "title": "Photovoltaics are still running after a year under Swiss trains",
+    "url": "https://www.theregister.com/offbeat/2026/07/13/photovoltaics-are-still-running-after-a-year-under-swiss-trains/5269664",
+    "source": "The Register",
+    "published": "2026-07-13T09:15:00+00:00",
+    "raw_text": "Solar boss reckons challenges are regulatory, not technological",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "regulatory"
+      ]
+    },
+    "summary": "Solar boss reckons challenges are regulatory, not technological"
+  },
+  {
+    "title": "Out of sight, out of work: Creating opportunity for blind and partially sighted people",
+    "url": "https://www.computerweekly.com/opinion/Out-of-sight-out-of-work-Creating-opportunity-for-blind-and-partially-sighted-people",
+    "source": "ComputerWeekly",
+    "published": "2026-07-15T04:00:00+00:00",
+    "raw_text": "<p>The employment rate in the UK, if you are non-disabled, is 83%, according to the Office for National Statistics. If you are <a href=\"https://www.computerweekly.com/opinion/Tech-community-must-play-a-part-in-closing-the-employment-gap-for-blind-and-sight-impaired-people\">blind or partially sighted</a> (BPS), it is 27%.</p> <p>This is a shocking statistic and behind it sit hundreds of thousands of human stories of un-enablement, un-empowerment and unemployment.</p> <p>It is for this reason that, this week, I published my report, <i><a href=\"https://lordchrisholmes.com/report-on-the-employment-gap-for-blind-and-partially-sighted-people-in-the-uk-out-of-sight-out-of-work/\">Out of sight- out of work.</a></i> I wanted to shift the dial on an issue that has dogged our economy and our society for decades and, through lack of action from governments of all persuasion, has blighted individual lives, held back potential and caused harm where there could so easily have been hope.</p> <p>The situation is made even more sobering in that, currently, we have one of the highest employment rates in history – but not if you are BPS. In fact, since 2018 the numbers have got even worse.</p> <p>According to analysis by the Royal National Institute of Blind People (RNIB) of the Labour Force Survey 2024, since 2018 the employment rate has been falling for people who describe themselves as having difficulties seeing, despite increasing for the broader population.</p> <p>The UK is losing billions in potential economic contribution because of inaccessible recruitment systems, inadequate employer support, and a lack of targeted government action.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Inclusion from the outset\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Inclusion from the outset</h2> <p>Figures of 27% employment versus 83% of the general population is not inevitable – it is systemic. <a href=\"https://www.computerweekly.com/opinion/Diversity-Think-Tank-Divesting-from-inclusion-is-a-tech-business-mistake\">Inclusion must be designed from the outset</a> – inclusive by design – not retrofitted. The cost of getting it right is negligible compared to the cost of exclusion.</p> <p>If BPS people were employed at the same rate as the general population, UK GDP would rise significantly from increased tax receipts, reduced welfare expenditure, and the economic value of thousands of skilled, motivated workers. If it is not addressed, the gap will only widen as the number of people living with sight loss is set to double by 2050.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> Technology can be such a positive force for inclusion. This is in no sense inevitable though because, if inclusive by design is not there from the outset, if the tech is not human-led, it can just as easily exacerbate existing exclusion </figure> <figcaption> <strong>Chris Holmes</strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>In the report, I highlight four key areas for action, with specific recommendations attached. These fall into issues around policy, funding and accountability; employer practices and workplace barriers; data or the lack thereof; and technology.</p> <p>The key ask is a specific focused taskforce with cross-departmental reach, led by the minister for disabled people.</p> <p>Computer Weekly readers will know that technology can be such an enabler, such a positive force for inclusion. This is in no sense inevitable though because, if <a href=\"https://www.computerweekly.com/opinion/Diversity-Think-Tank-Inclusion-matters-heres-why-you-should-care\">inclusive by design</a> is not there from the outset, if the tech is not human-led, it can just as easily exacerbate existing exclusion.</p> <p>And, even if we get it right in the first instance, what about when a system upgrade or software switch-out happens? In my research for the report, I hear stories of accessible working on Friday, only for that BPS person to come in on Monday and, as a consequence of an upgrade, being completely shut out from the system. Exclusion, un-enablement and all of the practical and emotional consequences.&nbsp;</p> <p>Similarly, I heard “day one” situations where people were told assistive software was not yet available but could they just carry on for the time being - very much like asking a wheelchair user to just go up and down the steps until the ramp arrives. It’s more than unfortunate and, with an inclusive by design approach, completely avoidable.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Setting the standards\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Setting the standards</h2> <p>From a technology perspective, the report recommends, among other things, that the <a href=\"https://www.computerweekly.com/news/366640721/UK-government-boosts-digital-access-for-more-than-a-million-people\">government sets the standard</a> by making accessibility compliance a condition of public procurement; develops and publishes national interoperability guidelines; establishes baseline assistive technology standards for large employers; and invests in digital skills training – from schools to university to work.</p> <p>This is not about impairment. This is about systems, structures, leadership, attitudes and accountability.</p> <p>The report leads to a clear conclusion: creating a more inclusive and equitable employment landscape for BPS people requires the collective efforts of the UK government and employers. Both have a critical role to play in closing the gap.</p> <p>If the government is serious about its ambition set out in the <i>Get Britain working</i> white paper, to reach 80% employment for disabled people among the working age population, the crucial first step is to set up the proposed taskforce<b>.</b></p> <p>No nation can afford to waste the talent of hundreds of thousands of BPS people- the UK is no different in that.</p> <p>It’s more than high time to act, to enable, to empower all BPS people’s abilities into employment. It’s time to break the terrible truth that persists in the UK- talent is everywhere, opportunity is not.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about digital inclusion</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/opinion/Why-Inclusivity-is-the-Key-to-Britains-Deeptech-Future\">Why inclusivity is the key to Britain’s deeptech future</a> - The UK is pushing to become a deeptech leader, but inclusion and diversity are the key to ensuring it is successful.</li> <li><a href=\"https://www.computerweekly.com/opinion/Realising-Britains-AI-ambitions-rests-on-digital-confidence-and-inclusion\">Realising Britain’s AI ambitions rests on digital confidence and inclusion</a> - AI is increasingly being woven into every aspect of our lives - but the technology's full potential cannot be delivered without addressing shortcomings in digital inclusion.</li> <li><a href=\"https://www.computerweekly.com/opinion/Digital-ID-must-not-deepen-exclusion\">Digital ID must not deepen exclusion</a> - UK government plans for a national digital identity scheme risk embedding further inequalities and barriers to public services for the 19 million people currently experiencing digital exclusion.</li> </ul> </div> </div> </section>",
+    "categories": [
+      "GRC",
+      "Networks",
+      "Industry & Market",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "soc"
+      ],
+      "GRC": [
+        "compliance",
+        "policy",
+        "nist"
+      ],
+      "Industry & Market": [
+        "funding",
+        "ey"
+      ]
+    },
+    "summary": "<p>The employment rate in the UK, if you are non-disabled, is 83%, according to the Office for National Statistics. If you are <a href=\"https://www.computerweekly.com/opinion/Tech-community-must-play-a-part-in-closing-the-employment-gap-for-blind-and-sight-impaired-people\">blind or partially sighted</a> (BPS), it is 27%.</p> <p>This is a shocking statistic and behind it sit hundreds of thousands of human stories of un-enablement, un-empowerment and unemployment.</p> <p>It is for this reason that, this week, I published my report, <i><a href=\"https://lordchrisholmes.com/report-on-the-employment-gap-for-blind-and-partially-sighted-people-in-the-uk-out-of-sight-out-of-work/\">Out of sight- out of work.</a></i> I wanted to shift the dial on an issue that has dogged our economy and our society for decades and, through lack of action from governments of all persuasion, has blighted individual lives, held back potential and caused harm where there could so easily have been hope.</p> <p>The situation is made even more sobering in that, currently, we have one of the highest employment rates in history – but not if you are BPS. In fact, since 2018 the numbers have got even worse.</p> <p>According to analysis by the Royal National Institute of Blind People (RNIB) of the Labour Force Survey 2024, since 2018 the employment rate has been falling for people who describe themselves as having difficulties seeing, despite increasing for the broader population.</p> <p>The UK is losing billions in potential economic contribution because of inaccessible recruitment systems, inadequate employer support, and a lack of targeted government action.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Inclusion from the outset\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Inclusion from the outset</h2> <p>Figures of 27% employment versus 83% of the general population is not inevitable – it is systemic. <a href=\"https://www.computerweekly.com/opinion/Diversity-Think-Tank-Divesting-from-inclusion-is-a-tech-business-mistake\">Inclusion must be designed from the outset</a> – inclusive by design – not retrofitted."
+  },
+  {
+    "title": "CW@60: An adventure into cyber security",
+    "url": "https://www.computerweekly.com/feature/CW60-An-adventure-into-cyber-security",
+    "source": "ComputerWeekly",
+    "published": "2026-07-15T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>Computer Weekly turns 60 in September, and I recently turned 56. That means for more than half the magazine's life, I've been working in technology. Which still surprises me when I write it down.</p> <p>My relationship with computers started before I owned one. My friend Richard Kistruck had an <a href=\"https://www.tnmoc.org/adopt-artefacts/adopt-an-apple-ii\">Apple II</a>, and we would spend hours at his house playing <a href=\"https://www.colossalcave3d.com/play-text-adventure/\"><i>Adventure</i></a>, the original <i>Colossal Cave</i> text adventure. His family were wealthier than mine, so I watched and played at Richard's rather than at home. Every so often, I would also borrow a <a href=\"https://www.computerweekly.com/news/252506837/British-home-computing-inventor-Sir-Clive-Sinclair-dies\">ZX81</a> from another friend, Gareth, and plug it into my telly.</p> <p>What <i>Adventure</i> did was something I hadn't encountered before. I was already a reader, had been since I was small. My dad read us <i>The Hobbit</i> at bedtime, which probably matters more than it sounds. But reading puts you at a remove from the story. You follow, you observe, you accompany. <i>Adventure</i> put me inside the story. I could shape it. I could make things happen, or fail to make them happen, which was usually more instructive. The computer asked what I wanted to do next and waited for my answer. That felt, in 1981, like nothing else.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Making myself understood\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Making myself understood</h2> <p>The moment I remember most vividly from those sessions is the frustration of trying to make myself understood through the software's limited vocabulary. You'd type what seemed like a perfectly clear instruction and get back SORRY, I DON'T UNDERSTAND THAT. The machine was patient. I was not. What I didn't know then was that I'd spend the next four decades watching that specific problem evolve - how do you get a computer to understand what you actually mean? In 1981, it was a vocabulary table in a text adventure. In 2026, it's the thing everyone is discussing.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\" https://cdn.ttgtmedia.com/rms/computerweekly/Rik-Ferguson-Forescout-CW-Contributor.jpg\" alt=\"Photo of Rik Ferguson\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“Technology turned out to be the one thing wide enough to hold both halves of me at once. Most careers make you choose. This one never did”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Rik Ferguson</em></span></p> </blockquote> <p>I got my own ZX Spectrum 48K after my grandmother died. My dad's family came into a small inheritance, enough for things that hadn't previously been possible. My brother got a Casio keyboard. I got the Spectrum. Both of us, it turned out, had identified the right thing. The keyboard headed him toward music. The Spectrum headed me somewhere I couldn't yet see: <a href=\"https://en.wikipedia.org/wiki/The_Hobbit_(1982_video_game)\">the Hobbit game</a>, the platform games, the code I typed in laboriously from the centre spreads of <a href=\"http://www.retro8bitcomputers.co.uk/magazines/GetMagazine?name=Your%20Computer\"><i>Your Computer</i> magazine</a>.</p> <p>What I couldn't have told you then was what it would eventually give me. Technology turned out to be the one thing wide enough to hold both halves of me at once. The helpdesk years in the mid-nineties fed something I hadn't had a name for - the ability to lose myself completely in a problem, to follow a fault down through every layer until I found the root of it. Later, presenting on stages around the world and making videos that won awards fed something else entirely, something that had been there since I was 11 and got bitten by the thespian bug in a school production. Most careers make you choose. This one never did.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"From a hobby to a career\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>From a hobby to a career</h2> <p>My headmaster's end-of-year report once described me as being “seemingly determined not to succeed”. He wasn't entirely wrong. I wasn't incapable - I was, as I'd put it now, untried. An interest became a hobby. A hobby became a job. A job, eventually, became a career, though not through any plan I could have articulated at the time.</p> <p>I started working in technology in 1994, without formal academic qualifications in the discipline. When I took my first professional security qualification years later, the <a href=\"https://www.comptia.org/en-us/certifications/security/\">CompTIA Security+</a>, I passed with a perfect score. The capacity was always there. I just hadn't found the thing that made me apply it.</p> <p>Since 1994, I've been in the room for most of what's happened: the internet becoming a public thing, the mobile revolution, the long collapse from dozens of competing platforms into something close to monoculture, the arrival of connected devices that don't look like computers but behave like them, and now the moment we're in, where <a href=\"https://www.computerweekly.com/feature/How-can-enterprise-AI-be-made-less-sycophantic\">AI is rewriting the assumptions</a> underneath everything else.</p> <p>The Spectrum is still somewhere at my mum’s house, I think. The <em>Adventure</em> - and the frustration - never went away. They just changed shape.</p> </section>",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "cdn",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Data Centres": [
+        "capacity",
+        "colo"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>Computer Weekly turns 60 in September, and I recently turned 56. That means for more than half the magazine's life, I've been working in technology."
   },
   {
     "title": "Made in Spain: Surveillance tech banned in EU booms in India",
@@ -3187,103 +3937,36 @@
     "summary": "<p>It took four years for Microsoft datacentres to increase their greenhouse gas emissions by four-million tonnes. Between 2024 and 2025, its datacentre carbon footprint jumped by a further four-million tonnes to 20-million tonnes.&nbsp;</p> <p>The company’s <a href=\"https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2026-Microsoft-Environmental-Sustainability-Report-PDF.pdf\"><em>2026 Environmental sustainability report</em></a>, shows that total emissions (Scopes 1, 2, and 3) increased 25% year over year (YoY), driven primarily by the expansion of Microsoft <a href=\"https://www.computerweekly.com/feature/The-great-datacentre-backlash-The-industry-response\">datacentre infrastructure</a>.</p> <p>Microsoft said it has needed to prioritise investments that bring net new power to grids, which has led to it pausing the purchase of “green credits” known as non-additional, unbundled renewable energy certificates.</p> <p>In a blog post, <a href=\"https://blogs.microsoft.com/on-the-issues/2025/02/13/progress-on-the-road-to-2030/\">Microsoft president Brad Smith</a> said: “While this decision increases our reported emissions in the near term, it enables us to increase the development of new CFE (carbon-free energy) rather than relying on certificates alone. We believe this change will create more long-term sustainability benefits. Growth-related emissions pressure was expected."
   },
   {
-    "title": "European Commission accepts SAP’s on-premise ERP commitment",
-    "url": "https://www.computerweekly.com/news/366645803/European-Commission-accepts-SAPs-on-premise-ERP-commitment",
-    "source": "ComputerWeekly",
-    "published": "2026-07-13T08:22:00+00:00",
-    "raw_text": "<p>The European Commission (EC) has accepted commitments from SAP to address European Union competition concerns relating to its aftermarket <a href=\"https://www.computerweekly.com/news/366623762/SAP-sales-tactic-fuels-IT-disconnect\">support services</a> for on-premise enterprise resource planning (ERP) software.</p> <p>The EC preliminarily investigation into SAP reported that the enterprise software company had engaged in four practices that could restrict competition for on-premise maintenance and support of its ERP system across the European Economic Area (EEA).</p> <p>Following what it described as “constructive dialogue with the European Commission”, SAP said it has now agreed to a set of adaptations to these practices to improve flexibility, transparency and predictability.</p> <p>Teresa Ribera, the EC’s executive vice-president for clean, just and competitive transition, said: “Today’s decision gives customers using SAP’s popular on-premise business management software more freedom to choose maintenance and support services without unfair restrictions that raised their costs and stifled competition.</p> <p>“The legally binding commitments secured by the Commission set a benchmark for the industry more broadly and should serve as a warning against practices with similar effects in the cloud markets, where customers are increasingly moving. This decision sends a strong message: dominant firms in digital markets and beyond should not abuse their power to lock in users at the expense of choice and innovation.”&nbsp;</p> <p>SAP said it is enhancing how customers can organise their SAP system landscape by providing a “clear, streamlined framework for splitting it into separate parts”, which it refers to as commercial installations. SAP customers can now select different levels of SAP support for these installations, elect no support at all, or make other choices outside of SAP Support.</p> <p>It said it would also not charge any administrative fees for customers returning to <a href=\"https://www.computerweekly.com/news/366611473/Interview-Keeping-SAP-ECC-running-without-support\">SAP for maintenance</a>. However, there will still be a charge. It said it would limit the back-maintenance fee to the minimum of six months or 50% of the fees for the time off.&nbsp;</p> <p>DSAG, the German-speaking SAP user group, noted that the changes SAP has made mean that users who wish to remain on their existing on-premise infrastructure and obtain support from a provider other than SAP will be able to do so in a more granular way than previously stipulated in their contracts.</p> <p>“Even with SAP’s cloud-based strategy, it is important to decide on your own how to proceed with systems that still have a positive impact on the company and there’s no need to shut them down,” said Jens Hungershausen, chairman of the executive board of DSAG.</p> <p>“We see this development as the result of our effort to drive an ongoing dialogue and partnership between SAP and the customer community on such improvements. These commitments will deliver tangible benefits for customers and strengthen trust while keeping customer choice and flexibility at the centre.”</p> <p><a href=\"https://www.computerweekly.com/news/366635573/SAP-user-group-chair-warns-of-AI-low-hanging-fruit-risks\">Conor Riordan</a>, chair for UK &amp; Ireland SAP User Group (UKISUG), agreed that greater flexibility was a positive for SAP users. “We welcome the proposed changes to SAP’s support and maintenance policies for on-premise customers. Our members have long called for greater flexibility, transparency and predictability, and these changes appear to be a positive move. This should give organisations more room to adapt to changing business conditions and evolve their SAP estates at a pace that suits them.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more third-party support stories</h3> <ul class=\"default-list\"> <li>How <a href=\"https://www.computerweekly.com/news/366615211/Gartner-Symposium-How-Specsavers-saved-on-Oracle-costs\">Specsavers saved on Oracle costs</a>: The high street opticians chain has swapped Oracle support for Spinnaker third-party support to help drive its business transformation.</li> <li>Why <a href=\"https://www.computerweekly.com/news/366614923/Gartner-Symposium-Why-ServiceNow-wants-to-be-seen-as-the-AI-platform-for-business-transformation\">ServiceNow wants to be seen as the AI</a> platform for business transformation: We report on how a deal between ServiceNow and Rimini Street may offer IT leaders an alternative route to enterprise AI.</li> </ul> </div> </div>",
+    "title": "I tested my USB-C cables with this free Mac app - some weren't what they claimed",
+    "url": "https://www.zdnet.com/article/whatcable-mac-app-usbc-cable-review/",
+    "source": "ZDNet",
+    "published": "2026-07-15T07:45:43+00:00",
+    "raw_text": "WhatCable is a free Mac app that gives you all the information you could need for your USB-C cables.",
     "categories": [
-      "Industry & Market",
-      "Networks",
-      "Cloud Infrastructure",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "partnership",
-        "ey",
-        "gartner"
-      ]
-    },
-    "summary": "<p>The European Commission (EC) has accepted commitments from SAP to address European Union competition concerns relating to its aftermarket <a href=\"https://www.computerweekly.com/news/366623762/SAP-sales-tactic-fuels-IT-disconnect\">support services</a> for on-premise enterprise resource planning (ERP) software.</p> <p>The EC preliminarily investigation into SAP reported that the enterprise software company had engaged in four practices that could restrict competition for on-premise maintenance and support of its ERP system across the European Economic Area (EEA).</p> <p>Following what it described as “constructive dialogue with the European Commission”, SAP said it has now agreed to a set of adaptations to these practices to improve flexibility, transparency and predictability.</p> <p>Teresa Ribera, the EC’s executive vice-president for clean, just and competitive transition, said: “Today’s decision gives customers using SAP’s popular on-premise business management software more freedom to choose maintenance and support services without unfair restrictions that raised their costs and stifled competition.</p> <p>“The legally binding commitments secured by the Commission set a benchmark for the industry more broadly and should serve as a warning against practices with similar effects in the cloud markets, where customers are increasingly moving. This decision sends a strong message: dominant firms in digital markets and beyond should not abuse their power to lock in users at the expense of choice and innovation.”&nbsp;</p> <p>SAP said it is enhancing how customers can organise their SAP system landscape by providing a “clear, streamlined framework for splitting it into separate parts”, which it refers to as commercial installations. SAP customers can now select different levels of SAP support for these installations, elect no support at all, or make other choices outside of SAP Support.</p> <p>It said it would also not charge any administrative fees for customers returning to <a href=\"https://www.computerweekly.com/news/366611473/Interview-Keeping-SAP-ECC-running-without-support\">SAP for maintenance</a>. However, there will still be a charge."
-  },
-  {
-    "title": "Tech giants come under watch of UK finance regulators",
-    "url": "https://www.computerweekly.com/news/366645764/Tech-giants-come-under-watch-of-UK-finance-regulators",
-    "source": "ComputerWeekly",
-    "published": "2026-07-13T07:37:00+00:00",
-    "raw_text": "<p>UK financial services regulators now oversee IT suppliers that the finance sector relies on to operate.</p> <p>Four suppliers – the local operations of Amazon Web Services, Google Cloud, Microsoft and Oracle – are initially being regulated, labelled critical third parties (CTPs).</p> <p>The financial services sector is heavily dependent on cloud services from a few large tech companies. Furthermore, as artificial intelligence (AI) use accelerates, more suppliers will become critical to the sector.</p> <p>Earlier this year, The Treasury select committee of MPs called on the government to designate AI and cloud providers in its CTPs Regime (CTPR) scheme, which gives the FCA and the Bank of England powers of investigation and enforcement over non-financial firms that provide critical services to the UK financial services sector.&nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Slow to act\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Slow to act</h2> <p>At the time, Treasury Committee chair Meg Hillier MP said that although the Bank of England was “grasping the nettle&nbsp;to some extent”, she was “perplexed at the&nbsp;apparent&nbsp;inertia shown by the Treasury” over <a href=\"https://www.computerweekly.com/news/366637516/Financial-regulators-exposing-public-to-potential-serious-harm-due-to-AI-positions\">placing IT suppliers to the finance sector within the CTPR</a>.</p> <p>But as of today (13 July 2026) the four firms – which provide critical infrastructure that underpins the UK finance sector, such as cloud services – will be regulated by the Bank of England and the Financial Conduct Authority (FCA). More could eventually fall under the same regulation.</p> <p>The Bank of England said: “The regulators will work together with the CTPs to address system‑level risks and <a href=\"https://www.computerweekly.com/news/366633473/Government-faces-questions-about-why-US-AWS-outage-disrupted-UK-tax-office-and-banking-firms\">reduce the risk of disruption to the services</a> they provide spreading across the UK financial system.</p> <p>&nbsp;“CTPs must identify and manage risks to their critical services effectively, and maintain open, timely communication with regulators and the firms that rely on them, particularly during major incidents.</p> <p>“As many firms rely on these services, disruption or failure could affect multiple firms or markets at the same time, potentially impacting UK financial stability and services used by millions of consumers and businesses,” added the UK central bank.</p> <p>This is a significant development and follows demands from MPs for IT suppliers to be included in the CTPR.</p> <p>Sarah Breeden, deputy governor for financial stability at the Bank of England, said:&nbsp;“As critical third parties become increasingly embedded in the operations of financial institutions, they can introduce new forms of systemic risk. Our proportionate approach to overseeing these providers will ensure that these dependencies are managed in a way that safeguards financial stability.”&nbsp;&nbsp;<br><br>Nikhil Rathi, chief executive at the FCA, said:&nbsp;“…a single failure can reverberate across the financial system. Operationalising this regime strengthens our ability to tackle those risks and improve overall resilience, ensuring the UK remains a safe and attractive place to do business.”&nbsp;</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Welcomed idea\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Welcomed idea</h2> <p>Chris Skinner, fintech industry expert and CEO at&nbsp;<a href=\"https://thefinanser.com/\"><i>The Finanser</i></a>, said the development “makes absolute sense”, adding: “After all, 60% of Google cloud clients are financial institutions. If there is ever an outage among any of these tech giants, then you will see a disaster in the making.</p> <p>“So many financial institutions rely on AWS, Microsoft Azure and Google that they have become systemically important to the financial system. This is the reason why the UK regulators have to step in and give oversight and control over those operations.”</p> <p>One IT professional in the UK finance sector, who wished to remain anonymous, said it's a very good idea but questioned whether “it has teeth”, adding: “Because they’re global firms and financial service is just one of the many things they do, and the UK is just one of hundreds of countries they operate in, we are a tiny slice of a tiny slice of what we do.</p> <p>“I’m not sure that the regulators are going to have much power over them. And I don’t think the banks have much choice to move away from them. They can’t ban critical suppliers because the banks have nowhere else to go.</p> <p>“This is obviously the first four firms, but over time, I imagine the’'re going to expand it into specific other companies and pieces of software. There’s a hell of a lot of shared software behind the scenes that these companies don’t provide, <a href=\"https://www.computerweekly.com/opinion/One-year-on-from-the-CrowdStrike-outageWhat-have-we-learned\">like CrowdStrike, which is a good example</a>.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about financial services regulation</h3> <ul class=\"default-list\"> <li>After MPs said public and finance systems are ‘exposed to potential serious harm’ from AI because regulators are ‘not doing enough, <a href=\"https://www.computerweekly.com/news/366641650/Finance-regulators-to-address-AI-risks-after-MPs-say-they-are-not-doing-enough\">regulators said they will take action</a>.</li> <li>MPs <a href=\"https://www.computerweekly.com/news/366637516/Financial-regulators-exposing-public-to-potential-serious-harm-due-to-AI-positions\">warn that action is needed to ensure artificial intelligence</a> is adopted safely in the finance sector as companies capitalise on its opportunities.</li> <li>Government face questions about why a multi-hour outage originating in an Amazon Web Services US-based cloud region caused <a href=\"https://www.computerweekly.com/news/366633473/Government-faces-questions-about-why-US-AWS-outage-disrupted-UK-tax-office-and-banking-firms\">service disruption to UK bank</a>.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "GRC",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "azure",
-        "google cloud",
-        "cloud services"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "regulation"
-      ],
       "Industry & Market": [
         "ey"
       ]
     },
-    "summary": "<p>UK financial services regulators now oversee IT suppliers that the finance sector relies on to operate.</p> <p>Four suppliers – the local operations of Amazon Web Services, Google Cloud, Microsoft and Oracle – are initially being regulated, labelled critical third parties (CTPs).</p> <p>The financial services sector is heavily dependent on cloud services from a few large tech companies. Furthermore, as artificial intelligence (AI) use accelerates, more suppliers will become critical to the sector.</p> <p>Earlier this year, The Treasury select committee of MPs called on the government to designate AI and cloud providers in its CTPs Regime (CTPR) scheme, which gives the FCA and the Bank of England powers of investigation and enforcement over non-financial firms that provide critical services to the UK financial services sector.&nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Slow to act\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Slow to act</h2> <p>At the time, Treasury Committee chair Meg Hillier MP said that although the Bank of England was “grasping the nettle&nbsp;to some extent”, she was “perplexed at the&nbsp;apparent&nbsp;inertia shown by the Treasury” over <a href=\"https://www.computerweekly.com/news/366637516/Financial-regulators-exposing-public-to-potential-serious-harm-due-to-AI-positions\">placing IT suppliers to the finance sector within the CTPR</a>.</p> <p>But as of today (13 July 2026) the four firms – which provide critical infrastructure that underpins the UK finance sector, such as cloud services – will be regulated by the Bank of England and the Financial Conduct Authority (FCA). More could eventually fall under the same regulation.</p> <p>The Bank of England said: “The regulators will work together with the CTPs to address system‑level risks and <a href=\"https://www.computerweekly.com/news/366633473/Government-faces-questions-about-why-US-AWS-outage-disrupted-UK-tax-office-and-banking-firms\">reduce the risk of disruption to the services</a> they provide spreading across the UK financial system.</p> <p>&nbsp;“CTPs must identify and manage risks to their critical services effectively, and maintain open, timely communication with regulators and the firms that rely on them, particularly during major incidents.</p> <p>“As many firms rely on these services, disruption or failure could affect multiple firms or markets at the same time, potentially impacting UK financial stability and services used by millions of consumers and businesses,” added the UK central bank.</p> <p>This is a significant development and follows demands from MPs for IT suppliers to be included in the CTPR.</p> <p>Sarah Breeden, deputy governor for financial stability at the Bank of England, said:&nbsp;“As critical third parties become increasingly embedded in the operations of financial institutions, they can introduce new forms of systemic risk. Our proportionate approach to overseeing these providers will ensure that these dependencies are managed in a way that safeguards financial stability.”&nbsp;&nbsp;<br><br>Nikhil Rathi, chief executive at the FCA, said:&nbsp;“…a single failure can reverberate across the financial system."
+    "summary": "WhatCable is a free Mac app that gives you all the information you could need for your USB-C cables."
   },
   {
-    "title": "Why legal control beats location in data sovereignty",
-    "url": "https://www.computerweekly.com/opinion/Why-legal-control-beats-location-in-data-sovereignty",
-    "source": "ComputerWeekly",
-    "published": "2026-07-13T07:07:00+00:00",
-    "raw_text": "<p>When the US government suspended foreign access to Anthropic's most advanced AI models last month, overseas users<a href=\"https://www.computerweekly.com/resources/Software-as-a-Service-SaaS\"> lost access overnight</a>. The lesson from this was not about one product. It was that access to technology can be switched off by a government decision at any moment – without any warning or negotiation.</p> <p>The question it raised for every modern business was not just whether a service remains available, but who has legal power over the provider behind it. The US CLOUD Act is the clearest example. It <a href=\"https://www.computerweekly.com/feature/Is-cloud-data-sovereignty-all-just-a-case-of-Trust-me-bro\">requires US-based providers to disclose data</a> in their \"possession, custody, or control\" – wherever in the world that data physically sits, including providers owned by a US parent company.&nbsp;</p> <p>A sovereign-branded cloud with a datacentre in London and a parent company in Virginia is still within reach of US law. Location provides almost no real protection.</p> <h3>Regulation is catching up with the problem</h3> <p><a href=\"https://www.computerweekly.com/news/366645336/Data-dive-Kill-switch-and-catch-up-can-Europe-close-the-sovereignty-gap\">The EU is taking steps</a> to keep pace by bringing in its Cloud and AI Development Act which proposes a single sovereignty framework with four levels of independence. This runs from basic data residency at Level 1 up to genuine independence from third-country interference at Level 4.</p> <p>In other words, European regulation now says in law what the market has been slow to admit: that residency is the lowest rung of sovereignty, not the definition of it. This marks a definitive step towards European infrastructure autonomy.&nbsp;</p> <p><a href=\"https://www.computerweekly.com/news/366643862/EU-unveils-full-stack-sovereignty-package-to-build-Euro-tech-muscle\">And within Europe</a>, the cloud industry is moving the same way – CISPE's \"Sovereign and Resilient Cloud Services Framework\" gives customers a way of assessing providers on evidence of true sovereignty rather than marketing buzzwords.</p> <h3>The sovereignty gap</h3> <p>The risk for business sits in the gap between where data lives and who controls it. If an organisation cannot say who can access its data, and under which legal framework, it does not have the control it thinks it has.</p> <p>This is complicated further by the rapid evolution of AI applications. As AI systems and critical workloads move into production, that sovereignty gap gets harder to defend – to regulators, to customers and to boards of directors.</p> <p>Plenty of providers now use the language of sovereignty, but far fewer can evidence it. This is \"sovereignty washing\" – a local flag on the datacentre, a region selector on the sign-up page and a confident sales message, while ownership, legal reach and operational access remain conveniently vague.</p> <p>Under the EU's framework, that gets you to Level 1, nothing more.</p> <h3>What organisations should ask for from infrastructure providers</h3> <p>Addressing sovereignty and control is now a matter of due diligence, not a branding exercise. Before signing, businesses need firm answers to several questions about who has legal control over the provider and its parent company, and under which jurisdiction.</p> <p>They should know, for example, where support staff sit, what they can access, and where backups live, since they deserve the same scrutiny as production systems.</p> <p>Exit routes need to be contractual and tested, too, because if you cannot move a workload without major disruption, you do not control it. Portability across the stack is another key aspect, so that critical dependencies like identity and core data layers are not locked into one ecosystem.</p> <p>Although many sovereignty concerns are directed at hyperscale cloud, it still has a valid role in a hybrid architecture for specialist services such as burst capacity and rapid experimentation. A mature cloud strategy is about matching each workload to the jurisdiction, risk profile and level of control it requires.</p> <h3>Control is becoming the real test of cloud sovereignty</h3> <p>Businesses should not accept claims about access and control in the cloud at face value. A rigorous approach is required to avoid unexpected government intrusion and prepare for regulations such as the EU Cloud and AI Development Act. True sovereignty that protects businesses manifests itself in architecture, contracts and day-to-day service delivery. If the answers to the key questions are vague, the label is doing too much work.&nbsp;</p> <p>This shift is levelling the playing field. Jurisdictional clarity is starting to matter as much as a provider’s global scale, so I hope the providers who can open the books on ownership, access and exit are those winning the projects involving sensitive workloads.&nbsp;</p> <p>For local and regional sovereign cloud providers, this is a genuine opportunity. They are built to answer the main concerns about clear ownership, jurisdictional certainty and direct accountability – and for the first time the market is asking for what they have always offered.&nbsp;</p> <p>For UK and European businesses, that is not a constraint. It is the first time in years the control question has a real answer.</p> <p><em>Jake Madders is director and co–founder of Hyve Managed Hosting</em></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about data sovereignty</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/feature/Is-cloud-data-sovereignty-all-just-a-case-of-Trust-me-bro\">Is cloud data sovereignty all just a case of 'Trust me, bro'?</a> Hyperscaler cloud is inherently global. Does that make data sovereignty unattainable – especially given the powers US courts hold? We grilled the hyperscalers in an attempt to find out.</li> <li><a href=\"https://www.computerweekly.com/news/366645336/Data-dive-Kill-switch-and-catch-up-can-Europe-close-the-sovereignty-gap\">Data dive: Kill switch and catch-up – can Europe close the sovereignty gap?</a> As the US demonstrates it can wield an AI 'kill switch', the EU and UK unleash a wave of sovereign-tech measures. Can state-led industrial policy bridge a $2tn revenue chasm?</li> </ul> </div> </div> <p></p> <p></p>",
+    "title": "I tested Google Maps vs. Waze to find the best navigation app - and this one wins",
+    "url": "https://www.zdnet.com/article/google-maps-vs-waze-compared-2026/",
+    "source": "ZDNet",
+    "published": "2026-07-15T07:00:00+00:00",
+    "raw_text": "Want to know whether Waze or Google Maps is better? I've driven with both for hundreds of miles. Here's my choice.",
     "categories": [
-      "Cloud Infrastructure",
-      "GRC",
-      "Data Centres",
-      "Networks",
-      "Industry & Market"
+      "Networks"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "saas",
-        "cloud services"
-      ],
       "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "regulation",
-        "policy"
-      ],
-      "Data Centres": [
-        "hyperscale",
-        "capacity"
-      ],
-      "Industry & Market": [
-        "ey"
+        "wan"
       ]
     },
-    "summary": "<p>When the US government suspended foreign access to Anthropic's most advanced AI models last month, overseas users<a href=\"https://www.computerweekly.com/resources/Software-as-a-Service-SaaS\"> lost access overnight</a>. The lesson from this was not about one product. It was that access to technology can be switched off by a government decision at any moment – without any warning or negotiation.</p> <p>The question it raised for every modern business was not just whether a service remains available, but who has legal power over the provider behind it. The US CLOUD Act is the clearest example."
+    "summary": "Want to know whether Waze or Google Maps is better? I've driven with both for hundreds of miles. Here's my choice."
   },
   {
     "title": "Why I'm using wired Android Auto when all the cool kids are switching to wireless",
@@ -3518,299 +4201,100 @@
     "summary": "The update is the biggest visual change in a decade, and it makes navigating much easier."
   },
   {
-    "title": "I tested COSMIC's new Frosted Glass effect, and it's way better than MacOS' Liquid Glass",
-    "url": "https://www.zdnet.com/article/cosmic-desktop-frosted-glass-linux-liquid-glass/",
-    "source": "ZDNet",
-    "published": "2026-07-13T20:59:08+00:00",
-    "raw_text": "This simply gorgeous Linux desktop just stole the UI crown from Apple's Liquid Glass.",
+    "title": "West Red Lake Gold Reports Strong Q2 Operating Progress with 73% Increase in Mined Ounces and 51% Higher Gold Production over Q1 at Madsen Mine",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327504/0/en/West-Red-Lake-Gold-Reports-Strong-Q2-Operating-Progress-with-73-Increase-in-Mined-Ounces-and-51-Higher-Gold-Production-over-Q1-at-Madsen-Mine.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T08:30:00+00:00",
+    "raw_text": "VANCOUVER, British Columbia, July 15, 2026 (GLOBE NEWSWIRE) -- West Red Lake Gold Mines Ltd. (“West Red Lake Gold” or “WRLG” or the “Company”) (TSXV: WRLG) (OTCQX: WRLGF) is pleased to provide an operational update for the second quarter ended June 30, 2026 (“ Q2 2026 ” or “ Q2 ”) highlighting meaningful progress in the ramp up of the Madsen Mine (“ Madsen ” or the “ Mine ”) located in the Red Lake mining district of Ontario.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "This simply gorgeous Linux desktop just stole the UI crown from Apple's Liquid Glass."
+    "summary": "VANCOUVER, British Columbia, July 15, 2026 (GLOBE NEWSWIRE) -- West Red Lake Gold Mines Ltd. (“West Red Lake Gold” or “WRLG” or the “Company”) (TSXV: WRLG) (OTCQX: WRLGF) is pleased to provide an operational update for the second quarter ended June 30, 2026 (“ Q2 2026 ” or “ Q2 ”) highlighting meaningful progress in the ramp up of the Madsen Mine (“ Madsen ” or the “ Mine ”) located in the Red Lake mining district of Ontario."
   },
   {
-    "title": "Is that QR code a trap? How to spot quishing scams before it's too late",
-    "url": "https://www.zdnet.com/article/how-to-spot-quishing-qr-code-scams/",
-    "source": "ZDNet",
-    "published": "2026-07-13T18:01:43+00:00",
-    "raw_text": "A QR code phishing scheme can take many forms. Here's how to recognize them and avoid becoming a victim.",
+    "title": "AlphaX Rolls Out Global Zero-Fee Trading Initiative Across TradFi and Crypto Markets",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327485/0/en/AlphaX-Rolls-Out-Global-Zero-Fee-Trading-Initiative-Across-TradFi-and-Crypto-Markets.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T07:36:00+00:00",
+    "raw_text": "PANAMA CITY, July 15, 2026 (GLOBE NEWSWIRE) -- AlphaX , a high-performance on-chain trading exchange committed to delivering a simplified, efficient, and reliable trading experience, today unveiled the global launch of its Zero-Fee Trading Initiative, extending fee-free trading across TradFi perpetual futures, crypto spot, and crypto futures markets.",
     "categories": [
-      "Cybersecurity"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing"
-      ]
-    },
-    "summary": "A QR code phishing scheme can take many forms. Here's how to recognize them and avoid becoming a victim."
+    "matched_keywords": {},
+    "summary": "PANAMA CITY, July 15, 2026 (GLOBE NEWSWIRE) -- AlphaX , a high-performance on-chain trading exchange committed to delivering a simplified, efficient, and reliable trading experience, today unveiled the global launch of its Zero-Fee Trading Initiative, extending fee-free trading across TradFi perpetual futures, crypto spot, and crypto futures markets."
   },
   {
-    "title": "Decathlon alcanza las 700 tiendas equipadas con las soluciones de Vusion",
-    "url": "https://www.prnewswire.com/news-releases/decathlon-alcanza-las-700-tiendas-equipadas-con-las-soluciones-de-vusion-302825650.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:30:00+00:00",
-    "raw_text": "La plataforma de Vusion, actualmente desplegada en 54 países de tres continentes, mejora la eficiencia operativa de los equipos de Decathlon y optimiza la experiencia del cliente. PARÍS, 15 de julio de 2026 /PRNewswire/ -- Vusion, líder mundial en soluciones de digitalización para el...",
+    "title": "Apolosign Launches Subscription-Free Digital Calendar for Back-to-School Family Planning",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327482/0/en/Apolosign-Launches-Subscription-Free-Digital-Calendar-for-Back-to-School-Family-Planning.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T07:12:00+00:00",
+    "raw_text": "Apolosign launched a subscription-free Digital Calendar for back-to-school families, combining calendars, chores and meal planning on one wall screen.",
     "categories": [
+      "Networks",
       "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ipo"
-      ]
-    },
-    "summary": "La plataforma de Vusion, actualmente desplegada en 54 países de tres continentes, mejora la eficiencia operativa de los equipos de Decathlon y optimiza la experiencia del cliente. PARÍS, 15 de julio de 2026 /PRNewswire/ -- Vusion, líder mundial en soluciones de digitalización para el..."
-  },
-  {
-    "title": "Decathlon franchit le cap des 700 magasins équipés des solutions Vusion",
-    "url": "https://www.prnewswire.com/news-releases/decathlon-franchit-le-cap-des-700-magasins-equipes-des-solutions-vusion-302825698.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:30:00+00:00",
-    "raw_text": "Déployée dans 54 pays sur trois continents, la plateforme Vusion optimise l'efficacité opérationnelle des équipes de Decathlon et améliore l'expérience client. PARIS, 15 juillet 2026 /PRNewswire/ -- Vusion, leader mondial des solutions de digitalisation du commerce physique, annonce...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Déployée dans 54 pays sur trois continents, la plateforme Vusion optimise l'efficacité opérationnelle des équipes de Decathlon et améliore l'expérience client. PARIS, 15 juillet 2026 /PRNewswire/ -- Vusion, leader mondial des solutions de digitalisation du commerce physique, annonce..."
-  },
-  {
-    "title": "Decathlon Reaches 700 Stores Equipped with Vusion Solutions",
-    "url": "https://www.prnewswire.com/news-releases/decathlon-reaches-700-stores-equipped-with-vusion-solutions-302825708.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:30:00+00:00",
-    "raw_text": "The Vusion platform, now deployed across 54 countries on three continents, enhances operational efficiency for Decathlon teams and improves customer experience. PARIS, July 15, 2026 /PRNewswire/ -- Vusion, the global leader in digitalization solutions for physical retail, today announced...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The Vusion platform, now deployed across 54 countries on three continents, enhances operational efficiency for Decathlon teams and improves customer experience. PARIS, July 15, 2026 /PRNewswire/ -- Vusion, the global leader in digitalization solutions for physical retail, today announced..."
-  },
-  {
-    "title": "Decathlon erreicht Meilenstein: 700 Stores arbeiten mit den Lösungen von Vusion",
-    "url": "https://www.prnewswire.com/news-releases/decathlon-erreicht-meilenstein-700-stores-arbeiten-mit-den-losungen-von-vusion-302825653.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:30:00+00:00",
-    "raw_text": "Die Vusion-Plattform, die mittlerweile in 54 Ländern auf drei Kontinenten im Einsatz ist, steigert die betriebliche Effizienz der Decathlon-Teams und verbessert das Kundenerlebnis. PARIS, 15. Juli 2026 /PRNewswire/ -- Vusion, der weltweit führende Anbieter von Digitalisierungslösungen für...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Die Vusion-Plattform, die mittlerweile in 54 Ländern auf drei Kontinenten im Einsatz ist, steigert die betriebliche Effizienz der Decathlon-Teams und verbessert das Kundenerlebnis. PARIS, 15. Juli 2026 /PRNewswire/ -- Vusion, der weltweit führende Anbieter von Digitalisierungslösungen für..."
-  },
-  {
-    "title": "HBSS Alerts Roblox Corporation (RBLX) Investors to Expanded Class Period; Lead Plaintiff Deadline Remains August 7, 2026",
-    "url": "https://www.prnewswire.com/news-releases/hbss-alerts-roblox-corporation-rblx-investors-to-expanded-class-period-lead-plaintiff-deadline-remains-august-7-2026-302825799.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:27:00+00:00",
-    "raw_text": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- National shareholder rights firm Hagens Berman alerts investors in Roblox Corporation (NYSE: RBLX) that the alleged class period in the ongoing securities class action litigation has been expanded. A new lawsuit now covers investors who...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- National shareholder rights firm Hagens Berman alerts investors in Roblox Corporation (NYSE: RBLX) that the alleged class period in the ongoing securities class action litigation has been expanded. A new lawsuit now covers investors who..."
-  },
-  {
-    "title": "WGS INVESTOR DEADLINE: GeneDx Holdings Investors with Substantial Losses Have Opportunity to Lead the GeneDx Class Action Lawsuit- Hagens Berman",
-    "url": "https://www.prnewswire.com/news-releases/wgs-investor-deadline-genedx-holdings-investors-with-substantial-losses-have-opportunity-to-lead-the-genedx-class-action-lawsuit-hagens-berman-302825800.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:24:00+00:00",
-    "raw_text": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- Hagens Berman (HBSS), a national leader in securities litigation, is actively investigating claims in a securities class action lawsuit against GeneDx Holdings (NASDAQ: WGS) and its executives, alleging defendants misled investors about the...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "SAN FRANCISCO, July 15, 2026 /PRNewswire/ -- Hagens Berman (HBSS), a national leader in securities litigation, is actively investigating claims in a securities class action lawsuit against GeneDx Holdings (NASDAQ: WGS) and its executives, alleging defendants misled investors about the..."
-  },
-  {
-    "title": "GENMA Brand Strategic Upgrade Delivers Strong Results -- Multiple Major Orders and Global Recognition for Automation Technology",
-    "url": "https://www.prnewswire.com/news-releases/genma-brand-strategic-upgrade-delivers-strong-results--multiple-major-orders-and-global-recognition-for-automation-technology-302826104.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:21:00+00:00",
-    "raw_text": "NANTONG, China, July 15, 2026 /PRNewswire/ -- RAINBOWCO (SZ: 002483), a global leader in high-end equipment manufacturing, today announced the latest business update for its GENMA brand. Since launching a strategic brand upgrade in September 2025, GENMA's terminal container crane business...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "NANTONG, China, July 15, 2026 /PRNewswire/ -- RAINBOWCO (SZ: 002483), a global leader in high-end equipment manufacturing, today announced the latest business update for its GENMA brand. Since launching a strategic brand upgrade in September 2025, GENMA's terminal container crane business..."
-  },
-  {
-    "title": "Bell Integration se une al Pacto Mundial de las Naciones Unidas",
-    "url": "https://www.prnewswire.com/news-releases/bell-integration-se-une-al-pacto-mundial-de-las-naciones-unidas-302825056.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:05:00+00:00",
-    "raw_text": "Bell Integration se une al Pacto Mundial de las Naciones Unidas, reforzando su compromiso con los negocios responsables Alineando sus operaciones con los Diez Principios del Pacto Mundial de las Naciones Unidas. LONDRES, 15 de julio de 2026 /PRNewswire/ -- Bell Integration se ha unido a...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Bell Integration se une al Pacto Mundial de las Naciones Unidas, reforzando su compromiso con los negocios responsables Alineando sus operaciones con los Diez Principios del Pacto Mundial de las Naciones Unidas. LONDRES, 15 de julio de 2026 /PRNewswire/ -- Bell Integration se ha unido a..."
-  },
-  {
-    "title": "Bell Integration adhère au Pacte mondial des Nations Unies, renforçant ainsi son engagement en faveur d'une gestion d'entreprise responsable",
-    "url": "https://www.prnewswire.com/news-releases/bell-integration-adhere-au-pacte-mondial-des-nations-unies-renforcant-ainsi-son-engagement-en-faveur-dune-gestion-dentreprise-responsable-302825036.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:05:00+00:00",
-    "raw_text": "Aligner ses activités sur les dix principes du Pacte mondial des Nations Unies LONDRES, 15 juillet 2026 /PRNewswire/ -- Bell Integration a rejoint l'initiative volontaire du Pacte mondial des Nations Unies qui vise à développer, mettre en œuvre et communiquer des pratiques commerciales...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Aligner ses activités sur les dix principes du Pacte mondial des Nations Unies LONDRES, 15 juillet 2026 /PRNewswire/ -- Bell Integration a rejoint l'initiative volontaire du Pacte mondial des Nations Unies qui vise à développer, mettre en œuvre et communiquer des pratiques commerciales..."
-  },
-  {
-    "title": "Bell Integration tritt dem Global Compact der Vereinten Nationen bei und bekräftigt damit sein Engagement für verantwortungsvolles unternehmerisches Handeln",
-    "url": "https://www.prnewswire.com/news-releases/bell-integration-tritt-dem-global-compact-der-vereinten-nationen-bei-und-bekraftigt-damit-sein-engagement-fur-verantwortungsvolles-unternehmerisches-handeln-302825604.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:05:00+00:00",
-    "raw_text": "Ausrichtung der Geschäftstätigkeit an den zehn Prinzipien des Global Compact der Vereinten Nationen LONDON, 15. Juli 2026 /PRNewswire/ -- Bell Integration ist der Initiative Global Compact der Vereinten Nationen beigetreten – einer freiwilligen Initiative zur Entwicklung, Umsetzung und...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Ausrichtung der Geschäftstätigkeit an den zehn Prinzipien des Global Compact der Vereinten Nationen LONDON, 15. Juli 2026 /PRNewswire/ -- Bell Integration ist der Initiative Global Compact der Vereinten Nationen beigetreten – einer freiwilligen Initiative zur Entwicklung, Umsetzung und..."
-  },
-  {
-    "title": "Think closes MENA's largest AI infrastructure pre-seed round at over $8 million",
-    "url": "https://www.prnewswire.com/news-releases/think-closes-menas-largest-ai-infrastructure-pre-seed-round-at-over-8-million-302825409.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:00:00+00:00",
-    "raw_text": "Co-Led by RAED Ventures and Wa'ed Ventures, with participation from Dhahran Techno Valley's Venture Capital arm and strategic angels Funding will accelerate the deployment of Think's integrated hardware and orchestration platform, designed to reduce the cost and complexity of AI RIYADH,...",
-    "categories": [
-      "Industry & Market",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "ai infrastructure"
-      ],
-      "Industry & Market": [
-        "funding",
-        "ey"
-      ]
-    },
-    "summary": "Co-Led by RAED Ventures and Wa'ed Ventures, with participation from Dhahran Techno Valley's Venture Capital arm and strategic angels Funding will accelerate the deployment of Think's integrated hardware and orchestration platform, designed to reduce the cost and complexity of AI RIYADH,..."
-  },
-  {
-    "title": "Hankook Pushes the Limits on High-Speed Forest Stages at WRC Delfi Rally Estonia 2026",
-    "url": "https://www.prnewswire.com/news-releases/hankook-pushes-the-limits-on-high-speed-forest-stages-at-wrc-delfi-rally-estonia-2026-302825980.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T06:00:00+00:00",
-    "raw_text": "Round 9 of the 2026 WRC, Delfi Rally Estonia, takes place from July 16 to 19 in Tartu and the surrounding southern regions Dynapro R213 all-terrain rally tire supplied to tackle lightning-fast unpaved surfaces and airborne jump sections Championship battle intensifies as fierce...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Round 9 of the 2026 WRC, Delfi Rally Estonia, takes place from July 16 to 19 in Tartu and the surrounding southern regions Dynapro R213 all-terrain rally tire supplied to tackle lightning-fast unpaved surfaces and airborne jump sections Championship battle intensifies as fierce..."
-  },
-  {
-    "title": "StarLovin Highlights Email Capture and Contacts for Instagram DM and Facebook Messenger Automation",
-    "url": "https://www.prnewswire.com/news-releases/starlovin-highlights-email-capture-and-contacts-for-instagram-dm-and-facebook-messenger-automation-302826056.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T05:47:00+00:00",
-    "raw_text": "RENO, Nev., July 15, 2026 /PRNewswire/ -- StarLovin, a Meta-approved creator growth automation platform, recently highlighted email capture and Contacts features for its Instagram DM and Facebook Messenger automation workflows. The update helps creators, media operators, coaches, and...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "RENO, Nev., July 15, 2026 /PRNewswire/ -- StarLovin, a Meta-approved creator growth automation platform, recently highlighted email capture and Contacts features for its Instagram DM and Facebook Messenger automation workflows. The update helps creators, media operators, coaches, and..."
-  },
-  {
-    "title": "Förderung einer kohlenstoffarmen Fertigung und globaler Nachhaltigkeitsverpflichtungen",
-    "url": "https://www.prnewswire.com/news-releases/forderung-einer-kohlenstoffarmen-fertigung-und-globaler-nachhaltigkeitsverpflichtungen-302826054.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T05:46:00+00:00",
-    "raw_text": "Der Bericht hebt saubere Energie, Innovation und ESG-Anerkennung hervor ZIBO, China, 15. Juli 2026 /PRNewswire/ -- INTCO Medical („das Unternehmen\"), ein weltweit führender Hersteller von Einweghandschuhen, hat seinen ESG-Bericht (Umwelt, Soziales und Unternehmensführung) für 2025...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "esg"
-      ]
-    },
-    "summary": "Der Bericht hebt saubere Energie, Innovation und ESG-Anerkennung hervor ZIBO, China, 15. Juli 2026 /PRNewswire/ -- INTCO Medical („das Unternehmen\"), ein weltweit führender Hersteller von Einweghandschuhen, hat seinen ESG-Bericht (Umwelt, Soziales und Unternehmensführung) für 2025..."
-  },
-  {
-    "title": "Hanshow Signs Strategic Partner Agreement with Microsoft to Accelerate Smart Retail Innovation",
-    "url": "https://www.prnewswire.com/news-releases/hanshow-signs-strategic-partner-agreement-with-microsoft-to-accelerate-smart-retail-innovation-302826049.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T05:44:00+00:00",
-    "raw_text": "REDMOND, Wash., July 15, 2026 /PRNewswire/ -- Hanshow, a global leader in digital store solutions, signed a Strategic Partner Agreement with Microsoft at the Microsoft Executive Briefing Center in Redmond, Washington, marking a new milestone in the companies' long-standing collaboration...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "REDMOND, Wash., July 15, 2026 /PRNewswire/ -- Hanshow, a global leader in digital store solutions, signed a Strategic Partner Agreement with Microsoft at the Microsoft Executive Briefing Center in Redmond, Washington, marking a new milestone in the companies' long-standing collaboration..."
-  },
-  {
-    "title": "Skanska builds a new university campus in Kristianstad for about SEK 1 billion",
-    "url": "https://www.prnewswire.com/news-releases/skanska-builds-a-new-university-campus-in-kristianstad-for-about-sek-1-billion-302826047.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T05:43:00+00:00",
-    "raw_text": "STOCKHOLM, July 15, 2026 /PRNewswire/ -- Skanska has been commissioned by Boulevardfastigheter AB to build a citycampus forneeds-more-info Kristianstad University, Sweden. The contract is valued at about SEK 1 billion, which will be included in the order bookings for Sweden for the third...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "STOCKHOLM, July 15, 2026 /PRNewswire/ -- Skanska has been commissioned by Boulevardfastigheter AB to build a citycampus forneeds-more-info Kristianstad University, Sweden. The contract is valued at about SEK 1 billion, which will be included in the order bookings for Sweden for the third..."
-  },
-  {
-    "title": "EthSystems startet mit dem Ziel, Datenschutzlösungen für Institutionen auf Ethereum zu entwickeln",
-    "url": "https://www.prnewswire.com/news-releases/ethsystems-startet-mit-dem-ziel-datenschutzlosungen-fur-institutionen-auf-ethereum-zu-entwickeln-302826038.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T05:39:00+00:00",
-    "raw_text": "EthSystems wurde vom Team der Institutional Privacy Task Force der Ethereum Foundation gegründet und entwickelt Datenschutz- und Compliance-Technologie für Ethereum Zu den wichtigsten Geldgebern zählen Bitmine, Sharplink und Joe Lubin NEW YORK, 15. Juli 2026 /PRNewswire/ -- EthSystems,...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "compliance",
-        "privacy"
-      ]
-    },
-    "summary": "EthSystems wurde vom Team der Institutional Privacy Task Force der Ethereum Foundation gegründet und entwickelt Datenschutz- und Compliance-Technologie für Ethereum Zu den wichtigsten Geldgebern zählen Bitmine, Sharplink und Joe Lubin NEW YORK, 15. Juli 2026 /PRNewswire/ -- EthSystems,..."
-  },
-  {
-    "title": "EthSystems lanceert oplossingen voor privacy van institutionele gebruikers op Ethereum",
-    "url": "https://www.prnewswire.com/news-releases/ethsystems-lanceert-oplossingen-voor-privacy-van-institutionele-gebruikers-op-ethereum-302826029.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T05:34:00+00:00",
-    "raw_text": "EthSystems, opgericht door het team achter de Institutional Privacy Task Force van de Ethereum Foundation, ontwikkelt privacy- en compliancetechnologie voor Ethereum. Tot de belangrijkste financiers behoren Bitmine, SharpLink en Joe Lubin. NEW YORK, 15 juli 2026 /PRNewswire/ – EthSystems,...",
-    "categories": [
-      "GRC",
-      "Networks"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
-      "GRC": [
-        "compliance",
-        "privacy"
+      "Industry & Market": [
+        "launches"
       ]
     },
-    "summary": "EthSystems, opgericht door het team achter de Institutional Privacy Task Force van de Ethereum Foundation, ontwikkelt privacy- en compliancetechnologie voor Ethereum. Tot de belangrijkste financiers behoren Bitmine, SharpLink en Joe Lubin. NEW YORK, 15 juli 2026 /PRNewswire/ – EthSystems,..."
+    "summary": "Apolosign launched a subscription-free Digital Calendar for back-to-school families, combining calendars, chores and meal planning on one wall screen."
   },
   {
-    "title": "ZUGANG ZU ERNEUERBAREN ENERGIEN ENTSCHEIDEND, DAMIT DIE MOBILFUNKBRANCHE AUF KURS ZUM NETTO-NULL-ZIEL BLEIBT - NEUER GSMA-BERICHT",
-    "url": "https://www.prnewswire.com/news-releases/zugang-zu-erneuerbaren-energien-entscheidend-damit-die-mobilfunkbranche-auf-kurs-zum-netto-null-ziel-bleibt--neuer-gsma-bericht-302826006.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-15T05:17:00+00:00",
-    "raw_text": "Mobilfunkbetreiber haben ihre betriebsbedingten Emissionen seit 2019 um 13 % gesenkt – trotz eines Anstiegs der Mobilfunkanschlüsse um 10 % und einer mehr als vierfachen Zunahme des Datenverkehrs –, doch ist ein schnellerer Zugang zu sauberer Energie erforderlich, um die Fortschritte zu...",
+    "title": "Forex Expo Dubai Adds New Features for Verified Traders and Introducing Brokers",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327475/0/en/Forex-Expo-Dubai-Adds-New-Features-for-Verified-Traders-and-Introducing-Brokers.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T07:00:00+00:00",
+    "raw_text": "DUBAI, United Arab Emirates, July 15, 2026 (GLOBE NEWSWIRE) -- Expanding the Expo Experience As preparations continue for Forex Expo Dubai 2026 , the event is expanding its attendee experience while welcoming a growing lineup of exhibitors from across the forex and trading industry. Confirmed exhibitors include Super Elite sponsors GTCFX, Valetax, Xchief, Funding Pips, and Honor Financial, alongside Elite sponsors EC Markets, TMGM, Metaquotes, JustMarkets, FP Markets, PU Prime, Dprime, Funded Firm, VPFX, Aegeanlabs Software LLC, Eplanet, SGFX, FortressFX, UEXO, Moneta Markets, and CXM. As the forex and trading landscape evolves, industry events are adapting to changing attendee expectations. Traders, introducing brokers, and business professionals are increasingly seeking practical learning, direct access to industry specialists, and meaningful business engagement. In response, Forex Expo Dubai is introducing dedicated programmes tailored to its key attendee groups. Personalizing Experiences Verified traders gain access to dedicated seminar sessions, the Traders Lounge, and Traders Clinic that offers one-on-one guidance from market experts. They can also pre-book meetings ahead of the event and explore exclusive onboarding opportunities from selected exhibitors. For Introducing Brokers, the dedicated IB Programme creates opportunities to connect with brokers, compare rebate options, and discuss partnership opportunities through face-to-face meetings. The IB Lounge and dedicated seminar sessions provide additional insights to help IBs strengthen their approach and grow their networks. Expanding Opportunities for Engagement Beyond these dedicated programmes, Forex Expo Dubai will feature private meeting zones for one-to-one business discussions, networking lounges, coffee areas, and interactive experiences throughout the two-day event. Additional side events taking place before and after the expo will further extend opportunities for engagement across the trading community.",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "networking",
+        "lan"
+      ],
+      "Industry & Market": [
+        "partnership",
+        "funding",
+        "ey"
+      ]
+    },
+    "summary": "DUBAI, United Arab Emirates, July 15, 2026 (GLOBE NEWSWIRE) -- Expanding the Expo Experience As preparations continue for Forex Expo Dubai 2026 , the event is expanding its attendee experience while welcoming a growing lineup of exhibitors from across the forex and trading industry. Confirmed exhibitors include Super Elite sponsors GTCFX, Valetax, Xchief, Funding Pips, and Honor Financial, alongside Elite sponsors EC Markets, TMGM, Metaquotes, JustMarkets, FP Markets, PU Prime, Dprime, Funded Firm, VPFX, Aegeanlabs Software LLC, Eplanet, SGFX, FortressFX, UEXO, Moneta Markets, and CXM. As the forex and trading landscape evolves, industry events are adapting to changing attendee expectations. Traders, introducing brokers, and business professionals are increasingly seeking practical learning, direct access to industry specialists, and meaningful business engagement."
+  },
+  {
+    "title": "FDH Aero Opens New Sales and Distribution Facility in Montreal to Strengthen Support for the Canadian Aerospace Market",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327476/0/en/FDH-Aero-Opens-New-Sales-and-Distribution-Facility-in-Montreal-to-Strengthen-Support-for-the-Canadian-Aerospace-Market.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T07:00:00+00:00",
+    "raw_text": "COMMERCE, Calif., July 15, 2026 (GLOBE NEWSWIRE) -- FDH Aero, a leading global provider of supply chain solutions for the aerospace and defense industry, announced today the opening of a new sales and distribution facility in Montreal. The new location will serve as a dedicated hub to support FDH Aero's expanding business in Canada, bringing essential aerospace products and supply chain solutions directly to the region.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Mobilfunkbetreiber haben ihre betriebsbedingten Emissionen seit 2019 um 13 % gesenkt – trotz eines Anstiegs der Mobilfunkanschlüsse um 10 % und einer mehr als vierfachen Zunahme des Datenverkehrs –, doch ist ein schnellerer Zugang zu sauberer Energie erforderlich, um die Fortschritte zu..."
+    "summary": "COMMERCE, Calif., July 15, 2026 (GLOBE NEWSWIRE) -- FDH Aero, a leading global provider of supply chain solutions for the aerospace and defense industry, announced today the opening of a new sales and distribution facility in Montreal. The new location will serve as a dedicated hub to support FDH Aero's expanding business in Canada, bringing essential aerospace products and supply chain solutions directly to the region."
+  },
+  {
+    "title": "WONDERLAB Spotlights Gut Health and Innate Immunity, Featuring Its Proprietary Strain GOLDGUT-M520",
+    "url": "https://www.globenewswire.com/news-release/2026/07/15/3327472/0/en/WONDERLAB-Spotlights-Gut-Health-and-Innate-Immunity-Featuring-Its-Proprietary-Strain-GOLDGUT-M520.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-15T06:52:00+00:00",
+    "raw_text": "SHENZHEN, China, July 15, 2026 (GLOBE NEWSWIRE) -- On May 21, 2026, WONDERLAB ran a public science-education series on gut health and immunity, featuring its proprietary strain GOLDGUT-M520. The program included an official livestream and brought together Victor Gao, Vice President of the Center for China and Globalization (CCG); Wang Juanshu, Vice President of WONDERLAB; and TV host Jonathan Li to discuss the science of immunity and gut health under the theme “Science for Health: Taking Charge of Your Own Well-being.”",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "SHENZHEN, China, July 15, 2026 (GLOBE NEWSWIRE) -- On May 21, 2026, WONDERLAB ran a public science-education series on gut health and immunity, featuring its proprietary strain GOLDGUT-M520. The program included an official livestream and brought together Victor Gao, Vice President of the Center for China and Globalization (CCG); Wang Juanshu, Vice President of WONDERLAB; and TV host Jonathan Li to discuss the science of immunity and gut health under the theme “Science for Health: Taking Charge of Your Own Well-being.”"
   },
   {
     "title": "FREELANDER تؤكد إطلاق علامتها التجارية في أبوظبي خلال سبتمبر/أيلول في مهرجان غودوود للسرعة، في خطوة جديدة ضمن مسار توسعها العالمي",
@@ -4033,116 +4517,11 @@
     "summary": "VANCOUVER and TORONTO, July 14, 2026 (GLOBE NEWSWIRE) -- SEIU Local 2 has now filed two unfair labour practice complaints against Dexterra Group, one in British Columbia and the other in Ontario, raising critical questions about whether public agencies should continue its relationship with the cleaning contractor."
   },
   {
-    "title": "ZenaTech firma múltiples ofertas para adquirir empresas de topografía y servicios geoespaciales en EE. UU., Canadá y Australia, que se espera que contribuyan C$ 40 millones en ingresos durante los primeros 12 meses posteriores al cierre",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327404/0/es/ZenaTech-firma-m%C3%BAltiples-ofertas-para-adquirir-empresas-de-topograf%C3%ADa-y-servicios-geoespaciales-en-EE-UU-Canad%C3%A1-y-Australia-que-se-espera-que-contribuyan-C-40-millones-en-ingresos-.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T22:33:00+00:00",
-    "raw_text": "Las posibles adquisiciones amplían la presencia global de una de las principales empresas del mundo de Drones como Servicio (DaaS) en un mercado de servicios de drones que crece a una tasa superior al 25 % anual Las posibles adquisiciones amplían la presencia global de una de las principales empresas del mundo de Drones como Servicio (DaaS) en un mercado de servicios de drones que crece a una tasa superior al 25 % anual",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Las posibles adquisiciones amplían la presencia global de una de las principales empresas del mundo de Drones como Servicio (DaaS) en un mercado de servicios de drones que crece a una tasa superior al 25 % anual Las posibles adquisiciones amplían la presencia global de una de las principales empresas del mundo de Drones como Servicio (DaaS) en un mercado de servicios de drones que crece a una tasa superior al 25 % anual"
-  },
-  {
-    "title": "Northrop Grumman Breaks Ground on New Facility to Support Strategic Deterrence and Advanced Aerospace Missions in Utah",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327378/189/en/Northrop-Grumman-Breaks-Ground-on-New-Facility-to-Support-Strategic-Deterrence-and-Advanced-Aerospace-Missions-in-Utah.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T21:58:00+00:00",
-    "raw_text": "As the largest defense contractor in Utah, the company marks a pivotal moment for growth, aerospace innovation and national defense investment As the largest defense contractor in Utah, the company marks a pivotal moment for growth, aerospace innovation and national defense investment",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "investment"
-      ]
-    },
-    "summary": "As the largest defense contractor in Utah, the company marks a pivotal moment for growth, aerospace innovation and national defense investment As the largest defense contractor in Utah, the company marks a pivotal moment for growth, aerospace innovation and national defense investment"
-  },
-  {
-    "title": "Zipline Accelerates U.S. Growth with 13X Marketplace Expansion, New Leadership Hires, and Launches in Austin and Cleveland",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327362/0/en/Zipline-Accelerates-U-S-Growth-with-13X-Marketplace-Expansion-New-Leadership-Hires-and-Launches-in-Austin-and-Cleveland.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T21:41:00+00:00",
-    "raw_text": "Zipline expanded its marketplace 13X in H1 2026, adding veteran leaders from Tesla, Waymo, and Uber to fuel its next stage of growth.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Zipline expanded its marketplace 13X in H1 2026, adding veteran leaders from Tesla, Waymo, and Uber to fuel its next stage of growth."
-  },
-  {
-    "title": "Lira Clinical Announces New REGEN Line — A First-of-Its-Kind Breakthrough in Regenerative Skincare",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327360/0/en/Lira-Clinical-Announces-New-REGEN-Line-A-First-of-Its-Kind-Breakthrough-in-Regenerative-Skincare.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T21:40:00+00:00",
-    "raw_text": "Lira Clinical is proud to announce the launch of its groundbreaking new REGEN PDRN+ skincare line with Wild Salmon Stem Cell–Conditioned Media.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Lira Clinical is proud to announce the launch of its groundbreaking new REGEN PDRN+ skincare line with Wild Salmon Stem Cell–Conditioned Media."
-  },
-  {
-    "title": "New Crypto Pepeto Announces Cross-Chain Bridge Connecting Ethereum, BNB Chain, and Solana",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327308/0/en/New-Crypto-Pepeto-Announces-Cross-Chain-Bridge-Connecting-Ethereum-BNB-Chain-and-Solana.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T20:37:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, July 14, 2026 (GLOBE NEWSWIRE) -- Pepeto has announced its cross-chain bridge connecting Ethereum, BNB Chain, and Solana, as the ongoing presale formally crossed the $10.46 million mark. Nearly every crypto fortune of the past decade came from two categories: presale entries and meme coins. That fact alone explains why money is entering this presale faster stage after stage.",
-    "categories": [
-      "Industry & Market",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces",
-        "ey"
-      ]
-    },
-    "summary": "DUBAI, United Arab Emirates, July 14, 2026 (GLOBE NEWSWIRE) -- Pepeto has announced its cross-chain bridge connecting Ethereum, BNB Chain, and Solana, as the ongoing presale formally crossed the $10.46 million mark. Nearly every crypto fortune of the past decade came from two categories: presale entries and meme coins. That fact alone explains why money is entering this presale faster stage after stage."
-  },
-  {
-    "title": "Webb Supply Extends Northern Ohio Footprint with New Bedford Heights Branch",
-    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327285/0/en/Webb-Supply-Extends-Northern-Ohio-Footprint-with-New-Bedford-Heights-Branch.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-14T20:19:00+00:00",
-    "raw_text": "ATLANTA, July 14, 2026 (GLOBE NEWSWIRE) -- Webb Supply, a leading provider of HVAC/R (Heating, Ventilation, Air Conditioning, and Refrigeration) solutions and subsidiary of Heritage Distribution Holdings, today announced the grand opening of its newest branch location in Bedford Heights, Ohio. The new location underscores Webb Supply's continued investment in the region and its commitment to delivering quality products and responsive service to HVAC/R professionals.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "investment"
-      ]
-    },
-    "summary": "ATLANTA, July 14, 2026 (GLOBE NEWSWIRE) -- Webb Supply, a leading provider of HVAC/R (Heating, Ventilation, Air Conditioning, and Refrigeration) solutions and subsidiary of Heritage Distribution Holdings, today announced the grand opening of its newest branch location in Bedford Heights, Ohio. The new location underscores Webb Supply's continued investment in the region and its commitment to delivering quality products and responsive service to HVAC/R professionals."
-  },
-  {
-    "title": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges - Business Wire",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPU0lFbXFHYmhWd0x1VDBORkR2dkRnc2pRaUhvZDRkRzFITlYzeTgwNlNrc09lMHpKUGtUWTkxZC03MkZVaHJKRDRLUkFQa2FGMVo0UEl5a3ZqbDZ0MnN2YUNwZGJlekJYWE5rU0trQXp6amdMcXZiQ0ZJeDVsNEdVUnBjRFdpN3VJRzFUM0RUYTB5cmdZaURqb3VXUEhMejM1REtUVkJuc1h1bFlxcTgwUGxGbkFXR09zOE1XaGRqajcwNVNLV2d6VzZpV2RpRVZaTndvUk1pekRlMmx6bk9fR0xtazI?oc=5",
+    "title": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges - 01net",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcGU5Z1RrYWJpMDdVNXlHSHNuMkMyeVBzTUtVQTRvMmVPX2x1M1ZSSWdIN2NmUlJnU2xfSnNNYVJoSVB0LTZYeEJFUkVwV1ZPRzlvMWtwR2hNeldWSHVhTl84QnBCUTRSVzI4R3lVUHJCMFdrM2dES243UFNsdTI4Ti1YTW5ybFZ3X2w0dy1lZ3hkMVVmRmIxb25Sa2xXRVBWUWppcFd5X3F2MHpYMmQ3dlFnUW54QQ?oc=5",
     "source": "Google News: Networks",
-    "published": "2026-07-14T13:36:00+00:00",
-    "raw_text": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges Business Wire",
+    "published": "2026-07-14T16:36:00+00:00",
+    "raw_text": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges 01net",
     "categories": [
       "Networks"
     ],
@@ -4152,7 +4531,7 @@
         "connectivity"
       ]
     },
-    "summary": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges Business Wire"
+    "summary": "GigaIO Partners with Mushroom Networks to Solve Near-edge to Far-edge Connectivity Challenges 01net"
   },
   {
     "title": "Vodafone Business launches SASE and Secure SD-WAN services in Greece - Telecompaper",
@@ -4175,6 +4554,22 @@
       ]
     },
     "summary": "Vodafone Business launches SASE and Secure SD-WAN services in Greece Telecompaper"
+  },
+  {
+    "title": "Flashback 2023: A quick look at the top acquisitions of the year - Indiatimes",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPa0RzZ1QxUGpfcm11eUFmVlZBR0w0UjJlVFBSMGVXYXB4SlVVdF85QlJtZnEtZzlaeVo5NHRNT1ROaXpTdUt0a2x2Uno5a2lNWlB4SGZUMldTN18xU1lYZTh0LWp2YTdBcHNmVllVVnRxaGlBNGRnbS1kbG81NDNWUmRhUXhTcDJDbHdDcWdxWWV1WWd6eTJaQVhzb1hMbW03VHE2ejZ4RTNISm5JMklNdWxLTlNwcE1qNzRKRkJjUndNS2lDaGJvX212YTdRTVo0WGJNMnpB?oc=5",
+    "source": "Google News: Market & Industry News",
+    "published": "2026-07-14T16:07:00+00:00",
+    "raw_text": "Flashback 2023: A quick look at the top acquisitions of the year Indiatimes",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquisition"
+      ]
+    },
+    "summary": "Flashback 2023: A quick look at the top acquisitions of the year Indiatimes"
   },
   {
     "title": "TCS expands ABB partnership with multi-million network operations deal - CRN Asia",
