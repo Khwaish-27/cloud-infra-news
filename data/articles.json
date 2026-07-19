@@ -206,27 +206,6 @@
     "summary": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus on long-term access and intelligence gathering. Russian cybersecurity company Kaspersky, which uncovered the activity in February 2026, said it was aimed at government and diplomatic entities in"
   },
   {
-    "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
-    "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-    "source": "The Hacker News",
-    "published": "2026-07-17T06:42:23+00:00",
-    "raw_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 19, 2026. The vulnerability in question is CVE-2026-58644 (CVSS score: 9.8), a critical deserialization",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "zero-day",
-        "exploit",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by July 19, 2026. The vulnerability in question is CVE-2026-58644 (CVSS score: 9.8), a critical deserialization"
-  },
-  {
     "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
     "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
     "source": "BleepingComputer",
@@ -556,26 +535,6 @@
     "summary": "A ransomware attack has stopped milk production at Fairlife, the Coca-Cola dairy brand known for its high-protein milk, protein shakes, and nutrition drinks. Coca-Cola disclosed the incident on July 16, 2026, in a Form 8-K filed with the U.S. Securities and Exchange Commission (SEC). “Product quality and safety have not been impacted."
   },
   {
-    "title": "Prompt injection is becoming the XSS of the web agent era",
-    "url": "https://www.helpnetsecurity.com/2026/07/17/xss-web-agent-prompt-injection/",
-    "source": "Help Net Security",
-    "published": "2026-07-17T06:00:31+00:00",
-    "raw_text": "Autonomous web agents read whatever a page displays, and much of that content comes from strangers. Product reviews, seller listings, and advertisements sit beside trusted site menus on a single page. An agent that reads all of that text as instructions can be steered by any of it. A group at UC Berkeley describe Cross-Site Prompting, or XSP, as the agent-era version of Cross-Site Scripting. Their system, Prismata, sits between a web agent and the … More → The post Prompt injection is becoming the XSS of the web agent era appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Autonomous web agents read whatever a page displays, and much of that content comes from strangers. Product reviews, seller listings, and advertisements sit beside trusted site menus on a single page. An agent that reads all of that text as instructions can be steered by any of it. A group at UC Berkeley describe Cross-Site Prompting, or XSP, as the agent-era version of Cross-Site Scripting."
-  },
-  {
     "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
     "url": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
     "source": "Dark Reading",
@@ -798,23 +757,6 @@
     "summary": "The critical-severity security defect allows remote, authenticated attackers to execute arbitrary code on the server. The post Fresh SharePoint Vulnerability Exploited Soon After Disclosure appeared first on SecurityWeek ."
   },
   {
-    "title": "Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack",
-    "url": "https://www.securityweek.com/coca-cola-suspends-us-fairlife-production-due-to-ransomware-attack/",
-    "source": "SecurityWeek",
-    "published": "2026-07-17T06:23:08+00:00",
-    "raw_text": "The company has yet to determine the full scope, nature, and impact of the incident. The post Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware",
-        "security"
-      ]
-    },
-    "summary": "The company has yet to determine the full scope, nature, and impact of the incident. The post Coca-Cola Suspends US Fairlife Production Due to Ransomware Attack appeared first on SecurityWeek ."
-  },
-  {
     "title": "Government Agencies Falling Victim to Ransomware Daily, Warns Study",
     "url": "https://www.infosecurity-magazine.com/news/government-ransomware-daily/",
     "source": "InfoSecurity Magazine",
@@ -969,7 +911,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/level-up-your-column-level-security-using-iam-data-governance-tags-in-bigquery/",
     "source": "Google Cloud Blog",
     "published": "2026-07-17T16:00:00+00:00",
-    "raw_text": "Many BigQuery customers rely on policy tags for protecting their sensitive information in BigQuery. Policy tags were the go-to solution for applying column-level access controls, allowing only users with the right permission to view sensitive columns like personally identifiable information (PII). It was a robust and effective system — for its time. However, data ecosystems have grown in complexity, and the tools we use to help secure them need to evolve with them. New challenges include creating and managing a taxonomy that supports multiple tags across multiple regions and locations, enabling disaster recovery, and integrating with a broad centralized governance strategy. To help you meet the needs of today’s data ecosystems, we're excited to introduce the preview of data governance tags in BigQuery . Built on Google Cloud's Identity and Access Manager’s (IAM) Resource Manager infrastructure, data governance tags provide a scalable, and robust method to help you manage access controls and protect your BigQuery column data. What are IAM data governance tags? Data governance tags are a special type of Resource Manager tags . You can create it by setting the purpose field to DATA_GOVERNANCE when creating a tag key in IAM, you designate it for use in BigQuery column-level security. You can create a hierarchical tree of data governance tags specifically for column-data governance purposes and apply them directly to your BigQuery columns. Why use data governance tags for column-level security? Global scope, regional enforcement : Unlike policy tags (which are regional-only), data governance tags are global. You can define a single tag key:value pair (like “data_sensitivity:high”) at the organization level and use it across any project or region in your organization. Managed disaster recovery : Security policies should persist during a failover. Data governance tags and their associated data policies are automatically replicated to secondary regions. If you need to switch regions, your security posture moves with you automatically. Hierarchical security : You can now build a tree of tags up to five levels deep. This allows for inheritance and more granular classification (such as PII > Financial > CreditCardNumber). Decoupled governance : You can tag your data to organize and classify it before you decide to enforce security. Access control only kicks in once you define a data policy for that tag, giving your team more flexibility during data onboarding . Three steps to column-level security Step 1: Create the tag key and values 1. Create data governance tag key : First you create an IAM tag key in Console , gcloud CLI, or API. The magic happens when you specify the purpose field as --purpose= DATA_GOVERNANCE for the tag key. This key change tells Google Cloud that this tag will be used for column-level security in BigQuery. code_block <ListValue: [StructValue([('code', '# Example: Creating a Data Governance tag key named \"data_class\"\\r\\ngcloud resource-manager tags keys create data_class \\\\\\r\\n --parent=projects/my-governance-project \\\\\\r\\n --purpose=DATA_GOVERNANCE'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d54b354c0>)])]> 2. Create tag values : Once your data governance tag key has been created, you need to create specific tag values under the key that you will use to categorize/classify your column data. One of the useful features of data governance tags is the ability to build a hierarchical tree of tag values. The tag-values tree allows you to create broad categories and then drill down into specific categories based on data type. You can go up to five levels deep for granular access control. code_block <ListValue: [StructValue([('code', '# Level 1: Create a tag value called \"pii\"\\r\\ngcloud resource-manager tags values create pii \\\\\\r\\n --parent=my-governance-project/data_class\\r\\n\\r\\n\\r\\n# Level 2: Create a child value under \"pii\" for \"private\" data\\r\\ngcloud resource-manager tags values create private \\\\\\r\\n --parent=my-governance-project/data_class/pii\\r\\n\\r\\n\\r\\n# Level 3: Create another child tag value for \"email\" under \"private\"\\r\\n# You can go up to 5 levels deep for granular control\\r\\ngcloud resource-manager tags values create email \\\\\\r\\n --parent=my-governance-project/data_class/private'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549cac10>)])]> Step 2: Attach tags to your columns via JSON schema 1. Export your existing schema For existing tables, the most efficient way to manage tags is by updating the table schema using a JSON file and using API or BQ CLI because it allows you to tag multiple columns at once. code_block <ListValue: [StructValue([('code', '# Save the current table schema to a local JSON file.\\r\\nbq show --schema --format=prettyjson my_project:my_dataset.my_table > schema.json'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549ca0d0>)])]> 2. Add the dataGovernanceTags to your JSON file Open schema.json and add the tag mapping to your sensitive columns. Note the use of the namespaced key and the short name for the value. code_block <ListValue: [StructValue([('code', '[\\r\\n {\\r\\n \"name\": \"user_email\",\\r\\n \"type\": \"STRING\",\\r\\n \"dataGovernanceTagsInfo\": {\\r\\n \"dataGovernanceTags\": {\\r\\n \"my-governance-project/data_class\": \"email\" \\r\\n }\\r\\n }\\r\\n },\\r\\n {\\r\\n \"name\": \"phone_number\",\\r\\n \"type\": \"STRING\",\\r\\n \"dataGovernanceTagsInfo\": {\\r\\n \"dataGovernanceTags\": {\\r\\n \"my-governance-project/data_class\": \"private\"\\r\\n }\\r\\n }\\r\\n },\\r\\n {\\r\\n \"name\": \"government_id\",\\r\\n \"type\": \"STRING\",\\r\\n \"dataGovernanceTagsInfo\": {\\r\\n \"dataGovernanceTags\": {\\r\\n \"my-governance-project/data_class\": \"pii\"\\r\\n }\\r\\n }\\r\\n }\\r\\n]'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549ca9a0>)])]> 3. Update the table: Apply the schema to your BigQuery table. code_block <ListValue: [StructValue([('code', '# Overwrite the table schema with your newly tagged JSON file.\\r\\nbq update --project_id=my-data-project --schema=schema.json my_dataset.my_table'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549ca5e0>)])]> Alternatively you can also use SQL to bind data governance tags to BigQuery table columns. code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE TABLE my_dataset.my_table(\\r\\n user_email STRING\\r\\n OPTIONS (\\r\\n data_governance_tags = [('my-governance-project/data_class', 'email')]),\\r\\n );\\r\\nALTER TABLE my_dataset.my_table\\r\\nALTER COLUMN phone_number\\r\\n SET OPTIONS (\\r\\n data_governance_tags = [('my-governance-project/data_class', 'private')]);\\r\\nALTER TABLE my_dataset.my_table\\r\\nADD COLUMN government_id\\r\\n STRING\\r\\n OPTIONS (\\r\\n data_governance_tags = [('my-governance-project/data_class', 'pii')]);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549cab80>)])]> You can also remove a column tag by setting it to [], for example: code_block <ListValue: [StructValue([('code', 'ALTER TABLE my_dataset.my_table\\r\\nALTER COLUMN phone_number\\r\\n SET OPTIONS (\\r\\n data_governance_tags = []\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549cacd0>)])]> You can use information_schema COLUMNS view to see the columns tags: code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n column_name,\\r\\n data_governance_tags[SAFE_OFFSET(0)].key AS tag_key,\\r\\n data_governance_tags[SAFE_OFFSET(0)].value AS tag_value,\\r\\nFROM `my_project.my_dataset.INFORMATION_SCHEMA.COLUMNS`\\r\\nWHERE table_name = 'my_table'\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549caf40>)])]> The result is similar to the following: code_block <ListValue: [StructValue([('code', '+---------------+----------------------------------+-----------+\\r\\n| column_name | tag_key | tag_value |\\r\\n+---------------+----------------------------------+-----------+\\r\\n| user_email | my-governance-project/data_class | email |\\r\\n| phone_number | my-governance-project/data_class | private |\\r\\n| government_id | NULL | NULL |\\r\\n+---------------+----------------------------------+-----------+'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549ca5b0>)])]> Step 3: Create data policies Finally, define a BigQuery data policy to govern access to these tagged columns. These policies explicitly reference the tag values you attached previously. Note that, while data governance tags are global, data policies are regional . To protect your data, the policy must be created in the same region where your BigQuery table is located . Once the policy is defined, access is only granted to the specified grantees; all others will be denied access to the sensitive column data. Also, keep in mind that security in BigQuery is layered. For a data policy to be effective, the users (grantees) must first possess base-level access to the table itself (typically via a role like roles/bigquery.dataViewer ). Data policy then acts as a second security layer, determining whether they view the raw, sensitive column data or a masked, obfuscated version. Masking policy for ‘pii’ tagged column-data (SHA256 Masking): code_block <ListValue: [StructValue([('code', 'curl --request POST \"https://bigquerydatapolicy.googleapis.com/v2/projects/myProject/locations/us-east1/dataPolicies\" \\\\\\r\\n --header \"Authorization: Bearer $(gcloud auth print-access-token)\" \\\\\\r\\n --header \\'Accept: application/json\\' \\\\\\r\\n --header \\'Content-Type: application/json\\' \\\\\\r\\n --data \\'{\\r\\n \"dataPolicy\": {\\r\\n \"dataPolicyType\": \"DATA_MASKING_POLICY\",\\r\\n \"dataMaskingPolicy\": { \"predefinedExpression\": \"SHA256\" },\\r\\n \"grantees\": [ \"principalSet://goog/group/grp-sales@corp.com\" ],\\r\\n \"dataGovernanceTag\": { \"key\": \"myProject/data_class\", \"value\": \"pii\" }\\r\\n },\\r\\n \"dataPolicyId\": \"masking_policy_for_data_class_pii\"\\r\\n}\\' \\\\\\r\\n --compressed'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549ca910>)])]> Raw access policy for ‘pii’ tagged column-data code_block <ListValue: [StructValue([('code', 'curl --request POST \"https://bigquerydatapolicy.googleapis.com/v2/projects/myProject/locations/us-east1/dataPolicies\" \\\\\\r\\n --header \"Authorization: Bearer $(gcloud auth print-access-token)\" \\\\\\r\\n --header \\'Accept: application/json\\' \\\\\\r\\n --header \\'Content-Type: application/json\\' \\\\\\r\\n --data \\'{\\r\\n \"dataPolicy\": {\\r\\n \"dataPolicyType\": \"RAW_DATA_ACCESS_POLICY\",\\r\\n \"grantees\": [ \"principal://goog/subject/abc@xyz.com\" ],\\r\\n \"dataGovernanceTag\": { \"key\": \"myProject/data_class\", \"value\": \"pii\" }\\r\\n },\\r\\n \"dataPolicyId\": \"raw_access_policy_data_class_pii\"\\r\\n}\\' \\\\\\r\\n --compressed'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549ca940>)])]> Masking policy for “private” tagged column data (NULL Masking): code_block <ListValue: [StructValue([('code', 'curl --request POST \"https://bigquerydatapolicy.googleapis.com/v2/projects/myProject/locations/us-east1/dataPolicies\" \\\\\\r\\n --header \"Authorization: Bearer $(gcloud auth print-access-token)\" \\\\\\r\\n --header \\'Accept: application/json\\' \\\\\\r\\n --header \\'Content-Type: application/json\\' \\\\\\r\\n --data \\'{\\r\\n \"dataPolicy\": {\\r\\n \"dataPolicyType\": \"DATA_MASKING_POLICY\",\\r\\n \"dataMaskingPolicy\": { \"predefinedExpression\": \"ALWAYS_NULL\" },\\r\\n \"grantees\": [ \"principal://goog/subject/abc@xyz.com\" ],\\r\\n \"dataGovernanceTag\": { \"key\": \"myProject/data_class\", \"value\": \"private\" }\\r\\n },\\r\\n \"dataPolicyId\": \"null_policy_data_class_private\"\\r\\n}\\' \\\\\\r\\n --compressed'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6d549cad60>)])]> With these three steps, your column data is now protected. The next time a principal queries your BigQuery table, our authorization engine automatically evaluates their identity against your data policies. If the principal is part of the policy, they get to see the masked or raw data as per the policy; if they are not, then they will be denied access. Get started today Data governance tags are a powerful new tool to enhance your data security and governance strategy in BigQuery. We are continuously working to enhance data governance capabilities in BigQuery. Future updates include support for using SQL to create tags and tag based policies, ability to attach multiple tags to a single column, ability to define policies based on combinations of tags, and deeper integrations with services like Knowledge Catalog. You can start tagging your columns and defining fine-grained access controls at scale. To learn more, dive into the Data Governance Tags documentation .",
+    "raw_text": "Many BigQuery customers rely on policy tags for protecting their sensitive information in BigQuery. Policy tags were the go-to solution for applying column-level access controls, allowing only users with the right permission to view sensitive columns like personally identifiable information (PII). It was a robust and effective system — for its time. However, data ecosystems have grown in complexity, and the tools we use to help secure them need to evolve with them. New challenges include creating and managing a taxonomy that supports multiple tags across multiple regions and locations, enabling disaster recovery, and integrating with a broad centralized governance strategy. To help you meet the needs of today’s data ecosystems, we're excited to introduce the preview of data governance tags in BigQuery . Built on Google Cloud's Identity and Access Manager’s (IAM) Resource Manager infrastructure, data governance tags provide a scalable, and robust method to help you manage access controls and protect your BigQuery column data. What are IAM data governance tags? Data governance tags are a special type of Resource Manager tags . You can create it by setting the purpose field to DATA_GOVERNANCE when creating a tag key in IAM, you designate it for use in BigQuery column-level security. You can create a hierarchical tree of data governance tags specifically for column-data governance purposes and apply them directly to your BigQuery columns. Why use data governance tags for column-level security? Global scope, regional enforcement : Unlike policy tags (which are regional-only), data governance tags are global. You can define a single tag key:value pair (like “data_sensitivity:high”) at the organization level and use it across any project or region in your organization. Managed disaster recovery : Security policies should persist during a failover. Data governance tags and their associated data policies are automatically replicated to secondary regions. If you need to switch regions, your security posture moves with you automatically. Hierarchical security : You can now build a tree of tags up to five levels deep. This allows for inheritance and more granular classification (such as PII > Financial > CreditCardNumber). Decoupled governance : You can tag your data to organize and classify it before you decide to enforce security. Access control only kicks in once you define a data policy for that tag, giving your team more flexibility during data onboarding . Three steps to column-level security Step 1: Create the tag key and values 1. Create data governance tag key : First you create an IAM tag key in Console , gcloud CLI, or API. The magic happens when you specify the purpose field as --purpose= DATA_GOVERNANCE for the tag key. This key change tells Google Cloud that this tag will be used for column-level security in BigQuery. code_block <ListValue: [StructValue([('code', '# Example: Creating a Data Governance tag key named \"data_class\"\\r\\ngcloud resource-manager tags keys create data_class \\\\\\r\\n --parent=projects/my-governance-project \\\\\\r\\n --purpose=DATA_GOVERNANCE'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d707f0>)])]> 2. Create tag values : Once your data governance tag key has been created, you need to create specific tag values under the key that you will use to categorize/classify your column data. One of the useful features of data governance tags is the ability to build a hierarchical tree of tag values. The tag-values tree allows you to create broad categories and then drill down into specific categories based on data type. You can go up to five levels deep for granular access control. code_block <ListValue: [StructValue([('code', '# Level 1: Create a tag value called \"pii\"\\r\\ngcloud resource-manager tags values create pii \\\\\\r\\n --parent=my-governance-project/data_class\\r\\n\\r\\n\\r\\n# Level 2: Create a child value under \"pii\" for \"private\" data\\r\\ngcloud resource-manager tags values create private \\\\\\r\\n --parent=my-governance-project/data_class/pii\\r\\n\\r\\n\\r\\n# Level 3: Create another child tag value for \"email\" under \"private\"\\r\\n# You can go up to 5 levels deep for granular control\\r\\ngcloud resource-manager tags values create email \\\\\\r\\n --parent=my-governance-project/data_class/private'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d70fa0>)])]> Step 2: Attach tags to your columns via JSON schema 1. Export your existing schema For existing tables, the most efficient way to manage tags is by updating the table schema using a JSON file and using API or BQ CLI because it allows you to tag multiple columns at once. code_block <ListValue: [StructValue([('code', '# Save the current table schema to a local JSON file.\\r\\nbq show --schema --format=prettyjson my_project:my_dataset.my_table > schema.json'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d70250>)])]> 2. Add the dataGovernanceTags to your JSON file Open schema.json and add the tag mapping to your sensitive columns. Note the use of the namespaced key and the short name for the value. code_block <ListValue: [StructValue([('code', '[\\r\\n {\\r\\n \"name\": \"user_email\",\\r\\n \"type\": \"STRING\",\\r\\n \"dataGovernanceTagsInfo\": {\\r\\n \"dataGovernanceTags\": {\\r\\n \"my-governance-project/data_class\": \"email\" \\r\\n }\\r\\n }\\r\\n },\\r\\n {\\r\\n \"name\": \"phone_number\",\\r\\n \"type\": \"STRING\",\\r\\n \"dataGovernanceTagsInfo\": {\\r\\n \"dataGovernanceTags\": {\\r\\n \"my-governance-project/data_class\": \"private\"\\r\\n }\\r\\n }\\r\\n },\\r\\n {\\r\\n \"name\": \"government_id\",\\r\\n \"type\": \"STRING\",\\r\\n \"dataGovernanceTagsInfo\": {\\r\\n \"dataGovernanceTags\": {\\r\\n \"my-governance-project/data_class\": \"pii\"\\r\\n }\\r\\n }\\r\\n }\\r\\n]'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d70070>)])]> 3. Update the table: Apply the schema to your BigQuery table. code_block <ListValue: [StructValue([('code', '# Overwrite the table schema with your newly tagged JSON file.\\r\\nbq update --project_id=my-data-project --schema=schema.json my_dataset.my_table'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d70be0>)])]> Alternatively you can also use SQL to bind data governance tags to BigQuery table columns. code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE TABLE my_dataset.my_table(\\r\\n user_email STRING\\r\\n OPTIONS (\\r\\n data_governance_tags = [('my-governance-project/data_class', 'email')]),\\r\\n );\\r\\nALTER TABLE my_dataset.my_table\\r\\nALTER COLUMN phone_number\\r\\n SET OPTIONS (\\r\\n data_governance_tags = [('my-governance-project/data_class', 'private')]);\\r\\nALTER TABLE my_dataset.my_table\\r\\nADD COLUMN government_id\\r\\n STRING\\r\\n OPTIONS (\\r\\n data_governance_tags = [('my-governance-project/data_class', 'pii')]);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d12a00>)])]> You can also remove a column tag by setting it to [], for example: code_block <ListValue: [StructValue([('code', 'ALTER TABLE my_dataset.my_table\\r\\nALTER COLUMN phone_number\\r\\n SET OPTIONS (\\r\\n data_governance_tags = []\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d123d0>)])]> You can use information_schema COLUMNS view to see the columns tags: code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n column_name,\\r\\n data_governance_tags[SAFE_OFFSET(0)].key AS tag_key,\\r\\n data_governance_tags[SAFE_OFFSET(0)].value AS tag_value,\\r\\nFROM `my_project.my_dataset.INFORMATION_SCHEMA.COLUMNS`\\r\\nWHERE table_name = 'my_table'\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d12a60>)])]> The result is similar to the following: code_block <ListValue: [StructValue([('code', '+---------------+----------------------------------+-----------+\\r\\n| column_name | tag_key | tag_value |\\r\\n+---------------+----------------------------------+-----------+\\r\\n| user_email | my-governance-project/data_class | email |\\r\\n| phone_number | my-governance-project/data_class | private |\\r\\n| government_id | NULL | NULL |\\r\\n+---------------+----------------------------------+-----------+'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d127f0>)])]> Step 3: Create data policies Finally, define a BigQuery data policy to govern access to these tagged columns. These policies explicitly reference the tag values you attached previously. Note that, while data governance tags are global, data policies are regional . To protect your data, the policy must be created in the same region where your BigQuery table is located . Once the policy is defined, access is only granted to the specified grantees; all others will be denied access to the sensitive column data. Also, keep in mind that security in BigQuery is layered. For a data policy to be effective, the users (grantees) must first possess base-level access to the table itself (typically via a role like roles/bigquery.dataViewer ). Data policy then acts as a second security layer, determining whether they view the raw, sensitive column data or a masked, obfuscated version. Masking policy for ‘pii’ tagged column-data (SHA256 Masking): code_block <ListValue: [StructValue([('code', 'curl --request POST \"https://bigquerydatapolicy.googleapis.com/v2/projects/myProject/locations/us-east1/dataPolicies\" \\\\\\r\\n --header \"Authorization: Bearer $(gcloud auth print-access-token)\" \\\\\\r\\n --header \\'Accept: application/json\\' \\\\\\r\\n --header \\'Content-Type: application/json\\' \\\\\\r\\n --data \\'{\\r\\n \"dataPolicy\": {\\r\\n \"dataPolicyType\": \"DATA_MASKING_POLICY\",\\r\\n \"dataMaskingPolicy\": { \"predefinedExpression\": \"SHA256\" },\\r\\n \"grantees\": [ \"principalSet://goog/group/grp-sales@corp.com\" ],\\r\\n \"dataGovernanceTag\": { \"key\": \"myProject/data_class\", \"value\": \"pii\" }\\r\\n },\\r\\n \"dataPolicyId\": \"masking_policy_for_data_class_pii\"\\r\\n}\\' \\\\\\r\\n --compressed'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d12820>)])]> Raw access policy for ‘pii’ tagged column-data code_block <ListValue: [StructValue([('code', 'curl --request POST \"https://bigquerydatapolicy.googleapis.com/v2/projects/myProject/locations/us-east1/dataPolicies\" \\\\\\r\\n --header \"Authorization: Bearer $(gcloud auth print-access-token)\" \\\\\\r\\n --header \\'Accept: application/json\\' \\\\\\r\\n --header \\'Content-Type: application/json\\' \\\\\\r\\n --data \\'{\\r\\n \"dataPolicy\": {\\r\\n \"dataPolicyType\": \"RAW_DATA_ACCESS_POLICY\",\\r\\n \"grantees\": [ \"principal://goog/subject/abc@xyz.com\" ],\\r\\n \"dataGovernanceTag\": { \"key\": \"myProject/data_class\", \"value\": \"pii\" }\\r\\n },\\r\\n \"dataPolicyId\": \"raw_access_policy_data_class_pii\"\\r\\n}\\' \\\\\\r\\n --compressed'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d12df0>)])]> Masking policy for “private” tagged column data (NULL Masking): code_block <ListValue: [StructValue([('code', 'curl --request POST \"https://bigquerydatapolicy.googleapis.com/v2/projects/myProject/locations/us-east1/dataPolicies\" \\\\\\r\\n --header \"Authorization: Bearer $(gcloud auth print-access-token)\" \\\\\\r\\n --header \\'Accept: application/json\\' \\\\\\r\\n --header \\'Content-Type: application/json\\' \\\\\\r\\n --data \\'{\\r\\n \"dataPolicy\": {\\r\\n \"dataPolicyType\": \"DATA_MASKING_POLICY\",\\r\\n \"dataMaskingPolicy\": { \"predefinedExpression\": \"ALWAYS_NULL\" },\\r\\n \"grantees\": [ \"principal://goog/subject/abc@xyz.com\" ],\\r\\n \"dataGovernanceTag\": { \"key\": \"myProject/data_class\", \"value\": \"private\" }\\r\\n },\\r\\n \"dataPolicyId\": \"null_policy_data_class_private\"\\r\\n}\\' \\\\\\r\\n --compressed'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f74e2d122b0>)])]> With these three steps, your column data is now protected. The next time a principal queries your BigQuery table, our authorization engine automatically evaluates their identity against your data policies. If the principal is part of the policy, they get to see the masked or raw data as per the policy; if they are not, then they will be denied access. Get started today Data governance tags are a powerful new tool to enhance your data security and governance strategy in BigQuery. We are continuously working to enhance data governance capabilities in BigQuery. Future updates include support for using SQL to create tags and tag based policies, ability to attach multiple tags to a single column, ability to define policies based on combinations of tags, and deeper integrations with services like Knowledge Catalog. You can start tagging your columns and defining fine-grained access controls at scale. To learn more, dive into the Data Governance Tags documentation .",
     "categories": [
       "Cloud Infrastructure",
       "Cybersecurity",
@@ -1255,39 +1197,6 @@
       ]
     },
     "summary": "Threat actors are now abusing an ordinary font file to deliver low-detection malware capable of stealing credentials and establishing persistence on compromised Windows systems. According to a new research from Fortinet’s FortiGuard Labs, a global phishing campaign is actively using heavily obfuscated JavaScript and a Lua-based loader posing as a TrueType Font (TTF) file to evade security and drop RATs and infostealers. A TTF file is a standard font file used by operating systems and applications to display text. The campaign has been deploying malware families such as Agent Tesla , Remcos, XWorm , and a Snake Keylogger variant known as Best Private LOGGER, since at least late March 2026."
-  },
-  {
-    "title": "Senior executives are killing your shadow AI strategy",
-    "url": "https://www.csoonline.com/article/4198007/senior-executives-are-killing-your-shadow-ai-strategy.html",
-    "source": "CSO Online",
-    "published": "2026-07-17T07:00:00+00:00",
-    "raw_text": "Shadow IT has long been a major problem for CISOs, but the biggest problem may be coming from the executive suite’s hunger for unsanctioned AI. Nearly two-thirds of senior decision-makers admit to using unapproved AI tools , compared to just 31% of lower-level employees, according to a survey by Microsoft solutions partner TrustedTech. The use of shadow AI is prevalent among senior executives even though three in four employees acknowledge security or data privacy risks related to the practice. “Most shadow AI users are not ignorant of the risk,” TrustedTech says in a white paper. “They are deliberately choosing to use these tools anyway. This is not a training issue. It is a culture, incentives, and alternatives issue.” In many cases, the problem is driven by a lack of approved tools, the report adds. “People use shadow AI because what their employer hands them is worse than mainstream AI tools, or because nothing has been approved in the first place,” the report says. “That doesn’t change until the sanctioned tools are genuinely worth using.” A question of authority The use of shadow AI by CEOs and other C-suite executives can create major problems for CISOs, CIOs, and other IT executives because they may not have the authority to put the kibosh on it. It also presents a challenge for IT leaders to provide the AI tools that employees and executives want to use. When executives use shadow AI, CISOs are in a difficult position, because governance only works when it’s modeled from the top, says Andy Nolan, VP of technology at TrustedTech. “If senior leaders bypass approved AI tools or policies, it sends an implied message that speed matters more than security and compliance,” he adds. “Employees notice that behavior, and it becomes much harder to ask the rest of the organization to follow standards that leadership isn’t following themselves, first.” Another major problem is that executives often work with highly sensitive information, including financial data, strategic plans, intellectual property, and customer information, he notes. But CISOs and CIOs also can’t solve the problem by becoming the AI police in every situation, Nolan says, because their role is to help the business innovate safely. “That requires executive alignment, clear governance, and providing secure AI tools that people actually want to use,” he adds. “When leadership embraces those solutions, the rest of the organization is almost sure to follow.” All risk, no reward The use of shadow AI by senior executives puts CISOs and CIOs in an impossible position, agrees Amit Maloo , CISO at AI procurement provider Ivalua. CISOs and CIOs are held accountable for the risk exposure but have no visibility into the problem, he says. “When senior leaders use ungoverned AI tools for business decisions, those decisions still have consequences, such as financial commitments, contract reviews, and data sharing,” he adds. “But there is no audit trail, no permissions model, or no way to reconstruct what happened or why.” Part of the problem is that approved AI options often don’t meet the needs of users, Maloo says. “AI policies alone aren’t enough; organizations need to pair governance with usability,” he adds. “If approved AI tools don’t meet the pace of business, employees at every level, including leadership, will find their own solutions. Successful organizations will be those that make the secure path the easiest path.” IT leaders can’t solve the problem with more governance, he notes. “Policies and restrictions slow shadow AI down, but they don’t stop it, especially when the people using it are senior enough to absorb the disciplinary risk,” Maloo adds. “What CIOs can do is focus on providing tools that grant users full access to the necessary systems and data, eliminating the need to choose between a capable but ungoverned tool and a safe but limited one.” Speed over security The TrustedTech data echoes a June report from employee monitoring software vendor Teramind, which found that more than two-thirds of C-level executives prioritize speed over security when using AI tools, notes Nik Kale , a principal engineer and product architect at Cisco, and member of the Coalition for Secure AI. In addition, the Teramind report found that two-thirds of enterprise AI activity runs through personal accounts on platforms for which the company already owns licenses, he notes. “People are paying for the governed version and using the ungoverned version of the same product, so the problem isn’t the tools,” he says. “The approved path is slower, buried in procurement, or disconnected from where the work actually happens, and speed wins every time under a deadline.” The problem then isn’t with the AI tools, but with the friction involved, he says. “People aren’t going around the front door because the room is locked,” Kale adds. “They’re going around it because the front door is slower.” In many cases, the use of shadow AI exposes a couple of shortcomings in enterprise processes, adds Matthew Scavetta , chief technology innovation officer at IT solutions provider Future Tech Enterprise. Many organizations don’t do a good job of making employees aware of the AI tools available to them, he says, and many organizations don’t offer training on the sanctioned applications, which drives users to pick products they are familiar with. “If you don’t solve problems for people quickly or make people aware of which tools they can use safely, they will find a workaround,” he adds. “AI tools are no different than anything else.” Shadow AI use by executives puts IT leaders in an incredibly difficult position, he says. “CIOs, in particular, are under more and more pressure each year to keep up with what’s possible as tech influencers keep preaching about the potential of these tools,” Scavetta says. “CEOs and board members are constantly getting swept up in the hype; meanwhile, there are more and more case studies coming out showing how little ROI some organizations have realized. It’s a never-ending game of balancing possible with practical.”",
-    "categories": [
-      "GRC",
-      "Networks",
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "audit",
-        "privacy"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "Shadow IT has long been a major problem for CISOs, but the biggest problem may be coming from the executive suite’s hunger for unsanctioned AI. Nearly two-thirds of senior decision-makers admit to using unapproved AI tools , compared to just 31% of lower-level employees, according to a survey by Microsoft solutions partner TrustedTech. The use of shadow AI is prevalent among senior executives even though three in four employees acknowledge security or data privacy risks related to the practice. “Most shadow AI users are not ignorant of the risk,” TrustedTech says in a white paper."
   },
   {
     "title": "Sponsored: How AI demand is redefining risk for US data center developers",
@@ -1891,18 +1800,6 @@
     "summary": "SPONSORED POST: Feeling stuck with your AI application projects? Gartner has the solution"
   },
   {
-    "title": "Tech support chap told angry customer to think inside the box – and solved the problem",
-    "url": "https://www.theregister.com/personal-tech/2026/07/17/tech-support-chap-told-angry-customer-to-think-inside-the-box-and-solved-the-problem/5272293",
-    "source": "The Register",
-    "published": "2026-07-17T06:30:00+00:00",
-    "raw_text": "We're not Li-ion, user thought mobile phone batteries died every few days",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "We're not Li-ion, user thought mobile phone batteries died every few days"
-  },
-  {
     "title": "Interview: Dan Cherowbrier, CTO, Formula E",
     "url": "https://www.computerweekly.com/news/366645733/Interview-Dan-Cherowbrier-CTO-Formula-E",
     "source": "ComputerWeekly",
@@ -2075,79 +1972,6 @@
       ]
     },
     "summary": "<p>Eleven organisations, including NatWest, have joined <a href=\"https://www.computerweekly.com/news/366626055/Digital-Catapult-explores-quantum-innovation-for-advanced-connectivity\">Digital Catapult’s Quantum Technology Access Programme (QTAP)</a>, delivered in collaboration with the National Quantum Computing Centre’s (NQCC) SparQ programme.&nbsp;</p> <p>QTAP provides UK-based companies with a guided pathway to understand quantum technologies, assess their sector-specific value and move from concept to practical application through expert guidance and experimentation. This latest cohort of businesses are focusing on combinatorial optimisation and quantum machine learning.</p> <p>Simon Plant, deputy director for innovation at <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Quantum-Computing-A-UK-moon-shot-or-670m-research-indulgence\">NQCC</a>, said: “Through SparQ, we’re helping organisations move towards practical exploration of quantum computing. This cohort demonstrates growing confidence in quantum computing across UK industry, building the expertise, evidence and partnerships needed to accelerate responsible adoption and strengthen the UK’s quantum capabilities.”</p> <p>Digital Catapult said the focus on <a href=\"https://www.computerweekly.com/feature/UAE-eyes-quantum-computing-for-financial-services\">financial services</a>&nbsp;reflects growing demand for quantum innovation and its role in building the UK’s sovereign capability while identifying new practical use cases for the technology.&nbsp;</p> <p>NatWest plans to explore how quantum can be deployed to help detect fraud and illicit activity across large transaction networks, while CTA Fintech Solutions is assessing the use of quantum technologies for cross-system optimisation of legacy-to-cloud transaction flows to improve cost efficiency and strengthen resilience in highly regulated environments.</p> <p>Other firms participating in the QTAP programme include the Rail Safety and Standards Board (RSSB), and Health Innovation North West Coast, part of the UK’s Health Innovation Network.&nbsp;<br>&nbsp;<br>In healthcare, through QTAP, quantum computing is being used to improve diagnostic modelling, treatment pathways and outcome forecasting for thrombotic thrombocytopenic purpura (TTP), a rare and life-threatening blood disorder considered a medical emergency. Through its participation, Health Innovation North West Coast aims to improve health and care outcomes for patients with TTP, supported by innovation and technology consultancy and access to ORCA Computing’s PT-2 quantum computer.&nbsp;<br>&nbsp;<br>The programme also includes trials and validation of use cases across defence and security, supply chains and logistics, and transport and infrastructure."
-  },
-  {
-    "title": "Interview: Reflections on tech revolutions and silos",
-    "url": "https://www.computerweekly.com/news/366645693/Interview-Reflections-on-tech-revolutions-and-silos",
-    "source": "ComputerWeekly",
-    "published": "2026-07-17T07:00:00+00:00",
-    "raw_text": "<p>“I sold my vinyl collection to buy CDs. Now my children are buying vinyls, and I’m buying vinyl records and reading real books again,” says <a href=\"https://www.linkedin.com/in/david-minahan-6902a74/\">David Minahan,</a> director of digital data and technology at Young Lives vs Cancer.</p> <p>It’s a common experience for people of a certain age who lived in the era when <a href=\"https://www.techtarget.com/searchcio/definition/digital-transformation\">digital began taking off</a>. There does appear to be a tendency, particularly among people who enjoy new tech, to try the new thing, give it a go while the gremlins are ironed out and, at some point in the future, return to the thing that it replaced.</p> <p>For Minahan, technology has a funny way of going almost full circle: “I can remember 25 years ago, trying to convince social workers to move away from writing their case notes on a paper file to input them into a database and use an email system.”&nbsp;</p> <p>He recalls there was a reluctance to collect information in workflow systems for structuring reporting. “What the social workers wanted to do is just write a really long case note, because that’s easiest for them,” he says.</p> <p>Technology is now able to match more closely the way people want to work. For instance, generative artificial intelligence (GenAI) is making it more straightforward to collate and record long case notes without the need for someone to learn an entirely new system for case management.</p> <section class=\"section main-article-chapter\" data-menu-title=\"The silos that curb digital transformations\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The silos that curb digital transformations</h2> <p>Minahan has worked both in the public sector and private sector. What both sectors share, in his experience, is the difficulty in driving digital transformation in organisations that are naturally siloed.</p> <p>“When I worked at <a href=\"https://www.computerweekly.com/news/252522935/Lambeth-maps-future-with-cloud-applications\">Lambeth Council</a>, for example, every department and every directorate – children’s social care, adult social care, housing, waste and recycling, environmental service – had its own IT department,” he says. “The silos arose as a result due to the vertical ways of working. They were not working towards any kind of horizontal vision or organisational agenda.”</p> <p>The silos exist in the private sector, but for different reasons. Minahan says: “When I worked in the private sector many years ago, competitiveness in some private sector organisations would drive a silo. Often people are less willing to share, less willing to collaborate – output and outcome is driven by reward, which is often personal rather than team-based.”</p> <p>He believes this drives different types of incentive, “a more Machiavellian approach to types of behaviour in an organisation where trust and the type of trust you need to collaborate well to deliver digital transformation doesn’t manifest”.</p> <p>While workers in the private sector can be aligned to an executive vision, he says: “Alignment to a vision is one thing; siloed working is something slightly different.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Building a new foundation\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Building a new foundation</h2> <p>Prior to joining Young Lives vs Cancer, <a href=\"https://www.younglivesvscancer.org.uk/about-us/who-we-are/our-people/\">Minahan was CIO of Goldsmith’s College</a>, University of London. In his current role, Minahan leads the digital transformation team which, among other things, involves updating a 30-year-old finance system and 25-year-old customer relationship management (CRM) system.</p> <p>“The CRM system didn’t let you delete information, so I was really knocking on an open door. The organisation realised that unless we change this, we can’t meet our own organisational ambitions,” he adds.</p> <p>“The challenge is getting the right solutions and strategy to allow the board to understand where we’re going, what that vision looks like and what the end state might look like. This has to be a bit iterative because the technology world changes every night.”</p> <p>Young Lives vs Cancer’s focus is to provide support for young people diagnosed and being treated for cancer and their families. Minahan says: “There isn’t another organisation in the country that has the same direct contact with that many young people with cancer.”</p> <p>This puts Young Lives vs Cancer with an opportunity, which Minaham hopes to leverage to provide more direct support for the young people who connect to the charity. He says: “We’ve got quite a unique data set, which we’ve never quite leveraged in the right way.”</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/David-Minahan-YoungLivesvsCancer-140px.jpg\" alt=\"Headshot of David Minahan.\"> </div> <p><strong><span style=\"color: #34495e;\">“The challenge is getting the right solutions and strategy to allow the board to understand where we’re going”</span></strong></p> <p><em><span style=\"color: #34495e;\">David Minahan, Young Lives vs Cancer</span></em></p> </blockquote> <p>Minahan’s goal is to have an app that uses this <a href=\"https://www.techtarget.com/searchenterpriseai/tip/How-to-keep-data-silos-from-damaging-your-AI-projects\">data and is powered by AI</a>: “If we have people tell their stories to us, we can use that information to train a model that can then support other young people, based on the real experience, talking their age-appropriate language.”</p> <p>He says Young Lives vs Cancer is getting the data foundations right and is looking to capture different types of data, along with the unique dataset it can train the model on: “You could get every child that wants to tell their story, document it and write it, and you could feed that back into the model, which could then be used to help another child.”</p> <p>The end goal is to have an app that Young People vs Cancer can deploy to all its users as soon as they are introduced to the charity. He says the app would provide all of the information they need and the services available to them.</p> <p>Minahan sees a massive opportunity in the proliferation of &nbsp;low-code/no-code tooling, citizen developers, and AI and digital skills outside of IT. “If you get your platform decisions right and you get your IT architecture decisions right, then you can empower your whole organisation to be developers, which means you can do whatever you want [with digital technology] without needing third parties anymore,” he adds.&nbsp;</p> <p>Nevertheless,while the barrier to entry for software development is lowered, people may not actually feel a desire to develop software themselves. Minahan is concerned that young people seem less interested in understanding what is driving the technology they interact with or how it is built.</p> <p>“I’ve grown up understanding how to build things and make things work, but my kids don’t care about that – they’re not interested in computer science in the way that I was, they just want it to work and do what they tell it to do,” he says.</p> <p>While today there is more choice than ever before, Minahan believes there is definitely a difference in what now motivates young people. He says: “Do you want to buy vinyl, a CD or use Spotify? It’s a really exciting time, but I’m not sure that this generation will understand how to build things and make things work.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more CIO interviews</h3> <ul class=\"default-list\"> <li>How the <a href=\"https://www.computerweekly.com/news/366645015/Interview-How-the-CIO-of-Unilever-delivers-business-empathy\">CIO of Unilever delivers business empathy</a>: Reema Jain, who recently became CIO of Unilever, says IT leaders should build a culture where IT people can ‘play’ with new tech.</li> <li>How a startup mentality <a href=\"https://www.computerweekly.com/news/366644833/Interview-How-a-startup-mentality-helps-keep-pace-with-AI\">helps keep pace with AI</a>: The pace of change in artificial intelligence can be overwhelming. We speak to Thomson Reuters CTO Joel Hron about how to innovate at pace.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Networks",
-      "Cloud Infrastructure",
-      "Cybersecurity",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "digital transformation"
-      ],
-      "Networks": [
-        "cdn",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Data Centres": [
-        "colo"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "<p>“I sold my vinyl collection to buy CDs. Now my children are buying vinyls, and I’m buying vinyl records and reading real books again,” says <a href=\"https://www.linkedin.com/in/david-minahan-6902a74/\">David Minahan,</a> director of digital data and technology at Young Lives vs Cancer.</p> <p>It’s a common experience for people of a certain age who lived in the era when <a href=\"https://www.techtarget.com/searchcio/definition/digital-transformation\">digital began taking off</a>. There does appear to be a tendency, particularly among people who enjoy new tech, to try the new thing, give it a go while the gremlins are ironed out and, at some point in the future, return to the thing that it replaced.</p> <p>For Minahan, technology has a funny way of going almost full circle: “I can remember 25 years ago, trying to convince social workers to move away from writing their case notes on a paper file to input them into a database and use an email system.”&nbsp;</p> <p>He recalls there was a reluctance to collect information in workflow systems for structuring reporting. “What the social workers wanted to do is just write a really long case note, because that’s easiest for them,” he says.</p> <p>Technology is now able to match more closely the way people want to work."
-  },
-  {
-    "title": "The modern CIO role is almost overwhelming – here’s how to survive and thrive",
-    "url": "https://www.computerweekly.com/feature/The-modern-CIO-role-is-almost-overwhelming-heres-how-to-survive-and-thrive",
-    "source": "ComputerWeekly",
-    "published": "2026-07-17T06:55:00+00:00",
-    "raw_text": "<p>The range of opportunities in an age of artificial intelligence (AI) means now is an exciting time to be a CIO. However, this level of excitement doesn’t come without challenges – with a number of pioneering digital leaders recognising that the rate of change brings new complexities.</p> <p>That’s something that resonates with <a href=\"https://www.computerweekly.com/news/366639330/Interview-Nick-Pearson-CIO-Ricoh-Europe\">Nick Pearson, CIO at technology specialist Ricoh Europe</a>, who recognises the ever-widening number of responsibilities. He says the CIO used to be the most knowledgeable IT expert in the room. Now, to a certain degree, being the most tech-savvy person is impossible because of the breadth of changes associated with AI.</p> <p>“The challenge in the digital leadership space is that you’re everything from the AI strategist, the expert on running services in the cloud, through to overseeing operations, understanding the latest cyber security risks and managing suppliers,” he says. “The plethora of topics is massive and could be overwhelming.”</p> <p>More than anyone else in the C-suite, other business leaders look to the CIO for expert guidance on technology. Yet the rapid release of new AI models and agents means other people in the business are likely to be aware of up-and-coming technologies and might even come to the IT department with solutions for their challenges.</p> <p>However, as Pearson and his peers attest, there are ways to lead digital successfully in an era of almost constant change. Smart CIOs create strategies to embrace this pressure. Rather than just surviving, CIOs use strategies, from becoming ambassadors for change to working with trusted lieutenants and embracing innovation, to thrive in their new positions of power.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Spread the burden\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Spread the burden</h2> <p>Pearson says one of the key success factors is that CIOs need to act as ambassadors, rather than the centre of technological knowledge. He gives the example of managing AI roll-out. Pearson has created an AI Council to ensure that emerging technology is embraced safely and effectively. Crucially, it’s a cross-organisation leadership group.</p> <p>“I was never going to stand the AI Council up on my own inside of Ricoh,” he says. “One, it’s too big; two, it would ostracise half the business. So, dual management of topics is crucial. We’re a team here on AI – it’s not my solution set, it’s not an application. You spread a bit of the burden and get co-sponsorship across the board.”</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Jem-Walters-Vanquis-140px.jpg\" alt=\"Jem Walters headshot.\"> </div> <p><strong><span style=\"color: #34495e;\">“The role shifts in the modern age from being the person who’s fixing stuff and making it work better to an enabler of new and exciting business opportunities”</span></strong></p> <p><em><span style=\"color: #34495e;\">Jem Walters, Vanquis</span></em></p> </blockquote> <p>Pearson suggests this joined-up management approach will become the norm. “We’re going to see more co-sponsors, rather than people just thinking, ‘Well, it’s the IT guy’s job to deliver this, or it’s the sales leader’s job’,” he says. “It’s going to be more a case of, ‘It’s both our jobs, and you need to lean in as much as I do on the tech side.’ And I’m seeing that shift already.”</p> <p>As an example, he says HR professionals at Ricoh invested in AI tools to scan labour markets and find talent.</p> <p>“Now, that technology stack is fairly bespoke to HR to a certain degree. So, they have to lean in a lot more to technology than they used to with an old-fashioned HR system, where we’d run it,” he says.</p> <p>“It’s really about professionals saying, ‘How do we want the solution to work for our business?’, which is going to share the burden a little bit more. One of my ideas to manage the overwhelming breadth of change is to partner a lot more closely with the board members on most of this innovation.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Focus on the finishing line\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Focus on the finishing line</h2> <p><a href=\"https://www.computerweekly.com/news/366628079/Interview-How-ITSM-helps-deliver-results-at-McLaren-Racing\">Dan Keyworth, executive director of performance technology and systems at McLaren Racing</a>, says it’s easy to get overwhelmed by the number of options out there. Successful CIOs scan the horizon and help the business find solutions to its problems from multiple directions.</p> <p>“As a digital leader, it’s a good idea to look inwards as much as outwards,” he says. “You must think about the actual business objectives the organisation is truly trying to achieve. And comparison, in my view, is the biggest element to focus on.”</p> <p>Keyworth gives an example of this process in action. “So, if you compare your sector to another industry and are doing something that looks cutting edge, but it’s not relevant to your business, then that shouldn’t be a focus,” he says. “Your process should be very much about focusing on yourself. Think about what your win looks like.”</p> <p>To that end, Keyworth encourages other CIOs to ensure their digital strategies and the activity supporting those plans are commensurate with broader business objectives. “Suddenly, you feel like you’re in more control of your destiny than perhaps being influenced too much by external factors,” he says.</p> <p>Keyworth says a focus on business objectives is crucial in his sport. Rather than being viewed as a cost centre, IT is now seen as a critical success factor in helping his team gain a competitive advantage. His ability to communicate the benefits to business peers can help make the difference to on-track performance.</p> <p>“We say that for every pound you spend on the car, there’s a pound on tools as well,” he says.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Take a pragmatic stance\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Take a pragmatic stance</h2> <p><a href=\"https://www.computerweekly.com/news/366643836/Interview-Clare-Hickie-EMEA-CTO-Workday\">Clare Hickie, CTO for EMEA at software provider Workday</a>, says there are many conflicting stresses in the world of technology, especially for digital leaders. However, most senior tech managers have grown used to the complexity of their roles.</p> <p>“Technology leaders have a level of pragmatism,” she says. “And so what’s important for them is that, once they understand and can look at the business and manage it from a prioritisation perspective, then they can be successful.”</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Clare-Hickie-Workday-PR-140px.jpg\" alt=\"Headshot of Clare Hickie.\"> </div> <p><strong><span style=\"color: #34495e;\">“Before, everyone saw the CIO as an implementer, but now you’re the maker of IT”</span></strong></p> <p><em><span style=\"color: #34495e;\">Claire Hickie, Workday</span></em></p> </blockquote> <p>While AI brings new demands, Hickie says it’s important to recognise that the CIO role has been evolving for years. “The position has gone from being the owner of cost centres to being the orchestrator of AI and supporting the strategic goals of the operation,” she says.</p> <p>“It’s not even just about managing from a strategy perspective, although that’s our role too. Before, everyone saw the CIO as an implementer, but now you’re the maker of IT.”</p> <p>Hickie says good digital leaders offer specialist advice to their line-of-business colleagues. Rather than allowing emerging technology to become an intractable challenge, CIOs work with their peers across the organisation to ensure that people can exploit digital and data effectively.</p> <p>“We perform and take away the distractors every single day,” she says. “A huge aspect of the role at the moment is supporting organisations as they move more towards the world of AI, because businesses are looking to the CIO for that level of guidance. So, if I think about how I operate&nbsp;and our teams operate, we’re very good at saying what needs to happen as opposed to letting the noise sit around us.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Create a great environment\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Create a great environment</h2> <p><a href=\"https://www.computerweekly.com/news/366640503/Interview-Jem-Walters-CTO-Vanquis\">Jem Walters, CTO at banking group Vanquis</a>, is another executive who recognises the inherent complexity of modern digital leadership.</p> <p>“A lot is coming at us at the moment,” he says, before outlining his coping strategy. “The role of a CIO is to create the best environment possible so that great people can do great work.</p> <p>“That’s my philosophy, really. The role shifts in the modern age from being the person who’s fixing stuff and making it work better to an enabler of new and exciting business opportunities.”</p> <p>Walters gives the example of cross-organisation interoperability. Vanquis uses MuleSoft’s integration platform to help ensure systems are joined up. “Now our ability to integrate with other businesses, data sources, and products and services is infinitely better, quicker, and faster than in the past,” he says.</p> <p>“Ensuring the underlying foundations are in place opens up a lot of opportunity for us in terms of business model development, exploring opportunities to partner with other people, and bringing in other products and services that could be Vanquis-branded or not. So, modern CIOs must be a strategic enabler for new business opportunities.”</p> <p>Walters says digital leaders continue to encounter new challenges, particularly in fast-moving areas such as IT security. “For those of us who manage cyber, we’ve got to do all our other work and make sure everything stays secure,” he says.</p> <p>“It’s an arms race, isn’t it? Can the good guys stay ahead of the bad guys? We’ve got to keep investing in new tooling and defensive capability to keep ourselves safe and resilient.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Become an adaptable leader\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Become an adaptable leader</h2> <p><a href=\"https://www.computerweekly.com/news/366639074/Interview-Ankur-Anand-group-CIO-Nash-Squared\">Ankur Anand, group CIO at recruitment specialist Harvey Nash</a>, says adaptability is a key success factor for effective CIOs in the digital age. “Everyone is going through the journey and asking questions,” he says.</p> <p>“You must recognise that no question is a foolish question. Be conscious of where your weak areas are, understand them from the point of view of the broader community and then, through that process, you move up the curve.”</p> <p>Anand says your ability to progress depends on a broad range of factors, including wider technology and business concerns. More specifically, and despite the potential for decentralised purchasing from line-of-business professionals, CIOs will play a crucial role in overseeing the roll-out of AI across the organisation.</p> <p>“That process is changing the role of CIO, where they’re not only responsible for the delivery of the technology, but also the enablement of the technology,” he says. “Not many people can understand what needs to be done, so that is challenging the traditional role of the CIO.”</p> <p>Like other digital leaders, Anand recognises the importance of staying on top of cyber security concerns, especially as errant outsiders change their tactics in response to emerging technology capabilities. Effective CIOs will ensure their teams are upskilled to help reduce the digital leadership burden.</p> <p>“AI means your target operating model has to be changed again,” he says. “Different people are solving this challenge in different ways. Discussing solutions with them, conversin and getting inputs from your peers is the way CIOs will be able to deal with the challenges.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about the role of the CIO</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366638959/CIOs-discuss-friction-between-legacy-IT-and-innovation\">CIOs discuss friction between legacy IT and innovation</a> – While it may not be something IT leaders want to talk about, managing technical debt is critical to moving forward with IT innovation.</li> <li><a href=\"https://www.computerweekly.com/feature/The-digital-leaders-playbook-A-guide-for-IT-chiefs-by-Paul-Coby\">The digital leader’s playbook: A guide for IT chiefs by Paul Coby</a> – In this extract from his book, ‘<em>The digital leader’s playbook</em>’, CIO Paul Coby offers expert advice for established IT leaders and IT professionals who have set their sights on digital leadership.</li> <li><a href=\"https://www.computerweekly.com/news/366645015/Interview-How-the-CIO-of-Unilever-delivers-business-empathy\">How the CIO of Unilever delivers business empathy</a> – Reema Jain, who recently became CIO of Unilever, says IT leaders should build a culture where IT people can ‘play’ with new tech.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Data Centres",
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "cdn",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "exploit",
-        "security",
-        "cyber",
-        "soc"
-      ],
-      "Data Centres": [
-        "rack",
-        "colo"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "<p>The range of opportunities in an age of artificial intelligence (AI) means now is an exciting time to be a CIO. However, this level of excitement doesn’t come without challenges – with a number of pioneering digital leaders recognising that the rate of change brings new complexities.</p> <p>That’s something that resonates with <a href=\"https://www.computerweekly.com/news/366639330/Interview-Nick-Pearson-CIO-Ricoh-Europe\">Nick Pearson, CIO at technology specialist Ricoh Europe</a>, who recognises the ever-widening number of responsibilities. He says the CIO used to be the most knowledgeable IT expert in the room. Now, to a certain degree, being the most tech-savvy person is impossible because of the breadth of changes associated with AI.</p> <p>“The challenge in the digital leadership space is that you’re everything from the AI strategist, the expert on running services in the cloud, through to overseeing operations, understanding the latest cyber security risks and managing suppliers,” he says."
   },
   {
     "title": "I've been a Google phone diehard for 10 years - here's my 5-part wishlist for Pixel 11",
@@ -2342,296 +2166,16 @@
     "summary": "The Cyborg 15 is versatile enough to handle work, school, and the latest PC games."
   },
   {
-    "title": "Weltmarktführer KEENON bringt humanoide Roboter auf der WAIC 2026 zum Einsatz",
-    "url": "https://www.prnewswire.com/news-releases/weltmarktfuhrer-keenon-bringt-humanoide-roboter-auf-der-waic-2026-zum-einsatz-302829104.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-19T02:14:00+00:00",
-    "raw_text": "SHANGHAI, 19. Juli 2026 /PRNewswire/ -- Auf der WAIC 2026 bringt KEENON Robotics humanoide und spezialisierte Serviceroboter auf eine Bühne – nicht als konkurrierende Konzepte, sondern als sich ergänzende Formen verkörperter Intelligenz, die in kommerziellen Service-Workflows umfassend...",
+    "title": "Burntide Gummies Launch 2026 | Advanced Weight Loss Formula Highlights Ingredients, Supplement Facts Available in USA, UK, CA, By BurnTide.",
+    "url": "https://www.globenewswire.com/news-release/2026/07/19/3329378/0/en/Burntide-Gummies-Launch-2026-Advanced-Weight-Loss-Formula-Highlights-Ingredients-Supplement-Facts-Available-in-USA-UK-CA-By-BurnTide.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-19T06:45:00+00:00",
+    "raw_text": "BurnTide Announcing updated ingredient information, supplement facts, usage guidance, and customer support details, giving consumers a complete overview before choosing the Weight Loss Gummies Formula. BurnTide Announcing updated ingredient information, supplement facts, usage guidance, and customer support details, giving consumers a complete overview before choosing the Weight Loss Gummies Formula.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "SHANGHAI, 19. Juli 2026 /PRNewswire/ -- Auf der WAIC 2026 bringt KEENON Robotics humanoide und spezialisierte Serviceroboter auf eine Bühne – nicht als konkurrierende Konzepte, sondern als sich ergänzende Formen verkörperter Intelligenz, die in kommerziellen Service-Workflows umfassend..."
-  },
-  {
-    "title": "KEENON, leader mondial des livraisons de robots commerciaux, met ses robots humanoïdes à l'œuvre lors du WAIC 2026",
-    "url": "https://www.prnewswire.com/news-releases/keenon-leader-mondial-des-livraisons-de-robots-commerciaux-met-ses-robots-humanoides-a-luvre-lors-du-waic-2026-302829103.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-19T02:13:00+00:00",
-    "raw_text": "SHANGHAI, 19 juillet 2026 /PRNewswire/ -- À l'occasion de WAIC 2026, KEENON Robotics réunit sur une même scène des robots humanoïdes et des robots de service spécialisés — non pas en tant que concepts concurrents, mais en tant que formes complémentaires d'intelligence incarnée intervenant...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHANGHAI, 19 juillet 2026 /PRNewswire/ -- À l'occasion de WAIC 2026, KEENON Robotics réunit sur une même scène des robots humanoïdes et des robots de service spécialisés — non pas en tant que concepts concurrents, mais en tant que formes complémentaires d'intelligence incarnée intervenant..."
-  },
-  {
-    "title": "KEENON, líder mundial en envíos de robots de servicio comercial, pone a trabajar a humanoides en WAIC 2026",
-    "url": "https://www.prnewswire.com/news-releases/keenon-lider-mundial-en-envios-de-robots-de-servicio-comercial-pone-a-trabajar-a-humanoides-en-waic-2026-302829102.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-19T02:07:00+00:00",
-    "raw_text": "SHANGHAI, 19 de julio de 2026 /PRNewswire/ -- En WAIC 2026, KEENON Robotics reúne a robots humanoides y robots de servicio especializados en un mismo escenario, no como conceptos que compiten entre sí, sino como formas complementarias de inteligencia incorporada que funcionan en flujos de...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHANGHAI, 19 de julio de 2026 /PRNewswire/ -- En WAIC 2026, KEENON Robotics reúne a robots humanoides y robots de servicio especializados en un mismo escenario, no como conceptos que compiten entre sí, sino como formas complementarias de inteligencia incorporada que funcionan en flujos de..."
-  },
-  {
-    "title": "Emdoor Launches \"Ailyn\" AI Hub at WAIC 2026: Unifying Intelligence Across Every Device",
-    "url": "https://www.prnewswire.com/news-releases/emdoor-launches-ailyn-ai-hub-at-waic-2026-unifying-intelligence-across-every-device-302829098.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-19T01:26:00+00:00",
-    "raw_text": "SHANGHAI, July 18, 2026 /PRNewswire/ -- Emdoor, a leading provider of intelligent computing devices, unveiled its latest innovation — Ailyn, an integrated software-hardware AI hub — at the World Artificial Intelligence Conference (WAIC) 2026. Under the theme \"Intelligence in All Things,...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "SHANGHAI, July 18, 2026 /PRNewswire/ -- Emdoor, a leading provider of intelligent computing devices, unveiled its latest innovation — Ailyn, an integrated software-hardware AI hub — at the World Artificial Intelligence Conference (WAIC) 2026. Under the theme \"Intelligence in All Things,..."
-  },
-  {
-    "title": "World War II Fighter Wreck of America's Top Ace Recovered from Jungles of Papua New Guinea",
-    "url": "https://www.prnewswire.com/news-releases/world-war-ii-fighter-wreck-of-americas-top-ace-recovered-from-jungles-of-papua-new-guinea-302829088.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T23:15:00+00:00",
-    "raw_text": "KC-135 Stratotanker Transports Artifact to EAA AirVenture Oshkosh Airshow to Honor American Hero OSHKOSH, Wis., July 18, 2026 /PRNewswire/ -- A team from Pacific Wrecks recovered one of the most famous World War II aircraft wrecks from the jungles of Papua New Guinea to Oshkosh, Wisconsin....",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "KC-135 Stratotanker Transports Artifact to EAA AirVenture Oshkosh Airshow to Honor American Hero OSHKOSH, Wis., July 18, 2026 /PRNewswire/ -- A team from Pacific Wrecks recovered one of the most famous World War II aircraft wrecks from the jungles of Papua New Guinea to Oshkosh, Wisconsin...."
-  },
-  {
-    "title": "La campagne essential COSTA RICA propose des produits agricoles costaricains à des millions de consommateurs européens",
-    "url": "https://www.prnewswire.com/news-releases/la-campagne-essential-costa-rica-propose-des-produits-agricoles-costaricains-a-des-millions-de-consommateurs-europeens-302829077.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T20:51:00+00:00",
-    "raw_text": "Cette campagne multicanal couvre les canaux publicitaires d'Amazon Ads, notamment Prime Video, Fire TV, Alexa et Amazon Fresh Bags, ainsi que les médias numériques et les actions en magasin au Royaume-Uni, en Allemagne et en Espagne. SAN JOSÉ, Costa Rica, 18 juillet 2026 /PRNewswire/ --...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Cette campagne multicanal couvre les canaux publicitaires d'Amazon Ads, notamment Prime Video, Fire TV, Alexa et Amazon Fresh Bags, ainsi que les médias numériques et les actions en magasin au Royaume-Uni, en Allemagne et en Espagne. SAN JOSÉ, Costa Rica, 18 juillet 2026 /PRNewswire/ --..."
-  },
-  {
-    "title": "Pudu Robotics präsentiert auf der WAIC 2026 seinen physischen Agenten nach dem Prinzip „One Brain, Multiple Embodiments\"",
-    "url": "https://www.prnewswire.com/news-releases/pudu-robotics-prasentiert-auf-der-waic-2026-seinen-physischen-agenten-nach-dem-prinzip-one-brain-multiple-embodiments-302829076.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T20:47:00+00:00",
-    "raw_text": "SHANGHAI, 18. Juli 2026 /PRNewswire/ -- Pudu Robotics, der weltweit führende Anbieter von Servicerobotern für den gewerblichen Einsatz, veranstaltete heute am Eröffnungstag der World Artificial Intelligence Conference (WAIC) 2026 in Shanghai sein Pudu AI Technology Briefing. Im Rahmen der...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHANGHAI, 18. Juli 2026 /PRNewswire/ -- Pudu Robotics, der weltweit führende Anbieter von Servicerobotern für den gewerblichen Einsatz, veranstaltete heute am Eröffnungstag der World Artificial Intelligence Conference (WAIC) 2026 in Shanghai sein Pudu AI Technology Briefing. Im Rahmen der..."
-  },
-  {
-    "title": "Pudu Robotics présente son agent physique « One Brain, Multiple Embodiments » lors de la conférence WAIC 2026",
-    "url": "https://www.prnewswire.com/news-releases/pudu-robotics-presente-son-agent-physique--one-brain-multiple-embodiments--lors-de-la-conference-waic-2026-302829075.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T20:43:00+00:00",
-    "raw_text": "SHANGHAI, 18 juillet 2026 /PRNewswire/ -- Pudu Robotics, leader mondial de la robotique de service commercial, a organisé aujourd'hui sa présentation Pudu AI Technology Briefing lors de la journée d'ouverture de l'édition 2026 de la Conférence mondiale sur l'intelligence artificielle...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHANGHAI, 18 juillet 2026 /PRNewswire/ -- Pudu Robotics, leader mondial de la robotique de service commercial, a organisé aujourd'hui sa présentation Pudu AI Technology Briefing lors de la journée d'ouverture de l'édition 2026 de la Conférence mondiale sur l'intelligence artificielle..."
-  },
-  {
-    "title": "UnionPay promeut l'interopérabilité transfrontalière et les infrastructures du commerce numérique lors du 7e Africa Fintech Forum",
-    "url": "https://www.prnewswire.com/news-releases/unionpay-promeut-linteroperabilite-transfrontaliere-et-les-infrastructures-du-commerce-numerique-lors-du-7e-africa-fintech-forum-302829073.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T20:35:00+00:00",
-    "raw_text": "NAIROBI, Kenya, 18 juillet 2026 /PRNewswire/ -- UnionPay International a participé activement à la 7e édition du prestigieux Africa Fintech Forum, qui s'est tenu à l'hôtel Villa Rosa Kempinski à Nairobi, au Kenya. Cette initiative stratégique marque une étape décisive dans le renforcement...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "NAIROBI, Kenya, 18 juillet 2026 /PRNewswire/ -- UnionPay International a participé activement à la 7e édition du prestigieux Africa Fintech Forum, qui s'est tenu à l'hôtel Villa Rosa Kempinski à Nairobi, au Kenya. Cette initiative stratégique marque une étape décisive dans le renforcement..."
-  },
-  {
-    "title": "REGENXBIO Presents Positive Long-Term Data for Surabgene Lomparvovec in Wet AMD and Diabetic Retinopathy at American Society of Retina Specialists Annual Meeting",
-    "url": "https://www.prnewswire.com/news-releases/regenxbio-presents-positive-long-term-data-for-surabgene-lomparvovec-in-wet-amd-and-diabetic-retinopathy-at-american-society-of-retina-specialists-annual-meeting-302828998.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T18:55:00+00:00",
-    "raw_text": "One-time gene therapy treatment with sura-vec demonstrated long-term efficacy at similar doses to those being evaluated in ongoing late-stage studies: Stable to improved vision through 5 years in wet AMD patients who required frequent anti-VEGF injections prior to one-time sura-vec; no...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "One-time gene therapy treatment with sura-vec demonstrated long-term efficacy at similar doses to those being evaluated in ongoing late-stage studies: Stable to improved vision through 5 years in wet AMD patients who required frequent anti-VEGF injections prior to one-time sura-vec; no..."
-  },
-  {
-    "title": "AeroVironment Deadline: AVAV Investors Have Opportunity to Lead AeroVironment, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/aerovironment-deadline-avav-investors-have-opportunity-to-lead-aerovironment-inc-securities-fraud-lawsuit-302828940.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T18:50:00+00:00",
-    "raw_text": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of AeroVironment, Inc. (NASDAQ: AVAV) between June 25, 2025 and March 10, 2026, inclusive (the \"Class Period\"), of the important July 27, 2026 lead plaintiff...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of AeroVironment, Inc. (NASDAQ: AVAV) between June 25, 2025 and March 10, 2026, inclusive (the \"Class Period\"), of the important July 27, 2026 lead plaintiff..."
-  },
-  {
-    "title": "MDT lance le circuit intégré de commutation magnétique TMR1370 à très faible consommation, permettant plus de deux ans de fonctionnement en veille dans les appareils CGM",
-    "url": "https://www.prnewswire.com/news-releases/mdt-lance-le-circuit-integre-de-commutation-magnetique-tmr1370-a-tres-faible-consommation-permettant-plus-de-deux-ans-de-fonctionnement-en-veille-dans-les-appareils-cgm-302829049.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T18:23:00+00:00",
-    "raw_text": "— Le commutateur magnétique TMR de nouvelle génération, avec un courant d'alimentation maximal ultra-faible de 50 nA, vient élargir la gamme éprouvée de capteurs CGM de MDT ZHANGJIAGANG, Chine, 18 juillet 2026 /PRNewswire/ -- MultiDimension Technology Co., Ltd. (MDT), l'un des principaux...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "— Le commutateur magnétique TMR de nouvelle génération, avec un courant d'alimentation maximal ultra-faible de 50 nA, vient élargir la gamme éprouvée de capteurs CGM de MDT ZHANGJIAGANG, Chine, 18 juillet 2026 /PRNewswire/ -- MultiDimension Technology Co., Ltd. (MDT), l'un des principaux..."
-  },
-  {
-    "title": "PODD Investors Have Opportunity to Lead Insulet Corporation Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/podd-investors-have-opportunity-to-lead-insulet-corporation-securities-fraud-lawsuit-302828939.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T18:16:00+00:00",
-    "raw_text": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Insulet Corporation (NASDAQ: PODD) between February 21, 2025 and May 26, 2026, inclusive (the \"Class Period\"), of the important August 31, 2026 lead plaintiff...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Insulet Corporation (NASDAQ: PODD) between February 21, 2025 and May 26, 2026, inclusive (the \"Class Period\"), of the important August 31, 2026 lead plaintiff..."
-  },
-  {
-    "title": "GRAIL, Inc. Deadline: GRAL Investors Have Opportunity to Lead GRAIL, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/grail-inc-deadline-gral-investors-have-opportunity-to-lead-grail-inc-securities-fraud-lawsuit-302828938.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T18:03:00+00:00",
-    "raw_text": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminders purchasers of common stock of GRAIL, Inc. (NASDAQ: GRAL) between May 13, 2025 and February 19, 2026, inclusive (the \"Class Period\"). A class action lawsuit has already been filed. If you...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminders purchasers of common stock of GRAIL, Inc. (NASDAQ: GRAL) between May 13, 2025 and February 19, 2026, inclusive (the \"Class Period\"). A class action lawsuit has already been filed. If you..."
-  },
-  {
-    "title": "Veritone Deadline: VERI Investors Have Opportunity to Lead Veritone, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/veritone-deadline-veri-investors-have-opportunity-to-lead-veritone-inc-securities-fraud-lawsuit-302828932.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T17:45:00+00:00",
-    "raw_text": "NEW YORK, July 18, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Veritone, Inc. (NASDAQ: VERI) between October 14, 2025 and April 14, 2026, inclusive (the \"Class Period\"), of the important July 20, 2026 lead plaintiff...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, July 18, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Veritone, Inc. (NASDAQ: VERI) between October 14, 2025 and April 14, 2026, inclusive (the \"Class Period\"), of the important July 20, 2026 lead plaintiff..."
-  },
-  {
-    "title": "Salus Scientific Welcomes Landmark Multi-Society Consensus Statement Advancing the Future of Occupational Radiation Safety",
-    "url": "https://www.prnewswire.com/news-releases/salus-scientific-welcomes-landmark-multi-society-consensus-statement-advancing-the-future-of-occupational-radiation-safety-302829043.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T17:44:00+00:00",
-    "raw_text": "New recommendations reinforce the evolution of ALARA and validate a new era of occupational wellness in fluoroscopy-guided medicine CHARLESTON, S.C. , July 18, 2026 /PRNewswire/ -- Salus Scientific welcomed the publication this week of a landmark multi-society expert consensus statement...",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "New recommendations reinforce the evolution of ALARA and validate a new era of occupational wellness in fluoroscopy-guided medicine CHARLESTON, S.C. , July 18, 2026 /PRNewswire/ -- Salus Scientific welcomed the publication this week of a landmark multi-society expert consensus statement..."
-  },
-  {
-    "title": "INTU Investors Have Opportunity to Lead Intuit Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/intu-investors-have-opportunity-to-lead-intuit-inc-securities-fraud-lawsuit-302828934.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T17:09:00+00:00",
-    "raw_text": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Intuit Inc. (NASDAQ: INTU) between August 22, 2025 and May 20, 2026, inclusive (the \"Class Period\"). A class action lawsuit...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "NEW YORK, July 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Intuit Inc. (NASDAQ: INTU) between August 22, 2025 and May 20, 2026, inclusive (the \"Class Period\"). A class action lawsuit..."
-  },
-  {
-    "title": "Spoločnosť Farizon otvára globálne distribučné centrum náhradných dielov s cieľom posilniť medzinárodnú popredajnú podporu",
-    "url": "https://www.prnewswire.com/news-releases/spolonos-farizon-otvara-globalne-distribune-centrum-nahradnych-dielov-s-cieom-posilni-medzinarodnu-popredajnu-podporu-302829031.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T16:45:00+00:00",
-    "raw_text": "Nové zariadenie zlepší dostupnosť dielov, efektivitu dodávateľského reťazca a rýchlosť odozvy služieb na medzinárodných trhoch spoločnosti Farizon CHANG-ČOU, Čína, 18. júla 2026 /PRNewswire/ -- Spoločnosť Farizon New Energy Commercial Vehicle Group otvorila svoje globálne distribučné...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Nové zariadenie zlepší dostupnosť dielov, efektivitu dodávateľského reťazca a rýchlosť odozvy služieb na medzinárodných trhoch spoločnosti Farizon CHANG-ČOU, Čína, 18. júla 2026 /PRNewswire/ -- Spoločnosť Farizon New Energy Commercial Vehicle Group otvorila svoje globálne distribučné..."
-  },
-  {
-    "title": "Farizon inaugura un centro global de distribución de repuestos",
-    "url": "https://www.prnewswire.com/news-releases/farizon-inaugura-un-centro-global-de-distribucion-de-repuestos-302829030.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T16:42:00+00:00",
-    "raw_text": "-Farizon inaugura un centro global de distribución de repuestos para reforzar su servicio posventa internacional Estas nuevas instalaciones mejorarán la disponibilidad de repuestos, la eficiencia de la cadena de suministro y la capacidad de respuesta del servicio en todos los mercados...",
-    "categories": [
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ],
-      "Data Centres": [
-        "pue"
-      ]
-    },
-    "summary": "-Farizon inaugura un centro global de distribución de repuestos para reforzar su servicio posventa internacional Estas nuevas instalaciones mejorarán la disponibilidad de repuestos, la eficiencia de la cadena de suministro y la capacidad de respuesta del servicio en todos los mercados..."
-  },
-  {
-    "title": "Farizon открывает Глобальный центр дистрибуции запасных частей для усиления послепродажной поддержки международных клиентов",
-    "url": "https://www.prnewswire.com/news-releases/farizon-------------302829029.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-18T16:37:00+00:00",
-    "raw_text": "Новый центр призван улучшить доступность запасных частей, эффективность цепочек поставок и оперативность обслуживания на международных рынках Farizon ХАНЧЖОУ, Китай, 18 июля 2026 г. /PRNewswire/ -- Farizon New Energy Commercial Vehicle Group открыла Глобальный центр дистрибуции запасных...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Новый центр призван улучшить доступность запасных частей, эффективность цепочек поставок и оперативность обслуживания на международных рынках Farizon ХАНЧЖОУ, Китай, 18 июля 2026 г. /PRNewswire/ -- Farizon New Energy Commercial Vehicle Group открыла Глобальный центр дистрибуции запасных..."
+    "summary": "BurnTide Announcing updated ingredient information, supplement facts, usage guidance, and customer support details, giving consumers a complete overview before choosing the Weight Loss Gummies Formula. BurnTide Announcing updated ingredient information, supplement facts, usage guidance, and customer support details, giving consumers a complete overview before choosing the Weight Loss Gummies Formula."
   },
   {
     "title": "ColestZen Official Launch 2026 | Cholesterol Support Capsules Available in USA, UK, CA & AU Market By Colestzen Supplement.",
@@ -2940,18 +2484,6 @@
       ]
     },
     "summary": "Organizational changes include an approximately 25% reduction in the global workforce Organizational changes include an approximately 25% reduction in the global workforce"
-  },
-  {
-    "title": "Dave’s Hot Chicken Gives Its Slushers a Boost with New Red Bull Boosted Slushers",
-    "url": "https://www.globenewswire.com/news-release/2026/07/17/3329301/0/en/Dave-s-Hot-Chicken-Gives-Its-Slushers-a-Boost-with-New-Red-Bull-Boosted-Slushers.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-17T20:53:00+00:00",
-    "raw_text": "Dave’s Hot Chicken Gives Its Slushers a Boost with New Red Bull Boosted Slushers",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Dave’s Hot Chicken Gives Its Slushers a Boost with New Red Bull Boosted Slushers"
   },
   {
     "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days - Dark Reading",
