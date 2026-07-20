@@ -197,6 +197,27 @@
     "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]"
   },
   {
+    "title": "Meet Dusseldorf, Microsoft’s open-source out-of-band security platform",
+    "url": "https://www.helpnetsecurity.com/2026/07/20/microsoft-dusseldorf-out-of-band-application-security-testing-oast-platform/",
+    "source": "Help Net Security",
+    "published": "2026-07-20T06:00:36+00:00",
+    "raw_text": "Out-of-band vulnerabilities surface when an application quietly reaches out to an external system during an attack, and capturing that traffic calls for infrastructure that many researchers assemble on their own. A new open-source project from Microsoft supplies that infrastructure in a package meant to run inside a private environment. Dusseldorf is an out-of-band application security testing platform. It captures inbound network traffic across several protocols and lets an operator craft automated responses for validation workflows. … More → The post Meet Dusseldorf, Microsoft’s open-source out-of-band security platform appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "security",
+        "application security"
+      ]
+    },
+    "summary": "Out-of-band vulnerabilities surface when an application quietly reaches out to an external system during an attack, and capturing that traffic calls for infrastructure that many researchers assemble on their own. A new open-source project from Microsoft supplies that infrastructure in a package meant to run inside a private environment. Dusseldorf is an out-of-band application security testing platform. It captures inbound network traffic across several protocols and lets an operator craft automated responses for validation workflows."
+  },
+  {
     "title": "More alerts are making your team slower, and an outcome-based SOC fixes that",
     "url": "https://www.helpnetsecurity.com/2026/07/20/outcome-based-soc-video/",
     "source": "Help Net Security",
@@ -358,6 +379,90 @@
     "summary": "Exploitation of the new WordPress vulnerabilities tracked as CVE-2026-60137 and CVE-2026-63030 started soon after disclosure. The post WP2Shell WordPress Vulnerabilities Exploited in the Wild appeared first on SecurityWeek ."
   },
   {
+    "title": "SOCs face a human challenge as AI speeds alerts and threats",
+    "url": "https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html",
+    "source": "CSO Online",
+    "published": "2026-07-20T07:00:00+00:00",
+    "raw_text": "Security operations centers (SOCs) have spent years struggling under the weight of growing alert volumes, expanding attack surfaces, and chronic staffing shortages. Now artificial intelligence is adding a new complication: not just more information, but more machine-generated information that must itself be evaluated. “There is an asymmetry here because you now have to parse through a lot of AI slop to get to, ‘Okay, is this real or not?’” Fernando Montenegro , vice president and practice lead at The Futurum Group, tells CSO. His observation captures a growing concern among security leaders. AI is helping attackers and defenders move faster, but it is also creating new forms of cognitive burden for the humans tasked with separating signal from noise. As AI accelerates vulnerability discovery and enables more automated reconnaissance and exploitation, defenders are increasingly responsible for overseeing systems whose outputs can be difficult to interpret or verify. The challenge is not simply more work. It is that the volume, speed, and complexity of that work are increasing simultaneously. Yet experts who study and advise SOCs reject the idea that collapse is inevitable. Instead, they describe an industry entering a difficult transition that could reshape how security teams operate and how humans and machines share responsibility for defense. The vulnerability surge is exposing years of security debt One of the most immediate concerns is the possibility that AI dramatically increases the number of vulnerabilities organizations must identify and remediate. Chris Crowley , a longtime cybersecurity instructor and SOC expert, argues that organizations are facing the consequences of years of accumulated technology debt . “A lot of what we’re going to have to account for in the next couple of years is a technology debt of vulnerable software that has been deployed because it’s good enough to solve the problem, but then there are all these latent cyber issues, flaws, vulnerabilities that weren’t discovered prior to deployment,” he tells CSO. AI-assisted vulnerability discovery has the potential to expose those weaknesses at a pace defenders have never experienced before. “The compression of work that is being dropped on us is unprecedented,” Crowley says. “We’ve just been ignoring it for decades.” He does not believe AI will necessarily create entirely new classes of vulnerabilities. Instead, he expects defenders to confront much larger volumes of familiar problems. “We’re going to have 100 of these simultaneously,” he says, referring to the kinds of high-priority vulnerabilities security teams traditionally handle one at a time. The AI challenge for many SOCs may be less a novelty problem than a volume problem. Security teams already know how to patch systems, prioritize remediation, and respond to critical exposures. What changes is the scale and speed at which those demands arrive. Organizations with mature patching, prioritization, escalation, and response processes may struggle but adapt. Organizations that have treated security operations as a bare-minimum compliance function may find themselves overwhelmed. For CISOs, Crowley says, that means treating “patch now” less as an occasional emergency state and more as a permanent operating posture . As AI accelerates vulnerability discovery, the distinction between routine maintenance and crisis response may continue to blur. He compares the situation to disaster recovery planning. Organizations that wait until a crisis arrives to establish staffing plans, escalation paths, and remediation processes may discover there is not enough help available. Cognitive overload may become the defining challenge While vulnerability discovery receives much of the attention, Montenegro believes security leaders need a broader framework for understanding AI’s impact. Organizations should think about AI through three lenses, he says: security for AI, AI for security, and security from AI. The first involves protecting AI systems. The second involves using AI to improve defensive operations. The third asks what happens when adversaries use AI against the organization. For SOCs, all three categories are beginning to overlap. As AI makes it easier to create reports, assessments, vulnerability submissions, and other operational artifacts, humans remain responsible for determining whether that information is accurate and useful. “It becomes much easier to generate content,” Montenegro says, “but if you’re going to review that content as a human, the onus on you now is that much larger.” The result is a new form of cognitive overload. Security professionals may spend increasing amounts of time evaluating machine-generated information instead of conducting higher-value security work. Organizations can increasingly use AI to summarize reports, evaluate alerts, and assist with investigations, but humans remain responsible for validating the results. “We’re not at the stage yet where people are comfortable” handing off critical decisions entirely to AI, he says. That leaves defenders caught between two competing realities: AI is creating more information to process, but AI is also becoming one of the few viable tools for managing that growing workload. For Montenegro, the principle should be to automate tasks, not roles. AI can absorb repetitive investigative steps, but organizations should be cautious about removing humans from the process entirely. The risk, he says, is that if organizations hide too much complexity behind automated outputs, analysts may lose opportunities to develop the domain knowledge needed to advance. “How is that professional who is reacting to those alerts growing as a professional?” he says. The gap between mature and struggling SOCs may widen Not every organization will experience the impact of AI in the same way. John Hubbard , senior cybersecurity consultant and SANS instructor, believes the industry’s response will largely depend on how well organizations have prepared for operational stress before AI arrives at scale. “I would roughly break security operations teams into two camps,” Hubbard tells CSO. “There are the ones that are definitely struggling, are already overwhelmed. And then some are doing really well.” The struggling organizations tend to be understaffed, underfunded, undertrained, or dependent on ad hoc processes. Every incident feels different, forcing teams to improvise under pressure. “Getting hit with something like this can certainly be an accelerant for burnout if they weren’t already experiencing it,” Hubbard says. By contrast, mature security teams have already invested in processes, training, exercises, and automation. “The teams that are doing a really solid job now are probably not super overwhelmed because they’ve developed the processes and procedures to be ready for this kind of thing,” Hubbard says. He compares successful SOCs to fire departments. Firefighters cannot predict exactly where the next emergency will occur, but they know how to respond because they have rehearsed those responses repeatedly. “The teams that kind of can react like a fire department are the ones that are getting it right,” he says. Those organizations conduct tabletop exercises , adversary emulation exercises, red-team assessments , and incident response drills. As a result, they can absorb additional workload without descending into panic. Burnout remains the industry’s most difficult problem Despite widespread concern about AI-enabled attacks, none of the experts view AI solely as a threat. Several argue that AI will become essential for helping defenders cope with the challenges it creates. Jose-Marie Griffiths , president emerita and former CIO of Dakota State University, believes AI can help security teams sift through overwhelming volumes of information and identify the signals that matter most. “People who work in SOCs are now seeing overwhelming volumes of data, and they’re getting fatigued,” Griffiths tells CSO. AI can help automate portions of analysis, validate alerts, and improve visibility into complex environments. But Griffiths cautions that some AI-assisted vulnerability discovery tools are also producing large numbers of false positives. That matters because false positives do not eliminate work. They create it. As organizations confront escalating volumes of findings, distinguishing genuine risk from erroneous results may become as important as discovering vulnerabilities in the first place. The experts agree that technology alone will not determine outcomes. People will. Crowley argues that cybersecurity professionals must recognize that uncertainty is intrinsic to the profession. “We are the group that deals with uncertainty,” he says. “That’s really and truly what cybersecurity is.” That reality places responsibility on both individuals and organizations. Analysts need mechanisms for managing stress. Teams need to recognize when colleagues are approaching their limits. Managers need to establish healthy escalation practices and realistic expectations . Hubbard rejects the notion that burnout is inevitable. “It is not a foregone conclusion that security operations jobs have to be a painful grind that everyone hates,” he says. He has seen organizations where employees remain engaged for years because leaders actively manage workload, create supportive cultures, and encourage open communication. That includes making it safe for analysts to admit when they have reached their limits. “If people are unwilling to say, ‘I’m maxed out right now, and I’m going crazy,’ that’s going to be the thing that breaks a lot of teams,” Hubbard says. Pay alone may not solve the problem. Crowley pointed to SANS/SOC survey findings showing that compensation ranked fourth among retention factors, behind meaningful work, training, and professional development. The future SOC may look very different Griffiths believes organizations will need to respond not only with better technology but with structural changes. Traditional tiered SOC models may need to evolve into more collaborative teams with diverse expertise working together in real-time. “I think we’re going to have to eliminate the hierarchies a little bit and have teams of people with different expertise working together,” she says. She also argues that organizations should invest in human expertise rather than simply increasing AI consumption. “Buy engineers, not tokens,” she says. Professional networks and peer support will matter as much as any tool, Griffiths says, because defenders need trusted communities where they can compare notes, share practices, and avoid facing sustained pressure in isolation. If there is a consensus emerging among experts, it is that AI is exposing weaknesses that already existed. The staffing shortages, alert fatigue, burnout, and process failures affecting SOCs did not begin with generative AI. AI is simply amplifying them. At the same time, AI is providing new tools that may help organizations manage those very challenges. The future SOC may spend less time manually triaging alerts and more time validating automated findings, conducting threat hunting, and making strategic decisions. Human expertise may increasingly be paired with AI systems that act as operational partners. The transition will not be painless. Some teams will struggle. Some practitioners may leave the field. Others will adapt and thrive. “In a way,” Griffiths says, “we’re turning the whole SOC inside out.” Montenegro sees the transition as a cybersecurity version of the Red Queen effect: defenders and attackers must keep running simply to stay in place. Borrowing from science-fiction author William Gibson, Montenegro offered perhaps the simplest description of the industry’s current moment: “The future is already here. It’s just unevenly distributed.” For security leaders, that future is arriving in the form of AI-generated vulnerabilities, AI-assisted investigations, and AI-enabled adversaries. The question is no longer whether security operations centers will change. It is whether organizations can adapt quickly enough to keep pace.",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Cloud Infrastructure",
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "network",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "exploit",
+        "threat",
+        "security",
+        "cyber",
+        "soc",
+        "incident response"
+      ],
+      "GRC": [
+        "compliance"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Security operations centers (SOCs) have spent years struggling under the weight of growing alert volumes, expanding attack surfaces, and chronic staffing shortages. Now artificial intelligence is adding a new complication: not just more information, but more machine-generated information that must itself be evaluated. “There is an asymmetry here because you now have to parse through a lot of AI slop to get to, ‘Okay, is this real or not?’” Fernando Montenegro , vice president and practice lead at The Futurum Group, tells CSO. His observation captures a growing concern among security leaders."
+  },
+  {
+    "title": "Claude Mythos FAQ: Capabilities, access, competitors, implications",
+    "url": "https://www.csoonline.com/article/4198019/claude-mythos-faq-capabilities-access-competitors-implications.html",
+    "source": "CSO Online",
+    "published": "2026-07-20T06:30:00+00:00",
+    "raw_text": "1. What is Claude Mythos? Claude Mythos is an advanced AI model developed by Anthropic and is optimized for cybersecurity and healthcare applications. Mythos 5 was originally released in April to a small group of vetted technology partners ahead of a planned wider rollout. Anthropic established Project Glasswing , a consortium that gives limited, controlled access to Mythos to infrastructure providers, open-source developers, and major technology companies. The scheme was designed to enable defenders to find and resolve vulnerabilities faster than they could be identified by attackers, many of which are also beginning to rely heavily on AI tools . 2. What are the capabilities of Claude Mythos? The 50 initial partners of Project Glasswing were able to use Mythos to find more than 10,000 high- or critical-severity vulnerabilities in every major operating system and every major web browser . The model is identifying security flaws that had evaded even the most capable security researchers for years, such as a 27-year-old bug in OpenBSD . It has also proved capable of chaining multiple vulnerabilities together. 3. How is Anthropic restricting access to Claude Mythos? Anthropic said it was restricting the more widespread availability of the frontier AI model because its capabilities might easily be misused by attackers. In June the technology was released to an additional 150 organizations . All Mythos partners are required to accept a 30-day data retention policy for safety monitoring. After the availability of Mythos forced the Trump administration to reconsider its “hands off” approach to AI oversight , the US government applied export controls to Claude Fable 5 and Claude Mythos 5 on June 15. The restrictions — which were supposed to block access to foreign nationals both inside and outside the US — were lifted on June 30. 4. What is Claude Fable? For broader use, Anthropic is offering Claude Fable 5 , which is based on the same underlying technology but comes with strict guardrails that limit operations in “risky” cybersecurity domains. Flagged queries are automatically routed to the earlier and less capable Opus 4.8 large language model (LLM) instead. 5. How are Anthropic’s security vendor partners using access to Mythos? Cisco, one of Anthropic’s Project Glasswing partners, open-sourced its Foundry Security Spec , a model-agnostic “harness” for security testing, so that other vendors and enterprise security defenders could build similar workflows without starting from scratch. During a recent web conference, representatives from Cisco argued that defenders can use AI to identify, confirm, and resolve security issues at much greater speed and scale. Older vulnerability remediation models based on “find one issue, patch one issue” are no longer adequate because attackers are using AI moving to accelerate the path from vulnerability discovery to exploitation. Cisco has been using AI internally to scan 1.8 billion lines of code across its whole product portfolio. Smaller businesses do not need access to restricted AI models to improve security and more can be achieved in smaller shops by improving security fundamentals such as authentication, segmentation, zero trust, and prioritizing the remediation of actively exploited vulnerabilities, according to Cisco. 6. Do other AI vendors offer anything comparable to Claude Mythos? Mythos is the most prominent example of frontier AI models that can automate zero-day discovery at a scale and speed far beyond the capability of human teams. Several other vendors have frontier AI models aimed towards high-capability, security-oriented operations while others have capable open models that might easily be applied to cybersecurity research. As a result, Claude Mythos is far from the only game in town. For example, OpenAI’s GPT-5.4-Cyber (and GPT-5.5 ) has applications in vulnerability analysis and discovery as well as malware analysis and threat modelling. Security vendors, enterprises, and researchers can gain access to the technology through OpenAI’s Trusted Access for Cyber (TAC) scheme. Chinese cybersecurity firm 360 Security Technology has developed Tulongfeng , described as a domestic answer to Anthropic’s Mythos. High performance open models — including DeepSeek V3.2 and Llama 4 — can be run privately on GPU infrastructure and applied to cybersecurity research. Fugu from Japanese vendor Sakana AI offers another option in this category. 7. What do cybersecurity critics say about Claude Mythos? Infosecurity critics note that while Claude Mythos is unquestionably advanced, marketing claims that it is reliably breaking production systems overstate its capabilities. Security professionals are complaining through podcasts and elsewhere about the overly sensitive guardrails in Claude Fable that downgrade to Opus 4.8 upon requests to summarize a security-related blog post or even spell the word “exploit” much less tackle any everyday information security task. Other experts warn that false positives are likely to be an issue for cybersecurity research using frontier AI models. The wider criticism is that finding more vulnerabilities faster fails to address the bigger problem of reliability fixing security bugs or non-technical attack paths such as social engineering. 8. How should enterprise CISOs respond to the development of Mythos? Western intelligence agencies that form the Fives Eyes alliance issued a statement warning that frontier AI models such as Claude Mythos are “fundamentally transforming both offensive and defensive cyber capabilities” in a scale of months rather than years. “While Al will help us improve cyber defence over time, it also accelerates the speed, scale, and sophistication of cyber threats,” the group, which includes the US National Security Agency and the UK’s National Cyber Security Centre, warns. Enterprises need to be using AI to strengthen defenses as part of broader plans to improve cybersecurity resilience. AI-based systems capable of mapping realistic attack paths faster than any human adversary are fast becoming a pervasive threat, while most organizations are nowhere near ready for what that means for their threat models, one expert warns. “We now have AI systems that can map realistic attack paths across software, vendors, and critical infrastructure faster than human adversaries can catalog them,” says Joe Hubback, partner and CISO at consultancy Elixirr and former McKinsey Partner. “And as Mythos-class capabilities are prepared for broad commercial release, that’s no longer a niche research problem, it’s something every organization will have to factor into its threat model.” An AI safety paper from the Cloud Security Alliance warns that AI has significantly compressed the time between vulnerability discovery and exploitation, outpacing traditional patch-and-react security models. Organizations should brace for ongoing waves of AI-discovered vulnerabilities from Project Glasswing and other sources. “The capabilities seen in Mythos will quickly become more widely available, dramatically increasing the number and frequency of complex, novel attacks organizations will face,” it warns. Enterprise security defenders need to shift to a “Mythos-ready” approach built around continuous vulnerability operations, faster prioritization, and improved incident response. See also: What Anthropic Glasswing reveals about the future of vulnerability discovery Anthropic’s Mythos signals a structural cybersecurity shift Beware the ‘son of Mythos,’ security experts warn Mythos is a signal, not a siren: What frontier AI should change for CISOs",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "GRC",
+      "Industry & Market",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws"
+      ],
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "malware",
+        "vulnerability",
+        "zero-day",
+        "exploit",
+        "threat",
+        "security",
+        "cyber",
+        "soc",
+        "zero trust",
+        "incident response",
+        "cloud security"
+      ],
+      "GRC": [
+        "policy",
+        "nist"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "1. What is Claude Mythos? Claude Mythos is an advanced AI model developed by Anthropic and is optimized for cybersecurity and healthcare applications. Mythos 5 was originally released in April to a small group of vetted technology partners ahead of a planned wider rollout."
+  },
+  {
     "title": "Why network recovery still depends on a site visit",
     "url": "https://www.datacenterdynamics.com/en/opinions/why-network-recovery-still-depends-on-a-site-visit/",
     "source": "DataCenterDynamics",
@@ -414,92 +519,34 @@
     "summary": "Company expanding MU4"
   },
   {
-    "title": "AI ops tools will create console sprawl and break IT more often: Gartner",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/20/ai-ops-tools-will-create-console-sprawl-and-break-it-more-often-gartner/5274712",
-    "source": "The Register",
-    "published": "2026-07-20T03:28:36+00:00",
-    "raw_text": "Yet by 2030, a quarter of the IT ops work you do now will be handled by an unsupervised clanker",
+    "title": "CW@60: The real promise of technology is human",
+    "url": "https://www.computerweekly.com/feature/CW60-The-real-promise-of-technology-is-human",
+    "source": "ComputerWeekly",
+    "published": "2026-07-20T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i><em>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</em>&nbsp;</i></p> <p>I still remember the moment I realised <a href=\"https://www.computerweekly.com/resources/Artificial-intelligence-automation-and-robotics\">artificial intelligence (AI)</a> had turned a corner. It was no longer something we talked about in strategy sessions or boardrooms. It was already at work, reshaping decisions, risks, and outcomes in real time.</p> <p>I was visiting a financial institution in Asia that had deployed <a href=\"https://www.computerweekly.com/ehandbook/10-common-uses-for-machine-learning-applications-in-business\">machine learning</a> across its transaction network. What I saw was not automation in the traditional sense. Not software executing a fixed set of rules. The system was learning.</p> <p>It was identifying fraud patterns in milliseconds, adapting to new threats without waiting to be told what to look for, and protecting customers at a scale no human team could match. That was the moment it became clear to me that technology had moved beyond a support role. In this new era, it is the engine.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Hidden infrastructure\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Hidden infrastructure</h2> <p>I studied electrical engineering at Rutgers University because I was fascinated by how systems work and how the unseen architecture beneath the surface creates momentum, resilience, and change. Even then, I was drawn to the systems people rarely notice but depend on every day - the hidden infrastructure that makes everything else possible.</p> <p>I joined Dell Technologies in 1999, at a moment when <a href=\"https://www.computerweekly.com/feature/Was-Y2K-a-costly-non-event\">the world was steeling itself for Y2K</a> – it was an extraordinary time to be entering the tech industry. Looking back over the past 25 years, I’ve seen technology reshape businesses and our daily lives in ways that have been inspiring, fascinating, awe-inspiring, and at times even shocking.</p> <p>I’ve had a front-row seat to one of the most consequential transformations in modern business, and among the most remarkable has been the rise of Asia-Pacific as one of the world’s most dynamic digital regions. Yet even after decades in this industry, nothing has prepared me for the sheer pace of change we’re witnessing now.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> Enterprise computing’s history has taught us the same lesson time and again – technology is impressive, but the outcome on society is what stays with you </figure> <figcaption> <strong>Richard McLaughlin </strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>We used to talk about a globally connected society in theoretical terms. But today, most of us carry more computing power in our pocket than entire datacentres once held. The distance between an idea and its impact has narrowed dramatically. Technology does not move in decades anymore. In many sectors, it barely moves in quarters.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Time compression\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Time compression</h2> <p>I feel that compression of time in my own work and life. Connectivity lets me stay productive even on a plane; emails and texts reach people instantly, so decisions don't wait; and online learning keeps me ahead on emerging industry trends and the business benefits behind them, wherever and whenever. These seem like small conveniences on their own, but together have been a transformative change in the way we work and how much we can accomplish in a day.</p> <p>The change reaches beyond productivity. When my wife and I moved overseas, we took real comfort in knowing that if a medical emergency arose, our doctors across geographical borders would have immediate access to our digital health records. Technology doing something deeply human – giving people peace of mind.</p> <p>The conversations I have with leaders across the region go far beyond whether AI matters. We are exploring how we can adopt it responsibly, scale it securely, and ensure progress does not deepen existing divides. These conversations have revealed three common questions:</p> <ul type=\"disc\" class=\"default-list\"> <li>How do we manage the sheer volume of data we now generate?</li> <li>How do we integrate intelligent systems without compromising security, trust, or accountability?</li> <li>And how do we ensure the benefits of technological change reach people and communities fairly and equitably?</li> </ul> <p>Those may sound like technical questions, but all point to desired human outcomes.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"People matter most\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>People matter most</h2> <p>We are all still early in our journeys with AI. For instance, the CRIT - which stands for context, role, interview and task -<i> </i>framework of optimising AI interactions has helped me in my daily work, such as preparing for meetings or guiding market research. It’s a modest start, but it clearly shows how these tools can sharpen our thinking and free us to focus on what matters most - the people we are speaking to, sitting on the other side of the table.</p> <p>I have seen the same principle at work across our region. In healthcare, <a href=\"https://www.computerweekly.com/news/252514101/SingHealth-researchers-to-get-new-supercomputer\">better infrastructure is speeding up research</a>. In education, connectivity is extending access to education to students in remote villages far beyond major cities.</p> <p>Enterprise computing’s history has taught us the same lesson time and again – technology is impressive, but the outcome on society is what stays with you.</p> <p>As AI becomes embedded in how we work, govern, build, and live, our responsibility is to keep that human outcome firmly at the centre. The next chapter of technology will not be judged simply by whether systems become faster or models become smarter. It will be judged by whether innovation expands opportunity, strengthens trust, and improves lives.</p> <p>If I could say one thing to my younger self, it would be this - the real promise of technology is the human potential. That is the standard we must hold ourselves to, and the only measure of success that will matter.&nbsp;&nbsp;</p> <p><i>Richard McLaughlin is president of Asia-Pacific, Japan and Greater China at Dell Technologies.</i></p> </section>",
     "categories": [
       "Networks",
+      "Cybersecurity",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
-        "lan"
+        "network",
+        "cdn",
+        "lan",
+        "connectivity"
+      ],
+      "Cybersecurity": [
+        "threat",
+        "security",
+        "soc"
       ],
       "Industry & Market": [
-        "gartner"
-      ]
-    },
-    "summary": "Yet by 2030, a quarter of the IT ops work you do now will be handled by an unsupervised clanker"
-  },
-  {
-    "title": "Chinese President Xi Jinping wants emergency response systems to keep AI in check",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/20/chinese-president-xi-jinping-wants-emergency-response-systems-to-keep-ai-in-check/5274687",
-    "source": "The Register",
-    "published": "2026-07-20T00:38:54+00:00",
-    "raw_text": "PLUS: Korean e-tailer Coupang's warehouse burns and burns; Australian Uni expels VMware; India's first private rocket flies first time; And more!",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "PLUS: Korean e-tailer Coupang's warehouse burns and burns; Australian Uni expels VMware; India's first private rocket flies first time; And more!"
-  },
-  {
-    "title": "Connecting AI agents to outside services explodes the risk radius",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/19/connecting-ai-agents-to-outside-services-explodes-the-risk-radius/5274640",
-    "source": "The Register",
-    "published": "2026-07-19T16:05:00+00:00",
-    "raw_text": "Connect all the things and watch what happens",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Connect all the things and watch what happens"
-  },
-  {
-    "title": "Using AI makes people less likely to admit they don't know something",
-    "url": "https://www.theregister.com/ai-and-ml/2026/07/19/using-ai-makes-people-less-likely-to-admit-they-dont-know-something/5274567",
-    "source": "The Register",
-    "published": "2026-07-19T08:01:00+00:00",
-    "raw_text": "Researchers found confidence increased even as accuracy fell",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
+        "expands",
         "ey"
       ]
     },
-    "summary": "Researchers found confidence increased even as accuracy fell"
-  },
-  {
-    "title": "Java was a three-day hotfix away from dying horribly on stage",
-    "url": "https://www.theregister.com/devops/2026/07/18/java-was-a-three-day-hotfix-away-from-dying-horribly-on-stage/5274590",
-    "source": "The Register",
-    "published": "2026-07-18T13:30:00+00:00",
-    "raw_text": "Tim Lindholm, Java's original JVM maintainer, shares with El Reg some of the grungy build details the doc glosses over",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Tim Lindholm, Java's original JVM maintainer, shares with El Reg some of the grungy build details the doc glosses over"
-  },
-  {
-    "title": "NextBSD returns to dollop Apple source on FreeBSD",
-    "url": "https://www.theregister.com/os-platforms/2026/07/18/nextbsd-returns-to-dollop-apple-source-on-freebsd/5273788",
-    "source": "The Register",
-    "published": "2026-07-18T07:45:00+00:00",
-    "raw_text": "New maintainer revives the project with Darwin components, Gershwin, and Claude Code",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "New maintainer revives the project with Darwin components, Gershwin, and Claude Code"
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i><em>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</em>&nbsp;</i></p> <p>I still remember the moment I realised <a href=\"https://www.computerweekly.com/resources/Artificial-intelligence-automation-and-robotics\">artificial intelligence (AI)</a> had turned a corner. It was no longer something we talked about in strategy sessions or boardrooms."
   },
   {
     "title": "How a virtual LAN can better protect your home network - and the best way to get started",
@@ -577,6 +624,375 @@
       ]
     },
     "summary": "The Nothing Ear (3a) have surprised me for several reasons - the price is one of them."
+  },
+  {
+    "title": "Black Rock Coffee Bar, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BRCB",
+    "url": "https://www.prnewswire.com/news-releases/black-rock-coffee-bar-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--brcb-302829346.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:39:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Black Rock Coffee Bar, Inc. (\"Black Rock Coffee\" or \"the Company\") (NASDAQ: BRCB) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5..."
+  },
+  {
+    "title": "BTGO Investors Have Opportunity to Lead BitGo Holdings, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/btgo-investors-have-opportunity-to-lead-bitgo-holdings-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302829351.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:37:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Investors who...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces the filing of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Investors who..."
+  },
+  {
+    "title": "BitGo Holdings, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BTGO",
+    "url": "https://www.prnewswire.com/news-releases/bitgo-holdings-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights---btgo-302829348.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:36:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Shareholders who purchased shares of BTGO during the class period...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of the federal securities laws. Shareholders who purchased shares of BTGO during the class period..."
+  },
+  {
+    "title": "Badger Meter, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BMI",
+    "url": "https://www.prnewswire.com/news-releases/badger-meter-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--bmi-302829341.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:36:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by..."
+  },
+  {
+    "title": "AeroVironment, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - AVAV",
+    "url": "https://www.prnewswire.com/news-releases/aerovironment-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--avav-302829342.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:35:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "BMI Investors Have Opportunity to Lead Badger Meter, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/bmi-investors-have-opportunity-to-lead-badger-meter-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302829331.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:34:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act..."
+  },
+  {
+    "title": "AVAV Investors Have Opportunity to Lead AeroVironment, Inc. Securities Fraud Lawsuit with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/avav-investors-have-opportunity-to-lead-aerovironment-inc-securities-fraud-lawsuit-with-the-schall-law-firm-302829333.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:32:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV)for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against AeroVironment, Inc. (\"AeroVironment\" or \"the Company\") (NASDAQ: AVAV)for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "ADMA Biologics, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - ADMA",
+    "url": "https://www.prnewswire.com/news-releases/adma-biologics-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--adma-302829336.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:31:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against ADMA Biologics, Inc. (\"ADMA\" or \"the Company\") (NASDAQ: ADMA) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against ADMA Biologics, Inc. (\"ADMA\" or \"the Company\") (NASDAQ: ADMA) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder..."
+  },
+  {
+    "title": "BOC Group przedstawia ADONIS 19.0 LTS: Inteligentniejsze wsparcie w codziennej pracy z procesami",
+    "url": "https://www.prnewswire.com/news-releases/boc-group-przedstawia-adonis-19-0-lts-inteligentniejsze-wsparcie-w-codziennej-pracy-z-procesami-302828483.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:30:00+00:00",
+    "raw_text": "Nowe wydanie usprawnia pracę z dokumentacją dzięki AI, rozwija możliwości personalizacji kokpitów oraz pogłębia wgląd w analizę procesów WARSZAWA, Polska, 20 lipca 2026 r. /PRNewswire/ -- BOC Group ogłasza premierę ADONIS 19.0 LTS – najnowszej długoterminowo wspieranej wersji swojego...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Nowe wydanie usprawnia pracę z dokumentacją dzięki AI, rozwija możliwości personalizacji kokpitów oraz pogłębia wgląd w analizę procesów WARSZAWA, Polska, 20 lipca 2026 r. /PRNewswire/ -- BOC Group ogłasza premierę ADONIS 19.0 LTS – najnowszej długoterminowo wspieranej wersji swojego..."
+  },
+  {
+    "title": "Acron Technologies Unveils New Corporate Brand at Farnborough International Airshow 2026",
+    "url": "https://www.prnewswire.com/news-releases/acron-technologies-unveils-new-corporate-brand-at-farnborough-international-airshow-2026-302828689.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:30:00+00:00",
+    "raw_text": "Chalet branding, website, and LinkedIn presence launch together as new corporate identity debuts across the company's aerospace solutions and defense technology portfolio ST. PETERSBURG, Fla., July 20, 2026 /PRNewswire/ -- Acron Technologies today unveiled its new corporate brand at the...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Chalet branding, website, and LinkedIn presence launch together as new corporate identity debuts across the company's aerospace solutions and defense technology portfolio ST. PETERSBURG, Fla., July 20, 2026 /PRNewswire/ -- Acron Technologies today unveiled its new corporate brand at the..."
+  },
+  {
+    "title": "BABA Investors Have Opportunity to Join Alibaba Group Holding Limited Fraud Investigation with the Schall Law Firm",
+    "url": "https://www.prnewswire.com/news-releases/baba-investors-have-opportunity-to-join-alibaba-group-holding-limited-fraud-investigation-with-the-schall-law-firm-302829330.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:29:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces that it is investigating claims on behalf of investors of Alibaba Group Holding Limited (\"Alibaba\" or \"the Company\") (NYSE: BABA) for violations of the securities laws....",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The Schall Law Firm, a national shareholder rights litigation firm, announces that it is investigating claims on behalf of investors of Alibaba Group Holding Limited (\"Alibaba\" or \"the Company\") (NYSE: BABA) for violations of the securities laws...."
+  },
+  {
+    "title": "Planet Fitness, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PLNT",
+    "url": "https://www.prnewswire.com/news-releases/planet-fitness-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--plnt-302829321.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:28:00+00:00",
+    "raw_text": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Planet Fitness, Inc. (\"Planet Fitness\" or \"the Company\") (NYSE: PLNT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "LOS ANGELES, July 20, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Planet Fitness, Inc. (\"Planet Fitness\" or \"the Company\") (NYSE: PLNT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "BC Token Reaches New All-Time High Near $0.0179, Extending Its July Rally",
+    "url": "https://www.prnewswire.com/news-releases/bc-token-reaches-new-all-time-high-near-0-0179--extending-its-july-rally-302829425.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:21:00+00:00",
+    "raw_text": "The token set another price record just three days after reaching $0.01561 on July 17. As BC.GAME continues to expand its token ecosystem, $BC is now more than 50% above its April price level. BELIZE CITY, Belize, July 20, 2026 /PRNewswire/ -- BC Token ($BC), the ecosystem token of...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The token set another price record just three days after reaching $0.01561 on July 17. As BC.GAME continues to expand its token ecosystem, $BC is now more than 50% above its April price level. BELIZE CITY, Belize, July 20, 2026 /PRNewswire/ -- BC Token ($BC), the ecosystem token of..."
+  },
+  {
+    "title": "Medtrum Advances 300U Tubeless Patch Pump Toward German Launch",
+    "url": "https://www.prnewswire.com/news-releases/medtrum-advances-300u-tubeless-patch-pump-toward-german-launch-302828427.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:05:00+00:00",
+    "raw_text": "Higher-capacity option expands the TouchCare Nano System and supports Medtrum's continued growth in Europe BERLIN, July 20, 2026 /PRNewswire/ -- Medtrum, a global diabetes technology company, today announced further progress toward the German launch of its 300-unit (300U) tubeless patch...",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "capacity"
+      ],
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "Higher-capacity option expands the TouchCare Nano System and supports Medtrum's continued growth in Europe BERLIN, July 20, 2026 /PRNewswire/ -- Medtrum, a global diabetes technology company, today announced further progress toward the German launch of its 300-unit (300U) tubeless patch..."
+  },
+  {
+    "title": "NEW HYPERSHELL X SERIES NOW IN EUROPE, THE WORLD'S MOST INTUITIVE CONSUMER EXOSKELETON",
+    "url": "https://www.prnewswire.com/news-releases/new-hypershell-x-series-now-in-europe-the-worlds-most-intuitive-consumer-exoskeleton-302828412.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:00:00+00:00",
+    "raw_text": "Key Highlights New range available in Europe includes flagship X Ultra S, X Max S and X Pro S, providing different levels of support and terrain capability Powered by HyperIntuition™, Hypershell's proprietary AI motion control algorithm, the new series is the world's first TÜV...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Key Highlights New range available in Europe includes flagship X Ultra S, X Max S and X Pro S, providing different levels of support and terrain capability Powered by HyperIntuition™, Hypershell's proprietary AI motion control algorithm, the new series is the world's first TÜV..."
+  },
+  {
+    "title": "LA NUOVA SERIE HYPERSHELL X È ORA DISPONIBILE IN EUROPA, CON L'ESOSCHELETRO PER CONSUMATORI PIÙ INTUITIVO AL MONDO",
+    "url": "https://www.prnewswire.com/news-releases/la-nuova-serie-hypershell-x-e-ora-disponibile-in-europa-con-lesoscheletro-per-consumatori-piu-intuitivo-al-mondo-302828419.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:00:00+00:00",
+    "raw_text": "Punti salienti La nuova gamma disponibile in Europa comprende i modelli di punta X Ultra S, X Max S e X Pro S, che offrono diversi livelli di supporto e adattabilità al terreno Basata su HyperIntuition™, l'algoritmo proprietario di controllo del movimento basato sull'intelligenza...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Punti salienti La nuova gamma disponibile in Europa comprende i modelli di punta X Ultra S, X Max S e X Pro S, che offrono diversi livelli di supporto e adattabilità al terreno Basata su HyperIntuition™, l'algoritmo proprietario di controllo del movimento basato sull'intelligenza..."
+  },
+  {
+    "title": "NEUE HYPERSHELL X-SERIE JETZT IN EUROPA - DAS INTUITIVSTE EXOSKELETT FÜR PRIVATKUNDEN WELTWEIT",
+    "url": "https://www.prnewswire.com/news-releases/neue-hypershell-x-serie-jetzt-in-europa--das-intuitivste-exoskelett-fur-privatkunden-weltweit-302828416.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:00:00+00:00",
+    "raw_text": "Wichtigste Eckpunkte Die neue, in Europa erhältliche Produktreihe umfasst die Flaggschiffmodelle X Ultra S, X Max S und X Pro S, die unterschiedliche Unterstützungsstufen und Geländegängigkeit bieten Die neue Serie basiert auf „HyperIntuition™\", dem von Hypershell entwickelten...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Wichtigste Eckpunkte Die neue, in Europa erhältliche Produktreihe umfasst die Flaggschiffmodelle X Ultra S, X Max S und X Pro S, die unterschiedliche Unterstützungsstufen und Geländegängigkeit bieten Die neue Serie basiert auf „HyperIntuition™\", dem von Hypershell entwickelten..."
+  },
+  {
+    "title": "La nueva serie Hypershell X ya está en Europa, el exoesqueto para el consumidor más intuitivo del mundo",
+    "url": "https://www.prnewswire.com/news-releases/la-nueva-serie-hypershell-x-ya-esta-en-europa-el-exoesqueto-para-el-consumidor-mas-intuitivo-del-mundo-302828417.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:00:00+00:00",
+    "raw_text": "Información clave La nueva gama disponible en Europa incluye los modelos insignia X Ultra S, X Max S y X Pro S, que ofrecen diferentes niveles de soporte y capacidad para distintos terrenos. Impulsada por HyperIntuition™, el algoritmo de control de movimiento con IA patentado por...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Información clave La nueva gama disponible en Europa incluye los modelos insignia X Ultra S, X Max S y X Pro S, que ofrecen diferentes niveles de soporte y capacidad para distintos terrenos. Impulsada por HyperIntuition™, el algoritmo de control de movimiento con IA patentado por..."
+  },
+  {
+    "title": "Aon expands Data Center Lifecycle Insurance Program to $5 billion with Reliable by Design Approach to Digital Infrastructure",
+    "url": "https://www.prnewswire.com/news-releases/aon-expands-data-center-lifecycle-insurance-program-to-5-billion-with-reliable-by-design-approach-to-digital-infrastructure-302829377.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:00:00+00:00",
+    "raw_text": "Expanded capacity and integrated risk solutions help clients build, operate and scale digital infrastructure with greater confidence DUBLIN, July 20, 2026 /PRNewswire/ -- Aon plc (NYSE: AON), a leading global professional services firm, today announced the next evolution of its...",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "Expanded capacity and integrated risk solutions help clients build, operate and scale digital infrastructure with greater confidence DUBLIN, July 20, 2026 /PRNewswire/ -- Aon plc (NYSE: AON), a leading global professional services firm, today announced the next evolution of its..."
+  },
+  {
+    "title": "LA NOUVELLE GAMME HYPERSHELL X DÉSORMAIS DISPONIBLE EN EUROPE : L'EXOSQUELETTE CONSOMMATEUR LE PLUS INTUITIF AU MONDE",
+    "url": "https://www.prnewswire.com/news-releases/la-nouvelle-gamme-hypershell-x-desormais-disponible-en-europe--lexosquelette-consommateur-le-plus-intuitif-au-monde-302828414.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-20T07:00:00+00:00",
+    "raw_text": "Points clés La nouvelle gamme disponible en Europe comprend les modèles phares X Ultra S, X Max S et X Pro S, offrant différents niveaux d'assistance et de capacités tout-terrain Optimisé par HyperIntuition™, l'algorithme propriétaire d'IA de contrôle des mouvements développé par...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Points clés La nouvelle gamme disponible en Europe comprend les modèles phares X Ultra S, X Max S et X Pro S, offrant différents niveaux d'assistance et de capacités tout-terrain Optimisé par HyperIntuition™, l'algorithme propriétaire d'IA de contrôle des mouvements développé par..."
+  },
+  {
+    "title": "FinHarbor Launches AI Co-Investigator for AML",
+    "url": "https://www.globenewswire.com/news-release/2026/07/20/3329456/0/en/FinHarbor-Launches-AI-Co-Investigator-for-AML.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-20T07:11:00+00:00",
+    "raw_text": "NICOSIA, Cyprus, July 20, 2026 (GLOBE NEWSWIRE) -- A self-hosted LLM connected to the platform's ledger, KYC/KYB, KYT, and audit trail takes over the routine layer of AML investigations – while every decision with regulatory consequences stays with a human. FinHarbor , a technical platform provider for launching compliant, modular financial products, has announced the launch of its AI Act-ready compliance module – an AI co-investigator that works on top of the platform's existing compliance stack and is deployed entirely inside the client's own infrastructure. The timing matters. On 2 August 2026, the EU AI Act's transparency obligations take effect for customer-facing AI systems, while the recently adopted simplification package moved the high-risk requirements to December 2027 – a preparation window, not an amnesty. FinHarbor's answer is a module designed around the Act's logic from day one: documented, supervised, and architecturally incapable of acting alone. The problem: compliance teams drowning in false alarms The economics of AML operations are well documented. According to Google Cloud , more than 95% of alerts generated by rules-based AML systems turn out to be false positives at first review, and roughly 98% never result in a suspicious activity report. Compliance teams at growing platforms spend the bulk of their time reconstructing cases from disconnected tools rather than investigating genuine risk. The industry results from applying AI to this layer are equally documented. HSBC, working with Google Cloud , cut alert volumes by more than 60% while identifying two to four times more genuinely suspicious activity. In a Coforge deployment at a leading US bank , an AI-powered alert optimization framework reduced false positives by 70% and improved fraud detection rates by 35%. What the module does FinHarbor's co-investigator operates across the platform's unified ledger, KYC/KYB, KYT, transaction monitoring, and append-only audit trail. In practice, it:",
+    "categories": [
+      "GRC",
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "google cloud"
+      ],
+      "GRC": [
+        "compliance",
+        "regulatory",
+        "audit"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "NICOSIA, Cyprus, July 20, 2026 (GLOBE NEWSWIRE) -- A self-hosted LLM connected to the platform's ledger, KYC/KYB, KYT, and audit trail takes over the routine layer of AML investigations – while every decision with regulatory consequences stays with a human. FinHarbor , a technical platform provider for launching compliant, modular financial products, has announced the launch of its AI Act-ready compliance module – an AI co-investigator that works on top of the platform's existing compliance stack and is deployed entirely inside the client's own infrastructure. The timing matters. On 2 August 2026, the EU AI Act's transparency obligations take effect for customer-facing AI systems, while the recently adopted simplification package moved the high-risk requirements to December 2027 – a preparation window, not an amnesty."
+  },
+  {
+    "title": "Alfakraft Fonder AB and Bitwise Announce Strategic Partnership to Expand Institutional Digital Asset Investment Solutions",
+    "url": "https://www.globenewswire.com/news-release/2026/07/20/3329452/0/en/Alfakraft-Fonder-AB-and-Bitwise-Announce-Strategic-Partnership-to-Expand-Institutional-Digital-Asset-Investment-Solutions.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-20T07:02:00+00:00",
+    "raw_text": "Alfakraft and Bitwise join forces focused on developing investment solutions, built on Luxembourg’s institutional fund infrastructure.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "partnership",
+        "investment"
+      ]
+    },
+    "summary": "Alfakraft and Bitwise join forces focused on developing investment solutions, built on Luxembourg’s institutional fund infrastructure."
+  },
+  {
+    "title": "rStream and Gillette Stadium Partner to Bring AI Robotics to Stadium Waste",
+    "url": "https://www.globenewswire.com/news-release/2026/07/20/3329441/0/en/rStream-and-Gillette-Stadium-Partner-to-Bring-AI-Robotics-to-Stadium-Waste.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-20T06:33:00+00:00",
+    "raw_text": "New on-site AI-powered sorting system helps advance waste diversion, operational efficiency, and sustainability after matches and concerts.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "New on-site AI-powered sorting system helps advance waste diversion, operational efficiency, and sustainability after matches and concerts."
   },
   {
     "title": "Fangzhou Launches Novo Nordisk’s Once-Weekly Basal Insulin/GLP-1 Therapy in China",
@@ -817,57 +1233,5 @@
       ]
     },
     "summary": "ColestZen Official Store announces ColestZen Supplement, formulated with carefully selected ingredients to support healthy cholesterol, support healthy blood sugar levels already within the normal range, and promote everyday wellness as part of a balanced lifestyle. ColestZen Official Store announces ColestZen Supplement, formulated with carefully selected ingredients to support healthy cholesterol, support healthy blood sugar levels already within the normal range, and promote everyday wellness as part of a balanced lifestyle."
-  },
-  {
-    "title": "LingoPlus Expands Nationwide: Certified Translation Services Now Available Across Germany",
-    "url": "https://www.globenewswire.com/news-release/2026/07/18/3329365/0/en/LingoPlus-Expands-Nationwide-Certified-Translation-Services-Now-Available-Across-Germany.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-18T14:00:00+00:00",
-    "raw_text": "From Paderborn to the Entire Nation, LingoPlus Enhances Accessibility to Professional Language Solutions From Paderborn to the Entire Nation, LingoPlus Enhances Accessibility to Professional Language Solutions",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "From Paderborn to the Entire Nation, LingoPlus Enhances Accessibility to Professional Language Solutions From Paderborn to the Entire Nation, LingoPlus Enhances Accessibility to Professional Language Solutions"
-  },
-  {
-    "title": "Bitget משיקה חשבון מאוחד חוצה-נכסים ראשון מסוגו בתעשייה, המאפשר שימוש ב-100 אסימוני מניות אמריקאיות כבטוחה",
-    "url": "https://www.globenewswire.com/news-release/2026/07/18/3329350/0/he/Bitget-%D7%9E%D7%A9%D7%99%D7%A7%D7%94-%D7%97%D7%A9%D7%91%D7%95%D7%9F-%D7%9E%D7%90%D7%95%D7%97%D7%93-%D7%97%D7%95%D7%A6%D7%94-%D7%A0%D7%9B%D7%A1%D7%99%D7%9D-%D7%A8%D7%90%D7%A9%D7%95%D7%9F-%D7%9E%D7%A1%D7%95%D7%92%D7%95-%D7%91%D7%AA%D7%A2%D7%A9%D7%99%D7%99%D7%94-%D7%94%D7%9E%D7%90%D7%A4%D7%A9%D7%A8-%D7%A9%D7%99%D7%9E%D7%95%D7%A9-%D7%91-100-%D7%90%D7%A1%D7%99%D7%9E%D7%95%D7%A0%D7%99-%D7%9E%D7%A0%D7%99%D7%95%D7%AA-%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%90%D7%99%D7%95%D7%AA-%D7%9B%D7%91%D7%98%D7%95%D7%97%D7%94.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-18T09:27:00+00:00",
-    "raw_text": "ויקטוריה, סיישל, July 18, 2026 (GLOBE NEWSWIRE) -- Bitge t , הבורסה האוניברסלית ( UEX ) הגדולה בעולם , השיקה את החשבון המאוחד הראשון לנכסים חוצי נכסים (UTA) בתעשייה, שמביאה למעלה מ-370 נכסים זכאים — כולל 100 אסימוני מניות אמריקאיים ( rTokens ) — למאגר מרווחים אחד. ההשקה מרחיבה את המרווח המאוחד מעבר לקריפטו גרפיה , ומאפשרת ל אסימוני מניות לפעול לצד נכסים דיגיטליים בתוך חשבון אחד.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ויקטוריה, סיישל, July 18, 2026 (GLOBE NEWSWIRE) -- Bitge t , הבורסה האוניברסלית ( UEX ) הגדולה בעולם , השיקה את החשבון המאוחד הראשון לנכסים חוצי נכסים (UTA) בתעשייה, שמביאה למעלה מ-370 נכסים זכאים — כולל 100 אסימוני מניות אמריקאיים ( rTokens ) — למאגר מרווחים אחד. ההשקה מרחיבה את המרווח המאוחד מעבר לקריפטו גרפיה , ומאפשרת ל אסימוני מניות לפעול לצד נכסים דיגיטליים בתוך חשבון אחד."
-  },
-  {
-    "title": "Bitget lance le premier compte unifié multi-actifs du secteur, avec une marge de 100 jetons d’actions américaines",
-    "url": "https://www.globenewswire.com/news-release/2026/07/18/3329350/0/fr/Bitget-lance-le-premier-compte-unifi%C3%A9-multi-actifs-du-secteur-avec-une-marge-de-100-jetons-d-actions-am%C3%A9ricaines.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-18T09:27:00+00:00",
-    "raw_text": "VICTORIA, Seychelles, 18 juill. 2026 (GLOBE NEWSWIRE) -- Bitget , la plus grande bourse universelle (UEX) au monde, vient de lancer le premier compte de trading unifié multi-actifs (UTA) du secteur, regroupant plus de 370 actifs éligibles, dont 100 actions américaines tokenisées (rTokens), au sein d’un pool de marge unique. Ce lancement étend le système de marge unique au-delà des cryptomonnaies, permettant ainsi aux actions tokenisées de coexister avec les actifs numériques au sein d’un même compte.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "VICTORIA, Seychelles, 18 juill. 2026 (GLOBE NEWSWIRE) -- Bitget , la plus grande bourse universelle (UEX) au monde, vient de lancer le premier compte de trading unifié multi-actifs (UTA) du secteur, regroupant plus de 370 actifs éligibles, dont 100 actions américaines tokenisées (rTokens), au sein d’un pool de marge unique. Ce lancement étend le système de marge unique au-delà des cryptomonnaies, permettant ainsi aux actions tokenisées de coexister avec les actifs numériques au sein d’un même compte."
   }
 ]
