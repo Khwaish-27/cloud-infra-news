@@ -1,5 +1,61 @@
 [
   {
+    "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+    "url": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+    "source": "The Hacker News",
+    "published": "2026-07-22T06:00:06+00:00",
+    "raw_text": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain. The package, named \"Newtonsoftt.Json.Net,\" masquerades as the Newtonsoft.Json library and is a trojanized fork. Seven versions of the package have been published to the",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live game results on Digitain. The package, named \"Newtonsoftt.Json.Net,\" masquerades as the Newtonsoft.Json library and is a trojanized fork. Seven versions of the package have been published to the"
+  },
+  {
+    "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+    "url": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+    "source": "The Hacker News",
+    "published": "2026-07-22T04:57:52+00:00",
+    "raw_text": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds. The flaw is in Microsoft's official Azure DevOps MCP server, and it works because one of its tools returns pull request descriptions without a prompt-injection guardrail the company had",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure",
+        "devops"
+      ]
+    },
+    "summary": "A single invisible comment in an Azure DevOps pull request can turn a reviewer's own AI coding agent against them, driving it into projects the attacker has no rights to reach and quietly leaking what it finds. The flaw is in Microsoft's official Azure DevOps MCP server, and it works because one of its tools returns pull request descriptions without a prompt-injection guardrail the company had"
+  },
+  {
+    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+    "url": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+    "source": "The Hacker News",
+    "published": "2026-07-22T04:18:33+00:00",
+    "raw_text": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week. The AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "valuation"
+      ]
+    },
+    "summary": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week. The AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to"
+  },
+  {
     "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
     "url": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
     "source": "The Hacker News",
@@ -424,6 +480,22 @@
     "summary": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The findings come from an analysis of 200 Gemini CLI session logs between March 19 and April 21, 2026, which found the threat actor using AI, among other things, to crack passwords, set up a residential"
   },
   {
+    "title": "Chick-fil-A discloses data breach after credential stuffing attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-discloses-data-breach-after-credential-stuffing-attacks/",
+    "source": "BleepingComputer",
+    "published": "2026-07-22T06:40:29+00:00",
+    "raw_text": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach"
+      ]
+    },
+    "summary": "American fast food restaurant chain Chick-fil-A is notifying customers of a data breach after their accounts were hacked in a wave of recent credential stuffing attacks. [...]"
+  },
+  {
     "title": "OpenAI says its AI models hacked Hugging Face during testing",
     "url": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
     "source": "BleepingComputer",
@@ -685,22 +757,6 @@
     "summary": "The Ostium trading platform announced that an attacker stole $23.75 million from its liquidity provider vault last week, after compromising off-chain infrastructure used to feed prices into the protocol. [...]"
   },
   {
-    "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
-    "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
-    "source": "BleepingComputer",
-    "published": "2026-07-20T21:14:42+00:00",
-    "raw_text": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cve"
-      ]
-    },
-    "summary": "Researchers escaped the sandboxes in Cursor, Codex, Gemini CLI and Antigravity by having the AI agent write files that trusted host tools later run. Multiple CVEs, patches, and Google downgrading two Antigravity findings. [...]"
-  },
-  {
     "title": "LG to Ban Residential Proxies from Smart TV Apps",
     "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
     "source": "Krebs on Security",
@@ -715,6 +771,22 @@
       ]
     },
     "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV."
+  },
+  {
+    "title": "Small teams are the heaviest users of AI coding agents",
+    "url": "https://www.helpnetsecurity.com/2026/07/22/users-of-ai-coding-agents/",
+    "source": "Help Net Security",
+    "published": "2026-07-22T06:00:31+00:00",
+    "raw_text": "The pull request arrives with the tests already run and the description already written, the work of an agent that handled the whole thing on its own. Somebody still has to read it. On GitHub that somebody is usually one developer sitting alone with the diff, and the rest of the project never sees the code. Maliha Noushin Raida and Daqing Hou at Rochester Institute of Technology sorted 25,264 agentic pull requests by who reviewed … More → The post Small teams are the heaviest users of AI coding agents appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "The pull request arrives with the tests already run and the description already written, the work of an agent that handled the whole thing on its own. Somebody still has to read it. On GitHub that somebody is usually one developer sitting alone with the diff, and the rest of the project never sees the code. Maliha Noushin Raida and Daqing Hou at Rochester Institute of Technology sorted 25,264 agentic pull requests by who reviewed … More → The post Small teams are the heaviest users of AI coding agents appeared first on Help Net Security ."
   },
   {
     "title": "Snowpick: Open-source ServiceNow exposure scanner",
@@ -910,28 +982,6 @@
       ]
     },
     "summary": "A security analyst opens an unfamiliar repository, pulls up a vulnerability advisory, and starts hunting for the file where the weakness lives. The naming conventions belong to someone else. Evidence sits in scattered corners of a codebase that runs to thousands of files. That first stage of triage burns hours and expertise, and it is the part Cisco set out to speed up."
-  },
-  {
-    "title": "Shufti simplifies cross-border compliance with the Glocal Platform",
-    "url": "https://www.helpnetsecurity.com/2026/07/21/shufti-simplifies-cross-border-compliance-with-the-glocal-platform/",
-    "source": "Help Net Security",
-    "published": "2026-07-21T11:06:36+00:00",
-    "raw_text": "Shufti has launched the Shufti Glocal Platform, a compliance lifecycle management solution designed to help organizations manage identity verification, fraud prevention, risk assessment, and regulatory compliance through a single platform across every industry, every region, and every use case. For decades, global expansion has come with an unwritten rule: every new market needs a new compliance provider. A solution built for one region may not fully support the regulations, document ecosystems, verification methods, or risk … More → The post Shufti simplifies cross-border compliance with the Glocal Platform appeared first on Help Net Security .",
-    "categories": [
-      "GRC",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "compliance",
-        "regulation",
-        "regulatory"
-      ]
-    },
-    "summary": "Shufti has launched the Shufti Glocal Platform, a compliance lifecycle management solution designed to help organizations manage identity verification, fraud prevention, risk assessment, and regulatory compliance through a single platform across every industry, every region, and every use case. For decades, global expansion has come with an unwritten rule: every new market needs a new compliance provider. A solution built for one region may not fully support the regulations, document ecosystems, verification methods, or risk … More → The post Shufti simplifies cross-border compliance with the Glocal Platform appeared first on Help Net Security ."
   },
   {
     "title": "Ransomware Is Accelerating, But It's Not Because of AI",
@@ -1489,7 +1539,7 @@
     "url": "https://cloud.google.com/blog/products/databases/supercharge-pgvector-4x-faster-hnsw-with-alloydb/",
     "source": "Google Cloud Blog",
     "published": "2026-07-21T16:00:00+00:00",
-    "raw_text": "AlloyDB is a fully managed, PostgreSQL-compatible database service built for your most demanding enterprise workloads. It combines the best of open source PostgreSQL with Google’s advanced technology, offering massive scalability, high availability, and native AI capabilities. It serves as a performant relational store, a unified backend for vector and full text search, and an analytics engine that is up to 100x faster than standard PostgreSQL. Vector search is the foundation of modern AI and Retrieval Augmented Generation (RAG) applications. For developers using AlloyDB and other PostgreSQL databases, pgvector is a widely adopted extension for storing, indexing, and querying vector embeddings, and HNSW (Hierarchical Navigable Small World) is a highly efficient graph-based algorithm designed for approximate nearest neighbor search across multi-layered structures. With columnar engine accelerated HNSW in AlloyDB (now in preview), you can achieve up to 4x higher queries per second (QPS) for vector search compared to standard PostgreSQL HNSW. Enterprise AI applications face a constant trade-off between speed and accuracy. When searching through millions or billions of vectors, maximizing Queries per Second (QPS) without sacrificing search quality (recall) is critical for scaling production workloads. The PostgreSQL pgvector extension offers HNSW as one of the indexes that can speed up Approximate Nearest Neighbor (ANN) searches. Let’s dive deep into how AlloyDB solves the speed vs. accuracy trade-off. Note: While this post focuses on HNSW performance, it’s worth noting that HNSW is just one part of AlloyDB’s advanced vector toolkit. AlloyDB also features ScaNN —a cutting-edge index backed by over 14 years of Google Research—giving you the flexibility to choose the perfect index for your workload. Additionally, for use cases demanding absolute precision, standard k-nearest neighbor (KNN) search is always available for 100% recall. Check out our Choose a Vector Index Guide to see how they stack up. aside_block <ListValue: [StructValue([('title', 'Get started with a 30-day AlloyDB free trial instance'), ('body', <wagtail.rich_text.RichText object at 0x7fd0a64e6850>), ('btn_text', 'Start building for free'), ('href', 'http://goo.gle/try_alloydb'), ('image', None)])]> First, what is the AlloyDB columnar engine? The AlloyDB columnar engine is a built-in, in-memory cache that automatically stores frequently queried data in a specialized, scan-optimized columnar format. It allows AlloyDB to handle heavy analytical queries up to 100x faster than standard PostgreSQL. Additionally, it accelerates ANN searches by storing the index in memory, using a vectorized memory layout for fast traversals, and bypassing standard PostgreSQL buffer manager overhead. Performance visualization To understand the real-world performance characteristics of columnar engine Accelerated HNSW, we plotted standard QPS vs Recall curves for the GloVe 100 Angular dataset by searching more than 1M records with a limit of 100. Running this benchmark script yields the following visualization: Note: These measurements were taken on an AlloyDB C4A 16vCPU machine. Due to the inherent randomness in HNSW graph building, results may slightly vary across runs. The data reveals two transformative benefits: Massive performance throughput gains: For any given target recall (e.g. 0.95), QPS is increased by approximately 4.2x to 4.9x . This allows you to handle significantly more concurrent vector searches on the same hardware. Significant recall (accuracy) improvement: Conversely, at a fixed QPS level, columnar engine accelerated HNSW provides a substantial boost in recall. For example, we saw that at ~350 QPS (in the above chart), enabling the columnar engine improves recall from roughly 0.78 to over 0.94 – a 0.163 recall gain . This means your AI applications get much more accurate results without any latency impact. It is important to note that the baseline (blue line) already represents the index being fully cached in the PostgreSQL shared buffer cache. The performance gains shown here are not the result of moving data from disk to RAM, but rather the result of a more efficient memory architecture. How it works: Columnar engine Accelerated HNSW In standard PostgreSQL architectures, index operations utilize the shared buffer cache. Even when data is fully in-memory, the database still incurs significant overhead from the buffer manager, which must handle operations such as page pinning and unpinning, lock acquisition, buffer table lookups, and Least Recently Used (LRU) management. AlloyDB's columnar engine is a built-in, in-memory cache that stores data in a specialized, scan-optimized format. With this release, AlloyDB can use columnar engine accelerated HNSW to: Pin the index: The pgvector HNSW index is pinned (kept persistently in-memory to ensure fast access) directly into the columnar engine’s memory. Vectorized access: It utilizes a memory layout specifically designed for the high-concurrency, pointer-heavy traversals required by HNSW graphs. Bypass buffer overhead: By navigating the graph in a specialized memory space, AlloyDB avoids the standard buffer manager bottlenecks. This architectural shift is what enables the dramatic QPS and recall improvements shown above, even when comparing against a fully-cached standard index. Why it Matters For enterprise-scale applications, this isn't just about a faster database—it's about cost and quality: Reduced infrastructure costs: Achieve the same performance with significantly lower compute resources. Better AI accuracy: Reach higher recall and quality at speeds that were previously only possible for \"draft\" (high-speed, lower-accuracy results) quality search. No application changes required: Because this is built into AlloyDB, you get these gains using the same standard pgvector SQL syntax. Note that the columnar engine does utilize memory, but it is highly compressed and meticulously managed. Because the engine stores vector data in an efficient columnar format, the memory footprint is minimal compared to the massive performance gains—making it a highly favorable trade-off for enterprise workloads. Quick Start Guide To try out columnar engine accelerated HNSW in AlloyDB, follow these steps: 1. Enable the columnar engine and index caching Ensure that both google_columnar_engine.enabled and google_columnar_engine.enable_index_caching flags are set to on for your AlloyDB instance. 2. Add the HNSW Index to columnar engine Once your HNSW index is created via pgvector , execute the following SQL command to cache it in the columnar engine: code_block <ListValue: [StructValue([('code', \"SELECT google_columnar_engine_add_index('<hnsw_index_name>');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0a64e6370>)])]> 3. Additional Resources New to AlloyDB? Discover AlloyDB with a 30-day free trial . Google Colab Notebook : An end-to-end Python script to ingest the GloVe dataset, create indexes, and plot Recall vs QPS curves. Is HNSW the right vector index choice for your use case? Check our ‘ Choose a vector index in AlloyDB AI ’ guide.",
+    "raw_text": "AlloyDB is a fully managed, PostgreSQL-compatible database service built for your most demanding enterprise workloads. It combines the best of open source PostgreSQL with Google’s advanced technology, offering massive scalability, high availability, and native AI capabilities. It serves as a performant relational store, a unified backend for vector and full text search, and an analytics engine that is up to 100x faster than standard PostgreSQL. Vector search is the foundation of modern AI and Retrieval Augmented Generation (RAG) applications. For developers using AlloyDB and other PostgreSQL databases, pgvector is a widely adopted extension for storing, indexing, and querying vector embeddings, and HNSW (Hierarchical Navigable Small World) is a highly efficient graph-based algorithm designed for approximate nearest neighbor search across multi-layered structures. With columnar engine accelerated HNSW in AlloyDB (now in preview), you can achieve up to 4x higher queries per second (QPS) for vector search compared to standard PostgreSQL HNSW. Enterprise AI applications face a constant trade-off between speed and accuracy. When searching through millions or billions of vectors, maximizing Queries per Second (QPS) without sacrificing search quality (recall) is critical for scaling production workloads. The PostgreSQL pgvector extension offers HNSW as one of the indexes that can speed up Approximate Nearest Neighbor (ANN) searches. Let’s dive deep into how AlloyDB solves the speed vs. accuracy trade-off. Note: While this post focuses on HNSW performance, it’s worth noting that HNSW is just one part of AlloyDB’s advanced vector toolkit. AlloyDB also features ScaNN —a cutting-edge index backed by over 14 years of Google Research—giving you the flexibility to choose the perfect index for your workload. Additionally, for use cases demanding absolute precision, standard k-nearest neighbor (KNN) search is always available for 100% recall. Check out our Choose a Vector Index Guide to see how they stack up. aside_block <ListValue: [StructValue([('title', 'Get started with a 30-day AlloyDB free trial instance'), ('body', <wagtail.rich_text.RichText object at 0x7fd0a65e8a90>), ('btn_text', 'Start building for free'), ('href', 'http://goo.gle/try_alloydb'), ('image', None)])]> First, what is the AlloyDB columnar engine? The AlloyDB columnar engine is a built-in, in-memory cache that automatically stores frequently queried data in a specialized, scan-optimized columnar format. It allows AlloyDB to handle heavy analytical queries up to 100x faster than standard PostgreSQL. Additionally, it accelerates ANN searches by storing the index in memory, using a vectorized memory layout for fast traversals, and bypassing standard PostgreSQL buffer manager overhead. Performance visualization To understand the real-world performance characteristics of columnar engine Accelerated HNSW, we plotted standard QPS vs Recall curves for the GloVe 100 Angular dataset by searching more than 1M records with a limit of 100. Running this benchmark script yields the following visualization: Note: These measurements were taken on an AlloyDB C4A 16vCPU machine. Due to the inherent randomness in HNSW graph building, results may slightly vary across runs. The data reveals two transformative benefits: Massive performance throughput gains: For any given target recall (e.g. 0.95), QPS is increased by approximately 4.2x to 4.9x . This allows you to handle significantly more concurrent vector searches on the same hardware. Significant recall (accuracy) improvement: Conversely, at a fixed QPS level, columnar engine accelerated HNSW provides a substantial boost in recall. For example, we saw that at ~350 QPS (in the above chart), enabling the columnar engine improves recall from roughly 0.78 to over 0.94 – a 0.163 recall gain . This means your AI applications get much more accurate results without any latency impact. It is important to note that the baseline (blue line) already represents the index being fully cached in the PostgreSQL shared buffer cache. The performance gains shown here are not the result of moving data from disk to RAM, but rather the result of a more efficient memory architecture. How it works: Columnar engine Accelerated HNSW In standard PostgreSQL architectures, index operations utilize the shared buffer cache. Even when data is fully in-memory, the database still incurs significant overhead from the buffer manager, which must handle operations such as page pinning and unpinning, lock acquisition, buffer table lookups, and Least Recently Used (LRU) management. AlloyDB's columnar engine is a built-in, in-memory cache that stores data in a specialized, scan-optimized format. With this release, AlloyDB can use columnar engine accelerated HNSW to: Pin the index: The pgvector HNSW index is pinned (kept persistently in-memory to ensure fast access) directly into the columnar engine’s memory. Vectorized access: It utilizes a memory layout specifically designed for the high-concurrency, pointer-heavy traversals required by HNSW graphs. Bypass buffer overhead: By navigating the graph in a specialized memory space, AlloyDB avoids the standard buffer manager bottlenecks. This architectural shift is what enables the dramatic QPS and recall improvements shown above, even when comparing against a fully-cached standard index. Why it Matters For enterprise-scale applications, this isn't just about a faster database—it's about cost and quality: Reduced infrastructure costs: Achieve the same performance with significantly lower compute resources. Better AI accuracy: Reach higher recall and quality at speeds that were previously only possible for \"draft\" (high-speed, lower-accuracy results) quality search. No application changes required: Because this is built into AlloyDB, you get these gains using the same standard pgvector SQL syntax. Note that the columnar engine does utilize memory, but it is highly compressed and meticulously managed. Because the engine stores vector data in an efficient columnar format, the memory footprint is minimal compared to the massive performance gains—making it a highly favorable trade-off for enterprise workloads. Quick Start Guide To try out columnar engine accelerated HNSW in AlloyDB, follow these steps: 1. Enable the columnar engine and index caching Ensure that both google_columnar_engine.enabled and google_columnar_engine.enable_index_caching flags are set to on for your AlloyDB instance. 2. Add the HNSW Index to columnar engine Once your HNSW index is created via pgvector , execute the following SQL command to cache it in the columnar engine: code_block <ListValue: [StructValue([('code', \"SELECT google_columnar_engine_add_index('<hnsw_index_name>');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0a68898b0>)])]> 3. Additional Resources New to AlloyDB? Discover AlloyDB with a 30-day free trial . Google Colab Notebook : An end-to-end Python script to ingest the GloVe dataset, create indexes, and plot Recall vs QPS curves. Is HNSW the right vector index choice for your use case? Check our ‘ Choose a vector index in AlloyDB AI ’ guide.",
     "categories": [
       "Networks",
       "Industry & Market"
@@ -1552,7 +1602,7 @@
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/",
     "source": "Google Cloud Blog",
     "published": "2026-07-21T11:19:00+00:00",
-    "raw_text": "In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific resource in the project. For example, consider the difference between granting the role Artifact Registry Editor ( roles/artifactregistry.editor ) on a project vs. granting it on a specific repository in the project. In the former case, the access is granted to ANY repository in the project. In the latter case, users will have the editor access only to a specific repository. However, binding IAM policies to a resource or service level isn't always possible. This is when it is time to use IAM conditions . Let’s look at two distinct examples that demonstrate the power of conditions when hardening access management: one for traditional administrative roles, and one for modern AI integrations. Use Case 1: Constraining the Power of Admins This case demonstrates how to restrict the specific operations that broad IAM roles are authorized to perform. You can easily scope administrative privileges for managing specific resources in a project by granting a \"resource creator\" role at the project level and an editor role on a selected resource. It is far more challenging to constrain IAM Admin Roles that are intended to grant access to operations rather than specific resources. A representative example would be the IAM Admin role ( roles/iam.admin ). Users granted this role can grant themselves any other role or create a new one. It greatly exceeds practical needs. The first step is to narrow the access by using the Project IAM Admin role ( roles/resourcemanager.projectIamAdmin ) that provides administrative privileges only at the level of the project. It is possible, however, to restrict the granted privileges even further. For example, suppose you grant the Project IAM Admin role to your builder service account that creates resources and deploys workloads. The workloads only need access to the BigQuery and Agent Platform APIs (formerly Vertex APIs) and permission to write logs and traces. For such a case you can use the following gcloud CLI command or its alternative in Terraform: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding \"${PROJECT_ID}\" \\\\\\r\\n --member=\"serviceAccount:${SA_MAIL}\" \\\\\\r\\n --role=\"roles/resourcemanager.projectIamAdmin\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=LimitedIAMAdmin:\\\\\\r\\nexpression=api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', [])\\\\\\r\\n.hasOnly([\\\\\\r\\n\\'roles/aiplatform.user\\',\\\\\\r\\n\\'roles/bigquery.jobUser\\',\\\\\\r\\n\\'roles/bigquery.dataViewer\\',\\\\\\r\\n\\'roles/cloudtrace.agent\\',\\\\\\r\\n\\'roles/logging.logWriter\\'\\\\\\r\\n])\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0b4089be0>)])]> The value of the condition parameter is defined using Common Expression Language ( CEL ) syntax . First it customizes a field delimiter to be a colon instead of a comma and then describes the condition fields title and expression . The expression field uses functions for API attributes to identify which roles are being granted to allow granting only the roles in the comma delimited list. The same operation in Terraform will look very similar. Using input variables instead of environment variables, it will look like this: code_block <ListValue: [StructValue([('code', 'resource \"google_project_iam_member\" \"limited_project_iam_admin\" {\\r\\n project = var.project_id\\r\\n role = \"roles/resourcemanager.projectIamAdmin\"\\r\\n member = \"serviceAccount:${var.sa_email}\"\\r\\n condition {\\r\\n title = \"LimitedIAMAdmin\"\\r\\n expression = <<-EOT\\r\\n api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', []).hasOnly([\\r\\n \\'roles/aiplatform.user\\',\\r\\n \\'roles/bigquery.jobUser\\',\\r\\n \\'roles/bigquery.dataViewer\\',\\r\\n \\'roles/cloudtrace.agent\\',\\r\\n \\'roles/logging.logWriter\\'\\r\\n ])\\r\\n EOT\\r\\n }\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0b4089940>)])]> Use Case 2: Control over MCP Server Access This case is about hardening access to specific services behind a single set of permissions. Google exposes access to a subset of cloud resources and services via MCP Servers that expose Model Context Protocol (MCP) endpoints. The access to these servers is granted using the predefined MCP Tool User ( roles/mcp.toolUser ) role. This role grants access to ALL available MCP servers (for a project where an IAM policy is set). Using conditions helps to narrow the access to a specific MCP server. code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding $PROJECT_ID \\\\\\r\\n --member=\"serviceAccount:$SA_EMAIL\" \\\\\\r\\n --role=\"roles/mcp.toolUser\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=bigquery_mcp_server_only:\\\\\\r\\nexpression=resource.service == \\'bigquery.googleapis.com\\'\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0b4814160>)])]> Notice that the value compared to the resource.service attribute is not the MCP server endpoint (which is bigquery.googleapis.com/mcp ) but the endpoint of the service. It is possible to narrow the access scope further to the level of the specific MCP tools. For this you will need to use API attributes again. The following expression limits the service account access to the level of only two BigQuery MCP tools. code_block <ListValue: [StructValue([('code', \"expression=api.getAttribute('mcp.googleapis.com/tool.name', '') in [\\\\\\r\\n'mcp_bigquery-mcp_execute_sql',\\\\\\r\\n'mcp_bigquery-mcp_execute_sql_readonly'\\\\\\r\\n]\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0b4814610>)])]> Note that if you condition the IAM policy binding at the MCP tool level, you don't need to validate the resource.service attribute. For experimenting with MCP server access you can use the Getting Started with Google MCP Servers codelab and modify its gcloud projects add-iam-policy-binding commands. And Even More Besides enforcing precise control when using predefined roles, IAM conditions let you craft access management based on the time of the request. For example, the following condition's expression allows access only during daytime on weekdays: code_block <ListValue: [StructValue([('code', \"expression=request.time.getHours('Europe/Berlin') >= 9 &&\\\\\\r\\nrequest.time.getHours('Europe/Berlin') <= 17 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') >= 1 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') <= 5\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0b4814c10>)])]> The expression limits access from 9 o'clock in the morning to 5 o'clock in the evening according to the \"Europe/Berlin\" timezone from Monday to Friday (days of the week range from 0 to 6, starting with Sunday). IAM conditions allow controlling the identity of the actor using the principal attributes . However, it can easily become an anti-pattern. The recommended practice is to control the identity of actors allowed to use the policy through the list of the IAM policy's principals instead of using the conditions. Conclusion and More Resources While IAM conditions give you surgical precision over Allow policies, you can take your defense-in-depth strategy even further with IAM Deny policies . With Deny Policies you can grant access using the predefined IAM roles with Allow policies and remove excessive permissions of the role to enforce PoLP. See the following resources for additional information about Deny policies: Identify the permissions that are supported in deny policies . Get the format of principal identifiers in deny policies . Find out how to troubleshoot access issues with deny policies . Learn more about denying access to principals . Read the blog post about Build defense in depth . You can use Google Skills for hands-on experience with IAM policies.",
+    "raw_text": "In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific resource in the project. For example, consider the difference between granting the role Artifact Registry Editor ( roles/artifactregistry.editor ) on a project vs. granting it on a specific repository in the project. In the former case, the access is granted to ANY repository in the project. In the latter case, users will have the editor access only to a specific repository. However, binding IAM policies to a resource or service level isn't always possible. This is when it is time to use IAM conditions . Let’s look at two distinct examples that demonstrate the power of conditions when hardening access management: one for traditional administrative roles, and one for modern AI integrations. Use Case 1: Constraining the Power of Admins This case demonstrates how to restrict the specific operations that broad IAM roles are authorized to perform. You can easily scope administrative privileges for managing specific resources in a project by granting a \"resource creator\" role at the project level and an editor role on a selected resource. It is far more challenging to constrain IAM Admin Roles that are intended to grant access to operations rather than specific resources. A representative example would be the IAM Admin role ( roles/iam.admin ). Users granted this role can grant themselves any other role or create a new one. It greatly exceeds practical needs. The first step is to narrow the access by using the Project IAM Admin role ( roles/resourcemanager.projectIamAdmin ) that provides administrative privileges only at the level of the project. It is possible, however, to restrict the granted privileges even further. For example, suppose you grant the Project IAM Admin role to your builder service account that creates resources and deploys workloads. The workloads only need access to the BigQuery and Agent Platform APIs (formerly Vertex APIs) and permission to write logs and traces. For such a case you can use the following gcloud CLI command or its alternative in Terraform: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding \"${PROJECT_ID}\" \\\\\\r\\n --member=\"serviceAccount:${SA_MAIL}\" \\\\\\r\\n --role=\"roles/resourcemanager.projectIamAdmin\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=LimitedIAMAdmin:\\\\\\r\\nexpression=api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', [])\\\\\\r\\n.hasOnly([\\\\\\r\\n\\'roles/aiplatform.user\\',\\\\\\r\\n\\'roles/bigquery.jobUser\\',\\\\\\r\\n\\'roles/bigquery.dataViewer\\',\\\\\\r\\n\\'roles/cloudtrace.agent\\',\\\\\\r\\n\\'roles/logging.logWriter\\'\\\\\\r\\n])\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0a68eafa0>)])]> The value of the condition parameter is defined using Common Expression Language ( CEL ) syntax . First it customizes a field delimiter to be a colon instead of a comma and then describes the condition fields title and expression . The expression field uses functions for API attributes to identify which roles are being granted to allow granting only the roles in the comma delimited list. The same operation in Terraform will look very similar. Using input variables instead of environment variables, it will look like this: code_block <ListValue: [StructValue([('code', 'resource \"google_project_iam_member\" \"limited_project_iam_admin\" {\\r\\n project = var.project_id\\r\\n role = \"roles/resourcemanager.projectIamAdmin\"\\r\\n member = \"serviceAccount:${var.sa_email}\"\\r\\n condition {\\r\\n title = \"LimitedIAMAdmin\"\\r\\n expression = <<-EOT\\r\\n api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', []).hasOnly([\\r\\n \\'roles/aiplatform.user\\',\\r\\n \\'roles/bigquery.jobUser\\',\\r\\n \\'roles/bigquery.dataViewer\\',\\r\\n \\'roles/cloudtrace.agent\\',\\r\\n \\'roles/logging.logWriter\\'\\r\\n ])\\r\\n EOT\\r\\n }\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0a68eafd0>)])]> Use Case 2: Control over MCP Server Access This case is about hardening access to specific services behind a single set of permissions. Google exposes access to a subset of cloud resources and services via MCP Servers that expose Model Context Protocol (MCP) endpoints. The access to these servers is granted using the predefined MCP Tool User ( roles/mcp.toolUser ) role. This role grants access to ALL available MCP servers (for a project where an IAM policy is set). Using conditions helps to narrow the access to a specific MCP server. code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding $PROJECT_ID \\\\\\r\\n --member=\"serviceAccount:$SA_EMAIL\" \\\\\\r\\n --role=\"roles/mcp.toolUser\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=bigquery_mcp_server_only:\\\\\\r\\nexpression=resource.service == \\'bigquery.googleapis.com\\'\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0a68eabb0>)])]> Notice that the value compared to the resource.service attribute is not the MCP server endpoint (which is bigquery.googleapis.com/mcp ) but the endpoint of the service. It is possible to narrow the access scope further to the level of the specific MCP tools. For this you will need to use API attributes again. The following expression limits the service account access to the level of only two BigQuery MCP tools. code_block <ListValue: [StructValue([('code', \"expression=api.getAttribute('mcp.googleapis.com/tool.name', '') in [\\\\\\r\\n'mcp_bigquery-mcp_execute_sql',\\\\\\r\\n'mcp_bigquery-mcp_execute_sql_readonly'\\\\\\r\\n]\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0a68ead00>)])]> Note that if you condition the IAM policy binding at the MCP tool level, you don't need to validate the resource.service attribute. For experimenting with MCP server access you can use the Getting Started with Google MCP Servers codelab and modify its gcloud projects add-iam-policy-binding commands. And Even More Besides enforcing precise control when using predefined roles, IAM conditions let you craft access management based on the time of the request. For example, the following condition's expression allows access only during daytime on weekdays: code_block <ListValue: [StructValue([('code', \"expression=request.time.getHours('Europe/Berlin') >= 9 &&\\\\\\r\\nrequest.time.getHours('Europe/Berlin') <= 17 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') >= 1 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') <= 5\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd0a68eadc0>)])]> The expression limits access from 9 o'clock in the morning to 5 o'clock in the evening according to the \"Europe/Berlin\" timezone from Monday to Friday (days of the week range from 0 to 6, starting with Sunday). IAM conditions allow controlling the identity of the actor using the principal attributes . However, it can easily become an anti-pattern. The recommended practice is to control the identity of actors allowed to use the policy through the list of the IAM policy's principals instead of using the conditions. Conclusion and More Resources While IAM conditions give you surgical precision over Allow policies, you can take your defense-in-depth strategy even further with IAM Deny policies . With Deny Policies you can grant access using the predefined IAM roles with Allow policies and remove excessive permissions of the role to enforce PoLP. See the following resources for additional information about Deny policies: Identify the permissions that are supported in deny policies . Get the format of principal identifiers in deny policies . Find out how to troubleshoot access issues with deny policies . Learn more about denying access to principals . Read the blog post about Build defense in depth . You can use Google Skills for hands-on experience with IAM policies.",
     "categories": [
       "Cloud Infrastructure",
       "GRC",
@@ -1685,6 +1735,113 @@
       ]
     },
     "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS."
+  },
+  {
+    "title": "10 survival tips for CSOs who report to the CEO",
+    "url": "https://www.csoonline.com/article/4188581/10-survival-tips-for-csos-who-report-to-the-ceo.html",
+    "source": "CSO Online",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "As the CSO grows in prominence, security leaders are increasingly earning a seat at the executive table, reporting directly to the CEO with the expectation to help drive business strategy and ensure organizational success. Reporting to the CEO unlocks greater access and influence for security leaders, and while CSOs who report to their organization’s CIO still have clout, it’s a very different experience picking up the phone to speak directly with the CEO as a strategic partner. Regardless of reporting structure, CSOs must clearly understand what they are being tasked to solve. That might sound simple, but making the leap to being a CEO’s direct report requires a new perspective, a different set of skills, and a business-level focus on metrics to do so. We asked several current CSOs, CEOs, and IT staffing experts for advice on how security executives can best navigate a direct reporting relationship with their CEO. Offering insights below are George Gerchow , CSO at Bedrock Data and member of the IANS faculty; Matt Chiodi , CSO of Cerby; Chris Schueler , CEO at Cyderes; and Greg Fuller , vice president of the Technology Skills Suite at Skillsoft. 1. Understand how the CEO views your role Most CEOs expect that, when you report directly to them, you fully own your functional area. Whether it’s cybersecurity, operations, or finance, they look to you as the expert in that domain. The CEO may have opinions, but ultimately, you are expected to lead and provide direction. CEOs expect their CSO to be a true strategic partner , not just a risk reporter — connecting cybersecurity to revenue protection, regulatory compliance, customer trust, and operational resilience. In turn, CSOs should expect CEOs to treat governance as a strategic enabler, not a bureaucratic necessity. 2. Power up on skills vital to your organization at an executive level On the technology side, AI and machine learning, cloud security, incident response, zero trust architecture, and governance, risk, and compliance (GRC) are the areas where threats evolve fastest and strategic leadership has the greatest impact. Equally important are “power skills”: communication, critical thinking, adaptability, and emotional intelligence. The ability to translate complex risk into business terms is what separates a strong CSO from a purely technical one. Skills, not titles, define effectiveness in the eyes of a CEO. 3. Take advantage of your direct access Direct access to the CEO will enable you to influence strategy, shape resilience planning , and ensure cybersecurity is treated as a business imperative rather than a cost center. That authority is strongest when the CEO understands cybersecurity as a strategic lever, not just a technical function. While a direct reporting relationship gives you access to the CEO, it also comes with the responsibility to operate at that level. You need to provide clear, executive-level visibility into your cybersecurity program. 4. Brush up on business translation A CSO who leads with business alignment will always carry more influence when they can translate risk into business language rather than technical jargon. Building programs that must survive an IPO, a FedRAMP audit, and real customer scrutiny forces you to tie security to revenue and trust. The most valuable skill is translation — defining technical risk in terms of executive action and business impact that a CEO and a board can act on. You must build trust through transparency. These are the human skills that complement technology, creating a collaborative human-AI dynamic where leaders make faster, better-informed decisions. 5. Treat conversations as risk assessment opportunities Highly effective security leaders treat every business conversation as a risk conversation in disguise. That mindset is what largely separates a great CSO from a great technologist. Earn the CEO’s trust by speaking business first, security second. Translate every risk into revenue, reputation, or regulatory exposure. Remember, a good CEO wants a translator, not an alarm system. They expect no surprises, a clear read on the risks that matter, and a security leader who helps the business move faster rather than slowing it down . 6. Define what a successful relationship should look like and put it in writing Regardless of the reporting relationship, start by defining the end goal and putting it in writing. It will evolve over time, but having that initial clarity is critical. This is especially important when you’re new in a role and aiming to make your first 60, 90, or 120 days, and your first year, successful. In such cases, it’s essential to align early. Do that collaboratively, and document it. 7. Prioritize trust and candor The CEO needs to trust that the CSO isn’t sandbagging, and the CSO needs enough psychological safety to deliver bad news fast. When those conditions exist, security becomes a strategic asset — not a cost center. To that end, focus on clear communication above all, and present yourself as part of a team, not a solo player. Stay calm under pressure during incidents, and treat people as peers rather than policing them. The leaders who last build trust before they need it. 8. Treat governance as a strategic competitive advantage The strongest partnerships also share a commitment to governance as a competitive advantage. Governance is the brakes that let you drive fast safely. When a CSO and CEO are aligned on that principle, the organization can innovate with AI while maintaining oversight and protecting against unnecessary risk . The result is an organization that does not just react to threats but builds resilience into how it operates. 9. Set clear goals and measure progress Setting clear goals and measuring progress against those goals is essential. When expectations are clear, the areas you need to focus on become much clearer. It doesn’t solve every problem, but aligning early with your leadership, whether that’s a CEO or a CIO, can significantly reduce the pressure you may feel. Also, never let your boss be surprised. This is where being clear on goals and consistently tracking both leading and lagging metrics becomes especially important, particularly in a direct reporting relationship with the CEO. 10. Be willing to endure challenge and discomfort Finally, persistence and a willingness to endure discomfort for something that matters more than the pain itself are critical to surviving in this relationship. The role of a cybersecurity leader is often thankless. If you’re doing your job well, no one really notices.",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Industry & Market",
+      "Networks",
+      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "threat",
+        "security",
+        "cyber",
+        "zero trust",
+        "incident response",
+        "edr",
+        "cloud security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "regulatory",
+        "audit"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "partnership",
+        "ipo",
+        "ey"
+      ]
+    },
+    "summary": "As the CSO grows in prominence, security leaders are increasingly earning a seat at the executive table, reporting directly to the CEO with the expectation to help drive business strategy and ensure organizational success. Reporting to the CEO unlocks greater access and influence for security leaders, and while CSOs who report to their organization’s CIO still have clout, it’s a very different experience picking up the phone to speak directly with the CEO as a strategic partner. Regardless of reporting structure, CSOs must clearly understand what they are being tasked to solve. That might sound simple, but making the leap to being a CEO’s direct report requires a new perspective, a different set of skills, and a business-level focus on metrics to do so."
+  },
+  {
+    "title": "New CISO appointments 2026",
+    "url": "https://www.csoonline.com/article/4186743/new-ciso-appointments-2026.html",
+    "source": "CSO Online",
+    "published": "2026-07-22T06:30:00+00:00",
+    "raw_text": "The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security officer (CISO) for the first time to support a deeper commitment to information security. Follow this column to keep up with new appointments to senior-level security roles and perhaps gain a little insight into hiring trends. If you have an announcement of your own that you would like us to include here, contact Peter Sayer, executive editor of news, at peter_sayer@foundryco.com . New CISO appointments in July 2026 Paul Adams named CISO at Blue Mountain Blue Mountain appointed Paul Adams as CISO. Adams brings more than 25 years of leadership experience in SaaS and technology spanning enterprise security strategy, security architecture, and cloud infrastructure to the enterprise asset management software maker. Solana Foundation names Michael Coates as first CISO The Solana Foundation hired Michael Coates to be its first chief information security officer. Coates brings two decades of cybersecurity leadership, including roles at Mozilla, Twitter, Shape Security, and the OWASP Foundation, and will focus on ecosystem security, malicious uses of AI and crypto-specific threats. Ravi Thatavarthy joins Primo Brands as CISO Primo Brands hired Ravi Thatavarthy as chief information security officer to oversee the company’s cybersecurity and IT efforts and strengthen its security and technology foundation. He brings extensive digital security and technology leadership experience across major retail and consumer goods brands. Datavault AI appoints Barry Childe CISO Barry Childe, a co-founder of quantum encryption company Arqit, has joined Datavault AI as CISO. Childe previously served as a distinguished engineer at HSBC, and held other senior technology roles at Barclays Capital and VMware. Jason Cradit joins EverLine as CISO and CTO Critical infrastructure technical services provider EverLine has hired Jason Cradit as CISO and CTO. Cradit has previously held leadership roles in consulting, software, and infrastructure operations, and founded software vendor Pivvot. New CISO appointments in June 2026 Infoblox names Henrik Smith CISO Former Amazon executive Henrik Smith has joined security platform vendor Infoblox as CISO. Smith most recently served as head of security for devices and systems at Amazon, and prior to that was vice-president of security at Salesforce. GitLab hires Chaim Mazal as CISO Chaim Mazal, previously chief AI and security officer at Gigamon, has joined GitLab as CISO. He’s been a GitLab customer for over eight years, and moved into the CISO role after serving on the company’s advisory board. Paras Malhotra joins Starburst as CISO Enterprise intelligence platform Starburst has hired Paras Malhotra as CISO. He previously served as senior director of information security at Datadog and, prior to that, held a variety of security roles at Amazon Web Services. Socure hires Mark Carter as CISO Mark Carter has joined identity infrastructure provider Socure as CISO. He has previously worked as CISO at Navan, Tesla, and Vimeo. SolarWinds appoints Justin Henkel as CISO IT management software vendor SolarWinds has named Justin Henkel its new CISO. Henkel was previously deputy CISO at OneTrust, and before that spent 25 years as an intelligence officer in the US Air Force. Uber taps Philip Martin as security chief Uber appointed Philip Martin as CISO , strengthening the company’s cybersecurity and digital trust leadership as it continues to expand its global mobility, delivery, and logistics operations. Ali Waezzadah named CISO at iCOUNTER iCOUNTER appointed Ali Waezzadah as chief information security officer, a respected cybersecurity executive with more than 20 years of experience leading security transformations across critical infrastructure, media, government, and enterprise environments. Roger Hale joins 1Kosmos as CISO 1Kosmos appointed Roger Hale as chief information security officer, bringing more than two decades of executive management experience with global cybersecurity companies. Jacob Berry appointed CISO at Fable Security Fable Security appointed Jacob Berry as chief information security officer. Berry brings 18 years of experience across technology and cybersecurity, with background in incident response, cyber operations, governance, and compliance to the human risk management vendor. Novant Health promotes Srini Uppugonduri to CISO Novant Health promoted cybersecurity leader Srini Uppugonduri to senior vice president and CISO. He brings more than two decades leading enterprise cybersecurity, infrastructure, and technology operations across complex healthcare organizations with expertise in cyber engineering, threat intelligence, and resilience efforts. US Bank appoints Ann Barron-DiCamillo as global CISO US Bank appointed Ann Barron-DiCamillo as executive vice president and global chief information security officer. Barron-DiCamillo brings more than 25 years of cybersecurity and risk management experience from roles at Citi, American Express, and as director of the US Computer Emergency Readiness Team. Texas AG appoints Chad Holmes as CISO The Texas Office of the Attorney General named Chad Holmes chief information security officer. Holmes brings more than 25 years of private-sector cybersecurity experience, including roles at Legal & General, Kivu Consulting, Optiv, EY, FireEye, Intel, and McAfee, and leads initiatives spanning cybersecurity, AI, cyber resilience, threat intelligence, and incident response readiness. BreachRx appoints Stephen Garcia as security chief BreachRx appointed Stephen Garcia as CISO. Garcia brings more than 20 years of security leadership experience, including roles at major financial-services, technology, and enterprise organizations, and will help advance the company’s security strategy and customer trust. Omnicell promotes Michael McNeil to SVP and CISO Omnicell promoted Michael McNeil to senior vice president and chief information security officer. The former McKesson CISO will expand his responsibilities to advance Omnicell’s global cybersecurity and cloud security strategy. Candescent names Thomas Hill as CISO Candescent appointed Thomas Hill as chief information security officer. Hill brings more than two and a half decades of information security experience, including five years most recently as CISO at nCino and prior service as CIO and CISO at Live Oak Bank. John Walton appointed CISO at Nubank Nubank appointed John Walton as chief information security officer. With more than 25 years in security and engineering leadership roles, Walton will lead the digital financial services platform’s information security strategy. Semperis taps John Podboy as security chief Semperis appointed John Podboy CISO. Podboy brings more than 15 years of experience spanning cybersecurity, technology management, digital transformation, risk and resilience, including leadership roles at First Citizens Bank, Fifth Third Bank, Thomson Reuters and GE Digital. Lexitas appoints Joe Giannetti as CIO and CISO Lexitas named Joe Giannetti its new CIO and CISO. Giannetti brings more than 25 years of experience in technology and security leadership from high-growth organizations, including Employ, Applied Systems, and previous roles managing complex IT infrastructure transformations. DHS names Supriya Ahuja as acting deputy CISO The US Department of Homeland Security appointed Supriya Ahuja acting deputy chief information security officer. She brings nearly two decades of cybersecurity and cyber-risk experience across government and private-sector organizations. Also: Christopher Porter joins Booz Allen Hamilton as global CISO William Schmidt named VP & CISO at Pavilion Payments New CISO appointments in May 2026 Backstory names Victor Chang CISO Backstory, formerly People.ai, has appointed Victor Chang as CISO. Chang has previously served as CISO at Amdocs, among other senior security roles. Adam Dimopoulos is Entrust’s new CISO Entrust has appointed former Synchrony VP of Information Security Adam Dimopoulos as its new CISO. Dimopoulos has also previously worked in advisory roles at Microsoft and Gartner. Tanium names Paul Black as chief information security officer Tanium appointed Paul Black CISO with a mandate that includes AI-related security priorities. Black brings broad cybersecurity and technology leadership experience across technology, financial-services and enterprise organizations. Merck appoints Tim McKnight as SVP, IT Risk Management & Security and CISO Merck has tapped Tim McKnight to head up IT risk management and cybersecurity. He brings more than 30 years of security leadership experience, including senior roles at UnitedHealth Group and SAP and earlier work across major technology, financial-services and government organizations. Semperis names John Podboy CISO Semperis appointed John Podboy as chief information security officer. Podboy brings more than 15 years of cybersecurity experience spanning risk, resilience, and digital transformation leadership at Fifth Third Bank, First Citizens Bank, Thomson Reuters, and GE Digital managing security programs across Fortune 100 organizations. Edwin Ng appointed CISO at LogicGate LogicGate announced Edwin Ng as chief information security officer. Ng has a two-decade track record of fortifying digital resilience for the world’s most iconic brands. Also: Erin Heard promoted to acting CISO at USPTO Jason Lee named CISO of PlayOn Sports Alex Burinskiy appointed CISO of Accela New CISO appointments in April 2026 NMFTA appoints Ben Wilkens as cybersecurity director NMFTA promoted Ben Wilkens to director of cybersecurity. Previously a cybersecurity principal engineer at NMFTA, he brings hands-on transportation experience and advanced cybersecurity expertise. A CISSP, CCSP, and CISM who also holds an active Class A CDL, he will lead NMFTA’s cybersecurity strategy, research, and industry engagement. Discovery Education appoints Kara Schlageter as first CISO Discovery Education announced Kara Schlageter as its first chief information security officer. Schlageter brings 25-plus years of cybersecurity, enterprise risk, and large-scale transformation expertise in highly regulated environments. She aligns technical security strategies with business priorities using secure-by-design innovation principles. Also: Lucas Moody joins Astera Labs as CISO New CISO appointments in March 2026 Kathy Wang joins micro1 as CISO Frontier AI model training company micro1 has hired Kathy Wang as CISO. She was most recently CISO at hospitality software developer Otelier, and has previously held top cybersecurity roles at Discord and GitLab. Green Impact Exchange names John Visneski CISO John Visneski has joined stock exchange operator Green Impact Exchange as CISO. He was previously CISO at MGM Studios, and following that company’s acquisition by Amazon became head of security for mergers and acquisitions. His cybersecurity career began with the US Air Force, where he served as cyber advisor to the Secretary and Chief of Staff of the Air Force. US DoW appoints James ‘Aaron’ Bishop deputy CIO and CISO The US Department of War named James “Aaron” Bishop deputy chief information officer (cybersecurity) and CISO. In the role, he will provide policy, technical, program, and department-wide oversight of cybersecurity matters. SMBC Americas brings on Donna Hart as CISO SMBC Americas appointed Donna Hart CISO. Hart brings more than 30 years of experience across information security, infrastructure, and cyber risk management, including leadership experience at Ally Financial and more than 20 years at Wells Fargo and Wachovia. BayCare taps Robert Carvajal as security chief BayCare named Robert Carvajal chief information security officer. He will oversee BayCare’s cybersecurity strategy in support of innovation, patient safety, and operational excellence. Pennsylvania appoints Andy Ritter as CISO Pennsylvania appoints Andy Ritter as chief information security officer. Ritter brings 30-plus years of cybersecurity and IT experience spanning public and private sectors. Previously serving as deputy CISO, he now leads statewide cyber resilience, enterprise risk management, and security operations. New CISO appointments in February 2026 Western Alliance appoints Stephen McMaster as CISO Western Alliance Bank named Stephen McMaster chief information security officer. McMaster brings more than 25 years of experience, including 20 years at Wells Fargo, where he most recently led cloud security, data loss prevention, third-party cybersecurity, and business information security programs. Teradata names Ken Ricketts as SVP and CISO Teradata appointed Ken Ricketts senior vice president and chief information security officer. With more than 20 years of experience, he will lead global security strategy with a focus on cloud security, AI-driven innovation, and risk-based governance. New CISO appointments in January 2026 Julien Mousqueton joins Cohesity as field CISO for Europe Data security firm Cohesity has hired Julien Mousqueton as field CISO for Europe. His previous role was as CTO at IT service provider Computacenter. He is a reservist advisor for OFAC, the French national police force’s anti-cybercrime division, and created the real-time ransomware activity-tracking platform ransomware.live . Cook Children’s hires Kathy Jobes as CISO Cook Children’s Health Care System named Kathy Jobes its chief information security officer. Jobes brings more than 25 years of healthcare cybersecurity experience, with a focus on data governance and risk management, and is known for a human-centric approach to security.",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market",
+      "GRC",
+      "Cloud Infrastructure",
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "saas",
+        "digital transformation"
+      ],
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "ransomware",
+        "threat",
+        "encryption",
+        "security",
+        "cyber",
+        "soc",
+        "threat intelligence",
+        "incident response",
+        "cloud security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "risk management",
+        "policy",
+        "cyber risk",
+        "enterprise risk"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "acquisition",
+        "merger",
+        "ey",
+        "gartner",
+        "consulting",
+        "service provider",
+        "vendor"
+      ]
+    },
+    "summary": "The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security officer (CISO) for the first time to support a deeper commitment to information security. Follow this column to keep up with new appointments to senior-level security roles and perhaps gain a little insight into hiring trends. If you have an announcement of your own that you would like us to include here, contact Peter Sayer, executive editor of news, at peter_sayer@foundryco.com ."
   },
   {
     "title": "AI agents can escape sandboxes without ever breaking them",
@@ -1922,90 +2079,6 @@
       ]
     },
     "summary": "Microsoft has issued a warning about a recent surge in ACR Stealer activity that uses ClickFix-style social engineering to steal credentials, browser data, and sensitive business documents. In a new report, Microsoft researchers detailed two separate campaigns observed between late April and mid-June 2026 that use different execution techniques for the same theft. The campaign was seen tricking users into executing malicious commands to resolve a fake issue. Once the malware is executed, it extracts browser-stored credentials, session tokens, and documents, which can potentially allow attackers to access cloud services, impersonate users, and conduct follow-on intrusions across enterprise environments."
-  },
-  {
-    "title": "SOCs face a human challenge as AI speeds alerts and threats",
-    "url": "https://www.csoonline.com/article/4198016/socs-face-a-human-challenge-as-ai-speeds-alerts-and-threats.html",
-    "source": "CSO Online",
-    "published": "2026-07-20T07:00:00+00:00",
-    "raw_text": "Security operations centers (SOCs) have spent years struggling under the weight of growing alert volumes, expanding attack surfaces, and chronic staffing shortages. Now artificial intelligence is adding a new complication: not just more information, but more machine-generated information that must itself be evaluated. “There is an asymmetry here because you now have to parse through a lot of AI slop to get to, ‘Okay, is this real or not?’” Fernando Montenegro , vice president and practice lead at The Futurum Group, tells CSO. His observation captures a growing concern among security leaders. AI is helping attackers and defenders move faster, but it is also creating new forms of cognitive burden for the humans tasked with separating signal from noise. As AI accelerates vulnerability discovery and enables more automated reconnaissance and exploitation, defenders are increasingly responsible for overseeing systems whose outputs can be difficult to interpret or verify. The challenge is not simply more work. It is that the volume, speed, and complexity of that work are increasing simultaneously. Yet experts who study and advise SOCs reject the idea that collapse is inevitable. Instead, they describe an industry entering a difficult transition that could reshape how security teams operate and how humans and machines share responsibility for defense. The vulnerability surge is exposing years of security debt One of the most immediate concerns is the possibility that AI dramatically increases the number of vulnerabilities organizations must identify and remediate. Chris Crowley , a longtime cybersecurity instructor and SOC expert, argues that organizations are facing the consequences of years of accumulated technology debt . “A lot of what we’re going to have to account for in the next couple of years is a technology debt of vulnerable software that has been deployed because it’s good enough to solve the problem, but then there are all these latent cyber issues, flaws, vulnerabilities that weren’t discovered prior to deployment,” he tells CSO. AI-assisted vulnerability discovery has the potential to expose those weaknesses at a pace defenders have never experienced before. “The compression of work that is being dropped on us is unprecedented,” Crowley says. “We’ve just been ignoring it for decades.” He does not believe AI will necessarily create entirely new classes of vulnerabilities. Instead, he expects defenders to confront much larger volumes of familiar problems. “We’re going to have 100 of these simultaneously,” he says, referring to the kinds of high-priority vulnerabilities security teams traditionally handle one at a time. The AI challenge for many SOCs may be less a novelty problem than a volume problem. Security teams already know how to patch systems, prioritize remediation, and respond to critical exposures. What changes is the scale and speed at which those demands arrive. Organizations with mature patching, prioritization, escalation, and response processes may struggle but adapt. Organizations that have treated security operations as a bare-minimum compliance function may find themselves overwhelmed. For CISOs, Crowley says, that means treating “patch now” less as an occasional emergency state and more as a permanent operating posture . As AI accelerates vulnerability discovery, the distinction between routine maintenance and crisis response may continue to blur. He compares the situation to disaster recovery planning. Organizations that wait until a crisis arrives to establish staffing plans, escalation paths, and remediation processes may discover there is not enough help available. Cognitive overload may become the defining challenge While vulnerability discovery receives much of the attention, Montenegro believes security leaders need a broader framework for understanding AI’s impact. Organizations should think about AI through three lenses, he says: security for AI, AI for security, and security from AI. The first involves protecting AI systems. The second involves using AI to improve defensive operations. The third asks what happens when adversaries use AI against the organization. For SOCs, all three categories are beginning to overlap. As AI makes it easier to create reports, assessments, vulnerability submissions, and other operational artifacts, humans remain responsible for determining whether that information is accurate and useful. “It becomes much easier to generate content,” Montenegro says, “but if you’re going to review that content as a human, the onus on you now is that much larger.” The result is a new form of cognitive overload. Security professionals may spend increasing amounts of time evaluating machine-generated information instead of conducting higher-value security work. Organizations can increasingly use AI to summarize reports, evaluate alerts, and assist with investigations, but humans remain responsible for validating the results. “We’re not at the stage yet where people are comfortable” handing off critical decisions entirely to AI, he says. That leaves defenders caught between two competing realities: AI is creating more information to process, but AI is also becoming one of the few viable tools for managing that growing workload. For Montenegro, the principle should be to automate tasks, not roles. AI can absorb repetitive investigative steps, but organizations should be cautious about removing humans from the process entirely. The risk, he says, is that if organizations hide too much complexity behind automated outputs, analysts may lose opportunities to develop the domain knowledge needed to advance. “How is that professional who is reacting to those alerts growing as a professional?” he says. The gap between mature and struggling SOCs may widen Not every organization will experience the impact of AI in the same way. John Hubbard , senior cybersecurity consultant and SANS instructor, believes the industry’s response will largely depend on how well organizations have prepared for operational stress before AI arrives at scale. “I would roughly break security operations teams into two camps,” Hubbard tells CSO. “There are the ones that are definitely struggling, are already overwhelmed. And then some are doing really well.” The struggling organizations tend to be understaffed, underfunded, undertrained, or dependent on ad hoc processes. Every incident feels different, forcing teams to improvise under pressure. “Getting hit with something like this can certainly be an accelerant for burnout if they weren’t already experiencing it,” Hubbard says. By contrast, mature security teams have already invested in processes, training, exercises, and automation. “The teams that are doing a really solid job now are probably not super overwhelmed because they’ve developed the processes and procedures to be ready for this kind of thing,” Hubbard says. He compares successful SOCs to fire departments. Firefighters cannot predict exactly where the next emergency will occur, but they know how to respond because they have rehearsed those responses repeatedly. “The teams that kind of can react like a fire department are the ones that are getting it right,” he says. Those organizations conduct tabletop exercises , adversary emulation exercises, red-team assessments , and incident response drills. As a result, they can absorb additional workload without descending into panic. Burnout remains the industry’s most difficult problem Despite widespread concern about AI-enabled attacks, none of the experts view AI solely as a threat. Several argue that AI will become essential for helping defenders cope with the challenges it creates. Jose-Marie Griffiths , chancellor and former president of Dakota State University, believes AI can help security teams sift through overwhelming volumes of information and identify the signals that matter most. “People who work in SOCs are now seeing overwhelming volumes of data, and they’re getting fatigued,” Griffiths tells CSO. AI can help automate portions of analysis, validate alerts, and improve visibility into complex environments. But Griffiths cautions that some AI-assisted vulnerability discovery tools are also producing large numbers of false positives. That matters because false positives do not eliminate work. They create it. As organizations confront escalating volumes of findings, distinguishing genuine risk from erroneous results may become as important as discovering vulnerabilities in the first place. The experts agree that technology alone will not determine outcomes. People will. Crowley argues that cybersecurity professionals must recognize that uncertainty is intrinsic to the profession. “We are the group that deals with uncertainty,” he says. “That’s really and truly what cybersecurity is.” That reality places responsibility on both individuals and organizations. Analysts need mechanisms for managing stress. Teams need to recognize when colleagues are approaching their limits. Managers need to establish healthy escalation practices and realistic expectations . Hubbard rejects the notion that burnout is inevitable. “It is not a foregone conclusion that security operations jobs have to be a painful grind that everyone hates,” he says. He has seen organizations where employees remain engaged for years because leaders actively manage workload, create supportive cultures, and encourage open communication. That includes making it safe for analysts to admit when they have reached their limits. “If people are unwilling to say, ‘I’m maxed out right now, and I’m going crazy,’ that’s going to be the thing that breaks a lot of teams,” Hubbard says. Pay alone may not solve the problem. Crowley pointed to SANS/SOC survey findings showing that compensation ranked fourth among retention factors, behind meaningful work, training, and professional development. The future SOC may look very different Griffiths believes organizations will need to respond not only with better technology but with structural changes. Traditional tiered SOC models may need to evolve into more collaborative teams with diverse expertise working together in real-time. “I think we’re going to have to eliminate the hierarchies a little bit and have teams of people with different expertise working together,” she says. She also argues that organizations should invest in human expertise rather than simply increasing AI consumption. “Buy engineers, not tokens,” she says. Professional networks and peer support will matter as much as any tool, Griffiths says, because defenders need trusted communities where they can compare notes, share practices, and avoid facing sustained pressure in isolation. If there is a consensus emerging among experts, it is that AI is exposing weaknesses that already existed. The staffing shortages, alert fatigue, burnout, and process failures affecting SOCs did not begin with generative AI. AI is simply amplifying them. At the same time, AI is providing new tools that may help organizations manage those very challenges. The future SOC may spend less time manually triaging alerts and more time validating automated findings, conducting threat hunting, and making strategic decisions. Human expertise may increasingly be paired with AI systems that act as operational partners. The transition will not be painless. Some teams will struggle. Some practitioners may leave the field. Others will adapt and thrive. “In a way,” Griffiths says, “we’re turning the whole SOC inside out.” Montenegro sees the transition as a cybersecurity version of the Red Queen effect: defenders and attackers must keep running simply to stay in place. Borrowing from science-fiction author William Gibson, Montenegro offered perhaps the simplest description of the industry’s current moment: “The future is already here. It’s just unevenly distributed.” For security leaders, that future is arriving in the form of AI-generated vulnerabilities, AI-assisted investigations, and AI-enabled adversaries. The question is no longer whether security operations centers will change. It is whether organizations can adapt quickly enough to keep pace.",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Cloud Infrastructure",
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "threat",
-        "security",
-        "cyber",
-        "soc",
-        "incident response"
-      ],
-      "GRC": [
-        "compliance"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Security operations centers (SOCs) have spent years struggling under the weight of growing alert volumes, expanding attack surfaces, and chronic staffing shortages. Now artificial intelligence is adding a new complication: not just more information, but more machine-generated information that must itself be evaluated. “There is an asymmetry here because you now have to parse through a lot of AI slop to get to, ‘Okay, is this real or not?’” Fernando Montenegro , vice president and practice lead at The Futurum Group, tells CSO. His observation captures a growing concern among security leaders."
-  },
-  {
-    "title": "Claude Mythos FAQ: Capabilities, access, competitors, implications",
-    "url": "https://www.csoonline.com/article/4198019/claude-mythos-faq-capabilities-access-competitors-implications.html",
-    "source": "CSO Online",
-    "published": "2026-07-20T06:30:00+00:00",
-    "raw_text": "1. What is Claude Mythos? Claude Mythos is an advanced AI model developed by Anthropic and is optimized for cybersecurity and healthcare applications. Mythos 5 was originally released in April to a small group of vetted technology partners ahead of a planned wider rollout. Anthropic established Project Glasswing , a consortium that gives limited, controlled access to Mythos to infrastructure providers, open-source developers, and major technology companies. The scheme was designed to enable defenders to find and resolve vulnerabilities faster than they could be identified by attackers, many of which are also beginning to rely heavily on AI tools . 2. What are the capabilities of Claude Mythos? The 50 initial partners of Project Glasswing were able to use Mythos to find more than 10,000 high- or critical-severity vulnerabilities in every major operating system and every major web browser . The model is identifying security flaws that had evaded even the most capable security researchers for years, such as a 27-year-old bug in OpenBSD . It has also proved capable of chaining multiple vulnerabilities together. 3. How is Anthropic restricting access to Claude Mythos? Anthropic said it was restricting the more widespread availability of the frontier AI model because its capabilities might easily be misused by attackers. In June the technology was released to an additional 150 organizations . All Mythos partners are required to accept a 30-day data retention policy for safety monitoring. After the availability of Mythos forced the Trump administration to reconsider its “hands off” approach to AI oversight , the US government applied export controls to Claude Fable 5 and Claude Mythos 5 on June 15. The restrictions — which were supposed to block access to foreign nationals both inside and outside the US — were lifted on June 30. 4. What is Claude Fable? For broader use, Anthropic is offering Claude Fable 5 , which is based on the same underlying technology but comes with strict guardrails that limit operations in “risky” cybersecurity domains. Flagged queries are automatically routed to the earlier and less capable Opus 4.8 large language model (LLM) instead. 5. How are Anthropic’s security vendor partners using access to Mythos? Cisco, one of Anthropic’s Project Glasswing partners, open-sourced its Foundry Security Spec , a model-agnostic “harness” for security testing, so that other vendors and enterprise security defenders could build similar workflows without starting from scratch. During a recent web conference, representatives from Cisco argued that defenders can use AI to identify, confirm, and resolve security issues at much greater speed and scale. Older vulnerability remediation models based on “find one issue, patch one issue” are no longer adequate because attackers are using AI moving to accelerate the path from vulnerability discovery to exploitation. Cisco has been using AI internally to scan 1.8 billion lines of code across its whole product portfolio. Smaller businesses do not need access to restricted AI models to improve security and more can be achieved in smaller shops by improving security fundamentals such as authentication, segmentation, zero trust, and prioritizing the remediation of actively exploited vulnerabilities, according to Cisco. 6. Do other AI vendors offer anything comparable to Claude Mythos? Mythos is the most prominent example of frontier AI models that can automate zero-day discovery at a scale and speed far beyond the capability of human teams. Several other vendors have frontier AI models aimed towards high-capability, security-oriented operations while others have capable open models that might easily be applied to cybersecurity research. As a result, Claude Mythos is far from the only game in town. For example, OpenAI’s GPT-5.4-Cyber (and GPT-5.5 ) has applications in vulnerability analysis and discovery as well as malware analysis and threat modelling. Security vendors, enterprises, and researchers can gain access to the technology through OpenAI’s Trusted Access for Cyber (TAC) scheme. Chinese cybersecurity firm 360 Security Technology has developed Tulongfeng , described as a domestic answer to Anthropic’s Mythos. High performance open models — including DeepSeek V3.2 and Llama 4 — can be run privately on GPU infrastructure and applied to cybersecurity research. Fugu from Japanese vendor Sakana AI offers another option in this category. 7. What do cybersecurity critics say about Claude Mythos? Infosecurity critics note that while Claude Mythos is unquestionably advanced, marketing claims that it is reliably breaking production systems overstate its capabilities. Security professionals are complaining through podcasts and elsewhere about the overly sensitive guardrails in Claude Fable that downgrade to Opus 4.8 upon requests to summarize a security-related blog post or even spell the word “exploit” much less tackle any everyday information security task. Other experts warn that false positives are likely to be an issue for cybersecurity research using frontier AI models. The wider criticism is that finding more vulnerabilities faster fails to address the bigger problem of reliability fixing security bugs or non-technical attack paths such as social engineering. 8. How should enterprise CISOs respond to the development of Mythos? Western intelligence agencies that form the Fives Eyes alliance issued a statement warning that frontier AI models such as Claude Mythos are “fundamentally transforming both offensive and defensive cyber capabilities” in a scale of months rather than years. “While Al will help us improve cyber defence over time, it also accelerates the speed, scale, and sophistication of cyber threats,” the group, which includes the US National Security Agency and the UK’s National Cyber Security Centre, warns. Enterprises need to be using AI to strengthen defenses as part of broader plans to improve cybersecurity resilience. AI-based systems capable of mapping realistic attack paths faster than any human adversary are fast becoming a pervasive threat, while most organizations are nowhere near ready for what that means for their threat models, one expert warns. “We now have AI systems that can map realistic attack paths across software, vendors, and critical infrastructure faster than human adversaries can catalog them,” says Joe Hubback, partner and CISO at consultancy Elixirr and former McKinsey Partner. “And as Mythos-class capabilities are prepared for broad commercial release, that’s no longer a niche research problem, it’s something every organization will have to factor into its threat model.” An AI safety paper from the Cloud Security Alliance warns that AI has significantly compressed the time between vulnerability discovery and exploitation, outpacing traditional patch-and-react security models. Organizations should brace for ongoing waves of AI-discovered vulnerabilities from Project Glasswing and other sources. “The capabilities seen in Mythos will quickly become more widely available, dramatically increasing the number and frequency of complex, novel attacks organizations will face,” it warns. Enterprise security defenders need to shift to a “Mythos-ready” approach built around continuous vulnerability operations, faster prioritization, and improved incident response. See also: What Anthropic Glasswing reveals about the future of vulnerability discovery Anthropic’s Mythos signals a structural cybersecurity shift Beware the ‘son of Mythos,’ security experts warn Mythos is a signal, not a siren: What frontier AI should change for CISOs",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "GRC",
-      "Industry & Market",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "malware",
-        "vulnerability",
-        "zero-day",
-        "exploit",
-        "threat",
-        "security",
-        "cyber",
-        "soc",
-        "zero trust",
-        "incident response",
-        "cloud security"
-      ],
-      "GRC": [
-        "policy",
-        "nist"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "1. What is Claude Mythos? Claude Mythos is an advanced AI model developed by Anthropic and is optimized for cybersecurity and healthcare applications. Mythos 5 was originally released in April to a small group of vetted technology partners ahead of a planned wider rollout."
   },
   {
     "title": "Tata acquires land in India for OpenAI data centers - report",
@@ -2986,16 +3059,45 @@
     "summary": "Worries about ‘prohibitive cost of powering, maintaining, and deploying a third node’"
   },
   {
-    "title": "Comment in code read 'Dear future me, sorry I wrote this'",
-    "url": "https://www.theregister.com/software/2026/07/20/comment-in-code-read-dear-future-me-sorry-i-wrote-this/5274130",
-    "source": "The Register",
-    "published": "2026-07-20T06:30:00+00:00",
-    "raw_text": "Developer was hired to write VB, used C# instead, and thought he mostly made it work",
+    "title": "CW@60: How tech escaped the machine room - and why it never really did",
+    "url": "https://www.computerweekly.com/feature/CW60-How-tech-escaped-the-machine-room-and-why-it-never-really-did",
+    "source": "ComputerWeekly",
+    "published": "2026-07-22T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">Computer Weekly's 60<sup>th</sup> anniversary</a> is a prompt for reflection - on careers, on the industry, and on just how much has changed.</p> <p>The story of the past several decades in technology is, in many ways, the story of how tech escaped the machine room. Slowly at first, then completely, until it became inseparable from every corner of modern life. Or did it?</p> <section class=\"section main-article-chapter\" data-menu-title=\"The world before the PC\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The world before the PC</h2> <p>When I entered the industry, we didn't call it digital technology. It was IT, information technology, or simply computing. The name reflected the heritage - calculation, processing, control. And although microprocessors were already beginning to change things, computers still lived in special places - machine rooms.</p> <p>These large, air-conditioned, access-controlled environments were hidden behind swipe cards and glass walls, guarded by specialists who determined what individuals and organisations could and couldn't do with computing power. IT was expensive and fragile. If you needed something done, you submitted a request and waited. Technology mattered, but it wasn't part of everyday life.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Disruption one: the personal computer\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Disruption one: the personal computer</h2> <p>That began to change with the arrival of the personal computer, which I'd pick as the first major disruption.</p> <p>For the first time, meaningful computing power escaped the machine room and landed on desks. That single shift overturned long-held assumptions. Business users no longer needed to ask permission to compute. They could simply switch on a device and solve problems themselves.</p> <p>The openness of the PC's architecture, and the business models adopted by IBM, Intel and Microsoft, allowed an ecosystem to flourish. Thousands of new providers emerged, building software and services for entirely new categories of user - marketers, educators, line managers. PCs spread rapidly across offices, factories, shops, schools and homes, carried along by the applications that ran on them.</p> <p>Critically, these groups weren't just using technology. They were buying it, with their own budgets. It was calculated that chief marketing officers were spending as much on technology as chief information officers. That wasn't a curiosity - it was a signal. Technology had moved from the back office to the front line.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Disruption two: the internet and the web\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Disruption two: the internet and the web</h2> <p>The next transformation came as the players in this new ecosystem recognised the value of connecting all these devices together. Enter the internet and the World Wide Web.</p> <p>Customers and partners became part of the digital architecture itself. Applications were no longer confined within organisations - they spanned entire value chains. Anyone of my vintage will remember the word we coined for this - convergence. Computing, networking and telecoms working seamlessly together. Well, most of the time.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Julian-David-TechUK-2023-140x180px.jpg\" alt=\"Photo of Julian David of TechUK\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“The concurrence of vast data volumes, elastic computing power, the proliferation of ever-more-capable processors, and truly global platforms turned what had once been constrained into something that now appears poised to change everything”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Julian David, TechUK</em></span></p> </blockquote> <p>This sparked a wave of innovation. Personal digital assistants and handheld music players appeared. Mobile phones shrank and gained features. Keyboards were bolted onto phones; phones were grafted onto organisers. Almost everyone carried one of these devices, and many of us carried all of them. Going out meant collecting an army of gadgets.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Disruption three: the smartphone\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Disruption three: the smartphone</h2> <p>The world was ready for something to simplify all of this. After a few early attempts, that something arrived with the launch of the iPhone and the first Android devices.</p> <p>Computing, communications, media and services collapsed into a single device that people chose - actively chose - to carry everywhere. The smartphone was not a better phone. It was a platform. And it meant that computing had truly, finally escaped the machine room. It was everywhere.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"The machine room returns, as the cloud\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The machine room returns, as the cloud</h2> <p>As devices proliferated, things became fragmented, difficult to manage and difficult to secure. Data needed to be standardised and aggregated. And so these devices began to be integrated into networks connected to, yes, centralised computers back in the machine room.</p> <p>Something had fundamentally changed in the relationship between users and the IT function, however. This was not going to be a return to backlogs and permission slips. Everyone wanted a different, more flexible model. And once again, technology delivered it - <a href=\"https://www.computerweekly.com/resources/Cloud-computing-services\">cloud computing</a>.</p> <p>Early sceptics argued that the economics didn't stack up, that no one would build it at scale. The recent results from the major hyperscalers provide a fairly comprehensive answer to that question.</p> <p>Others said it was too complicated. I remember having exactly that conversation with the UK government's CIO, and working with the industry body I now lead to help develop a plan for government's transition to cloud.</p> <p>Cloud computing was not merely a cost-saving model. It was an architectural inevitability, and it cemented the enduring role of the machine room, even if that room now had a new name - the <a href=\"https://www.computerweekly.com/resources/Data-Centre\">datacentre</a>. But these were different environments. Capacity could scale with demand. Services could be tested, refined and deployed continuously. Organisations moved from long planning cycles to rapid iteration.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"The data explosion and the rise of AI\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The data explosion and the rise of AI</h2> <p>Convergence also drove a dramatic expansion in data. Smartphones, video and connected services generated continuous streams of behavioural and contextual information. Social media grew from this and soon became the dominant user experience. Data stopped being something collected occasionally for reports and became something produced constantly as a byproduct of everyday activity.</p> <p>Which brings me to the latest disruption - artificial intelligence (AI).</p> <p>AI exploded into public consciousness in 2022 with the release of ChatGPT. There was a long history of research and early implementation before that moment, but it was the concurrence of vast data volumes, elastic computing power, the proliferation of ever-more-capable processors, and truly global platforms that turned what had once been constrained into something that now appears poised to change everything.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"From IT to digital: a shift in language, a shift in kind\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>From IT to digital: a shift in language, a shift in kind</h2> <p>\"Information technology\" described systems managed by specialists in special places. \"Digital\" describes something far more pervasive - the integration of technology into everyday life, work and society. Technology is no longer a function. It is an environment.</p> <p>I have been fortunate to witness, and occasionally to help shape, that journey. From guarded rooms to personal devices. From isolated systems to global platforms. From static tools to adaptive intelligence.</p> <p>So, has tech escaped the machine room?</p> <p>Yes. And no.</p> <p>Everyone now carries digital technology in their hands, every day, everywhere. But every one of those devices is connected to the new machine rooms - vast, <a href=\"https://www.computerweekly.com/news/366641050/Hyperscaler-datacentres-set-to-dominate-by-2031\">hyperscale datacentres</a> that would be unrecognisable to the specialists who guarded their predecessors, yet entirely familiar in purpose.</p> <p>The machine room didn't disappear. It just got much, much bigger, and the rest of the world moved in around it.</p> <p><i>Julian David is CEO of TechUK.</i></p> </section>",
     "categories": [
-      "Uncategorised"
+      "Networks",
+      "Data Centres",
+      "Cloud Infrastructure",
+      "Industry & Market",
+      "Cybersecurity"
     ],
-    "matched_keywords": {},
-    "summary": "Developer was hired to write VB, used C# instead, and thought he mostly made it work"
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "cloud computing"
+      ],
+      "Networks": [
+        "network",
+        "networking",
+        "cdn",
+        "wan",
+        "lan",
+        "telecom"
+      ],
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Data Centres": [
+        "hyperscale",
+        "capacity",
+        "colo"
+      ],
+      "Industry & Market": [
+        "ey",
+        "ibm"
+      ]
+    },
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">Computer Weekly's 60<sup>th</sup> anniversary</a> is a prompt for reflection - on careers, on the industry, and on just how much has changed.</p> <p>The story of the past several decades in technology is, in many ways, the story of how tech escaped the machine room. Slowly at first, then completely, until it became inseparable from every corner of modern life."
   },
   {
     "title": "Jisc recommits to academic cyber collaboration network",
@@ -3279,83 +3381,6 @@
       ]
     },
     "summary": "<p>For nearly four years, <a href=\"https://www.computerweekly.com/news/366622811/Virgin-Media-O2-cuts-carbon-emissions-56-against-its-2020-baseline\">Virgin Media O2</a> (VMO2) chief sustainability officer (CSO) Dana Haidan has been pushing ahead with <a href=\"https://www.computerweekly.com/resources/Data-centre-energy-efficiency-and-green-IT\">environment, social and governance (ESG) strategy</a> at the telecoms provider – and getting real results for her efforts.</p> <p>Prioritising and embedding sustainability, including emissions reduction, throughout the business is not just a nice-to-have but supports customer trust, as well as demand for its products and services – nurturing 46.4 million mobile connections, 5.5 million consumer fixed-line customers, and total services revenue exceeding £2bn in its year to first-quarter (Q1) 2026.</p> <p>It all adds up to a reshaping of the entity’s strategy post-merger in 2021. Key vehicles include VMO2’s new <a href=\"https://news.virginmediao2.co.uk/responsible-business/\">Responsible Business</a> and <a href=\"https://news.virginmediao2.co.uk/wp-content/uploads/2026/06/Virgin-Media-O2-Green-Transition-Plan-2026.pdf\">Green Transition</a> plans, built out from an earlier Better Connections initiative. The provider cut Scope 1 and 2 carbon emissions by 16% in 2025 and 63% versus its 2020 baseline.</p> <p>By 2030, VMO2 promises to have slashed Scope 1 and 2 emissions by 90% versus 2020. Haidan says VMO2 is poised to hit its science-based targets initiative (SBTi) validated net-zero goal across operations, products and supply chain by 2040.</p> <p>“We’ve set out really ambitious targets for our decarbonisation work, our circularity and digital inclusion,” she says."
-  },
-  {
-    "title": "Burnham government to drop digital ID and tech department",
-    "url": "https://www.computerweekly.com/news/366646014/Burnham-government-to-drop-digital-ID-and-tech-department",
-    "source": "ComputerWeekly",
-    "published": "2026-07-20T07:00:00+00:00",
-    "raw_text": "<p>Andy Burnham’s premiership is set to start with the scrapping of controversial plans for a digital ID scheme for all UK adults.</p> <p>The Department for Science, Innovation and Technology (DSIT) is also likely to be dumped as Keir Starmer ends his time in Number 10.</p> <p>The digital ID scheme aims to create a&nbsp;<a href=\"https://www.computerweekly.com/news/366637124/What-will-happen-with-Starmers-digital-ID-scheme-in-2026\">national ID</a>&nbsp;to make public services quicker and more secure to access, with the potential to include private sector services, such as gym memberships or parcel collections.</p> <p>It was first&nbsp;<a href=\"https://www.computerweekly.com/news/366632094/Government-to-introduce-mandatory-digital-ID\">announced by prime minister Keir Starmer</a> in September 2025, but has since been watered down. It was originally planned to be mandatory for right-to-work checks, but in January 2026, the <a href=\"https://www.computerweekly.com/news/366637189/UK-government-backtracks-on-plans-for-mandatory-digital-ID\">government backtracked</a>&nbsp;on this and removed the compulsory aspect, following uproar from privacy campaigners.</p> <p>According to reports, a Burnham spokesperson said the ID scheme would be ended to allow the government to redirect resources. “The time and resource that was going to be spent on a national ID scheme will go instead to where it's most needed, such as helping with the cost of living,” the spokesperson was reported as saying.</p> <p>Just months ago, the King’s Speech <a href=\"https://www.computerweekly.com/news/366643097/Kings-Speech-paves-the-way-for-digital-ID\">indicated Starmer’s government would make a renewed effort</a> in the implementation of the ID plan.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Tech department to be cut\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tech department to be cut</h2> <p>Burnham’s reported plans to ditch DSIT and spread its activities across other departments has come in for criticism from the IT sector. IT industry trade bodies TechUK and the Startup Coalition have written to Burnham describing it as the “wrong change at the wrong moment”.</p> <p>The letter from TechUK’s CEO Julian David and executive director at Startup Coalition Dom Hallas warned Burnham that scrapping the department will send a “terrible signal to a sector growing at 10% a year”.</p> <p>“DSIT works because it brings researchers, AI practitioners, innovators and policymakers together in one department – a single front door that gives the tech sector clarity, pace and a government partner that understands technology and champions the sector in the Cabinet,” the incoming Prime Minister was told in the letter.</p> <p>He was warned that “breaking up the work of DSIT endeavours” such as the AI Safety Institute, the Sovereign AI fund and Government Digital Service “would slow momentum at a time when pace is essential for both the growth of the economy and our standing on the global stage”.</p> <p>The IT trade bodies said they supported Burnham’s <a href=\"https://www.smeweb.com/andy-burnham-promises-business-rates-reform-support-for-entrepreneurs-and-a-no-10-north-as-the-nerve-centre-of-a-rewired-britain/\">vision to bring growth to every postcode in Britain</a>, but added: “We want you to be able to leverage the tech sector to deliver on your ambitions to change our economy and society for the better. To do so, we should use this moment to strengthen tech leadership at the heart of government, not dismantle it.”</p> <p>Burnham has already stated that he will continue to fuel the government’s <a href=\"https://www.computerweekly.com/news/366645687/Prime-minister-in-waiting-Andy-Burnham-takes-aim-at-outsourcing\">strategy to insource government work</a>, including IT.</p> <p>According to a&nbsp;<i><a href=\"https://www.ft.com/content/c8298713-4480-4b8a-931a-de29c9d3ba33?syn-25a6b1a6=1\">Financial Times report</a></i>,&nbsp;he told a meeting of Labour MPs he would curb outsourcers and bring government contracts in house, putting control into public hands.</p> <p>Burnham is quoted as criticising “an outsourced state with little accountability” as he spoke to MPs. His desire to bring government contracts in house is already a policy of the Labour government, but his statement to MPs adds urgency as he will be eager to hit the ground running with his stated plan.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about digital ID</h3> <ul type=\"square\" class=\"default-list\"> <li>Eight-week consultation aims to get the public’s view on how the proposed&nbsp;<a href=\"https://www.computerweekly.com/news/366639956/Whitehall-launches-digital-ID-consultation\">digital ID system</a>&nbsp;would work, and contemplates introducing a universal unique identifier linked to the ID.</li> <li>The&nbsp;<a href=\"https://www.computerweekly.com/news/366639706/Government-wants-to-build-digital-ID-system-in-house\">Home Affairs Committee</a>&nbsp;hearing on digital ID reveals consultation is due next week; there will be no central database; and while government wants to build the system in-house, it will not replace private digital ID providers.</li> <li>The proposed national&nbsp;<a href=\"https://www.computerweekly.com/news/366637189/UK-government-backtracks-on-plans-for-mandatory-digital-ID\">digital identity app</a>&nbsp;will no longer be compulsory for conducting right-to-work checks, removing the most contentious and widely criticised element of the scheme.&nbsp;</li> </ul> </div> </div> </section>",
-    "categories": [
-      "GRC",
-      "Networks",
-      "Industry & Market",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "policy",
-        "nist",
-        "privacy"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "launches",
-        "ey"
-      ]
-    },
-    "summary": "<p>Andy Burnham’s premiership is set to start with the scrapping of controversial plans for a digital ID scheme for all UK adults.</p> <p>The Department for Science, Innovation and Technology (DSIT) is also likely to be dumped as Keir Starmer ends his time in Number 10.</p> <p>The digital ID scheme aims to create a&nbsp;<a href=\"https://www.computerweekly.com/news/366637124/What-will-happen-with-Starmers-digital-ID-scheme-in-2026\">national ID</a>&nbsp;to make public services quicker and more secure to access, with the potential to include private sector services, such as gym memberships or parcel collections.</p> <p>It was first&nbsp;<a href=\"https://www.computerweekly.com/news/366632094/Government-to-introduce-mandatory-digital-ID\">announced by prime minister Keir Starmer</a> in September 2025, but has since been watered down. It was originally planned to be mandatory for right-to-work checks, but in January 2026, the <a href=\"https://www.computerweekly.com/news/366637189/UK-government-backtracks-on-plans-for-mandatory-digital-ID\">government backtracked</a>&nbsp;on this and removed the compulsory aspect, following uproar from privacy campaigners.</p> <p>According to reports, a Burnham spokesperson said the ID scheme would be ended to allow the government to redirect resources. “The time and resource that was going to be spent on a national ID scheme will go instead to where it's most needed, such as helping with the cost of living,” the spokesperson was reported as saying.</p> <p>Just months ago, the King’s Speech <a href=\"https://www.computerweekly.com/news/366643097/Kings-Speech-paves-the-way-for-digital-ID\">indicated Starmer’s government would make a renewed effort</a> in the implementation of the ID plan.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Tech department to be cut\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tech department to be cut</h2> <p>Burnham’s reported plans to ditch DSIT and spread its activities across other departments has come in for criticism from the IT sector. IT industry trade bodies TechUK and the Startup Coalition have written to Burnham describing it as the “wrong change at the wrong moment”.</p> <p>The letter from TechUK’s CEO Julian David and executive director at Startup Coalition Dom Hallas warned Burnham that scrapping the department will send a “terrible signal to a sector growing at 10% a year”.</p> <p>“DSIT works because it brings researchers, AI practitioners, innovators and policymakers together in one department – a single front door that gives the tech sector clarity, pace and a government partner that understands technology and champions the sector in the Cabinet,” the incoming Prime Minister was told in the letter.</p> <p>He was warned that “breaking up the work of DSIT endeavours” such as the AI Safety Institute, the Sovereign AI fund and Government Digital Service “would slow momentum at a time when pace is essential for both the growth of the economy and our standing on the global stage”.</p> <p>The IT trade bodies said they supported Burnham’s <a href=\"https://www.smeweb.com/andy-burnham-promises-business-rates-reform-support-for-entrepreneurs-and-a-no-10-north-as-the-nerve-centre-of-a-rewired-britain/\">vision to bring growth to every postcode in Britain</a>, but added: “We want you to be able to leverage the tech sector to deliver on your ambitions to change our economy and society for the better."
-  },
-  {
-    "title": "Dutch Surf tests practical route out of Big Tech dependency",
-    "url": "https://www.computerweekly.com/news/366645979/Dutch-SURF-tests-practical-route-out-of-Big-Tech-dependency",
-    "source": "ComputerWeekly",
-    "published": "2026-07-20T06:45:00+00:00",
-    "raw_text": "<p>When a group of Dutch researchers studying the societal impact of algorithms realised they were doing that work entirely on platforms they had no control over, they turned to <a href=\"https://www.surf.nl/en\">Surf</a>, the IT cooperative for Dutch education and research. The answer they got was honest: “we do not have an alternative, but we will figure it out”.</p> <p>Four years later, that request from <a href=\"https://algosoc.org/\">AlgoSoc</a>, a research programme across five Dutch universities, has grown into a series of <a href=\"https://www.techtarget.com/whatis/definition/open-source?_gl=1*62r989*_ga*Mjg4MTcxMzU3LjE3Nzk5NjUxNTU.*_ga_TQKE4GS5P9*czE3ODQxOTcxNjYkbzIwNiRnMSR0MTc4NDIwMTI3NyRqNTgkbDAkaDA.\">open source</a> pilots across Surf’s 120 member institutions. <a href=\"https://www.linkedin.com/posts/wladimirmufty_eduroam-nren-mastodon-share-7268020129844674560-_k7d/\">Wladimir Mufty</a>, programme manager for public value and collective digital sovereignty at Surf. The cooperative, comparable to Jisc in the UK, has spent five years working with a small team on turning abstract values such as privacy and autonomy into concrete technology choices.</p> <p>“Sovereignty is not binary,” says Mufty. “It is not a switch you flip on or off. But the more control you have, the more of those values you can factor into your decisions.”</p> <p>In practice, that means running pilots, placing alternatives alongside existing services and scaling up what proves viable. “We do not just write position papers about becoming independent from a supplier,” he adds. “We try to act on them as well.”</p> <p>The dependency that Surf is trying to address did not appear overnight. For years, the relationship between Dutch education institutions and their technology suppliers was treated as broadly symmetrical: institutions paid, suppliers delivered, and if a supplier underperformed, you could take your business elsewhere. That assumption no longer holds. “When a vendor holds your data, your identity systems and your infrastructure, you cannot simply walk over to the competitor,” says Mufty. “This is a fundamentally different kind of dependency than buying gas or grain.”</p> <p>The Covid-19 pandemic accelerated the shift. <a href=\"https://www.uu.nl/staff/JFTMvanDijck\">José van Dijck</a>, professor of media and digital society at Utrecht University, has <a href=\"https://www.computerweekly.com/news/366623843/Dutch-universities-call-for-reduced-dependence-on-Big-Tech\">described the pandemic as a turning point</a> that pushed Dutch universities deep into Big Tech dependency. There was an acute need to switch to online education, and commercial platforms could provide ready-made products immediately. Collective services that Surf and universities had built over decades were scaled back in favour of speed.</p> <p>Mufty sees the same pattern. The risks of depending on a handful of US technology companies were always acknowledged, he says, but treated as theoretical. “Nobody believed a trade war would actually happen, or that a government would cut off access to services overnight,” says Mufty. “That probability was always perceived zero. Now, it’s not zero anymore, and that changes everything.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"From pilot to platform\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>From pilot to platform</h2> <p>After AlgoSoc’s request, Surf evaluated several candidates and ended up selecting <a href=\"https://www.computerweekly.com/news/366645394/Europes-sovereignty-ambitions-stall-at-the-procurement-desk\">Nextcloud</a>. “It was different from what people were used to, but it was mature,” says Mufty.</p> <p>What started as a collaboration environment for a small group of researchers has since expanded. Surfdrive, the cooperative’s file-sharing service used by tens of thousands of people, originally ran on OwnCloud software, but has been migrated to Nextcloud as its back end. Separately, Surf now offers 30 institutions a full Nextcloud workspace including video calls, chat and calendars, used by between 1,500 and 2,000 people.</p> <p>Other pilots address different dependencies. Surf is testing PeerTube as an alternative video platform, partly because Dutch educational videos about subjects such as drugs or breast cancer research can fall foul of YouTube’s content moderation policies. A Mastodon pilot provides an alternative social media channel. In each case, the ownership of the data, the algorithms and the infrastructure remains with the institutions themselves.</p> <p>Mufty sees artificial intelligence (AI) creating a new layer of dependency. Institutions face pressure from students and staff to provide the latest tools, while long-term vendor contracts risk deepening the lock-in Surf is trying to loosen elsewhere. The cooperative’s response is an AI hub on its own infrastructure, where open models are offered through a shared environment with high standards and requirements for quality, privacy and legal jurisdiction managed centrally.</p> <p>“We make sure the hub contains high-quality models,” says Mufty. “If an institution is not satisfied with Mistral, or if one query needs to go to Mistral and another to <a href=\"https://www.computerweekly.com/news/366642524/Netherlands-moves-GPT-NL-from-lab-to-live-first-pilots-under-way\">GPT-NL</a>, it can switch without rebuilding anything.”</p> <p>For providers, the model creates a different incentive. “You only need to meet our standards once,” he says. “And you potentially have 120 institutions as customers.”</p> <p>Open source underpins all of these pilot initiatives, but Mufty frames it as an instrument rather than a mission. Of Surf’s 50 services, 38 are built on or with open source software, he says. “Transparency, interoperability, building on each other’s work, reuse: you can achieve those almost exclusively with open source,” says Mufty. “With proprietary software, you pay twice for every improvement you make.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Proof in a weekend\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Proof in a weekend</h2> <p>The clearest evidence of what that means in practice came when Surf had to act on it. Surfdrive ran on OwnCloud for years until changes in the ownership and commercial direction of the company behind it created uncertainty over support contracts and the product’s future.</p> <p>“Did we enjoy that? No. But did it cause us stress? Also no,” says Mufty. “The code was on our own machines, and we knew alternatives existed.”</p> <p>After six months of preparation, Surf replaced the OwnCloud foundation with Nextcloud and migrated tens of thousands of users in a single weekend. “If it had been a proprietary system, we could never have moved from one product to another in a weekend,” he adds.</p> <p>Changing the perception of open source at board level has been a separate effort. For years, the automatic association among education leaders was that open source meant amateurish, insecure and difficult to use. Mufty acknowledges that some projects are not ready for large-scale deployment, but says the conversation has shifted towards what open source can deliver rather than what it is.</p> <p>Surf and the Dutch Ministry of the Interior have co-organised an open source leadership summit aimed at directors and board members. A second edition is planned for 1 October 2026, expanding to include leaders from water authorities and provincial governments.</p> <p>Surf is not operating in isolation in the Netherlands. On 10 July, the Dutch Tax Administration paused the roll-out of Microsoft 365 after the government’s IT advisory board concluded that the current approach would not deliver a suitable or future-proof working environment. That same day, five Dutch regulators, the Netherlands Authority for Consumers and Markets, the Dutch Authority for the Financial Markets, the Dutch Data Protection Authority, De Nederlandsche Bank and the Dutch Authority for Digital Infrastructure, published a <a href=\"https://www.afm.nl/en/sector/actueel/2026/jul/pb-rapport-digitale-autonomie\">joint position paper</a> calling on public authorities and businesses to make digital autonomy a central consideration in IT procurement.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Collective control but individual compromise\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Collective control but individual compromise</h2> <p>The cooperative model helps absorb early risk. Surf pools costs and distributes them proportionally across its members, from small vocational colleges to large research universities, so that early adopters do not carry the full burden alone. But Mufty is candid about the tension in that model. To build collective autonomy, each institution must accept less individual control over a shared service.</p> <p>“Sometimes an institution thinks: I would have preferred this feature, or a little more of that,” he says. “But you cannot choose your own background colour when you are building a platform together.”</p> <p>For the programme manager, the harder problem is not the absence of alternatives, but the expectation that an alternative must match every feature of an established platform before anyone is willing to use it. Surf itself offers 14 cloud services to its members. However, most institutions still choose the US options.</p> <p>“The only way to turn something that is a six into an eight is to start using it,” says Mufty. “If we keep asking whether it is already as good as Big Tech, the answer will always be ‘no’. That is the whole point.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about digital sovereignty in Europe</h3> <ul class=\"default-list\"> <li>Dutch universities are <a href=\"https://www.computerweekly.com/news/366623843/Dutch-universities-call-for-reduced-dependence-on-Big-Tech\">calling for greater digital autonomy</a> as more research and educational data is stored in American clouds, posing risks to academic freedom, privacy and accessibility.</li> <li>Nextcloud Summit in Munich shows that Europe’s sovereignty ambitions meet their real test not in the technology, but <a href=\"https://www.computerweekly.com/news/366645394/Europes-sovereignty-ambitions-stall-at-the-procurement-desk\">in the procurement decisions</a>.</li> <li>European Commission launches package spanning chips, cloud and energy to <a href=\"https://www.computerweekly.com/news/366643862/EU-unveils-full-stack-sovereignty-package-to-build-Euro-tech-muscle\">reduce dependency on US and Chinese supply chains</a>.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "GRC",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Networks",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "cloud services"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "nist",
-        "data protection",
-        "privacy"
-      ],
-      "Data Centres": [
-        "colo"
-      ],
-      "Industry & Market": [
-        "launches",
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "<p>When a group of Dutch researchers studying the societal impact of algorithms realised they were doing that work entirely on platforms they had no control over, they turned to <a href=\"https://www.surf.nl/en\">Surf</a>, the IT cooperative for Dutch education and research. The answer they got was honest: “we do not have an alternative, but we will figure it out”.</p> <p>Four years later, that request from <a href=\"https://algosoc.org/\">AlgoSoc</a>, a research programme across five Dutch universities, has grown into a series of <a href=\"https://www.techtarget.com/whatis/definition/open-source?_gl=1*62r989*_ga*Mjg4MTcxMzU3LjE3Nzk5NjUxNTU.*_ga_TQKE4GS5P9*czE3ODQxOTcxNjYkbzIwNiRnMSR0MTc4NDIwMTI3NyRqNTgkbDAkaDA.\">open source</a> pilots across Surf’s 120 member institutions. <a href=\"https://www.linkedin.com/posts/wladimirmufty_eduroam-nren-mastodon-share-7268020129844674560-_k7d/\">Wladimir Mufty</a>, programme manager for public value and collective digital sovereignty at Surf. The cooperative, comparable to Jisc in the UK, has spent five years working with a small team on turning abstract values such as privacy and autonomy into concrete technology choices.</p> <p>“Sovereignty is not binary,” says Mufty."
   },
   {
     "title": "I tested the System76 Thelio Mira: it's the custom Linux desktop of my dreams",
@@ -3672,140 +3697,87 @@
     "summary": "Soaring hard drive prices are making NAS boxes a niche product, but the Synology DS225+ still makes sense. Here's why."
   },
   {
-    "title": "Daicel Corporation HPPs SBU Unveils New DURACON (R) POM Line with 30% Recycled Content",
-    "url": "https://www.prnewswire.com/news-releases/daicel-corporation-hpps-sbu-unveils-new-duracon-r-pom-line-with-30-recycled-content-302831499.html",
+    "title": "Neil Anderson, Ph.D., Named Chief Revenue Officer at Myrias Optics",
+    "url": "https://www.prnewswire.com/news-releases/neil-anderson-phd-named-chief-revenue-officer-at-myrias-optics-302831431.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T05:00:00+00:00",
-    "raw_text": "OSAKA, Japan, July 22, 2026 /PRNewswire/ -- Daicel Corporation's High Performance Polymers (HPPs) SBU (formerly Polyplastics Co., Ltd.), a global leader in engineering plastics, has launched four new DURACON (R) POM grades containing 30% post-consumer recycled (PCR) material. This new...",
+    "published": "2026-07-22T07:01:00+00:00",
+    "raw_text": "AMHERST, Mass., July 22, 2026 /PRNewswire/ -- Myrias Optics, a world leader in wafer-level metaoptics and diffractive optical technologies, announced today the appointment of Neil Anderson, Ph.D. as Chief Revenue Officer, where he will lead the company's global commercial strategy, with...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "OSAKA, Japan, July 22, 2026 /PRNewswire/ -- Daicel Corporation's High Performance Polymers (HPPs) SBU (formerly Polyplastics Co., Ltd.), a global leader in engineering plastics, has launched four new DURACON (R) POM grades containing 30% post-consumer recycled (PCR) material. This new..."
+    "summary": "AMHERST, Mass., July 22, 2026 /PRNewswire/ -- Myrias Optics, a world leader in wafer-level metaoptics and diffractive optical technologies, announced today the appointment of Neil Anderson, Ph.D. as Chief Revenue Officer, where he will lead the company's global commercial strategy, with..."
   },
   {
-    "title": "RTX's Pratt & Whitney GTF™ engines surpass 800 orders and commitments in 2026, year to date",
-    "url": "https://www.prnewswire.com/news-releases/rtxs-pratt--whitney-gtf-engines-surpass-800-orders-and-commitments-in-2026-year-to-date-302831517.html",
+    "title": "TEAM PRONC STARTET BEI DER VON PIF PRÄSENTIERTEN UIM E1-WELTMEISTERSCHAFT 2027, UND BRINGT NIGERIANISCHE KULTUR, GASTFREUNDSCHAFT UND DEN GLOBALEN AFRIKANISCHEN EINFLUSS IN DIESE SPANNENDE, WELTWEITE RENNSERIE MIT REIN ELEKTRISCHEN BOOTEN AUF DEM WASSER EIN",
+    "url": "https://www.prnewswire.com/news-releases/team-pronc-startet-bei-der-von-pif-prasentierten-uim-e1-weltmeisterschaft-2027-und-bringt-nigerianische-kultur-gastfreundschaft-und-den-globalen-afrikanischen-einfluss-in-diese-spannende-weltweite-rennserie-mit-rein-elektrische-302831334.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T05:00:00+00:00",
-    "raw_text": "Brings GTF order backlog to more than 8,000 engines LONDON, July 22, 2026 /PRNewswire/ -- Farnborough International Airshow – Pratt & Whitney, an RTX (NYSE: RTX) business, has received more than 800 GTF engine orders and commitments since the beginning of 2026. Airlines and lessors that...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Das von Nigerianern gegründete Team bringt führende Unternehmer und Investoren zusammen, um die afrikanische Spitzenleistung auf der globalen Sportbühne der Elite weiter zu präsentieren DIE KOMPLETTE BILDSERIE FINDEN SIE HIER MONACO, 22. Juli 2026 /PRNewswire/ -- Das neu gegründete Team...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Das von Nigerianern gegründete Team bringt führende Unternehmer und Investoren zusammen, um die afrikanische Spitzenleistung auf der globalen Sportbühne der Elite weiter zu präsentieren DIE KOMPLETTE BILDSERIE FINDEN SIE HIER MONACO, 22. Juli 2026 /PRNewswire/ -- Das neu gegründete Team..."
+  },
+  {
+    "title": "Jason Canning, nuevo vicepresidente y director de ventas internacionales de CAMSO Construction y CEAT OHT",
+    "url": "https://www.prnewswire.com/news-releases/jason-canning-nuevo-vicepresidente-y-director-de-ventas-internacionales-de-camso-construction-y-ceat-oht-302831840.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "BOMBAY, India, 22 de julio de 2026 /PRNewswire/ -- CAMSO Construction y CEAT Specialty dieron a conocer hoy el nombramiento de Jason Canning como vicepresidente y director de Ventas Internacionales para la división de equipos de elevación de potencia (OHT) de CAMSO Construction y CEAT. En...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "ey"
+        "ipo"
       ]
     },
-    "summary": "Brings GTF order backlog to more than 8,000 engines LONDON, July 22, 2026 /PRNewswire/ -- Farnborough International Airshow – Pratt & Whitney, an RTX (NYSE: RTX) business, has received more than 800 GTF engine orders and commitments since the beginning of 2026. Airlines and lessors that..."
+    "summary": "BOMBAY, India, 22 de julio de 2026 /PRNewswire/ -- CAMSO Construction y CEAT Specialty dieron a conocer hoy el nombramiento de Jason Canning como vicepresidente y director de Ventas Internacionales para la división de equipos de elevación de potencia (OHT) de CAMSO Construction y CEAT. En..."
   },
   {
-    "title": "China Southern Power Grid Showcases AI Innovations at World AI Conference",
-    "url": "https://www.prnewswire.com/news-releases/china-southern-power-grid-showcases-ai-innovations-at-world-ai-conference-302831636.html",
+    "title": "Jason Canning rejoint CAMSO Construction & CEAT OHT en tant que vice-président et directeur des ventes internationales",
+    "url": "https://www.prnewswire.com/news-releases/jason-canning-rejoint-camso-construction--ceat-oht-en-tant-que-vice-president-et-directeur-des-ventes-internationales-302831667.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:35:00+00:00",
-    "raw_text": "SHANGHAI, July 22, 2026 /PRNewswire/ -- China Southern Power Grid (CSG) showcased its latest AI-powered power systems and technologies integrating electricity, carbon and computing at the 2026 World AI Conference (WAIC) and the High-Level Meeting on Global AI Governance in Shanghai. Among...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "governance"
-      ]
-    },
-    "summary": "SHANGHAI, July 22, 2026 /PRNewswire/ -- China Southern Power Grid (CSG) showcased its latest AI-powered power systems and technologies integrating electricity, carbon and computing at the 2026 World AI Conference (WAIC) and the High-Level Meeting on Global AI Governance in Shanghai. Among..."
-  },
-  {
-    "title": "Jonah Launches its New Blog Builder Product Designed to Amplify GEO Strategies in Multifamily.",
-    "url": "https://www.prnewswire.com/news-releases/jonah-launches-its-new-blog-builder-product-designed-to-amplify-geo-strategies-in-multifamily-302831284.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:32:00+00:00",
-    "raw_text": "WESTLAKE, Texas, July 22, 2026 /PRNewswire/ -- Jonah, the leading provider of premium, fully integrated websites for the multifamily industry, launches its new Blog Builder product, a comprehensive blogging environment designed to amplify GEO strategies in multifamily. Jonah, in response...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "WESTLAKE, Texas, July 22, 2026 /PRNewswire/ -- Jonah, the leading provider of premium, fully integrated websites for the multifamily industry, launches its new Blog Builder product, a comprehensive blogging environment designed to amplify GEO strategies in multifamily. Jonah, in response..."
-  },
-  {
-    "title": "One Country, Countless Journeys: Wego and the German National Tourist Office GCC (GNTO GCC) Inspire MENA Travellers to Discover Germany",
-    "url": "https://www.prnewswire.com/news-releases/one-country-countless-journeys-wego-and-the-german-national-tourist-office-gcc-gnto-gcc-inspire-mena-travellers-to-discover-germany-302830625.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:30:00+00:00",
-    "raw_text": "DUBAI, UAE, July 22, 2026 /PRNewswire/ -- Wego, the number 1 travel app and the largest online travel marketplace in the Middle East and North Africa (MENA), has announced a strategic partnership with the German National Tourist Office GCC (GNTO GCC) to bring Germany's distinctive...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership",
-        "ey"
-      ]
-    },
-    "summary": "DUBAI, UAE, July 22, 2026 /PRNewswire/ -- Wego, the number 1 travel app and the largest online travel marketplace in the Middle East and North Africa (MENA), has announced a strategic partnership with the German National Tourist Office GCC (GNTO GCC) to bring Germany's distinctive..."
-  },
-  {
-    "title": "SIS kondigt de succesvolle ingebruikname van de Project Cost Management-module uit de SIS Construct 365-oplossingssuite voor Microsoft Dynamics 365 bij OCS Group aan",
-    "url": "https://www.prnewswire.com/news-releases/sis-kondigt-de-succesvolle-ingebruikname-van-de-project-cost-management-module-uit-de-sis-construct-365-oplossingssuite-voor-microsoft-dynamics-365-bij-ocs-group-aan-302831605.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:06:00+00:00",
-    "raw_text": "LONDEN, 22 juli 2026 /PRNewswire/ -- SIS, Microsoft-partner voor Business Applications en implementatiepartner van ERP- en CRM-oplossingen voor de bouwsector, kondigt met trots de succesvolle implementatie en ingebruikname van de SIS Construct 365 Project Cost Management-module bij OCS...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "MUMBAI, Inde, 22 juillet 2026 /PRNewswire/ -- CAMSO Construction & CEAT Specialty ont annoncé aujourd'hui la nomination de Jason Canning au poste de vice-président et directeur des ventes internationales pour les divisions CAMSO Construction et CEAT OHT. À ce poste, M. Canning dirigera la...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "LONDEN, 22 juli 2026 /PRNewswire/ -- SIS, Microsoft-partner voor Business Applications en implementatiepartner van ERP- en CRM-oplossingen voor de bouwsector, kondigt met trots de succesvolle implementatie en ingebruikname van de SIS Construct 365 Project Cost Management-module bij OCS..."
+    "summary": "MUMBAI, Inde, 22 juillet 2026 /PRNewswire/ -- CAMSO Construction & CEAT Specialty ont annoncé aujourd'hui la nomination de Jason Canning au poste de vice-président et directeur des ventes internationales pour les divisions CAMSO Construction et CEAT OHT. À ce poste, M. Canning dirigera la..."
   },
   {
-    "title": "Bitmine Immersion Technologies (BMNR) annuncia che le sue partecipazioni in ETH raggiungono i 5,78 milioni di token e che le partecipazioni totali in criptovalute e liquidità ammontano a 11,5 miliardi di dollari",
-    "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-annuncia-che-le-sue-partecipazioni-in-eth-raggiungono-i-5-78-milioni-di-token-e-che-le-partecipazioni-totali-in-criptovalute-e-liquidita-ammontano-a-11-5-miliardi-di-dollari-302831601.html",
+    "title": "Demetra anuncia una colaboración estratégica con Masmec Biomed",
+    "url": "https://www.prnewswire.com/news-releases/demetra-anuncia-una-colaboracion-estrategica-con-masmec-biomed-302831264.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:03:00+00:00",
-    "raw_text": "Bitmine possiede il 4,8% dell'offerta totale di ETH pari a 120,7 milioni Bitmine ha raggiunto il 96% dell'obiettivo \"Alchemy of 5%\" in soli 12 mesi Nell'ultima settimana, Bitmine ha riacquistato 5,5 milioni di azioni ordinarie, autorizzate nell'ambito del programma di riacquisto di azioni...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Desde el liderazgo en tecnologías para cirugía vertebral hasta la creación de un ecosistema europeo de innovación basado en IA, datos, navegación y robótica. MILÁN, 22 de julio de 2026 /PRNewswire/ -- Demetra Holding anuncia una colaboración estratégica con Masmec Biomed, una empresa...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Bitmine possiede il 4,8% dell'offerta totale di ETH pari a 120,7 milioni Bitmine ha raggiunto il 96% dell'obiettivo \"Alchemy of 5%\" in soli 12 mesi Nell'ultima settimana, Bitmine ha riacquistato 5,5 milioni di azioni ordinarie, autorizzate nell'ambito del programma di riacquisto di azioni..."
+    "summary": "Desde el liderazgo en tecnologías para cirugía vertebral hasta la creación de un ecosistema europeo de innovación basado en IA, datos, navegación y robótica. MILÁN, 22 de julio de 2026 /PRNewswire/ -- Demetra Holding anuncia una colaboración estratégica con Masmec Biomed, una empresa..."
   },
   {
-    "title": "Nearly Nine in Ten CEOs See Some Cost or Revenue Benefits from AI in Targeted Areas, But Most Are Struggling to Scale It",
-    "url": "https://www.prnewswire.com/news-releases/nearly-nine-in-ten-ceos-see-some-cost-or-revenue-benefits-from-ai-in-targeted-areas-but-most-are-struggling-to-scale-it-302831514.html",
+    "title": "La concurrence pour l'eau fait peser des risques sur la transition énergétique",
+    "url": "https://www.prnewswire.com/news-releases/la-concurrence-pour-leau-fait-peser-des-risques-sur-la-transition-energetique-302829519.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:01:00+00:00",
-    "raw_text": "New BCG Research Finds a Striking Execution Gap Is Holding Most Companies Back More Than Half of CEOs Cite a Missing Link Between AI and P&L, But Only 14% Clearly Define P&L Impact for All AI Initiatives High Performers Are Roughly Seven Times More Likely to Redesign Workflows and Reshape...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Le rapport de l'ICMM recense les zones où les installations minières et métallurgiques se trouvent dans des régions confrontées à des problèmes liés à l'eau : épuisement des ressources, sécheresse, inondations et risques liés à la variabilité interannuelle LONDRES, 22 juillet 2026...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "New BCG Research Finds a Striking Execution Gap Is Holding Most Companies Back More Than Half of CEOs Cite a Missing Link Between AI and P&L, But Only 14% Clearly Define P&L Impact for All AI Initiatives High Performers Are Roughly Seven Times More Likely to Redesign Workflows and Reshape..."
+    "summary": "Le rapport de l'ICMM recense les zones où les installations minières et métallurgiques se trouvent dans des régions confrontées à des problèmes liés à l'eau : épuisement des ressources, sécheresse, inondations et risques liés à la variabilité interannuelle LONDRES, 22 juillet 2026..."
   },
   {
-    "title": "TAT elevates 125th Ubon Ratchathani Candle Procession as Signature Thailand Event",
-    "url": "https://www.prnewswire.com/news-releases/tat-elevates-125th-ubon-ratchathani-candle-procession-as-signature-thailand-event-302831600.html",
+    "title": "Uzum named among the world's top fintech companies by CNBC and Statista for the first time",
+    "url": "https://www.prnewswire.com/news-releases/uzum-named-among-the-worlds-top-fintech-companies-by-cnbc-and-statista-for-the-first-time-302831188.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:01:00+00:00",
-    "raw_text": "Landmark edition blends Buddhist heritage and candle craftsmanship with new night-time experiences and 'Nong Mamuang' landmarks BANGKOK, July 22, 2026 /PRNewswire/ -- The Tourism Authority of Thailand (TAT), in collaboration with Ubon Ratchathani Province and partners across the public...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Landmark edition blends Buddhist heritage and candle craftsmanship with new night-time experiences and 'Nong Mamuang' landmarks BANGKOK, July 22, 2026 /PRNewswire/ -- The Tourism Authority of Thailand (TAT), in collaboration with Ubon Ratchathani Province and partners across the public..."
-  },
-  {
-    "title": "Redington Limited and AutomationEdge Announce Strategic Partnership to Accelerate Enterprise Automation and Agentic AI Adoption",
-    "url": "https://www.prnewswire.com/news-releases/redington-limited-and-automationedge-announce-strategic-partnership-to-accelerate-enterprise-automation-and-agentic-ai-adoption-302831365.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-22T04:00:00+00:00",
-    "raw_text": "DUBAI, UAE, July 22, 2026 /PRNewswire/ -- Redington, a leading technology aggregator and innovation catalyst, and AutomationEdge, a leading Agentic Process Automation platform for global enterprises, have announced a strategic partnership to accelerate the adoption of enterprise...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Uzum, Uzbekistan's national digital ecosystem, has been included for the first time in the World's Top Fintech Companies 2026, compiled by CNBC in partnership with the global market research and analytics firm Statista. Uzum was recognized in the \"Neobanking\" category. TASHKENT,...",
     "categories": [
       "Industry & Market"
     ],
@@ -3814,131 +3786,224 @@
         "partnership"
       ]
     },
-    "summary": "DUBAI, UAE, July 22, 2026 /PRNewswire/ -- Redington, a leading technology aggregator and innovation catalyst, and AutomationEdge, a leading Agentic Process Automation platform for global enterprises, have announced a strategic partnership to accelerate the adoption of enterprise..."
+    "summary": "Uzum, Uzbekistan's national digital ecosystem, has been included for the first time in the World's Top Fintech Companies 2026, compiled by CNBC in partnership with the global market research and analytics firm Statista. Uzum was recognized in the \"Neobanking\" category. TASHKENT,..."
   },
   {
-    "title": "SunTec India Launches Proprietary eCommerce Price Monitoring Platform Delivering 99%+ Accuracy with Human-Verified Pricing Intelligence",
-    "url": "https://www.prnewswire.com/news-releases/suntec-india-launches-proprietary-ecommerce-price-monitoring-platform-delivering-99-accuracy-with-human-verified-pricing-intelligence-302831594.html",
+    "title": "Survey from Cruiseline.com and Shipmate Uncovers Shifting Cruise Trends for 2026",
+    "url": "https://www.prnewswire.com/news-releases/survey-from-cruiselinecom-and-shipmate-uncovers-shifting-cruise-trends-for-2026-302831009.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T03:51:00+00:00",
-    "raw_text": "NEW DELHI, July 21, 2026 /PRNewswire/ -- SunTec India today announced the launch of its proprietary, in-house-built eCommerce price monitoring platform, a purpose-built pricing intelligence solution that tracks competitor prices across multiple channels in real time and pairs automated...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "92.8% of surveyed travelers already have a cruise booked for 2026 and beyond, as new data reveals evolving preferences in destinations, itinerary lengths, and top cruise lines. FORT LAUDERDALE, Fla., July 22, 2026 /PRNewswire/ -- Cruiseline.com and Shipmate released the results of their...",
     "categories": [
-      "Data Centres",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "rack"
-      ],
       "Industry & Market": [
-        "launches"
+        "ey"
       ]
     },
-    "summary": "NEW DELHI, July 21, 2026 /PRNewswire/ -- SunTec India today announced the launch of its proprietary, in-house-built eCommerce price monitoring platform, a purpose-built pricing intelligence solution that tracks competitor prices across multiple channels in real time and pairs automated..."
+    "summary": "92.8% of surveyed travelers already have a cruise booked for 2026 and beyond, as new data reveals evolving preferences in destinations, itinerary lengths, and top cruise lines. FORT LAUDERDALE, Fla., July 22, 2026 /PRNewswire/ -- Cruiseline.com and Shipmate released the results of their..."
   },
   {
-    "title": "Hisense представляет стратегию развития на основе искусственного интеллекта для формирования следующей эры интеллектуальной жизни",
-    "url": "https://www.prnewswire.com/news-releases/hisense--------------302831578.html",
+    "title": "Der Wettbewerb um Wasser birgt Risiken für die Energiewende",
+    "url": "https://www.prnewswire.com/news-releases/der-wettbewerb-um-wasser-birgt-risiken-fur-die-energiewende-302829490.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T03:37:00+00:00",
-    "raw_text": "ЦИНДАО, Китай, 22 июля 2026 г. /PRNewswire/ -- Компания Hisense, один из ведущих мировых брендов в области потребительской электроники и бытовой техники, представила комплексную стратегию развития на базе искусственного интеллекта, которая будет определять следующий этап глобального...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ЦИНДАО, Китай, 22 июля 2026 г. /PRNewswire/ -- Компания Hisense, один из ведущих мировых брендов в области потребительской электроники и бытовой техники, представила комплексную стратегию развития на базе искусственного интеллекта, которая будет определять следующий этап глобального..."
-  },
-  {
-    "title": "Jason Canning joins as Vice President & Head - International Sales for CAMSO Construction & CEAT OHT",
-    "url": "https://www.prnewswire.com/news-releases/jason-canning-joins-as-vice-president--head---international-sales-for-camso-construction--ceat-oht-302831228.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-22T03:30:00+00:00",
-    "raw_text": "MUMBAI, India, July 22, 2026 /PRNewswire/ -- CAMSO Construction & CEAT Specialty today announced the appointment of Jason Canning as Vice President & Head - International Sales for CAMSO Construction and CEAT OHT business. In this role, Canning will lead the company's global sales...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "MUMBAI, India, July 22, 2026 /PRNewswire/ -- CAMSO Construction & CEAT Specialty today announced the appointment of Jason Canning as Vice President & Head - International Sales for CAMSO Construction and CEAT OHT business. In this role, Canning will lead the company's global sales..."
-  },
-  {
-    "title": "ATTACK SHARK Unveils RS6 ULTRA, a Flagship Esports Mouse Featuring Its Proprietary Magnetic Hot-Swappable Battery Technology",
-    "url": "https://www.prnewswire.com/news-releases/attack-shark-unveils-rs6-ultra-a-flagship-esports-mouse-featuring-its-proprietary-magnetic-hot-swappable-battery-technology-302831566.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-22T03:24:00+00:00",
-    "raw_text": "NEW YORK , July 21, 2026 /PRNewswire/ -- Gaming peripheral brand ATTACK SHARK has announced the upcoming launch of the RS6 ULTRA, its most advanced wireless gaming mouse to date. Designed for competitive FPS players and the premium esports peripheral market, the new model combines a...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Der ICMM-Bericht zeigt auf, wo Bergbau- und Metallindustrieanlagen mit Risiken wie Wasserstress, Ressourcenverknappung, Dürre, Überschwemmungen und Schwankungen im Jahresverlauf zusammenfallen LONDON, 22. Juli 2026 /PRNewswire/ -- Laut einer neuen Analyse des (ICMM) befinden sich fast...",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "wireless"
+        "wan"
       ]
     },
-    "summary": "NEW YORK , July 21, 2026 /PRNewswire/ -- Gaming peripheral brand ATTACK SHARK has announced the upcoming launch of the RS6 ULTRA, its most advanced wireless gaming mouse to date. Designed for competitive FPS players and the premium esports peripheral market, the new model combines a..."
+    "summary": "Der ICMM-Bericht zeigt auf, wo Bergbau- und Metallindustrieanlagen mit Risiken wie Wasserstress, Ressourcenverknappung, Dürre, Überschwemmungen und Schwankungen im Jahresverlauf zusammenfallen LONDON, 22. Juli 2026 /PRNewswire/ -- Laut einer neuen Analyse des (ICMM) befinden sich fast..."
   },
   {
-    "title": "Sungrow sichert sich mit dem VDE-FNN-Prototypenzertifikat den weltweit ersten Zugang für den deutschen Markt für Trägheit in Energiesystemen",
-    "url": "https://www.prnewswire.com/news-releases/sungrow-sichert-sich-mit-dem-vde-fnn-prototypenzertifikat-den-weltweit-ersten-zugang-fur-den-deutschen-markt-fur-tragheit-in-energiesystemen-302831546.html",
+    "title": "L'ÉQUIPE PRONC S'APPRETE À REJOINDRE LE CHAMPIONNAT DU MONDE UIM E1 2027 PRÉSENTÉ PAR LE PIF, APPORTANT LA CULTURE NIGÉRIANE, L'HOSPITALITÉ ET L'INFLUENCE AFRICAINE À L'ÉCHELLE MONDIALE À CETTE SÉRIE PASSIONNANTE DE COURSES NAUTIQUES 100 % ÉLECTRIQUES",
+    "url": "https://www.prnewswire.com/news-releases/lequipe-pronc-sapprete-a-rejoindre-le-championnat-du-monde-uim-e1-2027-presente-par-le-pif-apportant-la-culture-nigeriane-lhospitalite-et-linfluence-africaine-a-lechelle-mondiale-a-cette-serie-passionnante-de-courses-nautiq-302831345.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T03:05:00+00:00",
-    "raw_text": "MÜNCHEN, 22. Juli 2026 /PRNewswire/ -- Sungrow, ein weltweit führender Anbieter von PV-Wechselrichtern und Energiespeichersystemen, hat einen weiteren globalen Meilenstein im Bereich der netzbildenden Technologie erreicht. Die Leistungsumrichtersysteme (PCS) der SC210HX-Serie des...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Cette équipe fondée par des Nigérians rassemble des entrepreneurs et des investisseurs de premier plan afin de mettre davantage en valeur l'excellence africaine sur la scène sportive mondiale de haut niveau. E COMPLÈTE DES IMAGES ICI MONACO, 22 juillet 2026 /PRNewswire/ -- La toute...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Cette équipe fondée par des Nigérians rassemble des entrepreneurs et des investisseurs de premier plan afin de mettre davantage en valeur l'excellence africaine sur la scène sportive mondiale de haut niveau. E COMPLÈTE DES IMAGES ICI MONACO, 22 juillet 2026 /PRNewswire/ -- La toute..."
+  },
+  {
+    "title": "La competencia por el agua plantea riesgos para la transición energética",
+    "url": "https://www.prnewswire.com/news-releases/la-competencia-por-el-agua-plantea-riesgos-para-la-transicion-energetica-302829494.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "El informe de ICMM muestra en un mapa las zonas donde las instalaciones mineras y metalúrgicas se superponen con los riesgos de estrés hídrico, agotamiento de los recursos, sequía, inundaciones y variabilidad interanual. LONDRES, 22 de julio de 2026 /PRNewswire/ -- Según un nuevo análisis...",
+    "categories": [
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "esg"
+      ]
+    },
+    "summary": "El informe de ICMM muestra en un mapa las zonas donde las instalaciones mineras y metalúrgicas se superponen con los riesgos de estrés hídrico, agotamiento de los recursos, sequía, inundaciones y variabilidad interanual. LONDRES, 22 de julio de 2026 /PRNewswire/ -- Según un nuevo análisis..."
+  },
+  {
+    "title": "Jason Canning tritt als Vice President und Leiter des internationalen Vertriebs bei CAMSO Construction & CEAT OHT ein",
+    "url": "https://www.prnewswire.com/news-releases/jason-canning-tritt-als-vice-president-und-leiter-des-internationalen-vertriebs-bei-camso-construction--ceat-oht-ein-302831689.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "MUMBAI, Indien, 22. Juli 2026 /PRNewswire/ -- CAMSO Construction & CEAT Specialty gaben heute die Ernennung von Jason Canning zum Vice President und Leiter des internationalen Vertriebs für die Geschäftsbereiche CAMSO Construction und CEAT OHT bekannt. In dieser Funktion wird Canning die...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "MÜNCHEN, 22. Juli 2026 /PRNewswire/ -- Sungrow, ein weltweit führender Anbieter von PV-Wechselrichtern und Energiespeichersystemen, hat einen weiteren globalen Meilenstein im Bereich der netzbildenden Technologie erreicht. Die Leistungsumrichtersysteme (PCS) der SC210HX-Serie des..."
+    "summary": "MUMBAI, Indien, 22. Juli 2026 /PRNewswire/ -- CAMSO Construction & CEAT Specialty gaben heute die Ernennung von Jason Canning zum Vice President und Leiter des internationalen Vertriebs für die Geschäftsbereiche CAMSO Construction und CEAT OHT bekannt. In dieser Funktion wird Canning die..."
   },
   {
-    "title": "Shakira, Aerosmith, And Jennifer Lopez Excluded From Sony Music Infringement Judgment Asserted by Marc Mysterio an Intervenor Himself In SDNY Action",
-    "url": "https://www.prnewswire.com/news-releases/shakira-aerosmith-and-jennifer-lopez-excluded-from-sony-music-infringement-judgment-asserted-by-marc-mysterio-an-intervenor-himself-in-sdny-action-302831540.html",
+    "title": "Rockwell Automation Announces Luminus Selects SecureOT Platform to Support Industrial Cybersecurity Resilience",
+    "url": "https://www.prnewswire.com/news-releases/rockwell-automation-announces-luminus-selects-secureot-platform-to-support-industrial-cybersecurity-resilience-302827773.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T03:01:00+00:00",
-    "raw_text": "NEW YORK, July 21, 2026 /PRNewswire/ -- Intervenor Marcel Albert, professionally known as Marc Mysterio, has filed a comprehensive reply in the United States District Court for the Southern District of New York asserting his right to intervene and claim a charging lien in Sony Music...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Deployment will help strengthen operational technology visibility and risk management across a diverse energy production environment BRUSSELS, July 22, 2026 /PRNewswire/ -- Rockwell Automation, the world's largest company dedicated to industrial automation and digital transformation,...",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "digital transformation"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "GRC": [
+        "risk management"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Deployment will help strengthen operational technology visibility and risk management across a diverse energy production environment BRUSSELS, July 22, 2026 /PRNewswire/ -- Rockwell Automation, the world's largest company dedicated to industrial automation and digital transformation,..."
+  },
+  {
+    "title": "TEAM PRONC SET TO JOIN 2027 UIM E1 WORLD CHAMPIONSHIP PRESENTED BY PIF, BRINGING NIGERIAN CULTURE, HOSPITALITY AND GLOBAL AFRICAN INFLUENCE TO EXCITING GLOBAL ALL-ELECTRIC RACING ON WATER SERIES",
+    "url": "https://www.prnewswire.com/news-releases/team-pronc-set-to-join-2027-uim-e1-world-championship-presented-by-pif-bringing-nigerian-culture-hospitality-and-global-african-influence-to-exciting-global-all-electric-racing-on-water-series-302831243.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Nigerian-founded team brings together leading entrepreneurs and investors to further showcase African excellence on the elite global sporting stage FULL IMAGERY HERE MONACO, July 22, 2026 /PRNewswire/ -- The newly-created Team PRONC has officially signed up to the 2027 UIM E1 World...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "NEW YORK, July 21, 2026 /PRNewswire/ -- Intervenor Marcel Albert, professionally known as Marc Mysterio, has filed a comprehensive reply in the United States District Court for the Southern District of New York asserting his right to intervene and claim a charging lien in Sony Music..."
+    "summary": "Nigerian-founded team brings together leading entrepreneurs and investors to further showcase African excellence on the elite global sporting stage FULL IMAGERY HERE MONACO, July 22, 2026 /PRNewswire/ -- The newly-created Team PRONC has officially signed up to the 2027 UIM E1 World..."
   },
   {
-    "title": "Bitmine Immersion Technologies (BMNR) kondigt aan dat 5,78 miljoen tokens in ETH-holdings heeft bereikt en dat de totale holdings in cryptovaluta en liquide middelen 11,5 miljard dollar bedraagt",
-    "url": "https://www.prnewswire.com/news-releases/bitmine-immersion-technologies-bmnr-kondigt-aan-dat--5-78-miljoen-tokens-in-eth-holdings-heeft-bereikt-en-dat-de-totale-holdings-in-cryptovaluta-en-liquide-middelen-11-5-miljard-dollar-bedraagt-302831539.html",
+    "title": "DEMETRA ANNOUNCES A STRATEGIC COLLABORATION WITH MASMEC BIOMED",
+    "url": "https://www.prnewswire.com/news-releases/demetra-announces-a-strategic-collaboration-with-masmec-biomed-302830882.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T03:00:00+00:00",
-    "raw_text": "Bitmine bezit 4,8% van het totale ETH-aanbod van 120,7 miljoen ETH Bitmine heeft in slechts 12 maanden 96% van het doel van de 'Alchemy of 5%' bereikt Bitmine heeft de afgelopen week 5,5 miljoen gewone aandelen ingekocht in het kader van het eerder aangekondigde aandeleninkoopprogramma...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "From leadership in vertebral surgery technologies to the creation of a European innovation ecosystem built on AI, data, navigation, and robotics MILAN, July 22, 2026 /PRNewswire/ -- Demetra Holding announces a strategic collaboration with Masmec Biomed, an Italian company specialized in...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "From leadership in vertebral surgery technologies to the creation of a European innovation ecosystem built on AI, data, navigation, and robotics MILAN, July 22, 2026 /PRNewswire/ -- Demetra Holding announces a strategic collaboration with Masmec Biomed, an Italian company specialized in..."
+  },
+  {
+    "title": "TeamViewer study: 75% of employees use AI daily, but 61% want human oversight, indicating a confidence gap limiting progress",
+    "url": "https://www.prnewswire.com/news-releases/teamviewer-study-75-of-employees-use-ai-daily-but-61-want-human-oversight-indicating-a-confidence-gap-limiting-progress-302831545.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "Global research from TeamViewer finds IT leaders expect nearly 40% of digital workplace services to run autonomously by 2030 GÖPPINGEN, Germany, July 22, 2026 /PRNewswire/ -- AI is already part of everyday work, but organizations must close a confidence gap before they can unlock the next...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Global research from TeamViewer finds IT leaders expect nearly 40% of digital workplace services to run autonomously by 2030 GÖPPINGEN, Germany, July 22, 2026 /PRNewswire/ -- AI is already part of everyday work, but organizations must close a confidence gap before they can unlock the next..."
+  },
+  {
+    "title": "Competition for water poses risks to the energy transition",
+    "url": "https://www.prnewswire.com/news-releases/competition-for-water-poses-risks-to-the-energy-transition-302829473.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "ICMM report maps where mining and metals facilities intersect with water stress, depletion, drought, flood and interannual variability risks LONDON, July 22, 2026 /PRNewswire/ -- Nearly two-thirds of mining and metals facilities worldwide are located in areas facing significant physical...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "ICMM report maps where mining and metals facilities intersect with water stress, depletion, drought, flood and interannual variability risks LONDON, July 22, 2026 /PRNewswire/ -- Nearly two-thirds of mining and metals facilities worldwide are located in areas facing significant physical..."
+  },
+  {
+    "title": "Shareholder Alert: Ademi LLP investigates whether Finward Bancorp is obtaining a Fair Price for Public Shareholders",
+    "url": "https://www.prnewswire.com/news-releases/shareholder-alert-ademi-llp-investigates-whether-finward-bancorp-is-obtaining-a-fair-price-for-public-shareholders-302831612.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "MILWAUKEE, July 22, 2026 /PRNewswire/ -- (PRNewswire) Ademi LLP is investigating Finward (Nasdaq: FNWD) for possible breaches of fiduciary duty and other violations of law in its recently announced transaction with First Financial Bancorp. Click here to learn how to join our investigation...",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "edr"
+        "breach"
       ]
     },
-    "summary": "Bitmine bezit 4,8% van het totale ETH-aanbod van 120,7 miljoen ETH Bitmine heeft in slechts 12 maanden 96% van het doel van de 'Alchemy of 5%' bereikt Bitmine heeft de afgelopen week 5,5 miljoen gewone aandelen ingekocht in het kader van het eerder aangekondigde aandeleninkoopprogramma..."
+    "summary": "MILWAUKEE, July 22, 2026 /PRNewswire/ -- (PRNewswire) Ademi LLP is investigating Finward (Nasdaq: FNWD) for possible breaches of fiduciary duty and other violations of law in its recently announced transaction with First Financial Bancorp. Click here to learn how to join our investigation..."
   },
   {
-    "title": "Stanford Medicine Children's Health fortalece su programa de cirugía robótica para pacientes pediátricos",
-    "url": "https://www.prnewswire.com/news-releases/stanford-medicine-children-s-health-fortalece-su-programa-de-cirugia-robotica-para-pacientes-pediatricos-886452829.html",
+    "title": "Envu Reports Progress in Land Restoration, Public Health, Food Loss Prevention and More",
+    "url": "https://www.prnewswire.com/news-releases/envu-reports-progress-in-land-restoration-public-health-food-loss-prevention-and-more-302831367.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-22T02:55:00+00:00",
-    "raw_text": "PALO ALTO, California, 21 de julio de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Stanford Medicine Children's Health se complace en anunciar la expansión de su Programa de Cirugía Robótica en su centro principal, Lucile Packard Children's Hospital Stanford. Gracias a sus capacidades avanzadas...",
+    "published": "2026-07-22T07:00:00+00:00",
+    "raw_text": "2025 Sustainability Report details measurable outcomes from Envu environmental science solutions CARY, N.C., July 22, 2026 /PRNewswire/ -- Envu, a global environmental science company, today released its 2025 Sustainability Report, highlighting progress toward its purpose of advancing...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "2025 Sustainability Report details measurable outcomes from Envu environmental science solutions CARY, N.C., July 22, 2026 /PRNewswire/ -- Envu, a global environmental science company, today released its 2025 Sustainability Report, highlighting progress toward its purpose of advancing..."
+  },
+  {
+    "title": "New Product Lineup and Six Industry Solutions: DEEP Robotics Makes a Major Appearance at WAIC 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331079/0/en/New-Product-Lineup-and-Six-Industry-Solutions-DEEP-Robotics-Makes-a-Major-Appearance-at-WAIC-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-22T05:36:00+00:00",
+    "raw_text": "SHANGHAI, July 22, 2026 (GLOBE NEWSWIRE) -- 2026 WAIC opens themed “Intelligent Partners, Co-Creating the Future” in Shanghai on July 17. Global embodied intelligence leader DEEP Robotics displayed full robot portfolio, six industrial solutions and two exclusive original robots, attracting heavy industry attention.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "PALO ALTO, California, 21 de julio de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Stanford Medicine Children's Health se complace en anunciar la expansión de su Programa de Cirugía Robótica en su centro principal, Lucile Packard Children's Hospital Stanford. Gracias a sus capacidades avanzadas..."
-  },
-  {
-    "title": "Sungrow obtient le premier « passeport » au monde pour le marché allemand de l'inertie grâce au certificat de prototype du VDE FNN",
-    "url": "https://www.prnewswire.com/news-releases/sungrow-obtient-le-premier--passeport--au-monde-pour-le-marche-allemand-de-linertie-grace-au-certificat-de-prototype-du-vde-fnn-302831532.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-22T02:51:00+00:00",
-    "raw_text": "MUNICH, 22 juillet 2026 /PRNewswire/ -- Sungrow, leader mondial des onduleurs photovoltaïques et des systèmes de stockage d'énergie, a franchi une nouvelle étape majeure au niveau mondial dans le domaine des technologies de formation de réseau. Les systèmes de conversion de puissance...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "MUNICH, 22 juillet 2026 /PRNewswire/ -- Sungrow, leader mondial des onduleurs photovoltaïques et des systèmes de stockage d'énergie, a franchi une nouvelle étape majeure au niveau mondial dans le domaine des technologies de formation de réseau. Les systèmes de conversion de puissance..."
+    "summary": "SHANGHAI, July 22, 2026 (GLOBE NEWSWIRE) -- 2026 WAIC opens themed “Intelligent Partners, Co-Creating the Future” in Shanghai on July 17. Global embodied intelligence leader DEEP Robotics displayed full robot portfolio, six industrial solutions and two exclusive original robots, attracting heavy industry attention."
   },
   {
     "title": "GlycoReset Supplement Facts Released: Consumer Safety Report Details New Analysis About Glyco Reset Ingredients & Side Effects Risk",
@@ -4193,18 +4258,6 @@
     "summary": "Crescente importância da América Latina no setor imobiliário global impulsiona a demanda por conexões transfronteiriças mais fortes, experiência local e parcerias confiáveis Crescente importância da América Latina no setor imobiliário global impulsiona a demanda por conexões transfronteiriças mais fortes, experiência local e parcerias confiáveis"
   },
   {
-    "title": "eXp Realty amplía su inversión en América Latina con la primera eXpcon en español",
-    "url": "https://www.globenewswire.com/news-release/2026/07/21/3331034/0/es/eXp-Realty-ampl%C3%ADa-su-inversi%C3%B3n-en-Am%C3%A9rica-Latina-con-la-primera-eXpcon-en-espa%C3%B1ol.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-21T23:18:00+00:00",
-    "raw_text": "La creciente importancia de América Latina en el sector inmobiliario mundial impulsa la demanda de conexiones transfronterizas más sólidas, experiencia local y alianzas de confianza. La creciente importancia de América Latina en el sector inmobiliario mundial impulsa la demanda de conexiones transfronterizas más sólidas, experiencia local y alianzas de confianza.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "La creciente importancia de América Latina en el sector inmobiliario mundial impulsa la demanda de conexiones transfronterizas más sólidas, experiencia local y alianzas de confianza. La creciente importancia de América Latina en el sector inmobiliario mundial impulsa la demanda de conexiones transfronterizas más sólidas, experiencia local y alianzas de confianza."
-  },
-  {
     "title": "10 Best DevOps Companies to Consider in 2026 - FinancialContent",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPejZQRnR6X0lDeEczUzJ5RW16RTZ4WHJTM25zdGJ4N2hVcGlyTFRveWlJNHpLNXd2ZHdkMXJEMVdKLXZsTUl5bEctUE41X1JSbl9ERjkySXVtLTB5UUxpa3huQkJ5bHJiaUZsamItSDhaWjRVTUZCZjJXRjNMaHI4VlQ5RXo4TkZQWTF1YU9jTE4zSHlZdHpvZTBlbGxmX0ZFUG5jYjVUdDZlQzQ?oc=5",
     "source": "Google News: Cloud Infrastructure",
@@ -4255,6 +4308,31 @@
     "summary": "Arista debuts unified SD-WAN edge platform Network World"
   },
   {
+    "title": "Arista Networks Launches AI-Driven Zero Trust Security for Enterprise Branch Networks - The Fast Mode",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZk9TM0RiOEFOOWxVLUprSC1nTTdlTE9lVkVXLVBKc3VrSHcyR0dXbTRiT0t6UHZMRk9sa1Y1MTV6MXZfVmRYNVFYZklCWnZWM0g2Sk9KbGdBaGR4MHF4UnRGZy1fY0luTHV0MHZ6X1EzV04tdFJ6bmRfYzRDMmQ1M2cwVEJNVWFKanVRSFppYV94ZDJkeW5lU2Z5bFltWHhRTWFqUVRjLTZmbE5NeVkyMVJMMUotUDRPX2V0VEFEMVNvaU9DMVRDdWtXaEpWZUluMUhjVG1zdw?oc=5",
+    "source": "Google News: Networks",
+    "published": "2026-07-21T23:39:42+00:00",
+    "raw_text": "Arista Networks Launches AI-Driven Zero Trust Security for Enterprise Branch Networks The Fast Mode",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "security",
+        "zero trust"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Arista Networks Launches AI-Driven Zero Trust Security for Enterprise Branch Networks The Fast Mode"
+  },
+  {
     "title": "FatPipe (NASDAQ: FATN) lands $7M contract to support school networks - Stock Titan",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaWZKc0hrclhJRTNTbjJYSlZQN0pLS0RyQlU0UjdfZndzN2pKUUNEVlE4eDYwcFpNVjNHSzhKS2EyS0Q4UG5vWm1MSEpBbVdFMlNPMk5GQUk3MFEzOXBNRjQyS0YxU2tMQktMR1NMVEpxVC1tYWtxcEV5QVBZQzVmY2x5VTQwVDlCdUk3WWZhSE1tbF9pOTFCRU5TaU9aRmswdkdKTlpB?oc=5",
     "source": "Google News: Networks",
@@ -4272,11 +4350,11 @@
     "summary": "FatPipe (NASDAQ: FATN) lands $7M contract to support school networks Stock Titan"
   },
   {
-    "title": "FatPipe (NASDAQ:FATN) Awarded a $7 Million Education Contract to Support Network Access and Monitoring - newswire.com",
+    "title": "FatPipe (NASDAQ:FATN) Awarded a $7 Million Education Contract to Support Network Access and Monitoring - Newswire.com",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOODAyeUduVUlFUlVTTlREaUFFZHczZHExNEtBQmtkS3RjamtWT2ZRcFdGRXZIRnhjejhQaFpjeHBJVTF4M29KS2xGblNHMmJxMWxEQklCMFFHbzE0eWJjVW9hUGozbVZlUFU3OTJVU1lPV1U5LUpoSG5LZDh6dFJVOUZtakpwUW5SMUxLREtEUDVhX1ZxbWFKT3Fvalc5cUxISEFJenIyZEpKV2M?oc=5",
     "source": "Google News: Networks",
     "published": "2026-07-21T14:00:00+00:00",
-    "raw_text": "FatPipe (NASDAQ:FATN) Awarded a $7 Million Education Contract to Support Network Access and Monitoring newswire.com",
+    "raw_text": "FatPipe (NASDAQ:FATN) Awarded a $7 Million Education Contract to Support Network Access and Monitoring Newswire.com",
     "categories": [
       "Networks"
     ],
@@ -4285,7 +4363,7 @@
         "network"
       ]
     },
-    "summary": "FatPipe (NASDAQ:FATN) Awarded a $7 Million Education Contract to Support Network Access and Monitoring newswire.com"
+    "summary": "FatPipe (NASDAQ:FATN) Awarded a $7 Million Education Contract to Support Network Access and Monitoring Newswire.com"
   },
   {
     "title": "Top 5 Compliance Audit Software Tools for 2026 | Risk-Based Compliance - Qualys",
@@ -4303,5 +4381,30 @@
       ]
     },
     "summary": "Top 5 Compliance Audit Software Tools for 2026 | Risk-Based Compliance Qualys"
+  },
+  {
+    "title": "Microsoft and Mistral Expand AI Partnership with Sovereign Cloud and Azure Integration - HPCwire",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ3RkV2lXNUlUNHQ4cHdnSFBYOUhwV3pnaTFqcTFFYTlHZmY3NjN3WEoxNWtjQUwwVE9TQ3JtS2tZQUNlemtRd3pCc3Z2aFZoZ1NEcTdBQUZfTUJ6WldKVTh6bnZuMGRHQVRnNlZxZmc0cDhjOWNUQ3p1dkQ2b1Nvbm1HT1B6Z1pIV2JjblpUNzBzclpEUUNMWmV6a05BSmc2RDFlSGEwVGJuekhCM1BBbFpoaTNDWWZjVGl3MERRUFkxQmRYVHF4Rw?oc=5",
+    "source": "Google News: Vendor Press Releases",
+    "published": "2026-07-21T18:58:18+00:00",
+    "raw_text": "Microsoft and Mistral Expand AI Partnership with Sovereign Cloud and Azure Integration HPCwire",
+    "categories": [
+      "Cloud Infrastructure",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "azure"
+      ],
+      "Data Centres": [
+        "hpc"
+      ],
+      "Industry & Market": [
+        "partnership"
+      ]
+    },
+    "summary": "Microsoft and Mistral Expand AI Partnership with Sovereign Cloud and Azure Integration HPCwire"
   }
 ]
