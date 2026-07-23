@@ -1,5 +1,27 @@
 [
   {
+    "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+    "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+    "source": "The Hacker News",
+    "published": "2026-07-23T06:34:36+00:00",
+    "raw_text": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild. The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cve",
+        "exploit",
+        "security"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "Check Point has released security updates to address multiple vulnerabilities impacting Security Management and Multi-Domain Management (MDSM) products, including a critical flaw that has come under active exploitation in the wild. The security flaw, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass affecting the Check Point SmartConsole login process that allows an"
+  },
+  {
     "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
     "url": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
     "source": "The Hacker News",
@@ -403,54 +425,23 @@
     "summary": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt, described by three Zhejiang University researchers in a paper accepted to CHES 2026, the IACR's hardware-security conference, and the evidence splits in two: they measured the power"
   },
   {
-    "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-    "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
-    "source": "The Hacker News",
-    "published": "2026-07-21T08:59:30+00:00",
-    "raw_text": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell. \"By the early hours of Saturday morning (UTC), successful exploitation was already well",
+    "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+    "source": "BleepingComputer",
+    "published": "2026-07-23T08:13:07+00:00",
+    "raw_text": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]",
     "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Data Centres"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
       "Cybersecurity": [
-        "cve",
+        "zero-day",
         "exploit",
-        "security"
-      ],
-      "Data Centres": [
-        "rack"
+        "security",
+        "cyber"
       ]
     },
-    "summary": "Attackers have begun to exploit two critical vulnerabilities in WordPress that, when combined together, enable unauthenticated remote code execution (RCE) and complete compromise of vulnerable websites. The two security flaws, tracked as CVE-2026-63030 and CVE-2026-60137, have been codenamed wp2shell. \"By the early hours of Saturday morning (UTC), successful exploitation was already well"
-  },
-  {
-    "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-    "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
-    "source": "The Hacker News",
-    "published": "2026-07-21T07:34:32+00:00",
-    "raw_text": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem. The entry",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "ransomware"
-      ],
-      "Data Centres": [
-        "ai infrastructure"
-      ]
-    },
-    "summary": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been spotted deploying ENCFORGE, a new compiled Go ransomware designed to encrypt model weights, vector indexes, training datasets, and other AI infrastructure files across the host filesystem. The entry"
+    "summary": "Israeli cybersecurity firm Check Point Software has addressed an actively exploited zero-day flaw in the company's SmartConsole graphical user interface (GUI) admin panel. [...]"
   },
   {
     "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
@@ -709,26 +700,6 @@
     "summary": "Hackers are actively exploiting the critical CVE-2026-50522 vulnerability in Microsoft SharePoint to steal machine keys and maintain access even after affected servers are patched. [...]"
   },
   {
-    "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
-    "url": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
-    "source": "BleepingComputer",
-    "published": "2026-07-21T18:50:54+00:00",
-    "raw_text": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware",
-        "cyberattack",
-        "threat",
-        "data leak",
-        "cyber"
-      ]
-    },
-    "summary": "The Anubis ransomware gang has claimed responsibility for the cyberattack on Coca-Cola's Fairlife dairy subsidiary, threatening to publish allegedly stolen corporate data unless the company pays a ransom. [...]"
-  },
-  {
     "title": "LG to Ban Residential Proxies from Smart TV Apps",
     "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
     "source": "Krebs on Security",
@@ -743,6 +714,76 @@
       ]
     },
     "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV."
+  },
+  {
+    "title": "Swiss rail manufacturer Stadler refuses to pay $12.3 million ransom after cyberattack",
+    "url": "https://www.helpnetsecurity.com/2026/07/23/stadler-everest-ransom-demand/",
+    "source": "Help Net Security",
+    "published": "2026-07-23T08:54:26+00:00",
+    "raw_text": "Cybercriminal group Everest is demanding 10 million Swiss francs ($12.3 million) from Swiss rail vehicle manufacturer Stadler after breaching a data exchange platform shared with one of its suppliers through compromised credentials. Stadler operates 16 production and component plants and eight engineering centers, backed by a global service network of more than 95 locations, and employs over 17,100 people from over 75 countries. The Swiss company confirmed it received an extortion letter in which the … More → The post Swiss rail manufacturer Stadler refuses to pay $12.3 million ransom after cyberattack appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "cyberattack",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Cybercriminal group Everest is demanding 10 million Swiss francs ($12.3 million) from Swiss rail vehicle manufacturer Stadler after breaching a data exchange platform shared with one of its suppliers through compromised credentials. Stadler operates 16 production and component plants and eight engineering centers, backed by a global service network of more than 95 locations, and employs over 17,100 people from over 75 countries. The Swiss company confirmed it received an extortion letter in which the … More → The post Swiss rail manufacturer Stadler refuses to pay $12.3 million ransom after cyberattack appeared first on Help Net Security ."
+  },
+  {
+    "title": "GitHub revamps bug bounty program with new VIP tier, payout changes",
+    "url": "https://www.helpnetsecurity.com/2026/07/23/github-bug-bounty-program-changes/",
+    "source": "Help Net Security",
+    "published": "2026-07-23T08:35:50+00:00",
+    "raw_text": "GitHub is changing its bug bounty program to reward higher-quality vulnerability reports and reduce low-effort submissions, including AI-generated reports. The changes will take effect on July 27, 2026. Reports submitted before that date will be honored under the previous bounty structure. “Alongside the growth in legitimate reports, we’ve seen a sharp increase in submissions that don’t demonstrate real security impact. These include reports without a proof of concept, theoretical attack scenarios that don’t hold up … More → The post GitHub revamps bug bounty program with new VIP tier, payout changes appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "security"
+      ]
+    },
+    "summary": "GitHub is changing its bug bounty program to reward higher-quality vulnerability reports and reduce low-effort submissions, including AI-generated reports. The changes will take effect on July 27, 2026. Reports submitted before that date will be honored under the previous bounty structure. “Alongside the growth in legitimate reports, we’ve seen a sharp increase in submissions that don’t demonstrate real security impact."
+  },
+  {
+    "title": "Axonius expands Asset Cloud with Cyber Assets and Exposures enhancements",
+    "url": "https://www.helpnetsecurity.com/2026/07/23/axonius-cyber-assets-exposures/",
+    "source": "Help Net Security",
+    "published": "2026-07-23T07:07:42+00:00",
+    "raw_text": "Axonius has announced new capabilities across the Axonius Asset Cloud to better address asset intelligence and exposure management use cases. The enhancements make it easier than ever to address CMDB visibility gaps and respond to vulnerabilities, while extending asset intelligence capabilities to IoT and OT devices. “Every security and IT leader we speak to has the same story about their asset data: a tool says one thing and reality says another,” said Moshe Ben Simon, … More → The post Axonius expands Asset Cloud with Cyber Assets and Exposures enhancements appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "iot"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "Axonius has announced new capabilities across the Axonius Asset Cloud to better address asset intelligence and exposure management use cases. The enhancements make it easier than ever to address CMDB visibility gaps and respond to vulnerabilities, while extending asset intelligence capabilities to IoT and OT devices. “Every security and IT leader we speak to has the same story about their asset data: a tool says one thing and reality says another,” said Moshe Ben Simon, … More → The post Axonius expands Asset Cloud with Cyber Assets and Exposures enhancements appeared first on Help Net Security ."
   },
   {
     "title": "Shadow AI is becoming enterprise security’s biggest blind spot",
@@ -881,82 +922,24 @@
     "summary": "OpenAI has introduced Presence, a product designed to help companies deploy AI agents that handle customer support and internal service requests across voice and chat. (Source: OpenAI) The company describes Presence as a deployment platform rather than a standalone model. “Presence brings together the components teams need to run agents in production: policies and standard operating procedures, guardrails, approved actions, simulations, evaluation tools, and a Codex-powered improvement process,” OpenAI said. “Together, these components help teams … More → The post OpenAI Presence connects AI agents to enterprise data with built-in guardrails appeared first on Help Net Security ."
   },
   {
-    "title": "Astelia extends reachability analysis with agentic AI for vulnerability management",
-    "url": "https://www.helpnetsecurity.com/2026/07/22/astelia-extends-reachability-analysis-with-agentic-ai-for-vulnerability-management/",
-    "source": "Help Net Security",
-    "published": "2026-07-22T13:46:40+00:00",
-    "raw_text": "Astelia has added agentic capabilities to its reachability analysis platform as organizations face shrinking exploit windows and the growing challenge of managing vulnerabilities. At the core of the platform is Astelia’s reachability analysis, which determines whether a vulnerability can be reached and exploited within a specific environment. By correlating network topology with the technical requirements needed to exploit a given vulnerability, Astelia identifies that less than 1% of findings present real exposure, eliminating the noise … More → The post Astelia extends reachability analysis with agentic AI for vulnerability management appeared first on Help Net Security .",
+    "title": "Brazilian Banking Trojan Actively Spreading in Portugal",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal",
+    "source": "Dark Reading",
+    "published": "2026-07-23T07:00:00+00:00",
+    "raw_text": "Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.",
     "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "security"
-      ]
-    },
-    "summary": "Astelia has added agentic capabilities to its reachability analysis platform as organizations face shrinking exploit windows and the growing challenge of managing vulnerabilities. At the core of the platform is Astelia’s reachability analysis, which determines whether a vulnerability can be reached and exploited within a specific environment. By correlating network topology with the technical requirements needed to exploit a given vulnerability, Astelia identifies that less than 1% of findings present real exposure, eliminating the noise … More → The post Astelia extends reachability analysis with agentic AI for vulnerability management appeared first on Help Net Security ."
-  },
-  {
-    "title": "ThreatDown expands security visibility to AI tools and machine identities",
-    "url": "https://www.helpnetsecurity.com/2026/07/22/threatdown-ai-visibility/",
-    "source": "Help Net Security",
-    "published": "2026-07-22T13:38:33+00:00",
-    "raw_text": "ThreatDown has announced a synchronized expansion of its AI and identity security capabilities to protect organizations from emerging, unmanaged risks. The company launched AI visibility, giving security and managed service provider (MSP) teams a full inventory of the AI tools running across their environments, while simultaneously extending its ITDR capabilities to secure non-human identities (NHI). By bringing governance to service accounts, API tokens, OAuth credentials, and machine identities, ThreatDown helps close critical exposure points that … More → The post ThreatDown expands security visibility to AI tools and machine identities appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "identity security"
-      ],
-      "GRC": [
-        "governance"
-      ],
-      "Industry & Market": [
-        "expands",
-        "service provider"
-      ]
-    },
-    "summary": "ThreatDown has announced a synchronized expansion of its AI and identity security capabilities to protect organizations from emerging, unmanaged risks. The company launched AI visibility, giving security and managed service provider (MSP) teams a full inventory of the AI tools running across their environments, while simultaneously extending its ITDR capabilities to secure non-human identities (NHI). By bringing governance to service accounts, API tokens, OAuth credentials, and machine identities, ThreatDown helps close critical exposure points that … More → The post ThreatDown expands security visibility to AI tools and machine identities appeared first on Help Net Security ."
-  },
-  {
-    "title": "Swimlane AI SOC automates security operations for MSSPs",
-    "url": "https://www.helpnetsecurity.com/2026/07/22/swimlane-ai-soc-mssps/",
-    "source": "Help Net Security",
-    "published": "2026-07-22T13:29:27+00:00",
-    "raw_text": "Swimlane has announced the launch of Swimlane AI SOC for MSSPs, which the company says is designed to empower managed security service providers through agentic AI automation rather than compete for their customers. Some AI SOC providers are moving into managed services, turning former partners into competitors for the very MSSPs they once supported. Swimlane is taking the opposite approach. MSSPs that build their AI SOC on Swimlane Turbine keep the customer relationship, keep the … More → The post Swimlane AI SOC automates security operations for MSSPs appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Networks"
+      "Networks",
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
       "Cybersecurity": [
-        "security",
-        "soc",
-        "managed security",
-        "mssp"
-      ],
-      "Industry & Market": [
-        "ey",
-        "managed services",
-        "service provider"
+        "hacker"
       ]
     },
-    "summary": "Swimlane has announced the launch of Swimlane AI SOC for MSSPs, which the company says is designed to empower managed security service providers through agentic AI automation rather than compete for their customers. Some AI SOC providers are moving into managed services, turning former partners into competitors for the very MSSPs they once supported. Swimlane is taking the opposite approach. MSSPs that build their AI SOC on Swimlane Turbine keep the customer relationship, keep the … More → The post Swimlane AI SOC automates security operations for MSSPs appeared first on Help Net Security ."
+    "summary": "Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets."
   },
   {
     "title": "Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain",
@@ -1316,6 +1299,23 @@
     "summary": "Many of the vulnerabilities fixed with the July 2026 Critical Patch Update were likely discovered by AI. The post Oracle Patches Over 1,400 Vulnerabilities With Quarterly Security Updates appeared first on SecurityWeek ."
   },
   {
+    "title": "Two-Thirds of Ransomware Victims Say AI Boosted Attack Effectiveness",
+    "url": "https://www.infosecurity-magazine.com/news/ai-boosts-ransomware-effectiveness/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "A new study of organizations which have fallen victim to ransomware suggests the rise of AI-tools being used by hackers is making life harder for defenders",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware",
+        "hacker"
+      ]
+    },
+    "summary": "A new study of organizations which have fallen victim to ransomware suggests the rise of AI-tools being used by hackers is making life harder for defenders"
+  },
+  {
     "title": "TrickBot Ditches HTTP for DNS Tunneling in Latest Variant",
     "url": "https://www.infosecurity-magazine.com/news/trickbot-dns-tunneling-c2/",
     "source": "InfoSecurity Magazine",
@@ -1559,7 +1559,7 @@
     "url": "https://cloud.google.com/blog/products/databases/supercharge-pgvector-4x-faster-hnsw-with-alloydb/",
     "source": "Google Cloud Blog",
     "published": "2026-07-21T16:00:00+00:00",
-    "raw_text": "AlloyDB is a fully managed, PostgreSQL-compatible database service built for your most demanding enterprise workloads. It combines the best of open source PostgreSQL with Google’s advanced technology, offering massive scalability, high availability, and native AI capabilities. It serves as a performant relational store, a unified backend for vector and full text search, and an analytics engine that is up to 100x faster than standard PostgreSQL. Vector search is the foundation of modern AI and Retrieval Augmented Generation (RAG) applications. For developers using AlloyDB and other PostgreSQL databases, pgvector is a widely adopted extension for storing, indexing, and querying vector embeddings, and HNSW (Hierarchical Navigable Small World) is a highly efficient graph-based algorithm designed for approximate nearest neighbor search across multi-layered structures. With columnar engine accelerated HNSW in AlloyDB (now in preview), you can achieve up to 4x higher queries per second (QPS) for vector search compared to standard PostgreSQL HNSW. Enterprise AI applications face a constant trade-off between speed and accuracy. When searching through millions or billions of vectors, maximizing Queries per Second (QPS) without sacrificing search quality (recall) is critical for scaling production workloads. The PostgreSQL pgvector extension offers HNSW as one of the indexes that can speed up Approximate Nearest Neighbor (ANN) searches. Let’s dive deep into how AlloyDB solves the speed vs. accuracy trade-off. Note: While this post focuses on HNSW performance, it’s worth noting that HNSW is just one part of AlloyDB’s advanced vector toolkit. AlloyDB also features ScaNN —a cutting-edge index backed by over 14 years of Google Research—giving you the flexibility to choose the perfect index for your workload. Additionally, for use cases demanding absolute precision, standard k-nearest neighbor (KNN) search is always available for 100% recall. Check out our Choose a Vector Index Guide to see how they stack up. aside_block <ListValue: [StructValue([('title', 'Get started with a 30-day AlloyDB free trial instance'), ('body', <wagtail.rich_text.RichText object at 0x7f400767bc70>), ('btn_text', 'Start building for free'), ('href', 'http://goo.gle/try_alloydb'), ('image', None)])]> First, what is the AlloyDB columnar engine? The AlloyDB columnar engine is a built-in, in-memory cache that automatically stores frequently queried data in a specialized, scan-optimized columnar format. It allows AlloyDB to handle heavy analytical queries up to 100x faster than standard PostgreSQL. Additionally, it accelerates ANN searches by storing the index in memory, using a vectorized memory layout for fast traversals, and bypassing standard PostgreSQL buffer manager overhead. Performance visualization To understand the real-world performance characteristics of columnar engine Accelerated HNSW, we plotted standard QPS vs Recall curves for the GloVe 100 Angular dataset by searching more than 1M records with a limit of 100. Running this benchmark script yields the following visualization: Note: These measurements were taken on an AlloyDB C4A 16vCPU machine. Due to the inherent randomness in HNSW graph building, results may slightly vary across runs. The data reveals two transformative benefits: Massive performance throughput gains: For any given target recall (e.g. 0.95), QPS is increased by approximately 4.2x to 4.9x . This allows you to handle significantly more concurrent vector searches on the same hardware. Significant recall (accuracy) improvement: Conversely, at a fixed QPS level, columnar engine accelerated HNSW provides a substantial boost in recall. For example, we saw that at ~350 QPS (in the above chart), enabling the columnar engine improves recall from roughly 0.78 to over 0.94 – a 0.163 recall gain . This means your AI applications get much more accurate results without any latency impact. It is important to note that the baseline (blue line) already represents the index being fully cached in the PostgreSQL shared buffer cache. The performance gains shown here are not the result of moving data from disk to RAM, but rather the result of a more efficient memory architecture. How it works: Columnar engine Accelerated HNSW In standard PostgreSQL architectures, index operations utilize the shared buffer cache. Even when data is fully in-memory, the database still incurs significant overhead from the buffer manager, which must handle operations such as page pinning and unpinning, lock acquisition, buffer table lookups, and Least Recently Used (LRU) management. AlloyDB's columnar engine is a built-in, in-memory cache that stores data in a specialized, scan-optimized format. With this release, AlloyDB can use columnar engine accelerated HNSW to: Pin the index: The pgvector HNSW index is pinned (kept persistently in-memory to ensure fast access) directly into the columnar engine’s memory. Vectorized access: It utilizes a memory layout specifically designed for the high-concurrency, pointer-heavy traversals required by HNSW graphs. Bypass buffer overhead: By navigating the graph in a specialized memory space, AlloyDB avoids the standard buffer manager bottlenecks. This architectural shift is what enables the dramatic QPS and recall improvements shown above, even when comparing against a fully-cached standard index. Why it Matters For enterprise-scale applications, this isn't just about a faster database—it's about cost and quality: Reduced infrastructure costs: Achieve the same performance with significantly lower compute resources. Better AI accuracy: Reach higher recall and quality at speeds that were previously only possible for \"draft\" (high-speed, lower-accuracy results) quality search. No application changes required: Because this is built into AlloyDB, you get these gains using the same standard pgvector SQL syntax. Note that the columnar engine does utilize memory, but it is highly compressed and meticulously managed. Because the engine stores vector data in an efficient columnar format, the memory footprint is minimal compared to the massive performance gains—making it a highly favorable trade-off for enterprise workloads. Quick Start Guide To try out columnar engine accelerated HNSW in AlloyDB, follow these steps: 1. Enable the columnar engine and index caching Ensure that both google_columnar_engine.enabled and google_columnar_engine.enable_index_caching flags are set to on for your AlloyDB instance. 2. Add the HNSW Index to columnar engine Once your HNSW index is created via pgvector , execute the following SQL command to cache it in the columnar engine: code_block <ListValue: [StructValue([('code', \"SELECT google_columnar_engine_add_index('<hnsw_index_name>');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f400767bdc0>)])]> 3. Additional Resources New to AlloyDB? Discover AlloyDB with a 30-day free trial . Google Colab Notebook : An end-to-end Python script to ingest the GloVe dataset, create indexes, and plot Recall vs QPS curves. Is HNSW the right vector index choice for your use case? Check our ‘ Choose a vector index in AlloyDB AI ’ guide.",
+    "raw_text": "AlloyDB is a fully managed, PostgreSQL-compatible database service built for your most demanding enterprise workloads. It combines the best of open source PostgreSQL with Google’s advanced technology, offering massive scalability, high availability, and native AI capabilities. It serves as a performant relational store, a unified backend for vector and full text search, and an analytics engine that is up to 100x faster than standard PostgreSQL. Vector search is the foundation of modern AI and Retrieval Augmented Generation (RAG) applications. For developers using AlloyDB and other PostgreSQL databases, pgvector is a widely adopted extension for storing, indexing, and querying vector embeddings, and HNSW (Hierarchical Navigable Small World) is a highly efficient graph-based algorithm designed for approximate nearest neighbor search across multi-layered structures. With columnar engine accelerated HNSW in AlloyDB (now in preview), you can achieve up to 4x higher queries per second (QPS) for vector search compared to standard PostgreSQL HNSW. Enterprise AI applications face a constant trade-off between speed and accuracy. When searching through millions or billions of vectors, maximizing Queries per Second (QPS) without sacrificing search quality (recall) is critical for scaling production workloads. The PostgreSQL pgvector extension offers HNSW as one of the indexes that can speed up Approximate Nearest Neighbor (ANN) searches. Let’s dive deep into how AlloyDB solves the speed vs. accuracy trade-off. Note: While this post focuses on HNSW performance, it’s worth noting that HNSW is just one part of AlloyDB’s advanced vector toolkit. AlloyDB also features ScaNN —a cutting-edge index backed by over 14 years of Google Research—giving you the flexibility to choose the perfect index for your workload. Additionally, for use cases demanding absolute precision, standard k-nearest neighbor (KNN) search is always available for 100% recall. Check out our Choose a Vector Index Guide to see how they stack up. aside_block <ListValue: [StructValue([('title', 'Get started with a 30-day AlloyDB free trial instance'), ('body', <wagtail.rich_text.RichText object at 0x7f47836ab6a0>), ('btn_text', 'Start building for free'), ('href', 'http://goo.gle/try_alloydb'), ('image', None)])]> First, what is the AlloyDB columnar engine? The AlloyDB columnar engine is a built-in, in-memory cache that automatically stores frequently queried data in a specialized, scan-optimized columnar format. It allows AlloyDB to handle heavy analytical queries up to 100x faster than standard PostgreSQL. Additionally, it accelerates ANN searches by storing the index in memory, using a vectorized memory layout for fast traversals, and bypassing standard PostgreSQL buffer manager overhead. Performance visualization To understand the real-world performance characteristics of columnar engine Accelerated HNSW, we plotted standard QPS vs Recall curves for the GloVe 100 Angular dataset by searching more than 1M records with a limit of 100. Running this benchmark script yields the following visualization: Note: These measurements were taken on an AlloyDB C4A 16vCPU machine. Due to the inherent randomness in HNSW graph building, results may slightly vary across runs. The data reveals two transformative benefits: Massive performance throughput gains: For any given target recall (e.g. 0.95), QPS is increased by approximately 4.2x to 4.9x . This allows you to handle significantly more concurrent vector searches on the same hardware. Significant recall (accuracy) improvement: Conversely, at a fixed QPS level, columnar engine accelerated HNSW provides a substantial boost in recall. For example, we saw that at ~350 QPS (in the above chart), enabling the columnar engine improves recall from roughly 0.78 to over 0.94 – a 0.163 recall gain . This means your AI applications get much more accurate results without any latency impact. It is important to note that the baseline (blue line) already represents the index being fully cached in the PostgreSQL shared buffer cache. The performance gains shown here are not the result of moving data from disk to RAM, but rather the result of a more efficient memory architecture. How it works: Columnar engine Accelerated HNSW In standard PostgreSQL architectures, index operations utilize the shared buffer cache. Even when data is fully in-memory, the database still incurs significant overhead from the buffer manager, which must handle operations such as page pinning and unpinning, lock acquisition, buffer table lookups, and Least Recently Used (LRU) management. AlloyDB's columnar engine is a built-in, in-memory cache that stores data in a specialized, scan-optimized format. With this release, AlloyDB can use columnar engine accelerated HNSW to: Pin the index: The pgvector HNSW index is pinned (kept persistently in-memory to ensure fast access) directly into the columnar engine’s memory. Vectorized access: It utilizes a memory layout specifically designed for the high-concurrency, pointer-heavy traversals required by HNSW graphs. Bypass buffer overhead: By navigating the graph in a specialized memory space, AlloyDB avoids the standard buffer manager bottlenecks. This architectural shift is what enables the dramatic QPS and recall improvements shown above, even when comparing against a fully-cached standard index. Why it Matters For enterprise-scale applications, this isn't just about a faster database—it's about cost and quality: Reduced infrastructure costs: Achieve the same performance with significantly lower compute resources. Better AI accuracy: Reach higher recall and quality at speeds that were previously only possible for \"draft\" (high-speed, lower-accuracy results) quality search. No application changes required: Because this is built into AlloyDB, you get these gains using the same standard pgvector SQL syntax. Note that the columnar engine does utilize memory, but it is highly compressed and meticulously managed. Because the engine stores vector data in an efficient columnar format, the memory footprint is minimal compared to the massive performance gains—making it a highly favorable trade-off for enterprise workloads. Quick Start Guide To try out columnar engine accelerated HNSW in AlloyDB, follow these steps: 1. Enable the columnar engine and index caching Ensure that both google_columnar_engine.enabled and google_columnar_engine.enable_index_caching flags are set to on for your AlloyDB instance. 2. Add the HNSW Index to columnar engine Once your HNSW index is created via pgvector , execute the following SQL command to cache it in the columnar engine: code_block <ListValue: [StructValue([('code', \"SELECT google_columnar_engine_add_index('<hnsw_index_name>');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f47836ab0a0>)])]> 3. Additional Resources New to AlloyDB? Discover AlloyDB with a 30-day free trial . Google Colab Notebook : An end-to-end Python script to ingest the GloVe dataset, create indexes, and plot Recall vs QPS curves. Is HNSW the right vector index choice for your use case? Check our ‘ Choose a vector index in AlloyDB AI ’ guide.",
     "categories": [
       "Networks",
       "Industry & Market"
@@ -1622,7 +1622,7 @@
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/generosity-under-conditions-hardening-google-cloud-access-management/",
     "source": "Google Cloud Blog",
     "published": "2026-07-21T11:19:00+00:00",
-    "raw_text": "In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific resource in the project. For example, consider the difference between granting the role Artifact Registry Editor ( roles/artifactregistry.editor ) on a project vs. granting it on a specific repository in the project. In the former case, the access is granted to ANY repository in the project. In the latter case, users will have the editor access only to a specific repository. However, binding IAM policies to a resource or service level isn't always possible. This is when it is time to use IAM conditions . Let’s look at two distinct examples that demonstrate the power of conditions when hardening access management: one for traditional administrative roles, and one for modern AI integrations. Use Case 1: Constraining the Power of Admins This case demonstrates how to restrict the specific operations that broad IAM roles are authorized to perform. You can easily scope administrative privileges for managing specific resources in a project by granting a \"resource creator\" role at the project level and an editor role on a selected resource. It is far more challenging to constrain IAM Admin Roles that are intended to grant access to operations rather than specific resources. A representative example would be the IAM Admin role ( roles/iam.admin ). Users granted this role can grant themselves any other role or create a new one. It greatly exceeds practical needs. The first step is to narrow the access by using the Project IAM Admin role ( roles/resourcemanager.projectIamAdmin ) that provides administrative privileges only at the level of the project. It is possible, however, to restrict the granted privileges even further. For example, suppose you grant the Project IAM Admin role to your builder service account that creates resources and deploys workloads. The workloads only need access to the BigQuery and Agent Platform APIs (formerly Vertex APIs) and permission to write logs and traces. For such a case you can use the following gcloud CLI command or its alternative in Terraform: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding \"${PROJECT_ID}\" \\\\\\r\\n --member=\"serviceAccount:${SA_MAIL}\" \\\\\\r\\n --role=\"roles/resourcemanager.projectIamAdmin\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=LimitedIAMAdmin:\\\\\\r\\nexpression=api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', [])\\\\\\r\\n.hasOnly([\\\\\\r\\n\\'roles/aiplatform.user\\',\\\\\\r\\n\\'roles/bigquery.jobUser\\',\\\\\\r\\n\\'roles/bigquery.dataViewer\\',\\\\\\r\\n\\'roles/cloudtrace.agent\\',\\\\\\r\\n\\'roles/logging.logWriter\\'\\\\\\r\\n])\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4006e02eb0>)])]> The value of the condition parameter is defined using Common Expression Language ( CEL ) syntax . First it customizes a field delimiter to be a colon instead of a comma and then describes the condition fields title and expression . The expression field uses functions for API attributes to identify which roles are being granted to allow granting only the roles in the comma delimited list. The same operation in Terraform will look very similar. Using input variables instead of environment variables, it will look like this: code_block <ListValue: [StructValue([('code', 'resource \"google_project_iam_member\" \"limited_project_iam_admin\" {\\r\\n project = var.project_id\\r\\n role = \"roles/resourcemanager.projectIamAdmin\"\\r\\n member = \"serviceAccount:${var.sa_email}\"\\r\\n condition {\\r\\n title = \"LimitedIAMAdmin\"\\r\\n expression = <<-EOT\\r\\n api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', []).hasOnly([\\r\\n \\'roles/aiplatform.user\\',\\r\\n \\'roles/bigquery.jobUser\\',\\r\\n \\'roles/bigquery.dataViewer\\',\\r\\n \\'roles/cloudtrace.agent\\',\\r\\n \\'roles/logging.logWriter\\'\\r\\n ])\\r\\n EOT\\r\\n }\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4006e02f10>)])]> Use Case 2: Control over MCP Server Access This case is about hardening access to specific services behind a single set of permissions. Google exposes access to a subset of cloud resources and services via MCP Servers that expose Model Context Protocol (MCP) endpoints. The access to these servers is granted using the predefined MCP Tool User ( roles/mcp.toolUser ) role. This role grants access to ALL available MCP servers (for a project where an IAM policy is set). Using conditions helps to narrow the access to a specific MCP server. code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding $PROJECT_ID \\\\\\r\\n --member=\"serviceAccount:$SA_EMAIL\" \\\\\\r\\n --role=\"roles/mcp.toolUser\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=bigquery_mcp_server_only:\\\\\\r\\nexpression=resource.service == \\'bigquery.googleapis.com\\'\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4006e02f70>)])]> Notice that the value compared to the resource.service attribute is not the MCP server endpoint (which is bigquery.googleapis.com/mcp ) but the endpoint of the service. It is possible to narrow the access scope further to the level of the specific MCP tools. For this you will need to use API attributes again. The following expression limits the service account access to the level of only two BigQuery MCP tools. code_block <ListValue: [StructValue([('code', \"expression=api.getAttribute('mcp.googleapis.com/tool.name', '') in [\\\\\\r\\n'mcp_bigquery-mcp_execute_sql',\\\\\\r\\n'mcp_bigquery-mcp_execute_sql_readonly'\\\\\\r\\n]\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4006e02fd0>)])]> Note that if you condition the IAM policy binding at the MCP tool level, you don't need to validate the resource.service attribute. For experimenting with MCP server access you can use the Getting Started with Google MCP Servers codelab and modify its gcloud projects add-iam-policy-binding commands. And Even More Besides enforcing precise control when using predefined roles, IAM conditions let you craft access management based on the time of the request. For example, the following condition's expression allows access only during daytime on weekdays: code_block <ListValue: [StructValue([('code', \"expression=request.time.getHours('Europe/Berlin') >= 9 &&\\\\\\r\\nrequest.time.getHours('Europe/Berlin') <= 17 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') >= 1 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') <= 5\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4006e2a070>)])]> The expression limits access from 9 o'clock in the morning to 5 o'clock in the evening according to the \"Europe/Berlin\" timezone from Monday to Friday (days of the week range from 0 to 6, starting with Sunday). IAM conditions allow controlling the identity of the actor using the principal attributes . However, it can easily become an anti-pattern. The recommended practice is to control the identity of actors allowed to use the policy through the list of the IAM policy's principals instead of using the conditions. Conclusion and More Resources While IAM conditions give you surgical precision over Allow policies, you can take your defense-in-depth strategy even further with IAM Deny policies . With Deny Policies you can grant access using the predefined IAM roles with Allow policies and remove excessive permissions of the role to enforce PoLP. See the following resources for additional information about Deny policies: Identify the permissions that are supported in deny policies . Get the format of principal identifiers in deny policies . Find out how to troubleshoot access issues with deny policies . Learn more about denying access to principals . Read the blog post about Build defense in depth . You can use Google Skills for hands-on experience with IAM policies.",
+    "raw_text": "In Google Cloud, Identity and Access Management (IAM) helps you maintain access control over your cloud resources and operations. While it includes other features, this is its primary purpose. If you ever tried to harden security over your application, you know the importance of the Principle of Least Privilege ( PoLP ) ‒ grant the absolute minimum permissions to your users and workloads to allow them to perform their tasks. You reach it through use of predefined roles and custom roles and setting up a combination of Allow and Deny IAM policies at project, folder, or organization level. Using a combination of Allow and Deny policies along the resource hierarchy is an effective way to control access. This approach lets you enforce PoLP across many different scenarios. The existing flexible control can be insufficient when resources in the project are shared between multiple workloads or used by more than one team. In many such scenarios, it is possible to bind IAM policies to a specific resource in the project. For example, consider the difference between granting the role Artifact Registry Editor ( roles/artifactregistry.editor ) on a project vs. granting it on a specific repository in the project. In the former case, the access is granted to ANY repository in the project. In the latter case, users will have the editor access only to a specific repository. However, binding IAM policies to a resource or service level isn't always possible. This is when it is time to use IAM conditions . Let’s look at two distinct examples that demonstrate the power of conditions when hardening access management: one for traditional administrative roles, and one for modern AI integrations. Use Case 1: Constraining the Power of Admins This case demonstrates how to restrict the specific operations that broad IAM roles are authorized to perform. You can easily scope administrative privileges for managing specific resources in a project by granting a \"resource creator\" role at the project level and an editor role on a selected resource. It is far more challenging to constrain IAM Admin Roles that are intended to grant access to operations rather than specific resources. A representative example would be the IAM Admin role ( roles/iam.admin ). Users granted this role can grant themselves any other role or create a new one. It greatly exceeds practical needs. The first step is to narrow the access by using the Project IAM Admin role ( roles/resourcemanager.projectIamAdmin ) that provides administrative privileges only at the level of the project. It is possible, however, to restrict the granted privileges even further. For example, suppose you grant the Project IAM Admin role to your builder service account that creates resources and deploys workloads. The workloads only need access to the BigQuery and Agent Platform APIs (formerly Vertex APIs) and permission to write logs and traces. For such a case you can use the following gcloud CLI command or its alternative in Terraform: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding \"${PROJECT_ID}\" \\\\\\r\\n --member=\"serviceAccount:${SA_MAIL}\" \\\\\\r\\n --role=\"roles/resourcemanager.projectIamAdmin\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=LimitedIAMAdmin:\\\\\\r\\nexpression=api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', [])\\\\\\r\\n.hasOnly([\\\\\\r\\n\\'roles/aiplatform.user\\',\\\\\\r\\n\\'roles/bigquery.jobUser\\',\\\\\\r\\n\\'roles/bigquery.dataViewer\\',\\\\\\r\\n\\'roles/cloudtrace.agent\\',\\\\\\r\\n\\'roles/logging.logWriter\\'\\\\\\r\\n])\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4783321b80>)])]> The value of the condition parameter is defined using Common Expression Language ( CEL ) syntax . First it customizes a field delimiter to be a colon instead of a comma and then describes the condition fields title and expression . The expression field uses functions for API attributes to identify which roles are being granted to allow granting only the roles in the comma delimited list. The same operation in Terraform will look very similar. Using input variables instead of environment variables, it will look like this: code_block <ListValue: [StructValue([('code', 'resource \"google_project_iam_member\" \"limited_project_iam_admin\" {\\r\\n project = var.project_id\\r\\n role = \"roles/resourcemanager.projectIamAdmin\"\\r\\n member = \"serviceAccount:${var.sa_email}\"\\r\\n condition {\\r\\n title = \"LimitedIAMAdmin\"\\r\\n expression = <<-EOT\\r\\n api.getAttribute(\\'iam.googleapis.com/modifiedGrantsByRole\\', []).hasOnly([\\r\\n \\'roles/aiplatform.user\\',\\r\\n \\'roles/bigquery.jobUser\\',\\r\\n \\'roles/bigquery.dataViewer\\',\\r\\n \\'roles/cloudtrace.agent\\',\\r\\n \\'roles/logging.logWriter\\'\\r\\n ])\\r\\n EOT\\r\\n }\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4783321160>)])]> Use Case 2: Control over MCP Server Access This case is about hardening access to specific services behind a single set of permissions. Google exposes access to a subset of cloud resources and services via MCP Servers that expose Model Context Protocol (MCP) endpoints. The access to these servers is granted using the predefined MCP Tool User ( roles/mcp.toolUser ) role. This role grants access to ALL available MCP servers (for a project where an IAM policy is set). Using conditions helps to narrow the access to a specific MCP server. code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding $PROJECT_ID \\\\\\r\\n --member=\"serviceAccount:$SA_EMAIL\" \\\\\\r\\n --role=\"roles/mcp.toolUser\" \\\\\\r\\n --condition=\"^:^\\\\\\r\\ntitle=bigquery_mcp_server_only:\\\\\\r\\nexpression=resource.service == \\'bigquery.googleapis.com\\'\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4783321580>)])]> Notice that the value compared to the resource.service attribute is not the MCP server endpoint (which is bigquery.googleapis.com/mcp ) but the endpoint of the service. It is possible to narrow the access scope further to the level of the specific MCP tools. For this you will need to use API attributes again. The following expression limits the service account access to the level of only two BigQuery MCP tools. code_block <ListValue: [StructValue([('code', \"expression=api.getAttribute('mcp.googleapis.com/tool.name', '') in [\\\\\\r\\n'mcp_bigquery-mcp_execute_sql',\\\\\\r\\n'mcp_bigquery-mcp_execute_sql_readonly'\\\\\\r\\n]\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4783321220>)])]> Note that if you condition the IAM policy binding at the MCP tool level, you don't need to validate the resource.service attribute. For experimenting with MCP server access you can use the Getting Started with Google MCP Servers codelab and modify its gcloud projects add-iam-policy-binding commands. And Even More Besides enforcing precise control when using predefined roles, IAM conditions let you craft access management based on the time of the request. For example, the following condition's expression allows access only during daytime on weekdays: code_block <ListValue: [StructValue([('code', \"expression=request.time.getHours('Europe/Berlin') >= 9 &&\\\\\\r\\nrequest.time.getHours('Europe/Berlin') <= 17 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') >= 1 &&\\\\\\r\\nrequest.time.getDayOfWeek('Europe/Berlin') <= 5\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f4783321370>)])]> The expression limits access from 9 o'clock in the morning to 5 o'clock in the evening according to the \"Europe/Berlin\" timezone from Monday to Friday (days of the week range from 0 to 6, starting with Sunday). IAM conditions allow controlling the identity of the actor using the principal attributes . However, it can easily become an anti-pattern. The recommended practice is to control the identity of actors allowed to use the policy through the list of the IAM policy's principals instead of using the conditions. Conclusion and More Resources While IAM conditions give you surgical precision over Allow policies, you can take your defense-in-depth strategy even further with IAM Deny policies . With Deny Policies you can grant access using the predefined IAM roles with Allow policies and remove excessive permissions of the role to enforce PoLP. See the following resources for additional information about Deny policies: Identify the permissions that are supported in deny policies . Get the format of principal identifiers in deny policies . Find out how to troubleshoot access issues with deny policies . Learn more about denying access to principals . Read the blog post about Build defense in depth . You can use Google Skills for hands-on experience with IAM policies.",
     "categories": [
       "Cloud Infrastructure",
       "GRC",
@@ -1663,6 +1663,41 @@
     ],
     "matched_keywords": {},
     "summary": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament."
+  },
+  {
+    "title": "Microsoft’s 3-day patching directive comes with added operational risk",
+    "url": "https://www.csoonline.com/article/4200366/microsofts-3-day-patching-directive-comes-with-added-operational-risk.html",
+    "source": "CSO Online",
+    "published": "2026-07-23T07:00:00+00:00",
+    "raw_text": "Microsoft 365 Director Jeremy Chapman this month took to video to tell Windows admins that the days of delaying security patches are over. Complex enterprise systems and historic incidents involving patch problems have caused many admins to hold fire on immediately applying security patches, in many cases deferring patch rollouts for two to four weeks or more to ensure stability. Microsoft argues that this cautious approach, though understandable, is no longer viable because AI is accelerating the discovery and exploitation of software vulnerabilities. As a result, Microsoft has advised admins to act on patches within three days. Independent experts agree with Microsoft’s diagnosis of the problems posed by AI-powered vulnerability discovery , but many say Microsoft’s three-day remediation window is unrealistic for large enterprises with heavy testing, change-control, and compatibility constraints. Instead of taking a blanket approach, enterprises need to focus more on quickly resolving those vulnerabilities that are under active exploitation and relevant to their environments, according to critics of Microsoft’s revised approach. Tighter patching deadlines Microsoft’s revised vulnerability remediation advice comes in the wake of its work with Anthropic’s Project Glasswing and findings from Microsoft’s own MDASH multi-model agentic scanning harness. Tighter patching deadlines are configurable via Windows Autopatch and Microsoft Intune or update tooling options such as Microsoft Configuration Manager and Windows Server Update Services. As IT environments become increasingly more complex, inadvertent issues can occur with what appears to be a simple patch. Unique or complex deployments may not be compatible with a patch, resulting in potential data corruption, system shutdown, or the dreaded “Blue Screen of Death.” Multiple vendors in the operating system and the enterprise software and security market have released patches that have broken products and caused outages, so the issue goes well beyond Windows shops. Increasing both the volume and the speed of patching is unsustainable for most security teams because organizations are already struggling with successful remediation as it is. “Many organizations have patch windows, review cycles, and test environments to identify these issues prior to patching production environments,” says Scott Caveza, senior research manager at exposure management and vulnerability assessment firm Tenable. “Organizations lacking the resources for extended validation risk deploying faulty patches that cause downtime or force last-minute configuration changes.” Caveza adds: “The mitigation steps will vary for each organization, but blindly relying on auto-updates without contextual validation is not a defensible security posture.” CISA’s Known Exploited Vulnerabilities list and other industry data suggest that only a small fraction of disclosed vulnerabilities are confirmed as exploited in the wild. “[Enterprises should focus on] identifying vulnerabilities with credible and functional PoCs, verified exploitation, or sustained attention from ransomware groups, threat actors, and botnets,” says Caitlin Condon, vice president of security research at VulnCheck. “Timely exploit intelligence helps organizations identify the bugs that require immediate attention, while allowing lower-risk issues to proceed through appropriate testing and change control.” Other independent experts are more sympathetic to Microsoft’s argument that AI has made vulnerability discovery and exploit development faster than ever and, as a result, the risks of delaying patches are far greater. “Organizations sometimes delay patches to protect the uptime of critical systems, and many updates still require a restart,” says Danny Jenkins, CEO and co-founder at endpoint protection technology vendor ThreatLocker. “Some teams also stay one update cycle behind because they are concerned that a new patch could introduce bugs or break an overlooked dependency. Unfortunately, delaying patches to preserve uptime is becoming much harder to justify.” Jenkins adds: “Organizations should not leave critical systems exposed while waiting for the next maintenance window. Patches should still be tested, but that process needs to move quickly, with the highest priority given to vulnerabilities that are actively exploited or exposed to the internet. A controlled interruption is usually far less costly than a successful attack exploiting a known vulnerability.” Wider cross-industry impact Microsoft’s three-day recommendation reflects a fundamental change in the threat landscape. Other vendors might be expected to follow suit and that means CISOs need to revise their approach to vulnerability remediation. “Organizations should expect faster disclosure-to-exploitation timelines to become the norm, which means security programs must emphasize automation, trusted software supply chains, and continuous visibility rather than relying on periodic maintenance windows,” says Mike Nelson, VP and field CTO at DigiCert. AI is compressing the time between vulnerability discovery and exploitation, and the industry is moving rapidly from 30-, 60-, and 90-day patching windows toward a matter of days. However a “blanket three-day requirement for every vulnerability is neither realistic nor safe for most large organizations,” says Jeff Williams, founder and CTO at Contrast Security. Failing to patch opens up security threats, but rushing an inadequately tested patch into production creates operational risk. “The goal cannot be to treat every CVE [vulnerability] as an emergency,” according to Williams. “It has to be identifying, within hours, which vulnerabilities are actually exploitable and require immediate action.” Holistic remediation Security teams are already facing significant pressure to patch faster and to remediate a rising tide of new vulnerabilities, yet many practitioners are losing ground. Verizon’s Data Breach Investigation Report , published earlier this year, found that the median time to patch had actually increased to 43 days. Patch deployment in enterprise environments involves configuration changes, reviews, testing, and validation. Enterprises need to become more proficient at exposure management so that they have a holistic view of their environment that’s necessary to identify which assets are at greatest risk. “By pinpointing the misconfigurations, identity flaws, and specific vulnerabilities that pose the greatest risk to their environment, security teams can prioritize exactly what to patch first,” Tenable’s Caveza says. “The idea of ‘patch everything’ is really outdated, and ‘patch faster’ isn’t feasible with the rapidly increasing number of vulnerabilities disclosed each day.” CISOs will have to re-engineer their vulnerability and exposure management processes. “The traditional model of scanning everything, assigning generic severity scores, and tilting at a massive and expanding backlog is no longer fast enough,” says Contrast Security’s Williams. Organizations need to identify the small number of vulnerabilities that matter, protect against them immediately, and remediate them on a timeline the business can safely support. Enterprises should prioritize on resolving “internet facing, remotely exploitable vulnerabilities and any of the CISA Known Exploited Vulnerability list,” says Jose Lejin, an IEEE senior member. Businesses that cannot safely validate and deploy patches within three days still have options, including “compensating controls, reducing an asset’s exposure, or in some cases removing the component entirely, all of which shrink the exploitable risk and buy time to patch properly,” says Brad Hibbert, CSO of vulnerability management provider Brinqa.",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "ransomware",
+        "vulnerability",
+        "cve",
+        "exploit",
+        "threat",
+        "security"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "Microsoft 365 Director Jeremy Chapman this month took to video to tell Windows admins that the days of delaying security patches are over. Complex enterprise systems and historic incidents involving patch problems have caused many admins to hold fire on immediately applying security patches, in many cases deferring patch rollouts for two to four weeks or more to ensure stability. Microsoft argues that this cautious approach, though understandable, is no longer viable because AI is accelerating the discovery and exploitation of software vulnerabilities. As a result, Microsoft has advised admins to act on patches within three days."
   },
   {
     "title": "German law enforcement claims to have ‘dismantled’ mega phishing-as-a-service group Kratos",
@@ -2021,75 +2056,61 @@
     "summary": "Sandboxes have become a key security control for AI coding agents, but new research suggests they may not provide the isolation many organizations assume. Pillar Security has disclosed a series of vulnerabilities showing how agents in tools such as Cursor, Codex, Gemini CLI, and Antigravity can indirectly cross security boundaries without technically escaping their sandboxes. “In almost every case, the agent did not need to break the sandbox directly,” the researchers said in a blog post. “It only had to write something that a trusted component outside the sandbox would later run, load, scan, or treat as safe.” The findings outlined four specific and repeatable failure modes in AI sandboxes."
   },
   {
-    "title": "Context bombing heralds a new AI era of deceptive defense",
-    "url": "https://www.csoonline.com/article/4198524/context-bombing-heralds-a-new-ai-era-of-deceptive-defense.html",
-    "source": "CSO Online",
-    "published": "2026-07-21T07:00:00+00:00",
-    "raw_text": "Attackers are increasingly using AI agents to automate all phases of cyberattacks , prompting the security industry and enterprises to find new network defense approaches. One technique that shows promise is to intentionally plant decoy files with prompts that trigger the content safety guardrails built into LLMs with the goal of crashing rogue agentic workflows. Using decoy resources as tripwires that alert defenders about potential unauthorized access is not a new idea in cybersecurity. These are known as canaries — after the canary in the coal mine early warning system — and can be fake documents, AWS access keys, database dumps, DNS records, and even URLs that would not be queried by legitimate processes, but would be attractive targets for attackers. What’s new in the approach devised and tested by security firm Tracebit is to use these decoy resources not merely to trigger alerts, but to actually stop AI agents, buying defenders more time. Dubbed “context bombing,” the technique takes advantage of the fact that LLMs are inherently vulnerable to prompt injection — acting on instructions they might encounter inside the data they process. Enterprises that build their own AI agents have to worry about malicious prompts placed by attackers on web pages, emails, documents, code comments, and in other third-party resources those agents might access. With no defenses in place, companies risk their own agents being hijacked and used against them to perform unauthorized actions. But the malicious AI agents used by attackers have the same vulnerability. “We call the defensive version a context bomb: a short piece of text designed to trigger a model’s safety guardrails, planted directly in the attacker’s path — a decoy secret, environment variable, or DNS record,” Sam Cox, Tracebit’s CTO, said in a blog post . “An AI agent that reads it will frequently refuse to continue. You still get the alert; and the attack now halts early instead of merely being detected.” Context bombing triggers massive drop in attack success rate Tracebit’s tests performed in an AWS test environment cut the success rate normally achieved by AI models across multiple attacks paths by up to 90% by simply adding instructions that would trigger their content safety guardrails. LLMs are trained to refuse answering questions about creating biological, chemical, or nuclear weapons, or, in the case of Chinese open-weight models, sensitive political topics such as the Tiananmen Square massacre. Furthermore, once one of these banned instructions make it into the context window, the whole session is poisoned , and the model will often refuse to continue without manual intervention. The researchers ran many tests to find short strings that would trigger model safety guardrails reliably, but it’s worth noting that the identified strings were different between the tested models: Claude Opus 4.8, Gemini 3.1 Pro, GLM 5.2, DeepSeek V4 Pro, and Kimi K2.6. During baseline tests the AI agents managed on average to obtain full account admin in 54% of the 154 attack runs and full compromise (admin + persistence) in 36% of tests. With the context bombs in place, their success rate dropped to 5% for admin access and 1% for full compromise. Also, in 91% of baseline attack runs, the agents managed to complete at least one of ten possible attacks paths, but their average success rate dropped to 15% with the context bombs. The models from Western AI labs — Opus and Gemini — proved the most capable at reaching full admin access, with 93% and 70% success rates, but were also the most impacted by the context bombs with both their success rates dropping to 0%. This shows that the content safety guardrails are much stronger in these models compared to the Chinese ones that were tested. Attackers experimented with safety refusals first The Tracebit researchers had already been experimenting with AI canaries for alert purposes. A paper published in May showed that canaries alerted defenders in 95.9% of 162 successful attack runs performed with AI agents using 10 different AI models. The alerts were triggered 8 minutes before the agents performed critical actions, while the runs required 14 minutes on average to reach admin access. During those tests the researchers observed that if they instructed the models that the network might include deception, their success rate for full admin access and persistence dropped from 20% to 3% on average. Then in June, researchers from security firm Socket.dev came across a software supply chain attack involving malicious PyPI wheels that contained prompt injections with content designed to trigger safety guardrails inside AI models. The malicious prompts were included in code comments at the start of the files and the purpose was likely to evade detection from LLM-powered security scanners. “This header appears designed for AI-mediated analysis, not for Node, Bun, or Python,” the Socket.dev researchers said at the time . “It attempts to derail scanners or analyst copilots that feed the beginning of a file to a language model without clearly isolating the content as untrusted data. In weak pipelines, this can cause refusal behavior, prompt confusion, context pollution, or premature classification before the scanner reaches the actual malware.” The Tracebit researchers then had the idea to flip the script and trigger such safety refusals through their canary technique against malicious AI agents. So not only does the agent run stop, but an alert is also triggered because the canary was accessed. There is a risk that the canaries could also be discovered and accessed accidentally by legitimate LLM-powered tools used by engineering or security teams. But at the same time this means organizations could potentially deploy such canaries in sensitive places to stop their own AI agents that might become hijacked or go off the rails on their own. There are many reports online where AI models performed destructive or unauthorized actions like deleting databases and folders or elevating their privileges because they got struck in failure loops and explored creative ways to complete their tasks. This is even more common with autonomous AI agents that are tasked to reach a goal without human intervention or supervision. “The speed of autonomous AI attacks is why deception is climbing the priority list for security programs,” Tracebit’s Cox said. “When the attack chain takes minutes rather than days, every minute of response time you can claw back matters — and a control that stops the attacker outright, rather than just reporting them, changes the economics significantly.”",
+    "title": "Plan for data center at Nvidia site in San Jose faces appeal",
+    "url": "https://www.datacenterdynamics.com/en/news/plan-for-data-center-at-nvidia-site-in-san-jose-faces-appeal/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-23T08:49:48+00:00",
+    "raw_text": "GPU giant is the property's current leaseholder",
     "categories": [
-      "Cybersecurity",
       "Networks",
-      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "GPU giant is the property's current leaseholder"
+  },
+  {
+    "title": "DCD Studio: Advanced monitoring and predictability at scale with Hiren Lad, Eaton",
+    "url": "https://www.datacenterdynamics.com/en/videos/dcd-studio-advanced-monitoring-and-predictability-at-scale-with-hiren-lad-eaton/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-23T08:29:29+00:00",
+    "raw_text": "Emma Strutton speaks with Hiren Lad of Eaton on AI-enabled digital data center management, real-time monitoring, and integrated solutions that improve visibility, predictability, and operational efficiency.",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Emma Strutton speaks with Hiren Lad of Eaton on AI-enabled digital data center management, real-time monitoring, and integrated solutions that improve visibility, predictability, and operational efficiency."
+  },
+  {
+    "title": "Sponsored: Crossing the cold plate: The criticality of two-phase fluid conveyance",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/crossing-the-cold-plate-the-criticality-of-two-phase-fluid-conveyance/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-23T07:00:00+00:00",
+    "raw_text": "When the journey of cooling refrigerant determines digital success, don’t let tubing fail the rack",
+    "categories": [
+      "Data Centres",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Networks": [
-        "network",
-        "dns",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "malware",
-        "vulnerability",
-        "cyberattack",
-        "security",
-        "cyber",
-        "soc"
+      "Data Centres": [
+        "cooling",
+        "rack"
       ],
       "Industry & Market": [
         "ey"
       ]
     },
-    "summary": "Attackers are increasingly using AI agents to automate all phases of cyberattacks , prompting the security industry and enterprises to find new network defense approaches. One technique that shows promise is to intentionally plant decoy files with prompts that trigger the content safety guardrails built into LLMs with the goal of crashing rogue agentic workflows. Using decoy resources as tripwires that alert defenders about potential unauthorized access is not a new idea in cybersecurity. These are known as canaries — after the canary in the coal mine early warning system — and can be fake documents, AWS access keys, database dumps, DNS records, and even URLs that would not be queried by legitimate processes, but would be attractive targets for attackers."
-  },
-  {
-    "title": "White hat hacker Park Chan-am zeros in on the AI era’s key security challenges",
-    "url": "https://www.csoonline.com/article/4198528/security-in-the-age-of-ai-where-to-start-key-challenges-identified-by-white-hacker-ceo-park-chan-am.html",
-    "source": "CSO Online",
-    "published": "2026-07-21T07:00:00+00:00",
-    "raw_text": "Dubbed the “Genius Hacker,” Park Chan-am began his white hat hacker journey at the precocious age of 11, winning awards at domestic and international hacking competitions since his teenage years. He has since served as a cybersecurity advisor for various Korean government agencies, including the National Police Agency, and has played a key role in the country’s defense against Democratic People’s Republic of Korea (DPRK)-affiliated cyberattacks. At a seminar held this month as part of the 15th Information Security Day event hosted and organized by government agencies including the Ministry of Science and ICT and the Korea Internet and Security Agency (KISA), Park, now CEO of security firm Steelion, explained the changes in the security environment in the AI ​​era and the priority response tasks for information security organizations under the theme of “Major AI Threats and Security Priorities.” “While AI is a new technology, the core of security ultimately lies in access control, supply chain management, and human verification,” he said. Like many security experts, Park sees AI fundamentally changing the speed of cyberattacks. In the past, infiltrating a corporate network required significant time analyzing a range of software systems to find exploitable vulnerabilities — a task that the use of AI has significantly accelerated. “In the past, it took at least four weeks to find vulnerabilities, but now it takes less than a day,” he said. “In the era of AI, all software installed within a company becomes a much more critical target for attacks.” As a result, securing internal software and the software supply chain are paramount — and require a different perspective on accountability, Park noted. “Clients often ask, ‘Isn’t this just a product made by the vendor?’” he said. “From the moment it is installed in the company system, that software is no longer a vendor issue but part of the corporate system.” “We are now in an era where third-party issues can no longer be attributed solely to vendor responsibility,” he stressed. MCP under threat Park also sees authorization management as a key challenge security teams will face in the agentic era. For example, companies have been increasingly utilizing Model Context Protocol (MCP)-based AI agents to read emails, analyze documents, and connect internal systems with various business tasks. But as the workload handled by AI agents increases, every step an AI agent takes, reading external documents and interacting with internal systems, can become a potential attack vector. Prompt contamination through malicious documents and the leakage of internal information via agents with excessive privileges are quite realistic scenarios, Park said. In particular, he pointed out that issues that previously ended as minor problems, such as residual privileges left by former employees or outsourced personnel, could escalate into major incidents as AI automatically links these elements together. “When introducing AI, permissions must be designed before functions,” he said. “The entire MCP process must be approached as a single attack path.” The ever-widening blast radius of AI testing Local AI testing environments are becoming a dangerous security blind spot that information security leaders often overlook. Rapid experimentation with open-source AI, such as LLaMA-based models, on personal or work PCs often results in servers or ports being left open, and if vulnerabilities are discovered, intrusion pathways immediately open up. “When the [Ollama] remote code execution vulnerability was discovered in 2024, there were over 1,000 servers exposed to the internet, but recently in 2026, it has been confirmed that over 300,000 servers from the same targets are exposed,” said Park, adding that “the act of testing AI itself can become a new security risk.” Vulnerability management on notice Security operations must also change, Park stressed, noting that the number of alerts that security personnel must handle has increased tenfold, and in some cases up to a hundredfold, making it virtually impossible to respond to all vulnerabilities using the same standards. As a solution, Park sees the Common Vulnerability Scoring System (CVSS) being insufficient for determining priorities. Instead, he suggested that vulnerability response priorities be determined by utilizing the Exploit Prediction Scoring System (EPSS), which predicts the actual likelihood of exploitation, along with the US government’s Known Exploited Vulnerabilities (KEV) list. For example, if a vulnerability’s CVSS score is 7.5, it is not classified as critical, so it is likely to be pushed down the priority list. But the response priority changes completely if the same vulnerability is listed on the KEV list, has been exploited in actual ransomware attacks, and the probability of an attack based on EPSS has skyrocketed from 1% to 90% within two months. “You must consider these factors together to identify the vulnerabilities that actually need to be patched first,” he stressed. “Amidst the vast noise known as the AI s​lop, the criteria for deciding what to patch first is now becoming a core competency for security personnel,” he added. Park also presented new defense techniques applicable to the AI ​​era, such as methods to detect automated attacks by analyzing behavioral differences between humans and AI attackers, and proof of work (PoW) challenges that intentionally impose computational load on AI attackers to slow down their attacks. A prime example is filtering out abnormal access by analyzing mouse movements, keyboard input, and scrolling patterns. “It is a more realistic strategy to reduce the burden on security teams by filtering out at least some attacks, rather than trying to block them 100%,” he said. Even in the age of AI, technology alone cannot ensure complete security, he noted. “While AI can scan for threats broadly and quickly, verifying and confirming them ultimately falls to humans,” he said. “Humans are still important.”",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "ransomware",
-        "vulnerability",
-        "exploit",
-        "hacker",
-        "cyberattack",
-        "threat",
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "Dubbed the “Genius Hacker,” Park Chan-am began his white hat hacker journey at the precocious age of 11, winning awards at domestic and international hacking competitions since his teenage years. He has since served as a cybersecurity advisor for various Korean government agencies, including the National Police Agency, and has played a key role in the country’s defense against Democratic People’s Republic of Korea (DPRK)-affiliated cyberattacks. At a seminar held this month as part of the 15th Information Security Day event hosted and organized by government agencies including the Ministry of Science and ICT and the Korea Internet and Security Agency (KISA), Park, now CEO of security firm Steelion, explained the changes in the security environment in the AI ​​era and the priority response tasks for information security organizations under the theme of “Major AI Threats and Security Priorities.” “While AI is a new technology, the core of security ultimately lies in access control, supply chain management, and human verification,” he said. Like many security experts, Park sees AI fundamentally changing the speed of cyberattacks."
+    "summary": "When the journey of cooling refrigerant determines digital success, don’t let tubing fail the rack"
   },
   {
     "title": "Google increases 2026 capex to $195-205bn as it accelerates AI data center buildout",
@@ -2400,52 +2421,44 @@
     "summary": "Project in preliminary stages"
   },
   {
-    "title": "Are data centers ready for ‘quantum in the cloud’?",
-    "url": "https://www.datacenterdynamics.com/en/opinions/are-data-centers-ready-for-quantum-in-the-cloud/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-22T14:36:00+00:00",
-    "raw_text": "Transitioning quantum computing from an experimental infrastructure to a true cloud service",
+    "title": "Britain isn't considering datacenters' thirst for water in its 'AI superpower' ambitions",
+    "url": "https://www.theregister.com/on-prem/2026/07/23/britain-isnt-considering-datacenters-thirst-for-water-in-its-ai-superpower-ambitions/5276363",
+    "source": "The Register",
+    "published": "2026-07-23T08:30:00+00:00",
+    "raw_text": "Grand compute push could end up as dry as England's reservoirs unless ministers act fast",
     "categories": [
-      "Cloud Infrastructure",
+      "Networks",
+      "GRC",
       "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "nist"
       ],
       "Data Centres": [
-        "data center"
+        "datacenter"
       ]
     },
-    "summary": "Transitioning quantum computing from an experimental infrastructure to a true cloud service"
+    "summary": "Grand compute push could end up as dry as England's reservoirs unless ministers act fast"
   },
   {
-    "title": "Virgin Media O2 switches on 500th Giga site in UK",
-    "url": "https://www.datacenterdynamics.com/en/news/virgin-media-o2-switches-on-500th-giga-site-in-uk/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-22T14:30:28+00:00",
-    "raw_text": "Is halfway to its 1,000 site target",
+    "title": "Talking smack about a doctor got him access to private medical files",
+    "url": "https://www.theregister.com/security/2026/07/23/talking-smack-about-a-doctor-got-him-access-to-private-medical-files/5276604",
+    "source": "The Register",
+    "published": "2026-07-23T07:00:00+00:00",
+    "raw_text": "Who needs a working security badge when you know how to talk your way into the records room?",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Is halfway to its 1,000 site target"
-  },
-  {
-    "title": "US data centers to consume up to 194GW of power by 2035 - report",
-    "url": "https://www.datacenterdynamics.com/en/news/us-data-centers-to-consume-up-to-194gw-of-power-by-2035-report/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-22T14:20:35+00:00",
-    "raw_text": "Would account for 20 percent of US electricity consumption",
-    "categories": [
-      "Data Centres"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "data center"
+      "Cybersecurity": [
+        "security"
       ]
     },
-    "summary": "Would account for 20 percent of US electricity consumption"
+    "summary": "Who needs a working security badge when you know how to talk your way into the records room?"
   },
   {
     "title": "Senior White House official claims China’s K3 model stolen from Anthropic",
@@ -3038,34 +3051,6 @@
       ]
     },
     "summary": "SEK 5M gift supplied 72 percent of Örebropartiet's annual income, but company insists it was strictly personal"
-  },
-  {
-    "title": "Judgment day looms for UK's £8.35B Skynet military satellite comms upgrade",
-    "url": "https://www.theregister.com/public-sector/2026/07/21/judgment-day-looms-for-uks-835b-skynet-military-satellite-comms-upgrade/5275060",
-    "source": "The Register",
-    "published": "2026-07-21T08:30:00+00:00",
-    "raw_text": "Supplier stumbles and MoD staffing shortages earn the program a red delivery rating",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Supplier stumbles and MoD staffing shortages earn the program a red delivery rating"
-  },
-  {
-    "title": "Europe slaps AliExpress with €550 million fine for selling dodgy goods",
-    "url": "https://www.theregister.com/legal/2026/07/21/europe-slaps-aliexpress-with-550-million-fine-for-selling-dodgy-goods/5275428",
-    "source": "The Register",
-    "published": "2026-07-21T06:58:05+00:00",
-    "raw_text": "Biggest-ever DSA fine shows Brussels wants to bust the biz model behind China’s cheap e-commerce champs",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "Biggest-ever DSA fine shows Brussels wants to bust the biz model behind China’s cheap e-commerce champs"
   },
   {
     "title": "Hugging Face ‘hacker’ was rogue OpenAI model",
@@ -3715,208 +3700,388 @@
     "summary": "New and existing T-Mobile customers can save up to $1,100 on Samsung's latest flip phone now (including the pink color). Here's how."
   },
   {
-    "title": "Stora Enso Half-year Report 2026: Optimising our portfolio and driving results through our own actions",
-    "url": "https://www.prnewswire.com/news-releases/stora-enso-half-year-report-2026-optimising-our-portfolio-and-driving-results-through-our-own-actions-302833067.html",
+    "title": "Moa Technology raises Series C round co-led by Oxford Science Enterprises and Supernova Invest",
+    "url": "https://www.prnewswire.com/news-releases/moa-technology-raises-series-c-round-co-led-by-oxford-science-enterprises-and-supernova-invest-302832232.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:37:00+00:00",
-    "raw_text": "STORA ENSO OYJ HALF-YEAR REPORT 23 July 2026 at 8:30 EEST HELSINKI, July 23, 2026 /PRNewswire/ -- Q2/2026 (year-on-year) Sales remained stable at EUR 2,423 (2,426) million, as the positive impact from structural changes was offset by lower prices and adverse currency movements. Adjusted...",
+    "published": "2026-07-23T09:00:00+00:00",
+    "raw_text": "OXFORD, England, July 23, 2026 /PRNewswire/ -- Moa Technology (\"Moa\"), an agricultural biotechnology company focused on discovering novel mode of action herbicides, announces a £22.2 million Series C financing round, co-led by Oxford Science Enterprises (\"OSE\") and Supernova Invest...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan",
+        "iot"
+      ],
+      "Industry & Market": [
+        "announces",
+        "raises"
+      ]
+    },
+    "summary": "OXFORD, England, July 23, 2026 /PRNewswire/ -- Moa Technology (\"Moa\"), an agricultural biotechnology company focused on discovering novel mode of action herbicides, announces a £22.2 million Series C financing round, co-led by Oxford Science Enterprises (\"OSE\") and Supernova Invest..."
+  },
+  {
+    "title": "FAMAR appoints Bruce Vielle as Chief Executive Officer",
+    "url": "https://www.prnewswire.com/news-releases/famar-appoints-bruce-vielle-as-chief-executive-officer-302833144.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T09:00:00+00:00",
+    "raw_text": "ATHENS, Greece, July 23, 2026 /PRNewswire/ -- FAMAR, a leading European contract development and manufacturing organisation (CDMO), today announced the appointment of Bruce Vielle as Chief Executive Officer, effective 3 August 2026. He succeeds Dr Riku Rautsola, who has led the company as...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "STORA ENSO OYJ HALF-YEAR REPORT 23 July 2026 at 8:30 EEST HELSINKI, July 23, 2026 /PRNewswire/ -- Q2/2026 (year-on-year) Sales remained stable at EUR 2,423 (2,426) million, as the positive impact from structural changes was offset by lower prices and adverse currency movements. Adjusted..."
+    "summary": "ATHENS, Greece, July 23, 2026 /PRNewswire/ -- FAMAR, a leading European contract development and manufacturing organisation (CDMO), today announced the appointment of Bruce Vielle as Chief Executive Officer, effective 3 August 2026. He succeeds Dr Riku Rautsola, who has led the company as..."
   },
   {
-    "title": "After 10 Years Perfecting Floors, Flooret Launches Its First Rug Collection",
-    "url": "https://www.prnewswire.com/news-releases/after-10-years-perfecting-floors-flooret-launches-its-first-rug-collection-302833065.html",
+    "title": "Polylactic Acid Market Size Anticipated to Reach USD 4,829.55 Million by 2036 Driven by Rising Demand for Sustainable Bioplastics and Renewable Packaging Solutions",
+    "url": "https://www.prnewswire.com/news-releases/polylactic-acid-market-size-anticipated-to-reach-usd-4-829-55-million-by-2036-driven-by-rising-demand-for-sustainable-bioplastics-and-renewable-packaging-solutions-302833167.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:34:00+00:00",
-    "raw_text": "The company's first expansion beyond flooring brings a decade of customer-driven design to one of the home's most requested finishing touches. DALLAS, July 23, 2026 /PRNewswire/ -- Flooret, the direct-to-consumer flooring company known for premium hard surface flooring, today announced...",
+    "published": "2026-07-23T08:53:00+00:00",
+    "raw_text": "NEWARK, Del., July 23, 2026 /PRNewswire/ -- The global Polylactic Acid Market is expected to witness robust growth as industries increasingly adopt biodegradable and bio-based polymers to replace conventional petroleum-based plastics. According to Future Market Insights (FMI), the market...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "NEWARK, Del., July 23, 2026 /PRNewswire/ -- The global Polylactic Acid Market is expected to witness robust growth as industries increasingly adopt biodegradable and bio-based polymers to replace conventional petroleum-based plastics. According to Future Market Insights (FMI), the market..."
+  },
+  {
+    "title": "FROM BELGIUM TO IBIZA AND BEYOND: VELO* AND TOMORROWLAND CELEBRATE SELF-EXPRESSION WITH \"ECHOES OF TOMORROWLAND\"",
+    "url": "https://www.prnewswire.com/news-releases/from-belgium-to-ibiza-and-beyond-velo-and-tomorrowland-celebrate-self-expression-with-echoes-of-tomorrowland-302833157.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:40:00+00:00",
+    "raw_text": "Headlined by top DJ Korolova, the inaugural event brought the spirit of Tomorrowland to Ibiza, inviting music fans to embrace their own originality, and prove the dancefloor has no borders New data** reveals the \"ripple effect\" of the dancefloor: 61% of people feel more comfortable...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Headlined by top DJ Korolova, the inaugural event brought the spirit of Tomorrowland to Ibiza, inviting music fans to embrace their own originality, and prove the dancefloor has no borders New data** reveals the \"ripple effect\" of the dancefloor: 61% of people feel more comfortable..."
+  },
+  {
+    "title": "K25.ai Secures Series A Investment with Strategic Support from Amber Group, Valuation Doubles to US$200 Million",
+    "url": "https://www.prnewswire.com/news-releases/k25ai-secures-series-a-investment-with-strategic-support-from-amber-group-valuation-doubles-to-us200-million-302833151.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:36:00+00:00",
+    "raw_text": "Series A follows K25.ai's oversubscribed Pre-A round and accelerates its vision to make prediction markets native to live digital content SINGAPORE, July 23, 2026 /PRNewswire/ -- K25.ai, the AI-native prediction market transforming livestreams into real-time interactive markets, today...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
+      "Industry & Market": [
+        "investment",
+        "valuation"
+      ]
+    },
+    "summary": "Series A follows K25.ai's oversubscribed Pre-A round and accelerates its vision to make prediction markets native to live digital content SINGAPORE, July 23, 2026 /PRNewswire/ -- K25.ai, the AI-native prediction market transforming livestreams into real-time interactive markets, today..."
+  },
+  {
+    "title": "FORD AND GEELY AUTO JOIN FORCES IN EUROPE TO PRODUCE NEXT-GENERATION MULTI-ENERGY VEHICLES IN SPAIN",
+    "url": "https://www.prnewswire.com/news-releases/ford-and-geely-auto-join-forces-in-europe-to-produce-next-generation-multi-energy-vehicles-in-spain-302833122.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:30:00+00:00",
+    "raw_text": "The global automakers plan to form a manufacturing joint venture at Ford's Valencia, Spain, plant, combining scale and factory utilization, to build Ford and Geely vehicles The partnership, built on a foundation of trust and shared business principles, secures the future of the Valencia...",
+    "categories": [
+      "Industry & Market",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "partnership",
+        "joint venture"
+      ]
+    },
+    "summary": "The global automakers plan to form a manufacturing joint venture at Ford's Valencia, Spain, plant, combining scale and factory utilization, to build Ford and Geely vehicles The partnership, built on a foundation of trust and shared business principles, secures the future of the Valencia..."
+  },
+  {
+    "title": "FORD UND GEELY AUTO SCHLIESSEN SICH IN EUROPA ZUSAMMEN, UM IN SPANIEN MULTI-ENERGY-FAHRZEUGE DER NÄCHSTEN GENERATION ZU PRODUZIEREN",
+    "url": "https://www.prnewswire.com/news-releases/ford-und-geely-auto-schliessen-sich-in-europa-zusammen-um-in-spanien-multi-energy-fahrzeuge-der-nachsten-generation-zu-produzieren-302833136.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:30:00+00:00",
+    "raw_text": "Die globalen Automobilhersteller planen die Gründung eines Produktions-Joint-Ventures im Ford-Werk in Valencia (Spanien), um durch die Bündelung von Kapazitäten und eine optimale Werksauslastung gemeinsam Fahrzeuge der Marken Ford und Geely zu bauen Die Partnerschaft, die auf Vertrauen...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Die globalen Automobilhersteller planen die Gründung eines Produktions-Joint-Ventures im Ford-Werk in Valencia (Spanien), um durch die Bündelung von Kapazitäten und eine optimale Werksauslastung gemeinsam Fahrzeuge der Marken Ford und Geely zu bauen Die Partnerschaft, die auf Vertrauen..."
+  },
+  {
+    "title": "Ford y Geely Auto unen fuerzas en Europa para producir vehículos multienergía de última generación en España",
+    "url": "https://www.prnewswire.com/news-releases/ford-y-geely-auto-unen-fuerzas-en-europa-para-producir-vehiculos-multienergia-de-ultima-generacion-en-espana-302833141.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:30:00+00:00",
+    "raw_text": "Los dos fabricantes globales de automóviles planean crear una empresa conjunta (joint venture) de fabricación en la planta de Ford en Valencia, España, combinando escala y utilización de la fábrica, para fabricar vehículos Ford y Geely. La alianza, construida sobre una base de confianza y...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "joint venture"
+      ]
+    },
+    "summary": "Los dos fabricantes globales de automóviles planean crear una empresa conjunta (joint venture) de fabricación en la planta de Ford en Valencia, España, combinando escala y utilización de la fábrica, para fabricar vehículos Ford y Geely. La alianza, construida sobre una base de confianza y..."
+  },
+  {
+    "title": "FORD ET GEELY AUTO S'UNISSENT EN EUROPE POUR PRODUIRE LA PROCHAINE GÉNÉRATION DE VÉHICULES MULTI-ÉNERGIES EN ESPAGNE",
+    "url": "https://www.prnewswire.com/news-releases/ford-et-geely-auto-sunissent-en-europe-pour-produire-la-prochaine-generation-de-vehicules-multi-energies-en-espagne-302833132.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:30:00+00:00",
+    "raw_text": "Les deux constructeurs automobiles mondiaux prévoient de former une coentreprise à l'usine Ford de Valence, en Espagne, combinant économie d'échelle et optimisation du taux d'utilisation de l'usine, pour construire des véhicules Ford et Geely. Le partenariat, fondé sur une confiance...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Les deux constructeurs automobiles mondiaux prévoient de former une coentreprise à l'usine Ford de Valence, en Espagne, combinant économie d'échelle et optimisation du taux d'utilisation de l'usine, pour construire des véhicules Ford et Geely. Le partenariat, fondé sur une confiance..."
+  },
+  {
+    "title": "Shanxi hosts global heritage dialogue",
+    "url": "https://www.prnewswire.com/news-releases/shanxi-hosts-global-heritage-dialogue-302833147.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:28:00+00:00",
+    "raw_text": "JINZHONG, China, July 23, 2026 /PRNewswire/ -- A news report from China Daily: Celebrating the theme \"Unity for Prosperity, Heritage for Eternity\", the 2026 International Cultural Heritage Protection Week concluded on Tuesday at Yuci Ancient City in Jinzhong, Shanxi province, marking a...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "JINZHONG, China, July 23, 2026 /PRNewswire/ -- A news report from China Daily: Celebrating the theme \"Unity for Prosperity, Heritage for Eternity\", the 2026 International Cultural Heritage Protection Week concluded on Tuesday at Yuci Ancient City in Jinzhong, Shanxi province, marking a..."
+  },
+  {
+    "title": "STARTRADER Launches SKHY as SK Hynix Makes Its US Market Debut, Giving Clients Timely Access to a Key AI Memory Name",
+    "url": "https://www.prnewswire.com/news-releases/startrader-launches-skhy-as-sk-hynix-makes-its-us-market-debut-giving-clients-timely-access-to-a-key-ai-memory-name-302833143.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:27:00+00:00",
+    "raw_text": "SKHY gives clients direct exposure to a key supplier of high-bandwidth memory at the heart of the AI acceleration market. DUBAI, UAE, July 23, 2026 /PRNewswire/ -- STARTRADER today announced the launch of SK Hynix Inc. (SKHY) as a US Stock CFD on its trading platform, available from July...",
+    "categories": [
+      "Industry & Market",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "bandwidth"
+      ],
       "Industry & Market": [
         "launches",
         "ey"
       ]
     },
-    "summary": "The company's first expansion beyond flooring brings a decade of customer-driven design to one of the home's most requested finishing touches. DALLAS, July 23, 2026 /PRNewswire/ -- Flooret, the direct-to-consumer flooring company known for premium hard surface flooring, today announced..."
+    "summary": "SKHY gives clients direct exposure to a key supplier of high-bandwidth memory at the heart of the AI acceleration market. DUBAI, UAE, July 23, 2026 /PRNewswire/ -- STARTRADER today announced the launch of SK Hynix Inc. (SKHY) as a US Stock CFD on its trading platform, available from July..."
   },
   {
-    "title": "Scania Performance Summary April - June 2026",
-    "url": "https://www.prnewswire.com/news-releases/scania-performance-summary-april--june-2026-302833059.html",
+    "title": "Pelico firma un acuerdo con Boeing para apoyar la preparación del C-17 Globemaster III",
+    "url": "https://www.prnewswire.com/news-releases/pelico-firma-un-acuerdo-con-boeing-para-apoyar-la-preparacion-del-c-17-globemaster-iii-302833133.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:19:00+00:00",
-    "raw_text": "Strong quarter with increased demand and growth in services SÖDERTÄLJE, Sweden, July 23, 2026 /PRNewswire/ -- Summary of the second quarter 2026: Sales revenue increased by 6 percent to SEK 53.1 billion (49.9) Adjusted return on sales was 11.6 percent (9.8) Deliveries increased by 7...",
+    "published": "2026-07-23T08:19:00+00:00",
+    "raw_text": "FARNBOROUGH, Inglaterra, 23 de julio de 2026 /PRNewswire/ -- Pelico anunció hoy un acuerdo estratégico con Boeing para llevar a cabo la modernización de la planificación y ejecución del mantenimiento mayor del C-17A Globemaster III. En virtud de este acuerdo, la plataforma de orquestación...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "FARNBOROUGH, Inglaterra, 23 de julio de 2026 /PRNewswire/ -- Pelico anunció hoy un acuerdo estratégico con Boeing para llevar a cabo la modernización de la planificación y ejecución del mantenimiento mayor del C-17A Globemaster III. En virtud de este acuerdo, la plataforma de orquestación..."
+  },
+  {
+    "title": "The First Global \"AI + Fashion\" Innovation Application Competition in Shenzhen Concludes Successfully in Futian District",
+    "url": "https://www.prnewswire.com/news-releases/the-first-global-ai--fashion-innovation-application-competition-in-shenzhen-concludes-successfully-in-futian-district-302833128.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:15:00+00:00",
+    "raw_text": "SHENZHEN, China, July 23, 2026 /PRNewswire/ -- From July 16 to 17, the first Global \"AI + Fashion\" Innovation Application Competition and the 2026 FashTech event were held in Futian District, Shenzhen, bringing together more than 300 representatives from industry, academia, and research...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Strong quarter with increased demand and growth in services SÖDERTÄLJE, Sweden, July 23, 2026 /PRNewswire/ -- Summary of the second quarter 2026: Sales revenue increased by 6 percent to SEK 53.1 billion (49.9) Adjusted return on sales was 11.6 percent (9.8) Deliveries increased by 7..."
+    "summary": "SHENZHEN, China, July 23, 2026 /PRNewswire/ -- From July 16 to 17, the first Global \"AI + Fashion\" Innovation Application Competition and the 2026 FashTech event were held in Futian District, Shenzhen, bringing together more than 300 representatives from industry, academia, and research..."
   },
   {
-    "title": "Invitation to attend Systemair AB's (publ) AGM",
-    "url": "https://www.prnewswire.com/news-releases/invitation-to-attend-systemair-abs-publ-agm-302833058.html",
+    "title": "Efekta Education Appoints AI Veteran Matt Fisher as Chief Technology Officer",
+    "url": "https://www.prnewswire.com/news-releases/efekta-education-appoints-ai-veteran-matt-fisher-as-chief-technology-officer-302832604.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:18:00+00:00",
-    "raw_text": "SKINNSKATTEBERG, Sweden, July 23, 2026 /PRNewswire/ -- Shareholders in Systemair AB (publ), reg. no. 556160-4108 (\"Systemair\" or the \"Company\") are hereby invited to attend the Company's annual general meeting (the \"AGM\") at 3.00 p.m. on Thursday 27 August 2026 in the Lecture Hall (Aulan)...",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "Serial tech founder and former Microsoft and Amazon technology leader to advance Efekta's AI-powered learning platform and expand access to personalised education globally. LONDON, July 23, 2026 /PRNewswire/ -- Efekta Education, a global leader in AI-powered learning technology, has today...",
     "categories": [
-      "Networks"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Serial tech founder and former Microsoft and Amazon technology leader to advance Efekta's AI-powered learning platform and expand access to personalised education globally. LONDON, July 23, 2026 /PRNewswire/ -- Efekta Education, a global leader in AI-powered learning technology, has today..."
+  },
+  {
+    "title": "ALP Launches in the UK & Europe as Billion Dollar Nicotine Pouch Brand Accelerates International Expansion",
+    "url": "https://www.prnewswire.com/news-releases/alp-launches-in-the-uk--europe-as-billion-dollar-nicotine-pouch-brand-accelerates-international-expansion-302832283.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "Fast-growing US challenger brand enters 11 European markets following rapid retail growth and aims to become one of Europe's Largest Brands LONDON, July 23, 2026 /PRNewswire/ -- ALP, one of the fastest-growing nicotine pouch brands in the category, has now announced its launch into the UK...",
+    "categories": [
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
+      "Industry & Market": [
+        "launches"
       ]
     },
-    "summary": "SKINNSKATTEBERG, Sweden, July 23, 2026 /PRNewswire/ -- Shareholders in Systemair AB (publ), reg. no. 556160-4108 (\"Systemair\" or the \"Company\") are hereby invited to attend the Company's annual general meeting (the \"AGM\") at 3.00 p.m. on Thursday 27 August 2026 in the Lecture Hall (Aulan)..."
+    "summary": "Fast-growing US challenger brand enters 11 European markets following rapid retail growth and aims to become one of Europe's Largest Brands LONDON, July 23, 2026 /PRNewswire/ -- ALP, one of the fastest-growing nicotine pouch brands in the category, has now announced its launch into the UK..."
   },
   {
-    "title": "Aviation Capital Group and Aerolíneas Argentinas Sign Lease Agreements for Six New Boeing 737-10 Aircraft",
-    "url": "https://www.prnewswire.com/news-releases/aviation-capital-group-and-aerolineas-argentinas-sign-lease-agreements-for-six-new-boeing-737-10-aircraft-302833054.html",
+    "title": "CHINT y Octopus Energy firman acuerdos de cooperación estratégica",
+    "url": "https://www.prnewswire.com/news-releases/chint-y-octopus-energy-firman-acuerdos-de-cooperacion-estrategica-302832073.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:11:00+00:00",
-    "raw_text": "FARNBOROUGH, England, July 23, 2026 /PRNewswire/ -- Aviation Capital Group LLC (ACG), a premier global full-service aircraft asset manager, today announced that it has signed lease agreements with Argentinian flag carrier, Aerolíneas Argentinas, for six Boeing 737-10 aircraft. The...",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "-CHINT y Octopus Energy firman acuerdos de cooperación estratégica para acelerar el despliegue de energías limpias y la innovación en energía digital LONDRES, 23 de julio de 2026 /PRNewswire/ -- CHINT y Octopus Energy han anunciado la firma de dos Memorandos de Cooperación (MdC),...",
     "categories": [
-      "Networks"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "FARNBOROUGH, England, July 23, 2026 /PRNewswire/ -- Aviation Capital Group LLC (ACG), a premier global full-service aircraft asset manager, today announced that it has signed lease agreements with Argentinian flag carrier, Aerolíneas Argentinas, for six Boeing 737-10 aircraft. The..."
+    "matched_keywords": {},
+    "summary": "-CHINT y Octopus Energy firman acuerdos de cooperación estratégica para acelerar el despliegue de energías limpias y la innovación en energía digital LONDRES, 23 de julio de 2026 /PRNewswire/ -- CHINT y Octopus Energy han anunciado la firma de dos Memorandos de Cooperación (MdC),..."
   },
   {
-    "title": "Haisco's Class 1 Innovative Drug Ciprocopan Succinate Tablets Approved in China, Offering a New Treatment Option for Patients With PNH",
-    "url": "https://www.prnewswire.com/news-releases/haiscos-class-1-innovative-drug-ciprocopan-succinate-tablets-approved-in-china-offering-a-new-treatment-option-for-patients-with-pnh-302833052.html",
+    "title": "CHINT und Octopus Energy unterzeichnen strategische Kooperationsvereinbarungen, um den Ausbau sauberer Energien und Innovationen im digitalen Energiesektor zu beschleunigen",
+    "url": "https://www.prnewswire.com/news-releases/chint-und-octopus-energy-unterzeichnen-strategische-kooperationsvereinbarungen-um-den-ausbau-sauberer-energien-und-innovationen-im-digitalen-energiesektor-zu-beschleunigen-302832791.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:08:00+00:00",
-    "raw_text": "BEIJING, July 23, 2026 /PRNewswire/ -- Haisco Pharmaceutical Group claimed today their independently developed Class 1 innovative drug, Ciprocopan Succinate Tablets (development code: HSK39297), has received marketing approval from the National Medical Products Administration of China...",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "LONDON, 23. Juli 2026 /PRNewswire/ -- CHINT und Octopus Energy gaben die Unterzeichnung von zwei Kooperationsvereinbarungen (Memoranda of Cooperation, MoCs) bekannt, die einen strategischen Rahmen für den Ausbau der Zusammenarbeit bei der Infrastruktur für erneuerbare Energien sowie bei...",
     "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LONDON, 23. Juli 2026 /PRNewswire/ -- CHINT und Octopus Energy gaben die Unterzeichnung von zwei Kooperationsvereinbarungen (Memoranda of Cooperation, MoCs) bekannt, die einen strategischen Rahmen für den Ausbau der Zusammenarbeit bei der Infrastruktur für erneuerbare Energien sowie bei..."
+  },
+  {
+    "title": "CHINT et Octopus Energy signent des accords de coopération stratégique visant à accélérer le déploiement des énergies propres et l'innovation dans le domaine de l'énergie numérique",
+    "url": "https://www.prnewswire.com/news-releases/chint-et-octopus-energy-signent-des-accords-de-cooperation-strategique-visant-a-accelerer-le-deploiement-des-energies-propres-et-linnovation-dans-le-domaine-de-lenergie-numerique-302832111.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "LONDRES, le 23 juillet 2026 /PRNewswire/ -- CHINT et Octopus Energy ont annoncé la signature de deux accords de coopération (MoC), établissant un cadre stratégique visant à renforcer leur collaboration dans le domaine des infrastructures d'énergies renouvelables et des solutions de...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LONDRES, le 23 juillet 2026 /PRNewswire/ -- CHINT et Octopus Energy ont annoncé la signature de deux accords de coopération (MoC), établissant un cadre stratégique visant à renforcer leur collaboration dans le domaine des infrastructures d'énergies renouvelables et des solutions de..."
+  },
+  {
+    "title": "L'Égypte lance un nouveau système numérique de visa à l'arrivée pour une entrée plus rapide et simplifiée",
+    "url": "https://www.prnewswire.com/news-releases/legypte-lance-un-nouveau-systeme-numerique-de-visa-a-larrivee-pour-une-entree-plus-rapide-et-simplifiee-302832541.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "CAIRE, 23 juillet 2026 /PRNewswire/ -- Le ministère égyptien du Tourisme et des Antiquités annonce le lancement d'un nouveau système numérique de visa à l'arrivée, une étape majeure dans la modernisation des procédures d'entrée des voyageurs internationaux. La phase pilote débutera le 1er...",
+    "categories": [
+      "Networks",
       "GRC"
     ],
     "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
       "GRC": [
         "nist"
       ]
     },
-    "summary": "BEIJING, July 23, 2026 /PRNewswire/ -- Haisco Pharmaceutical Group claimed today their independently developed Class 1 innovative drug, Ciprocopan Succinate Tablets (development code: HSK39297), has received marketing approval from the National Medical Products Administration of China..."
+    "summary": "CAIRE, 23 juillet 2026 /PRNewswire/ -- Le ministère égyptien du Tourisme et des Antiquités annonce le lancement d'un nouveau système numérique de visa à l'arrivée, une étape majeure dans la modernisation des procédures d'entrée des voyageurs internationaux. La phase pilote débutera le 1er..."
   },
   {
-    "title": "Venus Medtech anuncia la finalización del reclutamiento de pacientes para el ensayo clínico de Venus-PowerX",
-    "url": "https://www.prnewswire.com/news-releases/venus-medtech-anuncia-la-finalizacion-del-reclutamiento-de-pacientes-para-el-ensayo-clinico-de-venus-powerx-302832053.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:00:00+00:00",
-    "raw_text": "-Venus Medtech anuncia la finalización del reclutamiento de pacientes para el ensayo clínico clave en China de Venus-PowerX, el primer sistema TAVR de válvula seca autoexpandible totalmente recuperable del mundo. El estudio PREVAILS, que ya ha completado el reclutamiento de pacientes,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "-Venus Medtech anuncia la finalización del reclutamiento de pacientes para el ensayo clínico clave en China de Venus-PowerX, el primer sistema TAVR de válvula seca autoexpandible totalmente recuperable del mundo. El estudio PREVAILS, que ya ha completado el reclutamiento de pacientes,..."
-  },
-  {
-    "title": "Venus Medtech Announces Completion of Patient Enrollment in Pivotal China Trial for Venus-PowerX, the World's First Fully Recoverable Self-Expanding Dry-Valve TAVR System",
-    "url": "https://www.prnewswire.com/news-releases/venus-medtech-announces-completion-of-patient-enrollment-in-pivotal-china-trial-for-venus-powerx-the-worlds-first-fully-recoverable-self-expanding-dry-valve-tavr-system-302831965.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:00:00+00:00",
-    "raw_text": "The PREVAILS study, now fully enrolled, marks a critical step toward simultaneous regulatory submissions in China and Europe for the next-generation TAVR system HANGZHOU, China, July 23, 2026 /PRNewswire/ -- Venus Medtech (Hangzhou) Inc. (02500.HK) today announced that patient enrollment...",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "regulatory"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "The PREVAILS study, now fully enrolled, marks a critical step toward simultaneous regulatory submissions in China and Europe for the next-generation TAVR system HANGZHOU, China, July 23, 2026 /PRNewswire/ -- Venus Medtech (Hangzhou) Inc. (02500.HK) today announced that patient enrollment..."
-  },
-  {
-    "title": "Venus Medtech gibt den Abschluss der Patientenrekrutierung für die entscheidende chinesische Studie zu Venus-PowerX bekannt - dem weltweit ersten vollständig reponierbaren, selbstexpandierenden TAVR-System mit Trockenventil",
-    "url": "https://www.prnewswire.com/news-releases/venus-medtech-gibt-den-abschluss-der-patientenrekrutierung-fur-die-entscheidende-chinesische-studie-zu-venus-powerx-bekannt--dem-weltweit-ersten-vollstandig-reponierbaren-selbstexpandierenden-tavr-system-mit-trockenventil-302832407.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:00:00+00:00",
-    "raw_text": "Die PREVAILS-Studie, für die die Patientenrekrutierung nun abgeschlossen ist, stellt einen entscheidenden Schritt hin zu gleichzeitigen Zulassungsanträgen in China und Europa für das TAVR-System der nächsten Generation dar HANGZHOU, China, 23. Juli 2026 /PRNewswire/ -- Venus Medtech...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Die PREVAILS-Studie, für die die Patientenrekrutierung nun abgeschlossen ist, stellt einen entscheidenden Schritt hin zu gleichzeitigen Zulassungsanträgen in China und Europa für das TAVR-System der nächsten Generation dar HANGZHOU, China, 23. Juli 2026 /PRNewswire/ -- Venus Medtech..."
-  },
-  {
-    "title": "Venus Medtech annonce la fin du recrutement des patients dans le cadre de l'essai clinique décisif mené en Chine sur le Venus-PowerX, le premier système TAVR au monde à valve sèche auto-expansible et entièrement récupérable",
-    "url": "https://www.prnewswire.com/news-releases/venus-medtech-annonce-la-fin-du-recrutement-des-patients-dans-le-cadre-de-lessai-clinique-decisif-mene-en-chine-sur-le-venus-powerx-le-premier-systeme-tavr-au-monde-a-valve-seche-auto-expansible-et-entierement-recuperable-302832285.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:00:00+00:00",
-    "raw_text": "L'étude PREVAILS, dont le recrutement est désormais conclu, marque une étape décisive vers le dépôt simultané de dossiers de demande d'autorisation de mise sur le marché en Chine et en Europe pour le système TAVR de nouvelle génération HANGZHOU, Chine, 23 juillet 2026 /PRNewswire/ --...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "L'étude PREVAILS, dont le recrutement est désormais conclu, marque une étape décisive vers le dépôt simultané de dossiers de demande d'autorisation de mise sur le marché en Chine et en Europe pour le système TAVR de nouvelle génération HANGZHOU, Chine, 23 juillet 2026 /PRNewswire/ --..."
-  },
-  {
-    "title": "Fermi Inc. Admission of shares of Common Stock and Total Voting Rights",
-    "url": "https://www.prnewswire.com/news-releases/fermi-inc-admission-of-shares-of-common-stock-and-total-voting-rights-302832731.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T06:00:00+00:00",
-    "raw_text": "DALLAS, July 23, 2026 /PRNewswire/ -- Fermi Inc. (NASDAQ and LSE: FRMI) (LEI: 529900TSHBYBCFMYZ228), (\"Fermi\" or the \"Company\"), the Texas-based company focused on developing electric grids that deliver on-demand power at gigawatt scale required to create next-generation artificial...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "DALLAS, July 23, 2026 /PRNewswire/ -- Fermi Inc. (NASDAQ and LSE: FRMI) (LEI: 529900TSHBYBCFMYZ228), (\"Fermi\" or the \"Company\"), the Texas-based company focused on developing electric grids that deliver on-demand power at gigawatt scale required to create next-generation artificial..."
-  },
-  {
-    "title": "THE LEGO GROUP INTRODUCES THE LEGO® SMART PLAY™ GATEWAY AT SAN DIEGO COMIC-CON 2026",
-    "url": "https://www.prnewswire.com/news-releases/the-lego-group-introduces-the-lego-smart-play-gateway-at-san-diego-comic-con-2026-302833040.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T05:37:00+00:00",
-    "raw_text": "Booth #2829 invites attendees to step inside the worlds of two iconic franchises through the groundbreaking LEGO SMART Play experience Attendees will be able to experience two beloved franchises like never before, as LEGO SMART Play adds a new dimension of interactive play Other exciting...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Booth #2829 invites attendees to step inside the worlds of two iconic franchises through the groundbreaking LEGO SMART Play experience Attendees will be able to experience two beloved franchises like never before, as LEGO SMART Play adds a new dimension of interactive play Other exciting..."
-  },
-  {
-    "title": "2CRSi SA: Annual Revenue of €416.2 Million¹, Up 88% for Fiscal Year 2025/26",
-    "url": "https://www.prnewswire.com/news-releases/2crsi-sa-annual-revenue-of-416-2-million-up-88-for-fiscal-year-202526--302833032.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T05:25:00+00:00",
-    "raw_text": "STRASBOURG, France, July 23, 2026 /PRNewswire/ -- 2CRSi (ISIN: FR0013341781), a designer and manufacturer of high-performance, energy-efficient servers, today reports its revenue for fiscal year 2025/26. Over the period, the Group generated revenue of €416.2 million[1], an increase of...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "STRASBOURG, France, July 23, 2026 /PRNewswire/ -- 2CRSi (ISIN: FR0013341781), a designer and manufacturer of high-performance, energy-efficient servers, today reports its revenue for fiscal year 2025/26. Over the period, the Group generated revenue of €416.2 million[1], an increase of..."
-  },
-  {
-    "title": "SUNMI Expands SoftPOS Platform to Bring Secure Contactless Payments to More Smart Business Devices",
-    "url": "https://www.prnewswire.com/news-releases/sunmi-expands-softpos-platform-to-bring-secure-contactless-payments-to-more-smart-business-devices-302833025.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T05:13:00+00:00",
-    "raw_text": "SINGAPORE, July 23, 2026 /PRNewswire/ -- SUNMI has expanded its SoftPOS platform, bringing secure contactless payment capabilities to more smart commercial terminals. Working with leading payment partners worldwide, SUNMI is accelerating SoftPOS adoption across retail, hospitality, and...",
+    "title": "CareerBoom Launches AI Auto Apply Agent to Find, Tailor and Submit Job Applications",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331911/0/en/CareerBoom-Launches-AI-Auto-Apply-Agent-to-Find-Tailor-and-Submit-Job-Applications.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T08:37:00+00:00",
+    "raw_text": "The Auto Apply Agent searches millions of new job listings, matches suitable roles, tailors each application and applies on the candidate's behalf.",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "expands"
+        "launches"
       ]
     },
-    "summary": "SINGAPORE, July 23, 2026 /PRNewswire/ -- SUNMI has expanded its SoftPOS platform, bringing secure contactless payment capabilities to more smart commercial terminals. Working with leading payment partners worldwide, SUNMI is accelerating SoftPOS adoption across retail, hospitality, and..."
+    "summary": "The Auto Apply Agent searches millions of new job listings, matches suitable roles, tailors each application and applies on the candidate's behalf."
   },
   {
-    "title": "TenPay Global Named to CNBC's World's Top Fintech Companies 2026 List",
-    "url": "https://www.prnewswire.com/news-releases/tenpay-global-named-to-cnbcs-worlds-top-fintech-companies-2026-list-302833022.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T05:08:00+00:00",
-    "raw_text": "HONG KONG, July 23, 2026 /PRNewswire/ -- TenPay Global, Tencent's cross-border payment platform, has been recognized on the World's Top Fintech Companies 2026 list in the Payments category. Compiled by CNBC in partnership with Statista, the annual ranking recognizes leading companies...",
+    "title": "Go Global, Go Systemic: China Asset Management Unveils Active Investment Research 5.0",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331907/0/en/Go-Global-Go-Systemic-China-Asset-Management-Unveils-Active-Investment-Research-5-0.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T08:07:00+00:00",
+    "raw_text": "BEIJING, July 23, 2026 (GLOBE NEWSWIRE) -- China Asset Management Co., Ltd. (ChinaAMC), one of China’s largest mutual fund managers, officially launched its \"Active Research 5.0\" framework at its mid-year investment strategy conference on 17th July, 2026.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "BEIJING, July 23, 2026 (GLOBE NEWSWIRE) -- China Asset Management Co., Ltd. (ChinaAMC), one of China’s largest mutual fund managers, officially launched its \"Active Research 5.0\" framework at its mid-year investment strategy conference on 17th July, 2026."
+  },
+  {
+    "title": "Cytora and InformData Join Forces to Embed Verifiable People Data into Commercial Risk Processing",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331901/0/en/Cytora-and-InformData-Join-Forces-to-Embed-Verifiable-People-Data-into-Commercial-Risk-Processing.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "Integration enhances underwriting and risk monitoring by providing essential data within AI-first workflows. Integration enhances underwriting and risk monitoring by providing essential data within AI-first workflows.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Integration enhances underwriting and risk monitoring by providing essential data within AI-first workflows. Integration enhances underwriting and risk monitoring by providing essential data within AI-first workflows."
+  },
+  {
+    "title": "QUBIC Goes Global on Alchemy Pay: Now Purchasable in 173 Countries, Including the US",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331902/0/en/QUBIC-Goes-Global-on-Alchemy-Pay-Now-Purchasable-in-173-Countries-Including-the-US.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T08:00:00+00:00",
+    "raw_text": "Users across 173 countries can buy QUBIC directly with cards, bank transfers, and local payment methods, no crypto exchange required. Users across 173 countries can buy QUBIC directly with cards, bank transfers, and local payment methods, no crypto exchange required.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Users across 173 countries can buy QUBIC directly with cards, bank transfers, and local payment methods, no crypto exchange required. Users across 173 countries can buy QUBIC directly with cards, bank transfers, and local payment methods, no crypto exchange required."
+  },
+  {
+    "title": "Environmental Test Chambers Market Size to Surpass $1.40 Billion by 2035 | Research by SNS Insider",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331900/0/en/Environmental-Test-Chambers-Market-Size-to-Surpass-1-40-Billion-by-2035-Research-by-SNS-Insider.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T07:30:00+00:00",
+    "raw_text": "Global Environmental Test Chamber Market Size, Share, Revenue Trends & Segmentation Analysis by Type, Offering, Application, Region and Forecast 2026–2035",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Global Environmental Test Chamber Market Size, Share, Revenue Trends & Segmentation Analysis by Type, Offering, Application, Region and Forecast 2026–2035"
+  },
+  {
+    "title": "Genenta-backed Sòphia High Tech Brings Aerospace Precision Inside a Nuclear Fusion Reactor with ROMAN, a Robotic Arm",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331896/0/en/Genenta-backed-S%C3%B2phia-High-Tech-Brings-Aerospace-Precision-Inside-a-Nuclear-Fusion-Reactor-with-ROMAN-a-Robotic-Arm.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T07:09:00+00:00",
+    "raw_text": "Genenta-backed Sòphia High Tech Brings Aerospace Precision Inside a Nuclear Fusion Reactor with ROMAN, a Robotic Arm",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Genenta-backed Sòphia High Tech Brings Aerospace Precision Inside a Nuclear Fusion Reactor with ROMAN, a Robotic Arm"
+  },
+  {
+    "title": "FDH Aero and Gardner Aerospace Announce Global Supply Partnership for Airbus Programs",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331893/0/en/FDH-Aero-and-Gardner-Aerospace-Announce-Global-Supply-Partnership-for-Airbus-Programs.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T07:00:00+00:00",
+    "raw_text": "COMMERCE, Calif., July 23, 2026 (GLOBE NEWSWIRE) -- FDH Aero, a global provider of supply chain solutions for the aerospace and defense industry, and Gardner Aerospace, a UK-based global leader in aerospace manufacturing, announce a new Global Supply Partnership.",
     "categories": [
       "Industry & Market"
     ],
@@ -3925,47 +4090,19 @@
         "partnership"
       ]
     },
-    "summary": "HONG KONG, July 23, 2026 /PRNewswire/ -- TenPay Global, Tencent's cross-border payment platform, has been recognized on the World's Top Fintech Companies 2026 list in the Payments category. Compiled by CNBC in partnership with Statista, the annual ranking recognizes leading companies..."
+    "summary": "COMMERCE, Calif., July 23, 2026 (GLOBE NEWSWIRE) -- FDH Aero, a global provider of supply chain solutions for the aerospace and defense industry, and Gardner Aerospace, a UK-based global leader in aerospace manufacturing, announce a new Global Supply Partnership."
   },
   {
-    "title": "PLATINUM EQUITY AND NESTLÉ TO CREATE PERANEL, A $5.6 BILLION LEADER IN WATER AND PREMIUM BEVERAGES",
-    "url": "https://www.prnewswire.com/news-releases/platinum-equity-and-nestle-to-create-peranel-a-5-6-billion-leader-in-water-and-premium-beverages-302833015.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T05:05:00+00:00",
-    "raw_text": "Joint venture establishes a global platform for over 30 brands across water, hydration and premium beverages Standalone business expected to benefit from Platinum Equity's carve-out experience and operational expertise LONDON, July 23, 2026 /PRNewswire/ -- Platinum Equity and Nestlé...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "joint venture"
-      ]
-    },
-    "summary": "Joint venture establishes a global platform for over 30 brands across water, hydration and premium beverages Standalone business expected to benefit from Platinum Equity's carve-out experience and operational expertise LONDON, July 23, 2026 /PRNewswire/ -- Platinum Equity and Nestlé..."
-  },
-  {
-    "title": "AI is redesigning work: Adecco Group whitepaper reveals the need for hybrid workforce orchestration",
-    "url": "https://www.prnewswire.com/news-releases/ai-is-redesigning-work-adecco-group-whitepaper-reveals-the-need-for-hybrid-workforce-orchestration-302832350.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T04:45:00+00:00",
-    "raw_text": "New Adecco Group-commissioned whitepaper finds AI is transforming work, and outlines how organizations can orchestrate people, AI agents and physical AI OECD employment rates remain near record highs AI is changing tasks faster than eliminating jobs, but adjustment is uneven by sector,...",
+    "title": "OPPEIN, יצרנית הארונות הגדולה בעולם, מעמיקה את נוכחותה במזרח התיכון באמצעות היצע פתרונות בהתאמה אישית",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331892/0/he/OPPEIN-%D7%99%D7%A6%D7%A8%D7%A0%D7%99%D7%AA-%D7%94%D7%90%D7%A8%D7%95%D7%A0%D7%95%D7%AA-%D7%94%D7%92%D7%93%D7%95%D7%9C%D7%94-%D7%91%D7%A2%D7%95%D7%9C%D7%9D-%D7%9E%D7%A2%D7%9E%D7%99%D7%A7%D7%94-%D7%90%D7%AA-%D7%A0%D7%95%D7%9B%D7%97%D7%95%D7%AA%D7%94-%D7%91%D7%9E%D7%96%D7%A8%D7%97-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%94%D7%99%D7%A6%D7%A2-%D7%A4%D7%AA%D7%A8%D7%95%D7%A0%D7%95%D7%AA-%D7%91%D7%94%D7%AA%D7%90%D7%9E%D7%94-%D7%90%D7%99%D7%A9%D7%99%D7%AA.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-23T06:58:00+00:00",
+    "raw_text": "דובאי, איחוד האמירויות הערביות, July 23, 2026 (GLOBE NEWSWIRE) -- OPPEIN Home Group Inc. , יצרנית הארונות הגדולה בעולם, מרחיבה את נוכחותה במזרח התיכון באמצעות אולמות תצוגה במדינות המפרץ. \"אנו מחויבים לממש באופן מלא את הפוטנציאל של שוק זה, ובזכות המומנטום הנוכחי שלנו, זה מייצג ניצחון ברור לשני הצדדים\", אמר ניו, ראש מחלקת המכירות של OPPEIN .",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "New Adecco Group-commissioned whitepaper finds AI is transforming work, and outlines how organizations can orchestrate people, AI agents and physical AI OECD employment rates remain near record highs AI is changing tasks faster than eliminating jobs, but adjustment is uneven by sector,..."
-  },
-  {
-    "title": "KI verändert die Arbeitswelt: Ein Whitepaper der Adecco Group verdeutlicht die Notwendigkeit einer koordinierten Steuerung hybrider Belegschaften",
-    "url": "https://www.prnewswire.com/news-releases/ki-verandert-die-arbeitswelt-ein-whitepaper-der-adecco-group-verdeutlicht-die-notwendigkeit-einer-koordinierten-steuerung-hybrider-belegschaften-302832668.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-23T04:45:00+00:00",
-    "raw_text": "Ein neues, von der Adecco Group in Auftrag gegebenes Whitepaper kommt zu dem Ergebnis, dass KI die Arbeitswelt verändert, und zeigt auf, wie Unternehmen Menschen, KI-Agenten und physische KI-Systeme aufeinander abstimmen können Die Beschäftigungsquoten in den OECD-Ländern liegen weiterhin...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Ein neues, von der Adecco Group in Auftrag gegebenes Whitepaper kommt zu dem Ergebnis, dass KI die Arbeitswelt verändert, und zeigt auf, wie Unternehmen Menschen, KI-Agenten und physische KI-Systeme aufeinander abstimmen können Die Beschäftigungsquoten in den OECD-Ländern liegen weiterhin..."
+    "summary": "דובאי, איחוד האמירויות הערביות, July 23, 2026 (GLOBE NEWSWIRE) -- OPPEIN Home Group Inc. , יצרנית הארונות הגדולה בעולם, מרחיבה את נוכחותה במזרח התיכון באמצעות אולמות תצוגה במדינות המפרץ. \"אנו מחויבים לממש באופן מלא את הפוטנציאל של שוק זה, ובזכות המומנטום הנוכחי שלנו, זה מייצג ניצחון ברור לשני הצדדים\", אמר ניו, ראש מחלקת המכירות של OPPEIN ."
   },
   {
     "title": "World's Largest Cabinet Maker OPPEIN Deepens Middle East Footprint with Custom Offerings",
@@ -4150,143 +4287,6 @@
     "summary": "MONACO , July 22, 2026 (GLOBE NEWSWIRE) -- Crypto news today is shifting toward Ethereum as bullish Ethereum price prediction models examine whether ETH could eventually reach $8,500. The target sits well above current market levels, but supporters point to staking growth, institutional adoption, stablecoin activity and tokenisation as potential long-term catalysts."
   },
   {
-    "title": "Birchtree Investments Ltd. and Digital Motion Corporation Announce Digital Motion Corporation to Deploy its Proprietary Token and Vault Standards on Krown Network, a Natively Quantum-Secured Layer-1 Blockchain",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331777/0/en/Birchtree-Investments-Ltd-and-Digital-Motion-Corporation-Announce-Digital-Motion-Corporation-to-Deploy-its-Proprietary-Token-and-Vault-Standards-on-Krown-Network-a-Natively-Quantum.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T21:03:00+00:00",
-    "raw_text": "Deployment Planned for Q3 2026, Bringing DMC's Institutional Infrastructure for Tokenized Securities to a New Generation of Blockchain Security Deployment Planned for Q3 2026, Bringing DMC's Institutional Infrastructure for Tokenized Securities to a New Generation of Blockchain Security",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "investment"
-      ]
-    },
-    "summary": "Deployment Planned for Q3 2026, Bringing DMC's Institutional Infrastructure for Tokenized Securities to a New Generation of Blockchain Security Deployment Planned for Q3 2026, Bringing DMC's Institutional Infrastructure for Tokenized Securities to a New Generation of Blockchain Security"
-  },
-  {
-    "title": "Fortude among first to deliver Infor Velocity Suite agentic solutions",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331773/0/en/Fortude-among-first-to-deliver-Infor-Velocity-Suite-agentic-solutions.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T21:00:00+00:00",
-    "raw_text": "New York, July 22, 2026 (GLOBE NEWSWIRE) -- Fortude , is now enabled to deliver the full capabilities of Infor Velocity Suite , positioning the company at the forefront of Infor partners helping CloudSuite customers diagnose inefficiencies in core business processes, then automate and optimize them. Beyond enablement, Fortude is actively expanding what's possible on Velocity Suite, building Gen AI and agentic solutions that push the platform further.",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "New York, July 22, 2026 (GLOBE NEWSWIRE) -- Fortude , is now enabled to deliver the full capabilities of Infor Velocity Suite , positioning the company at the forefront of Infor partners helping CloudSuite customers diagnose inefficiencies in core business processes, then automate and optimize them. Beyond enablement, Fortude is actively expanding what's possible on Velocity Suite, building Gen AI and agentic solutions that push the platform further."
-  },
-  {
-    "title": "West Red Lake Gold Files NI 43-101 Technical Report for Updated Rowan Mineral Resource Estimate",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331764/0/en/West-Red-Lake-Gold-Files-NI-43-101-Technical-Report-for-Updated-Rowan-Mineral-Resource-Estimate.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T20:35:00+00:00",
-    "raw_text": "VANCOUVER, British Columbia, July 22, 2026 (GLOBE NEWSWIRE) -- West Red Lake Gold Mines Ltd. (“West Red Lake Gold” or “WRLG” or the “Company”) (TSXV: WRLG) (OTCQX: WRLGF) is pleased to announce that the Company has filed on SEDAR+ the independent technical report prepared in accordance with National Instrument 43-101 – Standards of Disclosure for Mineral Projects (“ NI 43-101 ”) for the updated 2026 Mineral Resource Estimate (“ MRE ”) for the Rowan Project (“ Rowan ”) as well as a maiden MRE for the nearby Mount Jamie deposit (“ Mt. Jamie ”) titled “Technical Report on the Updated Mineral Resource Estimates for the Rowan and Mount Jamie Deposits, Ontario, Canada” dated July 22, 2026 (with an effective date of June 1, 2026) (the “ Technical Report ”). Rowan is located in the Red Lake Gold District of northwestern Ontario, Canada.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "VANCOUVER, British Columbia, July 22, 2026 (GLOBE NEWSWIRE) -- West Red Lake Gold Mines Ltd. (“West Red Lake Gold” or “WRLG” or the “Company”) (TSXV: WRLG) (OTCQX: WRLGF) is pleased to announce that the Company has filed on SEDAR+ the independent technical report prepared in accordance with National Instrument 43-101 – Standards of Disclosure for Mineral Projects (“ NI 43-101 ”) for the updated 2026 Mineral Resource Estimate (“ MRE ”) for the Rowan Project (“ Rowan ”) as well as a maiden MRE for the nearby Mount Jamie deposit (“ Mt. Jamie ”) titled “Technical Report on the Updated Mineral Resource Estimates for the Rowan and Mount Jamie Deposits, Ontario, Canada” dated July 22, 2026 (with an effective date of June 1, 2026) (the “ Technical Report ”). Rowan is located in the Red Lake Gold District of northwestern Ontario, Canada."
-  },
-  {
-    "title": "Calyx Expands Path Platform with Native Document Generation Powered by Docu Prep",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331761/0/en/Calyx-Expands-Path-Platform-with-Native-Document-Generation-Powered-by-Docu-Prep.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T20:30:00+00:00",
-    "raw_text": "Calyx adds native Docu Prep integration to Path, enabling mortgage document generation within the LOS for a faster, more connected lending workflow.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "Calyx adds native Docu Prep integration to Path, enabling mortgage document generation within the LOS for a faster, more connected lending workflow."
-  },
-  {
-    "title": "SL Green Inks 98,000 Square Foot Lease at 11 Madison Avenue",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331724/0/en/SL-Green-Inks-98-000-Square-Foot-Lease-at-11-Madison-Avenue.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T20:10:00+00:00",
-    "raw_text": "2026 Office Leasing Volume Reaches 1.5M Square Feet 2026 Office Leasing Volume Reaches 1.5M Square Feet",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "2026 Office Leasing Volume Reaches 1.5M Square Feet 2026 Office Leasing Volume Reaches 1.5M Square Feet"
-  },
-  {
-    "title": "Revolution Medicines’ New Drug Application for Daraxonrasib Accepted for Review by U.S. FDA for Previously Treated Metastatic Pancreatic Cancer",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331714/0/en/Revolution-Medicines-New-Drug-Application-for-Daraxonrasib-Accepted-for-Review-by-U-S-FDA-for-Previously-Treated-Metastatic-Pancreatic-Cancer.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T20:05:00+00:00",
-    "raw_text": "REDWOOD CITY, Calif., July 22, 2026 (GLOBE NEWSWIRE) -- Revolution Medicines, Inc. (Nasdaq: RVMD), a late-stage clinical oncology company developing targeted therapies for patients with RAS-addicted cancers, today announced that the U.S. Food and Drug Administration (FDA) accepted for review the company’s New Drug Application (NDA) for daraxonrasib, an oral RAS(ON) multi-selective inhibitor, for previously treated metastatic pancreatic ductal adenocarcinoma (PDAC).",
-    "categories": [
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ],
-      "Data Centres": [
-        "colo"
-      ]
-    },
-    "summary": "REDWOOD CITY, Calif., July 22, 2026 (GLOBE NEWSWIRE) -- Revolution Medicines, Inc. (Nasdaq: RVMD), a late-stage clinical oncology company developing targeted therapies for patients with RAS-addicted cancers, today announced that the U.S. Food and Drug Administration (FDA) accepted for review the company’s New Drug Application (NDA) for daraxonrasib, an oral RAS(ON) multi-selective inhibitor, for previously treated metastatic pancreatic ductal adenocarcinoma (PDAC)."
-  },
-  {
-    "title": "Novo Resources Releases Updated Corporate Presentation",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331680/0/en/Novo-Resources-Releases-Updated-Corporate-Presentation.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T20:00:00+00:00",
-    "raw_text": "PERTH, West Australia, July 22, 2026 (GLOBE NEWSWIRE) -- Novo Resources Corp. ( Novo or the Company ) (ASX: NVO) (TSX: NVO) (OTCQB: NSRPF) is pleased to announce the release of its updated corporate presentation, now available on the Company’s website.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "PERTH, West Australia, July 22, 2026 (GLOBE NEWSWIRE) -- Novo Resources Corp. ( Novo or the Company ) (ASX: NVO) (TSX: NVO) (OTCQB: NSRPF) is pleased to announce the release of its updated corporate presentation, now available on the Company’s website."
-  },
-  {
-    "title": "Egg Medical Declares New Era in Fluoroscopy Lab Safety Following Joint Consensus Statement",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331675/0/en/Egg-Medical-Declares-New-Era-in-Fluoroscopy-Lab-Safety-Following-Joint-Consensus-Statement.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-22T19:26:00+00:00",
-    "raw_text": "A multi-society consensus statement calls for ERPD adoption in fluoroscopy labs. Egg Medical's EggNest® Complete offers 360° radiation protection for all.",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "A multi-society consensus statement calls for ERPD adoption in fluoroscopy labs. Egg Medical's EggNest® Complete offers 360° radiation protection for all."
-  },
-  {
     "title": "Why Are Leading Data Centre Colocation Companies Expanding Across the United States (2026-2033)? - openPR.com",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnBOX3BDcnFUNkplb2ZUcnlHbzhic3pTR1NYbXI3bjBKSlRaWU9HN2ZYcmk4MlN6Q2RJR01uelo2WXkzTWtoY1hyaGRLLU5jZVZ0bE9YQ3dUYlAtaHRxWU5PcEtKMFVrbW9Ea2EtS2laWWdBdjhiWkRNN2pVemFsSC1Ia09sRkQ5WkxNVDZ2M1IzcFQtZUdMRGtB?oc=5",
     "source": "Google News: Data Centres",
@@ -4428,31 +4428,6 @@
       ]
     },
     "summary": "FatPipe (NASDAQ: FATN) lands $7M contract to support school networks Stock Titan"
-  },
-  {
-    "title": "Microsoft and Mistral Expand AI Partnership with Sovereign Cloud and Azure Integration - HPCwire",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQ3RkV2lXNUlUNHQ4cHdnSFBYOUhwV3pnaTFqcTFFYTlHZmY3NjN3WEoxNWtjQUwwVE9TQ3JtS2tZQUNlemtRd3pCc3Z2aFZoZ1NEcTdBQUZfTUJ6WldKVTh6bnZuMGRHQVRnNlZxZmc0cDhjOWNUQ3p1dkQ2b1Nvbm1HT1B6Z1pIV2JjblpUNzBzclpEUUNMWmV6a05BSmc2RDFlSGEwVGJuekhCM1BBbFpoaTNDWWZjVGl3MERRUFkxQmRYVHF4Rw?oc=5",
-    "source": "Google News: Vendor Press Releases",
-    "published": "2026-07-21T18:58:18+00:00",
-    "raw_text": "Microsoft and Mistral Expand AI Partnership with Sovereign Cloud and Azure Integration HPCwire",
-    "categories": [
-      "Cloud Infrastructure",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "azure"
-      ],
-      "Data Centres": [
-        "hpc"
-      ],
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "Microsoft and Mistral Expand AI Partnership with Sovereign Cloud and Azure Integration HPCwire"
   },
   {
     "title": "BlackRock Launches $12 Billion+ Meta Data Center Debt Deal - TradingView",
