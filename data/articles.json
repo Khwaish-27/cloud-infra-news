@@ -1,5 +1,77 @@
 [
   {
+    "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+    "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+    "source": "The Hacker News",
+    "published": "2026-07-24T07:41:06+00:00",
+    "raw_text": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code. Every version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2. The simplest one takes a settings change. A",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "security"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour review of the forum software's source code. Every version before 4.14.0 is affected. NodeBB has fixed them all, and administrators should be on 4.14.2."
+  },
+  {
+    "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+    "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+    "source": "The Hacker News",
+    "published": "2026-07-24T06:58:27+00:00",
+    "raw_text": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying memory flaws may lead to remote code execution. Redis 6.2.23, 7.2.15, and 7.4.10",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "zero-day",
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "Redis shipped seven security releases on July 23 after researchers published authenticated RCE PoCs for stock Redis 6.2.22, 7.4.9, 8.6.4, and 8.8.0. All four chains require RESTORE. The Streams chains also need EVAL and XGROUP; the 8.8.0 chain needs EVAL and the bundled RedisBloom module. Redis says the underlying memory flaws may lead to remote code execution."
+  },
+  {
+    "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+    "url": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+    "source": "The Hacker News",
+    "published": "2026-07-24T06:50:57+00:00",
+    "raw_text": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows systems. The activity has been attributed by the agency to a threat cluster it tracks as UAC-0099, a Russia-aligned group that has previously observed weaponizing security flaws in WinRAR software to"
+  },
+  {
     "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
     "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
     "source": "The Hacker News",
@@ -342,6 +414,26 @@
     "summary": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint and malware-based detection entirely."
   },
   {
+    "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
+    "source": "BleepingComputer",
+    "published": "2026-07-24T07:36:39+00:00",
+    "raw_text": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]"
+  },
+  {
     "title": "New Dolphin X malware uses AI to rank high-value targets",
     "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
     "source": "BleepingComputer",
@@ -578,23 +670,46 @@
     "summary": "South Korea disclosed that hackers breached the National Diplomatic Academy's online education system for ten months and stole personal information belonging to current and former employees of the Ministry of Foreign Affairs (MFA), including overseas diplomats. [...]"
   },
   {
-    "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
-    "url": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-    "source": "BleepingComputer",
-    "published": "2026-07-22T16:59:17+00:00",
-    "raw_text": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
+    "title": "Google gives developers an AI bug hunter that also writes patches",
+    "url": "https://www.helpnetsecurity.com/2026/07/24/google-codemender-ai-agent-code-security/",
+    "source": "Help Net Security",
+    "published": "2026-07-24T08:53:17+00:00",
+    "raw_text": "Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "zero-day",
+        "exploit",
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Google has launched a preview of CodeMender, an AI agent built to scan code for security flaws, confirm they are exploitable, and generate fixes for developers to review. (Source: Google) The company describes it as a response to attackers who are already using AI to speed up their work, arguing that defenders need automation that moves at the same speed. “CodeMender can help you advance from passive scanning to automated code remediation, and reduce zero-day … More → The post Google gives developers an AI bug hunter that also writes patches appeared first on Help Net Security ."
+  },
+  {
+    "title": "Google’s newest sign-in method asks you to look at the camera",
+    "url": "https://www.helpnetsecurity.com/2026/07/24/google-selfie-video-sign-in-verification/",
+    "source": "Help Net Security",
+    "published": "2026-07-24T08:33:58+00:00",
+    "raw_text": "Google’s selfie video sign-in option verifies that an account owner is a real person and that the account wasn’t created or used by computer programs or bots for the purpose of abuse, such as spamming. It is not available for all regions, accounts, or devices. Source: Google A selfie video is recorded and securely stored with the account owner’s consent, and it can be deleted at any time in the Google Account. Users may take … More → The post Google’s newest sign-in method asks you to look at the camera appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "breach",
-        "ransomware",
-        "cyberattack",
-        "cyber"
+        "security"
       ]
     },
-    "summary": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]"
+    "summary": "Google’s selfie video sign-in option verifies that an account owner is a real person and that the account wasn’t created or used by computer programs or bots for the purpose of abuse, such as spamming. It is not available for all regions, accounts, or devices. Source: Google A selfie video is recorded and securely stored with the account owner’s consent, and it can be deleted at any time in the Google Account. Users may take … More → The post Google’s newest sign-in method asks you to look at the camera appeared first on Help Net Security ."
   },
   {
     "title": "The automotive software vulnerabilities hiding in your dashboard",
@@ -751,60 +866,24 @@
     "summary": "Cobalt has introduced Cobalt Autonomous Pentest, a new offering that enables continuous offensive security across an organization’s application portfolio by delivering actionable penetration testing results in as little as 24 hours. AI-assisted development enables organizations to ship software faster than ever, while attackers are using AI to automate reconnaissance and accelerate exploitation. Pentesting performed quarterly or even monthly, can no longer keep pace. As security teams face growing attack surfaces and constrained budgets, organizations need … More → The post Cobalt adds Autonomous Pentest to scale application security testing appeared first on Help Net Security ."
   },
   {
-    "title": "Months-long breach exposes South Korean diplomats’ personal data",
-    "url": "https://www.helpnetsecurity.com/2026/07/23/south-korea-diplomatic-academy-data-breach/",
-    "source": "Help Net Security",
-    "published": "2026-07-23T11:04:44+00:00",
-    "raw_text": "South Korea’s Foreign Ministry has disclosed that attackers breached the Korea National Diplomatic Academy’s online education system, compromising personal data belonging to current and former ministry staff and diplomats stationed abroad. The Korea National Diplomatic Academy launched the online training platform in 2022 to support remote learning during the COVID-19 pandemic. Since then, it has been used to deliver job training and language courses for diplomatic personnel. According to the ministry, the intrusion started in … More → The post Months-long breach exposes South Korean diplomats’ personal data appeared first on Help Net Security .",
+    "title": "Europe's Multilingual Reality Exposes AI Security Gaps",
+    "url": "https://www.darkreading.com/cybersecurity-operations/europes-multilingual-reality-exposes-ai-security-gaps",
+    "source": "Dark Reading",
+    "published": "2026-07-24T07:00:00+00:00",
+    "raw_text": "The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language.",
     "categories": [
-      "Cybersecurity",
       "Networks",
-      "GRC"
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
       "Cybersecurity": [
-        "breach",
         "security"
-      ],
-      "GRC": [
-        "nist"
       ]
     },
-    "summary": "South Korea’s Foreign Ministry has disclosed that attackers breached the Korea National Diplomatic Academy’s online education system, compromising personal data belonging to current and former ministry staff and diplomats stationed abroad. The Korea National Diplomatic Academy launched the online training platform in 2022 to support remote learning during the COVID-19 pandemic. Since then, it has been used to deliver job training and language courses for diplomatic personnel. According to the ministry, the intrusion started in … More → The post Months-long breach exposes South Korean diplomats’ personal data appeared first on Help Net Security ."
-  },
-  {
-    "title": "Attackers exploit critical Check Point flaw to take over firewall management (CVE-2026-16232)",
-    "url": "https://www.helpnetsecurity.com/2026/07/23/check-point-vulnerability-cve-2026-16232/",
-    "source": "Help Net Security",
-    "published": "2026-07-23T10:42:06+00:00",
-    "raw_text": "Attackers are exploiting a critical authentication bypass vulnerability (CVE-2026-16232) that affects Check Point Security Management and Multi-Domain Security Management, the management servers that push policy to Check Point security gateways (i.e., firewalls). “An unauthenticated attacker can obtain an application login token and use it to login via SmartConsole with full admin privileges and apply changes to the security policy and security configuration,” the company said. The vulnerability is being exploited, they confirmed, and a “handful” … More → The post Attackers exploit critical Check Point flaw to take over firewall management (CVE-2026-16232) appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "firewall"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "security"
-      ],
-      "GRC": [
-        "policy"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Attackers are exploiting a critical authentication bypass vulnerability (CVE-2026-16232) that affects Check Point Security Management and Multi-Domain Security Management, the management servers that push policy to Check Point security gateways (i.e., firewalls). “An unauthenticated attacker can obtain an application login token and use it to login via SmartConsole with full admin privileges and apply changes to the security policy and security configuration,” the company said. The vulnerability is being exploited, they confirmed, and a “handful” … More → The post Attackers exploit critical Check Point flaw to take over firewall management (CVE-2026-16232) appeared first on Help Net Security ."
+    "summary": "The AI security layer and guardrails for many AI products don't evenly protect against jailbreaking and unsafe actions in every single language."
   },
   {
     "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
@@ -1352,7 +1431,7 @@
     "url": "https://cloud.google.com/blog/products/containers-kubernetes/introducing-co-operative-time-slicing-for-rl-in-llm-d/",
     "source": "Google Cloud Blog",
     "published": "2026-07-23T17:00:00+00:00",
-    "raw_text": "The math behind reinforcement learning (RL) post-training for large language models (LLMs) is notoriously unforgiving. As frontier AI labs push the boundaries of reasoning and coding models using RL post-training algorithms like Group Relative Policy Optimization (GRPO), they routinely hit hard architectural and infrastructure constraints. While much of the industry's focus remains on acquiring raw accelerator capacity, infrastructure efficiency is equally critical for achieving the high velocity needed to run multiple RL jobs and drive models to higher levels of intelligence. At scale, distributed RL suffers from severe resource bottlenecks because synchronous sampling and training run as strictly sequential phases, causing trainer and sampler resources to alternate sitting idle. Meanwhile, asynchronous architectures attempt to overlap these phases, but trainers still experience frequent idle gaps while waiting for specific trajectory batches to finish before starting the next cycle. Today, we are introducing a solution to this structural waste: co-operative time-slicing through the llm-d project. By treating discrete RL steps — such as sampling rollouts and gradient training — as dynamic, schedulable entities, we can interleave independent RL jobs onto shared physical hardware. Our initial benchmarks show that this platform-level multiplexing increases aggregate accelerator duty cycles from a ~40% baseline up to 70% without impacting model convergence or accuracy. This improves price-performance and lowers TCO significantly by eliminating wasted compute accrued over time. For synchronous setups, the platform interleaves both samplers and trainers to minimize alternating idle windows, while asynchronous workloads leverage time-slicing to dynamically reclaim and utilize the fragmented idle gaps between RL-trainer iterations. Throughout this blog, we will describe the time-slicing solution, detailing the technical flows, current release and future roadmap. llm-d for RL infrastructure efficiency (the bigger picture) From the get-go, we anticipated the severe infrastructure bottlenecks of large-scale RL post-training and invested in addressing infrastructure inefficiency for RL workloads. We have built llm-d into a highly composable infrastructure stack for inference, agentic and RL workloads focused on eliminating accelerator idle time. The llm-d stack for RL features: Throughput-driven inference ( llm-d-router ): A mature, production-tested engine deployed across RL workloads and focused on maximizing rollout generation throughput to continuously saturate the pipeline. High-velocity Agent Sandbox ( recipe ) : Tested for scale and density, and helping deliver secure, sub-second tool-use and isolated code execution during rollout generation and evals. Agent Sandbox serves as the high-speed intake manifold for reward signal generation, helping ensure the Sandbox never becomes the latency bottleneck that starves your time-sliced NVIDIA GPUs. Core pipeline primitives: To combat reliability and speed in weight transfer, we are building Weight Propagation Interface ( WPI ), as well as focusing on improving overall observability and reliability for RL. The efficiency problem with RL loops Distributed RL post-training operates as a fragmented, continuous cycle alternating between generation (sampling rollouts) and optimization (gradient updates). Because traditional cloud infrastructure is designed for continuous, steady-state workloads, standard Kubernetes clusters can’t adapt to this alternating cadence. At scale, this structural cadence introduces two massive systemic inefficiencies: Idle accelerators: Because these phases occur sequentially, GPU clusters sit completely idle (0% utilization) for 40% to 60% of their lifecycle. Trainers sit idle waiting for sampling rollouts to finish; samplers sit idle during gradient updates and weights distribution. This could represent millions in wasted capital annually. Locked-in context: RL training and samplers hold their accelerator allocations for the entirety of their runtime even during idle phases because the NVIDIA CUDA context and all device memory needs to remain resident. Standard schedulers treat these pods as static, siloed allocations rather than aligning them to the alternating, phase-level states of the live RL loop, leaving valuable hardware locked up even during inactive phases. Importantly, this is not just a synchronous RL problem. Asynchronous variants overlap generation and training, but they do not fully mitigate idle time. Generation remains the inherent bottleneck of the RL loop, meaning trainer accelerators still starve while waiting for rollout data to accumulate. The closer an asynchronous job runs to on-policy, the larger those idle windows become — bounded staleness limits how far generation and training can drift apart, stalling the pipeline whenever fresh rollouts are not ready. How co-operative time-slicing (RL job interleaving) helps To eliminate idle accelerators during RL jobs, co-operative time-slicing under the llm-d project allows the infrastructure to dynamically interleave independent RL jobs onto shared hardware blocks rather than forcing hardware to wait on upstream phases. This helps drive aggregate accelerator utilization up without altering the underlying model convergence or accuracy. When Job A goes idle at a phase boundary in synchronous RL (or stalls on fresh rollout data in asynchronous RL), the infrastructure time-slices the physical accelerators, swapping in the active sampling or training phase of Job B. Under the hood, a swap is a checkpoint/restore: Job A's entire device state is checkpointed out of accelerator memory into host DRAM, and Job B's previously saved state is restored in its place. Because only one job's state ever occupies the accelerator at a time, steps alternate safely without framework-level interference or out-of-memory (OOM) faults. Time-slicing: High-level architecture The time-slicing system architecture is organized into three layers: workload-scoped (application logic), cluster-scoped (coordination), and node-scoped (hardware management). Workload-scoped layer (application runtime) This is where the user's code runs — training loops, inference servers, and RL frameworks. The new addition is the time-slice client library, which exposes two gRPC APIs on the time-slice orchestrator: acquire() to request exclusive accelerator access, and yield() to release it. The user wraps any accelerator-touching phase with these calls to signal phase boundaries to the orchestrator. Everything else — the ML framework (PyTorch FSDP, vLLM, etc.), the CUDA context, the accelerator memory allocations — runs unmodified. Cluster-scoped layer (control and orchestration plane) This layer decides which job gets accelerator access, and when. Jobs that share the same physical accelerators — for example, two RL jobs interleaving on the same set of GPU nodes — are placed into a group. For each group, the time-slice orchestrator maintains a lock queue — an ordered list of jobs waiting for exclusive access to that group's accelerators. Only the job at the head of the queue holds the lock and runs on the hardware; all the other jobs wait, blocked on their acquire() call. When the running job calls yield(), the orchestrator passes the lock to the next job in the queue and triggers a coordinated context switch across every node in the group. In the future, a workload placement optimizer will be able to profile workload phase patterns and automatically pair jobs with complementary idle phases, removing the need for the user to explicitly indicate job groupings. Node-scoped layer (hardware and data plane isolation) This layer performs the checkpoint/restore swap on each accelerator node. The snapshot agent, a privileged DaemonSet, receives directives from the orchestrator and translates them into hardware-level operations — pausing accelerator processes, serializing device state to host DRAM, and restoring it when the job regains access. The agent is built around a pluggable backend interface, with cuda-checkpoint as the first implementation (more to come). Future backends will introduce faster snapshot mechanisms and more selective approaches, such as offloading specific memory addresses like LoRA adapters instead of full device state. The agent itself is designed to run standalone outside Kubernetes for bare metal and Slurm environments. The flow: How it all comes together When a workload finishes its current accelerator phase, its time-slice client library calls yield() to the time-slice orchestrator to release access. The orchestrator initiates the context switch by sending directives to the snapshot agent on each node in the group. The agent freezes the yielding workload's processes and moves its device state from accelerator memory into host DRAM. With the accelerators vacated, the orchestrator grants the group lock to the next workload waiting in the queue. It directs the Snapshot Agents on those nodes to restore that workload's previously saved state from host DRAM back into accelerator memory, then unblocks the workload's pending acquire() call. The workload resumes execution exactly where it left off — no container restart, no framework reinitialization, no model reload from storage. The yielding workload remains warm in host DRAM. When the orchestrator grants it the lock again, the Snapshot Agents perform the same swap in reverse. Developer experience (client-side) Researchers want to focus on core modeling logic rather than wrestling with low-level CUDA context switching or custom scheduling loops. If you use Ray or a similar platform to orchestrate your RL job, using time-slicing will have a minimal impact on the client side. In fact, there may not be any impact on the client side at all if you are queuing the training and sampling jobs separately at the platform level. code_block <ListValue: [StructValue([('code', 'from timeslice import TimeSliceOrchestratorClient\\r\\n\\r\\norchestrator = TimeSliceOrchestratorClient(target=\"orchestrator:50051\")\\r\\n\\r\\n@orchestrator.on_accelerators(group_id=\"trainer-group\")\\r\\ndef train_phase(model, trajectories):\\r\\n return model.update(trajectories)\\r\\n\\r\\n@orchestrator.on_accelerators(group_id=\"sampler-group\")\\r\\ndef generate_phase(model, prompts):\\r\\n return model.generate(prompts)\\r\\n\\r\\n# Standard sequential loop — interleaved with other jobs under the hood\\r\\nfor epoch in range(EPOCHS):\\r\\n trajectories = generate_phase(policy, dataset)\\r\\n rewards = compute_rewards(trajectories)\\r\\n train_phase(policy, rewards)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff9fca3c340>)])]> Current release and future outlook Today we are releasing the full time-slicing stack: the Snapshot Agent, the Accelerator Orchestrator, and the Python client libraries, each with a user guide for integrating time-slicing into your RL workloads. Key roadmap highlights include: Latency and state optimization: Expanding the Snapshot Agent with faster checkpoint/restore backends to minimize context-switch overhead, alongside application-aware backends for selective memory region snapshotting (e.g., swapping LoRA adapters instead of full model weights). Automated scheduling and onboarding: Introducing an automated scheduler to profile running processes, identify time-sliceable structures, and handle job placement dynamically. Cross-hardware compatibility: Extending data plane support beyond GPUs to TPUs and custom accelerator architectures. Get started Building robust, highly optimized RL infrastructure requires tight collaboration with the engineers and researchers running these workloads at scale. If you are currently wrestling with low GPU utilization, synchronization stalls, or complex scheduling logic in your post-training pipelines, time-slicing can help. To get started, check out the following resources, and don’t forget to leave us your feedback! Start using time-slicing during your RL run immediately with these user guides . Try llm-d-router (kubernetes native) or the RL Scheduler (python library) user-guide for improved sampling throughput during the RL generation phase. Explore the Weight Propagation Interface repo . Join the discussion in the #sig-rl channel in the llm-d Slack . Contribute by sharing your reference implementations, benchmarks, and edge cases to help us refine this path. Thank you to Dolev Ish Am and Bogdan Berce for their contributions to this blog post.",
+    "raw_text": "The math behind reinforcement learning (RL) post-training for large language models (LLMs) is notoriously unforgiving. As frontier AI labs push the boundaries of reasoning and coding models using RL post-training algorithms like Group Relative Policy Optimization (GRPO), they routinely hit hard architectural and infrastructure constraints. While much of the industry's focus remains on acquiring raw accelerator capacity, infrastructure efficiency is equally critical for achieving the high velocity needed to run multiple RL jobs and drive models to higher levels of intelligence. At scale, distributed RL suffers from severe resource bottlenecks because synchronous sampling and training run as strictly sequential phases, causing trainer and sampler resources to alternate sitting idle. Meanwhile, asynchronous architectures attempt to overlap these phases, but trainers still experience frequent idle gaps while waiting for specific trajectory batches to finish before starting the next cycle. Today, we are introducing a solution to this structural waste: co-operative time-slicing through the llm-d project. By treating discrete RL steps — such as sampling rollouts and gradient training — as dynamic, schedulable entities, we can interleave independent RL jobs onto shared physical hardware. Our initial benchmarks show that this platform-level multiplexing increases aggregate accelerator duty cycles from a ~40% baseline up to 70% without impacting model convergence or accuracy. This improves price-performance and lowers TCO significantly by eliminating wasted compute accrued over time. For synchronous setups, the platform interleaves both samplers and trainers to minimize alternating idle windows, while asynchronous workloads leverage time-slicing to dynamically reclaim and utilize the fragmented idle gaps between RL-trainer iterations. Throughout this blog, we will describe the time-slicing solution, detailing the technical flows, current release and future roadmap. llm-d for RL infrastructure efficiency (the bigger picture) From the get-go, we anticipated the severe infrastructure bottlenecks of large-scale RL post-training and invested in addressing infrastructure inefficiency for RL workloads. We have built llm-d into a highly composable infrastructure stack for inference, agentic and RL workloads focused on eliminating accelerator idle time. The llm-d stack for RL features: Throughput-driven inference ( llm-d-router ): A mature, production-tested engine deployed across RL workloads and focused on maximizing rollout generation throughput to continuously saturate the pipeline. High-velocity Agent Sandbox ( recipe ) : Tested for scale and density, and helping deliver secure, sub-second tool-use and isolated code execution during rollout generation and evals. Agent Sandbox serves as the high-speed intake manifold for reward signal generation, helping ensure the Sandbox never becomes the latency bottleneck that starves your time-sliced NVIDIA GPUs. Core pipeline primitives: To combat reliability and speed in weight transfer, we are building Weight Propagation Interface ( WPI ), as well as focusing on improving overall observability and reliability for RL. The efficiency problem with RL loops Distributed RL post-training operates as a fragmented, continuous cycle alternating between generation (sampling rollouts) and optimization (gradient updates). Because traditional cloud infrastructure is designed for continuous, steady-state workloads, standard Kubernetes clusters can’t adapt to this alternating cadence. At scale, this structural cadence introduces two massive systemic inefficiencies: Idle accelerators: Because these phases occur sequentially, GPU clusters sit completely idle (0% utilization) for 40% to 60% of their lifecycle. Trainers sit idle waiting for sampling rollouts to finish; samplers sit idle during gradient updates and weights distribution. This could represent millions in wasted capital annually. Locked-in context: RL training and samplers hold their accelerator allocations for the entirety of their runtime even during idle phases because the NVIDIA CUDA context and all device memory needs to remain resident. Standard schedulers treat these pods as static, siloed allocations rather than aligning them to the alternating, phase-level states of the live RL loop, leaving valuable hardware locked up even during inactive phases. Importantly, this is not just a synchronous RL problem. Asynchronous variants overlap generation and training, but they do not fully mitigate idle time. Generation remains the inherent bottleneck of the RL loop, meaning trainer accelerators still starve while waiting for rollout data to accumulate. The closer an asynchronous job runs to on-policy, the larger those idle windows become — bounded staleness limits how far generation and training can drift apart, stalling the pipeline whenever fresh rollouts are not ready. How co-operative time-slicing (RL job interleaving) helps To eliminate idle accelerators during RL jobs, co-operative time-slicing under the llm-d project allows the infrastructure to dynamically interleave independent RL jobs onto shared hardware blocks rather than forcing hardware to wait on upstream phases. This helps drive aggregate accelerator utilization up without altering the underlying model convergence or accuracy. When Job A goes idle at a phase boundary in synchronous RL (or stalls on fresh rollout data in asynchronous RL), the infrastructure time-slices the physical accelerators, swapping in the active sampling or training phase of Job B. Under the hood, a swap is a checkpoint/restore: Job A's entire device state is checkpointed out of accelerator memory into host DRAM, and Job B's previously saved state is restored in its place. Because only one job's state ever occupies the accelerator at a time, steps alternate safely without framework-level interference or out-of-memory (OOM) faults. Time-slicing: High-level architecture The time-slicing system architecture is organized into three layers: workload-scoped (application logic), cluster-scoped (coordination), and node-scoped (hardware management). Workload-scoped layer (application runtime) This is where the user's code runs — training loops, inference servers, and RL frameworks. The new addition is the time-slice client library, which exposes two gRPC APIs on the time-slice orchestrator: acquire() to request exclusive accelerator access, and yield() to release it. The user wraps any accelerator-touching phase with these calls to signal phase boundaries to the orchestrator. Everything else — the ML framework (PyTorch FSDP, vLLM, etc.), the CUDA context, the accelerator memory allocations — runs unmodified. Cluster-scoped layer (control and orchestration plane) This layer decides which job gets accelerator access, and when. Jobs that share the same physical accelerators — for example, two RL jobs interleaving on the same set of GPU nodes — are placed into a group. For each group, the time-slice orchestrator maintains a lock queue — an ordered list of jobs waiting for exclusive access to that group's accelerators. Only the job at the head of the queue holds the lock and runs on the hardware; all the other jobs wait, blocked on their acquire() call. When the running job calls yield(), the orchestrator passes the lock to the next job in the queue and triggers a coordinated context switch across every node in the group. In the future, a workload placement optimizer will be able to profile workload phase patterns and automatically pair jobs with complementary idle phases, removing the need for the user to explicitly indicate job groupings. Node-scoped layer (hardware and data plane isolation) This layer performs the checkpoint/restore swap on each accelerator node. The snapshot agent, a privileged DaemonSet, receives directives from the orchestrator and translates them into hardware-level operations — pausing accelerator processes, serializing device state to host DRAM, and restoring it when the job regains access. The agent is built around a pluggable backend interface, with cuda-checkpoint as the first implementation (more to come). Future backends will introduce faster snapshot mechanisms and more selective approaches, such as offloading specific memory addresses like LoRA adapters instead of full device state. The agent itself is designed to run standalone outside Kubernetes for bare metal and Slurm environments. The flow: How it all comes together When a workload finishes its current accelerator phase, its time-slice client library calls yield() to the time-slice orchestrator to release access. The orchestrator initiates the context switch by sending directives to the snapshot agent on each node in the group. The agent freezes the yielding workload's processes and moves its device state from accelerator memory into host DRAM. With the accelerators vacated, the orchestrator grants the group lock to the next workload waiting in the queue. It directs the Snapshot Agents on those nodes to restore that workload's previously saved state from host DRAM back into accelerator memory, then unblocks the workload's pending acquire() call. The workload resumes execution exactly where it left off — no container restart, no framework reinitialization, no model reload from storage. The yielding workload remains warm in host DRAM. When the orchestrator grants it the lock again, the Snapshot Agents perform the same swap in reverse. Developer experience (client-side) Researchers want to focus on core modeling logic rather than wrestling with low-level CUDA context switching or custom scheduling loops. If you use Ray or a similar platform to orchestrate your RL job, using time-slicing will have a minimal impact on the client side. In fact, there may not be any impact on the client side at all if you are queuing the training and sampling jobs separately at the platform level. code_block <ListValue: [StructValue([('code', 'from timeslice import TimeSliceOrchestratorClient\\r\\n\\r\\norchestrator = TimeSliceOrchestratorClient(target=\"orchestrator:50051\")\\r\\n\\r\\n@orchestrator.on_accelerators(group_id=\"trainer-group\")\\r\\ndef train_phase(model, trajectories):\\r\\n return model.update(trajectories)\\r\\n\\r\\n@orchestrator.on_accelerators(group_id=\"sampler-group\")\\r\\ndef generate_phase(model, prompts):\\r\\n return model.generate(prompts)\\r\\n\\r\\n# Standard sequential loop — interleaved with other jobs under the hood\\r\\nfor epoch in range(EPOCHS):\\r\\n trajectories = generate_phase(policy, dataset)\\r\\n rewards = compute_rewards(trajectories)\\r\\n train_phase(policy, rewards)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fb8ed6a3dc0>)])]> Current release and future outlook Today we are releasing the full time-slicing stack: the Snapshot Agent, the Accelerator Orchestrator, and the Python client libraries, each with a user guide for integrating time-slicing into your RL workloads. Key roadmap highlights include: Latency and state optimization: Expanding the Snapshot Agent with faster checkpoint/restore backends to minimize context-switch overhead, alongside application-aware backends for selective memory region snapshotting (e.g., swapping LoRA adapters instead of full model weights). Automated scheduling and onboarding: Introducing an automated scheduler to profile running processes, identify time-sliceable structures, and handle job placement dynamically. Cross-hardware compatibility: Extending data plane support beyond GPUs to TPUs and custom accelerator architectures. Get started Building robust, highly optimized RL infrastructure requires tight collaboration with the engineers and researchers running these workloads at scale. If you are currently wrestling with low GPU utilization, synchronization stalls, or complex scheduling logic in your post-training pipelines, time-slicing can help. To get started, check out the following resources, and don’t forget to leave us your feedback! Start using time-slicing during your RL run immediately with these user guides . Try llm-d-router (kubernetes native) or the RL Scheduler (python library) user-guide for improved sampling throughput during the RL generation phase. Explore the Weight Propagation Interface repo . Join the discussion in the #sig-rl channel in the llm-d Slack . Contribute by sharing your reference implementations, benchmarks, and edge cases to help us refine this path. Thank you to Dolev Ish Am and Bogdan Berce for their contributions to this blog post.",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -1532,6 +1611,53 @@
     ],
     "matched_keywords": {},
     "summary": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time."
+  },
+  {
+    "title": "Ransomware groups are hammering your vulnerable VPNs",
+    "url": "https://www.csoonline.com/article/4201019/ransomware-groups-are-hammering-your-vulnerable-vpns.html",
+    "source": "CSO Online",
+    "published": "2026-07-24T07:00:00+00:00",
+    "raw_text": "Cybercriminals are actively exploiting a recently discovered vulnerability in Palo Alto Networks firewall and VPN appliances to deploy the Qilin ransomware strain. A critical authentication bypass flaw ( CVE-2026-0257 ) in Palo Alto GlobalProtect portal and gateway was the common link in a series of intrusions in June, Arctic Wolf Labs warns. Exploitation of the vulnerability came within days of disclosure . “Post-exploitation tradecraft varied across intrusions, from rapid encryption-only operations to full double-extortion, possibly suggesting multiple affiliates operating under the Qilin ransomware-as-a-service (RaaS) umbrella,” Arctic Wolf’s researchers wrote in a post on the threat . The campaign against Palo Alto’s VPN client is part of a rising trend that sees ransomware groups increasingly targeting vulnerabilities in network edge tools and devices. Ransomware takes aim at the edge Beyond GlobalProtect, Qilin — the most active threat group in Q2 2026, responsible for 14% of attacks, according to NCC Group’s latest Quarterly Cyber Threat Intelligence Report — has also targeted flaws in Fortinet’s FortiGate, Citrix NetScaler, and Check Point Remote Access VPN. Check Point warned in June of ransomware attacks against VPNs that still use the deprecated Internet Key Exchange version 1 (IKEv1) protocol. Citrix issued patches in early July for a CitrixBleed-like flaw in its NetScalar devices that had come under attack. Meanwhile, Fortibleed, a massive credential-compromise campaign, exposed 75,000 FortiGate firewalls in June . Qilin is by no means alone in increasing its operations against VPNs and other network security tools. The Gentlemen , No. 2 on NCC Group’s list with 238 victims in Q2 2026, is noted for breaking into organizations through firewalls, VPNs, and other internet-exposed systems — FortiGate and Cisco products in particular. Akira, No. 4 on NCC Group’s list (127 victims), is also known for exploiting VPN vulnerabilities and abusing legitimate credentials, primarily versus products from Ivanti, Cisco, and Fortinet . In the line of fire Network edge security devices are becoming security liabilities for enterprise security professionals, with an alarming rise in zero-day exploits arising from what experts describe as basic and readily preventable vulnerabilities . A range of attackers spanning opportunistic hackers to ransomware-as-a-service operators and nation-state sponsored APT (advanced persistent threat) groups are actively exploiting software vulnerabilities in edge devices to hack into corporate networks. “Although there has not been a material rise in ransomware volume in the last quarter, the trajectory of attacks continues upwards, and VPNs remain an increasingly attractive target,” said Matt Hull, VP and head of cyber intelligence and response at NCC Group. Unpatched vulnerabilities in edge devices are far from the only software bugs fueling ransomware attacks. For example, last year the Clop ransomware gang hacked hundreds of companies by exploiting zero-day vulnerabilities in Oracle’s E-Business Suite software. Edge of darkness VPNs and other internet-facing edge devices remain prime targets for ransomware operators because they provide a direct route into an organization’s network. “Attackers may exploit an unpatched vulnerability, use stolen credentials, or target weak authentication controls,” said Alexander Leslie, a senior advisor at cyber threat intelligence firm Recorded Future. “In some cases, exploitation begins before organizations have had sufficient time to apply vendor guidance, leaving security teams with a very narrow window to respond.” VPN exploitation sits alongside other initial access methods, such as phishing, compromised credentials, or software supply chain attacks. The preferred attacker infiltration method varies by campaign and sector but locating security in edge devices carry particular advantages from the perspective of attackers. “Vulnerabilities in perimeter devices are particularly valuable to attackers because those systems are continuously exposed to the internet and can provide privileged access while bypassing some endpoint controls,” said Leslie. Dray Agha, senior manager of security operations at managed detection and response firm Huntress, backed up this assessment that exploiting internet-facing VPNs and edge devices remains the “dominant, volume-driven tactic” for ransomware operators because these appliances offer a “direct, publicly accessible gateway straight into the heart of corporate networks.” Rather than exploiting vulnerabilities in edge devices, attackers more commonly use internet-facing gateways as a means to abuse stolen credentials to break into corporate networks, according to Huntress. “What we see at Huntress is that the VPN is the site of initial access some 70% of the time, for advanced threat actors,” said Agha. “Overwhelmingly, however, they are not exploiting for access; rather they are using stolen credentials to authenticate to non-MFA’d [multi-factor authentication] user accounts.” Hardened perimeter CSOs should treat their network perimeter as hostile territory by enforcing aggressive patch management, applying critical edge device updates within 24 to 48 hours, and mandating strict MFA for all access. Implementing zero-trust network segmentation to trap attackers and prevent lateral movement if the initial gateway is compromised also helps in making enterprise networks more resilient against attacks, Huntress’ Agha advised. Phishing-resistant multi-factor authentication, removal of unsupported systems, and close monitoring for unusual authentication or administrative activity also form key components in attack impact mitigation. Internet-facing assets that are known to be actively exploited should be prioritized as a patching priority. “Threat intelligence and evidence of active exploitation should help determine which vulnerabilities demand immediate action,” Recorded Future’s Leslie said.",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "network",
+        "vpn",
+        "firewall",
+        "network security"
+      ],
+      "Cybersecurity": [
+        "ransomware",
+        "vulnerability",
+        "cve",
+        "phishing",
+        "zero-day",
+        "exploit",
+        "hacker",
+        "threat",
+        "encryption",
+        "security",
+        "cyber",
+        "threat intelligence"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "Cybercriminals are actively exploiting a recently discovered vulnerability in Palo Alto Networks firewall and VPN appliances to deploy the Qilin ransomware strain. A critical authentication bypass flaw ( CVE-2026-0257 ) in Palo Alto GlobalProtect portal and gateway was the common link in a series of intrusions in June, Arctic Wolf Labs warns. Exploitation of the vulnerability came within days of disclosure . “Post-exploitation tradecraft varied across intrusions, from rapid encryption-only operations to full double-extortion, possibly suggesting multiple affiliates operating under the Qilin ransomware-as-a-service (RaaS) umbrella,” Arctic Wolf’s researchers wrote in a post on the threat ."
   },
   {
     "title": "AgentForger proves AI agents can become persistent insider threats",
@@ -1900,99 +2026,38 @@
     "summary": "Some of OpenAI’s most powerful AI models teamed up to escape their sandbox and attack systems at Hugging Face in a cybersecurity evaluation gone wrong, the company has admitted. The models under test were modified to allow them to perform potentially harmful actions that production versions would refuse. The incident highlights how, if AI prompt guardrails fail or, as in this incident, are removed, then enterprises must have robust sandboxing or other technical restrictions in place to protect systems. In OpenAI’s evaluation, GPT-5.6 Sol and a more capable pre-release model were competing to solve cybersecurity challenges in ExploitGym, a benchmarking tool for cybersecurity capabilities."
   },
   {
-    "title": "AI, security operations and the new race against time",
-    "url": "https://www.csoonline.com/article/4198963/ai-security-operations-and-the-new-race-against-time.html",
-    "source": "CSO Online",
-    "published": "2026-07-22T09:00:00+00:00",
-    "raw_text": "When Anthropic unveiled Project Glasswing and the Mythos model, much of the discussion focused on the capabilities themselves. Security leaders debated what these systems could mean for vulnerability discovery, exploit development and the pace of offensive innovation. Researchers examined technical benchmarks. Industry observers questioned how quickly these capabilities might fall into attackers’ hands. Those conversations are important. They also point to a larger question that predominates my discussions with CISOs: How much time do we have? Over the past year, conversations about AI in cybersecurity have changed noticeably. Twelve months ago, security leaders wanted to understand whether AI could meaningfully improve security operations. They wanted to know whether it could accurately investigate alerts, reduce analyst workload and operate reliably in production environments. Today, security leaders are asking about timelines, implementation, how quickly AI is changing the threat landscape and what that means for how security teams operate . Anthropic’s Mythos and Glasswing, OpenAI’s Daybreak and advances in DeepSeek accelerate those conversations. Each development provides another glimpse into the pace at which AI capabilities are advancing. AI now reasons through security problems that historically required highly specialized expertise. The implications span vulnerability discovery, attack-path analysis, reconnaissance, social engineering and security operations. The shift reflects a broader reality: cybersecurity is entering a period where the pace of adaptation may matter as much as the quality of defenses themselves. AI is accelerating both offense and defense simultaneously. Organizations are quickly redesigning security operations around that reality. One consequence is becoming increasingly visible. For years, cybersecurity teams invested enormous effort in discovering threats, identifying vulnerabilities, gathering telemetry and collecting intelligence. AI is accelerating many of those activities simultaneously. Visibility is improving. Discovery is accelerating. Investigations are becoming faster and more comprehensive. The bottleneck is beginning to move. The challenge increasingly centers on how quickly organizations can act on what they know. The organizations that gain an advantage may not be the ones with the most information. They will be the ones who can operationalize that information the fastest. The timeline is compressing Cybersecurity has experienced many major technology transitions. Cloud computing changed infrastructure. Mobile devices expanded the attack surface. Digital transformation connected systems that were previously isolated. AI introduces a different dynamic. Most technology transitions unfolded over years. Organizations had time to evaluate, pilot, deploy and gradually adapt operating models. The current AI cycle moves at a different pace. Capabilities improve continuously. New models arrive every few months. New research emerges every few weeks. Security teams absorb developments at the same time attackers do. Vulnerability discovery provides a useful example. Security teams have long operated around a familiar cycle of discovery, validation, remediation and protection. AI systems accelerate every stage of that process. Similar patterns exist in phishing, reconnaissance, social engineering and attack planning. A vulnerability that once moved through that cycle over weeks increasingly now moves through those stages in days or, in some cases, hours. Attackers are already operating at the speed of AI. Defenders are now focused on reaching the same level of operational speed. This shift is changing the questions CISOs ask. Early discussions focused on capability. Could AI investigate alerts accurately? Could it operate reliably in production environments? Could it be trusted with meaningful security work? As organizations gained experience with AI, the discussion shifted toward implementation. Security teams began evaluating where AI could create operational leverage and how quickly they could deploy it into existing workflows. Today, many CISOs are focused on timing. The pace of advancement is influencing planning horizons, budget decisions and operating-model discussions. Security leaders are evaluating how quickly they can introduce AI into investigations, threat hunting, detection engineering and response workflows. Boards are asking questions. Executive teams are paying attention. Security programs that once viewed AI as a future initiative increasingly view it as a current operational priority. The industry is moving from evaluating AI as a technology to incorporating AI as a security capability. The timeline compression creates pressure on the traditional security operations model. Investigation speed, response speed and defensive coverage increasingly determine whether organizations can keep pace with adversaries operating with AI assistance. Security operations are entering a new phase The impact of AI is becoming particularly visible inside the SOC. Many security operations centers were built around a straightforward assumption: alerts flow to human analysts who conduct investigations. Operational capacity scales primarily through hiring. The volume of security data, the number of alerts and the complexity of modern environments have steadily increased. Security teams have responded by building processes, adding tools and creating specialized analyst roles. AI introduces a new source of operational capacity. Investigations that require analysts to examine dozens or hundreds of artifacts across endpoint, identity, cloud, network and email systems can now be performed in minutes. Analysts gain access to investigative depth and consistency that would be difficult to achieve manually at scale. Many security leaders now view this capability through the lens of operating model design. They are examining how investigations are performed, how work is distributed and where human expertise creates the greatest value. The evolution of the analyst role One of the most important developments emerging from early production deployments is the evolution of analyst responsibilities . Security analysts remain central to security operations. Their expertise becomes even more valuable as AI systems take on larger portions of investigative work. Threat hunting, detection engineering, response strategy, governance and oversight are receiving increased attention. Analysts spend more time shaping how investigations are conducted, evaluating outcomes and improving overall security operations. Many organizations are already beginning this shift. Teams are investing more heavily in proactive security activities. Detection engineering programs are expanding. Threat hunting is becoming more accessible. Analysts are spending more time improving systems and less time repeating investigative tasks. These changes create what I think of as an analyst-amplified SOC: an environment where AI expands the reach of security professionals and enables deeper security work across the organization. Trust is critical and it doesn’t have to compromise speed Faced with a compressing timeline, the instinct is to treat speed and trust as a trade-off, i.e., move faster, verify less. That trade-off feels inevitable. It isn’t. You don’t trust AI in the abstract. You trust that a system understands your tools, your telemetry and the edge cases that only exist in your network. The problem was never speed. It’s speed without context. The faster a context-blind system runs, the more decisions you’re left unable to verify. The tension eases when the system is quick to deploy and tunes to your environment once it’s there, rather than treating every network the same. Speed stops being the thing you trade against trust. The more it learns about your environment, the sharper and more trustworthy it becomes, so the two compound rather than compete. Trust still develops through operational evidence such as measurable outcomes, visibility into decisions and consistent performance. But where that evidence accrues matters. The organizations making the fastest real progress understand this. They don’t compromise quality and trust for speed. They invest in AI that earns trust inside their own environment, so they don’t have to choose. Leadership during a period of rapid change The conversations surrounding Mythos and Glasswing reflect a broader reality facing security leaders. AI is becoming part of both offense and defense. Security teams are incorporating it into investigations, detection engineering, response workflows and threat hunting. Attackers are incorporating it into their own operations. Security leaders have an opportunity to modernize operating models, expand defensive capacity and build organizational experience while these capabilities continue to evolve. The organizations making progress today are investing in readiness. They are building experience, adapting workflows and preparing teams for a new model of security operations. The next phase of cybersecurity will be defined by how effectively organizations combine human judgment with machine-scale execution. The question facing security leaders is increasingly clear: How quickly can their organizations adapt to a continuously changing threat environment? This article is published as part of the Foundry Expert Contributor Network. Want to join?",
+    "title": "Hydrogen fuel cells for data center power",
+    "url": "https://www.datacenterdynamics.com/en/whitepapers/hydrogen-fuel-cells-for-data-center-power/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-24T08:08:30+00:00",
+    "raw_text": "Explore how hydrogen fuel cells can provide zero-emission backup power while helping unlock new data center capacity and resilience",
     "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Networks",
-      "Industry & Market",
-      "GRC",
       "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "digital transformation",
-        "cloud computing"
-      ],
-      "Networks": [
-        "network",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "phishing",
-        "exploit",
-        "threat",
-        "security",
-        "cyber",
-        "soc"
-      ],
-      "GRC": [
-        "governance"
-      ],
       "Data Centres": [
+        "data center",
         "capacity"
-      ],
-      "Industry & Market": [
-        "expands",
-        "ey"
       ]
     },
-    "summary": "When Anthropic unveiled Project Glasswing and the Mythos model, much of the discussion focused on the capabilities themselves. Security leaders debated what these systems could mean for vulnerability discovery, exploit development and the pace of offensive innovation. Researchers examined technical benchmarks. Industry observers questioned how quickly these capabilities might fall into attackers’ hands."
+    "summary": "Explore how hydrogen fuel cells can provide zero-emission backup power while helping unlock new data center capacity and resilience"
   },
   {
-    "title": "10 survival tips for CSOs who report to the CEO",
-    "url": "https://www.csoonline.com/article/4188581/10-survival-tips-for-csos-who-report-to-the-ceo.html",
-    "source": "CSO Online",
-    "published": "2026-07-22T07:00:00+00:00",
-    "raw_text": "As the CSO grows in prominence, security leaders are increasingly earning a seat at the executive table, reporting directly to the CEO with the expectation to help drive business strategy and ensure organizational success. Reporting to the CEO unlocks greater access and influence for security leaders, and while CSOs who report to their organization’s CIO still have clout, it’s a very different experience picking up the phone to speak directly with the CEO as a strategic partner. Regardless of reporting structure, CSOs must clearly understand what they are being tasked to solve. That might sound simple, but making the leap to being a CEO’s direct report requires a new perspective, a different set of skills, and a business-level focus on metrics to do so. We asked several current CSOs, CEOs, and IT staffing experts for advice on how security executives can best navigate a direct reporting relationship with their CEO. Offering insights below are George Gerchow , CSO at Bedrock Data and member of the IANS faculty; Matt Chiodi , CSO of Cerby; Chris Schueler , CEO at Cyderes; and Greg Fuller , vice president of the Technology Skills Suite at Skillsoft. 1. Understand how the CEO views your role Most CEOs expect that, when you report directly to them, you fully own your functional area. Whether it’s cybersecurity, operations, or finance, they look to you as the expert in that domain. The CEO may have opinions, but ultimately, you are expected to lead and provide direction. CEOs expect their CSO to be a true strategic partner , not just a risk reporter — connecting cybersecurity to revenue protection, regulatory compliance, customer trust, and operational resilience. In turn, CSOs should expect CEOs to treat governance as a strategic enabler, not a bureaucratic necessity. 2. Power up on skills vital to your organization at an executive level On the technology side, AI and machine learning, cloud security, incident response, zero trust architecture, and governance, risk, and compliance (GRC) are the areas where threats evolve fastest and strategic leadership has the greatest impact. Equally important are “power skills”: communication, critical thinking, adaptability, and emotional intelligence. The ability to translate complex risk into business terms is what separates a strong CSO from a purely technical one. Skills, not titles, define effectiveness in the eyes of a CEO. 3. Take advantage of your direct access Direct access to the CEO will enable you to influence strategy, shape resilience planning , and ensure cybersecurity is treated as a business imperative rather than a cost center. That authority is strongest when the CEO understands cybersecurity as a strategic lever, not just a technical function. While a direct reporting relationship gives you access to the CEO, it also comes with the responsibility to operate at that level. You need to provide clear, executive-level visibility into your cybersecurity program. 4. Brush up on business translation A CSO who leads with business alignment will always carry more influence when they can translate risk into business language rather than technical jargon. Building programs that must survive an IPO, a FedRAMP audit, and real customer scrutiny forces you to tie security to revenue and trust. The most valuable skill is translation — defining technical risk in terms of executive action and business impact that a CEO and a board can act on. You must build trust through transparency. These are the human skills that complement technology, creating a collaborative human-AI dynamic where leaders make faster, better-informed decisions. 5. Treat conversations as risk assessment opportunities Highly effective security leaders treat every business conversation as a risk conversation in disguise. That mindset is what largely separates a great CSO from a great technologist. Earn the CEO’s trust by speaking business first, security second. Translate every risk into revenue, reputation, or regulatory exposure. Remember, a good CEO wants a translator, not an alarm system. They expect no surprises, a clear read on the risks that matter, and a security leader who helps the business move faster rather than slowing it down . 6. Define what a successful relationship should look like and put it in writing Regardless of the reporting relationship, start by defining the end goal and putting it in writing. It will evolve over time, but having that initial clarity is critical. This is especially important when you’re new in a role and aiming to make your first 60, 90, or 120 days, and your first year, successful. In such cases, it’s essential to align early. Do that collaboratively, and document it. 7. Prioritize trust and candor The CEO needs to trust that the CSO isn’t sandbagging, and the CSO needs enough psychological safety to deliver bad news fast. When those conditions exist, security becomes a strategic asset — not a cost center. To that end, focus on clear communication above all, and present yourself as part of a team, not a solo player. Stay calm under pressure during incidents, and treat people as peers rather than policing them. The leaders who last build trust before they need it. 8. Treat governance as a strategic competitive advantage The strongest partnerships also share a commitment to governance as a competitive advantage. Governance is the brakes that let you drive fast safely. When a CSO and CEO are aligned on that principle, the organization can innovate with AI while maintaining oversight and protecting against unnecessary risk . The result is an organization that does not just react to threats but builds resilience into how it operates. 9. Set clear goals and measure progress Setting clear goals and measuring progress against those goals is essential. When expectations are clear, the areas you need to focus on become much clearer. It doesn’t solve every problem, but aligning early with your leadership, whether that’s a CEO or a CIO, can significantly reduce the pressure you may feel. Also, never let your boss be surprised. This is where being clear on goals and consistently tracking both leading and lagging metrics becomes especially important, particularly in a direct reporting relationship with the CEO. 10. Be willing to endure challenge and discomfort Finally, persistence and a willingness to endure discomfort for something that matters more than the pain itself are critical to surviving in this relationship. The role of a cybersecurity leader is often thankless. If you’re doing your job well, no one really notices.",
+    "title": "The real challenge for liquid cooling isn’t deployment – it’s scale",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/the-real-challenge-for-liquid-cooling-isnt-deployment-its-scale/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-24T07:00:00+00:00",
+    "raw_text": "Liquid cooling has arrived. Now the industry must identify how to scale it, say nVent’s experts",
     "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market",
-      "Networks",
-      "Cloud Infrastructure",
       "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "cyber",
-        "zero trust",
-        "incident response",
-        "edr",
-        "cloud security"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "regulatory",
-        "audit"
-      ],
       "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "partnership",
-        "ipo",
-        "ey"
+        "cooling",
+        "liquid cooling"
       ]
     },
-    "summary": "As the CSO grows in prominence, security leaders are increasingly earning a seat at the executive table, reporting directly to the CEO with the expectation to help drive business strategy and ensure organizational success. Reporting to the CEO unlocks greater access and influence for security leaders, and while CSOs who report to their organization’s CIO still have clout, it’s a very different experience picking up the phone to speak directly with the CEO as a strategic partner. Regardless of reporting structure, CSOs must clearly understand what they are being tasked to solve. That might sound simple, but making the leap to being a CEO’s direct report requires a new perspective, a different set of skills, and a business-level focus on metrics to do so."
+    "summary": "Liquid cooling has arrived. Now the industry must identify how to scale it, say nVent’s experts"
   },
   {
     "title": "Microsoft Azure outage at West US region causes intermittent connectivity failures",
@@ -2030,6 +2095,23 @@
       ]
     },
     "summary": "Will help developers incorporate rack into AI data centers"
+  },
+  {
+    "title": "The new playbook to energize AI data center development",
+    "url": "https://www.datacenterdynamics.com/en/whitepapers/the-new-playbook-to-energize-ai-data-center-development/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-23T17:38:00+00:00",
+    "raw_text": "A strategic framework to secure power and fast-track energization",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center",
+        "rack"
+      ]
+    },
+    "summary": "A strategic framework to secure power and fast-track energization"
   },
   {
     "title": "AMD partners with big chip co. Cerebras for ultra-low-latency and high throughput AI inference system",
@@ -2305,48 +2387,32 @@
     "summary": "As the Network-as-a-Service provider continues to enter neocloud race"
   },
   {
-    "title": "Crown Castle CEO: Edge opportunity is gaining momentum",
-    "url": "https://www.datacenterdynamics.com/en/news/crown-castle-ceo-edge-opportunity-is-gaining-momentum/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-23T15:50:26+00:00",
-    "raw_text": "CEO Christian Hillabrant says towercos can help to ease some of the data center challenges",
+    "title": "Google meets the neighbors and gets both barrels over its new UK datacenter",
+    "url": "https://www.theregister.com/on-prem/2026/07/24/google-meets-the-neighbors-and-gets-both-barrels-over-its-new-uk-datacenter/5277188",
+    "source": "The Register",
+    "published": "2026-07-24T08:30:00+00:00",
+    "raw_text": "The Reg was there as locals aired grievances over poor communication, noise, and light pollution at Waltham Cross facility",
     "categories": [
       "Data Centres"
     ],
     "matched_keywords": {
       "Data Centres": [
-        "data center"
+        "datacenter"
       ]
     },
-    "summary": "CEO Christian Hillabrant says towercos can help to ease some of the data center challenges"
+    "summary": "The Reg was there as locals aired grievances over poor communication, noise, and light pollution at Waltham Cross facility"
   },
   {
-    "title": "Mozambique's cloud provider Bubble to operate with two availability zones",
-    "url": "https://www.datacenterdynamics.com/en/news/mozambiques-cloud-provider-bubble-to-operate-with-two-availability-zones/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-23T15:42:02+00:00",
-    "raw_text": "Aims to provide greater redundancy",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ]
-    },
-    "summary": "Aims to provide greater redundancy"
-  },
-  {
-    "title": "Ukraine's sovereign €1bn communications constellation to launch in 2027",
-    "url": "https://www.datacenterdynamics.com/en/news/ukraines-sovereign-1bn-communications-constellation-to-launch-in-2027/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-23T15:40:24+00:00",
-    "raw_text": "Danish-Ukrainian joint constellation project perseveres despite CEO passing away",
+    "title": "Google breaks Alibaba’s record for Europe’s largest DMA fine",
+    "url": "https://www.theregister.com/legal/2026/07/24/google-breaks-alibabas-record-for-europes-largest-dma-fine/5278017",
+    "source": "The Register",
+    "published": "2026-07-24T07:32:00+00:00",
+    "raw_text": "€890 million slap – just 0.25% of revenue – for making itself the subject of search results, and hiding app store alternatives",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Danish-Ukrainian joint constellation project perseveres despite CEO passing away"
+    "summary": "€890 million slap – just 0.25% of revenue – for making itself the subject of search results, and hiding app store alternatives"
   },
   {
     "title": "Support newbie figured out how to avoid all-nighters, and his colleagues hated him for it",
@@ -3002,27 +3068,92 @@
     "summary": "More screen, more pixels, and a Pi 5 required to drive the lot"
   },
   {
-    "title": "Council worker spared prison after four-day data-snooping spree",
-    "url": "https://www.theregister.com/security/2026/07/22/council-worker-spared-prison-after-four-day-data-snooping-spree/5276054",
-    "source": "The Register",
-    "published": "2026-07-22T08:29:08+00:00",
-    "raw_text": "Herefordshire employee handed suspended sentence for breach of Computer Misuse Act",
+    "title": "Russian APT Laundry Bear perfects zero-click phishing attack",
+    "url": "https://www.computerweekly.com/news/366645968/Russian-APT-Laundry-Bear-perfects-zero-click-phishing-attack",
+    "source": "ComputerWeekly",
+    "published": "2026-07-24T04:45:00+00:00",
+    "raw_text": "<p>An emerging threat actor linked with confidence to the Russian state is targeting Western organisations with a novel zero-click <a href=\"https://www.techtarget.com/searchsecurity/definition/phishing\" target=\"_blank\" rel=\"noopener\">phishing attack</a> technique designed to compromise email platforms and gain persistent access to its target networks.</p> <p>Flagged by the UK’s National Cyber Security Centre (NCSC), alongside its Five Eyes partners and sister agencies from across Europe, the new operation has been given the name Laundry Bear, and has successfully stolen sensitive data from multiple targets in sectors such as defence, education, energy, government, law enforcement, media and non-governmental organisations (NGOs).</p> <p>The advanced persistent threat (APT) group has likely been around since 2024, and has developed <a href=\"https://www.ncsc.gov.uk/sites/default/files/2026-07/CSA_RUSSIA_PHISHING_TARGET_ZIMBRA.pdf\" target=\"_blank\" rel=\"noopener\">a zero-click exploit termed beehive or Ulej</a> that specifically targets <a href=\"https://www.zimbra.com/\" target=\"_blank\" rel=\"noopener\">Zimbra Collaboration Suite</a> (ZCS) software. The NCSC said this technique was initially tested against Ukrainian targets prior to being turned against Western organisations, which is “indicative of espionage” and means Laundry Bear is “almost certainly” acting with Moscow’s support.</p> <p>“This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations,” said NCSC chief operating officer Beth Hopkins.</p> <p>“With our international partners, we&nbsp;strongly encourage organisations to familiarise themselves with the&nbsp;zero-click&nbsp;techniques described in the advisory&nbsp;which could be used&nbsp;against other platforms,&nbsp;and&nbsp;act on&nbsp;the mitigation advice.&nbsp;</p> <p>“We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security.”&nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Busy bees\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Busy bees</h2> <p>The background to Laundry Bear’s campaign dates back to May 2025 when the Dutch authorities warned of a cluster of malicious activity targeting Microsoft Exchange and abusing legitimate application programming interfaces (APIs) to exfiltrate bulk data. At this stage ,the group appeared to be using a malicious website masquerading as a European Defence and Security Summit registration portal.</p> <p>However, from around July 2025, Laundry Bear shifted to a far more technical phishing method with its custom-developed beehive technique – technical analysis conducted by the NCSC suggests that artificial intelligence (AI) tools were used in the generation of a simple codebase for this purpose.</p> <p>Unlike the Microsoft campaign, beehive enables Laundry Bear to gain sustained access to its target’s emails with no input from the user. More usually, a victim must click a link or open a file to enable this kind of access but in this instance, they only have to view a malicious email within a vulnerable version of ZCS’ webmail service in order to be compromised.</p> <p>Beehive specifically targets a flaw tracked as <a href=\"https://www.cve.org/CVERecord?id=CVE-2025-66376\" target=\"_blank\" rel=\"noopener\">CVE-2025-66376</a>, a stored cross-site-scripting (XSS) vulnerability in ZCS’ classic user interface that allows attackers to abuse cascading style sheets (CSS) @import directives in email HTML.</p> <p>Zimbra <a href=\"https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.13#Security_Fixes\" target=\"_blank\" rel=\"noopener\">patched this flaw</a> in November 2025 and the NCSC is urging any users that have not updated to immediately patch it and conduct urgent network monitoring.</p> <p>The NCSC warned that while CVE-2025-66376 specifically exists in ZCS, the beehive technique itself could be readily adapted to exploit other vulnerabilities. It added that as more organisations update their ZCS instances, Laundry Bear would very likely look to target other email systems as the pool of potential victims empties out.</p> <p><a href=\"https://www.huntress.com/\" target=\"_blank\" rel=\"noopener\">Huntress</a> senior manager of security operations Dray Agha said: “These exploits are a worst-case scenario for defenders because it is a zero-click attack, meaning simply viewing the email in a vulnerable client triggers the compromise. This completely bypasses traditional employee security training and gives state-backed hackers a silent, invisible backdoor into sensitive communications without the victim ever making a mistake.</p> <p>“This is why defence-in-depth is advised, as where the human security layer is porous, the technical defensive layer can step in. Organisations shouldn’t just longer rely on their staff acting as a human firewall. Rapid software patching, coupled with layered technical defences, is the only reliable safety net against modern state-sponsored threats.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about phishing</h3> <ul class=\"default-list\"> <li>To combat phishing, Singapore's Singpass is launching a passwordless feature for iPhone users with a device-bound model to <a href=\"https://www.computerweekly.com/news/366645129/Singpass-to-roll-out-passkeys-in-fight-against-phishing-scams\" target=\"_blank\" rel=\"noopener\">avoid the security risks of cloud-synced passkeys</a>.</li> <li>With AI now powering the majority of phishing campaigns and attacks expanding beyond email into Teams, calendars and AI tools, security leaders across the Gulf <a href=\"https://www.computerweekly.com/feature/GCC-firms-rethink-cyber-defences-as-AI-phishing-surges\" target=\"_blank\" rel=\"noopener\">are rethinking trust models</a>.</li> <li>Deepfake phishing attacks are on the rise, as attackers use AI to deceive and defraud end users and their employers. Learn what CISOs can do to <a href=\"https://www.techtarget.com/searchsecurity/tip/Prepare-for-deepfake-phishing-attacks-in-the-enterprise\" target=\"_blank\" rel=\"noopener\">protect their organisations</a>.</li> </ul> </div> </div> </section>",
     "categories": [
-      "Cybersecurity"
+      "Cybersecurity",
+      "Networks",
+      "Cloud Infrastructure",
+      "Data Centres",
+      "Industry & Market"
     ],
     "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "network",
+        "firewall",
+        "lan"
+      ],
       "Cybersecurity": [
-        "breach"
+        "vulnerability",
+        "cve",
+        "phishing",
+        "exploit",
+        "hacker",
+        "threat",
+        "security",
+        "cyber"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "ey"
       ]
     },
-    "summary": "Herefordshire employee handed suspended sentence for breach of Computer Misuse Act"
+    "summary": "<p>An emerging threat actor linked with confidence to the Russian state is targeting Western organisations with a novel zero-click <a href=\"https://www.techtarget.com/searchsecurity/definition/phishing\" target=\"_blank\" rel=\"noopener\">phishing attack</a> technique designed to compromise email platforms and gain persistent access to its target networks.</p> <p>Flagged by the UK’s National Cyber Security Centre (NCSC), alongside its Five Eyes partners and sister agencies from across Europe, the new operation has been given the name Laundry Bear, and has successfully stolen sensitive data from multiple targets in sectors such as defence, education, energy, government, law enforcement, media and non-governmental organisations (NGOs).</p> <p>The advanced persistent threat (APT) group has likely been around since 2024, and has developed <a href=\"https://www.ncsc.gov.uk/sites/default/files/2026-07/CSA_RUSSIA_PHISHING_TARGET_ZIMBRA.pdf\" target=\"_blank\" rel=\"noopener\">a zero-click exploit termed beehive or Ulej</a> that specifically targets <a href=\"https://www.zimbra.com/\" target=\"_blank\" rel=\"noopener\">Zimbra Collaboration Suite</a> (ZCS) software. The NCSC said this technique was initially tested against Ukrainian targets prior to being turned against Western organisations, which is “indicative of espionage” and means Laundry Bear is “almost certainly” acting with Moscow’s support.</p> <p>“This phishing campaign demonstrates how hostile actors will ruthlessly adapt techniques and exploit vulnerable technology in pursuit of their aims to steal sensitive information from Western organisations,” said NCSC chief operating officer Beth Hopkins.</p> <p>“With our international partners, we&nbsp;strongly encourage organisations to familiarise themselves with the&nbsp;zero-click&nbsp;techniques described in the advisory&nbsp;which could be used&nbsp;against other platforms,&nbsp;and&nbsp;act on&nbsp;the mitigation advice.&nbsp;</p> <p>“We will continue to call out malicious cyber activity supported by the Russian state and urge everyone to follow NCSC guidance to raise resilience, including steps to strengthen online account security.”&nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Busy bees\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Busy bees</h2> <p>The background to Laundry Bear’s campaign dates back to May 2025 when the Dutch authorities warned of a cluster of malicious activity targeting Microsoft Exchange and abusing legitimate application programming interfaces (APIs) to exfiltrate bulk data. At this stage ,the group appeared to be using a malicious website masquerading as a European Defence and Security Summit registration portal.</p> <p>However, from around July 2025, Laundry Bear shifted to a far more technical phishing method with its custom-developed beehive technique – technical analysis conducted by the NCSC suggests that artificial intelligence (AI) tools were used in the generation of a simple codebase for this purpose.</p> <p>Unlike the Microsoft campaign, beehive enables Laundry Bear to gain sustained access to its target’s emails with no input from the user. More usually, a victim must click a link or open a file to enable this kind of access but in this instance, they only have to view a malicious email within a vulnerable version of ZCS’ webmail service in order to be compromised.</p> <p>Beehive specifically targets a flaw tracked as <a href=\"https://www.cve.org/CVERecord?id=CVE-2025-66376\" target=\"_blank\" rel=\"noopener\">CVE-2025-66376</a>, a stored cross-site-scripting (XSS) vulnerability in ZCS’ classic user interface that allows attackers to abuse cascading style sheets (CSS) @import directives in email HTML.</p> <p>Zimbra <a href=\"https://wiki.zimbra.com/wiki/Zimbra_Releases/10.1.13#Security_Fixes\" target=\"_blank\" rel=\"noopener\">patched this flaw</a> in November 2025 and the NCSC is urging any users that have not updated to immediately patch it and conduct urgent network monitoring.</p> <p>The NCSC warned that while CVE-2025-66376 specifically exists in ZCS, the beehive technique itself could be readily adapted to exploit other vulnerabilities."
+  },
+  {
+    "title": "CW@60: The mirror and the machine - three decades on the frontlines of the tech revolution",
+    "url": "https://www.computerweekly.com/feature/CW60-The-mirror-and-the-machine-three-decades-on-the-frontlines-of-the-tech-revolution",
+    "source": "ComputerWeekly",
+    "published": "2026-07-24T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>For those of us working in IT, <a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">our industry history</a> is not something you read about - it is something we have lived.</p> <p>That experience mirrors my own journey running technology services companies, spanning three distinct eras of rapid change. If you want to understand how we got here, you only have to look at how Computer Weekly<i> </i>has adapted.</p> <p>Launched in 1966 to cover the dawn of business mainframes, its pages grew up alongside our industry. As we shifted our focus from raw technical implementation to digital transformation, cloud computing, and artificial intelligence (AI), Computer Weekly’s editorial lens shifted right along with us.</p> <p>But what I admire most about the publication and what resonates with anyone who has had to manage complex tech programmes is that the team never just reported on the technology. Through the <a href=\"https://www.computerweekly.com/feature/Post-Office-Horizon-scandal-explained-everything-you-need-to-know\">relentless, investigative journalism</a> of individuals like Tony Collins and Karl Flinders, they tackled the human and societal impact of technology long before the mainstream media even noticed.</p> <p>For me, that’s the real legacy - technology isn't just about the device, data element or language model but also about the truthful impact of the outcome behind the implementation.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Heavy iron\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Heavy iron</h2> <p>When I first entered the technology sector 30 years ago, the landscape was unrecognisable by today’s standards. We were firmly entrenched in what I consider to be the first modern era of business computing - the era of infrastructure and “heavy iron”.</p> <p>In the mid-1990s, the <a href=\"https://www.computerweekly.com/news/366645760/AI-is-making-the-mainframe-harder-to-retire-not-easier\">ghost of the mainframe still lingered</a>, and the client-server revolution was hitting its stride. Back then, an IT services provider was essentially an engineering guild. We spoke in the tactile language of hardware developments, localised networks, and monolithic software deployments. If you wanted to scale a business, you didn't click a button on a digital dashboard - you literally poured concrete for a new server room, ran miles of copper cabling, and prayed the mechanical and electrical parts wouldn’t fail.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Sam-Kingston-Zenitech-LinkedIn.jpg\" alt=\"Photo of Sam Kingston, CEO of Zenitech\" width=\"180\" height=\"180\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“The technology story is always, fundamentally, a human-interest story. And for those of us steering technology services companies, that remains our highest directive”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em> Sam Kingston, Zenitech </em></span></p> </blockquote> <p>During those early years, Computer Weekly was our trade bible. It sat on every workbench and executive’s desk. In that first era, the publication mirrored an obsession with technical execution. Its pages were filled with architectural diagrams, programming debates, and deep dives into raw processing power. To the outside world, IT was a mysterious back-room function - a cost centre managed by introverted specialists who spoke a dialect of acronyms. We were the builders, and the trade press reflected our obsession.</p> <p>Then came the second era, a seismic shift that rolled in with the new millennium - the era of strategy and integration.</p> <p>Almost overnight, the conversation shifted from how the technology worked, to what the technology could do for the bottom line. This was the dawn of true digital transformation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Business outcomes\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Business outcomes</h2> <p>As an executive running a services company, my role fundamentally changed. I was no longer just selling engineering capacity - I was selling business outcomes. We began dismantling the very silos we had spent the previous decade building, replacing them with <a href=\"https://www.computerweekly.com/resources/Enterprise-resource-planning-ERP-software\">enterprise resource planning (ERP) systems</a>, global supply chain integrations, and eventually, the early iterations of cloud computing.</p> <p>As our corporate responsibilities grew, Computer Weekly evolved right alongside us. The editorial tone matured from tactical to strategic. The cover stories were no longer just about the fastest processor - they were about leadership challenges, CIO alignments, and the macroeconomic impact of IT.</p> <p>It was during this second era that a critical realisation dawned on the industry - one that both the publication and the tech industry experienced simultaneously. Technology was becoming too powerful, and too deeply embedded in public life, to be left ungoverned. When big IT projects failed, they no longer just inconvenienced a single department - they disrupted the total enterprise, government agencies, halted public services, and cost shareholders and taxpayers millions.</p> <p>This brings us to the third, and current era – that of pervasive smart tech and ethical accountability debates.</p> <p>Today, running a technology services firm means operating at the tipping point of human and smart tech control. We are building the architectures for AI, navigating the asymmetric warfare of modern cyber security, and managing cloud infrastructures which hold the collective data of society. Tech is no longer a tool used by a business - tech is the business.</p> <p>Yet, as the capabilities of our systems have scaled exponentially, so have the stakes of their failure. And this is exactly where the paths of corporate IT and investigative journalism converge into something profoundly impactful.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Bloodhound instincts\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bloodhound instincts</h2> <p>To the general public, Computer Weekly might seem like an esoteric industry journal. However, to those who understand the history of British investigative journalism, it represents something far more formidable.</p> <p>While mainstream media outlets were chasing fleeting political scandals, Computer Weekly journalists were doing the heavy lifting on the tech beat. They possessed a tenacious, bloodhound instinct to seek out and report stories that national newspapers were too slow, too confused, or too reluctant to follow.</p> <p>The most defining testament to this is the decades-long, relentless coverage of the Post Office Horizon IT scandal which is widely regarded as one of the greatest miscarriages of justice in British history.</p> <p>Long before television dramas brought the story into the public consciousness, it was <a href=\"https://www.computerweekly.com/news/2240089230/Bankruptcy-prosecution-and-disrupted-livelihoods-Postmasters-tell-their-story\">Computer Weekly who first broke the story in 2009</a>. They listened to the subpostmasters when the institution ignored them. They understood, with technical precision, that software is not infallible, and that hiding behind a faulty computer system to ruin innocent lives is a profound ethical failure.</p> <p>As an IT executive, that specific event is not merely a historical footnote - it is a cautionary tale that informs how we should lead today.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Relentless change\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Relentless change</h2> <p>When you spend 30 years watching an industry grow from mainframes to machine learning, you lose your naivety. You realise that our job as technology leaders is not just to deploy the latest cutting-edge platform or chase the highest margin. Our job is to ensure that we build systems resilient enough to survive real-world failure and insulate our clients from catastrophic operational and legal risk.</p> <p>Looking back across three decades of rapid, relentless change, the technology has changed beyond recognition. The copper wires have become invisible cloud networks, and the programming scripts are now written by algorithms. But the human element remains completely unchanged.</p> <p>Computer Weekly succeeded because it realised early on that the technology story is always, fundamentally, a human-interest story. And for those of us steering technology services companies through this third era, that remains our highest directive - to build with integrity, to manage with strategy, and to appreciate the real-world implications of the code we deploy.</p> <p><i>Sam Kingston is CEO at Zenitech.</i></p> </section>",
+    "categories": [
+      "Networks",
+      "Cloud Infrastructure",
+      "Cybersecurity",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "digital transformation",
+        "cloud computing"
+      ],
+      "Networks": [
+        "network",
+        "cdn",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber",
+        "soc"
+      ],
+      "Data Centres": [
+        "capacity",
+        "colo"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>For those of us working in IT, <a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">our industry history</a> is not something you read about - it is something we have lived.</p> <p>That experience mirrors my own journey running technology services companies, spanning three distinct eras of rapid change. If you want to understand how we got here, you only have to look at how Computer Weekly<i> </i>has adapted.</p> <p>Launched in 1966 to cover the dawn of business mainframes, its pages grew up alongside our industry."
   },
   {
     "title": "MI5 and PSNI ordered to pay damages to BBC journalist Vincent Kearney over unlawful surveillance",
     "url": "https://www.computerweekly.com/news/366646084/MI5-and-PSNI-ordered-to-pay-damages-to-BBC-journalist-Vincent-Kearney-over-unlawful-surveillance",
     "source": "ComputerWeekly",
     "published": "2026-07-23T12:33:00+00:00",
-    "raw_text": "<p>A court has ordered the Security Service and the Police Service of Northern Ireland (PSNI) to pay damages to a former BBC journalist for <a href=\"https://www.computerweekly.com/news/366639366/Police-created-intelligence-profile-of-BBC-journalist-subject-to-phone-surveillance\">unlawfully accessing his phone data</a>.</p> <p>The PSNI and MI5 have been ordered to pay Vincent Kearney damages of £10,000 each for accessing his communications data in an attempt to identify his confidential journalistic sources.</p> <p>The case represents the first time that the Security Service, MI5, has been ordered to pay damages for conducting unlawful surveillance.</p> <p>The Investigatory Powers Tribunal today <a href=\"https://www.computerweekly.com/news/366634439/MI5-made-multiple-applications-for-phone-data-to-identify-BBC-journalists-sources\">identified seven occasions</a> between 2006 and 2017 where authorisations were issued to access Kearney’s phone data that were disproportionate and not in accordance with the law.</p> <p>Kearney and the BBC brought the case in 2024 after learning that his phone data had been accessed from evidence that emerged from a separate case brought by journalists Barry McCaffrey and Trevor Birney against the PSNI. &nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Victory for journalists\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Victory for journalists</h2> <p>Vincent Kearney, currently northern editor at RTÉ' was home affairs correspondent for BBC Northern Ireland at the time of the surveillance.</p> <p>“This is a tremendous victory for journalism and an affirmation of the duty and legal rights of journalists to protect sources,” said Kearney after today’s judgment.</p> <p>“The award of damages against MI5 is particularly significant as it is the first time the IPT has taken such action, and the first time the security service has been ordered to pay damages to a journalist,” he said.</p> <p>&nbsp;“The court has ruled that the PSNI and MI5 broke the law when they interfered with my communications data over a period of many years in efforts to identify confidential sources,” he added.</p> <p>According to the IPT judgment any measures taken which interfere with the confidentiality of journalist’s sources must be “justified by an overriding requirement in the public interest” and any authorisation to do so must be first reviewed by a judge or another independent body.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MI5 unlawfully accessed phone data\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MI5 unlawfully accessed phone data</h2> <p>The court found that MI5 first applied for billing data, and details of phone numbers that had been in contact with Kearney in 2006. MI5’s applications failed to identify Kearney as a journalist and failed to state their purpose was to identify his journalistic sources, the court found.</p> <p>MI5 said it had acted in “good faith” by following the codes of practice at the time but <a href=\"https://www.computerweekly.com/news/366631277/MI5-unlawfully-monitored-the-phone-of-BBC-journalist-Vincent-Kearney\">admitted that it had breached Kearney’s rights</a> to privacy and freedom of expression, which protects confidential journalistic sources, under European Convention on Human Rights.</p> <p>In 2009 Kearney was again subject to surveillance after he received a call from an individual claiming to be from the Continuity IRA claiming responsibility for the murder of PC Stephen Carroll, which he notified to the PSNI.</p> <p>The PSNI made applications for the BBC and Kearney’s phone data but failed to ask whether there was an “overriding requirement in the public” interest to interfere with the confidentiality of Kearney’s journalistic sources.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MPS obtained geographic data about Kearney\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MPS obtained geographic data about Kearney</h2> <p>In 2011, the PSNI commissioned the Metropolitan Police Service (MPS) to investigate Kearney following his work on a BBC Spotlight programme which reported that the Office of the Police Ombudsman for Northern Ireland had been compromised.</p> <p>Under Operation Erewhon the MPS obtained Kearney’s communications data for over three months, which included incoming and outgoing calls, cell site data, and data about Kearney’s geographic movements.</p> <p>“We have seen nothing to suggest that there was any overriding public interest remotely sufficient to justify either this intrusion or the wide interference, for such an extended period, with the confidentiality of his journalistic sources,” the court found.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"No justification give for phone data\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>No justification give for phone data</h2> <p>In 2013, the PSNI applied for Kearney’s phone data as part of Operation Samarium, an investigation into allegations that a senior PSNI manager had received corrupt payments.</p> <p>The PSNI made two applications which identified Kearney as a journalist, but failed to establish any justification, let alone an “overriding requirement” for obtaining such a large quantity of Kearney’s phone data. One of the applications falsely identified Kearney as a suspect in the investigation.</p> <p>&nbsp;A PSNI investigation in 2014, dubbed Operation Basanti, made four applications to obtain phone data relating to an individual suspected of being a journalistic source for Kearney. &nbsp;</p> <p>Although the applications made it clear that Kearney was a journalist, they did not address the legal significance of that and failed to apply the correct legal tests before authorising the operation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"No Stone Unturned\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>No Stone Unturned</h2> <p>In 2017, the PSNI commissioned Durham Constabulary to investigate alleged leaks following the broadcast of the documentary No Stone Unturned, which revealed allegations of police collusion into the murders of six innocent Catholics at Loughinisland in 1984.</p> <p>Under Operation Yurta, Durham obtained a spreadsheet of communications data relating to Kearney originally obtained by the MPS in 2012 during Operation Erewhon.</p> <p>The MPS accepted that it breached Kearney’s rights by obtaining and storing Kearney’s communications data and providing parts of the data to Durham Constabulary.</p> <p>The IPT found that the retention and use of Kearney’s and the BBC’s data was also unlawful because it was not proportionate nor in accordance with the law.</p> <p>In 2024, the IPT found that Belfast journalists, Barry McCaffrey and Trevor Birney, were unlawfully placed under surveillance by two UK police forces, which <a href=\"https://www.computerweekly.com/news/366583648/Police-accessed-phone-records-of-trouble-making-journalists\">spied on their phone communications</a>&nbsp;and &nbsp;on their suspected confidential sources.</p> <p>The journalists were targeted after they produced a documentary exposing police collusion in the murders of six innocent Catholics watching a football match in Loughinisland in 1994.</p> <p>Information disclosed in their case suggested <a href=\"https://www.computerweekly.com/news/366617124/Tribunal-criticises-PSNI-and-Met-Police-for-spying-operation-to-identify-journalists-sources\">other journalists, including Kearney had been subject to surveillance</a>.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Agencies not above the law\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Agencies not above the law</h2> <p>Kearney said that the fact that the court decided to award damages reflects the seriousness of the case, including the impact of Kearney personally and the trust that sources can place in the confidentiality of their communications with him.</p> <p>“It is important that agencies charged with upholding the law know that they are not above the law and will be held to account,” he said.</p> <p>A BBC spokesperson said that the issues raised by this case were a matter of grave concern, not just to the BBC but to wider society.</p> <p>&nbsp;“What happened in this instance was wrong and must never be repeated. It caused harm to a journalist, jeopardised trust and threatened the safeguards on which public interest journalism depends, and has a right to expect,” the spokesperson added.</p> <p>Commenting on the judgment, the chief constable of the PSNI Jon Boutcher said: “I accept the Investigatory Powers Tribunal’s judgment that the PSNI authorisations were not in accordance with the law and were disproportionate”.&nbsp;</p> <p>He said that significant changes to practice and policy had been made since these incidents occurred. These included the role Investigatory Powers Commissioner’s Office in independently authorising communications data requests and scrutiny of Judicial Commissioners of requests to access communications relating to journalists.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about the spying operations against Vincent Kearney</h3> <p><strong>February 2026</strong></p> <p><a href=\"https://www.computerweekly.com/news/366639366/Police-created-intelligence-profile-of-BBC-journalist-subject-to-phone-surveillance\">Police created ‘intelligence profile’ of BBC journalist subject to phone surveillance</a> - Police and MI5 conducted seven unlawful operations to obtain phone data relating to former BBC journalist Vincent Kearney, the Investigatory Powers Tribunal heard today</p> <p><strong>November 2025</strong></p> <p><a href=\"https://www.computerweekly.com/news/366634439/MI5-made-multiple-applications-for-phone-data-to-identify-BBC-journalists-sources\">MI5 made multiple applications for phone data to identify BBC journalist’s sources</a> - MI5 discloses it made and authorised unlawful ‘sequential applications’ for Vincent Kearney’s phone data during his time at the BBC, but will neither confirm nor deny whether it undertook further ‘lawful’ surveillance of BBC journalists</p> <p><strong>September 2025</strong></p> <p><a href=\"https://www.computerweekly.com/news/366631277/MI5-unlawfully-monitored-the-phone-of-BBC-journalist-Vincent-Kearney\">MI5 unlawfully monitored the phone of BBC journalist Vincent Kearney</a> - The Investigatory Powers Tribunal heard today that the security service has conceded that it unlawfully monitored the phone data of former BBC Spotlight reporter Vincent Kearney</p> <p><a href=\"https://www.computerweekly.com/news/366630438/Northern-Ireland-police-kept-inspectors-in-dark-over-surveillance-of-journalists\">Northern Ireland police kept inspectors in dark over surveillance of journalists</a> - The Police Service of Northern Ireland failed to inform the Investigatory Powers Commissioner’s Office about surveillance operations against journalists during annual inspections</p> <p><strong>December 2025</strong></p> <p><a href=\"https://www.computerweekly.com/news/366617124/Tribunal-criticises-PSNI-and-Met-Police-for-spying-operation-to-identify-journalists-sources\">Tribunal criticises PSNI and Met Police for spying operation to identify journalists’ sources</a> - The Investigatory Powers Tribunal has criticised the Police Service of Northern Ireland and the Metropolitan Police for unlawfully spying on journalists</p> </div> </div> <p></p> <p>&nbsp;</p> </section>",
+    "raw_text": "<p>A court has ordered the Security Service and the Police Service of Northern Ireland (PSNI) to pay damages to a former BBC journalist for <a href=\"https://www.computerweekly.com/news/366639366/Police-created-intelligence-profile-of-BBC-journalist-subject-to-phone-surveillance\">unlawfully accessing his phone data</a>.</p> <p>The PSNI and MI5 have been ordered to pay Vincent Kearney damages of £10,000 each for accessing his communications data in an attempt to identify his confidential journalistic sources.</p> <p>The case represents the first time MI5 has been ordered to pay damages for conducting unlawful surveillance.</p> <p>The Investigatory Powers Tribunal today <a href=\"https://www.computerweekly.com/news/366634439/MI5-made-multiple-applications-for-phone-data-to-identify-BBC-journalists-sources\">identified seven occasions</a> between 2006 and 2017 where authorisations were issued to access Kearney’s phone data that were disproportionate and not in accordance with the law.</p> <p>Kearney and the BBC brought the case in 2024 after learning that his phone data had been accessed from evidence that emerged from a separate case brought by journalists Barry McCaffrey and Trevor Birney against the PSNI.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Victory for journalists\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Victory for journalists</h2> <p>Vincent Kearney, currently northern editor at RTÉ, was home affairs correspondent for BBC Northern Ireland at the time of the surveillance.</p> <p>“This is a tremendous victory for journalism and an affirmation of the duty and legal rights of journalists to protect sources,” he said after today’s judgment.</p> <p>“The award of damages against MI5 is particularly significant as it is the first time the IPT has taken such action, and the first time the security service has been ordered to pay damages to a journalist,” said Kearney.</p> <p>“The court has ruled that the PSNI and MI5 broke the law when they interfered with my communications data over a period of many years in efforts to identify confidential sources,” he added.</p> <p>According to the IPT judgment, any measures taken that interfere with the confidentiality of a journalist’s sources must be “justified by an overriding requirement in the public interest” and any authorisation to do so must be first reviewed by a judge or another independent body.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MI5 unlawfully accessed phone data\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MI5 unlawfully accessed phone data</h2> <p>The court found that MI5 first applied for billing data, and details of phone numbers that had been in contact with Kearney, in 2006. MI5’s applications failed to identify Kearney as a journalist and failed to state their purpose was to identify his journalistic sources, the court found.</p> <p>MI5 said it had acted in “good faith” by following the codes of practice at the time, but <a href=\"https://www.computerweekly.com/news/366631277/MI5-unlawfully-monitored-the-phone-of-BBC-journalist-Vincent-Kearney\">admitted it had breached Kearney’s rights</a> to privacy and freedom of expression, which protects confidential journalistic sources under the European Convention on Human Rights.</p> <p>In 2009, Kearney was again subject to surveillance after he received a call from an individual claiming to be from the Continuity IRA claiming responsibility for the murder of PC Stephen Carroll, which he notified to the PSNI.</p> <p>The PSNI made applications for the BBC and Kearney’s phone data, but failed to ask whether there was an “overriding requirement in the public” interest to interfere with the confidentiality of Kearney’s journalistic sources.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MPS obtained geographic data about Kearney\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MPS obtained geographic data about Kearney</h2> <p>In 2011, the PSNI commissioned the Metropolitan Police Service (MPS) to investigate Kearney following his work on a BBC Spotlight programme that reported the Office of the Police Ombudsman for Northern Ireland had been compromised.</p> <p>Under Operation Erewhon, the MPS obtained Kearney’s communications data for over three months, which included incoming and outgoing calls, cell site data, and data about Kearney’s geographic movements.</p> <p>“We have seen nothing to suggest that there was any overriding public interest remotely sufficient to justify either this intrusion or the wide interference, for such an extended period, with the confidentiality of his journalistic sources,” the court found.</p> <p>In 2013, the PSNI applied for Kearney’s phone data as part of Operation Samarium, an investigation into allegations that a senior PSNI manager had received corrupt payments.</p> <p>The PSNI made two applications which identified Kearney as a journalist, but failed to establish any justification, let alone an “overriding requirement” for obtaining such a large quantity of Kearney’s phone data. One of the applications falsely identified Kearney as a suspect in the investigation.</p> <p>A PSNI investigation in 2014, dubbed Operation Basanti, made four applications to obtain phone data relating to an individual suspected of being a journalistic source for Kearney.</p> <p>Although the applications made it clear that Kearney was a journalist, they did not address the legal significance of that, and failed to apply the correct legal tests before authorising the operation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Documentary\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Documentary</h2> <p>In 2017, the PSNI commissioned Durham Constabulary to investigate alleged leaks following the broadcast of the documentary, <em>No stone unturned</em>, which revealed allegations of police collusion into the murders of six innocent Catholics at Loughinisland in 1984.</p> <p>Under Operation Yurta, Durham obtained a spreadsheet of communications data relating to Kearney originally obtained by the MPS in 2012 during Operation Erewhon.</p> <p>The MPS accepted that it breached Kearney’s rights by obtaining and storing Kearney’s communications data and providing parts of the data to Durham Constabulary.</p> <p>The IPT found that the retention and use of Kearney’s and the BBC’s data was also unlawful because it was not proportionate nor in accordance with the law.</p> <p>In 2024, the IPT found that Belfast journalists Barry McCaffrey and Trevor Birney were unlawfully placed under surveillance by two UK police forces that <a href=\"https://www.computerweekly.com/news/366583648/Police-accessed-phone-records-of-trouble-making-journalists\">spied on their phone communications</a> and on their suspected confidential sources.</p> <p>The journalists were targeted after they produced a documentary exposing police collusion in the murders of six innocent Catholics watching a football match in Loughinisland in 1994.</p> <p>Information disclosed in their case suggested <a href=\"https://www.computerweekly.com/news/366617124/Tribunal-criticises-PSNI-and-Met-Police-for-spying-operation-to-identify-journalists-sources\">other journalists, including Kearney, had been subject to surveillance</a>.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Agencies not above the law\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Agencies not above the law</h2> <p>Kearney said the fact that the court decided to award damages reflects the seriousness of the case, including the impact of Kearney personally and the trust that sources can place in the confidentiality of their communications with him.</p> <p>“It is important that agencies charged with upholding the law know that they are not above the law and will be held to account,” he said.</p> <p>A BBC spokesperson said the issues raised by this case were a matter of grave concern, not just to the BBC, but to wider society.</p> <p>“What happened in this instance was wrong and must never be repeated,” said the spokesperson. “It caused harm to a journalist, jeopardised trust and threatened the safeguards on which public interest journalism depends, and has a right to expect.”</p> <p>Commenting on the judgment, the chief constable of the PSNI, Jon Boutcher, said: “I accept the Investigatory Powers Tribunal’s judgment that the PSNI authorisations were not in accordance with the law and were disproportionate.”</p> <p>He said that significant changes to practice and policy had been made since these incidents occurred. These included the role of the Investigatory Powers Commissioner’s Office in independently authorising communications data requests and scrutiny of Judicial Commissioners of requests to access communications relating to journalists.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about the spying operations against Vincent Kearney</h3> <p><strong>February 2026</strong></p> <p><a href=\"https://www.computerweekly.com/news/366639366/Police-created-intelligence-profile-of-BBC-journalist-subject-to-phone-surveillance\">Police created ‘intelligence profile’ of BBC journalist subject to phone surveillance</a>: Police and MI5 conducted seven unlawful operations to obtain phone data relating to former BBC journalist Vincent Kearney, the Investigatory Powers Tribunal heard today.</p> <p><strong>November 2025</strong></p> <p><a href=\"https://www.computerweekly.com/news/366634439/MI5-made-multiple-applications-for-phone-data-to-identify-BBC-journalists-sources\">MI5 made multiple applications for phone data to identify BBC journalist’s sources</a>: MI5 discloses it made and authorised unlawful ‘sequential applications’ for Vincent Kearney’s phone data during his time at the BBC, but will neither confirm nor deny whether it undertook further ‘lawful’ surveillance of BBC journalists.</p> <p><strong>September 2025</strong></p> <p><a href=\"https://www.computerweekly.com/news/366631277/MI5-unlawfully-monitored-the-phone-of-BBC-journalist-Vincent-Kearney\">MI5 unlawfully monitored the phone of BBC journalist Vincent Kearney</a>: The Investigatory Powers Tribunal heard today that the security service has conceded that it unlawfully monitored the phone data of former BBC Spotlight reporter Vincent Kearney.</p> <p><a href=\"https://www.computerweekly.com/news/366630438/Northern-Ireland-police-kept-inspectors-in-dark-over-surveillance-of-journalists\">Northern Ireland police kept inspectors in dark over surveillance of journalists</a>: The Police Service of Northern Ireland failed to inform the Investigatory Powers Commissioner’s Office about surveillance operations against journalists during annual inspections.</p> <p><strong>December 2025</strong></p> <p><a href=\"https://www.computerweekly.com/news/366617124/Tribunal-criticises-PSNI-and-Met-Police-for-spying-operation-to-identify-journalists-sources\">Tribunal criticises PSNI and Met Police for spying operation to identify journalists’ sources</a>: The Investigatory Powers Tribunal has criticised the Police Service of Northern Ireland and the Metropolitan Police for unlawfully spying on journalists.</p> </div> </div> </section>",
     "categories": [
       "Cybersecurity",
       "GRC",
@@ -3047,7 +3178,7 @@
         "ey"
       ]
     },
-    "summary": "<p>A court has ordered the Security Service and the Police Service of Northern Ireland (PSNI) to pay damages to a former BBC journalist for <a href=\"https://www.computerweekly.com/news/366639366/Police-created-intelligence-profile-of-BBC-journalist-subject-to-phone-surveillance\">unlawfully accessing his phone data</a>.</p> <p>The PSNI and MI5 have been ordered to pay Vincent Kearney damages of £10,000 each for accessing his communications data in an attempt to identify his confidential journalistic sources.</p> <p>The case represents the first time that the Security Service, MI5, has been ordered to pay damages for conducting unlawful surveillance.</p> <p>The Investigatory Powers Tribunal today <a href=\"https://www.computerweekly.com/news/366634439/MI5-made-multiple-applications-for-phone-data-to-identify-BBC-journalists-sources\">identified seven occasions</a> between 2006 and 2017 where authorisations were issued to access Kearney’s phone data that were disproportionate and not in accordance with the law.</p> <p>Kearney and the BBC brought the case in 2024 after learning that his phone data had been accessed from evidence that emerged from a separate case brought by journalists Barry McCaffrey and Trevor Birney against the PSNI. &nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"Victory for journalists\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Victory for journalists</h2> <p>Vincent Kearney, currently northern editor at RTÉ' was home affairs correspondent for BBC Northern Ireland at the time of the surveillance.</p> <p>“This is a tremendous victory for journalism and an affirmation of the duty and legal rights of journalists to protect sources,” said Kearney after today’s judgment.</p> <p>“The award of damages against MI5 is particularly significant as it is the first time the IPT has taken such action, and the first time the security service has been ordered to pay damages to a journalist,” he said.</p> <p>&nbsp;“The court has ruled that the PSNI and MI5 broke the law when they interfered with my communications data over a period of many years in efforts to identify confidential sources,” he added.</p> <p>According to the IPT judgment any measures taken which interfere with the confidentiality of journalist’s sources must be “justified by an overriding requirement in the public interest” and any authorisation to do so must be first reviewed by a judge or another independent body.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MI5 unlawfully accessed phone data\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MI5 unlawfully accessed phone data</h2> <p>The court found that MI5 first applied for billing data, and details of phone numbers that had been in contact with Kearney in 2006. MI5’s applications failed to identify Kearney as a journalist and failed to state their purpose was to identify his journalistic sources, the court found.</p> <p>MI5 said it had acted in “good faith” by following the codes of practice at the time but <a href=\"https://www.computerweekly.com/news/366631277/MI5-unlawfully-monitored-the-phone-of-BBC-journalist-Vincent-Kearney\">admitted that it had breached Kearney’s rights</a> to privacy and freedom of expression, which protects confidential journalistic sources, under European Convention on Human Rights.</p> <p>In 2009 Kearney was again subject to surveillance after he received a call from an individual claiming to be from the Continuity IRA claiming responsibility for the murder of PC Stephen Carroll, which he notified to the PSNI.</p> <p>The PSNI made applications for the BBC and Kearney’s phone data but failed to ask whether there was an “overriding requirement in the public” interest to interfere with the confidentiality of Kearney’s journalistic sources.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MPS obtained geographic data about Kearney\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MPS obtained geographic data about Kearney</h2> <p>In 2011, the PSNI commissioned the Metropolitan Police Service (MPS) to investigate Kearney following his work on a BBC Spotlight programme which reported that the Office of the Police Ombudsman for Northern Ireland had been compromised.</p> <p>Under Operation Erewhon the MPS obtained Kearney’s communications data for over three months, which included incoming and outgoing calls, cell site data, and data about Kearney’s geographic movements.</p> <p>“We have seen nothing to suggest that there was any overriding public interest remotely sufficient to justify either this intrusion or the wide interference, for such an extended period, with the confidentiality of his journalistic sources,” the court found.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"No justification give for phone data\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>No justification give for phone data</h2> <p>In 2013, the PSNI applied for Kearney’s phone data as part of Operation Samarium, an investigation into allegations that a senior PSNI manager had received corrupt payments.</p> <p>The PSNI made two applications which identified Kearney as a journalist, but failed to establish any justification, let alone an “overriding requirement” for obtaining such a large quantity of Kearney’s phone data. One of the applications falsely identified Kearney as a suspect in the investigation.</p> <p>&nbsp;A PSNI investigation in 2014, dubbed Operation Basanti, made four applications to obtain phone data relating to an individual suspected of being a journalistic source for Kearney."
+    "summary": "<p>A court has ordered the Security Service and the Police Service of Northern Ireland (PSNI) to pay damages to a former BBC journalist for <a href=\"https://www.computerweekly.com/news/366639366/Police-created-intelligence-profile-of-BBC-journalist-subject-to-phone-surveillance\">unlawfully accessing his phone data</a>.</p> <p>The PSNI and MI5 have been ordered to pay Vincent Kearney damages of £10,000 each for accessing his communications data in an attempt to identify his confidential journalistic sources.</p> <p>The case represents the first time MI5 has been ordered to pay damages for conducting unlawful surveillance.</p> <p>The Investigatory Powers Tribunal today <a href=\"https://www.computerweekly.com/news/366634439/MI5-made-multiple-applications-for-phone-data-to-identify-BBC-journalists-sources\">identified seven occasions</a> between 2006 and 2017 where authorisations were issued to access Kearney’s phone data that were disproportionate and not in accordance with the law.</p> <p>Kearney and the BBC brought the case in 2024 after learning that his phone data had been accessed from evidence that emerged from a separate case brought by journalists Barry McCaffrey and Trevor Birney against the PSNI.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Victory for journalists\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Victory for journalists</h2> <p>Vincent Kearney, currently northern editor at RTÉ, was home affairs correspondent for BBC Northern Ireland at the time of the surveillance.</p> <p>“This is a tremendous victory for journalism and an affirmation of the duty and legal rights of journalists to protect sources,” he said after today’s judgment.</p> <p>“The award of damages against MI5 is particularly significant as it is the first time the IPT has taken such action, and the first time the security service has been ordered to pay damages to a journalist,” said Kearney.</p> <p>“The court has ruled that the PSNI and MI5 broke the law when they interfered with my communications data over a period of many years in efforts to identify confidential sources,” he added.</p> <p>According to the IPT judgment, any measures taken that interfere with the confidentiality of a journalist’s sources must be “justified by an overriding requirement in the public interest” and any authorisation to do so must be first reviewed by a judge or another independent body.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MI5 unlawfully accessed phone data\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MI5 unlawfully accessed phone data</h2> <p>The court found that MI5 first applied for billing data, and details of phone numbers that had been in contact with Kearney, in 2006. MI5’s applications failed to identify Kearney as a journalist and failed to state their purpose was to identify his journalistic sources, the court found.</p> <p>MI5 said it had acted in “good faith” by following the codes of practice at the time, but <a href=\"https://www.computerweekly.com/news/366631277/MI5-unlawfully-monitored-the-phone-of-BBC-journalist-Vincent-Kearney\">admitted it had breached Kearney’s rights</a> to privacy and freedom of expression, which protects confidential journalistic sources under the European Convention on Human Rights.</p> <p>In 2009, Kearney was again subject to surveillance after he received a call from an individual claiming to be from the Continuity IRA claiming responsibility for the murder of PC Stephen Carroll, which he notified to the PSNI.</p> <p>The PSNI made applications for the BBC and Kearney’s phone data, but failed to ask whether there was an “overriding requirement in the public” interest to interfere with the confidentiality of Kearney’s journalistic sources.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MPS obtained geographic data about Kearney\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MPS obtained geographic data about Kearney</h2> <p>In 2011, the PSNI commissioned the Metropolitan Police Service (MPS) to investigate Kearney following his work on a BBC Spotlight programme that reported the Office of the Police Ombudsman for Northern Ireland had been compromised.</p> <p>Under Operation Erewhon, the MPS obtained Kearney’s communications data for over three months, which included incoming and outgoing calls, cell site data, and data about Kearney’s geographic movements.</p> <p>“We have seen nothing to suggest that there was any overriding public interest remotely sufficient to justify either this intrusion or the wide interference, for such an extended period, with the confidentiality of his journalistic sources,” the court found.</p> <p>In 2013, the PSNI applied for Kearney’s phone data as part of Operation Samarium, an investigation into allegations that a senior PSNI manager had received corrupt payments.</p> <p>The PSNI made two applications which identified Kearney as a journalist, but failed to establish any justification, let alone an “overriding requirement” for obtaining such a large quantity of Kearney’s phone data. One of the applications falsely identified Kearney as a suspect in the investigation.</p> <p>A PSNI investigation in 2014, dubbed Operation Basanti, made four applications to obtain phone data relating to an individual suspected of being a journalistic source for Kearney.</p> <p>Although the applications made it clear that Kearney was a journalist, they did not address the legal significance of that, and failed to apply the correct legal tests before authorising the operation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Documentary\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Documentary</h2> <p>In 2017, the PSNI commissioned Durham Constabulary to investigate alleged leaks following the broadcast of the documentary, <em>No stone unturned</em>, which revealed allegations of police collusion into the murders of six innocent Catholics at Loughinisland in 1984.</p> <p>Under Operation Yurta, Durham obtained a spreadsheet of communications data relating to Kearney originally obtained by the MPS in 2012 during Operation Erewhon.</p> <p>The MPS accepted that it breached Kearney’s rights by obtaining and storing Kearney’s communications data and providing parts of the data to Durham Constabulary.</p> <p>The IPT found that the retention and use of Kearney’s and the BBC’s data was also unlawful because it was not proportionate nor in accordance with the law.</p> <p>In 2024, the IPT found that Belfast journalists Barry McCaffrey and Trevor Birney were unlawfully placed under surveillance by two UK police forces that <a href=\"https://www.computerweekly.com/news/366583648/Police-accessed-phone-records-of-trouble-making-journalists\">spied on their phone communications</a> and on their suspected confidential sources.</p> <p>The journalists were targeted after they produced a documentary exposing police collusion in the murders of six innocent Catholics watching a football match in Loughinisland in 1994.</p> <p>Information disclosed in their case suggested <a href=\"https://www.computerweekly.com/news/366617124/Tribunal-criticises-PSNI-and-Met-Police-for-spying-operation-to-identify-journalists-sources\">other journalists, including Kearney, had been subject to surveillance</a>.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Agencies not above the law\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Agencies not above the law</h2> <p>Kearney said the fact that the court decided to award damages reflects the seriousness of the case, including the impact of Kearney personally and the trust that sources can place in the confidentiality of their communications with him.</p> <p>“It is important that agencies charged with upholding the law know that they are not above the law and will be held to account,” he said.</p> <p>A BBC spokesperson said the issues raised by this case were a matter of grave concern, not just to the BBC, but to wider society.</p> <p>“What happened in this instance was wrong and must never be repeated,” said the spokesperson. “It caused harm to a journalist, jeopardised trust and threatened the safeguards on which public interest journalism depends, and has a right to expect.”</p> <p>Commenting on the judgment, the chief constable of the PSNI, Jon Boutcher, said: “I accept the Investigatory Powers Tribunal’s judgment that the PSNI authorisations were not in accordance with the law and were disproportionate.”</p> <p>He said that significant changes to practice and policy had been made since these incidents occurred."
   },
   {
     "title": "Digital government services increase accessibility gap",
@@ -3183,81 +3314,6 @@
       ]
     },
     "summary": "<p>The decision by the new Andy Burnham government to disband the Department for Science, Innovation and Technology (DSIT) has led the House of Lords to raise an urgent question over the UK’s artificial intelligence (AI), technology and science strategy.</p> <p>Peers in the House of Lords asked what will happen to science and technology funding while the Department for Business, Innovation, Science and Trade (DBIST) gets up and running.</p> <p>Crossbench MP life peer <a href=\"https://parliamentlive.tv/event/index/020de255-0eb7-4d66-bf70-096b7c925cd8\">Lionel Tarassenko</a> said: “Any organisation like this will take 12 months. And 12 months is an eternity in AI. It’s equivalent to three generations of frontier AI models.”</p> <p>He asked for reassurances that both the <a href=\"https://www.computerweekly.com/news/366619238/Government-renames-AI-Safety-Institute-and-teams-up-with-Anthropic\">AI Security Institute</a> and the <a href=\"https://www.computerweekly.com/news/366641874/UKs-Sovereign-AI-supports-supercomputing-and-drug-discovery-AI-startups\">Sovereign AI Unit</a> will be able to keep up momentum, which he described as “essential to their activities during this unnecessary transition period”.</p> <p>Parliamentary secretary Ruth Anderson responded by emphasising the <a href=\"https://www.computerweekly.com/news/366646018/Kaniskha-Narayan-takes-on-AI-sovereignty-in-Burnham-cabinet\">role Kanishka Narayan now has as AI minister</a> in the Burnham cabinet.</p> <p>“I think we’re seeing technology move faster than at any point, never mind in my lifetime, but I think over the last hundred years, and it’s incredibly important we keep up, which is why we will now have a dedicated minister in the attending Cabinet to make sure these issues are reflected,” said Anderson.</p> <p>She went on to state that the AI Security Institute will be part of the Office for the Prime Minister and Cabinet, while <a href=\"https://www.computerweekly.com/news/366639312/UKRI-sets-out-strategy-to-make-the-UK-an-AI-leader-by-2031\">UK Research and Innovation (UKRI)</a> will be moved to the newly formed <a href=\"https://www.gov.uk/government/organisations/department-for-business-innovation-science-and-trade\">Department for Business, Innovation, Science and Trade (DBIST)</a>. She also confirmed that UKRI’s £9.22bn budget for research and development will continue.&nbsp;</p> <p>Anderson said the Government Digital Service (GDS) will move to the newly renamed <a href=\"https://www.computerweekly.com/news/252442013/Policy-Exchange-report-calls-for-GDS-to-be-moved-to-DCMS\">Department for Digital, Culture, Media and Sport (DCMS)</a> and the Sovereign AI Unit will also be moving to DBIST.</p> <p>Liberal Democrat peer Mike Dixon questioned the government’s spending on technology."
-  },
-  {
-    "title": "Stop debating frontier AI – start defending against it",
-    "url": "https://www.computerweekly.com/opinion/Stop-debating-frontier-AI-start-defending-against-it",
-    "source": "ComputerWeekly",
-    "published": "2026-07-22T08:08:00+00:00",
-    "raw_text": "<p>In mid-June, global access to two of the most anticipated frontier AI models was <a href=\"https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/\" target=\"_blank\" rel=\"noopener\">abruptly suspended</a> following a US Commerce Department export control directive, a development few in the industry had seen coming.</p> <p>This has prompted significant discussion across the technology industry, with implications that extend well beyond any single vendor. However, as a security leader, my instinct is always to look past the immediate story. Right now, the bigger picture demands our attention.</p> <p>In this case, the bigger picture shows increasing use of ‘frontier AI’, both by people looking to hack IT systems and people trying to protect them. Frontier AI is not an abstract future risk, it’s the situation right now. And it’s already reshaping the economics of cyber security in ways for which most organisations are entirely unprepared.&nbsp;&nbsp;</p> <p>That's why while a wider debate rages on over whether the latest generation of frontier models are inherently dangerous, the bigger issue for me is how CISOs should be addressing the very real threats that frontier AI poses.</p> <p>Not only is frontier AI <a href=\"https://www.computerweekly.com/news/366645974/Chaotic-July-Patch-Tuesday-threatens-to-overwhelm-defenders\" target=\"_blank\" rel=\"noopener\">accelerating vulnerability discovery</a> and compressing the time between disclosure and exploitation (to the benefit of hackers), it is also exposing exactly how vulnerable organisations are when their IT security processes are slow, periodic and reactive (to the distinct disadvantage of IT security teams).</p> <p>In short, this will be a losing fight for IT teams that continue to rely on outdated practices such as static controls and fixed remediation windows. The prospects don’t look good either for those that have only fragmented visibility into anomalous behaviour on company systems or suspicious traffic flows on company networks.</p> <section class=\"section main-article-chapter\" data-menu-title=\"On the bright side\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>On the bright side</h2> <p>However, there still are grounds for optimism. AI may be the biggest accelerant to cyber risk today, but it is also security's greatest potential equaliser. This is only if organisations are willing to rethink how they deploy it. Truly realising that potential requires moving beyond the idea that AI is simply a faster version of what came before.</p> <p>Models at this capability level don't just raise policy questions. They raise the ceiling and expand the attack surface on what autonomous attacks can do.</p> <p>The conversation has shifted. It is no longer just about AI helping analysts work more efficiently. <a href=\"https://www.computerweekly.com/feature/Are-AI-agents-a-blessing-or-a-curse-for-cyber-security\" target=\"_blank\" rel=\"noopener\">It is about autonomous agents</a>: AI systems that can act, adapt, and chain decisions together without human intervention at every step. Attackers are already exploiting this. Autonomous agents can probe systems continuously, adapt to defences in real time, and identify exploitable vulnerabilities at a speed and scale no human team can match. The attack surface this creates is fundamentally different from anything most organisations have planned for.</p> <p>For defenders, the answer cannot be to simply run faster on the same track. Agentic AI in the hands of security teams with systems that can autonomously triage alerts, investigate anomalies, and initiate containment workflows – represents a genuine shift in defensive capability. But only if the underlying architecture supports it. Agentic workflows require continuous, high-fidelity data; they break down when built on fragmented visibility or siloed signals.</p> <p>That is why the organisations best placed to respond are those that have already invested in bringing together all the logs, signals and alerts that contribute to a full, real-time picture of activity across their environment. Not because it is tidy, but because agentic AI cannot function effectively without it. An agent operating on incomplete data is not a force multiplier. It is a liability.</p> <p>This also raises a point that deserves more attention from CISOs: model dependency. The events of recent weeks have demonstrated that reliance on any single frontier model creates concentration risk: operational, regulatory, and reputational. Security architectures that are designed to be model-aware, where the intelligence layer can flex without disrupting the workflows beneath it, are inherently more resilient. That is not a theoretical advantage. It is a practical one.</p> <p>The sophistication of both attacks and defences will increase as AI technology advances. CISOs who treat this as a reason to wait are making a decision by default, and it is not a good one.</p> <p>To summarise: if your IT security team is simply trying to patch vulnerabilities faster, it is solving the wrong problem. Vulnerability management can no longer be treated as a scheduled hygiene exercise when AI can help attackers find and act on weaknesses at machine speed. And when autonomous agents can chain those weaknesses into full attack sequences before a human analyst has even opened a ticket, the gap between unprepared and resilient organisations will only widen.</p> <p>From a CISO point of view, I firmly believe that the organisations that stay resilient will not be the ones where security leaders are still debating whether frontier AI is hype or threat. They will be the ones that have already stopped asking whether this is real and started making sure their teams have what they need to respond to it.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more in this series</h3> <ul style=\"list-style-type: square;\" class=\"default-list\"> <li>John Bruce, Quorum Cyber:&nbsp;<a href=\"https://www.computerweekly.com/opinion/Claude-Mythos-forces-the-conversation-on-defensive-AI\" target=\"_blank\" rel=\"noopener\">Claude Mythos forces the conversation on defensive AI.</a></li> <li>Martin Riley, Bridewell:&nbsp;<a rel=\"noopener\" target=\"_blank\" href=\"https://www.computerweekly.com/opinion/Mythos-is-turning-up-the-heat-on-risk-not-rewriting-the-rules\">Mythos is turning up the heat on risk, not rewriting the rules.</a></li> <li>Aditya K Sood, Aryaka:&nbsp;<a href=\"https://www.computerweekly.com/opinion/Frontier-AI-models-could-be-an-adversarys-force-multiplier\" target=\"_blank\" rel=\"noopener\">Frontier AI models could be an adversary's force multiplier.</a></li> <li>Ellie Hurst, Advent IM:&nbsp;<a rel=\"noopener\" target=\"_blank\" href=\"https://www.computerweekly.com/opinion/The-truth-about-Claude-Mythos-is-less-dramatic-than-it-seems\">The trust about Claude Mythos is less dramatic than it seems.</a></li> <li>Rik Ferguson, Forescout:&nbsp;<a href=\"https://www.computerweekly.com/opinion/What-frontier-AI-actually-means-for-enterprise-security\" target=\"_blank\" rel=\"noopener\">What frontier AI actually means for enterprise security.</a></li> <li>Haris Pylarinos, Hack the Box:&nbsp;<a rel=\"noopener\" target=\"_blank\" href=\"https://www.computerweekly.com/opinion/Why-frontier-AI-must-be-stress-tested-before-CISOs-trust-it\">Why frontier AI must be stress-tested before CISOs trust it.</a></li> <li>Chris Atkinson, PA Consulting: <a href=\"https://www.computerweekly.com/opinion/AI-wont-break-your-security-but-your-governance-might\" target=\"_blank\" rel=\"noopener\">AI won't break your security, but your governance might.</a></li> </ul> </div> </div> </section>",
-    "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market",
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "hacker",
-        "threat",
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "governance",
-        "regulatory",
-        "policy",
-        "cyber risk"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "raises",
-        "ey",
-        "consulting",
-        "vendor"
-      ]
-    },
-    "summary": "<p>In mid-June, global access to two of the most anticipated frontier AI models was <a href=\"https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/\" target=\"_blank\" rel=\"noopener\">abruptly suspended</a> following a US Commerce Department export control directive, a development few in the industry had seen coming.</p> <p>This has prompted significant discussion across the technology industry, with implications that extend well beyond any single vendor. However, as a security leader, my instinct is always to look past the immediate story. Right now, the bigger picture demands our attention.</p> <p>In this case, the bigger picture shows increasing use of ‘frontier AI’, both by people looking to hack IT systems and people trying to protect them. Frontier AI is not an abstract future risk, it’s the situation right now."
-  },
-  {
-    "title": "‘Modest but notable’ regional spread of fintech funding in UK",
-    "url": "https://www.computerweekly.com/news/366646096/Modest-but-notable-regional-spread-of-fintech-funding-in-UK",
-    "source": "ComputerWeekly",
-    "published": "2026-07-22T07:30:00+00:00",
-    "raw_text": "<p>London’s share of overall fintech funding fell slightly in the first half of this year, as hubs, including the Scottish and Northern Irish capitals, made gains.</p> <p>According to research by data intelligence platform Tracxn Technologies, London accounted for 94% of the <a href=\"https://www.computerweekly.com/news/366643875/Over-half-a-trillion-dollars-generated-by-global-fintechs-last-year\">fintech funding</a> in the UK during the first half of 2026, compared with 99% in the second six months of 2025. The company described this as “modest, but notable”.</p> <p>But the Trancxn report recorded a 35% drop in overall UK fintech funding, which was $1.5bn in the first half of this year, compared with $2.3bn in the second half of last. It was also 25% less than the first half of last year.</p> <p>Trancxn said the decline was due a fall of 45% ($830m) in late-stage funding, with seed funding (early stage) actually rising 93% to £145m.</p> <p>While London’s share of funding saw a small reduction, Edinburgh was the second biggest fintech hub in terms if funding at $13.2m in the first half of this year. Belfast received $12m, while Cambridge and Manchester received $8m and $3m respectively.</p> <p>In <a href=\"https://www.computerweekly.com/news/366646014/Burnham-government-to-drop-digital-ID-and-tech-department\">his early promises</a>, Burnham said power will increasingly be decentralised from London, which would give regions more scope for investing in their own priorities.</p> <p>“We will take power out of [London] and carry it into every postcode in the land so that they can do more,” he said.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about fintech</h3> <ul class=\"default-list\"> <li>Global&nbsp;<a href=\"https://www.computerweekly.com/news/366625261/Fintech-growth-three-times-that-of-finance-sector-as-a-whole\">fintech revenues reached £280bn</a>&nbsp;in 2024, according to Boston Consulting Group report.</li> <li>Digital-powered finance firms might not be growing their customer base as fast as the immediate post-pandemic period, but&nbsp;<a href=\"https://www.computerweekly.com/news/366626715/Next-phase-of-fintech-reflected-in-strong-financials-says-World-Economic-Forum\">revenue and profits are strong</a>.</li> <li>Despite having a strong security posture, the&nbsp;<a href=\"https://www.computerweekly.com/news/366624029/Strong-fintech-security-posture-at-risk-via-third-party-weak-links\">financial technology sector could be open to attack via</a>&nbsp;third parties.</li> </ul> </div> </div> <p>Sarah Jones, CEO at FinTech Wales, said the UK has an opportunity to become a truly national fintech success story. “But that will only happen if investment, innovation and decision-making are distributed evenly across the country,” she added.</p> <p>“London will always be a global financial centre, but thriving regional ecosystems like those we have in Cardiff and other regions in Wales are already proving they can develop world-class fintech businesses, attract international investment and create highly skilled jobs,” said Jones.</p> <p>“We welcome the new prime minister’s commitment to spreading power, opportunity and investment across the UK, and fintech has a vital role to play in delivering that vision.”</p> <p>She called for regional fintech ecosystems to be backed with long-term investment, “supporting local skills and talent pipelines, improving access to scale-up capital, encouraging public sector adoption of innovative technologies, and ensuring regional businesses have opportunities to work with major financial institutions”.</p> <p>Jones added that strengthening regional fintech clusters won’t compete with London’s success, but rather complement it.</p> <p>Chris Skinner, fintech industry expert and CEO at&nbsp;<a href=\"https://thefinanser.com/\"><i>The Finanser</i></a>, said the fintech industry is finding its way into every corner of the UK.</p> <p>“People think fintech is all about London, but I’ve been involved in many fintech groups,” he said. “Fintech Scotland, Fintech Wales and smaller groups in Belfast, Bristol, Leeds and Manchester. Britain is fintech.”</p> <p>Skinner gave the example of Atom Bank, which he described as “one of our brightest fintech challengers”.</p> <p>He said the company was set up in Durham and has just recently moved to the Pattern Shop in Newcastle, where in the 1800s, <a href=\"https://en.wikipedia.org/wiki/Robert_Stephenson\">Robert Stephenson</a> – son of George Stephenson, known as the “father of the railways” – had a workshop where he built steam locomotives.</p>",
-    "categories": [
-      "Industry & Market",
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "funding",
-        "investment",
-        "ey",
-        "consulting"
-      ]
-    },
-    "summary": "<p>London’s share of overall fintech funding fell slightly in the first half of this year, as hubs, including the Scottish and Northern Irish capitals, made gains.</p> <p>According to research by data intelligence platform Tracxn Technologies, London accounted for 94% of the <a href=\"https://www.computerweekly.com/news/366643875/Over-half-a-trillion-dollars-generated-by-global-fintechs-last-year\">fintech funding</a> in the UK during the first half of 2026, compared with 99% in the second six months of 2025. The company described this as “modest, but notable”.</p> <p>But the Trancxn report recorded a 35% drop in overall UK fintech funding, which was $1.5bn in the first half of this year, compared with $2.3bn in the second half of last. It was also 25% less than the first half of last year.</p> <p>Trancxn said the decline was due a fall of 45% ($830m) in late-stage funding, with seed funding (early stage) actually rising 93% to £145m.</p> <p>While London’s share of funding saw a small reduction, Edinburgh was the second biggest fintech hub in terms if funding at $13.2m in the first half of this year. Belfast received $12m, while Cambridge and Manchester received $8m and $3m respectively.</p> <p>In <a href=\"https://www.computerweekly.com/news/366646014/Burnham-government-to-drop-digital-ID-and-tech-department\">his early promises</a>, Burnham said power will increasingly be decentralised from London, which would give regions more scope for investing in their own priorities.</p> <p>“We will take power out of [London] and carry it into every postcode in the land so that they can do more,” he said.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about fintech</h3> <ul class=\"default-list\"> <li>Global&nbsp;<a href=\"https://www.computerweekly.com/news/366625261/Fintech-growth-three-times-that-of-finance-sector-as-a-whole\">fintech revenues reached £280bn</a>&nbsp;in 2024, according to Boston Consulting Group report.</li> <li>Digital-powered finance firms might not be growing their customer base as fast as the immediate post-pandemic period, but&nbsp;<a href=\"https://www.computerweekly.com/news/366626715/Next-phase-of-fintech-reflected-in-strong-financials-says-World-Economic-Forum\">revenue and profits are strong</a>.</li> <li>Despite having a strong security posture, the&nbsp;<a href=\"https://www.computerweekly.com/news/366624029/Strong-fintech-security-posture-at-risk-via-third-party-weak-links\">financial technology sector could be open to attack via</a>&nbsp;third parties.</li> </ul> </div> </div> <p>Sarah Jones, CEO at FinTech Wales, said the UK has an opportunity to become a truly national fintech success story."
   },
   {
     "title": "These 3 Fire TV Sticks are on sale at Best Buy - here's the one I recommend (and why)",
@@ -3566,10 +3622,178 @@
     "summary": "Containers are a boon to your browsing security and privacy. Out of the box, Firefox now gives you four pre-configured containers: Personal, Work, Banking, and Shopping."
   },
   {
-    "title": "Securitas AB Interim Report Q2 2026 | January-June",
-    "url": "https://www.prnewswire.com/news-releases/securitas-ab-interim-report-q2-2026--januaryjune-302833990.html",
+    "title": "Mercuryo Data Shows Stablecoins Moving Beyond Crypto to Power Digital Payments",
+    "url": "https://www.prnewswire.com/news-releases/mercuryo-data-shows-stablecoins-moving-beyond-crypto-to-power-digital-payments-302833743.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-24T06:40:00+00:00",
+    "published": "2026-07-24T09:00:00+00:00",
+    "raw_text": "LONDON, July 24, 2026 /PRNewswire/ -- Global payments infrastructure platform Mercuryo has published data that shows stablecoin usage is evolving to become a core payments and settlement layer, supporting myriad operations across fintech as traditional financial services evolve to...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "LONDON, July 24, 2026 /PRNewswire/ -- Global payments infrastructure platform Mercuryo has published data that shows stablecoin usage is evolving to become a core payments and settlement layer, supporting myriad operations across fintech as traditional financial services evolve to..."
+  },
+  {
+    "title": "Turbopower, LLC Awarded Position on U.S. Air Force 10-Year Multiple-Award IDIQ Contract Supporting U.S. and Allied T56 Fleets",
+    "url": "https://www.prnewswire.com/news-releases/turbopower-llc-awarded-position-on-us-air-force-10-year-multiple-award-idiq-contract-supporting-us-and-allied-t56-fleets-302833871.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T09:00:00+00:00",
+    "raw_text": "MIAMI, July 24, 2026 /PRNewswire/ -- Turbopower, LLC, a leading provider of C-130 nacelle and T56 maintenance, repair, and overhaul (MRO) services, today announced it has been awarded a position on a 10-year, multiple-award Indefinite Delivery/Indefinite Quantity (IDIQ) Firm-Fixed-Price...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "MIAMI, July 24, 2026 /PRNewswire/ -- Turbopower, LLC, a leading provider of C-130 nacelle and T56 maintenance, repair, and overhaul (MRO) services, today announced it has been awarded a position on a 10-year, multiple-award Indefinite Delivery/Indefinite Quantity (IDIQ) Firm-Fixed-Price..."
+  },
+  {
+    "title": "Hexagon Composites ASA: Invitation to second quarter and half-year 2026 results",
+    "url": "https://www.prnewswire.com/news-releases/hexagon-composites-asa-invitation-to-second-quarter-and-half-year-2026-results-302834043.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T09:00:00+00:00",
+    "raw_text": "OSLO, Norway, July 24, 2026 /PRNewswire/ -- Hexagon Composites ASA will publish its second quarter and half-year 2026 financial results on 6 August 2026 at 07:00 am CET. Philipp Schramm, CEO and Eirik Løhre, CFO, will present the results in a webcast at 08:30 am CET the same morning....",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "OSLO, Norway, July 24, 2026 /PRNewswire/ -- Hexagon Composites ASA will publish its second quarter and half-year 2026 financial results on 6 August 2026 at 07:00 am CET. Philipp Schramm, CEO and Eirik Løhre, CFO, will present the results in a webcast at 08:30 am CET the same morning...."
+  },
+  {
+    "title": "Shanghai Electric showcases embodied intelligence robot matrix and AI-native smart factory solutions at WAIC 2026",
+    "url": "https://www.prnewswire.com/news-releases/shanghai-electric-showcases-embodied-intelligence-robot-matrix-and-ai-native-smart-factory-solutions-at-waic-2026-302834040.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T08:56:00+00:00",
+    "raw_text": "Featuring humanoid robots with 41 degrees of freedom, pipe‑inspection robots with ±1mm positioning accuracy, and 51 industrial‑grade AI agents SHANGHAI, July 24, 2026 /PRNewswire/ -- Operations in high-end equipment manufacturing often involve confined spaces, complex objects, and fine...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Featuring humanoid robots with 41 degrees of freedom, pipe‑inspection robots with ±1mm positioning accuracy, and 51 industrial‑grade AI agents SHANGHAI, July 24, 2026 /PRNewswire/ -- Operations in high-end equipment manufacturing often involve confined spaces, complex objects, and fine..."
+  },
+  {
+    "title": "Beko Publishes 2025 Integrated Report, Charting Years of Progress Toward Net Zero",
+    "url": "https://www.prnewswire.com/news-releases/beko-publishes-2025-integrated-report-charting-years-of-progress-toward-net-zero-302833984.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T08:00:00+00:00",
+    "raw_text": "As Beko releases its 2025 Integrated Report, the company's third consecutive inclusion on TIME's global sustainability ranking — retaining the #1 position in its industry — underscores the progress documented within it. ISTANBUL, July 24, 2026 /PRNewswire/ -- Beko published its 2025...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "As Beko releases its 2025 Integrated Report, the company's third consecutive inclusion on TIME's global sustainability ranking — retaining the #1 position in its industry — underscores the progress documented within it. ISTANBUL, July 24, 2026 /PRNewswire/ -- Beko published its 2025..."
+  },
+  {
+    "title": "PhotonPay Releases Emerging Markets Payment Report: Unlocking Africa's B2B Potential Through Multi-Rail Architecture",
+    "url": "https://www.prnewswire.com/news-releases/photonpay-releases-emerging-markets-payment-report-unlocking-africas-b2b-potential-through-multi-rail-architecture-302834018.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T08:00:00+00:00",
+    "raw_text": "New research highlights how stablecoins and unified multi-rail settlement infrastructure bridge the gap between Africa's rapid domestic digital innovation and fragmented global commercial trade. HONG KONG, July 24, 2026 /PRNewswire/ -- PhotonPay, a next-generation financial operating...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "New research highlights how stablecoins and unified multi-rail settlement infrastructure bridge the gap between Africa's rapid domestic digital innovation and fragmented global commercial trade. HONG KONG, July 24, 2026 /PRNewswire/ -- PhotonPay, a next-generation financial operating..."
+  },
+  {
+    "title": "LG InstaView™ REFRIGERATOR SURPASSES 5.3 MILLION IN GLOBAL SALES",
+    "url": "https://www.prnewswire.com/news-releases/lg-instaview-refrigerator-surpasses-5-3-million-in-global-sales-302834020.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T07:56:00+00:00",
+    "raw_text": "Chosen by Customers Worldwide, LG's InstaView™ Refrigerator Innovation Continues to Redefine the Kitchen Experience a Decade After Its Debut News Summary LG Electronics' InstaView™ refrigerator celebrates the 10th anniversary of its 2016 launch by exceeding 5.3 million units in cumulative...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Chosen by Customers Worldwide, LG's InstaView™ Refrigerator Innovation Continues to Redefine the Kitchen Experience a Decade After Its Debut News Summary LG Electronics' InstaView™ refrigerator celebrates the 10th anniversary of its 2016 launch by exceeding 5.3 million units in cumulative..."
+  },
+  {
+    "title": "/C O R R E C T I O N -- MegazoneCloud/",
+    "url": "https://www.prnewswire.com/news-releases/megazonecloud-and-korean-re-sign-strategic-agreement-to-advance-ax-302832812.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T07:54:00+00:00",
+    "raw_text": "In the news release, MegazoneCloud and Korean Re Sign Strategic Agreement to Advance AX, issued 22-Jul-2026 by MegazoneCloud over PR Newswire, we are advised by the company that the 1st sentence \"MegazoneCloud (CEO: Yeom Dong-hoon), a leading AI and cloud company...\" should read...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ]
+    },
+    "summary": "In the news release, MegazoneCloud and Korean Re Sign Strategic Agreement to Advance AX, issued 22-Jul-2026 by MegazoneCloud over PR Newswire, we are advised by the company that the 1st sentence \"MegazoneCloud (CEO: Yeom Dong-hoon), a leading AI and cloud company...\" should read..."
+  },
+  {
+    "title": "Two Peking University alumni awarded Fields Medals, 14 PKUers speak at the 2026 ICM",
+    "url": "https://www.prnewswire.com/news-releases/two-peking-university-alumni-awarded-fields-medals-14-pkuers-speak-at-the-2026-icm-302834004.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T07:21:00+00:00",
+    "raw_text": "BEIJING, July 24, 2026 /PRNewswire/ -- The 2026 International Congress of Mathematicians (ICM) opened in Philadelphia, the U.S., on the morning of July 23 (local time). Peking University (PKU) alumni Wang Hong and Deng Yu were awarded the 2026 Fields Medals, one of the most prestigious...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "BEIJING, July 24, 2026 /PRNewswire/ -- The 2026 International Congress of Mathematicians (ICM) opened in Philadelphia, the U.S., on the morning of July 23 (local time). Peking University (PKU) alumni Wang Hong and Deng Yu were awarded the 2026 Fields Medals, one of the most prestigious..."
+  },
+  {
+    "title": "Zoomlion Strengthens Global Customer Support During Challenging Summer Conditions",
+    "url": "https://www.prnewswire.com/news-releases/zoomlion-strengthens-global-customer-support-during-challenging-summer-conditions-302833943.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T07:08:00+00:00",
+    "raw_text": "CHANGSHA, China, July 24, 2026 /PRNewswire/ -- Zoomlion Heavy Industry Science & Technology Co., Ltd.'s (\"Zoomlion\" or \"the Company\") service teams across multiple product lines, including engineering cranes and construction hoisting machinery, have continued to support customers in...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "CHANGSHA, China, July 24, 2026 /PRNewswire/ -- Zoomlion Heavy Industry Science & Technology Co., Ltd.'s (\"Zoomlion\" or \"the Company\") service teams across multiple product lines, including engineering cranes and construction hoisting machinery, have continued to support customers in..."
+  },
+  {
+    "title": "Valmet's Half Year Financial Review January-June 2026 Net sales and Comparable EBITA increased in the second quarter",
+    "url": "https://www.prnewswire.com/news-releases/valmets-half-year-financial-review-januaryjune-2026-net-sales-and-comparable-ebita-increased-in-the-second-quarter-302834000.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T07:03:00+00:00",
+    "raw_text": "Valmet Oyj's stock exchange release on July 24, 2026 at 9:00 a.m. EEST ESPOO, Finland, July 24, 2026 /PRNewswire/ -- April–June 2026 Orders received decreased 10 percent to EUR 1,373 million (EUR 1,520 million). Organically orders received decreased 9 percent. The decrease was mainly...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Valmet Oyj's stock exchange release on July 24, 2026 at 9:00 a.m. EEST ESPOO, Finland, July 24, 2026 /PRNewswire/ -- April–June 2026 Orders received decreased 10 percent to EUR 1,373 million (EUR 1,520 million). Organically orders received decreased 9 percent. The decrease was mainly..."
+  },
+  {
+    "title": "Temu partners with the Schweizerischer KMU Verband to help Swiss businesses sell online",
+    "url": "https://www.prnewswire.com/news-releases/temu-partners-with-the-schweizerischer-kmu-verband-to-help-swiss-businesses-sell-online-302833455.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T07:00:00+00:00",
+    "raw_text": "The partnership gives Swiss SMEs a route onto Temu's marketplace and practical guidance on going digital HÜNENBERG, Switzerland, July 24, 2026 /PRNewswire/ -- Swiss small and medium-sized businesses will get a boost to start selling online under a new partnership between global e-commerce...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "partnership"
+      ]
+    },
+    "summary": "The partnership gives Swiss SMEs a route onto Temu's marketplace and practical guidance on going digital HÜNENBERG, Switzerland, July 24, 2026 /PRNewswire/ -- Swiss small and medium-sized businesses will get a boost to start selling online under a new partnership between global e-commerce..."
+  },
+  {
+    "title": "Securitas AB Interim Report Q2 2026 | January-June",
+    "url": "https://www.prnewswire.com/news-releases/securitas-ab-interim-report-q2-2026--januaryjune-302833993.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-24T06:45:00+00:00",
     "raw_text": "STOCKHOLM, July 24, 2026 /PRNewswire/ -- APRIL–JUNE 2026 Total sales MSEK 37 843 (38 564) Organic sales growth 0 percent (5) Adjusted organic sales growth, 3 percent* Real sales growth within technology and solutions 5 percent (4) Operating income before amortization MSEK 2 824 (2 798)...",
     "categories": [
       "Uncategorised"
@@ -3632,205 +3856,48 @@
     "summary": "STOCKHOLM, July 24, 2026 /PRNewswire/ -- ASSA ABLOY has acquired Classic Brass Inc (\"Classic Brass\"), a US manufacturer of premium cabinet and door hardware. \"I am very pleased to welcome Classic Brass to ASSA ABLOY. This acquisition delivers on our strategy to strengthen our position in..."
   },
   {
-    "title": "InfiMotion Technology fait ses débuts publics et présente ses capacités en matière de motorisation électrique « full-stack » à l'occasion d'un événement à Wuxi",
-    "url": "https://www.prnewswire.com/news-releases/infimotion-technology-fait-ses-debuts-publics-et-presente-ses-capacites-en-matiere-de-motorisation-electrique--full-stack--a-loccasion-dun-evenement-a-wuxi-302833963.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T06:09:00+00:00",
-    "raw_text": "WUXI, Chine, 24 juillet 2026 /PRNewswire/ -- InfiMotion Technology (InfiMotion), acteur mondial innovant dans le domaine des systèmes de propulsion électrique intelligents, a organisé le 16 juillet à Wuxi une présentation technologique, marquant ainsi sa première apparition publique en...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "WUXI, Chine, 24 juillet 2026 /PRNewswire/ -- InfiMotion Technology (InfiMotion), acteur mondial innovant dans le domaine des systèmes de propulsion électrique intelligents, a organisé le 16 juillet à Wuxi une présentation technologique, marquant ainsi sa première apparition publique en..."
-  },
-  {
-    "title": "Burford Capital Statement Re Cameroon Mining Arbitration Matter",
-    "url": "https://www.prnewswire.com/news-releases/burford-capital-statement-re-cameroon-mining-arbitration-matter-302833952.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T06:00:00+00:00",
-    "raw_text": "NEW YORK, July 24, 2026 /PRNewswire/ -- Burford Capital Limited (\"Burford\"), the leading global finance and asset management firm focused on law, today reports that an ICC International Court of Arbitration tribunal issued an award in favor of one of Burford's counterparties in an amount...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "NEW YORK, July 24, 2026 /PRNewswire/ -- Burford Capital Limited (\"Burford\"), the leading global finance and asset management firm focused on law, today reports that an ICC International Court of Arbitration tribunal issued an award in favor of one of Burford's counterparties in an amount..."
-  },
-  {
-    "title": "Loomis Interim Report January - June 2026",
-    "url": "https://www.prnewswire.com/news-releases/loomis-interim-report-january--june-2026-302833961.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T05:55:00+00:00",
-    "raw_text": "STOCKHOLM, July 24, 2026 /PRNewswire/ -- Continued strong growth and record operating margin (EBITA %) President and CEO Aritz Larrea comments: \"We delivered another very strong quarter reflecting the continued execution of our strategy and the strength of our diversified model. Revenue...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "STOCKHOLM, July 24, 2026 /PRNewswire/ -- Continued strong growth and record operating margin (EBITA %) President and CEO Aritz Larrea comments: \"We delivered another very strong quarter reflecting the continued execution of our strategy and the strength of our diversified model. Revenue..."
-  },
-  {
-    "title": "Tigera lance Calico basé sur eBPF pour les machines virtuelles sur Kubernetes : migration de machines virtuelles ne nécessitant pas de reconfiguration du réseau",
-    "url": "https://www.prnewswire.com/news-releases/tigera-lance-calico-base-sur-ebpf-pour-les-machines-virtuelles-sur-kubernetes--migration-de-machines-virtuelles-ne-necessitant-pas-de-reconfiguration-du-reseau-302833960.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T05:53:00+00:00",
-    "raw_text": "Les entreprises ayant décidé de migrer leurs machines virtuelles depuis VMware ont besoin d'une alternative à NSX pour l'automatisation du réseau et la simplification des opérations liées aux machines virtuelles et aux conteneurs fonctionnant sur Kubernetes SAN JOSE, Californie, 24...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "kubernetes"
-      ],
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Les entreprises ayant décidé de migrer leurs machines virtuelles depuis VMware ont besoin d'une alternative à NSX pour l'automatisation du réseau et la simplification des opérations liées aux machines virtuelles et aux conteneurs fonctionnant sur Kubernetes SAN JOSE, Californie, 24..."
-  },
-  {
-    "title": "В Шаньси проходит диалог о глобальном наследии",
-    "url": "https://www.prnewswire.com/news-releases/-------302833958.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T05:52:00+00:00",
-    "raw_text": "ЦЗИНЬЧЖУН, Китай, 24 июля 2026 г. /PRNewswire/ -- Новостной репортаж China Daily: Международная неделя охраны культурного наследия 2026 (2026 International Cultural Heritage Protection Week), посвященная теме «Единство во имя процветания, наследие ради вечности», завершилась во вторник в...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ЦЗИНЬЧЖУН, Китай, 24 июля 2026 г. /PRNewswire/ -- Новостной репортаж China Daily: Международная неделя охраны культурного наследия 2026 (2026 International Cultural Heritage Protection Week), посвященная теме «Единство во имя процветания, наследие ради вечности», завершилась во вторник в..."
-  },
-  {
-    "title": "Shareholder Alert: Ademi LLP investigates whether Safety Insurance Group, Inc. is obtaining a Fair Price for Public Shareholders",
-    "url": "https://www.prnewswire.com/news-releases/shareholder-alert-ademi-llp-investigates-whether-safety-insurance-group-inc-is-obtaining-a-fair-price-for-public-shareholders-302833834.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T05:27:00+00:00",
-    "raw_text": "MILWAUKEE, July 24, 2026 /PRNewswire/ -- Ademi LLP is investigating Safety (NASDAQ: SAFT) for possible breaches of fiduciary duty and other violations of law in its recently announced transaction with Mapfre. Click here to learn how to join our investigation and obtain additional...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach"
-      ]
-    },
-    "summary": "MILWAUKEE, July 24, 2026 /PRNewswire/ -- Ademi LLP is investigating Safety (NASDAQ: SAFT) for possible breaches of fiduciary duty and other violations of law in its recently announced transaction with Mapfre. Click here to learn how to join our investigation and obtain additional..."
-  },
-  {
-    "title": "Xryma Plc : Pre-Listing Liquidity Facility and Price Discovery Process",
-    "url": "https://www.prnewswire.com/news-releases/xryma-plc--pre-listing-liquidity-facility-and-price-discovery-process-302833658.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T05:00:00+00:00",
-    "raw_text": "NICOSIA, Cyprus, July 24, 2026 /PRNewswire/ -- Xryma Plc (\"Xryma\") announces its intention to reapply within the next twelve months for admission to list on Euronext Paris (\"Euronext\"), with such admission being subject to Euronext's approval. Before submitting its application, Xryma...",
+    "title": "Luxphy Debuts Performance-Based Profit Recovery Service for Mid-Market Ecommerce Following $1.2M Pilot",
+    "url": "https://www.globenewswire.com/news-release/2026/07/24/3332717/0/en/Luxphy-Debuts-Performance-Based-Profit-Recovery-Service-for-Mid-Market-Ecommerce-Following-1-2M-Pilot.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-24T08:19:00+00:00",
+    "raw_text": "Luxphy launches a performance-based supply chain profit recovery service to help ecommerce and direct-to-consumer brands optimize back-end operational cost",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "announces"
+        "launches"
       ]
     },
-    "summary": "NICOSIA, Cyprus, July 24, 2026 /PRNewswire/ -- Xryma Plc (\"Xryma\") announces its intention to reapply within the next twelve months for admission to list on Euronext Paris (\"Euronext\"), with such admission being subject to Euronext's approval. Before submitting its application, Xryma..."
+    "summary": "Luxphy launches a performance-based supply chain profit recovery service to help ecommerce and direct-to-consumer brands optimize back-end operational cost"
   },
   {
-    "title": "PRIVACY ALERT: Centers Lab NJ LLC Under Investigation for Data Breach of Over 542,000 Patient Records",
-    "url": "https://www.prnewswire.com/news-releases/privacy-alert-centers-lab-nj-llc-under-investigation-for-data-breach-of-over-542-000-patient-records-302833808.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T04:55:00+00:00",
-    "raw_text": "SAN FRANCISCO, July 24, 2026 /PRNewswire/ -- Schubert Jonckheer & Kolbe LLP is investigating a data breach that led to unauthorized access to the sensitive information of 542,377 patients of Centers Lab NJ LLC, which does business as Centers Laboratory. Centers Laboratory is a New...",
+    "title": "Umitec Unveils ZoneCraft LED Mask Series 3 with Zoned Light Control",
+    "url": "https://www.globenewswire.com/news-release/2026/07/24/3332716/0/en/Umitec-Unveils-ZoneCraft-LED-Mask-Series-3-with-Zoned-Light-Control.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-24T08:17:00+00:00",
+    "raw_text": "Umitec launches ZoneCraft LED Mask with zoned light control and four wavelengths for varied needs. Its soft design supports precise 10-minute care.",
     "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach"
-      ],
-      "GRC": [
-        "privacy"
-      ]
-    },
-    "summary": "SAN FRANCISCO, July 24, 2026 /PRNewswire/ -- Schubert Jonckheer & Kolbe LLP is investigating a data breach that led to unauthorized access to the sensitive information of 542,377 patients of Centers Lab NJ LLC, which does business as Centers Laboratory. Centers Laboratory is a New..."
-  },
-  {
-    "title": "PRIVACY ALERT: Fiesta Insurance Franchise Corporation Under Investigation for Data Breach of Records",
-    "url": "https://www.prnewswire.com/news-releases/privacy-alert-fiesta-insurance-franchise-corporation-under-investigation-for-data-breach-of-records-302833803.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T04:54:00+00:00",
-    "raw_text": "SAN FRANCISCO, July 24, 2026 /PRNewswire/ -- Schubert Jonckheer & Kolbe LLP is investigating a data breach that led to unauthorized access to the sensitive information of individuals affiliated with Fiesta Insurance Franchise Corporation (\"Fiesta Insurance\"), a Nevada-based franchise...",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach"
-      ],
-      "GRC": [
-        "privacy"
-      ]
-    },
-    "summary": "SAN FRANCISCO, July 24, 2026 /PRNewswire/ -- Schubert Jonckheer & Kolbe LLP is investigating a data breach that led to unauthorized access to the sensitive information of individuals affiliated with Fiesta Insurance Franchise Corporation (\"Fiesta Insurance\"), a Nevada-based franchise..."
-  },
-  {
-    "title": "Fractal posts 20% revenue growth and 92% net income growth in Q1 FY27",
-    "url": "https://www.prnewswire.com/news-releases/fractal-posts-20-revenue-growth-and-92-net-income-growth-in-q1-fy27-302833932.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T04:38:00+00:00",
-    "raw_text": "Adjusted EBITDA Grows at 35% YoY Gross Margin up 29 bps1 to 46%; Adjusted EBITDA Margin up 189 bps to 17% NEW YORK, July 24, 2026 /PRNewswire/ -- Fractal Analytics Ltd (BSE: 544700) (NSE: FRACTAL) announced its consolidated financial results for Q1 FY27, ending June 30, 2026. In Q1 FY27,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Adjusted EBITDA Grows at 35% YoY Gross Margin up 29 bps1 to 46%; Adjusted EBITDA Margin up 189 bps to 17% NEW YORK, July 24, 2026 /PRNewswire/ -- Fractal Analytics Ltd (BSE: 544700) (NSE: FRACTAL) announced its consolidated financial results for Q1 FY27, ending June 30, 2026. In Q1 FY27,..."
-  },
-  {
-    "title": "Global Wellness Summit Announces Speakers and Topics--Including the Latest in Longevity Medicine, Women's Health, Wellness Travel and Neuroaesthetics",
-    "url": "https://www.prnewswire.com/news-releases/global-wellness-summit-announces-speakers-and-topicsincluding-the-latest-in-longevity-medicine-womens-health-wellness-travel-and-neuroaesthetics-302833550.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T04:30:00+00:00",
-    "raw_text": "Innovators in wellness will gather in Thailand this November for a 20th- anniversary Summit that will explore the future of a $6.8 trillion industry at a critical inflection point BANGKOK, July 24, 2026 /PRNewswire/ -- Thailand will take center stage in the global wellness conversation...",
-    "categories": [
-      "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
       "Industry & Market": [
-        "announces"
+        "launches"
       ]
     },
-    "summary": "Innovators in wellness will gather in Thailand this November for a 20th- anniversary Summit that will explore the future of a $6.8 trillion industry at a critical inflection point BANGKOK, July 24, 2026 /PRNewswire/ -- Thailand will take center stage in the global wellness conversation..."
+    "summary": "Umitec launches ZoneCraft LED Mask with zoned light control and four wavelengths for varied needs. Its soft design supports precise 10-minute care."
   },
   {
-    "title": "ASUS Accelerates Enterprise AI at Scale with 6th-Gen AMD EPYC Server CPUs",
-    "url": "https://www.prnewswire.com/news-releases/asus-accelerates-enterprise-ai-at-scale-with-6th-gen-amd-epyc-server-cpus-302833930.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T04:27:00+00:00",
-    "raw_text": "ASUS leverages 6th-gen AMD EPYC Server CPUs to deliver scalable, efficient compute for enterprise AI, cloud, virtualization and business-critical workloads SAN FRANCISCO, July 24, 2026 /PRNewswire/ -- ASUS today announced its groundbreaking new server lineup powered by the AMD EPYC™ 9006...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "virtualization"
-      ]
-    },
-    "summary": "ASUS leverages 6th-gen AMD EPYC Server CPUs to deliver scalable, efficient compute for enterprise AI, cloud, virtualization and business-critical workloads SAN FRANCISCO, July 24, 2026 /PRNewswire/ -- ASUS today announced its groundbreaking new server lineup powered by the AMD EPYC™ 9006..."
-  },
-  {
-    "title": "Technological Breakthrough丨Niutech's Titanium-Iron Tailings Reduction and Enrichment Technology and Equipment Boost Global Strategic Mineral Resource Recovery",
-    "url": "https://www.prnewswire.com/news-releases/technological-breakthroughniutechs-titanium-iron-tailings-reduction-and-enrichment-technology-and-equipment-boost-global-strategic-mineral-resource-recovery-302833929.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-24T04:26:00+00:00",
-    "raw_text": "LINYI, China, July 24, 2026 /PRNewswire/ -- Niutech, a global leader in industrial continuous pyrolysis technology, recently announced that its independently developed \"new-generation titanium-iron tailings reduction and enrichment technology and complete equipment\" — purpose-built for...",
+    "title": "Cleanroom Lighting Market Size to Hit USD 1.54 Billion by 2035 | Research by SNS Insider",
+    "url": "https://www.globenewswire.com/news-release/2026/07/24/3332712/0/en/Cleanroom-Lighting-Market-Size-to-Hit-USD-1-54-Billion-by-2035-Research-by-SNS-Insider.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-24T07:30:00+00:00",
+    "raw_text": "Global Cleanroom Lighting Market Size, Share, Revenue Trends & Segment by Light Source, Fixture Design, Sales Channel, Application and Forecast 2026–2035",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "LINYI, China, July 24, 2026 /PRNewswire/ -- Niutech, a global leader in industrial continuous pyrolysis technology, recently announced that its independently developed \"new-generation titanium-iron tailings reduction and enrichment technology and complete equipment\" — purpose-built for..."
+    "summary": "Global Cleanroom Lighting Market Size, Share, Revenue Trends & Segment by Light Source, Fixture Design, Sales Channel, Application and Forecast 2026–2035"
   },
   {
     "title": "Bitget נרשמה כספקית שירותים פיננסיים בניו זילנד",
@@ -4109,46 +4176,6 @@
     "summary": "Cette nouvelle version annuelle majeure marque les dix ans de Collabora Online et comprend une assistance par IA optionnelle, des outils améliorés de comparaison et de révision de documents, ainsi que des avancées en matière d’interopérabilité des documents Cette nouvelle version annuelle majeure marque les dix ans de Collabora Online et comprend une assistance par IA optionnelle, des outils améliorés de comparaison et de révision de documents, ainsi que des avancées en matière d’interopérabilité des documents"
   },
   {
-    "title": "Collabora Online 26.04 feiert 10-jähriges Bestehen mit erweiterten Dokumentfunktionen und KI-Unterstützung",
-    "url": "https://www.globenewswire.com/news-release/2026/07/24/3332674/0/de/Collabora-Online-26-04-feiert-10-j%C3%A4hriges-Bestehen-mit-erweiterten-Dokumentfunktionen-und-KI-Unterst%C3%BCtzung.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-24T00:56:00+00:00",
-    "raw_text": "Das große Jahresrelease markiert das zehnjährige Bestehen von Collabora Online und umfasst optionale integrierte KI-Unterstützung, einen erweiterten Dokumentenvergleich, verbesserte Review-Workflows sowie Fortschritte bei der Dokumenteninteroperabilität Das große Jahresrelease markiert das zehnjährige Bestehen von Collabora Online und umfasst optionale integrierte KI-Unterstützung, einen erweiterten Dokumentenvergleich, verbesserte Review-Workflows sowie Fortschritte bei der Dokumenteninteroperabilität",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Das große Jahresrelease markiert das zehnjährige Bestehen von Collabora Online und umfasst optionale integrierte KI-Unterstützung, einen erweiterten Dokumentenvergleich, verbesserte Review-Workflows sowie Fortschritte bei der Dokumenteninteroperabilität Das große Jahresrelease markiert das zehnjährige Bestehen von Collabora Online und umfasst optionale integrierte KI-Unterstützung, einen erweiterten Dokumentenvergleich, verbesserte Review-Workflows sowie Fortschritte bei der Dokumenteninteroperabilität"
-  },
-  {
-    "title": "Higher Images Launches AI Optimization Packages to Help Small Businesses Compete in the New Era of Search",
-    "url": "https://www.globenewswire.com/news-release/2026/07/23/3332673/0/en/Higher-Images-Launches-AI-Optimization-Packages-to-Help-Small-Businesses-Compete-in-the-New-Era-of-Search.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-23T23:51:00+00:00",
-    "raw_text": "New services combine traditional SEO, AI search optimization, structured content, brand-authority development, and performance reporting to help businesses become easier to find, understand, and trust online New services combine traditional SEO, AI search optimization, structured content, brand-authority development, and performance reporting to help businesses become easier to find, understand, and trust online",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "New services combine traditional SEO, AI search optimization, structured content, brand-authority development, and performance reporting to help businesses become easier to find, understand, and trust online New services combine traditional SEO, AI search optimization, structured content, brand-authority development, and performance reporting to help businesses become easier to find, understand, and trust online"
-  },
-  {
-    "title": "Jatos Particulares, Roupões Italianos, Spritzes Exclusivos e Zero Drama: Royalton Hotels & Resorts Apresenta o Refúgio de Luxo Definitivo",
-    "url": "https://www.globenewswire.com/news-release/2026/07/23/3332672/0/pt/Jatos-Particulares-Roup%C3%B5es-Italianos-Spritzes-Exclusivos-e-Zero-Drama-Royalton-Hotels-Resorts-Apresenta-o-Ref%C3%BAgio-de-Luxo-Definitivo.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-23T23:49:00+00:00",
-    "raw_text": "ST. MICHAEL, Barbados, July 23, 2026 (GLOBE NEWSWIRE) -- Inspirado na mais recente onda de dramas de resorts de luxo, o Royalton Hotels & Resorts está dando vida à fantasia com uma experiência exclusiva, onde o serviço personalizado, o luxo atemporal e a narrativa inesquecível são o centro das atenções.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ST. MICHAEL, Barbados, July 23, 2026 (GLOBE NEWSWIRE) -- Inspirado na mais recente onda de dramas de resorts de luxo, o Royalton Hotels & Resorts está dando vida à fantasia com uma experiência exclusiva, onde o serviço personalizado, o luxo atemporal e a narrativa inesquecível são o centro das atenções."
-  },
-  {
     "title": "Is Kubernetes Still Relevant ? The Future Of Container Orchestration & Cloud Infrastructure | Uplatz Romina Carrisi Power (tbxDswFjE9) - Mshale",
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FMWV3bzNyWmlvTVNQRU96UWMwM2ppU0dYWjBwZEhjUUdWMUw4MkQybEh6UzAtYjF2LVhqWVB4M3IxSmFqRVZoc0FnSUtOUUFKbjlsQ0YteWZzWTFNMWlSaA?oc=5",
     "source": "Google News: Cloud Infrastructure",
@@ -4164,24 +4191,6 @@
       ]
     },
     "summary": "Is Kubernetes Still Relevant ? The Future Of Container Orchestration & Cloud Infrastructure | Uplatz Romina Carrisi Power (tbxDswFjE9) Mshale"
-  },
-  {
-    "title": "Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife - SecurityWeek",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPLURRLUxPS0RtaGxwWHFtc1NMYXpNekZaOWI5WjJ5azZaOFpZdFRhMDc0RmFzM0ZzVnhqZWQ5MXl5YlIwSm1jOUNQNDI2VC1TX0cxNEluTjdDV2pwUFUwTDZWN2pTWGoxQWVwUElyemJhZUl3XzFlSkVwekxUVnlRV1VrX2hlck91c3YxeFVKbkhqUG1rU0k2a25ZUC1CbVVyY0xyRzVR0gGrAUFVX3lxTE5PNzdGMkJhdVM0bk5vdmJ5VHI1NUVpRGc2bkl4akpDd3JHZEJYMFRFWGtlMHU4NmJnMTFRXy04VUdMWlZBWWEzZG5VR1JYWk9vZXhiRkRpUVRSamYxdmhRRU9qV2dSV0NnTWwzQzNUQUc5MGpiNW5aMURVTnA1Sk5DR1BKaThuUndzcm80TlZ6VnBHcHRnTmM4aWRNSnU4TWxNVU1udFFkM1lkUQ?oc=5",
-    "source": "Google News: Cybersecurity",
-    "published": "2026-07-22T08:32:02+00:00",
-    "raw_text": "Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife SecurityWeek",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware",
-        "threat",
-        "security"
-      ]
-    },
-    "summary": "Ransomware Group Threatening to Leak Data Stolen From Coca-Cola’s Fairlife SecurityWeek"
   },
   {
     "title": "FatPipe Awarded $7 Million Education Contract To Support School Network Access And Monitoring - Pulse 2.0",
