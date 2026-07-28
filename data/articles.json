@@ -1,5 +1,52 @@
 [
   {
+    "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+    "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+    "source": "The Hacker News",
+    "published": "2026-07-28T08:11:22+00:00",
+    "raw_text": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution. The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "security"
+      ]
+    },
+    "summary": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution. The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already"
+  },
+  {
+    "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+    "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+    "source": "The Hacker News",
+    "published": "2026-07-28T08:04:44+00:00",
+    "raw_text": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network traffic-control subsystem.Researcher Lee Jia Jie said artificial intelligence (AI) helped him find the bug and speed up exploit development. This is local",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "cve",
+        "exploit"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network traffic-control subsystem.Researcher Lee Jia Jie said artificial intelligence (AI) helped him find the bug and speed up exploit development. This is local"
+  },
+  {
     "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
     "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
     "source": "The Hacker News",
@@ -227,6 +274,26 @@
     "summary": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. \"The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown parameter that fits your project,\" the Microsoft-owned subsidiary said. According to GitHub, the"
   },
   {
+    "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
+    "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
+    "source": "BleepingComputer",
+    "published": "2026-07-28T09:10:03+00:00",
+    "raw_text": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "breach"
+      ]
+    },
+    "summary": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]"
+  },
+  {
     "title": "Hackers target US firms in FastJson RCE zero-day attacks",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
     "source": "BleepingComputer",
@@ -372,6 +439,24 @@
     ],
     "matched_keywords": {},
     "summary": "GitHub and PyPI (Python Package Index) have introduced a time-based mechanism in the Dependabot dependency management tool to protect against supply-chain attacks and to limit their impact. [...]"
+  },
+  {
+    "title": "Coca-Cola confirms hackers stole data in Fairlife ransomware attack",
+    "url": "https://www.helpnetsecurity.com/2026/07/28/coca-cola-fairlife-dairy-subsidiary-ransomware-attack/",
+    "source": "Help Net Security",
+    "published": "2026-07-28T09:01:05+00:00",
+    "raw_text": "Coca-Cola has confirmed that the ransomware attack on its dairy subsidiary Fairlife involved the theft of company data, weeks after the incident temporarily halted production at its US facilities. Fairlife is a Coca-Cola-owned dairy brand that makes ultra-filtered milk and protein drinks, with annual retail sales that have topped $1 billion. In a statement published on Monday, Coca-Cola said Fairlife has resumed the majority of production across its four US manufacturing facilities. “The company previously … More → The post Coca-Cola confirms hackers stole data in Fairlife ransomware attack appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware",
+        "hacker",
+        "security"
+      ]
+    },
+    "summary": "Coca-Cola has confirmed that the ransomware attack on its dairy subsidiary Fairlife involved the theft of company data, weeks after the incident temporarily halted production at its US facilities. Fairlife is a Coca-Cola-owned dairy brand that makes ultra-filtered milk and protein drinks, with annual retail sales that have topped $1 billion. In a statement published on Monday, Coca-Cola said Fairlife has resumed the majority of production across its four US manufacturing facilities. “The company previously … More → The post Coca-Cola confirms hackers stole data in Fairlife ransomware attack appeared first on Help Net Security ."
   },
   {
     "title": "Shadow AI incident response begins with logs that may already be gone",
@@ -570,30 +655,6 @@
     "summary": "Zenity has announced a major expansion of its platform, making it the AI security platform for autonomous AI built around a new security architecture designed to govern AI decisions before they become enterprise actions, including those made by long-horizon agents operating autonomously across extended, multi-step workflows. The platform adds Exposure Management and Runtime Boundaries to its existing foundation. Each new capability is built to enforce security at the decision point where an agent makes decisions, … More → The post Zenity advances AI governance with Runtime Boundaries appeared first on Help Net Security ."
   },
   {
-    "title": "JetStream Security enables on-demand shutdown of compromised AI agents",
-    "url": "https://www.helpnetsecurity.com/2026/07/27/jetstream-ai-kill-switch/",
-    "source": "Help Net Security",
-    "published": "2026-07-27T13:32:58+00:00",
-    "raw_text": "JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI … More → The post JetStream Security enables on-demand shutdown of compromised AI agents appeared first on Help Net Security .",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "compliance"
-      ]
-    },
-    "summary": "JetStream Security has announced the release of an AI Kill Switch that allows organizations to shut down compromised AI agents on-demand without impacting other AI operations. This new control plane for AI agents solves the inability to stop a single agent that falters, begins overspending, or needs to be taken offline for compliance reasons without affecting other agents. JetStream’s AI Kill Switch solves a problem many businesses have not faced up to this point: AI … More → The post JetStream Security enables on-demand shutdown of compromised AI agents appeared first on Help Net Security ."
-  },
-  {
     "title": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
     "source": "Dark Reading",
@@ -672,6 +733,41 @@
       ]
     },
     "summary": "Confidence in autonomous security tools is declining, and here's why."
+  },
+  {
+    "title": "Google Adopts New Threat Actor Naming System",
+    "url": "https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/",
+    "source": "SecurityWeek",
+    "published": "2026-07-28T08:42:52+00:00",
+    "raw_text": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Unpatched Fastjson Vulnerability Exploited in Attacks",
+    "url": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "published": "2026-07-28T07:27:55+00:00",
+    "raw_text": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek ."
   },
   {
     "title": "Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day",
@@ -828,45 +924,25 @@
     "summary": "The Anubis cybercrime group has taken credit for the attack and is threatening to leak data. The post Coca-Cola Confirms Data Breach After Fairlife Ransomware Attack appeared first on SecurityWeek ."
   },
   {
-    "title": "Beelzebub Raises $3.4 Million for Hacker-Trapping Platform",
-    "url": "https://www.securityweek.com/beelzebub-raises-3-4-million-for-hacker-trapping-platform/",
-    "source": "SecurityWeek",
-    "published": "2026-07-27T11:06:24+00:00",
-    "raw_text": "The company plans to expand its research team, open new offices in Rome and San Francisco, and acquire new clients. The post Beelzebub Raises $3.4 Million for Hacker-Trapping Platform appeared first on SecurityWeek .",
+    "title": "New CREST AI Standards to Deliver AI-Enabled Pentesting Accreditation",
+    "url": "https://www.infosecurity-magazine.com/news/crest-ai-pentesting-accreditation/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-07-28T08:57:00+00:00",
+    "raw_text": "CREST’s new AI standards are optional add-on requirements for cybersecurity service providers wishing to demonstrate responsible AI usage",
     "categories": [
       "Cybersecurity",
-      "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
       "Cybersecurity": [
-        "hacker",
-        "security"
+        "security",
+        "cyber"
       ],
       "Industry & Market": [
-        "raises"
+        "service provider"
       ]
     },
-    "summary": "The company plans to expand its research team, open new offices in Rome and San Francisco, and acquire new clients. The post Beelzebub Raises $3.4 Million for Hacker-Trapping Platform appeared first on SecurityWeek ."
-  },
-  {
-    "title": "What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out",
-    "url": "https://www.securityweek.com/whats-hiding-in-your-mobile-apps-lookout-msec-aims-to-find-out/",
-    "source": "SecurityWeek",
-    "published": "2026-07-27T11:00:00+00:00",
-    "raw_text": "The new Mobile Security Exposure Center creates SBOMs for enterprise mobile apps to uncover vulnerable components, dependencies and hidden risks. The post What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "The new Mobile Security Exposure Center creates SBOMs for enterprise mobile apps to uncover vulnerable components, dependencies and hidden risks. The post What’s Hiding in Your Mobile Apps? Lookout MSEC Aims to Find Out appeared first on SecurityWeek ."
+    "summary": "CREST’s new AI standards are optional add-on requirements for cybersecurity service providers wishing to demonstrate responsible AI usage"
   },
   {
     "title": "SourTrade Malvertising Campaign Secretly Builds Malware in the Browser",
@@ -1057,6 +1133,105 @@
       ]
     },
     "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP."
+  },
+  {
+    "title": "Why your AI safety certificates are worthless at runtime",
+    "url": "https://www.csoonline.com/article/4201919/why-your-ai-safety-certificates-are-worthless-at-runtime.html",
+    "source": "CSO Online",
+    "published": "2026-07-28T09:00:00+00:00",
+    "raw_text": "Every week, another enterprise technology vendor issues a glossy press release announcing their new autonomous AI agent architecture, complete with a SOC 2 Type II report, an ISO 42001 certification, and an ironclad safety guarantee. On paper, the enterprise security battle looks won. In production, the trap is just snapping shut. The core mistake modern enterprise leaders are making is treating AI safety as a design-time product certification rather than a live runtime execution problem. A model blueprint can be perfectly secure and rigorously aligned in a developer’s sandboxed testing lab. Yet, the moment that model is wrapped into an autonomous agent, granted internal API access, and tasked with reading and writing corporate data, its security profile changes at machine velocity. Point-of-entry compliance certificates do not protect a business from an active operational runtime. The product safety illusion We still think about security as a static asset that can be packaged and delivered by a vendor; a perspective that heavily influences current regulatory logic and implicitly assumes that enterprise cybersecurity obligations can be safely delegated down the supply chain to AI model developers. This is a dangerous operational blind spot. The governance challenge with autonomous systems lives in their unpredictable runtime behaviour, not in their fixed code. Traditional software can be vetted, compiled, and expected to behave identically every time it runs. Agentic systems, by contrast, alter their actions based on shifting context, real-time data inputs, and dynamic third-party plug-ins. The structural blind spot of point-of-time certification is formally recognized as LLM06 in the OWASP Top 10 for LLM Applications . In their framework, risks like Excessive Agency and Insecure Output Handling are classified as systemic vulnerabilities born entirely out of deployment architecture, not model code. When an institution transforms a passive model into an active agent, its operational state space explodes exponentially through three distinct runtime phenomena: Dynamic tool chaining: The agent is no longer simply generating text; it is actively selecting which internal APIs, database queries, and script environments to execute based on its semantic interpretation of a live request. State-dependent cascades: The output of an agent’s initial tool call permanently modifies the active application state, creating an altered environment for its next decision loop that can never be fully simulated in a design-time red-teaming lab. Multi-agent feedback loops: As multiple specialized corporate agents begin to pass tasks, variables, and context summaries back and forth, they form an unpredictable, non-linear ecosystem with micro-deviations that rapidly compound into systemic failures. To address this fluid perimeter, the National Institute of Standards and Technology (NIST) Center for AI Standards and Innovation launched its AI Agent Standards Initiative . The framework signals an immediate shift for enterprise defines: Monitoring that stops at static uptime or point-in-time evaluation is fundamentally obsolete. True risk management requires continuous, post-deployment monitoring across functional, operational, and structural layers. The danger of trusted systems The time between initial network intrusion and full operational impact has collapsed to minutes. Recent breach investigations detailed in the CrowdStrike 2026 Global Threat Report show that average breakout times for automated tools have dropped to under 30 minutes, with the fastest exploits measured in seconds. Despite this acceleration, most enterprise cyber defenses still run on a sluggish human timeline. Security operations phase Operational execution timeline Automated agent intrusion & exfiltration Sub-30 Minutes (Often measured in seconds) Legacy human threat triage 1 to 4 Hours Infrastructure vulnerability remediation 2 to 5 Days Enterprise patch management cycle 2 to 6 Weeks The current enterprise containment gap is severe. Empirical data from the Kiteworks 2026 Cyber Security Risk Management Forecast highlights a stark disconnect between current infrastructure capabilities and the new reality of agentic deployment: 63 percent of organizations report an inability to enforce purpose limitations on active AI agents. 60 percent of IT leaders state they cannot quickly terminate or trigger an immediate kill-switch on a misbehaving agent. 55 percent of corporate networks cannot isolate autonomous AI systems from broader network access, allowing lateral privilege creep to go entirely unmonitored. When you deploy autonomous agents to handle enterprise identity provisioning or access management, they interact directly with these boundary data streams. A safety certificate cannot protect your business when these compromised session tokens are written into internal system logs, which the agent then ingests during an automated diagnostic or provisioning routine. The dissolution of the “data as code” boundary The technical mechanism driving this risk is the total collapse of the traditional Data as Code boundary. In standard enterprise software, application logic (code) is strictly insulated from the records it processes (data). When a user types a command into a web form, a parameterized database query handles it safely because the system treats the input strictly as passive text, never as executable instructions. Agentic architectures dissolve this boundary. Because these systems process unstructured information semantically, any data the agent reads (be it a customer support email, a vendor invoice, or a network log) can be interpreted by the underlying model as a direct command. To the model’s core engine, all language is processed as a single, flattened token stream where instructions and data are indistinguishable. This exposure is compounded by the widespread adoption of the Model Context Protocol (MCP). As detailed in a National Security Agency (NSA) design consideration report, MCP connects models directly to local file systems and enterprise developer tools. Because MCP servers rely on raw tool descriptions loaded directly into the model’s operational context window, attackers can use tool poisoning and session hijacking to steer internal agents without ever interacting with the primary user interface. This is not a theoretical threat. Security research has identified sophisticated actors leveraging Indirect Prompt Code Injection to systematically bypass frontier model safety protocols by embedding high-density, semantic lures inside passive data files. The model does not recognize that it is being attacked; it simply absorbs the malicious instruction as valid contextual data and executes it downstream. The global reality: Disparate architecture and legal regimes A global enterprise cannot secure this runtime environment by relying on centralized, regional security paradigms. The operational and regulatory environments governing autonomous agents are fragmenting along highly distinct geographic and technical borders: Mainland China: The Cyberspace Administration of China (CAC) enforces strict generative AI algorithm registries and absolute, real-time data provenance requirements. For global firms, this means an agent’s runtime environment must handle highly specific, state-mandated logging hooks and regional content boundaries that can introduce distinct structural latencies into the execution loop. Singapore: Through the Infocomm Media Development Authority (IMDA), Singapore’s approach emphasizes operational lineage and bounded autonomy. Their Model AI Governance Framework mandates explicit system transparency, requiring organizations to map the entire toolchain and verify the logical path an agent takes before it alters any production record. Australia & the Five Eyes Network: The Australian Cyber Security Centre (ACSC), along with its international partners, explicitly mandates moving away from reactive point-security toward a Modern Defensible Architecture, where agents are treated as entirely distinct, isolated identity segments designed to withstand and contain the inevitable compromise of underlying models. Latin America: Driven by a rapid acceleration of localized, open-source model infrastructure to bypass mega-vendor lock-in, technology leaders in this region face a significantly higher engineering burden. Without automated vendor-pushed safety updates, the responsibility for securing the runtime falls entirely on the enterprise’s internal API gateway architecture. The practical pivot: Govern the process, not the asset To protect the enterprise without choking innovation, technology leadership must shift from static software asset management to continuous process governance. 1. Enforce non-human identity controls AI agents must not inherit the broad, unmonitored privileges of legacy service accounts. They should be treated as untrusted, non-human identities subject to real-time access governance, continuous session logging, and strict behavioural rate-limiting at the API gateway layer. As Phil Calvin, chief product officer at identity security firm Delinea, noted in an industry briefing on the rise of autonomous machine accounts: “At its most basic, an AI agent is just an account, and you need to understand the account sprawl and permissions.” Agents are frequently granted overly broad access to prevent automated workflows from stalling due to permission errors. To mitigate this, enterprises must deploy automated machine identity kill-switches. This means enforcing short-lived, ephemeral session tokens that automatically expire every 15 minutes. A technical solution: Implement an automated OAuth 2.1 or RFC 8693 Token Exchange proxy directly between your orchestration layer and internal systems. Instead of hardcoding keys, the agent must present an ephemeral assertion token that the proxy validates and dynamically downgrades to a single-use, read-only scope, ensuring a compromised prompt cannot execute state-changing actions. 2. Establish process firewalls Dynamic systems cannot be regulated with static rules. The workflow itself must be secured. If a manual business process is fragmented or broken, automating it simply scales the risk at machine speed. Humans inherently act as circuit breakers for logical absurdities; autonomous agents lack this baseline intuition, executing flawed or manipulated workflows to completion without hesitation. The underlying human workflow must be mapped, deduplicated, and restricted to deterministic outcome paths before any automation occurs. To bridge the gap, implement short-lived, least-privilege JSON gateways. Agents must be completely banned from directly executing code, writing commands, or querying database layers. Instead, the agent’s output must be restricted to a strictly structured, non-executable JSON payload. This payload is parsed by a deterministic software gateway that validates not just the schema structure, but enforces strict, hard-coded business-logic boundaries on the parameters themselves, such as maximum transaction limits and strict whitelists for destination fields. A technical solution: Deploy a deterministic state-machine validator directly inside your API gateway. This architectural layer treats the agent’s proposed JSON payload as an unverified schema input, forcing it through strict regex validation, data-type matching, and predefined boundary constraints before allowing any downstream execution. 3. Implement session sanitation To counter the risk of context drift and slow-rolling manipulation, implement strict runtime memory sanitation protocols. This requires continuous cryptographic verification of all data inputs entering the agent’s context window. By running data payloads through localized, lightweight semantic input firewalls, organizations can detect and strip out structural obfuscation, hidden text, and tool-poisoning commands before the data is ingested by the core model. Furthermore, all active tools and MCP connectors must be digitally signed and version-pinned to prevent rogue local server compromises. A technical solution: Enforce sliding-window contextual resets and run all incoming multi-source data through stateless, single-turn inference pipelines. By stripping conversational histories down to the bare minimum token requirements and enforcing hard context resets between discrete operational steps, you break the dependency loops that semantic prompt injections rely on to hijack agent memory. The bottom line for tech leadership Relying on model weights and vendor certificates to protect an enterprise is the modern equivalent of locking the front door while leaving the back wall completely unbuilt. Frontier models are remarkable engines, but when they become autonomous agents, they are highly dynamic and unpredictable actors within a network. The true security perimeter is no longer a static line drawn around a software asset. It is the real-time, fluid boundary of the process itself. To win the runtime security battle, technology leaders must stop treating AI as an untouchable black box and start managing it for what it truly is: an untrusted, hyper-fast identity that requires rigorous isolation, deterministic firewalls, and absolute accountability. The enterprise safety battle will not be won by the vendor that prints the prettiest compliance certificate. It will be won by the CIO who builds the most defensible runtime architecture. This article is published as part of the Foundry Expert Contributor Network. Want to join?",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "firewall",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "exploit",
+        "threat",
+        "security",
+        "cyber",
+        "soc",
+        "identity security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "regulatory",
+        "soc 2",
+        "risk management",
+        "nist"
+      ],
+      "Industry & Market": [
+        "valuation",
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "Every week, another enterprise technology vendor issues a glossy press release announcing their new autonomous AI agent architecture, complete with a SOC 2 Type II report, an ISO 42001 certification, and an ironclad safety guarantee. On paper, the enterprise security battle looks won. In production, the trap is just snapping shut. The core mistake modern enterprise leaders are making is treating AI safety as a design-time product certification rather than a live runtime execution problem."
+  },
+  {
+    "title": "Hugging Face breach shows why incident response needs a multi-model AI strategy",
+    "url": "https://www.csoonline.com/article/4201361/hugging-face-breach-shows-why-incident-response-needs-a-multi-model-ai-strategy.html",
+    "source": "CSO Online",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "The recent breach of Hugging Face’s platform was the latest in a string of AI-assisted intrusions to come to light in recent weeks , showing that attackers can now use LLMs to automate entire attack chains. But it also exposed a limitation for defenders trying to use AI to respond at similar machine speed: Increasingly conservative safety controls on frontier models can block attempts to analyze malicious payloads and other intrusion artifacts that are needed to investigate incidents. The incident was caused by an internal OpenAI test of advanced model cyber capabilities that went wrong . GPT-5.6 Sol and a more capable pre-release model, operating with reduced cyber refusals and without the production classifiers normally used to block high-risk activity, found and exploited zero-day vulnerabilities to escape their sandboxed environment, gain unrestricted access to the internet, and breach Hugging Face’s infrastructure in search for answers to their cybersecurity challenge. Hugging Face, which operates the world’s largest platform for hosting AI models and machine learning artifacts, detected the intrusion through an LLM-powered anomaly-detection pipeline of its own. However, when its security team attempted to use frontier AI models to analyze the intrusion logs with more than 17,000 recorded events, they got blocked. “When we started the log analysis, we first used frontier models behind commercial APIs,” the company said in its incident report . “This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, and these requests were blocked by the providers’ safety guardrails, which cannot distinguish an incident responder from an attacker. We ran the forensic analysis instead on GLM 5.2, an open-weight model, on our own infrastructure. This had a second benefit: no attacker data, and none of the credentials it referenced, left our environment.” This raises a significant issue that security practitioners have observed in recent times: Frontier models are becoming less useful for defensive cybersecurity work. AI labs choose or are forced to restrict their models’ increasingly powerful cyber capabilities from being abused, but the safety controls they put in place are largely identity-agnostic and can’t differentiate between attackers and defenders. The community has found and documented various so-called jailbreaking techniques to bypass these filters, but using such methods violates providers’ terms of service and acceptable use policies. And while hackers don’t care about their throw-away accounts getting banned, security analysts on enterprise subscriptions do. “Machine-speed exploitation requires machine-speed response, and that response can’t run on models that refuse to examine the evidence,” Jacob Krell, senior director of secure AI solutions and cybersecurity at Suzu Labs, tells CSO. “Defenders increasingly need AI capabilities comparable to the attackers they’re facing,” says Sonali Shah, CEO of offensive security testing firm Cobalt. “We’re now entering an era where the quality of your defensive AI may directly determine how quickly you understand, contain, and remediate an attack. Perhaps the more significant lesson is that incident response can’t depend entirely on cloud-hosted AI services whose safety guardrails may prevent effective forensic analysis during a crisis.” Attackers have more options Attackers don’t have much trouble abusing frontier models in attacks. Anthropic, OpenAI, and Google have all reported adversarial AI activity on their services in the past, and while they all worked on stronger guardrails, attackers continue to find bypass techniques. This week, researchers from Cato Networks reported the case of a threat actor named Trim who is promoting an AI-powered web vulnerability scanner called the “AI Pentest Checker” on Russian cybercrime forums. Trim claims that the tool is powered by Claude Opus 4.8 and uses jailbreaking techniques he developed based on a leaked system prompt for Anthropic’s latest and most capable Fable 5 model. The threat actor has a history on the forum for sharing jailbreaking techniques for AI models. But attackers don’t even need the latest frontier models to fully automate powerful attacks. Even Trim noted in the past that open-weight models such as Kimi, GLM, and MiniMax were fallback options. And this was back in March before the Chinese labs released their latest versions such as GLM 5.2 or Kimi K3 which have further closed the capability gap with the frontier models, and even outperform them in some tasks. Most open-weight models have built-in content safety guardrails as well, even if generally weaker than frontier ones, but these can be removed using techniques such as fine-tuning primarily because their weights are openly available. Researchers from managed detection and response vendor ThreatDown identified over 6,600 AI models hosted on Hugging Face and advertised as guardrail-free with labels such as abliterated, uncensored, decensored, heretic, and unfiltered. These models were downloaded more than 22 million times over a 30-day period. Last month, researchers from the University of Toronto published a study where they managed to create an AI-powered self-replicating worm capable of autonomously finding and exploiting weaknesses in dozens of simulated systems. The researchers leveraged a small and free AI model that could run on hijacked GPUs and made up for the lack in built-in reasoning capabilities by building a custom attack harness complete with a database-based memory system to keep the attack workflows on track. “Organizations should assume attackers will increasingly operate at machine speed, which means security testing, exposure management, and remediation also have to operate at machine speed,” Cobalt’s Shah tells CSO. Frontier models are increasingly restricted With the release of their latest generation of models, the leading frontier labs were criticized by users for aggressive safety filters that led to frequent incidents of over-refusal — models refusing to process harmless prompts or routing them to lesser capable models. Some of these conservative settings were self-imposed while others might have been driven by government pressure. Anthropic only provided access to its Claude Mythos model to a restricted number of organizations for cybersecurity testing purposes under Project Glasswing . Then when it released a Mythos-class model publicly under the name Fable 5 , users reported that routine incident response, detection, and basic forensic workflows were getting routed automatically from Fable 5 to Claude Opus 4.8. On June 12, the US government issued an export control directive that required Anthropic to suspend Fable 5 and Mythos 5 access to foreign nationals due to concerns about cyber misuse and safety risks. The restrictions were lifted on June 30. OpenAI had to delay its general availability release for the GPT-5.6 family of models at the US government’s request as well, initially making it available for preview to a small group of trusted partners. The company also noted that the model’s safeguards block around 10 times more potentially harmful actions than previous models and that this might cause some friction, especially for cybersecurity users. Security experts don’t agree that these aggressive approaches of restricting cybersecurity tasks will be successful at stopping attacks and believe they do more harm than good. While safety is a priority with AI in general, the cybersecurity limitations on models as they are done now, and the export controls specifically, are misguided, says Gadi Evron, CEO of AI security firm Knostic. “They don’t stop the bad guys, they do slow down defenders and in fact, deny knowledge of cybersecurity when it is needed most.” “Determined attackers will continue using unrestricted or open-weight models, or find ways around guardrails, while defenders operating within policy lose access to advanced capabilities during incident response,” Etay Maor, vice president of threat intelligence at Cato Networks, tells CSO. “The more you gate frontier models, the more you push security teams toward capable open-weight alternatives they can actually use.” Organizations need multi-model strategies Security experts believe that even if they use an API-based frontier model for most of their tasks, organizations should adopt a strategy where they always have access to one or multiple fallback models, like Hugging Face did. “Different models have different strengths, availability, and risk profiles, so using multiple models provides resilience if one becomes unavailable, overly restricted, or compromised,” Maor says. “If organizations choose to use open-weight models, they should do so within a well-governed architecture that includes strong access controls, monitoring, and containment, rather than assuming any single model is the right long-term answer.” There are benefits to using open-weight models. For one, incident response often involves large amounts of signal data and log events that might contain credentials and other sensitive information about the environment. This was also the case in the Hugging Face incident and the company noted that because they used GLM 5.2 hosted on their own infrastructure no attacker data or the credentials it referenced left its environment. That said, Hugging Face is an AI infrastructure company with the compute power readily available to host such large models. The big open-weight models need large amounts of VRAM to run and not many organizations have datacenters with enterprise-grade GPU clusters. In that case they will need to rely on neoclouds or services such as Amazon Bedrock or Microsoft’s Azure AI Foundry, after analyzing the jurisdiction, data retention, and privacy policies of these services, because simply using these open-weight models through their official APIs would mean sharing data with the Chinese labs that created them. A multi-model architecture also needs strong identity controls, monitoring, target scoping, restricted tool permissions, network containment, evidence-handling rules, and human approval for important actions. The objective is resilience when a model is too restrictive for a particular task, not providing AI agents with autonomous access to every system in the environment. “Organizations should have vetted AI models they can operate inside their own trust boundary before an incident happens,” Shah says. “That said, better models alone aren’t enough. AI for cybersecurity is still maturing, and organizations shouldn’t blindly trust autonomous systems.”",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "azure"
+      ],
+      "Networks": [
+        "network",
+        "routing"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "zero-day",
+        "exploit",
+        "hacker",
+        "threat",
+        "security",
+        "cyber",
+        "threat intelligence",
+        "incident response",
+        "edr"
+      ],
+      "GRC": [
+        "policy",
+        "privacy"
+      ],
+      "Data Centres": [
+        "datacenter",
+        "rack",
+        "ai infrastructure",
+        "gpu cluster"
+      ],
+      "Industry & Market": [
+        "raises",
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "The recent breach of Hugging Face’s platform was the latest in a string of AI-assisted intrusions to come to light in recent weeks , showing that attackers can now use LLMs to automate entire attack chains. But it also exposed a limitation for defenders trying to use AI to respond at similar machine speed: Increasingly conservative safety controls on frontier models can block attempts to analyze malicious payloads and other intrusion artifacts that are needed to investigate incidents. The incident was caused by an internal OpenAI test of advanced model cyber capabilities that went wrong . GPT-5.6 Sol and a more capable pre-release model, operating with reduced cyber refusals and without the production classifiers normally used to block high-risk activity, found and exploited zero-day vulnerabilities to escape their sandboxed environment, gain unrestricted access to the internet, and breach Hugging Face’s infrastructure in search for answers to their cybersecurity challenge."
   },
   {
     "title": "Hackers are compromising hotel Wi-Fi gateways to hijack Microsoft 365 accounts",
@@ -1406,6 +1581,38 @@
     "summary": "CISOs have quietly become their organizations’ de facto chief resilience officers as the role has evolved from its primary prevention roots to now include greater emphasis on incident response and business resiliency and recovery. “Any experienced CISO who’s come up through the ranks of IT has that operational mindset, which is about uptime,” says John Bruggeman , consulting CISO to OnX and CBTS. “They’re thinking, ‘How do I make sure that we’re not totally down and unable to perform our functions.’” With 30 years’ experience across numerous organizations, including a 40,000-employee global firm and a 75-employee $300 million revenue business, Bruggeman has lived the challenges faced by CISOs who shoulder responsibility for cybersecurity, including owning recovery. According to Bruggeman, CISOs have always had a resiliency mindset, only now it’s being called out by name, underpinning all business operations."
   },
   {
+    "title": "Defense authorization bill provision could ban private data centers on US DoD land from using Chinese equipment",
+    "url": "https://www.datacenterdynamics.com/en/news/defense-authorization-bill-provision-could-ban-private-data-centers-on-us-dod-land-from-using-chinese-equipment/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-28T08:11:11+00:00",
+    "raw_text": "Companies are already evaluating land at military sites",
+    "categories": [
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Companies are already evaluating land at military sites"
+  },
+  {
+    "title": "HPE, Rigetti partner for hybrid quantum-classical computer deployment at Pittsburgh Supercomputing Center testbed",
+    "url": "https://www.datacenterdynamics.com/en/news/hpe-rigetti-partner-for-hybrid-quantum-classical-computer-deployment-at-pittsburgh-supercomputing-center-testbed/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-28T08:08:43+00:00",
+    "raw_text": "Project supported by $5m grant from NSF",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Project supported by $5m grant from NSF"
+  },
+  {
     "title": "Sponsored: The transformation of transmission",
     "url": "https://www.datacenterdynamics.com/en/marketwatch/the-transformation-of-transmission/",
     "source": "DataCenterDynamics",
@@ -1706,28 +1913,37 @@
     "summary": "1.8GW of which is expected to be operational by 2030"
   },
   {
-    "title": "The Agentic AI Supplement",
-    "url": "https://www.datacenterdynamics.com/en/magazines/the-agentic-ai-supplement/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-27T12:11:00+00:00",
-    "raw_text": "An agentic agenda",
+    "title": "Openreach nudges another 112 exchange areas toward full fiber",
+    "url": "https://www.theregister.com/networks/2026/07/28/openreach-nudges-another-112-exchange-areas-toward-full-fiber/5279046",
+    "source": "The Register",
+    "published": "2026-07-28T08:30:00+00:00",
+    "raw_text": "Latest batch takes the copper sales restrictions to 1,572 locations and 15.4 million premises",
     "categories": [
-      "Uncategorised"
+      "Networks"
     ],
-    "matched_keywords": {},
-    "summary": "An agentic agenda"
+    "matched_keywords": {
+      "Networks": [
+        "fiber"
+      ]
+    },
+    "summary": "Latest batch takes the copper sales restrictions to 1,572 locations and 15.4 million premises"
   },
   {
-    "title": "Meta leaves RE100 climate initiative - report",
-    "url": "https://www.datacenterdynamics.com/en/news/meta-leaves-re100-climate-initiative-report/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-27T12:10:28+00:00",
-    "raw_text": "Due to increase in natural gas procurement",
+    "title": "Cisco close to releasing more AI models, this time for deep networking ops",
+    "url": "https://www.theregister.com/networks/2026/07/28/cisco-close-to-releasing-more-ai-models-this-time-for-deep-networking-ops/5279350",
+    "source": "The Register",
+    "published": "2026-07-28T06:50:40+00:00",
+    "raw_text": "Token costs not quite sorted, but on-prem will be an option",
     "categories": [
-      "Uncategorised"
+      "Networks"
     ],
-    "matched_keywords": {},
-    "summary": "Due to increase in natural gas procurement"
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "networking"
+      ]
+    },
+    "summary": "Token costs not quite sorted, but on-prem will be an option"
   },
   {
     "title": "China fights back in AI spat with claim US AI companies distil Chinese models",
@@ -2055,18 +2271,6 @@
     "summary": "Pinkie promise gains 200-plus new participants and precisely zero enforcement"
   },
   {
-    "title": "The last Space Shuttle returned to Earth 15 years ago",
-    "url": "https://www.theregister.com/science/2026/07/26/the-last-space-shuttle-returned-to-earth-15-years-ago/5277279",
-    "source": "The Register",
-    "published": "2026-07-26T08:30:00+00:00",
-    "raw_text": "So, how are those commercial replacements working out for you, NASA?",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "So, how are those commercial replacements working out for you, NASA?"
-  },
-  {
     "title": "The departmental deckchairs have been shuffled – but helping the government's tech challenge how?",
     "url": "https://www.computerweekly.com/opinion/The-departmental-deckchairs-have-been-shuffled-but-helping-the-governments-tech-challenge-how",
     "source": "ComputerWeekly",
@@ -2113,7 +2317,7 @@
     "url": "https://www.computerweekly.com/news/366646130/Bahrain-cannot-claim-sovereign-immunity-for-spyware-attack-against-UK-dissidents-top-UK-court-rules",
     "source": "ComputerWeekly",
     "published": "2026-07-27T13:54:00+00:00",
-    "raw_text": "<p>The Kingdom of Bahrain cannot claim sovereign immunity to legal action brought by two Bahraini dissidents who accuse it of infecting their computers with German-made spyware, the UK’s <a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)\">Supreme Court has ruled</a>.</p> <p>The dissidents, Saeed Shehabi and Moosa Mohammed<b> </b>allege that the Kingdom of Bahrain infected their computers with <a href=\"https://www.computerweekly.com/feature/The-Macedonian-surveillance-scandal-that-brought-down-a-government\">FinFisher</a> spyware while they were living in London in 2011.</p> <p><a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)%20-%20UK%20Supreme%20Court\">The Supreme Court’s decision</a> is expected to open the way for further legal action against countries that target people living in the UK with surveillance software, said <a href=\"https://www.leighday.co.uk/about-us/our-people/senior-staff/ida-aduwa/\">Ida Aduwa</a>, solicitor at law firm Leigh Day which brought the case.</p> <p>\"This ruling sends a clear message to overseas states that use intrusive surveillance technology against peaceful political activists and others that they will face justice in the courts,” she said.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Court rejects sovereign immunity\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Court rejects sovereign immunity&nbsp;</h2> <p>The Kingdom of Bahrain claimed that under the <a href=\"https://www.legislation.gov.uk/ukpga/1978/33\">State Immunity Act 1978</a>, sovereign states had immunity in cases where the perpetrators, or some of the acts, causing personal injury were not located in the UK.</p> <p>But the Supreme Court, with a majority of 3 to 2, found that modern technology enables surveillance to be carried out remotely and that even if a foreign state conducted a surveillance operation from outside the UK, it would still involve an infringement of UK territorial sovereignty.</p> <p>Shehabi, 71, a journalist and founder of the Bahraini opposition party Al Wefaq<b>, </b>and Mohammed, a pro-democracy activist, allege that their laptops were infected in September 2011 with malicious surveillance software known as FinSpy, made by the Gamma group.</p> <p>They claim that the attacks allowed Bahraini authorities to collect information from their laptops, including messages, emails, calendar records, contact lists, browsing history, photos, databases, documents and video.&nbsp;</p> <p>The software also enabled Bahrain to track the location of their laptops and covertly eavesdrop on conversations by using the laptop’s microphones and cameras.</p> <p>The activists learned that their computers had been hacked in 2014 when WikiLeaks published documents about Bahrain’s use of FinSpy and a research and advocacy organisation,&nbsp;<a href=\"https://web.archive.org/web/20171201000000*/https:/bahrainwatch.org/\">Bahrain Watch</a>, identified them as victims of hacking.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain opposition to Shehabi and Mohammed\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain opposition to Shehabi and Mohammed</h2> <p>The Bahraini government has repeatedly denounced Shehabi - who has lived in the UK since 1973 and gained British citizenship in 2002 - over his political activism. In 2009 his home in the UK was set on fire shortly after two associates who had campaigned against the Bahraini government were beaten up outside Euston station.</p> <p>Mohammed, 45, a photographer and videographer and human rights activist, was repeatedly arrested, detained, tortured and mistreated by the police after taking part in protests in Bahrain. He fled to the UK in 2006 as a refugee and has since been granted indefinite leave to remain in the UK.</p> <p>The Bahraini government has publicly condemned him for helping to organise protests in the UK and publishing accounts of human rights abuses in the Kingdom.</p> <p>In 2021, the Bahraini Ministry of Foreign Affairs included Shehabi and Mohammed on a list of Bahraini nationals who have had their Bahraini citizenship revoked.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain 'can no longer hide'\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain 'can no longer hide'</h2> <p>Speaking after the verdict, Shehabi said that the judgment means the Bahraini regime can no longer hide behind state immunity.</p> <p>“This is not just a victory for us, but for everyone targeted by authoritarian states beyond their own borders. The court's message is clear: states that abuse people on British soil will be held accountable,” he added.</p> <p>Mohammed said that the verdict changed the balance of power between Bahrain and dissidents.</p> <p>“Since I was a teenager, the Bahraini regime has tortured, imprisoned and hunted me. Even after I found safety in the UK, they pursued me across borders,” he said.</p> <p>Martyn Day, senior partner of law firm Leigh Day, which represented Shehabi and Mohammed, said the “notion that foreign governments can allegedly use sophisticated spyware to interfere with computers and mobile phones of people living in this country is an outrage.”</p> <p>The law firm has previously represented people impacted by spyware from Rwanda, Saudi Arabia and Pakistan.</p> <p>In the verdict today, Lord Lloyd-Jones, Lord Hamblen and Lady Simler found in favour of the two claimants. &nbsp;Lord Leggatt and Lord Burrows gave dissenting verdicts.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about spyware</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366639774/Spyware-suppliers-exploit-more-zero-days-than-nation-states\">Spyware suppliers exploit more zero-days than nation states</a> - Exploitation of zero-days by commercial surveillance and spyware developers outpaced exploitation by nation-state actors last year, according to a report</li> <li><a href=\"https://www.computerweekly.com/news/366637759/Saudi-Arabia-ordered-to-pay-3m-to-UK-dissident-targeted-with-Pegasus-spyware\">Saudi Arabia ordered to pay £3m to UK dissident targeted with Pegasus</a> spyware - A court has found that the Kingdom of Saudi Arabia subjected a London-based human rights activist to abuse and physical violence after infecting his phone with Pegasus spyware</li> <li><a href=\"https://www.computerweekly.com/news/366628109/Austrian-government-faces-likely-legal-challenge-over-state-spyware\">Austrian government faces likely legal challenge over state spyware</a>: Civil society groups are talking to opposition MPs about bringing a legal challenge to the Austrian constitutional court over ‘state trojan’ law.</li> <li><a href=\"https://www.computerweekly.com/news/366616823/Bahrain-faces-legal-action-after-planting-Pegasus-spyware-on-UK-blogger\">Bahrain faces legal action after planting Pegasus spyware on UK blogger</a>: A court has given the go-ahead to UK-based blogger Yusuf Al-Jamri to seek damages from the Kingdom of Bahrain after it deployed spyware from Israel’s NSO Group to hack his phone.</li> <li><a href=\"https://www.computerweekly.com/news/366614412/Democracy-campaigner-to-sue-Saudi-Arabia-over-Pegasus-and-QuaDream-spyware-in-UK-court\">Democracy campaigner to sue Saudi Arabia over Pegasus and QuaDream spyware in UK court</a>: Pro-democracy campaigner Yahya Assiri permitted to file legal action in London court against Saudi Arabia over its use of Israeli spyware.</li> <li><a href=\"https://www.computerweekly.com/news/366569073/UK-and-France-push-for-international-agreement-on-spyware\">UK and France push for international agreement on spyware</a>: The UK and France host diplomats, big tech companies and civil society groups at London conference targeting the proliferation of spyware tools and ‘hackers for hire’.&nbsp;</li> </ul> </div> </div> <ul class=\"default-list\"></ul> </section>",
+    "raw_text": "<p>The Kingdom of Bahrain cannot claim sovereign immunity to legal action brought by two Bahraini dissidents who accuse it of infecting their computers with German-made spyware, the UK’s <a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)\">Supreme Court has ruled</a>.</p> <p>The dissidents, Saeed Shehabi and Moosa Mohammed,<b> </b>allege that the Kingdom of Bahrain infected their computers with <a href=\"https://www.computerweekly.com/feature/The-Macedonian-surveillance-scandal-that-brought-down-a-government\">FinFisher</a> spyware while they were living in London in 2011.</p> <p><a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)%20-%20UK%20Supreme%20Court\">The Supreme Court’s decision</a> is expected to open the way for further legal action against countries that target people living in the UK with surveillance software, said <a href=\"https://www.leighday.co.uk/about-us/our-people/senior-staff/ida-aduwa/\">Ida Aduwa</a>, solicitor at law firm Leigh Day, which brought the case.</p> <p>“This ruling sends a clear message to overseas states that use intrusive surveillance technology against peaceful political activists and others that they will face justice in the courts,” she said.</p> <p>The Kingdom of Bahrain claimed that under the <a href=\"https://www.legislation.gov.uk/ukpga/1978/33\">State Immunity Act 1978</a>, sovereign states had immunity in cases where the perpetrators, or some of the acts, causing personal injury were not located in the UK.</p> <p>But the Supreme Court, with a majority of three to two, found that modern technology enables surveillance to be carried out remotely, and that even if a foreign state conducted a surveillance operation from outside the UK, it would still involve an infringement of UK territorial sovereignty.</p> <p>Shehabi, 71, a journalist and founder of Bahraini opposition party Al Wefaq<b>, </b>and Mohammed, a pro-democracy activist, allege that their laptops were infected in September 2011 with malicious surveillance software known as FinSpy, made by the Gamma group.</p> <p>They claim the attacks allowed Bahraini authorities to collect information from their laptops, including messages, emails, calendar records, contact lists, browsing history, photos, databases, documents and videos.&nbsp;</p> <p>The software also enabled Bahrain to track the location of their laptops and covertly eavesdrop on conversations by using the laptop’s microphones and cameras.</p> <p>The activists learned that their computers had been hacked in 2014 when WikiLeaks published documents about Bahrain’s use of FinSpy and a research and advocacy organisation,&nbsp;<a href=\"https://web.archive.org/web/20171201000000*/https:/bahrainwatch.org/\">Bahrain Watch</a>, identified them as victims of hacking.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain opposition to Shehabi and Mohammed\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain opposition to Shehabi and Mohammed</h2> <p>The Bahraini government has repeatedly denounced Shehabi – who has lived in the UK since 1973 and gained British citizenship in 2002 – over his political activism. In 2009, his home in the UK was set on fire shortly after two associates who had campaigned against the Bahraini government were beaten up outside London Euston railway station.</p> <p>Mohammed, 45, a photographer, videographer and human rights activist, was repeatedly arrested, detained, tortured and mistreated by the police after taking part in protests in Bahrain. He fled to the UK in 2006 as a refugee, and has since been granted indefinite leave to remain in the UK.</p> <p>The Bahraini government has publicly condemned him for helping to organise protests in the UK and publishing accounts of human rights abuses in the Kingdom.</p> <p>In 2021, the Bahraini Ministry of Foreign Affairs included Shehabi and Mohammed on a list of Bahraini nationals who have had their Bahraini citizenship revoked.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain ‘can no longer hide’\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain ‘can no longer hide’</h2> <p>Speaking after the verdict, Shehabi said the judgment means the Bahraini regime can no longer hide behind state immunity.</p> <p>“This is not just a victory for us, but for everyone targeted by authoritarian states beyond their own borders,” he added. “The court’s message is clear: states that abuse people on British soil will be held accountable.”</p> <p>Mohammed said the verdict changed the balance of power between Bahrain and dissidents.</p> <p>“Since I was a teenager, the Bahraini regime has tortured, imprisoned and hunted me,” he said. “Even after I found safety in the UK, they pursued me across borders.”</p> <p>Martyn Day, senior partner of law firm Leigh Day, which represented Shehabi and Mohammed, said the “notion that foreign governments can allegedly use sophisticated spyware to interfere with computers and mobile phones of people living in this country is an outrage”.</p> <p>The law firm has previously represented people impacted by spyware from Rwanda, Saudi Arabia and Pakistan.</p> <p>In the verdict today, Lord Lloyd-Jones, Lord Hamblen and Lady Simler found in favour of the two claimants. Lord Leggatt and Lord Burrows gave dissenting verdicts.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about spyware</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366639774/Spyware-suppliers-exploit-more-zero-days-than-nation-states\">Spyware suppliers exploit more zero-days than nation states</a>: Exploitation of zero-days by commercial surveillance and spyware developers outpaced exploitation by nation-state actors last year, according to a report</li> <li><a href=\"https://www.computerweekly.com/news/366637759/Saudi-Arabia-ordered-to-pay-3m-to-UK-dissident-targeted-with-Pegasus-spyware\">Saudi Arabia ordered to pay £3m to UK dissident targeted with Pegasus</a> spyware: A court has found that the Kingdom of Saudi Arabia subjected a London-based human rights activist to abuse and physical violence after infecting his phone with Pegasus spyware</li> <li><a href=\"https://www.computerweekly.com/news/366628109/Austrian-government-faces-likely-legal-challenge-over-state-spyware\">Austrian government faces likely legal challenge over state spyware</a>: Civil society groups are talking to opposition MPs about bringing a legal challenge to the Austrian constitutional court over ‘state trojan’ law.</li> <li><a href=\"https://www.computerweekly.com/news/366616823/Bahrain-faces-legal-action-after-planting-Pegasus-spyware-on-UK-blogger\">Bahrain faces legal action after planting Pegasus spyware on UK blogger</a>: A court has given the go-ahead to UK-based blogger Yusuf Al-Jamri to seek damages from the Kingdom of Bahrain after it deployed spyware from Israel’s NSO Group to hack his phone.</li> <li><a href=\"https://www.computerweekly.com/news/366614412/Democracy-campaigner-to-sue-Saudi-Arabia-over-Pegasus-and-QuaDream-spyware-in-UK-court\">Democracy campaigner to sue Saudi Arabia over Pegasus and QuaDream spyware in UK court</a>: Pro-democracy campaigner Yahya Assiri permitted to file legal action in London court against Saudi Arabia over its use of Israeli spyware.</li> <li><a href=\"https://www.computerweekly.com/news/366569073/UK-and-France-push-for-international-agreement-on-spyware\">UK and France push for international agreement on spyware</a>: The UK and France host diplomats, big tech companies and civil society groups at London conference targeting the proliferation of spyware tools and ‘hackers for hire’.&nbsp;</li> </ul> </div> </div> <ul class=\"default-list\"></ul> </section>",
     "categories": [
       "Cybersecurity",
       "Networks",
@@ -2142,7 +2346,7 @@
         "ey"
       ]
     },
-    "summary": "<p>The Kingdom of Bahrain cannot claim sovereign immunity to legal action brought by two Bahraini dissidents who accuse it of infecting their computers with German-made spyware, the UK’s <a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)\">Supreme Court has ruled</a>.</p> <p>The dissidents, Saeed Shehabi and Moosa Mohammed<b> </b>allege that the Kingdom of Bahrain infected their computers with <a href=\"https://www.computerweekly.com/feature/The-Macedonian-surveillance-scandal-that-brought-down-a-government\">FinFisher</a> spyware while they were living in London in 2011.</p> <p><a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)%20-%20UK%20Supreme%20Court\">The Supreme Court’s decision</a> is expected to open the way for further legal action against countries that target people living in the UK with surveillance software, said <a href=\"https://www.leighday.co.uk/about-us/our-people/senior-staff/ida-aduwa/\">Ida Aduwa</a>, solicitor at law firm Leigh Day which brought the case.</p> <p>\"This ruling sends a clear message to overseas states that use intrusive surveillance technology against peaceful political activists and others that they will face justice in the courts,” she said.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Court rejects sovereign immunity\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Court rejects sovereign immunity&nbsp;</h2> <p>The Kingdom of Bahrain claimed that under the <a href=\"https://www.legislation.gov.uk/ukpga/1978/33\">State Immunity Act 1978</a>, sovereign states had immunity in cases where the perpetrators, or some of the acts, causing personal injury were not located in the UK.</p> <p>But the Supreme Court, with a majority of 3 to 2, found that modern technology enables surveillance to be carried out remotely and that even if a foreign state conducted a surveillance operation from outside the UK, it would still involve an infringement of UK territorial sovereignty.</p> <p>Shehabi, 71, a journalist and founder of the Bahraini opposition party Al Wefaq<b>, </b>and Mohammed, a pro-democracy activist, allege that their laptops were infected in September 2011 with malicious surveillance software known as FinSpy, made by the Gamma group.</p> <p>They claim that the attacks allowed Bahraini authorities to collect information from their laptops, including messages, emails, calendar records, contact lists, browsing history, photos, databases, documents and video.&nbsp;</p> <p>The software also enabled Bahrain to track the location of their laptops and covertly eavesdrop on conversations by using the laptop’s microphones and cameras.</p> <p>The activists learned that their computers had been hacked in 2014 when WikiLeaks published documents about Bahrain’s use of FinSpy and a research and advocacy organisation,&nbsp;<a href=\"https://web.archive.org/web/20171201000000*/https:/bahrainwatch.org/\">Bahrain Watch</a>, identified them as victims of hacking.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain opposition to Shehabi and Mohammed\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain opposition to Shehabi and Mohammed</h2> <p>The Bahraini government has repeatedly denounced Shehabi - who has lived in the UK since 1973 and gained British citizenship in 2002 - over his political activism. In 2009 his home in the UK was set on fire shortly after two associates who had campaigned against the Bahraini government were beaten up outside Euston station.</p> <p>Mohammed, 45, a photographer and videographer and human rights activist, was repeatedly arrested, detained, tortured and mistreated by the police after taking part in protests in Bahrain. He fled to the UK in 2006 as a refugee and has since been granted indefinite leave to remain in the UK.</p> <p>The Bahraini government has publicly condemned him for helping to organise protests in the UK and publishing accounts of human rights abuses in the Kingdom.</p> <p>In 2021, the Bahraini Ministry of Foreign Affairs included Shehabi and Mohammed on a list of Bahraini nationals who have had their Bahraini citizenship revoked.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain 'can no longer hide'\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain 'can no longer hide'</h2> <p>Speaking after the verdict, Shehabi said that the judgment means the Bahraini regime can no longer hide behind state immunity.</p> <p>“This is not just a victory for us, but for everyone targeted by authoritarian states beyond their own borders. The court's message is clear: states that abuse people on British soil will be held accountable,” he added.</p> <p>Mohammed said that the verdict changed the balance of power between Bahrain and dissidents.</p> <p>“Since I was a teenager, the Bahraini regime has tortured, imprisoned and hunted me."
+    "summary": "<p>The Kingdom of Bahrain cannot claim sovereign immunity to legal action brought by two Bahraini dissidents who accuse it of infecting their computers with German-made spyware, the UK’s <a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)\">Supreme Court has ruled</a>.</p> <p>The dissidents, Saeed Shehabi and Moosa Mohammed,<b> </b>allege that the Kingdom of Bahrain infected their computers with <a href=\"https://www.computerweekly.com/feature/The-Macedonian-surveillance-scandal-that-brought-down-a-government\">FinFisher</a> spyware while they were living in London in 2011.</p> <p><a href=\"The%20Kingdom%20of%20Bahrain%20(Appellant)%20v%20Shehabi%20and%20another%20(Respondents)%20-%20UK%20Supreme%20Court\">The Supreme Court’s decision</a> is expected to open the way for further legal action against countries that target people living in the UK with surveillance software, said <a href=\"https://www.leighday.co.uk/about-us/our-people/senior-staff/ida-aduwa/\">Ida Aduwa</a>, solicitor at law firm Leigh Day, which brought the case.</p> <p>“This ruling sends a clear message to overseas states that use intrusive surveillance technology against peaceful political activists and others that they will face justice in the courts,” she said.</p> <p>The Kingdom of Bahrain claimed that under the <a href=\"https://www.legislation.gov.uk/ukpga/1978/33\">State Immunity Act 1978</a>, sovereign states had immunity in cases where the perpetrators, or some of the acts, causing personal injury were not located in the UK.</p> <p>But the Supreme Court, with a majority of three to two, found that modern technology enables surveillance to be carried out remotely, and that even if a foreign state conducted a surveillance operation from outside the UK, it would still involve an infringement of UK territorial sovereignty.</p> <p>Shehabi, 71, a journalist and founder of Bahraini opposition party Al Wefaq<b>, </b>and Mohammed, a pro-democracy activist, allege that their laptops were infected in September 2011 with malicious surveillance software known as FinSpy, made by the Gamma group.</p> <p>They claim the attacks allowed Bahraini authorities to collect information from their laptops, including messages, emails, calendar records, contact lists, browsing history, photos, databases, documents and videos.&nbsp;</p> <p>The software also enabled Bahrain to track the location of their laptops and covertly eavesdrop on conversations by using the laptop’s microphones and cameras.</p> <p>The activists learned that their computers had been hacked in 2014 when WikiLeaks published documents about Bahrain’s use of FinSpy and a research and advocacy organisation,&nbsp;<a href=\"https://web.archive.org/web/20171201000000*/https:/bahrainwatch.org/\">Bahrain Watch</a>, identified them as victims of hacking.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain opposition to Shehabi and Mohammed\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain opposition to Shehabi and Mohammed</h2> <p>The Bahraini government has repeatedly denounced Shehabi – who has lived in the UK since 1973 and gained British citizenship in 2002 – over his political activism. In 2009, his home in the UK was set on fire shortly after two associates who had campaigned against the Bahraini government were beaten up outside London Euston railway station.</p> <p>Mohammed, 45, a photographer, videographer and human rights activist, was repeatedly arrested, detained, tortured and mistreated by the police after taking part in protests in Bahrain. He fled to the UK in 2006 as a refugee, and has since been granted indefinite leave to remain in the UK.</p> <p>The Bahraini government has publicly condemned him for helping to organise protests in the UK and publishing accounts of human rights abuses in the Kingdom.</p> <p>In 2021, the Bahraini Ministry of Foreign Affairs included Shehabi and Mohammed on a list of Bahraini nationals who have had their Bahraini citizenship revoked.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Bahrain ‘can no longer hide’\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Bahrain ‘can no longer hide’</h2> <p>Speaking after the verdict, Shehabi said the judgment means the Bahraini regime can no longer hide behind state immunity.</p> <p>“This is not just a victory for us, but for everyone targeted by authoritarian states beyond their own borders,” he added. “The court’s message is clear: states that abuse people on British soil will be held accountable.”</p> <p>Mohammed said the verdict changed the balance of power between Bahrain and dissidents.</p> <p>“Since I was a teenager, the Bahraini regime has tortured, imprisoned and hunted me,” he said."
   },
   {
     "title": "Nvidia pushes ahead with security alliance for AI openness",
@@ -2223,7 +2427,7 @@
     "url": "https://www.computerweekly.com/opinion/Why-Some-VMware-customers-pay-for-upgrades-they-never-use",
     "source": "ComputerWeekly",
     "published": "2026-07-27T06:32:00+00:00",
-    "raw_text": "<p>A growing number of VMware customers are doing something that looks contradictory on paper: renewing their <a href=\"https://www.computerweekly.com/news/366645022/Nationwide-bets-on-VCF-as-Broadcom-responds-to-Tesco\">VMware Cloud Foundation (VCF) subscriptions</a> in full, then declining to take the very upgrade those subscriptions exist to fund. They are paying for VCF 9, but they are not installing it.</p> <p>It's a pattern I've watched grow steadily since the Broadcom acquisition, and it isn't a handful of stragglers waiting out a compatibility issue. It's a consistent category of customer behaviour in its own right, sitting somewhere between full migration and full commitment to VCF 9.</p> <p>You might expect the explanation to be technical: a workload that isn't ready, a compatibility issue, a migration too complex to schedule on Broadcom's timetable. There's some truth in that. The obstacles most frequently cited by customers are migration complexity, higher-than-expected alternative costs, and technical barriers. But the concern that ranks above all of those is price: 85% remain worried about further increases, and three in five have already seen renewal costs rise by more than a quarter. Technical readiness explains why some migrations are slow. It doesn't explain why so many customers aren't attempting one at all. What customers are really weighing has little to do with whether VMware still works. It is a question of whether to commit to Broadcom's subscription now, on terms that could look very different by the next renewal, or to hold that decision open for as long as the 2027 deadline allows.</p> <p>That change in direction has a starting point. Broadcom completed its acquisition of VMware in November 2023, and within weeks had stopped selling perpetual licences altogether: every VMware product would be sold as a subscription from that point on, bundled predominantly into VCF. Broadcom also offered VMware vSphere Foundation (VVF), a lighter version of VCF, before withdrawing it from certain markets. Existing perpetual licences weren't revoked, but the support attached to them now had a fixed shelf life rather than an open-ended one. At the time, that looked like a licensing technicality. It is now the deadline shaping almost every conversation customers are having about VMware's future.</p> <section class=\"section main-article-chapter\" data-menu-title=\"A deadline with one official answer\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A deadline with one official answer</h2> <p>That deadline has a fixed point: 11th October 2027, <a href=\"https://www.computerweekly.com/news/366638497/VMware-vSphere-8-end-of-support-challenges\">when general support ends for vSphere 8</a>, the last VMware release still available on a perpetual licence. From that point, the only supported route forward is VCF 9, sold exclusively as a subscription, that finance teams hadn't planned for, and infrastructure teams hadn't requested. There was only one officially sanctioned choice: move onto Broadcom's private cloud platform or lose support entirely.</p> <p>But that's Broadcom's version of the choice. It isn't the only one available. Independent, vendor-agnostic support exists specifically to keep vSphere 8 environments running safely past that date. New security exposures continue to be identified, assessed, and mitigated while the environment remains fully operational, with no requirement to deploy VCF 9. A customer can renew its Broadcom subscription, technically staying current on paper, while the environment doing the work stays on vSphere 8 under independent support. Nothing forces those two things onto the same timeline. The subscription satisfies Broadcom. The support arrangement keeps the business running. Broadcom's deadline doesn't disappear, but it stops being the thing that decides when the money gets spent.</p> <p>That's exactly the position a growing number of organisations have settled into: not a stopgap before a migration everyone assumes is coming, but a genuinely open-ended arrangement, held for as long as VCF 9’s case for that specific business remains unproven.</p> <p>The scale of this shows up in Broadcom's own numbers, too. On paper, this paradox of paying for a replacement with no plan to install it looks like a minority habit: more than 90% of VMware's 10,000 largest accounts have adopted the platform, investors have been told, up from 87% just one quarter earlier.</p> <p>But on those same calls, Broadcom's own CEO has drawn a line between adoption and reality, telling investors directly that a licence bought is not the same thing as a workload deployed at scale. One Forrester analyst has gone further, calculating that the average customer is now renewing only around a quarter of their total VMware estate, even as headline adoption numbers climb. And the top 10,000 accounts, however large individually, are a narrow slice of a customer base numbering in the hundreds of thousands. What looks like near consensus at the top of that list looks considerably less settled the further down it you go. Put plainly: renewing the subscription and declining the upgrade isn't a fringe case.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more VMware stories</h3> <ul class=\"default-list\"> <li>More <a href=\"https://www.techtarget.com/searchdatacenter/news/366645215/More-VMware-customers-jumping-ship-as-contracts-wind-down\">VMware customers</a> jumping ship as contracts wind down: Enterprises have explored new virtualization options for years. With VMware contracts ending, now's the time for many to make the change, as some vendors offer migration incentives.</li> <li>Nutanix CEO maps out agentic AI strategy, targets <a href=\"https://www.computerweekly.com/news/366642824/Nutanix-CEO-maps-out-agentic-AI-strategy-targets-VMware-defectors\">VMware defectors</a>: Rajiv Ramaswami talks up Nutanix’s agentic AI play, the growing demand for sovereign cloud capabilities, and why decoupling storage from HCI is hastening migrations from VMware.</li> </ul> </div> </div> </section> <section class=\"section main-article-chapter\" data-menu-title=\"When frustration goes public\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>When frustration goes public</h2> <p>Most customers can still choose to renew, hold off on deployment, and keep their environment running under independent support while they decide what comes next. Tesco shows what happens when that choice gets forced anyway.</p> <p>Tesco's original VMware contract, covering perpetual licences for vSphere Foundation and Cloud Foundation plus support through January 2026, predates the Broadcom acquisition. When it expired, Broadcom refused to extend standalone support without Tesco signing on to VCF 9. One offer priced a single year of VCF 9 and mainframe support at $23.5 million, which Tesco calculated as a 175% increase on VMware pricing and 350% on its mainframe agreement. Tesco rejected it, and filed a claim in the UK courts against Broadcom, VMware and Computacenter in 2025 seeking damages of at least £100 million, arguing the changes had effectively voided licences it had already paid for.</p> <p><a href=\"https://www.computerweekly.com/news/366645498/Tesco-VMware-migration-shows-backup-incompatibilities\">So what did Tesco do next?</a> It didn't accept Broadcom's terms, and it also didn't go without support. It hired independent providers to keep its VMware estate running while it works through a full migration off VMware, targeted for the end of 2027. It's the same model: independent, vendor-agnostic support keeping a VMware estate running without a Broadcom subscription behind it. Tesco is just applying it under harder conditions, without the option of holding indefinitely, because it has already decided the destination is a full exit rather than an open-ended pause.</p> <p>AT&amp;T’s case followed a similar story, but with a different conclusion. It filed suit in New York in August 2024, alleging Broadcom was retroactively rewriting licences it had already paid for and demanding hundreds of millions of dollars in bundled commitments it hadn't asked for. The case reached a settlement in principle three months later, before trial.</p> <p>These are two large, well-resourced customers, faced with the same problem, and making the same initial call: contest the terms rather than accept them.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"A decision, not a delay\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A decision, not a delay</h2> <p>It’s tempting to read the far more common choice for most customers in this bind – renewing and declining to deploy – as stalling. It isn't. It's the same mechanism Tesco is using in public, applied earlier and with less friction: keep the environment that already works running under independent support, and use the time that buys to decide, on your own schedule, whether VCF 9 is where the next pound of capital should go.</p> <p>That answer doesn’t undo the eventual decision. It changes who sets the timetable for making it. For as long as independent support keeps the environment fully operational, that timetable belongs to the customer, not Broadcom.</p> <p>The 2027 deadline is real, and it isn’t moving. But on its own, it doesn't decide whether these organisations modernise their infrastructure. It decides who controls the pace of that decision: Broadcom, through its subscription terms, or the customer, through support options Broadcom has no ability to withdraw. A growing number of organisations have already made that choice and are paying to stay on their preferred infrastructure for as long as it takes to be sure.</p> <p><a href=\"https://www.linkedin.com/company/spinnaker-support/posts/?feedView=all\">Shane O’Rourke</a>, is vice president, global support services, VMware at Spinnaker Support</p> </section>",
+    "raw_text": "<p>A growing number of VMware customers are doing something that looks contradictory on paper: renewing their <a href=\"https://www.computerweekly.com/news/366645022/Nationwide-bets-on-VCF-as-Broadcom-responds-to-Tesco\">VMware Cloud Foundation (VCF) subscriptions</a> in full, then declining to take the very upgrade those subscriptions exist to fund. They are paying for VCF 9, but they are not installing it.</p> <p>It's a pattern I've watched grow steadily since the Broadcom acquisition, and it isn't a handful of stragglers waiting out a compatibility issue. It's a consistent category of customer behaviour in its own right, sitting somewhere between full migration and full commitment to VCF 9.</p> <p>You might expect the explanation to be technical: a workload that isn't ready, a compatibility issue, a migration too complex to schedule on Broadcom's timetable. There's some truth in that. The obstacles most frequently cited by customers are migration complexity, higher-than-expected alternative costs, and technical barriers. But the concern that ranks above all of those is price: 85% remain worried about further increases, and three in five have already seen renewal costs rise by more than a quarter. Technical readiness explains why some migrations are slow. It doesn't explain why so many customers aren't attempting one at all. What customers are really weighing has little to do with whether VMware still works. It is a question of whether to commit to Broadcom's subscription now, on terms that could look very different by the next renewal, or to hold that decision open for as long as the 2027 deadline allows.</p> <p>That change in direction has a starting point. Broadcom completed its acquisition of VMware in November 2023, and within weeks had stopped selling perpetual licences altogether: every VMware product would be sold as a subscription from that point on, bundled predominantly into VCF. Broadcom also offered VMware vSphere Foundation (VVF), a lighter version of VCF, before withdrawing it from certain markets. Existing perpetual licences weren't revoked, but the support attached to them now had a fixed shelf life rather than an open-ended one. At the time, that looked like a licensing technicality. It is now the deadline shaping almost every conversation customers are having about VMware's future.</p> <section class=\"section main-article-chapter\" data-menu-title=\"A deadline with one official answer\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A deadline with one official answer</h2> <p>That deadline has a fixed point: 11 October 2027, <a href=\"https://www.computerweekly.com/news/366638497/VMware-vSphere-8-end-of-support-challenges\">when general support ends for vSphere 8</a>, the last VMware release still available on a perpetual licence. From that point, the only supported route forward is VCF 9, sold exclusively as a subscription, that finance teams hadn't planned for, and infrastructure teams hadn't requested. There was only one officially sanctioned choice: move onto Broadcom's private cloud platform or lose support entirely.</p> <p>But that's Broadcom's version of the choice. It isn't the only one available. Independent, vendor-agnostic support exists specifically to keep vSphere 8 environments running safely past that date. New security exposures continue to be identified, assessed, and mitigated while the environment remains fully operational, with no requirement to deploy VCF 9. A customer can renew its Broadcom subscription, technically staying current on paper, while the environment doing the work stays on vSphere 8 under independent support. Nothing forces those two things onto the same timeline. The subscription satisfies Broadcom. The support arrangement keeps the business running. Broadcom's deadline doesn't disappear, but it stops being the thing that decides when the money gets spent.</p> <p>That's exactly the position a growing number of organisations have settled into: not a stopgap before a migration everyone assumes is coming, but a genuinely open-ended arrangement, held for as long as VCF 9’s case for that specific business remains unproven.</p> <p>The scale of this shows up in Broadcom's own numbers, too. On paper, this paradox of paying for a replacement with no plan to install it looks like a minority habit: more than 90% of VMware's 10,000 largest accounts have adopted the platform, investors have been told, up from 87% just one quarter earlier.</p> <p>But on those same calls, Broadcom's own CEO has drawn a line between adoption and reality, telling investors directly that a licence bought is not the same thing as a workload deployed at scale. One Forrester analyst has gone further, calculating that the average customer is now renewing only around a quarter of their total VMware estate, even as headline adoption numbers climb. And the top 10,000 accounts, however large individually, are a narrow slice of a customer base numbering in the hundreds of thousands. What looks like near consensus at the top of that list looks considerably less settled the further down it you go. Put plainly: renewing the subscription and declining the upgrade isn't a fringe case.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more VMware stories</h3> <ul class=\"default-list\"> <li>More <a href=\"https://www.techtarget.com/searchdatacenter/news/366645215/More-VMware-customers-jumping-ship-as-contracts-wind-down\">VMware customers</a> jumping ship as contracts wind down: Enterprises have explored new virtualization options for years. With VMware contracts ending, now's the time for many to make the change, as some vendors offer migration incentives.</li> <li>Nutanix CEO maps out agentic AI strategy, targets <a href=\"https://www.computerweekly.com/news/366642824/Nutanix-CEO-maps-out-agentic-AI-strategy-targets-VMware-defectors\">VMware defectors</a>: Rajiv Ramaswami talks up Nutanix’s agentic AI play, the growing demand for sovereign cloud capabilities, and why decoupling storage from HCI is hastening migrations from VMware.</li> </ul> </div> </div> </section> <section class=\"section main-article-chapter\" data-menu-title=\"When frustration goes public\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>When frustration goes public</h2> <p>Most customers can still choose to renew, hold off on deployment, and keep their environment running under independent support while they decide what comes next. Tesco shows what happens when that choice gets forced anyway.</p> <p>Tesco's original VMware contract, covering perpetual licences for vSphere Foundation and Cloud Foundation plus support through January 2026, predates the Broadcom acquisition. When it expired, Broadcom refused to extend standalone support without Tesco signing on to VCF 9. One offer priced a single year of VCF 9 and mainframe support at $23.5 million, which Tesco calculated as a 175% increase on VMware pricing and 350% on its mainframe agreement. Tesco rejected it, and filed a claim in the UK courts against Broadcom, VMware and Computacenter in 2025 seeking damages of at least £100 million, arguing the changes had effectively voided licences it had already paid for.</p> <p><a href=\"https://www.computerweekly.com/news/366645498/Tesco-VMware-migration-shows-backup-incompatibilities\">So what did Tesco do next?</a> It didn't accept Broadcom's terms, and it also didn't go without support. It hired independent providers to keep its VMware estate running while it works through a full migration off VMware, targeted for the end of 2027. It's the same model: independent, vendor-agnostic support keeping a VMware estate running without a Broadcom subscription behind it. Tesco is just applying it under harder conditions, without the option of holding indefinitely, because it has already decided the destination is a full exit rather than an open-ended pause.</p> <p>AT&amp;T’s case followed a similar story, but with a different conclusion. It filed suit in New York in August 2024, alleging Broadcom was retroactively rewriting licences it had already paid for and demanding hundreds of millions of dollars in bundled commitments it hadn't asked for. The case reached a settlement in principle three months later, before trial.</p> <p>These are two large, well-resourced customers, faced with the same problem, and making the same initial call: contest the terms rather than accept them.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"A decision, not a delay\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A decision, not a delay</h2> <p>It’s tempting to read the far more common choice for most customers in this bind – renewing and declining to deploy – as stalling. It isn't. It's the same mechanism Tesco is using in public, applied earlier and with less friction: keep the environment that already works running under independent support, and use the time that buys to decide, on your own schedule, whether VCF 9 is where the next pound of capital should go.</p> <p>That answer doesn’t undo the eventual decision. It changes who sets the timetable for making it. For as long as independent support keeps the environment fully operational, that timetable belongs to the customer, not Broadcom.</p> <p>The 2027 deadline is real, and it isn’t moving. But on its own, it doesn't decide whether these organisations modernise their infrastructure. It decides who controls the pace of that decision: Broadcom, through its subscription terms, or the customer, through support options Broadcom has no ability to withdraw. A growing number of organisations have already made that choice and are paying to stay on their preferred infrastructure for as long as it takes to be sure.</p> <p><em><a href=\"https://www.linkedin.com/company/spinnaker-support/posts/?feedView=all\">Shane O’Rourke</a>, is vice president, global support services, VMware at Spinnaker Support.</em></p> </section>",
     "categories": [
       "Industry & Market",
       "Cloud Infrastructure",
@@ -2365,6 +2569,34 @@
       ]
     },
     "summary": "<p>For years, sanctions compliance in software companies has been somebody else’s job. The working assumption ran roughly as follows:</p> <ul class=\"default-list\"> <li>do not take payment from a designated customer;</li> <li>screen the customer list;</li> <li>get a legal and finance deal with the US Sanctions agency, the <a href=\"https://ofac.treasury.gov/\">Office of Foreign Assets and Control</a> (OFAC).</li> </ul> <p>A £1m penalty from the UK’s sanctions regulator suggests that division of labour no longer holds. Blocking payments is not enough, and screening is useful only if it triggered the rapid suspension of the service. The people who most need to read the decision are engineers rather than compliance officers.</p> <section class=\"section main-article-chapter\" data-menu-title=\"What happened\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>What happened</h2> <p><a href=\"https://www.gov.uk/government/organisations/office-of-financial-sanctions-implementation\">The Office of Financial Sanctions Implementation</a> <a href=\"https://www.gov.uk/government/news/uk-issues-largest-penalty-for-financial-sanctions-breaches-since-russias-2022-illegal-invasion-of-ukraine\">imposed a penalty of £1,000,920.59</a> on Sabre Global Technologies Limited, the UK arm of the travel technology group, published in June for three breaches of the Russia (Sanctions) (EU Exit) Regulations 2019 (<a href=\"https://www.legislation.gov.uk/uksi/2019/855/contents\">the Russia Regulations</a>)."
+  },
+  {
+    "title": "Get Spotify's student discount plus Hulu for just $6 a month - here's how",
+    "url": "https://www.zdnet.com/article/how-to-get-a-spotify-premium-student-discount/",
+    "source": "ZDNet",
+    "published": "2026-07-28T09:00:35+00:00",
+    "raw_text": "If you're a college student, Spotify has an exclusive bundle that can save you cash on music and streaming. Here's how to get it.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "If you're a college student, Spotify has an exclusive bundle that can save you cash on music and streaming. Here's how to get it."
+  },
+  {
+    "title": "I wore the two best Amazfit smartwatches for a month - Is the flagship worth $230 more?",
+    "url": "https://www.zdnet.com/article/amazfit-cheetah-2-ultra-vs-amazfit-balance-3/",
+    "source": "ZDNet",
+    "published": "2026-07-28T08:30:42+00:00",
+    "raw_text": "Is the Amazfit Cheetah 2 Ultra worth the extra cost versus the Amazfit Balance 3? Here's what I found after living with both for a month.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Is the Amazfit Cheetah 2 Ultra worth the extra cost versus the Amazfit Balance 3? Here's what I found after living with both for a month."
   },
   {
     "title": "RAM costs more for phones, too - so how much do you actually need?",
@@ -2544,16 +2776,506 @@
     "summary": "Samsung's new foldables are impressive, but how different are they really, by the specs? Let's compare."
   },
   {
-    "title": "Samsung Galaxy Z Fold 8 Ultra vs. Motorola Razr Ultra: How Samsung fares against its foldable rival",
-    "url": "https://www.zdnet.com/article/galaxy-z-fold-8-ultra-vs-motorola-razr-ultra-comparison/",
-    "source": "ZDNet",
-    "published": "2026-07-26T08:00:40+00:00",
-    "raw_text": "Samsung isn't the only brand with flagship foldables. Here's how it compares to Motorola's Razr Ultra - one of my favorite phones of the year.",
+    "title": "Flipster Secures VARA Full Operational Exchange License, Advancing Regulated Crypto Services in the UAE",
+    "url": "https://www.prnewswire.com/news-releases/flipster-secures-vara-full-operational-exchange-license-advancing-regulated-crypto-services-in-the-uae-302836310.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T09:09:00+00:00",
+    "raw_text": "DUBAI, UAE, July 28, 2026 /PRNewswire/ -- Flipster, a global cryptocurrency trading platform, has secured a full operational Exchange license (License No. VL/26/07/002) from Dubai's Virtual Assets Regulatory Authority (VARA) under Flipster FZE. This milestone enables Flipster to...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "regulatory"
+      ]
+    },
+    "summary": "DUBAI, UAE, July 28, 2026 /PRNewswire/ -- Flipster, a global cryptocurrency trading platform, has secured a full operational Exchange license (License No. VL/26/07/002) from Dubai's Virtual Assets Regulatory Authority (VARA) under Flipster FZE. This milestone enables Flipster to..."
+  },
+  {
+    "title": "Global Times: 'China Shock 2.0' is a misleading narrative; 'China Opportunity 2.0' represents consensus",
+    "url": "https://www.prnewswire.com/news-releases/global-times-china-shock-2-0-is-a-misleading-narrative-china-opportunity-2-0-represents-consensus-302836303.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T09:04:00+00:00",
+    "raw_text": "BEIJING, July 28, 2026 /PRNewswire/ -- For some time, certain Western politicians and media outlets have repeatedly hyped up the narrative of a \"China Shock 2.0.\" They distort China's industrial upgrading and foreign trade growth in sectors such as artificial intelligence (AI), new energy...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "BEIJING, July 28, 2026 /PRNewswire/ -- For some time, certain Western politicians and media outlets have repeatedly hyped up the narrative of a \"China Shock 2.0.\" They distort China's industrial upgrading and foreign trade growth in sectors such as artificial intelligence (AI), new energy..."
+  },
+  {
+    "title": "Cognizant startet eine KI-Einheit für die EMEA-Region, um Unternehmen bei der Skalierung des Einsatzes von agentenbasierter KI zu unterstützen",
+    "url": "https://www.prnewswire.com/news-releases/cognizant-startet-eine-ki-einheit-fur-die-emea-region-um-unternehmen-bei-der-skalierung-des-einsatzes-von-agentenbasierter-ki-zu-unterstutzen-302836282.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T09:00:00+00:00",
+    "raw_text": "Die Einheit stellt zweckgerichtete Teams bereit, die Kunden dabei unterstützen, den Übergang von KI-Pilotprojekten zu skalierbaren Ergebnissen zu meistern. LONDON, 28. Juli 2026 /PRNewswire/ -- Cognizant (NASDAQ: CTSH) gab heute die Gründung seiner EMEA-KI-Einheit bekannt, einer...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Samsung isn't the only brand with flagship foldables. Here's how it compares to Motorola's Razr Ultra - one of my favorite phones of the year."
+    "summary": "Die Einheit stellt zweckgerichtete Teams bereit, die Kunden dabei unterstützen, den Übergang von KI-Pilotprojekten zu skalierbaren Ergebnissen zu meistern. LONDON, 28. Juli 2026 /PRNewswire/ -- Cognizant (NASDAQ: CTSH) gab heute die Gründung seiner EMEA-KI-Einheit bekannt, einer..."
+  },
+  {
+    "title": "Lowcountry Male and Aqua Vitae Expand to Jacksonville, Marking Company's 10th Location During 10th Year in Business, Bringing Trusted Clinic to Florida",
+    "url": "https://www.prnewswire.com/news-releases/lowcountry-male-and-aqua-vitae-expand-to-jacksonville-marking-companys-10th-location-during-10th-year-in-business-bringing-trusted-clinic-to-florida-302834574.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T09:00:00+00:00",
+    "raw_text": "JACKSONVILLE, Fla., July 28, 2026 /PRNewswire/ -- Lowcountry Male and Aqua Vitae, leading providers of hormone optimization, medical weight loss, sexual wellness, peptide therapy and preventative healthcare services, today announced the transition of Alpha Clinic of Jacksonville, located...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "JACKSONVILLE, Fla., July 28, 2026 /PRNewswire/ -- Lowcountry Male and Aqua Vitae, leading providers of hormone optimization, medical weight loss, sexual wellness, peptide therapy and preventative healthcare services, today announced the transition of Alpha Clinic of Jacksonville, located..."
+  },
+  {
+    "title": "Cognizant launches EMEA AI Unit to help enterprises scale agentic AI adoption",
+    "url": "https://www.prnewswire.com/news-releases/cognizant-launches-emea-ai-unit-to-help-enterprises-scale-agentic-ai-adoption-302835936.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T09:00:00+00:00",
+    "raw_text": "Unit will provide fit-for-purpose teams that can help clients build the bridge from AI pilots to scalable outcomes LONDON, July 28, 2026 /PRNewswire/ -- Cognizant (NASDAQ: CTSH) today announced the launch of its EMEA AI Unit, a dedicated organization created to help enterprises across...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Unit will provide fit-for-purpose teams that can help clients build the bridge from AI pilots to scalable outcomes LONDON, July 28, 2026 /PRNewswire/ -- Cognizant (NASDAQ: CTSH) today announced the launch of its EMEA AI Unit, a dedicated organization created to help enterprises across..."
+  },
+  {
+    "title": "Neste supports the Tara Ocean Foundation's first-ever 18-month drift expedition to the Central Arctic Ocean",
+    "url": "https://www.prnewswire.com/news-releases/neste-supports-the-tara-ocean-foundations-first-ever-18-month-drift-expedition-to-the-central-arctic-ocean-302836290.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:53:00+00:00",
+    "raw_text": "ESPOO, Finland, July 28, 2026 /PRNewswire/ -- The Tara Ocean Foundation, a French foundation dedicated to ocean conservation, will embark on the Tara Polaris 1 scientific expedition to the Arctic to continue its work of monitoring climate change and researching its impact on the ocean....",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "ESPOO, Finland, July 28, 2026 /PRNewswire/ -- The Tara Ocean Foundation, a French foundation dedicated to ocean conservation, will embark on the Tara Polaris 1 scientific expedition to the Arctic to continue its work of monitoring climate change and researching its impact on the ocean...."
+  },
+  {
+    "title": "Micross to Acquire AEMtec, Significantly Expanding European Footprint in Advanced Packaging and Optoelectronics",
+    "url": "https://www.prnewswire.com/news-releases/micross-to-acquire-aemtec-significantly-expanding-european-footprint-in-advanced-packaging-and-optoelectronics-302835655.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:30:00+00:00",
+    "raw_text": "Acquisition Broadens Micross' Advanced Packaging, Photonics and Test Capabilities and Expands Its Reach into the European Market MELVILLE, N.Y., July 28, 2026 /PRNewswire/ -- Micross Components, Inc. (\"Micross\" or the \"Company\"), a leading provider of high-reliability microelectronic...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquisition",
+        "expands"
+      ]
+    },
+    "summary": "Acquisition Broadens Micross' Advanced Packaging, Photonics and Test Capabilities and Expands Its Reach into the European Market MELVILLE, N.Y., July 28, 2026 /PRNewswire/ -- Micross Components, Inc. (\"Micross\" or the \"Company\"), a leading provider of high-reliability microelectronic..."
+  },
+  {
+    "title": "Hub Group, Inc. Investor Alert: Contact SBS by August 28, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-investor-alert-contact-sbs-by-august-28-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835907.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:09:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub\" or \"the Company\") (NASDAQ: HUBG) violations of §§10(b) and 20(a) of the Securities Exchange Act...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub\" or \"the Company\") (NASDAQ: HUBG) violations of §§10(b) and 20(a) of the Securities Exchange Act..."
+  },
+  {
+    "title": "GPGI, Inc. Investor Alert: Contact SBS by September 15, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/gpgi-inc-investor-alert-contact-sbs-by-september-15-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835920.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:08:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GPGI, Inc. f/k/a CompoSecure, Inc. (\"GPGI\" or \"the Company\") (NYSE: GPGI) for violations of §§10(b) and 20(a) of the...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GPGI, Inc. f/k/a CompoSecure, Inc. (\"GPGI\" or \"the Company\") (NYSE: GPGI) for violations of §§10(b) and 20(a) of the..."
+  },
+  {
+    "title": "GRAIL, Inc. Investor Alert: Contact SBS by August 4, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/grail-inc-investor-alert-contact-sbs-by-august-4-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835928.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:08:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GRAIL, Inc. (\"Grail\" or \"the Company\") (NASDAQ: GRAL) for violations of §§10(b) and 20(a) of the Securities Exchange...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GRAIL, Inc. (\"Grail\" or \"the Company\") (NASDAQ: GRAL) for violations of §§10(b) and 20(a) of the Securities Exchange..."
+  },
+  {
+    "title": "Insulet Corporation Investor Alert: Contact SBS by August 31, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/insulet-corporation-investor-alert-contact-sbs-by-august-31-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835906.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:08:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Insulet Corporation (\"Insulet\" or \"the Company\") (NASDAQ: PODD) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Insulet Corporation (\"Insulet\" or \"the Company\") (NASDAQ: PODD) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "Genius Group Limited Investor Alert: Contact SBS by August 28, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/genius-group-limited-investor-alert-contact-sbs-by-august-28-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835924.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:07:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Genius Group Limited (\"Genius\" or \"the Company\") (NYSE American: GNS) for violations of §§10(b) and 20(a) of the...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Genius Group Limited (\"Genius\" or \"the Company\") (NYSE American: GNS) for violations of §§10(b) and 20(a) of the..."
+  },
+  {
+    "title": "Erasca, Inc. Investor Alert: Contact SBS by August 10, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/erasca-inc-investor-alert-contact-sbs-by-august-10-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835926.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:06:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Erasca, Inc. (\"Erasca\" or \"the Company\") (NASDAQ: ERAS) for violations of §§10(b) and 20(a) of the Securities Exchange..."
+  },
+  {
+    "title": "WGS Deadline: WGS Investors Have Opportunity to Lead GeneDx Holdings Corp. Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/wgs-deadline-wgs-investors-have-opportunity-to-lead-genedx-holdings-corp-securities-fraud-lawsuit-302835902.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:05:00+00:00",
+    "raw_text": "NEW YORK, July 28, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of GeneDx Holdings Corp. (NASDAQ: WGS) between April 16, 2025 and May 4, 2026, inclusive (the \"Class Period\"), of the important August 3, 2026 lead plaintiff...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "NEW YORK, July 28, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of GeneDx Holdings Corp. (NASDAQ: WGS) between April 16, 2025 and May 4, 2026, inclusive (the \"Class Period\"), of the important August 3, 2026 lead plaintiff..."
+  },
+  {
+    "title": "Calix, Inc. Investor Alert: Contact SBS by July 27, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/calix-inc-investor-alert-contact-sbs-by-july-27-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835900.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:05:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Calix, Inc. (\"Calix\" or \"the Company\") (NYSE: CALX) violations of §§10(b) and 20(a) of the Securities Exchange Act of...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Calix, Inc. (\"Calix\" or \"the Company\") (NYSE: CALX) violations of §§10(b) and 20(a) of the Securities Exchange Act of..."
+  },
+  {
+    "title": "GeneDx Holdings Corp. Investor Alert: Contact SBS by August 3, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/genedx-holdings-corp-investor-alert-contact-sbs-by-august-3-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835917.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:05:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "BitGo Holdings, Inc. Investor Alert: Contact SBS by August 7, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/bitgo-holdings-inc-investor-alert-contact-sbs-by-august-7-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835913.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:04:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against BitGo Holdings, Inc. (\"BitGo\" or \"the Company\") (NYSE: BTGO) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "Embecta Corp. Investor Alert: Contact SBS by August 17, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/embecta-corp-investor-alert-contact-sbs-by-august-17-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835910.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:03:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Embecta Corp. (\"Embecta\" or \"the Company\") (NASDAQ: EMBC) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "First Solar, Inc. Investor Alert: Contact SBS by August 24, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/first-solar-inc-investor-alert-contact-sbs-by-august-24-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302835911.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:03:00+00:00",
+    "raw_text": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, July 28, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "Building rockets like cars: Chairman of CAS Space",
+    "url": "https://www.prnewswire.com/news-releases/building-rockets-like-cars-chairman-of-cas-space-302836238.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-28T08:03:00+00:00",
+    "raw_text": "GUANGZHOU, China, July 27, 2026 /PRNewswire/ -- This is a news report from South: Guangdong has launched the \"Beacon Over Lingnan\" video series across major online platforms since June 27. The second episode features a dialogue with Yang Yiqiang, Chairman of CAS Space Technology Co., Ltd....",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "GUANGZHOU, China, July 27, 2026 /PRNewswire/ -- This is a news report from South: Guangdong has launched the \"Beacon Over Lingnan\" video series across major online platforms since June 27. The second episode features a dialogue with Yang Yiqiang, Chairman of CAS Space Technology Co., Ltd...."
+  },
+  {
+    "title": "CSG expands its digital airspace management portfolio with the launch of UpVision’s MAIA platform",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334046/0/en/CSG-expands-its-digital-airspace-management-portfolio-with-the-launch-of-UpVision-s-MAIA-platform.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T09:06:00+00:00",
+    "raw_text": "CSG continues to systematically strengthen its technological capabilities in aerospace and modern airspace management. Building on its expertise in radar systems, air traffic management technologies, data processing software and unmanned systems, the Group is now expanding its portfolio with the MAIA software platform. Developed by UpVision, a member of CSG’s Aerospace & Defence Electronics division, MAIA is now being launched to the market. The platform enables digital airspace management by connecting drone operators with the services and organisations responsible for ensuring the safe operation of unmanned aircraft. It represents another important layer of digital infrastructure, enabling the safe coordination of a rapidly growing number of drones alongside other airspace users.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "CSG continues to systematically strengthen its technological capabilities in aerospace and modern airspace management. Building on its expertise in radar systems, air traffic management technologies, data processing software and unmanned systems, the Group is now expanding its portfolio with the MAIA software platform. Developed by UpVision, a member of CSG’s Aerospace & Defence Electronics division, MAIA is now being launched to the market. The platform enables digital airspace management by connecting drone operators with the services and organisations responsible for ensuring the safe operation of unmanned aircraft."
+  },
+  {
+    "title": "GDS Releases 2025 Sustainability Report, Achieving MSCI AAA Rating",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334040/0/en/GDS-Releases-2025-Sustainability-Report-Achieving-MSCI-AAA-Rating.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:33:00+00:00",
+    "raw_text": "SHANGHAI, China, July 28, 2026 (GLOBE NEWSWIRE) -- GDS Holdings Limited (“GDS Holdings”, “GDS” or the “Company”) (NASDAQ: GDS; HKEX: 9698), a leading developer and operator of high-performance data centers in China, today released its 2025 Sustainability Report, demonstrating accelerated progress across its decarbonization roadmap and sustainability performance.",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "SHANGHAI, China, July 28, 2026 (GLOBE NEWSWIRE) -- GDS Holdings Limited (“GDS Holdings”, “GDS” or the “Company”) (NASDAQ: GDS; HKEX: 9698), a leading developer and operator of high-performance data centers in China, today released its 2025 Sustainability Report, demonstrating accelerated progress across its decarbonization roadmap and sustainability performance."
+  },
+  {
+    "title": "加冕時刻，優雅同行 —— LEPAS L8 PHEV 復刻賽場均衡底氣",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334038/0/zh-hant/%E5%8A%A0%E5%86%95%E6%99%82%E5%88%BB-%E5%84%AA%E9%9B%85%E5%90%8C%E8%A1%8C-LEPAS-L8-PHEV-%E5%BE%A9%E5%88%BB%E8%B3%BD%E5%A0%B4%E5%9D%87%E8%A1%A1%E5%BA%95%E6%B0%A3.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:14:00+00:00",
+    "raw_text": "中國蕪湖, July 28, 2026 (GLOBE NEWSWIRE) -- LEPAS是奇瑞集團旗下中高端新能源品牌，現正式在全球市場推出LEPAS L8 PHEV，藉著前沿混動技術、智能駕駛與精緻設計，為優雅出行賦予全新內涵。LEPAS L8 PHEV從全球足壇冠軍身上汲取靈感——這份從容、精準與堅韌，與品牌標誌性的「豹麗美學」設計理念和LEPAS的超級混動系統深度融合，為全球追求智能優雅出行的消費者帶來自信從容的操控表現、超長續航里程以及富有一致層次的駕乘體驗。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "中國蕪湖, July 28, 2026 (GLOBE NEWSWIRE) -- LEPAS是奇瑞集團旗下中高端新能源品牌，現正式在全球市場推出LEPAS L8 PHEV，藉著前沿混動技術、智能駕駛與精緻設計，為優雅出行賦予全新內涵。LEPAS L8 PHEV從全球足壇冠軍身上汲取靈感——這份從容、精準與堅韌，與品牌標誌性的「豹麗美學」設計理念和LEPAS的超級混動系統深度融合，為全球追求智能優雅出行的消費者帶來自信從容的操控表現、超長續航里程以及富有一致層次的駕乘體驗。"
+  },
+  {
+    "title": "McVitie's owner sets 2030 target to double sales of products with a better nutritional balance",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334029/0/en/McVitie-s-owner-sets-2030-target-to-double-sales-of-products-with-a-better-nutritional-balance.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "LONDON, July 28, 2026 (GLOBE NEWSWIRE) -- The company behind McVitie’s, GODIVA and Ülker has pledged to double the volume of products it sells with lower levels of sugar, salt and saturated fat, and higher levels of nutrients such as fibre and protein, by 2030.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "LONDON, July 28, 2026 (GLOBE NEWSWIRE) -- The company behind McVitie’s, GODIVA and Ülker has pledged to double the volume of products it sells with lower levels of sugar, salt and saturated fat, and higher levels of nutrients such as fibre and protein, by 2030."
+  },
+  {
+    "title": "Le propriétaire de McVitie’s fixe pour 2030 l’objectif de doubler les ventes de produits présentant un meilleur équilibre nutritionnel",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334029/0/fr/Le-propri%C3%A9taire-de-McVitie-s-fixe-pour-2030-l-objectif-de-doubler-les-ventes-de-produits-pr%C3%A9sentant-un-meilleur-%C3%A9quilibre-nutritionnel.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "LONDRES, 28 juill. 2026 (GLOBE NEWSWIRE) -- L’entreprise à l’origine de McVitie’s, GODIVA et Ülker s’est engagée à doubler, d’ici 2030, le volume de produits qu’elle commercialise contenant moins de sucre, de sel et de graisses saturées, et davantage de nutriments tels que les fibres et les protéines.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LONDRES, 28 juill. 2026 (GLOBE NEWSWIRE) -- L’entreprise à l’origine de McVitie’s, GODIVA et Ülker s’est engagée à doubler, d’ici 2030, le volume de produits qu’elle commercialise contenant moins de sucre, de sel et de graisses saturées, et davantage de nutriments tels que les fibres et les protéines."
+  },
+  {
+    "title": "Eigenaar van McVitie’s stelt doel voor 2030: verdubbeling van de verkoop van producten met een betere voedingsbalans",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334029/0/nl/Eigenaar-van-McVitie-s-stelt-doel-voor-2030-verdubbeling-van-de-verkoop-van-producten-met-een-betere-voedingsbalans.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "LONDEN, July 28, 2026 (GLOBE NEWSWIRE) -- Het bedrijf achter McVitie’s, GODIVA en Ülker heeft toegezegd om tegen 2030 het volume van de producten die het verkoopt met lagere gehaltes aan suiker, zout en verzadigde vetten, en hogere gehaltes aan voedingsstoffen zoals vezels en eiwitten, te verdubbelen.",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "edr"
+      ]
+    },
+    "summary": "LONDEN, July 28, 2026 (GLOBE NEWSWIRE) -- Het bedrijf achter McVitie’s, GODIVA en Ülker heeft toegezegd om tegen 2030 het volume van de producten die het verkoopt met lagere gehaltes aan suiker, zout en verzadigde vetten, en hogere gehaltes aan voedingsstoffen zoals vezels en eiwitten, te verdubbelen."
+  },
+  {
+    "title": "McVitie's 母公司设定 2030 年目标：营养结构更优产品的销量翻番",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334029/0/zh-hans/McVitie-s-%E6%AF%8D%E5%85%AC%E5%8F%B8%E8%AE%BE%E5%AE%9A-2030-%E5%B9%B4%E7%9B%AE%E6%A0%87-%E8%90%A5%E5%85%BB%E7%BB%93%E6%9E%84%E6%9B%B4%E4%BC%98%E4%BA%A7%E5%93%81%E7%9A%84%E9%94%80%E9%87%8F%E7%BF%BB%E7%95%AA.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "伦敦, July 28, 2026 (GLOBE NEWSWIRE) -- McVitie's、GODIVA 和 Ülker 的母公司承诺，到 2030 年将其低糖、低盐、低饱和脂肪且富含纤维、蛋白质等营养素的产品销量翻倍。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "伦敦, July 28, 2026 (GLOBE NEWSWIRE) -- McVitie's、GODIVA 和 Ülker 的母公司承诺，到 2030 年将其低糖、低盐、低饱和脂肪且富含纤维、蛋白质等营养素的产品销量翻倍。"
+  },
+  {
+    "title": "McVitie's की पैरेंट कंपनी का 2030 तक बेहतर न्यूट्रिशन वाले प्रोडक्ट्स की सेल दोगुनी करने का लक्ष्य",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334029/0/hi/McVitie-s-%E0%A4%95-%E0%A4%AA%E0%A5%88%E0%A4%B0%E0%A5%87%E0%A4%82%E0%A4%9F-%E0%A4%95%E0%A4%82%E0%A4%AA%E0%A4%A8-%E0%A4%95-2030-%E0%A4%A4%E0%A4%95-%E0%A4%AC%E0%A5%87%E0%A4%B9%E0%A4%A4%E0%A4%B0-%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A5%8D%E0%A4%B0-%E0%A4%B6%E0%A4%A8-%E0%A4%B5-%E0%A4%B2%E0%A5%87-%E0%A4%AA%E0%A5%8D%E0%A4%B0-%E0%A4%A1%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B8-%E0%A4%95-%E0%A4%B8%E0%A5%87%E0%A4%B2-%E0%A4%A6-%E0%A4%97%E0%A5%81%E0%A4%A8-%E0%A4%95%E0%A4%B0%E0%A4%A8%E0%A5%87-%E0%A4%95-%E0%A4%B2%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A5%8D%E0%A4%AF.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "लंदन, July 28, 2026 (GLOBE NEWSWIRE) -- McVitie’s, GODIVA और Ülker की मालिकाना कंपनी ने 2030 तक अपने उन प्रोडक्ट्स की सेल दोगुनी करने का संकल्प लिया है, जिनमें चीनी, नमक और सैचुरेटेड फैट की मात्रा कम हो और फाइबर व प्रोटीन जैसे पोषक तत्व ज्यादा हों।",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "लंदन, July 28, 2026 (GLOBE NEWSWIRE) -- McVitie’s, GODIVA और Ülker की मालिकाना कंपनी ने 2030 तक अपने उन प्रोडक्ट्स की सेल दोगुनी करने का संकल्प लिया है, जिनमें चीनी, नमक और सैचुरेटेड फैट की मात्रा कम हो और फाइबर व प्रोटीन जैसे पोषक तत्व ज्यादा हों।"
+  },
+  {
+    "title": "الشركة المالكة لعلامة McVitie's تضع هدفًا لمضاعفة مبيعات المنتجات ذات التوازن الغذائي الأفضل بحلول عام 2030",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334029/0/ar/%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%83%D8%A9-%D9%84%D8%B9%D9%84%D8%A7%D9%85%D8%A9-McVitie-s-%D8%AA%D8%B6%D8%B9-%D9%87%D8%AF%D9%81%D9%8B%D8%A7-%D9%84%D9%85%D8%B6%D8%A7%D8%B9%D9%81%D8%A9-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D8%B0%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B2%D9%86-%D8%A7%D9%84%D8%BA%D8%B0%D8%A7%D8%A6%D9%8A-%D8%A7%D9%84%D8%A3%D9%81%D8%B6%D9%84-%D8%A8%D8%AD%D9%84%D9%88%D9%84-%D8%B9%D8%A7%D9%85-2030.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "لندن, July 28, 2026 (GLOBE NEWSWIRE) -- أعلنت الشركة المالكة لعلامات McVitie's وGODIVA وÜlker التزامها بمضاعفة حجم مبيعاتها من المنتجات التي تحتوي على مستويات أقل من السكر والملح والدهون المُشبَّعة، ومستويات أعلى من العناصر الغذائية مثل الألياف والبروتين، وذلك بحلول عام 2030.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "لندن, July 28, 2026 (GLOBE NEWSWIRE) -- أعلنت الشركة المالكة لعلامات McVitie's وGODIVA وÜlker التزامها بمضاعفة حجم مبيعاتها من المنتجات التي تحتوي على مستويات أقل من السكر والملح والدهون المُشبَّعة، ومستويات أعلى من العناصر الغذائية مثل الألياف والبروتين، وذلك بحلول عام 2030."
+  },
+  {
+    "title": "Yurok Tribe, Save the Redwoods League Finalize Major Land Transfer",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334030/0/en/Yurok-Tribe-Save-the-Redwoods-League-Finalize-Major-Land-Transfer.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "Save the Redwoods League transfers 125 acres of ancestral land to the Yurok Tribe, opening 'O Rew Redwoods Gateway to the public August 1.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Save the Redwoods League transfers 125 acres of ancestral land to the Yurok Tribe, opening 'O Rew Redwoods Gateway to the public August 1."
+  },
+  {
+    "title": "Twig Launches Hazel: The AI-Driven Research Intelligence Platform Set to Revolutionize Biomanufacturing and Market Viability Mapping",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334034/0/en/Twig-Launches-Hazel-The-AI-Driven-Research-Intelligence-Platform-Set-to-Revolutionize-Biomanufacturing-and-Market-Viability-Mapping.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T08:00:00+00:00",
+    "raw_text": "Twig Bio launched Hazel, an agentic AI research platform that rapidly evaluates biomanufacturing biofeasibility and market viability.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Twig Bio launched Hazel, an agentic AI research platform that rapidly evaluates biomanufacturing biofeasibility and market viability."
+  },
+  {
+    "title": "Univar Solutions Acquires Interpur Chemicals, Expanding Access to Polyurethanes and Powder Coatings in EMEA",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334028/0/en/Univar-Solutions-Acquires-Interpur-Chemicals-Expanding-Access-to-Polyurethanes-and-Powder-Coatings-in-EMEA.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T07:58:00+00:00",
+    "raw_text": "Univar Solutions today announced it has acquired Interpur Chemicals, a leading distributor of polyurethanes and and powder coatings in Europe.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquires",
+        "acquired"
+      ]
+    },
+    "summary": "Univar Solutions today announced it has acquired Interpur Chemicals, a leading distributor of polyurethanes and and powder coatings in Europe."
+  },
+  {
+    "title": "Toobit's Premier TIFT is Back with a 3,000,000 USDT Race",
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334021/0/en/Toobit-s-Premier-TIFT-is-Back-with-a-3-000-000-USDT-Race.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-28T07:48:00+00:00",
+    "raw_text": "GEORGE TOWN, Cayman Islands, July 28, 2026 (GLOBE NEWSWIRE) -- Toobit, the award-winning global cryptocurrency exchange, today unveils the latest installment of Toobit International Futures Tournament (TIFT) 2026, backed by a 3,000,000 USDT prize pool.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "GEORGE TOWN, Cayman Islands, July 28, 2026 (GLOBE NEWSWIRE) -- Toobit, the award-winning global cryptocurrency exchange, today unveils the latest installment of Toobit International Futures Tournament (TIFT) 2026, backed by a 3,000,000 USDT prize pool."
   },
   {
     "title": "HERE Road Alerts supports higher Euro NCAP safety ratings with real-time hazard intelligence",
@@ -2665,203 +3387,6 @@
     "summary": "BUSAN, South Korea, July 27, 2026 (GLOBE NEWSWIRE) -- The Busan Tourism Organization (BTO) has announced the launch of the ‘2026 Revisit Busan Pass Promotion’, a special welcome gift for international Free Independent Travelers (FITs) returning to Busan."
   },
   {
-    "title": "Hướng đến du khách từ Đài Loan, Nhật Bản và Đông Nam Á! Tổ chức Du lịch Busan triển khai chương trình “Khuyến mãi Revisit Busan Pass 2026”",
-    "url": "https://www.globenewswire.com/news-release/2026/07/28/3333955/0/vi/H%C6%B0%E1%BB%9Bng-%C4%91%E1%BA%BFn-du-kh%C3%A1ch-t%E1%BB%AB-%C4%90%C3%A0i-Loan-Nh%E1%BA%ADt-B%E1%BA%A3n-v%C3%A0-%C4%90%C3%B4ng-Nam-%C3%81-T%E1%BB%95-ch%E1%BB%A9c-Du-l%E1%BB%8Bch-Busan-tri%E1%BB%83n-khai-ch%C6%B0%C6%A1ng-tr%C3%ACnh-Khuy%E1%BA%BFn-m%C3%A3i-Revisit-Busan-Pass-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-28T00:00:00+00:00",
-    "raw_text": "- Triển khai chương trình khuyến mãi đôi bên cùng có lợi, tặng thưởng Busan Pay cho du khách quốc tế quay trở lại Busan.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "- Triển khai chương trình khuyến mãi đôi bên cùng có lợi, tặng thưởng Busan Pay cho du khách quốc tế quay trở lại Busan."
-  },
-  {
-    "title": "มุ่งเจาะกลุ่มนักท่องเที่ยวจากไต้หวัน ญี่ปุ่น และเอเชียตะวันออกเฉียงใต้! องค์การส่งเสริมการท่องเที่ยวปูซาน เตรียมเปิดตัวแคมเปญ “2026 Revisit Busan Pass Promotion”",
-    "url": "https://www.globenewswire.com/news-release/2026/07/28/3333956/0/th/%E0%B8%A1%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%88%E0%B8%B2%E0%B8%B0%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B9%84%E0%B8%95%E0%B9%89%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%99-%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%AD%E0%B9%80%E0%B8%8A%E0%B8%B5%E0%B8%A2%E0%B8%95%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%80%E0%B8%89%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B9%83%E0%B8%95%E0%B9%89-%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%9B%E0%B8%B9%E0%B8%8B%E0%B8%B2%E0%B8%99-%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%81%E0%B8%84%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%8D-2026-Revisit-Busan-Pass-Promotion.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-28T00:00:00+00:00",
-    "raw_text": "- เปิดตัวแคมเปญส่งเสริมการท่องเที่ยวที่ทุกฝ่ายได้รับประโยชน์ มอบรางวัล Busan Pay แก่นักท่องเที่ยวต่างชาติที่กลับมาเยือนปูซานอีกครั้ง",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "- เปิดตัวแคมเปญส่งเสริมการท่องเที่ยวที่ทุกฝ่ายได้รับประโยชน์ มอบรางวัล Busan Pay แก่นักท่องเที่ยวต่างชาติที่กลับมาเยือนปูซานอีกครั้ง"
-  },
-  {
-    "title": "HII’s Ingalls Shipbuilding Expands Distributed Shipbuilding to Amphibious Ships",
-    "url": "https://www.globenewswire.com/news-release/2026/07/28/3333957/14858/en/HII-s-Ingalls-Shipbuilding-Expands-Distributed-Shipbuilding-to-Amphibious-Ships.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-28T00:00:00+00:00",
-    "raw_text": "PASCAGOULA, Miss., July 27, 2026 (GLOBE NEWSWIRE) -- HII’s (NYSE: HII) Ingalls Shipbuilding division has expanded its distributed shipbuilding strategy to include modular unit construction for the U.S. Navy’s amphibious transport dock program, beginning with Philadelphia (LPD 32). This expansion builds on the proven success achieved through distributed shipbuilding in HII’s destroyer program, further strengthening the company’s commitment to increasing throughput and supporting the national industrial base.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "PASCAGOULA, Miss., July 27, 2026 (GLOBE NEWSWIRE) -- HII’s (NYSE: HII) Ingalls Shipbuilding division has expanded its distributed shipbuilding strategy to include modular unit construction for the U.S. Navy’s amphibious transport dock program, beginning with Philadelphia (LPD 32). This expansion builds on the proven success achieved through distributed shipbuilding in HII’s destroyer program, further strengthening the company’s commitment to increasing throughput and supporting the national industrial base."
-  },
-  {
-    "title": "BurnTide Launch 2026: New Weight Loss Support ACV Gummies In The USA, AU, UK | Burntide Supplement Facts And Highlights Ingredients.",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333938/0/en/BurnTide-Launch-2026-New-Weight-Loss-Support-ACV-Gummies-In-The-USA-AU-UK-Burntide-Supplement-Facts-And-Highlights-Ingredients.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T22:59:00+00:00",
-    "raw_text": "Burntide is announcing an effective and updated weight loss support supplement, Burntide Gummies, analyzing the natural ingredient profile, supplement facts, manufacturing information, Customer Service Support Details, and key considerations for prospective buyers. Burntide is announcing an effective and updated weight loss support supplement, Burntide Gummies, analyzing the natural ingredient profile, supplement facts, manufacturing information, Customer Service Support Details, and key considerations for prospective buyers.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Burntide is announcing an effective and updated weight loss support supplement, Burntide Gummies, analyzing the natural ingredient profile, supplement facts, manufacturing information, Customer Service Support Details, and key considerations for prospective buyers. Burntide is announcing an effective and updated weight loss support supplement, Burntide Gummies, analyzing the natural ingredient profile, supplement facts, manufacturing information, Customer Service Support Details, and key considerations for prospective buyers."
-  },
-  {
-    "title": "Legacy Health Works LLC Announces Kylar Denae Williams, 2024 University of Arkansas Graduate, as Chief Executive Officer of the Family-Built, AI-Infused Healthcare Company",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333931/0/en/Legacy-Health-Works-LLC-Announces-Kylar-Denae-Williams-2024-University-of-Arkansas-Graduate-as-Chief-Executive-Officer-of-the-Family-Built-AI-Infused-Healthcare-Company.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T22:30:00+00:00",
-    "raw_text": "From graduation cap to CEO in two years: Williams, who earned her Bachelor of Science in Human Development and Family Science in 2024, leads the Dallas-based one-stop healthcare workforce development and communication company built by her own family and operating under the tagline \"Equipping Those Who Care.\" From graduation cap to CEO in two years: Williams, who earned her Bachelor of Science in Human Development and Family Science in 2024, leads the Dallas-based one-stop healthcare workforce development and communication company built by her own family and operating under the tagline \"Equipping Those Who Care.\"",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "From graduation cap to CEO in two years: Williams, who earned her Bachelor of Science in Human Development and Family Science in 2024, leads the Dallas-based one-stop healthcare workforce development and communication company built by her own family and operating under the tagline \"Equipping Those Who Care.\" From graduation cap to CEO in two years: Williams, who earned her Bachelor of Science in Human Development and Family Science in 2024, leads the Dallas-based one-stop healthcare workforce development and communication company built by her own family and operating under the tagline \"Equipping Those Who Care.\""
-  },
-  {
-    "title": "HII Hosts Australian Minister for Defence Industry at Newport News Shipbuilding Charleston Operations",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333932/14858/en/HII-Hosts-Australian-Minister-for-Defence-Industry-at-Newport-News-Shipbuilding-Charleston-Operations.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T22:30:00+00:00",
-    "raw_text": "GOOSE CREEK, S.C., July 27, 2026 (GLOBE NEWSWIRE) -- HII (NYSE: HII) hosted Australian Minister for Defence Industry Pat Conroy today at the company’s Newport News Shipbuilding Charleston Operations site in South Carolina.",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "GOOSE CREEK, S.C., July 27, 2026 (GLOBE NEWSWIRE) -- HII (NYSE: HII) hosted Australian Minister for Defence Industry Pat Conroy today at the company’s Newport News Shipbuilding Charleston Operations site in South Carolina."
-  },
-  {
-    "title": "Psalion Closes Its Largest Fund Yet to Back the Next Wave of Blockchain Adoption",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333926/0/en/Psalion-Closes-Its-Largest-Fund-Yet-to-Back-the-Next-Wave-of-Blockchain-Adoption.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T22:00:00+00:00",
-    "raw_text": "SINGAPORE, July 27, 2026 (GLOBE NEWSWIRE) -- Psalion today announced the launch of its third and largest venture fund to date — a USD 50 million vehicle aimed at the next wave of blockchain adoption. The fund is structured as a Singapore-domiciled Variable Capital Company (VCC), managed by Conduit Asset Management Pte. Ltd. (CAM), which is licensed and regulated by the Monetary Authority of Singapore (MAS).",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SINGAPORE, July 27, 2026 (GLOBE NEWSWIRE) -- Psalion today announced the launch of its third and largest venture fund to date — a USD 50 million vehicle aimed at the next wave of blockchain adoption. The fund is structured as a Singapore-domiciled Variable Capital Company (VCC), managed by Conduit Asset Management Pte. Ltd. (CAM), which is licensed and regulated by the Monetary Authority of Singapore (MAS)."
-  },
-  {
-    "title": "Environics Analytics Appoints Cenker Ozhelvaci as Head of Sales",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333905/0/en/Environics-Analytics-Appoints-Cenker-Ozhelvaci-as-Head-of-Sales.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T20:42:00+00:00",
-    "raw_text": "Canada’s leading marketing and analytics company strengthens sales leadership to support client growth and market expansion.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Canada’s leading marketing and analytics company strengthens sales leadership to support client growth and market expansion."
-  },
-  {
-    "title": "Freddie Mac Issues Monthly Volume Summary for June 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333902/0/en/Freddie-Mac-Issues-Monthly-Volume-Summary-for-June-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T20:30:00+00:00",
-    "raw_text": "MCLEAN, Va., July 27, 2026 (GLOBE NEWSWIRE) -- Freddie Mac (OTCQB: FMCC) today posted to its website its Monthly Volume Summary for June 2026, which provides information on Freddie Mac’s mortgage-related portfolios, securities issuance, risk management, delinquencies, debt activities, and other investments.",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "risk management"
-      ],
-      "Industry & Market": [
-        "investment"
-      ]
-    },
-    "summary": "MCLEAN, Va., July 27, 2026 (GLOBE NEWSWIRE) -- Freddie Mac (OTCQB: FMCC) today posted to its website its Monthly Volume Summary for June 2026, which provides information on Freddie Mac’s mortgage-related portfolios, securities issuance, risk management, delinquencies, debt activities, and other investments."
-  },
-  {
-    "title": "Telesat prepared to execute FCC Upper C-band transition plan",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333898/0/en/Telesat-prepared-to-execute-FCC-Upper-C-band-transition-plan.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T20:30:00+00:00",
-    "raw_text": "OTTAWA, Ontario, July 27, 2026 (GLOBE NEWSWIRE) -- Telesat GEO Inc, a subsidiary of Telesat Corporation (NASDAQ and TSX: TSAT) (“Telesat”), one of the world's largest and most innovative satellite operators, is preparing to execute its Upper C-band transition plan following the U.S. Federal Communications Commission's (FCC’s) adoption of its Upper C-band Report and Order (“Order”). The Order establishes the framework for repurposing 160 MHz of Upper C-band spectrum in the contiguous United States for next-generation terrestrial wireless services.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan",
-        "wireless"
-      ]
-    },
-    "summary": "OTTAWA, Ontario, July 27, 2026 (GLOBE NEWSWIRE) -- Telesat GEO Inc, a subsidiary of Telesat Corporation (NASDAQ and TSX: TSAT) (“Telesat”), one of the world's largest and most innovative satellite operators, is preparing to execute its Upper C-band transition plan following the U.S. Federal Communications Commission's (FCC’s) adoption of its Upper C-band Report and Order (“Order”). The Order establishes the framework for repurposing 160 MHz of Upper C-band spectrum in the contiguous United States for next-generation terrestrial wireless services."
-  },
-  {
-    "title": "20/20 BioLabs Participates in BIO Asia-Taiwan and Meets with Strategic Counterparties in Taipei, Tokyo, and Seoul to Advance East Asia Roll-Up Strategy",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333899/0/en/20-20-BioLabs-Participates-in-BIO-Asia-Taiwan-and-Meets-with-Strategic-Counterparties-in-Taipei-Tokyo-and-Seoul-to-Advance-East-Asia-Roll-Up-Strategy.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T20:30:00+00:00",
-    "raw_text": "20/20 BioLabs Participates in BIO Asia-Taiwan and Meets with Strategic Counterparties in Taipei, Tokyo, and Seoul to Advance East Asia Roll-Up Strategy",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "20/20 BioLabs Participates in BIO Asia-Taiwan and Meets with Strategic Counterparties in Taipei, Tokyo, and Seoul to Advance East Asia Roll-Up Strategy"
-  },
-  {
-    "title": "21shares Introduces 1-Year Fee Waiver on 21shares Solana ETF (ticker: TSOL)",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333842/0/en/21shares-Introduces-1-Year-Fee-Waiver-on-21shares-Solana-ETF-ticker-TSOL.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T20:00:00+00:00",
-    "raw_text": "Investors in TSOL can now benefit from a 0.00% sponsor fee for the next 12 months",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Investors in TSOL can now benefit from a 0.00% sponsor fee for the next 12 months"
-  },
-  {
-    "title": "RTdisplay Announces New Custom Retail Store Display Solutions for Modern Businesses - Shares Store Design Tips for Higher Sales",
-    "url": "https://www.globenewswire.com/news-release/2026/07/27/3333840/0/en/RTdisplay-Announces-New-Custom-Retail-Store-Display-Solutions-for-Modern-Businesses-Shares-Store-Design-Tips-for-Higher-Sales.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-27T19:44:00+00:00",
-    "raw_text": "SHENZHEN, July 27, 2026 (GLOBE NEWSWIRE) -- RTdisplay , a designer and manufacturer of commercial furniture and retail displays, is really proud to announce the launch of our new custom retail store display solutions, made specifically for modern companies. As shopping habits keep shifting, it becomes more important than ever for retailers to build a one of a kind and immersive environment that actually helps sales and also improves the whole customer experience.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "SHENZHEN, July 27, 2026 (GLOBE NEWSWIRE) -- RTdisplay , a designer and manufacturer of commercial furniture and retail displays, is really proud to announce the launch of our new custom retail store display solutions, made specifically for modern companies. As shopping habits keep shifting, it becomes more important than ever for retailers to build a one of a kind and immersive environment that actually helps sales and also improves the whole customer experience."
-  },
-  {
     "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories– SonicWall Zero-Day, Cl0p Windc... - gbhackers.com",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GcVlRdm4tOGhscUlWaTAxTEVlV2VFeTV4b2xKN1duRXVoSkZxLUdpWm5RU1o3TkxSNWQ2VUNrRE1USjhxenJJd0I3UUhRbVFpNURSQUJEVF9JSW9LNlppLTkwWmNWcS15VWQyY1hCVDFEcV9UbGJCWlVB0gF_QVVfeXFMTkVCSkFOSzIwLVctYVlJZkItclVtNkJFUFNfUDdJLVJSWkQxWUZyeDFjT2J3WE9qNUh2NzJkTTNwaGRQT28zcDZ4OG0wdnZMdEpBQmdPRUtMRUs0U2hqSm9mV3FSUWQxa2wwN0ZNWU5TbXl2MTl5U2dpaXBZRzRTOA?oc=5",
     "source": "Google News: Cybersecurity",
@@ -2901,5 +3426,22 @@
       ]
     },
     "summary": "Syniverse, BICS, iBASIS Lead Global IPX Vendor Market as 5G, AI, IoT and Satellite Drive Roaming TelecomLead"
+  },
+  {
+    "title": "NVIDIA-backed Open Secure AI Alliance launches with Microsoft, IBM, Cisco and 40+ firms - Storyboard18",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeE0wa0J6NTFFZDNKTjJ0Q3RNU01qYU9UVDBQVHNMd0hKQ25jUUFKNzJ6bHNVQkpHYkllckF3eXFsbWItZ0Q4ekN3VlZ6N19fQVZ6VmtEMS1SUnJnTGRmY0dYM0lCUDV3Tl91UzlpOG5nUTUxaVZVZXhraTFzNGladHU4cnhDd2NkcDdzcl8yVDBJVHNsV0hQb05Pc2N5N2hzWGgteHVMRHRvTWdsMFdpUG4xc1kwQ3dKdl9CUEdtYTZXa2lkekp6UklteGQxZW15dEHSAdIBQVVfeXFMT3hNMGtCejUxRWQzSk4ydEN0TVNNamFPVFQwUFRzTHdISkNuY1FBSjcyemxzVUJKR2JJZXJBd3lxbG1iLWdEOHpDd1ZWejdfX0FWelZrRDEtUlJyZ0xkZmNHWDNJQlA1d05fdVM5aThuZ1E1MWlWVWV4a2kxczRpWnR1OHJ4Q3djZHA3c3JfMlQwSVRzbFdIUG9OT3NjeTdoc1hoLXh1TER0b01nbDBXaVBuMXNZMEN3SnZfQlBHbWE2V2tpZHpKelJJbXhkMWVteXRB?oc=5",
+    "source": "Google News: Consulting Firm Announcements",
+    "published": "2026-07-28T07:22:36+00:00",
+    "raw_text": "NVIDIA-backed Open Secure AI Alliance launches with Microsoft, IBM, Cisco and 40+ firms Storyboard18",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches",
+        "ibm"
+      ]
+    },
+    "summary": "NVIDIA-backed Open Secure AI Alliance launches with Microsoft, IBM, Cisco and 40+ firms Storyboard18"
   }
 ]
