@@ -1,10 +1,34 @@
 [
   {
+    "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+    "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+    "source": "The Hacker News",
+    "published": "2026-07-29T08:58:27+00:00",
+    "raw_text": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "security",
+        "cyber"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that"
+  },
+  {
     "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
     "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
     "source": "The Hacker News",
-    "published": "2026-07-29T06:45:02+00:00",
-    "raw_text": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than",
+    "published": "2026-07-29T07:51:00+00:00",
+    "raw_text": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than previously",
     "categories": [
       "Cybersecurity",
       "Industry & Market"
@@ -18,7 +42,52 @@
         "valuation"
       ]
     },
-    "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than"
+    "summary": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than previously"
+  },
+  {
+    "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+    "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+    "source": "The Hacker News",
+    "published": "2026-07-29T07:47:19+00:00",
+    "raw_text": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "cve"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The"
+  },
+  {
+    "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+    "url": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+    "source": "The Hacker News",
+    "published": "2026-07-29T07:07:23+00:00",
+    "raw_text": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers. They linked the framework to a fake \"公安一网通办\" Public Security service application targeting Android users in China. The kit supports payment-password",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers. They linked the framework to a fake \"公安一网通办\" Public Security service application targeting Android users in China. The kit supports payment-password"
   },
   {
     "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
@@ -417,41 +486,6 @@
     "summary": "The China-linked cybercrime group behind the use of income tax-related phishing lures targeting Indian taxpayers, tax professionals, and corporate finance teams has been observed using a sophisticated crypter service called Cruciferra. According to a new analysis by Proofpoint, Cruciferra has been utilized by various unrelated cybercriminal threat clusters to deliver a wide array of remote"
   },
   {
-    "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-    "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-    "source": "The Hacker News",
-    "published": "2026-07-27T08:48:47+00:00",
-    "raw_text": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "threat",
-        "security",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month."
-  },
-  {
-    "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
-    "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
-    "source": "The Hacker News",
-    "published": "2026-07-27T08:01:23+00:00",
-    "raw_text": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. \"The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown parameter that fits your project,\" the Microsoft-owned subsidiary said. According to GitHub, the",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. \"The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown parameter that fits your project,\" the Microsoft-owned subsidiary said. According to GitHub, the"
-  },
-  {
     "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
     "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
     "source": "BleepingComputer",
@@ -710,170 +744,97 @@
     "summary": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]"
   },
   {
-    "title": "Infoblox enters EASM market with attack surface and supply chain risk tools",
-    "url": "https://www.helpnetsecurity.com/2026/07/29/infoblox-enters-easm-market-with-attack-surface-and-supply-chain-risk-tools/",
+    "title": "Accuris uses AI to improve BOM decisions and supply chain resilience",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/accuris-bom-intelligence/",
     "source": "Help Net Security",
-    "published": "2026-07-29T07:08:18+00:00",
-    "raw_text": "Infoblox has announced its entry into the external attack surface management (EASM) market. Together, with the introduction of Supply Chain Intelligence, the launch expands the Infoblox Exposure Management portfolio, helping organizations identify, prioritize and reduce exposures across both their own internet-facing assets and the internet-facing assets of their critical vendors before attackers can exploit them. The launch addresses the growing time compression challenge for security teams. Reconnaissance, vulnerability identification and exploit creation could historically take … More → The post Infoblox enters EASM market with attack surface and supply chain risk tools appeared first on Help Net Security .",
+    "published": "2026-07-29T09:04:26+00:00",
+    "raw_text": "Accuris has announced new AI capabilities for BOM Intelligence, part of its Supply Chain Intelligence suite. The launch gives engineering, procurement and supply chain teams a clearer way to move from spotting component risk to acting on it: catching obsolescence early, closing compliance gaps and governing sourcing decisions across programs. Every capability runs on the same foundation: verified data covering 1.3 billion electronic components at 98%+ accuracy, built on 35+ years of direct manufacturer relationships … More → The post Accuris uses AI to improve BOM decisions and supply chain resilience appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity",
-      "Industry & Market"
+      "GRC"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "vulnerability",
-        "exploit",
         "security"
       ],
-      "Industry & Market": [
-        "expands",
-        "vendor"
+      "GRC": [
+        "compliance"
       ]
     },
-    "summary": "Infoblox has announced its entry into the external attack surface management (EASM) market. Together, with the introduction of Supply Chain Intelligence, the launch expands the Infoblox Exposure Management portfolio, helping organizations identify, prioritize and reduce exposures across both their own internet-facing assets and the internet-facing assets of their critical vendors before attackers can exploit them. The launch addresses the growing time compression challenge for security teams. Reconnaissance, vulnerability identification and exploit creation could historically take … More → The post Infoblox enters EASM market with attack surface and supply chain risk tools appeared first on Help Net Security ."
+    "summary": "Accuris has announced new AI capabilities for BOM Intelligence, part of its Supply Chain Intelligence suite. The launch gives engineering, procurement and supply chain teams a clearer way to move from spotting component risk to acting on it: catching obsolescence early, closing compliance gaps and governing sourcing decisions across programs. Every capability runs on the same foundation: verified data covering 1.3 billion electronic components at 98%+ accuracy, built on 35+ years of direct manufacturer relationships … More → The post Accuris uses AI to improve BOM decisions and supply chain resilience appeared first on Help Net Security ."
   },
   {
-    "title": "An AI agent can pass every safety check and still leak secrets",
-    "url": "https://www.helpnetsecurity.com/2026/07/29/ai-agent-security-safety-check/",
+    "title": "FortiGate 1200G brings FortiSASE Outpost to customer-controlled environments",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/fortinet-fortigate-1200g/",
     "source": "Help Net Security",
-    "published": "2026-07-29T06:00:10+00:00",
-    "raw_text": "A pull request lands with a tidy bug report in the description. A bot reads it before any person does, pulls a few shell commands out of it, gets them approved, and posts the output back on the thread. The maintainer reads the whole exchange the next morning. Elad Meged, a founding engineer at Novee Security, ran that sequence against three vendors’ own repositories, in the configurations those vendors ship by default. Anthropic’s pipeline handed … More → The post An AI agent can pass every safety check and still leak secrets appeared first on Help Net Security .",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "vendor"
-      ]
-    },
-    "summary": "A pull request lands with a tidy bug report in the description. A bot reads it before any person does, pulls a few shell commands out of it, gets them approved, and posts the output back on the thread. The maintainer reads the whole exchange the next morning. Elad Meged, a founding engineer at Novee Security, ran that sequence against three vendors’ own repositories, in the configurations those vendors ship by default."
-  },
-  {
-    "title": "The energy sector’s OT cybersecurity talent is retiring faster than it can be replaced",
-    "url": "https://www.helpnetsecurity.com/2026/07/29/ot-cybersecurity-in-energy/",
-    "source": "Help Net Security",
-    "published": "2026-07-29T05:30:25+00:00",
-    "raw_text": "A ransomware hit lands a chemical plant in a safe state. Nobody is hurt, the site holds steady, and the operators begin the restart. The systems stay down. Every attempt to bring them online meets encrypted processes and altered configurations. The outage runs into weeks, and the losses travel down the supply chain in both directions. Refineries, chemical plants and pipeline operators carry this exposure across control systems that run 20 to 40 years. Marco … More → The post The energy sector’s OT cybersecurity talent is retiring faster than it can be replaced appeared first on Help Net Security .",
+    "published": "2026-07-29T08:38:45+00:00",
+    "raw_text": "Fortinet has announced the FortiGate 1200G series, the newest addition to the FortiGate G series with FortiSASE Outpost, which brings cloud-delivered security services into customer-controlled environments. By combining high-performance threat protection, connectivity, hardware-rooted platform security, and cloud-delivered security capabilities, the solution gives organizations the flexibility to enforce security where it makes the most business sense. Whether on-premises, at the edge, or in the cloud, security teams can maintain consistent protection, high performance, and simplified operations … More → The post FortiGate 1200G brings FortiSASE Outpost to customer-controlled environments appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity",
+      "Cloud Infrastructure",
       "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "ransomware",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "A ransomware hit lands a chemical plant in a safe state. Nobody is hurt, the site holds steady, and the operators begin the restart. The systems stay down. Every attempt to bring them online meets encrypted processes and altered configurations."
-  },
-  {
-    "title": "Specter: Open-source NFC reader bug sweep for Flipper Zero",
-    "url": "https://www.helpnetsecurity.com/2026/07/29/specter-flipper-zero-skimmer-detector/",
-    "source": "Help Net Security",
-    "published": "2026-07-29T05:00:50+00:00",
-    "raw_text": "Specter is a Flipper Zero app that finds powered NFC readers by listening for the radio field they give off. The readers it hunts work at 13.56 MHz. The Flipper’s own chip does the sensing The onboard ST25R3916 carries a hardware external-field detector, the same circuit that lets the device emulate a card and register when a reader starts talking to it. Specter reads that one bit, hundreds of times a second, with its own … More → The post Specter: Open-source NFC reader bug sweep for Flipper Zero appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Specter is a Flipper Zero app that finds powered NFC readers by listening for the radio field they give off. The readers it hunts work at 13.56 MHz. The Flipper’s own chip does the sensing The onboard ST25R3916 carries a hardware external-field detector, the same circuit that lets the device emulate a card and register when a reader starts talking to it. Specter reads that one bit, hundreds of times a second, with its own … More → The post Specter: Open-source NFC reader bug sweep for Flipper Zero appeared first on Help Net Security ."
-  },
-  {
-    "title": "Your AI agents can reach data no one approved",
-    "url": "https://www.helpnetsecurity.com/2026/07/29/1password-ai-agent-governance/",
-    "source": "Help Net Security",
-    "published": "2026-07-29T04:30:29+00:00",
-    "raw_text": "A credential expired. An AI agent kept using it anyway, and a mid-sized company’s systems went down for a quarter’s worth of trouble before anyone traced the failure back to a non-human account no one had been logging. That agent could reach customer records, source code, and HR files the whole time. The tools that track who touches sensitive data were built for employees, and they lose the thread once a semiautonomous account starts opening … More → The post Your AI agents can reach data no one approved appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "A credential expired. An AI agent kept using it anyway, and a mid-sized company’s systems went down for a quarter’s worth of trouble before anyone traced the failure back to a non-human account no one had been logging. That agent could reach customer records, source code, and HR files the whole time. The tools that track who touches sensitive data were built for employees, and they lose the thread once a semiautonomous account starts opening … More → The post Your AI agents can reach data no one approved appeared first on Help Net Security ."
-  },
-  {
-    "title": "Android malware detection collapses when the context stage comes out",
-    "url": "https://www.helpnetsecurity.com/2026/07/29/android-malware-detection-research/",
-    "source": "Help Net Security",
-    "published": "2026-07-29T04:00:58+00:00",
-    "raw_text": "A phone backup app asks for storage, contacts, SMS, and call logs. A device-management tool asks for more than that. Run either one past a machine learning malware scanner and it comes back flagged. Six Android detectors in wide research use, including Drebin, MalScan, and MaskDroid, produced that result on more than half the apps in a benign test set assembled from 49 Google Play categories. The worst performer, an LLM-based detector called LAMD, flagged … More → The post Android malware detection collapses when the context stage comes out appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "security"
-      ]
-    },
-    "summary": "A phone backup app asks for storage, contacts, SMS, and call logs. A device-management tool asks for more than that. Run either one past a machine learning malware scanner and it comes back flagged. Six Android detectors in wide research use, including Drebin, MalScan, and MaskDroid, produced that result on more than half the apps in a benign test set assembled from 49 Google Play categories."
-  },
-  {
-    "title": "Hugging Face breach reignites open-weights debate, raises liability questions",
-    "url": "https://www.helpnetsecurity.com/2026/07/28/hugging-face-breach-ciso-playbook-open-weight-llms/",
-    "source": "Help Net Security",
-    "published": "2026-07-28T15:55:19+00:00",
-    "raw_text": "The first publicly documented cyberattack run end-to-end by an autonomous AI was an OpenAI benchmark test that escaped its sandbox and breached Hugging Face. In an incident post-mortem compiled with the input from Hugging Face and several hundred members of Cloud Security Alliance’s CISO community, the nonprofit organization laid out the most salient points for security leaders and advised on what they should do next. How the attack unfolded OpenAI was running GPT-5.6 Sol and … More → The post Hugging Face breach reignites open-weights debate, raises liability questions appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Cloud Infrastructure"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
         "cloud"
       ],
+      "Networks": [
+        "connectivity"
+      ],
       "Cybersecurity": [
-        "breach",
-        "cyberattack",
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "Fortinet has announced the FortiGate 1200G series, the newest addition to the FortiGate G series with FortiSASE Outpost, which brings cloud-delivered security services into customer-controlled environments. By combining high-performance threat protection, connectivity, hardware-rooted platform security, and cloud-delivered security capabilities, the solution gives organizations the flexibility to enforce security where it makes the most business sense. Whether on-premises, at the edge, or in the cloud, security teams can maintain consistent protection, high performance, and simplified operations … More → The post FortiGate 1200G brings FortiSASE Outpost to customer-controlled environments appeared first on Help Net Security ."
+  },
+  {
+    "title": "Stolen Meta and Google ad accounts are worth more than the money they hold",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/ad-account-theft-meta-google/",
+    "source": "Help Net Security",
+    "published": "2026-07-29T08:38:24+00:00",
+    "raw_text": "Ad account theft, the systematic hijacking of Meta Business Manager and Google Ads accounts, has grown into a commodity-driven cybercrime economy complete with tiered pricing, escrow services, and money-back warranties for stolen accounts. Public reporting on this topic tends to focus on drained ad budgets, but according to Mimecast, that’s often a short-lived gain for attackers. “Both platforms operate on a pre-loaded credit or card-on-file model. Campaigns spend continuously until a budget cap, or the … More → The post Stolen Meta and Google ad accounts are worth more than the money they hold appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
         "security",
-        "cyber",
-        "cloud security"
+        "cyber"
       ],
       "Industry & Market": [
-        "raises",
         "ey"
       ]
     },
-    "summary": "The first publicly documented cyberattack run end-to-end by an autonomous AI was an OpenAI benchmark test that escaped its sandbox and breached Hugging Face. In an incident post-mortem compiled with the input from Hugging Face and several hundred members of Cloud Security Alliance’s CISO community, the nonprofit organization laid out the most salient points for security leaders and advised on what they should do next. How the attack unfolded OpenAI was running GPT-5.6 Sol and … More → The post Hugging Face breach reignites open-weights debate, raises liability questions appeared first on Help Net Security ."
+    "summary": "Ad account theft, the systematic hijacking of Meta Business Manager and Google Ads accounts, has grown into a commodity-driven cybercrime economy complete with tiered pricing, escrow services, and money-back warranties for stolen accounts. Public reporting on this topic tends to focus on drained ad budgets, but according to Mimecast, that’s often a short-lived gain for attackers. “Both platforms operate on a pre-loaded credit or card-on-file model. Campaigns spend continuously until a budget cap, or the … More → The post Stolen Meta and Google ad accounts are worth more than the money they hold appeared first on Help Net Security ."
   },
   {
-    "title": "BlackCloak extends deepfake protection to the executive’s trusted circle",
-    "url": "https://www.helpnetsecurity.com/2026/07/28/blackcloak-deepfake-protection/",
+    "title": "1Password targets standing privileges with new access management capabilities",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/1password-privileged-access/",
     "source": "Help Net Security",
-    "published": "2026-07-28T13:15:34+00:00",
-    "raw_text": "Deepfakes have made one of our oldest assumptions unreliable: that you can trust a familiar face or voice. While the industry focuses mainly on building “in-line detection tools” that try to spot the fake, BlackCloak, the leader in Digital Executive Protection (DEP), built Impersonation Protection to focus on validating the authenticity of communications. Circle of trust functionality is the most significant expansion of that capability to date — giving executives and high-profile individuals a new … More → The post BlackCloak extends deepfake protection to the executive’s trusted circle appeared first on Help Net Security .",
+    "published": "2026-07-29T08:25:53+00:00",
+    "raw_text": "1Password has launched 1Password Privileged Access, extending the 1Password Unified Access platform with privileged access management (PAM). It enables just-in-time, least-privilege access to critical infrastructure and is accompanied by the public preview of 1Password Credential Broker for GitHub Actions and new Enterprise Password Manager capabilities for developer and AI security. “Most organizations have more standing access in their environments than they can see or justify,” said David Faugno, CEO of 1Password. “That invisible access creates … More → The post 1Password targets standing privileges with new access management capabilities appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "1Password has launched 1Password Privileged Access, extending the 1Password Unified Access platform with privileged access management (PAM). It enables just-in-time, least-privilege access to critical infrastructure and is accompanied by the public preview of 1Password Credential Broker for GitHub Actions and new Enterprise Password Manager capabilities for developer and AI security. “Most organizations have more standing access in their environments than they can see or justify,” said David Faugno, CEO of 1Password. “That invisible access creates … More → The post 1Password targets standing privileges with new access management capabilities appeared first on Help Net Security ."
+  },
+  {
+    "title": "WhatsApp brings end-to-end encrypted voice and video calls to the web",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/whatsapp-voice-video-calls-web-support/",
+    "source": "Help Net Security",
+    "published": "2026-07-29T08:21:30+00:00",
+    "raw_text": "WhatsApp has launched support for voice and video calls on the web, allowing users to make and receive calls directly from their browser without installing the desktop app. Web Calling (Source: WhatsApp) The new Web Calling feature is designed for people using shared or restricted computers, such as students on campus machines or employees using work laptops where app downloads may be blocked. It also offers a convenient option for users who prefer accessing WhatsApp … More → The post WhatsApp brings end-to-end encrypted voice and video calls to the web appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity"
     ],
@@ -882,46 +843,117 @@
         "security"
       ]
     },
-    "summary": "Deepfakes have made one of our oldest assumptions unreliable: that you can trust a familiar face or voice. While the industry focuses mainly on building “in-line detection tools” that try to spot the fake, BlackCloak, the leader in Digital Executive Protection (DEP), built Impersonation Protection to focus on validating the authenticity of communications. Circle of trust functionality is the most significant expansion of that capability to date — giving executives and high-profile individuals a new … More → The post BlackCloak extends deepfake protection to the executive’s trusted circle appeared first on Help Net Security ."
+    "summary": "WhatsApp has launched support for voice and video calls on the web, allowing users to make and receive calls directly from their browser without installing the desktop app. Web Calling (Source: WhatsApp) The new Web Calling feature is designed for people using shared or restricted computers, such as students on campus machines or employees using work laptops where app downloads may be blocked. It also offers a convenient option for users who prefer accessing WhatsApp … More → The post WhatsApp brings end-to-end encrypted voice and video calls to the web appeared first on Help Net Security ."
   },
   {
-    "title": "Bugcrowd introduces Savant Pathseeker for agentic penetration testing with exploit validation",
-    "url": "https://www.helpnetsecurity.com/2026/07/28/bugcrowd-introduces-savant-pathseeker-for-agentic-penetration-testing-with-exploit-validation/",
+    "title": "Torq makes AI SOC investigations continuously self-learning",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/torq-soc-brain/",
     "source": "Help Net Security",
-    "published": "2026-07-28T13:14:12+00:00",
-    "raw_text": "Bugcrowd unveils Savant Pathseeker, the first solution in its Agentic Offensive Testing line. Savant Pathseeker gives security teams the speed and scale to test every external web application and API continuously, not just the assets that make it onto the pentest schedule, while providing the evidence to prove that the findings are genuinely exploitable. Security teams are attempting both deep and broad coverage, and getting the worst of each. Crown-jewel assets sit exposed for months … More → The post Bugcrowd introduces Savant Pathseeker for agentic penetration testing with exploit validation appeared first on Help Net Security .",
+    "published": "2026-07-29T08:17:42+00:00",
+    "raw_text": "Torq has introduced Torq SOC Brain, a new layer of the Torq AI SOC Platform that continuously learns from historical investigations, analyst decisions, and organization-specific security operations to create a unified, self-learning AI SOC. While most autonomous investigation systems claim to be self-learning, they are, in reality, memory systems, they simply retrieve past cases and pass them to a language model at decision time. Torq SOC Brain is fundamentally different. It reasons from precedent, adapts … More → The post Torq makes AI SOC investigations continuously self-learning appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "soc"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Torq has introduced Torq SOC Brain, a new layer of the Torq AI SOC Platform that continuously learns from historical investigations, analyst decisions, and organization-specific security operations to create a unified, self-learning AI SOC. While most autonomous investigation systems claim to be self-learning, they are, in reality, memory systems, they simply retrieve past cases and pass them to a language model at decision time. Torq SOC Brain is fundamentally different. It reasons from precedent, adapts … More → The post Torq makes AI SOC investigations continuously self-learning appeared first on Help Net Security ."
+  },
+  {
+    "title": "Root Evidence puts real-world evidence at the center of vulnerability prioritization",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/root-evidence-puts-real-world-evidence-at-the-center-of-vulnerability-prioritization/",
+    "source": "Help Net Security",
+    "published": "2026-07-29T08:07:51+00:00",
+    "raw_text": "Root Evidence has launched the Evidence Platform, a vulnerability management platform that prioritizes vulnerabilities based on evidence of real-world exploitation and financial impact rather than severity scores alone. The platform is designed to help security teams focus on the vulnerabilities most likely to contribute to ransomware, business disruption, and financial loss. “The cybersecurity industry has become exceptionally good at finding vulnerabilities, but it has not become significantly better at preventing financial loss,” said Jeremiah Grossman, … More → The post Root Evidence puts real-world evidence at the center of vulnerability prioritization appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
+        "ransomware",
+        "vulnerability",
         "exploit",
         "security",
-        "penetration testing"
+        "cyber"
       ]
     },
-    "summary": "Bugcrowd unveils Savant Pathseeker, the first solution in its Agentic Offensive Testing line. Savant Pathseeker gives security teams the speed and scale to test every external web application and API continuously, not just the assets that make it onto the pentest schedule, while providing the evidence to prove that the findings are genuinely exploitable. Security teams are attempting both deep and broad coverage, and getting the worst of each. Crown-jewel assets sit exposed for months … More → The post Bugcrowd introduces Savant Pathseeker for agentic penetration testing with exploit validation appeared first on Help Net Security ."
+    "summary": "Root Evidence has launched the Evidence Platform, a vulnerability management platform that prioritizes vulnerabilities based on evidence of real-world exploitation and financial impact rather than severity scores alone. The platform is designed to help security teams focus on the vulnerabilities most likely to contribute to ransomware, business disruption, and financial loss. “The cybersecurity industry has become exceptionally good at finding vulnerabilities, but it has not become significantly better at preventing financial loss,” said Jeremiah Grossman, … More → The post Root Evidence puts real-world evidence at the center of vulnerability prioritization appeared first on Help Net Security ."
   },
   {
-    "title": "Prescient Security adds attack surface management to Cait, broadens AI-assisted pentesting",
-    "url": "https://www.helpnetsecurity.com/2026/07/28/prescient-security-cait/",
+    "title": "Abnormal AI extends behavioral security to identities, AI systems, and insider threats",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/abnormal-ai-extends-behavioral-security-to-identities-ai-systems-and-insider-threats/",
     "source": "Help Net Security",
-    "published": "2026-07-28T13:10:00+00:00",
-    "raw_text": "Prescient Security has announced a series of capability expansions to Cait (Cacilian AI), its continuous AI-assisted penetration testing service. The updates which will roll out through summer 2026 add attack surface management (ASM), new asset testing types and expanded environment support, extending Cait’s reach well beyond its initial web application focus. The announcements follow Cait’s general availability launch earlier this year, which introduced an autonomous, context-aware pentester that explores applications before attacking them and delivers … More → The post Prescient Security adds attack surface management to Cait, broadens AI-assisted pentesting appeared first on Help Net Security .",
+    "published": "2026-07-29T07:56:58+00:00",
+    "raw_text": "Abnormal AI has announced the expansion of its Behavioral Security Platform across the enterprise, introducing three new products: Identity Threat Protection, AI Governance, and Infiltration Prevention. Together, the launch extends the behavioral AI that already secures over 4,500 customers1 to the identities, AI systems and onboarding pipeline that attackers increasingly exploit. Additionally, customers can now activate products from the AI App Store, a new interface to turn on Abnormal products in a single click. For … More → The post Abnormal AI extends behavioral security to identities, AI systems, and insider threats appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit",
+        "threat",
+        "security"
+      ],
+      "GRC": [
+        "governance"
+      ]
+    },
+    "summary": "Abnormal AI has announced the expansion of its Behavioral Security Platform across the enterprise, introducing three new products: Identity Threat Protection, AI Governance, and Infiltration Prevention. Together, the launch extends the behavioral AI that already secures over 4,500 customers1 to the identities, AI systems and onboarding pipeline that attackers increasingly exploit. Additionally, customers can now activate products from the AI App Store, a new interface to turn on Abnormal products in a single click. For … More → The post Abnormal AI extends behavioral security to identities, AI systems, and insider threats appeared first on Help Net Security ."
+  },
+  {
+    "title": "Mend.io enhances application security with AI runtime protection and faster zero-day response",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/mend-io-runtime-protection/",
+    "source": "Help Net Security",
+    "published": "2026-07-29T07:49:10+00:00",
+    "raw_text": "Mend.io has announced new capabilities across Mend AI and Mend AppSec to help organizations respond faster to both application risk and the expanding attack surface created by AI. Mend.io’s latest enhancements help teams identify meaningful risk, reduce manual investigation, accelerate response and extend protection from development into production. As development accelerates, security teams face mounting exposure: rising vulnerability volumes, zero-days, software supply chain threats, and new risks introduced by AI-powered applications. Today’s AppSec teams can … More → The post Mend.io enhances application security with AI runtime protection and faster zero-day response appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "zero-day",
+        "threat",
+        "security",
+        "application security"
+      ]
+    },
+    "summary": "Mend.io has announced new capabilities across Mend AI and Mend AppSec to help organizations respond faster to both application risk and the expanding attack surface created by AI. Mend.io’s latest enhancements help teams identify meaningful risk, reduce manual investigation, accelerate response and extend protection from development into production. As development accelerates, security teams face mounting exposure: rising vulnerability volumes, zero-days, software supply chain threats, and new risks introduced by AI-powered applications. Today’s AppSec teams can … More → The post Mend.io enhances application security with AI runtime protection and faster zero-day response appeared first on Help Net Security ."
+  },
+  {
+    "title": "Realm Security adds Detection Integrity and Data Haven Search to cut SIEM costs",
+    "url": "https://www.helpnetsecurity.com/2026/07/29/realm-security-adds-detection-integrity-and-data-haven-search-to-cut-siem-costs/",
+    "source": "Help Net Security",
+    "published": "2026-07-29T07:41:10+00:00",
+    "raw_text": "Realm Security has announced two new capabilities. Detection Integrity proves that reducing SIEM log volume never breaks a threat detection. New search inside Realm Data Haven, the platform’s searchable retention layer, makes the data you keep out of the SIEM directly queryable when an analyst needs it. Together, they let teams cut ingestion cost and avoid vendor lock-in without gambling on coverage. AI has changed how fast attacks move. Attackers now use agents to find … More → The post Realm Security adds Detection Integrity and Data Haven Search to cut SIEM costs appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Cybersecurity": [
+        "threat",
         "security",
-        "penetration testing"
+        "siem"
       ],
       "Industry & Market": [
-        "ey"
+        "ey",
+        "vendor"
       ]
     },
-    "summary": "Prescient Security has announced a series of capability expansions to Cait (Cacilian AI), its continuous AI-assisted penetration testing service. The updates which will roll out through summer 2026 add attack surface management (ASM), new asset testing types and expanded environment support, extending Cait’s reach well beyond its initial web application focus. The announcements follow Cait’s general availability launch earlier this year, which introduced an autonomous, context-aware pentester that explores applications before attacking them and delivers … More → The post Prescient Security adds attack surface management to Cait, broadens AI-assisted pentesting appeared first on Help Net Security ."
+    "summary": "Realm Security has announced two new capabilities. Detection Integrity proves that reducing SIEM log volume never breaks a threat detection. New search inside Realm Data Haven, the platform’s searchable retention layer, makes the data you keep out of the SIEM directly queryable when an analyst needs it. Together, they let teams cut ingestion cost and avoid vendor lock-in without gambling on coverage."
   },
   {
     "title": "Ghost Credentials Expose Cloud Systems to Hidden Identity Risks",
@@ -1152,6 +1184,65 @@
     "summary": "Confidence in autonomous security tools is declining, and here's why."
   },
   {
+    "title": "Spur Raises $200 Million for IP Intelligence Platform",
+    "url": "https://www.securityweek.com/spur-raises-200-million-for-ip-intelligence-platform/",
+    "source": "SecurityWeek",
+    "published": "2026-07-29T09:12:19+00:00",
+    "raw_text": "The IP intelligence company will use the fresh investment to accelerate and scale its operations. The post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek .",
+    "categories": [
+      "Industry & Market",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "investment",
+        "raises"
+      ]
+    },
+    "summary": "The IP intelligence company will use the fresh investment to accelerate and scale its operations. The post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek ."
+  },
+  {
+    "title": "JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack",
+    "url": "https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/",
+    "source": "SecurityWeek",
+    "published": "2026-07-29T08:46:30+00:00",
+    "raw_text": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given. The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "zero-day",
+        "exploit",
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given. The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks",
+    "url": "https://www.securityweek.com/dozens-of-minnesota-water-utilities-targeted-in-coordinated-ot-attacks/",
+    "source": "SecurityWeek",
+    "published": "2026-07-29T07:53:22+00:00",
+    "raw_text": "State and federal agencies respond after intrusions disrupt automated controls at municipal water and wastewater utilities. The post Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "State and federal agencies respond after intrusions disrupt automated controls at municipal water and wastewater utilities. The post Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks appeared first on SecurityWeek ."
+  },
+  {
     "title": "ShinyHunters Claims Ernst & Young Hack",
     "url": "https://www.securityweek.com/shinyhunters-claims-ernst-young-hack/",
     "source": "SecurityWeek",
@@ -1287,64 +1378,22 @@
     "summary": "Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. The post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek ."
   },
   {
-    "title": "Hush Security Raises $30 Million for AI Agent Governance",
-    "url": "https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/",
-    "source": "SecurityWeek",
-    "published": "2026-07-28T10:17:27+00:00",
-    "raw_text": "The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships. The post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek .",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "governance"
-      ],
-      "Industry & Market": [
-        "partnership",
-        "raises"
-      ]
-    },
-    "summary": "The startup will invest in expanding engineering and sales teams, accelerating ecosystem support, and expanding corporate partnerships. The post Hush Security Raises $30 Million for AI Agent Governance appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Google Adopts New Threat Actor Naming System",
-    "url": "https://www.securityweek.com/google-adopts-new-threat-actor-naming-system/",
-    "source": "SecurityWeek",
-    "published": "2026-07-28T08:42:52+00:00",
-    "raw_text": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek .",
+    "title": "NCSC Publishes Guidance to Aid Incident Response and Recovery",
+    "url": "https://www.infosecurity-magazine.com/news/ncsc-publishes-guidance-incident/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-07-29T08:30:00+00:00",
+    "raw_text": "The National Cyber Security Centre has released a detailed framework to assist with incident response and recovery",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "threat",
-        "security"
+        "security",
+        "cyber",
+        "incident response"
       ]
     },
-    "summary": "The new two-word naming convention uses a memorable term utilized in public reporting and a cluster-categorization word. The post Google Adopts New Threat Actor Naming System appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Unpatched Fastjson Vulnerability Exploited in Attacks",
-    "url": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/",
-    "source": "SecurityWeek",
-    "published": "2026-07-28T07:27:55+00:00",
-    "raw_text": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "security"
-      ]
-    },
-    "summary": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek ."
+    "summary": "The National Cyber Security Centre has released a detailed framework to assist with incident response and recovery"
   },
   {
     "title": "Bugs in Hugging Face Diffusers Bypass Custom Code Safeguard",
@@ -1858,6 +1907,140 @@
       ]
     },
     "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP."
+  },
+  {
+    "title": "Risk-based patching is the future. AI made it table stakes",
+    "url": "https://www.csoonline.com/article/4202381/risk-based-patching-is-the-future-ai-made-it-table-stakes.html",
+    "source": "CSO Online",
+    "published": "2026-07-29T09:00:00+00:00",
+    "raw_text": "CISA’s new Binding Operational Directive (BOD) 26-04 marks one of the most important changes to federal vulnerability management in years. Rather than requiring agencies to patch every critical vulnerability on the same timetable, the directive prioritizes remediation based on risk, with patch deadlines ranging from three days for the highest-risk vulnerabilities to deferral for those posing minimal risk. It’s a welcome evolution, but it brings us to the starting blocks, not the finish line. Security teams have long known that severity alone doesn’t determine risk. A CVSS score says little about whether a vulnerability is reachable from the Internet, is being actively exploited, can be automated or provides the attacker with control of the asset. BOD 26-04 acknowledges the contextual nature of risk by directing organizations to focus first on the exposures most likely to be exploited. However, AI is compressing every stage of the attack lifecycle, changing the threat landscape faster than vulnerability management practices can adapt. CrowdStrike reports that the average eCrime breakout (Initial Lateral Movement) time has fallen to just 29 minutes, with the fastest observed breakout taking 27 seconds . Once attackers establish a foothold, Mandiant found they hand off access between operators in a median of 22 seconds. At the same time, AI itself is growing as an attack surface . Organizations are rapidly deploying copilots, browser agents, autonomous workflows and other AI-powered systems, introducing prompts, plugins, connectors and integrations that require protection. Against this backdrop, the directive’s three-day remediation window for the riskiest exposures looks less like an aggressive target and more like a luxury. Today’s attackers don’t simply exploit CVEs. They combine vulnerabilities with stolen identities, cloud misconfigurations, exposed APIs, SaaS weaknesses and increasingly AI systems to construct attack paths into critical assets. BOD 26-04 moves us forward, but AI requires defenders not simply to accelerate existing processes, but to rethink them. AI has changed the tempo and economics of cyberattacks One of AI’s biggest advantages for attackers is its ability to automate work that previously required teams of human operators. Reconnaissance, vulnerability research, exploit generation, phishing, credential harvesting and even portions of lateral movement can now be accelerated or, in some cases, largely orchestrated by AI. Recent research has demonstrated autonomous agents carrying out much of the operational work in sophisticated cyber campaigns while humans supervise the broader objectives. As a result, campaigns become easier and less expensive to scale, more targets can be pursued simultaneously and attackers can test far more paths into an environment before defenders realize they’re being probed. For years, vulnerability management assumed that organizations had weeks, or even months, to identify, prioritize and remediate security issues. That assumption no longer reflects reality. Attackers routinely move from initial access to lateral movement in less than an hour, and vulnerabilities are increasingly exploited shortly after disclosure, and in some cases are weaponized before defenders have even begun evaluating them. This is why CISA’s move toward risk-based remediation matters. Prioritizing vulnerabilities based on exploitability and operational risk gives defenders a much better chance of addressing the issues most likely to be used against them. But vulnerabilities represent only one piece of today’s exposure landscape. Modern attacks follow paths, not findings Most security organizations still divide responsibilities across specialized teams. Vulnerability management focuses on CVEs. Identity teams concentrate on authentication and privilege. Cloud security addresses configuration. Application security reviews code. Attackers don’t encounter those same boundaries. Their objective is to reach valuable assets using whatever route is available. A campaign may begin with an exposed vulnerability, stolen credentials, excessive cloud permissions, a misconfigured SaaS application or a compromised AI agent. More often than not, several of those conditions are combined. For example, the 2026 Verizon Breach report found that while 31% of initial exploitation last year was a vulnerability, 39% of attack chains involved identity issues. In every notable breach, attackers chain together various types of exposures to advance inside networks. An attacker who compromises a low-privilege account may discover an over-permissioned identity, pivot through a cloud workload, exploit a vulnerable application and eventually gain access to sensitive business systems. None of those individual exposures may appear catastrophic when viewed independently. Together, they form a viable attack path. With breaches always a chain of various exposures, and vulnerabilities representing only part of the story of how breaches actually occur, this is where vulnerability-centric security begins to break down. CrowdStrike also reported a 42% year-over-year increase in vulnerabilities exploited, before vendors even announced them. That means organizations that are nose-to-the-grindstone closing hundreds of high-severity findings will get breached because they lack the context needed to close off the most practical route an attacker would take to their critical assets. Organizations should assume breach and plan for the possibility that an attacker will eventually gain an initial foothold. Security architecture should be as segmented as possible and limit how far an adversary, or a compromised AI agent, can move after that initial compromise. And security controls should be validated continuously rather than assumed effective because they were successfully deployed. These principles shift attention away from individual findings and toward the conditions that enable successful attacks. How defenders can adapt: Continuous assessment and validation One practical way to make this transition is to get serious about implementing a Continuous Threat Exposure Management (CTEM) program , which establishes an ongoing process for understanding and reducing exposure. It starts with something many organizations still struggle to maintain: a current understanding of the environment. That means continuously mapping assets, identities, cloud infrastructure, SaaS applications, AI systems and the relationships between them. From there, security teams can identify exposures, prioritize them according to exploitability and business impact, validate whether they are actually reachable, and drive remediation across operational teams. This continuous cycle restores what Mandiant calls the Defender’s Advantage. Attackers must first discover an unfamiliar environment before they can exploit it. Defenders already have that knowledge – or should. The challenge is keeping it current as cloud services, identities, AI applications and business systems evolve daily. Embed validation into the process Security teams also need to verify that the exposures they’ve identified can actually be exploited and that remediation efforts have eliminated meaningful risk. That’s where adversary-aware exposure validation becomes an essential part of the process. Technologies such as breach-and-attack simulation, automated penetration testing and attack path analysis allow organizations to continuously test their environments using techniques that resemble real adversaries. Instead of asking whether a vulnerability exists, exposure validation answers more practical questions: Can an attacker reach it? Can they exploit it? Can they pivot from it to something the business actually cares about? Just as important, validation confirms whether remediation efforts have truly closed the door rather than simply reducing the number of findings on a dashboard. Prioritize the business, not the dashboard Validation becomes even more valuable when combined with business context. A medium-severity weakness affecting a revenue-generating application, regulated data or critical operational system may represent greater organizational risk than multiple critical vulnerabilities affecting isolated development environments. Prioritizing validated exposures according to business impact gives security leaders a remediation strategy they can explain to executives in operational terms rather than technical ones. More importantly, it aligns defensive efforts with the attack paths most likely to affect the organization. BOD 26-04 is an important step forward. But AI has already made risk-based patching table stakes. In the AI era, the organizations that succeed won’t necessarily be those that patch the fastest. They’ll be the ones that understand their exposure better than the attackers trying to exploit it. This article is published as part of the Foundry Expert Contributor Network. Want to join?",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "saas",
+        "cloud services"
+      ],
+      "Networks": [
+        "network",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "cve",
+        "phishing",
+        "exploit",
+        "cyberattack",
+        "threat",
+        "security",
+        "cyber",
+        "penetration testing",
+        "red team",
+        "cloud security",
+        "application security"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "CISA’s new Binding Operational Directive (BOD) 26-04 marks one of the most important changes to federal vulnerability management in years. Rather than requiring agencies to patch every critical vulnerability on the same timetable, the directive prioritizes remediation based on risk, with patch deadlines ranging from three days for the highest-risk vulnerabilities to deferral for those posing minimal risk. It’s a welcome evolution, but it brings us to the starting blocks, not the finish line. Security teams have long known that severity alone doesn’t determine risk."
+  },
+  {
+    "title": "How MFA gets hacked — and strategies to prevent it",
+    "url": "https://www.csoonline.com/article/570795/how-to-hack-2fa.html",
+    "source": "CSO Online",
+    "published": "2026-07-29T08:00:00+00:00",
+    "raw_text": "The security benefits of multifactor authentication (MFA) are well-known, yet MFA continues to be poorly, sporadically, and inconsistently implemented, undercutting its effectiveness as a security tool while often saddling users with an extra workflow burden — one of many obstacles to MFA’s success. Frequent news stories that describe innovative ways to circumvent MFA don’t help, such as evidence of an AI-fueled phishing attack that found cloud keys and SSH access details, and another case of an AI-based attack that leveraged Claude Code . Even the savviest vendors aren’t immune, as evidenced by a series of Okta attacks in 2023 that resulted in stolen GitHub source code, an infected supply chain, and a compromised support portal. Still, MFA methods have gotten easier to use, thanks to the growing popularity and sophistication of passwordless approaches . Over the past several years, MFA mandates from big vendors such as Google and Microsoft for both employees and customers have helped motivate IT operations to strengthen their authentication practices and encourage comprehensive and continuous authentication across all applications. According to a JumpCloud 2025 survey , 87% of larger enterprises regularly employ MFA methods, although only about a third of smaller firms did the same. Cisco more recently found that while 87% of survey respondents agreed that having phishing-resistant MFA methods were critical, less than 20% had implemented any such procedure across their enterprises. We used the following references that describe many of the MFA exploits in further technical detail, and how to prevent them, including: A collection of bypass methods illustrated by Abnormal Security KnowBe4’s extensive slide deck detailing a number of MFA exploit methods, though somewhat outdated The FIDO Alliance’s series of white papers on how enterprises can implement better MFA methods JumpCloud’s collection of MFA usage statistics from surveys Cisco Duo’s MFA Buyer’s Guide , which details how to cost-justify stronger MFA deployments RSA’s useful deep dive on implementing better MFA programs via its passwordless solutions Notable MFA threat modalities and common attack techniques The below table offers an overview of four common MFA threat modalities, along with the associated attack methods applied across specific locations. Of note is that fact that attackers have found weaknesses across all aspects of enterprise computing infrastructure. Part of the problem is that the average modern authentication workflow is complex: Users can arrive at an application via a web portal, a smartphone app, an AI query, or an API. They can connect via a variety of endpoints, through a local network or a VPN, running different OSes and browsers. As a result, any enterprise testing its MFA portfolio must apply careful and continual vigilance to a grab bag of circumstances and locations where MFA codes can be intercepted. MFA bypass and exploit technologies Methods Network Mobile Applications Workflow Browser and cookie Fatigue Gaps in auth and access policies Prompt bombing, Gaps in auth and access policies Prompt bombing Prompt bombing, Gaps in auth and access policies Prompt bombing, Gaps in auth and access policies Social Engineering Evil proxy servers, Real-time phishing relay Vishing, SMS phishing, SIM swapping Non MFA-enabled apps, Faked websites, TOTP relay Consent phishing, Account recovery abuses Man-in-the-browser, Consent phishing Stealing auth tokens/cookies MITM attacks Auth app phising Malicious MFA software Session hijacking Session hijacking, Pass-the-cookie Targeting weak authentication Manipulate trusted IPs/devices Reused passwords, Lack of FIDO/biometrics Weak account recovery, Non-MFA accounts, IMAP/POP email access Prior auth/logins, Brute force MFA Session hijacking, Pass-the-cookie, Man-in-the-browser, Consent phishing MFA fatigue MFA fatigue is an attack modality that involves rapidly sending numerous authorization requests, typically via SMS push messages, until a user gives in and approves the request, granting access to an attacker, such as what happened to Uber in 2022 . This is one of numerous reasons why SMS has long been considered a very insecure second factor channel and why it still is a threat, as evidenced by PayPal’s 2026 elimination of MFA-based SMS . These attacks also go by the name “push bombing” or “prompt bombing” and are not limited to mobile exploits. MFA fatigue can also take advantage of gaps in authentication or access control policies. The irony is that the more MFA an organization uses, the more likely an MFA fatigue attack will succeed. Social engineering Attackers also use a combination of social engineering and phishing attacks — based on SMS ( smishing ) or voice calls ( vishing ) to disrupt the overall authentication workflow and trick users into giving up MFA tokens. Changes in user behavior, such as more remote post-pandemic usage and events such as the World Cup, are often exploited by bad actors. Arctic Wolf wrote in its blog , “Using social engineering along with an MFA fatigue attack can be effective for threat actors, as it creates a false sense of trust.” These combination attacks also often lure users to fake websites, real-time phishing relays, or proxy servers to capture one-time passcodes. For mobile authenticators, SIM swaps can also be used to redirect one-time codes to an attacker’s phone. These happen by convincing a customer service employee at a telecommunications provider that they are the legitimate phone owner and then use SMS to access authentication messages. More recently we’ve seen exploits that use account recovery or password reset fallbacks to circumvent MFA protections. Stealing authentication cookies Hijackers can also compromise MFA sessions by stealing authentication cookies or other tokens. This can be accomplished in several ways, including setting up phony login pages, using relays or man-in-the-middle or man-in-the-browser proxies to intercept and obtain the MFA codes. A Joomla compromise from last year provides an example. Because numerous websites don’t enforce session inactivity time limits, attackers could use endpoints that had received prior authentication and steal cookies to bypass MFA. “The authorization process does not have a way of knowing whether the current holder of that access control token was the legitimate user or ever successfully authenticated. This key fact is often used by hackers to compromise MFA,” KnowBe4’s researchers wrote in their report. Targeting weak authentication Targeting non-MFA users and applications with weak passwords is another common threat modality that can operate across the entire computing spectrum. While MFA adoption has improved, it still is far from universal, and attackers count on finding those unprotected places and users to target their efforts accordingly. A few years ago Akira ransomware threat actors infiltrated organizations using Cisco VPNs that were not configured for MFA, where they could use brute force to obtain user credentials. Going back to the 2021 Colonial Pipeline attack, analysts found it was caused by compromising a single password used on a legacy VPN that wasn’t running any MFA . Using other service accounts that may have been once used by administrators or by users who have either forgotten them or left the company are also a common pathway for these types of compromises. There are also cases of taking advantage of already-authenticated IP addresses or devices, or direct attacks on cellular networks, or setting up proxy servers to intercept MFA codes. Strategies to stop MFA attacks Given all these exploits, MFA needs attention to detail to ensure security. Here are a few tips for ensuring your MFA strategy will be successful. 1. Understand what you’re trying to protect First, security teams must understand the resources they seek to protect from compromise. “For example, cyber threat actors often target email systems, file servers, and remote access systems to gain access to an organization’s data, along with trying to compromise identity servers like Active Directory, which would allow them to create new accounts or take control of user accounts,” according to this CISA fact sheet . CISA recommends systems that support FIDO protocols for the first recipients of MFA protection. This includes using hardware keys, better biometric controls, and setting up passwordless access for the most sensitive applications. CISA’s fact sheet came out more than three years ago, and I feel its recommendations don’t go far enough: Better MFA should be enterprise wide. Kevin Surace, CEO of biometric authentication provider Token.com, tells CSO: “ We moved to MFA, and [the attackers] moved with us.” This means that enterprise security managers must up their game as well. “There are some MFA methods without biometrics so it’s not as secure, as it doesn’t guarantee the person, just possession,” Surace says. “While it technically works short term, it’s not the end game. We will all be given services like Zoom and banking that will require real live biometrics to verify identity.” One example is when Microsoft introduced conditional access and risk-based authentication to combat advanced MFA bypass techniques such as token theft and session hijacking, reflecting its ongoing efforts to strengthen identity security. 2. Get adaptive with authentication Next, all authentications should be real-time, continuous risk-based assessments, and they should dynamically step up security requirements automatically based on what users are doing at any given moment. The old ways of using a single access control moment when a user logs in need to be replaced accordingly. There are a number of authentication products that couple MFA into their adaptive authentication processes , and combine with the above hardened methods, such as asking for a passwordless verification when you want to add a new payee on your bank account. 3. Button down access rights A companion effort should be a careful assessment and frequent review of user and application access rights. IT security staff should ensure employees only receive access to limited data needed to accomplish their job responsibilities. But this is not always simple to accomplish, as roles and responsibilities change. Still, over the years it is common to see numerous users who are overprovisioned access rights without any subsequent auditing or reduction in these rights. 4. Conduct MFA workflow analysis regularly All these points should be part of an overall MFA workflow analysis, which really isn’t anything new. Gerhard Giese from Akamai points this out in a 2021 blog post , when he talks about how MFA doesn’t always prevent credential stuffing . Giese says IT managers need to “re-examine your authentication workflows and login screens to make sure an attacker cannot uncover valid credentials by interrogating the web server’s response and implement a bot management solution to make sure you are not making things easier for the bad guys.” 5. Review your password reset workflow One aspect that seems to get historically neglected is the password reset workflow process, which is why it is a common target of attackers. “Surprisingly, there are many websites that don’t have a second layer of verification for their 2FA reset password process, or they offer MFA but do not enforce users to employ it,” says Mitnick Security in this blog post . Having better MFA, along with limits on unsuccessful login attempts and password reuse can also help. 6. Ensure the security of high-value targets Finally, you should assess and locate users who might be high-value targets. “Every organization has a small number of user accounts that have additional access or privileges, which are especially valuable to cyber threat actors,” CISA writes in its report. Examples include IT and system administrators, staff attorneys, and HR managers. Consider these groups for an initial rollout phase of your MFA project. MFA technology should be a part of corporate security’s critical infrastructure. Recent attacks, as well as urging from experts across government and the private sector, should provide further impetus for intelligent implementations.",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "GRC",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "network",
+        "vpn",
+        "wan",
+        "lan",
+        "telecom"
+      ],
+      "Cybersecurity": [
+        "ransomware",
+        "phishing",
+        "exploit",
+        "hacker",
+        "threat",
+        "security",
+        "cyber",
+        "soc",
+        "identity security"
+      ],
+      "GRC": [
+        "audit",
+        "nist"
+      ],
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "The security benefits of multifactor authentication (MFA) are well-known, yet MFA continues to be poorly, sporadically, and inconsistently implemented, undercutting its effectiveness as a security tool while often saddling users with an extra workflow burden — one of many obstacles to MFA’s success. Frequent news stories that describe innovative ways to circumvent MFA don’t help, such as evidence of an AI-fueled phishing attack that found cloud keys and SSH access details, and another case of an AI-based attack that leveraged Claude Code . Even the savviest vendors aren’t immune, as evidenced by a series of Okta attacks in 2023 that resulted in stolen GitHub source code, an infected supply chain, and a compromised support portal. Still, MFA methods have gotten easier to use, thanks to the growing popularity and sophistication of passwordless approaches ."
+  },
+  {
+    "title": "Ransomware report: VPNs in the crosshairs, AI attacks",
+    "url": "https://www.csoonline.com/article/4201372/ransomware-report-vpns-in-the-crosshairs-ai-attacks.html",
+    "source": "CSO Online",
+    "published": "2026-07-29T07:30:00+00:00",
+    "raw_text": "Ransomware attacks were up year over year in June for the fourth consecutive month, according to the NCC Group, though attacks increased just 3% in Q2 2026 versus the previous quarter. VPNs and other network edge devices continue to be prime initial access targets. And an autonomous AI agent enters the fray. Here is a rundown of recent ransomware developments. Industries at risk NCC Group reports that ransomware gangs targeted the industrials sector (30%) above all other verticals in Q2, followed by the consumer discretionary industry (24%) and information technology (11%). Healthcare (10%) was the fourth most targeted industry, with an April attack on Signature Healthcare in Massachusetts disrupting ambulance services , forcing cancer treatment cancellations, and leading Brockton Hospital to use downtime procedures for several weeks . Government entities experienced 89 confirmed and 98 unconfirmed ransomware attacks in the first half of 2026, according to a report from Comparitech . US government agencies were targeted the most, accounting for 31% of those attacks, though at a rate 23% less than 2H 2025. Industries under increasing attack over the past six months include transportation (52%), healthcare (35%), retail (28%), and technology (23%), Comparitech found. Most active threat actors Ransomware groups Qilin and The Gentlemen came in No. 1 and No. 2 in both NCC Group’s list for most attacks in Q2 2026 and Comparitech’s list for 1H 2026, though Comparitech notes that The Gentlemen, reportedly a Qilin splinter group, topped Qilin in victims claimed on their respective data leak sites for the month of June. Cyber resilience platform vendor Halcyon recently called The Gentlemen “ one of the fastest-scaling ransomware threats ” it has tracked. Akira, DragonForce, Lockbit, and INC rounded out both lists’ top 6 most active threat ransomware actors. NCC Group also singled out KryBit as a notable emerging group — first observed in March 2026 — that operates as ransomware-as-a-service specializing in targeting Windows, Linux, VMware ESXi, and NAS devices. According to Halcyon, KryBit’s activity model gives the group notable growth potential . TTP trends Both Qilin and The Gentlemen have been observed deploying “EDR killer” tools of late, according to reports from Cisco Talos and ESET , respectively. The tools, which are not new, attempt to bypass or disable endpoint security agents on PCs and servers. Notable, however, is that affiliates must develop or source their own EDR killers, a significant undertaking given the breadth of platforms used by defenders and thus a sign of growing threat group sophistication. Network edge vulnerabilities and credentials, VPNs in particular, are being increasingly exploited by ransomware groups, according to NCC Group, which notes Akira, Qilin, and The Gentlemen as heavy users of these primary vectors. Targeted devices include systems from Fortinet, Citrix, and Check Point. Arctic Wolf recently announced an ongoing Qilin campaign versus a vulnerability in Palo Alto Networks’ GlobalProtect VPN . AI watch Researchers from Sysdig detailed the operations of an autonomous AI agent, dubbed JadePuffer, that completed its entire intrusion chain, from initial access to database extortion, using an LLM to adapt its actions and execute more than 600 coordinated payloads. The agent harvested credentials, established persistence, and mapped internal services before encrypting configuration records, deleting the original tables, and leaving behind a Bitcoin ransom demand in what Sysdig researchers labeled “ the first documented case of agentic ransomware .” In depth: Ransomware groups increasingly hammer network edge for access Microsoft uncovers GigaWiper, a backdoor designed for destruction on demand Why The Gentlemen ransomware is a test of identity and recovery controls This AI agent autonomously hacked a network, adapted on the fly, and demanded a ransom New CitrixBleed-like NetScaler flaw sees exploit attempts in the wild Be on the lookout for Mistic, a new backdoor used by ransomware broker FortiBleed campaign exposes 75,000 Fortinet firewalls worldwide Check Point warns of ransomware-linked attacks exploiting outdated VPN protocol",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "vpn",
+        "firewall",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "ransomware",
+        "vulnerability",
+        "exploit",
+        "threat",
+        "data leak",
+        "security",
+        "cyber",
+        "endpoint security",
+        "edr"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "vendor"
+      ]
+    },
+    "summary": "Ransomware attacks were up year over year in June for the fourth consecutive month, according to the NCC Group, though attacks increased just 3% in Q2 2026 versus the previous quarter. VPNs and other network edge devices continue to be prime initial access targets. And an autonomous AI agent enters the fray. Here is a rundown of recent ransomware developments."
   },
   {
     "title": "Fortinet’s new FortiGate platform converges firewall, SASE technologies",
@@ -2416,63 +2599,57 @@
     "summary": "I have sat in on a version of the same incident post-mortem in three sectors over the past two years. The script does not vary much. At 4:47 a.m. on a Saturday, an on-duty SOC analyst sees a ransomware payload spreading across three servers in the data center."
   },
   {
-    "title": "When the hackers get hacked: The Klue breach and the new reality of third-party cyber risk",
-    "url": "https://www.csoonline.com/article/4200130/when-the-hackers-get-hacked-the-klue-breach-and-the-new-reality-of-third-party-cyber-risk.html",
-    "source": "CSO Online",
-    "published": "2026-07-27T09:00:00+00:00",
-    "raw_text": "In cybersecurity, defenders sometimes naively assume that threat actors operate from secure, resilient infrastructures insulated from the very chaos they inflict on others. The 2026 compromise of Klue challenges that assumption. What began as a software-as-a-service supply chain breach evolved into an exceptional case in which a second criminal group claimed to have compromised the first extortion crew and pilfered data that had already been stolen. The result was not simply another ransomware story. It exposed fundamental weaknesses in SaaS integrations, identity-based trust, third-party risk management and executive decision-making. Scene of the crime Founded in 2015, Klue, a Vancouver, British Columbia-based software-as-a-service (SaaS) company, provides an AI-powered competitive intelligence platform that serves more than 500 customers and employs more than 200 people across North America and Europe. The company has raised approximately $81 million in venture funding. The platform helps organizations monitor competitors, analyze market signals and distribute insights across sales, marketing, product and executive teams. By aggregating public sources, internal knowledge, and third-party data, Klue turns fragmented information into actionable intelligence that supports faster strategic decisions, stronger competitive positioning, and more effective product planning. Klue’s “Battlecards app” integrates with Salesforce, HubSpot, SharePoint, Zoom, Gong, Chorus, Clari, Google Drive and Slack, syncing account records, deal data, contact information and call transcripts. Cause of the breach Klue occupies a privileged position within customer environments since it integrates with platforms such as Salesforce and other collaboration ecosystems. Those integrations rely heavily on OAuth tokens that permit trusted, authenticated access without repeatedly requesting credential inputs. Attackers from the Icarus criminal group discovered an unused but still-active service account credential originally created for a pilot project. That unused, forgotten credential provided an entry point into Klue’s integration infrastructure. Rather than stealing passwords, the attackers harvested OAuth tokens. This distinction matters. Modern identity-based attacks increasingly focus on session tokens and application trust relationships instead of credential theft. Once valid OAuth tokens were obtained, the attackers effectively inherited the permissions granted to Klue within customer environments. They executed extensive Salesforce API queries over a period of hours, extracting customer relationship management data including contact information, quotes, pricing information, sales communications and account records. Continuance of the breach The most unusual aspect of the incident emerged after the initial compromise. Icarus allegedly informed Klue that another criminal group had obtained sample data after compromising Icarus’ servers. That second group reportedly attempted to directly extort affected organizations independently while advising victims not to trust Icarus. Whether every claim can ultimately be verified is less important than the strategic lesson it illustrates. Stolen data can itself become a target inside criminal ecosystems. This development fundamentally alters the traditional ransomware decision model. Organizations have long debated whether paying a ransom increases the likelihood that stolen information will remain private. But the Klue breach illustrates an even more troubling possibility. Even if an organization believed the original attackers would honor an agreement to delete stolen information, the criminals may no longer control the data. If threat actors maintain poor operational security, expose infrastructure or suffer compromises themselves, victims may face repeated extortion campaigns despite paying the initial demand. CISO perspective From a CISO perspective, this incident reinforces an uncomfortable reality: identity has become the new perimeter. Security investments focused exclusively on endpoint protection or network segmentation provide little protection when a trusted SaaS application already possesses legitimate access to enterprise data. The breach also demonstrates how seemingly insignificant technical oversight becomes enterprise risk. The root cause was not an advanced zero-day exploit. Instead, an inactive credential remained enabled years after its intended purpose had ended. Security professionals routinely discuss attack surface reduction, yet dormant service accounts, forgotten API keys and obsolete integrations continue to exist inside many organizations. Governance failures frequently create greater exposure than sophisticated malware. Klue reportedly detected suspicious activity quickly, revoked credentials, removed malicious code and engaged incident response specialists and law enforcement. These actions reflect mature incident response processes. Nevertheless, the downstream impact extended well beyond Klue because customers had delegated trusted access to the platform. The compromise therefore became a supply-chain event in which one vendor’s security weakness propagated risk across numerous downstream organizations. Executive perspectives For executive leadership, the incident raises broader governance questions. Vendor risk assessments often emphasize compliance certifications, questionnaires and contractual commitments. Far less attention is devoted to lifecycle management of privileged service accounts, continuous credential governance or monitoring of delegated application permissions. Executives should ask whether critical SaaS providers regularly eliminate dormant credentials, rotate secrets and continuously validate privileged integrations rather than relying solely on annual audits. Executives therefore should recognize that ransom payments cannot reliably purchase exclusivity or certainty. Cyber extortion increasingly resembles a fragmented marketplace in which multiple actors may possess copies of the same information. Risk decisions should be evaluated with that possibility explicitly acknowledged. Several practical lessons emerge: Organizations should inventory every SaaS integration possessing privileged API access and regularly validate business justification. Privileged service accounts require formal ownership, expiration policies and automated deprovisioning. OAuth tokens deserve the same governance attention historically applied to passwords and certificates. Organizations should continuously monitor abnormal API behavior capable of revealing high-volume data extraction. In the Klue breach, Icarus attackers were allegedly executing approximately 1,000 queries within a fifteen-minute timeframe against one environment. Third-party risk programs should evaluate operational security practices surrounding identity governance rather than treating compliance certifications as sufficient evidence of resilience. Board of Director perspective Boards also should broaden the metrics they receive from security leadership. Instead of measuring only phishing click rates or vulnerability counts, executives should understand how many privileged SaaS integrations exist, how many dormant service accounts remain active, how frequently application permissions are reviewed, and how rapidly suspicious API activity can be detected and contained. These indicators more directly reflect organizational exposure in cloud-centric environments. The Klue incident represents more than just another breach. It demonstrates that modern enterprises inherit both the strengths and weaknesses of every trusted integration within their digital ecosystem. It also reveals that cybercriminal organizations are neither unified nor necessarily competent custodians of stolen information. When attackers become victims themselves, organizations discover that extortion risk does not end with the initial compromise. Afterthoughts As identified on the Ransomware Live website , Icarus is a relatively new ransom group whose criminal activity was first identified in May 2026. To date, they have victimized twelve entities across three countries: the United States, Canada and Indonesia. We may not know the entirety of the blast radius caused by the Klue breach, but it is significant, with allegedly 195 victims. For this article, I accessed Klue’s impressive Trust Center. Klue boasts badges for SOC 2, GDPR and CCPA compliance. Additionally, Klue identifies nearly 50 security controls spread across infrastructure security, organizational security, product security and internal security procedures. The Klue Trust Center also provides a notice dated May 6, 2026, announcing that they completed their SOC 2 Type 2 audit for the period of March 16, 2025, to March 15, 2026. It should be noted that SOC 2 Type 2 compliance should be audited and renewed on an annual basis. According to Klue’s update, they are not SOC 2 Type 2 compliant. In reviewing Klue’s Leadership website page , there is no one identified on the team with a CISO title. I also conducted a LinkedIn and internet search and I could not find a Klue employee with a CISO or similar title responsible for enterprise cybersecurity. For CISOs, executives and boards, the lesson is straightforward. Trust relationships require continuous governance, identity is now a primary attack surface and organizations must assume that once data leaves their control, no criminal promise can restore certainty. In an era where even hackers can be hacked, resilience — not misplaced trust — remains the only sustainable defense. This article is published as part of the Foundry Expert Contributor Network. Want to join?",
+    "title": "UK AI Growth Zone program for data centers in limbo after DSIT closure",
+    "url": "https://www.datacenterdynamics.com/en/news/uk-ai-growth-zone-program-for-data-centers-in-limbo-after-dsit-closure/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-29T09:16:25+00:00",
+    "raw_text": "New home for flagship digital infrastructure scheme yet to be decided",
     "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market",
-      "Networks",
-      "Cloud Infrastructure"
+      "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "saas"
-      ],
-      "Networks": [
-        "network",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "ransomware",
-        "malware",
-        "vulnerability",
-        "phishing",
-        "zero-day",
-        "exploit",
-        "hacker",
-        "threat",
-        "security",
-        "cyber",
-        "soc",
-        "incident response"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "audit",
-        "gdpr",
-        "soc 2",
-        "risk management",
-        "cyber risk",
-        "vendor risk",
-        "enterprise risk"
-      ],
-      "Industry & Market": [
-        "funding",
-        "investment",
-        "raises",
-        "ey",
-        "vendor"
+      "Data Centres": [
+        "data center"
       ]
     },
-    "summary": "In cybersecurity, defenders sometimes naively assume that threat actors operate from secure, resilient infrastructures insulated from the very chaos they inflict on others. The 2026 compromise of Klue challenges that assumption. What began as a software-as-a-service supply chain breach evolved into an exceptional case in which a second criminal group claimed to have compromised the first extortion crew and pilfered data that had already been stolen. The result was not simply another ransomware story."
+    "summary": "New home for flagship digital infrastructure scheme yet to be decided"
+  },
+  {
+    "title": "Microsoft buys more land in Middenmeer, Netherlands, for potential data center development",
+    "url": "https://www.datacenterdynamics.com/en/news/microsoft-buys-more-land-in-middenmeer-netherlands-for-potential-data-center-development/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-29T08:04:27+00:00",
+    "raw_text": "Another 37.5-hectare plot added to portfolio",
+    "categories": [
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Another 37.5-hectare plot added to portfolio"
+  },
+  {
+    "title": "Meta and BlackRock team up for data center in El Paso, Texas",
+    "url": "https://www.datacenterdynamics.com/en/news/meta-and-blackrock-team-up-for-data-center-in-el-paso-texas/",
+    "source": "DataCenterDynamics",
+    "published": "2026-07-29T07:57:30+00:00",
+    "raw_text": "Will offer 1GW of compute capacity",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center",
+        "capacity"
+      ]
+    },
+    "summary": "Will offer 1GW of compute capacity"
   },
   {
     "title": "Sponsored: A new optical ecosystem",
@@ -2747,52 +2924,44 @@
     "summary": "Unnamed suspect questioned following searches of his home and workplace"
   },
   {
-    "title": "Rakuten Symphony secures Japanese METI grant to support Ukraine's Open RAN deployment",
-    "url": "https://www.datacenterdynamics.com/en/news/rakuten-symphony-secures-japanese-meti-grant-to-support-ukraines-open-ran-deployment/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-28T13:40:27+00:00",
-    "raw_text": "The carrier is currently working with Ukrainian telco Kyivstar on Open RAN",
+    "title": "AI digs through 3,700 accounts of dreams and waking life, finds method in the madness",
+    "url": "https://www.theregister.com/offbeat/2026/07/29/ai-digs-through-3700-accounts-of-dreams-and-waking-life-finds-method-in-the-madness/5279775",
+    "source": "The Register",
+    "published": "2026-07-29T09:15:00+00:00",
+    "raw_text": "Researchers uncover patterns in how sleeping minds recombine memories, people, and places",
     "categories": [
-      "Networks"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Networks": [
-        "telco"
-      ]
-    },
-    "summary": "The carrier is currently working with Ukrainian telco Kyivstar on Open RAN"
+    "matched_keywords": {},
+    "summary": "Researchers uncover patterns in how sleeping minds recombine memories, people, and places"
   },
   {
-    "title": "BESS firm Energy Vault breaks ground on first data center in Snyder, Texas",
-    "url": "https://www.datacenterdynamics.com/en/news/bess-firm-energy-vault-breaks-ground-on-first-data-center-in-snyder-texas/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-28T13:28:42+00:00",
-    "raw_text": "Will comprise ten Crusoe Spark modular data center units",
+    "title": "Burnham's spanner in the works leaves UK government tech scattered across Whitehall",
+    "url": "https://www.theregister.com/public-sector/2026/07/29/burnhams-spanner-in-the-works-leaves-uk-government-tech-scattered-across-whitehall/5279437",
+    "source": "The Register",
+    "published": "2026-07-29T08:30:00+00:00",
+    "raw_text": "Splitting up responsibility for digital transformation and procurement while AI gets a seat at Cabinet risks incoherency",
     "categories": [
-      "Data Centres"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "data center"
+      "Cloud Infrastructure": [
+        "digital transformation"
       ]
     },
-    "summary": "Will comprise ten Crusoe Spark modular data center units"
+    "summary": "Splitting up responsibility for digital transformation and procurement while AI gets a seat at Cabinet risks incoherency"
   },
   {
-    "title": "From reactive cooling to predictive thermal resilience",
-    "url": "https://www.datacenterdynamics.com/en/whitepapers/from-reactive-cooling-to-predictive-thermal-resilience/",
-    "source": "DataCenterDynamics",
-    "published": "2026-07-28T12:32:58+00:00",
-    "raw_text": "Enabling sustainable energy efficiency, economic value, and climate adaptation in GCC cities",
+    "title": "Airbus keeps an A350 flying for 24 hours",
+    "url": "https://www.theregister.com/offbeat/2026/07/29/airbus-keeps-an-a350-flying-for-24-hours/5280209",
+    "source": "The Register",
+    "published": "2026-07-29T06:34:56+00:00",
+    "raw_text": "Ultra long range edition should enable 22-hour nonstop Australia-to-Europe flights next year",
     "categories": [
-      "Data Centres"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Data Centres": [
-        "cooling"
-      ]
-    },
-    "summary": "Enabling sustainable energy efficiency, economic value, and climate adaptation in GCC cities"
+    "matched_keywords": {},
+    "summary": "Ultra long range edition should enable 22-hour nonstop Australia-to-Europe flights next year"
   },
   {
     "title": "Big Tech demanding deals that smooth out memory prices, says SK Hynix",
@@ -3356,48 +3525,53 @@
     "summary": "Trump's unpredictability is pushing governments and businesses toward open source while Britain remains glued to US tech"
   },
   {
-    "title": "The roller coaster works, but the Six Flags kiosk has gone off the rails",
-    "url": "https://www.theregister.com/offbeat/2026/07/27/the-roller-coaster-works-but-the-six-flags-kiosk-has-gone-off-the-rails/5276467",
-    "source": "The Register",
-    "published": "2026-07-27T09:15:00+00:00",
-    "raw_text": "Would you like an error with your terror?",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Would you like an error with your terror?"
-  },
-  {
-    "title": "FOSS smashed one Microsoft monopoly. After 20 years of failure, it's time to smash another",
-    "url": "https://www.theregister.com/columnists/2026/07/27/foss-smashed-one-microsoft-monopoly-after-20-years-of-failure-its-time-to-smash-another/5278040",
-    "source": "The Register",
-    "published": "2026-07-27T08:30:00+00:00",
-    "raw_text": "Word up",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Word up"
-  },
-  {
-    "title": "Google goes it alone with a new cybercrime crew taxonomy",
-    "url": "https://www.theregister.com/security/2026/07/27/google-goes-it-alone-with-a-new-cybercrime-crew-taxonomy/5278749",
-    "source": "The Register",
-    "published": "2026-07-27T07:31:00+00:00",
-    "raw_text": "So much for Microsoft and CrowdStrike’s plans for consistent names across the industry",
+    "title": "How IT leaders can start the shift to quantum-safe security",
+    "url": "https://www.computerweekly.com/opinion/How-IT-leaders-can-start-the-shift-to-quantum-safe-security",
+    "source": "ComputerWeekly",
+    "published": "2026-07-29T04:44:00+00:00",
+    "raw_text": "<p>For years, post-quantum cryptography was treated as a problem for a future leadership team. Important, yes, but still far enough away that many organisations could postpone the harder decisions for the next cycle.</p> <p>That is changing rapidly. Over recent months, <a href=\"https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/\">Google</a> and <a href=\"https://blog.cloudflare.com/post-quantum-roadmap/\">Cloudflare</a> have both set 2029 as a target for full post-quantum security across their infrastructure, driven by rapid advances in quantum research and a <a href=\"https://www.computerweekly.com/news/366640684/Shrinking-PQC-timeline-highlights-immediate-risk-to-data-security\">shrinking margin for delay</a>. These are operational decisions made by companies that sit deep inside the global technology supply chain.</p> <p>The same shift is now visible in national security. In her <a href=\"https://www.gchq.gov.uk/speech/gchq-annual-lecture-2026-as-delivered\">lecture at Bletchley Park</a>, GCHQ director <a href=\"https://www.computerweekly.com/news/366643734/National-cyber-shield-could-be-ready-in-five-years\">Anne Keast-Butler warned of a “narrowing window”</a> for the UK and its allies to maintain their technological advantage as AI, cyber capabilities and quantum technologies advance at the same time.</p> <p>From our work across standards bodies, regulated sectors and technology suppliers, the challenge now is coordination. Transition deadlines will only be met if semiconductor providers, OEMs, network security vendors and critical national infrastructure operators move in step.</p> <p>That makes 2026 a critical year, when sector-specific <a href=\"https://www.techtarget.com/searchsecurity/video/An-explanation-of-post-quantum-cryptography\">Post Quantum Cryptography</a> (PQC) requirements need to become clear enough to shape procurement research and decisions and IT refresh cycles. <a href=\"https://www.computerweekly.com/news/366640650/Google-targets-2029-for-post-quantum-cyber-readiness\">Google’s 2029 commitmen</a>t gives the market a real planning signal. As other hyperscalers follow, pressure will build quickly across the supply chain, especially for the vendors that the organisations that make up the Critical National Infrastructure (CNI) depends on most.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Supply chains will determine the pace of transition\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Supply chains will determine the pace of transition</h2> <p>Cloud and data centre hyperscalers and internet infrastructure providers sit at the centre of enormous digital ecosystems. When they accelerate post-quantum timelines, the effect moves through hardware manufacturers, software suppliers, managed service providers and eventually the organisations that depend on them.</p> <p>This matters most in sectors with complex operational environments, including critical national infrastructure, financial services, energy and manufacturing. One unsupported system, one legacy platform or one unprepared supplier can slow progress across a much wider estate. For many organisations, success will depend on how well they coordinate across suppliers and how early they start turning broad policy goals into procurement requirements.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Progress starts inside existing change and budget cycles\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Progress starts inside existing change and budget cycles</h2> <p>One of the most common misconceptions about post-quantum migration is that nothing meaningful can happen until an organisation launches a dedicated transformation programme. In practice, that is rarely true.</p> <p>Cloud migrations, infrastructure refreshes, application modernisation work and hardware replacement cycles are already under way across most enterprises. The organisations making progress are folding post-quantum readiness into these programmes as a resilience requirement, rather than setting it up as a separate initiative competing for attention and budget.</p> <p>Replacing cryptography as part of a planned upgrade is cheaper and less disruptive than retrofitting it later under tighter deadlines. Every scheduled technology refresh is a chance to introduce quantum-safe capability, assess supplier roadmaps or retire systems that may become difficult to support later.</p> <p>Prioritisation matters just as much. Organisations do not need to solve everything at once.They need to focus first on the systems that matter most, the dependencies that are hardest to replace and the points where delay would create the biggest operational and security risk.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Don’t let perfect be the enemy of good\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Don’t let perfect be the enemy of good</h2> <p>A common reason organisations stall is the belief that they need a perfect answer before they can act.</p> <p>A better starting point is to identify the suppliers and systems that matter most, and use that to set clear priorities. That can be done quickly through structured conversations across procurement, vendor risk and technical teams.</p> <p>Once those priorities are in place, organisations can start measuring progress in ways that matter to the business. Vendor readiness, dependency concentration and coverage of critical services are more useful indicators than abstract discussion of algorithms. They show where resilience is improving, where gaps remain and where executive attention is still needed.</p> <p>They also create momentum. When leaders can see real progress, they are far more likely to support the next phase of migration. Different suppliers will move at different speeds, but the broader transition will increasingly follow the path set by the largest providers and the sectors under the greatest regulatory pressure.</p> <p><a href=\"https://www.techtarget.com/searchsecurity/feature/How-CISOs-can-prepare-for-the-quantum-cybersecurity-threat\">Post-quantum migration</a> sits inside asset management, supplier governance and sound operational planning. The organisations that start early, set priorities clearly and coordinate across their supply chain will have more options, face less disruption and build greater confidence across the business.</p> <p><i>Ben Packman is Chief Strategy Officer at PQShield</i></p> </section>",
     "categories": [
       "Networks",
-      "Cybersecurity"
+      "GRC",
+      "Industry & Market",
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Data Centres"
     ],
     "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "cloud migration"
+      ],
       "Networks": [
-        "lan"
+        "network",
+        "lan",
+        "internet infrastructure",
+        "network security"
       ],
       "Cybersecurity": [
+        "threat",
+        "security",
         "cyber"
+      ],
+      "GRC": [
+        "governance",
+        "regulatory",
+        "policy",
+        "vendor risk"
+      ],
+      "Data Centres": [
+        "data centre",
+        "hyperscale"
+      ],
+      "Industry & Market": [
+        "launches",
+        "ey",
+        "service provider",
+        "vendor"
       ]
     },
-    "summary": "So much for Microsoft and CrowdStrike’s plans for consistent names across the industry"
+    "summary": "<p>For years, post-quantum cryptography was treated as a problem for a future leadership team. Important, yes, but still far enough away that many organisations could postpone the harder decisions for the next cycle.</p> <p>That is changing rapidly. Over recent months, <a href=\"https://blog.google/innovation-and-ai/technology/safety-security/cryptography-migration-timeline/\">Google</a> and <a href=\"https://blog.cloudflare.com/post-quantum-roadmap/\">Cloudflare</a> have both set 2029 as a target for full post-quantum security across their infrastructure, driven by rapid advances in quantum research and a <a href=\"https://www.computerweekly.com/news/366640684/Shrinking-PQC-timeline-highlights-immediate-risk-to-data-security\">shrinking margin for delay</a>. These are operational decisions made by companies that sit deep inside the global technology supply chain.</p> <p>The same shift is now visible in national security."
   },
   {
     "title": "CW@60: The importance of a different path",
@@ -3498,6 +3672,51 @@
       ]
     },
     "summary": "<p>Visa will cut 7% of its workforce and increase the use of artificial intelligence (AI) to “evolve” how it works, according to an internal memo to staff.</p> <p>In his message to over 34,000 employees, <a href=\"https://www.bloomberg.com/news/articles/2026-07-28/visa-to-cut-7-of-workforce-as-ceo-seeks-to-revamp-payments-firm?srnd=phx-finance\">reported by Bloomberg</a>, Visa CEO Ryan McInerney said its technology and product teams will primarily be affected by the 2,600 job cuts.</p> <p>The CEO wrote: “I have deep conviction that we are doing what is right for Visa, our clients and our partners as we continue to focus on driving efficiency across the company in order to reinvest in our highest potential opportunities.”</p> <p>He told staff that AI is being used to change how employees work. “To capture the opportunities ahead and best position Visa to lead this transformation, we must continue evolving how we work,” wrote McInerney. “AI is also helping to accelerate this evolution and shape the way work gets done at Visa.”</p> <p>Quoting a person with knowledge of the company’s decision, Bloomberg reported that AI is not the only driver of the job cuts, with Visa keen to reinvest in “consumer payments, commercial and money-movement solutions and value-added services, which include stablecoin, cross-border and business-to-business offerings”.</p> <p>According to an <a href=\"https://www.computerweekly.com/news/366639439/Institutionalised-AI-puts-Visa-top-of-ranking\">independent benchmarking report in February</a>, AI has already become institutionalised at Visa, and the firm is leading the way in the technology’s application in the payments sector.</p> <p>The report from benchmarking company Evident&nbsp;ranked Visa number one in its&nbsp;<em><a href=\"https://evidentinsights.com/payments-ai-index/\">AI index for payments</a></em>, as a result of what it described as its shift from individual AI use cases to “institutional capability”.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about AI in finance</h3> <ul class=\"default-list\"> <li>Evident research into artificial intelligence adoption in banking&nbsp;<a href=\"https://www.computerweekly.com/news/366632882/UK-banks-must-be-more-like-Big-Tech-to-catch-the-US-on-AI-which-comes-with-a-high-price\">reveals US banks dominate when it comes to making AI work</a>&nbsp;for the business.</li> <li>AI-related roles&nbsp;<a href=\"https://www.computerweekly.com/news/366623276/Artificial-intelligence-roles-the-only-safe-jobs-in-banking\">could be the only ‘safe jobs’</a>&nbsp;in the banking sector as financial organisations ‘relentlessly’ press on with AI-led transformation.</li> <li>The payment card services giant <a href=\"https://www.computerweekly.com/news/366639439/Institutionalised-AI-puts-Visa-top-of-ranking\">leads the way in applying artificial intelligence</a> in its sector, according to research.</li> </ul> </div> </div> <p>Mastercard came in at number two, while PayPal took third spot in the index of 12 payments companies, which documented nearly 100 use cases for AI in the payments sector.</p> <p>But, according to Evident, payments firms have not detailed their return on investment from AI spend, unlike banks.</p> <p>The index took into account four factors: talent, innovation, leadership and transparency. According to Evident, Visa demonstrates the clearest evidence that AI is institutionalised across its core transaction network.</p> <p>“What sets Visa apart is the degree to which the company is demonstrating impact at scale over multiple years from applications of AI across its operations and network,” said Evident co-founder Alexandra Mousavizadeh at the time of the report."
+  },
+  {
+    "title": "Did an AI agent really break free and attack another company?",
+    "url": "https://www.computerweekly.com/news/366646245/Did-an-AI-agent-really-break-free-and-attack-another-company",
+    "source": "ComputerWeekly",
+    "published": "2026-07-28T10:19:00+00:00",
+    "raw_text": "<p>Did artificial intelligence (AI) just break out of its sandbox, hack another company and go rogue? That is certainly how some of the reporting around <a href=\"https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model\" target=\"_blank\" rel=\"noopener\">the recent Hugging Face incident has portrayed it</a>. But the reality is more complicated – and perhaps more worrying.</p> <p>What happened was not an AI spontaneously deciding to escape and launch a cyber attack, it was the result of an experiment designed to test the limits of highly capable AI models, with some of the safeguards that would normally prevent them from conducting high-risk cyber activity apparently deliberately removed.</p> <section class=\"section main-article-chapter\" data-menu-title=\"What happened?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>What happened?</h2> <p>Earlier in&nbsp;July, a story emerged claiming that a rogue AI model had been involved in the hacking of Hugging Face, an AI model-hosting platform. In a <a href=\"https://huggingface.co/blog/security-incident-july-2026\" target=\"_blank\" rel=\"noopener\">blog post published</a> on 16 July, Hugging Face said the attack “was different from anything we had handled before in one important way: it was driven, end to end, by an autonomous AI agent system”.</p> <p>In particular, the company claimed that a malicious dataset abused two code execution paths in its dataset processing system to run code on a processing worker. From there, the actor was able to escalate to node-level access, collect cloud and cluster credentials, and move laterally into several internal clusters over the course of a weekend.</p> <p>Hugging Face further claimed the campaign was run by an autonomous agent framework, appearing to be built on an agentic security research harness. This was able to execute thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating <a href=\"https://www.techtarget.com/whatis/definition/command-and-control-server-CC-server\" target=\"_blank\" rel=\"noopener\">command-and-control</a> (C2) infrastructure staged on public services.</p> <p>OpenAI subsequently acknowledged that its models had been responsible for the activity. In a <a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\" target=\"_blank\" rel=\"noopener\">blog post published</a> five days later, on 21 July, it said the incident occurred during an internal evaluation of advanced cyber capabilities, where models were given fewer safeguards to assess how effectively they could identify and exploit vulnerabilities.</p> <p>Once they had access, the models identified ways to reach Hugging Face infrastructure and obtain information that could help them bypass the security evaluation. This included using stolen credentials and <a href=\"https://www.techtarget.com/searchsecurity/definition/zero-day-vulnerability\" target=\"_blank\" rel=\"noopener\">zero-day vulnerabilities</a> to find a route to <a href=\"https://www.techtarget.com/searchwindowsserver/definition/remote-code-execution-RCE\" target=\"_blank\" rel=\"noopener\">remote code execution</a> (RCE) on Hugging Face’s servers.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"What we learned from the incident\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>What we learned from the incident</h2> <p>The primary questions raised by the incident are whether or not this was the first instance in which we have lost control of an AI agent and seen it go rogue to attack a company, where the guardrails were in this incident, and what the future learnings are for companies from an incident such as this.</p> <p>OpenAI describes the incident as “unprecedented in terms of the cyber capabilities demonstrated”, according to the Hugging Face blog. It also says it is sharing its preliminary findings to help defenders understand the emerging risks posed by increasingly capable AI models.</p> <p>Hugging Face claims that the incident matches the “agentic attacker” scenario the industry has been forecasting, and that autonomous, AI-driven offensive tooling is no longer theoretical.</p> <p>“It lowers the cost of running a broad, patient, multi-stage campaign, and it operates at machine speed,” it claims. “Defending an online platform now means treating the data and model surface as a first-class attack surface and using AI on defence to keep pace.”</p> <p>If you were not already considering your data and model as an attack surface, this must surely be a catalyst to better protect them. Security consultant Brian Honan, CEO of <a href=\"https://bhconsulting.ie/\" target=\"_blank\" rel=\"noopener\">BH Consulting</a>, says that whenever software accepts content from external users and executes code as part of processing that content, it creates an area of elevated risk.</p> <p>“The important question isn’t simply whether the code execution path existed, but whether it was sufficiently isolated, monitored and designed on the assumption that malicious content would eventually be submitted,” he explains.</p> <p>“Security controls such as sandboxing, strong privilege separation, limiting what executed code can access, continuous monitoring, behavioural detection and regular security testing all help reduce the likelihood that a vulnerability can be successfully exploited or that an attacker can move beyond the initial point of compromise.”</p> <p>In this case, the AI agent was being tested internally on hacking capabilities in a sandboxed environment, but the models were able to gain open internet access by locating a previously undiscovered vulnerability.</p> <p>Jake Moore, global cyber security advisor at <a href=\"https://www.eset.com/uk/\" target=\"_blank\" rel=\"noopener\">ESET</a>, points to a “worrying lack of human interaction” in this instance, as well as the apparent absence of some basic security methodology from the testing environment.</p> <p>He points out that the situation was clearly not completely contained, and that it was not fully <a href=\"https://www.techtarget.com/searchsecurity/definition/sandbox\" target=\"_blank\" rel=\"noopener\">sandboxed</a> or air-gapped as it should have been.</p> <p>“It cannot be called a containment or a sandboxed environment because it has no access,” says Moore. “We create sandboxes on purpose to keep malicious software completely hidden from the network. So, if there was any way out, that was OpenAI’s fault.”</p> <p>Moore adds that every time one AI system discovers something, other models can learn from it laterally, with models continually being updated based on their inputs and outputs. He described this as “a huge beast that is effectively getting out of control”.</p> <p>This means the way these models work needs to be rethought, explains Moore, with both models and security teams needing to continually learn, adapt and evolve as we become accustomed to using increasingly powerful systems.</p> <p>“I know technology moves quickly, but yeah, this is outrageously quick,” he adds.</p> <p>Moore describes AI as a “cheeky, younger brother” that doesn’t ask for permission and is going to test what it can do. “Therefore, I do think that AI will go rogue more often, because it’s got the ability to, and in my eyes, can do anything that it wants to,” he says. “It’s just that we’re going to notice, talk about and write about the illegalities of that, which are still really difficult to safeguard and bake into these algorithms.”</p> <p>What we know overall is that AI tools need appropriate safeguards in place, and for some reason, those safeguards appear not to have been sufficient in this case. It may be that the security guardrails were deliberately relaxed as part of the testing process. However, Hugging Face’s CEO, Clément Delangue, subsequently <a href=\"https://x.com/ClementDelangue/status/2081056675558195657?s=20\" target=\"_blank\" rel=\"noopener\">posted on social media</a> that he is seeking $100m (£75.2m) in compute from OpenAI to help the Hugging Face community build powerful cyber defences using the best open and closed models.</p> <p>Delangue argues that, as the first autonomous agent cyber attack is an unprecedented event, “it deserves an unprecedented response”.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Future learnings\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Future learnings</h2> <p>From Delangue’s statements, it is clear that more research is needed into what AI can actually do. Despite all the talk about AI’s capabilities, it is becoming clear these systems may be more powerful than even experts could have conceived. The fact that the models were apparently able to escape a sandbox, capture credentials and breach a company without direct human intervention should be taken seriously.</p> <p>This should lead companies to assume that their agents will evolve and surprise them with their capabilities. They should update governance to define what agents are permitted to do, who is accountable when they don’t follow those boundaries, and how they can be shut off.</p> <p>They should also invest in detecting anomalous behaviour, because an agent may pursue its assigned goal relentlessly, including by attempting to circumvent the constraints placed upon it. According to <a href=\"https://www.lutasecurity.com/post/openface-the-hugging-face-breach-and-what-to-do-about-it\" target=\"_blank\" rel=\"noopener\">Luta Security</a>, the responsibility is to stop it before it actually “hacks the planet”.</p> <p>Jake Moore says this sort of incident was expected, describing it as “the next phase of security where organisations are facing these incredible threats – not just criminals, but from Frontier AI”.</p> <p>Ollie Whitehouse, chief technology officer of the UK’s <a href=\"https://www.ncsc.gov.uk/\" target=\"_blank\" rel=\"noopener\">National Cyber Security Centre</a> (NCSC), says there are two important lessons for the future from the incident. The first is to treat current and future generations of models as we would their biological equivalents: in controlled environments with multiple safeguards, comprehensive real-time monitoring and emergency procedures.</p> <p>The second is the imperative for AI systems to be secure by design and default. The initial breach reinforces the need for upfront threat modelling, and secure-by-design and secure-by-default practices as we build and adopt AI.</p> <p>As Whitehouse says, while frontier models are impressive, it is a human responsibility to ensure the outcomes we seek are achieved on both sides.</p> <p>According to a <a href=\"https://www.chathamhouse.org/2026/07/what-uk-should-learn-kimi-k3-waico-and-hugging-face-incident?utm_source=Chatham%20House&amp;utm_medium=email&amp;utm_campaign=15568667_Content%20Newsletter%20-%2028.7.2026&amp;utm_content=dsi-uk-k3-cta&amp;dm_i=1S3M,99OUZ,6EC5U,12XIBL,1,0,0,0\" target=\"_blank\" rel=\"noopener\">Chatham House report</a>, AI experts have warned for decades that a machine given a task without sufficient guardrails may pursue its goals in unexpected or dangerous ways. The hacking of Hugging Face by OpenAI’s models appears to be an example of precisely this kind of misalignment.</p> <p>Our main learning here should be that AI is powerful and, without appropriate guardrails, can behave in unexpected ways. Knowledge needs to be built now to ensure that such an incident does not happen again, and that both the company operating the AI agent and any potential victims understand what has happened, how it happened and how to recover.</p> <p>The question here is not whether AI has suddenly become sentient and turned on its creators: it is whether we are becoming too comfortable giving increasingly capable AI systems the opportunity to discover what they can do when the guardrails come off.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about frontier AI</h3> <ul class=\"default-list\"> <li>The Computer Weekly Security Think Tank considers if Anthropic’s Claude Mythos frontier AI model is a benefit or barrier to achieving resilient enterprise IT security, <a href=\"https://www.computerweekly.com/opinion/Stop-debating-frontier-AI-start-defending-against-it\" target=\"_blank\" rel=\"noopener\">and how security leaders need to adapt</a>.</li> <li>The White House's voluntary AI executive order creates a prerelease review process for frontier models, raising questions about release timelines, vendor trust <a href=\"https://www.techtarget.com/searchenterpriseai/news/366644013/Trump-AI-order-targets-frontier-model-prerelease-review\" target=\"_blank\" rel=\"noopener\">and enterprise procurement</a>.</li> <li>Frontier AI models will pose a greater cyber security risk to governments and businesses than previously thought, <a href=\"https://www.computerweekly.com/news/366644997/AI-powered-cyber-attacks-may-be-just-months-away-warn-Five-Eyes\" target=\"_blank\" rel=\"noopener\">putting them at risk within months</a>.</li> </ul> </div> </div> </section>",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market",
+      "Networks",
+      "Cloud Infrastructure",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "network",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "zero-day",
+        "exploit",
+        "hacker",
+        "threat",
+        "security",
+        "cyber",
+        "soc"
+      ],
+      "GRC": [
+        "governance"
+      ],
+      "Industry & Market": [
+        "valuation",
+        "ey",
+        "consulting",
+        "vendor"
+      ]
+    },
+    "summary": "<p>Did artificial intelligence (AI) just break out of its sandbox, hack another company and go rogue? That is certainly how some of the reporting around <a href=\"https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model\" target=\"_blank\" rel=\"noopener\">the recent Hugging Face incident has portrayed it</a>. But the reality is more complicated – and perhaps more worrying.</p> <p>What happened was not an AI spontaneously deciding to escape and launch a cyber attack, it was the result of an experiment designed to test the limits of highly capable AI models, with some of the safeguards that would normally prevent them from conducting high-risk cyber activity apparently deliberately removed.</p> <section class=\"section main-article-chapter\" data-menu-title=\"What happened?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>What happened?</h2> <p>Earlier in&nbsp;July, a story emerged claiming that a rogue AI model had been involved in the hacking of Hugging Face, an AI model-hosting platform. In a <a href=\"https://huggingface.co/blog/security-incident-july-2026\" target=\"_blank\" rel=\"noopener\">blog post published</a> on 16 July, Hugging Face said the attack “was different from anything we had handled before in one important way: it was driven, end to end, by an autonomous AI agent system”.</p> <p>In particular, the company claimed that a malicious dataset abused two code execution paths in its dataset processing system to run code on a processing worker."
   },
   {
     "title": "The departmental deckchairs have been shuffled – but helping the government's tech challenge how?",
@@ -3619,37 +3838,32 @@
     "summary": "<p>Nvidia has called on policymakers and business to support open artificial intelligence (AI) models to enable better <a href=\"https://www.computerweekly.com/microscope/feature/The-AI-cyber-security-challenge\">cyber security</a>.</p> <p>It announced the industry-wide Open Secure AI just days after <a href=\"https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/\">Microsoft’s open letter to US policymakers</a> which described openness as “one of the most important paths to AI safety and security”.</p> <p><a href=\"https://blogs.nvidia.com/blog/open-secure-ai-alliance/\">In a blog post</a> announcing the new initiative to drive open AI security, Nvidia said that companies and governments should invest in shared open infrastructure for AI defence – datasets, evaluation frameworks, attack simulators and red-teaming tools – similar to how past generations invested in open source software.</p> <p>In the post, Nvidia said: “For cyber security, open models and open harnesses are essential because they democratise defensive capabilities, increase transparency for defenders, enable cyber defence while protecting data, and complement frontier closed models with customisable, localised controls. Open source enables massively distributed community-driven and self-controlled defence – with no single point of failure.”</p> <p>The AI chipmaker has taken the decision to drive forward an industry alliance for open AI security, following the <a href=\"https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model\">recent Hugging Face</a> disclosure of a cyber attack that was driven from end-to-end by an autonomous AI agent system.</p> <p>The advances in frontier AI models show that the tech sector is now in an arms race as advanced AI models continue to evolve.</p> <p>Nvidia said the Hugging Face disclosure shows that cyber defence needs to be open, using frontier agentic systems: “When closed AI tools – unable to distinguish attackers from defenders – blocked essential forensic analysis, Hugging Face ran the open-weight GLM 5.2 model on its own infrastructure to analyse more than 17,000 actions and contain the intrusion. &nbsp;</p> <p>“That incident showed a practical truth: when defenders cannot inspect, adapt and run advanced AI on their own infrastructure, their ability to respond is constrained at exactly the moment speed matters most,” Nvidia warned. It said companies and countries need open frontier defensive tools and techniques to enable critical industries to build security systems across an ecosystem comprising multiple technology providers to &nbsp;avoid single points of failure.</p> <p>The inaugural members of the alliance are: Adobe, Cadence, Capital One, Cisco, Cloudera, Cloudflare, Cognition, CrowdStrike, Databricks, Dell Technologies, DoorDash, Elastic, HPE, Hugging Face, IBM, LangChain, the Linux Foundation, Microsoft, Naver, NetApp, Nous Research, OpenClaw, Palantir, Palo Alto Networks, Red Hat, Reflection AI, Salesforce, SAP, SK Telecom, ServiceNow, Siemens, Snowflake, SpacexAI, Synopsys, Thinking Machines Lab and TrendAI.</p> <p><a href=\"https://www.computerweekly.com/news/366646202/OpenUK-calls-for-a-UK-version-of-the-Linux-Foundation\">OpenUK has called on the UK</a> to deliver a home-grown equivalent to the Linux Foundation to promote open source technologies."
   },
   {
-    "title": "HSBC chooses Singapore for global AI centre of excellence",
-    "url": "https://www.computerweekly.com/news/366646138/HSBC-chooses-Singapore-for-global-AI-centre-of-excellence",
-    "source": "ComputerWeekly",
-    "published": "2026-07-27T08:52:00+00:00",
-    "raw_text": "<p>HSBC is launching an artificial intelligence (AI) centre of excellence in Singapore, with a plan to recruit 100 AI specialists.</p> <p>The bank, like its competitors, has stepped up activity around AI. It appointed its first AI chief in March and recently signed a major AI-focused deal with Google Cloud.</p> <p>In the second half of this year, it will begin developing AI capabilities in the centre, which can will be rolled out globally. Around 100 new roles will be created in the team of chief AI officer David Rice.</p> <p>The bank <a href=\"https://www.computerweekly.com/news/366640627/HSBC-gets-its-first-artificial-intelligence-chief\">announced Rice as its first AI chief</a> as part of its wider plans to embed the technology across the company. He moved from his role as chief operating officer at the bank’s corporate and institutional bank.</p> <p>Through the new centre, HSBC will focus on supporting staff in using AI to deliver customer services.</p> <p>Georges Elhedery, group CEO at HSBC, said: “The new AI Centre of Excellence in Singapore will help drive our global AI vision – to empower our colleagues to use AI to create a personalised experience for each customer, deliver it safely, in real time and at scale, while keeping human judgement, decision-making and accountability at the core.”</p> <p>The centre will kick-off with a focus on customer wealth journey conversations, agentic treasury functionality and AI-enabled digital payments.</p> <p>In addition, the centre of excellence will build a pipeline of talent across natural language processing, data science, AI governance and human-centred design. As part of this, it will work with educational institutions and government bodies in Singapore.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Ramping up AI\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Ramping up AI</h2> <p>Last month, HSBC announced plans to create more than 200 AI use cases across its business <a href=\"https://www.computerweekly.com/news/366644792/HSBC-pens-artificial-intelligence-deal-with-Google-Cloud\">through a deal with Google Cloud</a>, and it expects to make hundreds of millions of pounds in revenue and efficiency gains as a result.</p> <p>The bank already had around 600 applications running on the Google Cloud service, but the new arrangement will see more than 200 AI use cases added in the next two years. It said it will prioritise the highest-value initiatives, where estimated value exceeds $100m.</p> <p>As part of the agreement, HSBC will harness the skills of&nbsp;<a href=\"https://www.computerweekly.com/opinion/What-did-we-learn-at-Google-Cloud-Next-2026\">Google Cloud</a>&nbsp;and Google&nbsp;<a href=\"https://www.computerweekly.com/news/366620886/Deepmind-founder-warns-of-compounding-AI-agent-errors\">DeepMind</a>&nbsp;engineers, gaining access to Google’s agentic AI capabilities. Areas initially being focused on include highly personalising customer experience through AI, using the technology to manage financial crime risk and expanding the reach of an AI agent used by staff.</p> <p>Banks are doubling down on AI, with HSBC the UK’s leader of the technology’s adoption. According to Evident’s <em><a href=\"https://evidentinsights.com/ai-index/\">Banking AI adoption index</a></em>, which tracks financial services AI adoption, HSBC was the only UK bank in the top 10.</p> <p>Banks can save huge amounts in operating costs through AI, but they&nbsp;<a href=\"https://www.computerweekly.com/news/366633370/Banks-AI-cost-cutting-benefits-wont-last-will-erode-profits\">must use it to improve customer experiences</a>&nbsp;and offerings or face reduced profits. According to McKinsey’s latest report, while AI savings could be up to 20%, taking account of the cost of the technology, banking industry profits could fall 9% as customers move money based on AI agent recommendations.</p> <p>“The impact of savings, while welcome, won’t last,” McKinsey said. “As with earlier innovations, competition will likely erode the gains for banks and most of the benefits will accrue to customers over time.”</p> <p>According to Lloyds Banking Group’s&nbsp;<i>Financial institutions sentiment survey for 2025</i>&nbsp;banks are gaining huge benefits from AI, stating that&nbsp;<a href=\"https://www.computerweekly.com/news/366630147/Number-of-UK-banks-reporting-AI-driven-productivity-improvements-doubles\">59% of surveyed firms reported AI-driven productivity gains</a>&nbsp;in the past 12 months, compared with 32% in the 2024 survey.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about HSBC and AI</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366644792/HSBC-pens-artificial-intelligence-deal-with-Google-Cloud\">HSBC and Google Cloud agree a multi-year contract</a> to support UK bank’s adoption of artificial intelligence.</li> <li>UK bank appoints its first <a href=\"https://www.computerweekly.com/news/366640627/HSBC-gets-its-first-artificial-intelligence-chief\">executive position dedicated to artificial intelligence</a> as the technology embeds across the sector.</li> </ul> </div> </div> </section>",
+    "title": "I tested the Ultrahuman Ring Pro: Rich in features, but still a hard sell",
+    "url": "https://www.zdnet.com/article/ultrahuman-ring-pro-review/",
+    "source": "ZDNet",
+    "published": "2026-07-29T09:15:40+00:00",
+    "raw_text": "The latest ring from Ultrahuman is packed with features, but it's both larger and more expensive than its predecessor.",
     "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "GRC",
-      "Data Centres",
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The latest ring from Ultrahuman is packed with features, but it's both larger and more expensive than its predecessor."
+  },
+  {
+    "title": "5 ways I speed up my Android phone beyond clearing system cache - all for free",
+    "url": "https://www.zdnet.com/article/5-ways-i-speed-up-my-android-phone-beyond-clearing-system-cache/",
+    "source": "ZDNet",
+    "published": "2026-07-29T08:15:43+00:00",
+    "raw_text": "Here's how I improve the performance of my Google Pixel, Samsung, and even Motorola. Or at least make it seem that way.",
+    "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "governance"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
       "Industry & Market": [
         "ey"
       ]
     },
-    "summary": "<p>HSBC is launching an artificial intelligence (AI) centre of excellence in Singapore, with a plan to recruit 100 AI specialists.</p> <p>The bank, like its competitors, has stepped up activity around AI. It appointed its first AI chief in March and recently signed a major AI-focused deal with Google Cloud.</p> <p>In the second half of this year, it will begin developing AI capabilities in the centre, which can will be rolled out globally. Around 100 new roles will be created in the team of chief AI officer David Rice.</p> <p>The bank <a href=\"https://www.computerweekly.com/news/366640627/HSBC-gets-its-first-artificial-intelligence-chief\">announced Rice as its first AI chief</a> as part of its wider plans to embed the technology across the company. He moved from his role as chief operating officer at the bank’s corporate and institutional bank.</p> <p>Through the new centre, HSBC will focus on supporting staff in using AI to deliver customer services.</p> <p>Georges Elhedery, group CEO at HSBC, said: “The new AI Centre of Excellence in Singapore will help drive our global AI vision – to empower our colleagues to use AI to create a personalised experience for each customer, deliver it safely, in real time and at scale, while keeping human judgement, decision-making and accountability at the core.”</p> <p>The centre will kick-off with a focus on customer wealth journey conversations, agentic treasury functionality and AI-enabled digital payments.</p> <p>In addition, the centre of excellence will build a pipeline of talent across natural language processing, data science, AI governance and human-centred design."
+    "summary": "Here's how I improve the performance of my Google Pixel, Samsung, and even Motorola. Or at least make it seem that way."
   },
   {
     "title": "12 keychain gadgets worth carrying every day (and why they're worth it)",
@@ -3906,180 +4120,67 @@
     "summary": "Meet Shadowfetch: If AI is your jam and Linux is your OS, here's the best way to give this new Debian-based distribution a try."
   },
   {
-    "title": "Costco will take your old tech and gift you a gift card - here's what to know",
-    "url": "https://www.zdnet.com/article/costco-trade-in-offer-old-tech/",
-    "source": "ZDNet",
-    "published": "2026-07-27T16:01:10+00:00",
-    "raw_text": "Got old gadgets lying around? Trade them in for gift cards at Costco - no membership required.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Got old gadgets lying around? Trade them in for gift cards at Costco - no membership required."
-  },
-  {
-    "title": "Is open source the answer to rogue AI agents? Nvidia's new alliance says yes",
-    "url": "https://www.zdnet.com/article/is-open-source-the-answer-to-rogue-ai-security-incidents-nvidia-thinks-so/",
-    "source": "ZDNet",
-    "published": "2026-07-27T15:52:15+00:00",
-    "raw_text": "As AI cybersecurity incidents ramp up, companies are racing to find a fix.",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "As AI cybersecurity incidents ramp up, companies are racing to find a fix."
-  },
-  {
-    "title": "INTURAI FAST TRACKS DOMECOMMAND COMMERCIALISATION WITH EUROPEAN DEFENCE TECH HUB AND SINGAPORE AIR FORCE",
-    "url": "https://www.prnewswire.com/news-releases/inturai-fast-tracks-domecommand-commercialisation-with-european-defence-tech-hub-and-singapore-air-force-302837094.html",
+    "title": "Robo.ai and Abu Dhabi Enterprise Jointly Establish AI Industrial Group Alif Holding to Serve Infrastructure, Government and Industrial Sectors",
+    "url": "https://www.prnewswire.com/news-releases/roboai-and-abu-dhabi-enterprise-jointly-establish-ai-industrial-group-alif-holding-to-serve-infrastructure-government-and-industrial-sectors-302837594.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:01:00+00:00",
-    "raw_text": "(CSE: URAI / OTC: URAIF / FSE: 3QG0) investor@inturai.com Highlights Inturai's DomeCommand platform selected in a highly selective first wave from over 450 applicants. Development advances with the European Defence Tech Hub and the Republic of Singapore Air Force. Three-month fast-track...",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "(CSE: URAI / OTC: URAIF / FSE: 3QG0) investor@inturai.com Highlights Inturai's DomeCommand platform selected in a highly selective first wave from over 450 applicants. Development advances with the European Defence Tech Hub and the Republic of Singapore Air Force. Three-month fast-track..."
-  },
-  {
-    "title": "Dasher Neuroscience achève le recrutement des patients dans le cadre de l'essai clinique mondial de phase II portant sur le YA-101, son principal candidat-médicament développé grâce à l'IA, destiné au traitement de l'atrophie multisystématisée (AMS)",
-    "url": "https://www.prnewswire.com/news-releases/dasher-neuroscience-acheve-le-recrutement-des-patients-dans-le-cadre-de-lessai-clinique-mondial-de-phase-ii-portant-sur-le-ya-101-son-principal-candidat-medicament-developpe-grace-a-lia-destine-au-traitement-de-latrophie-mult-302837493.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:01:00+00:00",
-    "raw_text": "TAIPEI, 29 juillet 2026 /PRNewswire/ -- Dasher Neuroscience Holdings Inc. (TPEx : 7829) (« Dasher Neuroscience »), une société biopharmaceutique spécialisée dans l'IA et dans la découverte et le développement de médicaments ciblant le système nerveux central (SNC), a annoncé aujourd'hui...",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "TAIPEI, 29 juillet 2026 /PRNewswire/ -- Dasher Neuroscience Holdings Inc. (TPEx : 7829) (« Dasher Neuroscience »), une société biopharmaceutique spécialisée dans l'IA et dans la découverte et le développement de médicaments ciblant le système nerveux central (SNC), a annoncé aujourd'hui..."
-  },
-  {
-    "title": "Ben Cherniawski, Ph.D., Named Director of Production, Myrias Optics",
-    "url": "https://www.prnewswire.com/news-releases/ben-cherniawski-phd-named-director-of-production-myrias-optics-302836384.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:01:00+00:00",
-    "raw_text": "AMHERST, Mass., July 29, 2026 /PRNewswire/ -- Myrias Optics, a world leader in wafer-level metaoptics and diffractive optical technologies, announced today the appointment of Benjamin Cherniawski, Ph.D., as the company's Director of Production. Ben will lead the development and scale-up...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "AMHERST, Mass., July 29, 2026 /PRNewswire/ -- Myrias Optics, a world leader in wafer-level metaoptics and diffractive optical technologies, announced today the appointment of Benjamin Cherniawski, Ph.D., as the company's Director of Production. Ben will lead the development and scale-up..."
-  },
-  {
-    "title": "Seegene propone un enfoque integral para las pruebas de infecciones del tracto reproductivo a través de GMCS",
-    "url": "https://www.prnewswire.com/news-releases/seegene-propone-un-enfoque-integral-para-las-pruebas-de-infecciones-del-tracto-reproductivo-a-traves-de-gmcs-302837333.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "-Seegene propone un enfoque integral para las pruebas de infecciones del tracto reproductivo a través del Estudio Clínico Global Million (GMCS) El análisis STAgora™ de aproximadamente 60.000 resultados de pruebas recopilados durante 42 meses ha demostrado que se detectaron patógenos de...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "-Seegene propone un enfoque integral para las pruebas de infecciones del tracto reproductivo a través del Estudio Clínico Global Million (GMCS) El análisis STAgora™ de aproximadamente 60.000 resultados de pruebas recopilados durante 42 meses ha demostrado que se detectaron patógenos de..."
-  },
-  {
-    "title": "Beat the Q2 Deadline: Crush Form 941 Filing and Skip the Penalties with ezPaycheck",
-    "url": "https://www.prnewswire.com/news-releases/beat-the-q2-deadline-crush-form-941-filing-and-skip-the-penalties-with-ezpaycheck-302822212.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "ezPaycheck offers automated payroll and bookkeeping tools that shield small businesses and accountants from brutal IRS penalties, just in time for Q2. REDMOND, Wash., July 29, 2026 /PRNewswire/ -- With the Internal Revenue Service (IRS) Second Quarter deadline rapidly approaching,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ezPaycheck offers automated payroll and bookkeeping tools that shield small businesses and accountants from brutal IRS penalties, just in time for Q2. REDMOND, Wash., July 29, 2026 /PRNewswire/ -- With the Internal Revenue Service (IRS) Second Quarter deadline rapidly approaching,..."
-  },
-  {
-    "title": "Clarke Energy to Strengthen Energy Resilience for Capraci Through Trigeneration Project in Côte d'Ivoire",
-    "url": "https://www.prnewswire.com/news-releases/clarke-energy-to-strengthen-energy-resilience-for-capraci-through-trigeneration-project-in-cote-divoire-302836645.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Clarke Energy has been selected by Capraci to design and deliver a 4 MW natural gas-fuelled trigeneration power plant in Abidjan. The project will strengthen energy security while optimising operating costs and improving environmental performance. The solution will simultaneously generate...",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Clarke Energy has been selected by Capraci to design and deliver a 4 MW natural gas-fuelled trigeneration power plant in Abidjan. The project will strengthen energy security while optimising operating costs and improving environmental performance. The solution will simultaneously generate..."
-  },
-  {
-    "title": "« L'intensification des échanges commerciaux entre l'Europe et l'Inde nécessite une approche plus proactive en matière de sécurité économique », indique un nouveau rapport de Strider",
-    "url": "https://www.prnewswire.com/news-releases/-lintensification-des-echanges-commerciaux-entre-leurope-et-linde-necessite-une-approche-plus-proactive-en-matiere-de-securite-economique--indique-un-nouveau-rapport-de-strider-302837062.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Une étude révèle que plus de 50 000 produits sensibles – notamment des composants utilisés dans les drones, les missiles et les systèmes aérospatiaux – ont été acheminés vers des entités russes du secteur de la défense via l'Inde depuis 2022. Les importations de marchandises sensibles...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Une étude révèle que plus de 50 000 produits sensibles – notamment des composants utilisés dans les drones, les missiles et les systèmes aérospatiaux – ont été acheminés vers des entités russes du secteur de la défense via l'Inde depuis 2022. Les importations de marchandises sensibles..."
-  },
-  {
-    "title": "Clarke Energy renforce la résilience énergétique de Capraci en Côte d'Ivoire grâce à un projet de trigénération",
-    "url": "https://www.prnewswire.com/news-releases/clarke-energy-renforce-la-resilience-energetique-de-capraci-en-cote-divoire-grace-a-un-projet-de-trigeneration-302836646.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Clarke Energy a été sélectionnée par Capraci pour concevoir et livrer une centrale de trigénération de 4 MW alimentée au gaz naturel à Abidjan. Ce projet renforcera la sécurité énergétique tout en optimisant les coûts d'exploitation et en améliorant les performances environnementales. La...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "exploit"
-      ]
-    },
-    "summary": "Clarke Energy a été sélectionnée par Capraci pour concevoir et livrer une centrale de trigénération de 4 MW alimentée au gaz naturel à Abidjan. Ce projet renforcera la sécurité énergétique tout en optimisant les coûts d'exploitation et en améliorant les performances environnementales. La..."
-  },
-  {
-    "title": "AbbVie Announces European Commission Approval of RINVOQ® (upadacitinib) for the Treatment of Adults and Adolescents with Non-Segmental Vitiligo",
-    "url": "https://www.prnewswire.com/news-releases/abbvie-announces-european-commission-approval-of-rinvoq-upadacitinib-for-the-treatment-of-adults-and-adolescents-with-non-segmental-vitiligo-302837182.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "RINVOQ is the first and only systemic medication approved in the European Union to treat adult and adolescent patients with non-segmental vitiligo (NSV) The approval is supported by data from the Phase 3 Viti-Up clinical program, which showed that RINVOQ achieved statistically significant...",
+    "published": "2026-07-29T09:14:00+00:00",
+    "raw_text": "ABU DHABI, UAE, July 29, 2026 /PRNewswire/ -- Robo.ai Inc. (NASDAQ: AIIO) (the \"Company\" or \"Robo.ai\") today announced that it has entered into a joint venture agreement with Abu Dhabi-based Eleven International Holdings for the proposed establishment of Alif Holding,an intelligent...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
+        "joint venture"
+      ]
+    },
+    "summary": "ABU DHABI, UAE, July 29, 2026 /PRNewswire/ -- Robo.ai Inc. (NASDAQ: AIIO) (the \"Company\" or \"Robo.ai\") today announced that it has entered into a joint venture agreement with Abu Dhabi-based Eleven International Holdings for the proposed establishment of Alif Holding,an intelligent..."
+  },
+  {
+    "title": "New Oriental Announces Results for the Fourth Fiscal Quarter and the Fiscal Year Ended May 31, 2026",
+    "url": "https://www.prnewswire.com/news-releases/new-oriental-announces-results-for-the-fourth-fiscal-quarter-and-the-fiscal-year-ended-may-31-2026-302837593.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T09:11:00+00:00",
+    "raw_text": "BEIJING, July 29, 2026 /PRNewswire/ -- New Oriental Education & Technology Group Inc. (the \"Company\" or \"New Oriental\") (NYSE: EDU/ 9901.SEHK), a provider of private educational services in China, today announced its unaudited financial results for the fourth fiscal quarter and fiscal...",
+    "categories": [
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "audit"
+      ],
+      "Industry & Market": [
         "announces"
       ]
     },
-    "summary": "RINVOQ is the first and only systemic medication approved in the European Union to treat adult and adolescent patients with non-segmental vitiligo (NSV) The approval is supported by data from the Phase 3 Viti-Up clinical program, which showed that RINVOQ achieved statistically significant..."
+    "summary": "BEIJING, July 29, 2026 /PRNewswire/ -- New Oriental Education & Technology Group Inc. (the \"Company\" or \"New Oriental\") (NYSE: EDU/ 9901.SEHK), a provider of private educational services in China, today announced its unaudited financial results for the fourth fiscal quarter and fiscal..."
   },
   {
-    "title": "Der zunehmende Handel Europas mit Indien erfordert einen proaktiveren Ansatz in Sachen Wirtschaftssicherheit, so ein neuer Bericht von Strider",
-    "url": "https://www.prnewswire.com/news-releases/der-zunehmende-handel-europas-mit-indien-erfordert-einen-proaktiveren-ansatz-in-sachen-wirtschaftssicherheit-so-ein-neuer-bericht-von-strider-302837067.html",
+    "title": "Weibo Corporation to Report Second Quarter 2026 Financial Results on August 19, 2026",
+    "url": "https://www.prnewswire.com/news-releases/weibo-corporation-to-report-second-quarter-2026-financial-results-on-august-19-2026-302837535.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Untersuchungen haben ergeben, dass seit 2022 mehr als 50.000 sensible Güter – darunter Komponenten für Drohnen, Raketen und Luft- und Raumfahrtsysteme – über Indien an russische Verteidigungseinrichtungen gelangt sind. Die Einfuhren sensibler Güter, die über Indien nach Russland gelangen,...",
+    "published": "2026-07-29T09:00:00+00:00",
+    "raw_text": "BEIJING, July 29, 2026 /PRNewswire/ -- Weibo Corporation (NASDAQ: WB and HKEX: 9898), a leading social media for people to create, share and discover content, will announce its unaudited financial results for the second quarter 2026 before the U.S. market opens on Wednesday, August 19,...",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "GRC": [
+        "audit"
+      ]
+    },
+    "summary": "BEIJING, July 29, 2026 /PRNewswire/ -- Weibo Corporation (NASDAQ: WB and HKEX: 9898), a leading social media for people to create, share and discover content, will announce its unaudited financial results for the second quarter 2026 before the U.S. market opens on Wednesday, August 19,..."
+  },
+  {
+    "title": "Mars strengthens its European mint supply chain through the Shubh Mint programme",
+    "url": "https://www.prnewswire.com/news-releases/mars-strengthens-its-european-mint-supply-chain-through-the-shubh-mint-programme-302837587.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:58:00+00:00",
+    "raw_text": "Mars is integrating menthol sourced through its Shubh Mint programme into its European chewing gum supply chain, supplying factories in the UK and Poland. The programme has now engaged more than 24,000 farmers in India, helping more than double their mint incomes while reducing production...",
     "categories": [
       "Networks"
     ],
@@ -4088,14 +4189,119 @@
         "lan"
       ]
     },
-    "summary": "Untersuchungen haben ergeben, dass seit 2022 mehr als 50.000 sensible Güter – darunter Komponenten für Drohnen, Raketen und Luft- und Raumfahrtsysteme – über Indien an russische Verteidigungseinrichtungen gelangt sind. Die Einfuhren sensibler Güter, die über Indien nach Russland gelangen,..."
+    "summary": "Mars is integrating menthol sourced through its Shubh Mint programme into its European chewing gum supply chain, supplying factories in the UK and Poland. The programme has now engaged more than 24,000 farmers in India, helping more than double their mint incomes while reducing production..."
   },
   {
-    "title": "POLYTECH announces the availability of its full Microthane®* portfolio",
-    "url": "https://www.prnewswire.com/news-releases/polytech-announces-the-availability-of-its-full-microthane-portfolio-302837336.html",
+    "title": "Joseph Spine Institute Celebrates All Four Physicians Named 2025 Tampa Magazine Top Docs",
+    "url": "https://www.prnewswire.com/news-releases/joseph-spine-institute-celebrates-all-four-physicians-named-2025-tampa-magazine-top-docs-302836893.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Our Microthane®* surface is available in both our standard EasyFit™ gel and our lightweight B-Lite® gel DIEBURG, Germany, July 29, 2026 /PRNewswire/ -- POLYTECH Health & Aesthetics today announced the availability of its full Microthane®* portfolio. Following confirmation by its Notified...",
+    "published": "2026-07-29T08:44:00+00:00",
+    "raw_text": "TAMPA, Fla., July 29, 2026 /PRNewswire/ -- Joseph Spine Institute is proud to announce that all four of its esteemed spine physicians have been named 2025 Top Doctors by Tampa Magazine, one of the most respected medical honors in the Tampa Bay region. This prestigious recognition reflects...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "TAMPA, Fla., July 29, 2026 /PRNewswire/ -- Joseph Spine Institute is proud to announce that all four of its esteemed spine physicians have been named 2025 Top Doctors by Tampa Magazine, one of the most respected medical honors in the Tampa Bay region. This prestigious recognition reflects..."
+  },
+  {
+    "title": "Global Pump Market Size to Exceed USD 88.36 Billion by 2031 as Smart Pump Adoption Expands Across Industries - Arizton",
+    "url": "https://www.prnewswire.com/news-releases/global-pump-market-size-to-exceed-usd-88-36-billion-by-2031-as-smart-pump-adoption-expands-across-industries--arizton-302837567.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:39:00+00:00",
+    "raw_text": "Global Pump Industry Analysis Report, Regional Outlook, Growth Potential, Price Trends, Competitive Market Share & Forecast 2026–2031. CHICAGO, July 29, 2026 /PRNewswire/ -- According to Arizton's latest research, the global pump market is projected to grow from USD 65 billion in 2025 to...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands",
+        "market share"
+      ]
+    },
+    "summary": "Global Pump Industry Analysis Report, Regional Outlook, Growth Potential, Price Trends, Competitive Market Share & Forecast 2026–2031. CHICAGO, July 29, 2026 /PRNewswire/ -- According to Arizton's latest research, the global pump market is projected to grow from USD 65 billion in 2025 to..."
+  },
+  {
+    "title": "Sorona® y WGSN anuncian las principales tendencias en materiales de origen biológico para 2027",
+    "url": "https://www.prnewswire.com/news-releases/sorona-y-wgsn-anuncian-las-principales-tendencias-en-materiales-de-origen-biologico-para-2027-302837227.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:13:00+00:00",
+    "raw_text": "Los materiales de origen biológico se consolidan como una de las principales tendencias que marcarán el futuro de la moda, desde el athleisure hasta el prêt-à-porter de lujo. NEWARK, Delaware, 29 de julio de 2026 /PRNewswire/ -- Sorona®, el polímero parcialmente de origen biológico de...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Los materiales de origen biológico se consolidan como una de las principales tendencias que marcarán el futuro de la moda, desde el athleisure hasta el prêt-à-porter de lujo. NEWARK, Delaware, 29 de julio de 2026 /PRNewswire/ -- Sorona®, el polímero parcialmente de origen biológico de..."
+  },
+  {
+    "title": "Sorona® and WGSN Announce Top Bio-Based Material Trends of 2027",
+    "url": "https://www.prnewswire.com/news-releases/sorona-and-wgsn-announce-top-bio-based-material-trends-of-2027-302835784.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:13:00+00:00",
+    "raw_text": "Bio-based materials emerge as a leading trend shaping the future of fashion across athleisure and luxury ready-to-wear apparel NEWARK, Del., July 29, 2026 /PRNewswire/ -- Sorona®, the partially bio-based polymer from Covation Biomaterials (CovationBio™), and global trend forecasting...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Bio-based materials emerge as a leading trend shaping the future of fashion across athleisure and luxury ready-to-wear apparel NEWARK, Del., July 29, 2026 /PRNewswire/ -- Sorona®, the partially bio-based polymer from Covation Biomaterials (CovationBio™), and global trend forecasting..."
+  },
+  {
+    "title": "Sorona® et WGSN dévoilent les principales tendances 2027 en matière de matériaux biosourcés",
+    "url": "https://www.prnewswire.com/news-releases/sorona-et-wgsn-devoilent-les-principales-tendances-2027-en-matiere-de-materiaux-biosources-302836295.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:13:00+00:00",
+    "raw_text": "Les matériaux d'origine biologique s'imposent comme une tendance phare qui façonne l'avenir de la mode, tant dans le secteur de l'athleisure que dans celui du prêt-à-porter de luxe NEWARK, Delaware, 29 juillet 2026 /PRNewswire/ -- Sorona®, le polymère partiellement d'origine biologique de...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Les matériaux d'origine biologique s'imposent comme une tendance phare qui façonne l'avenir de la mode, tant dans le secteur de l'athleisure que dans celui du prêt-à-porter de luxe NEWARK, Delaware, 29 juillet 2026 /PRNewswire/ -- Sorona®, le polymère partiellement d'origine biologique de..."
+  },
+  {
+    "title": "Sorona® und WGSN geben die wichtigsten Trends bei biobasierten Materialien für das Jahr 2027 bekannt",
+    "url": "https://www.prnewswire.com/news-releases/sorona-und-wgsn-geben-die-wichtigsten-trends-bei-biobasierten-materialien-fur-das-jahr-2027-bekannt-302836809.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:13:00+00:00",
+    "raw_text": "Biobasierte Materialien entwickeln sich zu einem führenden Trend, der die Zukunft der Mode sowohl im Athleisure-Bereich als auch bei der luxuriösen Konfektionsmode prägt. NEWARK, Delaware, 29. Juli 2026 /PRNewswire/ -- Sorona®, das teilweise biobasierte Polymer von Covation Biomaterials...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Biobasierte Materialien entwickeln sich zu einem führenden Trend, der die Zukunft der Mode sowohl im Athleisure-Bereich als auch bei der luxuriösen Konfektionsmode prägt. NEWARK, Delaware, 29. Juli 2026 /PRNewswire/ -- Sorona®, das teilweise biobasierte Polymer von Covation Biomaterials..."
+  },
+  {
+    "title": "AI-Driven Cardiac Diagnostics Market to Reach USD 2.8 Billion by 2036 Amid Rising Demand for Faster and Data-Driven Cardiac Care | Future Market Insights",
+    "url": "https://www.prnewswire.com/news-releases/ai-driven-cardiac-diagnostics-market-to-reach-usd-2-8-billion-by-2036-amid-rising-demand-for-faster-and-data-driven-cardiac-care--future-market-insights-302837543.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:07:00+00:00",
+    "raw_text": "NEWARK, Del., July 29, 2026 /PRNewswire/ -- According to Future Market Insights, the AI-Driven Cardiac Diagnostics Market is valued at USD 903.2 million in 2026 and is projected to reach USD 2,805.1 million by 2036, expanding at a 12.0% CAGR during the forecast period. According to the...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "NEWARK, Del., July 29, 2026 /PRNewswire/ -- According to Future Market Insights, the AI-Driven Cardiac Diagnostics Market is valued at USD 903.2 million in 2026 and is projected to reach USD 2,805.1 million by 2036, expanding at a 12.0% CAGR during the forecast period. According to the..."
+  },
+  {
+    "title": "Beyond Content Creation: How Wizstar Helps Enterprises Scale AI Across Business",
+    "url": "https://www.prnewswire.com/news-releases/beyond-content-creation-how-wizstar-helps-enterprises-scale-ai-across-business-302837539.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:05:00+00:00",
+    "raw_text": "NEW YORK, July 29, 2026 /PRNewswire/ -- As AI adoption continues to expand across enterprises, businesses are seeking more efficient, intelligent, and scalable ways to create content and streamline operations. Addressing these evolving needs, Wizstar provides a comprehensive AI digital...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK, July 29, 2026 /PRNewswire/ -- As AI adoption continues to expand across enterprises, businesses are seeking more efficient, intelligent, and scalable ways to create content and streamline operations. Addressing these evolving needs, Wizstar provides a comprehensive AI digital..."
+  },
+  {
+    "title": "HBX GROUP ANNOUNCES THIRD QUARTER 2026 TRADING UPDATE",
+    "url": "https://www.prnewswire.com/news-releases/hbx-group-announces-third-quarter-2026-trading-update-302837541.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:05:00+00:00",
+    "raw_text": "LONDON, July 29, 2026 /PRNewswire/ -- HBX Group International plc (HBX Group, the Company, the Group, HBX.SM) today issues a Q3 trading update for the three months ended 30 June 2026. Total Transaction Value (TTV) up +12% to €2.4bn, and Revenue of €177m, down -3% year-on-year at constant...",
     "categories": [
       "Industry & Market"
     ],
@@ -4104,103 +4310,173 @@
         "announces"
       ]
     },
-    "summary": "Our Microthane®* surface is available in both our standard EasyFit™ gel and our lightweight B-Lite® gel DIEBURG, Germany, July 29, 2026 /PRNewswire/ -- POLYTECH Health & Aesthetics today announced the availability of its full Microthane®* portfolio. Following confirmation by its Notified..."
+    "summary": "LONDON, July 29, 2026 /PRNewswire/ -- HBX Group International plc (HBX Group, the Company, the Group, HBX.SM) today issues a Q3 trading update for the three months ended 30 June 2026. Total Transaction Value (TTV) up +12% to €2.4bn, and Revenue of €177m, down -3% year-on-year at constant..."
   },
   {
-    "title": "Seegene navrhuje komplexný prístup k testovaniu infekcií reprodukčného systému prostredníctvom klinickej štúdie Global Million Clinical Study (GMCS)",
-    "url": "https://www.prnewswire.com/news-releases/seegene-navrhuje-komplexny-pristup-k-testovaniu-infekcii-reprodukneho-systemu-prostrednictvom-klinickej-tudie-global-million-clinical-study-gmcs-302837328.html",
+    "title": "METLEN Signs Landmark Gallium Supply Agreement",
+    "url": "https://www.prnewswire.com/news-releases/metlen-signs-landmark-gallium-supply-agreement-302837536.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Analýza približne 60 000 výsledkov testov zozbieraných za 42 mesiacov cez platformu STAgora™ ukázala, že patogény pohlavne prenosných chorôb boli zistené v 82 % prípadov HPV pozitivity Zistenia podporujú potenciálny význam komplexného testovacieho prístupu, ktorý poskytuje informácie o...",
+    "published": "2026-07-29T08:01:00+00:00",
+    "raw_text": "THIS ANNOUNCEMENT CONTAINS INSIDE INFORMATION FOR THE PURPOSES OF ARTICLE 7 OF THE MARKET ABUSE REGULATION (EU) 596/2014 (\"EU MAR\") AND ARTICLE 7 OF THE MARKET ABUSE REGULATION (EU) 596/2014 AS IT FORMS PART OF DOMESTIC LAW IN THE UNITED KINGDOM (THE \"UK\") BY VIRTUE OF THE EUROPEAN UNION...",
+    "categories": [
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "regulation"
+      ]
+    },
+    "summary": "THIS ANNOUNCEMENT CONTAINS INSIDE INFORMATION FOR THE PURPOSES OF ARTICLE 7 OF THE MARKET ABUSE REGULATION (EU) 596/2014 (\"EU MAR\") AND ARTICLE 7 OF THE MARKET ABUSE REGULATION (EU) 596/2014 AS IT FORMS PART OF DOMESTIC LAW IN THE UNITED KINGDOM (THE \"UK\") BY VIRTUE OF THE EUROPEAN UNION..."
+  },
+  {
+    "title": "Nuvoton Releases 16-cell Battery-monitoring ICs with Daisy-chain Communication for AI Servers",
+    "url": "https://www.prnewswire.com/news-releases/nuvoton-releases-16-cell-battery-monitoring-ics-with-daisy-chain-communication-for-ai-servers-302837214.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:00:00+00:00",
+    "raw_text": "KYOTO, Japan, July 29, 2026 /PRNewswire/ -- Nuvoton Technology Corporation Japan (hereinafter \"NTCJ\") announced on July 29 that it will begin mass production in September 2026 of battery-monitoring ICs (BMICs), KA49703A and KA49713A, optimized for battery backup units (BBUs) used in AI...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Analýza približne 60 000 výsledkov testov zozbieraných za 42 mesiacov cez platformu STAgora™ ukázala, že patogény pohlavne prenosných chorôb boli zistené v 82 % prípadov HPV pozitivity Zistenia podporujú potenciálny význam komplexného testovacieho prístupu, ktorý poskytuje informácie o..."
+    "summary": "KYOTO, Japan, July 29, 2026 /PRNewswire/ -- Nuvoton Technology Corporation Japan (hereinafter \"NTCJ\") announced on July 29 that it will begin mass production in September 2026 of battery-monitoring ICs (BMICs), KA49703A and KA49713A, optimized for battery backup units (BBUs) used in AI..."
   },
   {
-    "title": "Seegene proponuje kompleksowe podejście do diagnostyki zakażeń dróg rodnych w ramach Global Million Clinical Study (GMCS)",
-    "url": "https://www.prnewswire.com/news-releases/seegene-proponuje-kompleksowe-podejcie-do-diagnostyki-zakae-drog-rodnych-w-ramach-global-million-clinical-study-gmcs-302837331.html",
+    "title": "FORD NAMES MARIA GRAZIA DAVINO VICE PRESIDENT, SALES, FORD OF EUROPE",
+    "url": "https://www.prnewswire.com/news-releases/ford-names-maria-grazia-davino-vice-president-sales-ford-of-europe-302836807.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Analiza przeprowadzona za pomocą platformy STAgora™, obejmująca około 60 tys. wyników badań zebranych w ciągu 42 miesięcy, wykazała obecność patogenów wywołujących choroby przenoszone drogą płciową (STI) u 82% osób z dodatnim wynikiem testu na HPV. Uzyskane wyniki wskazują na potencjalną...",
+    "published": "2026-07-29T08:00:00+00:00",
+    "raw_text": "COLOGNE, Germany, July 29, 2026 /PRNewswire/ -- Ford is continuing to strengthen its leadership team in Europe as it accelerates the transformation of its business and sharpens its focus on delivering an exceptional experience for customers across the region. The company today announced...",
     "categories": [
-      "Uncategorised"
+      "Data Centres"
     ],
-    "matched_keywords": {},
-    "summary": "Analiza przeprowadzona za pomocą platformy STAgora™, obejmująca około 60 tys. wyników badań zebranych w ciągu 42 miesięcy, wykazała obecność patogenów wywołujących choroby przenoszone drogą płciową (STI) u 82% osób z dodatnim wynikiem testu na HPV. Uzyskane wyniki wskazują na potencjalną..."
+    "matched_keywords": {
+      "Data Centres": [
+        "colo"
+      ]
+    },
+    "summary": "COLOGNE, Germany, July 29, 2026 /PRNewswire/ -- Ford is continuing to strengthen its leadership team in Europe as it accelerates the transformation of its business and sharpens its focus on delivering an exceptional experience for customers across the region. The company today announced..."
   },
   {
-    "title": "Seegene navrhuje komplexní testování infekcí reprodukčního traktu v rámci Klinické studie globální milion (GMCS)",
-    "url": "https://www.prnewswire.com/news-releases/seegene-navrhuje-komplexni-testovani-infekci-reprodukniho-traktu-v-ramci-klinicke-studie-globalni-milion-gmcs-302837373.html",
+    "title": "RiderNav lanza Q5 Pro: luces auxiliares de 22.000 lúmenes para cualquier motocicleta",
+    "url": "https://www.prnewswire.com/news-releases/ridernav-lanza-q5-pro-luces-auxiliares-de-22-000-lumenes-para-cualquier-motocicleta-302837207.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Analýza STAgora™ přibližně 60 000 výsledků testů shromážděných během 42 měsíců ukázala, že patogeny pohlavně přenosných infekcí (STI) byly detekovány u 82 % HPV-pozitivních případů Zjištění podporují potenciální hodnotu komplexního přístupu k testování, který poskytuje informace jak o...",
+    "published": "2026-07-29T08:00:00+00:00",
+    "raw_text": "-RiderNav lanza Q5 Pro: luces auxiliares de 22.000 lúmenes para cualquier motocicleta, con control nativo BMW Wonder Wheel SHENZHEN, China, 29 de julio de 2026 /PRNewswire/ -- RiderNav ha anunciado hoy el lanzamiento de las luces auxiliares LED para motocicletas Q5 Pro, un sistema de...",
     "categories": [
-      "Uncategorised"
+      "Networks"
     ],
-    "matched_keywords": {},
-    "summary": "Analýza STAgora™ přibližně 60 000 výsledků testů shromážděných během 42 měsíců ukázala, že patogeny pohlavně přenosných infekcí (STI) byly detekovány u 82 % HPV-pozitivních případů Zjištění podporují potenciální hodnotu komplexního přístupu k testování, který poskytuje informace jak o..."
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "-RiderNav lanza Q5 Pro: luces auxiliares de 22.000 lúmenes para cualquier motocicleta, con control nativo BMW Wonder Wheel SHENZHEN, China, 29 de julio de 2026 /PRNewswire/ -- RiderNav ha anunciado hoy el lanzamiento de las luces auxiliares LED para motocicletas Q5 Pro, un sistema de..."
   },
   {
-    "title": "Europe's increasing trade with India requires a more proactive approach to economic security, says new Strider report",
-    "url": "https://www.prnewswire.com/news-releases/europes-increasing-trade-with-india-requires-a-more-proactive-approach-to-economic-security-says-new-strider-report-302836929.html",
+    "title": "Ford nombra a Maria Grazia Davino como vicepresidenta de ventas de Ford of Europe",
+    "url": "https://www.prnewswire.com/news-releases/ford-nombra-a-maria-grazia-davino-como-vicepresidenta-de-ventas-de-ford-of-europe-302837017.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T07:00:00+00:00",
-    "raw_text": "Research reveals more than 50,000 sensitive goods – including components used in UAVs, missiles, and aerospace systems – have reached Russian defence entities via India since 2022. Sensitive goods reaching Russia through India have surged from key European economies such as the UK,...",
+    "published": "2026-07-29T08:00:00+00:00",
+    "raw_text": "COLONIA, Alemania, 29 de julio de 2026 /PRNewswire/ -- Ford continúa reforzando su equipo directivo en Europa a medida que acelera la transformación de su negocio y centra su atención en ofrecer una experiencia excepcional a los clientes en toda la región. La compañía anunció hoy el...",
     "categories": [
-      "Cybersecurity",
+      "Data Centres",
       "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
+        "ipo"
+      ]
+    },
+    "summary": "COLONIA, Alemania, 29 de julio de 2026 /PRNewswire/ -- Ford continúa reforzando su equipo directivo en Europa a medida que acelera la transformación de su negocio y centra su atención en ofrecer una experiencia excepcional a los clientes en toda la región. La compañía anunció hoy el..."
+  },
+  {
+    "title": "IBBA® Announces the Results from the 2026 Annual Conference for Business Brokers",
+    "url": "https://www.prnewswire.com/news-releases/ibba-announces-the-results-from-the-2026-annual-conference-for-business-brokers-302836850.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-07-29T08:00:00+00:00",
+    "raw_text": "INDEPENDENCE, Ohio, July 29, 2026 /PRNewswire/ -- The International Business Brokers Association® (IBBA) presents key moments from the 2026 IBBA Annual Conference, held May 29–31 at the Hyatt Regency Minneapolis. The conference convened Business Brokers from the USA and Canada for two...",
+    "categories": [
+      "Industry & Market",
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "security"
+        "soc"
       ],
       "Industry & Market": [
+        "announces",
         "ey"
       ]
     },
-    "summary": "Research reveals more than 50,000 sensitive goods – including components used in UAVs, missiles, and aerospace systems – have reached Russian defence entities via India since 2022. Sensitive goods reaching Russia through India have surged from key European economies such as the UK,..."
+    "summary": "INDEPENDENCE, Ohio, July 29, 2026 /PRNewswire/ -- The International Business Brokers Association® (IBBA) presents key moments from the 2026 IBBA Annual Conference, held May 29–31 at the Hyatt Regency Minneapolis. The conference convened Business Brokers from the USA and Canada for two..."
   },
   {
-    "title": "Photocure ASA: Results for the second quarter of 2026",
-    "url": "https://www.prnewswire.com/news-releases/photocure-asa-results-for-the-second-quarter-of-2026-302837461.html",
+    "title": "RiderNav bringt Q5 Pro auf den Markt: Zusatzscheinwerfer mit 22.000 Lumen für jedes Motorrad - mit direkter Steuerung über das BMW-Multicontroller-Rad",
+    "url": "https://www.prnewswire.com/news-releases/ridernav-bringt-q5-pro-auf-den-markt-zusatzscheinwerfer-mit-22-000-lumen-fur-jedes-motorrad--mit-direkter-steuerung-uber-das-bmw-multicontroller-rad-302837203.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-07-29T06:29:00+00:00",
-    "raw_text": "OSLO, Norway, July 29, 2026 /PRNewswire/ -- Photocure ASA (OSE: PHO) today reported Hexvix®/Cysview® revenues of NOK 140.0 million in the second quarter of 2026 (Q2 2025: NOK 135.6 million), and an adjusted EBITDA of NOK 27.2 million (Q2 2025: NOK 27.0 million) for the company. In 2026,...",
+    "published": "2026-07-29T08:00:00+00:00",
+    "raw_text": "SHENZHEN, China, 29. Juli 2026 /PRNewswire/ -- RiderNav gab heute die Einführung der Q5 Pro LED-Zusatzscheinwerfer für Motorräder bekannt – ein leistungsstarkes Beleuchtungssystem, das speziell für Abenteuer- und Langstreckenfahrer entwickelt wurde. Entwickelt für den Einsatz im Alltag...",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "OSLO, Norway, July 29, 2026 /PRNewswire/ -- Photocure ASA (OSE: PHO) today reported Hexvix®/Cysview® revenues of NOK 140.0 million in the second quarter of 2026 (Q2 2025: NOK 135.6 million), and an adjusted EBITDA of NOK 27.2 million (Q2 2025: NOK 27.0 million) for the company. In 2026,..."
-  },
-  {
-    "title": "Hexagon Interim Report 1 January - 30 June 2026",
-    "url": "https://www.prnewswire.com/news-releases/hexagon-interim-report-1-january---30-june-2026-302837446.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T06:17:00+00:00",
-    "raw_text": "STOCKHOLM, July 29, 2026 /PRNewswire/ -- Second quarter 2026 Operating net sales of 1,050.2 MEUR (1,010.5) resulting in organic growth of 12% Net sales including acquired deferred revenue amounted to 1,050.2 MEUR (1,009.8) Adjusted gross earnings of 654.3 MEUR (646.5) resulting in a 62.3%...",
-    "categories": [
-      "Industry & Market"
+      "Networks"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "acquired"
+      "Networks": [
+        "lan"
       ]
     },
-    "summary": "STOCKHOLM, July 29, 2026 /PRNewswire/ -- Second quarter 2026 Operating net sales of 1,050.2 MEUR (1,010.5) resulting in organic growth of 12% Net sales including acquired deferred revenue amounted to 1,050.2 MEUR (1,009.8) Adjusted gross earnings of 654.3 MEUR (646.5) resulting in a 62.3%..."
+    "summary": "SHENZHEN, China, 29. Juli 2026 /PRNewswire/ -- RiderNav gab heute die Einführung der Q5 Pro LED-Zusatzscheinwerfer für Motorräder bekannt – ein leistungsstarkes Beleuchtungssystem, das speziell für Abenteuer- und Langstreckenfahrer entwickelt wurde. Entwickelt für den Einsatz im Alltag..."
   },
   {
-    "title": "Electrolux Group Interim report Q2 2026",
-    "url": "https://www.prnewswire.com/news-releases/electrolux-group-interim-report-q2-2026-302837430.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-07-29T06:08:00+00:00",
-    "raw_text": "STOCKHOLM, July 29, 2026 /PRNewswire/ -- Highlights of the second quarter of 2026 Net sales amounted to SEK 31,569m (31,276) with organic sales growth of 2.0% (1.8). Growth was driven by increased sales volumes in Europe, Middle East & Africa and Asia Pacific (EMEA APAC), and Latin...",
+    "title": "Free Platform Launches Daily Money Lessons to Boost Britain's Financial Confidence",
+    "url": "https://www.globenewswire.com/news-release/2026/07/29/3335001/0/en/Free-Platform-Launches-Daily-Money-Lessons-to-Boost-Britain-s-Financial-Confidence.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-29T09:04:00+00:00",
+    "raw_text": "Free platform Funkled teams up with fintech firm Focus to pair jargon-free money lessons with free planning tools, launching daily content.",
+    "categories": [
+      "Industry & Market",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "launches",
+        "ey"
+      ]
+    },
+    "summary": "Free platform Funkled teams up with fintech firm Focus to pair jargon-free money lessons with free planning tools, launching daily content."
+  },
+  {
+    "title": "West China's Scenic Spot Wulong Rolls Out Lifetime Travel Pass",
+    "url": "https://www.globenewswire.com/news-release/2026/07/29/3334990/0/en/West-China-s-Scenic-Spot-Wulong-Rolls-Out-Lifetime-Travel-Pass.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-29T07:42:00+00:00",
+    "raw_text": "CHONGQING, China, July 29, 2026 (GLOBE NEWSWIRE) -- The Wulong District 2026 Cultural Tourism and Residential Tourism Development Conference kicked off Tuesday in west China's Chongqing Municipality. At the event themed \"Vibrant Wulong, Joyful Living,\" Wulong District of Chongqing officially launched the Lifetime Travel Pass, granting holders unlimited lifelong access to all core scenic spots.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "STOCKHOLM, July 29, 2026 /PRNewswire/ -- Highlights of the second quarter of 2026 Net sales amounted to SEK 31,569m (31,276) with organic sales growth of 2.0% (1.8). Growth was driven by increased sales volumes in Europe, Middle East & Africa and Asia Pacific (EMEA APAC), and Latin..."
+    "summary": "CHONGQING, China, July 29, 2026 (GLOBE NEWSWIRE) -- The Wulong District 2026 Cultural Tourism and Residential Tourism Development Conference kicked off Tuesday in west China's Chongqing Municipality. At the event themed \"Vibrant Wulong, Joyful Living,\" Wulong District of Chongqing officially launched the Lifetime Travel Pass, granting holders unlimited lifelong access to all core scenic spots."
+  },
+  {
+    "title": "HTX's First TradFi \"Trade to Earn\" Campaign Unleashes New Trading Momentum: Rewards Exceed $23,000, Fee Savings Reach 1.8 Billion $HTX",
+    "url": "https://www.globenewswire.com/news-release/2026/07/29/3334989/0/en/HTX-s-First-TradFi-Trade-to-Earn-Campaign-Unleashes-New-Trading-Momentum-Rewards-Exceed-23-000-Fee-Savings-Reach-1-8-Billion-HTX.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-07-29T07:17:00+00:00",
+    "raw_text": "APIA, Samoa, July 29, 2026 (GLOBE NEWSWIRE) -- Recently, HTX's first-ever TradFi “Trade to Earn” campaign concluded successfully. The campaign leveraged innovative gameplay - \"24/7 mining\" and \"up to 110% fee rebates\" - to ignite significant trading enthusiasm for traditional finance assets within the crypto market.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "APIA, Samoa, July 29, 2026 (GLOBE NEWSWIRE) -- Recently, HTX's first-ever TradFi “Trade to Earn” campaign concluded successfully. The campaign leveraged innovative gameplay - \"24/7 mining\" and \"up to 110% fee rebates\" - to ignite significant trading enthusiasm for traditional finance assets within the crypto market."
   },
   {
     "title": "Alpen Enters Partner Integration Phase with Testnet III",
@@ -4457,46 +4733,6 @@
     ],
     "matched_keywords": {},
     "summary": "WUHU, Chine, 29 juill. 2026 (GLOBE NEWSWIRE) -- Chery Auto a annoncé que ses ventes mondiales cumulées avaient dépassé les 20 millions de véhicules, marquant une nouvelle étape majeure dans le développement international de l’entreprise. Cette réussite intervient alors que Chery Automobile Co., Ltd. (ci-après dénommée « Chery Auto », code boursier : 9973.HK) a fait sa première apparition dans le classement Fortune China 500 de 2026 en tant qu’entreprise cotée en bourse, se classant à la 87 e place."
-  },
-  {
-    "title": "LEPAS treibt internationale Expansion mit umfassender NEV-Produktoffensive voran",
-    "url": "https://www.globenewswire.com/news-release/2026/07/29/3334943/0/de/LEPAS-treibt-internationale-Expansion-mit-umfassender-NEV-Produktoffensive-voran.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-29T03:23:00+00:00",
-    "raw_text": "WUHU, China, July 29, 2026 (GLOBE NEWSWIRE) -- Chery Auto hat bekannt gegeben, dass der kumulierte weltweite Fahrzeugabsatz die Marke von 20 Millionen Einheiten überschritten hat. Damit erreicht das Unternehmen einen weiteren bedeutenden Meilenstein seiner internationalen Entwicklung. Der Meilenstein fällt mit einem weiteren Erfolg zusammen: Die Chery Automobile Co., Ltd. (nachfolgend „Chery Auto“; Börsenkürzel: 9973.HK) wurde 2026 erstmals als börsennotiertes Unternehmen in die „Fortune China 500“ aufgenommen und belegte direkt Rang 87. Darüber hinaus erzielte Chery Auto unter allen Automobilherstellern den höchsten Wert bei der Eigenkapitalrendite (Return on Equity, ROE). Dies unterstreicht die Stärke der internationalen Geschäftstätigkeit und die hohe Profitabilität des Unternehmens im Rahmen seiner Strategie „From China to the World“. Zudem wurde Chery Auto bereits zum neunten Mal in Folge in die „Kantar BrandZ Top 50 Chinese Global Brand Builders“ aufgenommen und belegte 2026 den ersten Platz in der Kategorie Automobil. Damit bestätigt das Unternehmen seine wachsende internationale Markenstärke und das Vertrauen, das ihm Kunden weltweit entgegenbringen.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "WUHU, China, July 29, 2026 (GLOBE NEWSWIRE) -- Chery Auto hat bekannt gegeben, dass der kumulierte weltweite Fahrzeugabsatz die Marke von 20 Millionen Einheiten überschritten hat. Damit erreicht das Unternehmen einen weiteren bedeutenden Meilenstein seiner internationalen Entwicklung. Der Meilenstein fällt mit einem weiteren Erfolg zusammen: Die Chery Automobile Co., Ltd. (nachfolgend „Chery Auto“; Börsenkürzel: 9973.HK) wurde 2026 erstmals als börsennotiertes Unternehmen in die „Fortune China 500“ aufgenommen und belegte direkt Rang 87."
-  },
-  {
-    "title": "LEPAS מאיץ את ההתרחבות הגלובלית באמצעות השקה עוצמתית רחבת היקף בתחום רכבי האנרגיה החדשה (NEV)",
-    "url": "https://www.globenewswire.com/news-release/2026/07/29/3334943/0/he/LEPAS-%D7%9E%D7%90%D7%99%D7%A5-%D7%90%D7%AA-%D7%94%D7%94%D7%AA%D7%A8%D7%97%D7%91%D7%95%D7%AA-%D7%94%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99%D7%AA-%D7%91%D7%90%D7%9E%D7%A6%D7%A2%D7%95%D7%AA-%D7%94%D7%A9%D7%A7%D7%94-%D7%A2%D7%95%D7%A6%D7%9E%D7%AA%D7%99%D7%AA-%D7%A8%D7%97%D7%91%D7%AA-%D7%94%D7%99%D7%A7%D7%A3-%D7%91%D7%AA%D7%97%D7%95%D7%9D-%D7%A8%D7%9B%D7%91%D7%99-%D7%94%D7%90%D7%A0%D7%A8%D7%92%D7%99%D7%94-%D7%94%D7%97%D7%93%D7%A9%D7%94-NEV.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-29T03:23:00+00:00",
-    "raw_text": "ווהו, סין, July 29, 2026 (GLOBE NEWSWIRE) -- חברת Chery Auto הודיעה כי היקף המכירות הגלובלי המצטבר שלה חצה את רף 20 מיליון היחידות – ציון דרך משמעותי נוסף בהתפתחותה הגלובלית של החברה. הישג זה נרשם במקביל להופעתה הראשונה של Chery Automobile Co., Ltd (להלן: \" Chery Auto \"; סימול מניה: 9973.HK ) ברשימת Fortune China 500 לשנת 2026 כחברה ציבורית, שם דורגה במקום ה-87. כמו כן, החברה דורגה במקום הראשון בקרב יצרניות הרכב במדד התשואה להון ( ROE ), נתון המדגיש את עוצמת פעילותה הגלובלית ואת רווחיותה, בהתאם לאסטרטגיית \"מסין לעולם\" ( From China to the World ) שבה היא נוקטת. במקביל, חברת Chery Auto נכללה ברשימת 50 המותגים הסיניים הגלובליים המובילים של Kantar BrandZ זו השנה התשיעית ברציפות, ודורגה במקום הראשון בקטגוריית הרכב – הישג הממחיש את השפעת המותג הגוברת שלה בזירה הבינלאומית ואת האמון שרכשה בקרב צרכנים ברחבי העולם.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ווהו, סין, July 29, 2026 (GLOBE NEWSWIRE) -- חברת Chery Auto הודיעה כי היקף המכירות הגלובלי המצטבר שלה חצה את רף 20 מיליון היחידות – ציון דרך משמעותי נוסף בהתפתחותה הגלובלית של החברה. הישג זה נרשם במקביל להופעתה הראשונה של Chery Automobile Co., Ltd (להלן: \" Chery Auto \"; סימול מניה: 9973.HK ) ברשימת Fortune China 500 לשנת 2026 כחברה ציבורית, שם דורגה במקום ה-87. כמו כן, החברה דורגה במקום הראשון בקרב יצרניות הרכב במדד התשואה להון ( ROE ), נתון המדגיש את עוצמת פעילותה הגלובלית ואת רווחיותה, בהתאם לאסטרטגיית \"מסין לעולם\" ( From China to the World ) שבה היא נוקטת. במקביל, חברת Chery Auto נכללה ברשימת 50 המותגים הסיניים הגלובליים המובילים של Kantar BrandZ זו השנה התשיעית ברציפות, ודורגה במקום הראשון בקטגוריית הרכב – הישג הממחיש את השפעת המותג הגוברת שלה בזירה הבינלאומית ואת האמון שרכשה בקרב צרכנים ברחבי העולם."
-  },
-  {
-    "title": "LEPAS Mempercepat Ekspansi Global dengan Perkenalan Produk NEV yang Kuat",
-    "url": "https://www.globenewswire.com/news-release/2026/07/29/3334943/0/id/LEPAS-Mempercepat-Ekspansi-Global-dengan-Perkenalan-Produk-NEV-yang-Kuat.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-07-29T03:23:00+00:00",
-    "raw_text": "WUHU, Tiongkok, July 29, 2026 (GLOBE NEWSWIRE) -- Chery Auto mengumumkan penjualan global kumulatifnya telah melebihi 20 juta unit, menandai tonggak penting lainnya dalam perkembangan global perusahaan. Pencapaian ini diraih saat Chery Automobile Co., Ltd. (selanjutnya disebut sebagai “Chery Auto”, kode saham: 9973.HK) tampil perdana di Fortune China 500 2026 sebagai perusahaan publik, menempati peringkat No. 87. Perusahaan ini juga berada di peringkat 1 di antara produsen kendaraan dalam hal imbal hasil atas ekuitas (ROE), menggarisbawahi operasi globalnya yang kuat dan profitabilitas dengan pendekatan “From China to the World”. Sementara itu, Chery Auto masuk dalam daftar Kantar BrandZ Top 50 Chinese Global Brand Builders untuk tahun kesembilan berturut-turut dan menempati peringkat No. 1 di kategori otomotif pada tahun 2026, semakin menunjukkan pengaruh merek globalnya yang terus tumbuh serta kepercayaan yang telah diperolehnya dari konsumen di seluruh dunia.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "WUHU, Tiongkok, July 29, 2026 (GLOBE NEWSWIRE) -- Chery Auto mengumumkan penjualan global kumulatifnya telah melebihi 20 juta unit, menandai tonggak penting lainnya dalam perkembangan global perusahaan. Pencapaian ini diraih saat Chery Automobile Co., Ltd. (selanjutnya disebut sebagai “Chery Auto”, kode saham: 9973.HK) tampil perdana di Fortune China 500 2026 sebagai perusahaan publik, menempati peringkat No. 87."
   },
   {
     "title": "NVIDIA-backed Open Secure AI Alliance launches with Microsoft, IBM, Cisco and 40+ firms - Storyboard18",
