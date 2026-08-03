@@ -1,5 +1,46 @@
 [
   {
+    "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+    "url": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+    "source": "The Hacker News",
+    "published": "2026-08-03T06:41:46+00:00",
+    "raw_text": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version. N-central is the remote monitoring and management platform",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cve",
+        "exploit"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete. CVE-2026-18577 affects N-central builds prior to 2026.3.1.7. N-able shipped build 2026.3.1.7 on August 2 as the first unaffected version."
+  },
+  {
+    "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+    "url": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+    "source": "The Hacker News",
+    "published": "2026-08-03T06:40:31+00:00",
+    "raw_text": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. \"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the",
+    "categories": [
+      "Cloud Infrastructure",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Three high-severity security flaws have been disclosed in Hugging Face's Diffusers library that could allow crafted model repositories to stealthily execute arbitrary code on machines that load it, opening the artificial intelligence (AI) supply chain to security risk. \"These vulnerabilities are bypassing trust_remote_code, the safeguard designed to stop unreviewed code from running in the"
+  },
+  {
     "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
     "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
     "source": "The Hacker News",
@@ -31,56 +72,6 @@
       ]
     },
     "summary": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident on July 27, 2026, removed the malicious code, notified affected clients, and reported it to authorities. Anyone who visited a site carrying the affected script on July 27 and copied a Bitcoin,"
-  },
-  {
-    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-    "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-    "source": "The Hacker News",
-    "published": "2026-08-01T07:12:42+00:00",
-    "raw_text": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "security"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48449, carries a severity score of 10.0 on the CVSS scoring system. It has been described as a case of incorrect authorization that could result in"
-  },
-  {
-    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-    "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-    "source": "The Hacker News",
-    "published": "2026-08-01T06:29:05+00:00",
-    "raw_text": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report. Researchers track the operation as CaptiveCrunch and attribute it to Storm-2945. It assesses Storm-2945 to be an operational sub-cluster of Midnight Blizzard, also known as",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "malware"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "A fake browser update served over hijacked hotel Wi-Fi has been used to deliver CornFlake, a remote access trojan (RAT) that can capture webcam images, microphone audio, and keystrokes, Microsoft said in its latest report. Researchers track the operation as CaptiveCrunch and attribute it to Storm-2945. It assesses Storm-2945 to be an operational sub-cluster of Midnight Blizzard, also known as"
   },
   {
     "title": "OpenAI teases Astra, its next major AI model, after it solves 10 long-standing math problems",
@@ -145,6 +136,23 @@
       ]
     },
     "summary": "A critical vulnerability in the Active Storage framework can allow an unauthenticated attacker to read arbitrary files from a Rails application, and potentially escalate to remote code execution (RCE). [...]"
+  },
+  {
+    "title": "Mapping the malware blast radius a single alert won’t show you",
+    "url": "https://www.helpnetsecurity.com/2026/08/03/mike-wiacek-stairwell-backstory-malware-blast-radius/",
+    "source": "Help Net Security",
+    "published": "2026-08-03T06:00:24+00:00",
+    "raw_text": "In this interview with Help Net Security, Mike Wiacek, founder and CTO of Stairwell, explains Backstory, an AI agent that takes a single alert and works outward to map how far a malware campaign spread. He walks through the research behind the claim that each published sample hides an average of 2.4 undocumented variants, describes what counts as a related variant, and explains why Stairwell keeps every executable that runs on customer endpoints. Stairwell has … More → The post Mapping the malware blast radius a single alert won’t show you appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "security"
+      ]
+    },
+    "summary": "In this interview with Help Net Security, Mike Wiacek, founder and CTO of Stairwell, explains Backstory, an AI agent that takes a single alert and works outward to map how far a malware campaign spread. He walks through the research behind the claim that each published sample hides an average of 2.4 undocumented variants, describes what counts as a related variant, and explains why Stairwell keeps every executable that runs on customer endpoints. Stairwell has … More → The post Mapping the malware blast radius a single alert won’t show you appeared first on Help Net Security ."
   },
   {
     "title": "SkillSpector: NVIDIA’s open-source security scanner for AI agent skills",
@@ -314,7 +322,7 @@
     "title": "Meta boosts AI data center capex, forecasts $130-145bn spend",
     "url": "https://www.datacenterdynamics.com/en/news/meta-boosts-ai-data-center-capex-forecasts-130-145bn-spend/",
     "source": "DataCenterDynamics",
-    "published": "2026-08-02T16:45:40+00:00",
+    "published": "2026-08-02T16:45:00+00:00",
     "raw_text": "Shares drop as spending increases, and free cash flow falls",
     "categories": [
       "Data Centres"
@@ -364,84 +372,41 @@
     "summary": "Increasing densities, equipment varieties, and services have led to complexity challenges. What the market needs is integrated solutions from a provider that can support the AI wave at every step"
   },
   {
-    "title": "Meta straps on a ‘Kick Me’ sign by mistakenly taking down video by India’s prime minister",
-    "url": "https://www.theregister.com/public-sector/2026/08/03/meta-straps-on-a-kick-me-sign-by-mistakenly-taking-down-video-by-indias-prime-minister/5282130",
-    "source": "The Register",
-    "published": "2026-08-03T01:25:16+00:00",
-    "raw_text": "PLUS: DeepSeek to double peak hour prices for new model; Australia hikes fines for Big Tech; Japan’s next moonshot to ride local rocket; and more!",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "PLUS: DeepSeek to double peak hour prices for new model; Australia hikes fines for Big Tech; Japan’s next moonshot to ride local rocket; and more!"
-  },
-  {
-    "title": "Meet the 'internet radical' who helped Microsoft get email and AT&T get online",
-    "url": "https://www.theregister.com/offbeat/2026/08/02/meet-the-internet-radical-who-helped-microsoft-get-email-and-att-get-online/5281281",
-    "source": "The Register",
-    "published": "2026-08-02T07:11:00+00:00",
-    "raw_text": "Tom Evslin on Bill Gates, the birth of Exchange, and dragging Ma Bell onto the web",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Tom Evslin on Bill Gates, the birth of Exchange, and dragging Ma Bell onto the web"
-  },
-  {
-    "title": "Unexpected item in the bagging area as Windows Activation error pops up at check-in",
-    "url": "https://www.theregister.com/offbeat/2026/08/01/unexpected-item-in-the-bagging-area-as-windows-activation-error-pops-up-at-check-in/5281946",
-    "source": "The Register",
-    "published": "2026-08-01T10:00:00+00:00",
-    "raw_text": "Bags weighed down by a Microsoft license key",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Bags weighed down by a Microsoft license key"
-  },
-  {
-    "title": "A deep dive into Nvidia's Vera CPU and the Olympus cores that power it",
-    "url": "https://www.theregister.com/systems/2026/08/01/nvidias-vera-cpu-and-the-olympus-cores-that-power-it-deep-dive/5282056",
-    "source": "The Register",
-    "published": "2026-08-01T09:02:00+00:00",
-    "raw_text": "88 custom cores, 176 funky threads, 1.5 TB of laptop RAM, and 1.8 TB/s of NVLink connectivity — this isn't your typical datacenter chip",
+    "title": "CW@60: Spending 40 years on things that no longer exist",
+    "url": "https://www.computerweekly.com/feature/CW60-Spending-40-years-on-things-that-no-longer-exist",
+    "source": "ComputerWeekly",
+    "published": "2026-08-03T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>I have been involved in IT for over 43 years but <a href=\"https://www.computerweekly.com/feature/CW60-Reflections-of-an-accidental-technology-anthropologist\">entered the industry by accident</a>. From conversations with many of my peers this seems to be how most people ended up in ICT - information and communications technology, as it was known then.&nbsp;</p> <p>I was, and still am, a Chartered Electrical and Electronic Engineer, I started work with the Central Electricity Generating Board (CEGB) at Drakelow Power Station, neither of which exist today – rather like my old schools and university campus also no longer exist, becoming housing estates.</p> <p>I left the CEGB after six years and went to university and was working in my second job after graduating with an honours degree in electrical and electronic engineering. I had just moved from the BBC where I worked in numerous departments as a graduate engineer to CAP Scientific - a consulting company that also no longer exists - as an electronics engineer.</p> <p>My first job was to work on the electronic control system for making a tank manoeuvre faster, and as this was a military project I was subject to security clearance. CAP Scientific had just won a contract with the Ministry of Defence at Admiralty Research Establishment in Bushy Park near Richmond in London. Guess what? That also no longer exists. &nbsp;</p> <p>The contract CAP won required a Fortran computer programmer who could also be the systems engineer for the estate of DEC VAX and PDP systems – computers that again no longer exist.</p> <p>Even though I was not a Fortan 77 programmer, my engineering knowledge was considered exactly what was needed and I could learn the language, as I had done computer programming at university.</p> <p>So, even my route into 43 years of working in an industry no longer exists - who today will employ anybody without the skills and experience they are looking for?</p> <section class=\"section main-article-chapter\" data-menu-title=\"Fledgling industry\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Fledgling industry</h2> <p>My route into IT showed how this fledging new industry was drawing people from all different areas but was mostly based in engineering, as keeping these systems running required constant tinkering.</p> <p>DEC VAX systems like the DEC 11/750, 6000 and 8000 series were complex systems that had multiple different configuration levers that systems managers, or systems engineers, needed to tweak to ensure the performance was maintained. These systems ran the VMS (virtual memory system) operating system, which used a command-line only method of interaction. System managers needed to develop scripts for common tasks.</p> <p>One of the most time-consuming tasks was performing upgrades, which had to be done on-site in person using removable media. I remember one upgrade I was responsible for while working for another company in the late 1980s -a company that, of course, no longer exists.</p> <p>I was responsible for seven different DEC VAX 6000 series machines in seven different datacentres in the UK. The upgrade process required a mixture of sitting watching a screen and responding to questions. Once it was completed, you needed to reapply settings manually to all the different subsystems, such as the terminal services, and so on.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"“https://cdn.ttgtmedia.com/rms/computerweekly/Roy-Illsley-Omdia-PR.jpg&quot;\" alt=\"Photo of Roy Illsley from Omdia\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“I cannot imagine a world without IT, yet I wrote the dissertation for my bachelor’s degree on a typewriter, not a wordprocessor, using Tipp-ex to correct spelling”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Roy Illsley, Omdia</em></span></p> </blockquote> <p>Therefore, you needed to write down, on paper, the commands, settings, and values for each system, because there was no guarantee that they would be the same – and this was on a per-location basis. In fact, things like number of users were sufficient to mean the settings for one location were not the same for another. Hence, I spent two days at each location performing the upgrade in person.</p> <p>Eventually the DEC VAX systems were replaced by IBM AS400s, which is another story of a name that no longer exists.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Boring, reliable and business-friendly\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Boring, reliable and business-friendly</h2> <p>My memory of the AS400 was how the company I worked for switched to the AS400 from the DEC VAX but found even the largest AS400 at the time – the F-Series - was not powerful enough to run all the business applications for the whole company.</p> <p>The firm was actively involved with IBM in bringing Opti-connect to the AS400 in what was eventually call “Advanced Series,” so all the company’s AS400s could be clustered together to make a single system that was capable of hosting the business applications and their databases. &nbsp;</p> <p>The reason the DEC VAX lost to the AS400 was the IBM machine was simpler to operate and manage, you did not need a systems manager to perform lots of tweaks - the AS400 was like a black box, it just worked, plus it supported the business applications of the time.</p> <p>Reflecting on these two systems – which have both since disappeared from mainstream use - I have to say the DEC VAX was more interesting and more fun, but equally more frustrating, while the AS400 was the boring, reliable, business-friendly option.</p> <p>Moving from mid-range systems to another topic that introduced me to new skills and great beer and curry - Windows 95. This version of Microsoft’s operating system was revolutionary when introduced, so much so that the IT department of the company I was working for put together teams to go and live and work in the six main offices to train the staff, deploy Windows 95, and then “floor walk” support post go-live. I was dispatched to Glasgow, where I got a taste for “heavy” and curry on Sauchiehall Street.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"A change to corporate life\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A change to corporate life</h2> <p>Window 95 was such a big change to corporate life people forget that before it, personal computers were command-line based - now business applications and data were accessible in a graphical user interface.</p> <p>Organisations took this change seriously - the company I was working for sent teams of 20 IT staff to each main office location for a period of at least three months, and most were there for six months.</p> <p>There were many other key events and technologies over the past 43 years of my involvement with IT. However, the one thing that comes through is that as a society, we have been living with, and managing the impact of, technological change for all this time.</p> <p>This can be exemplified as going from my first programming experience at university in the late 1970s using punch cards – remember, do not drop them! - to asking Gemini to write, document, and run my software program today.</p> <p>I cannot imagine a world without IT, yet I wrote the dissertation for my bachelor’s degree on a typewriter, not a wordprocessor, using Tipp-ex to correct spelling. Imagine doing that today - it sounds so last century.</p> <p><i>Roy Illsley is chief analyst at Omdia.</i></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read all of Computer Weekly's 60th anniversary essays</h3> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup> anniversary, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. Read our full collection of essays, which offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p> <h2><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">CW@60 - How technology has changed our lives over 60 years</a></h2> </div> </div> </section>",
     "categories": [
       "Networks",
+      "Industry & Market",
+      "Cybersecurity",
+      "GRC",
       "Data Centres"
     ],
     "matched_keywords": {
       "Networks": [
-        "connectivity"
+        "cdn",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "soc"
+      ],
+      "GRC": [
+        "nist"
       ],
       "Data Centres": [
-        "datacenter"
+        "colo"
+      ],
+      "Industry & Market": [
+        "ey",
+        "ibm",
+        "consulting"
       ]
     },
-    "summary": "88 custom cores, 176 funky threads, 1.5 TB of laptop RAM, and 1.8 TB/s of NVLink connectivity — this isn't your typical datacenter chip"
-  },
-  {
-    "title": "Enterprise cloud infrastructure uptake shows no sign of slowing",
-    "url": "https://www.theregister.com/off-prem/2026/08/01/enterprise-cloud-infrastructure-uptake-shows-no-sign-of-slowing/5281835",
-    "source": "The Register",
-    "published": "2026-08-01T07:00:00+00:00",
-    "raw_text": "Cloud revenue now north of $143 billion a quarter, and growth is accelerating",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ]
-    },
-    "summary": "Cloud revenue now north of $143 billion a quarter, and growth is accelerating"
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>I have been involved in IT for over 43 years but <a href=\"https://www.computerweekly.com/feature/CW60-Reflections-of-an-accidental-technology-anthropologist\">entered the industry by accident</a>. From conversations with many of my peers this seems to be how most people ended up in ICT - information and communications technology, as it was known then.&nbsp;</p> <p>I was, and still am, a Chartered Electrical and Electronic Engineer, I started work with the Central Electricity Generating Board (CEGB) at Drakelow Power Station, neither of which exist today – rather like my old schools and university campus also no longer exist, becoming housing estates.</p> <p>I left the CEGB after six years and went to university and was working in my second job after graduating with an honours degree in electrical and electronic engineering."
   },
   {
     "title": "I went running with the Galaxy Watch 9 in London, and it taught me something new",
@@ -573,284 +538,357 @@
     "summary": "These affordable gaming laptops were neck and neck in my testing, but one pulled ahead for me."
   },
   {
-    "title": "PicS N.V. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PICS",
-    "url": "https://www.prnewswire.com/news-releases/pics-nv-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights---pics-302840755.html",
+    "title": "Somon Air Receives Its First Boeing 737 MAX Jet",
+    "url": "https://www.prnewswire.com/news-releases/somon-air-receives-its-first-boeing-737-max-jet-302841019.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:51:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against PicS N.V. (\"PicS\" or \"the Company\") (NASDAQ: PICS) for violations of the federal securities laws. Shareholders who purchased shares of PICS during the class period listed are...",
+    "published": "2026-08-03T07:53:00+00:00",
+    "raw_text": "- Tajikistan's national carrier to modernize its fleet and expand its network with the 737-8 - 737 MAX to complement the Central Asian airline's planned 787 Dreamliner fleet DUSHANBE, Tajikistan, Aug. 3, 2026 /PRNewswire/ -- Boeing [NYSE: BA] and Somon Air today announced the delivery of...",
     "categories": [
-      "Cloud Infrastructure"
+      "Networks"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Networks": [
+        "network",
+        "lan"
       ]
     },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against PicS N.V. (\"PicS\" or \"the Company\") (NASDAQ: PICS) for violations of the federal securities laws. Shareholders who purchased shares of PICS during the class period listed are..."
+    "summary": "- Tajikistan's national carrier to modernize its fleet and expand its network with the 737-8 - 737 MAX to complement the Central Asian airline's planned 787 Dreamliner fleet DUSHANBE, Tajikistan, Aug. 3, 2026 /PRNewswire/ -- Boeing [NYSE: BA] and Somon Air today announced the delivery of..."
   },
   {
-    "title": "Persistent erzielt im ersten Quartal des Geschäftsjahres 2027 einen Umsatz von 452,4 Mio. US-Dollar mit einem Wachstum von 16,1 % gegenüber dem Vorjahr",
-    "url": "https://www.prnewswire.com/news-releases/persistent-erzielt-im-ersten-quartal-des-geschaftsjahres-2027-einen-umsatz-von-452-4-mio-us-dollar-mit-einem-wachstum-von-16-1--gegenuber-dem-vorjahr-302840942.html",
+    "title": "Argus launches SAF emissions reduction indexes and economics calculator",
+    "url": "https://www.prnewswire.com/news-releases/argus-launches-saf-emissions-reduction-indexes-and-economics-calculator-302840166.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:46:00+00:00",
-    "raw_text": "Meldet ein EBIT-Wachstum von 32,7 % im Vergleich zum Vorjahr und den höchsten jemals erzielten Quartalsumsatz von 1,15 Milliarden US-Dollar SAN JOSE, Kalifornien, und PUNE, Indien, 3. August 2026 /PRNewswire/ -- Nachrichtenüberblick Persistent Systems (BSE: 533179) (NSE: PERSISTENT) gab...",
+    "published": "2026-08-03T07:46:00+00:00",
+    "raw_text": "Enables airline market participants to compare SAF economics against voluntary and compliance carbon markets obligations LONDON, Aug. 3, 2026 /PRNewswire/ -- Global energy and commodity price reporting agency Argus has launched sustainable aviation fuel (SAF) emissions reduction indexes...",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Meldet ein EBIT-Wachstum von 32,7 % im Vergleich zum Vorjahr und den höchsten jemals erzielten Quartalsumsatz von 1,15 Milliarden US-Dollar SAN JOSE, Kalifornien, und PUNE, Indien, 3. August 2026 /PRNewswire/ -- Nachrichtenüberblick Persistent Systems (BSE: 533179) (NSE: PERSISTENT) gab..."
-  },
-  {
-    "title": "GRAIL, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - GRAL",
-    "url": "https://www.prnewswire.com/news-releases/grail-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--gral-302840747.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:44:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GRAIL, Inc. (\"Grail\" or \"the Company\") (NASDAQ: GRAL) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U.S....",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GRAIL, Inc. (\"Grail\" or \"the Company\") (NASDAQ: GRAL) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U.S...."
-  },
-  {
-    "title": "Badger Meter, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BMI",
-    "url": "https://www.prnewswire.com/news-releases/badger-meter-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--bmi-302840748.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:42:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Badger Meter, Inc. (\"Badger\" or \"the Company\") (NYSE: BMI) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by..."
-  },
-  {
-    "title": "DEADLINE TODAY: GeneDx Holdings Corp. Investor Alert: Contact SBS by August 3, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/deadline-today-genedx-holdings-corp-investor-alert-contact-sbs-by-august-3-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302840757.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:41:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against GeneDx Holdings Corp. (\"GeneDx\" or \"the Company\") (NASDAQ: WGS) for violations of §§10(b) and 20(a) of the Securities..."
-  },
-  {
-    "title": "HKEX Launches 5-Year China Government Bond Futures",
-    "url": "https://www.prnewswire.com/news-releases/hkex-launches-5-year-china-government-bond-futures-302840935.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:40:00+00:00",
-    "raw_text": "HONG KONG, Aug. 3, 2026 /PRNewswire/ -- Hong Kong Exchanges and Clearing Limited (HKEX) is pleased to announce today (Monday) the launch of its Five-Year China Government Bond (CGB) Futures contract, marking a significant step forward in the development of Hong Kong's fixed-income and...",
-    "categories": [
+      "GRC",
       "Industry & Market"
     ],
     "matched_keywords": {
+      "GRC": [
+        "compliance"
+      ],
       "Industry & Market": [
         "launches"
       ]
     },
-    "summary": "HONG KONG, Aug. 3, 2026 /PRNewswire/ -- Hong Kong Exchanges and Clearing Limited (HKEX) is pleased to announce today (Monday) the launch of its Five-Year China Government Bond (CGB) Futures contract, marking a significant step forward in the development of Hong Kong's fixed-income and..."
+    "summary": "Enables airline market participants to compare SAF economics against voluntary and compliance carbon markets obligations LONDON, Aug. 3, 2026 /PRNewswire/ -- Global energy and commodity price reporting agency Argus has launched sustainable aviation fuel (SAF) emissions reduction indexes..."
   },
   {
-    "title": "Guido Oelkers to step down as CEO of Sobi in the beginning of 2027",
-    "url": "https://www.prnewswire.com/news-releases/guido-oelkers-to-step-down-as-ceo-of-sobi-in-the-beginning-of-2027-302840918.html",
+    "title": "Primoris Services Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PRIM",
+    "url": "https://www.prnewswire.com/news-releases/primoris-services-corporation-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--prim-302840826.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:27:00+00:00",
-    "raw_text": "STOCKHOLM, Aug. 3, 2026 /PRNewswire/ -- Swedish Orphan Biovitrum AB (publ) (Sobi®) today announces that Guido Oelkers has informed the Board of Directors that he has decided to step down as Chief Executive Officer of Sobi to take up another position outside Sobi. Guido Oelkers will remain...",
+    "published": "2026-08-03T07:41:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Primoris Services Corporation (\"Primoris\" or \"the Company\") (NYSE: PRIM) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
     "categories": [
-      "Industry & Market"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "announces"
+      "Cloud Infrastructure": [
+        "aws"
       ]
     },
-    "summary": "STOCKHOLM, Aug. 3, 2026 /PRNewswire/ -- Swedish Orphan Biovitrum AB (publ) (Sobi®) today announces that Guido Oelkers has informed the Board of Directors that he has decided to step down as Chief Executive Officer of Sobi to take up another position outside Sobi. Guido Oelkers will remain..."
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Primoris Services Corporation (\"Primoris\" or \"the Company\") (NYSE: PRIM) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
   },
   {
-    "title": "Persistent enregistre un chiffre d'affaires de 452,4 millions de dollars au T1 2027, avec une croissance de 16,1% en glissement annuel",
-    "url": "https://www.prnewswire.com/news-releases/persistent-enregistre-un-chiffre-daffaires-de-452-4-millions-de-dollars-au-t1-2027--avec-une-croissance-de-16-1-en-glissement-annuel-302840910.html",
+    "title": "EquipmentShare.com Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - EQPT",
+    "url": "https://www.prnewswire.com/news-releases/equipmentsharecom-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--eqpt-302840830.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:23:00+00:00",
-    "raw_text": "Croissance du BAII de 32,7% en glissement annuel et une VTC trimestrielle record de 1,15 milliard de dollars SAN JOSÉ, Californie et PUNE, Inde, 3 août 2026 /PRNewswire/ -- Résumé Persistent Systems (BSE : 533179) (NSE : PERSISTENT) annonce aujourd'hui ses résultats financiers audités...",
+    "published": "2026-08-03T07:40:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against EquipmentShare.com Inc. (\"EquipmentShare\" or \"the Company\") (NASDAQ: EQPT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
     "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against EquipmentShare.com Inc. (\"EquipmentShare\" or \"the Company\") (NASDAQ: EQPT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "RXT Investors Have Opportunity to Lead Rackspace Technology, Inc. Securities Fraud Lawsuit with SBS Law",
+    "url": "https://www.prnewswire.com/news-releases/rxt-investors-have-opportunity-to-lead-rackspace-technology-inc-securities-fraud-lawsuit-with-sbs-law-302840850.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:35:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Rackspace Technology, Inc. (\"Rackspace\" or \"the Company\") (NASDAQ: RXT) for violations of §§10(b) and 20(a) of...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Rackspace Technology, Inc. (\"Rackspace\" or \"the Company\") (NASDAQ: RXT) for violations of §§10(b) and 20(a) of..."
+  },
+  {
+    "title": "PROCEPT BioRobotics Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PRCT",
+    "url": "https://www.prnewswire.com/news-releases/procept-biorobotics-corporation-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--prct-302840824.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:34:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against PROCEPT BioRobotics Corporation (\"Procept\" or \"the Company\") (NASDAQ: PRCT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against PROCEPT BioRobotics Corporation (\"Procept\" or \"the Company\") (NASDAQ: PRCT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "Beijing Review: From the Pacific to the World: A New Generation in Dialogue",
+    "url": "https://www.prnewswire.com/news-releases/beijing-review-from-the-pacific-to-the-world-a-new-generation-in-dialogue-302841010.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:33:00+00:00",
+    "raw_text": "BEIJING, Aug. 3, 2026 /PRNewswire/ -- On July 23, the 2026 Across the Pacific: China-U.S. Youth Dialogue for a Shared Future program came to a close in Beijing. At the closing ceremony, Chinese and U.S. university students were divided into three groups to share insights on three...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BEIJING, Aug. 3, 2026 /PRNewswire/ -- On July 23, the 2026 Across the Pacific: China-U.S. Youth Dialogue for a Shared Future program came to a close in Beijing. At the closing ceremony, Chinese and U.S."
+  },
+  {
+    "title": "Rackspace Technology, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - RXT",
+    "url": "https://www.prnewswire.com/news-releases/rackspace-technology-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--rxt-302840822.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:33:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Rackspace Technology, Inc. (\"Rackspace\" or \"the Company\") (NASDAQ: RXT) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Rackspace Technology, Inc. (\"Rackspace\" or \"the Company\") (NASDAQ: RXT) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "WIX Investors Have Opportunity to Lead Wix.com Ltd. Securities Fraud Lawsuit with SBS Law",
+    "url": "https://www.prnewswire.com/news-releases/wix-investors-have-opportunity-to-lead-wixcom-ltd-securities-fraud-lawsuit-with-sbs-law-302840823.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:32:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Wix.com Ltd. (\"Wix\" or \"the Company\") (NASDAQ: WIX) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Wix.com Ltd. (\"Wix\" or \"the Company\") (NASDAQ: WIX) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "Planet Fitness, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PLNT",
+    "url": "https://www.prnewswire.com/news-releases/planet-fitness-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--plnt-302840832.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:32:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Planet Fitness, Inc. (\"Planet Fitness\" or \"the Company\") (NYSE: PLNT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Planet Fitness, Inc. (\"Planet Fitness\" or \"the Company\") (NYSE: PLNT) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "Hub Group, Inc. Investor Alert: Contact SBS by August 28, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-investor-alert-contact-sbs-by-august-28-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302840805.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:31:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub\" or \"the Company\") (NASDAQ: HUBG) violations of §§10(b) and 20(a) of the Securities Exchange Act...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP,a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub\" or \"the Company\") (NASDAQ: HUBG) violations of §§10(b) and 20(a) of the Securities Exchange Act..."
+  },
+  {
+    "title": "Hub Group, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - HUBG",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--hubg-302840801.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:30:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub Group\" or \"the Company\") (NASDAQ: HUBG)for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub Group\" or \"the Company\") (NASDAQ: HUBG)for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by..."
+  },
+  {
+    "title": "Jungbunzlauer appoints Marcus von Twistern as EVP Operations",
+    "url": "https://www.prnewswire.com/news-releases/jungbunzlauer-appoints-marcus-von-twistern-as-evp-operations-302835334.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:30:00+00:00",
+    "raw_text": "BASEL, Switzerland, Aug. 3, 2026 /PRNewswire/ -- Jungbunzlauer, a global leader in high-quality, sustainable ingredients from natural sources, today announced the appointment of Marcus von Twistern as Executive Vice President (EVP) Operations and member of the Executive Committee,...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "BASEL, Switzerland, Aug. 3, 2026 /PRNewswire/ -- Jungbunzlauer, a global leader in high-quality, sustainable ingredients from natural sources, today announced the appointment of Marcus von Twistern as Executive Vice President (EVP) Operations and member of the Executive Committee,..."
+  },
+  {
+    "title": "Jungbunzlauer nombra a Marcus von Twistern como vicepresidente ejecutivo de operaciones",
+    "url": "https://www.prnewswire.com/news-releases/jungbunzlauer-nombra-a-marcus-von-twistern-como-vicepresidente-ejecutivo-de-operaciones-302836192.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:30:00+00:00",
+    "raw_text": "BASILEA, Suiza, 3 de agosto de 2026 /PRNewswire/ -- Jungbunzlauer, un líder mundial en ingredientes sostenibles de alta calidad procedentes de fuentes naturales, anunció hoy el nombramiento de Marcus von Twistern como vicepresidente ejecutivo (EVP) de operaciones y miembro del Comité...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BASILEA, Suiza, 3 de agosto de 2026 /PRNewswire/ -- Jungbunzlauer, un líder mundial en ingredientes sostenibles de alta calidad procedentes de fuentes naturales, anunció hoy el nombramiento de Marcus von Twistern como vicepresidente ejecutivo (EVP) de operaciones y miembro del Comité..."
+  },
+  {
+    "title": "Jungbunzlauer nomme Marcus von Twistern au poste de vice-président exécutif chargé des opérations",
+    "url": "https://www.prnewswire.com/news-releases/jungbunzlauer-nomme-marcus-von-twistern-au-poste-de-vice-president-executif-charge-des-operations-302836555.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:30:00+00:00",
+    "raw_text": "BÂLE, Suisse, 3 août 2026 /PRNewswire/ -- Jungbunzlauer, leader mondial dans le domaine des ingrédients durables et de haute qualité issus de sources naturelles, a annoncé aujourd'hui la nomination de Marcus von Twistern au poste de vice-président exécutif (EVP) chargé des opérations et...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BÂLE, Suisse, 3 août 2026 /PRNewswire/ -- Jungbunzlauer, leader mondial dans le domaine des ingrédients durables et de haute qualité issus de sources naturelles, a annoncé aujourd'hui la nomination de Marcus von Twistern au poste de vice-président exécutif (EVP) chargé des opérations et..."
+  },
+  {
+    "title": "Jungbunzlauer ernennt Marcus von Twistern zum EVP Operations",
+    "url": "https://www.prnewswire.com/news-releases/jungbunzlauer-ernennt-marcus-von-twistern-zum-evp-operations-302836234.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:30:00+00:00",
+    "raw_text": "BASEL, Schweiz, 3. August 2026 /PRNewswire/ -- Jungbunzlauer, ein weltweit führender Anbieter hochwertiger, nachhaltiger Inhaltsstoffe aus natürlichen Quellen, gab heute die Ernennung von Marcus von Twistern zum Executive Vice President (EVP) Operations und Mitglied der Geschäftsleitung...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BASEL, Schweiz, 3. August 2026 /PRNewswire/ -- Jungbunzlauer, ein weltweit führender Anbieter hochwertiger, nachhaltiger Inhaltsstoffe aus natürlichen Quellen, gab heute die Ernennung von Marcus von Twistern zum Executive Vice President (EVP) Operations und Mitglied der Geschäftsleitung..."
+  },
+  {
+    "title": "GPGI, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - GPGI",
+    "url": "https://www.prnewswire.com/news-releases/gpgi-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--gpgi-302840818.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:29:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GPGI, Inc. f/k/a CompoSecure, Inc. (\"GPGI\" or \"the Company\") (NYSE: GPGI) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against GPGI, Inc. f/k/a CompoSecure, Inc. (\"GPGI\" or \"the Company\") (NYSE: GPGI) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "Zillow Group, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - Z",
+    "url": "https://www.prnewswire.com/news-releases/zillow-group-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--z-302840815.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:28:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Zillow Group, Inc. (\"Zillow\" or \"the Company\") (NASDAQ: Z) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Zillow Group, Inc. (\"Zillow\" or \"the Company\") (NASDAQ: Z) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by..."
+  },
+  {
+    "title": "Peabody Energy Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BTU",
+    "url": "https://www.prnewswire.com/news-releases/peabody-energy-corporation-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--btu-302840799.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-03T07:23:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "IS32FL3761: Configurable 33×12 Matrix LED Driver for High Pixel Count Automotive Intelligent Signaling Displays",
+    "url": "https://www.globenewswire.com/news-release/2026/08/03/3337245/0/en/IS32FL3761-Configurable-33-12-Matrix-LED-Driver-for-High-Pixel-Count-Automotive-Intelligent-Signaling-Displays.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-03T07:27:00+00:00",
+    "raw_text": "Up to 16 devices on one I2C bus for over 6,300 individually addressable LEDs Up to 16 devices on one I2C bus for over 6,300 individually addressable LEDs",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Up to 16 devices on one I2C bus for over 6,300 individually addressable LEDs Up to 16 devices on one I2C bus for over 6,300 individually addressable LEDs"
+  },
+  {
+    "title": "WeRide ו-GreenMobility מכריזות על שותפות אסטרטגית לקידום ניידות אוטונומית ברמה 4 בדנמרק, צעד המציין את כניסתה של WeRide לאזור הנורדי.",
+    "url": "https://www.globenewswire.com/news-release/2026/08/03/3337237/0/he/WeRide-%D7%95-GreenMobility-%D7%9E%D7%9B%D7%A8%D7%99%D7%96%D7%95%D7%AA-%D7%A2%D7%9C-%D7%A9%D7%95%D7%AA%D7%A4%D7%95%D7%AA-%D7%90%D7%A1%D7%98%D7%A8%D7%98%D7%92%D7%99%D7%AA-%D7%9C%D7%A7%D7%99%D7%93%D7%95%D7%9D-%D7%A0%D7%99%D7%99%D7%93%D7%95%D7%AA-%D7%90%D7%95%D7%98%D7%95%D7%A0%D7%95%D7%9E%D7%99%D7%AA-%D7%91%D7%A8%D7%9E%D7%94-4-%D7%91%D7%93%D7%A0%D7%9E%D7%A8%D7%A7-%D7%A6%D7%A2%D7%93-%D7%94%D7%9E%D7%A6%D7%99%D7%99%D7%9F-%D7%90%D7%AA-%D7%9B%D7%A0%D7%99%D7%A1%D7%AA%D7%94-%D7%A9%D7%9C-WeRide-%D7%9C%D7%90%D7%96%D7%95%D7%A8-%D7%94%D7%A0%D7%95%D7%A8%D7%93%D7%99.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-03T06:42:00+00:00",
+    "raw_text": "קופנהגן, דנמרק, Aug. 03, 2026 (GLOBE NEWSWIRE) -- WeRide (נ א סד\"ק: WRD , HKEX : 0800 ), מובילה עולמית בתחום טכנולוגיית הנהיגה האוטונומית, וחברת GreenMobility (נ א סד\"ק קופנהגן: GREENM ), ספקית מובילה של שירותי ניידות חשמלית שיתופית בדנמרק, הודיעו היום על שותפות אסטרטגית להשקת שירותי ניידות שיתופית אוטונומית בדנמרק.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "קופנהגן, דנמרק, Aug. 03, 2026 (GLOBE NEWSWIRE) -- WeRide (נ א סד\"ק: WRD , HKEX : 0800 ), מובילה עולמית בתחום טכנולוגיית הנהיגה האוטונומית, וחברת GreenMobility (נ א סד\"ק קופנהגן: GREENM ), ספקית מובילה של שירותי ניידות חשמלית שיתופית בדנמרק, הודיעו היום על שותפות אסטרטגית להשקת שירותי ניידות שיתופית אוטונומית בדנמרק."
+  },
+  {
+    "title": "Pulsar Helium Provides Update on Timetable for Definitive Agreement for Helium Liquefaction Plant",
+    "url": "https://www.globenewswire.com/news-release/2026/08/03/3337231/0/en/Pulsar-Helium-Provides-Update-on-Timetable-for-Definitive-Agreement-for-Helium-Liquefaction-Plant.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-03T06:15:00+00:00",
+    "raw_text": "THIS ANNOUNCEMENT AND THE INFORMATION CONTAINED HEREIN IS RESTRICTED AND IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN, INTO OR FROM AUSTRALIA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA OR TO BE TRANSMITTED, DISTRIBUTED TO, OR SENT BY, ANY NATIONAL OR RESIDENT OR CITIZEN OF ANY SUCH COUNTRIES OR ANY OTHER JURISDICTION IN WHICH SUCH RELEASE, PUBLICATION OR DISTRIBUTION MAY CONTRAVENE LOCAL SECURITIES LAWS OR REGULATIONS.",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
       "GRC"
     ],
     "matched_keywords": {
-      "GRC": [
-        "audit"
-      ]
-    },
-    "summary": "Croissance du BAII de 32,7% en glissement annuel et une VTC trimestrielle record de 1,15 milliard de dollars SAN JOSÉ, Californie et PUNE, Inde, 3 août 2026 /PRNewswire/ -- Résumé Persistent Systems (BSE : 533179) (NSE : PERSISTENT) annonce aujourd'hui ses résultats financiers audités..."
-  },
-  {
-    "title": "HIZENERGY entra en el primer nivel mundial con su cotización en BloombergNEF Tier 1",
-    "url": "https://www.prnewswire.com/news-releases/hizenergy-entra-en-el-primer-nivel-mundial-con-su-cotizacion-en-bloombergnef-tier-1-302840901.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:10:00+00:00",
-    "raw_text": "HEFEI, China, 3 de agosto de 2026 /PRNewswire/ -- El 31 de julio de 2026, BloombergNEF (BNEF), el instituto líder mundial en investigación energética, publicó su lista de fabricantes de primer nivel de almacenamiento de energía del tercer trimestre de 2026. Fundada hace tan solo cuatro...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "HEFEI, China, 3 de agosto de 2026 /PRNewswire/ -- El 31 de julio de 2026, BloombergNEF (BNEF), el instituto líder mundial en investigación energética, publicó su lista de fabricantes de primer nivel de almacenamiento de energía del tercer trimestre de 2026. Fundada hace tan solo cuatro..."
-  },
-  {
-    "title": "CELC Investors Have Opportunity to Join Celcuity Inc. Fraud Investigation with SBS Law",
-    "url": "https://www.prnewswire.com/news-releases/celc-investors-have-opportunity-to-join-celcuity-inc-fraud-investigation-with-sbs-law-302840751.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:08:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, announces that it is investigating claims on behalf of investors of Celcuity Inc. (\"Celcuity\" or \"the Company\") (NASDAQ: CELC) for violations of the securities...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, announces that it is investigating claims on behalf of investors of Celcuity Inc. (\"Celcuity\" or \"the Company\") (NASDAQ: CELC) for violations of the securities..."
-  },
-  {
-    "title": "Wise Group plc Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - WSE",
-    "url": "https://www.prnewswire.com/news-releases/wise-group-plc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--wse-302840742.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:03:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Wise Group plc (\"Wise\" or \"the Company\") (NASDAQ: WSE) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
       "Cloud Infrastructure": [
         "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Wise Group plc (\"Wise\" or \"the Company\") (NASDAQ: WSE) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the..."
-  },
-  {
-    "title": "CAPR Investors Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit with SBS Law",
-    "url": "https://www.prnewswire.com/news-releases/capr-investors-have-opportunity-to-lead-capricor-therapeutics-inc-securities-fraud-lawsuit-with-sbs-law-302840741.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:00:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or \"the Company\") (NASDAQ: CAPR) for violations of §§10(b) and 20(a)...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or \"the Company\") (NASDAQ: CAPR) for violations of §§10(b) and 20(a)..."
-  },
-  {
-    "title": "Capricor Therapeutics, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - CAPR",
-    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--capr-302840735.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T05:00:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or \"the Company\") (NASDAQ: CAPR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or \"the Company\") (NASDAQ: CAPR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
-  },
-  {
-    "title": "BE Investors Have Opportunity to Lead Bloom Energy Corporation Securities Fraud Lawsuit with SBS Law",
-    "url": "https://www.prnewswire.com/news-releases/be-investors-have-opportunity-to-lead-bloom-energy-corporation-securities-fraud-lawsuit-with-sbs-law-302840736.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T04:54:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Bloom Energy Corporation (\"Bloom\" or \"the Company\") (NYSE: BE) for violations of §§10(b) and 20(a) of the...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Bloom Energy Corporation (\"Bloom\" or \"the Company\") (NYSE: BE) for violations of §§10(b) and 20(a) of the..."
-  },
-  {
-    "title": "Bloom Energy Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BE",
-    "url": "https://www.prnewswire.com/news-releases/bloom-energy-corporation-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--be-302840733.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T04:54:00+00:00",
-    "raw_text": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Bloom Energy Corporation (\"Bloom\" or \"the Company\") (NYSE: BE) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "LOS ANGELES, Aug. 3, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Bloom Energy Corporation (\"Bloom\" or \"the Company\") (NYSE: BE) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder..."
-  },
-  {
-    "title": "TCL CSOT and MSI Join Forces to Launch World's First 27\" 4K 120Hz IJP OLED High-End Professional Monitor at ChinaJoy 2026",
-    "url": "https://www.prnewswire.com/news-releases/tcl-csot-and-msi-join-forces-to-launch-worlds-first-27-4k-120hz-ijp-oled-high-end-professional-monitor-at-chinajoy-2026-302840876.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T04:41:00+00:00",
-    "raw_text": "SHANGHAI, Aug. 3, 2026 /PRNewswire/ -- TCL CSOT and MSI today unveiled the world's first 27‑inch 4K 120Hz Inkjet-printed (IJP) OLED high‑end professional desktop monitor at ChinaJoy 2026. Delivering clearer and more detailed visuals across a range of use cases, the new display leverages...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHANGHAI, Aug. 3, 2026 /PRNewswire/ -- TCL CSOT and MSI today unveiled the world's first 27‑inch 4K 120Hz Inkjet-printed (IJP) OLED high‑end professional desktop monitor at ChinaJoy 2026. Delivering clearer and more detailed visuals across a range of use cases, the new display leverages..."
-  },
-  {
-    "title": "Envision Energy Secures Its Largest 200 MW Nearshore Wind Project in Vietnam with REE Energy, Strengthening Future Energy System Across Southeast Asia",
-    "url": "https://www.prnewswire.com/news-releases/envision-energy-secures-its-largest-200-mw-nearshore-wind-project-in-vietnam-with-ree-energy-strengthening-future-energy-system-across-southeast-asia-302840875.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T04:40:00+00:00",
-    "raw_text": "HO CHI MINH CITY, Vietnam, Aug. 3, 2026 /PRNewswire/ -- Envision Energy, a global leader in green technology, has secured its largest wind project in Vietnam with REE Energy, Vietnam's leading Renewable Energy Investment business. With a total capacity of 200 MW, the project is also...",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "capacity"
       ],
-      "Industry & Market": [
-        "investment"
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "regulation"
       ]
     },
-    "summary": "HO CHI MINH CITY, Vietnam, Aug. 3, 2026 /PRNewswire/ -- Envision Energy, a global leader in green technology, has secured its largest wind project in Vietnam with REE Energy, Vietnam's leading Renewable Energy Investment business. With a total capacity of 200 MW, the project is also..."
-  },
-  {
-    "title": "Rockwell Automation Announces Arriyadh Roaster Selects Plex Smart Manufacturing Platform to Strengthen Visibility, Flexibility and Growth Across Its Growing Coffee Operations",
-    "url": "https://www.prnewswire.com/news-releases/rockwell-automation-announces-arriyadh-roaster-selects-plex-smart-manufacturing-platform-to-strengthen-visibility-flexibility-and-growth-across-its-growing-coffee-operations-302836538.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-03T04:00:00+00:00",
-    "raw_text": "Saudi Arabia's leading coffee producer adopts Plex to gain real‑time insight, streamline shop‑floor processes, and support scalable production for new product lines. DAMMAM, Saudi Arabia, Aug. 3, 2026 /PRNewswire/ -- Rockwell Automation, the world's largest company dedicated to industrial...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Saudi Arabia's leading coffee producer adopts Plex to gain real‑time insight, streamline shop‑floor processes, and support scalable production for new product lines. DAMMAM, Saudi Arabia, Aug. 3, 2026 /PRNewswire/ -- Rockwell Automation, the world's largest company dedicated to industrial..."
+    "summary": "THIS ANNOUNCEMENT AND THE INFORMATION CONTAINED HEREIN IS RESTRICTED AND IS NOT FOR RELEASE, PUBLICATION OR DISTRIBUTION, IN WHOLE OR IN PART, DIRECTLY OR INDIRECTLY, IN, INTO OR FROM AUSTRALIA, JAPAN OR THE REPUBLIC OF SOUTH AFRICA OR TO BE TRANSMITTED, DISTRIBUTED TO, OR SENT BY, ANY NATIONAL OR RESIDENT OR CITIZEN OF ANY SUCH COUNTRIES OR ANY OTHER JURISDICTION IN WHICH SUCH RELEASE, PUBLICATION OR DISTRIBUTION MAY CONTRAVENE LOCAL SECURITIES LAWS OR REGULATIONS."
   },
   {
     "title": "WeRide and GreenMobility Announce Strategic Partnership to Advance Level 4 Autonomous Mobility in Denmark, Marking WeRide’s Entry into the Nordic Region",
@@ -959,5 +997,25 @@
       ]
     },
     "summary": "Premium safety cover systems enhance Fox Pools' professional winterization process, providing homeowners with cleaner spring openings, enhanced safety, and superior long-term protection. Premium safety cover systems enhance Fox Pools' professional winterization process, providing homeowners with cleaner spring openings, enhanced safety, and superior long-term protection."
+  },
+  {
+    "title": "IoT Security Market Expected to Grow to USD 126.03 Billion, with a 29.5% CAGR by 2035 - EIN News",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb21XWFB6TnZ6S1kybmIyZ0g5UXdMaldkMjVYaGFRM3djQ2tPaUU2cl9maTNSUVp0U1NJeFYxTWlzd0x1aTBjTVVRb0NSWmFiNkVGcGhBYmx6UTlYLVpSWk1FMXMtVHZHdjR2YjlsMTByT0NrR3ktTHhIOUpRTWwxemkycXRtTk4zejhCWHA1bzYtVmliV1pTOG9WNmpUdEdxZ214TWpNS2E3eDRCMHVRUmctTERhM0VIZkRyZWk5UVFmQlE?oc=5",
+    "source": "Google News: Market & Industry News",
+    "published": "2026-08-03T06:30:00+00:00",
+    "raw_text": "IoT Security Market Expected to Grow to USD 126.03 Billion, with a 29.5% CAGR by 2035 EIN News",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "IoT Security Market Expected to Grow to USD 126.03 Billion, with a 29.5% CAGR by 2035 EIN News"
   }
 ]
