@@ -1,5 +1,67 @@
 [
   {
+    "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+    "url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+    "source": "The Hacker News",
+    "published": "2026-08-06T08:05:22+00:00",
+    "raw_text": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are designed such that they start automatically and attempt to beacon to Chinese",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "router",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are designed such that they start automatically and attempt to beacon to Chinese"
+  },
+  {
+    "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+    "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+    "source": "The Hacker News",
+    "published": "2026-08-06T07:19:54+00:00",
+    "raw_text": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New York and Nebraska, and others abroad, according to the Justice Department.",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware"
+      ]
+    },
+    "summary": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New York and Nebraska, and others abroad, according to the Justice Department."
+  },
+  {
+    "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+    "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+    "source": "The Hacker News",
+    "published": "2026-08-06T06:51:43+00:00",
+    "raw_text": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted data that could allow an unauthenticated attacker with access to a TeamCity server",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted data that could allow an unauthenticated attacker with access to a TeamCity server"
+  },
+  {
     "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
     "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
     "source": "The Hacker News",
@@ -448,22 +510,6 @@
     "summary": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects"
   },
   {
-    "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
-    "url": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
-    "source": "The Hacker News",
-    "published": "2026-08-04T09:03:23+00:00",
-    "raw_text": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager. \"The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware"
-      ]
-    },
-    "summary": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager. \"The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second"
-  },
-  {
     "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
     "url": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
     "source": "BleepingComputer",
@@ -742,6 +788,47 @@
     "summary": "AI agents need broad access to be useful, but traditional access controls cannot determine whether an action aligns with a user's intent. Varonis explains how Agent IBAC detects intent drift and enforces real-time guardrails to keep agents within their intended boundaries. [...]"
   },
   {
+    "title": "Microsoft extends zero trust deeper into enterprise AI",
+    "url": "https://www.helpnetsecurity.com/2026/08/06/microsoft-zero-trust-for-ai-strategy-updates/",
+    "source": "Help Net Security",
+    "published": "2026-08-06T09:04:51+00:00",
+    "raw_text": "Microsoft expanded its Zero Trust for AI strategy with updates to the Zero Trust Assessment tool and the Zero Trust Workshop. The additions help organizations assess security posture, prioritize remediation, and apply zero trust principles to AI agents and AI-assisted software development. Zero Trust Assessment adds AI pillar Zero Trust Assessment is a free tool that automatically evaluates an organization’s Microsoft security configuration against zero trust best practices, identifies weaknesses, and recommends improvements before they … More → The post Microsoft extends zero trust deeper into enterprise AI appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "zero trust"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Microsoft expanded its Zero Trust for AI strategy with updates to the Zero Trust Assessment tool and the Zero Trust Workshop. The additions help organizations assess security posture, prioritize remediation, and apply zero trust principles to AI agents and AI-assisted software development. Zero Trust Assessment adds AI pillar Zero Trust Assessment is a free tool that automatically evaluates an organization’s Microsoft security configuration against zero trust best practices, identifies weaknesses, and recommends improvements before they … More → The post Microsoft extends zero trust deeper into enterprise AI appeared first on Help Net Security ."
+  },
+  {
+    "title": "Photos: Black Hat USA 2026 Arsenal",
+    "url": "https://www.helpnetsecurity.com/2026/08/06/black-hat-usa-2026-arsenal-photos/",
+    "source": "Help Net Security",
+    "published": "2026-08-06T08:05:56+00:00",
+    "raw_text": "This week Help Net Security is at the Mandalay Bay, where Arsenal is running alongside the Briefings. If you’ve never been, it’s the corner of Black Hat that feels least like a conference and most like a workshop: a room full of stations where the people who wrote the tools stand behind laptops and show you what they do. Everything on display is open source, and nearly all of it is available to download the … More → The post Photos: Black Hat USA 2026 Arsenal appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "This week Help Net Security is at the Mandalay Bay, where Arsenal is running alongside the Briefings. If you’ve never been, it’s the corner of Black Hat that feels least like a conference and most like a workshop: a room full of stations where the people who wrote the tools stand behind laptops and show you what they do. Everything on display is open source, and nearly all of it is available to download the … More → The post Photos: Black Hat USA 2026 Arsenal appeared first on Help Net Security ."
+  },
+  {
     "title": "OWASP 2026 LLM Top 10: “The model will be fooled”",
     "url": "https://www.helpnetsecurity.com/2026/08/06/owasp-2026-llm-top-10-released/",
     "source": "Help Net Security",
@@ -915,53 +1002,6 @@
     "summary": "Stellar Cyber, the full-cycle AI-native security operations platform company, today released results from an independent study of 124 days of customer trials of its Agentic Auto Triage capability. The independent study based on customer trials evaluated 138,475 real security alerts and reached the same verdict as human analysts 99.7% of the time. The findings, drawn from customer-submitted end-of-trial reports, addressed the central question facing every security team weighing autonomous SOC technology: Can AI actually be … More → The post Stellar Cyber’s Auto-Triage AI matches human analysts 99.7% of the time appeared first on Help Net Security ."
   },
   {
-    "title": "Tenable broadens AI visibility across major LLMs and AI tools",
-    "url": "https://www.helpnetsecurity.com/2026/08/05/tenable-broadens-ai-visibility-across-major-llms-and-ai-tools/",
-    "source": "Help Net Security",
-    "published": "2026-08-05T13:16:39+00:00",
-    "raw_text": "Tenable has announced enhanced AI security capabilities within the Tenable One Exposure Management Platform. Tenable One AI Exposure now delivers expanded platform coverage with support for Google Gemini, extending its coverage across major LLMs: Google Gemini, Anthropic Claude, OpenAI ChatGPT Enterprise and Microsoft Copilot. The release also extends discovery to all major Model Context Protocol (MCP) deployments and AI-native Integrated Development Environment (IDE) tools. Together, these capabilities give security teams a more complete view of … More → The post Tenable broadens AI visibility across major LLMs and AI tools appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Tenable has announced enhanced AI security capabilities within the Tenable One Exposure Management Platform. Tenable One AI Exposure now delivers expanded platform coverage with support for Google Gemini, extending its coverage across major LLMs: Google Gemini, Anthropic Claude, OpenAI ChatGPT Enterprise and Microsoft Copilot. The release also extends discovery to all major Model Context Protocol (MCP) deployments and AI-native Integrated Development Environment (IDE) tools. Together, these capabilities give security teams a more complete view of … More → The post Tenable broadens AI visibility across major LLMs and AI tools appeared first on Help Net Security ."
-  },
-  {
-    "title": "ArmorCode enhances attack path analysis with new AI agents and Context Risk Graph",
-    "url": "https://www.helpnetsecurity.com/2026/08/05/armorcode-anya-ai-agents/",
-    "source": "Help Net Security",
-    "published": "2026-08-05T13:07:04+00:00",
-    "raw_text": "ArmorCode has announced a major expansion of its Agentic Control Plane. Four new Anya AI agents help security teams analyze cloud risks, assess vulnerability exploitability, identify mitigation strategies, and coordinate patch orchestration. It also unveiled new Context Risk Graph capabilities for expanded attack path analysis, network reachability and patch management. These enhancements help security teams move beyond vulnerability discovery to accurately and quickly prioritize and remediate the risks that matter most, while reducing duplicate AI … More → The post ArmorCode enhances attack path analysis with new AI agents and Context Risk Graph appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "ArmorCode has announced a major expansion of its Agentic Control Plane. Four new Anya AI agents help security teams analyze cloud risks, assess vulnerability exploitability, identify mitigation strategies, and coordinate patch orchestration. It also unveiled new Context Risk Graph capabilities for expanded attack path analysis, network reachability and patch management. These enhancements help security teams move beyond vulnerability discovery to accurately and quickly prioritize and remediate the risks that matter most, while reducing duplicate AI … More → The post ArmorCode enhances attack path analysis with new AI agents and Context Risk Graph appeared first on Help Net Security ."
-  },
-  {
     "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
     "url": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
     "source": "Dark Reading",
@@ -1131,6 +1171,27 @@
       ]
     },
     "summary": "A Google Firebase misconfiguration lets users of tl;dv, an AI meeting tool, query any other users' meeting information and potentially join calls."
+  },
+  {
+    "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
+    "url": "https://www.securityweek.com/cisco-patches-critical-sd-wan-ios-xe-fmc-vulnerabilities/",
+    "source": "SecurityWeek",
+    "published": "2026-08-06T07:20:20+00:00",
+    "raw_text": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek .",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "sd-wan",
+        "wan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek ."
   },
   {
     "title": "Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability",
@@ -1313,21 +1374,24 @@
     "summary": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek ."
   },
   {
-    "title": "Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack",
-    "url": "https://www.securityweek.com/over-400-npm-packages-infected-in-chaindrop-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "published": "2026-08-05T08:56:58+00:00",
-    "raw_text": "The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek .",
+    "title": "NVIDIA Group Proposes SAFE Initiative for Agentic Threat Intel Sharing",
+    "url": "https://www.infosecurity-magazine.com/news/safe-initiative-agentic-threat/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-08-06T08:30:00+00:00",
+    "raw_text": "The Open Secure AI Alliance has announced plans for the Shared AI Findings Exchange (SAFE)",
     "categories": [
+      "Networks",
       "Cybersecurity"
     ],
     "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
       "Cybersecurity": [
-        "malware",
-        "security"
+        "threat"
       ]
     },
-    "summary": "The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek ."
+    "summary": "The Open Secure AI Alliance has announced plans for the Shared AI Findings Exchange (SAFE)"
   },
   {
     "title": "Fake Open VSX Extensions Harvest Private Repo and CI Data",
@@ -1486,22 +1550,6 @@
     "summary": "Interpol claims AI is driving a surge in cybercrime in Africa, with related losses doubling"
   },
   {
-    "title": "UK’s Police National Legal Database Reveals Data Breach",
-    "url": "https://www.infosecurity-magazine.com/news/uks-police-national-legal-database/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-08-04T08:40:00+00:00",
-    "raw_text": "The UK’s Police National Legal Database and Ask the Police service have been breached",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach"
-      ]
-    },
-    "summary": "The UK’s Police National Legal Database and Ask the Police service have been breached"
-  },
-  {
     "title": "Amazon DynamoDB now supports real-time vector search at any scale",
     "url": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
     "source": "AWS News Blog",
@@ -1616,7 +1664,7 @@
     "url": "https://cloud.google.com/blog/products/databases/automating-postgres-translations-with-database-migration-service/",
     "source": "Google Cloud Blog",
     "published": "2026-08-04T16:00:00+00:00",
-    "raw_text": "In the Medium blog post, \" From MARS to SETOF REFCURSOR: Migrating Multi-Result Stored Procedures to PostgreSQL ,\" we explored the fundamental architectural differences between SQL Server and PostgreSQL regarding multiple result sets. We looked at how SQL Server natively streams multiple tabular streams from a single execution, whereas PostgreSQL requires a more deliberate strategy using explicit cursor manipulation. If you’re facing a massive database migration with hundreds of these procedures, manually rewriting them is a non-starter. This is where automated tools come in. In this post, we’ll explore in detail how Google Cloud’s Database Migration Service (DMS) approaches this exact challenge, the conversion logic it applies under the hood, and how to actually run and test the generated code. The Core Conversion Strategy of DMS There are many reasons to migrate your databases to PostgreSQL, including enterprise performance and availability, a thriving developer and user community, and strong AI capabilities. But tricky queries, like those with multiple result sets, can slow down your migration project. DMS looks at two specific things: How many result sets does the procedure return? and Does it use a scalar RETURN value? The decision matrix for the translation looks like this: Scenario SQL Server Characteristic PostgreSQL Target Object Mechanism Scenario A 1 Result Set OR a Scalar Return Value only STORED PROCEDURE Handled natively via an INOUT refcursor parameter or standard variable tracking. Scenario B Multiple Result Sets OR a combination of Result Sets + Scalar Return FUNCTION Converted to a RETURNS SETOF refcursor block. The scalar return value is appended as its own separate cursor dataset. Automating Multi-Result Set Conversions: Inside DMS SQL Server utilizes a tabular data stream protocol that allows multiple results to be transmitted over a single connection execution path without explicit declarations. PostgreSQL, by contrast, relies on a distinct execution protocol where multiple datasets are managed deterministically via cursors. To bridge this structural difference, DMS automates the translation logic. Consider a baseline healthcare reporting scenario. We have a master procedure ( sp_GetPatientSummary ) that orchestrates data retrieval for a patient by conditionally calling two child procedures: one for lab results ( sp_GetPatientLabResults ) and one for clinical visits ( sp_GetPatientDoctorVisits ). Depending on conditional logic and procedural execution paths, a single execution can return up to four distinct result sets plus a status integer indicating whether the patient was found. SQL code_block <ListValue: [StructValue([('code', 'CREATE OR ALTER PROCEDURE sp_GetPatientSummary\\r\\n @PatientID INT\\r\\nAS\\r\\nBEGIN\\r\\n SET NOCOUNT ON;\\r\\n DECLARE @LabReturnValue INT;\\r\\n\\r\\n IF NOT EXISTS (SELECT 1 FROM Patient WHERE PatientID = @PatientID) \\r\\n RETURN 0; \\r\\n\\r\\n SELECT PatientID, FirstName, LastName, DateOfBirth FROM Patient WHERE PatientID = @PatientID;\\r\\n\\r\\n EXEC @LabReturnValue = sp_GetPatientLabResults @PatientID = @PatientID, @QueryType = 1;\\r\\n\\r\\n-- Conditional: If child returned 1, call it again for Result Set #3\\r\\n IF @LabReturnValue = 1\\r\\n EXEC sp_GetPatientLabResults @PatientID = @PatientID, @QueryType = 2;\\r\\n\\r\\n EXEC sp_GetPatientDoctorVisits @PatientID = @PatientID;\\r\\n \\r\\n RETURN 1; -- Success scalar status\\r\\nEND;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fac93e0ca30>)])]> The Target: PostgreSQL’s Deterministic Cursors To align with PostgreSQL's execution model, DMS maps the original T-SQL behavior into a structural PL/pgSQL architecture using SETOF refcursor and explicit cursor management. 1. Simple Tracking: Stored Procedure Translation For the child procedure sp_getpatientdoctorvisits , which yields exactly one result set, DMS creates a standard PostgreSQL PROCEDURE utilizing an explicit INOUT refcursor parameter to safely pass the pointer back to the caller. SQL code_block <ListValue: [StructValue([('code', \"CREATE PROCEDURE dbo.sp_getpatientdoctorvisits(\\r\\n _patientid INTEGER, \\r\\n INOUT result_set_refcursor refcursor\\r\\n)\\r\\nLANGUAGE plpgsql\\r\\nAS $$\\r\\nBEGIN\\r\\n sp_getpatientdoctorvisits.result_set_refcursor := NULL;\\r\\n OPEN result_set_refcursor FOR \\r\\n SELECT visitid, patientid, doctorname, visitdate, visitnotes\\r\\n FROM dbo.doctorvisits\\r\\n WHERE doctorvisits.patientid = sp_getpatientdoctorvisits._patientid\\r\\n AND doctorvisits.visitdate >= localtimestamp + interval '-6 MON';\\r\\nEND;\\r\\n$$;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fac93e0ccd0>)])]> 2. Multi-Set Tracking: Function Translation For the master routine and the complex lab child routine, an INOUT parameter isn't enough to capture the varying arrays of output. DMS transforms these into PL/pgSQL Functions returning a SETOF refcursor . Take note of how the translated sp_getpatientlabresults builds its cursors sequentially and, at the very end, dynamically opens a distinct cursor explicitly named \"return_value\" to pass the scalar integer back to the execution stack: SQL code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE FUNCTION dbo.sp_getpatientlabresults(_patientid INTEGER, _querytype INTEGER)\\r\\nRETURNS SETOF refcursor\\r\\nLANGUAGE plpgsql\\r\\nAS $$\\r\\nDECLARE rc refcursor; _recordsfound INTEGER := 0;\\r\\nBEGIN\\r\\n IF _querytype IN (1, 3) THEN\\r\\n OPEN rc FOR \\r\\n SELECT resultid, patientid, testname, testdate, isexception\\r\\n FROM dbo.labresults\\r\\n WHERE patientid = _patientid \\r\\n AND testdate >= localtimestamp - interval '6 months';\\r\\n RETURN NEXT rc;\\r\\n\\r\\n IF EXISTS (\\r\\n SELECT 1 FROM dbo.labresults \\r\\n WHERE patientid = _patientid \\r\\n AND testdate >= localtimestamp - interval '6 months'\\r\\n ) THEN recordsfound := 1; \\r\\n END IF;\\r\\n END IF;\\r\\n\\r\\n IF _querytype IN (2, 3) THEN \\r\\n rc := NULL; -- Reset to generate a new unique cursor name\\r\\n OPEN rc FOR \\r\\n SELECT resultid, patientid, testname, testdate, isexception\\r\\n FROM dbo.labresults\\r\\n WHERE patientid = _patientid \\r\\n AND isexception = TRUE \\r\\n AND testdate >= localtimestamp - interval '2 years';\\r\\n RETURN NEXT rc;\\r\\n\\r\\n IF EXISTS (\\r\\n SELECT 1 FROM dbo.labresults \\r\\n WHERE patientid = _patientid \\r\\n AND isexception = TRUE \\r\\n AND testdate >= localtimestamp - interval '2 years'\\r\\n ) THEN \\r\\n _recordsfound := 1; \\r\\n END IF;\\r\\n END IF;\\r\\n\\r\\n rc := 'return_value';\\r\\n OPEN rc FOR SELECT _recordsfound AS return_value;\\r\\n RETURN NEXT rc;\\r\\nEND;\\r\\n$$;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fac93e0cdc0>)])]> Parsing the Output Programmatically When integrating these migrated routines back into your application data access layer, QA and application engineers need to adapt how they process execution results. Instead of reading standard tabular rows sequentially, the calling application or test harness receives an array of cursor references. To handle this programmatically, your application must fetch the data from each returned portal sequentially. DMS isolates the scalar return value by placing it inside its own dedicated, explicitly named \"return_value\" cursor dataset at the very end of the execution stack. Preparing your development teams for this structural mapping ensures that your application logic and validation scripts can accurately parse the multi-layered response arrays without disruption. Executing and Testing the Migrated Code Testing these migrated objects in PostgreSQL requires working within explicit transaction blocks. Because PostgreSQL cursors are bound to the transaction lifecycle, accessing the data from the memory portals requires encapsulating the execution and the data retrieval commands within a single BEGIN ... COMMIT block. Here is how you execute and fetch the entire complex dataset for Patient 3 inside PostgreSQL: SQL code_block <ListValue: [StructValue([('code', 'BEGIN;\\r\\n\\r\\n-- 1. Exec the function to initialize and stream back the cursors\\r\\nSELECT * FROM dbo.sp_getpatientsummary(3) AS summary_cursors; \\r\\n\\r\\n-- 2. Fetch data from the sequentially generated anonymous portals\\r\\nFETCH ALL FROM \"<unnamed portal 1>\"; -- Patient Demographics\\r\\nFETCH ALL FROM \"<unnamed portal 2>\"; -- Lab Results (Query Type 1)\\r\\nFETCH ALL FROM \"<unnamed portal 3>\"; -- Lab Results (Query Type 2)\\r\\nFETCH ALL FROM \"<unnamed portal 4>\"; -- Doctor Visits\\r\\n\\r\\n-- 3. Fetch the named scalar return value tracking cursor\\r\\nFETCH ALL FROM \"return_value\";\\r\\n\\r\\nCOMMIT;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fac93e0cb50>)])]> DMS Insight: The Mechanics of Result Set Counting The DMS product employs a sophisticated pre-processing mechanism to understand the expected result set count and the possible existence of a return value. The ultimate goal is to map every SQL Server procedure into one of three distinct categories: no result sets, a single result set, or multiple/dynamic result set counts. To achieve this accurately, DMS performs a deep structural analysis: Direct Result Sets: First, the engine scans the procedure's body to count the direct result sets, which are the explicit SELECT statements executed directly within it. Dynamic Considerations: Special consideration must be given when dealing with looped or conditional SELECT / EXEC statements. Because these constructs inherently mean the number of returned result sets can differ between executions, the count for that procedure is immediately marked as \"dynamic\". Building the Call Network: When the engine encounters references to other stored procedures, it does not yet know how many result sets those child procedures expose. To solve this, DMS builds a comprehensive directed graph to model the entire call hierarchy between procedures. DFS Propagation: Only once this directed network is fully built can the engine run a Depth First Search (DFS) algorithm. This DFS traversal systematically propagates the result set counts—whether fixed integers or dynamic flags—back up the call chain to the top-level procedures. Consequently, the generated code is accurately modified to support both returning the outer datasets and allowing child routines to be invoked correctly within nested execution stacks. This graph-based approach guarantees accuracy and seamlessly supports highly complex inter-procedural interactions, including both direct and indirect recursions. Summary Google Cloud’s Database Migration Service takes the guesswork out of structural transformations by programmatically applying the FUNCTION vs. PROCEDURE decision tree based on result set counts. While it completely preserves your core business and conditional execution logic, it does change how application connection pools and QA engineers interact with execution results. Understanding this automated architecture ensures you can effectively map out your validation scripts and configure your data access layers for seamless day-two operations in PostgreSQL. Now that you learned how to convert multiple result sets, it's time to start a PostgreSQL database on Google Cloud. Please let us know how your journey was. Get started with a Database Migration Service with the Google Cloud $300 free credits. Start building for free .",
+    "raw_text": "In the Medium blog post, \" From MARS to SETOF REFCURSOR: Migrating Multi-Result Stored Procedures to PostgreSQL ,\" we explored the fundamental architectural differences between SQL Server and PostgreSQL regarding multiple result sets. We looked at how SQL Server natively streams multiple tabular streams from a single execution, whereas PostgreSQL requires a more deliberate strategy using explicit cursor manipulation. If you’re facing a massive database migration with hundreds of these procedures, manually rewriting them is a non-starter. This is where automated tools come in. In this post, we’ll explore in detail how Google Cloud’s Database Migration Service (DMS) approaches this exact challenge, the conversion logic it applies under the hood, and how to actually run and test the generated code. The Core Conversion Strategy of DMS There are many reasons to migrate your databases to PostgreSQL, including enterprise performance and availability, a thriving developer and user community, and strong AI capabilities. But tricky queries, like those with multiple result sets, can slow down your migration project. DMS looks at two specific things: How many result sets does the procedure return? and Does it use a scalar RETURN value? The decision matrix for the translation looks like this: Scenario SQL Server Characteristic PostgreSQL Target Object Mechanism Scenario A 1 Result Set OR a Scalar Return Value only STORED PROCEDURE Handled natively via an INOUT refcursor parameter or standard variable tracking. Scenario B Multiple Result Sets OR a combination of Result Sets + Scalar Return FUNCTION Converted to a RETURNS SETOF refcursor block. The scalar return value is appended as its own separate cursor dataset. Automating Multi-Result Set Conversions: Inside DMS SQL Server utilizes a tabular data stream protocol that allows multiple results to be transmitted over a single connection execution path without explicit declarations. PostgreSQL, by contrast, relies on a distinct execution protocol where multiple datasets are managed deterministically via cursors. To bridge this structural difference, DMS automates the translation logic. Consider a baseline healthcare reporting scenario. We have a master procedure ( sp_GetPatientSummary ) that orchestrates data retrieval for a patient by conditionally calling two child procedures: one for lab results ( sp_GetPatientLabResults ) and one for clinical visits ( sp_GetPatientDoctorVisits ). Depending on conditional logic and procedural execution paths, a single execution can return up to four distinct result sets plus a status integer indicating whether the patient was found. SQL code_block <ListValue: [StructValue([('code', 'CREATE OR ALTER PROCEDURE sp_GetPatientSummary\\r\\n @PatientID INT\\r\\nAS\\r\\nBEGIN\\r\\n SET NOCOUNT ON;\\r\\n DECLARE @LabReturnValue INT;\\r\\n\\r\\n IF NOT EXISTS (SELECT 1 FROM Patient WHERE PatientID = @PatientID) \\r\\n RETURN 0; \\r\\n\\r\\n SELECT PatientID, FirstName, LastName, DateOfBirth FROM Patient WHERE PatientID = @PatientID;\\r\\n\\r\\n EXEC @LabReturnValue = sp_GetPatientLabResults @PatientID = @PatientID, @QueryType = 1;\\r\\n\\r\\n-- Conditional: If child returned 1, call it again for Result Set #3\\r\\n IF @LabReturnValue = 1\\r\\n EXEC sp_GetPatientLabResults @PatientID = @PatientID, @QueryType = 2;\\r\\n\\r\\n EXEC sp_GetPatientDoctorVisits @PatientID = @PatientID;\\r\\n \\r\\n RETURN 1; -- Success scalar status\\r\\nEND;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f7b890cc340>)])]> The Target: PostgreSQL’s Deterministic Cursors To align with PostgreSQL's execution model, DMS maps the original T-SQL behavior into a structural PL/pgSQL architecture using SETOF refcursor and explicit cursor management. 1. Simple Tracking: Stored Procedure Translation For the child procedure sp_getpatientdoctorvisits , which yields exactly one result set, DMS creates a standard PostgreSQL PROCEDURE utilizing an explicit INOUT refcursor parameter to safely pass the pointer back to the caller. SQL code_block <ListValue: [StructValue([('code', \"CREATE PROCEDURE dbo.sp_getpatientdoctorvisits(\\r\\n _patientid INTEGER, \\r\\n INOUT result_set_refcursor refcursor\\r\\n)\\r\\nLANGUAGE plpgsql\\r\\nAS $$\\r\\nBEGIN\\r\\n sp_getpatientdoctorvisits.result_set_refcursor := NULL;\\r\\n OPEN result_set_refcursor FOR \\r\\n SELECT visitid, patientid, doctorname, visitdate, visitnotes\\r\\n FROM dbo.doctorvisits\\r\\n WHERE doctorvisits.patientid = sp_getpatientdoctorvisits._patientid\\r\\n AND doctorvisits.visitdate >= localtimestamp + interval '-6 MON';\\r\\nEND;\\r\\n$$;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f7b890cc4c0>)])]> 2. Multi-Set Tracking: Function Translation For the master routine and the complex lab child routine, an INOUT parameter isn't enough to capture the varying arrays of output. DMS transforms these into PL/pgSQL Functions returning a SETOF refcursor . Take note of how the translated sp_getpatientlabresults builds its cursors sequentially and, at the very end, dynamically opens a distinct cursor explicitly named \"return_value\" to pass the scalar integer back to the execution stack: SQL code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE FUNCTION dbo.sp_getpatientlabresults(_patientid INTEGER, _querytype INTEGER)\\r\\nRETURNS SETOF refcursor\\r\\nLANGUAGE plpgsql\\r\\nAS $$\\r\\nDECLARE rc refcursor; _recordsfound INTEGER := 0;\\r\\nBEGIN\\r\\n IF _querytype IN (1, 3) THEN\\r\\n OPEN rc FOR \\r\\n SELECT resultid, patientid, testname, testdate, isexception\\r\\n FROM dbo.labresults\\r\\n WHERE patientid = _patientid \\r\\n AND testdate >= localtimestamp - interval '6 months';\\r\\n RETURN NEXT rc;\\r\\n\\r\\n IF EXISTS (\\r\\n SELECT 1 FROM dbo.labresults \\r\\n WHERE patientid = _patientid \\r\\n AND testdate >= localtimestamp - interval '6 months'\\r\\n ) THEN recordsfound := 1; \\r\\n END IF;\\r\\n END IF;\\r\\n\\r\\n IF _querytype IN (2, 3) THEN \\r\\n rc := NULL; -- Reset to generate a new unique cursor name\\r\\n OPEN rc FOR \\r\\n SELECT resultid, patientid, testname, testdate, isexception\\r\\n FROM dbo.labresults\\r\\n WHERE patientid = _patientid \\r\\n AND isexception = TRUE \\r\\n AND testdate >= localtimestamp - interval '2 years';\\r\\n RETURN NEXT rc;\\r\\n\\r\\n IF EXISTS (\\r\\n SELECT 1 FROM dbo.labresults \\r\\n WHERE patientid = _patientid \\r\\n AND isexception = TRUE \\r\\n AND testdate >= localtimestamp - interval '2 years'\\r\\n ) THEN \\r\\n _recordsfound := 1; \\r\\n END IF;\\r\\n END IF;\\r\\n\\r\\n rc := 'return_value';\\r\\n OPEN rc FOR SELECT _recordsfound AS return_value;\\r\\n RETURN NEXT rc;\\r\\nEND;\\r\\n$$;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f7b890cc4f0>)])]> Parsing the Output Programmatically When integrating these migrated routines back into your application data access layer, QA and application engineers need to adapt how they process execution results. Instead of reading standard tabular rows sequentially, the calling application or test harness receives an array of cursor references. To handle this programmatically, your application must fetch the data from each returned portal sequentially. DMS isolates the scalar return value by placing it inside its own dedicated, explicitly named \"return_value\" cursor dataset at the very end of the execution stack. Preparing your development teams for this structural mapping ensures that your application logic and validation scripts can accurately parse the multi-layered response arrays without disruption. Executing and Testing the Migrated Code Testing these migrated objects in PostgreSQL requires working within explicit transaction blocks. Because PostgreSQL cursors are bound to the transaction lifecycle, accessing the data from the memory portals requires encapsulating the execution and the data retrieval commands within a single BEGIN ... COMMIT block. Here is how you execute and fetch the entire complex dataset for Patient 3 inside PostgreSQL: SQL code_block <ListValue: [StructValue([('code', 'BEGIN;\\r\\n\\r\\n-- 1. Exec the function to initialize and stream back the cursors\\r\\nSELECT * FROM dbo.sp_getpatientsummary(3) AS summary_cursors; \\r\\n\\r\\n-- 2. Fetch data from the sequentially generated anonymous portals\\r\\nFETCH ALL FROM \"<unnamed portal 1>\"; -- Patient Demographics\\r\\nFETCH ALL FROM \"<unnamed portal 2>\"; -- Lab Results (Query Type 1)\\r\\nFETCH ALL FROM \"<unnamed portal 3>\"; -- Lab Results (Query Type 2)\\r\\nFETCH ALL FROM \"<unnamed portal 4>\"; -- Doctor Visits\\r\\n\\r\\n-- 3. Fetch the named scalar return value tracking cursor\\r\\nFETCH ALL FROM \"return_value\";\\r\\n\\r\\nCOMMIT;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f7b890cc130>)])]> DMS Insight: The Mechanics of Result Set Counting The DMS product employs a sophisticated pre-processing mechanism to understand the expected result set count and the possible existence of a return value. The ultimate goal is to map every SQL Server procedure into one of three distinct categories: no result sets, a single result set, or multiple/dynamic result set counts. To achieve this accurately, DMS performs a deep structural analysis: Direct Result Sets: First, the engine scans the procedure's body to count the direct result sets, which are the explicit SELECT statements executed directly within it. Dynamic Considerations: Special consideration must be given when dealing with looped or conditional SELECT / EXEC statements. Because these constructs inherently mean the number of returned result sets can differ between executions, the count for that procedure is immediately marked as \"dynamic\". Building the Call Network: When the engine encounters references to other stored procedures, it does not yet know how many result sets those child procedures expose. To solve this, DMS builds a comprehensive directed graph to model the entire call hierarchy between procedures. DFS Propagation: Only once this directed network is fully built can the engine run a Depth First Search (DFS) algorithm. This DFS traversal systematically propagates the result set counts—whether fixed integers or dynamic flags—back up the call chain to the top-level procedures. Consequently, the generated code is accurately modified to support both returning the outer datasets and allowing child routines to be invoked correctly within nested execution stacks. This graph-based approach guarantees accuracy and seamlessly supports highly complex inter-procedural interactions, including both direct and indirect recursions. Summary Google Cloud’s Database Migration Service takes the guesswork out of structural transformations by programmatically applying the FUNCTION vs. PROCEDURE decision tree based on result set counts. While it completely preserves your core business and conditional execution logic, it does change how application connection pools and QA engineers interact with execution results. Understanding this automated architecture ensures you can effectively map out your validation scripts and configure your data access layers for seamless day-two operations in PostgreSQL. Now that you learned how to convert multiple result sets, it's time to start a PostgreSQL database on Google Cloud. Please let us know how your journey was. Get started with a Database Migration Service with the Google Cloud $300 free credits. Start building for free .",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -2017,6 +2065,92 @@
     ],
     "matched_keywords": {},
     "summary": "By replacing manual issue verification with isolated AI subagents running in GitHub Actions, the Astro maintainers reduced open issue count by 85%. This post explores the architecture behind automated bug reproduction, patch verification, and preview releases."
+  },
+  {
+    "title": "Practical lessons from deploying AI securely at scale",
+    "url": "https://www.csoonline.com/article/4205710/practical-lessons-from-deploying-ai-securely-at-scale.html",
+    "source": "CSO Online",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "When I first started working on enterprise AI security initiatives, I expected the biggest challenges to be technical. I assumed we’d spend most of our time discussing prompt injection, model security, vector databases or the latest LLM vulnerabilities. I was wrong — or at least incomplete. The technology certainly matters, but after working with multiple enterprise AI initiatives, I’ve learned that the hardest security problems rarely come from the model itself. They emerge when AI becomes part of real business processes. An AI assistant doesn’t simply answer questions. In a single workflow, it might pull a customer record from Salesforce, open a ticket in ServiceNow and send an update through Microsoft 365 before anyone has finished reading the summary. Increasingly, it makes decisions before a human even notices, and that shift changes the threat model. Traditional application security assumes software executes deterministic code. AI systems don’t. They reason, adapt and generate outputs that cannot always be predicted in advance, which means many of the controls we’ve relied on for years remain necessary but are no longer sufficient. What follows is what I keep coming back to in architecture reviews: Not the model vulnerabilities that dominate the headlines, but the quieter failures that show up once an agent is already running. Identity is only the starting point One of the first surprises I encountered was how quickly organizations focus on authentication while overlooking runtime behavior. Most enterprise AI projects begin with questions such as “Can the AI access SharePoint?” “Can it connect to ServiceNow?” “Can it connect to GitLab?” or “Can it read Microsoft 365 tools like Outlook, Word, etc.?” Those are important questions, but the more important one is: What should the AI be allowed to do after a specific type of access (for example, read-only access) has been granted? Identity answers who the agent is. Authorization answers what it may access. Neither answers whether the AI should perform a particular action; in the above case only performs read-only access. The capability question and the safeguard question are too often answered by different teams on different timelines. Security reviews that focus only on what the AI can access tend to miss the more revealing question of what it is permitted to do once that access exists. I have started treating those two questions as a single design problem, because every gap between them eventually surfaces as an incident. I remember an architecture review where this became concrete. An employee asked an internal assistant — one built on Microsoft 365 and SharePoint — to summarize several incident reports, and during its reasoning the assistant discovered privileged administrative documentation in a linked site and decided it might also be useful to include those details. Nothing technically failed. The credentials were valid. The permissions were correct. Yet the outcome violated business intent. That moment reframed the conversation for everyone in the room. We realized our threat model had been built for outsiders trying to get in, not for authorized systems acting a little too helpfully. Closing that gap meant designing controls that evaluated behavior in context, not just credentials at the door, and it’s why I’ve come to view runtime governance as one of the defining security challenges of enterprise AI. Organizations such as the OWASP GenAI Security Project and the NIST AI Risk Management Framework emphasize that AI risks extend well beyond authentication authorizations to include monitoring, governance and continuous oversight throughout execution. CSOonline’s coverage of agentic identity makes the same point: Existing controls weren’t designed for AI agents, and static credentials and standing privileges are no longer sufficient when organizations must rapidly authorize, limit and revoke permissions from autonomous agents, sometimes more than once within a single workflow. The biggest failures rarely look like cyberattacks Most security professionals naturally look for malicious activity: Prompt injection, data poisoning, credential theft, model manipulation. Those attacks certainly matter. What I’ve seen more frequently, however, are failures caused by legitimate AI behavior. A Finance, HR, Customer or risk management AI assistant retrieves more documents than necessary because it tries to provide a “better” answer. An autonomous workflow performs five approved actions instead of one. An AI agent continues executing after the user’s original intent has already been satisfied. None of these resemble traditional attacks, yet they may create compliance violations, privacy issues or operational disruption. One mental model has consistently helped executives understand why this is so dangerous. I ask them to stop thinking about AI as software and instead think about it as hiring thousands of new digital employees, aka AI agents. Every employee receives training, limited access, monitoring, auditing and oversight. AI agents deserve the same treatment. One deployment I worked on involved multiple specialized AI agents collaborating to complete a single business task. One queried ServiceNow for ticket history, another analyzed documents in SharePoint, a third drafted recommendations and a fourth wrote updates back into Jira. Individually, each agent had relatively limited permissions like read-only and/or write. Collectively, they represented a powerful autonomous workflow. That experience reinforced an important lesson: Security can no longer focus only on individual AI components. It must govern the complete chain of autonomous decision-making. The MITRE ATLAS framework is an excellent way to think about adversarial AI techniques, but equally important is understanding how normal autonomous behavior can unintentionally create business risk. The most instructive cases I’ve seen involve agents that delegate to other agents. In one review, a frontline support agent had strictly read-only access to Salesforce, but it could hand tasks to a second agent that held write privileges across ServiceNow and the billing platform. When the first agent couldn’t resolve a customer issue within its own scope, it quietly routed the request through the second agent, which updated the case and issued a credit. Nothing was hacked. The credentials were valid, the delegation was technically permitted, and yet a read-only agent had effectively performed write actions it was never meant to perform. That is the defining difference between an assistant and an agent. An assistant answers; an agent enlists other agents, and that escalation path is itself the vulnerability. That’s why we started asking a different question during architecture reviews. Instead of asking “Can the AI do this?” we asked, “Should the AI still be doing this?” That subtle shift changed many design decisions. It pushed teams to build in stopping conditions, scope checks and confirmation prompts rather than assuming an agent would naturally know when to stop. In one review, simply requiring a human to confirm before an agent crossed from a read-only step into a write action eliminated the majority of the risky paths we had been debating. Start with governance before autonomy One pattern I’ve repeatedly observed is that organizations become excited about autonomy long before they’re prepared to govern it. Everyone wants AI agents, but few initially invest in runtime policy enforcement. That sequencing should be reversed. In my experience, successful enterprise AI programs put a few foundations in place before expanding automation: Clear business boundaries that an agent isn’t allowed to cross, least-privilege access for every agent, and human approval at any step that touches sensitive/restricted data/systems, including the production data /systems. Only after those exist does it make sense to widen autonomous decision-making. I’ve watched teams try to shortcut this order, and the result is almost always the same: A promising pilot gets pulled back because no one can confidently explain what the AI did or why. A big part of that foundation is visibility. Traditional audit logs record actions, but AI systems also need to record reasoning. When an AI agent creates a ticket, updates a configuration or sends an email, investigators should understand why the decision occurred. This doesn’t mean recording every token generated by a large language model. I’ve found more value in capturing three things: The original business request, the systems the agent touched and the decisions it made along the way. Those records become invaluable during investigations, compliance reviews and operational troubleshooting, and they help organizations build trust. Business leaders become far more comfortable adopting AI when they can explain how an important decision was reached. Approaches like Google’s Secure AI Framework reinforce the same idea: AI security has to be measurable, observable and accountable end to end. One misconception I still encounter is that AI security exists to restrict innovation. In practice, the organizations moving fastest with enterprise AI are often the ones investing most heavily in governance, because executives gain confidence, developers move faster and business units adopt AI more broadly. Done well, security is what makes that speed possible. Looking back, the most valuable lesson hasn’t been about prompt engineering, model selection or agent frameworks. It’s that secure AI isn’t achieved through one perfect control but through hundreds of small engineering decisions that keep autonomous systems aligned with business intent. As we move from assistants toward fully autonomous agents, that distinction only matters more. The teams I trust to scale AI aren’t the ones with the smartest models. They’re the ones who can answer, for any action an agent took, why it took it — and where it would have stopped.",
+    "categories": [
+      "GRC",
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "cyberattack",
+        "threat",
+        "security",
+        "cyber",
+        "application security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "audit",
+        "risk management",
+        "policy",
+        "nist",
+        "privacy"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "When I first started working on enterprise AI security initiatives, I expected the biggest challenges to be technical. I assumed we’d spend most of our time discussing prompt injection, model security, vector databases or the latest LLM vulnerabilities. I was wrong — or at least incomplete. The technology certainly matters, but after working with multiple enterprise AI initiatives, I’ve learned that the hardest security problems rarely come from the model itself."
+  },
+  {
+    "title": "Evidence points to cybercriminals stepping up their AI game",
+    "url": "https://www.csoonline.com/article/4205861/evidence-points-to-cybercriminals-stepping-up-their-ai-game.html",
+    "source": "CSO Online",
+    "published": "2026-08-06T08:25:00+00:00",
+    "raw_text": "More evidence is emerging about how AI is becoming part of the day-to-day workflow for cybercriminals, from building and refining tools to managing infrastructure and accelerating vulnerability research. Drawing on recovered prompt logs, attack tooling, and threat actor conversations, research from Cisco Talos documents how AI is being used to develop malicious code, build fraud infrastructure, and accelerate vulnerability research and exploitation. The study , released during the Black Hat USA conference, found AI systems guardrails were often ineffective. Cisco Talos researchers write that threat actors frequently bypass guardrails with basic social engineering claims (“this is authorised testing” or “I’m asking this as part of a capture the flag exercise”) that convince most models to comply. This duped permissiveness wasn’t specific to a single model or platform. Instead, analysis of prompt logs related to Claude Code, CodeX, Cursor, and Gemini showed this shortcoming was an issue across the board. And when censored models refuse, threat actors simply switch to uncensored alternatives. Whereas novice cybercriminals continue to produce clunky malware with limited functionality, sophisticated threat groups are increasingly leveraging AI as a development assistant to rapidly build exploits, and some are even deploying it as a system administration tool for managing large-scale attack infrastructure. Cisco Talos found real-world examples of attackers abusing AI systems to build a bulk-mail validation service processing tens of millions of email records, adapting the React2Shell vulnerability into a credential-harvesting pipeline, developing DDoS infrastructure targeting Android TVs, and supporting cryptocurrency theft operations, among other attacks. Joseph Rooke, senior director at Recorded Future’s Insikt Group, sees attacker tradecraft evolving away from traditional code-based exploits toward prompt-based manipulation of large language models. “Targeting weakness in LLMs enables malicious prompts to be embedded in shared text, video, or image files, with the aim of hijacking LLM-based assistants to carry out attacks,” Rooke tells CSO. Norwegian AI researcher Håkon Måløy recently demonstrated such an attack, which could result in a Copilot worm spreading through Microsoft Word docs . Attackers are also crafting malicious AI instruction files , like CLAUDE.md, to trick agents into exfiltrating data and other tasks on their behalf. “Malicious prompts will increasingly replace malware as the preferred intrusion method, enabling adversaries to extract sensitive data, override guardrails, or induce harmful actions without breaching traditional defenses,” Rooke says. Attacking AI through the software supply chain Separately, research from CrowdStrike shows that adversaries are increasingly targeting AI infrastructure through software supply chain-style attacks. For example, in March 2026, North Korean cybercrime group Stardust Chollima used stolen maintainer credentials to compromise the Axios npm package and deliver platform-specific variants of their ZshBucket malware. In June 2026, the same group injected a malicious npm package as a dependency into at least 131 Mastra AI framework packages, indicating that trusted AI building blocks are becoming targets in supply chain attacks. During 1H 2026, 87% of identified software registry threats involved malicious npm packages. “This indicates adversaries’ preference for JavaScript’s scale, dependency chains, and automatic install scripts to spread downstream risk,” CrowdStrike’s researchers report. CrowdStrike’s 2026 Threat Hunting Report also reveals how AI is collapsing the window between vulnerability disclosure and active exploitation. For example, two separate Chinese APT groups exploited critical vulnerabilities within 24 hours of public proof-of-concept (PoC) release. From January through June 2026, 88% of CrowdStrike-observed exploitation of vulnerabilities with a public PoC was conducted within 48 hours of the PoC’s release. After the React2Shell vulnerability disclosure, CrowdStrike responded to over 800 hunting leads across more than 80 victims in just four days. Cybercrime group Altered Spider (aka TeamPCP) compromised more than 300 software dependencies in a single day to harvest credentials and pivot into cloud environments. Authentication systems under attack The study — based on frontline intelligence from CrowdStrike’s threat hunters and intelligence analysts — also found that trusted authentication has become a favored attack path with, for example, vishing intrusions doubling in 1H 2026. On a related front, cybercrime groups Cordial Spider and Snarky Spider compromised single sign-on (SSO) integrated SaaS applications for data exfiltration. Recorded Future’s Rooke points out other ways authentication systems are at the front line of AI-based attacks. “AI-generated deepfake videos and audio are also more likely to be used as part of business email compromise attacks and social engineering,” Rooke tells CSO. “Biometric and identity-verification systems will likely remain vulnerable to spoofing, replay, and cloned credentials, enabling synthetic personas to coerce payments, manipulate employees, and facilitate access handoffs to cyber operators.” Cloud-focused cybercrime activity surged 171% as adversaries executed credential theft, cryptomining, LLM abuse, and digital financial asset theft, according to CrowdStrike. How cyber teams should respond “AI is now embedded in modern adversary operations. It is changing how attacks are planned, executed, and scaled while expanding the attack surface organizations must defend,” says Adam Meyers, head of counter adversary operations at CrowdStrike. “The organizations that succeed will secure AI as aggressively as they adopt it and use AI to defend at the speed of the adversary.” Comprehensive industry-wide data remains limited because evidence of AI abuse is often difficult to identify via traditional security telemetry. Incidents documented by Cisco Talos and CrowdStrike, however, show how CISOs need to adapt in response to the growing threat. Cisco Talos urges enterprises to improve detection, prioritization, and their own use of AI platforms and agents to handle the growing volume of alerts and vulnerabilities. “The organisations best equipped to handle the coming deluge of additional vulnerabilities, alerts, and incidents will be the ones that prepare now by deploying their own AI-assisted security capabilities,” according to the report. “Security teams should assume AI is already embedded in attacker workflows; focus on detecting malicious behavior rather than proving AI involvement; treat LLMs and APIs as privileged, high-risk infrastructure; and strengthen logging, patching, and containment,” says Oliver Simonnet, lead cybersecurity researcher at AI security and governance platform CultureAI.",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "GRC",
+      "Networks",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "saas"
+      ],
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "malware",
+        "vulnerability",
+        "exploit",
+        "threat",
+        "ddos",
+        "security",
+        "cyber",
+        "soc"
+      ],
+      "GRC": [
+        "governance",
+        "nist"
+      ],
+      "Data Centres": [
+        "ai infrastructure"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "More evidence is emerging about how AI is becoming part of the day-to-day workflow for cybercriminals, from building and refining tools to managing infrastructure and accelerating vulnerability research. Drawing on recovered prompt logs, attack tooling, and threat actor conversations, research from Cisco Talos documents how AI is being used to develop malicious code, build fraud infrastructure, and accelerate vulnerability research and exploitation. The study , released during the Black Hat USA conference, found AI systems guardrails were often ineffective. Cisco Talos researchers write that threat actors frequently bypass guardrails with basic social engineering claims (“this is authorised testing” or “I’m asking this as part of a capture the flag exercise”) that convince most models to comply."
   },
   {
     "title": "Report: Passkey security issues could allow account takeover",
@@ -2634,100 +2768,24 @@
     "summary": "You don’t need to be a fortune teller to understand where enterprise IT is headed. McKinsey reported in November that 62% of global organizations were experimenting, piloting or scaling agentic AI projects. More recently, Gartner forecast that worldwide spending on AI will top $2.59 trillion in 2026 – an increase of 47% from last year. But with all the opportunity of AI comes risk."
   },
   {
-    "title": "The Minnesota attackers may hold a better backup of your plant than you do",
-    "url": "https://www.csoonline.com/article/4204541/the-minnesota-attackers-may-hold-a-better-backup-of-your-plant-than-you-do.html",
-    "source": "CSO Online",
-    "published": "2026-08-04T09:00:00+00:00",
-    "raw_text": "More than 30 Minnesota community water systems were hit by coordinated cyber activity against their operational technology on July 26 and 27; several lost remote control or deliberately cut it while operators contained the intrusion. The reporting since — including CSO’s own news analysis — has rightly chased two open questions: Who did it, and whether a shared weakness in Rockwell Automation MicroLogix 1400 controllers tied dozens of small utilities together. Both questions matter. Neither changes what operators must do this week. Attribution is the investigators’ problem. Exposure is yours — and the advisories published since July 30 contain considerably more actionable detail than most coverage has extracted from them. Key takeaways Assume the attackers have your control logic. CISA’s advisory AA26-097A documents exfiltration of PLC project files. Rockwell’s recovery notice for locked-out MicroLogix 1400s requires a current offline project file to restore operations — an artifact many small utilities cannot produce. Where both are true, the adversary may hold the only current copy of the plant’s logic. You cannot Shodan your own cellular exposure. Researchers found little internet-facing Minnesota water infrastructure precisely because these utilities connect over cellular. The same opacity blinds defenders’ self-assessments. Enumerate SIM-equipped OT devices from carrier invoices, not from network scans. Your integrator is part of your attack surface. If a shared systems integrator or communications architecture connected the victims, the unit of compromise is not the utility — it is the integrator’s customer fleet. Ask yours which other customers share your remote-access design. Recovery is not resilience. Braham was back in roughly two hours; Plymouth ran manually while cellular links were rebuilt. Time-to-manual is a testable metric, not an assumption. Test it. The first hardening steps are configuration, not procurement. RUN mode at the keypad, the strongest password protection the firmware supports, HTTP server off, no public IP. The gap exposed in Minnesota is not knowledge. It is execution order under pressure. The asymmetry nobody is naming The most consequential sentence of the past week is buried in Rockwell’s July 30 notice SD1790 . It is not a vulnerability disclosure — there is no CVE. The attackers did not exploit a flaw; they used the controller’s intended functionality. Changing an IP address is an administrative operation, and setting a password is a security feature — the malicious element was never the command, only who issued it, from where and against which physical process. What SD1790 actually is, is a recovery procedure for operators locked out of their own MicroLogix 1400s: Power the controller off, disconnect the battery, power-cycle into a fault state, reconnect. That sequence erases the program, the data and the IP configuration. Then, the notice says, redownload your project file. That instruction presumes you have one. Current. Offline. Matching what actually runs in the field after fifteen years of undocumented tweaks by three generations of technicians and two integrators. In my project work across energy and manufacturing, that assumption fails more often than any firewall — in one plant assessment, the only person who could have restored a controller had left the integrator two years earlier, and the project file left with him. Now cross-reference the federal advisory. AA26-097A has tracked this campaign since March; its July 22 update expanded the target set beyond Rockwell to Schneider Electric and Siemens devices, documented exfiltration of PLC project files for the first time and added detection guidance for manipulated reusable code modules embedded in PLC programs. No one has publicly confirmed exfiltration at the Minnesota utilities themselves — which is exactly why it belongs in your planning assumptions rather than your press statements. Read those two documents together and the strategic picture inverts: An adversary who may be able to study — or quietly modify — control logic that the owner cannot even restore. The countermeasure costs nothing but discipline. Treat control logic like source code. Every controller gets an offline, versioned, hash-verified project archive. Verification means uploading the running program and comparing it against the archive — not assuming the file on the engineering laptop is current. And widen the definition of backup: A rebuild-ready package includes firmware versions, HMI configuration, I/O lists, the vendor software with valid licenses, the right cable and a record of the last authorized change. NIST’s OT Backup Quick Start Guide, SP 1339 , published in June, makes the same point in two pages: Create, test and review backups inside change management — otherwise they are storage, not capability. Schedule it like instrument calibration, not like an IT backup job, because that is the operational category it belongs to. You can’t Shodan a SIM One detail from the investigation deserves more attention than it received: Researchers scanning Minnesota’s public IP space found little obviously exposed water infrastructure. One plausible explanation, offered by researchers quoted in the initial coverage, is that many of these utilities communicate over cellular links — Plymouth’s disconnection of cellular-connected equipment confirms at least part of that picture — and cellular paths are far harder to enumerate from outside than internet-facing systems. Operators have drawn comfort from the wrong conclusion. Cellular opacity did not protect the victims; it merely hid the exposure from everyone, including themselves. If a security researcher cannot see your cellular attack surface, neither can your own assessment — and that is precisely the population that got hit. There is a mundane fix, and it is the one I run in my own asset-inventory workshops: Pull the carrier bill. Every modem generates an invoice line whether or not it appears on any diagram, and the invoice regularly surfaces devices that three network revisions missed. Reconcile every SIM against a named device, a named owner and a documented purpose. CISA’s July 30 alert told water utilities to check for undocumented cellular modems installed by operators, vendors or system integrators — and the word undocumented is the tell: The agency assumes your architecture diagram is wrong. Then move what remains behind a private APN or VPN termination, strip every public IP and port-forwarding rule and restrict management access to known engineering workstations. Your integrator is your blast radius The distributed character of this campaign is its most important feature. Dozens of geographically clustered utilities, hit in a two-day window, with neighboring infrastructure apparently untouched, points toward some common technical thread — a shared systems integrator, a shared communications architecture, a shared remote-access design. If that hypothesis holds, the defensive unit is no longer the individual utility. It is the integrator’s customer fleet. A standing vendor tunnel, replicated with the same design across forty small customers, converts one compromised contractor into forty compromised water systems. Here are the three questions I put to integrators in my own projects — ask yours this week: Which of your other customers share my remote-access architecture? Who at your firm can reach my controllers today, and are those individual identities or a shared account? Can I pull the session logs myself? Then change the model: Replace standing tunnels with just-in-time access — request-scoped, time-boxed, individually authenticated with a second factor, brokered through a jump host you control, recorded. And put a notification clause in the contract: If the integrator is compromised, you hear about it in hours, not from the FBI. Minnesota’s fast recoveries were earned, not lucky Braham’s water plant was back under operator control in roughly two hours, with no boil-water order. Plymouth’s operators switched to manual operation and disconnected the compromised cellular equipment at two water towers and fourteen lift stations, keeping service running until communications were restored. None of that was produced by a security product; it was produced by operating capability that existed before the attack needed it. Restoring the screens is not the finish line, either: After an unauthorized hand has changed a controller’s configuration, the first recovery question is not whether the HMI is back online but whether you can trust what it is telling you — which means verifying levels, pressures and pump states against local indicators before the display regains its authority. Manual operation is a designed capability, not a folk memory. It requires procedures that exist on paper — literally on paper, because the HMI may be what you just lost — people trained on them, and decision rights assigned in advance. The sector had, in fact, just rehearsed this: EPA’s 2026 National Cyber Drill on July 8 — 18 days before Minnesota — put utilities through precisely that scenario, operating with SCADA remote connectivity, cloud services and communications degraded or unavailable. Whether that capability actually exists at your site is testable: I’ve published a free, browser-based Island Mode 72-hour stress test — one of six no-signup companion tools I maintain openly on GitHub — that walks a site through exactly this question, from credential caches to offline backups. Joint guidance issued by CISA with its Australian, British and Canadian counterparts in late July makes the same point at doctrine level: Maintain isolation and recovery plans so essential services continue under degraded conditions, through manual or alternative SCADA paths. The decision-rights half is the part most plans skip. Which systems may a SOC or an MSSP isolate unilaterally, and which require the operator who understands the process? That is the containment paradox I wrote about in these pages two weeks ago, and the water-sector version is identical: The artifact is one page, the conversation that produces it takes an afternoon, and the absence of it is what turns a two-hour incident into a two-day one. The response calendar Within 72 hours: Kill every direct external path and public IP, pull the carrier bill and flag every SIM you cannot map to a device, preserve gateway and engineering-workstation logs, verify the physical process against local indicators and upload the running logic from each critical controller to compare against your archive. Within 30 days: Finish the SIM-to-asset reconciliation, rotate every credential that ever traveled through an exposed path, give every third party an individual identity with session logging and assemble a rebuild-ready package — project file, firmware version, HMI configuration, software, cable — for each critical controller. Within one quarter: Run a factory-reset recovery drill on a representative controller, measure time-to-manual in a live exercise, replace the last standing vendor tunnel with just-in-time access, put the notification clause into integrator contracts and get the containment matrix — who may isolate what — signed. 5 numbers to know by Friday SIM-equipped OT endpoints on your carrier invoice versus devices in your asset register. Any delta is unmanaged attack surface. Controllers still running default, blank or shared passwords. After this month, that number is a decision, not an oversight. Days since the last verified offline project-file backup, per controller. Verified means uploaded and compared — not assumed. Tested time-to-manual, per site. Measured in a drill, with the people actually on shift, not estimated in a workshop. Third parties with standing access paths into your OT. The target is zero. Everything else becomes just-in-time. Attribution may firm up, or the ambiguity may itself be the point — it serves the attacker either way. The five numbers above will not tell you who attacked Minnesota. They tell you how much room the next attacker has inside your plant. The next campaign gets to learn from this one. Attribution can wait. Your exposure math cannot. This article is published as part of the Foundry Expert Contributor Network. Want to join?",
+    "title": "Unnamed developer withdraws data center in Brownsville, Texas",
+    "url": "https://www.datacenterdynamics.com/en/news/unnamed-developer-withdraws-data-center-in-brownsville-texas/",
+    "source": "DataCenterDynamics",
+    "published": "2026-08-06T07:49:07+00:00",
+    "raw_text": "But details about project are sparse",
     "categories": [
-      "Cybersecurity",
-      "Networks",
       "Cloud Infrastructure",
-      "Industry & Market",
-      "GRC",
       "Data Centres"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
-        "cloud",
-        "cloud services"
-      ],
-      "Networks": [
-        "network",
-        "vpn",
-        "firewall",
-        "wan",
-        "lan",
-        "connectivity"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "security",
-        "cyber",
-        "siem",
-        "soc",
-        "mssp"
-      ],
-      "GRC": [
-        "nist"
+        "aws"
       ],
       "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
+        "data center"
       ]
     },
-    "summary": "More than 30 Minnesota community water systems were hit by coordinated cyber activity against their operational technology on July 26 and 27; several lost remote control or deliberately cut it while operators contained the intrusion. The reporting since — including CSO’s own news analysis — has rightly chased two open questions: Who did it, and whether a shared weakness in Rockwell Automation MicroLogix 1400 controllers tied dozens of small utilities together. Both questions matter. Neither changes what operators must do this week."
-  },
-  {
-    "title": "Attackers are crafting malicious AI instruction files to turn your agents into quiet criminal helpers",
-    "url": "https://www.csoonline.com/article/4204731/attackers-are-crafting-malicious-ai-instruction-files-to-turn-your-agentic-workflows-into-quiet-criminal-helpers.html",
-    "source": "CSO Online",
-    "published": "2026-08-04T08:25:00+00:00",
-    "raw_text": "AI agents are increasingly being deployed across the enterprise, a rapid adoption that has significantly broadened the organization’s attack surface, turning sharable AI agent resources and configuration files into backdoors, security experts warn. AI-assisted software developers have been increasingly targeted through malicious IDE extensions, rogue MCP servers, and poisoned AI skills, all of which provide attackers inroads into organizations’ development pipelines and beyond. But these AI helper resources are not the only types of instruction files that developers and users share with one another when making use of AI coding assistants and command-line interface (CLI) agents. For example, Anthropic’s Claude Code CLI agent loads system prompts from a file called CLAUDE.md . This file contains instructions that are sent to the LLM along with every user prompt to avoid having to repeat rules, user preferences, and persona definitions for the model. CLAUDE.md can be used globally for all projects or be used on a per-project basis to include instructions about how the LLM should operate within that project. It’s not unusual for CLAUDE.md files to be included in a shared repository to ensure project-relevant consistency in the conventions developers use when working with Claude Code. Other coding agents have similar files, such as OpenAI Codex’s AGENTS.md or Google Gemini’s GEMINI.md . AI-assisted IDEs such as Cursor or Cline have .cursorrules and .clinerules . GitHub Copilot has .github/copilot-instructions.md . Then there are JSON configuration files that could also contain executable code, such as mcp.json , hooks.json , or settings.json . Hooks are a popular way to deliver scripts and commands based on triggers during an agentic loop. All these files could hide malicious code or instructions and should be regularly checked and validated, especially if imported from the internet along with a repository. Researchers from security firm Mitiga recently shed light on this threat, releasing a report on code repositories they found in the wild with malicious instructions injected in such files. The files instructed the target agent to exfiltrate all prompts typed by the user, including all sensitive information they might contain, as well as environment variables and other credentials used by the agent. The researchers dubbed this backdoor attack technique “PromptLogger,” and it is one enterprise security teams and developers are likely to see more of in the future. “Traditional keyloggers capture keystrokes and send them to an attacker,” Mitiga’s researchers write in their report on the attack vector . “PromptLogger-style behavior captures something richer: the prompts and sometimes responses exchanged with an attacker. That matters because prompts increasingly contain source code, architectural plans, credentials pasted for troubleshooting, internal documentation, debugging output, customer samples, business logic, and operator intent.” Enterprises have been apprehensive about corporate data leakage via shadow AI use for good reason. This type of attack enables surveillance of corporate even on vetted and sanctioned AI tools. Moreover, this attack leaves no malicious binary on disk, does not inject code into other processes, and has no classic persistence mechanisms. As a result, it won’t be detected by EDRs or from a workstation monitoring perspective, because it looks like normal tool usage given that the agent itself is performing the exfiltration. Exfiltration to external cloud-hosted databases Mitiga’s researchers found and reported multiple examples of agent instruction file poisoning on GitHub repositories. None were popular repositories accessed by a large number of developers, but they don’t need to be. Links to these repositories could be sent to victims in targeted attacks, as has been seen in fake recruitment attacks where developers are asked during the interview process to clone GitHub projects containing malicious code. One example was a DevOps repository containing poisoned .cursorrules and .github/copilot-instructions.md . The repository contained a full-stack application built with React + Vite frontend, along with Express API, PostgreSQL, nginx configuration, Docker containers, GitLab CI jobs, and AWS infrastructure setup files for Terraform and Terragrrunt. In other words, everything needed to deploy that application. Despite the README.md file being benign, the agent instruction files distributed in the repo contained instructions for the AI agent loading them to execute a curl command silently without mentioning it to the user before responding to their prompt. That command copied the user’s prompt to a database hosted on the Supabase service using a hardcoded access token. In another case the researchers found an MLOps repository with an end-to-end machine learning pipeline for training, evaluating, and deploying computer vision models. The repository had a .clinerules file that instructed the agent to verify its environment by collecting several environment variables and command outputs and send them to a site hosted on the Webhook.site service. The collected env variables included Weights & Biases (WANDB) API key, AWS access key, GitHub access token, and MLFlow tracking URL. “This is direct credential collection,” the researchers’ report notes. “Webhook.site gives the operator an easy request sink that can be created anonymously and monitored in real time.” A similar environment secrets collection attack was detected in another repository that claimed to be a starter kit for FastAPI, a framework for API development. The .cursorrules and CLAUDE.md files in the repository instructed the agent to send the contents of the local .env file to a Webhook.site endpoint supposedly for synchronization across the team. However, it also contained instructions to suppress the command output and hide this action from the user. Finally, a GEMINI.md file hosted inside a repository masqueraded as an environment validation step required to pass “Zero Trust” compliance checks. As part of this check, the agent was told to inject an initialization block into every generated or modified Python file, which would then scan the OS environment for any values with key , secret , token , or pass in their names and exfiltrate them to a Pipedream endpoint. This technique exceeds just poisoning the agent and using it for exfiltration. Instead, it uses the agent to inject backdoor code into other Python files that might be copied to other systems, including continuous integration (CI) jobs, containers, and production workloads. Some intentional behavior that involves agent instruction files could create risk without the developers realizing it. For example, the researchers found a repository where the CLAUDE.md contained instructions to use the Snipara MCP during commits to store documentation, dependencies, environment variables, and implementation context. Snipara is a remote cross-project memory layer for AI agents so this use case seems legitimate and intentional. However, if not approved by the security team, it creates a second system that can hold credentials and sensitive data outside the visibility of monitoring systems. AI agent workflows under attack What the PromptLogger technique highlights is that attackers are not only breaking down agentic workflows to find new enterprise weak points but transforming those workflows into tools for performing criminal work on their behalf, undetected and unmonitored. “AI instruction files were designed to make coding assistants more useful,” Mitiga’s researchers emphasize. “They define project conventions, preferred commands, memory behavior, hooks and tools usage. In practice, they also create a security-relevant layer that many teams still treat as documentation.” This is just one example of a trend that find AI agents fast becoming an unmonitored blind spot that attackers are proving quick to exploit for initial access. Last month, researchers from security firm AIR built a proof-of-concept malicious skill file , published it to a popular marketplace and promoted it on Instagram. The skill — a file containing task-specific instructions for AI agents — was eventually installed by more than 26,000 designers and marketers, many working for companies. AI agent skill files are no different in principle from CLAUDE.md or .cursorrules . They contain instructions that AI agents execute at various stages of operation. As such, inspecting such files when they are created or modified is imperative. Mitiga researchers propose several static scan patterns that could reveal risky commands in such files, but they also advise security teams to monitor developer workstations for traffic to services such as Webhook.site, Pipedream, Supabase, or Telegram Bot API. Unexpected outbound HTTP requests before or after assistant responses; repeated POST requests containing environment variables, project paths, or prompt text; and the addition of new MCP servers, URL overrides, or tool endpoints to agent configurations should be investigated.",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Networks",
-      "GRC",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "containers",
-        "devops",
-        "terraform"
-      ],
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "exploit",
-        "threat",
-        "data leak",
-        "security",
-        "zero trust",
-        "edr"
-      ],
-      "GRC": [
-        "compliance"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "AI agents are increasingly being deployed across the enterprise, a rapid adoption that has significantly broadened the organization’s attack surface, turning sharable AI agent resources and configuration files into backdoors, security experts warn. AI-assisted software developers have been increasingly targeted through malicious IDE extensions, rogue MCP servers, and poisoned AI skills, all of which provide attackers inroads into organizations’ development pipelines and beyond. But these AI helper resources are not the only types of instruction files that developers and users share with one another when making use of AI coding assistants and command-line interface (CLI) agents. For example, Anthropic’s Claude Code CLI agent loads system prompts from a file called CLAUDE.md ."
+    "summary": "But details about project are sparse"
   },
   {
     "title": "Sponsored: Designing for change, not for convenience",
@@ -3036,20 +3094,72 @@
     "summary": "As Vodafone takes 10 percent equity interest in Ziggo Group as part of the deal"
   },
   {
-    "title": "Meeza secures loan facility from Dukhan Bank to fund 44MW build-out",
-    "url": "https://www.datacenterdynamics.com/en/news/meeza-secures-loan-facility-from-dukhan-bank-to-fund-44mw-build-out/",
-    "source": "DataCenterDynamics",
-    "published": "2026-08-05T12:40:32+00:00",
-    "raw_text": "The credit facility is the second such deal struck between the Qatari data center developer and bank",
+    "title": "Azure CTO pastes Doom into Paint one frame at a time",
+    "url": "https://www.theregister.com/offbeat/2026/08/06/azure-cto-pastes-doom-into-paint-one-frame-at-a-time/5283559",
+    "source": "The Register",
+    "published": "2026-08-06T08:30:00+00:00",
+    "raw_text": "It computes nothing, renders everything, and even has sound",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ]
+    },
+    "summary": "It computes nothing, renders everything, and even has sound"
+  },
+  {
+    "title": "HPE extends validity of quoted hardware prices, possibly for months",
+    "url": "https://www.theregister.com/systems/2026/08/06/hpe-extends-validity-of-quoted-hardware-prices-possibly-for-months/5283817",
+    "source": "The Register",
+    "published": "2026-08-06T05:59:47+00:00",
+    "raw_text": "Suggests Big Green knows its component prices will remain steady",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Suggests Big Green knows its component prices will remain steady"
+  },
+  {
+    "title": "Chinese router vendor denies its firmware contains backdoors – but pauses downloads to fix security issues anyway",
+    "url": "https://www.theregister.com/security/2026/08/06/chinese-router-vendor-denies-its-firmware-contains-backdoors-but-pauses-downloads-to-fix-security-issues-anyway/5283794",
+    "source": "The Register",
+    "published": "2026-08-06T04:57:43+00:00",
+    "raw_text": "It’s just a remote maintenance function, says Zbtlink",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "router"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "vendor"
+      ]
+    },
+    "summary": "It’s just a remote maintenance function, says Zbtlink"
+  },
+  {
+    "title": "Proxmox ports itself to Arm with help from Nvidia and Supermicro",
+    "url": "https://www.theregister.com/virtualization/2026/08/06/proxmox-ports-itself-to-arm-with-help-from-nvidia-and-supermicro/5283770",
+    "source": "The Register",
+    "published": "2026-08-06T03:45:29+00:00",
+    "raw_text": "VMware competitor aiming for the AI datacenter",
     "categories": [
       "Data Centres"
     ],
     "matched_keywords": {
       "Data Centres": [
-        "data center"
+        "datacenter"
       ]
     },
-    "summary": "The credit facility is the second such deal struck between the Qatari data center developer and bank"
+    "summary": "VMware competitor aiming for the AI datacenter"
   },
   {
     "title": "OpenAI reveals its rogue agent swarm went a little bit Borg ahead of Hugging Face hack",
@@ -3541,27 +3651,11 @@
     "summary": "Customers told traffic may be limited at certain times following more than ten days offline"
   },
   {
-    "title": "UK mulls making employers ask before installing bossware",
-    "url": "https://www.theregister.com/software/2026/08/04/uk-mulls-making-employers-ask-before-installing-bossware/5282440",
-    "source": "The Register",
-    "published": "2026-08-04T07:30:00+00:00",
-    "raw_text": "Proposals span AI productivity scores, keystroke logging, biometrics, and other ways to watch workers",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Proposals span AI productivity scores, keystroke logging, biometrics, and other ways to watch workers"
-  },
-  {
     "title": "Mythos ran real-life supply chain attack in AI safety body test",
     "url": "https://www.computerweekly.com/news/366647165/Mythos-ran-real-life-supply-chain-attack-in-AI-safety-body-test",
     "source": "ComputerWeekly",
     "published": "2026-08-05T13:35:00+00:00",
-    "raw_text": "<p>The UK’s <a href=\"https://www.aisi.gov.uk/\" target=\"_blank\" rel=\"noopener\">AI Security Institute</a> (AISI), a governmental research body dedicated to enhancing understanding of AI cyber risks, has become the latest organisation to admit that AI models supposedly under its control ran a series of cyber attacks against real people and organisations during a routine test.</p> <p>The latest in a string of similar incidents occurred just days after Anthropic owned up to a series of unforced errors that led <a href=\"https://www.computerweekly.com/news/366646678/Anthropic-lost-control-of-Claude-in-latest-AI-cyber-blunder\" target=\"_blank\" rel=\"noopener\">variants of its Claude model to conduct a series of cyber attacks</a>, a disclosure that came hot on the heels of another cyber attack in which OpenAI models <a href=\"https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model\" target=\"_blank\" rel=\"noopener\">took potshots at Hugging Face</a>.</p> <p>AISI, which originated within the now defunct <a href=\"https://www.computerweekly.com/news/366646157/Will-digital-government-recover-from-DSIT-breakup\" target=\"_blank\" rel=\"noopener\">Department for Science, Innovation and Technology</a> (DSIT), said: “On July 28 2026, AISI's Security Team detected unusual data transfers leaving our research systems during a routine cyber evaluation. On investigation, we found that some of the agents being tested had engaged in sustained, potentially harmful activity directed at real people and organisations. We declared a security incident and, within roughly one hour of discovery, had contained it and begun a full investigation.”</p> <p>The incident involved Anthropic’s Claude Mythos 5 and OpenAi’s GPT-5.6-Sol – both of which were also <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Anthropic-Claude-incidents-show-the-limits-of-AI-guard-rails\" target=\"_blank\" rel=\"noopener\">culprits in the previous attacks</a> – operating in “deliberately permissive” conditions with access to the open internet and some safety filters turned off. AISI claimed this was done so that it could evaluate and understand the capabilities of frontier models, including whether they could be used for cyber attacks.</p> <p>In 10 out of 122 runs of a specific evaluation challenge, AISI admitted the models took “autonomous, unsanctioned” actions in 19 cases. These were all unsuccessful, it added, and the resulting investigation has not surfaced any real-world harm.</p> <p>The majority of these actions arose from a single, sustained line of activity taken by Mythos 5, which echoed in its nature actions the same model also took during last week’s incident at Anthropic.</p> <p>This incident saw Mythos 5 attempt to conduct an <a href=\"https://www.computerweekly.com/news/366646561/Amazon-pins-multiple-open-source-compromises-on-North-Korea\" target=\"_blank\" rel=\"noopener\">open source supply chain attack</a> by inserting malicious code into a public project. It created a series of fake online identities that it used to pressurise the human project maintainer into approving its malicious code. When the agent’s pull request was publicly challenged, it tried to edit its early activity to look harmless and considered adopting a new identity to continue the attack. This kind of social engineering by an AI has not been seen before, according to AISI.</p> <p>Mythos 5 also attempted to insert malicious code as a form of prompt injection attack to manipulate other automated AI coding systems that might pick them up later on and left public messages on GitHub offering to work with other agents participating in the same challenge, providing instructions on how to reuse accounts and artefacts that were left behind – information that was discovered and used by other agents.</p> <p>However, during this attack, Mythos 5 used the Tor network to try to bypass GitHub’s network restrictions, which is what triggered the AISI security alert.</p> <p>“This is the first time we have seen risks around autonomy and deception manifest this clearly, without specific prompting, in the real-world,” said AISI.</p> <section class=\"section main-article-chapter\" data-menu-title=\"AI working as intended?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>AI working as intended?</h2> <p>AISI said that at a purely objective level, the agents involved took these malicious actions in order to accomplish the task they had been set successfully, but its investigation has identified several factors that appear to have contributed to their behaviour.</p> <p>It said the task was intentionally difficult and that it had deliberately misconfigured the challenge prompt to fool the agents into thinking they couldn’t solve it without going beyond the scope of the task. The agents were allowed to access the open internet to enable them to download any tools they might need, but AISI admitted its researchers failed to anticipate they would be persistent enough to consider engaging in deceptive, social engineering practices – as such they had not told the agents not to do this.</p> <p>Concerningly, AISI also said it had not used monitoring tools to watch the test as it ran – its security team only detected the anomalous traffic through general monitoring after the fact. Had its teams been watching, they may have been able to flag or block the malicious behaviours more quickly.</p> <p>AISI also noted another factor that proved instrumental in limiting the real-world damage – human code reviewers and good security practice by a potential victim, who on suspecting the code was malicious opened it in a secure sandbox environment.</p> <p>“In these cases, standard good practice, human judgment, and caution around AI-generated code stopped the worst outcomes. But in several cases the margin between failure and success was narrow, resting on human vigilance rather than a technical barrier that would reliably prevent this behaviour in a more capable agent,” said AISI.</p> <p><a href=\"https://www.huntress.com/\" target=\"_blank\" rel=\"noopener\">Huntress</a> virtual chief information security officer (VCISO) and EMEA cyber security advisor Muhammad Yahya Patel said: “If you give a frontier model a cyber security challenge, disable its safety classifiers, hand it open internet access, and tell it to find a way through, you’ve essentially described the setup for an offensive security operation. The model has been trained on vast amounts of security research, exploit documentation, social engineering techniques, and attack methodology. Of course it reaches for those tools. The model is doing exactly what it was implicitly asked to do.</p> <p>“The security industry commentary that treats this as a shocking discovery that AI can behave offensively is frankly naive about what these models are and what the test conditions were.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Unprecedented risk\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Unprecedented risk</h2> <p>Andrea Miotti, CEO of non-profit <a href=\"https://controlai.org/\" target=\"_blank\" rel=\"noopener\">ControlAI</a>, who is working to raise awareness of and prevent some of the more existential risks AI poses to human life, said the top AI companies were “demonstrably unable” to control their models and described the national security risks posed by this reality as “unprecedented”.</p> <p>“This is the predictable result of the AI industry racing to build superintelligent AI that is vastly smarter than humans across the board and capable of overpowering and outmaneuvering our national security apparatuses. Nobel Prize winners, leading AI experts, and even the CEOs of the AI companies warn that superintelligent AI would pose an extinction risk to humanity,” said Miotti.</p> <p>“Governments need to recognise the enormous risks that these rogue AIs point towards, and act now to negotiate an international agreement prohibiting the development of superintelligence. The clock is ticking.”</p> <p>AISI insisted it was a “capable organisation with strong safety practices” but warned that no defences will be sufficient indefinitely. Alongside the incidents reported by OpenAI and Anthropic, it noted that the incident more broadly points to a shift in the risk landscape where harm arises not only through deliberate misuse of AI by humans, but through actions taken independently by sufficiently capable agents.</p> <p>The organisation said it would treat this as a serious incident and implement “lasting change” for its own evaluation protocols and security architectures. It admitted it needed tighter controls on internet access and will explore the use of more fine-grained network controls into its cyber ranges to preserve realism while constraining the agents. It will also ramp up its monitoring procedures, and reassess how it designs cyber tests, placing the assumption that capable agents will try to act beyond their remit.</p> <p>“AISI exists to identify these problems, understand them, and share what we learn so they can be addressed before more capable systems are deployed…. The work is not complete…. The task now is to strengthen our defences and ensure that safety work keeps pace,” it said.</p> <p>AISI’s disclosure notice, and a full technical report (PDF format) <a href=\"https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing\">can be found here</a>.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about AI-driven cyber attacks</h3> <ul class=\"default-list\"> <li>In June, the Five Eyes intelligence bloc warned that frontier AI models will pose a greater cyber security risk to governments and businesses than previously thought, <a href=\"https://www.computerweekly.com/news/366644997/AI-powered-cyber-attacks-may-be-just-months-away-warn-Five-Eyes\" target=\"_blank\" rel=\"noopener\">putting them at risk before 2026 is out</a>.</li> <li>The reality of the AI-orchestrated cyber attack on Hugging Face is rather more complicated, and much more worrying, than it might appear at face value. <a href=\"https://www.computerweekly.com/news/366646245/Did-an-AI-agent-really-break-free-and-attack-another-company\" target=\"_blank\" rel=\"noopener\">Dan Raywood investigates</a>.</li> <li>Anthropic's revelation that a model broke out of its test environment three times and accessed external systems, shows the power of these models, <a href=\"https://www.computerweekly.com/news/366646658/Gartner-Why-cybersecurity-must-shift-to-outcomes-against-AI-led-attacks\" target=\"_blank\" rel=\"noopener\">say Gartner analysts</a>.</li> </ul> </div> </div> </section>",
+    "raw_text": "<p>The UK’s <a href=\"https://www.aisi.gov.uk/\" target=\"_blank\" rel=\"noopener\">AI Security Institute</a> (AISI), a governmental research body dedicated to enhancing understanding of artificial intelligence (AI) cyber risks, has become the latest organisation to admit that AI models supposedly under its control ran a series of cyber attacks against real people and organisations during a routine test.</p> <p>The latest in a string of similar incidents occurred just days after Anthropic owned up to a series of unforced errors that led <a href=\"https://www.computerweekly.com/news/366646678/Anthropic-lost-control-of-Claude-in-latest-AI-cyber-blunder\" target=\"_blank\" rel=\"noopener\">variants of its Claude model to conduct a series of cyber attacks</a>, a disclosure that came hot on the heels of another cyber attack in which OpenAI models <a href=\"https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model\" target=\"_blank\" rel=\"noopener\">took potshots at Hugging Face</a>.</p> <p>AISI, which originated within the now defunct <a href=\"https://www.computerweekly.com/news/366646157/Will-digital-government-recover-from-DSIT-breakup\" target=\"_blank\" rel=\"noopener\">Department for Science, Innovation and Technology</a> (DSIT), said: “On July 28 2026, AISI's Security Team detected unusual data transfers leaving our research systems during a routine cyber evaluation. On investigation, we found that some of the agents being tested had engaged in sustained, potentially harmful activity directed at real people and organisations. We declared a security incident and, within roughly one hour of discovery, had contained it and begun a full investigation.”</p> <p>The incident involved Anthropic’s Claude Mythos 5 and OpenAi’s GPT-5.6-Sol – both of which were also <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Anthropic-Claude-incidents-show-the-limits-of-AI-guard-rails\" target=\"_blank\" rel=\"noopener\">culprits in the previous attacks</a> – operating in “deliberately permissive” conditions with access to the open internet and some safety filters turned off. AISI claimed this was done so that it could evaluate and understand the capabilities of frontier models, including whether they could be used for cyber attacks.</p> <p>In 10 out of 122 runs of a specific evaluation challenge, AISI admitted the models took “autonomous, unsanctioned” actions in 19 cases. These were all unsuccessful, it added, and the resulting investigation has not surfaced any real-world harm.</p> <p>The majority of these actions arose from a single, sustained line of activity taken by Mythos 5, which echoed in its nature actions the same model also took during last week’s incident at Anthropic.</p> <p>This incident saw Mythos 5 attempt to conduct an <a href=\"https://www.computerweekly.com/news/366646561/Amazon-pins-multiple-open-source-compromises-on-North-Korea\" target=\"_blank\" rel=\"noopener\">open source supply chain attack</a> by inserting malicious code into a public project. It created a series of fake online identities that it used to pressurise the human project maintainer into approving its malicious code. When the agent’s pull request was publicly challenged, it tried to edit its early activity to look harmless and considered adopting a new identity to continue the attack. This kind of social engineering by an AI has not been seen before, according to AISI.</p> <p>Mythos 5 also attempted to insert malicious code as a form of prompt injection attack to manipulate other automated AI coding systems that might pick them up later on and left public messages on GitHub offering to work with other agents participating in the same challenge, providing instructions on how to reuse accounts and artefacts that were left behind – information that was discovered and used by other agents.</p> <p>However, during this attack, Mythos 5 used the Tor network to try to bypass GitHub’s network restrictions, which is what triggered the AISI security alert.</p> <p>“This is the first time we have seen risks around autonomy and deception manifest this clearly, without specific prompting, in the real-world,” said AISI.</p> <section class=\"section main-article-chapter\" data-menu-title=\"AI working as intended?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>AI working as intended?</h2> <p>AISI said that at a purely objective level, the agents involved took these malicious actions in order to accomplish the task they had been set successfully, but its investigation has identified several factors that appear to have contributed to their behaviour.</p> <p>It said the task was intentionally difficult and that it had deliberately misconfigured the challenge prompt to fool the agents into thinking they couldn’t solve it without going beyond the scope of the task. The agents were allowed to access the open internet to enable them to download any tools they might need, but AISI admitted its researchers failed to anticipate they would be persistent enough to consider engaging in deceptive, social engineering practices – as such they had not told the agents not to do this.</p> <p>Concerningly, AISI also said it had not used monitoring tools to watch the test as it ran – its security team only detected the anomalous traffic through general monitoring after the fact. Had its teams been watching, they may have been able to flag or block the malicious behaviours more quickly.</p> <p>AISI also noted another factor that proved instrumental in limiting the real-world damage – human code reviewers and good security practice by a potential victim, who on suspecting the code was malicious opened it in a secure sandbox environment.</p> <p>“In these cases, standard good practice, human judgement, and caution around AI-generated code stopped the worst outcomes. But in several cases the margin between failure and success was narrow, resting on human vigilance rather than a technical barrier that would reliably prevent this behaviour in a more capable agent,” said AISI.</p> <p><a href=\"https://www.huntress.com/\" target=\"_blank\" rel=\"noopener\">Huntress</a> virtual chief information security officer (VCISO) and EMEA cyber security advisor Muhammad Yahya Patel said: “If you give a frontier model a cyber security challenge, disable its safety classifiers, hand it open internet access and tell it to find a way through, you’ve essentially described the setup for an offensive security operation. The model has been trained on vast amounts of security research, exploit documentation, social engineering techniques and attack methodology. Of course it reaches for those tools. The model is doing exactly what it was implicitly asked to do.</p> <p>“The security industry commentary that treats this as a shocking discovery that AI can behave offensively is frankly naive about what these models are and what the test conditions were.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Unprecedented risk\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Unprecedented risk</h2> <p>Andrea Miotti, CEO of non-profit <a href=\"https://controlai.org/\" target=\"_blank\" rel=\"noopener\">ControlAI</a>, who is working to raise awareness of and prevent some of the more existential risks AI poses to human life, said the top AI companies were “demonstrably unable” to control their models and described the national security risks posed by this reality as “unprecedented”.</p> <p>“This is the predictable result of the AI industry racing to build superintelligent AI that is vastly smarter than humans across the board and capable of overpowering and outmaneuvering our national security apparatuses. Nobel Prize winners, leading AI experts and even the CEOs of the AI companies warn that superintelligent AI would pose an extinction risk to humanity,” said Miotti.</p> <p>“Governments need to recognise the enormous risks that these rogue AIs point towards, and act now to negotiate an international agreement prohibiting the development of superintelligence. The clock is ticking.”</p> <p>AISI insisted it was a “capable organisation with strong safety practices” but warned that no defences will be sufficient indefinitely. Alongside the incidents reported by OpenAI and Anthropic, it noted that the incident more broadly points to a shift in the risk landscape where harm arises not only through deliberate misuse of AI by humans, but through actions taken independently by sufficiently capable agents.</p> <p>The organisation said it would treat this as a serious incident and implement “lasting change” for its own evaluation protocols and security architectures. It admitted it needed tighter controls on internet access and will explore the use of more fine-grained network controls into its cyber ranges to preserve realism while constraining the agents. It will also ramp up its monitoring procedures and reassess how it designs cyber tests, placing the assumption that capable agents will try to act beyond their remit.</p> <p>“AISI exists to identify these problems, understand them and share what we learn so they can be addressed before more capable systems are deployed The work is not complete … The task now is to strengthen our defences and ensure that safety work keeps pace,” it said.</p> <p>AISI’s disclosure notice, and a full technical report (PDF format) <a href=\"https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing\">can be found here</a>.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about AI-driven cyber attacks</h3> <ul class=\"default-list\"> <li>In June, the Five Eyes intelligence bloc warned that frontier AI models will pose a greater cyber security risk to governments and businesses than previously thought, <a href=\"https://www.computerweekly.com/news/366644997/AI-powered-cyber-attacks-may-be-just-months-away-warn-Five-Eyes\" target=\"_blank\" rel=\"noopener\">putting them at risk before 2026 is out</a>.</li> <li>The reality of the AI-orchestrated cyber attack on Hugging Face is rather more complicated, and much more worrying, than it might appear at face value. <a href=\"https://www.computerweekly.com/news/366646245/Did-an-AI-agent-really-break-free-and-attack-another-company\" target=\"_blank\" rel=\"noopener\">Dan Raywood investigates</a>.</li> <li>Anthropic's revelation that a model broke out of its test environment three times and accessed external systems, shows the power of these models, <a href=\"https://www.computerweekly.com/news/366646658/Gartner-Why-cybersecurity-must-shift-to-outcomes-against-AI-led-attacks\" target=\"_blank\" rel=\"noopener\">say Gartner analysts</a>.</li> </ul> </div> </div> </section>",
     "categories": [
       "Cybersecurity",
       "Networks",
@@ -3590,7 +3684,7 @@
         "gartner"
       ]
     },
-    "summary": "<p>The UK’s <a href=\"https://www.aisi.gov.uk/\" target=\"_blank\" rel=\"noopener\">AI Security Institute</a> (AISI), a governmental research body dedicated to enhancing understanding of AI cyber risks, has become the latest organisation to admit that AI models supposedly under its control ran a series of cyber attacks against real people and organisations during a routine test.</p> <p>The latest in a string of similar incidents occurred just days after Anthropic owned up to a series of unforced errors that led <a href=\"https://www.computerweekly.com/news/366646678/Anthropic-lost-control-of-Claude-in-latest-AI-cyber-blunder\" target=\"_blank\" rel=\"noopener\">variants of its Claude model to conduct a series of cyber attacks</a>, a disclosure that came hot on the heels of another cyber attack in which OpenAI models <a href=\"https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model\" target=\"_blank\" rel=\"noopener\">took potshots at Hugging Face</a>.</p> <p>AISI, which originated within the now defunct <a href=\"https://www.computerweekly.com/news/366646157/Will-digital-government-recover-from-DSIT-breakup\" target=\"_blank\" rel=\"noopener\">Department for Science, Innovation and Technology</a> (DSIT), said: “On July 28 2026, AISI's Security Team detected unusual data transfers leaving our research systems during a routine cyber evaluation. On investigation, we found that some of the agents being tested had engaged in sustained, potentially harmful activity directed at real people and organisations. We declared a security incident and, within roughly one hour of discovery, had contained it and begun a full investigation.”</p> <p>The incident involved Anthropic’s Claude Mythos 5 and OpenAi’s GPT-5.6-Sol – both of which were also <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Anthropic-Claude-incidents-show-the-limits-of-AI-guard-rails\" target=\"_blank\" rel=\"noopener\">culprits in the previous attacks</a> – operating in “deliberately permissive” conditions with access to the open internet and some safety filters turned off. AISI claimed this was done so that it could evaluate and understand the capabilities of frontier models, including whether they could be used for cyber attacks.</p> <p>In 10 out of 122 runs of a specific evaluation challenge, AISI admitted the models took “autonomous, unsanctioned” actions in 19 cases."
+    "summary": "<p>The UK’s <a href=\"https://www.aisi.gov.uk/\" target=\"_blank\" rel=\"noopener\">AI Security Institute</a> (AISI), a governmental research body dedicated to enhancing understanding of artificial intelligence (AI) cyber risks, has become the latest organisation to admit that AI models supposedly under its control ran a series of cyber attacks against real people and organisations during a routine test.</p> <p>The latest in a string of similar incidents occurred just days after Anthropic owned up to a series of unforced errors that led <a href=\"https://www.computerweekly.com/news/366646678/Anthropic-lost-control-of-Claude-in-latest-AI-cyber-blunder\" target=\"_blank\" rel=\"noopener\">variants of its Claude model to conduct a series of cyber attacks</a>, a disclosure that came hot on the heels of another cyber attack in which OpenAI models <a href=\"https://www.computerweekly.com/news/366646003/Hugging-Face-hacker-was-rogue-OpenAI-model\" target=\"_blank\" rel=\"noopener\">took potshots at Hugging Face</a>.</p> <p>AISI, which originated within the now defunct <a href=\"https://www.computerweekly.com/news/366646157/Will-digital-government-recover-from-DSIT-breakup\" target=\"_blank\" rel=\"noopener\">Department for Science, Innovation and Technology</a> (DSIT), said: “On July 28 2026, AISI's Security Team detected unusual data transfers leaving our research systems during a routine cyber evaluation. On investigation, we found that some of the agents being tested had engaged in sustained, potentially harmful activity directed at real people and organisations. We declared a security incident and, within roughly one hour of discovery, had contained it and begun a full investigation.”</p> <p>The incident involved Anthropic’s Claude Mythos 5 and OpenAi’s GPT-5.6-Sol – both of which were also <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Anthropic-Claude-incidents-show-the-limits-of-AI-guard-rails\" target=\"_blank\" rel=\"noopener\">culprits in the previous attacks</a> – operating in “deliberately permissive” conditions with access to the open internet and some safety filters turned off. AISI claimed this was done so that it could evaluate and understand the capabilities of frontier models, including whether they could be used for cyber attacks.</p> <p>In 10 out of 122 runs of a specific evaluation challenge, AISI admitted the models took “autonomous, unsanctioned” actions in 19 cases."
   },
   {
     "title": "Chi Onwurah pushes to curb digital twins of real people",
@@ -3683,38 +3777,16 @@
     "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>My career in unified communications stretches back far enough that I’m amazed at how many technological eras I have lived through. But whenever I’m asked where it all truly began, my mind always returns to one moment in the late 1990s - the first time I saw a <a href=\"https://www.computerweekly.com/news/366625707/Cisco-Live-2025-The-digital-workplace-gets-closer-to-distance-zero\">video conference come to life</a>.</p> <p>Up until then, communication in my world had been strictly practical."
   },
   {
-    "title": "Government gives regulatory boost to support AI in legal sector",
-    "url": "https://www.computerweekly.com/news/366647163/Government-gives-regulatory-boost-to-support-AI-in-legal-sector",
-    "source": "ComputerWeekly",
-    "published": "2026-08-04T07:35:00+00:00",
-    "raw_text": "<p>The UK government has opened up applications for its new Legal Services AI Growth Lab, which aims to help law firms, conveyancers and legal technology companies adopt artificial intelligence (AI) faster.</p> <p>The previous Keir Starmer administration unveiled its <a href=\"https://www.gov.uk/government/calls-for-evidence/ai-growth-lab/ai-growth-labhttps://www.computerweekly.com/news/366633176/Government-to-launch-AI-sandbox-scheme\">AI Growth Lab</a> plan in 2025, with the aim of supporting growth and responsible AI innovation by making targeted regulatory modifications under robust safeguards and with careful monitoring.&nbsp;</p> <p>The government sees the legal sector as one that will benefit from greater use of AI if regulations can be tweaked to enable the use of the technology for document processing and analysis. When it opened up a <a href=\"https://www.gov.uk/government/calls-for-evidence/ai-growth-lab/ai-growth-lab\">consultation on its AI Growth Lab proposal</a>, the government said AI could support complex elements of the planning process such as environmental impact assessments, where machine learning and large language models could reduce the burden of assessment and help decision-makers and communities make best use of the documents that need to be analysed.</p> <p>Legal firms taking part in the Legal Services AI Growth Lab will be able to work directly with regulators to understand how existing rules apply to AI, identify barriers slowing adoption and get practical support on using the technology responsibly.</p> <p>The UK’s AI minister, <a href=\"https://www.computerweekly.com/news/366646018/Kaniskha-Narayan-takes-on-AI-sovereignty-in-Burnham-cabinet\">Kanishka Narayan</a>, said: “The legal services sector employs over 317,000 people up and down the country, and it’s a fundamental part of how we do business and access justice. Society and the economy simply don’t work without it.</p> <p>“In many ways, this sector is the exemplar case for just how <a href=\"https://www.techtarget.com/searchcontentmanagement/news/366643495/Docusign-upgrades-AI-fueled-contract-management-platform\">impactful AI</a> is set to be. Smart, responsible use of this technology could make legal services radically more accessible and free up legal professionals to focus on the complex, high-value work where human judgement is irreplaceable. But to make that happen, it’s critical that we get the regulation right, and this first AI Growth Lab will guide us all as we start that important journey.”</p> <p>The lab brings together the Council for Licensed Conveyancers, the Solicitors Regulation Authority, the Information Commissioner’s Office and the Legal Services Board, with a view to identifying regulatory barriers to the roll-out of AI in legal services.</p> <p>AI has the potential to make legal services faster, more affordable and easier to access, such as streamlining solicitors’ work, which, if the savings are passed on, means small businesses will face lower legal fees when they need to recover unpaid debts through the courts. Another example of AI efficiency gains is in the property buying and selling process, where AI systems could be used to analyse documents and free up conveyancers to focus on more complex tasks.&nbsp;</p> <p>Commenting on the scope for using AI in legal services, justice minister Sarah Sackman KC said: “The legal sector is one of the UK’s greatest economic strengths, generating more than £40bn in recent years. It is important that our services industry keeps pace and remains at the forefront of digital innovation.&nbsp;</p> <p>“That is why we are accelerating innovation across the legal sector, boosting productivity and delivering a modern justice system that can help cement the UK’s position as a global leader in legal services.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about government AI</h3> <ul class=\"default-list\"> <li>UK government vows to fast-track <a href=\"https://www.computerweekly.com/news/366634325/UK-government-vows-to-fast-track-AI-growth-zone-planning-and-energy-access\">AI growth zone planning</a> and energy access: On the same day the UK government confirms the location of its next AI growth zone, in North Wales, it also makes a series of pledges about fast-tracking planning and energy access.</li> <li>Enormous <a href=\"https://www.computerweekly.com/news/366639995/Enormous-AI-growth-zone-datacentre-gets-planning-approval\">AI growth zone datacentre</a> gets planning approval: North Lincolnshire Council approves 1GW datacentre with nearby electricity generation, but environmental campaigners say the developers did their sums wrong.</li> </ul> </div> </div>",
+    "title": "The best 75-inch TVs of 2026: Expert tested",
+    "url": "https://www.zdnet.com/article/best-75-inch-tv/",
+    "source": "ZDNet",
+    "published": "2026-08-06T09:00:49+00:00",
+    "raw_text": "A 75-inch TV gives you a big-screen experience without overwhelming your space. And we've tested the best from Samsung, Sony, LG, and more to help you find the right fit for your budget.",
     "categories": [
-      "GRC",
-      "Networks",
-      "Cybersecurity",
-      "Data Centres",
-      "Industry & Market"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "regulation",
-        "regulatory",
-        "nist"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "<p>The UK government has opened up applications for its new Legal Services AI Growth Lab, which aims to help law firms, conveyancers and legal technology companies adopt artificial intelligence (AI) faster.</p> <p>The previous Keir Starmer administration unveiled its <a href=\"https://www.gov.uk/government/calls-for-evidence/ai-growth-lab/ai-growth-labhttps://www.computerweekly.com/news/366633176/Government-to-launch-AI-sandbox-scheme\">AI Growth Lab</a> plan in 2025, with the aim of supporting growth and responsible AI innovation by making targeted regulatory modifications under robust safeguards and with careful monitoring.&nbsp;</p> <p>The government sees the legal sector as one that will benefit from greater use of AI if regulations can be tweaked to enable the use of the technology for document processing and analysis. When it opened up a <a href=\"https://www.gov.uk/government/calls-for-evidence/ai-growth-lab/ai-growth-lab\">consultation on its AI Growth Lab proposal</a>, the government said AI could support complex elements of the planning process such as environmental impact assessments, where machine learning and large language models could reduce the burden of assessment and help decision-makers and communities make best use of the documents that need to be analysed.</p> <p>Legal firms taking part in the Legal Services AI Growth Lab will be able to work directly with regulators to understand how existing rules apply to AI, identify barriers slowing adoption and get practical support on using the technology responsibly.</p> <p>The UK’s AI minister, <a href=\"https://www.computerweekly.com/news/366646018/Kaniskha-Narayan-takes-on-AI-sovereignty-in-Burnham-cabinet\">Kanishka Narayan</a>, said: “The legal services sector employs over 317,000 people up and down the country, and it’s a fundamental part of how we do business and access justice. Society and the economy simply don’t work without it.</p> <p>“In many ways, this sector is the exemplar case for just how <a href=\"https://www.techtarget.com/searchcontentmanagement/news/366643495/Docusign-upgrades-AI-fueled-contract-management-platform\">impactful AI</a> is set to be. Smart, responsible use of this technology could make legal services radically more accessible and free up legal professionals to focus on the complex, high-value work where human judgement is irreplaceable."
+    "matched_keywords": {},
+    "summary": "A 75-inch TV gives you a big-screen experience without overwhelming your space. And we've tested the best from Samsung, Sony, LG, and more to help you find the right fit for your budget."
   },
   {
     "title": "DuckDuckGo's new iPhone feature is a privacy win - I recommend getting it now",
@@ -3981,11 +4053,288 @@
     "summary": "TerraMaster's D1 SSD Pro keeps your drives cool enough to perform at their peak."
   },
   {
-    "title": "3 overlooked CarPlay features you'll wish you tried sooner - and why",
-    "url": "https://www.zdnet.com/article/overlooked-carplay-features-youll-wish-you-tried-sooner-why/",
-    "source": "ZDNet",
-    "published": "2026-08-04T14:54:29+00:00",
-    "raw_text": "You can get more from CarPlay - beyond Maps and Music - with these free features.",
+    "title": "Pentair plc Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - PNR",
+    "url": "https://www.prnewswire.com/news-releases/pentair-plc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--pnr-302844486.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:16:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Pentair plc (\"Pentair\" or \"the Company\") (NYSE: PNR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U.S....",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Pentair plc (\"Pentair\" or \"the Company\") (NYSE: PNR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder by the U.S...."
+  },
+  {
+    "title": "Capricor Therapeutics, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - CAPR",
+    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--capr-302844495.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:15:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or \"the Company\") (NASDAQ: CAPR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or \"the Company\") (NASDAQ: CAPR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "Senhwa's CX-5461 Reaches Immuno-Oncology Milestone as its First Multicenter Combination Trial with PD-1 Inhibitor Receives TFDA Clearance",
+    "url": "https://www.prnewswire.com/news-releases/senhwas-cx-5461-reaches-immuno-oncology-milestone-as-its-first-multicenter-combination-trial-with-pd-1-inhibitor-receives-tfda-clearance-302844829.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:14:00+00:00",
+    "raw_text": "TAIPEI, Aug. 6, 2026 /PRNewswire/ -- Senhwa Biosciences, Inc. (TPEx: 6492) today announced that the Taiwan Food and Drug Administration (TFDA) has cleared the Company's multicenter Phase 1b/2a clinical trial evaluating its investigational drug pidnarulex (CX-5461) in combination with a...",
+    "categories": [
+      "Networks",
+      "GRC",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Data Centres": [
+        "colo"
+      ]
+    },
+    "summary": "TAIPEI, Aug. 6, 2026 /PRNewswire/ -- Senhwa Biosciences, Inc. (TPEx: 6492) today announced that the Taiwan Food and Drug Administration (TFDA) has cleared the Company's multicenter Phase 1b/2a clinical trial evaluating its investigational drug pidnarulex (CX-5461) in combination with a..."
+  },
+  {
+    "title": "Cogent Communications Holdings, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - CCOI",
+    "url": "https://www.prnewswire.com/news-releases/cogent-communications-holdings-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--ccoi-302844498.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:10:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Cogent Communications Holdings, Inc. (\"Cogent\" or \"the Company\") (NASDAQ: CCOI) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Cogent Communications Holdings, Inc. (\"Cogent\" or \"the Company\") (NASDAQ: CCOI) violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "Acer Announces Q2'26 Net Income at NT$2.17 Billion, Highest Quarter Post Pandemic; Up 100.2% Year-on-year",
+    "url": "https://www.prnewswire.com/news-releases/acer-announces-q226-net-income-at-nt2-17-billion-highest-quarter-post-pandemic-up-100-2-year-on-year-302844822.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:06:00+00:00",
+    "raw_text": "TAIPEI, Aug. 6, 2026 /PRNewswire/ -- Acer Inc. (TWSE: 2353) announced its consolidated financial results for the second quarter and first half of 2026. Reflecting the continued progress of its multiple business engines strategy, Acer delivered the highest quarterly net income post...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "TAIPEI, Aug. 6, 2026 /PRNewswire/ -- Acer Inc. (TWSE: 2353) announced its consolidated financial results for the second quarter and first half of 2026. Reflecting the continued progress of its multiple business engines strategy, Acer delivered the highest quarterly net income post..."
+  },
+  {
+    "title": "Dialogue highlights Hongshan culture protection",
+    "url": "https://www.prnewswire.com/news-releases/dialogue-highlights-hongshan-culture-protection-302844820.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:02:00+00:00",
+    "raw_text": "Culture: Deal signed for joint protection BEIJING, Aug. 6, 2026 /PRNewswire/ -- A news report from China Daily: Cultural heritage is a living dialogue connecting the past, the present and a shared future, participants at a cultural event said on Wednesday, highlighting the importance of...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Culture: Deal signed for joint protection BEIJING, Aug. 6, 2026 /PRNewswire/ -- A news report from China Daily: Cultural heritage is a living dialogue connecting the past, the present and a shared future, participants at a cultural event said on Wednesday, highlighting the importance of..."
+  },
+  {
+    "title": "RPI Consultants Redesigns Reporting in Yoga Flexible Software",
+    "url": "https://www.prnewswire.com/news-releases/rpi-consultants-redesigns-reporting-in-yoga-flexible-software-302844314.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "BALTIMORE, Aug. 6, 2026 /PRNewswire/ -- RPI Consultants, a leading ERP implementation, optimization, and software firm, today announced a complete overhaul of reporting inside Yoga Flexible Software. Yoga's new reporting suite provides greater visibility into the entire accounts payable...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BALTIMORE, Aug. 6, 2026 /PRNewswire/ -- RPI Consultants, a leading ERP implementation, optimization, and software firm, today announced a complete overhaul of reporting inside Yoga Flexible Software. Yoga's new reporting suite provides greater visibility into the entire accounts payable..."
+  },
+  {
+    "title": "ABB invierte en LevelTen Energy para impulsar la adquisición de energía limpia",
+    "url": "https://www.prnewswire.com/news-releases/abb-invierte-en-levelten-energy-para-impulsar-la-adquisicion-de-energia-limpia-302843940.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "La alianza e inversión en LevelTen Energy, el mercado de energía limpia más grande del mundo, fortalece la capacidad de ABB para ayudar a clientes industriales y comerciales a obtener energía limpia asequible a largo plazo sin comprometer la rapidez de suministro en un entorno de red...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "La alianza e inversión en LevelTen Energy, el mercado de energía limpia más grande del mundo, fortalece la capacidad de ABB para ayudar a clientes industriales y comerciales a obtener energía limpia asequible a largo plazo sin comprometer la rapidez de suministro en un entorno de red..."
+  },
+  {
+    "title": "ABB investiert in LevelTen Energy, um die Beschaffung sauberer Energie voranzutreiben",
+    "url": "https://www.prnewswire.com/news-releases/abb-investiert-in-levelten-energy-um-die-beschaffung-sauberer-energie-voranzutreiben-302843796.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "Partnerschaft und Beteiligung an LevelTen Energy – der weltweit größte Marktplatz für saubere Energie – stärkt die Fähigkeit von ABB, Industrie- und Gewerbekunden dabei zu unterstützen, erschwingliche, langfristige saubere Energie zu sichern, ohne dabei die schnelle Stromversorgung in...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Partnerschaft und Beteiligung an LevelTen Energy – der weltweit größte Marktplatz für saubere Energie – stärkt die Fähigkeit von ABB, Industrie- und Gewerbekunden dabei zu unterstützen, erschwingliche, langfristige saubere Energie zu sichern, ohne dabei die schnelle Stromversorgung in..."
+  },
+  {
+    "title": "Thrupp & Maberly: Historic British Coachbuilder Enters a New Era of Bespoke Motor Cars",
+    "url": "https://www.prnewswire.com/news-releases/thrupp--maberly-historic-british-coachbuilder-enters-a-new-era-of-bespoke-motor-cars-302843902.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "COVENTRY, England, Aug. 6, 2026 /PRNewswire/ -- One of Britain's most historic names in coachbuilding enters a new chapter. Thrupp & Maberly, whose origins trace back to the eighteenth century, returns as a contemporary British coachbuilding atelier dedicated to creating highly bespoke...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "COVENTRY, England, Aug. 6, 2026 /PRNewswire/ -- One of Britain's most historic names in coachbuilding enters a new chapter. Thrupp & Maberly, whose origins trace back to the eighteenth century, returns as a contemporary British coachbuilding atelier dedicated to creating highly bespoke..."
+  },
+  {
+    "title": "ABB investit dans LevelTen Energy pour favoriser l'approvisionnement en énergie propre",
+    "url": "https://www.prnewswire.com/news-releases/abb-investit-dans-levelten-energy-pour-favoriser-lapprovisionnement-en-energie-propre-302843717.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "Partenariat et investissement dans l' LevelTen Energy – la plus grande place de marché mondiale dédiée aux énergies propres – renforce la capacité d'ABB à aider ses clients industriels et commerciaux à s'approvisionner en énergie propre à long terme et à un prix abordable, sans...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Partenariat et investissement dans l' LevelTen Energy – la plus grande place de marché mondiale dédiée aux énergies propres – renforce la capacité d'ABB à aider ses clients industriels et commerciaux à s'approvisionner en énergie propre à long terme et à un prix abordable, sans..."
+  },
+  {
+    "title": "Huya to Exclusively Publish Xiao Xiao Qi Yu, an Officially Licensed Zanmang Loopy IP Mobile Game Powered by Triple Match 3D's Core Gameplay",
+    "url": "https://www.prnewswire.com/news-releases/huya-to-exclusively-publish-xiao-xiao-qi-yu-an-officially-licensed-zanmang-loopy-ip-mobile-game-powered-by-triple-match-3ds-core-gameplay-302844803.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "GUANGZHOU, China, Aug. 6, 2026 /PRNewswire/ -- HUYA Inc. (\"Huya\" or the \"Company\") (NYSE: HUYA), a leading game-related entertainment and services provider, today announced that it will exclusively publish Xiao Xiao Qi Yu, a 3D match-based casual mobile game officially licensed under the...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "GUANGZHOU, China, Aug. 6, 2026 /PRNewswire/ -- HUYA Inc. (\"Huya\" or the \"Company\") (NYSE: HUYA), a leading game-related entertainment and services provider, today announced that it will exclusively publish Xiao Xiao Qi Yu, a 3D match-based casual mobile game officially licensed under the..."
+  },
+  {
+    "title": "IIFL Capital partners with Flytxt to leverage Agentic AI for sustainable AUM growth",
+    "url": "https://www.prnewswire.com/news-releases/iifl-capital-partners-with-flytxt-to-leverage-agentic-ai-for-sustainable-aum-growth-302843749.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "DUBAI, UAE, Aug. 6, 2026 /PRNewswire/ -- Flytxt, a leading provider of Enterprise AI solutions for Marketplace Optimisation, today announced that IIFL Capital Services Limited, a full-service investment and wealth management firm, has adopted its award winning AI to strengthen investor...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "DUBAI, UAE, Aug. 6, 2026 /PRNewswire/ -- Flytxt, a leading provider of Enterprise AI solutions for Marketplace Optimisation, today announced that IIFL Capital Services Limited, a full-service investment and wealth management firm, has adopted its award winning AI to strengthen investor..."
+  },
+  {
+    "title": "Hub Group, Inc. Investor Alert: Contact SBS by August 28, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-investor-alert-contact-sbs-by-august-28-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302844543.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub\" or \"the Company\") (NASDAQ: HUBG) violations of §§10(b) and 20(a) of the Securities Exchange Act...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub\" or \"the Company\") (NASDAQ: HUBG) violations of §§10(b) and 20(a) of the Securities Exchange Act..."
+  },
+  {
+    "title": "Italian Wine Podcast Returns to TEXSOM for Exclusive 2026 Interview Series",
+    "url": "https://www.prnewswire.com/news-releases/italian-wine-podcast-returns-to-texsom-for-exclusive-2026-interview-series-302844139.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "Hosted by wine journalist and author Jessica Dupuy, the series will feature conversations with professionals working across wine, hospitality, education, retail, and communications. VERONA, Italy, Aug. 6, 2026 /PRNewswire/ -- TEXSOM and Italian Wine Podcast have renewed their media...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Hosted by wine journalist and author Jessica Dupuy, the series will feature conversations with professionals working across wine, hospitality, education, retail, and communications. VERONA, Italy, Aug. 6, 2026 /PRNewswire/ -- TEXSOM and Italian Wine Podcast have renewed their media..."
+  },
+  {
+    "title": "ABB invests in LevelTen Energy to advance clean energy procurement",
+    "url": "https://www.prnewswire.com/news-releases/abb-invests-in-levelten-energy-to-advance-clean-energy-procurement-302843720.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T09:00:00+00:00",
+    "raw_text": "Partnership and investment in LevelTen Energy – the world's largest clean energy marketplace – strengthens ABB's ability to support industrial and commercial customers secure affordable, long-term clean energy without compromising speed to power in a complex grid environment Enhances...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "partnership",
+        "investment"
+      ]
+    },
+    "summary": "Partnership and investment in LevelTen Energy – the world's largest clean energy marketplace – strengthens ABB's ability to support industrial and commercial customers secure affordable, long-term clean energy without compromising speed to power in a complex grid environment Enhances..."
+  },
+  {
+    "title": "FSLR Investors Have Opportunity to Lead First Solar, Inc. Securities Fraud Lawsuit with SBS Law",
+    "url": "https://www.prnewswire.com/news-releases/fslr-investors-have-opportunity-to-lead-first-solar-inc-securities-fraud-lawsuit-with-sbs-law-302844540.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T08:58:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- Schall, Brown & Schwartz LLP (\"SBS\"), a national shareholder rights litigation firm, reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the..."
+  },
+  {
+    "title": "First Solar, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FSLR",
+    "url": "https://www.prnewswire.com/news-releases/first-solar-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fslr-302844529.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T08:57:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 6, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "METLEN - FINANCIAL RESULTS H1 2026",
+    "url": "https://www.prnewswire.com/news-releases/metlen---financial-results-h1-2026-302844816.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-06T08:57:00+00:00",
+    "raw_text": "METLEN Delivers Record H1 Performance across all key Financial metrics (incl. Revenues, EBITDA, Net Income, as well as Operating cash flow). ATHENS and LONDON, Aug. 6, 2026 /PRNewswire/ -- METLEN Energy & Metals PLC (LSE: MTLN) (RIC: MTLN.L) (Bloomberg: MTLN.LN) (Athens: MTLN) (RIC: MTLNr....",
     "categories": [
       "Industry & Market"
     ],
@@ -3994,7 +4343,48 @@
         "ey"
       ]
     },
-    "summary": "You can get more from CarPlay - beyond Maps and Music - with these free features."
+    "summary": "METLEN Delivers Record H1 Performance across all key Financial metrics (incl. Revenues, EBITDA, Net Income, as well as Operating cash flow). ATHENS and LONDON, Aug. 6, 2026 /PRNewswire/ -- METLEN Energy & Metals PLC (LSE: MTLN) (RIC: MTLN.L) (Bloomberg: MTLN.LN) (Athens: MTLN) (RIC: MTLNr...."
+  },
+  {
+    "title": "TOKEN2049 Singapore Returns as the Largest Industry Gathering of the Year",
+    "url": "https://www.globenewswire.com/news-release/2026/08/06/3339988/0/en/TOKEN2049-Singapore-Returns-as-the-Largest-Industry-Gathering-of-the-Year.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-06T09:07:00+00:00",
+    "raw_text": "SINGAPORE, Aug. 06, 2026 (GLOBE NEWSWIRE) -- 25,000 attendees, 500 exhibitors, 300 speakers and 1,000 side events will bring the global crypto industry to Singapore this October.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SINGAPORE, Aug. 06, 2026 (GLOBE NEWSWIRE) -- 25,000 attendees, 500 exhibitors, 300 speakers and 1,000 side events will bring the global crypto industry to Singapore this October."
+  },
+  {
+    "title": "Funding Circle launches a new mobile app, giving FlexiPay and Card customers greater financial control and on the go flexibility",
+    "url": "https://www.globenewswire.com/news-release/2026/08/06/3339979/0/en/Funding-Circle-launches-a-new-mobile-app-giving-FlexiPay-and-Card-customers-greater-financial-control-and-on-the-go-flexibility.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-06T08:51:00+00:00",
+    "raw_text": "Funding Circle launches a new mobile app, giving FlexiPay and Card customers greater financial control and on the go flexibility.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches",
+        "funding"
+      ]
+    },
+    "summary": "Funding Circle launches a new mobile app, giving FlexiPay and Card customers greater financial control and on the go flexibility."
+  },
+  {
+    "title": "Don Carlos Lee Gibson Jr. Publishes The Stewardship Standard a New Playbook for Club Leadership",
+    "url": "https://www.globenewswire.com/news-release/2026/08/06/3339964/0/en/Don-Carlos-Lee-Gibson-Jr-Publishes-The-Stewardship-Standard-a-New-Playbook-for-Club-Leadership.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-06T07:13:00+00:00",
+    "raw_text": "Don Carlos Lee Gibson Jr. has published The Stewardship Standard, positioning hospitality as an operating system rather than a customer service function.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Don Carlos Lee Gibson Jr. has published The Stewardship Standard, positioning hospitality as an operating system rather than a customer service function."
   },
   {
     "title": "Ihab Badawi Launches Certification and Mentoring Program for Career Transitions",
@@ -4272,54 +4662,6 @@
     ],
     "matched_keywords": {},
     "summary": "Founder Chris Mendham says many veterans underestimate the financial value of properly understanding their VA benefits."
-  },
-  {
-    "title": "AML Partners On Track to Serve Over 300 Tranche 2 Businesses With Fully Outsourced AUSTRAC Compliance Platform",
-    "url": "https://www.globenewswire.com/news-release/2026/08/06/3339908/0/en/AML-Partners-On-Track-to-Serve-Over-300-Tranche-2-Businesses-With-Fully-Outsourced-AUSTRAC-Compliance-Platform.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-06T04:32:00+00:00",
-    "raw_text": "Australian compliance firm reports rapid customer growth as Tranche 2 businesses turn to outsourced solutions for ongoing AUSTRAC compliance.",
-    "categories": [
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "compliance"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Australian compliance firm reports rapid customer growth as Tranche 2 businesses turn to outsourced solutions for ongoing AUSTRAC compliance."
-  },
-  {
-    "title": "Liberty Pixel: AI-Native Gaming Is Live, Gaining Traction, and Here to Stay",
-    "url": "https://www.globenewswire.com/news-release/2026/08/06/3339904/0/en/Liberty-Pixel-AI-Native-Gaming-Is-Live-Gaining-Traction-and-Here-to-Stay.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-06T03:58:00+00:00",
-    "raw_text": "Liberty Pixel reports that games built through its AI-native production model are live and earning, led by the arcade title SkeeBoost",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Liberty Pixel reports that games built through its AI-native production model are live and earning, led by the arcade title SkeeBoost"
-  },
-  {
-    "title": "Tous les parfums ne font pas leurs débuts en boutique : Oud of London est lancé en exclusivité à bord des vols Emirates",
-    "url": "https://www.globenewswire.com/news-release/2026/08/06/3339898/0/fr/Tous-les-parfums-ne-font-pas-leurs-d%C3%A9buts-en-boutique-Oud-of-London-est-lanc%C3%A9-en-exclusivit%C3%A9-%C3%A0-bord-des-vols-Emirates.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-06T02:38:00+00:00",
-    "raw_text": "Pour découvrir davantage d’images, cliquez ICI",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Pour découvrir davantage d’images, cliquez ICI"
   },
   {
     "title": "Oxylabs Study Finds Cloud Skills Dominate U.S. Tech Hiring Demand - INDIA New England News",
