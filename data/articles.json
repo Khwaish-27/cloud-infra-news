@@ -1419,6 +1419,26 @@
     "summary": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days."
   },
   {
+    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+    "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-08-06T15:00:00+00:00",
+    "raw_text": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ],
+      "Industry & Market": [
+        "gartner"
+      ]
+    },
+    "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog ."
+  },
+  {
     "title": "Zero-code, low-cost data ingestion: New BigQuery DTS capabilities",
     "url": "https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/",
     "source": "Google Cloud Blog",
@@ -1594,7 +1614,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
     "source": "Google Cloud Blog",
     "published": "2026-08-07T16:00:00+00:00",
-    "raw_text": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audio files, images, and unstructured text required a fragmented architecture: moving data out of your warehouse, stitching together complex LLM pipelines, and managing disparate search indexes. BigQuery has worked with many enterprises to make sense of their unstructured data sources. For example, consider an advanced healthcare company managing thousands of clinical trial documents in PDF form. BigQuery helps unlock insights from these documents through a simple, five-step lifecycle: Access, Process, Ground, Relate, and Activate . In this post, we are highlighting three major milestones focused heavily on the \"Ground\" phase of this framework: General Availability (GA) of Autonomous Embedding Generation General Availability (GA) of AI.SEARCH with massive single-query performance gains Public Preview of Hybrid Search Let’s dive into how these features work together to simplify your AI architecture, using a real-world clinical trial research platform as an example. Simplify Pipelines with Autonomous Embedding Generation (GA) Building a retrieval-augmented generation (RAG) pipeline or search application usually requires managing complex, asynchronous embedding infrastructure. You have to handle retries, error logging, and pipeline orchestration every time a new record arrives. With the General Availability of Autonomous Embedding Generation , BigQuery manages this entirely for you. By simply defining a column in your schema, BigQuery asynchronously and continuously generates embeddings as new data is ingested. You have the flexibility to choose external models (like Vertex AI text-embeddings) or natively utilize Gemma embedding models directly within BigQuery. How it works in practice: Imagine you are building a research platform analyzing clinical trial PDFs stored in Google Cloud Storage. After extracting the study titles and disease areas into a table, you can automatically embed those titles: code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE TABLE mydataset.clinical_trials\\r\\n(\\r\\n trial_id STRING,\\r\\n study_title STRING,\\r\\n study_embedding STRUCT<result ARRAY<FLOAT64>, status STRING>\\r\\n GENERATED ALWAYS AS (AI.EMBED(\\r\\n study_title,\\r\\n connection_id => 'myconnection',\\r\\n endpoint => 'text-embedding-005'\\r\\n ))\\r\\n STORED\\r\\n OPTIONS( asynchronous = TRUE )\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fab12afdb80>)])]> BigQuery eliminates the need for complex third-party vector databases by managing enterprise-scale processing with one configuration. This autonomous embedding generation keeps data synchronized automatically as source text changes, removing the need for manual machine learning pipelines. This integrated approach streamlines workflows for dynamic datasets and reduces the operational burden of maintaining custom data scripts. Finally, with this GA launch, Autonomous Embedding Generation now also supports generating embeddings natively over images using ObjectRefs , unlocking true multimodal search and analytics. Natural Language Search at Scale with AI.SEARCH (GA) To truly enable conversational analytics agents and snappier user experiences, your underlying search infrastructure needs to be intuitive and performant. Once your data is seamlessly embedded, you need an efficient way to query it. Today, we are announcing the General Availability of AI.SEARCH() . This function provides a streamlined, natural-language-focused search experience, allowing you to easily find semantically related records without generating embeddings in your search path. In pairing this with the Autonomous Embedding Generation, we leverage the same embedding model used in your dataset for easier use. Furthermore, as part of efficiency investments in the last year, we have heavily optimized AI.SEARCH for single-query execution. For online applications and single-query searches (those most common in agentic searches), we have observed up to a 133x gain in slot efficiency.. This means you can serve highly concurrent, user-facing natural language searches directly out of BigQuery faster and more cost-effectively than ever before. code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"What treatments are available for advanced tumors?\"\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fab12afd100>)])]> Unifying Keyword and Vector with Hybrid Search (Public Preview) Semantic (vector) search is incredibly powerful; for example, the query above will successfully return conceptually related terms like \"chemotherapy.\" However, semantic search isn't always enough. What if a researcher is searching for a specific, highly technical immunotherapy drug designation like \"MK3475\"? Because this alphanumeric string lacks broad semantic meaning, pure vector search might struggle to rank it correctly. By merging lexical search with existing semantic capabilities, BigQuery's hybrid search allows for data retrieval based on both keyword similarity and underlying meaning. This approach unites the conceptual depth of semantic vector search with the pinpoint accuracy of lexical matching, utilizing algorithms such as Reciprocal Rank Fusion and BM25. The result is a significant boost in search precision and a reduction in LLM hallucination costs through the reranking of results based on keyword frequency and semantic relevance. Users can implement this via the AI.SEARCH and VECTOR_SEARCH functions by employing the hybrid mode or lexical_search_columns parameters. Furthermore, performance can be optimized by extending vector indexes to include keyword data, which accelerates the lexical search process. You can now perform hybrid searches effortlessly using the AI.SEARCH() function by simply setting the mode to HYBRID: code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"Cancer treated by MK-3475\",\\r\\n mode => \\'HYBRID\\'\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fab12afdb50>)])]> To speed up these hybrid queries at scale, you can easily extend your CREATE VECTOR INDEX DDL to include the keyword columns you want to use for the lexical portion of the search, natively combining your indexes. Building an End-to-End Unstructured Data Analytics Platform The search and embedding features launching today are part of a much broader vision. We are building an end-to-end unstructured data analytics platform. One common type of unstructured data is documents, and BigQuery now provides the complete toolset to manage this workflow from end to end: Access: Enable zero-ETL workflows by querying unstructured PDFs and documents directly where they live in Google Cloud Storage using Object Tables. Process: Utilize embedded AI capabilities like AI.PARSE and AI.CHUNK_DOC (coming soon) for layout-aware chunking (perfect for RAG), AI.GENERATE for entity extraction/summarization, and AI.CLASSIFY to instantly categorize records using foundational models directly in your SQL pipelines. Ground: Build highly accurate context using Autonomous Embeddings and Hybrid Search. Hybrid search combines the conceptual understanding of semantic vector search with the exact precision of lexical keyword matching By reranking results based on both semantic relevance and keyword frequency, you drastically increase search precision and drive down LLM hallucinations. Relate: Uncover hidden multi-hop insights by mapping extracted entities (like Sponsors, Trials, and Drugs) into a BigQuery Graph —no specialized graph database required. Activate: Bring it all together with BigQuery's Conversational Analytics agents. Using functions like AI.AGG , you can chat directly with your complex data, generate visualizations, and perform trend analysis at massive scale. With unstructured data as a first-class citizen in BigQuery, you can finally bridge the gap between your raw documents and conversational AI. Ready to get started? Explore the Code: Check out the complete end-to-end clinical trials demonstration in our Document Analytics on BigQuery GitHub Repository . Read the Docs: Dive into the official documentation for Autonomous Embeddings and Hybrid Search to start building your own unified data pipelines today.",
+    "raw_text": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audio files, images, and unstructured text required a fragmented architecture: moving data out of your warehouse, stitching together complex LLM pipelines, and managing disparate search indexes. BigQuery has worked with many enterprises to make sense of their unstructured data sources. For example, consider an advanced healthcare company managing thousands of clinical trial documents in PDF form. BigQuery helps unlock insights from these documents through a simple, five-step lifecycle: Access, Process, Ground, Relate, and Activate . In this post, we are highlighting three major milestones focused heavily on the \"Ground\" phase of this framework: General Availability (GA) of Autonomous Embedding Generation General Availability (GA) of AI.SEARCH with massive single-query performance gains Public Preview of Hybrid Search Let’s dive into how these features work together to simplify your AI architecture, using a real-world clinical trial research platform as an example. Simplify Pipelines with Autonomous Embedding Generation (GA) Building a retrieval-augmented generation (RAG) pipeline or search application usually requires managing complex, asynchronous embedding infrastructure. You have to handle retries, error logging, and pipeline orchestration every time a new record arrives. With the General Availability of Autonomous Embedding Generation , BigQuery manages this entirely for you. By simply defining a column in your schema, BigQuery asynchronously and continuously generates embeddings as new data is ingested. You have the flexibility to choose external models (like Vertex AI text-embeddings) or natively utilize Gemma embedding models directly within BigQuery. How it works in practice: Imagine you are building a research platform analyzing clinical trial PDFs stored in Google Cloud Storage. After extracting the study titles and disease areas into a table, you can automatically embed those titles: code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE TABLE mydataset.clinical_trials\\r\\n(\\r\\n trial_id STRING,\\r\\n study_title STRING,\\r\\n study_embedding STRUCT<result ARRAY<FLOAT64>, status STRING>\\r\\n GENERATED ALWAYS AS (AI.EMBED(\\r\\n study_title,\\r\\n connection_id => 'myconnection',\\r\\n endpoint => 'text-embedding-005'\\r\\n ))\\r\\n STORED\\r\\n OPTIONS( asynchronous = TRUE )\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7faee381cfd0>)])]> BigQuery eliminates the need for complex third-party vector databases by managing enterprise-scale processing with one configuration. This autonomous embedding generation keeps data synchronized automatically as source text changes, removing the need for manual machine learning pipelines. This integrated approach streamlines workflows for dynamic datasets and reduces the operational burden of maintaining custom data scripts. Finally, with this GA launch, Autonomous Embedding Generation now also supports generating embeddings natively over images using ObjectRefs , unlocking true multimodal search and analytics. Natural Language Search at Scale with AI.SEARCH (GA) To truly enable conversational analytics agents and snappier user experiences, your underlying search infrastructure needs to be intuitive and performant. Once your data is seamlessly embedded, you need an efficient way to query it. Today, we are announcing the General Availability of AI.SEARCH() . This function provides a streamlined, natural-language-focused search experience, allowing you to easily find semantically related records without generating embeddings in your search path. In pairing this with the Autonomous Embedding Generation, we leverage the same embedding model used in your dataset for easier use. Furthermore, as part of efficiency investments in the last year, we have heavily optimized AI.SEARCH for single-query execution. For online applications and single-query searches (those most common in agentic searches), we have observed up to a 133x gain in slot efficiency.. This means you can serve highly concurrent, user-facing natural language searches directly out of BigQuery faster and more cost-effectively than ever before. code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"What treatments are available for advanced tumors?\"\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7faee381cb50>)])]> Unifying Keyword and Vector with Hybrid Search (Public Preview) Semantic (vector) search is incredibly powerful; for example, the query above will successfully return conceptually related terms like \"chemotherapy.\" However, semantic search isn't always enough. What if a researcher is searching for a specific, highly technical immunotherapy drug designation like \"MK3475\"? Because this alphanumeric string lacks broad semantic meaning, pure vector search might struggle to rank it correctly. By merging lexical search with existing semantic capabilities, BigQuery's hybrid search allows for data retrieval based on both keyword similarity and underlying meaning. This approach unites the conceptual depth of semantic vector search with the pinpoint accuracy of lexical matching, utilizing algorithms such as Reciprocal Rank Fusion and BM25. The result is a significant boost in search precision and a reduction in LLM hallucination costs through the reranking of results based on keyword frequency and semantic relevance. Users can implement this via the AI.SEARCH and VECTOR_SEARCH functions by employing the hybrid mode or lexical_search_columns parameters. Furthermore, performance can be optimized by extending vector indexes to include keyword data, which accelerates the lexical search process. You can now perform hybrid searches effortlessly using the AI.SEARCH() function by simply setting the mode to HYBRID: code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"Cancer treated by MK-3475\",\\r\\n mode => \\'HYBRID\\'\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7faee381c070>)])]> To speed up these hybrid queries at scale, you can easily extend your CREATE VECTOR INDEX DDL to include the keyword columns you want to use for the lexical portion of the search, natively combining your indexes. Building an End-to-End Unstructured Data Analytics Platform The search and embedding features launching today are part of a much broader vision. We are building an end-to-end unstructured data analytics platform. One common type of unstructured data is documents, and BigQuery now provides the complete toolset to manage this workflow from end to end: Access: Enable zero-ETL workflows by querying unstructured PDFs and documents directly where they live in Google Cloud Storage using Object Tables. Process: Utilize embedded AI capabilities like AI.PARSE and AI.CHUNK_DOC (coming soon) for layout-aware chunking (perfect for RAG), AI.GENERATE for entity extraction/summarization, and AI.CLASSIFY to instantly categorize records using foundational models directly in your SQL pipelines. Ground: Build highly accurate context using Autonomous Embeddings and Hybrid Search. Hybrid search combines the conceptual understanding of semantic vector search with the exact precision of lexical keyword matching By reranking results based on both semantic relevance and keyword frequency, you drastically increase search precision and drive down LLM hallucinations. Relate: Uncover hidden multi-hop insights by mapping extracted entities (like Sponsors, Trials, and Drugs) into a BigQuery Graph —no specialized graph database required. Activate: Bring it all together with BigQuery's Conversational Analytics agents. Using functions like AI.AGG , you can chat directly with your complex data, generate visualizations, and perform trend analysis at massive scale. With unstructured data as a first-class citizen in BigQuery, you can finally bridge the gap between your raw documents and conversational AI. Ready to get started? Explore the Code: Check out the complete end-to-end clinical trials demonstration in our Document Analytics on BigQuery GitHub Repository . Read the Docs: Dive into the official documentation for Autonomous Embeddings and Hybrid Search to start building your own unified data pipelines today.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1656,39 +1676,6 @@
     "summary": "Live sports broadcasting represents the ultimate stress test for digital media infrastructure, where operational success or failure is measured in milliseconds and observed live by millions of viewers simultaneously. During the 2026 FIFA World Cup, the stakes reached a high for TelevisaUnivision, the leading Spanish-language media conglomerate. With Mexico serving as both a primary host nation and a core contender on home soil, fan engagement created unprecedented demand across Latin America and TelevisaUnivision's ViX streaming platform. For a marquee broadcaster like TelevisaUnivision, high-stakes events carry direct, long-term brand and reputational implications."
   },
   {
-    "title": "Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort",
-    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
-    "source": "Google Cloud Blog",
-    "published": "2026-08-06T16:00:00+00:00",
-    "raw_text": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly analyzing query execution plans, tweaking schemas, and adding query hints with ever exploding volume, variety, and velocity of data is a never-ending cycle that drains business velocity. While performance tuning is a common practice, a modern data platform should do more. As data platforms evolve from systems of intelligence to systems of action, and analytics workloads shift from humans running a few queries per day to countless agents running many thousands of queries per minute, the old way of manual query tuning doesn’t work. When queries are generated by agents and applications automatically based on user actions, manual optimization becomes practically impossible. BigQuery has evolved from a data warehouse to the primary engine for the Agentic AI era. Building on a unique, truly disaggregated storage and compute architecture, serverless processing, and fine grained compute management, BigQuery continues to push the boundaries of autonomous query processing. Our North Star is an autonomous query processor powering both humans and agents for hands-free optimum price-performance regardless of query, schema, data, or workloads. Just in 2025, we delivered up to 35% better query performance and as much as 40% reduction in query processing costs (slot usage). Figure 1. Summary of BigQuery price-performance improvements throughout 2025 based on industry standard benchmarks. The following are some of the major innovations contributing to these improvements in performance and total cost of ownership (TCO), including the built-in guardrails against regression. BigQuery’s Self-Learning Engine: History-Based Optimizations (HBO) One of the foundational capabilities of BigQuery’s autonomous query processor is history-based optimizations. Traditional query optimizers rely on static statistics, metadata and cardinality estimates, which can be wildly inaccurate when faced with highly complex, multi-table joins and rapidly growing/changing data. Managing these is part of the critical path for administrators and automation has to be tailored to individual workloads to be effective and efficient. Even when everything is up-to-date and correct, queries can still have vastly different behavior due to natural data skew or changes in available compute resources. History-based optimizations change the paradigm: in addition to BigQuery’s already adaptive query execution that can change plans and resource allocations while a query is running, it learns from past executions and automatically applies additional optimizations for future executions. It tracks runtime statistics of past queries to \"remember\" which optimizations were beneficial and continue to apply them, and learn from prior mistakes to ensure they are not repeated. When the same or similar query runs again, BigQuery automatically applies any additional optimization technique that is known to be beneficial and avoids those that can cause regressions. No User Action Required & Built-in Safety Guardrails History-based optimizations require no application rewrites, SQL modifications, or schema changes. Users literally do nothing, and their recurring dashboards, ELT pipelines, agentic workloads, or line of business modules run faster. Crucially, this is a self-maintaining, self-improving closed-loop system with built-in safety guardrails. History-based optimizations only apply an optimization when there is high confidence it will improve performance. What if an optimization makes the wrong decision? This capability is inherently self-correcting. When an optimization is applied, the system measures the result. If the expected improvement is observed, the optimization is accepted. If it does not significantly improve performance—or worse, regresses or leads to failure—the optimization is immediately rejected, revoked, and never tried again for that query. This includes detecting data skew so queries that have parameter sensitive plans do not run into major performance issues when just a single parameter (aka WHERE clause) is changed. The result? A decrease in execution times and a reduction of slots. One enterprise customer reported P90 execution times drop by up to 50%, with slot usage falling by up to 15% resulting in substantial price-performance improvements and no regressions. Figure 2. One example of History Based Optimization performance improvement reported by an enterprise customer. Teaching the BigQuery execution engine newer tricks: Advanced runtime BigQuery’s autonomous capabilities extend deep into the execution layer with BigQuery advanced runtime . This engine upgrade automatically determines the best physical execution path for a query without any manual knob-turning. 1. Enhanced vectorization While vectorized execution is not a new concept, BigQuery enhanced its implementation by taking advantage of the newer processor efficiencies in Single Instruction Multiple Data (SIMD) instructions. The engine autonomously identifies opportunities to avoid duplicate computations, processing data in dictionary and run-length encodings natively. It couples with state-of-the-art parallel algorithms and is applied at eligible query stages to increase the opportunities for acceleration. The Impact: Fully automated, safely accelerating qualifying queries by up to 10x, yielding up to a 40% overall slot time reduction. Figure 3. Advanced runtime - Enhanced vectorization 2. Short query optimizations For high-concurrency and low latency BI dashboards or agentic applications generating thousands of queries that require sub-second latency, distributed processing overhead can be a bottleneck. BigQuery now autonomously accelerates eligible \"short\" queries without impacting other queries running concurrently. By reducing the number of stages hence reducing data shuffling, BigQuery improves overall query latency and resource efficiency. BigQuery has effectively implemented an efficient symmetric multi-processing (SMP) query path transparently within a scalable massively parallel processing (MPP), distributed databases. The Impact : up to 10x lower slot usage for short queries, with P99 sub-second query latencies. Because each query uses slots for shorter periods, we observed some customer workloads having up to 3x higher throughput—all completely transparent to the end-user. Figure 4. Advanced runtime - Short query optimizations Same Benefits Regardless of Data Formats We believe you shouldn't have to sacrifice autonomous performance when adopting open lakehouse architectures using open table formats like Apache Iceberg. BigQuery performance improvements work the same regardless of the underlying table or data format. That means you still get the same benefits whether you’re using BigQuery’s native capacitor storage format or Iceberg tables where the underlying data is in parquet format. Whether it’s automatically pushing down filters, employing Column Metadata Index (CMETA ) pruning, and optimizing the I/O layer with page skipping and asynchronous read or employing the same enhanced vectorization, open formats benefit from the same hands-free acceleration as native tables. Figure 5. BigQuery on Lakehouse Iceberg tables performance and costs tested internally against a popular open source, distributed SQL query engine using a benchmark derived from TPC-DS (10TB) Fluid Scaling: The True Only-Pay-For-What-You-Use Autoscaler Because BigQuery’s compute models are tied directly to slot-seconds consumed rather than a slice of nodes or clusters, autonomous performance gains can translate directly to cost savings. BigQuery autoscaler enhanced with fluid scaling enables you to run any mix of highly variable workloads with a premier autoscaling model that does not require a cost-and-performance trade-off. Fluid scaling in BigQuery enables true per-second billing for compute resources (slots) consumed and lowers costs by up to 34% on average for autoscaling workloads. Figure 6. Fluid scaling enhanced autoscaler On the price-performance benefits of fluid scaling, Chen Shalit, the CEO and Co-Founder at RISE, a leading AdTech company that processes 1 PB+ data per day and manages 3 trillion+ monthly bids across publishers and advertisers, summed it best . “In the high-stakes world of advertising, every cent counts. BigQuery’s Fluid Scaling has reduced our infrastructure cost by 25% allowing us to scale our slot consumption and accelerate our entire workflow. By delivering faster model results and increasing our hourly data processing throughput, we’re providing our customers with the 'freshest' data possible.” The foundation for the agentic future These autonomous capabilities are not just about making today's business intelligence dashboards and analytics queries run faster; they are foundational to the future of modern data platforms. As organizations rapidly deploy AI and machine learning, they are shifting toward agentic workloads. AI agents do not interact with data the way humans do. Their query latency and concurrency (QPS) requirements are orders of magnitude more demanding than what human users generate—which is the limit of what most traditional analytics platforms were designed for. When autonomous agents are firing off thousands of distinct queries per second to make real-time decisions, human-in-the-loop query tuning is simply impossible. BigQuery's differentiated abilities in a self-tuning and self-learning system include built-in safety guardrails against regression. With this standard of autonomy, you can spend your time and effort where it truly matters: delivering the best experiences for your users with advanced agentic applications, rather than wasting critical engineering cycles on manual infrastructure management, reactive query optimization, or trying to rein in spiraling compute costs. BigQuery’s aggregate TCO impact: Faster and more cost-effective price-performance When you combine a self-learning history-based optimizer with an auto-scaling advanced runtime engine supported by a highly scalable metadata platform (CMETA), you can see real impact on performance and total cost of ownership (TCO). Conclusion Our goal is for BigQuery to automatically and safely optimize queries without user action so our users can “ just come in to work and BigQuery is faster than it was the day before.\" You no longer need to worry about data skew or stale statistics causing performance regressions. No more trying to figure out which plan guide works best for which queries at what time of the day or month. No more hoping you won’t run out of budget because there aren’t enough low priced spot instances. Just focus on your organization’s goals, and your BigQuery data platform can deliver optimized price-performance for both agent and human workloads autonomously; it just works. Learn more about BigQuery’s data and AI capabilities and get started with a free trial .",
-    "categories": [
-      "Networks",
-      "Cloud Infrastructure",
-      "GRC",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "serverless"
-      ],
-      "Networks": [
-        "latency",
-        "lan"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly analyzing query execution plans, tweaking schemas, and adding query hints with ever exploding volume, variety, and velocity of data is a never-ending cycle that drains business velocity. While performance tuning is a common practice, a modern data platform should do more. As data platforms evolve from systems of intelligence to systems of action, and analytics workloads shift from humans running a few queries per day to countless agents running many thousands of queries per minute, the old way of manual query tuning doesn’t work."
-  },
-  {
     "title": "Advancing brain tumor research with privacy-first AI",
     "url": "https://cloud.google.com/blog/products/identity-security/privacy-first-medical-ai-with-medperf-and-google-cloud/",
     "source": "Google Cloud Blog",
@@ -1721,6 +1708,39 @@
       ]
     },
     "summary": "The intersection of medicine and AI has led to remarkable innovations. However, developers now face the thorny challenge of building robust medical AI tools that have been tested and evaluated on diverse, real-world patient data while also protecting patient privacy. At Google Cloud, our approach combines strategic collaboration with Confidential Computing. To help protect both patient privacy and AI models during validation, we’re collaborating with MLCommons t hrough the MedPerf initiative ."
+  },
+  {
+    "title": "Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort",
+    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
+    "source": "Google Cloud Blog",
+    "published": "2026-08-06T16:00:00+00:00",
+    "raw_text": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly analyzing query execution plans, tweaking schemas, and adding query hints with ever exploding volume, variety, and velocity of data is a never-ending cycle that drains business velocity. While performance tuning is a common practice, a modern data platform should do more. As data platforms evolve from systems of intelligence to systems of action, and analytics workloads shift from humans running a few queries per day to countless agents running many thousands of queries per minute, the old way of manual query tuning doesn’t work. When queries are generated by agents and applications automatically based on user actions, manual optimization becomes practically impossible. BigQuery has evolved from a data warehouse to the primary engine for the Agentic AI era. Building on a unique, truly disaggregated storage and compute architecture, serverless processing, and fine grained compute management, BigQuery continues to push the boundaries of autonomous query processing. Our North Star is an autonomous query processor powering both humans and agents for hands-free optimum price-performance regardless of query, schema, data, or workloads. Just in 2025, we delivered up to 35% better query performance and as much as 40% reduction in query processing costs (slot usage). Figure 1. Summary of BigQuery price-performance improvements throughout 2025 based on industry standard benchmarks. The following are some of the major innovations contributing to these improvements in performance and total cost of ownership (TCO), including the built-in guardrails against regression. BigQuery’s Self-Learning Engine: History-Based Optimizations (HBO) One of the foundational capabilities of BigQuery’s autonomous query processor is history-based optimizations. Traditional query optimizers rely on static statistics, metadata and cardinality estimates, which can be wildly inaccurate when faced with highly complex, multi-table joins and rapidly growing/changing data. Managing these is part of the critical path for administrators and automation has to be tailored to individual workloads to be effective and efficient. Even when everything is up-to-date and correct, queries can still have vastly different behavior due to natural data skew or changes in available compute resources. History-based optimizations change the paradigm: in addition to BigQuery’s already adaptive query execution that can change plans and resource allocations while a query is running, it learns from past executions and automatically applies additional optimizations for future executions. It tracks runtime statistics of past queries to \"remember\" which optimizations were beneficial and continue to apply them, and learn from prior mistakes to ensure they are not repeated. When the same or similar query runs again, BigQuery automatically applies any additional optimization technique that is known to be beneficial and avoids those that can cause regressions. No User Action Required & Built-in Safety Guardrails History-based optimizations require no application rewrites, SQL modifications, or schema changes. Users literally do nothing, and their recurring dashboards, ELT pipelines, agentic workloads, or line of business modules run faster. Crucially, this is a self-maintaining, self-improving closed-loop system with built-in safety guardrails. History-based optimizations only apply an optimization when there is high confidence it will improve performance. What if an optimization makes the wrong decision? This capability is inherently self-correcting. When an optimization is applied, the system measures the result. If the expected improvement is observed, the optimization is accepted. If it does not significantly improve performance—or worse, regresses or leads to failure—the optimization is immediately rejected, revoked, and never tried again for that query. This includes detecting data skew so queries that have parameter sensitive plans do not run into major performance issues when just a single parameter (aka WHERE clause) is changed. The result? A decrease in execution times and a reduction of slots. One enterprise customer reported P90 execution times drop by up to 50%, with slot usage falling by up to 15% resulting in substantial price-performance improvements and no regressions. Figure 2. One example of History Based Optimization performance improvement reported by an enterprise customer. Teaching the BigQuery execution engine newer tricks: Advanced runtime BigQuery’s autonomous capabilities extend deep into the execution layer with BigQuery advanced runtime . This engine upgrade automatically determines the best physical execution path for a query without any manual knob-turning. 1. Enhanced vectorization While vectorized execution is not a new concept, BigQuery enhanced its implementation by taking advantage of the newer processor efficiencies in Single Instruction Multiple Data (SIMD) instructions. The engine autonomously identifies opportunities to avoid duplicate computations, processing data in dictionary and run-length encodings natively. It couples with state-of-the-art parallel algorithms and is applied at eligible query stages to increase the opportunities for acceleration. The Impact: Fully automated, safely accelerating qualifying queries by up to 10x, yielding up to a 40% overall slot time reduction. Figure 3. Advanced runtime - Enhanced vectorization 2. Short query optimizations For high-concurrency and low latency BI dashboards or agentic applications generating thousands of queries that require sub-second latency, distributed processing overhead can be a bottleneck. BigQuery now autonomously accelerates eligible \"short\" queries without impacting other queries running concurrently. By reducing the number of stages hence reducing data shuffling, BigQuery improves overall query latency and resource efficiency. BigQuery has effectively implemented an efficient symmetric multi-processing (SMP) query path transparently within a scalable massively parallel processing (MPP), distributed databases. The Impact : up to 10x lower slot usage for short queries, with P99 sub-second query latencies. Because each query uses slots for shorter periods, we observed some customer workloads having up to 3x higher throughput—all completely transparent to the end-user. Figure 4. Advanced runtime - Short query optimizations Same Benefits Regardless of Data Formats We believe you shouldn't have to sacrifice autonomous performance when adopting open lakehouse architectures using open table formats like Apache Iceberg. BigQuery performance improvements work the same regardless of the underlying table or data format. That means you still get the same benefits whether you’re using BigQuery’s native capacitor storage format or Iceberg tables where the underlying data is in parquet format. Whether it’s automatically pushing down filters, employing Column Metadata Index (CMETA ) pruning, and optimizing the I/O layer with page skipping and asynchronous read or employing the same enhanced vectorization, open formats benefit from the same hands-free acceleration as native tables. Figure 5. BigQuery on Lakehouse Iceberg tables performance and costs tested internally against a popular open source, distributed SQL query engine using a benchmark derived from TPC-DS (10TB) Fluid Scaling: The True Only-Pay-For-What-You-Use Autoscaler Because BigQuery’s compute models are tied directly to slot-seconds consumed rather than a slice of nodes or clusters, autonomous performance gains can translate directly to cost savings. BigQuery autoscaler enhanced with fluid scaling enables you to run any mix of highly variable workloads with a premier autoscaling model that does not require a cost-and-performance trade-off. Fluid scaling in BigQuery enables true per-second billing for compute resources (slots) consumed and lowers costs by up to 34% on average for autoscaling workloads. Figure 6. Fluid scaling enhanced autoscaler On the price-performance benefits of fluid scaling, Chen Shalit, the CEO and Co-Founder at RISE, a leading AdTech company that processes 1 PB+ data per day and manages 3 trillion+ monthly bids across publishers and advertisers, summed it best . “In the high-stakes world of advertising, every cent counts. BigQuery’s Fluid Scaling has reduced our infrastructure cost by 25% allowing us to scale our slot consumption and accelerate our entire workflow. By delivering faster model results and increasing our hourly data processing throughput, we’re providing our customers with the 'freshest' data possible.” The foundation for the agentic future These autonomous capabilities are not just about making today's business intelligence dashboards and analytics queries run faster; they are foundational to the future of modern data platforms. As organizations rapidly deploy AI and machine learning, they are shifting toward agentic workloads. AI agents do not interact with data the way humans do. Their query latency and concurrency (QPS) requirements are orders of magnitude more demanding than what human users generate—which is the limit of what most traditional analytics platforms were designed for. When autonomous agents are firing off thousands of distinct queries per second to make real-time decisions, human-in-the-loop query tuning is simply impossible. BigQuery's differentiated abilities in a self-tuning and self-learning system include built-in safety guardrails against regression. With this standard of autonomy, you can spend your time and effort where it truly matters: delivering the best experiences for your users with advanced agentic applications, rather than wasting critical engineering cycles on manual infrastructure management, reactive query optimization, or trying to rein in spiraling compute costs. BigQuery’s aggregate TCO impact: Faster and more cost-effective price-performance When you combine a self-learning history-based optimizer with an auto-scaling advanced runtime engine supported by a highly scalable metadata platform (CMETA), you can see real impact on performance and total cost of ownership (TCO). Conclusion Our goal is for BigQuery to automatically and safely optimize queries without user action so our users can “ just come in to work and BigQuery is faster than it was the day before.\" You no longer need to worry about data skew or stale statistics causing performance regressions. No more trying to figure out which plan guide works best for which queries at what time of the day or month. No more hoping you won’t run out of budget because there aren’t enough low priced spot instances. Just focus on your organization’s goals, and your BigQuery data platform can deliver optimized price-performance for both agent and human workloads autonomously; it just works. Learn more about BigQuery’s data and AI capabilities and get started with a free trial .",
+    "categories": [
+      "Networks",
+      "Cloud Infrastructure",
+      "GRC",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "serverless"
+      ],
+      "Networks": [
+        "latency",
+        "lan"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly analyzing query execution plans, tweaking schemas, and adding query hints with ever exploding volume, variety, and velocity of data is a never-ending cycle that drains business velocity. While performance tuning is a common practice, a modern data platform should do more. As data platforms evolve from systems of intelligence to systems of action, and analytics workloads shift from humans running a few queries per day to countless agents running many thousands of queries per minute, the old way of manual query tuning doesn’t work."
   },
   {
     "title": "Your agentic summer: No-cost lessons from Google experts to build and scale agents",
@@ -3141,6 +3161,541 @@
     "summary": "Financial terms or expected timeline for completion were not disclosed"
   },
   {
+    "title": "OpenAI pledges to add Astra security as Anthropic loosens Fable's leash",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161",
+    "source": "The Register",
+    "published": "2026-08-07T23:41:07+00:00",
+    "raw_text": "Or how I learned to stop worrying and love dangerous AI",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Or how I learned to stop worrying and love dangerous AI"
+  },
+  {
+    "title": "Water system controllers don't belong on the internet, says ex-NSA chief after suspected Iran attacks",
+    "url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+    "source": "The Register",
+    "published": "2026-08-07T19:53:10+00:00",
+    "raw_text": "Calling all defenders",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Calling all defenders"
+  },
+  {
+    "title": "AI titans to tidy agent frontier with plugin prescription",
+    "url": "https://www.theregister.com/devops/2026/08/07/ai-titans-to-tidy-agent-frontier-with-plugin-prescription/5285017",
+    "source": "The Register",
+    "published": "2026-08-07T18:53:50+00:00",
+    "raw_text": "Agent Plugins 1.0 defines a write-once-run-anywhere container for passing tools and skills across different agent platforms",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Agent Plugins 1.0 defines a write-once-run-anywhere container for passing tools and skills across different agent platforms"
+  },
+  {
+    "title": "Ransomware attacks spike as world distracted by AI",
+    "url": "https://www.theregister.com/security/2026/08/07/ransomware-attacks-spike-as-world-distracted-by-ai/5284934",
+    "source": "The Register",
+    "published": "2026-08-07T16:45:00+00:00",
+    "raw_text": "What, you didn't think the top gangs were busy watching agents escape their sandboxes too, did you?",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware"
+      ]
+    },
+    "summary": "What, you didn't think the top gangs were busy watching agents escape their sandboxes too, did you?"
+  },
+  {
+    "title": "Brit boffins boast of beating barriers to building fusion power",
+    "url": "https://www.theregister.com/science/2026/08/07/brit-boffins-boast-of-beating-barriers-to-building-fusion-power/5284882",
+    "source": "The Register",
+    "published": "2026-08-07T16:12:00+00:00",
+    "raw_text": "MAST Upgrade installation hit highest pressure ever achieved without the super-hot plasma destabilizing",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "MAST Upgrade installation hit highest pressure ever achieved without the super-hot plasma destabilizing"
+  },
+  {
+    "title": "N-able God mode flaw: Vendor confirms attackers reached customer networks as second hotfix lands",
+    "url": "https://www.theregister.com/networks/2026/08/07/n-able-god-mode-flaw-vendor-confirms-attackers-reached-customer-networks-as-second-hotfix-lands/5284730",
+    "source": "The Register",
+    "published": "2026-08-07T15:01:00+00:00",
+    "raw_text": "Attackers turned admin access into a route downstream, while N-able tells N-central customers to patch – again",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "lan"
+      ],
+      "Industry & Market": [
+        "vendor"
+      ]
+    },
+    "summary": "Attackers turned admin access into a route downstream, while N-able tells N-central customers to patch – again"
+  },
+  {
+    "title": "ShinyHunters called cancer diagnostics biz and tricked staffers into giving them access. Now they've dumped 10.9M email addresses",
+    "url": "https://www.theregister.com/cyber-crime/2026/08/07/shinyhunters-called-cancer-diagnostics-biz-and-tricked-staffers-into-giving-them-access-now-theyve-dumped-109m-email-addresses/5284857",
+    "source": "The Register",
+    "published": "2026-08-07T14:53:57+00:00",
+    "raw_text": "Cancer diagnostics breach spills personal and health info as extortion crew says healthcare giant ‘should’ve paid the ransom’",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Cancer diagnostics breach spills personal and health info as extortion crew says healthcare giant ‘should’ve paid the ransom’"
+  },
+  {
+    "title": "MIT boffins' TONTOU attack slips through Spectre defenses on Intel and AMD CPUs",
+    "url": "https://www.theregister.com/security/2026/08/07/mit-boffins-tontou-attack-slips-through-spectre-defenses-on-intel-and-amd-cpus/5284081",
+    "source": "The Register",
+    "published": "2026-08-07T14:15:00+00:00",
+    "raw_text": "Timer interrupts reopen branch predictor poisoning window, with a working Zen 2 exploit to prove it",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit"
+      ]
+    },
+    "summary": "Timer interrupts reopen branch predictor poisoning window, with a working Zen 2 exploit to prove it"
+  },
+  {
+    "title": "Scot NHS trust probes access to medical records of 9-year-old girl after man arrested on suspicion of murder",
+    "url": "https://www.theregister.com/security/2026/08/07/nhs-tayside-investigates-breach-concerning-data-of-dead-girl/5284815",
+    "source": "The Register",
+    "published": "2026-08-07T13:59:16+00:00",
+    "raw_text": "Investigation into whether staff improperly accessed Minnie Merriman’s file after she was named for the first time this week",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Investigation into whether staff improperly accessed Minnie Merriman’s file after she was named for the first time this week"
+  },
+  {
+    "title": "Microsoft tosses Teams Live chat into its feature graveyard",
+    "url": "https://www.theregister.com/applications/2026/08/07/microsoft-tosses-teams-live-chat-into-its-feature-graveyard/5284634",
+    "source": "The Register",
+    "published": "2026-08-07T12:39:00+00:00",
+    "raw_text": "Website support widget lasted 18 months before Redmond ended the conversation",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Website support widget lasted 18 months before Redmond ended the conversation"
+  },
+  {
+    "title": "Attacker phished way into US defense supplier's Microsoft 365 account",
+    "url": "https://www.theregister.com/security/2026/08/07/ieh-corp-says-phished-staffer-opened-gates-to-company-m365/5284523",
+    "source": "The Register",
+    "published": "2026-08-07T11:32:00+00:00",
+    "raw_text": "Intruder gained access to engineering files and potentially export-controlled technical data",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Intruder gained access to engineering files and potentially export-controlled technical data"
+  },
+  {
+    "title": "Intrusion at US healthcare software provider puts 3.8M people's data at risk",
+    "url": "https://www.theregister.com/cyber-crime/2026/08/07/intrusion-at-us-healthcare-software-provider-puts-38m-peoples-data-at-risk/5284609",
+    "source": "The Register",
+    "published": "2026-08-07T10:45:00+00:00",
+    "raw_text": "Unlimited Technology Systems says names, Social Security numbers, diagnoses, and insurance details may have been swiped",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "soc"
+      ]
+    },
+    "summary": "Unlimited Technology Systems says names, Social Security numbers, diagnoses, and insurance details may have been swiped"
+  },
+  {
+    "title": "'Asimov was right' about rules for robots, says ex-US Cyber Director",
+    "url": "https://www.theregister.com/security/2026/08/07/asimov-was-right-about-rules-for-robots-says-ex-us-cyber-director/5284397",
+    "source": "The Register",
+    "published": "2026-08-07T10:03:00+00:00",
+    "raw_text": "Humans will get the AI models they deserve",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cyber"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Humans will get the AI models they deserve"
+  },
+  {
+    "title": "Cop who used police system to snoop for info on crook pals sentenced for Computer Misuse Act offenses",
+    "url": "https://www.theregister.com/legal/2026/08/07/cop-who-used-police-system-to-snoop-for-info-on-crook-pals-sentenced-for-computer-misuse-act-offenses/5284191",
+    "source": "The Register",
+    "published": "2026-08-07T09:26:00+00:00",
+    "raw_text": "Former Merseyside police officer sacked after failing to declare he was 'too close' with the wrong crowd",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Former Merseyside police officer sacked after failing to declare he was 'too close' with the wrong crowd"
+  },
+  {
+    "title": "Sysadmin summoned to explain italics – to a user with at least two degrees",
+    "url": "https://www.theregister.com/software/2026/08/07/sysadmin-summoned-to-explain-italics-to-a-user-with-at-least-two-degrees/5283871",
+    "source": "The Register",
+    "published": "2026-08-07T06:30:00+00:00",
+    "raw_text": "What an idiot",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ]
+    },
+    "summary": "What an idiot"
+  },
+  {
+    "title": "China launches mysterious probe into security of Palo Alto Networks' products",
+    "url": "https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453",
+    "source": "The Register",
+    "published": "2026-08-07T04:24:37+00:00",
+    "raw_text": "Beijing’s not saying why, which is just what happened when it investigated Micron",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Beijing’s not saying why, which is just what happened when it investigated Micron"
+  },
+  {
+    "title": "‘Humans will be a rounding error on the internet’ says Cloudflare exec",
+    "url": "https://www.theregister.com/networks/2026/08/07/humans-will-be-a-rounding-error-on-the-internet-says-cloudflare-exec/5284429",
+    "source": "The Register",
+    "published": "2026-08-07T02:40:23+00:00",
+    "raw_text": "Machine-generated traffic to surge 1000x in five years, while we meatbags keep clicking away slowly",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ]
+    },
+    "summary": "Machine-generated traffic to surge 1000x in five years, while we meatbags keep clicking away slowly"
+  },
+  {
+    "title": "How the famed USENIX Security conf is managing a flood of papers in the AI era",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/07/how-the-famed-usenix-security-conf-is-managing-a-flood-of-papers-in-the-ai-era/5284374",
+    "source": "The Register",
+    "published": "2026-08-06T23:40:23+00:00",
+    "raw_text": "AI usage is evident but isn't yet a serious problem",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "AI usage is evident but isn't yet a serious problem"
+  },
+  {
+    "title": "AMD acquires AI chip startup Taalas to boost inference performance by etching models into silicon",
+    "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+    "source": "The Register",
+    "published": "2026-08-06T20:05:00+00:00",
+    "raw_text": "Early tech demos show model-specific integrated circuits churning out up to 17,000 tokens a second",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquires"
+      ]
+    },
+    "summary": "Early tech demos show model-specific integrated circuits churning out up to 17,000 tokens a second"
+  },
+  {
+    "title": "AI struggles to patch vulns without adult supervision",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/06/ai-struggles-to-patch-vulns-without-adult-supervision/5284319",
+    "source": "The Register",
+    "published": "2026-08-06T19:04:30+00:00",
+    "raw_text": "Left alone, autonomous fixes often fail to fully remediate flaws",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "Left alone, autonomous fixes often fail to fully remediate flaws"
+  },
+  {
+    "title": "Latest GitHub outage squeezes Actions, Pages to death",
+    "url": "https://www.theregister.com/devops/2026/08/06/latest-github-outage-squeezes-actions-pages-to-death/5284297",
+    "source": "The Register",
+    "published": "2026-08-06T18:30:48+00:00",
+    "raw_text": "Look over there, Copilot - it's a beautiful AI farm where you can tend some digital rabbits",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Look over there, Copilot - it's a beautiful AI farm where you can tend some digital rabbits"
+  },
+  {
+    "title": "Uncle Sam aims to help nuclear energy find its sea legs",
+    "url": "https://www.theregister.com/science/2026/08/06/uncle-sam-aims-to-help-nuclear-energy-find-its-sea-legs/5284179",
+    "source": "The Register",
+    "published": "2026-08-06T17:29:05+00:00",
+    "raw_text": "IAEA initiative tackles the rules for floating reactors and atom-powered civilian ships",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "IAEA initiative tackles the rules for floating reactors and atom-powered civilian ships"
+  },
+  {
+    "title": "Humans in the loop miss a third of dangerous AI coding agent requests",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/06/humans-in-the-loop-miss-a-third-of-dangerous-ai-coding-agent-requests/5284236",
+    "source": "The Register",
+    "published": "2026-08-06T16:44:29+00:00",
+    "raw_text": "You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws",
+        "kubernetes"
+      ]
+    },
+    "summary": "You wouldn't let Claude Code cat your AWS credentials or Kubernetes config on request, would you?"
+  },
+  {
+    "title": "Next step for LINK spacecraft – a software update that won't make things worse. Are you listening, Microsoft?",
+    "url": "https://www.theregister.com/science/2026/08/06/next-step-for-link-spacecraft-a-software-update-that-wont-make-things-worse-are-you-listening-microsoft/5284143",
+    "source": "The Register",
+    "published": "2026-08-06T15:11:00+00:00",
+    "raw_text": "Spin slows as orbital rescue mission creeps forward",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Spin slows as orbital rescue mission creeps forward"
+  },
+  {
+    "title": "Platform Engineering 2.0: your platform was built for a different era. AI just exposed it",
+    "url": "https://www.theregister.com/devops/2026/08/06/partner-content-platform-engineering-20-your-platform-was-built-for-a-different-era-ai-just-exposed-it/5283237",
+    "source": "The Register",
+    "published": "2026-08-06T15:00:00+00:00",
+    "raw_text": "PARTNER CONTENT: Platform engineering won the argument. Now it has to grow up fast and evolve for the AI era",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "PARTNER CONTENT: Platform engineering won the argument. Now it has to grow up fast and evolve for the AI era"
+  },
+  {
+    "title": "Microsoft excludes Domain Exclusion from MS 365 Copilot – days after rolling it out",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/06/microsoft-excludes-domain-exclusion-from-ms-365-copilot-days-after-rolling-it-out/5284106",
+    "source": "The Register",
+    "published": "2026-08-06T14:34:00+00:00",
+    "raw_text": "Perhaps an allow list of domains might be better?",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Perhaps an allow list of domains might be better?"
+  },
+  {
+    "title": "Snowflake extortionist admits 165-victim cloud crime spree – and squeezing one target twice",
+    "url": "https://www.theregister.com/storage/2026/08/06/snowflake-extortionist-admits-165-victim-cloud-crime-spree-and-squeezing-one-target-twice/5284059",
+    "source": "The Register",
+    "published": "2026-08-06T14:00:00+00:00",
+    "raw_text": "Connor Moucka pleads guilty over sprawling 2024 campaign that looted billions of records",
+    "categories": [
+      "Cloud Infrastructure",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "Connor Moucka pleads guilty over sprawling 2024 campaign that looted billions of records"
+  },
+  {
+    "title": "Blue Origin blames New Glenn fireball on engine oxygen valve",
+    "url": "https://www.theregister.com/science/2026/08/06/blue-origin-blames-new-glenn-fireball-on-engine-oxygen-valve/5283997",
+    "source": "The Register",
+    "published": "2026-08-06T13:18:00+00:00",
+    "raw_text": "Small modifications under way as Bezos's rocket biz races to rebuild pad and fly again this year",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Small modifications under way as Bezos's rocket biz races to rebuild pad and fly again this year"
+  },
+  {
+    "title": "European firms afraid of US tech kill switch but haven't made an escape plan",
+    "url": "https://www.theregister.com/off-prem/2026/08/06/european-firms-afraid-of-us-tech-kill-switch-but-havent-made-an-escape-plan/5284030",
+    "source": "The Register",
+    "published": "2026-08-06T12:23:10+00:00",
+    "raw_text": "Nearly three-quarters worry Washington could cut access, yet fewer than half regularly test their fallback",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Nearly three-quarters worry Washington could cut access, yet fewer than half regularly test their fallback"
+  },
+  {
+    "title": "IT department put sticky notes on the laptops to help employees log in",
+    "url": "https://www.theregister.com/security/2026/08/06/it-department-put-sticky-notes-on-the-laptops-to-help-employees-log-in/5283662",
+    "source": "The Register",
+    "published": "2026-08-06T12:00:00+00:00",
+    "raw_text": "Leaving this information exposed allowed someone else to gain access",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Leaving this information exposed allowed someone else to gain access"
+  },
+  {
+    "title": "Windows 10 LTSC 2021 has five months before security updates cost extra",
+    "url": "https://www.theregister.com/os-platforms/2026/08/06/windows-10-ltsc-2021-has-five-months-before-security-updates-cost-extra/5283904",
+    "source": "The Register",
+    "published": "2026-08-06T11:03:00+00:00",
+    "raw_text": "ESU meter starts running in January, unless you're on the IoT edition",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "ESU meter starts running in January, unless you're on the IoT edition"
+  },
+  {
+    "title": "Meta latest to tell world its AI agent wandered out of test pen",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/06/meta-latest-to-tell-world-its-ai-agent-wandered-out-of-test-pen/5283947",
+    "source": "The Register",
+    "published": "2026-08-06T10:24:04+00:00",
+    "raw_text": "Another week, another firm explaining why one of its models reached somewhere it wasn't supposed to",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "Another week, another firm explaining why one of its models reached somewhere it wasn't supposed to"
+  },
+  {
+    "title": "News Corp labels some AI companies 'crass kleptomaniacs'",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/06/news-corp-labels-some-ai-companies-crass-kleptomaniacs/5283848",
+    "source": "The Register",
+    "published": "2026-08-06T09:30:00+00:00",
+    "raw_text": "Pay it for content, like OpenAI and Meta, to become 'principled' and 'honorable'",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Pay it for content, like OpenAI and Meta, to become 'principled' and 'honorable'"
+  },
+  {
+    "title": "Azure CTO pastes Doom into Paint one frame at a time",
+    "url": "https://www.theregister.com/offbeat/2026/08/06/azure-cto-pastes-doom-into-paint-one-frame-at-a-time/5283559",
+    "source": "The Register",
+    "published": "2026-08-06T08:30:00+00:00",
+    "raw_text": "It computes nothing, renders everything, and even has sound",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ]
+    },
+    "summary": "It computes nothing, renders everything, and even has sound"
+  },
+  {
+    "title": "HPE extends validity of quoted hardware prices, possibly for months",
+    "url": "https://www.theregister.com/systems/2026/08/06/hpe-extends-validity-of-quoted-hardware-prices-possibly-for-months/5283817",
+    "source": "The Register",
+    "published": "2026-08-06T05:59:47+00:00",
+    "raw_text": "Suggests Big Green knows its component prices will remain steady",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Suggests Big Green knows its component prices will remain steady"
+  },
+  {
     "title": "This 6-port USB-C charger replaced my ugly power brick - and powers my entire desk",
     "url": "https://www.zdnet.com/article/satechi-chargeview-240w-desktop-charger-review/",
     "source": "ZDNet",
@@ -3400,6 +3955,34 @@
     ],
     "matched_keywords": {},
     "summary": "We asked several experts in the travel industry to share their top picks for gadgets that help them on the go."
+  },
+  {
+    "title": "Bybit Sues North Korea and Lazarus Group, Secures Preliminary Injunction Freezing Stolen Assets in Landmark Crypto Asset Recovery Effort",
+    "url": "https://www.prnewswire.com/news-releases/bybit-sues-north-korea-and-lazarus-group-secures-preliminary-injunction-freezing-stolen-assets-in-landmark-crypto-asset-recovery-effort-302846491.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-08T05:00:00+00:00",
+    "raw_text": "Lawsuit accuses North Korea and Lazarus Group of orchestrating the $1.5 billion theft, as court-ordered asset freeze supports recovery efforts and Bybit expands collaboration with law enforcement and industry partners to strengthen accountability for crypto-related cybercrime DUBAI, UAE,...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "cyber"
+      ],
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "Lawsuit accuses North Korea and Lazarus Group of orchestrating the $1.5 billion theft, as court-ordered asset freeze supports recovery efforts and Bybit expands collaboration with law enforcement and industry partners to strengthen accountability for crypto-related cybercrime DUBAI, UAE,..."
   },
   {
     "title": "A Cup of Fresh Durian Coffee: The New Shu Road Comes to Life",
@@ -3757,333 +4340,6 @@
     "summary": "RADNOR, Pa., Aug. 7, 2026 /PRNewswire/ -- Kessler Topaz Meltzer & Check, LLP (www.ktmc.com), a nationally recognized securities litigation law firm, is investigating potential violations of the federal securities laws by Medline Inc. (NASDAQ: MDLN) on behalf of investors who purchased or..."
   },
   {
-    "title": "Zum Sees Strong Driver Hiring Momentum as More Than 200 Drivers and Families Celebrate New Philadelphia Operations Center",
-    "url": "https://www.prnewswire.com/news-releases/zum-sees-strong-driver-hiring-momentum-as-more-than-200-drivers-and-families-celebrate-new-philadelphia-operations-center-302846408.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-07T22:17:00+00:00",
-    "raw_text": "Grand opening marks another milestone in Zum's long-term investment in Philadelphia as hundreds of current and prospective drivers and their families gather ahead of the new school year PHILADELPHIA, Aug. 7, 2026 /PRNewswire/ -- Zūm, a leader in modern student mobility, this week welcomed...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "investment"
-      ]
-    },
-    "summary": "Grand opening marks another milestone in Zum's long-term investment in Philadelphia as hundreds of current and prospective drivers and their families gather ahead of the new school year PHILADELPHIA, Aug. 7, 2026 /PRNewswire/ -- Zūm, a leader in modern student mobility, this week welcomed..."
-  },
-  {
-    "title": "Jura Announces Maru-3 Completion and Test Results",
-    "url": "https://www.globenewswire.com/news-release/2026/08/08/3341435/0/en/jura-announces-maru-3-completion-and-test-results.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-08T02:37:00+00:00",
-    "raw_text": "CALGARY, Alberta, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Jura Energy Corporation (\" Jura \") announces that the development well Maru-3, in the Maru Lease, has been successfully completed in the Pirkoh Limestone formation of Eocene age. During a post-completion test on a 64/64 inch choke, the well flowed conventional natural gas at an average rate of approximately 1.02MMcf/d with an average wellhead flowing pressure of approximately 105 psi.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "CALGARY, Alberta, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Jura Energy Corporation (\" Jura \") announces that the development well Maru-3, in the Maru Lease, has been successfully completed in the Pirkoh Limestone formation of Eocene age. During a post-completion test on a 64/64 inch choke, the well flowed conventional natural gas at an average rate of approximately 1.02MMcf/d with an average wellhead flowing pressure of approximately 105 psi."
-  },
-  {
-    "title": "Built for Confidence: The Manufacturing Strength Behind FREELANDER 8",
-    "url": "https://www.globenewswire.com/news-release/2026/08/08/3341432/0/en/built-for-confidence-the-manufacturing-strength-behind-freelander-8.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-08T01:19:00+00:00",
-    "raw_text": "As FREELANDER continues its global journey, the Super Factory represents the manufacturing foundation behind its premium intelligent mobility vision.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "As FREELANDER continues its global journey, the Super Factory represents the manufacturing foundation behind its premium intelligent mobility vision."
-  },
-  {
-    "title": "Crypto News Today: AlphaPepe Presale Passes 10,000 Holders As the Dogecoin Price Prediction Targets $0.50",
-    "url": "https://www.globenewswire.com/news-release/2026/08/08/3341430/0/en/crypto-news-today-alphapepe-presale-passes-10-000-holders-as-the-dogecoin-price-prediction-targets-0-50.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-08T01:00:00+00:00",
-    "raw_text": "MONACO, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Crypto news today is shifting toward AlphaPepe as the presale passes 10,000 holders and continues building momentum before its next launch update. The project has now raised $2.23 million, crossed 10,700+ holders, and reached a current presale price of $0.02501.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "MONACO, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Crypto news today is shifting toward AlphaPepe as the presale passes 10,000 holders and continues building momentum before its next launch update. The project has now raised $2.23 million, crossed 10,700+ holders, and reached a current presale price of $0.02501."
-  },
-  {
-    "title": "Fresno State Athletics and The Wonderful Company Announce First Multi-Brand Partnership Across All Bulldog Sports",
-    "url": "https://www.globenewswire.com/news-release/2026/08/08/3341429/0/en/fresno-state-athletics-and-the-wonderful-company-announce-first-multi-brand-partnership-across-all-bulldog-sports.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-08T00:40:00+00:00",
-    "raw_text": "Fresno State and The Wonderful Company launch a first-of-its-kind five-year, multi-brand partnership spanning all 18 Bulldog teams.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "Fresno State and The Wonderful Company launch a first-of-its-kind five-year, multi-brand partnership spanning all 18 Bulldog teams."
-  },
-  {
-    "title": "Crypto News: Pepeto Closes In on Its Binance Listing While XRP Price Targets $3.5 Soon",
-    "url": "https://www.globenewswire.com/news-release/2026/08/08/3341427/0/en/crypto-news-pepeto-closes-in-on-its-binance-listing-while-xrp-price-targets-3-5-soon.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-08T00:32:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, Aug. 08, 2026 (GLOBE NEWSWIRE) -- Pepeto has announced its presale passed $10.336 million as its Binance listing approaches, and few token sales in this cycle's crypto news have filled faster. That speed alone turns heads, but the buyer list holds the real story, because some of the largest wallets filling it belong to XRP whales, which will lead us into a deep look into XRP price prediction to have a clear image. Presales are still where crypto's biggest early returns get made, and when money that experienced moves in this fast, finding out why is worth a reader's next two minutes.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "DUBAI, United Arab Emirates, Aug. 08, 2026 (GLOBE NEWSWIRE) -- Pepeto has announced its presale passed $10.336 million as its Binance listing approaches, and few token sales in this cycle's crypto news have filled faster. That speed alone turns heads, but the buyer list holds the real story, because some of the largest wallets filling it belong to XRP whales, which will lead us into a deep look into XRP price prediction to have a clear image. Presales are still where crypto's biggest early returns get made, and when money that experienced moves in this fast, finding out why is worth a reader's next two minutes."
-  },
-  {
-    "title": "Penrose Growth Expands Next-Generation Value Creation Platform After Generating More Than $70MM in Incremental Revenue",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341417/0/en/penrose-growth-expands-next-generation-value-creation-platform-after-generating-more-than-70mm-in-incremental-revenue.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T22:10:00+00:00",
-    "raw_text": "Operator-led firm combines full-funnel growth execution, AI and technology implementation, outcome guarantees, and performance-aligned economics for residential and commercial service businesses Operator-led firm combines full-funnel growth execution, AI and technology implementation, outcome guarantees, and performance-aligned economics for residential and commercial service businesses",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "Operator-led firm combines full-funnel growth execution, AI and technology implementation, outcome guarantees, and performance-aligned economics for residential and commercial service businesses Operator-led firm combines full-funnel growth execution, AI and technology implementation, outcome guarantees, and performance-aligned economics for residential and commercial service businesses"
-  },
-  {
-    "title": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341415/0/en/bugtraq-is-back-the-original-full-disclosure-mailing-list-is-live-again.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T21:30:00+00:00",
-    "raw_text": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again"
-  },
-  {
-    "title": "Label Printer Applicator Machines Market to Reach USD 1.60 Billion by 2033, Growing at 4.5% CAGR as Inline Automation and Traceability Compliance Reshape Packaging Lines - Verified Market Research",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341413/0/en/label-printer-applicator-machines-market-to-reach-usd-1-60-billion-by-2033-growing-at-4-5-cagr-as-inline-automation-and-traceability-compliance-reshape-packaging-lines-verified-mar.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T21:23:00+00:00",
-    "raw_text": "Global demand for automated print-and-apply labeling systems is accelerating as manufacturers replace manual workflows with automatic and semi-automatic solutions to reduce mislabeling risk and improve line throughput. The Label Printer Applicator Machines Market is expanding on the back of regulatory traceability requirements, thermal and ink-based print technology advances, and rising automation intensity across packaging, pharmaceuticals, food and beverages, consumer goods, and automotive supply chains. North America leads global adoption with an estimated 35% market share, while Asia Pacific reflects the fastest-scaling industrial demand base. Verified Market Research® projects the Label Printer Applicator Machines Market Size will climb steadily through 2033, underpinned by measurable operational efficiency gains rather than a single disruptive catalyst. Global demand for automated print-and-apply labeling systems is accelerating as manufacturers replace manual workflows with automatic and semi-automatic solutions to reduce mislabeling risk and improve line throughput. The Label Printer Applicator Machines Market is expanding on the back of regulatory traceability requirements, thermal and ink-based print technology advances, and rising automation intensity across packaging, pharmaceuticals, food and beverages, consumer goods, and automotive supply chains. North America leads global adoption with an estimated 35% market share, while Asia Pacific reflects the fastest-scaling industrial demand base. Verified Market Research® projects the Label Printer Applicator Machines Market Size will climb steadily through 2033, underpinned by measurable operational efficiency gains rather than a single disruptive catalyst.",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "compliance",
-        "regulatory"
-      ],
-      "Industry & Market": [
-        "market share"
-      ]
-    },
-    "summary": "Global demand for automated print-and-apply labeling systems is accelerating as manufacturers replace manual workflows with automatic and semi-automatic solutions to reduce mislabeling risk and improve line throughput. The Label Printer Applicator Machines Market is expanding on the back of regulatory traceability requirements, thermal and ink-based print technology advances, and rising automation intensity across packaging, pharmaceuticals, food and beverages, consumer goods, and automotive supply chains. North America leads global adoption with an estimated 35% market share, while Asia Pacific reflects the fastest-scaling industrial demand base. Verified Market Research® projects the Label Printer Applicator Machines Market Size will climb steadily through 2033, underpinned by measurable operational efficiency gains rather than a single disruptive catalyst."
-  },
-  {
-    "title": "Newcore Gold Files Pre-Feasibility Study Technical Report for the Enchi Gold Project, Ghana",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341409/35625/en/newcore-gold-files-pre-feasibility-study-technical-report-for-the-enchi-gold-project-ghana.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T21:06:00+00:00",
-    "raw_text": "VANCOUVER, British Columbia, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Newcore Gold Ltd. (\"Newcore\" or the \"Company\") (TSX-V: NCAU, OTCQX: NCAUF) is pleased to announce that it has filed the technical report supporting the Pre-Feasibility Study (\"PFS\" or the \"Study\") for the Company’s Enchi Gold Project (\"Enchi\" or the \"Project\") in Ghana.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "VANCOUVER, British Columbia, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Newcore Gold Ltd. (\"Newcore\" or the \"Company\") (TSX-V: NCAU, OTCQX: NCAUF) is pleased to announce that it has filed the technical report supporting the Pre-Feasibility Study (\"PFS\" or the \"Study\") for the Company’s Enchi Gold Project (\"Enchi\" or the \"Project\") in Ghana."
-  },
-  {
-    "title": "AI/R lança plataforma unificada para governança de IA corporativa",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341403/0/pt/ai-r-lan%C3%A7a-plataforma-unificada-para-governan%C3%A7a-de-ia-corporativa.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T20:39:00+00:00",
-    "raw_text": "AI/R anuncia o lançamento do AI/Cockpit One, plataforma criada para centralizar o acesso, a segurança, a observabilidade e a governança de IA nas empresas.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "AI/R anuncia o lançamento do AI/Cockpit One, plataforma criada para centralizar o acesso, a segurança, a observabilidade e a governança de IA nas empresas."
-  },
-  {
-    "title": "Supranext Selects Kore Inside as its Exclusive Platform for Private Placements and Securities Issuance",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341401/0/en/supranext-selects-kore-inside-as-its-exclusive-platform-for-private-placements-and-securities-issuance.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T20:36:00+00:00",
-    "raw_text": "Supranext emerges as the first global polyarchy, with billions in assets, nearly 2K members, and a multi‑trillion IP valuation poised to redefine finance",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "valuation"
-      ]
-    },
-    "summary": "Supranext emerges as the first global polyarchy, with billions in assets, nearly 2K members, and a multi‑trillion IP valuation poised to redefine finance"
-  },
-  {
-    "title": "SodaTide Capsule Label Guide: What the Supplement Facts Panel, Serving Directions, and Safety Statements Disclose for 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341402/0/en/sodatide-capsule-label-guide-what-the-supplement-facts-panel-serving-directions-and-safety-statements-disclose-for-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T20:36:00+00:00",
-    "raw_text": "SodaTide's synbiotic label names three probiotic strains and exact prebiotic fiber amounts as 2026 federal guidance prioritizes fiber.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "fiber",
-        "iot"
-      ]
-    },
-    "summary": "SodaTide's synbiotic label names three probiotic strains and exact prebiotic fiber amounts as 2026 federal guidance prioritizes fiber."
-  },
-  {
-    "title": "Washing Machine and TV Rentals Gain Ground Across Delhi, Gurgaon, Noida and Pune in 2026 as ₹12,000 to ₹60,000 Purchase Costs Give Way to ₹400 a Month Plans on Platforms Like Rentomojo",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341368/0/en/washing-machine-and-tv-rentals-gain-ground-across-delhi-gurgaon-noida-and-pune-in-2026-as-12-000-to-60-000-purchase-costs-give-way-to-400-a-month-plans-on-platforms-like-rentomojo.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T19:58:00+00:00",
-    "raw_text": "Households on short postings are matching laundry and entertainment appliances to tenancy length rather than to product lifespan, transferring repair exposure, technology obsolescence and resale loss to the rental provider. Households on short postings are matching laundry and entertainment appliances to tenancy length rather than to product lifespan, transferring repair exposure, technology obsolescence and resale loss to the rental provider.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Households on short postings are matching laundry and entertainment appliances to tenancy length rather than to product lifespan, transferring repair exposure, technology obsolescence and resale loss to the rental provider. Households on short postings are matching laundry and entertainment appliances to tenancy length rather than to product lifespan, transferring repair exposure, technology obsolescence and resale loss to the rental provider."
-  },
-  {
-    "title": "Nigeria's First SEC-Licensed Exchange, Quidax, Expands Stablecoin Infrastructure to Over 21 Countries",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341366/0/en/nigeria-s-first-sec-licensed-exchange-quidax-expands-stablecoin-infrastructure-to-over-21-countries.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T19:50:00+00:00",
-    "raw_text": "The Expansion Unlocks a Compliant Engine for Businesses and Fintechs to Move Value Across Africa and Beyond",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "expands",
-        "ey"
-      ]
-    },
-    "summary": "The Expansion Unlocks a Compliant Engine for Businesses and Fintechs to Move Value Across Africa and Beyond"
-  },
-  {
-    "title": "QCI AGI56.1 Now Deployed to Customers Following Successful Rollout",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341332/0/en/qci-agi56-1-now-deployed-to-customers-following-successful-rollout.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T18:54:00+00:00",
-    "raw_text": "Major performance release is delivering faster, more responsive workflows across QCI customer environments Major performance release is delivering faster, more responsive workflows across QCI customer environments",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Major performance release is delivering faster, more responsive workflows across QCI customer environments Major performance release is delivering faster, more responsive workflows across QCI customer environments"
-  },
-  {
-    "title": "DirectMax Prescription Management Update Details Patient Support and Telehealth Access Through Direct Meds",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341327/0/en/directmax-prescription-management-update-details-patient-support-and-telehealth-access-through-direct-meds.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T18:24:00+00:00",
-    "raw_text": "Direct Meds updates DirectMax prescription management, patient support, provider communication, refill administration and telehealth access.",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Direct Meds updates DirectMax prescription management, patient support, provider communication, refill administration and telehealth access."
-  },
-  {
-    "title": "RTA Outdoor Living Completes Custom Outdoor Kitchen for Rob Gronkowski at His Massachusetts Home",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341324/0/en/rta-outdoor-living-completes-custom-outdoor-kitchen-for-rob-gronkowski-at-his-massachusetts-home.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T18:07:00+00:00",
-    "raw_text": "The New Hampshire-based company created a galley-style backyard kitchen with two 12-foot islands, a separate pizza oven station and space for cooking, entertaining and family gatherings The New Hampshire-based company created a galley-style backyard kitchen with two 12-foot islands, a separate pizza oven station and space for cooking, entertaining and family gatherings",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "The New Hampshire-based company created a galley-style backyard kitchen with two 12-foot islands, a separate pizza oven station and space for cooking, entertaining and family gatherings The New Hampshire-based company created a galley-style backyard kitchen with two 12-foot islands, a separate pizza oven station and space for cooking, entertaining and family gatherings"
-  },
-  {
-    "title": "New Chevy Silverado Discounts in Indianapolis: Extra 5% Off 1500 and 2500",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341313/0/en/new-chevy-silverado-discounts-in-indianapolis-extra-5-off-1500-and-2500.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T17:30:00+00:00",
-    "raw_text": "Blossom Chevrolet applies an extra 5% off MSRP dealer discount to every new Silverado 1500 and 2500 in stock in Indianapolis, up to $4,000 in savings.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Blossom Chevrolet applies an extra 5% off MSRP dealer discount to every new Silverado 1500 and 2500 in stock in Indianapolis, up to $4,000 in savings."
-  },
-  {
-    "title": "Crypto News: Pepeto Announces Its DeFi Tools Moving Into Launch Position While the Bitcoin Price Targets $250K",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341294/0/en/crypto-news-pepeto-announces-its-defi-tools-moving-into-launch-position-while-the-bitcoin-price-targets-250k.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T16:24:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Pepeto has announced its complete DeFi toolset is moving into position for launch, and the timing gives this crypto news article two things worth a reader's next five minutes: an exclusive look at what the biggest wallets in crypto did beneath this market while nobody was watching, and early information on the presale those same wallets keep filling. The Bitcoin price tells one story on the surface.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "DUBAI, United Arab Emirates, Aug. 07, 2026 (GLOBE NEWSWIRE) -- Pepeto has announced its complete DeFi toolset is moving into position for launch, and the timing gives this crypto news article two things worth a reader's next five minutes: an exclusive look at what the biggest wallets in crypto did beneath this market while nobody was watching, and early information on the presale those same wallets keep filling. The Bitcoin price tells one story on the surface."
-  },
-  {
-    "title": "AdsGram Introduces Telegram Ads Capabilities for Advertisers",
-    "url": "https://www.globenewswire.com/news-release/2026/08/07/3341262/0/en/adsgram-introduces-telegram-ads-capabilities-for-advertisers.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-07T15:42:00+00:00",
-    "raw_text": "The expanded offering adds Telegram Ads capabilities to AdsGram’s existing advertising and monetization solutions for Telegram Mini Apps, channels, & bots.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The expanded offering adds Telegram Ads capabilities to AdsGram’s existing advertising and monetization solutions for Telegram Mini Apps, channels, & bots."
-  },
-  {
     "title": "Ubuntu Statistics By Market Share And Trends (2026) - Sci-Tech Today",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uTmxTMzRtTGtpZGxCNkd2MjlZdjJiTDFpTGVEWnc2TDFDTWZlb2gxV0FRRnpWRU1KNGxLcmlma3l4bTNEZ0EzdS10WFJEd0YyT3U2aWtIUGlSbDE4c1NHNGdMVW9CQ1dG?oc=5",
     "source": "Google News: Cloud Infrastructure",
@@ -4098,27 +4354,6 @@
       ]
     },
     "summary": "Ubuntu Statistics By Market Share And Trends (2026) Sci-Tech Today"
-  },
-  {
-    "title": "Horizon3 raises $250 million in Series E funding. - CyberWire",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80OGhxdmI4cDhkenlra3l5VUtjZjFYbmFPaTFvZmNrYWZDemFDWEpxZ0owazBiSUxrZ2hCOE15UHRONEtuLW9IalhrajR2cXhoRjM1TWVnbW9xM0JXQlRyNkhvTlRDQ3BvWlVZ?oc=5",
-    "source": "Google News: Vendor Press Releases",
-    "published": "2026-08-06T04:12:44+00:00",
-    "raw_text": "Horizon3 raises $250 million in Series E funding. CyberWire",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
-      ],
-      "Industry & Market": [
-        "funding",
-        "raises"
-      ]
-    },
-    "summary": "Horizon3 raises $250 million in Series E funding. CyberWire"
   },
   {
     "title": "Broadcom Expands VMware Security Portfolio with AI-Powered Cyber Defense Updates - HPCwire",
