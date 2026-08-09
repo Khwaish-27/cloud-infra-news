@@ -565,59 +565,6 @@
     "summary": "In this Help Net Security interview, Edwin Weijdema, Field CTO at Veeam, answers questions on Article 50 of the EU AI Act and what the first year of enforcement might bring. He explains why corrective orders will likely outnumber large fines, when an AI agent working through a ticket queue counts as interacting with a person, and how security teams should handle simulated phishing that uses cloned voices. He also weighs where the first enforcement … More → The post What the first year of EU AI Act transparency enforcement could look like appeared first on Help Net Security ."
   },
   {
-    "title": "US fuel gauge exposure fell by more than half in three months",
-    "url": "https://www.helpnetsecurity.com/2026/08/07/automatic-fuel-tank-gauge-exposure/",
-    "source": "Help Net Security",
-    "published": "2026-08-07T05:00:30+00:00",
-    "raw_text": "Every month for the better part of a year, about 4,800 US internet addresses answered a query in the protocol that fuel tank gauges speak. In June the number was 2,354. The count fell across April, May, and June, all three months sit below the previous year’s floor, and the decline holds up against checks for address churn and port hopping. Exposure figures rarely move this way, and almost never this fast. U.S. ATG protocol … More → The post US fuel gauge exposure fell by more than half in three months appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Every month for the better part of a year, about 4,800 US internet addresses answered a query in the protocol that fuel tank gauges speak. In June the number was 2,354. The count fell across April, May, and June, all three months sit below the previous year’s floor, and the decline holds up against checks for address churn and port hopping. Exposure figures rarely move this way, and almost never this fast."
-  },
-  {
-    "title": "ShieldFont fights AI scraping by handing crawlers the wrong words",
-    "url": "https://www.helpnetsecurity.com/2026/08/07/shieldfont-ai-scraping-protection/",
-    "source": "Help Net Security",
-    "published": "2026-08-07T04:30:47+00:00",
-    "raw_text": "Isaque Seneda and Gabriel Abrucio built a web font that draws one set of words on screen and leaves a different set in the page’s source code. A person reading in a browser sees the writing as written. A scraper pulling the HTML gets different words in the same grammar, at the same URL, off the same bytes. ShieldFont started in October 2025 with support from the type foundry Playtype. The site that deploys it … More → The post ShieldFont fights AI scraping by handing crawlers the wrong words appeared first on Help Net Security .",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Isaque Seneda and Gabriel Abrucio built a web font that draws one set of words on screen and leaves a different set in the page’s source code. A person reading in a browser sees the writing as written. A scraper pulling the HTML gets different words in the same grammar, at the same URL, off the same bytes. ShieldFont started in October 2025 with support from the type foundry Playtype."
-  },
-  {
-    "title": "Gut feeling does nothing against AI spear phishing texts",
-    "url": "https://www.helpnetsecurity.com/2026/08/07/ai-spear-phishing-research/",
-    "source": "Help Net Security",
-    "published": "2026-08-07T04:00:11+00:00",
-    "raw_text": "A banker at a credit union sat down at a table with a dozen printed text messages, all of them written for that banker personally, and put them in order from the one most likely to get a click down to the one least likely. One of them stopped the sorting. It looked like something the bank sends out: “alert literally looks like the alert we get [at work] when there’s a fraud.” Half the … More → The post Gut feeling does nothing against AI spear phishing texts appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "security"
-      ]
-    },
-    "summary": "A banker at a credit union sat down at a table with a dozen printed text messages, all of them written for that banker personally, and put them in order from the one most likely to get a click down to the one least likely. One of them stopped the sorting. It looked like something the bank sends out: “alert literally looks like the alert we get [at work] when there’s a fraud.” Half the … More → The post Gut feeling does nothing against AI spear phishing texts appeared first on Help Net Security ."
-  },
-  {
     "title": "AI-Generated Patches Fail Half the Time",
     "url": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
     "source": "Dark Reading",
@@ -1008,7 +955,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
     "source": "Google Cloud Blog",
     "published": "2026-08-07T16:00:00+00:00",
-    "raw_text": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audio files, images, and unstructured text required a fragmented architecture: moving data out of your warehouse, stitching together complex LLM pipelines, and managing disparate search indexes. BigQuery has worked with many enterprises to make sense of their unstructured data sources. For example, consider an advanced healthcare company managing thousands of clinical trial documents in PDF form. BigQuery helps unlock insights from these documents through a simple, five-step lifecycle: Access, Process, Ground, Relate, and Activate . In this post, we are highlighting three major milestones focused heavily on the \"Ground\" phase of this framework: General Availability (GA) of Autonomous Embedding Generation General Availability (GA) of AI.SEARCH with massive single-query performance gains Public Preview of Hybrid Search Let’s dive into how these features work together to simplify your AI architecture, using a real-world clinical trial research platform as an example. Simplify Pipelines with Autonomous Embedding Generation (GA) Building a retrieval-augmented generation (RAG) pipeline or search application usually requires managing complex, asynchronous embedding infrastructure. You have to handle retries, error logging, and pipeline orchestration every time a new record arrives. With the General Availability of Autonomous Embedding Generation , BigQuery manages this entirely for you. By simply defining a column in your schema, BigQuery asynchronously and continuously generates embeddings as new data is ingested. You have the flexibility to choose external models (like Vertex AI text-embeddings) or natively utilize Gemma embedding models directly within BigQuery. How it works in practice: Imagine you are building a research platform analyzing clinical trial PDFs stored in Google Cloud Storage. After extracting the study titles and disease areas into a table, you can automatically embed those titles: code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE TABLE mydataset.clinical_trials\\r\\n(\\r\\n trial_id STRING,\\r\\n study_title STRING,\\r\\n study_embedding STRUCT<result ARRAY<FLOAT64>, status STRING>\\r\\n GENERATED ALWAYS AS (AI.EMBED(\\r\\n study_title,\\r\\n connection_id => 'myconnection',\\r\\n endpoint => 'text-embedding-005'\\r\\n ))\\r\\n STORED\\r\\n OPTIONS( asynchronous = TRUE )\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fab132b5310>)])]> BigQuery eliminates the need for complex third-party vector databases by managing enterprise-scale processing with one configuration. This autonomous embedding generation keeps data synchronized automatically as source text changes, removing the need for manual machine learning pipelines. This integrated approach streamlines workflows for dynamic datasets and reduces the operational burden of maintaining custom data scripts. Finally, with this GA launch, Autonomous Embedding Generation now also supports generating embeddings natively over images using ObjectRefs , unlocking true multimodal search and analytics. Natural Language Search at Scale with AI.SEARCH (GA) To truly enable conversational analytics agents and snappier user experiences, your underlying search infrastructure needs to be intuitive and performant. Once your data is seamlessly embedded, you need an efficient way to query it. Today, we are announcing the General Availability of AI.SEARCH() . This function provides a streamlined, natural-language-focused search experience, allowing you to easily find semantically related records without generating embeddings in your search path. In pairing this with the Autonomous Embedding Generation, we leverage the same embedding model used in your dataset for easier use. Furthermore, as part of efficiency investments in the last year, we have heavily optimized AI.SEARCH for single-query execution. For online applications and single-query searches (those most common in agentic searches), we have observed up to a 133x gain in slot efficiency.. This means you can serve highly concurrent, user-facing natural language searches directly out of BigQuery faster and more cost-effectively than ever before. code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"What treatments are available for advanced tumors?\"\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fab132b52e0>)])]> Unifying Keyword and Vector with Hybrid Search (Public Preview) Semantic (vector) search is incredibly powerful; for example, the query above will successfully return conceptually related terms like \"chemotherapy.\" However, semantic search isn't always enough. What if a researcher is searching for a specific, highly technical immunotherapy drug designation like \"MK3475\"? Because this alphanumeric string lacks broad semantic meaning, pure vector search might struggle to rank it correctly. By merging lexical search with existing semantic capabilities, BigQuery's hybrid search allows for data retrieval based on both keyword similarity and underlying meaning. This approach unites the conceptual depth of semantic vector search with the pinpoint accuracy of lexical matching, utilizing algorithms such as Reciprocal Rank Fusion and BM25. The result is a significant boost in search precision and a reduction in LLM hallucination costs through the reranking of results based on keyword frequency and semantic relevance. Users can implement this via the AI.SEARCH and VECTOR_SEARCH functions by employing the hybrid mode or lexical_search_columns parameters. Furthermore, performance can be optimized by extending vector indexes to include keyword data, which accelerates the lexical search process. You can now perform hybrid searches effortlessly using the AI.SEARCH() function by simply setting the mode to HYBRID: code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"Cancer treated by MK-3475\",\\r\\n mode => \\'HYBRID\\'\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fab132b5a00>)])]> To speed up these hybrid queries at scale, you can easily extend your CREATE VECTOR INDEX DDL to include the keyword columns you want to use for the lexical portion of the search, natively combining your indexes. Building an End-to-End Unstructured Data Analytics Platform The search and embedding features launching today are part of a much broader vision. We are building an end-to-end unstructured data analytics platform. One common type of unstructured data is documents, and BigQuery now provides the complete toolset to manage this workflow from end to end: Access: Enable zero-ETL workflows by querying unstructured PDFs and documents directly where they live in Google Cloud Storage using Object Tables. Process: Utilize embedded AI capabilities like AI.PARSE and AI.CHUNK_DOC (coming soon) for layout-aware chunking (perfect for RAG), AI.GENERATE for entity extraction/summarization, and AI.CLASSIFY to instantly categorize records using foundational models directly in your SQL pipelines. Ground: Build highly accurate context using Autonomous Embeddings and Hybrid Search. Hybrid search combines the conceptual understanding of semantic vector search with the exact precision of lexical keyword matching By reranking results based on both semantic relevance and keyword frequency, you drastically increase search precision and drive down LLM hallucinations. Relate: Uncover hidden multi-hop insights by mapping extracted entities (like Sponsors, Trials, and Drugs) into a BigQuery Graph —no specialized graph database required. Activate: Bring it all together with BigQuery's Conversational Analytics agents. Using functions like AI.AGG , you can chat directly with your complex data, generate visualizations, and perform trend analysis at massive scale. With unstructured data as a first-class citizen in BigQuery, you can finally bridge the gap between your raw documents and conversational AI. Ready to get started? Explore the Code: Check out the complete end-to-end clinical trials demonstration in our Document Analytics on BigQuery GitHub Repository . Read the Docs: Dive into the official documentation for Autonomous Embeddings and Hybrid Search to start building your own unified data pipelines today.",
+    "raw_text": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audio files, images, and unstructured text required a fragmented architecture: moving data out of your warehouse, stitching together complex LLM pipelines, and managing disparate search indexes. BigQuery has worked with many enterprises to make sense of their unstructured data sources. For example, consider an advanced healthcare company managing thousands of clinical trial documents in PDF form. BigQuery helps unlock insights from these documents through a simple, five-step lifecycle: Access, Process, Ground, Relate, and Activate . In this post, we are highlighting three major milestones focused heavily on the \"Ground\" phase of this framework: General Availability (GA) of Autonomous Embedding Generation General Availability (GA) of AI.SEARCH with massive single-query performance gains Public Preview of Hybrid Search Let’s dive into how these features work together to simplify your AI architecture, using a real-world clinical trial research platform as an example. Simplify Pipelines with Autonomous Embedding Generation (GA) Building a retrieval-augmented generation (RAG) pipeline or search application usually requires managing complex, asynchronous embedding infrastructure. You have to handle retries, error logging, and pipeline orchestration every time a new record arrives. With the General Availability of Autonomous Embedding Generation , BigQuery manages this entirely for you. By simply defining a column in your schema, BigQuery asynchronously and continuously generates embeddings as new data is ingested. You have the flexibility to choose external models (like Vertex AI text-embeddings) or natively utilize Gemma embedding models directly within BigQuery. How it works in practice: Imagine you are building a research platform analyzing clinical trial PDFs stored in Google Cloud Storage. After extracting the study titles and disease areas into a table, you can automatically embed those titles: code_block <ListValue: [StructValue([('code', \"CREATE OR REPLACE TABLE mydataset.clinical_trials\\r\\n(\\r\\n trial_id STRING,\\r\\n study_title STRING,\\r\\n study_embedding STRUCT<result ARRAY<FLOAT64>, status STRING>\\r\\n GENERATED ALWAYS AS (AI.EMBED(\\r\\n study_title,\\r\\n connection_id => 'myconnection',\\r\\n endpoint => 'text-embedding-005'\\r\\n ))\\r\\n STORED\\r\\n OPTIONS( asynchronous = TRUE )\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fca0f001940>)])]> BigQuery eliminates the need for complex third-party vector databases by managing enterprise-scale processing with one configuration. This autonomous embedding generation keeps data synchronized automatically as source text changes, removing the need for manual machine learning pipelines. This integrated approach streamlines workflows for dynamic datasets and reduces the operational burden of maintaining custom data scripts. Finally, with this GA launch, Autonomous Embedding Generation now also supports generating embeddings natively over images using ObjectRefs , unlocking true multimodal search and analytics. Natural Language Search at Scale with AI.SEARCH (GA) To truly enable conversational analytics agents and snappier user experiences, your underlying search infrastructure needs to be intuitive and performant. Once your data is seamlessly embedded, you need an efficient way to query it. Today, we are announcing the General Availability of AI.SEARCH() . This function provides a streamlined, natural-language-focused search experience, allowing you to easily find semantically related records without generating embeddings in your search path. In pairing this with the Autonomous Embedding Generation, we leverage the same embedding model used in your dataset for easier use. Furthermore, as part of efficiency investments in the last year, we have heavily optimized AI.SEARCH for single-query execution. For online applications and single-query searches (those most common in agentic searches), we have observed up to a 133x gain in slot efficiency.. This means you can serve highly concurrent, user-facing natural language searches directly out of BigQuery faster and more cost-effectively than ever before. code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"What treatments are available for advanced tumors?\"\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fca0f001c40>)])]> Unifying Keyword and Vector with Hybrid Search (Public Preview) Semantic (vector) search is incredibly powerful; for example, the query above will successfully return conceptually related terms like \"chemotherapy.\" However, semantic search isn't always enough. What if a researcher is searching for a specific, highly technical immunotherapy drug designation like \"MK3475\"? Because this alphanumeric string lacks broad semantic meaning, pure vector search might struggle to rank it correctly. By merging lexical search with existing semantic capabilities, BigQuery's hybrid search allows for data retrieval based on both keyword similarity and underlying meaning. This approach unites the conceptual depth of semantic vector search with the pinpoint accuracy of lexical matching, utilizing algorithms such as Reciprocal Rank Fusion and BM25. The result is a significant boost in search precision and a reduction in LLM hallucination costs through the reranking of results based on keyword frequency and semantic relevance. Users can implement this via the AI.SEARCH and VECTOR_SEARCH functions by employing the hybrid mode or lexical_search_columns parameters. Furthermore, performance can be optimized by extending vector indexes to include keyword data, which accelerates the lexical search process. You can now perform hybrid searches effortlessly using the AI.SEARCH() function by simply setting the mode to HYBRID: code_block <ListValue: [StructValue([('code', 'SELECT base.trial_id, base.study_title, distance\\r\\nFROM\\r\\n AI.SEARCH(\\r\\n TABLE mydataset.clinical_trials,\\r\\n \\'study_title\\',\\r\\n \"Cancer treated by MK-3475\",\\r\\n mode => \\'HYBRID\\'\\r\\n );'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fca0f0012e0>)])]> To speed up these hybrid queries at scale, you can easily extend your CREATE VECTOR INDEX DDL to include the keyword columns you want to use for the lexical portion of the search, natively combining your indexes. Building an End-to-End Unstructured Data Analytics Platform The search and embedding features launching today are part of a much broader vision. We are building an end-to-end unstructured data analytics platform. One common type of unstructured data is documents, and BigQuery now provides the complete toolset to manage this workflow from end to end: Access: Enable zero-ETL workflows by querying unstructured PDFs and documents directly where they live in Google Cloud Storage using Object Tables. Process: Utilize embedded AI capabilities like AI.PARSE and AI.CHUNK_DOC (coming soon) for layout-aware chunking (perfect for RAG), AI.GENERATE for entity extraction/summarization, and AI.CLASSIFY to instantly categorize records using foundational models directly in your SQL pipelines. Ground: Build highly accurate context using Autonomous Embeddings and Hybrid Search. Hybrid search combines the conceptual understanding of semantic vector search with the exact precision of lexical keyword matching By reranking results based on both semantic relevance and keyword frequency, you drastically increase search precision and drive down LLM hallucinations. Relate: Uncover hidden multi-hop insights by mapping extracted entities (like Sponsors, Trials, and Drugs) into a BigQuery Graph —no specialized graph database required. Activate: Bring it all together with BigQuery's Conversational Analytics agents. Using functions like AI.AGG , you can chat directly with your complex data, generate visualizations, and perform trend analysis at massive scale. With unstructured data as a first-class citizen in BigQuery, you can finally bridge the gap between your raw documents and conversational AI. Ready to get started? Explore the Code: Check out the complete end-to-end clinical trials demonstration in our Document Analytics on BigQuery GitHub Repository . Read the Docs: Dive into the official documentation for Autonomous Embeddings and Hybrid Search to start building your own unified data pipelines today.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1968,30 +1915,6 @@
     "summary": "What an idiot"
   },
   {
-    "title": "China launches mysterious probe into security of Palo Alto Networks' products",
-    "url": "https://www.theregister.com/security/2026/08/07/china-launches-mysterious-probe-into-security-of-palo-alto-networks-products/5284453",
-    "source": "The Register",
-    "published": "2026-08-07T04:24:37+00:00",
-    "raw_text": "Beijing’s not saying why, which is just what happened when it investigated Micron",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Beijing’s not saying why, which is just what happened when it investigated Micron"
-  },
-  {
     "title": "This 6-port USB-C charger replaced my ugly power brick - and powers my entire desk",
     "url": "https://www.zdnet.com/article/satechi-chargeview-240w-desktop-charger-review/",
     "source": "ZDNet",
@@ -2215,6 +2138,22 @@
     ],
     "matched_keywords": {},
     "summary": "Samsung's new Galaxy Z Fold 8 phones are here, and we found the best phone cases from brands like Spigen, Dbrand, and more to protect your new device."
+  },
+  {
+    "title": "Club Offers for Travel Enthusiasts in the U.S.",
+    "url": "https://www.prnewswire.com/news-releases/club-offers-for-travel-enthusiasts-in-the-us-302846337.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-09T04:01:00+00:00",
+    "raw_text": "NEW YORK, Aug. 9, 2026 /PRNewswire/ -- Travelzoo® (NASDAQ: TZOO), the club for travel enthusiasts, announces six of many new Club Offers for Club Members in the U.S. Rigorously vetted and negotiated for us travel enthusiasts: $1099—MAUI HYATT VACATION WITH FLIGHTS This Hyatt resort is...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "NEW YORK, Aug. 9, 2026 /PRNewswire/ -- Travelzoo® (NASDAQ: TZOO), the club for travel enthusiasts, announces six of many new Club Offers for Club Members in the U.S. Rigorously vetted and negotiated for us travel enthusiasts: $1099—MAUI HYATT VACATION WITH FLIGHTS This Hyatt resort is..."
   },
   {
     "title": "Bybit poursuit la Corée du Nord et le groupe Lazarus en justice et obtient une injonction provisoire gelant les actifs volés, dans le cadre d'une opération historique de recouvrement de crypto-actifs",
@@ -2503,18 +2442,6 @@
     "summary": "MANASSAS, Va., Aug. 8, 2026 /PRNewswire/ -- PureHealth Research is spotlighting the growing consumer interest in peptide nutrition and the role thoughtful nutritional choices play in maintaining healthy joints, skin and hair. Many of today's peptide supplements feature Morikol® Marine..."
   },
   {
-    "title": "World's First Long-Duration Energy Storage Integrated Industrial Park Commences Production Rollout: Shandong HiTHIUM Ushers in New Phase of Scalable Delivery",
-    "url": "https://www.prnewswire.com/news-releases/worlds-first-long-duration-energy-storage-integrated-industrial-park-commences-production-rollout-shandong-hithium-ushers-in-new-phase-of-scalable-delivery-302846553.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-08T14:38:00+00:00",
-    "raw_text": "HEZE, China, Aug. 8, 2026 /PRNewswire/ -- The Production Rollout Ceremony of Shandong HiTHIUM's world's first long-duration energy storage (LDES) integrated industrial park (Heze Base) was held on August 7 in Heze Luxi New Area. As the world's first intelligent manufacturing base...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "HEZE, China, Aug. 8, 2026 /PRNewswire/ -- The Production Rollout Ceremony of Shandong HiTHIUM's world's first long-duration energy storage (LDES) integrated industrial park (Heze Base) was held on August 7 in Heze Luxi New Area. As the world's first intelligent manufacturing base..."
-  },
-  {
     "title": "AWS vs Azure vs Google Cloud: Where Are the Best IT Jobs? - Buttondown",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmI5SFJVeW0xaGxodEtrbUdSejZCNk1ycWMyQVkzSnhuR0Z2WkNNbW04SGRzOTdmdjhJOEhWVWVQcGN6TmEwZ1UxTThMYThnUXNwZzQ5alAyV01LLWhlSVBMS082dnJGcFYxeVJCMWpmLUVpcXZDNkp1V0VRQmcyUWx5bHpXdlA3Ykcwb2xNd0g0MDVYN044bw?oc=5",
     "source": "Google News: Cloud Infrastructure",
@@ -2550,11 +2477,11 @@
     "summary": "Ubuntu Statistics By Market Share And Trends (2026) Sci-Tech Today"
   },
   {
-    "title": "Kiteworks expands into Japan with WAMNET acquisition - channele2e.com",
+    "title": "Kiteworks expands into Japan with WAMNET acquisition - ChannelE2E",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTVhnYnlXSFpGbGJLN29HWHVjbVVOQmtyY1BtU1lPMWFVbE5JYmpETkpWMnhBdlNlQ1FjOTBpWDU2V3B5bkFoN21qeXIxRTk0M3ZGUzJGQld1OWE2YXhmeHE3ZFp5dVhaeG1QdUlyak9VcHF3bi03TlB6dnZFUnZYazFpcmdEamVha2EzdGF3?oc=5",
     "source": "Google News: Market & Industry News",
     "published": "2026-08-07T15:49:32+00:00",
-    "raw_text": "Kiteworks expands into Japan with WAMNET acquisition channele2e.com",
+    "raw_text": "Kiteworks expands into Japan with WAMNET acquisition ChannelE2E",
     "categories": [
       "Industry & Market"
     ],
@@ -2564,6 +2491,6 @@
         "expands"
       ]
     },
-    "summary": "Kiteworks expands into Japan with WAMNET acquisition channele2e.com"
+    "summary": "Kiteworks expands into Japan with WAMNET acquisition ChannelE2E"
   }
 ]
