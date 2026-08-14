@@ -162,79 +162,6 @@
     "summary": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more"
   },
   {
-    "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-    "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-    "source": "The Hacker News",
-    "published": "2026-08-12T07:31:40+00:00",
-    "raw_text": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "security"
-      ]
-    },
-    "summary": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an"
-  },
-  {
-    "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-    "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-    "source": "The Hacker News",
-    "published": "2026-08-12T06:41:38+00:00",
-    "raw_text": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "zero-day",
-        "security"
-      ]
-    },
-    "summary": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described"
-  },
-  {
-    "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-    "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-    "source": "The Hacker News",
-    "published": "2026-08-12T06:15:58+00:00",
-    "raw_text": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "firewall"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "threat",
-        "security"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger"
-  },
-  {
     "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
     "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
     "source": "BleepingComputer",
@@ -871,6 +798,46 @@
     "summary": "The big-box giant has scaled its defenses by encouraging trust and innovation. Good communications, transparency, and team spirit are key factors."
   },
   {
+    "title": "Hackers Exploiting Unpatched GeoServer Zero-Day",
+    "url": "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
+    "source": "SecurityWeek",
+    "published": "2026-08-14T07:01:56+00:00",
+    "raw_text": "The security defect is described as an SQL injection that could allow attackers to achieve remote code execution. The post Hackers Exploiting Unpatched GeoServer Zero-Day appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "zero-day",
+        "exploit",
+        "hacker",
+        "security"
+      ]
+    },
+    "summary": "The security defect is described as an SQL injection that could allow attackers to achieve remote code execution. The post Hackers Exploiting Unpatched GeoServer Zero-Day appeared first on SecurityWeek ."
+  },
+  {
+    "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
+    "url": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
+    "source": "SecurityWeek",
+    "published": "2026-08-14T06:41:43+00:00",
+    "raw_text": "The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "The Rust-based macOS infostealer harvests users’ passwords, keychain information, Chromium-based browser data, and Safari cookies. The post AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions appeared first on SecurityWeek ."
+  },
+  {
     "title": "Cybersecurity M&A Roundup: 21 Deals Announced in July 2026",
     "url": "https://www.securityweek.com/cybersecurity-ma-roundup-21-deals-announced-in-july-2026/",
     "source": "SecurityWeek",
@@ -1021,44 +988,21 @@
     "summary": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ appeared first on SecurityWeek ."
   },
   {
-    "title": "SharePoint Vulnerability Exploited Shortly After PoC Release",
-    "url": "https://www.securityweek.com/sharepoint-vulnerability-exploited-shortly-after-poc-release/",
-    "source": "SecurityWeek",
-    "published": "2026-08-12T14:47:01+00:00",
-    "raw_text": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared first on SecurityWeek .",
+    "title": "Researchers Link 'Jewelbug' Chinese APT to Hack-for-Hire Operations",
+    "url": "https://www.infosecurity-magazine.com/news/researchers-link-chinese-apt-hack/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-08-14T07:30:00+00:00",
+    "raw_text": "Threat intelligence researchers from Broadcom revealed that a known Chinese APT group may be linked to a lucrative crypto fraud operation",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "security"
+        "threat",
+        "threat intelligence"
       ]
     },
-    "summary": "The vulnerability was patched by Microsoft in July and CISA warned that it could end up being exploited in the wild. The post SharePoint Vulnerability Exploited Shortly After PoC Release appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Mindgard Raises $30 Million to Protect AI Systems",
-    "url": "https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/",
-    "source": "SecurityWeek",
-    "published": "2026-08-12T13:24:00+00:00",
-    "raw_text": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams. The post Mindgard Raises $30 Million to Protect AI Systems appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "investment",
-        "raises"
-      ]
-    },
-    "summary": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams. The post Mindgard Raises $30 Million to Protect AI Systems appeared first on SecurityWeek ."
+    "summary": "Threat intelligence researchers from Broadcom revealed that a known Chinese APT group may be linked to a lucrative crypto fraud operation"
   },
   {
     "title": "Exposed AWS Access Key Linked to Data Breach Affecting 1500+ UK Charities",
@@ -1320,7 +1264,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/",
     "source": "Google Cloud Blog",
     "published": "2026-08-13T17:00:00+00:00",
-    "raw_text": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping. This allows your agents to reason across complex dependencies captured in graphs with precision of measures. Why relationships matter Traditional data structures are blind to multi-hop business context, causing AI agents to make incorrect operational decisions: The concrete problem: If a retailer has an agent who is asked why winter jacket sales dropped 12% in Seattle, it can query flat tables to report the what (the 12% dip). But it fails at the why because it cannot trace the relational path: Seattle orders ➔ distribution centers ➔ suppliers delayed by regional storms . The risk of disjointed systems: Lacking relationship context, the agent suggests an irrelevant 15% markdown campaign, needlessly eroding margins. Furthermore, maintaining separate systems - where one team maps supplier relationships in a separate graph database while another maintains SQL metrics - forces your agent to stitch these stacks together at runtime. This process is slow, expensive, and leads to inconsistent KPI calculations. Measures in BigQuery Graph solves this by letting you map existing tables to a property graph in-place with zero ETL . This unified setup enables a logical evolution of inquiry: Metadata grounding establishes what data you have. Business metrics (measures) calculate how your business performed. Relationship mapping (graph) uncovers why it happened. Under the hood Historically, standard SQL joins during graph traversals duplicate rows, leading to incorrect aggregation calculations. BigQuery Graph solves this natively. Data modelers define a MEASURE (like SUM or AVG ) directly within the Property Graph DDL. Using standard SQL via the GRAPH_EXPAND function and the AGG aggregator, the engine resolves the structural graph paths before evaluating metrics. This ensures your agent is smart enough to know when it needs a calculator (SQL) and when it needs a map (graph) . Because public projects like bigquery-public-data are strictly read-only, you must map the logical property graph inside your own project using a placeholder variable ( YOUR_PROJECT_ID ), while directly referencing the read-only public tables as nodes and edges. code_block <ListValue: [StructValue([('code', '-- 1. Map the graph inside YOUR project \\r\\n\\r\\n\\r\\nCREATE OR REPLACE PROPERTY GRAPH `YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph`\\r\\nNODE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.users` AS User\\r\\n KEY(id)\\r\\n LABEL User PROPERTIES(id, city, country),\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS Order\\r\\n KEY(order_id)\\r\\n LABEL Order PROPERTIES(\\r\\n order_id, \\r\\n MEASURE(AVG(num_of_item)) AS avg_items_per_order,\\r\\n MEASURE(SUM(num_of_item)) AS total_items\\r\\n )\\r\\n)\\r\\nEDGE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS OrderedBy\\r\\n SOURCE KEY(order_id) REFERENCES Order(order_id)\\r\\n DESTINATION KEY(user_id) REFERENCES User(id)\\r\\n LABEL ORDERED_BY\\r\\n);\\r\\n\\r\\n-- 2. Query your new graph with standard SQL—using standard {Label}_{Property} column outputs\\r\\nSELECT\\r\\n User_city AS city,\\r\\n ROUND(AGG(Order_avg_items_per_order), 2) AS agg_avg_items,\\r\\n ROUND(AGG(Order_total_items), 2) AS agg_total_items\\r\\nFROM GRAPH_EXPAND(\"YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph\")\\r\\nGROUP BY User_city\\r\\nORDER BY agg_total_items DESC\\r\\nLIMIT 10;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f61b8038b20>)])]> Democratizing graph intelligence in BigQuery Studio To make managing and deploying these relationship networks frictionless for both developers and business users, we have built native, intuitive operational tools directly into BigQuery Studio: Visual graph modeler: A no-code, drag-and-drop interface inside BigQuery Studio that lets you visually build, edit, and map property graphs, nodes, and edges without writing complex DDL scripts manually. Conversational Analytics (CA) integration: Users can interact with the graph naturally. Instead of guessing table joins, Conversational Analytics agents navigate the deterministic, relationship-aware map of the graph, converting natural language questions into precise, boundary-constrained GoogleSQL or ISO GQL queries. This prevents model hallucinations and enforces semantic consistency. Unified semantics: Native Looker integration To avoid maintaining fragmented logic stacks, business metrics must live at the data layer. By integrating Looker (LookML) natively with BigQuery Graphs as in-database analytic models , you define logic once at the core: Database-managed models (sql_analytic_model_name): Point Looker directly to your database-defined BigQuery Graph using sql_analytic_model_name to map standard LookML dimensions and measures directly to your graph properties. Looker-managed models (derived_analytic_model): Define your BigQuery Graph schema directly inside your LookML view using derived_analytic_model . Looker will dynamically generate and execute the SQL DDL statements to maintain the graph inside BigQuery. Enterprise DevOps workflows: Manage your graph's entire lifecycle using the Looker IDE, Git-based version control, and Continuous Integration (CI) . Core KPIs (like Churn Rate) remain completely identical, verified, and trusted.",
+    "raw_text": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping. This allows your agents to reason across complex dependencies captured in graphs with precision of measures. Why relationships matter Traditional data structures are blind to multi-hop business context, causing AI agents to make incorrect operational decisions: The concrete problem: If a retailer has an agent who is asked why winter jacket sales dropped 12% in Seattle, it can query flat tables to report the what (the 12% dip). But it fails at the why because it cannot trace the relational path: Seattle orders ➔ distribution centers ➔ suppliers delayed by regional storms . The risk of disjointed systems: Lacking relationship context, the agent suggests an irrelevant 15% markdown campaign, needlessly eroding margins. Furthermore, maintaining separate systems - where one team maps supplier relationships in a separate graph database while another maintains SQL metrics - forces your agent to stitch these stacks together at runtime. This process is slow, expensive, and leads to inconsistent KPI calculations. Measures in BigQuery Graph solves this by letting you map existing tables to a property graph in-place with zero ETL . This unified setup enables a logical evolution of inquiry: Metadata grounding establishes what data you have. Business metrics (measures) calculate how your business performed. Relationship mapping (graph) uncovers why it happened. Under the hood Historically, standard SQL joins during graph traversals duplicate rows, leading to incorrect aggregation calculations. BigQuery Graph solves this natively. Data modelers define a MEASURE (like SUM or AVG ) directly within the Property Graph DDL. Using standard SQL via the GRAPH_EXPAND function and the AGG aggregator, the engine resolves the structural graph paths before evaluating metrics. This ensures your agent is smart enough to know when it needs a calculator (SQL) and when it needs a map (graph) . Because public projects like bigquery-public-data are strictly read-only, you must map the logical property graph inside your own project using a placeholder variable ( YOUR_PROJECT_ID ), while directly referencing the read-only public tables as nodes and edges. code_block <ListValue: [StructValue([('code', '-- 1. Map the graph inside YOUR project \\r\\n\\r\\n\\r\\nCREATE OR REPLACE PROPERTY GRAPH `YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph`\\r\\nNODE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.users` AS User\\r\\n KEY(id)\\r\\n LABEL User PROPERTIES(id, city, country),\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS Order\\r\\n KEY(order_id)\\r\\n LABEL Order PROPERTIES(\\r\\n order_id, \\r\\n MEASURE(AVG(num_of_item)) AS avg_items_per_order,\\r\\n MEASURE(SUM(num_of_item)) AS total_items\\r\\n )\\r\\n)\\r\\nEDGE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS OrderedBy\\r\\n SOURCE KEY(order_id) REFERENCES Order(order_id)\\r\\n DESTINATION KEY(user_id) REFERENCES User(id)\\r\\n LABEL ORDERED_BY\\r\\n);\\r\\n\\r\\n-- 2. Query your new graph with standard SQL—using standard {Label}_{Property} column outputs\\r\\nSELECT\\r\\n User_city AS city,\\r\\n ROUND(AGG(Order_avg_items_per_order), 2) AS agg_avg_items,\\r\\n ROUND(AGG(Order_total_items), 2) AS agg_total_items\\r\\nFROM GRAPH_EXPAND(\"YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph\")\\r\\nGROUP BY User_city\\r\\nORDER BY agg_total_items DESC\\r\\nLIMIT 10;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f2106030be0>)])]> Democratizing graph intelligence in BigQuery Studio To make managing and deploying these relationship networks frictionless for both developers and business users, we have built native, intuitive operational tools directly into BigQuery Studio: Visual graph modeler: A no-code, drag-and-drop interface inside BigQuery Studio that lets you visually build, edit, and map property graphs, nodes, and edges without writing complex DDL scripts manually. Conversational Analytics (CA) integration: Users can interact with the graph naturally. Instead of guessing table joins, Conversational Analytics agents navigate the deterministic, relationship-aware map of the graph, converting natural language questions into precise, boundary-constrained GoogleSQL or ISO GQL queries. This prevents model hallucinations and enforces semantic consistency. Unified semantics: Native Looker integration To avoid maintaining fragmented logic stacks, business metrics must live at the data layer. By integrating Looker (LookML) natively with BigQuery Graphs as in-database analytic models , you define logic once at the core: Database-managed models (sql_analytic_model_name): Point Looker directly to your database-defined BigQuery Graph using sql_analytic_model_name to map standard LookML dimensions and measures directly to your graph properties. Looker-managed models (derived_analytic_model): Define your BigQuery Graph schema directly inside your LookML view using derived_analytic_model . Looker will dynamically generate and execute the SQL DDL statements to maintain the graph inside BigQuery. Enterprise DevOps workflows: Manage your graph's entire lifecycle using the Looker IDE, Git-based version control, and Continuous Integration (CI) . Core KPIs (like Churn Rate) remain completely identical, verified, and trusted.",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -1767,52 +1711,20 @@
     "summary": "Ask a security researcher what makes an AI agent dangerous, and the instinct is to talk about the model — what it will and won’t refuse, how easily it can be jailbroken, whether its weights can be trusted. That instinct is increasingly out of date. A growing body of security research — exploit demonstrations, independent red-teaming, and assessments by security researchers— points to the code sitting between the model and the world instead. That code, increasingly called the harness, wraps the model, gives it tools, and turns its token-by-token output into a shell command, a file write, an API call."
   },
   {
-    "title": "17 old software bugs that took way too long to squash",
-    "url": "https://www.csoonline.com/article/570815/old-software-bugs-that-took-way-too-long-to-squash.html",
-    "source": "CSO Online",
-    "published": "2026-08-12T07:30:00+00:00",
-    "raw_text": "In 2021, a vulnerability was revealed in a system that lay at the foundation of modern computing. An attacker could force the system to execute arbitrary code. Shockingly, the vulnerable code was almost 54 years old — and there was no patch available, and no expectation that one would be forthcoming. Fortunately, that’s because the system in question was Marvin Minsky’s 1967 implementation of a Universal Turing Machine , which, despite its momentous theoretical importance for the field of computer science, had never actually been built into a real-world computer. But in the decade or so after Minsky’s design, the earliest versions of Unix and DOS came into use, and their descendants are still with us today in the 21st century. Some of those systems have had bugs lurking beneath the surface for years or even decades. Frontier AI tools such as Claude Mythos are making it much easier to uncover latent vulnerabilities at pace since discovery is no longer limited by human attention span or manual triage speed. The resulting acceleration on flaw discovery is possible not because AI tools are uncovering new exploit classes but because they are able to scan, chain reasoning, and test exploit paths at machine speed. Here are 17 noteworthy bugs that, once long dormant, took over a decade to be discovered and fixed — in descending order of how long they went unaddressed. Libpng graphics library flaw Age: 30 years Date introduced: 1995 Date fixed: February 2026 Researchers unearthed a legacy flaw in the widely used libpng open-source library that had existed since the technology was first released more than 30 years ago. The heap buffer overflow vulnerability ( CVE-2026-25646 ) meant that applications using the flawed software would crash when presented with a maliciously constructed PNG raster image file. Although difficult to exploit, the vulnerability potentially poses an information disclosure or remote code execution risk. The vulnerable png_set_quantize function, previously called png_set_dither, is rarely used. This in combination with the difficulty of exploitation mean that the flaw earns a CVSS score of 8.3, rating it as a “high” rather than “critical” risk. Nonetheless many Linux distributions (Debian, Red Hat, Ubuntu), desktop apps, and some Java runtimes rely on vulnerable versions of the library and need to be patched. PrintDemon Age: 24 years Date introduced: 1996 Date fixed: May 2020 Printers are a frequent pain point for IT because there are a lot of models, they aren’t made by the same vendors who make computers and operating systems, and users expect to plug them in and start printing. Microsoft in its early years battled to make installing a printer driver relatively easy and painless. But a bug found in 2020, dubbed PrintDemon , showed that maybe they took that a bit too far back in the ’90s — and paid for it for decades. The core of the vulnerability lies in three facts: Non-administrative users can add printers to a Windows machine; the underlying mechanics make it possible to print to a file rather than a physical printing device; and crucial printing services on Windows run with system privileges. That means that, if you do it right, you can build a “printer” driver that can create a file (even an executable one) anywhere on the filesystem (even in privileged directories). There are plenty of exploits that have been cooked up to take advantage of these design flaws — Stuxnet , it turns out, was one of them — but PrintDemon was a real doozy, made possible because Microsoft’s fixes over the years had been patches rather than a complete rebuild of the printing subsystem. As Winsider described it , “With very subtle file system modifications, you can achieve file copy/write behavior that is not attributable to any process, especially after a reboot … with a carefully crafted port name, you can imagine simply having the Spooler drop a [portable executable] file anywhere on disk for you.” win32k.sys vulnerabilities Age: 23 years Date introduced: 1996 Date fixed: 2019 Two big vulnerabilities were detected in the Win32 API in Microsoft Windows in 2019. The first, found in April, was a Use-After-Free vulnerability , in which OS coding errors made it possible for programs to access system memory that should’ve been protected; this vulnerability was detected by security researchers when they discovered malicious hackers attempting to use it in the wild to gain control of computers. The other, discovered in December, was an elevation-of-privilege vulnerability lurking in the OS’s window switching functionality; this vulnerability was similarly discovered in the course of active attacks , which simulated keystrokes to create memory leaks. Both vulnerabilities have their origins in the early days of Windows. “The problem originates from the time when WIN32K made its debut with Windows NT 4.0, when much of Win32’s graphics engine was moved from user level to kernel to boost performance,” explained Boris Larin, senior security researcher at Kaspersky, back in 2019. And while these two vulnerabilities have been patched, that long-ago decision on the part of Microsoft has had much broader effects — and probably will continue to do so, Larin said then. “Throughout the years, the WIN32K component has been responsible for more than a half of all kernel security vulnerabilities discovered in Windows.” PuTTY heap overflow Age: 20 years, 9 months Date introduced: January 1999 Date fixed: October 2019 PuTTY is a free and open-source suite of tools that includes a serial console, a terminal emulator, and various network file transfer applications, with SSH and other encryption schemes built in. It was originally released to bring tools Unix admins took for granted to Windows and Mac OS, but has expanded its scope and is now in wide use on Unix systems as well . While PuTTY was designed to secure network connections, it turns out there was a vulnerability lurking at its heart. This was a heap overflow that could be triggered by an insufficiently long SSH key, which could result in crashing PuTTY or even remote code execution. The vulnerability was submitted to HackerOne as part of a bug bounty program, netting the submitter a $3,645 reward and a thank you from the PuTTY team, which noted that the bug had been present in the very earliest versions of the source code, dating back to 1999. PostgreSQL database vulnerabilities Age: 20+ years Date introduced: 2005 Date fixed: February 2026 An AI-powered security analysis tool was able to uncover a high-severity vulnerability in PostgreSQL , stemming from a flaw that dated back more than 20 years to early versions of the open-source relational database technologies. The AI tool — Xint Code — surfaced a critical remote code execution (RCE) vulnerability in PostgreSQL’s ‘pgcrypto’ extension , an encryption-based technology first contributed in 2005. Another team of security researchers discovered a critical validation vulnerability in the same PostgreSQL ‘pgcrypto’ extension. Both flaws were discovered during security vendor Wiz’s zeroday.cloud hacking event in late 2025, reported to developers and patched in February 2026. Developers of both PostgreSQL and MariaDB responded with the release of software updates to address all these security flaws. Nginx web server Age: 18 years Date introduced: 2008 Date fixed: May 2026 A critical and long latent vulnerability in the popular Nginx web server software was exposed by an AI-based security scanning tool. The CVE-2026-42945 vulnerability, a heap buffer overflow in NGINX’s URL rewrite module, was one of four flaws uncovered by security startup DepthFirst’s LLM-powered analysis platform. Developers at F5 warn exploitation can cause a crash, and in some conditions could enable arbitrary code execution, especially if Address Space Layout Randomization (ASLR) is disabled. System administrators are urged to update to patched versions of the software, 1.30.1 and 1.31.0, for the open-source version of Nginx. The commercial product, Nginx Plus, was also patched against the CVE-2026-42945 vulnerability and the three less severe flaws discovered by DepthFirst, as explained in a blog post . SIGRed DNS vulnerability Age: 17 years Date introduced: 2003 Date fixed: 2020 DNS is one of the underrated backbones of the internet, the system by which your computer knows what IP address correlates to any given URL . The system is hierarchical, with requests sent up and down the pyramid looking for DNS servers that know the answer to the question, “Where is this computer?” As a result, DNS has been built into all major operating systems. In 2020, Microsoft disclosed a critical vulnerability in its own version of DNS , which had been lurking in the code for 17 years. The vulnerability, dubbed SIGRed by its discoverers at Check Point , was a buffer overflow flaw in Windows DNS servers that could be triggered by exploit code tucked into a DNS packet’s signature. A malicious nameserver could send such packets in response to requests, bypassing most security protections and potentially gaining remote access to the Microsoft DNS server. The attack would be potentially wormable, meaning that it could be automated and spread without user intervention. Linux kernel-based virtualization module Januscape vulnerability Age: 16 years Date introduced: 2010 Date fixed: June 2026 A long dormant vulnerability in a Linux kernel-based virtualization module (KVM) poses arbitrary code execution risk to multi-tenant cloud environments and virtualized enterprise servers. The critical vulnerability — dubbed Januscape — creates a means for potential mechanism for attackers to escape VMs and execute malware upon host systems. More specifically the CVE-2026-53359 vulnerability arises from a use-after-free memory bug in the shadow MMU emulation of KVM on x86 CPU architecture machines. As such the critical vulnerability circumvents the security boundary that cloud providers and enterprises rely on to isolate sensitive processes on servers. The flaw stems from software introduced into Linux kernel code in 2010 and is the first KVM guest-to-host escape vulnerability that works on both Intel and AMD CPUs, according to Hyunwoo Kim , the security researcher who discovered the flaw. Python tarfile vulnerability rises again Age: 15 years Date introduced: 2007 Date fixed: September 2022 Cybersecurity company Trellix discovered that CVE-2007-4559, a vulnerability affecting Python’s tarfile module first identified in 2007, continued to affect hundreds of thousands of repositories up until at least September 2022. “While investigating an unrelated vulnerability, Trellix Advanced Research Center stumbled across a vulnerability in Python’s tarfile module,” Kasimir Schulz, a vulnerability researcher for Trellix’s Threat Labs, wrote on the firm’s blog . “Initially we thought we had found a new zero-day vulnerability. As we dug into the issue, we realized this was in fact CVE-2007-4559.” According to NIST, CVE-2007-4559 is a directory traversal vulnerability in the extract and extractall functions in the tarfile module in Python that allows user-assisted remote attackers to overwrite arbitrary files via a “..” sequence in filenames in a TAR archive. Bad actors can create exploits with as few as six lines of code added to the tarfile module, which allows users to add a filter to parse and modify a file’s metadata before it is added to the tar archive, Schulz said. CVE-2007-4559 “is incredibly easy to exploit, requiring little to no knowledge about complicated security topics. Due to this fact and the prevalence of the vulnerability in the wild, Python’s tarfile module has become a massive supply chain issue threatening infrastructure around the world.” Trellix has found more than 300,000 repositories affected by the vulnerability. Trellix developed a scanning utility to identify the vulnerability and patched a number of open-source repositories. Linux SCSI subsystem bugs Age: 15 years Date introduced: 2006 Date fixed: March 2021 SCSI, a 1980s-era data transfer standard, is still in use in some contexts today, and Linux, always intended to be as flexible and universal as possible, still has an extensive SCSI subsystem for those systems that need it. These modules are available via automatic module loading, in which the OS grabs and installs the system code it needs when it needs it — helpful if you find yourself plugging a SCSI drive into your Linux machine and don’t want to hunt down the necessary supporting code. Cybersecurity consultancy Grimm posted an extensive breakdown of several bugs in this Linux SCSI code that they discovered in March 2021. One was a buffer overflow vulnerability that could allow a normal user to gain root privileges, and the others were errors where information from the kernel could be leaked to user space , and. All could be used to get privileged information or as part of a DoS attack on the affected machine. Grimm dates the bugs back to 2006 and dryly notes that they’re “an indication of a lack of security-conscious programming practices that was prevalent at the time this code was developed.” Domain Time II man-on-the-side attack Age: 14 years Date introduced: 2007 Date fixed: April 2021 If two computers on the same network can’t agree on the time, the results can range from annoying to disastrous . This longstanding problem was to be solved by Domain Time II , a closed-source application in use on Windows, Linux, and Solaris. But Domain Time II harbored for most of its existence a very serious vulnerability. At intervals or on conditions the user can set, the program sends UDP queries to an update server run by Greyware Automation Products, the software’s vendor. If the server replies with a URL, Domain Time II will run a program with admin privileges to download and install an update from that URL. The problem? If a malicious actor manages to reply to the query before Greyware’s server does, that attacker can send its own reply , prompting Domain Time II to download whatever malware the attacker wants installed. In a true man-in-the-middle attack , the attacker would be intercepting communications in both directions; in contrast, this man-on-the-side attack can’t stop replies to its target machine getting through and so has to send its own reply more quickly. In practice, this means the attacker would need to control a computer on the target’s local network to pull this off, but this attack represents a way an attacker could escalate their intrusion onto more valuable and secure machines within a local network. This vulnerability was spotted by the security firm Grimm, which noted that the flaw was present in versions of the software going back at least to 2007. Critical vulnerability in Redis in-memory store Age: 13 years Date introduced: 2012 Date fixed: October 2025 A vulnerability in Redis in-memory store posed a critical risk for servers hosting the database. The vulnerability, identified as CVE-2025-49844 or RediShell, stemmed from a use-after-free memory corruption bug that has existed in the Redis code base for around 13 years and posed a remote code execution risk. While the flaw required authentication to exploit, an estimated 60,000 internet exposed Redis instances were exposed to the internet without authentication enabled, leaving these systems open to attack. Wiz researchers discovered the flaw and used it in the Pwn2Own Berlin contest in May 2025, weeks before its public disclosure in October 2025. LionWiki local file inclusion Age: 11 years, 11 months Date introduced: November 2008 Date fixed: October 2020 LionWiki is a minimalist wiki engine, programmed in PHP. Unlike many popular wiki engines, LionWiki doesn’t use a database, and instead is entirely file-based. Because its goal is simplicity, this is a strength, but it also makes a significant vulnerability possible. In essence, the various files underlying a particular LionWiki instance are accessed by file and pathnames in the URL of the corresponding pages. This means that, with a correctly crafted URL, you could traverse the filesystem of the server hosting the LionWiki instance. There are URL-filtering provisions in place to block attempts to do this, but as Infosec Institute’s cyber range engineer June Werner discovered, they could be defeated fairly easily . One thing Werner noted is that the vulnerability persisted despite attempts to correct it. “Some mitigations were first put in place in July of 2009, and then more extensive mitigations were put in place in January of 2012,” she noted. “Despite these mitigations, the code was still vulnerable to the same type of attack. This vulnerability stayed in the code for another eight years until it was rediscovered, along with a way to bypass the mitigations, in October 2020.” After the bug was formally reported , it was patched by the developer. sudo host Age: 11 years, 10 months Date introduced: September 2013 Date fixed: July 2024 The sudo command is an important tool in any Unix admin’s toolkit, granting superpowered user privileges to those who have the permission to invoke it. To access these privileges, a user must be listed in a configuration file called sudoers. Because many organizations centrally administer many Unix hosts, sudoers can include a list of specific hosts where each user has sudo rights, so that these config files can be written once and then be pushed out to all the organization’s hosts. The problem is that, to get access to the sudoers file and see the hosts on which you or another user might have sudo powers, you need those sudo powers yourself. But a command-line flag intended to let users view host-specific privileges could be abused to trick sudo into treating the command as if it were running on a different host — potentially one where the user has elevated privileges. That could allow the user to run commands, including those that edit sudoers, even if they shouldn’t have that access on the local machine. This security flaw isn’t rated as too serious , but it did lurk undetected for nearly 12 years. (Another more serious flaw with the chroot option , revealed at the same time, is a mere baby at two years old.) HashiCorp Vault and CyberArk Conjur logic flaws Age: 10 years Date introduced: 2015 Date fixed: August 2025 Multiple flaws in components of HashiCorp Vault and CyberArk Conjur , two open-source credential management systems, left the door open to a variety of attacks, including authentication bypass and the theft or erasure of supposedly protected secrets. Both HashiCorp Vault and CyberArk Conjur are used for storing and controlling access to secrets such as API keys, database passwords, certificates, and encryption keys. Each technology is commonly used in DevSecOps pipelines. Researchers from Cyata discovered an array of issues, many of which had remained hidden in the codebase of widely used open-source secrets vaults for years. The vulnerabilities were discovered after manual code reviews that focused on logic flaws in components responsible for authentication and policy enforcement rather than memory corruption issues typically detected by automated tools. Findings from the research — which led to the discovery of a combined total of 14 vulnerabilities in the two secrets vaults — were revealed at Black Hat USA in August 2025. The most severe vulnerability in HashiCorp Vault ( CVE-2025-6000 ) created a mechanism for attackers to delete a critical file containing the keys needed to decrypt stored secrets, leaving data unreachable. All the vulnerabilities were addressed before the research was publicly disclosed. Linux GRUB2 Secure Boot hole Age: 10 years Date introduced: 2010 Date fixed: July 2020 When UEFI was introduced to replace BIOS, it was deemed the cutting edge of security , with features to fight attacks that operated on the level of the bootloading software that starts up an OS. Key to this is an interlocked chain of signed cryptographic certificates that verifies each bootloader program as legitimate, a mechanism known as Secure Boot. The root certificate for UEFI is signed by Microsoft, and Linux distributions put their own bootloaders, each with its own validated certificate, further down the chain. But GRUB2, a widely popular Linux bootloader with a UEFI-ready certificate, contains a buffer overflow vulnerability that can be exploited by malicious code inserted into in its configuration file. (While GRUB2 itself is signed, its configuration file, meant to be editable by local admins, is not.) This hole was spotted by Eclypsium , and while an attacker would need to have a degree of local control of the target machine to implement this attack, if they pulled it off successfully, they could ensure that they remain in control of that computer going forward each time it boots up, making it difficult to evict them from the system. Telnet Age: 10 years, 8 months Date introduced: May 2017 Date fixed: Jan 2026 Telnet is an early internet protocol and associated tools used for remotely logging into another machine via a text-based terminal session. Although superseded by the more secure and encrypted SSH technology since the mid-1990s, Telnet is still widely used by embedded systems, network hardware, and other legacy systems. An easily-exploited Telnet authentication bypass vulnerability (CVE-2026-24061), introduced in code changes release in May 2017, left devices running pre-patched versions of the software wide open to remote compromise, provided that its Telnet server was exposed to the internet.",
+    "title": "Sponsored: Harder, better, stronger, faster",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/harder-better-stronger-faster/",
+    "source": "DataCenterDynamics",
+    "published": "2026-08-14T07:00:00+00:00",
+    "raw_text": "The evolution of rigging engineering for data center construction",
     "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Networks",
-      "GRC",
-      "Industry & Market"
+      "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "virtualization"
-      ],
-      "Networks": [
-        "network",
-        "dns",
-        "wan"
-      ],
-      "Cybersecurity": [
-        "malware",
-        "vulnerability",
-        "cve",
-        "zero-day",
-        "exploit",
-        "hacker",
-        "threat",
-        "encryption",
-        "security",
-        "cyber",
-        "soc"
-      ],
-      "GRC": [
-        "policy",
-        "nist"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
+      "Data Centres": [
+        "data center"
       ]
     },
-    "summary": "In 2021, a vulnerability was revealed in a system that lay at the foundation of modern computing. An attacker could force the system to execute arbitrary code. Shockingly, the vulnerable code was almost 54 years old — and there was no patch available, and no expectation that one would be forthcoming. Fortunately, that’s because the system in question was Marvin Minsky’s 1967 implementation of a Universal Turing Machine , which, despite its momentous theoretical importance for the field of computer science, had never actually been built into a real-world computer."
+    "summary": "The evolution of rigging engineering for data center construction"
   },
   {
     "title": "Lightmatter launches 19-company strong initiative to standardize silicon photonics-ready infrastructure",
@@ -2171,20 +2083,32 @@
     "summary": "GPUs for initial CDC deployment have been ordered, companies said"
   },
   {
-    "title": "NTT DC REIT earned $27.9m in quarterly net property income, beats IPO expectations",
-    "url": "https://www.datacenterdynamics.com/en/news/ntt-dc-reit-earned-279m-in-quarterly-net-property-income-beats-ipo-expectations/",
-    "source": "DataCenterDynamics",
-    "published": "2026-08-13T10:36:12+00:00",
-    "raw_text": "Company currently has 90.7MW of IT load",
+    "title": "Claude Code returns blank thinking blocks, but reasoning still costs you",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/14/claude-code-returns-blank-thinking-blocks-but-reasoning-still-costs-you/5287557",
+    "source": "The Register",
+    "published": "2026-08-14T07:30:00+00:00",
+    "raw_text": "Developers report model thinking blocks being returned empty or truncated",
     "categories": [
-      "Industry & Market"
+      "Networks"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "ipo"
+      "Networks": [
+        "lan"
       ]
     },
-    "summary": "Company currently has 90.7MW of IT load"
+    "summary": "Developers report model thinking blocks being returned empty or truncated"
+  },
+  {
+    "title": "Five years after quitting a job, developer’s former boss asked for rapid tech support",
+    "url": "https://www.theregister.com/software/2026/08/14/five-years-after-quitting-a-job-developers-former-boss-asked-for-rapid-tech-support/5287229",
+    "source": "The Register",
+    "published": "2026-08-14T06:25:00+00:00",
+    "raw_text": "Connecting a single power cord turned into a lucrative all-nighter",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Connecting a single power cord turned into a lucrative all-nighter"
   },
   {
     "title": "New Zealand says China tried using space investments to spy on local affairs",
@@ -2772,18 +2696,6 @@
     "summary": "SPONSORED FEATURE: Toolstation swapped aging Linux tills across branches for compact ASUS NUCs on ChromeOS Flex, cutting support tickets and freeing counter space"
   },
   {
-    "title": "Agents made my retro tech safe to use again and showed their real value as testers of ideas",
-    "url": "https://www.theregister.com/columnists/2026/08/12/agents-made-my-retro-tech-safe-to-use-again-and-showed-their-real-value-as-testers-of-ideas/5286632",
-    "source": "The Register",
-    "published": "2026-08-12T06:29:00+00:00",
-    "raw_text": "Let's all go a bit mad scientist and see if software can validate our wildest theories",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Let's all go a bit mad scientist and see if software can validate our wildest theories"
-  },
-  {
     "title": "Rimini Street bids to broaden CIO appeal with agentic AI move",
     "url": "https://www.computerweekly.com/news/366648894/Rimini-Street-bids-to-broaden-CIO-appeal-with-agentic-AI-move",
     "source": "ComputerWeekly",
@@ -3284,220 +3196,227 @@
     "summary": "The exploited zero-day flaw could allow an attacker to gain system privileges on a Windows PC."
   },
   {
-    "title": "Claim Deadline Extended to September 30, 2026 in Wayland Group Corp. (formerly Maricann Group Corp.) Securities Class Action Settlement",
-    "url": "https://www.prnewswire.com/news-releases/claim-deadline-extended-to-september-30-2026-in-wayland-group-corp-formerly-maricann-group-corp-securities-class-action-settlement-302851645.html",
+    "title": "Voxtome Announces Dedicated LitRPG Audiobook App Built with Gamified Progression, Author-First Economics, and Precision Listening Tech",
+    "url": "https://www.prnewswire.com/news-releases/voxtome-announces-dedicated-litrpg-audiobook-app-built-with-gamified-progression-author-first-economics-and-precision-listening-tech-302851695.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-14T05:50:00+00:00",
-    "raw_text": "TORONTO, Aug. 14, 2026 /PRNewswire/ -- Berger Montague (Canada) PC, the Administrator of the Wayland Group Corp. Securities Class Action Settlement, has extended the deadline for Class Members to submit a claim for compensation with supporting documentation to September 30, 2026. The...",
+    "published": "2026-08-14T07:50:00+00:00",
+    "raw_text": "Launching in September on iOS and Android, Voxtome introduces statblock skipping, dynamic character stat sheets, avatar progression & customization, and subscription upgrades earned through listening. PORTLAND, Ore., Aug. 14, 2026 /PRNewswire/ -- Voxtome today announced its upcoming...",
     "categories": [
       "Networks",
-      "GRC"
+      "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "TORONTO, Aug. 14, 2026 /PRNewswire/ -- Berger Montague (Canada) PC, the Administrator of the Wayland Group Corp. Securities Class Action Settlement, has extended the deadline for Class Members to submit a claim for compensation with supporting documentation to September 30, 2026. The..."
-  },
-  {
-    "title": "Skanska signs additional contract to build light rail transit in Van Nuys, CA, USA, for USD 957M, about SEK 8.9 billion",
-    "url": "https://www.prnewswire.com/news-releases/skanska-signs-additional-contract-to-build-light-rail-transit-in-van-nuys-ca-usa-for-usd-957m-about-sek-8-9-billion-302851639.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T05:41:00+00:00",
-    "raw_text": "STOCKHOLM, Aug. 14, 2026 /PRNewswire/ -- Skanska, in a joint venture with Stacy Witbeck, has signed a contract with the Los Angeles County Metropolitan Transportation Authority (LA Metro) for the East San Fernando Valley Light Rail Transit Project in Van Nuys, California, USA. Skanska...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "joint venture",
-        "ey"
-      ]
-    },
-    "summary": "STOCKHOLM, Aug. 14, 2026 /PRNewswire/ -- Skanska, in a joint venture with Stacy Witbeck, has signed a contract with the Los Angeles County Metropolitan Transportation Authority (LA Metro) for the East San Fernando Valley Light Rail Transit Project in Van Nuys, California, USA. Skanska..."
-  },
-  {
-    "title": "DoGo Power získava ocenenie EUPD Research za najlepšiu inováciu v Európe za rok 2026",
-    "url": "https://www.prnewswire.com/news-releases/dogo-power-ziskava-ocenenie-eupd-research-za-najlepiu-inovaciu-v-europe-za-rok-2026-302851636.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T05:32:00+00:00",
-    "raw_text": "BONN, Nemecko, 14. augusta 2026 /PRNewswire/ -- Spoločnosť DoGo Power získala od spoločnosti EUPD Research, poprednej európskej výskumnej autority, cenu za najlepšiu inováciu za rok 2026 za svoju vlastnú technológiu skladovania energie 4S s tvorbou siete. Toto ocenenie predstavuje...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "BONN, Nemecko, 14. augusta 2026 /PRNewswire/ -- Spoločnosť DoGo Power získala od spoločnosti EUPD Research, poprednej európskej výskumnej autority, cenu za najlepšiu inováciu za rok 2026 za svoju vlastnú technológiu skladovania energie 4S s tvorbou siete. Toto ocenenie predstavuje..."
-  },
-  {
-    "title": "JOURNEY Co-Presidents Named 2026 National Urban League Women of Power",
-    "url": "https://www.prnewswire.com/news-releases/journey-co-presidents-named-2026-national-urban-league-women-of-power-302851631.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T05:14:00+00:00",
-    "raw_text": "Nina Easton and Pattie Sellers honored in Nashville WASHINGTON, Aug. 10, 2026 /PRNewswire/ -- Nina Easton and Pattie Sellers, Co-Founders and Co-Presidents of Journey To Lead (JOURNEY), have been named 2026 Women of Power by the National Urban League. \"We're deeply honored,\" says Nina...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Nina Easton and Pattie Sellers honored in Nashville WASHINGTON, Aug. 10, 2026 /PRNewswire/ -- Nina Easton and Pattie Sellers, Co-Founders and Co-Presidents of Journey To Lead (JOURNEY), have been named 2026 Women of Power by the National Urban League. \"We're deeply honored,\" says Nina..."
-  },
-  {
-    "title": "Shaanxi Offers a Fresh Take on \"China Cool\"",
-    "url": "https://www.prnewswire.com/news-releases/shaanxi-offers-a-fresh-take-on-china-cool-302851623.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T04:49:00+00:00",
-    "raw_text": "XI'AN, China, Aug. 14, 2026 /PRNewswire/ -- This summer, \"China Cool\" continues to capture the attention of international travelers. Best known worldwide for the Terracotta Warriors and the ancient capital of Xi'an, Shaanxi is offering a fresh perspective on this travel trend, revealing a...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "XI'AN, China, Aug. 14, 2026 /PRNewswire/ -- This summer, \"China Cool\" continues to capture the attention of international travelers. Best known worldwide for the Terracotta Warriors and the ancient capital of Xi'an, Shaanxi is offering a fresh perspective on this travel trend, revealing a..."
-  },
-  {
-    "title": "Security and Data-Residency Reviews Push Enterprise AI Buyers Toward Self-Hosted Platforms, and FastGPT Publishes Its Terms",
-    "url": "https://www.prnewswire.com/news-releases/security-and-data-residency-reviews-push-enterprise-ai-buyers-toward-self-hosted-platforms-and-fastgpt-publishes-its-terms-302851616.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T04:15:00+00:00",
-    "raw_text": "Open-source platform details private-deployment tiers, four support levels with stated first-response targets, and production results at a financial data provider, an auto-parts maker and a road-and-bridge group HANGZHOU, China, Aug. 14, 2026 /PRNewswire/ -- FastGPT, an open-source...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Open-source platform details private-deployment tiers, four support levels with stated first-response targets, and production results at a financial data provider, an auto-parts maker and a road-and-bridge group HANGZHOU, China, Aug. 14, 2026 /PRNewswire/ -- FastGPT, an open-source..."
-  },
-  {
-    "title": "TIER IV joins JST's Next-Generation Edge AI Semiconductor R&D Program to open-source AI chip designs for autonomous driving",
-    "url": "https://www.prnewswire.com/news-releases/tier-iv-joins-jsts-next-generation-edge-ai-semiconductor-rd-program-to-open-source-ai-chip-designs-for-autonomous-driving-302850781.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T04:00:00+00:00",
-    "raw_text": "TOKYO, Aug. 14, 2026 /PRNewswire/ -- TIER IV, the pioneering force behind open-source software for autonomous driving, has joined the Next-Generation Edge AI Semiconductor Research and Development Program led by the Japan Science and Technology Agency (JST) to advance research and...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "TOKYO, Aug. 14, 2026 /PRNewswire/ -- TIER IV, the pioneering force behind open-source software for autonomous driving, has joined the Next-Generation Edge AI Semiconductor Research and Development Program led by the Japan Science and Technology Agency (JST) to advance research and..."
-  },
-  {
-    "title": "MVST Investors Have Opportunity to Lead Microvast Holdings, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/mvst-investors-have-opportunity-to-lead-microvast-holdings-inc-securities-fraud-lawsuit-302851457.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T03:03:00+00:00",
-    "raw_text": "NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Microvast Holdings, Inc. (NASDAQ: MVST) between April 1, 2025 and March 16, 2026, inclusive (the \"Class Period\"), of the important September 21, 2026 lead...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Microvast Holdings, Inc. (NASDAQ: MVST) between April 1, 2025 and March 16, 2026, inclusive (the \"Class Period\"), of the important September 21, 2026 lead..."
-  },
-  {
-    "title": "2026 International Congress of Basic Science Opens in Beijing",
-    "url": "https://www.prnewswire.com/news-releases/2026-international-congress-of-basic-science-opens-in-beijing-302851593.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:54:00+00:00",
-    "raw_text": "BEIJING, Aug. 13, 2026 /PRNewswire/ -- The 2026 International Congress of Basic Science (ICBS 2026) opened on August 9 in Beijing, bringing together four Fields Medalists — Shing-Tung Yau, Maxim Kontsevich, Martin Hairer and Caucher Birkar — and Turing Award laureate Robert Tarjan,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "BEIJING, Aug. 13, 2026 /PRNewswire/ -- The 2026 International Congress of Basic Science (ICBS 2026) opened on August 9 in Beijing, bringing together four Fields Medalists — Shing-Tung Yau, Maxim Kontsevich, Martin Hairer and Caucher Birkar — and Turing Award laureate Robert Tarjan,..."
-  },
-  {
-    "title": "Cellebrite DI Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Cellebrite DI (CLBT)",
-    "url": "https://www.prnewswire.com/news-releases/cellebrite-di-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-cellebrite-di-clbt-302851437.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:44:00+00:00",
-    "raw_text": "Cellebrite DI Ltd. (CLBT) shareholders lost money when the stock sold off more than 30% following the Company's Q2 2026 results -- Levi & Korsinsky is investigating the Company's disclosures concerning their previous projections and related discussions. NEW YORK, Aug. 13, 2026...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Cellebrite DI Ltd. (CLBT) shareholders lost money when the stock sold off more than 30% following the Company's Q2 2026 results -- Levi & Korsinsky is investigating the Company's disclosures concerning their previous projections and related discussions. NEW YORK, Aug. 13, 2026..."
-  },
-  {
-    "title": "Ardelyx Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Ardelyx (ARDX)",
-    "url": "https://www.prnewswire.com/news-releases/ardelyx-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-ardelyx-ardx-302851449.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:44:00+00:00",
-    "raw_text": "ARDX closed at $4.00 on August 7, 2026 -- down 17.86% -- after Q2 product revenue of $118.1 million came in below consensus and analysts cut price targets in accord. NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Ardelyx (NASDAQ: ARDX) shares closed at $4.00 on August 7, 2026, an 17.86%...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ARDX closed at $4.00 on August 7, 2026 -- down 17.86% -- after Q2 product revenue of $118.1 million came in below consensus and analysts cut price targets in accord. NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Ardelyx (NASDAQ: ARDX) shares closed at $4.00 on August 7, 2026, an 17.86%..."
-  },
-  {
-    "title": "AECOM Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into AECOM (ACM)",
-    "url": "https://www.prnewswire.com/news-releases/aecom-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-aecom-acm-302851448.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:44:00+00:00",
-    "raw_text": "AECOM investors were told adjusted EPS of $1.29 and a $5.95 full-year midpoint; the reported quarter came in at an adjusted loss of roughly $0.50 per share, and Levi & Korsinsky is investigating potential securities law violations. NEW YORK, Aug. 13, 2026 /PRNewswire/ -- A roughly...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "AECOM investors were told adjusted EPS of $1.29 and a $5.95 full-year midpoint; the reported quarter came in at an adjusted loss of roughly $0.50 per share, and Levi & Korsinsky is investigating potential securities law violations. NEW YORK, Aug. 13, 2026 /PRNewswire/ -- A roughly..."
-  },
-  {
-    "title": "INTU INVESTOR DEADLINE: Intuit Inc. Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit Before September 8, 2026 Deadline",
-    "url": "https://www.prnewswire.com/news-releases/intu-investor-deadline-intuit-inc-investors-with-substantial-losses-have-opportunity-to-lead-class-action-lawsuit-before-september-8-2026-deadline-302850601.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:44:00+00:00",
-    "raw_text": "SAN DIEGO, Aug. 13, 2026 /PRNewswire/ -- The law firm of Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of Intuit Inc. (NASDAQ: INTU) securities between August 22, 2025 and May 20, 2026, both dates inclusive (the \"Class Period\"), have until Tuesday, September 8,...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
       "Industry & Market": [
         "announces"
       ]
     },
-    "summary": "SAN DIEGO, Aug. 13, 2026 /PRNewswire/ -- The law firm of Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of Intuit Inc. (NASDAQ: INTU) securities between August 22, 2025 and May 20, 2026, both dates inclusive (the \"Class Period\"), have until Tuesday, September 8,..."
+    "summary": "Launching in September on iOS and Android, Voxtome introduces statblock skipping, dynamic character stat sheets, avatar progression & customization, and subscription upgrades earned through listening. PORTLAND, Ore., Aug. 14, 2026 /PRNewswire/ -- Voxtome today announced its upcoming..."
   },
   {
-    "title": "Three Bills to Reform Insurance Claims Abuses and Help Homeowners Keep Their Insurance Pass Final Committee, Head to CA Assembly Floor, Says Consumer Watchdog",
-    "url": "https://www.prnewswire.com/news-releases/three-bills-to-reform-insurance-claims-abuses-and-help-homeowners-keep-their-insurance-pass-final-committee-head-to-ca-assembly-floor-says-consumer-watchdog-302851585.html",
+    "title": "Auction Direct USA in Raleigh, NC, Provides Flexible Financing Options for Used Vehicle Shoppers",
+    "url": "https://www.prnewswire.com/news-releases/auction-direct-usa-in-raleigh-nc-provides-flexible-financing-options-for-used-vehicle-shoppers-302851634.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:39:00+00:00",
-    "raw_text": "SACRAMENTO, Calif., Aug. 13, 2026 /PRNewswire/ -- Three bills to help families prevent home insurance nonrenewals and require fair and timely payouts of a claim after a disaster were advanced out of the Assembly Appropriations committee today. Every Fire Survivor's Network and Consumer...",
+    "published": "2026-08-14T07:48:00+00:00",
+    "raw_text": "RALEIGH, N.C., Aug. 14, 2026 /PRNewswire/ -- Auction Direct USA in Raleigh, NC, offers flexible financing options to help used-vehicle shoppers find affordable payment plans that fit their budgets and credit situations. Finding an affordable used vehicle can be easier when shoppers have...",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "network"
+        "lan"
       ]
     },
-    "summary": "SACRAMENTO, Calif., Aug. 13, 2026 /PRNewswire/ -- Three bills to help families prevent home insurance nonrenewals and require fair and timely payouts of a claim after a disaster were advanced out of the Assembly Appropriations committee today. Every Fire Survivor's Network and Consumer..."
+    "summary": "RALEIGH, N.C., Aug. 14, 2026 /PRNewswire/ -- Auction Direct USA in Raleigh, NC, offers flexible financing options to help used-vehicle shoppers find affordable payment plans that fit their budgets and credit situations. Finding an affordable used vehicle can be easier when shoppers have..."
+  },
+  {
+    "title": "The First Year of World Models: When AI's Supply-Side Revolution Moves from Generation to Understanding the Physical World",
+    "url": "https://www.prnewswire.com/news-releases/the-first-year-of-world-models-when-ais-supply-side-revolution-moves-from-generation-to-understanding-the-physical-world-302851691.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:36:00+00:00",
+    "raw_text": "BEIJING, Aug. 14, 2026 /PRNewswire/ -- Over the past two years, the core proposition of the AI industry has been \"generation\" — generating text, images, video, and music. But on July 19, 2026, at the World Artificial Intelligence Conference (WAIC), Fang Han, Chairman and CEO of Kunlun...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BEIJING, Aug. 14, 2026 /PRNewswire/ -- Over the past two years, the core proposition of the AI industry has been \"generation\" — generating text, images, video, and music. But on July 19, 2026, at the World Artificial Intelligence Conference (WAIC), Fang Han, Chairman and CEO of Kunlun..."
+  },
+  {
+    "title": "China advances global AI governance in a comprehensive manner",
+    "url": "https://www.prnewswire.com/news-releases/china-advances-global-ai-governance-in-a-comprehensive-manner-302851680.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:22:00+00:00",
+    "raw_text": "BEIJING, Aug. 14, 2026 /PRNewswire/ -- A report from People's Daily. A recent commentary in The New York Times compared the development of advanced AI models to two distinct paths: \"nuclear weapons\" and \"nuclear energy.\" The former emphasizes destructive potential and calls for strict...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "governance"
+      ]
+    },
+    "summary": "BEIJING, Aug. 14, 2026 /PRNewswire/ -- A report from People's Daily. A recent commentary in The New York Times compared the development of advanced AI models to two distinct paths: \"nuclear weapons\" and \"nuclear energy.\" The former emphasizes destructive potential and calls for strict..."
+  },
+  {
+    "title": "Mitratech Preparis Positioned as a Leader in the SPARK Matrix™: Business Continuity & Operational Resilience Management, 2026 by QKS Group",
+    "url": "https://www.prnewswire.com/news-releases/mitratech-preparis-positioned-as-a-leader-in-the-spark-matrix-business-continuity--operational-resilience-management-2026-by-qks-group-302851678.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:17:00+00:00",
+    "raw_text": "The QKS Group SPARK Matrix™ provides competitive analysis & ranking of the leading Business Continuity & Operational Resilience Management solution providers. Mitratech Preparis, with its integrated capabilities spanning business continuity planning, operational resilience, business...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "The QKS Group SPARK Matrix™ provides competitive analysis & ranking of the leading Business Continuity & Operational Resilience Management solution providers. Mitratech Preparis, with its integrated capabilities spanning business continuity planning, operational resilience, business..."
+  },
+  {
+    "title": "Nagarro legt Geschäftszahlen für das 2. Quartal und das 1. Halbjahr 2026 vor und verzeichnet im 2. Quartal bzw. 1. Hj. 2026 Umsatzwachstum von 2,0 % bzw. 4,2 % gegenüber Vorjahr in konstanter Währung",
+    "url": "https://www.prnewswire.com/news-releases/nagarro-legt-geschaftszahlen-fur-das-2--quartal-und-das-1--halbjahr-2026-vor-und-verzeichnet-im-2--quartal-bzw-1--hj-2026-umsatzwachstum-von-2-0--bzw-4-2--gegenuber-vorjahr-in-konstanter-wahrung-302851675.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:15:00+00:00",
+    "raw_text": "MÜNCHEN, 14. August 2026 /PRNewswire/ -- Nagarro, ein weltweit führendes Unternehmen für KI-Transformation und Entwicklung, hat heute seine ungeprüften Finanzzahlen für das zweite Quartal 2026 und das erste Halbjahr 2026 vorgelegt und seinen Halbjahresfinanzbericht veröffentlicht....",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "MÜNCHEN, 14. August 2026 /PRNewswire/ -- Nagarro, ein weltweit führendes Unternehmen für KI-Transformation und Entwicklung, hat heute seine ungeprüften Finanzzahlen für das zweite Quartal 2026 und das erste Halbjahr 2026 vorgelegt und seinen Halbjahresfinanzbericht veröffentlicht...."
+  },
+  {
+    "title": "160X8.0 Series Launch 21st August -- Breakthrough GT1200 Carbon Plate Powers Xtep's 160X 8.0 Ultra",
+    "url": "https://www.prnewswire.com/news-releases/160x8-0-series-launch-21st-august--breakthrough-gt1200-carbon-plate-powers-xteps-160x-8-0-ultra-302851674.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:15:00+00:00",
+    "raw_text": "XIAMEN, China, Aug. 14, 2026 /PRNewswire/ -- Xtep, China's leading professional sportswear brand, will globally launch its all-new flagship marathon running shoe series, the 160X 8.0, on August 21. The top-tier 160X 8.0 Ultra will feature the brand-new GT1200 premium carbon plate. This...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "XIAMEN, China, Aug. 14, 2026 /PRNewswire/ -- Xtep, China's leading professional sportswear brand, will globally launch its all-new flagship marathon running shoe series, the 160X 8.0, on August 21. The top-tier 160X 8.0 Ultra will feature the brand-new GT1200 premium carbon plate. This..."
+  },
+  {
+    "title": "Nagarro presents Q2 and H1 2026 numbers, posts 2.0% and 4.2% YoY revenue growth in constant currency in Q2 and H1 2026, respectively",
+    "url": "https://www.prnewswire.com/news-releases/nagarro-presents-q2-and-h1-2026-numbers-posts-2-0-and-4-2-yoy-revenue-growth-in-constant-currency-in-q2-and-h1-2026--respectively-302851671.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:09:00+00:00",
+    "raw_text": "MUNICH, Aug. 14, 2026 /PRNewswire/ -- Today, Nagarro, a global AI transformation and engineering leader, presented its unaudited financial numbers for Q2 2026 and H1 2026, and released its half-yearly financial report. Q2 results In Q2 2026, revenue grew to €252.4 million, up from €252.0...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "audit"
+      ]
+    },
+    "summary": "MUNICH, Aug. 14, 2026 /PRNewswire/ -- Today, Nagarro, a global AI transformation and engineering leader, presented its unaudited financial numbers for Q2 2026 and H1 2026, and released its half-yearly financial report. Q2 results In Q2 2026, revenue grew to €252.4 million, up from €252.0..."
+  },
+  {
+    "title": "Zoomlion Mobilizes Emergency Equipment and Personnel for Colombia Earthquake Relief",
+    "url": "https://www.prnewswire.com/news-releases/zoomlion-mobilizes-emergency-equipment-and-personnel-for-colombia-earthquake-relief-302851595.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:08:00+00:00",
+    "raw_text": "BOGOTA, Colombia, Aug. 14, 2026 /PRNewswire/ -- Zoomlion Heavy Industry Science & Technology Co., Ltd. (\"Zoomlion\") has deployed excavators, skid steer loaders, cranes and relief supplies to support rescue efforts in the wake of the magnitude-7.5 earthquake that struck Colombia on August...",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "colo"
+      ]
+    },
+    "summary": "BOGOTA, Colombia, Aug. 14, 2026 /PRNewswire/ -- Zoomlion Heavy Industry Science & Technology Co., Ltd. (\"Zoomlion\") has deployed excavators, skid steer loaders, cranes and relief supplies to support rescue efforts in the wake of the magnitude-7.5 earthquake that struck Colombia on August..."
+  },
+  {
+    "title": "Jordan Kuwait Bank Group Reports Net Profit of JOD 57.6 million (USD$81.4m) for the First Half of 2026",
+    "url": "https://www.prnewswire.com/news-releases/jordan-kuwait-bank-group-reports-net-profit-of-jod-57-6-million-usd81-4m-for-the-first-half-of-2026--302851208.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:03:00+00:00",
+    "raw_text": "Group's total assets reached JOD 5.359 billion ($7.56 bn) (30 June 2026) Total customer deposits of JOD 3.790 billion ($5.35 bn) AMMAN, Jordan, Aug. 14, 2026 /PRNewswire/ -- Jordan Kuwait Bank Group announced its financial results for the first half of 2026, reporting a net profit of JOD...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Group's total assets reached JOD 5.359 billion ($7.56 bn) (30 June 2026) Total customer deposits of JOD 3.790 billion ($5.35 bn) AMMAN, Jordan, Aug. 14, 2026 /PRNewswire/ -- Jordan Kuwait Bank Group announced its financial results for the first half of 2026, reporting a net profit of JOD..."
+  },
+  {
+    "title": "Performance Brokerage Services Advises on the Sale of Campus Ford in Waynesboro, Virginia from Matt McMurray to Eric Obaugh of Charlie Obaugh Auto Group",
+    "url": "https://www.prnewswire.com/news-releases/performance-brokerage-services-advises-on-the-sale-of-campus-ford-in-waynesboro-virginia-from-matt-mcmurray-to-eric-obaugh-of-charlie-obaugh-auto-group-302851382.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:00:00+00:00",
+    "raw_text": "Performance Brokerage Services, the leader in dealership buy-sell activity, announces the sale of Campus Ford in Waynesboro, Virginia from Matt McMurray to Eric Obaugh of Charlie Obaugh Auto Group. IRVINE, Calif., Aug. 14, 2026 /PRNewswire/ -- Performance Brokerage Services, North...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Performance Brokerage Services, the leader in dealership buy-sell activity, announces the sale of Campus Ford in Waynesboro, Virginia from Matt McMurray to Eric Obaugh of Charlie Obaugh Auto Group. IRVINE, Calif., Aug. 14, 2026 /PRNewswire/ -- Performance Brokerage Services, North..."
+  },
+  {
+    "title": "Společnost Angelaligner se odvolá proti rozhodnutí čínského soudu ohledně řešení extrakce premolárů, které nemá žádný dopad na zákazníky",
+    "url": "https://www.prnewswire.com/news-releases/spolenost-angelaligner-se-odvola-proti-rozhodnuti-inskeho-soudu-ohledn-eeni-extrakce-premolar-ktere-nema-adny-dopad-na-zakazniky-302851668.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:00:00+00:00",
+    "raw_text": "ŠANGHAJ, 14. srpna 2026 /PRNewswire/ -- Společnost Angelalign Technology Inc. (6699.HK) („Angel\"), http://www.angelaligner.com, dnes oznámila, že se odvolá proti rozsudku prvního stupně ze dne 10. srpna, který vynesl Střední lidový soud v Ťi-nan (město Ťi-nan, Čína) a který nařídil...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "ŠANGHAJ, 14. srpna 2026 /PRNewswire/ -- Společnost Angelalign Technology Inc. (6699.HK) („Angel\"), http://www.angelaligner.com, dnes oznámila, že se odvolá proti rozsudku prvního stupně ze dne 10. srpna, který vynesl Střední lidový soud v Ťi-nan (město Ťi-nan, Čína) a který nařídil..."
+  },
+  {
+    "title": "Kirin and GenerativeX Transform the Future of Research and Development with AI",
+    "url": "https://www.prnewswire.com/news-releases/kirin-and-generativex-transform-the-future-of-research-and-development-with-ai-302846948.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:00:00+00:00",
+    "raw_text": "Introducing a New Model for Co-Creation with Researchers TOKYO, Aug. 14, 2026 /PRNewswire/ -- Kirin Holdings Company, Limited (Kirin Holdings) and FDE consulting firm GenerativeX Inc. (GenerativeX) have developed a new research style that incorporates AI agents directly into research...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "consulting"
+      ]
+    },
+    "summary": "Introducing a New Model for Co-Creation with Researchers TOKYO, Aug. 14, 2026 /PRNewswire/ -- Kirin Holdings Company, Limited (Kirin Holdings) and FDE consulting firm GenerativeX Inc. (GenerativeX) have developed a new research style that incorporates AI agents directly into research..."
+  },
+  {
+    "title": "Can We Clean What We Cannot See? \"All Access hosted by Andy Garcia\" Features PolyGone Systems to Explore the Quest to Extract Microplastics from Our Water Systems",
+    "url": "https://www.prnewswire.com/news-releases/can-we-clean-what-we-cannot-see-all-access-hosted-by-andy-garcia-features-polygone-systems-to-explore-the-quest-to-extract-microplastics-from-our-water-systems-302848460.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T07:00:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 14, 2026 /PRNewswire/ -- A breakthrough biomimetic filtration media captures up to 98% of microscopic plastic particles down to the nanoscale, offering municipalities and industries an affordable, gravity-driven strategy to secure public health and meet impending...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LOS ANGELES, Aug. 14, 2026 /PRNewswire/ -- A breakthrough biomimetic filtration media captures up to 98% of microscopic plastic particles down to the nanoscale, offering municipalities and industries an affordable, gravity-driven strategy to secure public health and meet impending..."
+  },
+  {
+    "title": "Stanbic IBTC Bank renforce ses capacités de services bancaires transactionnels grâce à la mise à niveau vers la version 9.0 de FinnAxia® de Nucleus Software",
+    "url": "https://www.prnewswire.com/news-releases/stanbic-ibtc-bank-renforce-ses-capacites-de-services-bancaires-transactionnels-grace-a-la-mise-a-niveau-vers-la-version-9-0-de-finnaxia-de-nucleus-software-302851664.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-14T06:56:00+00:00",
+    "raw_text": "LAGOS, Nigeria, 14 août 2026 /PRNewswire/ -- Stanbic IBTC Bank, membre du Standard Bank Group, et Nucleus Software, l'un des principaux fournisseurs de solutions de crédit et de services bancaires transactionnels, ont franchi avec succès une nouvelle étape en adoptant la version 9.0 de...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LAGOS, Nigeria, 14 août 2026 /PRNewswire/ -- Stanbic IBTC Bank, membre du Standard Bank Group, et Nucleus Software, l'un des principaux fournisseurs de solutions de crédit et de services bancaires transactionnels, ont franchi avec succès une nouvelle étape en adoptant la version 9.0 de..."
   },
   {
     "title": "LG to Unveil Its Next-Gen Humanoid Robot, Built on NVIDIA Isaac GR00T",
-    "url": "https://www.prnewswire.com/news-releases/lg-to-unveil-its-next-gen-humanoid-robot-built-on-nvidia-isaac-gr00t-302851583.html",
+    "url": "https://www.prnewswire.com/news-releases/lg-to-unveil-its-next-gen-humanoid-robot-built-on-nvidia-isaac-gr00t-302851652.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:30:00+00:00",
-    "raw_text": "LG and NVIDIA Collaboration Moves Beyond Strategic Blueprints into Execution SEOUL, South Korea, Aug. 13, 2026 /PRNewswire/ -- LG today announced they're developing a next-generation bipedal humanoid robot built using NVIDIA Isaac GR00T, NVIDIA's open reasoning humanoid foundation model,...",
+    "published": "2026-08-14T06:19:00+00:00",
+    "raw_text": "LG and NVIDIA Collaboration Moves Beyond Strategic Blueprints into Execution SEOUL, South Korea, Aug. 14, 2026 /PRNewswire/ -- LG today announced they're developing a next-generation bipedal humanoid robot built using NVIDIA Isaac GR00T, NVIDIA's open reasoning humanoid foundation model,...",
     "categories": [
       "Industry & Market"
     ],
@@ -3506,30 +3425,59 @@
         "ey"
       ]
     },
-    "summary": "LG and NVIDIA Collaboration Moves Beyond Strategic Blueprints into Execution SEOUL, South Korea, Aug. 13, 2026 /PRNewswire/ -- LG today announced they're developing a next-generation bipedal humanoid robot built using NVIDIA Isaac GR00T, NVIDIA's open reasoning humanoid foundation model,..."
+    "summary": "LG and NVIDIA Collaboration Moves Beyond Strategic Blueprints into Execution SEOUL, South Korea, Aug. 14, 2026 /PRNewswire/ -- LG today announced they're developing a next-generation bipedal humanoid robot built using NVIDIA Isaac GR00T, NVIDIA's open reasoning humanoid foundation model,..."
   },
   {
-    "title": "Beijing Review: Why the CPC stands strong",
-    "url": "https://www.prnewswire.com/news-releases/beijing-review-why-the-cpc-stands-strong-302851581.html",
+    "title": "SEMIFIVE Accelerates Growth with 97% YoY Revenue Surge in H1 2026, Powered by ASIC Turnkey, Mass Production, and IP",
+    "url": "https://www.prnewswire.com/news-releases/semifive-accelerates-growth-with-97-yoy-revenue-surge-in-h1-2026-powered-by-asic-turnkey-mass-production-and-ip-302851650.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:26:00+00:00",
-    "raw_text": "BEIJING, Aug. 13, 2026 /PRNewswire/ -- The year 2026 marks the 105th anniversary of the founding of the Communist Party of China (CPC). From just over 50 members at the time of its founding to more than 100 million members today, the CPC has grown vastly in size. What remains unchanged,...",
+    "published": "2026-08-14T06:10:00+00:00",
+    "raw_text": "H1 bookings reach KRW 118.9 billion with revenue at KRW 94.7 billion, achieving 78% of full-year 2025 revenue in just six months Expanding ASIC turnkey bookings, accelerating mass production, and recurring IP revenue drive SEMIFIVE's scalable growth SEOUL, South Korea, Aug. 14, 2026...",
     "categories": [
-      "GRC"
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "GRC": [
-        "nist"
+      "Industry & Market": [
+        "ey"
       ]
     },
-    "summary": "BEIJING, Aug. 13, 2026 /PRNewswire/ -- The year 2026 marks the 105th anniversary of the founding of the Communist Party of China (CPC). From just over 50 members at the time of its founding to more than 100 million members today, the CPC has grown vastly in size. What remains unchanged,..."
+    "summary": "H1 bookings reach KRW 118.9 billion with revenue at KRW 94.7 billion, achieving 78% of full-year 2025 revenue in just six months Expanding ASIC turnkey bookings, accelerating mass production, and recurring IP revenue drive SEMIFIVE's scalable growth SEOUL, South Korea, Aug. 14, 2026..."
   },
   {
-    "title": "KAILAS Mountain Adventure Project Celebrates 20 Years of Exploration in Chengdu",
-    "url": "https://www.prnewswire.com/news-releases/kailas-mountain-adventure-project-celebrates-20-years-of-exploration-in-chengdu-302851580.html",
+    "title": "SWI Group announces new strategic partnership with Brookfield for U.S. multifamily portfolio",
+    "url": "https://www.prnewswire.com/news-releases/swi-group-announces-new-strategic-partnership-with-brookfield-for-us-multifamily-portfolio-302851574.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:20:00+00:00",
-    "raw_text": "CHENGDU, China, Aug. 14, 2026 /PRNewswire/ -- On August 7, KAILAS celebrated the 20th anniversary of its Mountain Adventure Project with a special sharing session at Chengdu MixC. Climbers including Jon Otto, Li Zongli, Liu Junfu, Zhou Song, Zhang Qingwei \"Yeren\", and Alan Rousseau...",
+    "published": "2026-08-14T06:00:00+00:00",
+    "raw_text": "AMSTERDAM, Aug. 14, 2026 /PRNewswire/ -- Varia US Properties AG (\"Varia US\" or the \"Company\"), the Swiss-listed investor in the U.S. multifamily sector, externally managed by Stoneweg, an SWI Group Company, has signed a definitive agreement with affiliates of Brookfield Asset Management...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "partnership",
+        "announces"
+      ]
+    },
+    "summary": "AMSTERDAM, Aug. 14, 2026 /PRNewswire/ -- Varia US Properties AG (\"Varia US\" or the \"Company\"), the Swiss-listed investor in the U.S. multifamily sector, externally managed by Stoneweg, an SWI Group Company, has signed a definitive agreement with affiliates of Brookfield Asset Management..."
+  },
+  {
+    "title": "NOXCAT Outlines Consumer-First Vision for Web3 at Malaysia Blockchain Week 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/08/14/3345106/0/en/noxcat-outlines-consumer-first-vision-for-web3-at-malaysia-blockchain-week-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-14T07:36:00+00:00",
+    "raw_text": "KUALA LUMPUR, Malaysia, Aug. 14, 2026 (GLOBE NEWSWIRE) -- NOXCAT participated in Malaysia Blockchain Week 2026 (MYBW 2026), held on July 29–30 at the World Trade Centre Kuala Lumpur, joining builders, institutions, investors, infrastructure providers and Web3 communities from across Southeast Asia and the broader APAC market.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "KUALA LUMPUR, Malaysia, Aug. 14, 2026 (GLOBE NEWSWIRE) -- NOXCAT participated in Malaysia Blockchain Week 2026 (MYBW 2026), held on July 29–30 at the World Trade Centre Kuala Lumpur, joining builders, institutions, investors, infrastructure providers and Web3 communities from across Southeast Asia and the broader APAC market."
+  },
+  {
+    "title": "EXLANTIX Becomes the First New‑Energy Sponsor of Pride of Poland, Bringing Modern Mobility Elegance to a Century-Old Stud Farm",
+    "url": "https://www.globenewswire.com/news-release/2026/08/14/3345105/0/en/exlantix-becomes-the-first-new-energy-sponsor-of-pride-of-poland-bringing-modern-mobility-elegance-to-a-century-old-stud-farm.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-14T07:10:00+00:00",
+    "raw_text": "JANÓW PODLASKI, Poland, Aug. 14, 2026 (GLOBE NEWSWIRE) -- From August 7 to 11, EXLANTIX, the new energy vehicle brand under EXEED, took part in the Arabian Horse Day in Janów Podlaski and the 57th Pride of Poland Auction as the exclusive automotive brand sponsor – the first time in the event's history that a new energy vehicle brand has assumed this role. Both the ES and ET models were displayed on site, with test drives available for guests. Through these hands-on product experiences, EXLANTIX engaged in meaningful conversations with attendees, further advancing its localized brand communication in the Polish market.",
     "categories": [
       "Networks"
     ],
@@ -3538,63 +3486,19 @@
         "lan"
       ]
     },
-    "summary": "CHENGDU, China, Aug. 14, 2026 /PRNewswire/ -- On August 7, KAILAS celebrated the 20th anniversary of its Mountain Adventure Project with a special sharing session at Chengdu MixC. Climbers including Jon Otto, Li Zongli, Liu Junfu, Zhou Song, Zhang Qingwei \"Yeren\", and Alan Rousseau..."
+    "summary": "JANÓW PODLASKI, Poland, Aug. 14, 2026 (GLOBE NEWSWIRE) -- From August 7 to 11, EXLANTIX, the new energy vehicle brand under EXEED, took part in the Arabian Horse Day in Janów Podlaski and the 57th Pride of Poland Auction as the exclusive automotive brand sponsor – the first time in the event's history that a new energy vehicle brand has assumed this role. Both the ES and ET models were displayed on site, with test drives available for guests. Through these hands-on product experiences, EXLANTIX engaged in meaningful conversations with attendees, further advancing its localized brand communication in the Polish market."
   },
   {
-    "title": "Rosen Law Firm Encourages Suja Life, Inc. Investors to Inquire About Securities Class Action Investigation - SUJA",
-    "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-suja-life-inc-investors-to-inquire-about-securities-class-action-investigation--suja-302851440.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:11:00+00:00",
-    "raw_text": "NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, announces an investigation of potential securities claims on behalf of shareholders of Suja Life, Inc. (NASDAQ: SUJA) resulting from allegations that Suja may have issued materially misleading...",
+    "title": "SOUEAST Showcases S08 DM at Egypt’s North Coast Roadshow",
+    "url": "https://www.globenewswire.com/news-release/2026/08/14/3345095/0/en/soueast-showcases-s08-dm-at-egypt-s-north-coast-roadshow.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-14T06:10:00+00:00",
+    "raw_text": "ALAMEIN, Egypt, Aug. 14, 2026 (GLOBE NEWSWIRE) -- Stretching from the vibrant Seashell North Coast to the exclusive Mountain View Ras El Hekma, Egypt’s North Coast is known as the “Pearl of the Mediterranean,” attracting visitors from around the world. As SOUEAST celebrates its first anniversary in the Egyptian market, the brand has kicked off a four-week roadshow here, bringing its new energy technologies and stylish mobility experiences closer to local customers and holidaymakers.",
     "categories": [
-      "Industry & Market"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, announces an investigation of potential securities claims on behalf of shareholders of Suja Life, Inc. (NASDAQ: SUJA) resulting from allegations that Suja may have issued materially misleading..."
-  },
-  {
-    "title": "WANPY® Becomes the First Chinese Pet Food Brand to Receive the WPA International Excellence Award, Earning International Recognition for Its Systematic Capabilities",
-    "url": "https://www.prnewswire.com/news-releases/wanpy-becomes-the-first-chinese-pet-food-brand-to-receive-the-wpa-international-excellence-award-earning-international-recognition-for-its-systematic-capabilities-302850774.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T02:00:00+00:00",
-    "raw_text": "LAS VEGAS, Aug. 13, 2026 /PRNewswire/ -- In August 2026, the World Pet Association (WPA) presented the 2026 WPA International Excellence Award to WANPY®, making it the first Chinese pet food brand to receive the honor. As one of the most established and respected organizations in the...",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "LAS VEGAS, Aug. 13, 2026 /PRNewswire/ -- In August 2026, the World Pet Association (WPA) presented the 2026 WPA International Excellence Award to WANPY®, making it the first Chinese pet food brand to receive the honor. As one of the most established and respected organizations in the..."
-  },
-  {
-    "title": "CAPR Investors Have Opportunity to Lead Capricor Therapeutics, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/capr-investors-have-opportunity-to-lead-capricor-therapeutics-inc-securities-fraud-lawsuit-302851417.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T01:59:00+00:00",
-    "raw_text": "NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Capricor Therapeutics, Inc. (NASDAQ: CAPR) between December 17, 2025 and July 26, 2026, inclusive (the \"Class Period\"). A...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "NEW YORK, Aug. 13, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Capricor Therapeutics, Inc. (NASDAQ: CAPR) between December 17, 2025 and July 26, 2026, inclusive (the \"Class Period\"). A..."
+    "matched_keywords": {},
+    "summary": "ALAMEIN, Egypt, Aug. 14, 2026 (GLOBE NEWSWIRE) -- Stretching from the vibrant Seashell North Coast to the exclusive Mountain View Ras El Hekma, Egypt’s North Coast is known as the “Pearl of the Mediterranean,” attracting visitors from around the world. As SOUEAST celebrates its first anniversary in the Egyptian market, the brand has kicked off a four-week roadshow here, bringing its new energy technologies and stylish mobility experiences closer to local customers and holidaymakers."
   },
   {
     "title": "Pfizer and Valneva’s Lyme Disease Vaccine Candidate Marketing Authorization Application Validated by European Medicines Agency",
@@ -3833,30 +3737,6 @@
     "summary": "Amàre Cancún Adults Only All-Inclusive Resort, Curio Collection by Hilton™, is now accepting reservations for stays beginning October 31, 2026."
   },
   {
-    "title": "Gene Therapy Remains Top-of-Mind in Hemophilia Despite Recent Market Contraction, as Physicians and Patients Raise the Bar for Success",
-    "url": "https://www.globenewswire.com/news-release/2026/08/13/3344851/0/en/gene-therapy-remains-top-of-mind-in-hemophilia-despite-recent-market-contraction-as-physicians-and-patients-raise-the-bar-for-success.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-13T18:59:00+00:00",
-    "raw_text": "Nearly nine in ten EU4+UK hematologists now require longer-term efficacy data before referring patients with hemophilia A for gene therapy, while Spherix patient research reveals continued interest in the modality. Nearly nine in ten EU4+UK hematologists now require longer-term efficacy data before referring patients with hemophilia A for gene therapy, while Spherix patient research reveals continued interest in the modality.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Nearly nine in ten EU4+UK hematologists now require longer-term efficacy data before referring patients with hemophilia A for gene therapy, while Spherix patient research reveals continued interest in the modality. Nearly nine in ten EU4+UK hematologists now require longer-term efficacy data before referring patients with hemophilia A for gene therapy, while Spherix patient research reveals continued interest in the modality."
-  },
-  {
-    "title": "A Fan's Viral Video Inspires Taco John’s New Limited-Time Burrito Collaboration Supporting the Military Community",
-    "url": "https://www.globenewswire.com/news-release/2026/08/13/3344843/0/en/a-fan-s-viral-video-inspires-taco-john-s-new-limited-time-burrito-collaboration-supporting-the-military-community.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-13T18:49:00+00:00",
-    "raw_text": "ST. LOUIS PARK, Minn., Aug. 13, 2026 (GLOBE NEWSWIRE) -- Most restaurant collaborations start in a boardroom. Taco John’s ® , a leading Mexican quick-service restaurant, is turning that on its head, bringing menu ideas to life from the people who know and love the brand most: its fans.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ST. LOUIS PARK, Minn., Aug. 13, 2026 (GLOBE NEWSWIRE) -- Most restaurant collaborations start in a boardroom. Taco John’s ® , a leading Mexican quick-service restaurant, is turning that on its head, bringing menu ideas to life from the people who know and love the brand most: its fans."
-  },
-  {
     "title": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations - IBM Newsroom",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR3p4N3M0WXh3TEJGWUxEMDVucXFKc0lfSW9Qa19WeE9FUXowbTB4ZXdra1U0dlJic2o3dlJkMExvV3dWN1ZfM3VuTmd4TWI3OFF3S3o4aG9Yb09QZG1fUDBmWUo4eEpfMFh5cFZud3ZOS05FcnlnMGpoTGUxWndpcTl6OHRWcl9ucENIN0RjTS1tRzB6eEpNSjREXzJWdnQyeXpxdXpnMzJsMS1La0FHSmUycllIQTlhc3hUM1BjZTk1STJIcGR4WjMxcWs4UlE?oc=5",
     "source": "Google News: Consulting Firm Announcements",
@@ -3873,24 +3753,24 @@
     "summary": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations IBM Newsroom"
   },
   {
-    "title": "IBM partners with OpenAI to secure enterprise AI deployment - fiercewireless.com",
+    "title": "IBM partners with OpenAI to secure enterprise AI deployment - Fierce Network",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSjRxZ3BRUFBzUVFqUUZoSXg1NklfbkhzazB1cldMVzNmNjVUejRWcmhCOVRWc1FtN09SYmIxR0ZIanNhbDBfMmNzTV8zdkJCa0xLcDBLeTZBb21TeENSR085a29CVGhFXzhrdFpkaEFGOS04cFktMmpxckZkaV9SQWdqekRNYlZJWHJaaHgtelBJdm80NEE?oc=5",
     "source": "Google News: Consulting Firm Announcements",
     "published": "2026-08-13T15:36:24+00:00",
-    "raw_text": "IBM partners with OpenAI to secure enterprise AI deployment fiercewireless.com",
+    "raw_text": "IBM partners with OpenAI to secure enterprise AI deployment Fierce Network",
     "categories": [
       "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
-        "wireless"
+        "network"
       ],
       "Industry & Market": [
         "ibm"
       ]
     },
-    "summary": "IBM partners with OpenAI to secure enterprise AI deployment fiercewireless.com"
+    "summary": "IBM partners with OpenAI to secure enterprise AI deployment Fierce Network"
   },
   {
     "title": "QBS Software bolsters European security portfolio with Futurex distribution deal - IT Pro",
