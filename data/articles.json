@@ -1122,7 +1122,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/",
     "source": "Google Cloud Blog",
     "published": "2026-08-13T17:00:00+00:00",
-    "raw_text": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping. This allows your agents to reason across complex dependencies captured in graphs with precision of measures. Why relationships matter Traditional data structures are blind to multi-hop business context, causing AI agents to make incorrect operational decisions: The concrete problem: If a retailer has an agent who is asked why winter jacket sales dropped 12% in Seattle, it can query flat tables to report the what (the 12% dip). But it fails at the why because it cannot trace the relational path: Seattle orders ➔ distribution centers ➔ suppliers delayed by regional storms . The risk of disjointed systems: Lacking relationship context, the agent suggests an irrelevant 15% markdown campaign, needlessly eroding margins. Furthermore, maintaining separate systems - where one team maps supplier relationships in a separate graph database while another maintains SQL metrics - forces your agent to stitch these stacks together at runtime. This process is slow, expensive, and leads to inconsistent KPI calculations. Measures in BigQuery Graph solves this by letting you map existing tables to a property graph in-place with zero ETL . This unified setup enables a logical evolution of inquiry: Metadata grounding establishes what data you have. Business metrics (measures) calculate how your business performed. Relationship mapping (graph) uncovers why it happened. Under the hood Historically, standard SQL joins during graph traversals duplicate rows, leading to incorrect aggregation calculations. BigQuery Graph solves this natively. Data modelers define a MEASURE (like SUM or AVG ) directly within the Property Graph DDL. Using standard SQL via the GRAPH_EXPAND function and the AGG aggregator, the engine resolves the structural graph paths before evaluating metrics. This ensures your agent is smart enough to know when it needs a calculator (SQL) and when it needs a map (graph) . Because public projects like bigquery-public-data are strictly read-only, you must map the logical property graph inside your own project using a placeholder variable ( YOUR_PROJECT_ID ), while directly referencing the read-only public tables as nodes and edges. code_block <ListValue: [StructValue([('code', '-- 1. Map the graph inside YOUR project \\r\\n\\r\\n\\r\\nCREATE OR REPLACE PROPERTY GRAPH `YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph`\\r\\nNODE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.users` AS User\\r\\n KEY(id)\\r\\n LABEL User PROPERTIES(id, city, country),\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS Order\\r\\n KEY(order_id)\\r\\n LABEL Order PROPERTIES(\\r\\n order_id, \\r\\n MEASURE(AVG(num_of_item)) AS avg_items_per_order,\\r\\n MEASURE(SUM(num_of_item)) AS total_items\\r\\n )\\r\\n)\\r\\nEDGE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS OrderedBy\\r\\n SOURCE KEY(order_id) REFERENCES Order(order_id)\\r\\n DESTINATION KEY(user_id) REFERENCES User(id)\\r\\n LABEL ORDERED_BY\\r\\n);\\r\\n\\r\\n-- 2. Query your new graph with standard SQL—using standard {Label}_{Property} column outputs\\r\\nSELECT\\r\\n User_city AS city,\\r\\n ROUND(AGG(Order_avg_items_per_order), 2) AS agg_avg_items,\\r\\n ROUND(AGG(Order_total_items), 2) AS agg_total_items\\r\\nFROM GRAPH_EXPAND(\"YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph\")\\r\\nGROUP BY User_city\\r\\nORDER BY agg_total_items DESC\\r\\nLIMIT 10;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f60494c4fd0>)])]> Democratizing graph intelligence in BigQuery Studio To make managing and deploying these relationship networks frictionless for both developers and business users, we have built native, intuitive operational tools directly into BigQuery Studio: Visual graph modeler: A no-code, drag-and-drop interface inside BigQuery Studio that lets you visually build, edit, and map property graphs, nodes, and edges without writing complex DDL scripts manually. Conversational Analytics (CA) integration: Users can interact with the graph naturally. Instead of guessing table joins, Conversational Analytics agents navigate the deterministic, relationship-aware map of the graph, converting natural language questions into precise, boundary-constrained GoogleSQL or ISO GQL queries. This prevents model hallucinations and enforces semantic consistency. Unified semantics: Native Looker integration To avoid maintaining fragmented logic stacks, business metrics must live at the data layer. By integrating Looker (LookML) natively with BigQuery Graphs as in-database analytic models , you define logic once at the core: Database-managed models (sql_analytic_model_name): Point Looker directly to your database-defined BigQuery Graph using sql_analytic_model_name to map standard LookML dimensions and measures directly to your graph properties. Looker-managed models (derived_analytic_model): Define your BigQuery Graph schema directly inside your LookML view using derived_analytic_model . Looker will dynamically generate and execute the SQL DDL statements to maintain the graph inside BigQuery. Enterprise DevOps workflows: Manage your graph's entire lifecycle using the Looker IDE, Git-based version control, and Continuous Integration (CI) . Core KPIs (like Churn Rate) remain completely identical, verified, and trusted.",
+    "raw_text": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping. This allows your agents to reason across complex dependencies captured in graphs with precision of measures. Why relationships matter Traditional data structures are blind to multi-hop business context, causing AI agents to make incorrect operational decisions: The concrete problem: If a retailer has an agent who is asked why winter jacket sales dropped 12% in Seattle, it can query flat tables to report the what (the 12% dip). But it fails at the why because it cannot trace the relational path: Seattle orders ➔ distribution centers ➔ suppliers delayed by regional storms . The risk of disjointed systems: Lacking relationship context, the agent suggests an irrelevant 15% markdown campaign, needlessly eroding margins. Furthermore, maintaining separate systems - where one team maps supplier relationships in a separate graph database while another maintains SQL metrics - forces your agent to stitch these stacks together at runtime. This process is slow, expensive, and leads to inconsistent KPI calculations. Measures in BigQuery Graph solves this by letting you map existing tables to a property graph in-place with zero ETL . This unified setup enables a logical evolution of inquiry: Metadata grounding establishes what data you have. Business metrics (measures) calculate how your business performed. Relationship mapping (graph) uncovers why it happened. Under the hood Historically, standard SQL joins during graph traversals duplicate rows, leading to incorrect aggregation calculations. BigQuery Graph solves this natively. Data modelers define a MEASURE (like SUM or AVG ) directly within the Property Graph DDL. Using standard SQL via the GRAPH_EXPAND function and the AGG aggregator, the engine resolves the structural graph paths before evaluating metrics. This ensures your agent is smart enough to know when it needs a calculator (SQL) and when it needs a map (graph) . Because public projects like bigquery-public-data are strictly read-only, you must map the logical property graph inside your own project using a placeholder variable ( YOUR_PROJECT_ID ), while directly referencing the read-only public tables as nodes and edges. code_block <ListValue: [StructValue([('code', '-- 1. Map the graph inside YOUR project \\r\\n\\r\\n\\r\\nCREATE OR REPLACE PROPERTY GRAPH `YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph`\\r\\nNODE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.users` AS User\\r\\n KEY(id)\\r\\n LABEL User PROPERTIES(id, city, country),\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS Order\\r\\n KEY(order_id)\\r\\n LABEL Order PROPERTIES(\\r\\n order_id, \\r\\n MEASURE(AVG(num_of_item)) AS avg_items_per_order,\\r\\n MEASURE(SUM(num_of_item)) AS total_items\\r\\n )\\r\\n)\\r\\nEDGE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS OrderedBy\\r\\n SOURCE KEY(order_id) REFERENCES Order(order_id)\\r\\n DESTINATION KEY(user_id) REFERENCES User(id)\\r\\n LABEL ORDERED_BY\\r\\n);\\r\\n\\r\\n-- 2. Query your new graph with standard SQL—using standard {Label}_{Property} column outputs\\r\\nSELECT\\r\\n User_city AS city,\\r\\n ROUND(AGG(Order_avg_items_per_order), 2) AS agg_avg_items,\\r\\n ROUND(AGG(Order_total_items), 2) AS agg_total_items\\r\\nFROM GRAPH_EXPAND(\"YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph\")\\r\\nGROUP BY User_city\\r\\nORDER BY agg_total_items DESC\\r\\nLIMIT 10;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9a2984fac0>)])]> Democratizing graph intelligence in BigQuery Studio To make managing and deploying these relationship networks frictionless for both developers and business users, we have built native, intuitive operational tools directly into BigQuery Studio: Visual graph modeler: A no-code, drag-and-drop interface inside BigQuery Studio that lets you visually build, edit, and map property graphs, nodes, and edges without writing complex DDL scripts manually. Conversational Analytics (CA) integration: Users can interact with the graph naturally. Instead of guessing table joins, Conversational Analytics agents navigate the deterministic, relationship-aware map of the graph, converting natural language questions into precise, boundary-constrained GoogleSQL or ISO GQL queries. This prevents model hallucinations and enforces semantic consistency. Unified semantics: Native Looker integration To avoid maintaining fragmented logic stacks, business metrics must live at the data layer. By integrating Looker (LookML) natively with BigQuery Graphs as in-database analytic models , you define logic once at the core: Database-managed models (sql_analytic_model_name): Point Looker directly to your database-defined BigQuery Graph using sql_analytic_model_name to map standard LookML dimensions and measures directly to your graph properties. Looker-managed models (derived_analytic_model): Define your BigQuery Graph schema directly inside your LookML view using derived_analytic_model . Looker will dynamically generate and execute the SQL DDL statements to maintain the graph inside BigQuery. Enterprise DevOps workflows: Manage your graph's entire lifecycle using the Looker IDE, Git-based version control, and Continuous Integration (CI) . Core KPIs (like Churn Rate) remain completely identical, verified, and trusted.",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -2449,22 +2449,6 @@
     "summary": "CEO says buyers are moving fast and shuffling budgets to replace old boxen"
   },
   {
-    "title": "Tencent says it could make instant profits on $53B hardware splurge by renting it for AI workloads",
-    "url": "https://www.theregister.com/off-prem/2026/08/13/tencent-says-it-could-make-instant-profits-on-53b-hardware-splurge-by-renting-it-for-ai-workloads/5287181",
-    "source": "The Register",
-    "published": "2026-08-13T04:45:21+00:00",
-    "raw_text": "Plans to build models instead because it thinks selling tokens will prove more lucrative in the long term",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Plans to build models instead because it thinks selling tokens will prove more lucrative in the long term"
-  },
-  {
     "title": "Quintas Energy deploys AI through Box to power workflows",
     "url": "https://www.computerweekly.com/news/366649394/Quintas-Energy-deploys-AI-through-Box-to-power-workflows",
     "source": "ComputerWeekly",
@@ -2668,124 +2652,6 @@
       ]
     },
     "summary": "<p>The number of girls choosing to study computing at A-level has grown again this year, alongside slight growth in the overall number of candidates taking the subject.</p> <p>In the UK, the number of girls studying A-level computing in 2026 increased by 2.8%.&nbsp;This marks the seventh year of growth in girls choosing the subject, from 1,797 in 2020, to <a href=\"https://www.computerweekly.com/news/252505123/Number-of-students-taking-A-level-computing-rose-in-2021\">2,031 in 2021</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/252523972/Fourth-year-rise-in-students-sitting-A-Level-computing\">2,352 in 2022</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/366548796/Number-of-girls-taking-Alevel-computing-still-fewer-than-3000\">2,765 in 2023</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/366605123/Number-of-girls-taking-A-Level-computing-exceeds-3000\">3,556 in 2024</a>, <a href=\"https://www.computerweekly.com/news/366629099/More-girls-take-A-level-computing-despite-overall-dip-in-numbers\">3,679 in 2025</a> and now 3,782 in 2026.</p> <p>While the past seven years have seen slow but steady growth in the number of girls choosing to take the subject, the number of overall candidates has fluctuated. In 2025, the total number of computing A-level candidates in the UK was down on the year before, but this year, the number has grown from 19,796 in 2025 to 20,009 in 2026.</p> <p>But there are rising concerns about skills gaps across the UK, especially as artificial intelligence (AI) poses a new and fast-growing area of technology that is <a href=\"https://www.computerweekly.com/news/366641842/UK-government-seeks-collaborators-for-AI-tutoring-tools-for-schools\">redefining the skills needed for life and the workplace</a>. Many have claimed the <a href=\"https://www.computerweekly.com/news/366627119/Interview-Philip-Colligan-CEO-Raspberry-Pi-Foundation\">current curriculum is not fit for purpose</a> when it comes to technology education, and parents have even claimed children <a href=\"https://www.computerweekly.com/news/366627063/More-than-70-of-parents-say-kids-arent-taught-coding-at-school\">aren’t learning to code</a> as part of computing classes.</p> <p>When it comes to AI, however, Bron Gondwana, CEO of email provider Fastmail, advises young people to develop skills unique to them without worrying what AI will bring.</p> <p>“For young people starting their careers, I’d focus less on trying to predict which jobs AI might change and more on developing expertise that makes you valuable, regardless,” he said.</p> <p>“While you have the energy, become really good at something, then look for the intersection between different skills or disciplines that nobody else is combining. That’s where innovation happens and where you’ll be hardest to replace."
-  },
-  {
-    "title": "Ryanair signs five-year Google Cloud AI partnership",
-    "url": "https://www.computerweekly.com/news/366649262/Ryanair-signs-five-year-Google-Cloud-AI-partnership",
-    "source": "ComputerWeekly",
-    "published": "2026-08-13T04:46:00+00:00",
-    "raw_text": "<p>Ryanair has signed a five-year partnership with Google Cloud that will see Europe’s largest airline deploy Gemini Enterprise and Google Workspace to 35,000 employees and <a href=\"https://www.computerweekly.com/podcast/Podcast-How-customers-use-multi-cloud-and-mitigate-key-challenges\">add a second hyperscaler</a> to an IT estate that already <a href=\"https://www.computerweekly.com/news/252518072/Ryanair-taps-up-AWS-machine-learning-tech-to-manage-in-flight-refreshment-stocks\">uses Amazon Web Services (AWS)</a>.</p> <p>The deal is framed as supporting Ryanair’s target of carrying 300 million passengers a year by 2034. That will come through Ryanair’s use of Gemini Enterprise – Google Cloud’s <a href=\"https://www.computerweekly.com/resources/Software-as-a-Service-SaaS\">agentic artificial intelligence (AI) platform</a> for connecting organisational data, automating workflows and building custom AI agents – to automate decision-making, optimise flight crew logistics and support corporate productivity. It will also draw on <a href=\"https://www.computerweekly.com/news/366645328/UKtech50-2026-winner-Demis-Hassabis-co-founder-and-CEO-DeepMind\">Google DeepMind</a> models, including AlphaEvolve and WeatherNext, to assist with fleet operations and maintenance scheduling.</p> <p>It is this aspect that distinguishes the deal from much of the airline industry’s recent AI activity, where the focus has been on customer-facing applications <a href=\"https://www.computerweekly.com/opinion/What-did-we-learn-at-Google-Cloud-Next-2026\">such as chatbots</a>, rather than the back office.</p> <p>The carrier frames the technology as an efficiency play in keeping with its low-cost model. “Ryanair is on a growth journey to 300 million passengers by 2034,” said Eddie Wilson, Ryanair’s chief executive. “To support this growth, we need to ensure we have excellent infrastructure resilience, and our new dual-cloud strategy provides this, alongside technology partners that match our speed and relentless focus on efficiency.”</p> <p>The partnership will also see Ryanair replace its existing collaboration systems with Google Workspace, modernising workflows for its workforce of around 30,000 aviation professionals, though the roll-out covers 35,000 employees across its network. Ryanair operates around 3,900 daily flights from 95 bases and connects more than 220 airports in 35 countries with a fleet of around 650 aircraft.</p> <p>For enterprise IT leaders, the deal is a reminder that the hyperscalers are competing hard for airline workloads, and that the value proposition increasingly rests on <a href=\"https://www.computerweekly.com/feature/Sovereign-cloud-and-AI-services-tipped-for-take-off-in-2026\">generative AI and agentic tooling</a> rather than raw compute. Ryanair’s choice of Google Cloud for its AI transformation – while retaining AWS for existing workloads – also illustrates the multicloud reality facing large enterprises, which rarely consolidate on a single provider.</p> <section class=\"section main-article-chapter\" data-menu-title=\"How airlines use hyperscaler AI\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>How airlines use hyperscaler AI</h2> <p>Ryanair’s emphasis on employee productivity and operations marks a contrast with the customer-facing AI that has dominated airline deployments to date, most of which run on Microsoft Azure.</p> <p>Air India was one of the first carriers to deploy generative AI for customer service at scale, using Azure OpenAI to power a chatbot that handles tens of thousands of queries a day across more than 1,300 question types. Meanwhile, Turkish low-cost carrier Pegasus Airlines uses Azure AI Services to run FlyBot, a support chatbot credited with improving customer satisfaction. Alaska Airlines has used Microsoft Foundry to build a destination discovery tool for travellers.</p> <p>There are operational examples, too. American Airlines runs an Azure-based Operations Hub that centralises its data warehouse and legacy applications, using AI to help reduce aircraft taxi and turnaround times. And Lufthansa has built a “Digital Hangar” on Azure to support its maintenance operations.</p> <p>It appears most airline AI deals have gone to Microsoft, and most have targeted the customer journey. Ryanair’s Google Cloud agreement, aimed at crew scheduling, decision automation and staff productivity, suggests the next wave of airline AI may be less about chatbots and more about operational efficiencies that underpin the low-cost model.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about cloud and AI in the enterprise</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366644938/Google-Cloud-boosts-for-enterprise-agentic-at-London-Summit\">Google Cloud boosts for enterprise agentic at London Summit</a>: Hyperscaler prioritises process automation in UK showcase, with frontier models, agent platforms and development tools to the fore, with customers such as Unilever in the spotlight.</li> <li><a href=\"https://www.computerweekly.com/news/366644915/Roundtable-UK-tech-chiefs-on-agentic-AI-workforce-culture-and-tokenomics\">Roundtable – UK tech chiefs on agentic AI, workforce culture and tokenomics</a>: Tech leaders from THG Ingenuity, Kingfisher, Rightmove and Deloitte speak at the Google Summit London about the transition to agentic systems and the rising focus on token costs.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "azure",
-        "google cloud",
-        "saas",
-        "multi-cloud"
-      ],
-      "Networks": [
-        "network"
-      ],
-      "Data Centres": [
-        "hyperscale"
-      ],
-      "Industry & Market": [
-        "partnership",
-        "deloitte",
-        "ey"
-      ]
-    },
-    "summary": "<p>Ryanair has signed a five-year partnership with Google Cloud that will see Europe’s largest airline deploy Gemini Enterprise and Google Workspace to 35,000 employees and <a href=\"https://www.computerweekly.com/podcast/Podcast-How-customers-use-multi-cloud-and-mitigate-key-challenges\">add a second hyperscaler</a> to an IT estate that already <a href=\"https://www.computerweekly.com/news/252518072/Ryanair-taps-up-AWS-machine-learning-tech-to-manage-in-flight-refreshment-stocks\">uses Amazon Web Services (AWS)</a>.</p> <p>The deal is framed as supporting Ryanair’s target of carrying 300 million passengers a year by 2034. That will come through Ryanair’s use of Gemini Enterprise – Google Cloud’s <a href=\"https://www.computerweekly.com/resources/Software-as-a-Service-SaaS\">agentic artificial intelligence (AI) platform</a> for connecting organisational data, automating workflows and building custom AI agents – to automate decision-making, optimise flight crew logistics and support corporate productivity. It will also draw on <a href=\"https://www.computerweekly.com/news/366645328/UKtech50-2026-winner-Demis-Hassabis-co-founder-and-CEO-DeepMind\">Google DeepMind</a> models, including AlphaEvolve and WeatherNext, to assist with fleet operations and maintenance scheduling.</p> <p>It is this aspect that distinguishes the deal from much of the airline industry’s recent AI activity, where the focus has been on customer-facing applications <a href=\"https://www.computerweekly.com/opinion/What-did-we-learn-at-Google-Cloud-Next-2026\">such as chatbots</a>, rather than the back office.</p> <p>The carrier frames the technology as an efficiency play in keeping with its low-cost model. “Ryanair is on a growth journey to 300 million passengers by 2034,” said Eddie Wilson, Ryanair’s chief executive."
-  },
-  {
-    "title": "At least six police forces have racked up contracts with Palantir worth £7.8m",
-    "url": "https://www.computerweekly.com/news/366648893/At-least-six-police-forces-have-racked-up-contracts-with-Palantir-worth-78m",
-    "source": "ComputerWeekly",
-    "published": "2026-08-13T04:35:00+00:00",
-    "raw_text": "<p>At least six different police forces have recently used artificial intelligence (AI) investigation tools provided by Palantir Technologies, Computer Weekly and Good Law Project have found.&nbsp;</p> <p>Agreements between Palantir and these police forces have cost £7.8m, and the firm was close to signing an additional £50m <a href=\"https://www.computerweekly.com/news/366644966/Met-Palantir-pilot-The-DPIA-that-raises-more-questions-than-answers\">contract with the Metropolitan Police</a> before London’s mayor put it on hold.</p> <p>At least six confirmed <a href=\"https://www.computerweekly.com/news/366645965/Inside-police-plans-to-share-intelligence-and-crime-data-across-the-UK\">police forces have had access to Palantir</a>, while officers from several others appear to have limited access to applications in Palantir’s Nectar system.</p> <p>Palantir Nectar allows information sharing between local forces, regional taskforces and partner agencies using Palantir’s Foundry data integration platform. Nectar uses AI to process large volumes of personal data from crime records, seized digital devices and other unknown sources.</p> <p>Some police forces have been reluctant to disclose their involvement with Palantir. The company’s UK chief, Louis Mosley, said in mid-2025 that the firm was working with “almost a dozen” police forces. Over a year on, only a handful have been identified.</p> <p>Investigative outlet <a href=\"https://democracyforsale.substack.com/p/uncovered-how-uk-police-are-hiding-palantir-work-peter-thiel-trump\">Democracy for Sale</a> reported that a secret unit in the National Police Chiefs’ Council (NPCC) has been “systematically instructing” forces to withhold information “that may or may not be held in relation to Palantir software used for covert purposes”.</p> <p>The most recently identified force to test Palantir’s technology is Lancashire Police, which acquired Palantir’s Foundry software through Softcat, a UK-based IT infrastructure and software supplier. Foundry is the same software framework that underpins Palantir Nectar, the NHS Federated Data Platform and the Met Police’s internal staff compliance monitoring tool.</p> <p>Lancashire’s agreement was for a “proof of concept” the force was developing, at a cost of £860k. The force appears to have had access to Palantir’s software between March 2025 and June 2026, which included a contract extension.</p> <p>The force also said in freedom of information (FOI) disclosures that “there have been conversations with this supplier [Palantir] and others to look at opportunities on how these AI-driven technologies can assist digital policing”. However, Lancashire Police has kept no minutes of any meetings that may have discussed the project.</p> <p>The force was approached to ask whether its project was related to its regional taskforce and Nectar, but had not responded at the time of publication.</p> <p>Leicestershire Police also signed an £800,000 contract with Palantir in October 2024, as reported by <em><a href=\"https://www.leicester.news/palantirs-contract-with-leicestershire-police-released-after-gazette-foi-dispute/\">The Leicester Gazette</a></em>, which obtained the information under the Freedom of Information Act, following intervention of the regulator on behalf of the publication. The force is one of the few confirmed users of Palantir’s software in the East Midlands Special Operations Unit (Emsou), a regional taskforce tackling organised crime and terrorism.</p> <p>The Emsou is composed of Leicestershire, Derbyshire, Lincolnshire, Northamptonshire and Nottinghamshire police forces. According to meeting records obtained by Computer Weekly, all these forces have taken part in several cross-constabulary briefings on Palantir Nectar.&nbsp;</p> <p>Other forces in the Emsou neither confirm nor deny (NCND) responses – the tactic applied by the police chiefs’ disclosure blocking unit – to Computer Weekly’s freedom of information requests, or have ignored them entirely, when asked if they are using Palantir’s software.</p> <p>After approaching the respective press offices, Lincolnshire Police said Nectar does not “appear” to be in use by the force. Northamptonshire Police said officers have no “direct access” to the system and there are no plans to adopt it.</p> <p>Derbyshire and Nottinghamshire were both contacted to answer queries about possible access to Palantir Nectar, but did not respond by the time of publication.</p> <p>A spokesman for the Emsou did not answer questions about which forces in the regional unit get access to the system, but said: “We followed appropriate processes to secure services to support the delivery of operational policing.”</p> <p>Bedfordshire Police is leading a trial of Palantir Nectar in the Eastern Regional Special Operations Unit (Ersou). The trial was first <a href=\"https://libertyinvestigates.org.uk/articles/uk-police-working-with-controversial-tech-giant-palantir-on-real-time-surveillance-network/\">reported by Liberty Investigates</a> as a “real-time surveillance network” that monitors special category personal data such as race, religion, political beliefs and sexual orientation, and <em><a href=\"https://inews.co.uk/news/rape-victims-health-data-sexual-history-trawled-police-3820716\">The i Paper</a></em> reported that rape victims could have their data trawled by its AI.</p> <p>The Metropolitan Police described Bedfordshire’s Nectar programme as a “real-time data-sharing network across Bedfordshire, Cambridgeshire and Hertfordshire police, Regional Policing, UK Policing and partner agencies” when evaluating the launch of its own internal monitoring project.</p> <p>Documents obtained by Computer Weekly reveal the range of permissions granted to members of the Ersou to access Nectar’s internal applications. The unit appears to be granted access to live environment applications handling call data records, device analytics, thematic scanning, operations management and more.</p> <p>A spokesperson for the force has confirmed that seconded officers from other police forces in the Ersou “may be provided access to Nectar applications using role-based access control in accordance with information security and access management policies and procedures”.</p> <p>Police forces in the Ersou include Bedfordshire, Cambridgeshire, Hertfordshire, Kent, Essex, Norfolk and Suffolk.</p> <p>Computer Weekly has previously found that Bedfordshire Police admitted in <a href=\"https://www.computerweekly.com/news/366645965/Inside-police-plans-to-share-intelligence-and-crime-data-across-the-UK\">internal memos</a> that there remains a “medium risk” that the system will potentially process data for purposes that are neither proportionate nor necessary.</p> <p>According to these documents, victims and offenders of crimes were not consulted when developing the system, although victim support groups were.</p> <p>One of the data sources for Bedfordshire’s Nectar project is <a href=\"https://www.necsws.com/case-studies/public-safety/police/athena-collaboration-programme\">Athena</a>, a crime records information sharing system used by nine forces, including Bedfordshire, Cambridgeshire, Hertfordshire, Kent, Essex, Norfolk, Suffolk, Warwickshire and West Mercia police. It’s not known if other forces in the Athena consortium are using Nectar itself, although they may be contributing data into the system.</p> <p>Bedfordshire Police told Computer Weekly and Good Law Project it has been engaged in a rolling contract with Palantir since September 2023, with the most recent extension between August 2025 and August 2026.</p> <p>It has paid, according to expenditure disclosures, almost £3m to Palantir Technologies since 2023. A portion of this was funded by the Home Office, which gave the Ersou £1.5m to develop the project in the financial year 2024-25, according to freedom of information disclosures to Computer Weekly.</p> <p>Hertfordshire Police also has a contract with Palantir costing £750,000 for one year, according to freedom of information disclosures to Good Law Project, although the firm hasn’t appeared in any detailed expenditure disclosures.</p> <p>Meanwhile, Cambridgeshire Police claimed it has not held any contracts with Palantir in the past five years when asked through FOI requests.</p> <p>However, <a href=\"https://www.cambridgeshire-pcc.gov.uk/SysSiteAssets/media/downloads/cambs-pcc/money-downloads/spend-over-500-2025/transactions-over-500-disclosure-p5-2025-26.pdf\">spending disclosures</a> reveal the force made a payment of almost £12,000 to Palantir in August last year. When asked about this, the force explained to Computer Weekly and Good Law Project that it had, in fact, signed a “short-term contract” spanning two months, beginning in March 2025, for a pilot “focused on a specific safeguarding function”.</p> <p>The force said the pilot “helped inform our understanding of how this type of technology could support specific policing processes. It was exploratory in nature, time-limited, and did not represent a wider implementation of Palantir technology by the constabulary”.</p> <p>“Beyond that pilot, no live operational contract was in place, and no decisions had or have been made regarding any broader use of the technology,” it added.&nbsp;</p> <p>The Metropolitan Police has also been engaged in a controversial internal monitoring project with Palantir, called the Culture, Standards and Integrity Ecosystem, built on the Foundry framework. The aim is to “identify patterns that may indicate inappropriate behaviour” using data such as, for example, door entry logs and misconduct reports.</p> <p>The initial three-month deal with Palantir, beginning in February this year and costing £489,999, was extended for a further two weeks, free of charge. A <a href=\"https://www.find-tender.service.gov.uk/Notice/067996-2026?origin=SearchResults&amp;p=1\">12-month extension</a> has since been awarded, valued at £1,959,996.</p> <p>As Computer Weekly has <a href=\"https://www.computerweekly.com/news/366644966/Met-Palantir-pilot-The-DPIA-that-raises-more-questions-than-answers\">previously reported</a>, “high-risk” processing in the Met pilot would include special category data, data on children under 13 and other vulnerable individuals, alongside tracking individuals in public areas.</p> <p>The Met Police’s data protection impact assessment, obtained by Good Law Project, found that the force has not completed an ethical review and the “necessity and impact on privacy of the data processing is currently being assessed”.</p> <p>The document highlights that only “some stages of data handling meet legal standards” for evidential use, and that “improvements are needed”. Meanwhile, the documented criteria to assess accuracy, relevance and bias minimisation are currently being “developed and documented”.</p> <p>It’s understood that the Met Police’s internal monitoring project, although focused on rooting out corruption in the force, has also been able to access sensitive operational policing material in justified circumstances.</p> <p>A spokesperson for the force said: “Our pilot work allowed the Met for the first time to bring together data it already lawfully holds in one place to identify potential standards, welfare or cultural concerns. This focused on identifying potential conduct issues and a significant number of matters are now being progressed by our professional standards team.</p> <p>“This contract will support both our work on raising standards and our ambitions to use the technology to streamline administrative processes, close budget gaps and free up officers to police the streets of London.”</p> <p>The force also said it’s working with the Mayor’s Office for Policing and Crime (Mopac) to develop a procurement strategy to identify a long-term supplier.</p> <p>The Met has long experimented with Palantir’s software, including <a href=\"https://www.whatdotheyknow.com/request/palantir_technologies_products_u_4\">trials</a> with the company between 2014-15 alongside a number of other crime-mapping software providers.&nbsp;</p> <p>The company was, earlier this year, on the brink of signing a £50m agreement with the Met, but this was blocked by Mopac. It would have been the firm’s largest contract with law enforcement yet, but <a href=\"https://www.bbc.co.uk/news/articles/c3d3pkygyjzo\">concerns</a> around the procurement process put an end to that.&nbsp;</p> <p>Palantir, on the other hand, <a href=\"https://www.bbc.co.uk/news/articles/c3ey390gn2vo\">said</a> it has “clear reason to believe that the decision may have been taken because, in the words of the mayor’s spokesperson, of a subjective assessment that [Palantir] does not share their ‘values’”. The firm is now taking legal action against Mopac.</p> <p>So far, policing districts known to have contracts with Palantir or access to Palantir’s data processing technology include Bedfordshire, Cambridgeshire, Hertfordshire, Lancashire, and Leicestershire police forces, alongside the Met Police’s nearly 50,000 employees.</p> <p>It’s understood that several other forces have either granted limited access to Nectar through regional taskforces or are contributing data to information sharing systems used by Nectar.</p> <p>The full extent of Palantir’s spread across UK police forces remains uncertain. Several forces continue to rely on NCND exemptions to prevent FOI disclosures relating to their work with the firm.</p> <p>Duncan McCann, Good Law Project’s tech and data lead, believes secrecy around Palantir’s software is due to its “flaws and inherent dangers”.</p> <p>Campaign groups have previously <a href=\"https://bigbrotherwatch.org.uk/press-coverage/democracy-for-sale-uk-police-forces-are-being-ordered-to-stay-quiet-on-palantir-contracts/\">called</a> for an investigation into the police chiefs’ unit responsible for blocking disclosures relating to Palantir through the Freedom of Information Act, the NPCC.</p> <p>Jake Hurfurt, head of research and investigations at Big Brother Watch, said: “The NPCC’s central FOI unit is a danger to transparency and the public’s right to know.”</p> <p>Martin Wrigley MP for Newton Abbot, part of the parliamentary Science, Innovation and Technology Committee, told Good Law Project and Computer Weekly: “We are in a very dangerous world where these tools are followed up without sufficient process around them, and without sufficient data protection around them.”</p> <p>He called Palantir’s deals with UK police forces and public authorities “extremely worrying”.</p> <p>Palantir Technologies and the Emsou were also approached for comment.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Police use of Palantir software</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366645965/Inside-police-plans-to-share-intelligence-and-crime-data-across-the-UK\">Inside police plans to share intelligence and crime data across the UK</a>: <a href=\"https://www.computerweekly.com/news/366645965/Inside-police-plans-to-share-intelligence-and-crime-data-across-the-UK\">Computer Weekly examines how UK police will use Palantir’s AI tools to dramatically increase intelligence sharing between forces, enabling investigators to analyse mobile phone data and sensitive information at scale</a>.</li> <li>Met Palantir pilot: The DPIA that raises more questions than answers: <a href=\"https://www.computerweekly.com/news/366644966/Met-Palantir-pilot-The-DPIA-that-raises-more-questions-than-answers\">We examine the Data Protection Impact Assessment for the Metropolitan Police’s Palantir Foundry pilot, and the governance gaps it exposes around surveillance, transparency and staff consultation</a>.</li> <li>SIT Committee urges Palantir exit in push to end US cloud grip: <a href=\"https://www.computerweekly.com/news/366644966/Met-Palantir-pilot-The-DPIA-that-raises-more-questions-than-answers\">A Science, Innovation and Technology Committee report contains recommendations that would radically alter UK public sector IT, procurement and relationship with hyperscalers if adopted</a>.</li> <li>Palantir: Can anyone else do what it does? <a href=\"https://www.computerweekly.com/news/366645878/Palantir-Can-anyone-else-do-what-it-does\">Palantir is a US defence-intelligence company, born from the CIA's venture arm that now operates inside the UK public sector. We examine the claim that its technology does what no other supplier can</a>.</li> </ul> </div> </div> <ul class=\"default-list\"></ul>",
-    "categories": [
-      "GRC",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Networks",
-      "Data Centres",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws"
-      ],
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "nist",
-        "data protection",
-        "privacy"
-      ],
-      "Data Centres": [
-        "hyperscale",
-        "rack"
-      ],
-      "Industry & Market": [
-        "acquired",
-        "raises",
-        "ey"
-      ]
-    },
-    "summary": "<p>At least six different police forces have recently used artificial intelligence (AI) investigation tools provided by Palantir Technologies, Computer Weekly and Good Law Project have found.&nbsp;</p> <p>Agreements between Palantir and these police forces have cost £7.8m, and the firm was close to signing an additional £50m <a href=\"https://www.computerweekly.com/news/366644966/Met-Palantir-pilot-The-DPIA-that-raises-more-questions-than-answers\">contract with the Metropolitan Police</a> before London’s mayor put it on hold.</p> <p>At least six confirmed <a href=\"https://www.computerweekly.com/news/366645965/Inside-police-plans-to-share-intelligence-and-crime-data-across-the-UK\">police forces have had access to Palantir</a>, while officers from several others appear to have limited access to applications in Palantir’s Nectar system.</p> <p>Palantir Nectar allows information sharing between local forces, regional taskforces and partner agencies using Palantir’s Foundry data integration platform. Nectar uses AI to process large volumes of personal data from crime records, seized digital devices and other unknown sources.</p> <p>Some police forces have been reluctant to disclose their involvement with Palantir. The company’s UK chief, Louis Mosley, said in mid-2025 that the firm was working with “almost a dozen” police forces. Over a year on, only a handful have been identified.</p> <p>Investigative outlet <a href=\"https://democracyforsale.substack.com/p/uncovered-how-uk-police-are-hiding-palantir-work-peter-thiel-trump\">Democracy for Sale</a> reported that a secret unit in the National Police Chiefs’ Council (NPCC) has been “systematically instructing” forces to withhold information “that may or may not be held in relation to Palantir software used for covert purposes”.</p> <p>The most recently identified force to test Palantir’s technology is Lancashire Police, which acquired Palantir’s Foundry software through Softcat, a UK-based IT infrastructure and software supplier."
-  },
-  {
-    "title": "Oracle Cloud Infrastructure gets hybrid quantum capabilities",
-    "url": "https://www.computerweekly.com/news/366649217/Oracle-Cloud-Infrastructure-gets-hybrid-quantum-capabilities",
-    "source": "ComputerWeekly",
-    "published": "2026-08-13T04:03:00+00:00",
-    "raw_text": "<p><a href=\"https://www.computerweekly.com/news/366621552/Research-team-demonstrates-certified-quantum-randomness\">Quantum computing company Quantinuum</a> has signed a multi-year strategic partnership with Oracle to bring quantum computing to Oracle Cloud Infrastructure (OCI). Under the partnership, OCI customers will have direct access to Quantinuum’s <a href=\"https://www.computerweekly.com/news/366611092/Revised-roadmap-projects-quantum-advantage-by-2029\">Helios commercial quantum computer</a>.</p> <p>Helios, which is a hybrid design that works with AI and classical computing infrastructure, was launched commercially in November 2025. It is Quantinuum’s third-generation quantum computer. This is a 98-physical-qubit trapped-ion system, which, according to Quantinuum, has been used in demonstrations involving 48 logical qubits, achieving an average two-qubit gate fidelity of 99.921%.</p> <p>The two companies plan to explore how <a href=\"https://www.computerweekly.com/news/366623986/How-close-is-quantum-computing-to-commercial-reality\">hybrid quantum-artificial intelligence (AI)</a> infrastructure can be applied to tackle computationally intensive challenges facing businesses along with broadening access to quantum technology for universities and research institutions to support scientific discovery and education.</p> <p>Oracle and Quantinuum sees the future of enterprise computing as a convergence of AI, classical supercomputing and quantum computing. They believe that complex problems across materials discovery, drug development, logistics, energy and financial modeling could be tackled using quantum technology.</p> <p>“We believe the next phase of enterprise computing will be shaped by bringing quantum, AI and high-performance computing together,” said Rajeeb Hazra, president and CEO of Quantinuum. “Deploying Helios inside OCI gives Quantinuum and Oracle an opportunity to create a unique, deeply integrated environment for hybrid workloads, explore enterprise use cases with customers, and accelerate commercial adoption.”</p> <p>Discussing enterprise adoption, Heather West, global quantum research lead at IDC, said: “Deploying quantum systems within private cloud environments enables organisations to integrate quantum computing into existing AI and HPC workflows through familiar cloud infrastructure and development tools, reducing barriers to adoption and making hybrid quantum-classical computing a practical part of enterprise IT.”</p> <p>Along with the ability to solve problems that would not be possible on supercomputers based on a classical computing architecture, according to Quantinuum, a single Helios system has an estimated power draw of less than 1% of the draw reported for leading supercomputers. </p> <p>Commenting on the partnership, Mahesh Thiagarajan, executive vice-president of Oracle Cloud Infrastructure, said: “AI has changed what organisations can imagine, and we believe quantum computing can expand what they’re able to solve. By bringing Quantinuum’s Helios to Oracle Cloud Infrastructure, we want to give developers a practical and secure way to explore how quantum computing could complement their existing AI and HPC workloads on Oracle Cloud Infrastructure while improving compute efficiency and energy use.” </p> <p>Quantinuum and Oracle said the hybrid architecture means OCI customers can expect to gain managed, secure access to cloud-hosted quantum computing without having to procure, install or operate dedicated hardware or specialised facilities. By operating on-premise in OCI’s infrastructure, Quantinuum and Oracle anticipate it will be able to integrate seamlessly with existing OCI compute, networking, storage, identity and data services under the same governance and access controls customers already use.&nbsp;</p> <p>Oracle plans to preview its OCI quantum service in the coming months, giving developers a streamlined way to move from simulation to execution on real quantum computing hardware. The planned OCI quantum service is expected to combine Quantinuum’s development stack with support for open source hybrid programming frameworks, helping developers build, test and refine quantum-classical applications more efficiently.&nbsp;</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more quantum computing stories</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366645980/NatWest-signs-up-to-quantum-trial-for-fraud-detection\">NatWest signs up to quantum tria</a>l for fraud detection: The retail bank is one of 11 organisations testing quantum technologies as part of Digital Catapult’s quantum technology access programme.</li> <li>Trump directs US government <a href=\"https://www.computerweekly.com/news/366645076/Trump-directs-US-government-focus-to-quantum\">focus to quantum</a>: In an Executive Order, president Trump directed the US government to work to establish a cohesive, collaborative approach to the development of quantum technology.</li> </ul> </div> </div>",
-    "categories": [
-      "Networks",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "oracle cloud"
-      ],
-      "Networks": [
-        "network",
-        "networking",
-        "wan",
-        "lan"
-      ],
-      "GRC": [
-        "governance"
-      ],
-      "Data Centres": [
-        "hpc"
-      ],
-      "Industry & Market": [
-        "partnership",
-        "ey",
-        "idc"
-      ]
-    },
-    "summary": "<p><a href=\"https://www.computerweekly.com/news/366621552/Research-team-demonstrates-certified-quantum-randomness\">Quantum computing company Quantinuum</a> has signed a multi-year strategic partnership with Oracle to bring quantum computing to Oracle Cloud Infrastructure (OCI). Under the partnership, OCI customers will have direct access to Quantinuum’s <a href=\"https://www.computerweekly.com/news/366611092/Revised-roadmap-projects-quantum-advantage-by-2029\">Helios commercial quantum computer</a>.</p> <p>Helios, which is a hybrid design that works with AI and classical computing infrastructure, was launched commercially in November 2025. It is Quantinuum’s third-generation quantum computer. This is a 98-physical-qubit trapped-ion system, which, according to Quantinuum, has been used in demonstrations involving 48 logical qubits, achieving an average two-qubit gate fidelity of 99.921%.</p> <p>The two companies plan to explore how <a href=\"https://www.computerweekly.com/news/366623986/How-close-is-quantum-computing-to-commercial-reality\">hybrid quantum-artificial intelligence (AI)</a> infrastructure can be applied to tackle computationally intensive challenges facing businesses along with broadening access to quantum technology for universities and research institutions to support scientific discovery and education.</p> <p>Oracle and Quantinuum sees the future of enterprise computing as a convergence of AI, classical supercomputing and quantum computing."
   },
   {
     "title": "Google Meet can take notes for your in-person meetings now - here's how it works",
@@ -3028,6 +2894,60 @@
     "summary": "Our favorite antivirus software protects your PC, laptop, and mobile devices from malware without costing a fortune."
   },
   {
+    "title": "The Wealth Company Launches Gift City Fund to Give NRIs a Single, Dollar-Denominated Route into India's Mutual Fund Market",
+    "url": "https://www.prnewswire.com/news-releases/the-wealth-company-launches-gift-city-fund-to-give-nris-a-single-dollar-denominated-route-into-indias-mutual-fund-market-302851983.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T04:00:00+00:00",
+    "raw_text": "New Category III AIF brings India's 50+ AMCs and 1,600+ mutual fund schemes within one professionally managed investment structure MUMBAI, India, Aug. 15, 2026 /PRNewswire/ -- The Wealth Company, the asset management arm of Pantomath Group, has launched The Wealth Company IFSC Fund of...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches",
+        "investment"
+      ]
+    },
+    "summary": "New Category III AIF brings India's 50+ AMCs and 1,600+ mutual fund schemes within one professionally managed investment structure MUMBAI, India, Aug. 15, 2026 /PRNewswire/ -- The Wealth Company, the asset management arm of Pantomath Group, has launched The Wealth Company IFSC Fund of..."
+  },
+  {
+    "title": "Microvast Holdings, Inc. (MVST) Shareholders Who Lost Money Have Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/microvast-holdings-inc-mvst-shareholders-who-lost-money-have-opportunity-to-lead-securities-fraud-lawsuit-302851500.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T03:30:00+00:00",
+    "raw_text": "BENSALEM, Pa., Aug. 14, 2026 /PRNewswire/ -- The Law Offices of Howard G. Smith announces that investors with substantial losses have opportunity to lead the securities fraud class action lawsuit against Microvast Holdings, Inc. IF YOU ARE AN INVESTOR WHO SUFFERED A LOSS IN MICROVAST...",
+    "categories": [
+      "Industry & Market",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "announces",
+        "ey"
+      ]
+    },
+    "summary": "BENSALEM, Pa., Aug. 14, 2026 /PRNewswire/ -- The Law Offices of Howard G. Smith announces that investors with substantial losses have opportunity to lead the securities fraud class action lawsuit against Microvast Holdings, Inc. IF YOU ARE AN INVESTOR WHO SUFFERED A LOSS IN MICROVAST..."
+  },
+  {
+    "title": "Trucking Industry Crowns 2026 National Truck Driving Champion",
+    "url": "https://www.prnewswire.com/news-releases/trucking-industry-crowns-2026-national-truck-driving-champion-302852246.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T03:17:00+00:00",
+    "raw_text": "UPS professional driver earned the prestigious title of Grand Champion PITTSBURGH, Aug. 14, 2026 /PRNewswire/ -- Today, the American Trucking Associations proclaimed Miguel Corral, a professional driver with UPS, the Bendix Grand Champion at the 2026 National Truck Driving & Step Van...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "UPS professional driver earned the prestigious title of Grand Champion PITTSBURGH, Aug. 14, 2026 /PRNewswire/ -- Today, the American Trucking Associations proclaimed Miguel Corral, a professional driver with UPS, the Bendix Grand Champion at the 2026 National Truck Driving & Step Van..."
+  },
+  {
     "title": "/C O R R E C T I O N -- CARFAX/",
     "url": "https://www.prnewswire.com/news-releases/carfax-report-now-delivers-future-reliability-based-on-a-vehicles-unique-vin-specific-history-302735240.html",
     "source": "PR Newswire - Technology",
@@ -3058,26 +2978,6 @@
       ]
     },
     "summary": "Recorded Net Income for the Period of $29.0 Million Adjusted EBITDA Increased 18% Year over Year to $30.5 Million Completed Transformation into a Focused Infrastructure Company and Returned C$8.34 per Share, C$590 Million to Shareholders Puerto Bahia Achieved Record RoRo Activity Advanced..."
-  },
-  {
-    "title": "Capricor Therapeutics, Inc. Notice of September 28, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-notice-of-september-28-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852192.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-15T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities..."
   },
   {
     "title": "Avis Budget Group, Inc. Notice of September 29, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
@@ -3132,6 +3032,26 @@
     "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until September 22, 2026 to file lead plaintiff applications in a..."
   },
   {
+    "title": "Capricor Therapeutics, Inc. Notice of September 28, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-notice-of-september-28-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852192.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities..."
+  },
+  {
     "title": "Futu Holdings Limited Securities Fraud Class Action Result of Undisclosed Regulatory Compliance Failures and approximately 32% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
     "url": "https://www.prnewswire.com/news-releases/futu-holdings-limited-securities-fraud-class-action-result-of-undisclosed-regulatory-compliance-failures-and-approximately-32-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302852201.html",
     "source": "PR Newswire - Technology",
@@ -3173,42 +3093,6 @@
     "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Wix.com Ltd. (\"Wix\" or the \"Company\") (NasdaqGS: WIX) of a class action securities lawsuit."
   },
   {
-    "title": "EquipmentShare.com Inc. Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/equipmentsharecom-inc-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852198.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-15T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action..."
-  },
-  {
-    "title": "Hub Group, Inc. Securities Fraud Class Action Result of Erroneous Financial Statements and approximately 31% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-securities-fraud-class-action-result-of-erroneous-financial-statements-and-approximately-31-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302852204.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-15T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a..."
-  },
-  {
     "title": "Primoris Services Corporation Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
     "url": "https://www.prnewswire.com/news-releases/primoris-services-corporation-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852205.html",
     "source": "PR Newswire - Technology",
@@ -3227,6 +3111,42 @@
       ]
     },
     "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Primoris Services Corporation (\"Primoris\" or the \"Company\") (NYSE: PRIM) of a class action securities..."
+  },
+  {
+    "title": "Hub Group, Inc. Securities Fraud Class Action Result of Erroneous Financial Statements and approximately 31% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-securities-fraud-class-action-result-of-erroneous-financial-statements-and-approximately-31-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302852204.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a..."
+  },
+  {
+    "title": "EquipmentShare.com Inc. Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+    "url": "https://www.prnewswire.com/news-releases/equipmentsharecom-inc-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852198.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action..."
   },
   {
     "title": "PNR Alert: Hagens Berman Notifies Pentair plc (NYSE: PNR) Investors of Expanded Class Period in New Securities Class Action Lawsuit and Upcoming Lead Plaintiff Deadline",
@@ -3309,52 +3229,28 @@
     "summary": "DUBAI, UAE, Aug. 15, 2026 /PRNewswire/ -- 7 Wonders of Future Cities today marks 77 days until global voting begins on www.7wondersfc.com on 31 October 2026. The day, also known as World Cities Day, will be when the public can start choosing amongst the participating cities and..."
   },
   {
-    "title": "The Lumber Manufactory locates new sawmill in New Albany",
-    "url": "https://www.prnewswire.com/news-releases/the-lumber-manufactory-locates-new-sawmill-in-new-albany-302852229.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T23:51:00+00:00",
-    "raw_text": "Sawmill operation creating more than 50 jobs Project represents corporate investment of $15 million JACKSON, Miss., Aug. 14, 2026 /PRNewswire/ -- Sawmill operator The Lumber Manufactory has located a sawmill operation in New Albany. The project represents a corporate investment of more...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "investment"
-      ]
-    },
-    "summary": "Sawmill operation creating more than 50 jobs Project represents corporate investment of $15 million JACKSON, Miss., Aug. 14, 2026 /PRNewswire/ -- Sawmill operator The Lumber Manufactory has located a sawmill operation in New Albany. The project represents a corporate investment of more..."
-  },
-  {
-    "title": "Dallas County Schools Show Continued Progress in 2026 Accountability Ratings",
-    "url": "https://www.prnewswire.com/news-releases/dallas-county-schools-show-continued-progress-in-2026-accountability-ratings-302852228.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T23:45:00+00:00",
-    "raw_text": "Results provide an updated look at student outcomes across Dallas County, with more campuses earning A or B ratings and fewer receiving D or F ratings DALLAS, Aug. 14, 2026 /PRNewswire/ -- The Texas Education Agency (https://tea.texas.gov/) today released its 2026 A–F Accountability...",
+    "title": "Snail Games 重點介紹遊戲產品組合中的多項里程碑",
+    "url": "https://www.globenewswire.com/news-release/2026/08/15/3345690/0/zh-hant/snail-games-%E9%87%8D%E9%BB%9E%E4%BB%8B%E7%B4%B9%E9%81%8A%E6%88%B2%E7%94%A2%E5%93%81%E7%B5%84%E5%90%88%E4%B8%AD%E7%9A%84%E5%A4%9A%E9%A0%85%E9%87%8C%E7%A8%8B%E7%A2%91.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-15T03:37:00+00:00",
+    "raw_text": "加州卡爾弗城, Aug. 15, 2026 (GLOBE NEWSWIRE) -- 全球領先的互動數碼娛樂獨立開發商和發行商 Snail, Inc. (Nasdaq: SNAL)（「Snail Games」或「公司」） 今日重點介紹了旗下遊戲產品組合的多項近期里程碑，當中包括一款新推出遊戲、即將發佈的 《PixARK》 內容，以及獨立遊戲產品組合的持續研發進展。",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Results provide an updated look at student outcomes across Dallas County, with more campuses earning A or B ratings and fewer receiving D or F ratings DALLAS, Aug. 14, 2026 /PRNewswire/ -- The Texas Education Agency (https://tea.texas.gov/) today released its 2026 A–F Accountability..."
+    "summary": "加州卡爾弗城, Aug. 15, 2026 (GLOBE NEWSWIRE) -- 全球領先的互動數碼娛樂獨立開發商和發行商 Snail, Inc. (Nasdaq: SNAL)（「Snail Games」或「公司」） 今日重點介紹了旗下遊戲產品組合的多項近期里程碑，當中包括一款新推出遊戲、即將發佈的 《PixARK》 內容，以及獨立遊戲產品組合的持續研發進展。"
   },
   {
-    "title": "UWMC INVESTOR ALERT: UWM Holdings Corporation Investors with Substantial Losses Have Opportunity to Lead the UWM Class Action Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/uwmc-investor-alert-uwm-holdings-corporation-investors-with-substantial-losses-have-opportunity-to-lead-the-uwm-class-action-lawsuit-302852185.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-14T23:44:00+00:00",
-    "raw_text": "SAN DIEGO, Aug. 14, 2026 /PRNewswire/ -- Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of UWM Holdings Corporation (NYSE: UWMC) securities between March 9, 2026 and August 5, 2026, inclusive (the \"Class Period\"), have until October 13, 2026 to seek appointment as...",
+    "title": "Snail Games 公布旗下游戏产品组合多项里程碑",
+    "url": "https://www.globenewswire.com/news-release/2026/08/15/3345690/0/zh-hans/snail-games-%E5%85%AC%E5%B8%83%E6%97%97%E4%B8%8B%E6%B8%B8%E6%88%8F%E4%BA%A7%E5%93%81%E7%BB%84%E5%90%88%E5%A4%9A%E9%A1%B9%E9%87%8C%E7%A8%8B%E7%A2%91.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-15T03:37:00+00:00",
+    "raw_text": "加利福尼亚州卡尔弗城, Aug. 15, 2026 (GLOBE NEWSWIRE) -- 作为全球领先的互动数字娱乐独立开发商和发行商， Snail, Inc.（Nasdaq：SNAL，以下简称“Snail Games”或“公司”） 今日重点介绍了其游戏产品组合中的若干近期里程碑，包括一款最新发布的游戏、即将推出的 《方块方舟》 (PixARK) 内容，以及独立游戏产品组合的持续开发。",
     "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "SAN DIEGO, Aug. 14, 2026 /PRNewswire/ -- Robbins Geller Rudman & Dowd LLP announces that purchasers or acquirers of UWM Holdings Corporation (NYSE: UWMC) securities between March 9, 2026 and August 5, 2026, inclusive (the \"Class Period\"), have until October 13, 2026 to seek appointment as..."
+    "matched_keywords": {},
+    "summary": "加利福尼亚州卡尔弗城, Aug. 15, 2026 (GLOBE NEWSWIRE) -- 作为全球领先的互动数字娱乐独立开发商和发行商， Snail, Inc.（Nasdaq：SNAL，以下简称“Snail Games”或“公司”） 今日重点介绍了其游戏产品组合中的若干近期里程碑，包括一款最新发布的游戏、即将推出的 《方块方舟》 (PixARK) 内容，以及独立游戏产品组合的持续开发。"
   },
   {
     "title": "Crypto News Today: AlphaPepe Presale Nears Sellout With 11,000 Buyers While XRP Price Prediction Eyes $10",
@@ -3653,43 +3549,29 @@
     "summary": "The AppFolio Performance Platform runs on AWS, providing the technical foundation for its AI-native architecture and Realm, its AI suite The AppFolio Performance Platform runs on AWS, providing the technical foundation for its AI-native architecture and Realm, its AI suite"
   },
   {
-    "title": "USA Made in America Announces Application for .factory Generic Top-Level Domain",
-    "url": "https://www.globenewswire.com/news-release/2026/08/14/3345503/0/en/usa-made-in-america-announces-application-for-factory-generic-top-level-domain.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-14T15:21:00+00:00",
-    "raw_text": "Company submits .factory application in ICANN’s new gTLD program and prepares financing of up to $10 million to support potential contention resolution Company submits .factory application in ICANN’s new gTLD program and prepares financing of up to $10 million to support potential contention resolution",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Company submits .factory application in ICANN’s new gTLD program and prepares financing of up to $10 million to support potential contention resolution Company submits .factory application in ICANN’s new gTLD program and prepares financing of up to $10 million to support potential contention resolution"
-  },
-  {
-    "title": "Bitget Wallet lanza un Programa de Afiliados global con comisiones de doble vía",
-    "url": "https://www.globenewswire.com/news-release/2026/08/14/3345499/0/es/bitget-wallet-lanza-un-programa-de-afiliados-global-con-comisiones-de-doble-v%C3%ADa.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-14T15:15:00+00:00",
-    "raw_text": "SAN SALVADOR, El Salvador, Aug. 14, 2026 (GLOBE NEWSWIRE) -- Bitget Wallet , una billetera de criptomonedas de autocustodia para las finanzas cotidianas, lanzó un Programa de Afiliados global que ofrece acceso estructurado a comisiones para creadores, gestores de comunidades e influencers en los segmentos de trading y pagos. El programa ofrece una comisión de hasta el 60 % sobre la actividad de trading, junto con una estructura paralela de reembolsos sobre los gastos con tarjeta, lo que la convierte en una de las primeras billeteras de autocustodia en vincular los ingresos de los afiliados tanto con los comportamientos financieros como con la confianza de la comunidad que los sustenta.",
+    "title": "The Role of High-Speed Connectivity and IoT in Transforming Modern Smart Retail - NepaliTelecom",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWG1vSFVveTdUYnBfR0hBVmRCYktMTHdnN1ZXSXdDNXR4cnEydDJ1ZDhYYm5WblRZUUFGd3g3QnBuWDFQYXF2WEJ3TGJkUE9yQ0lGTVRwWUtKU3VqVWV6cU03THhRbVdxYUozSzNvY1VKZUZTXzVKY1ZGd0hveEhGVGtvNjZzTTZ1aDQwM1dESEdNelZJSG5Jb0RoRmc1S0FlQURyV3RxaWRIM0U0MnoyaUtkMUYzUl83YUg3bnllOA?oc=5",
+    "source": "Google News: Networks",
+    "published": "2026-08-15T04:47:28+00:00",
+    "raw_text": "The Role of High-Speed Connectivity and IoT in Transforming Modern Smart Retail NepaliTelecom",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "lan"
+        "connectivity",
+        "iot",
+        "telecom"
       ]
     },
-    "summary": "SAN SALVADOR, El Salvador, Aug. 14, 2026 (GLOBE NEWSWIRE) -- Bitget Wallet , una billetera de criptomonedas de autocustodia para las finanzas cotidianas, lanzó un Programa de Afiliados global que ofrece acceso estructurado a comisiones para creadores, gestores de comunidades e influencers en los segmentos de trading y pagos. El programa ofrece una comisión de hasta el 60 % sobre la actividad de trading, junto con una estructura paralela de reembolsos sobre los gastos con tarjeta, lo que la convierte en una de las primeras billeteras de autocustodia en vincular los ingresos de los afiliados tanto con los comportamientos financieros como con la confianza de la comunidad que los sustenta."
+    "summary": "The Role of High-Speed Connectivity and IoT in Transforming Modern Smart Retail NepaliTelecom"
   },
   {
-    "title": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations - newsroom.ibm.com",
+    "title": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations - IBM Newsroom",
     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR3p4N3M0WXh3TEJGWUxEMDVucXFKc0lfSW9Qa19WeE9FUXowbTB4ZXdra1U0dlJic2o3dlJkMExvV3dWN1ZfM3VuTmd4TWI3OFF3S3o4aG9Yb09QZG1fUDBmWUo4eEpfMFh5cFZud3ZOS05FcnlnMGpoTGUxWndpcTl6OHRWcl9ucENIN0RjTS1tRzB6eEpNSjREXzJWdnQyeXpxdXpnMzJsMS1La0FHSmUycllIQTlhc3hUM1BjZTk1STJIcGR4WjMxcWs4UlE?oc=5",
     "source": "Google News: Consulting Firm Announcements",
     "published": "2026-08-13T10:08:43+00:00",
-    "raw_text": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations newsroom.ibm.com",
+    "raw_text": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations IBM Newsroom",
     "categories": [
       "Industry & Market"
     ],
@@ -3698,7 +3580,7 @@
         "ibm"
       ]
     },
-    "summary": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations newsroom.ibm.com"
+    "summary": "IBM Partners with OpenAI to Accelerate Secure AI Deployment for Enterprises Across Core Operations IBM Newsroom"
   },
   {
     "title": "IBM partners with OpenAI to secure enterprise AI deployment - Fierce Network",
@@ -3721,11 +3603,11 @@
     "summary": "IBM partners with OpenAI to secure enterprise AI deployment Fierce Network"
   },
   {
-    "title": "QBS Software bolsters European security portfolio with Futurex distribution deal - IT Pro",
+    "title": "QBS Software bolsters European security portfolio with Futurex distribution deal - itpro.com",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbTdSQnl1ejhZZ1QwTVJncllBSUQ4dmpscUZ6QUJLeW41RUR3RnVMV28yZ1E3bk9KdjJ2YW1IODQwSjM3eWwwYVRCenYzYWtGTklUOVBJWEZIdVl4MzgyXzJCcHNvY19fNTFPOW5tWFNOWHExRGtpS1oxY1BmcVdaTEk0aFg0d2ZMaGpJQmJOa01Kc2R3UGp1dl9kTzIzM2hER2NSOF9ZenVqUndVc0F6WUE2WkVkOG00TW9rWUhqanNHTkYzRWpLNA?oc=5",
     "source": "Google News: Market & Industry News",
     "published": "2026-08-13T07:49:09+00:00",
-    "raw_text": "QBS Software bolsters European security portfolio with Futurex distribution deal IT Pro",
+    "raw_text": "QBS Software bolsters European security portfolio with Futurex distribution deal itpro.com",
     "categories": [
       "Cybersecurity"
     ],
@@ -3734,6 +3616,6 @@
         "security"
       ]
     },
-    "summary": "QBS Software bolsters European security portfolio with Futurex distribution deal IT Pro"
+    "summary": "QBS Software bolsters European security portfolio with Futurex distribution deal itpro.com"
   }
 ]
