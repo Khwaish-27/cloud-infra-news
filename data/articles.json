@@ -1,25 +1,5 @@
 [
   {
-    "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-    "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-    "source": "The Hacker News",
-    "published": "2026-08-13T06:09:48+00:00",
-    "raw_text": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. \"The authentication",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "threat",
-        "security"
-      ]
-    },
-    "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. \"The authentication"
-  },
-  {
     "title": "How Anthropic plans to watermark Claude's AI-generated text",
     "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
     "source": "BleepingComputer",
@@ -662,22 +642,6 @@
     "summary": "Researchers discovered hackers-for-hire performing cyber espionage and financially motivated heists from the same Web panel."
   },
   {
-    "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
-    "url": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce",
-    "source": "Dark Reading",
-    "published": "2026-08-13T07:00:00+00:00",
-    "raw_text": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general."
-  },
-  {
     "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
     "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
     "source": "SecurityWeek",
@@ -1122,7 +1086,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-graphs-with-measures-for-trusted-agentic-workloads/",
     "source": "Google Cloud Blog",
     "published": "2026-08-13T17:00:00+00:00",
-    "raw_text": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping. This allows your agents to reason across complex dependencies captured in graphs with precision of measures. Why relationships matter Traditional data structures are blind to multi-hop business context, causing AI agents to make incorrect operational decisions: The concrete problem: If a retailer has an agent who is asked why winter jacket sales dropped 12% in Seattle, it can query flat tables to report the what (the 12% dip). But it fails at the why because it cannot trace the relational path: Seattle orders ➔ distribution centers ➔ suppliers delayed by regional storms . The risk of disjointed systems: Lacking relationship context, the agent suggests an irrelevant 15% markdown campaign, needlessly eroding margins. Furthermore, maintaining separate systems - where one team maps supplier relationships in a separate graph database while another maintains SQL metrics - forces your agent to stitch these stacks together at runtime. This process is slow, expensive, and leads to inconsistent KPI calculations. Measures in BigQuery Graph solves this by letting you map existing tables to a property graph in-place with zero ETL . This unified setup enables a logical evolution of inquiry: Metadata grounding establishes what data you have. Business metrics (measures) calculate how your business performed. Relationship mapping (graph) uncovers why it happened. Under the hood Historically, standard SQL joins during graph traversals duplicate rows, leading to incorrect aggregation calculations. BigQuery Graph solves this natively. Data modelers define a MEASURE (like SUM or AVG ) directly within the Property Graph DDL. Using standard SQL via the GRAPH_EXPAND function and the AGG aggregator, the engine resolves the structural graph paths before evaluating metrics. This ensures your agent is smart enough to know when it needs a calculator (SQL) and when it needs a map (graph) . Because public projects like bigquery-public-data are strictly read-only, you must map the logical property graph inside your own project using a placeholder variable ( YOUR_PROJECT_ID ), while directly referencing the read-only public tables as nodes and edges. code_block <ListValue: [StructValue([('code', '-- 1. Map the graph inside YOUR project \\r\\n\\r\\n\\r\\nCREATE OR REPLACE PROPERTY GRAPH `YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph`\\r\\nNODE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.users` AS User\\r\\n KEY(id)\\r\\n LABEL User PROPERTIES(id, city, country),\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS Order\\r\\n KEY(order_id)\\r\\n LABEL Order PROPERTIES(\\r\\n order_id, \\r\\n MEASURE(AVG(num_of_item)) AS avg_items_per_order,\\r\\n MEASURE(SUM(num_of_item)) AS total_items\\r\\n )\\r\\n)\\r\\nEDGE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS OrderedBy\\r\\n SOURCE KEY(order_id) REFERENCES Order(order_id)\\r\\n DESTINATION KEY(user_id) REFERENCES User(id)\\r\\n LABEL ORDERED_BY\\r\\n);\\r\\n\\r\\n-- 2. Query your new graph with standard SQL—using standard {Label}_{Property} column outputs\\r\\nSELECT\\r\\n User_city AS city,\\r\\n ROUND(AGG(Order_avg_items_per_order), 2) AS agg_avg_items,\\r\\n ROUND(AGG(Order_total_items), 2) AS agg_total_items\\r\\nFROM GRAPH_EXPAND(\"YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph\")\\r\\nGROUP BY User_city\\r\\nORDER BY agg_total_items DESC\\r\\nLIMIT 10;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9a2984fac0>)])]> Democratizing graph intelligence in BigQuery Studio To make managing and deploying these relationship networks frictionless for both developers and business users, we have built native, intuitive operational tools directly into BigQuery Studio: Visual graph modeler: A no-code, drag-and-drop interface inside BigQuery Studio that lets you visually build, edit, and map property graphs, nodes, and edges without writing complex DDL scripts manually. Conversational Analytics (CA) integration: Users can interact with the graph naturally. Instead of guessing table joins, Conversational Analytics agents navigate the deterministic, relationship-aware map of the graph, converting natural language questions into precise, boundary-constrained GoogleSQL or ISO GQL queries. This prevents model hallucinations and enforces semantic consistency. Unified semantics: Native Looker integration To avoid maintaining fragmented logic stacks, business metrics must live at the data layer. By integrating Looker (LookML) natively with BigQuery Graphs as in-database analytic models , you define logic once at the core: Database-managed models (sql_analytic_model_name): Point Looker directly to your database-defined BigQuery Graph using sql_analytic_model_name to map standard LookML dimensions and measures directly to your graph properties. Looker-managed models (derived_analytic_model): Define your BigQuery Graph schema directly inside your LookML view using derived_analytic_model . Looker will dynamically generate and execute the SQL DDL statements to maintain the graph inside BigQuery. Enterprise DevOps workflows: Manage your graph's entire lifecycle using the Looker IDE, Git-based version control, and Continuous Integration (CI) . Core KPIs (like Churn Rate) remain completely identical, verified, and trusted.",
+    "raw_text": "When enterprises transition from using simple chat assistants to autonomous, agentic workloads, they quickly run into a hard truth: Agents are prone to inaccurate insights when working with directly raw tables. BigQuery Graph helps organizations move beyond flat, static tables to represent enterprises exactly how they exist in the physical world: as interconnected business entities with real-world dependencies. With the support of measures in BigQuery Graph (preview), we are unifying governed metrics with relationship mapping. This allows your agents to reason across complex dependencies captured in graphs with precision of measures. Why relationships matter Traditional data structures are blind to multi-hop business context, causing AI agents to make incorrect operational decisions: The concrete problem: If a retailer has an agent who is asked why winter jacket sales dropped 12% in Seattle, it can query flat tables to report the what (the 12% dip). But it fails at the why because it cannot trace the relational path: Seattle orders ➔ distribution centers ➔ suppliers delayed by regional storms . The risk of disjointed systems: Lacking relationship context, the agent suggests an irrelevant 15% markdown campaign, needlessly eroding margins. Furthermore, maintaining separate systems - where one team maps supplier relationships in a separate graph database while another maintains SQL metrics - forces your agent to stitch these stacks together at runtime. This process is slow, expensive, and leads to inconsistent KPI calculations. Measures in BigQuery Graph solves this by letting you map existing tables to a property graph in-place with zero ETL . This unified setup enables a logical evolution of inquiry: Metadata grounding establishes what data you have. Business metrics (measures) calculate how your business performed. Relationship mapping (graph) uncovers why it happened. Under the hood Historically, standard SQL joins during graph traversals duplicate rows, leading to incorrect aggregation calculations. BigQuery Graph solves this natively. Data modelers define a MEASURE (like SUM or AVG ) directly within the Property Graph DDL. Using standard SQL via the GRAPH_EXPAND function and the AGG aggregator, the engine resolves the structural graph paths before evaluating metrics. This ensures your agent is smart enough to know when it needs a calculator (SQL) and when it needs a map (graph) . Because public projects like bigquery-public-data are strictly read-only, you must map the logical property graph inside your own project using a placeholder variable ( YOUR_PROJECT_ID ), while directly referencing the read-only public tables as nodes and edges. code_block <ListValue: [StructValue([('code', '-- 1. Map the graph inside YOUR project \\r\\n\\r\\n\\r\\nCREATE OR REPLACE PROPERTY GRAPH `YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph`\\r\\nNODE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.users` AS User\\r\\n KEY(id)\\r\\n LABEL User PROPERTIES(id, city, country),\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS Order\\r\\n KEY(order_id)\\r\\n LABEL Order PROPERTIES(\\r\\n order_id, \\r\\n MEASURE(AVG(num_of_item)) AS avg_items_per_order,\\r\\n MEASURE(SUM(num_of_item)) AS total_items\\r\\n )\\r\\n)\\r\\nEDGE TABLES(\\r\\n `bigquery-public-data.thelook_ecommerce.orders` AS OrderedBy\\r\\n SOURCE KEY(order_id) REFERENCES Order(order_id)\\r\\n DESTINATION KEY(user_id) REFERENCES User(id)\\r\\n LABEL ORDERED_BY\\r\\n);\\r\\n\\r\\n-- 2. Query your new graph with standard SQL—using standard {Label}_{Property} column outputs\\r\\nSELECT\\r\\n User_city AS city,\\r\\n ROUND(AGG(Order_avg_items_per_order), 2) AS agg_avg_items,\\r\\n ROUND(AGG(Order_total_items), 2) AS agg_total_items\\r\\nFROM GRAPH_EXPAND(\"YOUR_PROJECT_ID.YOUR_DATASET.thelook_ecommerce_graph\")\\r\\nGROUP BY User_city\\r\\nORDER BY agg_total_items DESC\\r\\nLIMIT 10;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fef094c25e0>)])]> Democratizing graph intelligence in BigQuery Studio To make managing and deploying these relationship networks frictionless for both developers and business users, we have built native, intuitive operational tools directly into BigQuery Studio: Visual graph modeler: A no-code, drag-and-drop interface inside BigQuery Studio that lets you visually build, edit, and map property graphs, nodes, and edges without writing complex DDL scripts manually. Conversational Analytics (CA) integration: Users can interact with the graph naturally. Instead of guessing table joins, Conversational Analytics agents navigate the deterministic, relationship-aware map of the graph, converting natural language questions into precise, boundary-constrained GoogleSQL or ISO GQL queries. This prevents model hallucinations and enforces semantic consistency. Unified semantics: Native Looker integration To avoid maintaining fragmented logic stacks, business metrics must live at the data layer. By integrating Looker (LookML) natively with BigQuery Graphs as in-database analytic models , you define logic once at the core: Database-managed models (sql_analytic_model_name): Point Looker directly to your database-defined BigQuery Graph using sql_analytic_model_name to map standard LookML dimensions and measures directly to your graph properties. Looker-managed models (derived_analytic_model): Define your BigQuery Graph schema directly inside your LookML view using derived_analytic_model . Looker will dynamically generate and execute the SQL DDL statements to maintain the graph inside BigQuery. Enterprise DevOps workflows: Manage your graph's entire lifecycle using the Looker IDE, Git-based version control, and Continuous Integration (CI) . Core KPIs (like Churn Rate) remain completely identical, verified, and trusted.",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -2022,12 +1986,12 @@
     "url": "https://www.theregister.com/ai-and-ml/2026/08/15/anthropic-says-text-watermarking-scheme-relies-on-inconsequential-words/5288156",
     "source": "The Register",
     "published": "2026-08-15T00:44:41+00:00",
-    "raw_text": "And other AI model makers are expected to deploy something similar",
+    "raw_text": "'Shall I compare thee to a summer's afternoon' is the sort of thing this will make, and others look likely to adopt it",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "And other AI model makers are expected to deploy something similar"
+    "summary": "'Shall I compare thee to a summer's afternoon' is the sort of thing this will make, and others look likely to adopt it"
   },
   {
     "title": "DeepSeek's innovative harness treats everything as a plug-in",
@@ -2420,35 +2384,6 @@
     "summary": "Operating system indigestion pops up over chicken sandwich ad"
   },
   {
-    "title": "Passwords stored in public Google Doc then showed up in search results",
-    "url": "https://www.theregister.com/security/2026/08/13/passwords-stored-in-public-google-doc-then-showed-up-in-search-results/5287028",
-    "source": "The Register",
-    "published": "2026-08-13T07:00:00+00:00",
-    "raw_text": "Developer spotted hostname and credential string lurking in autocomplete",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Developer spotted hostname and credential string lurking in autocomplete"
-  },
-  {
-    "title": "Cisco thinks Mythos means instant death for unsupported networking kit",
-    "url": "https://www.theregister.com/networks/2026/08/13/cisco-thinks-mythos-means-instant-death-for-unsupported-networking-kit/5287204",
-    "source": "The Register",
-    "published": "2026-08-13T06:28:30+00:00",
-    "raw_text": "CEO says buyers are moving fast and shuffling budgets to replace old boxen",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "networking"
-      ]
-    },
-    "summary": "CEO says buyers are moving fast and shuffling budgets to replace old boxen"
-  },
-  {
     "title": "Quintas Energy deploys AI through Box to power workflows",
     "url": "https://www.computerweekly.com/news/366649394/Quintas-Energy-deploys-AI-through-Box-to-power-workflows",
     "source": "ComputerWeekly",
@@ -2586,72 +2521,6 @@
       ]
     },
     "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>I can recall three distinct times when computers changed the trajectory of my life.</p> <p>The first, aged seven, when I wrote my first computer program on a <a href=\"https://www.the8bitguy.com/4839/commodore-history-part-1-the-commodore-pet/\">Commodore PET</a>. It was only a dozen lines of print statements of ASCII art, but to me I’d recreated the opening scene of <i>Star Wars</i>, making a spaceship scroll across the screen."
-  },
-  {
-    "title": "Rimini Street bids to broaden CIO appeal with agentic AI move",
-    "url": "https://www.computerweekly.com/news/366648894/Rimini-Street-bids-to-broaden-CIO-appeal-with-agentic-AI-move",
-    "source": "ComputerWeekly",
-    "published": "2026-08-13T07:00:00+00:00",
-    "raw_text": "<p>Rimini Street, a pioneer in enterprise software third-party maintenance, is steering a new course, having recently released Rimini Govern for AI, a managed service said to help IT leaders hasten and moderate <a href=\"https://www.techtarget.com/ai/feature/The-rise-of-the-AI-forward-deployed-engineer\">artificial intelligence (AI) agent deployment</a>. The service is intended to reduce risks and overheads, and to provide greater visibility into agentic processes.&nbsp;</p> <p>With <a href=\"https://www.computerweekly.com/news/366645295/Gartner-declares-agentic-AI-the-next-step-function\">agentic AI</a> having become both an overwhelming opportunity and governance challenge for IT teams, the Las Vegas-headquartered company is, unsurprisingly, not alone in wanting to provide a control plane to govern new swarms of agents and sub-agents that traverse IT systems, applications and infrastructure. But, having made an initial pivot 18 months ago, the move continues a stride away from its heartland in providing alternatives to vendor support for customers of Oracle, SAP, VMware and other software heavyweights.</p> <p>“You buy it as a service and don’t worry about 20 pieces of software being brought together in a solution,” CEO Seth Ravin said in a briefing with Computer Weekly.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Maintaining options\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Maintaining options</h2> <p>Rimini Street’s role as a challenger to software maintenance and support offerings has proven an attractive and persistent choice for CIOs that don’t want to pay the premiums of software giants. At the same time, Rimini Street has attracted legal challenges such as the <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Oracle-fear-and-loathing\">epic Oracle lawsuit</a> that seemingly concluded last year.</p> <p>Despite this, the third-party maintenance formula has seen Rimini Street move towards annual revenues approaching $0.5bn. Its second quarter saw revenues swell to $111.1m.</p> <p>Ravin believes that with cloud, microservices, headless and open application programming interfaces (APIs) prevalent, there is less reason than ever to be at the behest of those giants.&nbsp;&nbsp;</p> <p>“<a href=\"https://www.computerweekly.com/news/366630301/Rimini-Street-CEO-sounds-death-knell-on-ERP-software\">ERP software is dead</a>,” he added. “We always said it was going to break into pieces. It’s a very, very different time in software and there’s a reason for that. Customers don’t understand what they’re buying from these companies and what they’re going to be producing in five years’ time.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"New world\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>New world</h2> <p>Ravin sees the agentic AI service as a “transition to innovation” from cost saving. But there are similarities with its maintenance roots in a fiscal sense as AI adopters suffer from “tokenmaxxing”, running up large bills, including from unsanctioned “shadow AI” usage.&nbsp;</p> <p>Constellation Research CEO and long-term Rimini Street follower Ray Wang called the agentic move “a no-brainer” that complements the company’s depth of support and knowledge of enterprise processes.</p> <p>The move is also aligned with Rimini Street’s recent focus on providing ways for customers to layer AI services over ERP and other big-ticket investments such as ServiceNow.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Seth-Ravin-RiminiStreet-PR-140px.jpg\" alt=\"Headshot of Seth Ravin.\"> </div> <p><strong><span style=\"color: #34495e;\">“ERP software is dead – it’s a very different time in software”</span></strong></p> <p><em><span style=\"color: #34495e;\">Seth Ravin, Rimini Street</span></em></p> </blockquote> <p>“You can have hundreds of agents running around your organisation,” Ravin said. “You have an HR department to ensure people have access where they need access and it’s no different with ‘electronic people’ [AI agents]. But most people haven’t got that far with their understanding. We’re going to play security guard to the HR department.”</p> <p>Ravin believes there is a “house of cards collapse” coming to AI pricing as Chinese and open-source models promise to dramatically reduce the cost of tokens. He said this will lead to “the fastest race of commoditisation we’ve ever seen. Just like open source databases have eaten into the paid database world … you’re going to see a commoditisation of LLMs [large language models], the brains behind every agent.”</p> <p>This “tech war of our lifetime” will spawn a proliferation of cheap agents that will challenge regulatory compliance efforts too. Ravin suggested that companies already struggle to keep up with enterprise software version changes and upgrades. But there will be a moment “like in <i>The Matrix</i> where he takes the pill and sees what’s going on. Today we’re watching people wake up.”&nbsp;</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Nibbling at the ERP edge\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Nibbling at the ERP edge</h2> <p>ERP is changing but Ravin doesn’t see contemporary phenomena such as vibe coding leading to build-your-own ERPs; but he agreed that changes may see a nibbling at the edge of software behemoths’ ecosystems: “I see a hybrid environment,” he said. “You can’t vibe-code 10,000 key processes an SAP system delivers today … but I can create small apps and homegrown components.”</p> <p>And with litigation seemingly a thing of the past, Ravin believes that prospects and partners will no longer regard his company as a “black sheep” of the industry. He pointed to a <a href=\"https://www.computerweekly.com/news/366614923/Gartner-Symposium-Why-ServiceNow-wants-to-be-seen-as-the-AI-platform-for-business-transformation\">tightening of its relationship with ServiceNow</a>, stating that this and the closure with Oracle can foreshadow a broader ecosystem. That, he suggested, will delight Rimini Street’s 4,700 clients and other watchers who were previously cautious of stepping out from the giants into a legalistically uncertain space.</p> <p>Any significant advance could attract potential purchasers – after all, SAP bought erstwhile Rimini Street TomorrowNow over 20 years ago. Ravin may have waved off such a suggestion, but it’s clear that Rimini Street is attempting to spread its wings and source new revenues separate to the maintenance sector it helped create. That is a shift that could attract both new logos for its sales roster as well as greater wallet share from the 4,700-strong faithful.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <ul class=\"default-list\"> <li class=\"splash-heading\">Read more about ERP third party support</li> <li>Does <a href=\"https://www.computerweekly.com/news/366559292/Does-third-party-support-make-sense\">third-party support</a> make sense?</li> <li><a href=\"https://www.computerweekly.com/news/366630301/Rimini-Street-CEO-sounds-death-knell-on-ERP-software\">Rimini Street CEO sounds death knell</a> on ERP software.</li> <li>Oracle, <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Oracle-fear-and-loathing\">fear and loathing</a>.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "GRC",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Networks",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "microservices"
-      ],
-      "Networks": [
-        "cdn",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "governance",
-        "compliance",
-        "regulatory",
-        "nist"
-      ],
-      "Data Centres": [
-        "colo"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey",
-        "gartner",
-        "vendor"
-      ]
-    },
-    "summary": "<p>Rimini Street, a pioneer in enterprise software third-party maintenance, is steering a new course, having recently released Rimini Govern for AI, a managed service said to help IT leaders hasten and moderate <a href=\"https://www.techtarget.com/ai/feature/The-rise-of-the-AI-forward-deployed-engineer\">artificial intelligence (AI) agent deployment</a>. The service is intended to reduce risks and overheads, and to provide greater visibility into agentic processes.&nbsp;</p> <p>With <a href=\"https://www.computerweekly.com/news/366645295/Gartner-declares-agentic-AI-the-next-step-function\">agentic AI</a> having become both an overwhelming opportunity and governance challenge for IT teams, the Las Vegas-headquartered company is, unsurprisingly, not alone in wanting to provide a control plane to govern new swarms of agents and sub-agents that traverse IT systems, applications and infrastructure. But, having made an initial pivot 18 months ago, the move continues a stride away from its heartland in providing alternatives to vendor support for customers of Oracle, SAP, VMware and other software heavyweights.</p> <p>“You buy it as a service and don’t worry about 20 pieces of software being brought together in a solution,” CEO Seth Ravin said in a briefing with Computer Weekly.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Maintaining options\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Maintaining options</h2> <p>Rimini Street’s role as a challenger to software maintenance and support offerings has proven an attractive and persistent choice for CIOs that don’t want to pay the premiums of software giants. At the same time, Rimini Street has attracted legal challenges such as the <a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Oracle-fear-and-loathing\">epic Oracle lawsuit</a> that seemingly concluded last year.</p> <p>Despite this, the third-party maintenance formula has seen Rimini Street move towards annual revenues approaching $0.5bn."
-  },
-  {
-    "title": "A-level computing on the rise as more girls choose to code",
-    "url": "https://www.computerweekly.com/news/366649315/A-level-computing-on-the-rise-as-more-girls-choose-to-code",
-    "source": "ComputerWeekly",
-    "published": "2026-08-13T06:30:00+00:00",
-    "raw_text": "<p>The number of girls choosing to study computing at A-level has grown again this year, alongside slight growth in the overall number of candidates taking the subject.</p> <p>In the UK, the number of girls studying A-level computing in 2026 increased by 2.8%.&nbsp;This marks the seventh year of growth in girls choosing the subject, from 1,797 in 2020, to <a href=\"https://www.computerweekly.com/news/252505123/Number-of-students-taking-A-level-computing-rose-in-2021\">2,031 in 2021</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/252523972/Fourth-year-rise-in-students-sitting-A-Level-computing\">2,352 in 2022</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/366548796/Number-of-girls-taking-Alevel-computing-still-fewer-than-3000\">2,765 in 2023</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/366605123/Number-of-girls-taking-A-Level-computing-exceeds-3000\">3,556 in 2024</a>, <a href=\"https://www.computerweekly.com/news/366629099/More-girls-take-A-level-computing-despite-overall-dip-in-numbers\">3,679 in 2025</a> and now 3,782 in 2026.</p> <p>While the past seven years have seen slow but steady growth in the number of girls choosing to take the subject, the number of overall candidates has fluctuated. In 2025, the total number of computing A-level candidates in the UK was down on the year before, but this year, the number has grown from 19,796 in 2025 to 20,009 in 2026.</p> <p>But there are rising concerns about skills gaps across the UK, especially as artificial intelligence (AI) poses a new and fast-growing area of technology that is <a href=\"https://www.computerweekly.com/news/366641842/UK-government-seeks-collaborators-for-AI-tutoring-tools-for-schools\">redefining the skills needed for life and the workplace</a>. Many have claimed the <a href=\"https://www.computerweekly.com/news/366627119/Interview-Philip-Colligan-CEO-Raspberry-Pi-Foundation\">current curriculum is not fit for purpose</a> when it comes to technology education, and parents have even claimed children <a href=\"https://www.computerweekly.com/news/366627063/More-than-70-of-parents-say-kids-arent-taught-coding-at-school\">aren’t learning to code</a> as part of computing classes.</p> <p>When it comes to AI, however, Bron Gondwana, CEO of email provider Fastmail, advises young people to develop skills unique to them without worrying what AI will bring.</p> <p>“For young people starting their careers, I’d focus less on trying to predict which jobs AI might change and more on developing expertise that makes you valuable, regardless,” he said.</p> <p>“While you have the energy, become really good at something, then look for the intersection between different skills or disciplines that nobody else is combining. That’s where innovation happens and where you’ll be hardest to replace. AI will continue to change how we work, but curiosity, adaptability and deep expertise will always matter.”&nbsp;</p> <p>For science, technology, engineering and maths (STEM) subjects overall, there has been an increase in interest from students, with A-level candidates rising in biology, chemistry, physics, maths and further maths this year – a positive when compared with last year’s slow growth in some subjects and decline in others.</p> <p>When it comes to grade attainment, computing results were slightly up year-on-year, and girls once again outperformed boys, with 7.8% of female candidates achieving an A* compared with 6% of male candidates.</p> <p>Girls performed better than boys at every grade attainment level: 73.1% of female students achieved at least a C grade, compared with 70.1% of male students; 52.1% of female students achieved at least a B grade, while only 48.1% of male students achieved the same; and 28.8% of female students achieved at least an A grade, compared with 24.7% of male students.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> Results day can make it feel as though there is one correct route into adult life, but there isn’t. A-levels and university have been seen as the default choice for many young people over the last few decades, but there are other paths to success </figure> <figcaption> <strong>Russell Attwood, Route 101</strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>Overall, 70.7% of students who took the computing exam achieved at least a C grade, 48.9% achieved at least a B grade, and slightly more than a quarter achieved at least an A, matching last year’s grade attainment of higher-level grades.</p> <p>Many experts cautioned young people against worrying that their grades will affect their future careers, pointing out the <a href=\"https://www.computerweekly.com/news/366612679/Non-traditional-routes-will-increase-tech-diversity-says-Tech-Returners\">many routes into tech careers</a> and the need for employers to help entry-level employees gain specific skills for roles.</p> <p>Russell Attwood, CEO of technology solutions provider Route 101, said: “Results day can make it feel as though there is one correct route into adult life, but there isn’t. A-levels and university have been seen as the default choice for many young people over the last few decades, but there are other paths to success. A degree can be valuable for some careers, but it is not a measure of drive or future potential. &nbsp;</p> <p>“I left school at 16, dropped out of a BTEC business course after three months and started building my career through work, sales and on-the-job learning. That eventually led me to build and sell a technology business before founding Route 101, now a multimillion-pound technology company employing almost 200 people. &nbsp;</p> <p>“Students today should not judge their entire future by a single set of grades. Keep learning, work hard and be prepared to take the next opportunity. There are many routes forward, and your first step does not have to define where you finish.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about tech and schools</h3> <ul class=\"default-list\"> <li>When looking into how some <a href=\"https://www.computerweekly.com/news/366627673/Schools-using-AI-to-personalise-learning-finds-Ofsted\">education providers in the UK are using AI</a>, Ofsted found many have hit the ground running.</li> <li>Early Careers Jobs Alliance between the government and industry will provide skills and guidance to ensure <a href=\"https://www.computerweekly.com/news/366643999/Partnership-to-ensure-entry-level-jobs-for-young-people\">young people can begin careers in an AI-focused world</a>.</li> </ul> </div> </div>",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ],
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "<p>The number of girls choosing to study computing at A-level has grown again this year, alongside slight growth in the overall number of candidates taking the subject.</p> <p>In the UK, the number of girls studying A-level computing in 2026 increased by 2.8%.&nbsp;This marks the seventh year of growth in girls choosing the subject, from 1,797 in 2020, to <a href=\"https://www.computerweekly.com/news/252505123/Number-of-students-taking-A-level-computing-rose-in-2021\">2,031 in 2021</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/252523972/Fourth-year-rise-in-students-sitting-A-Level-computing\">2,352 in 2022</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/366548796/Number-of-girls-taking-Alevel-computing-still-fewer-than-3000\">2,765 in 2023</a>,&nbsp;<a href=\"https://www.computerweekly.com/news/366605123/Number-of-girls-taking-A-Level-computing-exceeds-3000\">3,556 in 2024</a>, <a href=\"https://www.computerweekly.com/news/366629099/More-girls-take-A-level-computing-despite-overall-dip-in-numbers\">3,679 in 2025</a> and now 3,782 in 2026.</p> <p>While the past seven years have seen slow but steady growth in the number of girls choosing to take the subject, the number of overall candidates has fluctuated. In 2025, the total number of computing A-level candidates in the UK was down on the year before, but this year, the number has grown from 19,796 in 2025 to 20,009 in 2026.</p> <p>But there are rising concerns about skills gaps across the UK, especially as artificial intelligence (AI) poses a new and fast-growing area of technology that is <a href=\"https://www.computerweekly.com/news/366641842/UK-government-seeks-collaborators-for-AI-tutoring-tools-for-schools\">redefining the skills needed for life and the workplace</a>. Many have claimed the <a href=\"https://www.computerweekly.com/news/366627119/Interview-Philip-Colligan-CEO-Raspberry-Pi-Foundation\">current curriculum is not fit for purpose</a> when it comes to technology education, and parents have even claimed children <a href=\"https://www.computerweekly.com/news/366627063/More-than-70-of-parents-say-kids-arent-taught-coding-at-school\">aren’t learning to code</a> as part of computing classes.</p> <p>When it comes to AI, however, Bron Gondwana, CEO of email provider Fastmail, advises young people to develop skills unique to them without worrying what AI will bring.</p> <p>“For young people starting their careers, I’d focus less on trying to predict which jobs AI might change and more on developing expertise that makes you valuable, regardless,” he said.</p> <p>“While you have the energy, become really good at something, then look for the intersection between different skills or disciplines that nobody else is combining. That’s where innovation happens and where you’ll be hardest to replace."
   },
   {
     "title": "Google Meet can take notes for your in-person meetings now - here's how it works",
@@ -2980,6 +2849,26 @@
     "summary": "Recorded Net Income for the Period of $29.0 Million Adjusted EBITDA Increased 18% Year over Year to $30.5 Million Completed Transformation into a Focused Infrastructure Company and Returned C$8.34 per Share, C$590 Million to Shareholders Puerto Bahia Achieved Record RoRo Activity Advanced..."
   },
   {
+    "title": "Capricor Therapeutics, Inc. Notice of September 28, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-notice-of-september-28-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852192.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities..."
+  },
+  {
     "title": "Avis Budget Group, Inc. Notice of September 29, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
     "url": "https://www.prnewswire.com/news-releases/avis-budget-group-inc-notice-of-september-29-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852190.html",
     "source": "PR Newswire - Technology",
@@ -3032,11 +2921,27 @@
     "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until September 22, 2026 to file lead plaintiff applications in a..."
   },
   {
-    "title": "Capricor Therapeutics, Inc. Notice of September 28, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-notice-of-september-28-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852192.html",
+    "title": "Hub Group, Inc. Securities Fraud Class Action Result of Erroneous Financial Statements and approximately 31% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-securities-fraud-class-action-result-of-erroneous-financial-statements-and-approximately-31-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302852204.html",
     "source": "PR Newswire - Technology",
     "published": "2026-08-15T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities...",
+    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a..."
+  },
+  {
+    "title": "EquipmentShare.com Inc. Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+    "url": "https://www.prnewswire.com/news-releases/equipmentsharecom-inc-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852198.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action...",
     "categories": [
       "Cloud Infrastructure",
       "Industry & Market"
@@ -3049,7 +2954,27 @@
         "ey"
       ]
     },
-    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Capricor Therapeutics, Inc. (\"Capricor\" or the \"Company\") (NasdaqGS: CAPR) of a class action securities..."
+    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action..."
+  },
+  {
+    "title": "Primoris Services Corporation Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
+    "url": "https://www.prnewswire.com/news-releases/primoris-services-corporation-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852205.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-15T02:00:00+00:00",
+    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Primoris Services Corporation (\"Primoris\" or the \"Company\") (NYSE: PRIM) of a class action securities...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Primoris Services Corporation (\"Primoris\" or the \"Company\") (NYSE: PRIM) of a class action securities..."
   },
   {
     "title": "Futu Holdings Limited Securities Fraud Class Action Result of Undisclosed Regulatory Compliance Failures and approximately 32% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
@@ -3091,62 +3016,6 @@
       ]
     },
     "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Wix.com Ltd. (\"Wix\" or the \"Company\") (NasdaqGS: WIX) of a class action securities lawsuit."
-  },
-  {
-    "title": "Primoris Services Corporation Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/primoris-services-corporation-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852205.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-15T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Primoris Services Corporation (\"Primoris\" or the \"Company\") (NYSE: PRIM) of a class action securities...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Primoris Services Corporation (\"Primoris\" or the \"Company\") (NYSE: PRIM) of a class action securities..."
-  },
-  {
-    "title": "Hub Group, Inc. Securities Fraud Class Action Result of Erroneous Financial Statements and approximately 31% Stock Decline - Investors may Contact Lewis Kahn, Esq, at Kahn Swick & Foti, LLC",
-    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-securities-fraud-class-action-result-of-erroneous-financial-statements-and-approximately-31-stock-decline---investors-may-contact-lewis-kahn-esq-at-kahn-swick--foti-llc-302852204.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-15T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until August 28, 2026 to file lead plaintiff applications in a..."
-  },
-  {
-    "title": "EquipmentShare.com Inc. Notice of September 21, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/equipmentsharecom-inc-notice-of-september-21-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302852198.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-15T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, Aug. 14, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in EquipmentShare.com Inc. (\"EquipmentShare\" or the \"Company\") (NasdaqGS: EQPT) of a class action..."
   },
   {
     "title": "PNR Alert: Hagens Berman Notifies Pentair plc (NYSE: PNR) Investors of Expanded Class Period in New Securities Class Action Lawsuit and Upcoming Lead Plaintiff Deadline",
@@ -3603,11 +3472,11 @@
     "summary": "IBM partners with OpenAI to secure enterprise AI deployment Fierce Network"
   },
   {
-    "title": "QBS Software bolsters European security portfolio with Futurex distribution deal - itpro.com",
+    "title": "QBS Software bolsters European security portfolio with Futurex distribution deal - IT Pro",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbTdSQnl1ejhZZ1QwTVJncllBSUQ4dmpscUZ6QUJLeW41RUR3RnVMV28yZ1E3bk9KdjJ2YW1IODQwSjM3eWwwYVRCenYzYWtGTklUOVBJWEZIdVl4MzgyXzJCcHNvY19fNTFPOW5tWFNOWHExRGtpS1oxY1BmcVdaTEk0aFg0d2ZMaGpJQmJOa01Kc2R3UGp1dl9kTzIzM2hER2NSOF9ZenVqUndVc0F6WUE2WkVkOG00TW9rWUhqanNHTkYzRWpLNA?oc=5",
     "source": "Google News: Market & Industry News",
     "published": "2026-08-13T07:49:09+00:00",
-    "raw_text": "QBS Software bolsters European security portfolio with Futurex distribution deal itpro.com",
+    "raw_text": "QBS Software bolsters European security portfolio with Futurex distribution deal IT Pro",
     "categories": [
       "Cybersecurity"
     ],
@@ -3616,6 +3485,6 @@
         "security"
       ]
     },
-    "summary": "QBS Software bolsters European security portfolio with Futurex distribution deal itpro.com"
+    "summary": "QBS Software bolsters European security portfolio with Futurex distribution deal IT Pro"
   }
 ]
