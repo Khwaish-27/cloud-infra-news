@@ -1,5 +1,23 @@
 [
   {
+    "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+    "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+    "source": "The Hacker News",
+    "published": "2026-08-18T06:34:20+00:00",
+    "raw_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than"
+  },
+  {
     "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
     "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
     "source": "The Hacker News",
@@ -392,6 +410,48 @@
     "summary": "A new information-stealing malware called AmnesiaStealer, which targets macOS users via ClickFix attacks, includes a streaming module that allows the attacker to interactively control the victim's web browser. [...]"
   },
   {
+    "title": "Google’s open-source HEIR lets AI work with data it can’t see",
+    "url": "https://www.helpnetsecurity.com/2026/08/18/google-heir-open-source-compiler-toolchain/",
+    "source": "Help Net Security",
+    "published": "2026-08-18T06:00:54+00:00",
+    "raw_text": "Google’s researchers and engineers developed the Homomorphic Encryption Intermediate Representation (HEIR) compiler project, an open-source compiler toolchain and development platform for homomorphic encryption. It can convert pre-trained AI models designed to operate on unencrypted data into models that process encrypted inputs. The platform helps application developers, compiler engineers, hardware designers, and cryptography researchers develop privacy-focused software systems. Source: Google Jeremy Kun, a Staff Software Engineer at Google, wrote that cryptographers building on HEIR can focus … More → The post Google’s open-source HEIR lets AI work with data it can’t see appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "encryption",
+        "security"
+      ],
+      "GRC": [
+        "privacy"
+      ]
+    },
+    "summary": "Google’s researchers and engineers developed the Homomorphic Encryption Intermediate Representation (HEIR) compiler project, an open-source compiler toolchain and development platform for homomorphic encryption. It can convert pre-trained AI models designed to operate on unencrypted data into models that process encrypted inputs. The platform helps application developers, compiler engineers, hardware designers, and cryptography researchers develop privacy-focused software systems. Source: Google Jeremy Kun, a Staff Software Engineer at Google, wrote that cryptographers building on HEIR can focus … More → The post Google’s open-source HEIR lets AI work with data it can’t see appeared first on Help Net Security ."
+  },
+  {
+    "title": "A hollowed out data layer is making CISOs fly blind into AI attacks",
+    "url": "https://www.helpnetsecurity.com/2026/08/18/siem-data-blind-spots-mapping/",
+    "source": "Help Net Security",
+    "published": "2026-08-18T05:00:30+00:00",
+    "raw_text": "The security industry is currently transitioning to an era where both offense and defense are AI-led, and every SOC operates at machine speed. However, what most CISOs have not yet reckoned with is that the AI defenders they are about to deploy will inherit a data foundation that two years of ingestion cost pressure has quietly hollowed out. The result is a security industry heading into an AI era with less visibility than it had … More → The post A hollowed out data layer is making CISOs fly blind into AI attacks appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "soc"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "The security industry is currently transitioning to an era where both offense and defense are AI-led, and every SOC operates at machine speed. However, what most CISOs have not yet reckoned with is that the AI defenders they are about to deploy will inherit a data foundation that two years of ingestion cost pressure has quietly hollowed out. The result is a security industry heading into an AI era with less visibility than it had … More → The post A hollowed out data layer is making CISOs fly blind into AI attacks appeared first on Help Net Security ."
+  },
+  {
     "title": "Attackers turn to AI for help identifying files worth stealing",
     "url": "https://www.helpnetsecurity.com/2026/08/18/gambit-security-ai-cyberattack-tools-report/",
     "source": "Help Net Security",
@@ -591,46 +651,6 @@
     "summary": "Researchers from the University of Birmingham and Durham University have found a way to knock down some of the toughest protections in Windows 11 without physically opening or modifying the target machine. The attack assumes the attacker has already gained privileged access to the system. A chip that never checks who’s asking The attack, named “Download More RAM,” targets a small configuration chip found on Dual In-line Memory Modules (DIMMs), the RAM sticks inside most … More → The post Windows 11’s strongest security defenses can be bypassed without a screwdriver appeared first on Help Net Security ."
   },
   {
-    "title": "Hazmat: Open-source containment for AI agents",
-    "url": "https://www.helpnetsecurity.com/2026/08/17/hazmat-open-source-ai-coding-agent-containment/",
-    "source": "Help Net Security",
-    "published": "2026-08-17T05:00:17+00:00",
-    "raw_text": "Hazmat is an open-source tool that runs AI coding agents inside a separate account on your own machine. It wraps the harnesses people use: Claude Code, Codex, OpenCode, Cursor Agent, and several more, plus any script you write yourself. An agent launched the ordinary way runs as you, which means it can read anything you can read. That includes SSH keys, cloud credentials, and the pile of configuration in your home directory that has accumulated … More → The post Hazmat: Open-source containment for AI agents appeared first on Help Net Security .",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Hazmat is an open-source tool that runs AI coding agents inside a separate account on your own machine. It wraps the harnesses people use: Claude Code, Codex, OpenCode, Cursor Agent, and several more, plus any script you write yourself. An agent launched the ordinary way runs as you, which means it can read anything you can read. That includes SSH keys, cloud credentials, and the pile of configuration in your home directory that has accumulated … More → The post Hazmat: Open-source containment for AI agents appeared first on Help Net Security ."
-  },
-  {
-    "title": "Product showcase: ScamNet looks for warning signs in suspicious calls and shady links",
-    "url": "https://www.helpnetsecurity.com/2026/08/17/product-showcase-scamnet-consumer-security-app/",
-    "source": "Help Net Security",
-    "published": "2026-08-17T04:30:07+00:00",
-    "raw_text": "ScamNet: Anti-Scam Suite is a consumer security app from Synaptrex Technologies that helps users detect and block scams involving phone calls, text messages, websites, and other suspicious content. The app is available for iPhone, iPad, and Mac, with features varying by platform. Call protection is available on iPhone, while tools such as Visual Intelligence are supported on iPhone and iPad. The app is free with optional ScamNet+ subscriptions. Setup involves enabling individual shields for Phone, … More → The post Product showcase: ScamNet looks for warning signs in suspicious calls and shady links appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "ScamNet: Anti-Scam Suite is a consumer security app from Synaptrex Technologies that helps users detect and block scams involving phone calls, text messages, websites, and other suspicious content. The app is available for iPhone, iPad, and Mac, with features varying by platform. Call protection is available on iPhone, while tools such as Visual Intelligence are supported on iPhone and iPad. The app is free with optional ScamNet+ subscriptions."
-  },
-  {
     "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
     "url": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
     "source": "Dark Reading",
@@ -709,6 +729,23 @@
       ]
     },
     "summary": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure."
+  },
+  {
+    "title": "Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates",
+    "url": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
+    "source": "SecurityWeek",
+    "published": "2026-08-18T06:46:22+00:00",
+    "raw_text": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data. The post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data. The post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWeek ."
   },
   {
     "title": "680,000 Impacted by French Tax Authority Data Breach",
@@ -1218,6 +1255,38 @@
     "summary": "The upper ranks of corporate security are seeing a high rate of change as companies try to adapt to the evolving threat landscape. Many companies are hiring a chief security officer (CSO) or chief information security officer (CISO) for the first time to support a deeper commitment to information security. Follow this column to keep up with new appointments to senior-level security roles and perhaps gain a little insight into hiring trends. If you have an announcement of your own that you would like us to include here, contact Peter Sayer, executive editor of news, at peter_sayer@foundryco.com ."
   },
   {
+    "title": "Sponsored: Countdown to Yotta 2026: Three days inside the engine of the AI boom",
+    "url": "https://www.datacenterdynamics.com/en/product-news/countdown-to-yotta-2026-three-days-inside-the-engine-of-the-ai-boom/",
+    "source": "DataCenterDynamics",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "From mini-summits to the Innovate Arena, the iMasons Awards and a Brooklyn Bowl takeover, here’s what’s waiting in Las Vegas Sept. 28-30. Advance rates end Aug. 21",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "From mini-summits to the Innovate Arena, the iMasons Awards and a Brooklyn Bowl takeover, here’s what’s waiting in Las Vegas Sept. 28-30. Advance rates end Aug. 21"
+  },
+  {
+    "title": "Sponsored: An ecosystem for scale",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/an-ecosystem-for-scale/",
+    "source": "DataCenterDynamics",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "Portfolio planning and the strategic decisions behind AI infrastructure operations",
+    "categories": [
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Data Centres": [
+        "ai infrastructure"
+      ]
+    },
+    "summary": "Portfolio planning and the strategic decisions behind AI infrastructure operations"
+  },
+  {
     "title": "Blue Origin starts buildout of Quartz ground station network with partner RBC Signals",
     "url": "https://www.datacenterdynamics.com/en/news/blue-origin-starts-buildout-of-quartz-ground-station-network-with-partner-rbc-signals/",
     "source": "DataCenterDynamics",
@@ -1540,328 +1609,6 @@
       ]
     },
     "summary": "Data centers that fail to meet the standards could see their projects rejected"
-  },
-  {
-    "title": "Data center proposals withdrawn in Raleigh, North Carolina",
-    "url": "https://www.datacenterdynamics.com/en/news/data-center-proposals-withdrawn-in-raleigh-north-carolina/",
-    "source": "DataCenterDynamics",
-    "published": "2026-08-17T13:39:24+00:00",
-    "raw_text": "Plans for 100,000 sq ft development withdrawn",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Plans for 100,000 sq ft development withdrawn"
-  },
-  {
-    "title": "Iren delivers first phase of AI capacity to Microsoft in Texas",
-    "url": "https://www.datacenterdynamics.com/en/news/iren-delivers-first-phase-of-ai-capacity-to-microsoft-in-texas/",
-    "source": "DataCenterDynamics",
-    "published": "2026-08-17T11:50:18+00:00",
-    "raw_text": "More on the Horizon",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "capacity"
-      ]
-    },
-    "summary": "More on the Horizon"
-  },
-  {
-    "title": "Almost nobody pays attention to web standards anymore",
-    "url": "https://www.theregister.com/devops/2026/08/17/almost-nobody-pays-attention-to-web-standards-anymore/5288782",
-    "source": "The Register",
-    "published": "2026-08-17T21:35:01+00:00",
-    "raw_text": "Screen readers suffer as nearly 90% of top websites tested contain HTML spec violations",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Screen readers suffer as nearly 90% of top websites tested contain HTML spec violations"
-  },
-  {
-    "title": "Payments giant Stripe is about to drop over $7 billion to become a gateway to AI token sales",
-    "url": "https://www.theregister.com/ai-and-ml/2026/08/17/payments-giant-stripe-is-about-to-drop-over-7-billion-to-become-a-gateway-to-ai-token-sales/5288743",
-    "source": "The Register",
-    "published": "2026-08-17T20:10:00+00:00",
-    "raw_text": "AI gateways look promising as companies struggle with model orchestration",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "AI gateways look promising as companies struggle with model orchestration"
-  },
-  {
-    "title": "Siemens and Reinhausen turn up the voltage for hungry AI racks",
-    "url": "https://www.theregister.com/on-prem/2026/08/17/siemens-and-reinhausen-turn-up-the-voltage-for-hungry-ai-racks/5288565",
-    "source": "The Register",
-    "published": "2026-08-17T18:30:11+00:00",
-    "raw_text": "Not a German cop show, but a pair of engineering firms aiming to feed 800 VDC to next-gen kit",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "siem"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Not a German cop show, but a pair of engineering firms aiming to feed 800 VDC to next-gen kit"
-  },
-  {
-    "title": "Mozilla adds ad blocking to Firefox for iOS",
-    "url": "https://www.theregister.com/software/2026/08/17/mozilla-adds-ad-blocking-to-firefox-for-ios/5288585",
-    "source": "The Register",
-    "published": "2026-08-17T15:50:56+00:00",
-    "raw_text": "Experimental feature to block some, but not all, ads",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Experimental feature to block some, but not all, ads"
-  },
-  {
-    "title": "GitHub has Issues as repo downloads hit 50% error rate",
-    "url": "https://www.theregister.com/ai-and-ml/2026/08/17/github-has-issues-as-repo-downloads-hit-50-error-rate/5288543",
-    "source": "The Register",
-    "published": "2026-08-17T15:04:20+00:00",
-    "raw_text": "Copilot also wobbles as another outage tests developer patience",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Copilot also wobbles as another outage tests developer patience"
-  },
-  {
-    "title": "$1K laser mosquito zapper promises precision strikes as backers itch for answers",
-    "url": "https://www.theregister.com/offbeat/2026/08/17/1k-laser-mosquito-zapper-promises-precision-strikes-as-backers-itch-for-answers/5288431",
-    "source": "The Register",
-    "published": "2026-08-17T15:04:00+00:00",
-    "raw_text": "After raising $2.8M, the project has entered production, but company comms have done little to reassure buyers",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "After raising $2.8M, the project has entered production, but company comms have done little to reassure buyers"
-  },
-  {
-    "title": "Windows 11 movable taskbar edges closer to general release",
-    "url": "https://www.theregister.com/os-platforms/2026/08/17/windows-11-movable-taskbar-edges-closer-to-general-release/5288393",
-    "source": "The Register",
-    "published": "2026-08-17T14:01:00+00:00",
-    "raw_text": "Preview also brings compact icons, Start menu sizing, and the final shove for WMIC",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Preview also brings compact icons, Start menu sizing, and the final shove for WMIC"
-  },
-  {
-    "title": "Capita handed vital role in next pandemic despite civil service pension failures",
-    "url": "https://www.theregister.com/public-sector/2026/08/17/capita-handed-vital-role-in-next-pandemic-despite-civil-service-pension-failures/5288454",
-    "source": "The Register",
-    "published": "2026-08-17T13:14:00+00:00",
-    "raw_text": "Initial £31M deal comes with scope to scale sharply during a major outbreak",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Initial £31M deal comes with scope to scale sharply during a major outbreak"
-  },
-  {
-    "title": "Agentic AI costs set to balloon fivefold by 2028",
-    "url": "https://www.theregister.com/ai-and-ml/2026/08/17/agentic-ai-costs-set-to-balloon-fivefold-by-2028/5288363",
-    "source": "The Register",
-    "published": "2026-08-17T12:27:00+00:00",
-    "raw_text": "Cheaper tokens won't help when complex workflows consume so many more of them, Gartner warns",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "gartner"
-      ]
-    },
-    "summary": "Cheaper tokens won't help when complex workflows consume so many more of them, Gartner warns"
-  },
-  {
-    "title": "Crook hawks millions of records allegedly plundered from corporate Azure tenants",
-    "url": "https://www.theregister.com/security/2026/08/17/crook-hawks-millions-of-records-allegedly-plundered-from-corporate-azure-tenants/5288305",
-    "source": "The Register",
-    "published": "2026-08-17T11:43:00+00:00",
-    "raw_text": "McDonald's, Vodafone, TCS, Kyndryl, and others named as researchers point to compromised credentials",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "azure"
-      ]
-    },
-    "summary": "McDonald's, Vodafone, TCS, Kyndryl, and others named as researchers point to compromised credentials"
-  },
-  {
-    "title": "Excel's Copilot function is headed for the Recycle Bin",
-    "url": "https://www.theregister.com/ai-and-ml/2026/08/17/excels-copilot-function-is-headed-for-the-recycle-bin/5288327",
-    "source": "The Register",
-    "published": "2026-08-17T10:55:06+00:00",
-    "raw_text": "Microsoft realizes the side pane should be enough for anyone",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Microsoft realizes the side pane should be enough for anyone"
-  },
-  {
-    "title": "Be a hater all you want, AI's here to stay",
-    "url": "https://www.theregister.com/columnists/2026/08/17/be-a-hater-all-you-want-ais-here-to-stay/5288275",
-    "source": "The Register",
-    "published": "2026-08-17T10:18:14+00:00",
-    "raw_text": "The good news? One of the worst bits, tech giants controlling it all, might soon be over",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "The good news? One of the worst bits, tech giants controlling it all, might soon be over"
-  },
-  {
-    "title": "Code fixers have fired up the AI warp drive. Strange new worlds await",
-    "url": "https://www.theregister.com/columnists/2026/08/17/code-fixers-have-fired-up-the-ai-warp-drive-strange-new-worlds-await/5287681",
-    "source": "The Register",
-    "published": "2026-08-17T09:04:00+00:00",
-    "raw_text": "With more patches per month than at a pirate convention, the bug must be an endangered species. Well, about that",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "With more patches per month than at a pirate convention, the bug must be an endangered species. Well, about that"
-  },
-  {
-    "title": "Black Hat and DEF CON are AI conferences now, too",
-    "url": "https://www.theregister.com/security/2026/08/17/black-hat-and-def-con-are-ai-conferences-now-too/5288076",
-    "source": "The Register",
-    "published": "2026-08-17T07:30:00+00:00",
-    "raw_text": "On this week's episode of The Reg's Kettle podcast, we revisit 'hacker summer camp,' where the hottest topic was ... sigh... agentic AI",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker"
-      ]
-    },
-    "summary": "On this week's episode of The Reg's Kettle podcast, we revisit 'hacker summer camp,' where the hottest topic was ... sigh... agentic AI"
-  },
-  {
-    "title": "Part didn't fit so techie got out his screwdriver. Then something flew off the motherboard",
-    "url": "https://www.theregister.com/systems/2026/08/17/part-didnt-fit-so-techie-got-out-his-screwdriver-then-something-flew-off-the-motherboard/5287692",
-    "source": "The Register",
-    "published": "2026-08-17T06:30:00+00:00",
-    "raw_text": "Whatever it was broke a PC and led to a face-saving lie",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Whatever it was broke a PC and led to a face-saving lie"
-  },
-  {
-    "title": "Linux 7.2 debuts, Linus Torvalds says ‘new normal’ means he had to do it now ... or never?",
-    "url": "https://www.theregister.com/os-platforms/2026/08/17/linux-72-debuts-linus-torvalds-says-new-normal-means-he-had-to-do-it-now-or-never/5288250",
-    "source": "The Register",
-    "published": "2026-08-17T06:01:32+00:00",
-    "raw_text": "Say hello to smarter use of caches to speed things up, and a very odd gaming controller. Say goodbye to some PCMCIA support",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Say hello to smarter use of caches to speed things up, and a very odd gaming controller. Say goodbye to some PCMCIA support"
-  },
-  {
-    "title": "Sainsbury's staff eject wrong shopper after facial recognition alert – again",
-    "url": "https://www.theregister.com/ai-and-ml/2026/08/17/sainsburys-staff-eject-wrong-shopper-after-facial-recognition-alert-again/5288602",
-    "source": "The Register",
-    "published": "2026-08-17T04:21:00+00:00",
-    "raw_text": "Facewatch says its technology worked as intended before humans mishandled the result",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Facewatch says its technology worked as intended before humans mishandled the result"
-  },
-  {
-    "title": "Microsoft blames AI for delayed Exchange update, can’t say when it will arrive",
-    "url": "https://www.theregister.com/software/2026/08/17/microsoft-blames-ai-for-delayed-exchange-update-cant-say-when-it-will-arrive/5288227",
-    "source": "The Register",
-    "published": "2026-08-17T02:31:58+00:00",
-    "raw_text": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Dealing with machine-made bug backlog makes it hard to find a moment to deliver promised subscription service"
-  },
-  {
-    "title": "Chinese AI company Zhipu claims its new model is a better bug-finder than Anthropic, OpenAI",
-    "url": "https://www.theregister.com/security/2026/08/17/chinese-ai-company-zhipu-claims-its-new-model-is-a-better-bug-finder-than-anthropic-openai/5288203",
-    "source": "The Register",
-    "published": "2026-08-17T00:51:21+00:00",
-    "raw_text": "PLUS: HCL, TCS, admit data breaches; South Korea to fine Apple, Google; India bans some rideshare tips; and more!",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach"
-      ]
-    },
-    "summary": "PLUS: HCL, TCS, admit data breaches; South Korea to fine Apple, Google; India bans some rideshare tips; and more!"
-  },
-  {
-    "title": "Stopping a cyberattack while walking your dog - defensive AI security CEO says it's not ruff to do",
-    "url": "https://www.theregister.com/security/2026/08/16/stopping-a-cyberattack-while-walking-your-dog-defensive-ai-security-ceo-says-its-not-ruff-to-do/5288126",
-    "source": "The Register",
-    "published": "2026-08-16T10:06:00+00:00",
-    "raw_text": "Corma CEO tells The Reg it's building 'One ring to rule them all, for the defenders to have this power'",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyberattack",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "Corma CEO tells The Reg it's building 'One ring to rule them all, for the defenders to have this power'"
-  },
-  {
-    "title": "The what, why, and how of pull requests and source comments",
-    "url": "https://www.theregister.com/offbeat/2026/08/16/the-what-why-and-how-of-pull-requests-and-source-comments/5287914",
-    "source": "The Register",
-    "published": "2026-08-16T07:58:00+00:00",
-    "raw_text": "Microsoft veteran on knowing the difference and convincing approvers to accept a change",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Microsoft veteran on knowing the difference and convincing approvers to accept a change"
   },
   {
     "title": "Lanarkshire gets £300m to fund AI growth zone",
@@ -2263,11 +2010,92 @@
     "summary": "If you didn't upgrade last year (or the year before), there's a good case to be made for the new Pixel 11."
   },
   {
-    "title": "ByteLens gjør operatørdata til sammensatt kunnskap",
-    "url": "https://www.prnewswire.com/news-releases/bytelens-gjor-operatordata-til-sammensatt-kunnskap-302853592.html",
+    "title": "WuXi Biologics Recognized for Industry Top Sustainable Biopharma Practices Empowering the Industry's Transformation Through Green CRDMO",
+    "url": "https://www.prnewswire.com/news-releases/wuxi-biologics-recognized-for-industry-top-sustainable-biopharma-practices-empowering-the-industrys-transformation-through-green-crdmo-302853794.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T04:41:00+00:00",
-    "raw_text": "Akselerere hver operatørs reise til autonome operasjoner, innenfor sitt eget nettverk. AMSTERDAM, 18. august 2026 /PRNewswire/ -- ByteLens lanserte i dag sitt AI-native operasjonelle intelligensprodukt for teleoperatører. Det advarer om feil før kundene blir berørt, peker på årsaken på...",
+    "published": "2026-08-18T07:04:00+00:00",
+    "raw_text": "SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- BioPharma APAC recently published its Top 26 - Companies Leading Sustainable Biopharma Practices in 2026, highlighting leading sustainability practices across pharmaceutical companies, biotechnology firms and CRDMOs in Europe, North America and Asia...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ]
+    },
+    "summary": "SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- BioPharma APAC recently published its Top 26 - Companies Leading Sustainable Biopharma Practices in 2026, highlighting leading sustainability practices across pharmaceutical companies, biotechnology firms and CRDMOs in Europe, North America and Asia..."
+  },
+  {
+    "title": "Can Independent Critical Access Hospitals Solve the Rural Healthcare Crisis? \"All Access hosted by Andy Garcia\" Features Syracuse Area Health",
+    "url": "https://www.prnewswire.com/news-releases/can-independent-critical-access-hospitals-solve-the-rural-healthcare-crisis-all-access-hosted-by-andy-garcia-features-syracuse-area-health-302843716.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "An upcoming Public Television educational segment explores how local medical networks are delivering advanced specialty care and 24/7 emergency services to small-town communities. LOS ANGELES, Aug. 18, 2026 /PRNewswire/ -- Filmed on July 20, 2026, on location at Syracuse Area Health in...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ]
+    },
+    "summary": "An upcoming Public Television educational segment explores how local medical networks are delivering advanced specialty care and 24/7 emergency services to small-town communities. LOS ANGELES, Aug. 18, 2026 /PRNewswire/ -- Filmed on July 20, 2026, on location at Syracuse Area Health in..."
+  },
+  {
+    "title": "Fluidos refrigerantes Castrol ON PG25 validados para centros de datos y fábricas de IA de NVIDIA",
+    "url": "https://www.prnewswire.com/news-releases/fluidos-refrigerantes-castrol-on-pg25-validados-para-centros-de-datos-y-fabricas-de-ia-de-nvidia-302853087.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "- Fluidos refrigerantes Castrol ON PG25 validados para la infraestructura de centros de datos y fábricas de IA de NVIDIA La validación incluyó una revisión del rendimiento técnico y la compatibilidad de materiales de los productos, junto con la resiliencia del negocio y la cadena de...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "- Fluidos refrigerantes Castrol ON PG25 validados para la infraestructura de centros de datos y fábricas de IA de NVIDIA La validación incluyó una revisión del rendimiento técnico y la compatibilidad de materiales de los productos, junto con la resiliencia del negocio y la cadena de..."
+  },
+  {
+    "title": "Aitech Announces New U-C6850 SOSA-Aligned Rugged High-Speed Ethernet Switch/Router for Defense and Aerospace Systems",
+    "url": "https://www.prnewswire.com/news-releases/aitech-announces-new-u-c6850-sosa-aligned-rugged-high-speed-ethernet-switchrouter-for-defense-and-aerospace-systems-302853102.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "CHATSWORTH, Calif., Aug. 18, 2026 /PRNewswire/ -- Aitech, a global leader in AI-powered rugged embedded computing and connectivity systems for defense and space applications, today announced the new U-C6850 10/40GbE Fully Managed Ethernet Switch/Router, a SOSA®-aligned, high-speed,...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "router",
+        "connectivity"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "CHATSWORTH, Calif., Aug. 18, 2026 /PRNewswire/ -- Aitech, a global leader in AI-powered rugged embedded computing and connectivity systems for defense and space applications, today announced the new U-C6850 10/40GbE Fully Managed Ethernet Switch/Router, a SOSA®-aligned, high-speed,..."
+  },
+  {
+    "title": "Aitech kündigt neuen robusten, SOSA-konformen U-C6850 Hochgeschwindigkeits-Ethernet-Switch/Router für Verteidigungs- und Luft- und Raumfahrtsysteme an",
+    "url": "https://www.prnewswire.com/news-releases/aitech-kundigt-neuen-robusten-sosa-konformen-u-c6850-hochgeschwindigkeits-ethernet-switchrouter-fur-verteidigungs--und-luft--und-raumfahrtsysteme-an-302853260.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "CHATSWORTH, Kalifornien, 18. August 2026 /PRNewswire/ -- Aitech, ein weltweit führender Anbieter von KI-gestützten, robusten Embedded-Computing- und Konnektivitätssystemen für Verteidigungs- und Raumfahrtanwendungen, hat heute den neuen vollständig verwalteten...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "router"
+      ]
+    },
+    "summary": "CHATSWORTH, Kalifornien, 18. August 2026 /PRNewswire/ -- Aitech, ein weltweit führender Anbieter von KI-gestützten, robusten Embedded-Computing- und Konnektivitätssystemen für Verteidigungs- und Raumfahrtanwendungen, hat heute den neuen vollständig verwalteten..."
+  },
+  {
+    "title": "Aitech annonce le lancement du nouveau commutateur/routeur Ethernet robuste haut débit U-C6850, conforme à la norme SOSA, destiné aux systèmes de défense et aérospatiaux",
+    "url": "https://www.prnewswire.com/news-releases/aitech-annonce-le-lancement-du-nouveau-commutateurrouteur-ethernet-robuste-haut-debit-u-c6850-conforme-a-la-norme-sosa-destine-aux-systemes-de-defense-et-aerospatiaux-302853263.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "CHATSWORTH, Californie, 18 août 2026 /PRNewswire/ -- Aitech, leader mondial des systèmes informatiques embarqués robustes et de connectivité basés sur l'IA destinés aux applications de défense et spatiales, annonce aujourd'hui le lancement du nouveau commutateur/routeur Ethernet...",
     "categories": [
       "Networks"
     ],
@@ -2276,116 +2104,141 @@
         "lan"
       ]
     },
-    "summary": "Akselerere hver operatørs reise til autonome operasjoner, innenfor sitt eget nettverk. AMSTERDAM, 18. august 2026 /PRNewswire/ -- ByteLens lanserte i dag sitt AI-native operasjonelle intelligensprodukt for teleoperatører. Det advarer om feil før kundene blir berørt, peker på årsaken på..."
+    "summary": "CHATSWORTH, Californie, 18 août 2026 /PRNewswire/ -- Aitech, leader mondial des systèmes informatiques embarqués robustes et de connectivité basés sur l'IA destinés aux applications de défense et spatiales, annonce aujourd'hui le lancement du nouveau commutateur/routeur Ethernet..."
   },
   {
-    "title": "Cirkla to Launch America's First Facility Dedicated to Scaling Molded Fiber Meat Packaging, in Hall County, Georgia",
-    "url": "https://www.prnewswire.com/news-releases/cirkla-to-launch-americas-first-facility-dedicated-to-scaling-molded-fiber-meat-packaging-in-hall-county-georgia-302853023.html",
+    "title": "Overcoming the Affordable Housing Deficit: Housing New Mexico Featured on \"All Access hosted by Andy Garcia\"",
+    "url": "https://www.prnewswire.com/news-releases/overcoming-the-affordable-housing-deficit-housing-new-mexico-featured-on-all-access-hosted-by-andy-garcia-302852965.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T04:30:00+00:00",
-    "raw_text": "Purpose-built US facility to create over 100 jobs and support national rollouts for leading protein brands and grocery retailers. GAINESVILLE, Ga., Aug. 18, 2026 /PRNewswire/ -- As American manufacturers bring critical supply chains back to U.S. soil, Cirkla, the company behind the...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "fiber"
-      ]
-    },
-    "summary": "Purpose-built US facility to create over 100 jobs and support national rollouts for leading protein brands and grocery retailers. GAINESVILLE, Ga., Aug. 18, 2026 /PRNewswire/ -- As American manufacturers bring critical supply chains back to U.S. soil, Cirkla, the company behind the..."
-  },
-  {
-    "title": "El presidente de WOAC, Benjamin K SIGG, se reúne con el renombrado coleccionista el doctor Uli Sigg en Suiza",
-    "url": "https://www.prnewswire.com/news-releases/el-presidente-de-woac-benjamin-k-sigg-se-reune-con-el-renombrado-coleccionista-el-doctor-uli-sigg-en-suiza-302853569.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T04:21:00+00:00",
-    "raw_text": "- El presidente de WOAC, Benjamin K SIGG, se reúne con el renombrado coleccionista el doctor Uli Sigg en una exclusiva visita VIP a Art Basel en Suiza LUCERNA, Suiza, 18 de agosto de 2026 /PRNewswire/ -- Por invitación oficial VIP de Art Basel, una delegación del Comité Mundial de las...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "- El presidente de WOAC, Benjamin K SIGG, se reúne con el renombrado coleccionista el doctor Uli Sigg en una exclusiva visita VIP a Art Basel en Suiza LUCERNA, Suiza, 18 de agosto de 2026 /PRNewswire/ -- Por invitación oficial VIP de Art Basel, una delegación del Comité Mundial de las..."
-  },
-  {
-    "title": "Ecopetrol Completes Acquisition of a Controlling 51% Stake in Brava Energia S.A. and Strengthens Its Growth Platform in Brazil",
-    "url": "https://www.prnewswire.com/news-releases/ecopetrol-completes-acquisition-of-a-controlling-51-stake-in-brava-energia-sa-and-strengthens-its-growth-platform-in-brazil-302853566.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T04:20:00+00:00",
-    "raw_text": "BOGOTÁ, Aug. 18, 2026 /PRNewswire/ -- Ecopetrol S.A. (\"Ecopetrol\" or the \"Company\") (BVC: ECOPETROL; NYSE: EC) announces that, through its wholly owned subsidiary Ecopetrol Investimentos do Brasil Ltda. (\"Ecopetrol Investimentos\"), it has completed the acquisition of a controlling...",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "An upcoming Public Television feature explores how public-private partnerships and state finance agencies are resolving persistent housing shortages across local communities. LOS ANGELES, Aug. 18, 2026 /PRNewswire/ -- Filming on August 21, 2026, \"All Access hosted by Andy Garcia\" explores...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "acquisition",
+        "partnership"
+      ]
+    },
+    "summary": "An upcoming Public Television feature explores how public-private partnerships and state finance agencies are resolving persistent housing shortages across local communities. LOS ANGELES, Aug. 18, 2026 /PRNewswire/ -- Filming on August 21, 2026, \"All Access hosted by Andy Garcia\" explores..."
+  },
+  {
+    "title": "Castrol ON PG25 cooling fluids validated for NVIDIA AI factory and data centre infrastructure",
+    "url": "https://www.prnewswire.com/news-releases/castrol-on-pg25-cooling-fluids-validated-for-nvidia-ai-factory-and-data-centre-infrastructure-302852773.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "The validation involved a review of the products' technical performance and material compatibility, alongside Castrol's business and global supply-chain resilience The milestone strengthens Castrol's position in liquid cooling as AI drives demand for more powerful, higher-density data...",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data centre",
+        "cooling",
+        "liquid cooling"
+      ]
+    },
+    "summary": "The validation involved a review of the products' technical performance and material compatibility, alongside Castrol's business and global supply-chain resilience The milestone strengthens Castrol's position in liquid cooling as AI drives demand for more powerful, higher-density data..."
+  },
+  {
+    "title": "Amygdala Neurosciences Announces FDA Clearance of Investigational New Drug (IND) Application for ANS-858",
+    "url": "https://www.prnewswire.com/news-releases/amygdala-neurosciences-announces-fda-clearance-of-investigational-new-drug-ind-application-for-ans-858-302852072.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "ANS-858 is being developed to reduce pathological craving associated with alcohol and other substance use disorders. Amygdala's ALDH2 inhibitor platform offers additional therapeutic opportunities in binge eating, obesity, and precision oncology. PALO ALTO, Calif., Aug. 18, 2026...",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
         "announces"
       ]
     },
-    "summary": "BOGOTÁ, Aug. 18, 2026 /PRNewswire/ -- Ecopetrol S.A. (\"Ecopetrol\" or the \"Company\") (BVC: ECOPETROL; NYSE: EC) announces that, through its wholly owned subsidiary Ecopetrol Investimentos do Brasil Ltda. (\"Ecopetrol Investimentos\"), it has completed the acquisition of a controlling..."
+    "summary": "ANS-858 is being developed to reduce pathological craving associated with alcohol and other substance use disorders. Amygdala's ALDH2 inhibitor platform offers additional therapeutic opportunities in binge eating, obesity, and precision oncology. PALO ALTO, Calif., Aug. 18, 2026..."
   },
   {
-    "title": "WuXi XDC Achieves GMP Release of BCM3 Facility at Singapore Site, Enabling Global Clients with Professional Excellence",
-    "url": "https://www.prnewswire.com/news-releases/wuxi-xdc-achieves-gmp-release-of-bcm3-facility-at-singapore-site-enabling-global-clients-with-professional-excellence-302853546.html",
+    "title": "Michelle Northey, CPO von Loftware, gewinnt den Women in Supply Chain Forum™ Award 2026",
+    "url": "https://www.prnewswire.com/news-releases/michelle-northey-cpo-von-loftware-gewinnt-den-women-in-supply-chain-forum-award-2026-302853788.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T04:03:00+00:00",
-    "raw_text": "SINGAPORE, Aug. 18, 2026 /PRNewswire/ -- WuXi XDC Cayman Inc. (\"WuXi XDC\", stock code: 2268.HK), a leading global Contract Research, Development and Manufacturing Organization (CRDMO) focused on the bioconjugate industry, today announced that its BCM3 dual-function production line for...",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "Auszeichnung würdigt die Führungsrolle bei der Entwicklung vernetzter und skalierbarer Supply-Chain-Lösungen, die Zusammenarbeit, Compliance und Effizienz verbessern PORTSMOUTH, New Hampshire, 18. August 2026 /PRNewswire/ -- Loftware, ein weltweit führender Anbieter von Lösungen für...",
     "categories": [
-      "Uncategorised"
+      "GRC",
+      "Industry & Market"
     ],
-    "matched_keywords": {},
-    "summary": "SINGAPORE, Aug. 18, 2026 /PRNewswire/ -- WuXi XDC Cayman Inc. (\"WuXi XDC\", stock code: 2268.HK), a leading global Contract Research, Development and Manufacturing Organization (CRDMO) focused on the bioconjugate industry, today announced that its BCM3 dual-function production line for..."
+    "matched_keywords": {
+      "GRC": [
+        "compliance"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Auszeichnung würdigt die Führungsrolle bei der Entwicklung vernetzter und skalierbarer Supply-Chain-Lösungen, die Zusammenarbeit, Compliance und Effizienz verbessern PORTSMOUTH, New Hampshire, 18. August 2026 /PRNewswire/ -- Loftware, ein weltweit führender Anbieter von Lösungen für..."
   },
   {
-    "title": "U.S. News Reveals 2026-2027 Best High Schools Rankings",
-    "url": "https://www.prnewswire.com/news-releases/us-news-reveals-2026-2027-best-high-schools-rankings-302853368.html",
+    "title": "Grupo Boticário and Haut.AI Expand Strategic Partnership to Nearly 4,000 O Boticário Stores",
+    "url": "https://www.prnewswire.com/news-releases/grupo-boticario-and-hautai-expand-strategic-partnership-to-nearly-4-000-o-boticario-stores-302853145.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T04:01:00+00:00",
-    "raw_text": "New data highlights top-performing public, charter and STEM schools across all 50 states and major metro areas. WASHINGTON, Aug. 18, 2026 /PRNewswire/ -- U.S. News & World Report, the global authority in education rankings, announced the 2026-2027 Best High Schools rankings today,...",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "Three-year partnership advances from venture investment and a 24-store pilot to a national deployment NEW YORK and SÃO PAULO, Aug. 18, 2026 /PRNewswire/ -- Haut.AI, a SaaS technology company specializing in AI-powered skin intelligence and personalized skincare, and Grupo Boticário, a...",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "New data highlights top-performing public, charter and STEM schools across all 50 states and major metro areas. WASHINGTON, Aug. 18, 2026 /PRNewswire/ -- U.S. News & World Report, the global authority in education rankings, announced the 2026-2027 Best High Schools rankings today,..."
-  },
-  {
-    "title": "Al Meera Consumer Goods Company (Q.P.S.C.) Selects Yardi to Advance Retail Property Management and Digital Transformation",
-    "url": "https://www.prnewswire.com/news-releases/al-meera-consumer-goods-company-qpsc-selects-yardi-to-advance-retail-property-management-and-digital-transformation-302852811.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T04:00:00+00:00",
-    "raw_text": "Cloud-based platform will enhance leasing, asset management and operational efficiency, supporting the continued growth of almeera's retail portfolio DOHA, Qatar, Aug. 18, 2026 /PRNewswire/ -- Al Meera Consumer Goods Company (Q.P.S.C.), one of Qatar's leading national retailers and...",
-    "categories": [
+      "Industry & Market",
       "Cloud Infrastructure"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
-        "cloud",
-        "digital transformation"
+        "saas"
+      ],
+      "Industry & Market": [
+        "partnership",
+        "investment"
       ]
     },
-    "summary": "Cloud-based platform will enhance leasing, asset management and operational efficiency, supporting the continued growth of almeera's retail portfolio DOHA, Qatar, Aug. 18, 2026 /PRNewswire/ -- Al Meera Consumer Goods Company (Q.P.S.C.), one of Qatar's leading national retailers and..."
+    "summary": "Three-year partnership advances from venture investment and a 24-store pilot to a national deployment NEW YORK and SÃO PAULO, Aug. 18, 2026 /PRNewswire/ -- Haut.AI, a SaaS technology company specializing in AI-powered skin intelligence and personalized skincare, and Grupo Boticário, a..."
   },
   {
-    "title": "Heavy Rains Cause Temporary Discharge of Partially Treated Wastewater at Sandy Beach",
-    "url": "https://www.prnewswire.com/news-releases/heavy-rains-cause-temporary-discharge-of-partially-treated-wastewater-at-sandy-beach-302853454.html",
+    "title": "Aitech anuncia el nuevo conmutador/enrutador Ethernet de alta velocidad robusto U-C6850",
+    "url": "https://www.prnewswire.com/news-releases/aitech-anuncia-el-nuevo-conmutadorenrutador-ethernet-de-alta-velocidad-robusto-u-c6850-302853120.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T03:30:00+00:00",
-    "raw_text": "Discharge stopped after generator power was restored following Hurricane Lala outage HONOLULU, Aug. 17, 2026 /PRNewswire/ -- Hawaii American Water reports that approximately 717,000 gallons of partially treated wastewater were discharged through the company's outfall at Sandy Beach...",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "- Aitech anuncia el nuevo conmutador/enrutador Ethernet de alta velocidad robusto U-C6850 compatible con SOSA para sistemas de defensa y aeroespaciales CHATSWORTH, California, 18 de agosto de 2026 /PRNewswire/ -- Aitech, líder mundial en sistemas robustos de computación integrada y...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Discharge stopped after generator power was restored following Hurricane Lala outage HONOLULU, Aug. 17, 2026 /PRNewswire/ -- Hawaii American Water reports that approximately 717,000 gallons of partially treated wastewater were discharged through the company's outfall at Sandy Beach..."
+    "summary": "- Aitech anuncia el nuevo conmutador/enrutador Ethernet de alta velocidad robusto U-C6850 compatible con SOSA para sistemas de defensa y aeroespaciales CHATSWORTH, California, 18 de agosto de 2026 /PRNewswire/ -- Aitech, líder mundial en sistemas robustos de computación integrada y..."
   },
   {
-    "title": "Sapporo Tourist Association: A Spotlight on Sapporo's Local Gastronomy",
-    "url": "https://www.prnewswire.com/news-releases/sapporo-tourist-association-a-spotlight-on-sapporos-local-gastronomy-302853475.html",
+    "title": "Michelle Northey, directrice des produits chez Loftware, remporte le prix « Women in Supply Chain Forum™ » 2026",
+    "url": "https://www.prnewswire.com/news-releases/michelle-northey-directrice-des-produits-chez-loftware-remporte-le-prix--women-in-supply-chain-forum--2026-302853772.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T03:30:00+00:00",
-    "raw_text": "SAPPORO, Japan, Aug. 17, 2026 /PRNewswire/ -- While Sapporo is rightfully world-renowned for its premier winter skiing, global travelers in 2026 are discovering that the city's appeal extends far beyond the snow. Today, it is emerging as a vibrant, year-round destination where the rich...",
+    "published": "2026-08-18T06:53:00+00:00",
+    "raw_text": "Ce prix reconnaît son leadership dans la mise en place de solutions de chaîne d'approvisionnement connectées et évolutives qui améliorent la collaboration, la conformité et l'efficacité. PORTSMOUTH, N.H., 18 août 2026 /PRNewswire/ -- Loftware, leader mondial de l'identification des...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Ce prix reconnaît son leadership dans la mise en place de solutions de chaîne d'approvisionnement connectées et évolutives qui améliorent la collaboration, la conformité et l'efficacité. PORTSMOUTH, N.H., 18 août 2026 /PRNewswire/ -- Loftware, leader mondial de l'identification des..."
+  },
+  {
+    "title": "Mavrix soutient l'importance des témoignages humains fiables à l'ère de l'IA lors du salon Quirk's, à New York",
+    "url": "https://www.prnewswire.com/news-releases/mavrix-soutient-limportance-des-temoignages-humains-fiables-a-lere-de-lia-lors-du-salon-quirks-a-new-york-302853769.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T06:52:00+00:00",
+    "raw_text": "NEW YORK, 18 août 2026 /PRNewswire/ -- Mavrix, société internationale spécialisée dans l'acquisition de données globales et la réalisation d'études, a profité de son statut de sponsor Platine de l'événement « The Quirk's Event New York 2026 » pour présenter une vision claire de...",
     "categories": [
       "Cybersecurity",
       "Industry & Market"
@@ -2395,182 +2248,172 @@
         "soc"
       ],
       "Industry & Market": [
-        "ey"
+        "acquisition"
       ]
     },
-    "summary": "SAPPORO, Japan, Aug. 17, 2026 /PRNewswire/ -- While Sapporo is rightfully world-renowned for its premier winter skiing, global travelers in 2026 are discovering that the city's appeal extends far beyond the snow. Today, it is emerging as a vibrant, year-round destination where the rich..."
+    "summary": "NEW YORK, 18 août 2026 /PRNewswire/ -- Mavrix, société internationale spécialisée dans l'acquisition de données globales et la réalisation d'études, a profité de son statut de sponsor Platine de l'événement « The Quirk's Event New York 2026 » pour présenter une vision claire de..."
   },
   {
-    "title": "USA DeBusk LLC Data Breach: Edelson Lechtzin LLP Launches Investigation Into Exposure of Personal Information",
-    "url": "https://www.prnewswire.com/news-releases/usa-debusk-llc-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-information-302853490.html",
+    "title": "RIMAN met en avant ses produits et ingrédients innovants lors du RIMAN North America Convention 2026",
+    "url": "https://www.prnewswire.com/news-releases/riman-met-en-avant-ses-produits-et-ingredients-innovants-lors-du-riman-north-america-convention-2026-302853765.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T03:18:00+00:00",
-    "raw_text": "National class action firm offering free case evaluations to individuals impacted by the USA DeBusk LLC cybersecurity incident DEER PARK, Texas, Aug. 17, 2026 /PRNewswire/ -- Edelson Lechtzin LLP, a national class action law firm, is investigating data privacy claims arising from the USA...",
+    "published": "2026-08-18T06:48:00+00:00",
+    "raw_text": "SÉOUL, Corée du Sud, 18 août 2026 /PRNewswire/ -- RIMAN, une société de vente directe spécialisée dans les soins de la peau K-Beauty et le bien-être, a clôturé avec succès son RIMAN North America Convention 2026 à Las Vegas, dans le Nevada, qui s'est tenu du 7 au 9 août 2026. Cet...",
     "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "GRC"
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "breach",
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "privacy"
-      ],
-      "Industry & Market": [
-        "launches",
-        "valuation"
+        "soc"
       ]
     },
-    "summary": "National class action firm offering free case evaluations to individuals impacted by the USA DeBusk LLC cybersecurity incident DEER PARK, Texas, Aug. 17, 2026 /PRNewswire/ -- Edelson Lechtzin LLP, a national class action law firm, is investigating data privacy claims arising from the USA..."
+    "summary": "SÉOUL, Corée du Sud, 18 août 2026 /PRNewswire/ -- RIMAN, une société de vente directe spécialisée dans les soins de la peau K-Beauty et le bien-être, a clôturé avec succès son RIMAN North America Convention 2026 à Las Vegas, dans le Nevada, qui s'est tenu du 7 au 9 août 2026. Cet..."
   },
   {
-    "title": "Family Files Lawsuit Against Cody Casey in Fatal Fourth of July Herrington Lake Boat Collision",
-    "url": "https://www.prnewswire.com/news-releases/family-files-lawsuit-against-cody-casey-in-fatal-fourth-of-july-herrington-lake-boat-collision-302853468.html",
+    "title": "Zendure zahajuje v Evropě Sluneční výprodej: ušetřete až 30 % na inteligentních úložných systémech SolarFlow",
+    "url": "https://www.prnewswire.com/news-releases/zendure-zahajuje-v-evrop-sluneni-vyprodej-uetete-a-30--na-inteligentnich-ulonych-systemech-solarflow-302853754.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:57:00+00:00",
-    "raw_text": "LEXINGTON, Ky., Aug. 17, 2026 /PRNewswire/ -- Peterson Law and Whiteford Taylor & Preston have filed a civil lawsuit in Mercer Circuit Court on behalf of members of a family injured in the July 4, 2026 boat collision on Herrington Lake. The complaint (Case No. 26-CI-00267) names Cody...",
+    "published": "2026-08-18T06:39:00+00:00",
+    "raw_text": "BERLÍN, 18. srpna 2026 /PRNewswire/ -- S příchodem pozdního léta, které nabízí skvělou příležitost co nejlépe využít poslední slunečné týdny sezóny, společnost Zendure, globální průkopník v oblasti plug-in (zásuvných) systémů pro správu domácí energie (HEMS), oficiálně zahájila svou akci...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BERLÍN, 18. srpna 2026 /PRNewswire/ -- S příchodem pozdního léta, které nabízí skvělou příležitost co nejlépe využít poslední slunečné týdny sezóny, společnost Zendure, globální průkopník v oblasti plug-in (zásuvných) systémů pro správu domácí energie (HEMS), oficiálně zahájila svou akci..."
+  },
+  {
+    "title": "Mavrix plädiert auf der Quirk's New York für verlässliche, von Menschen stammende Belege im Zeitalter der KI",
+    "url": "https://www.prnewswire.com/news-releases/mavrix-pladiert-auf-der-quirks-new-york-fur-verlassliche-von-menschen-stammende-belege-im-zeitalter-der-ki-302853746.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T06:33:00+00:00",
+    "raw_text": "NEW YORK, 18. August 2026 /PRNewswire/ -- Mavrix, ein weltweit tätiges Unternehmen für Datenerhebung und die Durchführung von Marktforschung, nutzte sein Platin-Sponsoring bei „The Quirk's Event New York 2026\", um eine klare Perspektive auf die sich wandelnde Forschungslandschaft zu...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ]
+    },
+    "summary": "NEW YORK, 18. August 2026 /PRNewswire/ -- Mavrix, ein weltweit tätiges Unternehmen für Datenerhebung und die Durchführung von Marktforschung, nutzte sein Platin-Sponsoring bei „The Quirk's Event New York 2026\", um eine klare Perspektive auf die sich wandelnde Forschungslandschaft zu..."
+  },
+  {
+    "title": "Announcement pursuant to section 23(1) sentence 1 no. 3 of the German Securities Acquisition and Takeover Act (Wertpapiererwerbs- und Übernahmegesetz - WpÜG)",
+    "url": "https://www.prnewswire.com/news-releases/announcement-pursuant-to-section-231-sentence-1-no-3-of-the-german-securities-acquisition-and-takeover-act-wertpapiererwerbs--und-ubernahmegesetz--wpug-302853739.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-18T06:28:00+00:00",
+    "raw_text": "NOT FOR RELEASE OR DISTRIBUTION (IN WHOLE OR IN PART) IN OR FROM ANY OTHER JURISDICTION WHERE TO DO SO WOULD VIOLATE THE LAWS OF SUCH JURISDICTION SHIREBROOK, England, Aug. 18, 2026 /PRNewswire/ -- On 25 June 2026, Frasers Group plc, Shirebrook, United Kingdom (the \"Bidder\"), published...",
     "categories": [
       "Cloud Infrastructure",
+      "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
         "aws"
       ],
+      "Networks": [
+        "lan"
+      ],
       "Industry & Market": [
-        "ey"
+        "acquisition"
       ]
     },
-    "summary": "LEXINGTON, Ky., Aug. 17, 2026 /PRNewswire/ -- Peterson Law and Whiteford Taylor & Preston have filed a civil lawsuit in Mercer Circuit Court on behalf of members of a family injured in the July 4, 2026 boat collision on Herrington Lake. The complaint (Case No. 26-CI-00267) names Cody..."
+    "summary": "NOT FOR RELEASE OR DISTRIBUTION (IN WHOLE OR IN PART) IN OR FROM ANY OTHER JURISDICTION WHERE TO DO SO WOULD VIOLATE THE LAWS OF SUCH JURISDICTION SHIREBROOK, England, Aug. 18, 2026 /PRNewswire/ -- On 25 June 2026, Frasers Group plc, Shirebrook, United Kingdom (the \"Bidder\"), published..."
   },
   {
-    "title": "Creality lance la SPARKX i7 Nano : l'impression multicolore compacte dès 299 €",
-    "url": "https://www.prnewswire.com/news-releases/creality-lance-la-sparkx-i7-nano--limpression-multicolore-compacte-des-299--302853449.html",
+    "title": "Hansa Biopharma announces first commercial kidney transplant patient treated with Idefirix in Australia",
+    "url": "https://www.prnewswire.com/news-releases/hansa-biopharma-announces-first-commercial-kidney-transplant-patient-treated-with-idefirix-in-australia-302853715.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:31:00+00:00",
-    "raw_text": "FRANCFORT, Allemagne, 18 août 2026 /PRNewswire/ -- Creality, leader mondial de l'impression 3D, annonce la commercialisation de la SPARKX i7 Nano, dernière-née de sa gamme i7. Cette imprimante 3D de bureau est peu encombrante tout en offrant une qualité d'impression exceptionnelle avec...",
+    "published": "2026-08-18T06:15:00+00:00",
+    "raw_text": "LUND, Sweden, Aug. 18, 2026 /PRNewswire/ -- Hansa Biopharma AB, \"Hansa\" (Nasdaq Stockholm: HNSA), today announced that the first commercial patient in Australia has received a living donor kidney transplant following treatment with Idefirix® (imlifidase), consistent with the indication...",
     "categories": [
-      "Networks",
-      "Data Centres"
+      "Industry & Market",
+      "Networks"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
-      "Data Centres": [
-        "colo"
+      "Industry & Market": [
+        "announces",
+        "ey"
       ]
     },
-    "summary": "FRANCFORT, Allemagne, 18 août 2026 /PRNewswire/ -- Creality, leader mondial de l'impression 3D, annonce la commercialisation de la SPARKX i7 Nano, dernière-née de sa gamme i7. Cette imprimante 3D de bureau est peu encombrante tout en offrant une qualité d'impression exceptionnelle avec..."
+    "summary": "LUND, Sweden, Aug. 18, 2026 /PRNewswire/ -- Hansa Biopharma AB, \"Hansa\" (Nasdaq Stockholm: HNSA), today announced that the first commercial patient in Australia has received a living donor kidney transplant following treatment with Idefirix® (imlifidase), consistent with the indication..."
   },
   {
-    "title": "Rosen Law Firm Encourages Barclays PLC Investors to Inquire About Securities Class Action Investigation - BCS",
-    "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-barclays-plc-investors-to-inquire-about-securities-class-action-investigation--bcs-302853350.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:18:00+00:00",
-    "raw_text": "NEW YORK, Aug. 17, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of shareholders of Barclays PLC (NYSE: BCS) resulting from allegations that Barclays may have issued materially misleading...",
+    "title": "Keep Your Cool When the Vibes Heat Up: Desperados and Paolina Russo Drop the Ultimate Festival Jacket Powered by Frozen Beer",
+    "url": "https://www.globenewswire.com/news-release/2026/08/18/3346593/0/en/keep-your-cool-when-the-vibes-heat-up-desperados-and-paolina-russo-drop-the-ultimate-festival-jacket-powered-by-frozen-beer.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-18T07:00:00+00:00",
+    "raw_text": "AMSTERDAM, Aug. 18, 2026 (GLOBE NEWSWIRE) -- This summer, Desperados has teamed up with acclaimed LVMH Prize-nominated designer Paolina Russo to create the ultimate festival jacket: the Freeze-Fit: a limited-edition festival jacket powered by Desperados Freeze, the brand's latest liquid innovation that transforms Desperados into an ice-cold slush.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "NEW YORK, Aug. 17, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of shareholders of Barclays PLC (NYSE: BCS) resulting from allegations that Barclays may have issued materially misleading..."
+    "summary": "AMSTERDAM, Aug. 18, 2026 (GLOBE NEWSWIRE) -- This summer, Desperados has teamed up with acclaimed LVMH Prize-nominated designer Paolina Russo to create the ultimate festival jacket: the Freeze-Fit: a limited-edition festival jacket powered by Desperados Freeze, the brand's latest liquid innovation that transforms Desperados into an ice-cold slush."
   },
   {
-    "title": "Are PAYO, TECH, CBAN Obtaining Fair Deals for their Shareholders?",
-    "url": "https://www.prnewswire.com/news-releases/are-payo-tech-cban-obtaining-fair-deals-for-their-shareholders-302853351.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:18:00+00:00",
-    "raw_text": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or...",
+    "title": "New Crypto Presale Pepeto Reveals Funds Update While Ethereum Price Prediction Targets $10,000",
+    "url": "https://www.globenewswire.com/news-release/2026/08/18/3346590/0/en/new-crypto-presale-pepeto-reveals-funds-update-while-ethereum-price-prediction-targets-10-000.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-18T06:19:00+00:00",
+    "raw_text": "DUBAI, United Arab Emirates, Aug. 18, 2026 (GLOBE NEWSWIRE) -- The Pepeto presale has topped $10.66 million, and behind that number sits a memory every trader hunting the next new crypto carries: the coin they researched, understood, and never bought. With the Ethereum price prediction turning bullish, thousands now make sure that mistake never repeats. For many that coin was Ethereum at $200, and on-chain data shows those addresses now filling the Pepeto presale, the heaviest buying landing during peak fear, when small money freezes and experienced money moves. What they found is the story below.",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or..."
-  },
-  {
-    "title": "Are UTZ, ITGR, ACA, D Obtaining Fair Deals for their Shareholders?",
-    "url": "https://www.prnewswire.com/news-releases/are-utz-itgr-aca-d-obtaining-fair-deals-for-their-shareholders-302853348.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:13:00+00:00",
-    "raw_text": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or..."
-  },
-  {
-    "title": "Are MITT, ARX, HHS, FULC Obtaining Fair Deals for their Shareholders?",
-    "url": "https://www.prnewswire.com/news-releases/are-mitt-arx-hhs-fulc-obtaining-fair-deals-for-their-shareholders-302853344.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:10:00+00:00",
-    "raw_text": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or..."
-  },
-  {
-    "title": "Rosen Law Firm Encourages Disc Medicine, Inc. Investors to Inquire About Securities Class Action Investigation - IRON",
-    "url": "https://www.prnewswire.com/news-releases/rosen-law-firm-encourages-disc-medicine-inc-investors-to-inquire-about-securities-class-action-investigation--iron-302853343.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:07:00+00:00",
-    "raw_text": "NEW YORK, Aug. 17, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of shareholders of Disc Medicine, Inc. (NASDAQ: IRON) resulting from allegations that Disc Medicine may have issued materially...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "NEW YORK, Aug. 17, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, continues to investigate potential securities claims on behalf of shareholders of Disc Medicine, Inc. (NASDAQ: IRON) resulting from allegations that Disc Medicine may have issued materially..."
-  },
-  {
-    "title": "Manhattan Associates, Inc. Investor News: Rosen Law Firm Announces Investigation of Breaches of Fiduciary Duties by the Directors and Officers of Manhattan Associates, Inc. - MANH",
-    "url": "https://www.prnewswire.com/news-releases/manhattan-associates-inc-investor-news-rosen-law-firm-announces-investigation-of-breaches-of-fiduciary-duties-by-the-directors-and-officers-of-manhattan-associates-inc--manh-302853341.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T02:02:00+00:00",
-    "raw_text": "NEW YORK, Aug. 17, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, continues to investigate potential breaches of fiduciary duties by the directors and officers of Manhattan Associates, Inc. (NASDAQ: MANH). If you currently own shares of Manhattan Associates stock,...",
-    "categories": [
-      "Cybersecurity",
+      "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "soc"
+      "Networks": [
+        "lan"
       ],
       "Industry & Market": [
-        "announces"
+        "ey"
       ]
     },
-    "summary": "NEW YORK, Aug. 17, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, continues to investigate potential breaches of fiduciary duties by the directors and officers of Manhattan Associates, Inc. (NASDAQ: MANH). If you currently own shares of Manhattan Associates stock,..."
+    "summary": "DUBAI, United Arab Emirates, Aug. 18, 2026 (GLOBE NEWSWIRE) -- The Pepeto presale has topped $10.66 million, and behind that number sits a memory every trader hunting the next new crypto carries: the coin they researched, understood, and never bought. With the Ethereum price prediction turning bullish, thousands now make sure that mistake never repeats. For many that coin was Ethereum at $200, and on-chain data shows those addresses now filling the Pepeto presale, the heaviest buying landing during peak fear, when small money freezes and experienced money moves."
   },
   {
-    "title": "Are AUUD, CZR, AIRI Obtaining Fair Deals for their Shareholders?",
-    "url": "https://www.prnewswire.com/news-releases/are-auud-czr-airi-obtaining-fair-deals-for-their-shareholders-302853335.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T01:21:00+00:00",
-    "raw_text": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or...",
+    "title": "Provable Opens Early Access to Shield Swap, a Confidential Trading Venue Built for Compliance",
+    "url": "https://www.globenewswire.com/news-release/2026/08/18/3346588/0/en/provable-opens-early-access-to-shield-swap-a-confidential-trading-venue-built-for-compliance.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-18T06:09:00+00:00",
+    "raw_text": "Early access to the confidential, compliant trading venue opens for institutions, businesses, and governments on August 17th, 2026 Early access to the confidential, compliant trading venue opens for institutions, businesses, and governments on August 17th, 2026",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "compliance"
+      ]
+    },
+    "summary": "Early access to the confidential, compliant trading venue opens for institutions, businesses, and governments on August 17th, 2026 Early access to the confidential, compliant trading venue opens for institutions, businesses, and governments on August 17th, 2026"
+  },
+  {
+    "title": "Synthesized Introduces Test Data Agent, Bringing Production-Faithful Validation to Enterprise AI Agents",
+    "url": "https://www.globenewswire.com/news-release/2026/08/18/3346584/0/en/synthesized-introduces-test-data-agent-bringing-production-faithful-validation-to-enterprise-ai-agents.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-18T06:00:00+00:00",
+    "raw_text": "Framework-agnostic and PII-free, Test Data Agent provisions realistic data and environments so enterprise teams can validate, and continuously improve, AI agents before production, including on SAP. Framework-agnostic and PII-free, Test Data Agent provisions realistic data and environments so enterprise teams can validate, and continuously improve, AI agents before production, including on SAP.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or..."
+    "summary": "Framework-agnostic and PII-free, Test Data Agent provisions realistic data and environments so enterprise teams can validate, and continuously improve, AI agents before production, including on SAP. Framework-agnostic and PII-free, Test Data Agent provisions realistic data and environments so enterprise teams can validate, and continuously improve, AI agents before production, including on SAP."
   },
   {
-    "title": "Are DSGR, HLX, ATAI, CRNX Obtaining Fair Deals for their Shareholders?",
-    "url": "https://www.prnewswire.com/news-releases/are-dsgr-hlx-atai-crnx-obtaining-fair-deals-for-their-shareholders-302853324.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-18T01:16:00+00:00",
-    "raw_text": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or...",
+    "title": "Kailas FUGA Continues Trail Shoe Innovation with New FUGA EX PRO G",
+    "url": "https://www.globenewswire.com/news-release/2026/08/18/3346586/0/en/kailas-fuga-continues-trail-shoe-innovation-with-new-fuga-ex-pro-g.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-18T06:00:00+00:00",
+    "raw_text": "Kailas FUGA has announced the FUGA EX PRO G with a gaiter for Autumn 2026 just ahead of some of Europe’s biggest trail races.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Insiders may stand to receive substantial financial benefits not available to ordinary shareholders. The proposed transactions may contain terms that could limit superior competing offers. Shareholders are encouraged to contact the firm to discuss their rights and options at no cost or..."
+    "summary": "Kailas FUGA has announced the FUGA EX PRO G with a gaiter for Autumn 2026 just ahead of some of Europe’s biggest trail races."
   },
   {
     "title": "Designkit Launches AI Video Platform that Turns Product Photos Into E-Commerce Marketing Videos",
@@ -2810,90 +2653,6 @@
       ]
     },
     "summary": "Coherent announced that it has begun sampling of its 300mm high thermal conductivity silicon carbide (SiC) substrates to leading AI semiconductor partners."
-  },
-  {
-    "title": "Toll Brothers Announces Model Home Grand Opening at Franklin Ridge Community in Franklin, Tennessee",
-    "url": "https://www.globenewswire.com/news-release/2026/08/17/3346462/1924/en/toll-brothers-announces-model-home-grand-opening-at-franklin-ridge-community-in-franklin-tennessee.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-17T20:04:00+00:00",
-    "raw_text": "FRANKLIN, Tenn., Aug. 17, 2026 (GLOBE NEWSWIRE) -- Toll Brothers, Inc. (NYSE:TOL), the nation’s leading builder of luxury homes, today announced the grand opening of its model home at Franklin Ridge , a new community of luxury single-family homes in Franklin, Tennessee. The public is invited to a model home grand opening event taking place this Thursday, Aug. 20, 2026 from 6 p.m. to 8 p.m. at the community located at 237 Berryhunter Lane in Franklin.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "FRANKLIN, Tenn., Aug. 17, 2026 (GLOBE NEWSWIRE) -- Toll Brothers, Inc. (NYSE:TOL), the nation’s leading builder of luxury homes, today announced the grand opening of its model home at Franklin Ridge , a new community of luxury single-family homes in Franklin, Tennessee. The public is invited to a model home grand opening event taking place this Thursday, Aug."
-  },
-  {
-    "title": "Crypto News: Moonberg Launches Presale Stage 2 After Record Sellout As BNB Price Prediction Targets $1000",
-    "url": "https://www.globenewswire.com/news-release/2026/08/17/3346455/0/en/crypto-news-moonberg-launches-presale-stage-2-after-record-sellout-as-bnb-price-prediction-targets-1000.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-17T20:00:00+00:00",
-    "raw_text": "ZUG, Switzerland, Aug. 17, 2026 (GLOBE NEWSWIRE) -- The BNB bulls are very keen to hear some positive crypto news about BNB, as the price has fallen by 30% over the past year, putting the $1,000 BNB price prediction target seemingly well out of reach. BNB had a huge 2025, hitting a new all-time high of over $1,300 in October, but it has since struggled to find any positive momentum.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "ZUG, Switzerland, Aug. 17, 2026 (GLOBE NEWSWIRE) -- The BNB bulls are very keen to hear some positive crypto news about BNB, as the price has fallen by 30% over the past year, putting the $1,000 BNB price prediction target seemingly well out of reach. BNB had a huge 2025, hitting a new all-time high of over $1,300 in October, but it has since struggled to find any positive momentum."
-  },
-  {
-    "title": "Toll Brothers Announces Rivercrest Model Home Grand Opening in Reno, Nevada",
-    "url": "https://www.globenewswire.com/news-release/2026/08/17/3346443/1924/en/toll-brothers-announces-rivercrest-model-home-grand-opening-in-reno-nevada.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-17T19:14:00+00:00",
-    "raw_text": "New luxury townhome community in Old Southwest Reno to debut model home on Saturday, August 22, 2026 New luxury townhome community in Old Southwest Reno to debut model home on Saturday, August 22, 2026",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "New luxury townhome community in Old Southwest Reno to debut model home on Saturday, August 22, 2026 New luxury townhome community in Old Southwest Reno to debut model home on Saturday, August 22, 2026"
-  },
-  {
-    "title": "AI/R Compass UOL Named Amazon Quick SI Partner by AWS Generative AI Innovation Center",
-    "url": "https://www.globenewswire.com/news-release/2026/08/17/3346439/0/en/ai-r-compass-uol-named-amazon-quick-si-partner-by-aws-generative-ai-innovation-center.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-17T19:02:00+00:00",
-    "raw_text": "AI/R Compass UOL has been named as an Amazon Quick SI Partner by the AWS Generative AI Innovation Center (GenAI IC).",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "AI/R Compass UOL has been named as an Amazon Quick SI Partner by the AWS Generative AI Innovation Center (GenAI IC)."
-  },
-  {
-    "title": "Bitget Wallet Champions Stablecoins as an Alternative for Global Market Transactions",
-    "url": "https://www.globenewswire.com/news-release/2026/08/17/3346425/0/en/bitget-wallet-champions-stablecoins-as-an-alternative-for-global-market-transactions.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-17T18:25:00+00:00",
-    "raw_text": "Blockchain technology and stablecoins are already transforming payment solutions and can execute cross-border transactions almost as fast as instant ....",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Blockchain technology and stablecoins are already transforming payment solutions and can execute cross-border transactions almost as fast as instant ...."
   },
   {
     "title": "TalkTalk Business & ARO to merge in GBP £200m deal - IT Brief UK",
