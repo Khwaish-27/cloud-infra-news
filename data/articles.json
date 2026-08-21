@@ -1,5 +1,33 @@
 [
   {
+    "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+    "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+    "source": "The Hacker News",
+    "published": "2026-08-21T06:06:11+00:00",
+    "raw_text": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "azure"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "security"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory"
+  },
+  {
     "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
     "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
     "source": "The Hacker News",
@@ -34,7 +62,7 @@
     "summary": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense, governments, and think tanks across Europe, as well as academia and think tanks within the U.S. These clusters include UNC6293, UNC7005, and UNC5976. \"These clusters engage in persistent, adaptive"
   },
   {
-    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
     "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
     "source": "The Hacker News",
     "published": "2026-08-20T17:23:48+00:00",
@@ -462,44 +490,6 @@
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four critical vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, stating they are being exploited in the wild. The shortcomings added to the KEV catalog are listed below - CVE-2026-65400 (CVSS score: 9.8) - An improper authentication vulnerability impacting Apple macOS that could allow an"
   },
   {
-    "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
-    "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
-    "source": "The Hacker News",
-    "published": "2026-08-19T06:01:53+00:00",
-    "raw_text": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration. The tech giant said it required multiple endpoint and network behaviors to align before",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "malware"
-      ]
-    },
-    "summary": "Microsoft Defender Experts have linked more than 30 web domains to MacSync Stealer, a macOS-focused information stealer, after correlating recurring endpoint and network behaviors across changing infrastructure, tracing the malware from payload retrieval through data collection, staging, and exfiltration. The tech giant said it required multiple endpoint and network behaviors to align before"
-  },
-  {
-    "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
-    "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-    "source": "The Hacker News",
-    "published": "2026-08-19T05:39:25+00:00",
-    "raw_text": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest. The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "exploit",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "A JavaServer Pages (JSP) web shell deployed following the exploitation of a critical security flaw in PTC Windchill and FlexPLM servers is specifically designed for the enterprise Product Lifecycle Management (PLM) software, according to new findings from ReliaQuest. The cybersecurity company characterized the web shell as a fully equipped extortion platform capable of mapping sensitive vault"
-  },
-  {
     "title": "Hackers poison arrayref Rust crate to push infostealer malware",
     "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
     "source": "BleepingComputer",
@@ -772,6 +762,42 @@
     "summary": "The U.S. has charged 17 Iranians, alleged members of a hacking-for-hire company called Mabna Institute, involved in years-long operations that stole data from American organizations. [...]"
   },
   {
+    "title": "GitLab 19.3 helps enterprises scale agentic development securely",
+    "url": "https://www.helpnetsecurity.com/2026/08/21/gitlab-19-3-updates/",
+    "source": "Help Net Security",
+    "published": "2026-08-21T07:12:16+00:00",
+    "raw_text": "GitLab has announced updates that give enterprises more control as they scale agentic software development. GitLab Dedicated customers, who already run their most sensitive software delivery workloads on GitLab, can now run GitLab Duo Agent Platform inside that same single tenant environment and region, connect their own models for inference, and keep AI-processed data inside their existing security boundary. GitLab 19.3 also ships today with support for Secrets Manager, Flow Creator Agent, and Bulk SAST … More → The post GitLab 19.3 helps enterprises scale agentic development securely appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "GitLab has announced updates that give enterprises more control as they scale agentic software development. GitLab Dedicated customers, who already run their most sensitive software delivery workloads on GitLab, can now run GitLab Duo Agent Platform inside that same single tenant environment and region, connect their own models for inference, and keep AI-processed data inside their existing security boundary. GitLab 19.3 also ships today with support for Secrets Manager, Flow Creator Agent, and Bulk SAST … More → The post GitLab 19.3 helps enterprises scale agentic development securely appeared first on Help Net Security ."
+  },
+  {
+    "title": "A $25 template helped scammers build hundreds of phantom bank domains",
+    "url": "https://www.helpnetsecurity.com/2026/08/21/phantom-bank-websites-fraud-research/",
+    "source": "Help Net Security",
+    "published": "2026-08-21T05:00:59+00:00",
+    "raw_text": "A phrase on a suspicious website turned into an investigation of phantom banks built to support scams, according to new research from Allure Security. Molly DeQuattro, the company’s VP of Operations, was reviewing a domain that resembled the brand of one of its financial services clients. The page carried none of that client’s branding. It presented an unrelated bank instead. One phrase caught her attention: “one of the largest digital banking providers.” She searched public … More → The post A $25 template helped scammers build hundreds of phantom bank domains appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "A phrase on a suspicious website turned into an investigation of phantom banks built to support scams, according to new research from Allure Security. Molly DeQuattro, the company’s VP of Operations, was reviewing a domain that resembled the brand of one of its financial services clients. The page carried none of that client’s branding. It presented an unrelated bank instead."
+  },
+  {
     "title": "Nearly half of enterprises have no one leading PQC migration",
     "url": "https://www.helpnetsecurity.com/2026/08/21/axiad-pqc-migration-readiness-gaps-report/",
     "source": "Help Net Security",
@@ -980,39 +1006,6 @@
       ]
     },
     "summary": "Tufin has announced the availability of Tufin Orchestration Suite (TOS) 5.3, helping enterprises further simplify security operations and maintain consistent control across increasingly complex multi-vendor, hybrid environments. As enterprise security environments continue to expand across cloud, firewalls, SASE, SD-WAN, microsegmentation, and distributed infrastructure, organizations increasingly struggle to govern connectivity across a growing mix of vendor-specific tools and management platforms. In fact, recent research shows that almost half (49%) of organizations have more than 20 security … More → The post Tufin expands Unified Control Plane with AI intelligence and multi-vendor automation appeared first on Help Net Security ."
-  },
-  {
-    "title": "US charges 17 Iranian hackers over 31-terabyte academic data theft",
-    "url": "https://www.helpnetsecurity.com/2026/08/20/us-iranian-hackers-mabna-institute-charged/",
-    "source": "Help Net Security",
-    "published": "2026-08-20T07:28:56+00:00",
-    "raw_text": "The U.S. has charged 17 alleged members of Mabna Institute, an Iranian hacking-for-hire company accused of running a years-long campaign that stole data from American universities, companies, and government agencies. The post US charges 17 Iranian hackers over 31-terabyte academic data theft appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker",
-        "security"
-      ]
-    },
-    "summary": "The U.S. has charged 17 alleged members of Mabna Institute, an Iranian hacking-for-hire company accused of running a years-long campaign that stole data from American universities, companies, and government agencies. The post US charges 17 Iranian hackers over 31-terabyte academic data theft appeared first on Help Net Security ."
-  },
-  {
-    "title": "AI is making fraud harder to spot and identity harder to prove",
-    "url": "https://www.helpnetsecurity.com/2026/08/20/experian-digital-identity-fraud-risks-report/",
-    "source": "Help Net Security",
-    "published": "2026-08-20T05:00:07+00:00",
-    "raw_text": "Online fraud has become a routine concern for consumers and businesses that rely on digital accounts, payments and customer service. Experian’s 2026 U.S. Identity & Fraud Report describes a market where scams extend across messages, websites, documents, voices, images and account activity. Security measures that make consumers feel most secure (Source: Experian) Deception spreads across digital channels Fraud used to be treated as an isolated event, such as a forged check, stolen credit card or … More → The post AI is making fraud harder to spot and identity harder to prove appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Online fraud has become a routine concern for consumers and businesses that rely on digital accounts, payments and customer service. Experian’s 2026 U.S. Identity & Fraud Report describes a market where scams extend across messages, websites, documents, voices, images and account activity. Security measures that make consumers feel most secure (Source: Experian) Deception spreads across digital channels Fraud used to be treated as an isolated event, such as a forged check, stolen credit card or … More → The post AI is making fraud harder to spot and identity harder to prove appeared first on Help Net Security ."
   },
   {
     "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -1653,7 +1646,7 @@
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/10-questions-for-your-startup-developers/",
     "source": "Google Cloud Blog",
     "published": "2026-08-20T16:00:00+00:00",
-    "raw_text": "It’s never been easier to start an AI-powered startup on Google Cloud. You grab an API key from Google AI Studio at breakfast, paste it into Antigravity, and by lunch you’ll have a nascent prototype of your product. But it’s not all one straight line to progress. It's common to bump into these three challenges as you build out your stack: A leaked API key racks up a large bill in 48 hours . A \"quick\" migration from AI Studio to Gemini Enterprise Agent Platform stalls the roadmap for weeks because nobody on the team owns Identity and Access Management (IAM). The launch works, until the app starts returning HTTP 429 Too Many Requests because of default per-project quotas, and there's no clean path to more capacity without paying a premium. None of these are unique edge cases. . They're default failure modes of moving fast without a plan, and we've all done it at least once. Below are the 10 questions every startup should be ready to answer before they scale, grouped into the three phases where decisions can shape your future: Onboard (setting up your own projects and identities right) Scale (getting more throughput without breaking the bank) Govern (keeping costs, keys, and agents from running away). Each question ends with a short, runnable snippet you can copy into your own project today. These ten are scoped to the prototype-to-production transition itself. Adjacent decisions that matter just as much but aren't specific to that move, your data layer and RAG architecture, CI/CD, network design, are deliberately out of frame here. Onboard: get the foundation right (in the first hour). #1 Where should I start: Google AI Studio or Gemini Enterprise Agent Platform? Both surfaces expose the same Gemini family of models, but they solve different problems. Google AI Studio (with the Gemini Developer API) is the fastest path from an idea to working code. A browser IDE, an API key, a generous free tier, and no cloud project to configure. It's where most ideas should start, and Google's own guidance says as much. Gemini Enterprise Agent Platform (formerly Vertex AI) has the same Gemini models (plus 3rd party and OSS ones) with enterprise controls around them: IAM and service-account auth instead of raw keys, VPC Service Controls, Cloud Logging and Monitoring, reserved capacity, regional endpoints, and the compliance surface your first enterprise customer's security review will ask about. The right answer for most startups is both , sequenced deliberately : first prototype in AI Studio, then migrate before you have real users. The danger for startups is treating them as interchangeable solutions, AI Studio's simple key model does not translate to enterprise controls, and Agent Platform's IAM model might look like overkill until the day it saves you from a stolen-credential incident. It's less work than it sounds like. The unified google-genai SDK targets both: code_block <ListValue: [StructValue([('code', '# Prototype: Google AI Studio, raw API key\\r\\nfrom google import genai\\r\\nclient = genai.Client(api_key=\"YOUR_AI_STUDIO_KEY\")\\r\\n\\r\\n# Production: GEAP, no key — uses Application Default Credentials (ADC)\\r\\nfrom google import genai\\r\\nclient = genai.Client(\\r\\n vertexai=True,\\r\\n project=\"my-startup-prod\",\\r\\n location=\"us-central1\",\\r\\n)\\r\\n\\r\\nresp = client.models.generate_content(\\r\\n model=\"gemini-2.5-pro\",\\r\\n contents=\"Summarize this contract in three bullets.\",\\r\\n)\\r\\nprint(resp.text)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee5a550>)])]> The rule of thumb: the day you have users who are not you or your startup colleagues, you should already be on Gemini Enterprise Agent Platform. #2 How do I set up a Google Cloud project without becoming an IAM expert? The biggest reason startups stall on the migration to Agent Platform isn't the code, it's the operational leap from \"here's an API key\" to a cloud project with folders, service accounts, org policies, logging, and IAM bindings. If your team doesn't have a dedicated cloud admin, that first project setup can eat a week of engineering time. Three moves cut that dramatically: Use an opinionated project template instead of clicking through the console. The Cloud Setup checklist and the Google Cloud Architecture Framework give you a production-grade folder hierarchy (prod / non-prod / dev), a central logging + monitoring project, Security Command Center turned on, and baseline org policies, without you having to design them from scratch. Enable the APIs you'll actually use, once. Batch it so you're not doing it project-by-project when you need it. The billing-link step is not optional. Every paid API you're about to enable will refuse to activate on a project with no billing account attached, so we handle that first. Let Gemini pick the roles , but ask it for the narrow ones. You don't have to memorize the roles reference. In the Grant access dialog, Help me choose roles lets you describe the task in plain language, \"this service account needs to call Gemini models and read one Cloud Storage bucket\", and get predefined roles back with the reasoning shown. One catch worth knowing on day one: by default it suggests roles that cover common journeys, which usually means a service's Admin, Editor, or Viewer. Those are broader than you want. Say \"least privileged\" or \"narrowest access\" in the prompt and it returns granular roles instead. Same amount of typing, considerably smaller blast radius when a credential leaks. Sources: Get predefined role suggestions with Gemini assistance code_block <ListValue: [StructValue([('code', '# One-shot: create a Vertex-ready project and turn on the services a\\r\\n# typical AI startup uses.\\r\\ngcloud projects create my-startup-prod --name=\"My Startup (prod)\"\\r\\ngcloud config set project my-startup-prod\\r\\n\\r\\n# REQUIRED before enabling billing-dependent APIs (aiplatform, run, etc.).\\r\\n# Use `gcloud billing accounts list` to find your billing account ID.\\r\\ngcloud billing projects link my-startup-prod --billing-account=012345-6789AB-CDEF01\\r\\n\\r\\ngcloud services enable \\\\\\r\\n aiplatform.googleapis.com \\\\\\r\\n run.googleapis.com \\\\\\r\\n artifactregistry.googleapis.com \\\\\\r\\n logging.googleapis.com \\\\\\r\\n monitoring.googleapis.com \\\\\\r\\n secretmanager.googleapis.com \\\\\\r\\n cloudbilling.googleapis.com'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaed50e50>)])]> Sources: gcloud services enable reference , · gcloud billing projects link (GA) , GE Agent Platform environment setup . If you're a solo founder, resist the urge to build in your personal GCP account. Create a proper organization or self-owned org first, then create the project inside it. That single decision can make everything else, fromIAM to billing and audit, dramatically easier. #3 I'm on Google Cloud, how should my code actually authenticate: API keys, service accounts, or user credentials? There's a hierarchy of safety here, and the easiest option is rarely the right one in production. Raw API keys are fine for local prototyping. They are dangerous in production because they are long-lived, easy to leak into a client bundle or a public repo, and grant unbounded access until you notice. User credentials via OAuth (application default credentials) are best for interactive tools, CLIs, and any code that runs on a developer's laptop. Service accounts with least-privilege IAM roles are the right answer for anything running on a server, in a container, or in a scheduled job. The pattern you're aiming for is one where your code never sees a key at all . It just calls the Google Auth library , which quietly reads Application Default Credentials (ADC) from the environment, a short-lived token minted for whichever service account is attached to your Cloud Run service, GKE workload, or Compute Engine VM. You get enterprise-grade auth without writing any auth code. code_block <ListValue: [StructValue([('code', '# On a developer laptop\\r\\ngcloud auth application-default login\\r\\n\\r\\n# On a server (Cloud Run, GKE, etc.) — no login, no key file.\\r\\n# Attach a service account with just the roles the app needs.\\r\\ngcloud run deploy my-agent \\\\\\r\\n --image=us-docker.pkg.dev/my-startup-prod/agents/api:v1 \\\\\\r\\n --service-account=agent-runtime@my-startup-prod.iam.gserviceaccount.com \\\\\\r\\n --region=us-central1'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaed52690>)])]> code_block <ListValue: [StructValue([('code', '# Application code — notice: no keys, no secrets.\\r\\nfrom google import genai\\r\\n\\r\\nclient = genai.Client(\\r\\n vertexai=True,\\r\\n project=\"my-startup-prod\",\\r\\n location=\"us-central1\",\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaed50b50>)])]> Do one last favor to your future self: give that service account the minimum IAM role your workload actually needs, usually roles/aiplatform.user for calling models, not the broader admin roles. It takes an extra 30 seconds and prevents the credential from becoming a master key if it leaks. #4 When should I actually stop procrastinating and migrate from AI Studio's API key to Agent Platform's IAM model? Sooner than you'd like, and the correct trigger is not when it breaks. It's when any of these is true: Your key has left your laptop (checked into a repo, pasted into a Slack, shipped in a mobile app). You have more than one person on the team who needs to call the API. You're spending more than a few hundred dollars a month. You're about to onboard paying customers. A potential pitfall that can catch growing startups off guard is simple: a leaked Gemini API key on an account that normally spends $180 a month gets scraped from a public repo and used to run distillation attacks, accumulating tens of thousands of dollars in charges before the owner even sees the first billing alert. The Google Cloud Shared Responsibility Model is unambiguous: the customer is liable for charges incurred with their own valid credentials. The migration itself is genuinely smaller than the anxiety around it. In google-genai it's the two-line change shown in #1. What takes real time is the project setup around it, which is exactly why #2 exists. Practical checklist for cutover day: code_block <ListValue: [StructValue([('code', '# 1. Revoke every existing AI Studio key that has ever left a laptop.\\r\\n# (Go to https://aistudio.google.com/apikey and delete them.)\\r\\n\\r\\n# 2. Confirm your production code has no api_key= arguments.\\r\\ngrep -rn \"api_key\" src/\\r\\n\\r\\n# 3. Enable GEAP and confirm ADC works locally.\\r\\ngcloud services enable aiplatform.googleapis.com\\r\\ngcloud auth application-default login\\r\\npython -c \"\\r\\nfrom google import genai\\r\\nc = genai.Client(vertexai=True, project=\\'my-startup-prod\\', location=\\'us-central1\\')\\r\\nprint(c.models.generate_content(model=\\'gemini-2.5-flash\\', contents=\\'ping\\').text)\\r\\n\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaed524d0>)])]> If step 3 prints a response, you're on Agent Platform. Phase B, Scale: get more capacity without paying a premium. #5 Now that I'm shipping, why on earth am I getting all these HTTP 429 errors, and how do I make them stop? 429 Too Many Requests from Agent Platform almost always means one of two things: You've hit the Dynamic Shared Quota (DSQ) ceiling for your project's tier. DSQ is a shared pool sized against your project's history, new projects start with modest limits by design, to prevent abuse across the platform. You're calling a global endpoint during a global demand spike, competing with worldwide traffic for shared capacity. The instinctive reaction is to file a quota-increase ticket. You can do that if you must, but two architectural moves usually solve the problem faster and cheaper. Pin to a regional endpoint. Over half of startup traffic on Agent Platform defaults to global routing. Pinning to a specific region (say us-central1 ) sidesteps global contention and typically improves latency at the same time. (One narrow exception, which we'll get to in the next question: if you specifically want Priority PayGo, that feature currently only ships on the `global` endpoint. For everything else, pin regionally.): code_block <ListValue: [StructValue([('code', 'from google import genai\\r\\n\\r\\n# Global (default): competes against worldwide demand.\\r\\n# Regional: routes only to the regional cluster, less contention.\\r\\nclient = genai.Client(\\r\\n vertexai=True,\\r\\n project=\"my-startup-prod\",\\r\\n location=\"us-central1\", # <-- this is the one-line fix\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8e210>)])]> Add real retry and backoff. A 429 is a retryable signal, not a fatal error. Any production client should have exponential backoff with jitter. The modern google-genai SDK ships this behavior built in, but only if you actually enable it. This is easy to overlook. Don't reach for the classic `google.api_core.retry.if_transient_error` decorator you may have seen on older Vertex code. It's designed for the legacy exception classes and does not recognize the new `google.genai.errors.APIError, so it will silently pass 429s through without retrying. Use the SDK's built-in retry options instead: code_block <ListValue: [StructValue([('code', 'from google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(\\r\\n vertexai=True, project=\"my-startup-prod\", location=\"us-central1\",\\r\\n http_options=types.HttpOptions(retry_options=types.HttpRetryOptions(\\r\\n attempts=5, initial_delay=1.0, max_delay=60.0, exp_base=2.0, jitter=1.0,\\r\\n http_status_codes=[408, 429, 500, 502, 503, 504],\\r\\n ))\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8ed90>)])]> How do you see this coming? Preferably not from a user telling you. Agent Platform publishes serving metrics to Cloud Monitoring, and there is a prebuilt dashboard you don't have to assemble: Console → Agent Platform → Dashboard → Model observability. It gives you requests per second, token throughput, first-token latency, and error rates out of the box. The metric to actually alert on is aiplatform.googleapis.com/publisher/online_serving/model_invocation_count . It carries an error_category label with values of user , system , or capacity . Alerting on capacity isolates genuine throttling from your own bad requests, which a raw 429 count won't do. One thing worth internalizing, because it trips people up: you cannot build a \"warn me at 80% of my quota\" alert for Standard PayGo. Under Dynamic Shared Quota there is no fixed per-project number to be at 80% of. A 429 means transient contention for shared capacity, not that you crossed a line. Percent-of-limit alerting only becomes meaningful once you're on Provisioned Throughput, which does expose real limit metrics. code_block <ListValue: [StructValue([('code', 'gcloud monitoring policies create --policy-from-file=capacity-alert.yaml'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8e850>)])]> Sources: Agent Platform metrics list , Model observability dashboard , RetryOptions source , core retry_base.py , genai errors.py , reduce 429 errors , gcloud monitoring policies create , Dynamic Shared Quota . Follow the Agent Platform rate limits documentation to understand what your project's current ceiling actually is before you assume you've outgrown it. #6 Which consumption mode do I pay for: Standard PayGo, Priority PayGo, or Provisioned Throughput? Three consumption models, three completely different workload shapes, and three completely different ways to proceed. Picking the right one can help startups see meaningful savings on AI bills. First let’s define them and then see when they are, or aren’t, a good fit: Standard PayGo (DSQ) : Pay per token from a shared pool; cheap, no guarantees. Priority PayGo : Pay per token at a premium to jump the queue. Provisioned Throughput (PT) : Prepay for reserved capacity; predictable, use it or lose it. Consumption type Best for Watch out for Standard PayGo (DSQ) Early-stage, low-QPS, spiky prototype traffic 429s during spikes; no reliability SLO Priority PayGo Bursty, revenue-critical traffic that can't tolerate 429s Roughly 1.8x the standard token price Provisioned Throughput (PT) Steady, predictable, high-volume production traffic Wasted spend if utilization is under ~40%; overflow to PayGo on spikes The dominant startup mistake is buying PT too early. Usually this happens the week after a big launch when it feels like traffic will only ever go up. PT is reserved capacity. You pay whether you use it or not, and it only starts paying you back once your baseline is genuinely predictable, not just aspirational. Here’s a pragmatic sequence: Weeks one through four on Standard PayGo. Use it to measure your real request shape (tokens per minute at p50 and p99, request bursts, batchable vs. real-time split). When you get your first bad 429 storm, flip on Priority PayGo for the traffic that actually matters. It's a config change, not a purchase order, nobody in procurement needs to be involved: code_block <ListValue: [StructValue([('code', '# Priority PayGo request: use the global endpoint + two extra headers.\\r\\nfrom google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(vertexai=True, project=\"my-startup-prod\", location=\"global\")\\r\\nresp = client.models.generate_content(\\r\\n model=\"gemini-2.5-pro\",\\r\\n contents=\"Rank these support tickets by urgency: ...\",\\r\\n config=types.GenerateContentConfig(\\r\\n # Priority PayGo headers, per current GEAP docs.\\r\\n http_options=types.HttpOptions(headers={\"X-Vertex-AI-LLM-Request-Type\": \"shared\", \"X-Vertex-AI-LLM-Shared-Request-Type\": \"priority\"}),\\r\\n ),\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8d5d0>)])]> 3. Once you can predict your baseline TPM, buy PT to cover the flat baseline and let anything above it overflow to PayGo. That's the combined pattern Google recommends for exactly this reason. Best of both worlds, not marketing spin. Sources: Priority PayGo docs , google-genai HttpOptions source , GEAP REST reference . #7 Which of my requests actually need to be live, and which should be batch jobs? Most startup workloads are secretly batch jobs pretending to be real-time. Every one you move off the interactive path frees up DSQ headroom for the traffic that genuinely needs to be fast, the traffic where a user is actually watching a spinner. Three questions to help you sort your traffic: Does a human have to see the result within a second? That means: Live inference. Can the user wait a few seconds and see a spinner? That means: Still live, but a candidate for streaming. Would the user tolerate \"we'll email you when it's ready\" or \"check back in a bit\"? That means: Batch prediction . Batch prediction on Agent Platform runs in a completely separate queue, does not consume your interactive DSQ, and is typically about half the price of on-demand inference. That's a rare double win: faster live traffic and a lower bill. code_block <ListValue: [StructValue([('code', '# Kick off a batch prediction job from a JSONL file in Cloud Storage.\\r\\n# Each line is one prompt; results land in another Cloud Storage prefix.\\r\\nfrom google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(vertexai=True, project=\"my-startup-prod\", location=\"us-central1\")\\r\\n\\r\\njob = client.batches.create(\\r\\n model=\"gemini-2.5-flash\",\\r\\n src=\"gs://my-startup-prod-batch/inputs/nightly-summaries.jsonl\",\\r\\n config=types.CreateBatchJobConfig(\\r\\n dest=\"gs://my-startup-prod-batch/outputs/\",\\r\\n ),\\r\\n)\\r\\nprint(job.name, job.state)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8ff50>)])]> Common candidates: nightly document summarization, background classification of new signups, bulk translation, embedding backfills, evaluation runs against your test set. If any of those are on your live path today, moving them is often the single highest-leverage change you can make this week. Govern: Keep costs, keys, and agents under control. #8 How do I set spend caps that actually reduce cost, and not just send me polite emails while my bill triples? Until recently the honest answer was that budgets only notify, and you had to build your own brake pedal. That changed in July. There are now three mechanisms, and you should think of them as layers. A spend cap budget (Preview). Cloud Billing budgets can now enforce rather than just email. Set a spend cap on a project and, when usage costs cross 100% of the budget, Google pauses the service until you manually lift it. Agent Platform is explicitly on the eligible list, alongside the Gemini API, Cloud Run, and Cloud Run functions. Alerts still fire at 50% and 80%, so the pause isn't a surprise. Three things to know before you rely on it: Each cap covers one project and one eligible service. It is not account-wide protection. If you want Agent Platform and Cloud Run both capped, that's two caps. Enforcement is not instant and is based on estimated costs. Overages past the cap are billed as normal, so set the number below your real ceiling. Lifting it is manual, and service resumption can take up to an hour. It also pauses Provisioned Throughput usage, so if you've prepaid for capacity, a cap hit stops that too. It's in Preview as of publication, and the eligible-service list is documented as growing. Check the current list before you design around it. 2. A billing budget with a Pub/Sub trigger that disables billing . Still the right tool when you need blast radius the spend cap can't give you: multiple services at once, an entire project, or a service that isn't eligible yet. When the budget hits a threshold, Pub/Sub fires a Cloud Function that detaches the billing account, which stops all billable activity within minutes. Blunter and more dangerous than the native cap — it can leave resources unrecoverable — so reach for it second, not first. Full walkthrough: Automatically respond to budget notifications . code_block <ListValue: [StructValue([('code', '# Sketch: create a budget SCOPED TO ONE PROJECT that publishes to Pub/Sub at 50%, 90%, 100%.\\r\\ngcloud billing budgets create \\\\\\r\\n --billing-account=012345-6789AB-CDEF01 \\\\\\r\\n --display-name=\"my-startup-prod hard stop\" \\\\\\r\\n --budget-amount=2000USD \\\\\\r\\n --filter-projects=projects/my-startup-prod \\\\\\r\\n --threshold-rule=percent=0.5 \\\\\\r\\n --threshold-rule=percent=0.9 \\\\\\r\\n --threshold-rule=percent=1.0,basis=current-spend \\\\\\r\\n --notifications-rule-pubsub-topic=projects/my-startup-prod/topics/budget-alerts'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8f890>)])]> Sources: Manage spend cap budgets , Set up programmatic notifications gcloud billing budgets create reference , Cloud Billing budgets concepts , Disable billing with notifications walkthrough , Programmatic notification payload schema . Two things to get ahead of for, as the defaults can cause unexpected issues: Limit your budget scope: Without --filter-projects, your budget applies to your entire billing account. A spike in any project will trigger the kill switch for everything. Deploy locally: The budget notification doesn't specify which project is affected. To ensure the kill switch only affects the intended project, deploy your Cloud Function in the same project you're protecting (e.g., my-startup-prod). Then wire up a tiny Cloud Function to that topic that calls projects.updateBillingInfo to unlink the billing account when the 100% threshold fires. That is your circuit breaker. Mechanical ceilings via quota overrides. Even if you never set up the above kill switch, you can cap the rate at which cost can accumulate by setting explicit per-model, per-region quotas below the platform default. If your app never legitimately needs more than 500 requests per minute for gemini-2.5-pro , cap it there in the Cloud Quotas console , a leaked key can't burn what the quota flatly refuses to serve. #9 Where should I actually keep secrets? (Not in .env files!) The short answer is: Secret Manager . Not in environment variables, not in .env files, and never in your repo. Grant read access via IAM only to the service account that needs it. code_block <ListValue: [StructValue([('code', '# Store a third-party API key (Stripe, OpenAI, whatever).\\r\\necho -n \"sk_live_xxx\" | gcloud secrets create stripe-live-key --data-file=-\\r\\n\\r\\n# Grant only the runtime service account access to read it.\\r\\ngcloud secrets add-iam-policy-binding stripe-live-key \\\\\\r\\n --member=serviceAccount:agent-runtime@my-startup-prod.iam.gserviceaccount.com \\\\\\r\\n --role=roles/secretmanager.secretAccessor'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8d910>)])]> code_block <ListValue: [StructValue([('code', '# Application code fetches it at startup; nothing lives on disk.\\r\\nfrom google.cloud import secretmanager\\r\\nsm = secretmanager.SecretManagerServiceClient()\\r\\nresp = sm.access_secret_version(\\r\\n name=\"projects/my-startup-prod/secrets/stripe-live-key/versions/latest\"\\r\\n)\\r\\nstripe_key = resp.payload.data.decode(\"utf-8\")'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1eaee8c250>)])]> Then two little disciplines that pay for themselves the first time you need them: Rotation on a schedule and on suspicion. Secret Manager versions are cheap; treat them as immutable and roll forward. Detection when a secret leaks. Secret Manager notifications and Google Cloud's Sensitive Data Protection can catch keys checked into a repo or pasted into a log stream, before an attacker does. For any AI application that acts on a user's behalf, calls Gmail on their behalf, reads a Drive folder, hits a third-party SaaS with the user's credentials, do not store a long-lived token. Use OAuth 2.0 with short-lived access tokens and a refresh flow, so that when a user rage-quits or a compromised account gets revoked, the agent loses access at the same time. #10 How do I stop my brand new AI agent from doing something it absolutely shouldn't? An agent that can call tools, browse the web, or execute code needs the same defense-in-depth thinking as any other production service, arguably more, because it makes decisions that neither you nor the model can fully predict in advance. Four layers, none optional once you have real users: 1. Identity for the agent itself. Give the agent its own service account, scoped only to the resources and tools it genuinely needs, the exact same least-privilege principle as any other workload. Agent Engine supports first-class agent identity so every action can be attributed to a specific agent instance in your audit logs. 2. Sandboxed code execution. If your agent runs generated code, a common pattern for data-analysis or \"run this Python for me\" flows, do not run it in your application process. Use an isolated sandbox so a bad combination can't touch your production data. code_block <ListValue: [StructValue([('code', '# Enable server-side code execution inside a sandbox for a request.\\r\\nfrom google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(vertexai=True, project=\"my-startup-prod\", location=\"us-central1\")\\r\\nresp = client.models.generate_content(\\r\\n model=\"gemini-2.5-pro\",\\r\\n contents=\"Compute the correlation between these two columns: ...\",\\r\\n config=types.GenerateContentConfig(\\r\\n tools=[types.Tool(code_execution=types.ToolCodeExecution())],\\r\\n ),\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1ec0287850>)])]> 3. Prompt and response filtering. Model Armor sits in front of your model calls and screens for prompt injection, jailbreaks, sensitive-data exfiltration, and off-brand output, all of which are essentially guaranteed the moment you have real users being real users. 4. Behavioral monitoring. Security Command Center with threat detection flags anomalies in agent behavior, a service account suddenly calling an API it's never touched before, an agent reaching out to an unfamiliar external host, an unexpected spike in privileged operations. In near-real-time. None of these are optional once your agent is acting on behalf of a real user or handling real money. Your homework, so to speak: Audit for raw API keys in your repo, your notebooks, and your production runtime. Rotate anything that shouldn't be there. Move any workload that doesn't need a synchronous response to the Batch API. Turn on the Model observability dashboard and put one alert on capacity errors, so the next 429 reaches you before it reaches a customer. Set a spend cap on the project and, and keep an eye out for 50% and 80%alerts, if usage crosses 100% of the budget, Google will pause the service until you manually lift it . Do those three things this week and you're already ahead of most startups shipping AI features. Have a scenario you'd like us to cover next? Reach us at Google Cloud for Startups .",
+    "raw_text": "It’s never been easier to start an AI-powered startup on Google Cloud. You grab an API key from Google AI Studio at breakfast, paste it into Antigravity, and by lunch you’ll have a nascent prototype of your product. But it’s not all one straight line to progress. It's common to bump into these three challenges as you build out your stack: A leaked API key racks up a large bill in 48 hours . A \"quick\" migration from AI Studio to Gemini Enterprise Agent Platform stalls the roadmap for weeks because nobody on the team owns Identity and Access Management (IAM). The launch works, until the app starts returning HTTP 429 Too Many Requests because of default per-project quotas, and there's no clean path to more capacity without paying a premium. None of these are unique edge cases. . They're default failure modes of moving fast without a plan, and we've all done it at least once. Below are the 10 questions every startup should be ready to answer before they scale, grouped into the three phases where decisions can shape your future: Onboard (setting up your own projects and identities right) Scale (getting more throughput without breaking the bank) Govern (keeping costs, keys, and agents from running away). Each question ends with a short, runnable snippet you can copy into your own project today. These ten are scoped to the prototype-to-production transition itself. Adjacent decisions that matter just as much but aren't specific to that move, your data layer and RAG architecture, CI/CD, network design, are deliberately out of frame here. Onboard: get the foundation right (in the first hour). #1 Where should I start: Google AI Studio or Gemini Enterprise Agent Platform? Both surfaces expose the same Gemini family of models, but they solve different problems. Google AI Studio (with the Gemini Developer API) is the fastest path from an idea to working code. A browser IDE, an API key, a generous free tier, and no cloud project to configure. It's where most ideas should start, and Google's own guidance says as much. Gemini Enterprise Agent Platform (formerly Vertex AI) has the same Gemini models (plus 3rd party and OSS ones) with enterprise controls around them: IAM and service-account auth instead of raw keys, VPC Service Controls, Cloud Logging and Monitoring, reserved capacity, regional endpoints, and the compliance surface your first enterprise customer's security review will ask about. The right answer for most startups is both , sequenced deliberately : first prototype in AI Studio, then migrate before you have real users. The danger for startups is treating them as interchangeable solutions, AI Studio's simple key model does not translate to enterprise controls, and Agent Platform's IAM model might look like overkill until the day it saves you from a stolen-credential incident. It's less work than it sounds like. The unified google-genai SDK targets both: code_block <ListValue: [StructValue([('code', '# Prototype: Google AI Studio, raw API key\\r\\nfrom google import genai\\r\\nclient = genai.Client(api_key=\"YOUR_AI_STUDIO_KEY\")\\r\\n\\r\\n# Production: GEAP, no key — uses Application Default Credentials (ADC)\\r\\nfrom google import genai\\r\\nclient = genai.Client(\\r\\n vertexai=True,\\r\\n project=\"my-startup-prod\",\\r\\n location=\"us-central1\",\\r\\n)\\r\\n\\r\\nresp = client.models.generate_content(\\r\\n model=\"gemini-2.5-pro\",\\r\\n contents=\"Summarize this contract in three bullets.\",\\r\\n)\\r\\nprint(resp.text)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106971d50>)])]> The rule of thumb: the day you have users who are not you or your startup colleagues, you should already be on Gemini Enterprise Agent Platform. #2 How do I set up a Google Cloud project without becoming an IAM expert? The biggest reason startups stall on the migration to Agent Platform isn't the code, it's the operational leap from \"here's an API key\" to a cloud project with folders, service accounts, org policies, logging, and IAM bindings. If your team doesn't have a dedicated cloud admin, that first project setup can eat a week of engineering time. Three moves cut that dramatically: Use an opinionated project template instead of clicking through the console. The Cloud Setup checklist and the Google Cloud Architecture Framework give you a production-grade folder hierarchy (prod / non-prod / dev), a central logging + monitoring project, Security Command Center turned on, and baseline org policies, without you having to design them from scratch. Enable the APIs you'll actually use, once. Batch it so you're not doing it project-by-project when you need it. The billing-link step is not optional. Every paid API you're about to enable will refuse to activate on a project with no billing account attached, so we handle that first. Let Gemini pick the roles , but ask it for the narrow ones. You don't have to memorize the roles reference. In the Grant access dialog, Help me choose roles lets you describe the task in plain language, \"this service account needs to call Gemini models and read one Cloud Storage bucket\", and get predefined roles back with the reasoning shown. One catch worth knowing on day one: by default it suggests roles that cover common journeys, which usually means a service's Admin, Editor, or Viewer. Those are broader than you want. Say \"least privileged\" or \"narrowest access\" in the prompt and it returns granular roles instead. Same amount of typing, considerably smaller blast radius when a credential leaks. Sources: Get predefined role suggestions with Gemini assistance code_block <ListValue: [StructValue([('code', '# One-shot: create a Vertex-ready project and turn on the services a\\r\\n# typical AI startup uses.\\r\\ngcloud projects create my-startup-prod --name=\"My Startup (prod)\"\\r\\ngcloud config set project my-startup-prod\\r\\n\\r\\n# REQUIRED before enabling billing-dependent APIs (aiplatform, run, etc.).\\r\\n# Use `gcloud billing accounts list` to find your billing account ID.\\r\\ngcloud billing projects link my-startup-prod --billing-account=012345-6789AB-CDEF01\\r\\n\\r\\ngcloud services enable \\\\\\r\\n aiplatform.googleapis.com \\\\\\r\\n run.googleapis.com \\\\\\r\\n artifactregistry.googleapis.com \\\\\\r\\n logging.googleapis.com \\\\\\r\\n monitoring.googleapis.com \\\\\\r\\n secretmanager.googleapis.com \\\\\\r\\n cloudbilling.googleapis.com'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3cf10>)])]> Sources: gcloud services enable reference , · gcloud billing projects link (GA) , GE Agent Platform environment setup . If you're a solo founder, resist the urge to build in your personal GCP account. Create a proper organization or self-owned org first, then create the project inside it. That single decision can make everything else, fromIAM to billing and audit, dramatically easier. #3 I'm on Google Cloud, how should my code actually authenticate: API keys, service accounts, or user credentials? There's a hierarchy of safety here, and the easiest option is rarely the right one in production. Raw API keys are fine for local prototyping. They are dangerous in production because they are long-lived, easy to leak into a client bundle or a public repo, and grant unbounded access until you notice. User credentials via OAuth (application default credentials) are best for interactive tools, CLIs, and any code that runs on a developer's laptop. Service accounts with least-privilege IAM roles are the right answer for anything running on a server, in a container, or in a scheduled job. The pattern you're aiming for is one where your code never sees a key at all . It just calls the Google Auth library , which quietly reads Application Default Credentials (ADC) from the environment, a short-lived token minted for whichever service account is attached to your Cloud Run service, GKE workload, or Compute Engine VM. You get enterprise-grade auth without writing any auth code. code_block <ListValue: [StructValue([('code', '# On a developer laptop\\r\\ngcloud auth application-default login\\r\\n\\r\\n# On a server (Cloud Run, GKE, etc.) — no login, no key file.\\r\\n# Attach a service account with just the roles the app needs.\\r\\ngcloud run deploy my-agent \\\\\\r\\n --image=us-docker.pkg.dev/my-startup-prod/agents/api:v1 \\\\\\r\\n --service-account=agent-runtime@my-startup-prod.iam.gserviceaccount.com \\\\\\r\\n --region=us-central1'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3ea50>)])]> code_block <ListValue: [StructValue([('code', '# Application code — notice: no keys, no secrets.\\r\\nfrom google import genai\\r\\n\\r\\nclient = genai.Client(\\r\\n vertexai=True,\\r\\n project=\"my-startup-prod\",\\r\\n location=\"us-central1\",\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3d8d0>)])]> Do one last favor to your future self: give that service account the minimum IAM role your workload actually needs, usually roles/aiplatform.user for calling models, not the broader admin roles. It takes an extra 30 seconds and prevents the credential from becoming a master key if it leaks. #4 When should I actually stop procrastinating and migrate from AI Studio's API key to Agent Platform's IAM model? Sooner than you'd like, and the correct trigger is not when it breaks. It's when any of these is true: Your key has left your laptop (checked into a repo, pasted into a Slack, shipped in a mobile app). You have more than one person on the team who needs to call the API. You're spending more than a few hundred dollars a month. You're about to onboard paying customers. A potential pitfall that can catch growing startups off guard is simple: a leaked Gemini API key on an account that normally spends $180 a month gets scraped from a public repo and used to run distillation attacks, accumulating tens of thousands of dollars in charges before the owner even sees the first billing alert. The Google Cloud Shared Responsibility Model is unambiguous: the customer is liable for charges incurred with their own valid credentials. The migration itself is genuinely smaller than the anxiety around it. In google-genai it's the two-line change shown in #1. What takes real time is the project setup around it, which is exactly why #2 exists. Practical checklist for cutover day: code_block <ListValue: [StructValue([('code', '# 1. Revoke every existing AI Studio key that has ever left a laptop.\\r\\n# (Go to https://aistudio.google.com/apikey and delete them.)\\r\\n\\r\\n# 2. Confirm your production code has no api_key= arguments.\\r\\ngrep -rn \"api_key\" src/\\r\\n\\r\\n# 3. Enable GEAP and confirm ADC works locally.\\r\\ngcloud services enable aiplatform.googleapis.com\\r\\ngcloud auth application-default login\\r\\npython -c \"\\r\\nfrom google import genai\\r\\nc = genai.Client(vertexai=True, project=\\'my-startup-prod\\', location=\\'us-central1\\')\\r\\nprint(c.models.generate_content(model=\\'gemini-2.5-flash\\', contents=\\'ping\\').text)\\r\\n\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3e4d0>)])]> If step 3 prints a response, you're on Agent Platform. Phase B, Scale: get more capacity without paying a premium. #5 Now that I'm shipping, why on earth am I getting all these HTTP 429 errors, and how do I make them stop? 429 Too Many Requests from Agent Platform almost always means one of two things: You've hit the Dynamic Shared Quota (DSQ) ceiling for your project's tier. DSQ is a shared pool sized against your project's history, new projects start with modest limits by design, to prevent abuse across the platform. You're calling a global endpoint during a global demand spike, competing with worldwide traffic for shared capacity. The instinctive reaction is to file a quota-increase ticket. You can do that if you must, but two architectural moves usually solve the problem faster and cheaper. Pin to a regional endpoint. Over half of startup traffic on Agent Platform defaults to global routing. Pinning to a specific region (say us-central1 ) sidesteps global contention and typically improves latency at the same time. (One narrow exception, which we'll get to in the next question: if you specifically want Priority PayGo, that feature currently only ships on the `global` endpoint. For everything else, pin regionally.): code_block <ListValue: [StructValue([('code', 'from google import genai\\r\\n\\r\\n# Global (default): competes against worldwide demand.\\r\\n# Regional: routes only to the regional cluster, less contention.\\r\\nclient = genai.Client(\\r\\n vertexai=True,\\r\\n project=\"my-startup-prod\",\\r\\n location=\"us-central1\", # <-- this is the one-line fix\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3ddd0>)])]> Add real retry and backoff. A 429 is a retryable signal, not a fatal error. Any production client should have exponential backoff with jitter. The modern google-genai SDK ships this behavior built in, but only if you actually enable it. This is easy to overlook. Don't reach for the classic `google.api_core.retry.if_transient_error` decorator you may have seen on older Vertex code. It's designed for the legacy exception classes and does not recognize the new `google.genai.errors.APIError, so it will silently pass 429s through without retrying. Use the SDK's built-in retry options instead: code_block <ListValue: [StructValue([('code', 'from google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(\\r\\n vertexai=True, project=\"my-startup-prod\", location=\"us-central1\",\\r\\n http_options=types.HttpOptions(retry_options=types.HttpRetryOptions(\\r\\n attempts=5, initial_delay=1.0, max_delay=60.0, exp_base=2.0, jitter=1.0,\\r\\n http_status_codes=[408, 429, 500, 502, 503, 504],\\r\\n ))\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3ee90>)])]> How do you see this coming? Preferably not from a user telling you. Agent Platform publishes serving metrics to Cloud Monitoring, and there is a prebuilt dashboard you don't have to assemble: Console → Agent Platform → Dashboard → Model observability. It gives you requests per second, token throughput, first-token latency, and error rates out of the box. The metric to actually alert on is aiplatform.googleapis.com/publisher/online_serving/model_invocation_count . It carries an error_category label with values of user , system , or capacity . Alerting on capacity isolates genuine throttling from your own bad requests, which a raw 429 count won't do. One thing worth internalizing, because it trips people up: you cannot build a \"warn me at 80% of my quota\" alert for Standard PayGo. Under Dynamic Shared Quota there is no fixed per-project number to be at 80% of. A 429 means transient contention for shared capacity, not that you crossed a line. Percent-of-limit alerting only becomes meaningful once you're on Provisioned Throughput, which does expose real limit metrics. code_block <ListValue: [StructValue([('code', 'gcloud monitoring policies create --policy-from-file=capacity-alert.yaml'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3e050>)])]> Sources: Agent Platform metrics list , Model observability dashboard , RetryOptions source , core retry_base.py , genai errors.py , reduce 429 errors , gcloud monitoring policies create , Dynamic Shared Quota . Follow the Agent Platform rate limits documentation to understand what your project's current ceiling actually is before you assume you've outgrown it. #6 Which consumption mode do I pay for: Standard PayGo, Priority PayGo, or Provisioned Throughput? Three consumption models, three completely different workload shapes, and three completely different ways to proceed. Picking the right one can help startups see meaningful savings on AI bills. First let’s define them and then see when they are, or aren’t, a good fit: Standard PayGo (DSQ) : Pay per token from a shared pool; cheap, no guarantees. Priority PayGo : Pay per token at a premium to jump the queue. Provisioned Throughput (PT) : Prepay for reserved capacity; predictable, use it or lose it. Consumption type Best for Watch out for Standard PayGo (DSQ) Early-stage, low-QPS, spiky prototype traffic 429s during spikes; no reliability SLO Priority PayGo Bursty, revenue-critical traffic that can't tolerate 429s Roughly 1.8x the standard token price Provisioned Throughput (PT) Steady, predictable, high-volume production traffic Wasted spend if utilization is under ~40%; overflow to PayGo on spikes The dominant startup mistake is buying PT too early. Usually this happens the week after a big launch when it feels like traffic will only ever go up. PT is reserved capacity. You pay whether you use it or not, and it only starts paying you back once your baseline is genuinely predictable, not just aspirational. Here’s a pragmatic sequence: Weeks one through four on Standard PayGo. Use it to measure your real request shape (tokens per minute at p50 and p99, request bursts, batchable vs. real-time split). When you get your first bad 429 storm, flip on Priority PayGo for the traffic that actually matters. It's a config change, not a purchase order, nobody in procurement needs to be involved: code_block <ListValue: [StructValue([('code', '# Priority PayGo request: use the global endpoint + two extra headers.\\r\\nfrom google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(vertexai=True, project=\"my-startup-prod\", location=\"global\")\\r\\nresp = client.models.generate_content(\\r\\n model=\"gemini-2.5-pro\",\\r\\n contents=\"Rank these support tickets by urgency: ...\",\\r\\n config=types.GenerateContentConfig(\\r\\n # Priority PayGo headers, per current GEAP docs.\\r\\n http_options=types.HttpOptions(headers={\"X-Vertex-AI-LLM-Request-Type\": \"shared\", \"X-Vertex-AI-LLM-Shared-Request-Type\": \"priority\"}),\\r\\n ),\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3f490>)])]> 3. Once you can predict your baseline TPM, buy PT to cover the flat baseline and let anything above it overflow to PayGo. That's the combined pattern Google recommends for exactly this reason. Best of both worlds, not marketing spin. Sources: Priority PayGo docs , google-genai HttpOptions source , GEAP REST reference . #7 Which of my requests actually need to be live, and which should be batch jobs? Most startup workloads are secretly batch jobs pretending to be real-time. Every one you move off the interactive path frees up DSQ headroom for the traffic that genuinely needs to be fast, the traffic where a user is actually watching a spinner. Three questions to help you sort your traffic: Does a human have to see the result within a second? That means: Live inference. Can the user wait a few seconds and see a spinner? That means: Still live, but a candidate for streaming. Would the user tolerate \"we'll email you when it's ready\" or \"check back in a bit\"? That means: Batch prediction . Batch prediction on Agent Platform runs in a completely separate queue, does not consume your interactive DSQ, and is typically about half the price of on-demand inference. That's a rare double win: faster live traffic and a lower bill. code_block <ListValue: [StructValue([('code', '# Kick off a batch prediction job from a JSONL file in Cloud Storage.\\r\\n# Each line is one prompt; results land in another Cloud Storage prefix.\\r\\nfrom google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(vertexai=True, project=\"my-startup-prod\", location=\"us-central1\")\\r\\n\\r\\njob = client.batches.create(\\r\\n model=\"gemini-2.5-flash\",\\r\\n src=\"gs://my-startup-prod-batch/inputs/nightly-summaries.jsonl\",\\r\\n config=types.CreateBatchJobConfig(\\r\\n dest=\"gs://my-startup-prod-batch/outputs/\",\\r\\n ),\\r\\n)\\r\\nprint(job.name, job.state)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3c710>)])]> Common candidates: nightly document summarization, background classification of new signups, bulk translation, embedding backfills, evaluation runs against your test set. If any of those are on your live path today, moving them is often the single highest-leverage change you can make this week. Govern: Keep costs, keys, and agents under control. #8 How do I set spend caps that actually reduce cost, and not just send me polite emails while my bill triples? Until recently the honest answer was that budgets only notify, and you had to build your own brake pedal. That changed in July. There are now three mechanisms, and you should think of them as layers. A spend cap budget (Preview). Cloud Billing budgets can now enforce rather than just email. Set a spend cap on a project and, when usage costs cross 100% of the budget, Google pauses the service until you manually lift it. Agent Platform is explicitly on the eligible list, alongside the Gemini API, Cloud Run, and Cloud Run functions. Alerts still fire at 50% and 80%, so the pause isn't a surprise. Three things to know before you rely on it: Each cap covers one project and one eligible service. It is not account-wide protection. If you want Agent Platform and Cloud Run both capped, that's two caps. Enforcement is not instant and is based on estimated costs. Overages past the cap are billed as normal, so set the number below your real ceiling. Lifting it is manual, and service resumption can take up to an hour. It also pauses Provisioned Throughput usage, so if you've prepaid for capacity, a cap hit stops that too. It's in Preview as of publication, and the eligible-service list is documented as growing. Check the current list before you design around it. 2. A billing budget with a Pub/Sub trigger that disables billing . Still the right tool when you need blast radius the spend cap can't give you: multiple services at once, an entire project, or a service that isn't eligible yet. When the budget hits a threshold, Pub/Sub fires a Cloud Function that detaches the billing account, which stops all billable activity within minutes. Blunter and more dangerous than the native cap — it can leave resources unrecoverable — so reach for it second, not first. Full walkthrough: Automatically respond to budget notifications . code_block <ListValue: [StructValue([('code', '# Sketch: create a budget SCOPED TO ONE PROJECT that publishes to Pub/Sub at 50%, 90%, 100%.\\r\\ngcloud billing budgets create \\\\\\r\\n --billing-account=012345-6789AB-CDEF01 \\\\\\r\\n --display-name=\"my-startup-prod hard stop\" \\\\\\r\\n --budget-amount=2000USD \\\\\\r\\n --filter-projects=projects/my-startup-prod \\\\\\r\\n --threshold-rule=percent=0.5 \\\\\\r\\n --threshold-rule=percent=0.9 \\\\\\r\\n --threshold-rule=percent=1.0,basis=current-spend \\\\\\r\\n --notifications-rule-pubsub-topic=projects/my-startup-prod/topics/budget-alerts'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3c210>)])]> Sources: Manage spend cap budgets , Set up programmatic notifications gcloud billing budgets create reference , Cloud Billing budgets concepts , Disable billing with notifications walkthrough , Programmatic notification payload schema . Two things to get ahead of for, as the defaults can cause unexpected issues: Limit your budget scope: Without --filter-projects, your budget applies to your entire billing account. A spike in any project will trigger the kill switch for everything. Deploy locally: The budget notification doesn't specify which project is affected. To ensure the kill switch only affects the intended project, deploy your Cloud Function in the same project you're protecting (e.g., my-startup-prod). Then wire up a tiny Cloud Function to that topic that calls projects.updateBillingInfo to unlink the billing account when the 100% threshold fires. That is your circuit breaker. Mechanical ceilings via quota overrides. Even if you never set up the above kill switch, you can cap the rate at which cost can accumulate by setting explicit per-model, per-region quotas below the platform default. If your app never legitimately needs more than 500 requests per minute for gemini-2.5-pro , cap it there in the Cloud Quotas console , a leaked key can't burn what the quota flatly refuses to serve. #9 Where should I actually keep secrets? (Not in .env files!) The short answer is: Secret Manager . Not in environment variables, not in .env files, and never in your repo. Grant read access via IAM only to the service account that needs it. code_block <ListValue: [StructValue([('code', '# Store a third-party API key (Stripe, OpenAI, whatever).\\r\\necho -n \"sk_live_xxx\" | gcloud secrets create stripe-live-key --data-file=-\\r\\n\\r\\n# Grant only the runtime service account access to read it.\\r\\ngcloud secrets add-iam-policy-binding stripe-live-key \\\\\\r\\n --member=serviceAccount:agent-runtime@my-startup-prod.iam.gserviceaccount.com \\\\\\r\\n --role=roles/secretmanager.secretAccessor'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3f890>)])]> code_block <ListValue: [StructValue([('code', '# Application code fetches it at startup; nothing lives on disk.\\r\\nfrom google.cloud import secretmanager\\r\\nsm = secretmanager.SecretManagerServiceClient()\\r\\nresp = sm.access_secret_version(\\r\\n name=\"projects/my-startup-prod/secrets/stripe-live-key/versions/latest\"\\r\\n)\\r\\nstripe_key = resp.payload.data.decode(\"utf-8\")'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3d010>)])]> Then two little disciplines that pay for themselves the first time you need them: Rotation on a schedule and on suspicion. Secret Manager versions are cheap; treat them as immutable and roll forward. Detection when a secret leaks. Secret Manager notifications and Google Cloud's Sensitive Data Protection can catch keys checked into a repo or pasted into a log stream, before an attacker does. For any AI application that acts on a user's behalf, calls Gmail on their behalf, reads a Drive folder, hits a third-party SaaS with the user's credentials, do not store a long-lived token. Use OAuth 2.0 with short-lived access tokens and a refresh flow, so that when a user rage-quits or a compromised account gets revoked, the agent loses access at the same time. #10 How do I stop my brand new AI agent from doing something it absolutely shouldn't? An agent that can call tools, browse the web, or execute code needs the same defense-in-depth thinking as any other production service, arguably more, because it makes decisions that neither you nor the model can fully predict in advance. Four layers, none optional once you have real users: 1. Identity for the agent itself. Give the agent its own service account, scoped only to the resources and tools it genuinely needs, the exact same least-privilege principle as any other workload. Agent Engine supports first-class agent identity so every action can be attributed to a specific agent instance in your audit logs. 2. Sandboxed code execution. If your agent runs generated code, a common pattern for data-analysis or \"run this Python for me\" flows, do not run it in your application process. Use an isolated sandbox so a bad combination can't touch your production data. code_block <ListValue: [StructValue([('code', '# Enable server-side code execution inside a sandbox for a request.\\r\\nfrom google import genai\\r\\nfrom google.genai import types\\r\\n\\r\\nclient = genai.Client(vertexai=True, project=\"my-startup-prod\", location=\"us-central1\")\\r\\nresp = client.models.generate_content(\\r\\n model=\"gemini-2.5-pro\",\\r\\n contents=\"Compute the correlation between these two columns: ...\",\\r\\n config=types.GenerateContentConfig(\\r\\n tools=[types.Tool(code_execution=types.ToolCodeExecution())],\\r\\n ),\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f9106a3ed10>)])]> 3. Prompt and response filtering. Model Armor sits in front of your model calls and screens for prompt injection, jailbreaks, sensitive-data exfiltration, and off-brand output, all of which are essentially guaranteed the moment you have real users being real users. 4. Behavioral monitoring. Security Command Center with threat detection flags anomalies in agent behavior, a service account suddenly calling an API it's never touched before, an agent reaching out to an unfamiliar external host, an unexpected spike in privileged operations. In near-real-time. None of these are optional once your agent is acting on behalf of a real user or handling real money. Your homework, so to speak: Audit for raw API keys in your repo, your notebooks, and your production runtime. Rotate anything that shouldn't be there. Move any workload that doesn't need a synchronous response to the Batch API. Turn on the Model observability dashboard and put one alert on capacity errors, so the next 429 reaches you before it reaches a customer. Set a spend cap on the project and, and keep an eye out for 50% and 80%alerts, if usage crosses 100% of the budget, Google will pause the service until you manually lift it . Do those three things this week and you're already ahead of most startups shipping AI features. Have a scenario you'd like us to cover next? Reach us at Google Cloud for Startups .",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -2225,6 +2218,22 @@
     "summary": "A few weeks ago, on a busy day, threat-modeling expert Adam Shostack opened an email from a client. Someone at that organization had vibe-coded an app and put it to work with customer data. Now, the client wanted to know what risks the tool posed. And what it should do about them."
   },
   {
+    "title": "DCD Talks: Rethinking data center power resilience with Eric Dupont, PowerSecure",
+    "url": "https://www.datacenterdynamics.com/en/videos/dcd-talks-rethinking-data-center-power-resilience-with-eric-dupont-powersecure/",
+    "source": "DataCenterDynamics",
+    "published": "2026-08-21T06:52:57+00:00",
+    "raw_text": "PowerSecure’s SVP of Customer Care, Eric Dupont, speaks to DCD’s Emma Strutton about long-term data center resilience, and the changing role of bridging power within this.",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "PowerSecure’s SVP of Customer Care, Eric Dupont, speaks to DCD’s Emma Strutton about long-term data center resilience, and the changing role of bridging power within this."
+  },
+  {
     "title": "The Edge of tomorrow",
     "url": "https://www.datacenterdynamics.com/en/analysis/the-edge-of-tomorrow/",
     "source": "DataCenterDynamics",
@@ -2559,20 +2568,103 @@
     "summary": "Company says demo is important milestone on its path to deploying first fault-tolerant quantum computer"
   },
   {
-    "title": "Eight MDA-integrated Globalstar HIBLEO-4 satellites orbited successfully",
-    "url": "https://www.datacenterdynamics.com/en/news/eight-mda-integrated-globalstar-hibleo-4-satellites-orbited-successfully/",
-    "source": "DataCenterDynamics",
-    "published": "2026-08-20T11:41:55+00:00",
-    "raw_text": "Apple partner Globalstar expands fleet, intends further D2D expansions",
+    "title": "Developer given Mission:Impossible - fixing rubbish code that could crash a city - simply chose not to accept it",
+    "url": "https://www.theregister.com/software/2026/08/21/developer-given-missionimpossible-fixing-rubbish-code-that-could-crash-a-city-simply-chose-not-to-accept-it/5290120",
+    "source": "The Register",
+    "published": "2026-08-21T06:30:00+00:00",
+    "raw_text": "After imagining explosions, blackouts, and daring escapes, this techie decided the best thing to do was just not doing the job",
     "categories": [
-      "Industry & Market"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "After imagining explosions, blackouts, and daring escapes, this techie decided the best thing to do was just not doing the job"
+  },
+  {
+    "title": "Cisco bug severity warning reads like Olympic gymnastics scores: 10, 10, 9.9, 9.6, and 7.5.",
+    "url": "https://www.theregister.com/security/2026/08/21/cisco-bug-severity-warning-reads-like-olympic-gymnastics-scores-10-10-99-96-and-75/5290838",
+    "source": "The Register",
+    "published": "2026-08-21T05:33:08+00:00",
+    "raw_text": "Secure Workload Software has five nasty flaws and even SaaS users have updates to install",
+    "categories": [
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "expands"
+      "Cloud Infrastructure": [
+        "aws",
+        "saas"
       ]
     },
-    "summary": "Apple partner Globalstar expands fleet, intends further D2D expansions"
+    "summary": "Secure Workload Software has five nasty flaws and even SaaS users have updates to install"
+  },
+  {
+    "title": "Alibaba Cloud plans to use fewer Western chips, to boost its already huge AI margins",
+    "url": "https://www.theregister.com/off-prem/2026/08/21/alibaba-cloud-plans-to-use-fewer-western-chips-to-boost-its-already-huge-ai-margins/5290815",
+    "source": "The Register",
+    "published": "2026-08-21T04:38:53+00:00",
+    "raw_text": "Cloudy AI is Chinese giant’s ‘most certain’ path to growth as e-commerce slows",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "alibaba cloud"
+      ],
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Cloudy AI is Chinese giant’s ‘most certain’ path to growth as e-commerce slows"
+  },
+  {
+    "title": "Supermicro fired staff after probe into $2.5 billion GPUs-to-China smuggling operation",
+    "url": "https://www.theregister.com/legal/2026/08/21/supermicro-fired-staff-after-probe-into-25-billion-gpus-to-china-smuggling-operation/5290791",
+    "source": "The Register",
+    "published": "2026-08-21T02:39:56+00:00",
+    "raw_text": "Policies and code of conduct breached",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach"
+      ]
+    },
+    "summary": "Policies and code of conduct breached"
+  },
+  {
+    "title": "Russian snoops add OAuth abuse to targeted phishing campaigns",
+    "url": "https://www.theregister.com/security/2026/08/21/russian-snoops-add-oauth-abuse-to-targeted-phishing-campaigns/5290706",
+    "source": "The Register",
+    "published": "2026-08-21T00:19:25+00:00",
+    "raw_text": "Don't click on that State Department meeting invite",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "phishing"
+      ]
+    },
+    "summary": "Don't click on that State Department meeting invite"
+  },
+  {
+    "title": "Google tethers Antigravity to enterprise controls amid AI shakeup",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/21/google-tethers-antigravity-to-enterprise-controls-amid-ai-shakeup/5290730",
+    "source": "The Register",
+    "published": "2026-08-20T23:47:16+00:00",
+    "raw_text": "Corporate customers can look forward to easier management of agents in Google Cloud",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "google cloud"
+      ]
+    },
+    "summary": "Corporate customers can look forward to easier management of agents in Google Cloud"
   },
   {
     "title": "Go updates may delight diehard gophers but displease AI overlords",
@@ -3167,16 +3259,55 @@
     "summary": "Those legacy systems won't fix themselves"
   },
   {
-    "title": "NASA estimates the size of the hole SpaceX made in the moon",
-    "url": "https://www.theregister.com/offbeat/2026/08/19/nasa-estimates-the-size-of-the-hole-spacex-made-in-the-moon/5289425",
-    "source": "The Register",
-    "published": "2026-08-19T06:15:40+00:00",
-    "raw_text": "As the latest Starship finds its way to an obscure part of Australia, for observations",
+    "title": "CW@60: The networks behind a connected society",
+    "url": "https://www.computerweekly.com/feature/CW60-The-networks-behind-a-connected-society",
+    "source": "ComputerWeekly",
+    "published": "2026-08-21T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>Over the <a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">six decades since Computer Weekly began chronicling the UK’s technology landscape</a>, the country has undergone a profound digital transformation.</p> <p>Connectivity has shifted from a background utility to a defining force shaping how people work, learn, access public services and participate in the economy. Throughout this period, <a href=\"https://www.computerweekly.com/feature/CW60-Powering-progress-the-unsung-hero-of-innovation\">networks have been a key part of the invisible infrastructure</a> enabling that shift - the digital backbone supporting national progress.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Digital infrastructure becomes critical infrastructure\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Digital infrastructure becomes critical infrastructure</h2> <p>What began as a means of transmitting voice calls has evolved into one of the UK’s most important strategic assets. Today’s digital infrastructure underpins everything from cloud computing and online banking to remote healthcare and emerging AI‑powered applications. As reliance has grown, expectations have risen with it. Networks must be fast, secure, resilient and capable of supporting technologies that did not exist even a decade ago.</p> <p>Meeting these expectations has required sustained investment across the industry. Over the past decade, the UK has undergone one of the largest modernisation programmes in its communications history, with billions committed to upgrading fixed and mobile networks.</p> <p>BT has invested more than £25bn since 2020 to <a href=\"https://www.computerweekly.com/news/366639058/Openreach-appoints-new-chief-executive\">expand full-fibre</a>, accelerate <a href=\"https://www.computerweekly.com/news/366642345/EE-evolves-5G-strategy-after-major-usage-surge\">5G roll-out</a> and retire legacy systems. These upgrades are not simply technical milestones - they are the foundations for the next era of digital innovation across the wider IT sector.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"A legacy of firsts\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A legacy of firsts</h2> <p>The UK’s communications landscape has long been shaped by a willingness to push technological boundaries. From the earliest telegraph cables to the first transatlantic telephone line, each era has been defined by engineering breakthroughs that expanded the country’s ability to connect.</p> <p>Our company celebrates many of the innovations underpinning today’s networks. Early fibre‑optic work in the 1960s–1980s proved that high‑capacity, long‑distance data transmission was possible, while the development of blown‑fibre installation made large‑scale deployment practical. These advances paved the way for the full‑fibre networks now reaching millions of homes and supporting the UK’s mobile infrastructure.</p> <p>The arrival of the internet brought a new challenge - transforming the copper telephone network into a platform capable of mass‑market broadband. Progress came through a succession of engineering steps - ISDN, ADSL, VDSL and G.Fast - each increasing speed and capacity. Together, they enabled millions of households and businesses to get online and helped fuel the growth of the UK’s digital economy.</p> <p>Innovation continued into the mobile age. Both <a href=\"https://www.computerweekly.com/news/366644800/4G-persists-as-5G-availability-and-usage-gap-widens-across-Europe\">4G and 5G</a> were milestones that expanded the reach and capability of national connectivity and set the stage for the services people now take for granted. Today, research is focused on the next generation of technologies, including AI‑driven network security and quantum‑secure communications.</p> <p>Across these eras, the pattern is clear - a continuous line of engineering progress that has kept the UK connected, competitive and ready for whatever comes next.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Building networks at national scale\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Building networks at national scale</h2> <p>The UK’s digital progress today is built on networks that operate at true national scale - reaching from rural hamlets to dense cities and underpinning everything from essential public services to major cultural and sporting moments. These nationwide fixed and mobile networks have become critical enablers of economic growth, digital inclusion and everyday convenience.</p> <p>The rapid expansion of full‑fibre infrastructure, now passing more than 23 million premises and on track to reach up to 30 million by 2030, is transforming how people and businesses connect. Faster, more reliable fibre is supporting everything from cloud adoption to digital public services and the growth of the UK’s tech sector.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Greg-McCall-BT-LinkedIN.jpg\" alt=\"Photo of Greg McCall, BT\" width=\"180\" height=\"180\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“As the country enters an era shaped by AI, automation and ubiquitous digital services, resilient and secure infrastructure becomes ever more critical”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Greg McCall</em></span></p> </blockquote> <p>On mobile, near‑universal 4G and 5G coverage have reshaped how the country stays connected and accesses information. The rollout of <a href=\"https://www.computerweekly.com/news/366643663/EE-accelerates-UK-5G-roll-out-teams-with-Meta-to-boost-mobile-video\">5G+,</a> already available in over 650 towns and cities - represents the next leap forward, providing stronger mobile internet connections, faster download and upload speeds, and improved video calling, especially in busy locations and at peak times.</p> <p>These nationwide upgrades are already unlocking new possibilities. At the <a href=\"https://www.computerweekly.com/feature/Oracle-Cloud-and-private-5G-give-added-edge-to-SailGP\">SailGP global racing championship</a> for example, 5G+ network slicing delivered dedicated, high‑performance connectivity for the global racing championship - a glimpse of how future networks will support mission‑critical applications across sport, industry and live events.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Connectivity where it’s needed most\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Connectivity where it’s needed most</h2> <p>Ensuring that connectivity reaches every part of the UK remains one of the country’s defining digital challenges. The needs of a busy city centre differ greatly from those of a rural village, and modern networks have had to evolve to serve both.</p> <p>In urban areas, thousands of small cells now help keep pace with rising data demand, while targeted upgrades in rural communities have helped close long‑standing coverage gaps. Connectivity inside buildings has become just as important. Complex environments such as airports, shopping centres and major venues increasingly rely on <a href=\"https://www.computerweekly.com/news/366632113/Boldyn-Networks-enhances-5G-fan-experience-at-AO-Arena\">distributed antenna systems</a> (DAS) to maintain consistent performance. At the same time, public connectivity is expanding through a growing Wi‑Fi hotspot network.</p> <p>A major step forward is happening beneath the capital too - where <a href=\"https://www.computerweekly.com/news/366642427/Boldyn-EE-TfL-deploy-ESN-infrastructure-across-London-Underground\">high‑speed mobile connectivity is being brought to the London Underground</a> - one of the most complex transport environments in the world. Significant sections of the Tube network are already connected, with full completion due by the end of this year.</p> <p>Reaching the hardest‑to‑serve areas requires a different approach altogether. Some communities sit beyond the practical limits of traditional infrastructure and closing that divide means drawing on every available technology.</p> <p><a href=\"https://www.computerweekly.com/news/366645095/GSMA-launches-global-satellite-regulatory-playbook\">High‑speed satellite connectivity</a> is now helping connect rural locations previously out of reach for traditional networks. It reflects a broader shift in the UK’s strategy - recognising that no single technology can meet every need, and that a truly inclusive digital Britain will rely on fibre, mobile, satellite and future innovations working together.</p> <p>Some of the UK’s most memorable cultural and sporting moments have been shaped by the strength of the country’s digital infrastructure. From London 2012 - the most connected Olympic Games of its time - to major venues such as Wembley, Murrayfield and Silverstone, reliable high‑capacity networks have become essential to how national events are staged, broadcast and experienced. Modern connectivity now underpins everything from live streaming and digital ticketing to real‑time operations and safety systems, helping events run smoothly and allowing millions of people to share in them.</p> <p>That role continues to evolve as expectations rise. <a href=\"https://www.computerweekly.com/news/366623875/O2-upgrades-Wembley-Stadium-connectivity\">Wembley Stadium recently became the first UK sports venue to operate with a permanent 5G+ network</a>, enabling richer fan experiences, more efficient venue management and new digital services. This summer, enhanced 5G+ capabilities will support more than 25 of the UK’s biggest festivals and gatherings, helping organisers manage crowds, broadcasters deliver high‑quality coverage and visitors stay connected throughout some of the country’s most iconic cultural moments.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"A critical national role\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A critical national role</h2> <p>A quieter but essential part of the UK’s digital backbone is the infrastructure that keeps emergency responders connected. The <a href=\"https://www.computerweekly.com/news/366544706/Home-Office-failures-on-2bn-ESN-project-see-significant-costs-to-emergency-services\">Emergency Services Network</a> uses mission‑critical 4G and 5G technology to link police officers, firefighters and paramedics with the information they need in real time.</p> <p>That expectation of resilience now extends far beyond emergency response. As organisations digitise operations, secure, reliable, high‑performance connectivity has become fundamental.</p> <p>Behind the UK’s connectivity sits a constant cycle of research and experimentation. The power of new discovery and innovation remains vital and we’re focusing on converged networks, sustainable optimisation, AI‑driven security and quantum‑ready infrastructure. Partnerships with more than 30 universities and research bodies help accelerate the development of emerging technologies.</p> <p>But innovation and infrastructure alone, is not enough. <a href=\"https://www.computerweekly.com/news/366623885/BT-to-bring-gigabit-broadband-to-hard-to-reach-Swansea-Bay-areas\">Digital inclusion</a> has become a national priority. From older users getting online for the first time to small businesses adopting new tools and young people preparing for a digital‑first jobs market.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"A role that continues to evolve\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A role that continues to evolve</h2> <p>For 180 years, the UK’s communications networks have evolved through constant reinvention - from telegraph cables to full fibre, from early mobile networks to quantum‑secure communications. As the country enters an era shaped by AI, automation and ubiquitous digital services, resilient and secure infrastructure becomes ever more critical.</p> <p>Connectivity now underpins the UK’s economy, public services and social participation. The networks built today will define the nation’s digital future - and recent analysis shows the scale of the prize, with a highly resilient, nationwide high‑capacity mobile network capable of unlocking up to £230bn in economic benefits by 2035, alongside significant social and environmental gains.</p> <p><i>Greg McCall is chief security and networks officer at BT.</i></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read all of Computer Weekly's 60th anniversary essays</h3> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup> anniversary, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. Read our full collection of essays, which offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p> <h2><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">CW@60 - How technology has changed our lives over 60 years</a></h2> </div> </div> </section>",
     "categories": [
-      "Uncategorised"
+      "Networks",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "Data Centres",
+      "Cybersecurity",
+      "GRC"
     ],
-    "matched_keywords": {},
-    "summary": "As the latest Starship finds its way to an obscure part of Australia, for observations"
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "digital transformation",
+        "cloud computing"
+      ],
+      "Networks": [
+        "network",
+        "5g",
+        "cdn",
+        "wan",
+        "lan",
+        "connectivity",
+        "network security",
+        "broadband"
+      ],
+      "Cybersecurity": [
+        "security",
+        "soc"
+      ],
+      "GRC": [
+        "regulatory"
+      ],
+      "Data Centres": [
+        "rack",
+        "capacity",
+        "colo"
+      ],
+      "Industry & Market": [
+        "partnership",
+        "launches",
+        "investment",
+        "ey"
+      ]
+    },
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>Over the <a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">six decades since Computer Weekly began chronicling the UK’s technology landscape</a>, the country has undergone a profound digital transformation.</p> <p>Connectivity has shifted from a background utility to a defining force shaping how people work, learn, access public services and participate in the economy. Throughout this period, <a href=\"https://www.computerweekly.com/feature/CW60-Powering-progress-the-unsung-hero-of-innovation\">networks have been a key part of the invisible infrastructure</a> enabling that shift - the digital backbone supporting national progress.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Digital infrastructure becomes critical infrastructure\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Digital infrastructure becomes critical infrastructure</h2> <p>What began as a means of transmitting voice calls has evolved into one of the UK’s most important strategic assets."
   },
   {
     "title": "ICO police facial recognition audits reveal ‘mixed’ bag",
@@ -3787,6 +3918,307 @@
     "summary": "The design is largely unchanged from last year, but the Pixel 11 base model has an improved camera, Tensor G6 chip, and new colors."
   },
   {
+    "title": "2026 World Robot Conference: Zoomlion Showcases Industrial Embodied Intelligence",
+    "url": "https://www.prnewswire.com/news-releases/2026-world-robot-conference-zoomlion-showcases-industrial-embodied-intelligence-302857164.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T07:08:00+00:00",
+    "raw_text": "BEIJING, Aug. 21, 2026 /PRNewswire/ -- Zoomlion Heavy Industry Science & Technology Co., Ltd. (\"Zoomlion\" or \"the Company\"; 1157.HK) is showcasing its embodied intelligence technologies and robotic products for industrial applications at the 2026 World Robot Conference (WRC), taking place...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BEIJING, Aug. 21, 2026 /PRNewswire/ -- Zoomlion Heavy Industry Science & Technology Co., Ltd. (\"Zoomlion\" or \"the Company\"; 1157.HK) is showcasing its embodied intelligence technologies and robotic products for industrial applications at the 2026 World Robot Conference (WRC), taking place..."
+  },
+  {
+    "title": "RayNeo Expands Consumer AR Lineup: Unveiling RayNeo iO Smart Glasses and Cinematic RayNeo GT Series",
+    "url": "https://www.prnewswire.com/news-releases/rayneo-expands-consumer-ar-lineup-unveiling-rayneo-io-smart-glasses-and-cinematic-rayneo-gt-series-302856495.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T07:00:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Today, RayNeo™, a global leader in consumer augmented reality (AR) glasses, announced two milestone product lines: the RayNeo iO Smart Glasses and the cinema-grade RayNeo GT Series (comprising RayNeo GT and RayNeo GT Max). The dual launch targets...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Today, RayNeo™, a global leader in consumer augmented reality (AR) glasses, announced two milestone product lines: the RayNeo iO Smart Glasses and the cinema-grade RayNeo GT Series (comprising RayNeo GT and RayNeo GT Max). The dual launch targets..."
+  },
+  {
+    "title": "Overcoming Barriers in Heritage Tourism: \"All Access hosted by Andy Garcia\" Features Western Maryland Scenic Railroad",
+    "url": "https://www.prnewswire.com/news-releases/overcoming-barriers-in-heritage-tourism-all-access-hosted-by-andy-garcia-features-western-maryland-scenic-railroad-302856392.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T07:00:00+00:00",
+    "raw_text": "Innovative accessibility protocols allow a historic railway to bridge the gap between regional preservation and inclusive public education. LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Preserving historic transportation infrastructure presents complex economic and operational challenges,...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Innovative accessibility protocols allow a historic railway to bridge the gap between regional preservation and inclusive public education. LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Preserving historic transportation infrastructure presents complex economic and operational challenges,..."
+  },
+  {
+    "title": "SCU Launches Accelerated Doctor of Physical Therapy Program in Phoenix Metro",
+    "url": "https://www.prnewswire.com/news-releases/scu-launches-accelerated-doctor-of-physical-therapy-program-in-phoenix-metro-302856896.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T07:00:00+00:00",
+    "raw_text": "Two-year online-hybrid program expands SCU's physical therapy education to Arizona amid growing national demand for practitioners. WHITTIER, Calif., Aug. 21, 2026 /PRNewswire/ -- Southern California University of Health Sciences (SCU) is expanding its Doctor of Physical Therapy (DPT)...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands",
+        "launches"
+      ]
+    },
+    "summary": "Two-year online-hybrid program expands SCU's physical therapy education to Arizona amid growing national demand for practitioners. WHITTIER, Calif., Aug. 21, 2026 /PRNewswire/ -- Southern California University of Health Sciences (SCU) is expanding its Doctor of Physical Therapy (DPT)..."
+  },
+  {
+    "title": "RayNeo amplía su gama de realidad aumentada para el consumidor",
+    "url": "https://www.prnewswire.com/news-releases/rayneo-amplia-su-gama-de-realidad-aumentada-para-el-consumidor-302856657.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T07:00:00+00:00",
+    "raw_text": "-RayNeo amplía su gama de realidad aumentada para el consumidor: presenta las gafas inteligentes RayNeo iO y la serie cinematográfica RayNeo GT LOS ANGELES, 21 de agosto de 2026 /PRNewswire/ -- RayNeo™, líder mundial en gafas de realidad aumentada (RA) para el consumidor, anunció hoy dos...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "-RayNeo amplía su gama de realidad aumentada para el consumidor: presenta las gafas inteligentes RayNeo iO y la serie cinematográfica RayNeo GT LOS ANGELES, 21 de agosto de 2026 /PRNewswire/ -- RayNeo™, líder mundial en gafas de realidad aumentada (RA) para el consumidor, anunció hoy dos..."
+  },
+  {
+    "title": "Implantica publishes Interim Report January - June 2026 (Q2)",
+    "url": "https://www.prnewswire.com/news-releases/implantica-publishes-interim-report-january--june-2026-q2-302857155.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T06:30:00+00:00",
+    "raw_text": "VADUZ, Liechtenstein, Aug. 21, 2026 /PRNewswire/ -- FDA Approval of RefluxStop® - Strategic Preparation Sets the Stage for Success Significant events in the second quarter of 2026 RefluxStop® sales increased by more than 60% compared with the prior-year period, reflecting continued...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "VADUZ, Liechtenstein, Aug. 21, 2026 /PRNewswire/ -- FDA Approval of RefluxStop® - Strategic Preparation Sets the Stage for Success Significant events in the second quarter of 2026 RefluxStop® sales increased by more than 60% compared with the prior-year period, reflecting continued..."
+  },
+  {
+    "title": "Hub Group, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - HUBG",
+    "url": "https://www.prnewswire.com/news-releases/hub-group-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--hubg-302857060.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T06:16:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub Group\" or \"the Company\") (NASDAQ: HUBG) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Hub Group, Inc. (\"Hub Group\" or \"the Company\") (NASDAQ: HUBG) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated thereunder..."
+  },
+  {
+    "title": "Futu Holdings Limited Investor Alert: Contact SBS by August 25, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/futu-holdings-limited-investor-alert-contact-sbs-by-august-25-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302857066.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T06:14:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Futu Holdings Limited (\"Futu\" or \"the Company\") (NASDAQ: FUTU) for violations of §§10(b) and 20(a) of the Securities...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Futu Holdings Limited (\"Futu\" or \"the Company\") (NASDAQ: FUTU) for violations of §§10(b) and 20(a) of the Securities..."
+  },
+  {
+    "title": "First Solar, Inc. Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - FSLR",
+    "url": "https://www.prnewswire.com/news-releases/first-solar-inc-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--fslr-302857058.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T06:12:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against First Solar, Inc. (\"First Solar\" or \"the Company\") (NASDAQ: FSLR) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "Peabody Energy Corporation Investor Alert: Contact SBS by August 24, 2026 for Opportunity to Lead Securities Fraud Lawsuit",
+    "url": "https://www.prnewswire.com/news-releases/peabody-energy-corporation-investor-alert-contact-sbs-by-august-24-2026-for-opportunity-to-lead-securities-fraud-lawsuit-302857082.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T06:11:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") for violations of §§10(b) and 20(a) of the Securities Exchange...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- Schall Brown & Schwartz LLP, a national shareholder rights litigation firm, reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") for violations of §§10(b) and 20(a) of the Securities Exchange..."
+  },
+  {
+    "title": "Peabody Energy Corporation Sued for Securities Law Violations - Contact the DJS Law Group to Discuss Your Rights - BTU",
+    "url": "https://www.prnewswire.com/news-releases/peabody-energy-corporation-sued-for-securities-law-violations---contact-the-djs-law-group-to-discuss-your-rights--btu-302857055.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T06:10:00+00:00",
+    "raw_text": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "LOS ANGELES, Aug. 21, 2026 /PRNewswire/ -- The DJS Law Group reminds investors of a class action lawsuit against Peabody Energy Corporation (\"Peabody\" or \"the Company\") (NYSE: BTU) for violations of §§10(b) and 20(a) of the Securities Exchange Act of 1934 and Rule 10b-5 promulgated..."
+  },
+  {
+    "title": "Akeso's AK157D1 (B7-H3 ADC) Cleared for Phase I Trial in Solid Tumors, Adding a Third Differentiated ADC to Its Pipeline",
+    "url": "https://www.prnewswire.com/news-releases/akesos-ak157d1-b7-h3-adc-cleared-for-phase-i-trial-in-solid-tumors-adding-a-third-differentiated-adc-to-its-pipeline-302857140.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T05:30:00+00:00",
+    "raw_text": "HONG KONG, Aug. 21, 2026 /PRNewswire/ -- Akeso, Inc. (9926.HK) (\"Akeso\" or the \"Company\") today announced that its investigational next-generation B7-H3-targeting antibody-drug conjugate (ADC), AK157D1, has received clinical trial clearance from the Center for Drug Evaluation (CDE) of...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "valuation"
+      ]
+    },
+    "summary": "HONG KONG, Aug. 21, 2026 /PRNewswire/ -- Akeso, Inc. (9926.HK) (\"Akeso\" or the \"Company\") today announced that its investigational next-generation B7-H3-targeting antibody-drug conjugate (ADC), AK157D1, has received clinical trial clearance from the Center for Drug Evaluation (CDE) of..."
+  },
+  {
+    "title": "Next Level Performance Marks 50 Years of Impact with HOPE Week",
+    "url": "https://www.prnewswire.com/news-releases/next-level-performance-marks-50-years-of-impact-with-hope-week-302856822.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T04:01:00+00:00",
+    "raw_text": "Milestone anniversary celebration highlights company's longstanding commitment to community service NEW BRUNSWICK, N.J., Aug. 21, 2026 /PRNewswire/ -- Next Level Performance (Next Level), a leader in employee engagement, incentive, loyalty, and recognition solutions, is celebrating its...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Milestone anniversary celebration highlights company's longstanding commitment to community service NEW BRUNSWICK, N.J., Aug. 21, 2026 /PRNewswire/ -- Next Level Performance (Next Level), a leader in employee engagement, incentive, loyalty, and recognition solutions, is celebrating its..."
+  },
+  {
+    "title": "TIER IV joins Open Invention Network 2.0 to drive the expansion of the open-source ecosystem for autonomous driving through a patent strategy",
+    "url": "https://www.prnewswire.com/news-releases/tier-iv-joins-open-invention-network-2-0-to-drive-the-expansion-of-the-open-source-ecosystem-for-autonomous-driving-through-a-patent-strategy-302857068.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T04:00:00+00:00",
+    "raw_text": "TOKYO, Aug. 21, 2026 /PRNewswire/ -- TIER IV, the pioneering force behind open-source software for autonomous driving, has joined Open Invention Network (OIN) 2.0, a new framework established by OIN, a global network dedicated to protecting open source software from patent risks. As the...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ]
+    },
+    "summary": "TOKYO, Aug. 21, 2026 /PRNewswire/ -- TIER IV, the pioneering force behind open-source software for autonomous driving, has joined Open Invention Network (OIN) 2.0, a new framework established by OIN, a global network dedicated to protecting open source software from patent risks. As the..."
+  },
+  {
+    "title": "Institutional-Grade Allocation in a Single Account: BiFu's Wealth Suite Takes Shape, Bringing Managed Funds and RWA Under One Roof",
+    "url": "https://www.prnewswire.com/news-releases/institutional-grade-allocation-in-a-single-account-bifus-wealth-suite-takes-shape-bringing-managed-funds-and-rwa-under-one-roof-302856285.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T04:00:00+00:00",
+    "raw_text": "HONG KONG, Aug. 21, 2026 /PRNewswire/ -- BiFu, an all-asset trading platform, has completed the build-out of its Wealth suite, which runs on two product lines: a Wealth product line offering five funds managed by licensed asset management institutions across fixed income, gold,...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "HONG KONG, Aug. 21, 2026 /PRNewswire/ -- BiFu, an all-asset trading platform, has completed the build-out of its Wealth suite, which runs on two product lines: a Wealth product line offering five funds managed by licensed asset management institutions across fixed income, gold,..."
+  },
+  {
+    "title": "inFlow Inventory führt die Nachverfolgung von Chargennummern und Verfallsdaten ein",
+    "url": "https://www.prnewswire.com/news-releases/inflow-inventory-fuhrt-die-nachverfolgung-von-chargennummern-und-verfallsdaten-ein-302857078.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T03:52:00+00:00",
+    "raw_text": "Kleinere Hersteller und Händler in der Lebensmittel-, Getränke-, Pharma- und Medizinproduktebranche können nun jede Charge vom Wareneingang bis zum Kunden zurückverfolgen – und das zu einem Bruchteil der Kosten eines Unternehmens-ERP-Systems. TORONTO, 21. August 2026 /PRNewswire/ --...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Kleinere Hersteller und Händler in der Lebensmittel-, Getränke-, Pharma- und Medizinproduktebranche können nun jede Charge vom Wareneingang bis zum Kunden zurückverfolgen – und das zu einem Bruchteil der Kosten eines Unternehmens-ERP-Systems. TORONTO, 21. August 2026 /PRNewswire/ --..."
+  },
+  {
+    "title": "Alaska Airlines annonce une nouvelle liaison sans escale vers Athènes et Paris, reliant Seattle à un plus grand nombre de destinations dans le monde",
+    "url": "https://www.prnewswire.com/news-releases/alaska-airlines-annonce-une-nouvelle-liaison-sans-escale-vers-athenes-et-paris-reliant-seattle-a-un-plus-grand-nombre-de-destinations-dans-le-monde-302857067.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T03:43:00+00:00",
+    "raw_text": "Alaska Airlines, principale compagnie internationale de Seattle, ajoute Athènes et Paris à son réseau mondial en pleine expansion. Alaska, première compagnie aérienne à relier Seattle et Athènes, deviendra la seule à proposer des vols sans escale entre la côte ouest des États-Unis et la...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Alaska Airlines, principale compagnie internationale de Seattle, ajoute Athènes et Paris à son réseau mondial en pleine expansion. Alaska, première compagnie aérienne à relier Seattle et Athènes, deviendra la seule à proposer des vols sans escale entre la côte ouest des États-Unis et la..."
+  },
+  {
+    "title": "Implantica receives FDA approval for RefluxStop® - Opening the U.S. market",
+    "url": "https://www.prnewswire.com/news-releases/implantica-receives-fda-approval-for-refluxstop--opening-the-us-market-302857063.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-21T03:36:00+00:00",
+    "raw_text": "VADUZ, Liechtenstein, Aug. 21, 2026 /PRNewswire/ -- Implantica AG (publ.), a medtech company at the forefront of introducing advanced technology into the body, announced today that the U.S. Food and Drug Administration (FDA) has granted Premarket Approval (PMA) for RefluxStop®, the...",
+    "categories": [
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "VADUZ, Liechtenstein, Aug. 21, 2026 /PRNewswire/ -- Implantica AG (publ.), a medtech company at the forefront of introducing advanced technology into the body, announced today that the U.S. Food and Drug Administration (FDA) has granted Premarket Approval (PMA) for RefluxStop®, the..."
+  },
+  {
+    "title": "Una divertida apuesta, un gran premio: CHANGAN entrega cinco unidades Deepal S07 valoradas en 799,000 MXN cada una",
+    "url": "https://www.globenewswire.com/news-release/2026/08/21/3348898/0/es/una-divertida-apuesta-un-gran-premio-changan-entrega-cinco-unidades-deepal-s07-valoradas-en-799-000-mxn-cada-una.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-21T06:34:00+00:00",
+    "raw_text": "CIUDAD DE MÉXICO, Aug. 21, 2026 (GLOBE NEWSWIRE) -- Changan Automobile concluyó su campaña “Stay in the Game” con una ceremonia de entrega de vehículos en CHANGAN Pedregal, en la que reconoció a cinco ganadores, cada uno de los cuales recibió un nuevo CHANGAN DEEPAL S07 BEV. La ceremonia contó con la presencia de Deng Chenghao, vicepresidente de Changan Automobile y presidente de Deepal Auto, y Samuel Echeverría, COO de CHANGAN México & LATAM. Con un precio de MXN 799,000 en México, los cinco DEEPAL S07 BEV representan un valor comercial cercano a MXN 4 millones.",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "edr"
+      ],
+      "Data Centres": [
+        "pue"
+      ]
+    },
+    "summary": "CIUDAD DE MÉXICO, Aug. 21, 2026 (GLOBE NEWSWIRE) -- Changan Automobile concluyó su campaña “Stay in the Game” con una ceremonia de entrega de vehículos en CHANGAN Pedregal, en la que reconoció a cinco ganadores, cada uno de los cuales recibió un nuevo CHANGAN DEEPAL S07 BEV. La ceremonia contó con la presencia de Deng Chenghao, vicepresidente de Changan Automobile y presidente de Deepal Auto, y Samuel Echeverría, COO de CHANGAN México & LATAM. Con un precio de MXN 799,000 en México, los cinco DEEPAL S07 BEV representan un valor comercial cercano a MXN 4 millones."
+  },
+  {
+    "title": "Micware Presents Research Results at the International Conference “IEEE IV 2026”",
+    "url": "https://www.globenewswire.com/news-release/2026/08/21/3348895/0/en/micware-presents-research-results-at-the-international-conference-ieee-iv-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-21T06:30:00+00:00",
+    "raw_text": "Paper Published in IEEE Xplore Paper Published in IEEE Xplore",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Paper Published in IEEE Xplore Paper Published in IEEE Xplore"
+  },
+  {
     "title": "Bodor Laser Launches Flagship X Series for Intelligent, Efficient, and Stable Sheet Metal Production",
     "url": "https://www.globenewswire.com/news-release/2026/08/21/3348884/0/en/bodor-laser-launches-flagship-x-series-for-intelligent-efficient-and-stable-sheet-metal-production.html",
     "source": "GlobeNewswire - Technology",
@@ -4057,34 +4489,6 @@
     "summary": "Seafarer Exploration Enters Agreement With Tom McReynolds to Evaluate Known Shipwreck Site Near Naples"
   },
   {
-    "title": "Snail Games Unveils Gamescom 2026 Lineup Headlined by Upcoming AAA Title",
-    "url": "https://www.globenewswire.com/news-release/2026/08/20/3348751/0/en/snail-games-unveils-gamescom-2026-lineup-headlined-by-upcoming-aaa-title.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-20T18:05:00+00:00",
-    "raw_text": "CULVER CITY, Calif., Aug. 20, 2026 (GLOBE NEWSWIRE) -- Snail, Inc. (Nasdaq: SNAL) (\"Snail Games\" or the \"Company\") , a leading independent global developer and publisher of interactive digital entertainment, unveils its Gamescom 2026 lineup that includes developing AAA titles, upcoming releases, and content updates across existing titles.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "CULVER CITY, Calif., Aug. 20, 2026 (GLOBE NEWSWIRE) -- Snail, Inc. (Nasdaq: SNAL) (\"Snail Games\" or the \"Company\") , a leading independent global developer and publisher of interactive digital entertainment, unveils its Gamescom 2026 lineup that includes developing AAA titles, upcoming releases, and content updates across existing titles."
-  },
-  {
-    "title": "WillScot Named Presenting Paddock Sponsor for Inaugural Freedom 250 Grand Prix on the National Mall",
-    "url": "https://www.globenewswire.com/news-release/2026/08/20/3348745/0/en/willscot-named-presenting-paddock-sponsor-for-inaugural-freedom-250-grand-prix-on-the-national-mall.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-20T18:00:00+00:00",
-    "raw_text": "WASHINGTON, Aug. 20, 2026 (GLOBE NEWSWIRE) -- WillScot (Nasdaq: WSC), a leader in turnkey space solutions, today announced it is serving as the Presenting Paddock Sponsor of the Freedom 250 Grand Prix, scheduled for August 22-23. Staging one of the year’s most high-profile sporting events and the first-ever NTT INDYCAR SERIES race on the National Mall and the streets of Washington D.C., the event requires months of preparation, precise logistical coordination and extensive field service and support operations. WillScot will play a critical role in that effort, providing temporary office and storage infrastructure for race teams, event organizers and other supporting operations across the event footprint. As an official partner of INDYCAR and the preferred temporary space provider for race events throughout the NTT INDYCAR SERIES, WillScot is proud to support the Freedom 250 Grand Prix through The Paddock Presented by WillScot . Known as the “locker room of motorsports,” the Paddock serves as the operational hub for competing teams, housing team haulers, equipment and temporary garages where drivers, mechanics and engineers prepare throughout race weekend. In addition to its sponsorship of the Paddock, WillScot will provide temporary office and storage solutions supporting select operations across the event footprint.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "WASHINGTON, Aug. 20, 2026 (GLOBE NEWSWIRE) -- WillScot (Nasdaq: WSC), a leader in turnkey space solutions, today announced it is serving as the Presenting Paddock Sponsor of the Freedom 250 Grand Prix, scheduled for August 22-23. Staging one of the year’s most high-profile sporting events and the first-ever NTT INDYCAR SERIES race on the National Mall and the streets of Washington D.C., the event requires months of preparation, precise logistical coordination and extensive field service and support operations. WillScot will play a critical role in that effort, providing temporary office and storage infrastructure for race teams, event organizers and other supporting operations across the event footprint."
-  },
-  {
     "title": "Cybersecurity Compliance Requirements for Enterprises (2026) - appinventiv.com",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNZjBlVmdaclZIQUNxX3pZeU9XWkZvXzhSZGJLSG1FZFJ1RnJ2bERiWHBZRHhkMFVPM1JWS0xRMENYeV9NUjFZNGloNTdxalZtcUotd2RwZnY0QnJ2eElsSGViVU5UT1Fad2RHNHYyZHpNbnpyLXc?oc=5",
     "source": "Google News: GRC",
@@ -4104,5 +4508,29 @@
       ]
     },
     "summary": "Cybersecurity Compliance Requirements for Enterprises (2026) appinventiv.com"
+  },
+  {
+    "title": "Zero Networks Expands Palo Alto Networks Integration to Deliver Zero-Touch Containment and AI Security - FinancialContent",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYUR1UmVZeWlGUW1Ec0ktYUZNWGF4cFVsclRqNkJ5S3NRVTZmY01Rd0g2czhyZmVLLXVJSUJId2U3aXViTnpoMEFFbmVSZll2UG5xeFlMNURfQWdubXN4dTJkU012MDhlQ1BzTGdUNVBZQ01RdzlhMzN2OUNGV0k4Y2lSeHRjUENDbHYyWk04dDY5OWdBaDBkanF1NVkycUNvVUFzVmN4blhqMXBKU3ZnazlOa0ljNzlWWmROcFRKS0R4MHVJRjhLT2NHcGdXeWltX2M1bHhVTk1wR3E2OXM2RmZDNnNKTFpiaVdHMTRiSTdSU0k?oc=5",
+    "source": "Google News: Vendor Press Releases",
+    "published": "2026-08-20T13:00:00+00:00",
+    "raw_text": "Zero Networks Expands Palo Alto Networks Integration to Deliver Zero-Touch Containment and AI Security FinancialContent",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "Zero Networks Expands Palo Alto Networks Integration to Deliver Zero-Touch Containment and AI Security FinancialContent"
   }
 ]
