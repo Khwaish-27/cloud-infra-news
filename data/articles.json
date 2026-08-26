@@ -656,6 +656,23 @@
     "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]"
   },
   {
+    "title": "Hottest cybersecurity open-source tools of the month: August 2026",
+    "url": "https://www.helpnetsecurity.com/2026/08/26/hottest-cybersecurity-open-source-tools-august-2026/",
+    "source": "Help Net Security",
+    "published": "2026-08-26T04:30:59+00:00",
+    "raw_text": "Presented here is a curated selection of noteworthy open-source cybersecurity solutions that have drawn recognition for their ability to enhance security postures across diverse settings. SkillSpector: NVIDIA’s open-source security scanner for AI agent skills SkillSpector is an open-source scanner from NVIDIA that reads an agent skill and tells you whether to install it. Point it at a directory, a zip file, a single SKILL.md, or a Git URL, and it returns a list of findings, … More → The post Hottest cybersecurity open-source tools of the month: August 2026 appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Presented here is a curated selection of noteworthy open-source cybersecurity solutions that have drawn recognition for their ability to enhance security postures across diverse settings. SkillSpector: NVIDIA’s open-source security scanner for AI agent skills SkillSpector is an open-source scanner from NVIDIA that reads an agent skill and tells you whether to install it. Point it at a directory, a zip file, a single SKILL.md, or a Git URL, and it returns a list of findings, … More → The post Hottest cybersecurity open-source tools of the month: August 2026 appeared first on Help Net Security ."
+  },
+  {
     "title": "INTERPOL crackdown on West African crime rings uncovers troubling new trend",
     "url": "https://www.helpnetsecurity.com/2026/08/25/interpol-jackal-iv-west-african-crime-groups-arrests/",
     "source": "Help Net Security",
@@ -829,29 +846,6 @@
       ]
     },
     "summary": "HOL Guard is a free, open-source tool that sits between an AI assistant and the computer it runs on. When the assistant tries something risky, the tool pauses it and asks you first. It installs in about a minute, runs on your own machine, and a typical check takes under 50 milliseconds. Your files are never uploaded, and the whole thing works with no internet connection."
-  },
-  {
-    "title": "The cybercrime supply chain has five stages, each with a price",
-    "url": "https://www.helpnetsecurity.com/2026/08/25/cybercrime-supply-chain-video/",
-    "source": "Help Net Security",
-    "published": "2026-08-25T05:00:15+00:00",
-    "raw_text": "In this Help Net Security video, Chris Nyhuis, CEO at Vigilant, explains why the picture of a lone ransomware attacker is about 15 years out of date. He walks through the cybercrime supply chain and the five businesses inside it: harvesters who run infostealer malware, brokers who verify and resell access, ransomware-as-a-service operators who build the toolkit, affiliates who run the intrusion, and launderers who move the proceeds. Nyhuis covers what each stage costs, from … More → The post The cybercrime supply chain has five stages, each with a price appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "ransomware",
-        "malware",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "In this Help Net Security video, Chris Nyhuis, CEO at Vigilant, explains why the picture of a lone ransomware attacker is about 15 years out of date. He walks through the cybercrime supply chain and the five businesses inside it: harvesters who run infostealer malware, brokers who verify and resell access, ransomware-as-a-service operators who build the toolkit, affiliates who run the intrusion, and launderers who move the proceeds. Nyhuis covers what each stage costs, from … More → The post The cybercrime supply chain has five stages, each with a price appeared first on Help Net Security ."
   },
   {
     "title": "Hidden Prompts Trick AI Into False Email Summaries",
@@ -1448,7 +1442,7 @@
     "url": "https://cloud.google.com/blog/products/containers-kubernetes/gvisor-sandboxes-for-ray-clusters-on-gke/",
     "source": "Google Cloud Blog",
     "published": "2026-08-25T16:00:00+00:00",
-    "raw_text": "The reinforcement learning (RL) ecosystem is rapidly adopting Ray as the unified compute runtime for complex post-training workflows. Across Google Cloud, we see customers using Ray for workloads ranging from multimodal data pipelines to frontier RL. But as agentic and reasoning models evolve, a critical bottleneck has emerged: orchestrating secure, isolated sandboxes at scale to safely execute dynamic rollouts, code generation, and multi-turn tool interactions. Today, in partnership with Anyscale , we are excited to introduce an experimental library for Ray that leverages agentic AI technologies being developed at Google to bring native, high-performance sandboxing directly into distributed Ray clusters. Sandboxes as Ray Primitives Ray has become a common runtime for orchestrating post-training workloads. Frameworks including veRL, NeMo-RL, SLIME, MILES, and SkyRL already use Ray to coordinate distributed trainers, inference engines, rollout workers, and other components. When we designed Ray Sandboxing, an important goal was to make it fit naturally into the existing Ray programming model rather than introduce a separate abstraction for isolated execution. A sandbox has many of the same properties as other resources managed by Ray: it needs to be placed on a machine, assigned resources, created and destroyed, recovered from failures, and scaled with the surrounding workload. This led us to represent each high-level sandbox through a Ray Actor: The Ray scheduler decides which node should run a sandbox and reserves the corresponding CPU and memory resources. The sandbox Actor manages its lifecycle, while gVisor provides the isolated execution environment on that node. Starting in Ray 2.58, framework authors and researchers can manage sandboxed environments using the same Ray APIs and patterns they already use for the rest of their workload. For example: code_block <ListValue: [StructValue([('code', 'import ray\\r\\nfrom ray.experimental import sandbox\\r\\n\\r\\nray.init()\\r\\n# Create a gVisor sandbox environment and return an actor handle for a proxy actor\\r\\nsb = sandbox.create(\\r\\n cpu=1.0,\\r\\n memory=\"512Mi\",\\r\\n image=\"python:3.12-slim\"\\r\\n)\\r\\n# Execute code inside the sandbox\\r\\nresult = ray.get(sb.exec.remote(\"python -c \\'import sys; print(sys.version)\\'\"))\\r\\nprint(result.stdout)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f86bdfec710>)])]> This creates a gVisor sandbox from an OCI-compatible image and returns a Ray Actor handle. Calls to exec are normal Ray Actor calls, so the sandbox can live anywhere in the cluster. The created actor is a proxy that will forward the operations to gVisor. The sandbox API covers the basic lifecycle needed by agentic workloads: Create environments from OCI container images Set CPU and memory limits Configure environment variables, working directories, and networking Execute commands Read, write, upload, and download files Inspect sandbox state Terminate or delete environments. For lower-level use cases, SandboxRuntime provides direct access to local gVisor sandboxes and lets users modify the OCI specification before it is handed to gVisor. Here is an example how this API can be used to build a pool of local sandboxes inside of an actor: code_block <ListValue: [StructValue([('code', 'import ray\\r\\nfrom ray.experimental.sandbox.runtime import SandboxRuntime\\r\\n\\r\\n@ray.remote\\r\\nclass SandboxPool:\\r\\n def __init__(self, size: int = 3, image: str = \"python:3.10-slim\"):\\r\\n self.runtime = SandboxRuntime()\\r\\n self.sandboxes = [\\r\\n self.runtime.create(image=image, memory=\"512Mi\")\\r\\n for _ in range(size)\\r\\n ]\\r\\n\\r\\n def run_command(self, index: int, command: str):\\r\\n return self.runtime.exec(self.sandboxes[index], command)\\r\\n\\r\\n def close(self):\\r\\n for sb_id in self.sandboxes:\\r\\n self.runtime.delete(sb_id)\\r\\n\\r\\n# Deploy an actor managing a pool of local sandboxes\\r\\npool = SandboxPool.remote(size=3)\\r\\nresult = ray.get(pool.run_command.remote(0, \"python3 -c \\'print(\\\\\"Hello from pool!\\\\\")\\'\"))\\r\\nprint(result.stdout)\\r\\nray.get(pool.close.remote())'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f86bdad9090>)])]> Why gVisor? Running model-generated code means treating the code inside the environment as untrusted. Ray Sandboxing uses gVisor , Google's open-source application kernel, as its initial sandbox runtime. gVisor implements a substantial portion of the Linux system-call interface in userspace, putting an additional isolation boundary between workloads and the host kernel. It is OCI-compatible, works with standard container images, and does not require exposing a Docker daemon or host Docker socket to the sandbox. This combination is particularly useful for agentic workloads: environments remain lightweight enough to create dynamically while providing stronger isolation than executing generated code directly in ordinary containers. gVisor also provides sub-second sandbox startup and low per-sandbox memory overhead, making it possible to use sandboxes as relatively fine-grained distributed resources. In future versions of Ray, we plan to extend support to other sandboxing runtimes such as Agent Substrate or Kata Containers. Try Ray sandboxing on GKE Check out the Ray documentation to learn more about Ray Sandboxes . To try out these sandboxing capabilities on GKE, head over to the Ray sandboxing User Guide . Have feedback or ideas? Join the discussion on the GitHub issue to collaborate on the future of Ray for reinforcement learning.",
+    "raw_text": "The reinforcement learning (RL) ecosystem is rapidly adopting Ray as the unified compute runtime for complex post-training workflows. Across Google Cloud, we see customers using Ray for workloads ranging from multimodal data pipelines to frontier RL. But as agentic and reasoning models evolve, a critical bottleneck has emerged: orchestrating secure, isolated sandboxes at scale to safely execute dynamic rollouts, code generation, and multi-turn tool interactions. Today, in partnership with Anyscale , we are excited to introduce an experimental library for Ray that leverages agentic AI technologies being developed at Google to bring native, high-performance sandboxing directly into distributed Ray clusters. Sandboxes as Ray Primitives Ray has become a common runtime for orchestrating post-training workloads. Frameworks including veRL, NeMo-RL, SLIME, MILES, and SkyRL already use Ray to coordinate distributed trainers, inference engines, rollout workers, and other components. When we designed Ray Sandboxing, an important goal was to make it fit naturally into the existing Ray programming model rather than introduce a separate abstraction for isolated execution. A sandbox has many of the same properties as other resources managed by Ray: it needs to be placed on a machine, assigned resources, created and destroyed, recovered from failures, and scaled with the surrounding workload. This led us to represent each high-level sandbox through a Ray Actor: The Ray scheduler decides which node should run a sandbox and reserves the corresponding CPU and memory resources. The sandbox Actor manages its lifecycle, while gVisor provides the isolated execution environment on that node. Starting in Ray 2.58, framework authors and researchers can manage sandboxed environments using the same Ray APIs and patterns they already use for the rest of their workload. For example: code_block <ListValue: [StructValue([('code', 'import ray\\r\\nfrom ray.experimental import sandbox\\r\\n\\r\\nray.init()\\r\\n# Create a gVisor sandbox environment and return an actor handle for a proxy actor\\r\\nsb = sandbox.create(\\r\\n cpu=1.0,\\r\\n memory=\"512Mi\",\\r\\n image=\"python:3.12-slim\"\\r\\n)\\r\\n# Execute code inside the sandbox\\r\\nresult = ray.get(sb.exec.remote(\"python -c \\'import sys; print(sys.version)\\'\"))\\r\\nprint(result.stdout)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5930881d50>)])]> This creates a gVisor sandbox from an OCI-compatible image and returns a Ray Actor handle. Calls to exec are normal Ray Actor calls, so the sandbox can live anywhere in the cluster. The created actor is a proxy that will forward the operations to gVisor. The sandbox API covers the basic lifecycle needed by agentic workloads: Create environments from OCI container images Set CPU and memory limits Configure environment variables, working directories, and networking Execute commands Read, write, upload, and download files Inspect sandbox state Terminate or delete environments. For lower-level use cases, SandboxRuntime provides direct access to local gVisor sandboxes and lets users modify the OCI specification before it is handed to gVisor. Here is an example how this API can be used to build a pool of local sandboxes inside of an actor: code_block <ListValue: [StructValue([('code', 'import ray\\r\\nfrom ray.experimental.sandbox.runtime import SandboxRuntime\\r\\n\\r\\n@ray.remote\\r\\nclass SandboxPool:\\r\\n def __init__(self, size: int = 3, image: str = \"python:3.10-slim\"):\\r\\n self.runtime = SandboxRuntime()\\r\\n self.sandboxes = [\\r\\n self.runtime.create(image=image, memory=\"512Mi\")\\r\\n for _ in range(size)\\r\\n ]\\r\\n\\r\\n def run_command(self, index: int, command: str):\\r\\n return self.runtime.exec(self.sandboxes[index], command)\\r\\n\\r\\n def close(self):\\r\\n for sb_id in self.sandboxes:\\r\\n self.runtime.delete(sb_id)\\r\\n\\r\\n# Deploy an actor managing a pool of local sandboxes\\r\\npool = SandboxPool.remote(size=3)\\r\\nresult = ray.get(pool.run_command.remote(0, \"python3 -c \\'print(\\\\\"Hello from pool!\\\\\")\\'\"))\\r\\nprint(result.stdout)\\r\\nray.get(pool.close.remote())'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f590bed8750>)])]> Why gVisor? Running model-generated code means treating the code inside the environment as untrusted. Ray Sandboxing uses gVisor , Google's open-source application kernel, as its initial sandbox runtime. gVisor implements a substantial portion of the Linux system-call interface in userspace, putting an additional isolation boundary between workloads and the host kernel. It is OCI-compatible, works with standard container images, and does not require exposing a Docker daemon or host Docker socket to the sandbox. This combination is particularly useful for agentic workloads: environments remain lightweight enough to create dynamically while providing stronger isolation than executing generated code directly in ordinary containers. gVisor also provides sub-second sandbox startup and low per-sandbox memory overhead, making it possible to use sandboxes as relatively fine-grained distributed resources. In future versions of Ray, we plan to extend support to other sandboxing runtimes such as Agent Substrate or Kata Containers. Try Ray sandboxing on GKE Check out the Ray documentation to learn more about Ray Sandboxes . To try out these sandboxing capabilities on GKE, head over to the Ray sandboxing User Guide . Have feedback or ideas? Join the discussion on the GitHub issue to collaborate on the future of Ray for reinforcement learning.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1575,6 +1569,35 @@
     "summary": "Protecting capital in today's markets requires immense speed and precision. A financial analyst preparing a deal memo works across licensed market data, internal models, and confidential client files. General-purpose AI lacks the real-time accuracy, verifiable data lineage, and strict security that financial institutions demand. While model intelligence is necessary, without deep integration into trusted financial systems, it is not sufficient."
   },
   {
+    "title": "New AI-powered quick assessments in Migration Center turbocharge modernization",
+    "url": "https://cloud.google.com/blog/products/infrastructure-modernization/ai-powered-quick-assessments-in-migration-center/",
+    "source": "Google Cloud Blog",
+    "published": "2026-08-24T16:00:00+00:00",
+    "raw_text": "Technology leaders are under mounting pressure to modernize infrastructure, control multi-cloud operational spend, and build data foundations for generative AI. However, the discovery required for that level of transformation can entail weeks of manual spreadsheet analysis, mapping in-house infrastructure, and reconciling siloed, piecemeal cost estimates across disparate teams and sources. To help, we’re announcing AI-powered Quick Assessments in Migration Center , which delivers near-instant total cost of ownership (TCO) modeling and automated service mapping. Compare this to legacy assessment processes, which can stall digital transformation initiatives before they even launch. Manual discovery can delay migration timelines by months, increase engineering overhead, and often miscalculates complex financial models. By replacing manual discovery with AI-assisted automation, IT gains instant, actionable visibility into the TCO and return on investment (ROI) for a given migration initiative. Now, organizations can generate comprehensive migration financial models in minutes rather than months. Teams ingest raw infrastructure data or cloud billing reports and quickly receive an optimized target bill of materials (BOM), service mapping coverage, and projected savings. Decision makers interact with an agentic assistant that explains underlying financial assumptions, recommends technical cost optimizations, and exports ready-to-share executive reports. Inside the AI-powered Migration Center This is made possible with AI-assisted Quick Assessments alongside enhanced Cloud Billing assessment capabilities, both integrated into the new AI-powered Migration Center . AI-assisted Quick Assessment for on-premises workloads Designed for enterprise customers and partners, AI-assisted Quick Assessment automates on-premises infrastructure evaluation to provide rapid financial modeling. Let’s walk through these new capabilities: Instant Compute Engine TCO estimates convert VMware inventory exports (such as RVTools) or aggregated infrastructure inputs into precise Compute Engine cost targets: Migration Center’s Quick TCO Estimator Migration Center’s Quick TCO Estimator results page Advanced architecture modeling supports latest-generation Gen4 compute instances and high-performance Hyperdisk storage pools: Migration Center’s Quick TCO Estimator detailed results page Customizable financial controls allow teams to adjust on-premises baseline cost assumptions to match internal accounting standards: Migration Center’s Quick TCO Estimator detailed results page (continued) Context-aware agentic chat recommends tailored technical cost optimizations aligned with your specific business constraints (such as regional location or compliance needs), clearly explaining the underlying logic and financial assumptions. Migration Center’s agentic chat capabilities Migration Center’s agentic chat capabilities (continued) Migration Center’s agentic chat capabilities (continued) Automated Business Case and Google Sheets export generates ready-to-use reports capturing the complete recommended BOM, TCO comparison, and ROI analysis: Migration Center’s business case The path forward Modernizing your infrastructure starts with fast and accurate data. Migration Center’s Gemini-powered features simplify cloud evaluation, empowering IT decision makers to build defensible business cases generated by machine-learning. Try Migration Center directly in the console today, or take a free migration and modernization assessment to evaluate your workloads and accelerate your strategic cloud journey with Google Cloud.",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "google cloud",
+        "multi-cloud",
+        "digital transformation"
+      ],
+      "GRC": [
+        "compliance"
+      ],
+      "Industry & Market": [
+        "investment",
+        "valuation",
+        "ey"
+      ]
+    },
+    "summary": "Technology leaders are under mounting pressure to modernize infrastructure, control multi-cloud operational spend, and build data foundations for generative AI. However, the discovery required for that level of transformation can entail weeks of manual spreadsheet analysis, mapping in-house infrastructure, and reconciling siloed, piecemeal cost estimates across disparate teams and sources. To help, we’re announcing AI-powered Quick Assessments in Migration Center , which delivers near-instant total cost of ownership (TCO) modeling and automated service mapping. Compare this to legacy assessment processes, which can stall digital transformation initiatives before they even launch."
+  },
+  {
     "title": "Empowering autonomous agents with advanced security governance",
     "url": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-agent-governance-and-security/",
     "source": "Google Cloud Blog",
@@ -1615,35 +1638,6 @@
       ]
     },
     "summary": "AI agents are the ultimate insiders. We grant them permission to read emails, query databases, and trigger API calls. They don’t just retrieve information, they take action. Agents offer incredible potential for increased productivity and better customer experiences, but they also come with new security concerns."
-  },
-  {
-    "title": "New AI-powered quick assessments in Migration Center turbocharge modernization",
-    "url": "https://cloud.google.com/blog/products/infrastructure-modernization/ai-powered-quick-assessments-in-migration-center/",
-    "source": "Google Cloud Blog",
-    "published": "2026-08-24T16:00:00+00:00",
-    "raw_text": "Technology leaders are under mounting pressure to modernize infrastructure, control multi-cloud operational spend, and build data foundations for generative AI. However, the discovery required for that level of transformation can entail weeks of manual spreadsheet analysis, mapping in-house infrastructure, and reconciling siloed, piecemeal cost estimates across disparate teams and sources. To help, we’re announcing AI-powered Quick Assessments in Migration Center , which delivers near-instant total cost of ownership (TCO) modeling and automated service mapping. Compare this to legacy assessment processes, which can stall digital transformation initiatives before they even launch. Manual discovery can delay migration timelines by months, increase engineering overhead, and often miscalculates complex financial models. By replacing manual discovery with AI-assisted automation, IT gains instant, actionable visibility into the TCO and return on investment (ROI) for a given migration initiative. Now, organizations can generate comprehensive migration financial models in minutes rather than months. Teams ingest raw infrastructure data or cloud billing reports and quickly receive an optimized target bill of materials (BOM), service mapping coverage, and projected savings. Decision makers interact with an agentic assistant that explains underlying financial assumptions, recommends technical cost optimizations, and exports ready-to-share executive reports. Inside the AI-powered Migration Center This is made possible with AI-assisted Quick Assessments alongside enhanced Cloud Billing assessment capabilities, both integrated into the new AI-powered Migration Center . AI-assisted Quick Assessment for on-premises workloads Designed for enterprise customers and partners, AI-assisted Quick Assessment automates on-premises infrastructure evaluation to provide rapid financial modeling. Let’s walk through these new capabilities: Instant Compute Engine TCO estimates convert VMware inventory exports (such as RVTools) or aggregated infrastructure inputs into precise Compute Engine cost targets: Migration Center’s Quick TCO Estimator Migration Center’s Quick TCO Estimator results page Advanced architecture modeling supports latest-generation Gen4 compute instances and high-performance Hyperdisk storage pools: Migration Center’s Quick TCO Estimator detailed results page Customizable financial controls allow teams to adjust on-premises baseline cost assumptions to match internal accounting standards: Migration Center’s Quick TCO Estimator detailed results page (continued) Context-aware agentic chat recommends tailored technical cost optimizations aligned with your specific business constraints (such as regional location or compliance needs), clearly explaining the underlying logic and financial assumptions. Migration Center’s agentic chat capabilities Migration Center’s agentic chat capabilities (continued) Migration Center’s agentic chat capabilities (continued) Automated Business Case and Google Sheets export generates ready-to-use reports capturing the complete recommended BOM, TCO comparison, and ROI analysis: Migration Center’s business case The path forward Modernizing your infrastructure starts with fast and accurate data. Migration Center’s Gemini-powered features simplify cloud evaluation, empowering IT decision makers to build defensible business cases generated by machine-learning. Try Migration Center directly in the console today, or take a free migration and modernization assessment to evaluate your workloads and accelerate your strategic cloud journey with Google Cloud.",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud",
-        "multi-cloud",
-        "digital transformation"
-      ],
-      "GRC": [
-        "compliance"
-      ],
-      "Industry & Market": [
-        "investment",
-        "valuation",
-        "ey"
-      ]
-    },
-    "summary": "Technology leaders are under mounting pressure to modernize infrastructure, control multi-cloud operational spend, and build data foundations for generative AI. However, the discovery required for that level of transformation can entail weeks of manual spreadsheet analysis, mapping in-house infrastructure, and reconciling siloed, piecemeal cost estimates across disparate teams and sources. To help, we’re announcing AI-powered Quick Assessments in Migration Center , which delivers near-instant total cost of ownership (TCO) modeling and automated service mapping. Compare this to legacy assessment processes, which can stall digital transformation initiatives before they even launch."
   },
   {
     "title": "The Cloudflare Blog – Brought to you by EmDash",
@@ -3293,52 +3287,6 @@
     "summary": "<p>The Post Office has formally signed a contract with the supplier set to replace the controversial Horizon system, following a three-month delay induced by a challenge from the losing bidder.</p> <p>The £169.2m deal for an electronic point of sale system (EPOS) is Lot 2 of the&nbsp;<a href=\"https://www.computerweekly.com/news/366643515/Fujitsu-finally-thrown-out-of-Post-Office-in-500m-Horizon-replacement-deals\">plan to remove Fujitsu</a> and its system, which is at the heart of the <a href=\"https://www.computerweekly.com/feature/Post-Office-Horizon-scandal-explained-everything-you-need-to-know\">Post Office scandal</a>.&nbsp;The contract was initially set to be formally signed on 3 June,&nbsp;<a href=\"https://www.computerweekly.com/news/366645261/Post-Office-delays-signing-Horizon-replacement-for-third-time\">but has been extended</a>&nbsp;on six occasions.</p> <p><a href=\"https://www.computerweekly.com/news/366649001/Supplier-challenge-delays-Post-Office-Horizon-replacement\">As Computer Weekly revealed</a> earlier this month, the delay was due to a challenge from losing supplier Escher, which believed it should have been awarded the contract. Alongside the OneView Commerce contract announcement, the Post Office said Escher has been awarded a separate deal.</p> <p>A source told Computer Weekly that Escher – the supplier that made the final two bids but lost out on the contract – made a claim for loss of profits for a contract it believes it should have won.</p> <p>Neither the Post Office nor Escher would confirm or deny the claims, and the Department for Business and Trade, which owns the Post Office, also declined to comment.</p> <p>A source told Computer Weekly that Escher and the Post Office have been negotiating behind the scenes, with claims that the Post Office incorrectly scored Escher’s original bid for the replacement contract won by OneView Commerce.</p> <p>The other contract in the Horizon replacement plan, Lot 1, is a £322.8m contract to run Horizon. It was won by Accenture and formally signed off months ago.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Separate deal\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Separate deal</h2> <p>The Post Office has now announced that the contract has been signed off, including a “separate agreement” with Escher to provide “a component of the Horizon replacement programme”.</p> <p>Post Office CEO Neil Brocklehurst said: “Replacing the Horizon system is one of the most significant changes we are making as part of the Post Office’s transformation. This is about more than introducing new technology; it is about creating modern, flexible systems that are designed around the needs of customers and the postmasters who serve them.</p> <p>“Having these partners in place will now enable us to accelerate the introduction of a new platform that is simpler to operate behind Post Office counters, therefore improving operational efficiency throughout our branch network.”</p> <p>Escher has a historic link to Horizon."
   },
   {
-    "title": "How can the UK plan rationally for the datacentre future it needs?",
-    "url": "https://www.computerweekly.com/opinion/How-can-the-UK-plan-rationally-for-the-datacentre-future-it-needs",
-    "source": "ComputerWeekly",
-    "published": "2026-08-24T04:42:00+00:00",
-    "raw_text": "<p>Rising <a href=\"https://www.computerweekly.com/resources/Data-Centre\">demand for datacentres</a> is fuelled by rapid technological development and increased reliance on digital and AI innovations in personal and professional life.</p> <p>The government’s research briefing, <a href=\"https://commonslibrary.parliament.uk/research-briefings/cbp-10315/\">Datacentres: planning policy, sustainability, and resilience</a>, estimated datacentre capacity could rise between 3.3GW and 6.3 GW by 2030. Additionally, the International Data Center Authority’s Global Data Centre Report 2026 stated datacentres account for 5.9% of the UK’s energy, above the government figure from 2025 of 2.5%.&nbsp;</p> <p>The government also admitted the <a href=\"https://www.computerweekly.com/news/366646572/OFGEM-targets-datacentre-builds-with-megawatt-connection-charge\">potential energy demand</a> of the current pipeline of more than 100 datacentres seeking grid connections is 40% higher than initially thought.</p> <p>In this fast-evolving sector, soaring demand is accelerating faster than rollout. This has presented a significant challenge to the industry, government and energy distributors.</p> <p>Regardless of uncertainty over whether the grid now and into the future can bear the brunt of a British datacentre boom, developers and operators cannot afford to wait around.&nbsp;</p> <p>Demand may be increasing in the pipeline, but there is still a long way to go to get projects underway and seize datacentre opportunities.&nbsp;</p> <p>For it to be a success, rollout cannot be done without carefully considering and mitigating negative impacts on the surrounding community and environment. So, comprehensive and rational planning of sites at the outset becomes even more important. Who better to deliver that on British soil than those with understanding of the communities they are to be placed in and the processes they will have to negotiate?</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about datacentre development</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/opinion/Datacentre-planning-must-be-part-of-broad-digital-and-industrial-system\">Datacentre planning must be part of broad digital and industrial system</a>. The UK must integrate digital and energy planning, and treat compute as a flexible grid asset through evidence-based modular design rather than building isolated hyperscale hubs</li> <li><a href=\"https://www.computerweekly.com/opinion/Turn-datacentre-impact-uncertainty-into-datacentre-clarity\">Turn datacentre impact uncertainty into datacentre clarity</a>. Driven by AI, soaring datacentre demands require a UK national community impact framework. It must balance growth with transparency, grid readiness, and ratepayer protection</li> <li><a href=\"https://www.computerweekly.com/news/366644373/Data-dive-Dodgy-data-derails-datacentre-water-debate\">Data dive: Dodgy data derails datacentre water debate</a>. The Government Digital Sustainability Alliance reports that we are on track for a massive water supply shortfall. The dataset it used suggests not. We look at the datacentre water use debate</li> </ul> </div> </div> <h3>Plan for now, plan for the future</h3> <p>Securing <a href=\"https://www.computerweekly.com/news/366649538/Will-Scottish-datacentre-ruling-nudge-spec-builds-into-the-open\">planning permission for datacentres</a> remains a challenge in a rapidly evolving sector.&nbsp;</p> <p>Operators, developers and investors continue to navigate a complex planning landscape, and often rely on specialist advisers to help bring projects forward.&nbsp;</p> <p>Timescales are already measured in years rather than months. These are often extended further by delays in the planning system and grid connection process.</p> <p>To keep pace with growing demand for digital infrastructure, cloud services and AI technologies, the sector cannot afford significant delays to delivery, especially from planning applications.&nbsp;</p> <p>Proposals must incorporate the necessary level of detail from the outset, demonstrating both viability and deliverability, while providing confidence that a scheme can be brought online as quickly as possible.</p> <p>Sites with planning permission secured are increasingly attractive to the market, commanding a premium over comparable land without planning consent as they offer greater certainty and reduce development risk.</p> <p>The same principle applies to former industrial sites and power stations where high-voltage grid connections already exist, providing a significant advantage in an increasingly constrained energy environment.</p> <p>For landowners with suitable sites, there is considerable opportunity to engage with strategic land and planning specialists to unlock value.&nbsp;</p> <p>The process should begin with comprehensive site screening to assess the most appropriate land use. While a datacentre may be a viable option where factors such as scale, location, accessibility and energy infrastructure align, it is essential to evaluate all potential development opportunities to ensure the highest and best use is identified.</p> <p>Once a clear strategy is established, the planning process can commence.&nbsp;</p> <p>A robust and detailed planning application creates the foundation of the entire development lifecycle, influencing financing, insurance, design, construction and ultimately the marketability of the scheme.&nbsp;</p> <p>As such, planning advice should not only focus on securing consent but also consider the practical requirements of delivery and operation.</p> <p>A key component of this process is demonstrating how site-specific challenges will be addressed.&nbsp;</p> <p>Power demand, grid capacity, utility provision and wider infrastructure requirements must all be considered and clearly articulated within the application.&nbsp;</p> <p>Equally important is a detailed understanding of the local area, including planning policy, community considerations and regional factors that may influence decision-making.</p> <h3>A source not a drain for communities</h3> <p>In their role to mitigate the impact of sites, Ofgem launched a consultation to tackle “speculative datacentre projects” in the queue for grid connections.&nbsp;</p> <p>While this is a positive step from the regulator to protect consumers, improve confidence in network planning and clear the way for viable projects to connect, this does mean project plans must stand up to scrutiny and be fully thought out.</p> <p>One proposal in this is to introduce significant upfront commitment fees that could see larger offtakers paying between £237,500 and £712,500 per MW of contracted capacity to join the queue.&nbsp;</p> <p>That means projects that are abandoned or that have fallen behind contracted milestones will face termination and loss of the commitment fee.&nbsp;</p> <p>This significant financial commitment for developers and offtakers will likely mean many organisations are less inclined to bring forward speculative schemes.</p> <p>Planning applications, designs or building schedules for datacentres will be under the microscope now more than ever. Any gaps in considerations could see projects left at the back of the queue, or become very unprofitable if considerable losses are made.&nbsp;</p> <p>It is crucial that operators, developers and contractors in the space work with advisors and planning authorities to develop a bulletproof plan for projects to ensure such setbacks are avoided.</p> <p>While grid capacity remains one of the greatest challenges facing datacentre development, there is growing potential for alternative energy solutions to support delivery.</p> <p>In some locations, datacentres, and neighbouring businesses could be supplied by dedicated off-grid renewable energy generation and battery storage facilities located nearby, operating alongside a grid connection.&nbsp;</p> <p>In certain circumstances, this may be facilitated through a Power Purchase Agreement (PPA), to provide greater energy security, cost certainty and sustainability credentials.</p> <p>Here lies a significant opportunity for landowners and renewable energy developers to play a leading role in supporting the UK's digital infrastructure growth.&nbsp;</p> <p>Renewable energy projects that can help bridge supply constraints or supplement grid connections are therefore likely to become an increasingly important part of the solution. Those able to provide such solutions are likely to find themselves in an increasingly advantageous position.</p> <p>In a market experiencing the level of growth currently seen within the datacentre sector, opportunities extend far beyond the development and operation of the facilities themselves.&nbsp;</p> <p>Landowners who work proactively with strategic land, planning and energy advisers to secure consent for renewable energy generation and storage projects may also unlock considerable value.&nbsp;</p> <p>Whether through the sale of land to energy developers, participation in joint ventures, or by acting as a corporate energy supplier, there is scope to capitalise on the growing demand for power infrastructure.</p> <h3>Funding a home grown boom</h3> <p>Home-grown SMEs could benefit significantly from the UK datacentre boom. Yet, in the immediate term, meeting the rapid growth in demand means business must scale quickly too.&nbsp;</p> <p>Already contending with the current barriers to delivery, these smaller players are somewhat limited in what growth they can achieve, often unable to grow beyond smaller edge projects&nbsp;</p> <p>To be able to compete with the significant financial capability of the global giants, businesses in the UK market must be able to take their slice of the investment pie.&nbsp;</p> <p>We have seen the UK Government’s Sovereign AI venture fund recently backing a British computer chip unicorn, OLIX, which is a good example of using investment to support home grown business with scaling.</p> <p>However, we know there is global investment and interest in the British AI sector, and plenty of companies across the supply chain who would benefit from a boost.&nbsp;</p> <p>Working with advisors, these smaller and medium sized enterprises can not only secure the funding available from lenders across the globe, but also design a strategic business plan that lays out the path to success to secure buy-in. This can be intrinsically linked to project pipelines and identify the barriers when injections of funding can support the planning process, rollout of energy infrastructure or growth to meet demand.</p> <p>A British AI supply chain with UK businesses operating at a global level could be a more resilient sector that isn’t at the mercy of global markets and shocks, not to mention the skilled career opportunities and regional economic benefits it would open.</p> <p>Planning is the foundation upon which the success of the UK's datacentre sector will be built. As the country seeks to realise the economic and technological potential of AI, the conversation must evolve beyond datacentres alone and focus on a wider strategic approach. The developers, landowners, investors or policymakers who recognise this broader picture will be best placed to help shape and benefit from the next phase of the UK's digital infrastructure revolution.</p> <p><em>Javid Patel is senior director and head of public sector &amp; strategic advisory and transaction team at BTG Eddisons. Henry Pauncefort-Duncombe is director and head of strategic land at BTG Eddisons.</em></p> <p></p>",
-    "categories": [
-      "Data Centres",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "cloud services"
-      ],
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "policy"
-      ],
-      "Data Centres": [
-        "data center",
-        "data centre",
-        "hyperscale",
-        "rack",
-        "capacity",
-        "megawatt"
-      ],
-      "Industry & Market": [
-        "joint venture",
-        "funding",
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p>Rising <a href=\"https://www.computerweekly.com/resources/Data-Centre\">demand for datacentres</a> is fuelled by rapid technological development and increased reliance on digital and AI innovations in personal and professional life.</p> <p>The government’s research briefing, <a href=\"https://commonslibrary.parliament.uk/research-briefings/cbp-10315/\">Datacentres: planning policy, sustainability, and resilience</a>, estimated datacentre capacity could rise between 3.3GW and 6.3 GW by 2030. Additionally, the International Data Center Authority’s Global Data Centre Report 2026 stated datacentres account for 5.9% of the UK’s energy, above the government figure from 2025 of 2.5%.&nbsp;</p> <p>The government also admitted the <a href=\"https://www.computerweekly.com/news/366646572/OFGEM-targets-datacentre-builds-with-megawatt-connection-charge\">potential energy demand</a> of the current pipeline of more than 100 datacentres seeking grid connections is 40% higher than initially thought.</p> <p>In this fast-evolving sector, soaring demand is accelerating faster than rollout. This has presented a significant challenge to the industry, government and energy distributors.</p> <p>Regardless of uncertainty over whether the grid now and into the future can bear the brunt of a British datacentre boom, developers and operators cannot afford to wait around.&nbsp;</p> <p>Demand may be increasing in the pipeline, but there is still a long way to go to get projects underway and seize datacentre opportunities.&nbsp;</p> <p>For it to be a success, rollout cannot be done without carefully considering and mitigating negative impacts on the surrounding community and environment. So, comprehensive and rational planning of sites at the outset becomes even more important."
-  },
-  {
     "title": "Universal adapter vs. travel charger: Confused? Here's the device you need most",
     "url": "https://www.zdnet.com/article/universal-travel-adapter-vs-travel-ready-charger-whats-the-difference/",
     "source": "ZDNet",
@@ -3603,325 +3551,20 @@
     "summary": "Training for a fall marathon? Snag one of these Garmin running watches we've tested at a discount."
   },
   {
-    "title": "Aulumu Redefines Urban Transit with Its New B01/B02 Urban Gear Sling Bags",
-    "url": "https://www.prnewswire.com/news-releases/aulumu-redefines-urban-transit-with-its-new-b01b02-urban-gear-sling-bags-302860043.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T03:05:00+00:00",
-    "raw_text": "Beyond Storage. Redefining Carry. SHENZHEN, China, Aug. 26, 2026 /PRNewswire/ -- Aulumu is expanding its magnetic ecosystem beyond the smartphone and into Urban Transit with the introduction of the B01 Urban Transit Gear Sling Bag and the B02 Urban Quick-Access Phone Sling Bag. Designed...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Beyond Storage. Redefining Carry. SHENZHEN, China, Aug. 26, 2026 /PRNewswire/ -- Aulumu is expanding its magnetic ecosystem beyond the smartphone and into Urban Transit with the introduction of the B01 Urban Transit Gear Sling Bag and the B02 Urban Quick-Access Phone Sling Bag."
-  },
-  {
-    "title": "Three \"Native\" Capabilities: How Pinea Pi Defines the Edge AI Device",
-    "url": "https://www.prnewswire.com/news-releases/three-native-capabilities-how-pinea-pi-defines-the-edge-ai-device-302860026.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T02:51:00+00:00",
-    "raw_text": "NEW YORK, Aug. 25, 2026 /PRNewswire/ -- Pinea Pi, the AI-native hardware pioneer, today revealed the technology behind its edge AI node, coming to Kickstarter from late September to late October. Starting in late August, early supporters can reserve theirs with a $30 deposit at...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "NEW YORK, Aug. 25, 2026 /PRNewswire/ -- Pinea Pi, the AI-native hardware pioneer, today revealed the technology behind its edge AI node, coming to Kickstarter from late September to late October. Starting in late August, early supporters can reserve theirs with a $30 deposit at..."
-  },
-  {
-    "title": "COMUNICADO DE JINGYE STEEL CO., LTD.",
-    "url": "https://www.prnewswire.com/news-releases/comunicado-de-jingye-steel-co-ltd-302860021.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T02:47:00+00:00",
-    "raw_text": "SHIJIAZHUANG, China, 26 de agosto de 2026 /PRNewswire/ -- Jingye Steel Co., Ltd. (en adelante, «Jingye») emite por la presente el siguiente comunicado en relación con la nacionalización total de British Steel por parte del Gobierno del Reino Unido: Hace cinco años, cuando British Steel se...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "SHIJIAZHUANG, China, 26 de agosto de 2026 /PRNewswire/ -- Jingye Steel Co., Ltd. (en adelante, «Jingye») emite por la presente el siguiente comunicado en relación con la nacionalización total de British Steel por parte del Gobierno del Reino Unido: Hace cinco años, cuando British Steel se..."
-  },
-  {
-    "title": "SHAREHOLDER ALERT: Levi & Korsinsky, LLP Notifies Stockholders of an Investigation into the Fairness of the Acquisition of Utz Brands, Inc.",
-    "url": "https://www.prnewswire.com/news-releases/shareholder-alert-levi--korsinsky-llp-notifies-stockholders-of-an-investigation-into-the-fairness-of-the-acquisition-of-utz-brands-inc-302859904.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T02:42:00+00:00",
-    "raw_text": "NEW YORK, Aug. 25, 2026 /PRNewswire/ -- The following statement is being issued by Levi & Korsinsky, LLP: To: All Persons or Entities who purchased Utz Brands, Inc. (\"Utz\" or the \"Company\") (NYSE: UTZ) stock prior to July 22, 2026. You are hereby notified that Levi & Korsinsky, LLP has...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquisition"
-      ]
-    },
-    "summary": "NEW YORK, Aug. 25, 2026 /PRNewswire/ -- The following statement is being issued by Levi & Korsinsky, LLP: To: All Persons or Entities who purchased Utz Brands, Inc. (\"Utz\" or the \"Company\") (NYSE: UTZ) stock prior to July 22, 2026. You are hereby notified that Levi & Korsinsky, LLP has..."
-  },
-  {
-    "title": "JOYY Reports Second Quarter 2026 Financial Results: Total Revenues Increase to US$590.8 Million, Driven by Growth Across Core Businesses",
-    "url": "https://www.prnewswire.com/news-releases/joyy-reports-second-quarter-2026-financial-results-total-revenues-increase-to-us590-8-million-driven-by-growth-across-core-businesses-302859993.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T02:16:00+00:00",
-    "raw_text": "SINGAPORE, Aug. 25, 2026 /PRNewswire/ -- JOYY Inc. (NASDAQ: JOYY) (\"JOYY\" or the \"Company\"), a leading global technology company, today announced its unaudited financial results for the second quarter ended June 30, 2026. In the second quarter, JOYY generated total revenues of US$590.8...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "audit"
-      ]
-    },
-    "summary": "SINGAPORE, Aug. 25, 2026 /PRNewswire/ -- JOYY Inc. (NASDAQ: JOYY) (\"JOYY\" or the \"Company\"), a leading global technology company, today announced its unaudited financial results for the second quarter ended June 30, 2026. In the second quarter, JOYY generated total revenues of US$590.8..."
-  },
-  {
-    "title": "Kutta Technologies' KTAC Controller Approved for DCMA Blue List",
-    "url": "https://www.prnewswire.com/news-releases/kutta-technologies-ktac-controller-approved-for-dcma-blue-list-302858054.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T02:05:00+00:00",
-    "raw_text": "Approval reinforces KTAC as a trusted, mission-ready control solution for unmanned systems PHOENIX, Aug. 25, 2026 /PRNewswire/ -- Kutta Technologies (Kutta), a leader in unmanned systems control software and hardware, today announced that its Kutta Tactical Controller (KTAC) has been...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Approval reinforces KTAC as a trusted, mission-ready control solution for unmanned systems PHOENIX, Aug. 25, 2026 /PRNewswire/ -- Kutta Technologies (Kutta), a leader in unmanned systems control software and hardware, today announced that its Kutta Tactical Controller (KTAC) has been..."
-  },
-  {
-    "title": "The Dollywood Foundation Honors the Life and Legacy of Dolly Parton",
-    "url": "https://www.prnewswire.com/news-releases/the-dollywood-foundation-honors-the-life-and-legacy-of-dolly-parton-302859979.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T01:50:00+00:00",
-    "raw_text": "Foundation to carry forward Dolly's lifelong mission of inspiring children, families and communities through generosity, opportunity and love SEVIERVILLE, Tenn., Aug. 25, 2026 /PRNewswire/ -- The Dollywood Foundation today joins millions of people around the world in mourning the passing...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Foundation to carry forward Dolly's lifelong mission of inspiring children, families and communities through generosity, opportunity and love SEVIERVILLE, Tenn., Aug. 25, 2026 /PRNewswire/ -- The Dollywood Foundation today joins millions of people around the world in mourning the passing..."
-  },
-  {
-    "title": "Antaisolar Joins United Nations Global Compact and Releases 2025 ESG Report",
-    "url": "https://www.prnewswire.com/news-releases/antaisolar-joins-united-nations-global-compact-and-releases-2025-esg-report-302859976.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T01:46:00+00:00",
-    "raw_text": "XIAMEN, China, Aug. 25, 2026 /PRNewswire/ -- Antaisolar, a leading expert in digital and intelligent PV mounting system solutions, announced its official participation in the United Nations Global Compact (UNGC) and the release of its 2025 ESG Report, marking two key milestones in the...",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "esg"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "XIAMEN, China, Aug. 25, 2026 /PRNewswire/ -- Antaisolar, a leading expert in digital and intelligent PV mounting system solutions, announced its official participation in the United Nations Global Compact (UNGC) and the release of its 2025 ESG Report, marking two key milestones in the..."
-  },
-  {
-    "title": "American Alliance for Equal Rights Announces Settlement of Whistleblower Suit Against Deloitte",
-    "url": "https://www.prnewswire.com/news-releases/american-alliance-for-equal-rights-announces-settlement-of-whistleblower-suit-against-deloitte-302859961.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T01:29:00+00:00",
-    "raw_text": "FORT WORTH, Texas, Aug. 25, 2026 /PRNewswire/ -- Today, the Alliance—together with the United States of America, Florida, and Indiana—announced a settlement with Deloitte. Represented by Consovoy McCarthy PLLC, the Alliance filed a complaint in the Northern District of Texas under the...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces",
-        "deloitte"
-      ]
-    },
-    "summary": "FORT WORTH, Texas, Aug. 25, 2026 /PRNewswire/ -- Today, the Alliance—together with the United States of America, Florida, and Indiana—announced a settlement with Deloitte. Represented by Consovoy McCarthy PLLC, the Alliance filed a complaint in the Northern District of Texas under the..."
-  },
-  {
-    "title": "The SBB Research Group Foundation Sponsors Women United of Lake County",
-    "url": "https://www.prnewswire.com/news-releases/the-sbb-research-group-foundation-sponsors-women-united-of-lake-county-302859957.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T01:25:00+00:00",
-    "raw_text": "CHICAGO, Aug. 25, 2026 /PRNewswire/ -- Women United of Lake County collaborated in a volunteer initiative alongside the SBB Research Group Foundation, which partners with local nonprofits through its Champion A Charity Program. Volunteers gathered to assemble 60 early learning and...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "CHICAGO, Aug. 25, 2026 /PRNewswire/ -- Women United of Lake County collaborated in a volunteer initiative alongside the SBB Research Group Foundation, which partners with local nonprofits through its Champion A Charity Program. Volunteers gathered to assemble 60 early learning and..."
-  },
-  {
-    "title": "Caliway's CBL-514 Combination Therapy Cleared by U.S. FDA for Phase 2 Trial; Pivotal Phase 3 Trial SUPREME-01 Initiates Enrollment",
-    "url": "https://www.prnewswire.com/news-releases/caliways-cbl-514-combination-therapy-cleared-by-us-fda-for-phase-2-trial-pivotal-phase-3-trial-supreme-01-initiates-enrollment-302859956.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T01:24:00+00:00",
-    "raw_text": "FDA IND Clearance for CBL-0201WR—Caliway has cleared its Investigational New Drug application for CBL-0201WR, a Phase 2 trial evaluating CBL-514 in combination with tirzepatide. U.S. IRB Approval for Pivotal Phase 3 Trial SUPREME-01 (CBL-0301)—The protocol amendment for the pivotal Phase...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "FDA IND Clearance for CBL-0201WR—Caliway has cleared its Investigational New Drug application for CBL-0201WR, a Phase 2 trial evaluating CBL-514 in combination with tirzepatide. U.S. IRB Approval for Pivotal Phase 3 Trial SUPREME-01 (CBL-0301)—The protocol amendment for the pivotal Phase..."
-  },
-  {
-    "title": "Founder Securities Chief Economist Yan Xiang: China's Capital Market Is Better Aligned and More Effective in Backing the New Growth Drivers",
-    "url": "https://www.prnewswire.com/news-releases/founder-securities-chief-economist-yan-xiang-chinas-capital-market-is-better-aligned-and-more-effective-in-backing-the-new-growth-drivers-302859955.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T01:23:00+00:00",
-    "raw_text": "BEIJING, Aug. 19, 2026 /PRNewswire/ -- The Political Bureau of the CPC Central Committee convened a meeting on July 30 to assess the current economic landscape and set priorities for the second half of the year. On capital markets, the meeting called for deepening comprehensive reform of...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "BEIJING, Aug. 19, 2026 /PRNewswire/ -- The Political Bureau of the CPC Central Committee convened a meeting on July 30 to assess the current economic landscape and set priorities for the second half of the year. On capital markets, the meeting called for deepening comprehensive reform of..."
-  },
-  {
-    "title": "GOFO Expands Its Dallas Central Primary Hub, Raising Daily Capacity to 800,000 Parcels, With a Nationwide Network Upgrade Set for Completion Ahead of Peak Season",
-    "url": "https://www.prnewswire.com/news-releases/gofo-expands-its-dallas-central-primary-hub-raising-daily-capacity-to-800-000-parcels-with-a-nationwide-network-upgrade-set-for-completion-ahead-of-peak-season-302859939.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:58:00+00:00",
-    "raw_text": "A newly added 200,000-square-foot facility and a large-scale double-deck cross-belt sorter lift the hub to 45,000 parcels per hour across its systems DALLAS, Aug. 25, 2026 /PRNewswire/ -- GOFO, a technology-driven last-mile delivery carrier, celebrated the expansion of its Dallas Central...",
-    "categories": [
-      "Networks",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Data Centres": [
-        "capacity"
-      ],
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "A newly added 200,000-square-foot facility and a large-scale double-deck cross-belt sorter lift the hub to 45,000 parcels per hour across its systems DALLAS, Aug. 25, 2026 /PRNewswire/ -- GOFO, a technology-driven last-mile delivery carrier, celebrated the expansion of its Dallas Central..."
-  },
-  {
-    "title": "Combos Makes Its Global Debut at Gamescom, Bringing AI-Created Games by Everyday Creators",
-    "url": "https://www.prnewswire.com/news-releases/combos-makes-its-global-debut-at-gamescom-bringing-ai-created-games-by-everyday-creators-302859934.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:52:00+00:00",
-    "raw_text": "The AI game creation platform arrives in Cologne with 10+ playable titles built by creators with no coding background and a growing community of 300,000+ creators across 110+ countries COLOGNE, Germany, Aug. 25, 2026 /PRNewswire/ -- Combos, the AI game creation platform by Converge.AI, is...",
+    "title": "Vishay Intertechnology to Showcase Solutions for AI Infrastructure and Physical AI at PCIM Asia 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/08/26/3351067/0/en/vishay-intertechnology-to-showcase-solutions-for-ai-infrastructure-and-physical-ai-at-pcim-asia-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-26T04:01:00+00:00",
+    "raw_text": "Company to Highlight Broad Portfolio of Semiconductor and Passive Technologies in a Series of Reference Designs and Product Demonstrations Focused on Grid to Board AI Power Delivery, Software-Defined Vehicles, and Humanoid Robotics Company to Highlight Broad Portfolio of Semiconductor and Passive Technologies in a Series of Reference Designs and Product Demonstrations Focused on Grid to Board AI Power Delivery, Software-Defined Vehicles, and Humanoid Robotics",
     "categories": [
       "Data Centres"
     ],
     "matched_keywords": {
       "Data Centres": [
-        "colo"
+        "ai infrastructure"
       ]
     },
-    "summary": "The AI game creation platform arrives in Cologne with 10+ playable titles built by creators with no coding background and a growing community of 300,000+ creators across 110+ countries COLOGNE, Germany, Aug. 25, 2026 /PRNewswire/ -- Combos, the AI game creation platform by Converge.AI, is..."
-  },
-  {
-    "title": "BEYONCÉ REALIZARÁ UNA DONACIÓN PERSONAL DE UN MILLÓN DE DÓLARES A ORGANIZACIONES DE COLOMBIA PARA COLABORAR EN LAS LABORES DE AYUDA HUMANITARIA TRAS EL RECIENTE TERREMOTO",
-    "url": "https://www.prnewswire.com/news-releases/beyonce-realizara-una-donacion-personal-de-un-millon-de-dolares-a-organizaciones-de-colombia-para-colaborar-en-las-labores-de-ayuda-humanitaria-tras-el-reciente-terremoto-897939741.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:33:00+00:00",
-    "raw_text": "NUEVA YORK, 25 de agosto de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Hoy, Beyoncé anuncia una donación personal de 1 millón de dólares estadounidenses a organizaciones que actualmente trabajan sobre el terreno en Colombia en labores de ayuda humanitaria tras la devastación causada por el...",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "colo"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NUEVA YORK, 25 de agosto de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Hoy, Beyoncé anuncia una donación personal de 1 millón de dólares estadounidenses a organizaciones que actualmente trabajan sobre el terreno en Colombia en labores de ayuda humanitaria tras la devastación causada por el..."
-  },
-  {
-    "title": "NAVER D2SF Invests in F4GE, a Defense and Manufacturing Infrastructure Startup",
-    "url": "https://www.prnewswire.com/news-releases/naver-d2sf-invests-in-f4ge-a-defense-and-manufacturing-infrastructure-startup-302859450.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:30:00+00:00",
-    "raw_text": "-F4GE connects Korea's manufacturing network with global demand from defense and advanced manufacturing companies, building a programmable manufacturing network -Standardizes data from Korea's core manufacturing factories and converts it to meet global buyer requirements, supporting...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ]
-    },
-    "summary": "-F4GE connects Korea's manufacturing network with global demand from defense and advanced manufacturing companies, building a programmable manufacturing network -Standardizes data from Korea's core manufacturing factories and converts it to meet global buyer requirements, supporting..."
-  },
-  {
-    "title": "Vector Science and Therapeutics Corp. Enters Into an Investor Relations Agreement and Grants Options",
-    "url": "https://www.prnewswire.com/news-releases/vector-science-and-therapeutics-corp-enters-into-an-investor-relations-agreement-and-grants-options-302859924.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:27:00+00:00",
-    "raw_text": "MEQUON, Wis., Aug. 25, 2026 /PRNewswire/ -- Vector Science and Therapeutics Corp. (TSXV: PAIN) (\"Vector\" or the \"Company\") is pleased to announce that the Company has entered into an investor relations agreement (the \"IR Agreement\") with RedChip Companies, Inc. (\"RedChip\") through its...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "MEQUON, Wis., Aug. 25, 2026 /PRNewswire/ -- Vector Science and Therapeutics Corp. (TSXV: PAIN) (\"Vector\" or the \"Company\") is pleased to announce that the Company has entered into an investor relations agreement (the \"IR Agreement\") with RedChip Companies, Inc. (\"RedChip\") through its..."
-  },
-  {
-    "title": "La abogada especializada en lesiones personales de BD&J, Elizabeth A. Hernández, ha sido galardonada con el Premio Luminarias 2026 del Colegio de Abogadas Latinas",
-    "url": "https://www.prnewswire.com/news-releases/la-abogada-especializada-en-lesiones-personales-de-bd-amp-j-elizabeth-a-hernandez-ha-sido-galardonada-con-el-premio-luminarias-2026-del-colegio-de-abogadas-latinas-843130252.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:22:00+00:00",
-    "raw_text": "LOS ÁNGELES, California, 25 de agosto de 2026 /PRNewswire-HISPANIC PR WIRE/ -- La prestigiosa abogada especializada en lesiones personales de BD&J, Elizabeth A. Hernández, ha sido galardonada con el Premio Luminarias 2026, otorgado por la Asociación de Abogadas Latinas de (LLBA). Este...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "LOS ÁNGELES, California, 25 de agosto de 2026 /PRNewswire-HISPANIC PR WIRE/ -- La prestigiosa abogada especializada en lesiones personales de BD&J, Elizabeth A. Hernández, ha sido galardonada con el Premio Luminarias 2026, otorgado por la Asociación de Abogadas Latinas de (LLBA). Este..."
-  },
-  {
-    "title": "Utility Global stelt Erik Meuleman aan als Chief Technology Officer om de commercialisering van zijn eigen H2Gen-technologie te bevorderen",
-    "url": "https://www.prnewswire.com/news-releases/utility-global-stelt-erik-meuleman-aan-als-chief-technology-officer-om-de-commercialisering-van-zijn-eigen-h2gen-technologie-te-bevorderen-302859920.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:14:00+00:00",
-    "raw_text": "Veteraan uit de sector brengt meer dan 20 jaar ervaring mee met het bevorderen van decarbonisatietechnologieën van onderzoek tot commerciële toepassing HOUSTON, 26 augustus 2026 /PRNewswire/ -- Utility Global (\"Utility\"), een wereldwijd bedrijf dat economische industriële decarbonisatie...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "edr"
-      ]
-    },
-    "summary": "Veteraan uit de sector brengt meer dan 20 jaar ervaring mee met het bevorderen van decarbonisatietechnologieën van onderzoek tot commerciële toepassing HOUSTON, 26 augustus 2026 /PRNewswire/ -- Utility Global (\"Utility\"), een wereldwijd bedrijf dat economische industriële decarbonisatie..."
-  },
-  {
-    "title": "Caladan Goes Live on BitGo's Go Network for Institutional Settlement",
-    "url": "https://www.prnewswire.com/news-releases/caladan-goes-live-on-bitgos-go-network-for-institutional-settlement-302859908.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-08-26T00:00:00+00:00",
-    "raw_text": "SINGAPORE, Aug. 25, 2026 /PRNewswire/ -- Caladan and BitGo Bank & Trust, National Association (\"BitGo Bank & Trust\"), an OCC-regulated digital asset trust bank and subsidiary of BitGo Holdings, Inc. (NYSE: BTGO) (\"BitGo\"), are expanding their partnership with the integration of BitGo's Go...",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "SINGAPORE, Aug. 25, 2026 /PRNewswire/ -- Caladan and BitGo Bank & Trust, National Association (\"BitGo Bank & Trust\"), an OCC-regulated digital asset trust bank and subsidiary of BitGo Holdings, Inc. (NYSE: BTGO) (\"BitGo\"), are expanding their partnership with the integration of BitGo's Go..."
+    "summary": "Company to Highlight Broad Portfolio of Semiconductor and Passive Technologies in a Series of Reference Designs and Product Demonstrations Focused on Grid to Board AI Power Delivery, Software-Defined Vehicles, and Humanoid Robotics Company to Highlight Broad Portfolio of Semiconductor and Passive Technologies in a Series of Reference Designs and Product Demonstrations Focused on Grid to Board AI Power Delivery, Software-Defined Vehicles, and Humanoid Robotics"
   },
   {
     "title": "The Baby Food Aisle is About to Get a Shake-up: Odi Launches in Australia",
@@ -4212,18 +3855,6 @@
     ],
     "matched_keywords": {},
     "summary": "The GTA pool installation company earns recognition for its custom pool designs, quality craftsmanship, and complete backyard transformation services. The GTA pool installation company earns recognition for its custom pool designs, quality craftsmanship, and complete backyard transformation services."
-  },
-  {
-    "title": "Private Tours of Spain Sees 400% Surge in Hyper-Specific AI-Generated Tour Requests",
-    "url": "https://www.globenewswire.com/news-release/2026/08/25/3350795/0/en/private-tours-of-spain-sees-400-surge-in-hyper-specific-ai-generated-tour-requests.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-25T17:01:00+00:00",
-    "raw_text": "“Barcelona to Andalusia via Rioja, San Sebastián and Bilbao, three Michelin stars and the Alhambra at sunset – all in six days”: how AI-generated wish lists are reshaping private tour requests across the industry “Barcelona to Andalusia via Rioja, San Sebastián and Bilbao, three Michelin stars and the Alhambra at sunset – all in six days”: how AI-generated wish lists are reshaping private tour requests across the industry",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "“Barcelona to Andalusia via Rioja, San Sebastián and Bilbao, three Michelin stars and the Alhambra at sunset – all in six days”: how AI-generated wish lists are reshaping private tour requests across the industry “Barcelona to Andalusia via Rioja, San Sebastián and Bilbao, three Michelin stars and the Alhambra at sunset – all in six days”: how AI-generated wish lists are reshaping private tour requests across the industry"
   },
   {
     "title": "Third-party colocation dominates India's data centre infra as enterprise-owned facilities account for just 12%: Anarock - India's News.Net",
