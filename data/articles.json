@@ -1,5 +1,26 @@
 [
   {
+    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+    "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+    "source": "The Hacker News",
+    "published": "2026-08-29T16:25:03+00:00",
+    "raw_text": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "cve",
+        "security"
+      ]
+    },
+    "summary": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in"
+  },
+  {
     "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
     "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
     "source": "The Hacker News",
@@ -278,113 +299,36 @@
     "summary": "PaperCut has alerted customers that bad actors are actively exploiting a vulnerability impacting all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. The company has released an emergency patch for v25 and v26 to address the issue. It said it's \"aware of confirmed customer incidents and is treating this matter with the highest priority.\" An"
   },
   {
-    "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
-    "url": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
-    "source": "The Hacker News",
-    "published": "2026-08-28T08:20:59+00:00",
-    "raw_text": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously undocumented backdoor dubbed HOOKEDGE, a lightweight Windows batch script that's distributed via",
+    "title": "Anthropic is cutting Claude Code's current weekly limits by 17%",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/",
+    "source": "BleepingComputer",
+    "published": "2026-08-29T23:11:51+00:00",
+    "raw_text": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]",
     "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "Cybersecurity researchers have flagged a fresh set of campaigns targeting government and diplomatic organizations in Romania, Spain, and Türkiye between late September 2025 and early April 2026. These campaigns, per Recorded Future Insikt Group, have led to the deployment of a previously undocumented backdoor dubbed HOOKEDGE, a lightweight Windows batch script that's distributed via"
-  },
-  {
-    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
-    "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
-    "source": "The Hacker News",
-    "published": "2026-08-27T18:36:19+00:00",
-    "raw_text": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May. The incident, the company said, took place during cybersecurity evaluations of several OpenAI models, and that it was mainly fueled by what it described as a \"highly capable",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "zero-day",
-        "exploit",
-        "security",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "valuation",
-        "ey"
-      ]
-    },
-    "summary": "OpenAI on Wednesday revealed that reward hacking was a key driver behind the artificial intelligence (AI)-powered hack of Hugging Face last month, adding that it found evidence of misaligned behavior as early as late May. The incident, the company said, took place during cybersecurity evaluations of several OpenAI models, and that it was mainly fueled by what it described as a \"highly capable"
-  },
-  {
-    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
-    "source": "The Hacker News",
-    "published": "2026-08-27T15:13:00+00:00",
-    "raw_text": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem. The Windows path traversal, tracked as CVE-2026-75604&",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Cybersecurity": [
-        "cve",
-        "exploit",
-        "security"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one exploitable via specially crafted AVIF image files and the other through a path traversal flaw affecting servers that use a Windows filesystem. The Windows path traversal, tracked as CVE-2026-75604&"
-  },
-  {
-    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-    "url": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-    "source": "The Hacker News",
-    "published": "2026-08-27T15:12:16+00:00",
-    "raw_text": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets borrowing AI, command traffic hiding in public infrastructure, malicious tools waiting before showing their real behavior, exposed systems getting scanned, and exploit windows shrinking again. Different",
-    "categories": [
-      "Cybersecurity",
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "iot"
-      ],
-      "Cybersecurity": [
-        "exploit",
-        "threat",
-        "security"
+        "lan"
       ]
     },
-    "summary": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine."
+    "summary": "Anthropic is permanently increasing Claude Code's standard weekly usage limits by 25% for Pro, Max, Team, and seat-based Enterprise plans, but it's not as good as it sounds. [...]"
   },
   {
-    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-    "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-    "source": "The Hacker News",
-    "published": "2026-08-27T13:39:56+00:00",
-    "raw_text": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers. The security flaw, which does not have a CVE identifier, works against Kiro IDE 0.7.45 on Windows, according to Mindgard. The latest version of",
+    "title": "Brave browser adds email aliases to help users evade tracking",
+    "url": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
+    "source": "BleepingComputer",
+    "published": "2026-08-29T14:19:23+00:00",
+    "raw_text": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]",
     "categories": [
-      "Cybersecurity"
+      "Data Centres"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "security",
-        "cyber"
+      "Data Centres": [
+        "rack"
       ]
     },
-    "summary": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate data exfiltration via prompt injection and Kiro Powers. The security flaw, which does not have a CVE identifier, works against Kiro IDE 0.7.45 on Windows, according to Mindgard. The latest version of"
+    "summary": "The latest version of the Brave browser, 1.94, introduces a feature called 'Email Aliases' that allows users to generate disposable email addresses when signing up to a new service. [...]"
   },
   {
     "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
@@ -538,119 +482,22 @@
     "summary": "Microsoft released the KB5120998 preview cumulative update for Windows 11 versions 25H2 and 24H2, which comes with 35 changes, including improvements to the Start menu, taskbar, and Windows search. [...]"
   },
   {
-    "title": "Nearly 700 rogue AI agents coordinated in the Hugging Face attack",
-    "url": "https://www.bleepingcomputer.com/news/security/nearly-700-rogue-ai-agents-coordinated-in-the-hugging-face-attack/",
-    "source": "BleepingComputer",
-    "published": "2026-08-27T21:38:53+00:00",
-    "raw_text": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "New details about the July attack on Hugging Face reveal that hundreds of AI agents driven by OpenAI's internal IM1 model coordinated the compromise through an unauthorized message board. [...]"
-  },
-  {
-    "title": "PaperCut warns of NG, MF flaw exploited in zero-day attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/papercut-warns-of-ng-mf-flaw-exploited-in-zero-day-attacks/",
-    "source": "BleepingComputer",
-    "published": "2026-08-27T16:31:53+00:00",
-    "raw_text": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]",
+    "title": "Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited",
+    "url": "https://www.helpnetsecurity.com/2026/08/30/week-in-review-compromised-zimbra-servers-previously-patched-citrix-netscaler-flaw-exploited/",
+    "source": "Help Net Security",
+    "published": "2026-08-30T08:00:48+00:00",
+    "raw_text": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Unpatched Zimbra servers are falling to CVE-2026-73570 attacks At least 274 internet-facing Zimbra instances have been compromised by unknown attackers via CVE-2026-73570, the Shadowserver Foundation shared on Monday. AI supply chain risk is showing up in developer workflows first In this Help Net Security interview, Dr. Jaushin Lee, CEO of Zentera Systems, discusses where AI supply chain risk shows up. … More → The post Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "vulnerability",
-        "zero-day",
+        "cve",
         "exploit",
-        "hacker"
-      ]
-    },
-    "summary": "PaperCut is warning that hackers are actively exploiting a vulnerability in all versions of its PaperCut NG and PaperCut MF print management software in zero-day attacks. [...]"
-  },
-  {
-    "title": "Manchester Airports Group says hackers stole travelers' data",
-    "url": "https://www.bleepingcomputer.com/news/security/manchester-airports-group-says-hackers-stole-travelers-data/",
-    "source": "BleepingComputer",
-    "published": "2026-08-27T16:12:26+00:00",
-    "raw_text": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "hacker"
-      ]
-    },
-    "summary": "The Manchester Airports Group (MAG) disclosed that hackers breached its systems and stole customer data, including Wi-Fi sign-ups from Manchester, Stansted, and East Midlands airports. [...]"
-  },
-  {
-    "title": "How Threat Research and MDR Help SMBs Build a Defensive Edge",
-    "url": "https://www.bleepingcomputer.com/news/security/how-threat-research-and-mdr-help-smbs-build-a-defensive-edge/",
-    "source": "BleepingComputer",
-    "published": "2026-08-27T14:00:10+00:00",
-    "raw_text": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "threat intelligence"
-      ]
-    },
-    "summary": "Threat research gives security teams insight into how attackers operate, while MDR turns that intelligence into faster detection and response. ESET explains how combining threat intelligence, continuous monitoring, and human expertise can help SMBs strengthen their defenses. [...]"
-  },
-  {
-    "title": "Android 17 adds ECH support to make web browsing harder to track",
-    "url": "https://www.bleepingcomputer.com/news/security/android-17-adds-ech-support-to-make-web-browsing-harder-to-track/",
-    "source": "BleepingComputer",
-    "published": "2026-08-27T14:00:00+00:00",
-    "raw_text": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "network security"
-      ],
-      "Cybersecurity": [
         "security"
-      ],
-      "GRC": [
-        "privacy"
-      ],
-      "Data Centres": [
-        "rack"
       ]
     },
-    "summary": "Google is introducing new network security protections in Android 17 to strengthen connection privacy, address cellular vulnerabilities, and protect the privacy of users' home networks. [...]"
-  },
-  {
-    "title": "Australia arrests alleged TeamPCP hackers behind supply-chain attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/australia-arrests-alleged-teampcp-hackers-behind-supply-chain-attacks/",
-    "source": "BleepingComputer",
-    "published": "2026-08-27T13:31:13+00:00",
-    "raw_text": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker"
-      ]
-    },
-    "summary": "Australian authorities have arrested and charged two young men accused of being part of the TeamPCP hacking group linked to a string of far-reaching developer supply chain attacks. [...]"
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Unpatched Zimbra servers are falling to CVE-2026-73570 attacks At least 274 internet-facing Zimbra instances have been compromised by unknown attackers via CVE-2026-73570, the Shadowserver Foundation shared on Monday. AI supply chain risk is showing up in developer workflows first In this Help Net Security interview, Dr. Jaushin Lee, CEO of Zentera Systems, discusses where AI supply chain risk shows up. … More → The post Week in review: Compromised Zimbra servers, previously patched Citrix NetScaler flaw exploited appeared first on Help Net Security ."
   },
   {
     "title": "North Korean remote workers are broadening their job hunt beyond IT",
@@ -696,92 +543,6 @@
       ]
     },
     "summary": "Google introduced a batch of network security changes coming in Android 17, aimed at making it harder for network operators, snoops, and scammers to track what you do on your phone. “When you visit a website or use an app, even if the connection is encrypted by HTTPS, the domain names of the sites you visit are still visible to network operators and eavesdroppers. This unencrypted data can be used to build user profiles or, … More → The post Android 17 adds new protections against sneaky Wi-Fi tracking and web snooping appeared first on Help Net Security ."
-  },
-  {
-    "title": "Manchester Airports Group breached, millions of customers’ data stolen",
-    "url": "https://www.helpnetsecurity.com/2026/08/28/manchester-airports-group-data-breach/",
-    "source": "Help Net Security",
-    "published": "2026-08-28T07:56:17+00:00",
-    "raw_text": "Someone broke into the systems of Manchester Airports Group (MAG) and walked away with a “quantity” of customer data from three UK airports, the company has confirmed. The post Manchester Airports Group breached, millions of customers’ data stolen appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "security"
-      ]
-    },
-    "summary": "Someone broke into the systems of Manchester Airports Group (MAG) and walked away with a “quantity” of customer data from three UK airports, the company has confirmed. The post Manchester Airports Group breached, millions of customers’ data stolen appeared first on Help Net Security ."
-  },
-  {
-    "title": "What 90 days and a small budget can buy in AI agent security",
-    "url": "https://www.helpnetsecurity.com/2026/08/28/prasad-tharippala-versa-securing-ai-agents/",
-    "source": "Help Net Security",
-    "published": "2026-08-28T05:30:40+00:00",
-    "raw_text": "In this interview with Help Net Security, Prasad Tharippala, Field CISO at Versa, explains what organizations miss when they run open-weight models in house. He covers the hidden costs of GPU infrastructure, licensing review and staffing, and why hardening and incident response become the buyer’s job. He walks through red-teaming AI agents, what counts as a failing result, and the five questions buyers should ask agent platforms. For teams with 90 days and little budget, … More → The post What 90 days and a small budget can buy in AI agent security appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "incident response"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "In this interview with Help Net Security, Prasad Tharippala, Field CISO at Versa, explains what organizations miss when they run open-weight models in house. He covers the hidden costs of GPU infrastructure, licensing review and staffing, and why hardening and incident response become the buyer’s job. He walks through red-teaming AI agents, what counts as a failing result, and the five questions buyers should ask agent platforms. For teams with 90 days and little budget, … More → The post What 90 days and a small budget can buy in AI agent security appeared first on Help Net Security ."
-  },
-  {
-    "title": "New infosec products of the month: August 2026",
-    "url": "https://www.helpnetsecurity.com/2026/08/28/new-infosec-products-of-the-month-august-2026/",
-    "source": "Help Net Security",
-    "published": "2026-08-28T04:00:52+00:00",
-    "raw_text": "Here’s a look at the most interesting products from the past week, featuring releases from A10 Networks, Abnormal AI, F5 Networks, Intezer, Netscout, ScienceLogic, Searchlight Cyber, SelectHub, ServiceNow, Snyk, Tanium, and Tufin. ServiceNow organizes autonomous security around six solution areas ServiceNow has announced an acceleration of its Autonomous Security vision with six unified solutions that help deliver prevention-first, AI-native cyber defense across unified exposure management, continuous vulnerability detection, cyber-physical security, identity and access security, and … More → The post New infosec products of the month: August 2026 appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "Here’s a look at the most interesting products from the past week, featuring releases from A10 Networks, Abnormal AI, F5 Networks, Intezer, Netscout, ScienceLogic, Searchlight Cyber, SelectHub, ServiceNow, Snyk, Tanium, and Tufin. ServiceNow organizes autonomous security around six solution areas ServiceNow has announced an acceleration of its Autonomous Security vision with six unified solutions that help deliver prevention-first, AI-native cyber defense across unified exposure management, continuous vulnerability detection, cyber-physical security, identity and access security, and … More → The post New infosec products of the month: August 2026 appeared first on Help Net Security ."
-  },
-  {
-    "title": "Two alleged TeamPCP hackers arrested over global supply chain attacks",
-    "url": "https://www.helpnetsecurity.com/2026/08/27/alleged-teampcp-hackers-arrested-australia/",
-    "source": "Help Net Security",
-    "published": "2026-08-27T13:59:02+00:00",
-    "raw_text": "Two men from Western Australia have been charged after police allege they were part of TeamPCP, a cybercrime group that planted malicious code in open-source software, then used it to break into organizations around the world. The Australian Federal Police (AFP), working with the FBI and Western Australia Police Force (WAPF), arrested a 21-year-old from Cottesloe and a 23-year-old from Mandurah on August 26. The 21-year-old Cottesloe man was charged with eight offences, including possessing … More → The post Two alleged TeamPCP hackers arrested over global supply chain attacks appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "hacker",
-        "security",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Two men from Western Australia have been charged after police allege they were part of TeamPCP, a cybercrime group that planted malicious code in open-source software, then used it to break into organizations around the world. The Australian Federal Police (AFP), working with the FBI and Western Australia Police Force (WAPF), arrested a 21-year-old from Cottesloe and a 23-year-old from Mandurah on August 26. The 21-year-old Cottesloe man was charged with eight offences, including possessing … More → The post Two alleged TeamPCP hackers arrested over global supply chain attacks appeared first on Help Net Security ."
   },
   {
     "title": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
@@ -894,42 +655,6 @@
       ]
     },
     "summary": "The surge of AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers."
-  },
-  {
-    "title": "Chinese Routers Sold Worldwide Contain Backdoors",
-    "url": "https://www.darkreading.com/vulnerabilities-threats/chinese-routers-sold-worldwide-backdoors",
-    "source": "Dark Reading",
-    "published": "2026-08-27T19:31:45+00:00",
-    "raw_text": "An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "router",
-        "lan"
-      ]
-    },
-    "summary": "An untold number of ZBT routers sold around the world as white-label products come with several implants built by the manufacturer."
-  },
-  {
-    "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
-    "url": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
-    "source": "Dark Reading",
-    "published": "2026-08-27T17:25:09+00:00",
-    "raw_text": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research."
   },
   {
     "title": "Hasbro Data Breach Exposed Employee Personal Information",
@@ -1061,41 +786,6 @@
     "summary": "A CVE identifier has not yet been assigned, but PaperCut is urging NG/MF users to install patches and implement mitigations. The post PaperCut Releases Emergency Patch for Exploited Zero-Day appeared first on SecurityWeek ."
   },
   {
-    "title": "Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear",
-    "url": "https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/",
-    "source": "SecurityWeek",
-    "published": "2026-08-27T14:17:26+00:00",
-    "raw_text": "The White House’s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns. The post Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "The White House’s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns. The post Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Australia Arrests 2 Alleged TeamPCP Hackers",
-    "url": "https://www.securityweek.com/australia-arrests-2-alleged-teampcp-hackers/",
-    "source": "SecurityWeek",
-    "published": "2026-08-27T12:48:03+00:00",
-    "raw_text": "Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison. The post Australia Arrests 2 Alleged TeamPCP Hackers appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "Australian and US authorities collaborated to identify and charge the alleged cybercriminals, who face many years in prison. The post Australia Arrests 2 Alleged TeamPCP Hackers appeared first on SecurityWeek ."
-  },
-  {
     "title": "Fake Voicemail SVG Attachments Fuel Large-Scale Phishing Campaign",
     "url": "https://www.infosecurity-magazine.com/news/fake-voicemail-svg-files-bypass/",
     "source": "InfoSecurity Magazine",
@@ -1126,68 +816,6 @@
       ]
     },
     "summary": "More than 100 companies, including OpenAI, Anthropic, Google and Microsoft, have urged collective action to unlock the power of AI to protect critical public services"
-  },
-  {
-    "title": "Threat Actors Abuse Cursor Agent AI to Assist Ransomware Operations",
-    "url": "https://www.infosecurity-magazine.com/news/abuse-cursor-agent-ransomware/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-08-28T08:00:00+00:00",
-    "raw_text": "Aurora ransomware operators are abusing SpaceX’s Cursor Agent AI tool to conduct tasks such as reconnaissance and exploitation activities",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware",
-        "exploit",
-        "threat"
-      ]
-    },
-    "summary": "Aurora ransomware operators are abusing SpaceX’s Cursor Agent AI tool to conduct tasks such as reconnaissance and exploitation activities"
-  },
-  {
-    "title": "Manchester Airports Group Hit by Cyber Incident",
-    "url": "https://www.infosecurity-magazine.com/news/manchester-airports-data-breach/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-08-27T13:00:00+00:00",
-    "raw_text": "Customer data linked to bookings and airport Wi-Fi registrations at Manchester, Stansted and East Midlands airports has been accessed by an unauthorized third party",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "cyber"
-      ]
-    },
-    "summary": "Customer data linked to bookings and airport Wi-Fi registrations at Manchester, Stansted and East Midlands airports has been accessed by an unauthorized third party"
-  },
-  {
-    "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
-    "url": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
-    "source": "Microsoft Azure Blog",
-    "published": "2026-08-27T17:00:00+00:00",
-    "raw_text": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort. The post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog .",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "azure"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort. The post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog ."
   },
   {
     "title": "What’s new with Google Cloud",
@@ -1268,76 +896,6 @@
     "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog?"
   },
   {
-    "title": "Reimagining work: How Pythian’s internal AI playbook delivers customer ROI",
-    "url": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/",
-    "source": "Google Cloud Blog",
-    "published": "2026-08-27T16:00:00+00:00",
-    "raw_text": "When Pythian rolled out Google Cloud’s Gemini Enterprise across our 500-person company in 27 countries, the goal was simple: use our own company as a proving ground to discover how enterprise AI actually delivers ROI. What we found changed our strategy entirely. Since the rollout of Gemini Enterprise and our previous enterprise AI deployments, Pythian observed firsthand why so many enterprise AI initiatives stall out or fail. Most organizations trap themselves in a tool-centric mindset — buying licenses, making tools broadly available, and assuming value will naturally follow. They get stuck chasing \"nickel and dime\" micro-efficiencies (like saving 5 minutes per user) while missing structural, high-ROI workflow transformations. Compounding the problem, even when custom agents are built, they frequently stall in pilot mode or break down in production because teams lack the operational capability to manage AI model drift, agent lifecycles, and ongoing observability. To solve this, we engineered the Pythian AI Operating Model — a multifaceted, end-to-end framework designed to take enterprise AI from high-level strategy all the way into sustained production. While our dual center of excellence (COE) serves as the core execution muscle, it is the application of the entire framework, from Field CTO strategy and tooling deployment to the dual COE and XOps, that consistently unlocks million-dollar outcomes. By proving this complete model internally first, Pythian drove a 3x surge in active user engagement and cut our database incident resolution times by 80%. The four pillars of the Pythian AI operating model To move past the common failure points of enterprise AI, our framework consolidates strategy, execution, and operations into a single continuous loop: Field CTO strategy ──> tooling deployment ──> dual COE execution ──> production XOps Field CTO strategy and governance: Generative AI is arguably the most academically challenging architectural shift in IT history. Led by former C-suite tech leaders, our Field CTO practice provides executive advisory to establish steering committees and clear value metrics. The team audits operations using 16 horizontal agentic patterns (like automated document processing and runbook creation) to build a prioritized backlog of high-ROI use cases before development starts. Tooling and platform deployment: The team establishes a secure, production-grade foundation on platforms like Gemini Enterprise and connects AI directly into CRMs, ERPs, and database estates to ground models in real corporate context. The dualCOE: This execution muscle is split into two specialized engines: People productivity COE: This group handles adoption and change management. Instead of expecting non-technical teams (like HR or Procurement) to build its own agents, this COE builds no-code agents for them, focusing entirely on enablement. Process productivity COE: This team engineers deep, custom-coded AI agents and complex agentic workflows that integrate into core data platforms for autonomous operations. XOps (AI production management): While deploying an agent is 20% of the journey, maintaining accuracy in production is 80%. Because AI models and prompt structures naturally drift over time, this XOps practice provides the continuous monitoring, prompt tuning, and model observability needed to keep agents performing without breaking core workflows. The difference between chasing minor, scattered efficiencies and driving structural enterprise ROI comes down to how you align your operating strategy: Alignment element Tool-centric approach Pythian AI operating model Primary metric Individual minutes saved per user High-impact workflow reimagination and ROI Operational focus Broad, unguided tool availability Prioritized backlog via 16 agentic patterns Execution muscle Ad-hoc user experimentation Dual COE (people and process productivity) Production lifecycle Unmonitored static deployments Active XOps (Continuous accuracy and drift management) Real-world impact: from database ops to global supply chains Whether managing 70 manufacturing plants or 30,000 enterprise databases, AI succeeds when tied to structural, high-value workflows: Pythian “as a customer:” Across 15,000 monthly database tickets, our Process COE deployed an agentic workflow that reads tickets, searches knowledge bases, and auto-generates mini runbooks before an engineer touches them. The result was slashed mean time to resolution by 80% and tripled active user engagement . Knowledge management customer: We deployed autonomous IT support agents across 10,000 consultants. As a result, we were able to automate 10% of 20,000 annual IT tickets into \"no-touch\" resolutions, saving 1,000,000+ operational hours . Supply chain customer: By building custom agentic supply chain tools on Gemini Enterprise, we compressed forecast-matching cycles from weeks down to 2–3 days across 70 global manufacturing sites . Retail customer: We combined Gemini Agentic AI and computer vision to automate store product onboarding. As a result, we transformed a 20-minute manual task into a multi-second flow . Ready to build your AI operating model? Scaling AI demands more than tool-level experimentation. It also requires an end-to-end AI operating model. Learn how Pythian pairs with Google Cloud to operationalize strategy, streamline XOps, and fast-track your Gemini Enterprise journey.",
-    "categories": [
-      "Cloud Infrastructure",
-      "GRC",
-      "Networks",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "governance",
-        "audit"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "When Pythian rolled out Google Cloud’s Gemini Enterprise across our 500-person company in 27 countries, the goal was simple: use our own company as a proving ground to discover how enterprise AI actually delivers ROI. What we found changed our strategy entirely. Since the rollout of Gemini Enterprise and our previous enterprise AI deployments, Pythian observed firsthand why so many enterprise AI initiatives stall out or fail. Most organizations trap themselves in a tool-centric mindset — buying licenses, making tools broadly available, and assuming value will naturally follow."
-  },
-  {
-    "title": "Deploy personal AI agents with Cloud Run instances",
-    "url": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/",
-    "source": "Google Cloud Blog",
-    "published": "2026-08-27T16:00:00+00:00",
-    "raw_text": "Need a low-cost, high-performance way to run long-lived, stateful workloads such as AI agents? Today, we introduced Cloud Run instances, which let you do just that. Consider AI agents such as OpenClaw or Hermes , which are intended for individual developers or personal use. Because these agents often work continuously and tend to serve only one user at a time, their infrastructure requirements look quite different from stateless, high-throughput web services that typically run on Cloud Run services. Cloud Run services scale to zero when requests stop, so they aren’t ideal for a long-lived agent that expects exactly one copy to be running continuously. On the other hand, the alternative — running a dedicated VM — means paying for full compute 24/7, managing operating system updates, opening firewall ports, and provisioning your own HTTPS endpoints. Cloud Run instances provide dedicated, singleton compute runtimes on Cloud Run. They have the following attributes: Runs just one instance with no autoscaling Up to 7-day continuous runtime, with automatic restart policy configured by default Every instance gets a HTTPS URL that remains unchanged across updates and restarts. You can stop each instance when you aren't using it and resume it whenever you need it The cost to run a Cloud Run instance with 1 vCPU and 1 GiB of memory continuously for 30 days is $5.70 . Cloud Run instances use shared vCPU with vCPU burst budgets to run continuously for a low, predictable price. This model is also ideal for long-lived agents that aren’t doing compute-intensive work all the time, and only spike in usage when asked to perform a task. Example: Deploy OpenClaw on a Cloud Run instance OpenClaw is an open-source personal AI agent that can perform various tasks on your behalf, and become a better assistant over time. Many OpenClaw users start out running it on their own laptops, until they realize they need somewhere to run it where it won’t shut down every time their laptop goes to sleep. Deploying OpenClaw to a Cloud Run instance is easy. Once you’ve uploaded OpenClaw’s configuration files to a Cloud Storage bucket, you can deploy your OpenClaw agent to a Cloud Run instance with just one command: code_block <ListValue: [StructValue([('code', 'gcloud beta run instances create openclaw-instance \\\\\\r\\n --image ghcr.io/openclaw/openclaw:latest \\\\\\r\\n --port 18789 \\\\\\r\\n --public \\\\\\r\\n --add-volume mount-path=/home/node/.openclaw,type=cloud-storage,mount-options=\"uid=1000;gid=1000;file-mode=0700;dir-mode=0700\",bucket=${BUCKET} \\\\\\r\\n --set-env-vars \"OPENCLAW_GATEWAY_PASSWORD=${PASSWORD},GEMINI_API_KEY=${GEMINI_API_KEY}\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f0304134ad0>)])]> Once deployed, you can keep this OpenClaw instance running for as long as you want. You can interact with it over Telegram, WhatsApp, or the social media platform of your choice, and connect it to any tools you want it to use, as well. For the full instructions on how to deploy OpenClaw, refer to this codelab . Coming soon, we’re also launching SSH access for both Cloud Run instances and Cloud Run services. Sign up for private access here . What users are saying Cloud Run instances are helping Google Cloud users achieve their goals for running AI agents and other long-lived workloads at low cost and high performance. OffDeal , an AI-powered investment bank for small businesses, is running long-lived agents on Cloud Run instances: “We're currently using Cloud Run instances as our primary infrastructure for our long-running agent. It reduced cold starts by 88%. Everything was very straightforward to implement, and it has been very reliable.” - Luis Ruiz Morel, Member of Technical Staff @ OffDeal Learn more Currently in preview, Cloud Run instances are a cost-effective way to run a new kind of workload, without sacrificing performance. For more information about Cloud Run instances, check out the following resources: How to deploy Openclaw to Cloud Run instances Cloud Run instances documentation",
-    "categories": [
-      "Networks",
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud"
-      ],
-      "Networks": [
-        "firewall",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "policy"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "Need a low-cost, high-performance way to run long-lived, stateful workloads such as AI agents? Today, we introduced Cloud Run instances, which let you do just that. Consider AI agents such as OpenClaw or Hermes , which are intended for individual developers or personal use. Because these agents often work continuously and tend to serve only one user at a time, their infrastructure requirements look quite different from stateless, high-throughput web services that typically run on Cloud Run services."
-  },
-  {
     "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
     "url": "https://blog.cloudflare.com/botbase-for-operators/",
     "source": "Cloudflare Blog",
@@ -1356,26 +914,6 @@
       ]
     },
     "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content."
-  },
-  {
-    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-    "source": "Cloudflare Blog",
-    "published": "2026-08-27T17:02:35+00:00",
-    "raw_text": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "dns"
-      ]
-    },
-    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet."
   },
   {
     "title": "ServiceNow patches three maximum severity flaws that could put enterprise data at risk",
@@ -1954,6 +1492,31 @@
     "summary": "It will embed Machine Learning, AI, and Agentic AI"
   },
   {
+    "title": "AWS mumbles about its cost-busting networking tech when it should be shouting",
+    "url": "https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379",
+    "source": "The Register",
+    "published": "2026-08-29T13:30:00+00:00",
+    "raw_text": "A lot of datacenter networks are run by absolute clowns. Not Amazon's",
+    "categories": [
+      "Networks",
+      "Cloud Infrastructure",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "network",
+        "networking"
+      ],
+      "Data Centres": [
+        "datacenter"
+      ]
+    },
+    "summary": "A lot of datacenter networks are run by absolute clowns. Not Amazon's"
+  },
+  {
     "title": "Startup bags $7M to build drone-interceptor-in-a-backpack systems",
     "url": "https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176",
     "source": "The Register",
@@ -2229,341 +1792,16 @@
     "summary": "Why oh why are the accountants stricter than the IRS and HMRC put together?"
   },
   {
-    "title": "On Call: Exec couldn’t identify a photocopier, which made for a fax-inating tech support call",
-    "url": "https://www.theregister.com/personal-tech/2026/08/28/on-call-exec-couldnt-identify-a-photocopier-which-made-for-a-fax-inating-tech-support-call/5292838",
-    "source": "The Register",
-    "published": "2026-08-28T06:37:00+00:00",
-    "raw_text": "One retro numeric keypad looks much like any other to some users",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "One retro numeric keypad looks much like any other to some users"
-  },
-  {
-    "title": "Print management outfit PaperCut is under 0-day attack, and it’s drawing customers’ blood",
-    "url": "https://www.theregister.com/security/2026/08/28/print-management-outfit-papercut-is-under-0-day-attack-and-its-drawing-customers-blood/5293168",
-    "source": "The Register",
-    "published": "2026-08-28T05:29:53+00:00",
-    "raw_text": "The fix is either an unvalidated and unofficial emergency patch or taking the server offline",
+    "title": "A week with the Google Pixel 11 changed my mind about Gemini (for the better)",
+    "url": "https://www.zdnet.com/article/google-pixel-11-review/",
+    "source": "ZDNet",
+    "published": "2026-08-29T13:00:44+00:00",
+    "raw_text": "In a year of iterative upgrades, Google is introducing smart features that make the base Pixel the standout in its generation.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "The fix is either an unvalidated and unofficial emergency patch or taking the server offline"
-  },
-  {
-    "title": "Australian cops cuff alleged TeamPCP masterminds",
-    "url": "https://www.theregister.com/security/2026/08/28/australian-cops-cuff-alleged-teampcp-masterminds/5293157",
-    "source": "The Register",
-    "published": "2026-08-28T03:33:54+00:00",
-    "raw_text": "Alleged crew behind the Shai-Hulud worm and other supply chain attacks nabbed with help from the FBI",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Alleged crew behind the Shai-Hulud worm and other supply chain attacks nabbed with help from the FBI"
-  },
-  {
-    "title": "Anthropic proposes plumbing spec to link AI agents to lab kit and robots",
-    "url": "https://www.theregister.com/ai-and-ml/2026/08/28/anthropic-proposes-plumbing-spec-to-link-ai-agents-to-lab-kit-and-robots/5293135",
-    "source": "The Register",
-    "published": "2026-08-27T23:22:35+00:00",
-    "raw_text": "Say you're trying to enrich Uranium and your centrifuges broke - soon it will be easy to connect an AI to figure out why",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Say you're trying to enrich Uranium and your centrifuges broke - soon it will be easy to connect an AI to figure out why"
-  },
-  {
-    "title": "Nvidia and Cerebras are selling performance their customers will (probably) never see",
-    "url": "https://www.theregister.com/systems/2026/08/27/nvidia-and-cerebras-are-selling-performance-their-customers-will-probably-never-see/5293117",
-    "source": "The Register",
-    "published": "2026-08-27T22:57:43+00:00",
-    "raw_text": "Touting batch 1 token generation is a bit like boasting about the top speed of your car",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Touting batch 1 token generation is a bit like boasting about the top speed of your car"
-  },
-  {
-    "title": "CRPx0 hacking service for dummies claims victim count more than quintupled",
-    "url": "https://www.theregister.com/cyber-crime/2026/08/27/crpx0-hacking-service-for-dummies-claims-victim-count-more-than-quintupled/5293097",
-    "source": "The Register",
-    "published": "2026-08-27T21:24:27+00:00",
-    "raw_text": "It's 'built to be operated by a human with no technical background'",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "It's 'built to be operated by a human with no technical background'"
-  },
-  {
-    "title": "Cyborg cockroaches may soon deliver life-saving drugs to disaster victims",
-    "url": "https://www.theregister.com/offbeat/2026/08/27/cyborg-cockroaches-may-soon-deliver-life-saving-drugs-to-disaster-victims/5293081",
-    "source": "The Register",
-    "published": "2026-08-27T21:00:00+00:00",
-    "raw_text": "Just what you want crawling through the rubble to rescue you: A swarm of remote-controlled cockroaches with syringe-shooting guns strapped to their backs",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "Just what you want crawling through the rubble to rescue you: A swarm of remote-controlled cockroaches with syringe-shooting guns strapped to their backs"
-  },
-  {
-    "title": "Police investigating possible forgery at AFRINIC election",
-    "url": "https://www.theregister.com/networks/2026/08/27/police-investigating-possible-forgery-at-afrinic-election/5293100",
-    "source": "The Register",
-    "published": "2026-08-27T20:38:04+00:00",
-    "raw_text": "The regional internet registry is also trying to make it easier to terminate members",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The regional internet registry is also trying to make it easier to terminate members"
-  },
-  {
-    "title": "AI girlfriend review site's secrets were exposed to the world for three weeks",
-    "url": "https://www.theregister.com/security/2026/08/27/ai-girlfriend-review-sites-secrets-were-exposed-to-the-world-for-three-weeks/5293064",
-    "source": "The Register",
-    "published": "2026-08-27T19:10:32+00:00",
-    "raw_text": "Even testing and staging sites need protection from prying eyes",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Even testing and staging sites need protection from prying eyes"
-  },
-  {
-    "title": "Google forces Android apps to use memory more wisely as RAMpocalypse rages",
-    "url": "https://www.theregister.com/software/2026/08/27/google-forces-android-apps-to-use-memory-more-wisely-as-rampocalypse-rages/5293071",
-    "source": "The Register",
-    "published": "2026-08-27T19:07:58+00:00",
-    "raw_text": "No one can afford RAM anymore, so we're requiring devs to mind memory usage",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "No one can afford RAM anymore, so we're requiring devs to mind memory usage"
-  },
-  {
-    "title": "Omarchy distro gains serious backing",
-    "url": "https://www.theregister.com/os-platforms/2026/08/27/omarchy-distro-gains-serious-backing/5293026",
-    "source": "The Register",
-    "published": "2026-08-27T17:07:18+00:00",
-    "raw_text": "Polarizing opinions while tech heavyweights put up $10M",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Polarizing opinions while tech heavyweights put up $10M"
-  },
-  {
-    "title": "Hugging Face offers $399 robot duck to help you quack the AI code",
-    "url": "https://www.theregister.com/ai-and-ml/2026/08/27/hugging-face-offers-399-robot-duck-to-help-you-quack-the-ai-code/5293011",
-    "source": "The Register",
-    "published": "2026-08-27T16:25:07+00:00",
-    "raw_text": "Microduck from Pollen Robotics runs on open source software, is just 25cm tall, and is ready to play out of the box",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Microduck from Pollen Robotics runs on open source software, is just 25cm tall, and is ready to play out of the box"
-  },
-  {
-    "title": "ATF responds to 'major' cybersecurity incident after ransomware gang's claims",
-    "url": "https://www.theregister.com/security/2026/08/27/atf-responds-to-major-cybersecurity-incident-after-ransomware-gangs-claims/5292990",
-    "source": "The Register",
-    "published": "2026-08-27T15:25:52+00:00",
-    "raw_text": "US Justice Department investigating the breach",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "ransomware",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "US Justice Department investigating the breach"
-  },
-  {
-    "title": "Schrödinger's backup: not actually recovered until you try to restore IT",
-    "url": "https://www.theregister.com/security/2026/08/27/sponsored-schroedingers-backup-not-actually-recovered-until-you-try-to-restore-it/5286772",
-    "source": "The Register",
-    "published": "2026-08-27T15:00:00+00:00",
-    "raw_text": "SPONSORED FEATURE: Verify and survive: your backup isn't real 'til you test it",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SPONSORED FEATURE: Verify and survive: your backup isn't real 'til you test it"
-  },
-  {
-    "title": "Nitter might be no more, but Twitter is back (sort of)",
-    "url": "https://www.theregister.com/personal-tech/2026/08/27/nitter-might-be-no-more-but-twitter-is-back-sort-of/5292949",
-    "source": "The Register",
-    "published": "2026-08-27T14:37:34+00:00",
-    "raw_text": "Twitter.now aims to fill the bird-shaped hole left by X. For a fee",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Twitter.now aims to fill the bird-shaped hole left by X. For a fee"
-  },
-  {
-    "title": "Salesforce boasts: 50% of bookings were from 'customers refilling the tank... they consume Flex Credits, they want more'",
-    "url": "https://www.theregister.com/software/2026/08/27/salesforce-boasts-50-of-bookings-were-from-customers-refilling-the-tank-they-consume-flex-credits-they-want-more/5292927",
-    "source": "The Register",
-    "published": "2026-08-27T13:56:54+00:00",
-    "raw_text": "As SaaS giant gets a boost from Claudeforce, users might want to know how their AI use will be monetized",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "saas"
-      ],
-      "Networks": [
-        "wan"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "As SaaS giant gets a boost from Claudeforce, users might want to know how their AI use will be monetized"
-  },
-  {
-    "title": "Cybercrooks jet off with Manchester Airports Group customer data",
-    "url": "https://www.theregister.com/security/2026/08/27/cybercrooks-jet-off-with-manchester-airports-group-customer-data/5292943",
-    "source": "The Register",
-    "published": "2026-08-27T12:52:36+00:00",
-    "raw_text": "UK’s largest airport operator believes 8.7 million customers affected",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
-      ]
-    },
-    "summary": "UK’s largest airport operator believes 8.7 million customers affected"
-  },
-  {
-    "title": "Wide misconception that AI investment information is regulated and that users are protected",
-    "url": "https://www.computerweekly.com/news/366648791/Wide-misconception-that-AI-investment-information-is-regulated-and-that-users-are-protected",
-    "source": "ComputerWeekly",
-    "published": "2026-08-28T07:15:00+00:00",
-    "raw_text": "<p>Nearly half of those that use <a href=\"https://www.computerweekly.com/news/366646624/Offshore-support-staff-dont-fear-artificial-intelligence\">artificial intelligence</a> (AI) to support their investment activity “mistakenly” believe the information it generates is regulated.</p> <p>Investors using investment tips from general purpose AI are not protected against losses that result in bad advice.</p> <p>This figure, according to research of 18 to 40-year-olds from UK financial services regulator the Financial Conduct Authority (FCA), comes as two-thirds of investors look set to increasingly “lean on” AI for support with their decisions.</p> <p>The FCA found that 80% of 666 investors surveyed now use AI, but it warned that these investors may be misunderstanding the level of protection they have.</p> <p>“Unlike regulated financial advice, AI-generated tips from general-purpose chatbots mean you are not covered if things go wrong,” it said. “This differs from a tool deployed specifically to provide financial advice, which would be likely to fall within our remit.”</p> <p>As well as 44% wrongly presuming AI-generated financial information is regulated, around a third believe they would get compensation from the Financial Services Compensation Scheme or Financial Ombudsman Service if AI advice went wrong.</p> <p>Three-quarters (73%) understand AI can provide inaccurate information, and 86% know they need to check the sources referenced when using AI.</p> <p>Despite this knowledge, and in light of a misconception that they are protected, a total of 38% still believe it’s fine to make an investment decision based solely on the outputs of AI.</p> <p>The FCA stressed: “General purpose AI chatbots are not regulated, although tools which are specifically set up to provide financial advice would be likely to fall within the FCA’s remit.”</p> <p>Lucy Castledine, director of consumer investments at the FCA, said: “AI can help you research companies, understand jargon or explore options before you make a decision. But you need to understand how you’re protected and continue to use your own judgement.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Unregulated reliance\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Unregulated reliance</h2> <p>Technology is increasingly relied on by amateur investors at great risk to their finances. For example, recent research from TSB found an average of £3,000 was lost by people as a result of financial investment fraud via social media platforms, which is also unregulated.</p> <p>The findings also revealed serious financial harm caused to over half of people who followed financial advice from social media platforms, with 56% losing an average of £700.</p> <p>The survey found that the 25-34 age group were&nbsp;most likely to act on financial advice on social media and&nbsp;to&nbsp;use AI for advice. Half of this group have done so in the past year, with 27% using it for advice on savings and 18% for investments.</p> <p>It also found that around half of respondents (49%) said financial content on social media has even made them feel pressured to improve their finances, and 33% have considered changing their financial goals or career aspirations as a result.</p> <p>The FCA <a href=\"https://www.computerweekly.com/news/366646017/UK-regulator-crackdown-on-finfluencers-gathers-pace\">took enforcement action</a>&nbsp;against 74 “<a href=\"https://www.techtarget.com/whatis/feature/Finfluencers-A-guide-to-personal-financial-content-creators\">finfluencers</a>” last year, as it continues to target unregulated individuals who use social media to give financial advice. Last year was the second year to see a steep rise in action against finfluencers, who use social media to offer financial advice, often without the necessary credentials.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about financial regulation</h3> <ul class=\"default-list\"> <li>Financial Conduct Authority wants small businesses and consumers to be able&nbsp;<a href=\"https://www.computerweekly.com/news/366641736/Finance-regulator-outlines-its-open-finance-vision\">to use their data to get better finance deals</a>.</li> <li>Treasury Committee says public and finance systems are ‘exposed to potential serious harm’ from AI because&nbsp;<a href=\"https://www.computerweekly.com/news/366641650/Finance-regulators-to-address-AI-risks-after-MPs-say-they-are-not-doing-enough\">regulators are ‘not doing enough’ to manage risks</a>.</li> <li>MPs warn that action is needed to&nbsp;<a href=\"https://www.computerweekly.com/news/366637516/Financial-regulators-exposing-public-to-potential-serious-harm-due-to-AI-positions\">ensure artificial intelligence is adopted safely</a>&nbsp;in the finance sector as companies capitalise on its opportunities.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Industry & Market",
-      "Networks",
-      "Cybersecurity",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "regulation"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p>Nearly half of those that use <a href=\"https://www.computerweekly.com/news/366646624/Offshore-support-staff-dont-fear-artificial-intelligence\">artificial intelligence</a> (AI) to support their investment activity “mistakenly” believe the information it generates is regulated.</p> <p>Investors using investment tips from general purpose AI are not protected against losses that result in bad advice.</p> <p>This figure, according to research of 18 to 40-year-olds from UK financial services regulator the Financial Conduct Authority (FCA), comes as two-thirds of investors look set to increasingly “lean on” AI for support with their decisions.</p> <p>The FCA found that 80% of 666 investors surveyed now use AI, but it warned that these investors may be misunderstanding the level of protection they have.</p> <p>“Unlike regulated financial advice, AI-generated tips from general-purpose chatbots mean you are not covered if things go wrong,” it said. “This differs from a tool deployed specifically to provide financial advice, which would be likely to fall within our remit.”</p> <p>As well as 44% wrongly presuming AI-generated financial information is regulated, around a third believe they would get compensation from the Financial Services Compensation Scheme or Financial Ombudsman Service if AI advice went wrong.</p> <p>Three-quarters (73%) understand AI can provide inaccurate information, and 86% know they need to check the sources referenced when using AI.</p> <p>Despite this knowledge, and in light of a misconception that they are protected, a total of 38% still believe it’s fine to make an investment decision based solely on the outputs of AI.</p> <p>The FCA stressed: “General purpose AI chatbots are not regulated, although tools which are specifically set up to provide financial advice would be likely to fall within the FCA’s remit.”</p> <p>Lucy Castledine, director of consumer investments at the FCA, said: “AI can help you research companies, understand jargon or explore options before you make a decision. But you need to understand how you’re protected and continue to use your own judgement.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Unregulated reliance\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Unregulated reliance</h2> <p>Technology is increasingly relied on by amateur investors at great risk to their finances. For example, recent research from TSB found an average of £3,000 was lost by people as a result of financial investment fraud via social media platforms, which is also unregulated.</p> <p>The findings also revealed serious financial harm caused to over half of people who followed financial advice from social media platforms, with 56% losing an average of £700.</p> <p>The survey found that the 25-34 age group were&nbsp;most likely to act on financial advice on social media and&nbsp;to&nbsp;use AI for advice."
-  },
-  {
-    "title": "CW@60: Pursuing the most impactful tech investigations",
-    "url": "https://www.computerweekly.com/feature/CW60-Pursuing-the-most-impactful-tech-investigations",
-    "source": "ComputerWeekly",
-    "published": "2026-08-28T03:00:00+00:00",
-    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>One of the fascinations of technology is its power to transform but it can also, when implemented badly, ruin lives.</p> <p>Technology brought major changes to my own working life. In my early years in journalism, research would involve going into a newspaper’s cuttings library where articles were cut and pasted, with scissors and glue, onto A4 paper, filed into subject areas and booked out to reporters. When the cuttings pointed to a different name or subject, I’d head back to the library. Now the world’s cuttings are available on my phone.</p> <p>When I left newspapers for the BBC Radio newsroom, one of the main pieces of journalistic technology was the typewriter. I and other journalists would, in our turn, dictate an hourly news bulletin to a typist - such were the rules.</p> <p>I would give typed A4 sheets to an irritated newsreader, sometimes a minute or two before a bulletin was due to go to air and listen in awe as they read the text smoothly despite a mass of penned changes. Today’s BBC technology means there are no journalists like me shortening the lives of newsreaders.&nbsp;&nbsp;</p> <p>After the BBC, when I became fascinated in the world of business technology, a natural step was to join the computer press. Then I discovered failing technology projects, which were usually accompanied by denial and misinformation.</p> <p>The biggest debacle was the <a href=\"https://www.computerweekly.com/feature/Post-Office-Horizon-scandal-explained-everything-you-need-to-know\">Post Office IT scandal</a>. My colleague Rebecca Thomson rightly received an OBE for <a href=\"https://www.computerweekly.com/news/2240089230/Bankruptcy-prosecution-and-disrupted-livelihoods-Postmasters-tell-their-story\">her investigation that exposed the scandal</a>. Computer Weekly’s Karl Flinders would receive one too for his many exposes if the stars were to align. The scandal led to the ruin of hundreds and possibly thousands of lives.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Chinook scandal\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Chinook scandal</h2> <p>A lesser-known scandal today <a href=\"https://www.computerweekly.com/news/1280096804/Chronology-The-Chinook\">goes back as far as 1985</a>, that of an upgraded RAF Chinook helicopter that the pilots did not want to fly, in part because its new bug-ridden “Fadec” engine software could cause a loss of control.</p> <p>David Harrison, a reporter on Channel Four News, brought me into the story by asking for my take on the Chinook’s computer problems.&nbsp;</p> <p>Such was the density of bugs in the Chinook’s Fadec software that defence contractor EDS (later acquired by HP) gave up testing the software after finding 486 anomalies in only 18% of the code.</p> <p>When in 1994 two pilots asked to fly a pre-Fadec version of the helicopter for a short flight from Northern Ireland to the Mull of Kintyre, their request was refused. Flight Lieutenants Rick Cook and Jonathan Tapper, the pilots, followed orders and took off in a Fadec-equipped helicopter they knew was dangerous to fly. They died, along with two other crew and 25 VIPs who were leading intelligence specialists. It was one of the RAF’s worst peacetime accidents.</p> <p>Tapper left a baby son and his second child was born six weeks after his death. Cook left a daughter of about two.</p> <p>Subsequently, two air marshals found the two pilots grossly negligent. It meant the RAF and Ministry of Defence had disengaged from accountability over the Fadec problems.</p> <p>But the fathers and many others knew there was no objective evidence that the Chinook was under control when it hit the landmass of the Mull of Kintyre. Much of the helicopter was destroyed in a fireball. There was no black box.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Untruths told\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Untruths told</h2> <p>At a Parliamentary hearing, the Ministry of Defence briefed the then defence secretary that the problem with the Chinook’s Fadec was not the design or bugs but EDS’s use of the wrong tool to test the code, which was untrue.</p> <p>I knew from covering IT project failures in central departments that Whitehall officials could be creative in their briefings to ministers. But I was surprised at the extent of the untruths that became the official narrative after the Mull of Kintyre crash.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/39678_tony-collins.jpg\" alt=\"Photo of Tony Collins\" width=\"149\" height=\"179\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“Such is the everyday secrecy within Whitehall, some of which is justified but mostly is not, that the truth is instinctively hidden when IT-based projects begin to fail”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Tony Collins</em></span></p> </blockquote> <p>I had the advantage at Computer Weekly of a freedom to investigate. Off and on, I spent several years on the story, writing numerous pieces. I came to regard the pilots’ fathers as friends and sometimes would speak to Mike Tapper, Jonathan’s father, several times a week. I went to his home in Norfolk. We’d talk about what could have gone wrong in his son’s last five minutes of life. There were many possible scenarios.</p> <p>The Chinook’s unit test pilot Squadron Leader Robert Burke patiently explained to me every major part of a Chinook helicopter, in its original and upgraded versions.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"RAF Justice\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>RAF Justice</h2> <p>With his help, and that of Mike Tapper and John Cook - Rick’s father who was a former Concorde pilot - and after receiving many leaked Fadec-related memos, RAF emails and internal reports, Computer Weekly was able to publish a 140-page award-winning expose <a href=\"http://www.pprune.org/archive/index.php/t-38902.html\"><i>RAF Justice</i>&nbsp; - <i>How the Royal Air Force blamed two dead pilots and covered up problems with the Chinook’s computer system Fadec</i></a>.</p> <p>Our report was publicised nationally and contributed, in a minor way, to various <a href=\"https://www.computerweekly.com/feature/Computer-Weeklys-evidence-to-the-Public-Accounts-Committee\">Parliamentary inquiries and debates</a> on whether the RAF was right to blame the pilots. We received about 400 emails. Nearly 90 MPs signed an Early Day Motion calling for an investigation into our report.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Pilots cleared\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pilots cleared</h2> <p>Seventeen years on, the pilots’ names were cleared but today the families of the passengers continue to seek justice. They want to know why the RAF allowed a dangerously unsafe Chinook to go into service. Why were their loved ones put aboard a single aircraft? Did the RAF put VIPs aboard the upgraded Chinook to prove its critics wrong? Did four crew and 25 passengers die because the RAF wanted to prove a point?</p> <p>It’s odd that the current government and the Ministry of Defence have sealed internal papers on the crash for 100 years. Families are right to ask, what is there to hide?</p> <p>One of the most influential Chinook campaigners was <a href=\"https://www.computerweekly.com/feature/CW60-Fighting-for-justice-twice\">James Arbuthnot</a> – then an MP, now a peer - who went on to become a key figure in the mitigation of injustices after the Post Office IT scandal.</p> <p>He was kind enough to invite me to the House of Commons in 2011 where campaigners and families of the pilots watched from the gallery as the then defence secretary announced that the finding of gross negligence against the pilots was being set aside.</p> <p>Afterwards TV cameras filmed the reaction of the families. It was a credit to the families that they’d stuck with the campaign for 17 years. For the offspring of the pilots, the stigma of disgrace had been erased from their fathers’ reputation.</p> <p>But rumour has it that the government had a struggle to clear the pilots’ names amid opposition from defence chiefs.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Health service IT covered up before it began\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Health service IT covered up before it began</h2> <p>Another technology scandal that ruined lives and where official misinformation continued for years was on the failing £10bn <a href=\"https://www.computerweekly.com/blog/Public-Sector-IT/What-the-next-Government-should-do-about-the-NPfIT\">National Programme for IT in the NHS</a>. A Whitehall cover-up was underway before the project began.</p> <p>It took years for Computer Weekly to obtain Downing Street papers where a meeting chaired by then prime minister Tony Blair approved the NHS IT programme. Unsurprisingly, the meeting had no discussion of the risks, which is consistent with Whitehall’s “good news” agenda. I am grateful that an internal Whitehall report on the risks was leaked to us. But the fact remains that the Downing Street meeting approved a multibillion-pound IT programme without knowing those risks.</p> <p>For three years, solicitors for the Cabinet Office opposed my request for the Downing Street papers to be released. They said, “Disclosure of the information may disrupt the proper consideration of NHS IT projects in coming years”. &nbsp;</p> <p>Such was Whitehall’s pushback to our coverage of the project’s problems that a health minister, based on her briefings, criticised me by name in a House of Commons debate on the NHS IT programme. I took it as a sign our coverage was having an influence.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Barred from press conference\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Barred from press conference</h2> <p>At another point in the programme, officials went as far as barring me from a technology press conference at the Department of Health’s headquarters in Whitehall. As I went to use my electronic pass to enter a large room where the press conference was due to be held, an official sped down a wide staircase, ran over to the electronic turnstiles and stood in front of me, stopping me from entering the room. I took out my recorder and asked in a friendly way what was happening. Staring at my recorder, he said not a word and escorted me politely out of the building. He remained silent throughout.&nbsp;</p> <p>It was clear the Department of Health didn’t want their showcasing of new technology to be undermined by Computer Weekly’s questions about why some hospitals were refusing to install expensive and over-specified central systems that didn’t fit with local needs.&nbsp;</p> <p>A House of Lords committee later asked me to go before peers and explain what happened at the “barring” press conference. Looking back, I was pleased in a way that the Department of Health had, at least, been open about wanting its one-sided “good news” agenda to prevail.&nbsp; &nbsp;</p> <p>Indeed, pushback over our coverage of failing IT-based programmes was almost to be expected. Such is the everyday secrecy within Whitehall, some of which is justified but mostly is not, that the truth is instinctively hidden when IT-based projects begin to fail.</p> <p>That’s where investigative and campaigning journalism can be useful in opening up the other side of the story and, we hope, help prevent future disasters.</p> <p>I was, indeed, grateful for wider media coverage. BBC and Channel Four documentaries, as well as the FT and other national newspapers, picked up our pieces and I was asked to help present a BBC2 prime-time technology programme, <i>The Net</i>, which focused on specific IT projects.</p> <p>In the pre-Zoom era, Radio 4’s <i>Today</i> programme regularly dispatched a BBC car to collect a Computer Weekly reporter for a live studio interview on an article we’d published.</p> <p>But we were not always successful. &nbsp;&nbsp;</p> <p>We went to the High Court to support the Information Commissioner in seeking more openness on technology projects, but creatively minded government lawyers cited the 1689 Bill of Rights in defence of continued Whitehall secrecy. Indeed, an institutional closed mind still exists, as do the IT-based project failures. Today, <a href=\"https://www.computerweekly.com/news/366617970/UK-Home-Office-reveals-new-approach-to-deliver-Emergency-Services-Network\">a replacement emergency services radio and data communications system is billions over budget</a> and many years behind schedule.<b> </b></p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Campaigning journalism\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Campaigning journalism</h2> <p>Investigative and campaigning journalism was also uncomfortable at times. A colleague, John Riley, and I went before a House of Commons committee to argue – successfully - for an independent report on a troubled air traffic control system at Swanwick in Hampshire. I haven’t forgotten that the chair of the committee, the wonderful Gwyneth Dunwoody MP, asked me during the hearing to explain my careless use of the word “descoping”.&nbsp;</p> <p>“That is a jargon word,” I replied, embarrassed.</p> <p>“Yes,” said Dunwoody, “but if we could stick to English some of us would find it simpler.”</p> <p>Did my 21 years at Computer Weekly have an impact?</p> <p>It’s difficult to say. I didn’t really regard it as a job. I was used to the evenings, weekends and holidays blending into the working week. I remember doing a live BBC Radio 2 interview from a phone box in Lyme Regis.</p> <p>But none of this is as memorable as the day-to-day working with great teams of reporters, news editors, sub-editors and editors. &nbsp;</p> <p>I’ve been a journalist at various places since my early 20s but the warmth and professionalism of the people I worked with at Computer Weekly was unmatched.&nbsp; Since I left the magazine, it has only increased its influence.</p> <p><i>Tony Collins was executive editor at Computer Weekly from 1989 to 2010. </i></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read all of Computer Weekly's 60th anniversary essays</h3> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup> anniversary, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. Read our full collection of essays, which offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p> <h2><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">CW@60 - How technology has changed our lives over 60 years</a></h2> </div> </div> <p></p> </section>",
-    "categories": [
-      "Networks",
-      "Industry & Market",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "cdn",
-        "wan",
-        "lan"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Data Centres": [
-        "colo"
-      ],
-      "Industry & Market": [
-        "acquired",
-        "ey"
-      ]
-    },
-    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>One of the fascinations of technology is its power to transform but it can also, when implemented badly, ruin lives.</p> <p>Technology brought major changes to my own working life. In my early years in journalism, research would involve going into a newspaper’s cuttings library where articles were cut and pasted, with scissors and glue, onto A4 paper, filed into subject areas and booked out to reporters."
-  },
-  {
-    "title": "Emirati Women’s Day: Building the future of autonomous mobility",
-    "url": "https://www.computerweekly.com/feature/Emirati-Womens-Day-Building-the-future-of-autonomous-mobility",
-    "source": "ComputerWeekly",
-    "published": "2026-08-28T00:00:00+00:00",
-    "raw_text": "<p>As the UAE marks Emirati Women’s Day 2026 under the theme “We Emerge Stronger and Better”, the occasion offers an opportunity to reflect on the growing role of women in science, technology, engineering and mathematics (STEM). Across the country, Emirati women are increasingly contributing to advanced industries, from artificial intelligence (AI) and aerospace to robotics and autonomous mobility.</p> <p>One example is Amna AlMarzooqi, race car mechanic at the <a target=\"_blank\" href=\"https://www.computerweekly.com/news/366634520/Inside-the-Middle-East-tech-ambition-How-A2RL-is-shaping-the-future-of-AI-driven-mobility\" rel=\"noopener\">Abu Dhabi Autonomous Racing League (A2RL)</a>, where she works at the intersection of traditional engineering and cutting-edge autonomous vehicle technology. Her role shows how the UAE’s investment in innovation is creating new pathways for women to enter highly technical fields that were once largely male-dominated.</p> <p>For AlMarzooqi, one of the most exciting aspects of working in autonomous motorsport is witnessing how multiple disciplines come together to make advanced technologies function reliably in the real world.</p> <p>“What excites me most is seeing how intelligence and engineering have to work together,” she says. “The AI can only make good decisions if the sensors, electrical systems and mechanical components supporting it perform reliably.”</p> <p>That challenge has become even more apparent as A2RL prepares for its first international race at Italy’s Imola circuit. Unlike Yas Marina Circuit in Abu Dhabi, Imola presents narrower racing lines, elevation changes and significantly less margin for error, creating a new testing ground for autonomous systems.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Race circuits are the ultimate testbed\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Race circuits are the ultimate testbed</h2> <p>While autonomous racing may appear niche, the technologies being developed have implications far beyond motorsport. Advances in sensor fusion, autonomous navigation and real-time decision-making could eventually support sectors such as public transport, logistics, infrastructure management and emergency response.</p> <p>“Racing gives us an unusually demanding environment in which to expose weaknesses and understand how autonomous systems behave under pressure,” says AlMarzooqi. “That is where technology becomes most interesting: when an advanced idea has to prove that it can work reliably in the physical world.”</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Amna-AlMarzooqi-racecar-mechanic-A2RL-PR-140x180px.jpg\" alt=\"Photo of Amna AlMarzooqi, racecar mechanic at the Abu Dhabi Autonomous Racing League (A2RL)\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“Racing gives us an unusually demanding environment in which to expose weaknesses and understand how autonomous systems behave under pressure”&nbsp;</span></strong></span></p> <p><em><span style=\"color: #34495e;\">Amna AlMarzooqi, Abu Dhabi Autonomous Racing League</span></em></p> </blockquote> <p>Reliability remains one of the biggest technical challenges facing teams in autonomous racing. High temperatures, constant vibration and repeated high-speed operation place considerable strain on sensors, wiring, connectors and mechanical systems. Even seemingly minor faults can have significant consequences when autonomous software relies on accurate data and precise vehicle responses.</p> <p>Although the cars drive themselves, much of AlMarzooqi’s work remains rooted in traditional engineering disciplines. Her responsibilities include inspecting, diagnosing, repairing and validating systems before vehicles return to the track.</p> <p>“My aviation background taught me to approach faults systematically and never compromise on safety,” she says. “Motorsport demands the same discipline, but at a much faster pace.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Engineering requires preparation, accuracy and reliability\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Engineering requires preparation, accuracy and reliability</h2> <p>As engineering continues to evolve, AlMarzooqi believes perceptions surrounding women in technical careers are changing as well. More women are now pursuing long-term careers in engineering and taking on substantive technical responsibilities across industries.</p> <p>“In the garage, nobody is thinking about whether a role has traditionally been held by a man or a woman,” she says. “What matters is preparation, accuracy and whether the team can rely on you.”</p> <p>However, she believes more can still be done to encourage young women to enter the profession. Early exposure to engineering through workshops, internships, laboratories and hands-on projects can help students understand what engineering careers actually involve and build confidence in their abilities.</p> <p>Initiatives such as ATRC’s Talent Enablement Team programmes and the A2RL STEM Competition are helping bridge that gap by allowing students to apply technical knowledge to practical challenges. These efforts build on a broader national commitment to education and opportunity championed by Her Highness Sheikha Fatima bint Mubarak, whose longstanding support for women’s advancement has played a significant role in expanding opportunities for Emirati women.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Building on innovation\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Building on innovation</h2> <p>Working on autonomous vehicle technology has also shaped AlMarzooqi’s perspective on innovation itself. Rather than viewing innovation as a single breakthrough moment, she sees it as the result of countless improvements across interconnected systems.</p> <p>“An autonomous race car brings together mechanical engineering, electronics, sensors, computing and software,” she says. “Improving one area can affect another, so you have to understand the problem as part of a wider system.”</p> <p>This systems-based mindset also influences how teams respond when something goes wrong. Solving a problem is only the first step; understanding why it happened and preventing it from recurring is what ultimately drives progress.</p> <p>Looking ahead, AlMarzooqi expects future mobility advances to come not from a single transformative technology but from the convergence of several innovations. More sophisticated perception systems, increasingly powerful onboard computing and advanced AI decision-making capabilities are likely to play a central role in the evolution of autonomous vehicles.</p> <p>Simulation technology is also becoming increasingly important. High-fidelity digital environments allow teams to test complex racing scenarios repeatedly and safely before validating results in the physical world. Combining large-scale simulation with real-world testing is accelerating development and helping engineers better understand how autonomous systems perform under pressure.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> You do not need to know exactly where engineering will take you. Sometimes having the confidence to take the first opportunity is what allows you to discover the career you were meant to build </figure> <figcaption> <strong>Amna AlMarzooqi, A2RL</strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Embrace unexpected opportunities\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Embrace unexpected opportunities</h2> <p>For young Emirati women considering careers in <a href=\"https://www.computerweekly.com/news/366640014/Cyber-industry-welcomes-women-but-challenges-persist\">STEM</a>, AlMarzooqi’s message is straightforward: stay curious, build strong technical foundations and remain open to unexpected opportunities.</p> <p>“I studied aviation maintenance engineering and never imagined that those skills would eventually take me into autonomous motorsport,” she says. “What mattered was building a strong technical foundation, staying curious and being willing to take opportunities.”</p> <p>Her own journey reflects the expanding opportunities available to Emirati women in advanced technology sectors. As the UAE continues investing in innovation, research and talent development, women are increasingly contributing to the technologies that will shape the future of mobility and beyond.</p> <p>“You do not need to know exactly where engineering will take you,” says AlMarzooqi. “Sometimes having the confidence to take the first opportunity is what allows you to discover the career you were meant to build.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about women in tech</h3> <ul class=\"default-list\"> <li>From government-backed STEM initiatives in the UAE to thriving regional communities such as Women in Cybersecurity Middle East and Women in IT, the region is&nbsp;<a target=\"_blank\" href=\"https://www.computerweekly.com/news/366639763/How-the-Middle-East-is-building-a-new-generation-of-women-leaders-in-technology\" rel=\"noopener\">shifting the conversation from participation to influence</a>.</li> <li>The Next Tech Girls event hosted women in technology to speak to young girls about how the industry is full of opportunity&nbsp;<a target=\"_blank\" href=\"https://www.computerweekly.com/news/366639113/Next-Tech-Fest-Breaking-tech-role-misconceptions\" rel=\"noopener\">for their future careers</a>.</li> <li>To help increase the number of women in technology, and prevent those already in the industry from leaving, the UK government has&nbsp;<a target=\"_blank\" href=\"https://www.computerweekly.com/news/366636398/UK-government-launches-Women-in-Tech-Taskforce\" rel=\"noopener\">launched a Women in Tech Taskforce</a>.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Industry & Market",
-      "Networks",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "cdn",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ],
-      "Data Centres": [
-        "rack",
-        "colo"
-      ],
-      "Industry & Market": [
-        "launches",
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p>As the UAE marks Emirati Women’s Day 2026 under the theme “We Emerge Stronger and Better”, the occasion offers an opportunity to reflect on the growing role of women in science, technology, engineering and mathematics (STEM). Across the country, Emirati women are increasingly contributing to advanced industries, from artificial intelligence (AI) and aerospace to robotics and autonomous mobility.</p> <p>One example is Amna AlMarzooqi, race car mechanic at the <a target=\"_blank\" href=\"https://www.computerweekly.com/news/366634520/Inside-the-Middle-East-tech-ambition-How-A2RL-is-shaping-the-future-of-AI-driven-mobility\" rel=\"noopener\">Abu Dhabi Autonomous Racing League (A2RL)</a>, where she works at the intersection of traditional engineering and cutting-edge autonomous vehicle technology. Her role shows how the UAE’s investment in innovation is creating new pathways for women to enter highly technical fields that were once largely male-dominated.</p> <p>For AlMarzooqi, one of the most exciting aspects of working in autonomous motorsport is witnessing how multiple disciplines come together to make advanced technologies function reliably in the real world.</p> <p>“What excites me most is seeing how intelligence and engineering have to work together,” she says. “The AI can only make good decisions if the sensors, electrical systems and mechanical components supporting it perform reliably.”</p> <p>That challenge has become even more apparent as A2RL prepares for its first international race at Italy’s Imola circuit."
+    "summary": "In a year of iterative upgrades, Google is introducing smart features that make the base Pixel the standout in its generation."
   },
   {
     "title": "This pocket AI voice recorder took me back to the good old days of dictation (and shorthand)",
@@ -2754,31 +1992,172 @@
     "summary": "The Mammotion LUBA 3 AWD 3000H and the LUBA Mini 2 mowers are both heavily discounted - here's which you should get."
   },
   {
-    "title": "Lawsuit says Oura sleep tracking has 'a coin flip's chance of being correct'",
-    "url": "https://www.zdnet.com/article/lawsuit-says-oura-sleep-tracking-has-a-coin-flips-chance-of-being-correct/",
-    "source": "ZDNet",
-    "published": "2026-08-27T21:06:00+00:00",
-    "raw_text": "The class action lawsuit claims that Oura's sleep-tracking mechanisms sell 'faulty AI-based inference as reliable science.'",
+    "title": "Niutech unterzeichnet Vertrag mit weltweit führendem Energiekonzern über eine Produktionsanlage zur Pyrolyse von Kunststoffabfällen zur Herstellung von SAF",
+    "url": "https://www.prnewswire.com/news-releases/niutech-unterzeichnet-vertrag-mit-weltweit-fuhrendem-energiekonzern-uber-eine-produktionsanlage-zur-pyrolyse-von-kunststoffabfallen-zur-herstellung-von-saf-302864371.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T07:37:00+00:00",
+    "raw_text": "JINAN, China, 30. August 2026 /PRNewswire/ -- Die Niutech Technology Group Co., Ltd. (im Folgenden „Niutech\"), ein globaler Anbieter von industriellen Lösungen für die kontinuierliche Pyrolyse, hat mit einem weltweit führenden Energiekonzern einen Kaufvertrag über eine industrielle...",
     "categories": [
-      "Cloud Infrastructure",
-      "Data Centres"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "The class action lawsuit claims that Oura's sleep-tracking mechanisms sell 'faulty AI-based inference as reliable science.'"
+    "matched_keywords": {},
+    "summary": "JINAN, China, 30. August 2026 /PRNewswire/ -- Die Niutech Technology Group Co., Ltd. (im Folgenden „Niutech\"), ein globaler Anbieter von industriellen Lösungen für die kontinuierliche Pyrolyse, hat mit einem weltweit führenden Energiekonzern einen Kaufvertrag über eine industrielle..."
   },
   {
-    "title": "Galaxy Z Fold 8 camera trouble? 4 settings I recommend changing now",
-    "url": "https://www.zdnet.com/article/best-camera-settings-galaxy-z-fold-8-camera/",
-    "source": "ZDNet",
-    "published": "2026-08-27T18:46:00+00:00",
-    "raw_text": "The cameras on the Galaxy Z Fold 8 work best when they're pushed to their limits. Here are the settings I changed to get the best results.",
+    "title": "Yaber Launches Cordless Vacuum HP20: TÜV-Tested 180AW Suction, SGS-certified H13 HEPA Filtration, and SenseCleanAI AI Detection Under $200",
+    "url": "https://www.prnewswire.com/news-releases/yaber-launches-cordless-vacuum-hp20-tuv-tested-180aw-suction-sgs-certified-h13-hepa-filtration-and-sensecleanai-ai-detection-under-200-302864366.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T06:58:00+00:00",
+    "raw_text": "NEW YORK, Aug. 30, 2026 /PRNewswire/ -- Yaber announced the launch of the Yaber HP20 Cordless Vacuum Cleaner, redefining what budget–conscious consumers can expect, featuring TÜV–certified true 180AW suction, SGS–verified H13 HEPA filtration, and SenseClean AI that automatically adjusts...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "NEW YORK, Aug. 30, 2026 /PRNewswire/ -- Yaber announced the launch of the Yaber HP20 Cordless Vacuum Cleaner, redefining what budget–conscious consumers can expect, featuring TÜV–certified true 180AW suction, SGS–verified H13 HEPA filtration, and SenseClean AI that automatically adjusts..."
+  },
+  {
+    "title": "DRAGON BALL GEKISHIN SQUADRA Marks Its First Anniversary with Super Gogeta, Reveals Year-End Overhaul!",
+    "url": "https://www.prnewswire.com/news-releases/dragon-ball-gekishin-squadra-marks-its-first-anniversary-with-super-gogeta-reveals-year-end-overhaul-302863232.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T05:30:00+00:00",
+    "raw_text": "Today's \"SQUADRA Talk\" livestream detailed the Year-End Overhaul and everything arriving in Season 7 on September 9 LOS ANGELES, Aug. 30, 2026 /PRNewswire/ -- During the \"SQUADRA Talk\" livestream today, Bandai Namco Entertainment Inc. announced a Year-End Overhaul for DRAGON BALL GEKISHIN...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Today's \"SQUADRA Talk\" livestream detailed the Year-End Overhaul and everything arriving in Season 7 on September 9 LOS ANGELES, Aug. 30, 2026 /PRNewswire/ -- During the \"SQUADRA Talk\" livestream today, Bandai Namco Entertainment Inc. announced a Year-End Overhaul for DRAGON BALL GEKISHIN..."
+  },
+  {
+    "title": "YFORE lance le système de détection embarquée ODMS pour renforcer la sécurité du poste de pilotage",
+    "url": "https://www.prnewswire.com/news-releases/yfore-lance-le-systeme-de-detection-embarquee-odms-pour-renforcer-la-securite-du-poste-de-pilotage-302864364.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T05:13:00+00:00",
+    "raw_text": "SUWANEE, Géorgie, 30 août 2026 /PRNewswire/ -- À l'occasion de l'inauguration officielle de son site de production nord-américain en Géorgie, le fournisseur mondial YFORE Technology a présenté son système de surveillance des occupants et du conducteur (ODMS), une solution intégrée de...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ]
+    },
+    "summary": "SUWANEE, Géorgie, 30 août 2026 /PRNewswire/ -- À l'occasion de l'inauguration officielle de son site de production nord-américain en Géorgie, le fournisseur mondial YFORE Technology a présenté son système de surveillance des occupants et du conducteur (ODMS), une solution intégrée de..."
+  },
+  {
+    "title": "TCL Electronics (01070.HK) affiche une forte croissance dans ses résultats intermédiaires de 2026",
+    "url": "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-affiche-une-forte-croissance-dans-ses-resultats-intermediaires-de-2026-302864363.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T04:19:00+00:00",
+    "raw_text": "Le bénéfice ajusté attribuable aux propriétaires de la société mère bondit de 54,3% en glissement annuel, à 1,64 milliard HKD. Acquisition de la division climatisation de TCL pour renforcer son offre d'appareils intelligents dans toutes les catégories Résultats et faits opérationnels...",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Industry & Market": [
+        "acquisition"
+      ]
+    },
+    "summary": "Le bénéfice ajusté attribuable aux propriétaires de la société mère bondit de 54,3% en glissement annuel, à 1,64 milliard HKD. Acquisition de la division climatisation de TCL pour renforcer son offre d'appareils intelligents dans toutes les catégories Résultats et faits opérationnels..."
+  },
+  {
+    "title": "INTCO Medical annonce une croissance de 40,6% de son chiffre d'affaires au premier semestre 2026 et porte à 107 milliards d'unités sa capacité de production de gants jetables, la plus importante au monde",
+    "url": "https://www.prnewswire.com/news-releases/intco-medical-annonce-une-croissance-de-40-6-de-son-chiffre-daffaires-au-premier-semestre-2026-et-porte-a-107-milliards-dunites-sa-capacite-de-production-de-gants-jetables-la-plus-importante-au-monde-302864362.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T04:06:00+00:00",
+    "raw_text": "ZIBO, Chine, 30 août 2026 /PRNewswire/ -- INTCO Medical (la « société », 300677.SZ), l'un des principaux fabricants mondiaux de gants jetables, annonce un chiffre d'affaires de 6,91 milliards RMB (environ 1,03 milliard USD) pour le semestre clos le 30 juin 2026, soit une hausse de 40,61%...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "ZIBO, Chine, 30 août 2026 /PRNewswire/ -- INTCO Medical (la « société », 300677.SZ), l'un des principaux fabricants mondiaux de gants jetables, annonce un chiffre d'affaires de 6,91 milliards RMB (environ 1,03 milliard USD) pour le semestre clos le 30 juin 2026, soit une hausse de 40,61%..."
+  },
+  {
+    "title": "INTCO Medical meldet für das erste Halbjahr 2026 ein Umsatzwachstum von 40,6 % und baut die weltweit größte Produktionskapazität für Einweghandschuhe auf 107 Milliarden Stück aus",
+    "url": "https://www.prnewswire.com/news-releases/intco-medical-meldet-fur-das-erste-halbjahr-2026-ein-umsatzwachstum-von-40-6--und-baut-die-weltweit-groWte-produktionskapazitat-fur-einweghandschuhe-auf-107-milliarden-stuck-aus-302864357.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T03:36:00+00:00",
+    "raw_text": "ZIBO, China, 30. August 2026 /PRNewswire/ -- INTCO Medical („das Unternehmen\", 300677.SZ), ein weltweit führender Hersteller von Einweghandschuhen, meldete für die sechs Monate bis zum 30. Juni 2026 einen Umsatz von 6,91 Mrd. RMB (ca. 1,03 Mrd. US-Dollar), ein Plus von 40,61 % gegenüber...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "ZIBO, China, 30. August 2026 /PRNewswire/ -- INTCO Medical („das Unternehmen\", 300677.SZ), ein weltweit führender Hersteller von Einweghandschuhen, meldete für die sechs Monate bis zum 30. Juni 2026 einen Umsatz von 6,91 Mrd. RMB (ca."
+  },
+  {
+    "title": "AGENTPR™ Named Official Media Intelligence Platform for WPRF Abuja 2026",
+    "url": "https://www.prnewswire.com/news-releases/agentpr-named-official-media-intelligence-platform-for-wprf-abuja-2026-302864355.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T03:29:00+00:00",
+    "raw_text": "African-built AI-powered PR intelligence system to support real-time global, continental and Nigerian media monitoring for the World Public Relations Forum LAGOS, Nigeria, Aug. 30, 2026 /PRNewswire/ -- The Nigerian Institute of Public Relations (NIPR) has appointed AGENTPR™, the...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "African-built AI-powered PR intelligence system to support real-time global, continental and Nigerian media monitoring for the World Public Relations Forum LAGOS, Nigeria, Aug. 30, 2026 /PRNewswire/ -- The Nigerian Institute of Public Relations (NIPR) has appointed AGENTPR™, the..."
+  },
+  {
+    "title": "YFORE stellt das ODMS-Sensorsystem für den Fahrgastraum vor, um die Sicherheit im Cockpit zu verbessern",
+    "url": "https://www.prnewswire.com/news-releases/yfore-stellt-das-odms-sensorsystem-fur-den-fahrgastraum-vor-um-die-sicherheit-im-cockpit-zu-verbessern-302864354.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T03:13:00+00:00",
+    "raw_text": "SUWANEE, Georgia, 30. August 2026 /PRNewswire/ -- Anlässlich der offiziellen Eröffnung seiner nordamerikanischen Produktionsstätte in Georgia stellte der globale Tier-1-Zulieferer YFORE Technology sein „Occupant & Driver Monitoring System\" (ODMS) vor – eine integrierte Sensorenlösung für...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "SUWANEE, Georgia, 30. August 2026 /PRNewswire/ -- Anlässlich der offiziellen Eröffnung seiner nordamerikanischen Produktionsstätte in Georgia stellte der globale Tier-1-Zulieferer YFORE Technology sein „Occupant & Driver Monitoring System\" (ODMS) vor – eine integrierte Sensorenlösung für..."
+  },
+  {
+    "title": "/C O R R E C T I O N -- Tillamook/",
+    "url": "https://www.prnewswire.com/news-releases/tillamook-hits-route-66-with-a-not-so-baby-loaf-proving-great-cheese-is-always-worth-the-detour-302854700.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T02:41:00+00:00",
+    "raw_text": "In the news release, Tillamook® Hits Route 66 with a Not-So-Baby Loaf, Proving Great Cheese Is Always Worth the Detour, issued 19-Aug-2026 by Tillamook over PR Newswire, the company has re-issued the release with an updated photograph. The complete, corrected release follows: Tillamook®...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "In the news release, Tillamook® Hits Route 66 with a Not-So-Baby Loaf, Proving Great Cheese Is Always Worth the Detour, issued 19-Aug-2026 by Tillamook over PR Newswire, the company has re-issued the release with an updated photograph. The complete, corrected release follows: Tillamook®..."
+  },
+  {
+    "title": "INTCO Medical rapporteert omzetgroei van 40,6% in de eerste helft van 2026, breidt de grootste wegwerphandschoenencapaciteit ter wereld uit tot 107 miljard stuks",
+    "url": "https://www.prnewswire.com/news-releases/intco-medical-rapporteert-omzetgroei-van-40-6-in-de-eerste-helft-van-2026--breidt-de-grootste-wegwerphandschoenencapaciteit-ter-wereld-uit-tot-107-miljard-stuks-302864348.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T02:40:00+00:00",
+    "raw_text": "ZIBO, China, 30 augustus 2026 /PRNewswire/ -- INTCO Medical (\"het bedrijf\", 300677.SZ), een toonaangevende wereldwijde fabrikant van wegwerphandschoenen, rapporteerde een omzet van RMB 6,91 miljard (ongeveer USD 1,03 miljard) voor het semester dat eindigt op 30 juni 2026, een stijging van...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "edr"
+      ]
+    },
+    "summary": "ZIBO, China, 30 augustus 2026 /PRNewswire/ -- INTCO Medical (\"het bedrijf\", 300677.SZ), een toonaangevende wereldwijde fabrikant van wegwerphandschoenen, rapporteerde een omzet van RMB 6,91 miljard (ongeveer USD 1,03 miljard) voor het semester dat eindigt op 30 juni 2026, een stijging van..."
+  },
+  {
+    "title": "JOINT STATEMENT OF OCEAN AND LUKE DASHJR",
+    "url": "https://www.prnewswire.com/news-releases/joint-statement-of-ocean-and-luke-dashjr-302864347.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T02:39:00+00:00",
+    "raw_text": "CHEYENNE, Wyo., Aug. 29, 2026 /PRNewswire/ -- OCEAN (Mummolin, Inc.) and Luke Dashjr announce today that, by mutual agreement, Luke Dashjr has separated from OCEAN, resigning as Chairman, Chief Technology Officer, and director, and that the Company has repurchased all of his equity. The...",
     "categories": [
       "Industry & Market"
     ],
@@ -2787,77 +2166,355 @@
         "ey"
       ]
     },
-    "summary": "The cameras on the Galaxy Z Fold 8 work best when they're pushed to their limits. Here are the settings I changed to get the best results."
+    "summary": "CHEYENNE, Wyo., Aug. 29, 2026 /PRNewswire/ -- OCEAN (Mummolin, Inc.) and Luke Dashjr announce today that, by mutual agreement, Luke Dashjr has separated from OCEAN, resigning as Chairman, Chief Technology Officer, and director, and that the Company has repurchased all of his equity. The..."
   },
   {
-    "title": "This excellent HP laptop is nearly 50% off at Best Buy - and comes with a cheap TV",
-    "url": "https://www.zdnet.com/article/hp-omnibook-3-deal/",
-    "source": "ZDNet",
-    "published": "2026-08-27T16:41:22+00:00",
-    "raw_text": "Snag the HP OmniBook 3 16-inch laptop for under $700, plus get a 43-inch Toshiba smart TV for just $99 when you bundle at Best Buy.",
+    "title": "Der weltweit führende Tier-1-Zulieferer YFORE fertigt ersten in den USA produzierten digitalen Schlüssel",
+    "url": "https://www.prnewswire.com/news-releases/der-weltweit-fuhrende-tier-1-zulieferer-yfore-fertigt-ersten-in-den-usa-produzierten-digitalen-schlussel-302864342.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T01:57:00+00:00",
+    "raw_text": "SUWANEE, Georgia, 30. August 2026 /PRNewswire/ -- YFORE Technology hat heute in seinem Werk in Suwanee, Georgia, offiziell seinen ersten in den USA hergestellten digitalen Schlüssel vom Band laufen lassen und damit den Start der lokalisierten Massenproduktion für Nordamerika eingeläutet....",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "SUWANEE, Georgia, 30. August 2026 /PRNewswire/ -- YFORE Technology hat heute in seinem Werk in Suwanee, Georgia, offiziell seinen ersten in den USA hergestellten digitalen Schlüssel vom Band laufen lassen und damit den Start der lokalisierten Massenproduktion für Nordamerika eingeläutet...."
+  },
+  {
+    "title": "Jukebox Launches Free 4x HD Image Upscaling Inside Its Background Remover, No Signup Required",
+    "url": "https://www.prnewswire.com/news-releases/jukebox-launches-free-4x-hd-image-upscaling-inside-its-background-remover-no-signup-required-302864341.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T01:55:00+00:00",
+    "raw_text": "Full-resolution transparent PNG downloads stay free with no account and no watermarks, while most tools in the category reserve full-quality exports for registered or paying users. RICHMOND, BC, Aug. 29, 2026 /PRNewswire/ -- Jukebox, the online printing company named Best Overall by...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Full-resolution transparent PNG downloads stay free with no account and no watermarks, while most tools in the category reserve full-quality exports for registered or paying users. RICHMOND, BC, Aug. 29, 2026 /PRNewswire/ -- Jukebox, the online printing company named Best Overall by..."
+  },
+  {
+    "title": "El concurso periodístico «Sunshine State Awards» de la SPJ anuncia los galardonados de 2026",
+    "url": "https://www.prnewswire.com/news-releases/el-concurso-periodistico-sunshine-state-awards-de-la-spj-anuncia-los-galardonados-de-2026-819719080.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T01:00:00+00:00",
+    "raw_text": "MIAMI, 29 de agosto de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Los Sunshine State Awards, el concurso periodístico estatal más grande y de mayor trayectoria de Florida, han anunciado a los galardonados 2026 s, en reconocimiento a los trabajos destacados realizados en 2025. Los premios se...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Snag the HP OmniBook 3 16-inch laptop for under $700, plus get a 43-inch Toshiba smart TV for just $99 when you bundle at Best Buy."
+    "summary": "MIAMI, 29 de agosto de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Los Sunshine State Awards, el concurso periodístico estatal más grande y de mayor trayectoria de Florida, han anunciado a los galardonados 2026 s, en reconocimiento a los trabajos destacados realizados en 2025. Los premios se..."
   },
   {
-    "title": "Apple escaped Android's 'toxic hellstew' - now Siri AI is creating a new one",
-    "url": "https://www.zdnet.com/article/apple-escaped-android-toxic-hellstew-siri-ai-creates-a-new-one/",
-    "source": "ZDNet",
-    "published": "2026-08-27T16:34:28+00:00",
-    "raw_text": "Apple's new toxic hellstew is a battle over regulation, litigation, and keeping your data safe.",
+    "title": "SPJ's Sunshine State Awards Journalism Competition Announces 2026 Honors",
+    "url": "https://www.prnewswire.com/news-releases/spjs-sunshine-state-awards-journalism-competition-announces-2026-honors-302863179.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T01:00:00+00:00",
+    "raw_text": "MIAMI, Aug. 29, 2026 /PRNewswire/ -- The Sunshine State Awards, Florida's largest and longest-running statewide journalism competition, has announced its 2026 honorees, recognizing outstanding work produced in 2025. The awards were presented this evening at a ceremony held at ArtServe...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "MIAMI, Aug. 29, 2026 /PRNewswire/ -- The Sunshine State Awards, Florida's largest and longest-running statewide journalism competition, has announced its 2026 honorees, recognizing outstanding work produced in 2025. The awards were presented this evening at a ceremony held at ArtServe..."
+  },
+  {
+    "title": "AEVEX Corp. (AVEX) Class Action Lawsuit: Investors Face October 20, 2026, Deadline",
+    "url": "https://www.prnewswire.com/news-releases/aevex-corp-avex-class-action-lawsuit-investors-face-october-20-2026-deadline-302862474.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-30T00:15:00+00:00",
+    "raw_text": "Did you buy AVEX Class A common stock between April 17, 2026 and June 4, 2026? Affected AVEX Investor Summary Who: AEVEX Corp. (NYSE: AVEX) What: Securities fraud class action lawsuit filed Class Period: April 17, 2026 through June 4, 2026 Deadline to Seek Lead Plaintiff Status: October...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ]
+    },
+    "summary": "Did you buy AVEX Class A common stock between April 17, 2026 and June 4, 2026? Affected AVEX Investor Summary Who: AEVEX Corp. (NYSE: AVEX) What: Securities fraud class action lawsuit filed Class Period: April 17, 2026 through June 4, 2026 Deadline to Seek Lead Plaintiff Status: October..."
+  },
+  {
+    "title": "SCHEELS Opens 35th Location to Massive Crowds in Cedar Park, Texas",
+    "url": "https://www.prnewswire.com/news-releases/scheels-opens-35th-location-to-massive-crowds-in-cedar-park-texas-302864339.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-29T22:17:00+00:00",
+    "raw_text": "Employee-owned industry leader expands footprint to Central Texas, showcasing the future of brick-and-mortar experiential retail with record foot traffic CEDAR PARK, Texas, Aug. 29, 2026 /PRNewswire/ -- Employee-owned All Sports retailer SCHEELS officially opened its newest location in...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "Employee-owned industry leader expands footprint to Central Texas, showcasing the future of brick-and-mortar experiential retail with record foot traffic CEDAR PARK, Texas, Aug. 29, 2026 /PRNewswire/ -- Employee-owned All Sports retailer SCHEELS officially opened its newest location in..."
+  },
+  {
+    "title": "TCL Electronics (01070.HK) levert sterke groei in tussentijdse resultaten van 2026",
+    "url": "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-levert-sterke-groei-in-tussentijdse-resultaten-van-2026-302864338.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-29T22:00:00+00:00",
+    "raw_text": "Aangepaste winst toerekenbaar aan aandeelhouders van de moedermaatschappij stijgt met 54,3% op jaarbasis tot HKD 1,64 miljard Overname van TCL Air Conditioning Business om de lay-out van slimme apparaten voor alle categorieën te verbeteren Resultaten en operationele hoogtepunten Door...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Aangepaste winst toerekenbaar aan aandeelhouders van de moedermaatschappij stijgt met 54,3% op jaarbasis tot HKD 1,64 miljard Overname van TCL Air Conditioning Business om de lay-out van slimme apparaten voor alle categorieën te verbeteren Resultaten en operationele hoogtepunten Door..."
+  },
+  {
+    "title": "TCL Electronics (01070.HK) verzeichnet in den Halbjahresergebnissen 2026 starkes Wachstum",
+    "url": "https://www.prnewswire.com/news-releases/tcl-electronics-01070hk-verzeichnet-in-den-halbjahresergebnissen-2026-starkes-wachstum-302864337.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-08-29T21:54:00+00:00",
+    "raw_text": "Der bereinigte, den Eigentümern des Mutterunternehmens zurechenbare Gewinn steigt gegenüber dem Vorjahr um 54,3 % auf 1,64 Mrd. HK$ Übernahme des TCL-Klimaanlagengeschäfts zur Weiterentwicklung des kategorieübergreifenden Portfolios intelligenter Endgeräte Ergebnisse und wichtigste...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Der bereinigte, den Eigentümern des Mutterunternehmens zurechenbare Gewinn steigt gegenüber dem Vorjahr um 54,3 % auf 1,64 Mrd. HK$ Übernahme des TCL-Klimaanlagengeschäfts zur Weiterentwicklung des kategorieübergreifenden Portfolios intelligenter Endgeräte Ergebnisse und wichtigste..."
+  },
+  {
+    "title": "PWP.BET Releases Unified Operator Console Combining Casino, Sportsbook and Compliance Tools in One System",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352940/0/en/pwp-bet-releases-unified-operator-console-combining-casino-sportsbook-and-compliance-tools-in-one-system.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T17:38:00+00:00",
+    "raw_text": "The B2B technology company launches a single back-office platform that runs casino and sportsbook management alongside built-in KYC, AML and responsible-gaming controls for licensed operators The B2B technology company launches a single back-office platform that runs casino and sportsbook management alongside built-in KYC, AML and responsible-gaming controls for licensed operators",
+    "categories": [
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "compliance"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "The B2B technology company launches a single back-office platform that runs casino and sportsbook management alongside built-in KYC, AML and responsible-gaming controls for licensed operators The B2B technology company launches a single back-office platform that runs casino and sportsbook management alongside built-in KYC, AML and responsible-gaming controls for licensed operators"
+  },
+  {
+    "title": "Apeing Set to Launch Its Upcoming Crypto Presale in the First Week of September Amid BTC’s 26% Rally and Rising Bullish Sentiment",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352937/0/en/apeing-set-to-launch-its-upcoming-crypto-presale-in-the-first-week-of-september-amid-btc-s-26-rally-and-rising-bullish-sentiment.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T16:40:00+00:00",
+    "raw_text": "NEW YORK, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Apeing is set to launch its highly anticipated crypto presale in the first week of September, marking the project’s next major milestone as its whitelist phase enters its final days. Official presale details are expected to be announced ahead of the September launch.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "NEW YORK, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Apeing is set to launch its highly anticipated crypto presale in the first week of September, marking the project’s next major milestone as its whitelist phase enters its final days. Official presale details are expected to be announced ahead of the September launch."
+  },
+  {
+    "title": "Coventry 旗下 LILY 融资项目人寿保险支持型融资规模达 10 亿美元",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/zh-hans/coventry-%E6%97%97%E4%B8%8B-lily-%E8%9E%8D%E8%B5%84%E9%A1%B9%E7%9B%AE%E4%BA%BA%E5%AF%BF%E4%BF%9D%E9%99%A9%E6%94%AF%E6%8C%81%E5%9E%8B%E8%9E%8D%E8%B5%84%E8%A7%84%E6%A8%A1%E8%BE%BE-10-%E4%BA%BF%E7%BE%8E%E5%85%83.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "宾夕法尼亚州华盛顿堡, Aug. 29, 2026 (GLOBE NEWSWIRE) -- 人寿保险二级市场的领导者与开创者、人寿保险支持型资产类别的先驱企业 Coventry 今日宣布，自 2025 年 4 月以来，其 LILY 项目下的第四笔资产支持型证券化交易已成功完成，使该平台的人寿保险支持型融资总额达到 10 亿美元。 这一成就进一步巩固了 Coventry 作为机构投资者获取差异化长寿相关资产敞口的领先平台的地位。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "宾夕法尼亚州华盛顿堡, Aug. 29, 2026 (GLOBE NEWSWIRE) -- 人寿保险二级市场的领导者与开创者、人寿保险支持型资产类别的先驱企业 Coventry 今日宣布，自 2025 年 4 月以来，其 LILY 项目下的第四笔资产支持型证券化交易已成功完成，使该平台的人寿保险支持型融资总额达到 10 亿美元。 这一成就进一步巩固了 Coventry 作为机构投资者获取差异化长寿相关资产敞口的领先平台的地位。"
+  },
+  {
+    "title": "Coventry 的 LILY 融資計劃達到 10 億美元人壽保險抵押融資",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/zh-hant/coventry-%E7%9A%84-lily-%E8%9E%8D%E8%B3%87%E8%A8%88%E5%8A%83%E9%81%94%E5%88%B0-10-%E5%84%84%E7%BE%8E%E5%85%83%E4%BA%BA%E5%A3%BD%E4%BF%9D%E9%9A%AA%E6%8A%B5%E6%8A%BC%E8%9E%8D%E8%B3%87.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "賓夕凡尼亞州華盛頓堡, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry 是人壽保險二級市場的頂尖及開創機構，以及人壽保險抵押資產類別的開拓先鋒，今天宣佈其 LILY 計劃自 2025 年 4 月以來已成功完成第四次資產抵押證券化，令平台累計的人壽保險抵押融資總額達至 10 億美元。 此成就進一步鞏固 Coventry 作為領先平台的地位，讓機構投資者尋求別樹一幟與長壽相關資產的配置。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "賓夕凡尼亞州華盛頓堡, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry 是人壽保險二級市場的頂尖及開創機構，以及人壽保險抵押資產類別的開拓先鋒，今天宣佈其 LILY 計劃自 2025 年 4 月以來已成功完成第四次資產抵押證券化，令平台累計的人壽保險抵押融資總額達至 10 億美元。 此成就進一步鞏固 Coventry 作為領先平台的地位，讓機構投資者尋求別樹一幟與長壽相關資產的配置。"
+  },
+  {
+    "title": "Le programme de financement LILY de Coventry atteint 1 milliard de dollars de financements adossés à des contrats d’assurance-vie",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/fr/le-programme-de-financement-lily-de-coventry-atteint-1-milliard-de-dollars-de-financements-adoss%C3%A9s-%C3%A0-des-contrats-d-assurance-vie.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "FORT WASHINGTON, Pennsylvanie, 29 août 2026 (GLOBE NEWSWIRE) -- Coventry, leader et créateur du marché secondaire de l’assurance-vie et pionnier dans le domaine des actifs adossés à l’assurance-vie, a annoncé aujourd’hui la finalisation réussie de sa quatrième opération de titrisation adossée à des actifs depuis avril 2025 dans le cadre de son programme LILY, portant à 1 milliard de dollars le montant total des financements adossés à des contrats d’assurance-vie réalisés sur la plateforme. Cette réalisation conforte davantage la position de Coventry comme plateforme de référence pour les investisseurs institutionnels à la recherche d’une exposition différenciante aux actifs liés à la longévité.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "FORT WASHINGTON, Pennsylvanie, 29 août 2026 (GLOBE NEWSWIRE) -- Coventry, leader et créateur du marché secondaire de l’assurance-vie et pionnier dans le domaine des actifs adossés à l’assurance-vie, a annoncé aujourd’hui la finalisation réussie de sa quatrième opération de titrisation adossée à des actifs depuis avril 2025 dans le cadre de son programme LILY, portant à 1 milliard de dollars le montant total des financements adossés à des contrats d’assurance-vie réalisés sur la plateforme. Cette réalisation conforte davantage la position de Coventry comme plateforme de référence pour les investisseurs institutionnels à la recherche d’une exposition différenciante aux actifs liés à la longévité."
+  },
+  {
+    "title": "Coventrys Finanzierungsprogramm LILY erreicht 1 Milliarde US-Dollar an durch Lebensversicherungen besicherten Finanzierungen",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/de/coventrys-finanzierungsprogramm-lily-erreicht-1-milliarde-us-dollar-an-durch-lebensversicherungen-besicherten-finanzierungen.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "FORT WASHINGTON, Pennsylvania, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, Marktführer und Wegbereiter des Sekundärmarkts für Lebensversicherungen sowie Pionier der Anlageklasse der durch Lebensversicherungen besicherten Vermögenswerte, gab heute den erfolgreichen Abschluss seiner vierten Asset-Backed-Verbriefung seit April 2025 im Rahmen des LILY-Programms bekannt. Damit beläuft sich das Volumen der durch Lebensversicherungen besicherten Finanzierungen auf der gesamten Plattform auf insgesamt 1 Milliarde US-Dollar. Dieser Erfolg unterstreicht Cov­entrys Position als führende Plattform für institutionelle Anleger, die einen differenzierten Zugang zu langlebigkeitsgebundenen Vermögenswerten suchen.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "FORT WASHINGTON, Pennsylvania, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, Marktführer und Wegbereiter des Sekundärmarkts für Lebensversicherungen sowie Pionier der Anlageklasse der durch Lebensversicherungen besicherten Vermögenswerte, gab heute den erfolgreichen Abschluss seiner vierten Asset-Backed-Verbriefung seit April 2025 im Rahmen des LILY-Programms bekannt. Damit beläuft sich das Volumen der durch Lebensversicherungen besicherten Finanzierungen auf der gesamten Plattform auf insgesamt 1 Milliarde US-Dollar. Dieser Erfolg unterstreicht Cov­entrys Position als führende Plattform für institutionelle Anleger, die einen differenzierten Zugang zu langlebigkeitsgebundenen Vermögenswerten suchen."
+  },
+  {
+    "title": "תוכנית המימון LILY של קובנטרי מגיעה ל-1 מיליארד דולר במימון מגובה ביטוח חיים",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/he/%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA-%D7%94%D7%9E%D7%99%D7%9E%D7%95%D7%9F-lily-%D7%A9%D7%9C-%D7%A7%D7%95%D7%91%D7%A0%D7%98%D7%A8%D7%99-%D7%9E%D7%92%D7%99%D7%A2%D7%94-%D7%9C-1-%D7%9E%D7%99%D7%9C%D7%99%D7%90%D7%A8%D7%93-%D7%93%D7%95%D7%9C%D7%A8-%D7%91%D7%9E%D7%99%D7%9E%D7%95%D7%9F-%D7%9E%D7%92%D7%95%D7%91%D7%94-%D7%91%D7%99%D7%98%D7%95%D7%97-%D7%97%D7%99%D7%99%D7%9D.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "פורט וושינגטון, פנסילבניה, Aug. 29, 2026 (GLOBE NEWSWIRE) -- קובנטרי ( Coventry ), המובילה והיוצרת של השוק המשני לביטוח חיים וחלוצה בתחום נכסי הביטוח המגובים בביטוח חיים, הודיעה היום על השלמה מוצלחת של עסקת איגוח רביעית המגובה בנכסים במסגרת תוכנית LILY שלה מאז אפריל 2025; בכך הגיע היקף המימון הכולל המגובה בביטוחי חיים בפלטפורמה למיליארד דולר. הישג זה מבסס עוד יותר את מעמדה של קובנטרי כפלטפורמה המובילה עבור משקיעים מוסדיים המחפשים חשיפה ייחודית לנכסים הקשורים לתוחלת חיים.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "פורט וושינגטון, פנסילבניה, Aug. 29, 2026 (GLOBE NEWSWIRE) -- קובנטרי ( Coventry ), המובילה והיוצרת של השוק המשני לביטוח חיים וחלוצה בתחום נכסי הביטוח המגובים בביטוח חיים, הודיעה היום על השלמה מוצלחת של עסקת איגוח רביעית המגובה בנכסים במסגרת תוכנית LILY שלה מאז אפריל 2025; בכך הגיע היקף המימון הכולל המגובה בביטוחי חיים בפלטפורמה למיליארד דולר. הישג זה מבסס עוד יותר את מעמדה של קובנטרי כפלטפורמה המובילה עבור משקיעים מוסדיים המחפשים חשיפה ייחודית לנכסים הקשורים לתוחלת חיים."
+  },
+  {
+    "title": "Program Pendanaan LILY milik Coventry Mencapai Angka $1 Miliar dalam Pembiayaan Beragun Asuransi Jiwa",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/id/program-pendanaan-lily-milik-coventry-mencapai-angka-1-miliar-dalam-pembiayaan-beragun-asuransi-jiwa.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "FORT WASHINGTON, Pa., Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, pemimpin dan pencipta pasar sekunder untuk asuransi jiwa serta pelopor kelas aset beragun asuransi jiwa, hari ini mengumumkan keberhasilan penyelesaian sekuritisasi beragun asetnya yang keempat sejak bulan April 2025 melalui program LILY miliknya. Dengan transaksi ini, total pembiayaan beragun asuransi jiwa di seluruh platform Coventry mencapai $1 miliar. Pencapaian ini semakin mengukuhkan posisi Coventry sebagai platform terdepan bagi investor institusional yang ingin memperoleh eksposur yang berbeda terhadap aset terkait risiko umur panjang.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "FORT WASHINGTON, Pa., Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, pemimpin dan pencipta pasar sekunder untuk asuransi jiwa serta pelopor kelas aset beragun asuransi jiwa, hari ini mengumumkan keberhasilan penyelesaian sekuritisasi beragun asetnya yang keempat sejak bulan April 2025 melalui program LILY miliknya. Dengan transaksi ini, total pembiayaan beragun asuransi jiwa di seluruh platform Coventry mencapai $1 miliar. Pencapaian ini semakin mengukuhkan posisi Coventry sebagai platform terdepan bagi investor institusional yang ingin memperoleh eksposur yang berbeda terhadap aset terkait risiko umur panjang."
+  },
+  {
+    "title": "コヴェントリーのリリー資金調達プログラム、10億ドル (約1600億円) の生命保険担保型資金調達を達成",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/ja/%E3%82%B3%E3%83%B4%E3%82%A7%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC%E3%81%AE%E3%83%AA%E3%83%AA%E3%83%BC%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0-10%E5%84%84%E3%83%89%E3%83%AB-%E7%B4%841600%E5%84%84%E5%86%86-%E3%81%AE%E7%94%9F%E5%91%BD%E4%BF%9D%E9%99%BA%E6%8B%85%E4%BF%9D%E5%9E%8B%E8%B3%87%E9%87%91%E8%AA%BF%E9%81%94%E3%82%92%E9%81%94%E6%88%90.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "ペンシルベニア州フォート・ワシントン発 , Aug. 29, 2026 (GLOBE NEWSWIRE) -- 生命保険二次市場のリーダーであり創設者、また生命保険担保型資産クラスの先駆者であるコヴェントリー (Coventry) は本日、リリー (LILY) プログラムの下で、2025年4月以降で4回目となる資産担保証券化を無事に完了したことを発表した。これにより、同プラットフォーム全体の生命保険担保型資金調達総額は10億ドル (約1600億円) に達した。 この達成により、コヴェントリーは、長寿連動型資産への差別化されたエクスポージャーを求める機関投資家に対する主要プラットフォームとしての、コヴェントリーの立場をさらに確立した。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "ペンシルベニア州フォート・ワシントン発 , Aug. 29, 2026 (GLOBE NEWSWIRE) -- 生命保険二次市場のリーダーであり創設者、また生命保険担保型資産クラスの先駆者であるコヴェントリー (Coventry) は本日、リリー (LILY) プログラムの下で、2025年4月以降で4回目となる資産担保証券化を無事に完了したことを発表した。これにより、同プラットフォーム全体の生命保険担保型資金調達総額は10億ドル (約1600億円) に達した。 この達成により、コヴェントリーは、長寿連動型資産への差別化されたエクスポージャーを求める機関投資家に対する主要プラットフォームとしての、コヴェントリーの立場をさらに確立した。"
+  },
+  {
+    "title": "Coventry, LILY 프로그램 통해 생명보험 기반 자금조달 10억 달러 달성",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/ko/coventry-lily-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%ED%86%B5%ED%95%B4-%EC%83%9D%EB%AA%85%EB%B3%B4%ED%97%98-%EA%B8%B0%EB%B0%98-%EC%9E%90%EA%B8%88%EC%A1%B0%EB%8B%AC-10%EC%96%B5-%EB%8B%AC%EB%9F%AC-%EB%8B%AC%EC%84%B1.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "미국 펜실베이니아주 포트워싱턴, Aug. 29, 2026 (GLOBE NEWSWIRE) -- 생명보험 2차 시장의 창시자이자 선도기업이며 생명보험 기반 자산군을 개척해 온 Coventry는 오늘 LILY 프로그램을 통해 2025년 4월 이후 네 번째 자산유동화증권(ABS) 발행을 성공적으로 완료했다고 발표했다. 이에 따라 플랫폼 전반의 생명보험 기반 누적 조달액은 10억 달러에 달하게 됐다. 이번 성과는 장수 연계 자산(longevity-linked assets)에 대한 차별화된 익스포저를 원하는 기관투자자들을 위한 선도적 플랫폼으로서 Coventry의 입지를 한층 강화했다.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "미국 펜실베이니아주 포트워싱턴, Aug. 29, 2026 (GLOBE NEWSWIRE) -- 생명보험 2차 시장의 창시자이자 선도기업이며 생명보험 기반 자산군을 개척해 온 Coventry는 오늘 LILY 프로그램을 통해 2025년 4월 이후 네 번째 자산유동화증권(ABS) 발행을 성공적으로 완료했다고 발표했다. 이에 따라 플랫폼 전반의 생명보험 기반 누적 조달액은 10억 달러에 달하게 됐다. 이번 성과는 장수 연계 자산(longevity-linked assets)에 대한 차별화된 익스포저를 원하는 기관투자자들을 위한 선도적 플랫폼으로서 Coventry의 입지를 한층 강화했다."
+  },
+  {
+    "title": "Program Pembiayaan LILY Coventry Mencecah Capai AS$1 Bilion dalam Pembiayaan Bersandarkan Insurans Hayat",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/ms/program-pembiayaan-lily-coventry-mencecah-capai-as-1-bilion-dalam-pembiayaan-bersandarkan-insurans-hayat.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "FORT WASHINGTON, Pa., Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, peneraju dan pencipta pasaran sekunder bagi insurans hayat serta perintis kelas aset bersandarkan insurans hayat, hari ini mengumumkan kejayaan penyempurnaan sekuritisasi bersandarkan aset keempat di bawah program LILY sejak April 2025, menjadikan jumlah keseluruhan dana bersandarkan insurans hayat melalui platform tersebut mencecah AS$1 bilion. Pencapaian ini memperkukuh lagi kedudukan Coventry sebagai platform utama bagi pelabur institusi yang mencari pendedahan berbeza terhadap aset berkaitan jangka hayat.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "FORT WASHINGTON, Pa., Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, peneraju dan pencipta pasaran sekunder bagi insurans hayat serta perintis kelas aset bersandarkan insurans hayat, hari ini mengumumkan kejayaan penyempurnaan sekuritisasi bersandarkan aset keempat di bawah program LILY sejak April 2025, menjadikan jumlah keseluruhan dana bersandarkan insurans hayat melalui platform tersebut mencecah AS$1 bilion. Pencapaian ini memperkukuh lagi kedudukan Coventry sebagai platform utama bagi pelabur institusi yang mencari pendedahan berbeza terhadap aset berkaitan jangka hayat."
+  },
+  {
+    "title": "Programa de Financiamento LILY da Coventry Alcança US$ 1 Bilhão em Financiamento Lastreado em Seguros de Vida",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/pt/programa-de-financiamento-lily-da-coventry-alcan%C3%A7a-us-1-bilh%C3%A3o-em-financiamento-lastreado-em-seguros-de-vida.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "FORT WASHINGTON, Pensilvânia, Aug. 29, 2026 (GLOBE NEWSWIRE) -- A Coventry, líder e criadora do mercado secundário de seguros de vida e pioneira da classe de ativos lastreados em seguros de vida, anunciou hoje a conclusão da sua quarta securitização garantida por ativos desde abril de 2025 sob seu programa LILY, elevando o financiamento total lastreado em seguros de vida em toda a plataforma para US$ 1 bilhão. Essa conquista solidifica ainda mais a Coventry como a plataforma líder para investidores institucionais que buscam exposição diferenciada a ativos vinculados à longevidade.",
     "categories": [
       "GRC"
     ],
     "matched_keywords": {
       "GRC": [
-        "regulation"
+        "dora"
       ]
     },
-    "summary": "Apple's new toxic hellstew is a battle over regulation, litigation, and keeping your data safe."
+    "summary": "FORT WASHINGTON, Pensilvânia, Aug. 29, 2026 (GLOBE NEWSWIRE) -- A Coventry, líder e criadora do mercado secundário de seguros de vida e pioneira da classe de ativos lastreados em seguros de vida, anunciou hoje a conclusão da sua quarta securitização garantida por ativos desde abril de 2025 sob seu programa LILY, elevando o financiamento total lastreado em seguros de vida em toda a plataforma para US$ 1 bilhão. Essa conquista solidifica ainda mais a Coventry como a plataforma líder para investidores institucionais que buscam exposição diferenciada a ativos vinculados à longevidade."
   },
   {
-    "title": "AI a 'force multiplier' for low-skilled threat actors: 4 ways organizations should respond",
-    "url": "https://www.zdnet.com/article/ai-armed-script-kiddies-power-of-state-threat-actors-unit-42/",
-    "source": "ZDNet",
-    "published": "2026-08-27T16:02:00+00:00",
-    "raw_text": "Low-skill hacktivists are now 'enabled with the same tooling and sophistication as a state-sponsored group,' according to cybersecurity consultant Unit 42.",
+    "title": "El programa LILY de Coventry alcanza los $1.000 millones en financiamiento respaldado por seguros de vida",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/es/el-programa-lily-de-coventry-alcanza-los-1-000-millones-en-financiamiento-respaldado-por-seguros-de-vida.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "FORT WASHINGTON, Pensilvania, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, líder y creador del mercado secundario de seguros de vida y pionero en la clase de activos respaldados por seguros de vida, anunció hoy la finalización exitosa de su cuarta titulización respaldada por activos desde abril de 2025 en el marco de su programa LILY, con lo que el financiamiento total respaldado por seguros de vida a través de la plataforma alcanza los $1.000 millones. Este logro consolida aún más a Coventry como la plataforma líder para inversores institucionales que buscan una exposición diferenciada a activos vinculados a la longevidad.",
     "categories": [
-      "Cybersecurity"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "FORT WASHINGTON, Pensilvania, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry, líder y creador del mercado secundario de seguros de vida y pionero en la clase de activos respaldados por seguros de vida, anunció hoy la finalización exitosa de su cuarta titulización respaldada por activos desde abril de 2025 en el marco de su programa LILY, con lo que el financiamiento total respaldado por seguros de vida a través de la plataforma alcanza los $1.000 millones. Este logro consolida aún más a Coventry como la plataforma líder para inversores institucionales que buscan una exposición diferenciada a activos vinculados a la longevidad."
+  },
+  {
+    "title": "โครงการจัดหาเงินทุน LILY ของ Coventry มียอดเงินทุนที่มีประกันชีวิตค้ำประกันแตะ 1 พันล้านดอลลาร์สหรัฐฯ",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352932/0/th/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%B2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B8%99-lily-%E0%B8%82%E0%B8%AD%E0%B8%87-coventry-%E0%B8%A1%E0%B8%B5%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A1%E0%B8%B5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B8%84%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B9%81%E0%B8%95%E0%B8%B0-1-%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B8%AD%E0%B8%A5%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%90%E0%B8%AF.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:20:00+00:00",
+    "raw_text": "ฟอร์ตวอชิงตัน รัฐเพนซิลเวเนีย, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry ผู้นำและผู้ริเริ่มตลาดรองสำหรับประกันชีวิต และผู้บุกเบิกประเภทสินทรัพย์ที่มีประกันชีวิตค้ำประกัน วันนี้ประกาศความสำเร็จในการดำเนินธุรกรรมแปลงสินทรัพย์เป็นหลักทรัพย์ที่มีสินทรัพย์ค้ำประกัน (asset-backed securitization) ครั้งที่สี่ภายใต้โครงการ LILY นับตั้งแต่เดือนเมษายน 2025 ส่งผลให้ยอดรวมการจัดหาเงินทุนที่มีประกันชีวิตค้ำประกันทั่วทั้งแพลตฟอร์มมีมูลค่าถึง 1 พันล้านดอลลาร์สหรัฐฯ ความสำเร็จนี้ตอกย้ำสถานะของ Coventry ในฐานะแพลตฟอร์มชั้นนำสำหรับนักลงทุนสถาบันที่มองหาการลงทุนในสินทรัพย์ที่เชื่อมโยงกับอายุขัย ซึ่งมีลักษณะแตกต่างจากสินทรัพย์ประเภทอื่น",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "ฟอร์ตวอชิงตัน รัฐเพนซิลเวเนีย, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Coventry ผู้นำและผู้ริเริ่มตลาดรองสำหรับประกันชีวิต และผู้บุกเบิกประเภทสินทรัพย์ที่มีประกันชีวิตค้ำประกัน วันนี้ประกาศความสำเร็จในการดำเนินธุรกรรมแปลงสินทรัพย์เป็นหลักทรัพย์ที่มีสินทรัพย์ค้ำประกัน (asset-backed securitization) ครั้งที่สี่ภายใต้โครงการ LILY นับตั้งแต่เดือนเมษายน 2025 ส่งผลให้ยอดรวมการจัดหาเงินทุนที่มีประกันชีวิตค้ำประกันทั่วทั้งแพลตฟอร์มมีมูลค่าถึง 1 พันล้านดอลลาร์สหรัฐฯ ความสำเร็จนี้ตอกย้ำสถานะของ Coventry ในฐานะแพลตฟอร์มชั้นนำสำหรับนักลงทุนสถาบันที่มองหาการลงทุนในสินทรัพย์ที่เชื่อมโยงกับอายุขัย ซึ่งมีลักษณะแตกต่างจากสินทรัพย์ประเภทอื่น"
+  },
+  {
+    "title": "Sigenergy Melancarkan “SigenStor NEO” di Thailand, Memperkenalkan Penyelesaian Tenaga Pintar Serba Lengkap Baharu",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352930/0/ms/sigenergy-melancarkan-sigenstor-neo-di-thailand-memperkenalkan-penyelesaian-tenaga-pintar-serba-lengkap-baharu.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:18:00+00:00",
+    "raw_text": "BANGKOK, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Sigenergy terus memperluas perniagaan penyelesaian tenaga pintarnya di Thailand dengan pelancaran rasmi “Unfold the New Era of Energy Intelligence: SigenStor NEO” di Capella Bangkok. Majlis tersebut menandakan pengenalan rasmi SigenStor NEO, penyelesaian tenaga pintar serba lengkap terkini daripada Sigenergy, ke pasaran Thailand. Syarikat turut mengumumkan harga rasmi produk serta memperlihatkan keupayaan sistem dalam pengurusan tenaga bersepadu dan pintar kepada lebih daripada 600 hadirin.",
+    "categories": [
+      "Networks"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "cyber"
+      "Networks": [
+        "lan"
       ]
     },
-    "summary": "Low-skill hacktivists are now 'enabled with the same tooling and sophistication as a state-sponsored group,' according to cybersecurity consultant Unit 42."
+    "summary": "BANGKOK, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Sigenergy terus memperluas perniagaan penyelesaian tenaga pintarnya di Thailand dengan pelancaran rasmi “Unfold the New Era of Energy Intelligence: SigenStor NEO” di Capella Bangkok. Majlis tersebut menandakan pengenalan rasmi SigenStor NEO, penyelesaian tenaga pintar serba lengkap terkini daripada Sigenergy, ke pasaran Thailand. Syarikat turut mengumumkan harga rasmi produk serta memperlihatkan keupayaan sistem dalam pengurusan tenaga bersepadu dan pintar kepada lebih daripada 600 hadirin."
   },
   {
-    "title": "Sony's new Bravia 6 OLED TV aims to bring flagship visuals to the $1,300 price point",
-    "url": "https://www.zdnet.com/article/everything-you-need-to-know-about-the-new-sony-bravia-6-oled-tv/",
-    "source": "ZDNet",
-    "published": "2026-08-27T16:00:42+00:00",
-    "raw_text": "The Bravia 6 OLED TV is a new entry-level option in a variety of screen sizes.",
+    "title": "Sigenergy เปิดตัว \"SigenStor NEO\" ในประเทศไทย นำเสนอโซลูชันพลังงานอัจฉริยะแบบครบวงจรรุ่นใหม่",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352930/0/th/sigenergy-%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7-sigenstor-neo-%E0%B9%83%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%99%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B9%82%E0%B8%8B%E0%B8%A5%E0%B8%B9%E0%B8%8A%E0%B8%B1%E0%B8%99%E0%B8%9E%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B1%E0%B8%88%E0%B8%89%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B8%B0%E0%B9%81%E0%B8%9A%E0%B8%9A%E0%B8%84%E0%B8%A3%E0%B8%9A%E0%B8%A7%E0%B8%87%E0%B8%88%E0%B8%A3%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%99%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:18:00+00:00",
+    "raw_text": "กรุงเทพฯ, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Sigenergy เดินหน้าขยายธุรกิจโซลูชันพลังงานอัจฉริยะในประเทศไทย ด้วยการเปิดตัวอย่างเป็นทางการภายใต้ชื่องาน \"Unfold the New Era of Energy Intelligence: SigenStor NEO\" ณ Capella Bangkok งานครั้งนี้ถือเป็นการเปิดตัว SigenStor NEO โซลูชันพลังงานอัจฉริยะแบบครบวงจรรุ่นล่าสุดของ Sigenergy อย่างเป็นทางการในตลาดไทย นอกจากนี้ บริษัทยังประกาศราคาผลิตภัณฑ์อย่างเป็นทางการ และจัดแสดงขีดความสามารถของระบบด้านการจัดการพลังงานอัจฉริยะต่อผู้เข้าร่วมงานกว่า 600 คน",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "The Bravia 6 OLED TV is a new entry-level option in a variety of screen sizes."
+    "summary": "กรุงเทพฯ, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Sigenergy เดินหน้าขยายธุรกิจโซลูชันพลังงานอัจฉริยะในประเทศไทย ด้วยการเปิดตัวอย่างเป็นทางการภายใต้ชื่องาน \"Unfold the New Era of Energy Intelligence: SigenStor NEO\" ณ Capella Bangkok งานครั้งนี้ถือเป็นการเปิดตัว SigenStor NEO โซลูชันพลังงานอัจฉริยะแบบครบวงจรรุ่นล่าสุดของ Sigenergy อย่างเป็นทางการในตลาดไทย นอกจากนี้ บริษัทยังประกาศราคาผลิตภัณฑ์อย่างเป็นทางการ และจัดแสดงขีดความสามารถของระบบด้านการจัดการพลังงานอัจฉริยะต่อผู้เข้าร่วมงานกว่า 600 คน"
   },
   {
-    "title": "The best early Labor Day 2026 TV deals: Samsung, LG, and more",
-    "url": "https://www.zdnet.com/article/best-early-labor-day-tv-deals-2026/",
-    "source": "ZDNet",
-    "published": "2026-08-27T15:57:00+00:00",
-    "raw_text": "Labor Day may still be a couple weeks away, but you can already find steep deals on top TVs from Samsung, Sony, and more - just in time for pre-season football.",
+    "title": "Sigenergy ra mắt \"SigenStor NEO\" tại Thái Lan, Giới thiệu giải pháp năng lượng thông minh tích hợp mới",
+    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352930/0/vi/sigenergy-ra-m%E1%BA%AFt-sigenstor-neo-t%E1%BA%A1i-th%C3%A1i-lan-gi%E1%BB%9Bi-thi%E1%BB%87u-gi%E1%BA%A3i-ph%C3%A1p-n%C4%83ng-l%C6%B0%E1%BB%A3ng-th%C3%B4ng-minh-t%C3%ADch-h%E1%BB%A3p-m%E1%BB%9Bi.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-08-29T13:18:00+00:00",
+    "raw_text": "BANGKOK, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Sigenergy tiếp tục mở rộng hoạt động kinh doanh giải pháp năng lượng thông minh tại Thái Lan với sự kiện ra mắt chính thức \"Mở ra kỷ nguyên mới của trí tuệ năng lượng: SigenStor NEO\" tại Capella Bangkok. Sự kiện đánh dấu màn ra mắt chính thức của SigenStor NEO, giải pháp năng lượng thông minh toàn diện mới nhất của Sigenergy tại thị trường Thái Lan. Công ty cũng công bố giá bán chính thức của sản phẩm và giới thiệu khả năng quản lý năng lượng thông minh của hệ thống tới hơn 600 người tham dự.",
     "categories": [
-      "Uncategorised"
+      "Networks"
     ],
-    "matched_keywords": {},
-    "summary": "Labor Day may still be a couple weeks away, but you can already find steep deals on top TVs from Samsung, Sony, and more - just in time for pre-season football."
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "BANGKOK, Aug. 29, 2026 (GLOBE NEWSWIRE) -- Sigenergy tiếp tục mở rộng hoạt động kinh doanh giải pháp năng lượng thông minh tại Thái Lan với sự kiện ra mắt chính thức \"Mở ra kỷ nguyên mới của trí tuệ năng lượng: SigenStor NEO\" tại Capella Bangkok. Sự kiện đánh dấu màn ra mắt chính thức của SigenStor NEO, giải pháp năng lượng thông minh toàn diện mới nhất của Sigenergy tại thị trường Thái Lan. Công ty cũng công bố giá bán chính thức của sản phẩm và giới thiệu khả năng quản lý năng lượng thông minh của hệ thống tới hơn 600 người tham dự."
   },
   {
     "title": "₹500/Month Wardrobe Rentals Launched by Rentomojo in Hyderabad, Mumbai and Pune - ₹30,000 Wardrobe Ownership Costs Push Households Toward Monthly Rental Plans in 2026",
@@ -2906,301 +2563,5 @@
     ],
     "matched_keywords": {},
     "summary": "360in360 Living Memories Adds Audiobook and Voice-Preservation Capability"
-  },
-  {
-    "title": "XcanMow Mix 2000 Robot Mower Makes Its European Debut at IFA Berlin 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352921/0/en/xcanmow-mix-2000-robot-mower-makes-its-european-debut-at-ifa-berlin-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-29T03:58:00+00:00",
-    "raw_text": "XcanMow Mix 2000 Robot Mower Makes Its European Debut at IFA Berlin 2026",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "XcanMow Mix 2000 Robot Mower Makes Its European Debut at IFA Berlin 2026"
-  },
-  {
-    "title": "JETOUR T2 Takes on the Brazilian Wilderness in a Real-World Off-Road Test",
-    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352920/0/en/jetour-t2-takes-on-the-brazilian-wilderness-in-a-real-world-off-road-test.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-29T03:15:00+00:00",
-    "raw_text": "New presenter Chloe put the Chinese-built 4×4 JETOUR T2 through real-world off-road testing deep in the Brazilian wilderness.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "New presenter Chloe put the Chinese-built 4×4 JETOUR T2 through real-world off-road testing deep in the Brazilian wilderness."
-  },
-  {
-    "title": "Chumba Casino Announces $100 Free Play Welcome Offer for New Registrants",
-    "url": "https://www.globenewswire.com/news-release/2026/08/29/3352915/0/en/chumba-casino-announces-100-free-play-welcome-offer-for-new-registrants.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-29T01:43:00+00:00",
-    "raw_text": "Chumba Casino details its new-player welcome offer, eligibility, registration, Sweeps Coin participation and responsible-play terms for 2026.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Chumba Casino details its new-player welcome offer, eligibility, registration, Sweeps Coin participation and responsible-play terms for 2026."
-  },
-  {
-    "title": "Gravity Mixer Market Size to Reach USD 2.30 Billion by 2033, Growing at 7.3% CAGR as Energy-Efficient Bulk Solids Mixing Drives Global Industrial and Chemical Processing Demand - Verified Market Research",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352906/0/en/gravity-mixer-market-size-to-reach-usd-2-30-billion-by-2033-growing-at-7-3-cagr-as-energy-efficient-bulk-solids-mixing-drives-global-industrial-and-chemical-processing-demand-verif.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T21:45:00+00:00",
-    "raw_text": "The Gravity Mixer Market is expanding steadily as industrial and chemical processing facilities prioritize batch-to-batch consistency, energy-efficient operating economics, and compliance-ready equipment design. Verified Market Research® finds that demand for gravity mixing systems is shifting from generic mixing procurement toward specification-led buying built around process repeatability, automation readiness, and lifecycle service support. North America currently leads the Global Gravity Mixer Market with an estimated 35% share, while Asia Pacific presents the fastest-growing regional opportunity through the forecast period. This press release outlines the Gravity Mixer Market Size, Gravity Mixer Market Growth trajectory, segmentation, competitive landscape, and regional outlook through 2033. The Gravity Mixer Market is expanding steadily as industrial and chemical processing facilities prioritize batch-to-batch consistency, energy-efficient operating economics, and compliance-ready equipment design. Verified Market Research® finds that demand for gravity mixing systems is shifting from generic mixing procurement toward specification-led buying built around process repeatability, automation readiness, and lifecycle service support. North America currently leads the Global Gravity Mixer Market with an estimated 35% share, while Asia Pacific presents the fastest-growing regional opportunity through the forecast period. This press release outlines the Gravity Mixer Market Size, Gravity Mixer Market Growth trajectory, segmentation, competitive landscape, and regional outlook through 2033.",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "compliance"
-      ]
-    },
-    "summary": "The Gravity Mixer Market is expanding steadily as industrial and chemical processing facilities prioritize batch-to-batch consistency, energy-efficient operating economics, and compliance-ready equipment design. Verified Market Research® finds that demand for gravity mixing systems is shifting from generic mixing procurement toward specification-led buying built around process repeatability, automation readiness, and lifecycle service support. North America currently leads the Global Gravity Mixer Market with an estimated 35% share, while Asia Pacific presents the fastest-growing regional opportunity through the forecast period. This press release outlines the Gravity Mixer Market Size, Gravity Mixer Market Growth trajectory, segmentation, competitive landscape, and regional outlook through 2033."
-  },
-  {
-    "title": "Xenon Pharmaceuticals Reports Inducement Grants Under Nasdaq Listing Rule 5635(c)(4)",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352881/33485/en/xenon-pharmaceuticals-reports-inducement-grants-under-nasdaq-listing-rule-5635-c-4.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T20:01:00+00:00",
-    "raw_text": "VANCOUVER, BC and BOSTON, MA, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Xenon Pharmaceuticals Inc. (Nasdaq: XENE), a neuroscience-focused biopharmaceutical company dedicated to drug discovery, clinical development, and commercialization of life-changing therapeutics for patients in need, today announced equity inducement grants to five new non-officer employees consisting of an aggregate of 13,450 share options and 7,850 restricted share units (RSUs). All of the foregoing share options and RSUs were approved by the Compensation Committee of the Company’s Board of Directors with an effective date of August 27, 2026 and were granted as inducements material to the employees entering into employment with the Company in accordance with Nasdaq Listing Rule 5635(c)(4).",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "VANCOUVER, BC and BOSTON, MA, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Xenon Pharmaceuticals Inc. (Nasdaq: XENE), a neuroscience-focused biopharmaceutical company dedicated to drug discovery, clinical development, and commercialization of life-changing therapeutics for patients in need, today announced equity inducement grants to five new non-officer employees consisting of an aggregate of 13,450 share options and 7,850 restricted share units (RSUs). All of the foregoing share options and RSUs were approved by the Compensation Committee of the Company’s Board of Directors with an effective date of August 27, 2026 and were granted as inducements material to the employees entering into employment with the Company in accordance with Nasdaq Listing Rule 5635(c)(4)."
-  },
-  {
-    "title": "Water Purifier Rental From Rentomojo - RO, UV and Alkaline Systems See Growing Demand in Major Indian Cities in 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352872/0/en/water-purifier-rental-from-rentomojo-ro-uv-and-alkaline-systems-see-growing-demand-in-major-indian-cities-in-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T19:18:00+00:00",
-    "raw_text": "Water Purifier Rentals Across Six Indian Metros Move to ₹391/Month RO Plans in 2026 as ₹12,544 Ownership Costs and Recurring AMC Reset Household Water Budgets on Platforms Like Rentomojo. Dissolved-solids levels ranging from 80 ppm in Mumbai to 1,500 ppm in parts of Chennai are pushing households toward technology-matched plans, with non-RO options from ₹292 a month in low-reading localities. Water Purifier Rentals Across Six Indian Metros Move to ₹391/Month RO Plans in 2026 as ₹12,544 Ownership Costs and Recurring AMC Reset Household Water Budgets on Platforms Like Rentomojo. Dissolved-solids levels ranging from 80 ppm in Mumbai to 1,500 ppm in parts of Chennai are pushing households toward technology-matched plans, with non-RO options from ₹292 a month in low-reading localities.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Water Purifier Rentals Across Six Indian Metros Move to ₹391/Month RO Plans in 2026 as ₹12,544 Ownership Costs and Recurring AMC Reset Household Water Budgets on Platforms Like Rentomojo. Dissolved-solids levels ranging from 80 ppm in Mumbai to 1,500 ppm in parts of Chennai are pushing households toward technology-matched plans, with non-RO options from ₹292 a month in low-reading localities. Water Purifier Rentals Across Six Indian Metros Move to ₹391/Month RO Plans in 2026 as ₹12,544 Ownership Costs and Recurring AMC Reset Household Water Budgets on Platforms Like Rentomojo. Dissolved-solids levels ranging from 80 ppm in Mumbai to 1,500 ppm in parts of Chennai are pushing households toward technology-matched plans, with non-RO options from ₹292 a month in low-reading localities."
-  },
-  {
-    "title": "New Crypto: Pepeto Announces $10.74M Raised After Shiba Inu's Success And Ethereum Price Prediction Hits $25,000",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352865/0/en/new-crypto-pepeto-announces-10-74m-raised-after-shiba-inu-s-success-and-ethereum-price-prediction-hits-25-000.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T19:01:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, Aug. 28, 2026 (GLOBE NEWSWIRE) -- New crypto Pepeto has officially announced its presale crossed $10.74 million, filling quicker than anything this cycle, with more than 40,000 buyers already in. Millions never rush into a presale by accident. Smart buyers saw something early, and they return daily with bigger entries, many talking about a 30x once it lists. A whisper races through every crypto community: Elon Musk picked his next big meme project, named Pepeto, a story Shiba Inu made believable. One question for every reader: what do they know that you do not? The answer sits below, and skipping it may cost far more than reading it.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces",
-        "ey"
-      ]
-    },
-    "summary": "DUBAI, United Arab Emirates, Aug. 28, 2026 (GLOBE NEWSWIRE) -- New crypto Pepeto has officially announced its presale crossed $10.74 million, filling quicker than anything this cycle, with more than 40,000 buyers already in. Millions never rush into a presale by accident. Smart buyers saw something early, and they return daily with bigger entries, many talking about a 30x once it lists."
-  },
-  {
-    "title": "From Chiropractor to Creative Developer: Dr. Lauren Papa DC Launches Art Deco Freak to Revolutionize Historic Homes",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352863/0/en/from-chiropractor-to-creative-developer-dr-lauren-papa-dc-launches-art-deco-freak-to-revolutionize-historic-homes.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T18:51:00+00:00",
-    "raw_text": "LOS ANGELES and PITTSBURGH, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Most people visit a chiropractor to realign their spine, but Dr. Lauren Papa, DC is taking the concept of structural alignment to an entirely new industry. Today, Dr. Papa DC announces the official launch of Art Deco Freak , a boutique residential redevelopment firm bridging the gap between high-end architectural design and disciplined real estate investment.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches",
-        "announces",
-        "investment"
-      ]
-    },
-    "summary": "LOS ANGELES and PITTSBURGH, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Most people visit a chiropractor to realign their spine, but Dr. Lauren Papa, DC is taking the concept of structural alignment to an entirely new industry. Today, Dr."
-  },
-  {
-    "title": "Republic Claims Associates Celebrates More Than 35 Years Representing Property Owners in Major Insurance Claims, Strengthening Its Reputation as the Best Public Insurance Adjuster in Staten Island",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352862/0/en/republic-claims-associates-celebrates-more-than-35-years-representing-property-owners-in-major-insurance-claims-strengthening-its-reputation-as-the-best-public-insurance-adjuster-i.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T18:50:00+00:00",
-    "raw_text": "Staten Island-based public insurance adjusting firm continues expanding while representing residential, commercial, institutional and nonprofit policyholders in complex property damage claims. Staten Island-based public insurance adjusting firm continues expanding while representing residential, commercial, institutional and nonprofit policyholders in complex property damage claims.",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "policy"
-      ]
-    },
-    "summary": "Staten Island-based public insurance adjusting firm continues expanding while representing residential, commercial, institutional and nonprofit policyholders in complex property damage claims. Staten Island-based public insurance adjusting firm continues expanding while representing residential, commercial, institutional and nonprofit policyholders in complex property damage claims."
-  },
-  {
-    "title": "Dr. Wade Banker Scholarship for Medical Students Announces One-Time Academic Funding Opportunity for Future Physicians",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352861/0/en/dr-wade-banker-scholarship-for-medical-students-announces-one-time-academic-funding-opportunity-for-future-physicians.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T18:43:00+00:00",
-    "raw_text": "TOLEDO, Ohio, Aug. 28, 2026 (GLOBE NEWSWIRE) -- The Dr. Wade Banker Scholarship for Medical Students officially launches to support undergraduate students pursuing rigorous pre-medical education across the United States. This one-time academic award seeks to alleviate the hidden financial barriers associated with medical school preparation, allowing dedicated students to focus entirely on their professional development and future roles in healthcare.",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "launches",
-        "announces",
-        "funding"
-      ]
-    },
-    "summary": "TOLEDO, Ohio, Aug. 28, 2026 (GLOBE NEWSWIRE) -- The Dr. Wade Banker Scholarship for Medical Students officially launches to support undergraduate students pursuing rigorous pre-medical education across the United States. This one-time academic award seeks to alleviate the hidden financial barriers associated with medical school preparation, allowing dedicated students to focus entirely on their professional development and future roles in healthcare."
-  },
-  {
-    "title": "Stuart Piltch Scholarship Launches National Initiative for Next-Generation Student Entrepreneurs",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352850/0/en/stuart-piltch-scholarship-launches-national-initiative-for-next-generation-student-entrepreneurs.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T18:20:00+00:00",
-    "raw_text": "NEW YORK, Aug. 28, 2026 (GLOBE NEWSWIRE) -- The Stuart Piltch Scholarship officially announces its national initiative designed to identify, support, and elevate innovative student leaders across the United States. Established by prominent entrepreneur and philanthropist Stuart Piltch , the program offers direct financial support, national recognition, and connection to a broader network of forward-thinking peers for undergraduate and prospective college students dedicated to building impact-driven ventures.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Industry & Market": [
-        "launches",
-        "announces"
-      ]
-    },
-    "summary": "NEW YORK, Aug. 28, 2026 (GLOBE NEWSWIRE) -- The Stuart Piltch Scholarship officially announces its national initiative designed to identify, support, and elevate innovative student leaders across the United States. Established by prominent entrepreneur and philanthropist Stuart Piltch , the program offers direct financial support, national recognition, and connection to a broader network of forward-thinking peers for undergraduate and prospective college students dedicated to building impact-driven ventures."
-  },
-  {
-    "title": "Xanadu Secures CAD $195 Million and Establishes Landmark Advanced Photonics Facility",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352847/0/en/xanadu-secures-cad-195-million-and-establishes-landmark-advanced-photonics-facility.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T18:04:00+00:00",
-    "raw_text": "TORONTO, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Xanadu Quantum Technologies Limited (\" Xanadu \"; NASDAQ/TSX: XNDU), a leading photonic quantum computing company, announced today that it will establish a landmark advanced photonics research, development, and manufacturing facility as part of Project OPTIMISM, supported by CAD $195 million in federal government funding also announced today. The new facility, named \"Inception,\" is expected to feature world-class technology to enable scalable production of the components that will power future quantum data centres. We believe this work will revolutionize quantum infrastructure and strengthen Canada's position as a global leader in the field.",
-    "categories": [
-      "Networks",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "data centre"
-      ],
-      "Industry & Market": [
-        "funding"
-      ]
-    },
-    "summary": "TORONTO, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Xanadu Quantum Technologies Limited (\" Xanadu \"; NASDAQ/TSX: XNDU), a leading photonic quantum computing company, announced today that it will establish a landmark advanced photonics research, development, and manufacturing facility as part of Project OPTIMISM, supported by CAD $195 million in federal government funding also announced today. The new facility, named \"Inception,\" is expected to feature world-class technology to enable scalable production of the components that will power future quantum data centres. We believe this work will revolutionize quantum infrastructure and strengthen Canada's position as a global leader in the field."
-  },
-  {
-    "title": "Pattern Computer Resonance Theory Working Group Publishes Foundational Physics Papers Introducing Wave-Structure Framework",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352836/0/en/pattern-computer-resonance-theory-working-group-publishes-foundational-physics-papers-introducing-wave-structure-framework.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T17:33:00+00:00",
-    "raw_text": "REDMOND, Wash., Aug. 28, 2026 (GLOBE NEWSWIRE) -- Pattern Computer®, Inc. (“Pattern” or “the Company”), the global leader in Pattern Discovery, today announced the publication of two foundational physics papers by the Resonance Theory Working Group (“RTWG”). First revealed by Pattern Chair and CEO Mark R. Anderson at the 22nd Annual Future in Review Conference (FiRe 2026), the papers introduce a wave-structure framework for Resonance Theory (“RT”), proposing that the laws of physics derive directly from the properties of space itself and scale consistently from the smallest to the largest dimensions. By advancing a bottom-up understanding of the universe, RT could ultimately transform how goods are manufactured and how humanity interacts with the physical world.",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "REDMOND, Wash., Aug. 28, 2026 (GLOBE NEWSWIRE) -- Pattern Computer®, Inc. (“Pattern” or “the Company”), the global leader in Pattern Discovery, today announced the publication of two foundational physics papers by the Resonance Theory Working Group (“RTWG”). First revealed by Pattern Chair and CEO Mark R."
-  },
-  {
-    "title": "Tenneco Industrial présentera ses technologies de pointe pour les applications marines et les moteurs de forte cylindrée au salon SMM 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352833/0/fr/tenneco-industrial-pr%C3%A9sentera-ses-technologies-de-pointe-pour-les-applications-marines-et-les-moteurs-de-forte-cylindr%C3%A9e-au-salon-smm-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T17:25:00+00:00",
-    "raw_text": "1er–4 septembre 2026 | Hall A3, stand 205 1er–4 septembre 2026 | Hall A3, stand 205",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "1er–4 septembre 2026 | Hall A3, stand 205 1er–4 septembre 2026 | Hall A3, stand 205"
-  },
-  {
-    "title": "Tenneco Industrial präsentiert auf der SMM 2026 fortschrittliche Technologien für Schifffahrts- und Großmotoren",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352833/0/de/tenneco-industrial-pr%C3%A4sentiert-auf-der-smm-2026-fortschrittliche-technologien-f%C3%BCr-schifffahrts-und-gro%C3%9Fmotoren.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T17:25:00+00:00",
-    "raw_text": "1. bis 4. September 2026 | Halle A3, Stand 205 1. bis 4. September 2026 | Halle A3, Stand 205",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "1. bis 4. September 2026 | Halle A3, Stand 205 1. bis 4."
-  },
-  {
-    "title": "EHang EH216-S Completes First Public Flight in Hong Kong, Advancing \"Regulatory Sandbox X\" Project with HKSAR Government",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352829/0/en/ehang-eh216-s-completes-first-public-flight-in-hong-kong-advancing-regulatory-sandbox-x-project-with-hksar-government.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T17:08:00+00:00",
-    "raw_text": "HONG KONG, Aug. 28, 2026 (GLOBE NEWSWIRE) -- EHang Holdings Limited (\"EHang\" or the \"Company\") (Nasdaq: EH), the world’s leading advanced air mobility (“AAM”) technology platform company, today announced that its proprietary EH216-S, a pilotless human-carrying electric vertical take-off and landing (eVTOL) aircraft, has successfully completed its first public flight at Hong Kong Cyberport. The flight marked the first public demonstration since the first phase of validation flights began in mid-August under the HKSAR Government’s Low-Altitude Economy “Regulatory Sandbox X” Trial Project (the “Project”). It also represents a significant milestone in the development of a three-dimensional low-altitude transportation network and the validation of regular operations across the Guangdong-Hong Kong-Macao Greater Bay Area.",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "cyber"
-      ],
-      "GRC": [
-        "regulatory"
-      ]
-    },
-    "summary": "HONG KONG, Aug. 28, 2026 (GLOBE NEWSWIRE) -- EHang Holdings Limited (\"EHang\" or the \"Company\") (Nasdaq: EH), the world’s leading advanced air mobility (“AAM”) technology platform company, today announced that its proprietary EH216-S, a pilotless human-carrying electric vertical take-off and landing (eVTOL) aircraft, has successfully completed its first public flight at Hong Kong Cyberport. The flight marked the first public demonstration since the first phase of validation flights began in mid-August under the HKSAR Government’s Low-Altitude Economy “Regulatory Sandbox X” Trial Project (the “Project”). It also represents a significant milestone in the development of a three-dimensional low-altitude transportation network and the validation of regular operations across the Guangdong-Hong Kong-Macao Greater Bay Area."
-  },
-  {
-    "title": "Andrew Cardno, Dr. Ralph Thomas, Dr. A.K. Singh, and Hanna McCall Release Book 16 of The Math That Gaming Made — Compendium",
-    "url": "https://www.globenewswire.com/news-release/2026/08/28/3352827/0/en/andrew-cardno-dr-ralph-thomas-dr-a-k-singh-and-hanna-mccall-release-book-16-of-the-math-that-gaming-made-compendium.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-08-28T17:07:00+00:00",
-    "raw_text": "SAN DIEGO, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Andrew Cardno, Dr. Ralph Thomas, Dr. A.K. Singh, and Hanna McCall today announced the release of Book 16 of The Math That Gaming Made — Compendium, Full-Color Edition, which distills the science of casino analytics into one essential guide for every role on the gaming floor.",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "colo"
-      ]
-    },
-    "summary": "SAN DIEGO, Aug. 28, 2026 (GLOBE NEWSWIRE) -- Andrew Cardno, Dr. Ralph Thomas, Dr. A.K."
   }
 ]
