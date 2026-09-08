@@ -1,5 +1,26 @@
 [
   {
+    "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+    "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+    "source": "The Hacker News",
+    "published": "2026-09-08T07:00:43+00:00",
+    "raw_text": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K. privacy laws by sharing sensitive data for commercial purposes such as advertising.",
+    "categories": [
+      "GRC",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "GRC": [
+        "privacy law",
+        "privacy"
+      ]
+    },
+    "summary": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K. privacy laws by sharing sensitive data for commercial purposes such as advertising."
+  },
+  {
     "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
     "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
     "source": "The Hacker News",
@@ -181,21 +202,20 @@
     "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, according to CERT Polska's attack warning, published on September 5. Successful attacks date to at least September 2. The Hacker News’s September 6 review of the warning found no victim count or"
   },
   {
-    "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-    "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
-    "source": "The Hacker News",
-    "published": "2026-09-06T08:34:20+00:00",
-    "raw_text": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager, WinUpdate, SoftManager, and",
+    "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
+    "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+    "source": "BleepingComputer",
+    "published": "2026-09-08T07:35:50+00:00",
+    "raw_text": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers accessed the Vietnam-linked system through a cloud-based path using default credentials. [...]",
     "categories": [
-      "Cybersecurity"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "soc"
+      "Cloud Infrastructure": [
+        "cloud"
       ]
     },
-    "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager, WinUpdate, SoftManager, and"
+    "summary": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers accessed the Vietnam-linked system through a cloud-based path using default credentials. [...]"
   },
   {
     "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
@@ -361,6 +381,52 @@
       ]
     },
     "summary": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]"
+  },
+  {
+    "title": "Mathspace breach exposes data on over a million students and parents",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/mathspace-data-breach-metabase-vulnerability/",
+    "source": "Help Net Security",
+    "published": "2026-09-08T08:45:59+00:00",
+    "raw_text": "Mathspace has confirmed that attackers broke into its internal reporting system through an unpatched Metabase vulnerability and stole data belonging to more than a million students, parents, and school staff. The Sydney-based maths education company wrote in a blog post that the vulnerability, in its self-hosted installation of Metabase, allowed attackers to obtain administrator access to the system without a legitimate login. Metabase is a business intelligence tool used to connect to and explore company … More → The post Mathspace breach exposes data on over a million students and parents appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "security"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Mathspace has confirmed that attackers broke into its internal reporting system through an unpatched Metabase vulnerability and stole data belonging to more than a million students, parents, and school staff. The Sydney-based maths education company wrote in a blog post that the vulnerability, in its self-hosted installation of Metabase, allowed attackers to obtain administrator access to the system without a legitimate login. Metabase is a business intelligence tool used to connect to and explore company … More → The post Mathspace breach exposes data on over a million students and parents appeared first on Help Net Security ."
+  },
+  {
+    "title": "Jellyfin 12.0 security fixes arrive alongside the removal of legacy client logins",
+    "url": "https://www.helpnetsecurity.com/2026/09/08/jellyfin-12-0-security-fixes/",
+    "source": "Help Net Security",
+    "published": "2026-09-08T08:41:53+00:00",
+    "raw_text": "Jellyfin shipped version 12.0 of its media server. Several of the security fixes in it block requests built to reach files outside the folders the server is supposed to hand out. The rest of the security work touches first-run setup, plugin installs, parental controls, and the web interface. On a misconfigured server, someone who had not signed in could get the setup wizard, the first-run pages that create the administrator account and point Jellyfin at … More → The post Jellyfin 12.0 security fixes arrive alongside the removal of legacy client logins appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "Jellyfin shipped version 12.0 of its media server. Several of the security fixes in it block requests built to reach files outside the folders the server is supposed to hand out. The rest of the security work touches first-run setup, plugin installs, parental controls, and the web interface. On a misconfigured server, someone who had not signed in could get the setup wizard, the first-run pages that create the administrator account and point Jellyfin at … More → The post Jellyfin 12.0 security fixes arrive alongside the removal of legacy client logins appeared first on Help Net Security ."
   },
   {
     "title": "Ransomware negotiation tactics have turned into a business process",
@@ -558,49 +624,6 @@
       ]
     },
     "summary": "OpenAI has announced that it has reached a goal set last fall of having an automated research intern by September 2026. The milestone means a system can carry out well-defined research tasks under human direction, including work that would take a skilled researcher several days. The company is also working toward creating an automated AI researcher by March 2028. All categories of research activity have increased since the start of the year (Source: OpenAI) “Transparency … More → The post OpenAI just hit a milestone on the road to self-improving AI appeared first on Help Net Security ."
-  },
-  {
-    "title": "ToolHive: The open-source way to run any MCP server securely",
-    "url": "https://www.helpnetsecurity.com/2026/09/07/toolhive-open-source-mcp-server-security/",
-    "source": "Help Net Security",
-    "published": "2026-09-07T05:30:26+00:00",
-    "raw_text": "ToolHive is an open-source platform that runs Model Context Protocol servers inside containers. An MCP server is the connector that lets an AI client like Cursor or Claude Code reach an outside tool, and Stacklok ships ToolHive under Apache 2.0, so the runtime, the Kubernetes operator, and the registry cost nothing to self-host. A server you install by hand sits on the machine with the machine’s credentials and the machine’s network access. ToolHive drops each … More → The post ToolHive: The open-source way to run any MCP server securely appeared first on Help Net Security .",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "kubernetes",
-        "containers"
-      ],
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "ToolHive is an open-source platform that runs Model Context Protocol servers inside containers. An MCP server is the connector that lets an AI client like Cursor or Claude Code reach an outside tool, and Stacklok ships ToolHive under Apache 2.0, so the runtime, the Kubernetes operator, and the registry cost nothing to self-host. A server you install by hand sits on the machine with the machine’s credentials and the machine’s network access. ToolHive drops each … More → The post ToolHive: The open-source way to run any MCP server securely appeared first on Help Net Security ."
-  },
-  {
-    "title": "Zero trust AI agents demand a different kind of security",
-    "url": "https://www.helpnetsecurity.com/2026/09/07/chris-webber-teleport-zero-trust-ai-agents/",
-    "source": "Help Net Security",
-    "published": "2026-09-07T05:00:25+00:00",
-    "raw_text": "In this interview, Chris Webber, VP, Product Marketing at Teleport, explains why zero trust principles need to change for AI agents. He covers how agents act fast, unpredictably, and continuously, and why old ideas like least privilege and point-in-time verification fall short. Webber also discusses Teleport’s approach: trusted runtimes with zero starting privileges, and identity security that watches agent behavior in real time. He argues that security teams must move from spotting anomalies after the … More → The post Zero trust AI agents demand a different kind of security appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "identity security",
-        "zero trust"
-      ]
-    },
-    "summary": "In this interview, Chris Webber, VP, Product Marketing at Teleport, explains why zero trust principles need to change for AI agents. He covers how agents act fast, unpredictably, and continuously, and why old ideas like least privilege and point-in-time verification fall short. Webber also discusses Teleport’s approach: trusted runtimes with zero starting privileges, and identity security that watches agent behavior in real time. He argues that security teams must move from spotting anomalies after the … More → The post Zero trust AI agents demand a different kind of security appeared first on Help Net Security ."
   },
   {
     "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
@@ -851,6 +874,58 @@
     "summary": "Last week, Claude Fable 5.1 became available on AWS. According to Anthropic, Claude Fable 5.1 delivers frontier intelligence for ambitious tasks across coding, scientific research, and enterprise workflows. Claude Fable 5.1 is built for long-running, high-stakes work that runs for hours and spans many applications. It can own more of a software project on its […]"
   },
   {
+    "title": "Securing AI agents: Key controls and best practices",
+    "url": "https://www.csoonline.com/article/4218440/securing-ai-agents-key-controls-and-best-practices.html",
+    "source": "CSO Online",
+    "published": "2026-09-08T08:25:00+00:00",
+    "raw_text": "Enterprises increasingly give AI agents the credentials, tools, and network access of privileged employees, but security experts warn that existing security controls designed to govern human access are insufficient. An AI agent operates at inhuman speed, can chain allowed actions into unauthorized outcomes, and can spawn additional sub-agents to help, turning one unwitting employee’s access into a team of rogue insiders before security teams can detect and block them. It’s not uncommon for agents to misunderstand ambiguous goals; follow malicious instructions from documents, code repositories, and web pages ; or act based on incorrect output from third-party tools. In a series of recent incidents both frontier and open-weight AI models went rogue during testing and exploited vulnerabilities to escape their sandboxed environments, tried to manipulate developers of open-source projects, or hacked into third-party systems. The closest threat model the security industry has for misaligned AI agents are rogue employees , but enterprises already struggle to contain the potential blast radius of malicious insiders, and AI agents add machine speed, autonomy, and specialized expertise to that threat. “We spent twenty years building identity management for people: usernames, passwords, role-based access,” says Justin Beals, CEO of governance, risk, and compliance company Strike Graph. “None of that was designed for agents that don’t get tired, don’t go home, and act on probabilities instead of rules.” “We’re so behind on building secure infrastructure, secure architectures, and containing against a potential rogue employee,” Chris Wysopal, chief security evangelist at Veracode, tells CSO. “Now you just have something doing that at machine speed, so I think it’s very dangerous. We really have to get a handle on containing and controlling these agents. We need some standards around what’s acceptable, what is due diligence, what are best practices.” In network and application telemetry, agent actions often show up as authenticated with legitimate employee credentials, originating from trusted IP addresses or using approved application programming interfaces. To build effective security policies for them, organizations need to distinguish agents from the employees whose authority they inherit. According to security experts, when an agent crosses an unauthorized boundary, security teams must be able to detect it and immediately revoke every credential, session, and process that agent launched. They also need to be able to roll back everything the rogue agent might have done. “The control has to sit outside the model, watching what it actually does, not trusting what it’s been told not to do,” Art Gilliland, CEO of identity security company Delinea, tells CSO. “If your security depends on a model choosing to behave, you don’t have control; you have hope.” Agents need hard boundaries Treating an agent as a privileged insider means restricting what it can do via technical controls that are outside of its control rather than telling it what it shouldn’t do. System prompts can reduce the likelihood of LLMs making unsafe decisions, but they are not hard blockers and agents sometimes choose not to follow them. Direct internet access should be denied by default and requests should be routed through proxies that enforce domain and operation allowlists. Read and write capabilities should be separated and high-risk actions such as deletion, privilege changes, and data exports should require explicit approval. The OWASP guidance for preventing excessive agency recommends limiting an agent’s available functions, permissions, and autonomy and enforcing authorization in downstream systems rather than allowing the AI model to determine whether an action is permitted. “I run a scope-level hook on every command-line tool call in my agentic red team harness that checks each command against an approved target list,” Jacob Krell, senior director of secure AI solutions and cybersecurity at Suzu Labs, tells CSO. “At the scope boundary, I deliberately bias toward false positives and fail-closed behavior. I would rather make a human approve an ambiguous action than let an agent decide for itself that a target is probably in scope.” Long-lived credentials should generally remain outside the agent’s sandbox, and access to configuration files should be restricted via filesystem isolation. Instead, broker applications can inject narrowly scoped, short-lived tokens when agents invoke approved tools and can validate the requested operation. In general, agents shouldn’t have access to mechanisms to grant themselves additional permissions and expand their scope. XBOW, a company that operates autonomous agents for offensive security testing, describes this type of layered enforcement in a published account of its architecture . The task’s scope is locked at launch, domains and URL paths are defined and whitelisted before they can be reached, all outbound traffic passes through an egress proxy, and every agent runs inside its own sandbox under separate OS users. The company also uses a separate guardian AI model to review proposed agent actions for compliance, score their safety, and block anything out of scope. This guardian sees only the agent’s action, not its justification and reasoning for it, so it cannot be influenced. A separate deterministic health monitoring system can shut the agent down if certain unsafe conditions are observed and all decisions and observations are recorded in per-agent audit files for later review if needed. “The right assumption is that, at some point, the agent may try to do something outside its authorized scope,” Nico Waisman, CISO at XBOW, tells CSO. “The system must be designed so that even if it does, it cannot reach or affect an external organization’s systems.” Human approval remains necessary for ambiguous and sensitive actions, but asking for approval on every step can weaken oversight. Anthropic said back in May that according to Claude Code telemetry, users approved roughly 93% of permission prompts and warned about approval fatigue, where the more approvals users see, the less attention they pay to each, becoming less diligent supervisors over time. Building deterministic controls that automatically allow safe actions and block prohibited ones leaves humans in charge of reviewing only requests that can have dangerous consequences and are hard to reverse. Monitoring must track authority Security teams also need to determine whose authority an agent is exercising and how that authority changes during a workflow, which means they need the ability to distinguish an agent from the employee who launched it. Logging must preserve the employee’s identity while also assigning a separate identity to the agent. Sub-agents and child processes should also receive their own identities that can be traced back to their parent agents, approved objectives, and human owners. “A username and password doesn’t tell you if it’s a person or an agent behind an action,” Gilliland says. “You need to know the difference between a human and an AI agent, even when they’re using the same login. More importantly, you need to watch what’s happening in real-time, after access has already been granted, with the ability to shut it off the moment behavior crosses a line.” Role-based access control and least privilege principles come into play as the agent’s distinct identity should not inherit the owner’s full privileges. Elevated access, when needed, should only be approved per task and should expire when the workflow ends. Microsoft published least-privilege guidance for agents , calling for temporary role activation and short-lived tokens as well as revalidation of the identity, roles, and scope at every hop along the path, from orchestrator to tool — and to the downstream service. Google Cloud also recently added tool and destination-level policies for agentic workflows that can distinguish between Model Context Protocol (MCP) tool names, methods, and operations. The implementation is specific to Google’s platform, but the broader principles can apply to other environments. When something goes wrong, investigators should be able to reconstruct the initiating trigger, the agent’s identity, approved objective, model version, queried tools and arguments, network requests, modified resources, and the final outcome. “Log everything, so every action traces back to the prompt and the reasoning that produced it,” says Jud Dressler, head of the risk operations center at cyber risk company Resilience. “If something goes wrong, you need to be able to why.” This becomes even more important when agents collaborate or end up fighting each other. In Anthropic’s multi-agent experiments , agents given conflicting software-migration objectives disabled accounts, killed processes, deployed disguised malicious code, and used self-replicating malware. In other cases, agents found ways to collude with each using unconventional ways even after direct communication channels were removed. Agentic workflows need kill switches Security teams must develop the conditions and mechanisms that can automatically pause an agent without human approval. Such conditions could include repeated attempts to reach unauthorized destinations on the internet, to elevate privileges, to create unexpected identities, to modify other agents, or to repeatedly invoke blocked operations. The agent shutdown needs to be followed by access token revocation, and this can be hard if the agent uses long-term API keys that are shared across multiple agents instead of temporary credentials. “Watch agents in real-time so you can stop out-of-scope actions as they happen, not find them in the logs later,” Waseem Ahmed, head of engineering at Secure.com, tells CSO. “Assume any capable agent will try to bend its limits and build guardrails and containment before it runs.” Organizations should also build automated rollback procedures for code, data, accounts, cloud resources, and configurations that their AI agents can change, and incident response exercises should include scenarios where agents misbehave. “The monitoring and scope infrastructure to keep unrestricted models inside their mandate is the engineering problem most teams haven’t started solving,” Krell says. “Cybersecurity budgets have always followed the same pattern, where boards only approve meaningful spend after an actual breach forces their hand. That reactive model was already risky. As autonomous vulnerability discovery and exploit development become broadly available, waiting for the incident to justify the investment means the incident arrives faster than the budget does.” 10 tips for keeping AI agents in check 1. Treat agents as privileged insiders: Don’t rely on system prompts and instructions. Technical controls must sit outside the agent’s control. 2. Establish hard boundaries: Ensure the following technical controls: Deny direct internet access by default; route all requests through proxies with domain and operation allowlists Separate read and write capabilities Require explicit approval for high-risk actions: deletions, privilege escalations, data exports Restrict access to configuration files via filesystem isolation Keep long-lived credentials outside the agent’s sandbox 3. Use narrowly scoped, short-lived credentials: Employ broker applications to inject temporary tokens when agents invoke approved tools rather than giving agents permanent API keys. Agents should never have the ability to grant themselves additional permissions. 4. Implement separate agent identity tracking: Preserve and log the employee’s identity while also assigning a separate identity to the agent. Track sub-agents and child processes with their own identities traceable to parent agents and human owners. 5. Apply least privilege with temporary role activation: Agents should not inherit their owner’s full privileges. Elevated access should be approved per task and should expire when the workflow ends. Revalidate identity, roles, and scope at every step along the path. 6. Deploy a guardian AI model. Use a separate AI system to review proposed agent actions, score their safety, and block anything out of scope. The guardian should see only the action itself, not the agent’s reasoning, to prevent manipulation. 7. Log everything for auditability. Record the initiating trigger, agent identity, approved objective, model version, queried tools, arguments, network requests, modified resources, and final outcome. Every action must trace back to the prompt and reasoning that produced it. 8. Set automatic kill switches. Configure conditions to automatically pause an agent without human approval, including: Repeated attempts to reach unauthorized internet destinations Attempts to elevate privileges Creation of unexpected identities Modifications to other agents Repeated invocation of blocked operations Follow any shutdown with immediate token revocation and rollback procedures. 9. Build automated rollback procedures. Establish automated rollback for code, data, accounts, cloud resources, and configurations that AI agents modify. Include agent-misbehavior scenarios in incident response exercises. 10. Monitor in real-time. Don’t wait for logs — watch agents in real-time so you can stop out-of-scope actions as they happen. Assume any capable agent will test its boundaries.",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "google cloud"
+      ],
+      "Networks": [
+        "network",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "malware",
+        "vulnerability",
+        "exploit",
+        "threat",
+        "security",
+        "cyber",
+        "identity security",
+        "incident response",
+        "red team"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "audit",
+        "nist",
+        "cyber risk"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "investment",
+        "ey"
+      ]
+    },
+    "summary": "Enterprises increasingly give AI agents the credentials, tools, and network access of privileged employees, but security experts warn that existing security controls designed to govern human access are insufficient. An AI agent operates at inhuman speed, can chain allowed actions into unauthorized outcomes, and can spawn additional sub-agents to help, turning one unwitting employee’s access into a team of rogue insiders before security teams can detect and block them. It’s not uncommon for agents to misunderstand ambiguous goals; follow malicious instructions from documents, code repositories, and web pages ; or act based on incorrect output from third-party tools. In a series of recent incidents both frontier and open-weight AI models went rogue during testing and exploited vulnerabilities to escape their sandboxed environments, tried to manipulate developers of open-source projects, or hacked into third-party systems."
+  },
+  {
     "title": "Sam Altman calls GPT-6 Astra rollout ‘messy’ as enterprise users wait for access",
     "url": "https://www.csoonline.com/article/4219249/sam-altman-calls-gpt-6-astra-rollout-messy-as-enterprise-users-wait-for-access.html",
     "source": "CSO Online",
@@ -1029,7 +1104,7 @@
     "title": "Sponsored: The race to secure power without burdening the grid",
     "url": "https://www.datacenterdynamics.com/en/marketwatch/the-race-to-secure-power-without-burdening-the-grid/",
     "source": "DataCenterDynamics",
-    "published": "2026-09-08T07:00:34+00:00",
+    "published": "2026-09-08T07:00:00+00:00",
     "raw_text": "AI is certainly changing the power mix, and the demand is huge. But how have bottlenecks changed the way data centers are planned and built?",
     "categories": [
       "Networks",
@@ -1391,6 +1466,22 @@
     "summary": "Due to growing concerns over power consumption and local community impacts"
   },
   {
+    "title": "HPE makes its “unified storage” claim real as B10000 R6 hits GA",
+    "url": "https://www.theregister.com/storage/2026/09/08/partner-content-hpe-makes-its-unified-storage-claim-real-as-b10000-r6-hits-ga/5294566",
+    "source": "The Register",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "PARTNER CONTENT: Pairs block and adjacent file workloads with independent scaling of performance and capacity",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "capacity"
+      ]
+    },
+    "summary": "PARTNER CONTENT: Pairs block and adjacent file workloads with independent scaling of performance and capacity"
+  },
+  {
     "title": "‘Global reckoning’ is coming for big tech, says Australian minister",
     "url": "https://www.theregister.com/legal/2026/09/08/global-reckoning-is-coming-for-big-tech-says-australian-minister/5294909",
     "source": "The Register",
@@ -1701,20 +1792,82 @@
     "summary": "PLUS: Fujitsu not yet budgeting Horizon compensation; DeepSeek's vast Huawei GPU buy; Korea plans sovereign security model; and more"
   },
   {
-    "title": "Time lords prepare to kick leap seconds into the next millennium",
-    "url": "https://www.theregister.com/offbeat/2026/09/06/time-lords-prepare-to-kick-leap-seconds-into-the-next-millennium/5294538",
-    "source": "The Register",
-    "published": "2026-09-06T08:09:00+00:00",
-    "raw_text": "Risk of an unprecedented negative adjustment prompts plan to let UTC drift by as much as an hour",
+    "title": "Nokia opens Riyadh R&D centre to advance AI-powered network automation and support Saudi Vision 2030",
+    "url": "https://www.computerweekly.com/news/366649491/Nokia-opens-Riyadh-RD-centre-to-advance-AI-powered-network-automation-and-support-Saudi-Vision-2030",
+    "source": "ComputerWeekly",
+    "published": "2026-09-08T04:38:00+00:00",
+    "raw_text": "<p><a href=\"https://www.computerweekly.com/news/366645100/Nokia-accelerates-AI-for-networking-drive\" target=\"_blank\" rel=\"noopener\">Nokia</a> has expanded its investment in Saudi Arabia by opening a new research and development (R&amp;D) centre in <a href=\"https://www.computerweekly.com/feature/How-KAFD-is-building-the-digital-backbone-of-Riyadhs-financial-district\">Riyadh</a> dedicated to <a href=\"https://www.computerweekly.com/news/366650070/HP-grows-Saudi-presence-through-AI-manufacturing-and-skills-investment\">developing artificial intelligence</a> (AI-)powered network automation technologies, marking another milestone in the Kingdom’s ambitions to become a global hub for digital innovation and advanced technology development.</p> <p>The facility, Nokia’s first R&amp;D centre in Saudi Arabia, will focus on creating software that enables communications networks to operate with greater autonomy through artificial intelligence and automation. The centre will develop technologies designed to help networks self-configure, self-heal, optimise performance, reduce energy consumption and improve operational efficiency.</p> <p>The announcement comes as Saudi Arabia accelerates its digital transformation agenda under <a href=\"https://www.computerweekly.com/news/366635520/Black-Hat-MEA-Saudi-Vision-2030-fuels-surge-in-cyber-security-innovation\">Vision 2030</a>, the national strategy launched to diversify the economy beyond oil, foster innovation, develop local talent and position the Kingdom as a leading technology and investment destination.</p> <section class=\"section main-article-chapter\" data-menu-title=\"AI takes centre stage in network operations\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>AI takes centre stage in network operations</h2> <p>As communications service providers face growing pressure to support AI applications, cloud services, industrial digitisation and increasingly complex network environments, automation is becoming a critical requirement rather than a future aspiration.</p> <p>Nokia’s Riyadh-based teams will specialise in developing service management and orchestration (SMO), self-organising networks (SON), autopilot capabilities and rApps, and software applications designed to automate network operations in open and intelligent network architectures.</p> <p>These technologies aim to reduce the need for manual intervention in network management while improving service quality and energy efficiency. By applying AI to network operations, operators can automate routine processes, detect and resolve faults faster, optimise network performance in real time and reduce operational costs.</p> <p>The centre will also explore AI-native technologies that could form part of future 6G networks, helping prepare communications infrastructure for the next generation of connectivity.</p> <p>Mikko Lavanti, president of Middle East and Africa at Nokia, said AI is transforming industries and increasing the importance of advanced communications infrastructure: “AI is reshaping every industry, and networks are the critical infrastructure that will make that transformation possible.</p> <p>“Our new R&amp;D centre in Riyadh will bring Nokia’s global expertise together with Saudi talent to develop AI-powered automation that makes networks more autonomous, efficient and responsive. It also strengthens the Kingdom’s role in creating connectivity innovation for customers in Saudi Arabia and around the world.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Supporting Saudi Arabia’s digital ambitions\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Supporting Saudi Arabia’s digital ambitions</h2> <p>The launch follows an agreement announced earlier this year between Saudi Arabia’s Ministry of Communications and Information Technology (MCIT) and Nokia president and CEO Justin Hotard, highlighting the growing collaboration between global technology providers and the Kingdom’s digital ecosystem.</p> <p>The investment aligns closely with Saudi Vision 2030, which identifies digital infrastructure, artificial intelligence and knowledge-based industries as key pillars of future economic growth. The Kingdom has invested heavily in emerging technologies over the past decade, launching initiatives focused on AI, cloud computing, smart cities, cyber security and advanced telecommunications.</p> <p>Saudi Arabia has also established dedicated organisations and programmes to accelerate AI adoption and digital skills development, while attracting international technology companies to set up regional headquarters, innovation centres and research facilities within the Kingdom.</p> <p>The opening of Nokia’s R&amp;D centre reflects a broader shift in Saudi Arabia’s technology strategy, from being primarily a consumer of technology to becoming a producer and exporter of innovation.</p> <p>In addition to developing software for local communications service providers and enterprise customers, the centre is expected to contribute technologies that can be deployed across Nokia’s global customer base, creating exportable intellectual property and software developed in Saudi Arabia.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Building local talent and research capabilities\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Building local talent and research capabilities</h2> <p>A central objective of the initiative is talent development. Nokia said the centre will create high-value engineering and research positions while supporting advanced training programmes, boot camps and certifications focused on AI, software engineering and network automation.</p> <p>The emphasis on skills development reflects a wider national effort to equip Saudi citizens with expertise in high-growth technology fields and strengthen local research and development capabilities.</p> <p>According to the company, the facility will help to cultivate a new generation of Saudi engineers and researchers who can contribute to global innovation while supporting domestic digital transformation projects.</p> <p>Eng. Abdulrahman AlMufadda, deputy minister for telecom and infrastructure at MCIT, said the centre represents an important step in strengthening Saudi Arabia’s position in the global technology landscape: “The opening of Nokia’s new research and development centre represents a strategic step toward strengthening the Kingdom’s position as a global hub for intelligent network technology innovation and reflects the ambitions of Saudi Vision 2030 to build a knowledge and innovation-driven digital economy.</p> <p>“The centre will contribute to localising advanced research and development capabilities, developing national talent in AI and software, and creating technologies made in Saudi Arabia that can serve global markets,” he added.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about IT advances in the Middle East</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366622733/Saudi-Arabia-struggling-to-reach-global-leadership-in-deeptech\">Saudi Arabia struggling to reach global leadership in deeptech</a>: Petrostate monarchy trying to build surrogate industry made of foreign startups because own ecosystem is too immature.</li> <li>Vox pop on&nbsp;<a href=\"https://www.computerweekly.com/news/366632643/Vox-pop-Digital-transformation-across-the-Arab-world\">digital transformation across the Arab world</a>: We asked exhibitors at UAE startup event Expand North Star about the challenges – from lack of fundamental infrastructure to first-world problems – faced by startups and digital businesses in the Middle East.</li> <li><a href=\"https://www.computerweekly.com/opinion/Opinion-Saudi-plans-to-be-an-IT-superpower-but-challenges-lie-ahead\">Saudi plans to be an IT superpower, but challenges lie ahead</a>&nbsp;– impressions of Saudi Arabia during Leap 2025: Big plans ahead, but challenges in physical and digital infrastructure, and in transition from public to private sector dominance.</li> </ul> </div> </div> </section>",
     "categories": [
-      "Networks"
+      "Networks",
+      "Cloud Infrastructure",
+      "Industry & Market",
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "digital transformation",
+        "cloud services",
+        "cloud computing"
+      ],
+      "Networks": [
+        "network",
+        "networking",
+        "lan",
+        "connectivity",
+        "telecom"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Industry & Market": [
+        "investment",
+        "ey",
+        "service provider"
+      ]
+    },
+    "summary": "<p><a href=\"https://www.computerweekly.com/news/366645100/Nokia-accelerates-AI-for-networking-drive\" target=\"_blank\" rel=\"noopener\">Nokia</a> has expanded its investment in Saudi Arabia by opening a new research and development (R&amp;D) centre in <a href=\"https://www.computerweekly.com/feature/How-KAFD-is-building-the-digital-backbone-of-Riyadhs-financial-district\">Riyadh</a> dedicated to <a href=\"https://www.computerweekly.com/news/366650070/HP-grows-Saudi-presence-through-AI-manufacturing-and-skills-investment\">developing artificial intelligence</a> (AI-)powered network automation technologies, marking another milestone in the Kingdom’s ambitions to become a global hub for digital innovation and advanced technology development.</p> <p>The facility, Nokia’s first R&amp;D centre in Saudi Arabia, will focus on creating software that enables communications networks to operate with greater autonomy through artificial intelligence and automation. The centre will develop technologies designed to help networks self-configure, self-heal, optimise performance, reduce energy consumption and improve operational efficiency.</p> <p>The announcement comes as Saudi Arabia accelerates its digital transformation agenda under <a href=\"https://www.computerweekly.com/news/366635520/Black-Hat-MEA-Saudi-Vision-2030-fuels-surge-in-cyber-security-innovation\">Vision 2030</a>, the national strategy launched to diversify the economy beyond oil, foster innovation, develop local talent and position the Kingdom as a leading technology and investment destination.</p> <section class=\"section main-article-chapter\" data-menu-title=\"AI takes centre stage in network operations\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>AI takes centre stage in network operations</h2> <p>As communications service providers face growing pressure to support AI applications, cloud services, industrial digitisation and increasingly complex network environments, automation is becoming a critical requirement rather than a future aspiration.</p> <p>Nokia’s Riyadh-based teams will specialise in developing service management and orchestration (SMO), self-organising networks (SON), autopilot capabilities and rApps, and software applications designed to automate network operations in open and intelligent network architectures.</p> <p>These technologies aim to reduce the need for manual intervention in network management while improving service quality and energy efficiency. By applying AI to network operations, operators can automate routine processes, detect and resolve faults faster, optimise network performance in real time and reduce operational costs.</p> <p>The centre will also explore AI-native technologies that could form part of future 6G networks, helping prepare communications infrastructure for the next generation of connectivity.</p> <p>Mikko Lavanti, president of Middle East and Africa at Nokia, said AI is transforming industries and increasing the importance of advanced communications infrastructure: “AI is reshaping every industry, and networks are the critical infrastructure that will make that transformation possible.</p> <p>“Our new R&amp;D centre in Riyadh will bring Nokia’s global expertise together with Saudi talent to develop AI-powered automation that makes networks more autonomous, efficient and responsive. It also strengthens the Kingdom’s role in creating connectivity innovation for customers in Saudi Arabia and around the world.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Supporting Saudi Arabia’s digital ambitions\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Supporting Saudi Arabia’s digital ambitions</h2> <p>The launch follows an agreement announced earlier this year between Saudi Arabia’s Ministry of Communications and Information Technology (MCIT) and Nokia president and CEO Justin Hotard, highlighting the growing collaboration between global technology providers and the Kingdom’s digital ecosystem.</p> <p>The investment aligns closely with Saudi Vision 2030, which identifies digital infrastructure, artificial intelligence and knowledge-based industries as key pillars of future economic growth."
+  },
+  {
+    "title": "Agentic AI governance: A Computer Weekly Downtime Upload podcast",
+    "url": "https://www.computerweekly.com/podcast/Agentic-AI-governance-A-Computer-Weekly-Downtime-Upload-podcast",
+    "source": "ComputerWeekly",
+    "published": "2026-09-08T03:16:00+00:00",
+    "raw_text": "<p>For Rashmi Shetty, vice president of enterprise AI at Capital One, <a href=\"https://www.techtarget.com/searchenterpriseai/news/366646620/EU-AI-Act-compliance-deadline-is-here-What-to-watch\">governance is the next phase</a> of large-scale artificial intelligence (AI) deployments, once organisations have established a technical blueprint and a data strategy.</p> <p>She says the bank is committed to protecting the privacy of consumers, which means giving consumers confidence in Capital One’s ability to safeguard their personal and financial information. As the bank expands its data-enabled tech and AI capabilities, she says: “We believe it's important to have a privacy-focused mindset and build an environment where consumer data is safe, secure, and under the consumer's control.”</p> <p>When deploying AI models, one of the decisions IT leaders need to make is how and when to use publicly available large language models (LLMs). It is generally safer to limit usage only to models that run internally. But these can limit the flexibility of having an LLM that has a greater understanding from knowledge accessed from the wider internet.</p> <p>Even when models are run internally, inside the corporate network, whenever a <a href=\"https://www.techtarget.com/ai/tip/LLM-build-vs-buy-A-decision-framework-for-LLM-adoption\">public LLM is accessed</a>, any queries submitted to it will be incorporated into the model’s understanding of the world, and is potentially available to anyone. If sensitive data is included in that query, this constitutes a data leak, which is why some organisations are focusing purely on internally run models and have chosen to ban the use of public LLMs.</p> <p>However, rather than limiting the use of AI models only to the ones that can be run internally inside the company’s network, Shetty sees an opportunity to use governance to control how publicly available LLMs can be directed to work towards a specific business outcome.&nbsp;</p> <p>Capital One has worked on modernising its tech stacks and data ecosystem. Alongside these efforts, Shetty says it has also modernised and recalibrated risk and compliance and policy management based on a <a href=\"https://www.computerweekly.com/news/366624064/Capital-One-pushes-out-data-tokenisation\">modern data ecosystem.</a></p> <p>Among the main areas of concern for organisations looking at AI governance is personally identifiable information (PII) and ensuring there are General Data Protection Regulation (GDPR) controls around that data.</p> <p>As enterprise AI is deployed, there will be opportunities for standalone AI systems to collaborate in order to streamline business processes. The challenge in governance for agentic AI systems is ensuring each AI system required to run an end-to-end business process only has access to the data it needs to finish its bit of the task.</p> <p>Shetty says this involves managing how data flows along an agentic trajectory, where data is passed between the different agentic AI systems that need to be accessed to achieve the specific task. She says that an agentic AI governance framework should define nuanced, atomic policies across this trajectory.</p> <p>At Capital One, the &nbsp;governance framework has been developed on top of the bank’s platform strategy and it is being updated to support agentic AI. “We are bringing it together for managing agency for our multi-agentic system,” Shetty adds.</p> <p>This governance framework provides the guardrails for protecting personally identifiable information and GDPR controls.</p> <p>In effect, the &nbsp;governance framework defines what the agentic system that is powered by LLMs is allowed to do in terms of the tools and data it can access. The overall goal is a greater level of autonomy as Shetty explains: “You're taking a highly stochastic, probabilistic system, which can make dynamic decisions and trying to define a deterministic boundary using a safety and governance mechanism in order to increase your velocity towards autonomous decision-making.”</p>",
+    "categories": [
+      "GRC",
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
+        "network",
         "lan"
+      ],
+      "Cybersecurity": [
+        "data leak"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "regulation",
+        "gdpr",
+        "policy",
+        "nist",
+        "data protection",
+        "privacy"
+      ],
+      "Industry & Market": [
+        "expands"
       ]
     },
-    "summary": "Risk of an unprecedented negative adjustment prompts plan to let UTC drift by as much as an hour"
+    "summary": "<p>For Rashmi Shetty, vice president of enterprise AI at Capital One, <a href=\"https://www.techtarget.com/searchenterpriseai/news/366646620/EU-AI-Act-compliance-deadline-is-here-What-to-watch\">governance is the next phase</a> of large-scale artificial intelligence (AI) deployments, once organisations have established a technical blueprint and a data strategy.</p> <p>She says the bank is committed to protecting the privacy of consumers, which means giving consumers confidence in Capital One’s ability to safeguard their personal and financial information. As the bank expands its data-enabled tech and AI capabilities, she says: “We believe it's important to have a privacy-focused mindset and build an environment where consumer data is safe, secure, and under the consumer's control.”</p> <p>When deploying AI models, one of the decisions IT leaders need to make is how and when to use publicly available large language models (LLMs). It is generally safer to limit usage only to models that run internally. But these can limit the flexibility of having an LLM that has a greater understanding from knowledge accessed from the wider internet.</p> <p>Even when models are run internally, inside the corporate network, whenever a <a href=\"https://www.techtarget.com/ai/tip/LLM-build-vs-buy-A-decision-framework-for-LLM-adoption\">public LLM is accessed</a>, any queries submitted to it will be incorporated into the model’s understanding of the world, and is potentially available to anyone."
   },
   {
     "title": "CW@60: In the flow - how AI brought back the magic of coding",
@@ -1747,6 +1900,22 @@
       ]
     },
     "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>I’ve had three distinct moments in my life where technology felt like pure magic.</p> <p>The first was as a kid, watching a neighbour <a href=\"https://www.computerweekly.com/feature/CW60-Still-amazed-three-times-computers-changed-my-life\">type a basic command into a Commodore VIC-20</a> to print “Hello” on the screen. The second was discovering the internet."
+  },
+  {
+    "title": "Assessed by algorithm – can AI read your emotions?",
+    "url": "https://www.computerweekly.com/ezine/Computer-Weekly/Assessed-by-algorithm-can-AI-read-your-emotions",
+    "source": "ComputerWeekly",
+    "published": "2026-09-08T03:00:00+00:00",
+    "raw_text": "In this week’s Computer Weekly, we examine the emerging use of AI for emotion sensing and find out how it could be used – for good and bad – in the workplace. Everybody buys Microsoft, don’t they? Well, our exclusive analysis shows just how much councils buy Microsoft without any competition. And the head of the new PoliceAI organisation talks about automating policing. Read the issue now.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "In this week’s Computer Weekly, we examine the emerging use of AI for emotion sensing and find out how it could be used – for good and bad – in the workplace. Everybody buys Microsoft, don’t they? Well, our exclusive analysis shows just how much councils buy Microsoft without any competition. And the head of the new PoliceAI organisation talks about automating policing."
   },
   {
     "title": "Working with your board around risk – why cyber responsibility can’t be shirked",
@@ -1930,171 +2099,75 @@
     "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>I was born two years before Computer Weekly and for the first couple of decades of my life, our worlds did not intersect at all. I didn’t see a computer until I was 19 and working in a tool distribution company in Birmingham where we checked stock in and out on a green-screen mainframe.</p> <p>I was a user, except occasionally I was roped into the daily routine of taking out the disks."
   },
   {
-    "title": "BOE's First Overseas IPC at IFA: \"LIGHT\" Innovation Powers a New Chapter of Globalization",
-    "url": "https://www.prnewswire.com/news-releases/boes-first-overseas-ipc-at-ifa-light-innovation-powers-a-new-chapter-of-globalization-302871985.html",
+    "title": "ECOVACS Defines the Future of Robotic Floor Cleaning with Third-Generation OZMO ROLLER Technology",
+    "url": "https://www.prnewswire.com/news-releases/ecovacs-defines-the-future-of-robotic-floor-cleaning-with-third-generation-ozmo-roller-technology-302872075.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:03:00+00:00",
-    "raw_text": "BERLIN, Sept. 8, 2026 /PRNewswire/ -- On September 7, 2026 (Berlin time), the BOE IPC Europe 2026, themed \"Innovation, Globalization, Collaboration,\" opened in Berlin, Germany, held concurrently with IFA 2026. As an industry event for BOE's global display and IoT ecosystem partners, this...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "iot"
-      ]
-    },
-    "summary": "BERLIN, Sept. 8, 2026 /PRNewswire/ -- On September 7, 2026 (Berlin time), the BOE IPC Europe 2026, themed \"Innovation, Globalization, Collaboration,\" opened in Berlin, Germany, held concurrently with IFA 2026. As an industry event for BOE's global display and IoT ecosystem partners, this..."
-  },
-  {
-    "title": "Fujitsu develops diamond-spin quantum computer prototype",
-    "url": "https://www.prnewswire.com/news-releases/fujitsu-develops-diamond-spin-quantum-computer-prototype-302871983.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:02:00+00:00",
-    "raw_text": "New diamond-spin quantum computer prototype incorporating tin-vacancy (SnV) centers into photonic integrated circuits marks significant step toward quantum computing scalability KAWASAKI, Japan, Sept. 8, 2026 /PRNewswire/ -- Fujitsu today announced that it has developed the world's first...",
+    "published": "2026-09-08T08:48:00+00:00",
+    "raw_text": "BERLIN, Sept. 8, 2026 /PRNewswire/ -- At IFA 2026, ECOVACS is advancing the roller-mopping category it pioneered and helped define with the latest evolution of its proprietary OZMO ROLLER Instant Self-Washing Mopping Technology—OZMO ROLLER 3.0, featured in the new DEEBOT X12S OmniCyclone....",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "New diamond-spin quantum computer prototype incorporating tin-vacancy (SnV) centers into photonic integrated circuits marks significant step toward quantum computing scalability KAWASAKI, Japan, Sept. 8, 2026 /PRNewswire/ -- Fujitsu today announced that it has developed the world's first..."
+    "summary": "BERLIN, Sept. 8, 2026 /PRNewswire/ -- At IFA 2026, ECOVACS is advancing the roller-mopping category it pioneered and helped define with the latest evolution of its proprietary OZMO ROLLER Instant Self-Washing Mopping Technology—OZMO ROLLER 3.0, featured in the new DEEBOT X12S OmniCyclone...."
   },
   {
-    "title": "IDnow Publishes EUDI Wallet Consumer Survey Revealing Cautious Optimism Ahead of December Rollout",
-    "url": "https://www.prnewswire.com/news-releases/idnow-publishes-eudi-wallet-consumer-survey-revealing-cautious-optimism-ahead-of-december-rollout-302871523.html",
+    "title": "Anime \"Kagurabachi\" Unveils Details for Anime World Tour Part 2!",
+    "url": "https://www.prnewswire.com/news-releases/anime-kagurabachi--unveils-details-for-anime-world-tour-part-2-302872063.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "New IDnow research shines a light on the trust gap, friction costs, and features set to shape EUDI Wallet adoption. MUNICH, Sept. 8, 2026 /PRNewswire/ -- IDnow, Europe's leader in digital identity and fraud prevention, today published the full findings of its EUDI Wallet Consumer Survey,...",
+    "published": "2026-09-08T08:32:00+00:00",
+    "raw_text": "-Exploding into a Global Phenomenon! The Anime World Tour Sweeps Across All Five Continents! The First 20 Minutes of Episode 1 Set for Premiere Screenings at Anime Conventions in Johannesburg and Melbourne! Details for World Tour Part 3 and Japan Tour Final to Be Revealed This Autumn-...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "-Exploding into a Global Phenomenon! The Anime World Tour Sweeps Across All Five Continents! The First 20 Minutes of Episode 1 Set for Premiere Screenings at Anime Conventions in Johannesburg and Melbourne! Details for World Tour Part 3 and Japan Tour Final to Be Revealed This Autumn-..."
+  },
+  {
+    "title": "Hang Feng Technology Innovation Co., Ltd. Announces First Half 2026 Financial Results",
+    "url": "https://www.prnewswire.com/news-releases/hang-feng-technology-innovation-co-ltd-announces-first-half-2026-financial-results-302872026.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-08T08:30:00+00:00",
+    "raw_text": "HONG KONG, Sept. 8, 2026 /PRNewswire/ -- Hang Feng Technology Innovation Co., Ltd. (\"Hang Feng Technology Innovation\" or the \"Company\"), a Nasdaq-listed company headquartered in Hong Kong, announced its financial results for the six months ended June 30, 2026 (the \"Reporting Period\") as...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "ey"
+        "announces"
       ]
     },
-    "summary": "New IDnow research shines a light on the trust gap, friction costs, and features set to shape EUDI Wallet adoption. MUNICH, Sept. 8, 2026 /PRNewswire/ -- IDnow, Europe's leader in digital identity and fraud prevention, today published the full findings of its EUDI Wallet Consumer Survey,..."
+    "summary": "HONG KONG, Sept. 8, 2026 /PRNewswire/ -- Hang Feng Technology Innovation Co., Ltd. (\"Hang Feng Technology Innovation\" or the \"Company\"), a Nasdaq-listed company headquartered in Hong Kong, announced its financial results for the six months ended June 30, 2026 (the \"Reporting Period\") as..."
   },
   {
-    "title": "NetActuate Launches Media Substrate, a Global Transport Layer for Live Video",
-    "url": "https://www.prnewswire.com/news-releases/netactuate-launches-media-substrate-a-global-transport-layer-for-live-video-302871905.html",
+    "title": "SANY Heavy Industry H1 2026 Revenue Rises 19.49% YoY to USD 7.89 Billion, with Overseas Revenue Accounting for 61.33%",
+    "url": "https://www.prnewswire.com/news-releases/sany-heavy-industry-h1-2026-revenue-rises-19-49-yoy-to-usd--7-89-billion-with-overseas-revenue-accounting-for-61-33-302872057.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "NetActuate launches the Media Substrate before IBC 2026, available today. Broadcasters send one stream and receive one stream. NetActuate's network runs the diverse paths beneath. AMSTERDAM, Sept. 8, 2026 /PRNewswire/ -- NetActuate today launched the NetActuate Media Substrate, a managed...",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "NetActuate launches the Media Substrate before IBC 2026, available today. Broadcasters send one stream and receive one stream. NetActuate's network runs the diverse paths beneath. AMSTERDAM, Sept."
-  },
-  {
-    "title": "TCL Earns Over 30 Global Honors at IFA 2026, Recognizing Cutting-Edge Innovations Across Display, AI and Smart Living",
-    "url": "https://www.prnewswire.com/news-releases/tcl-earns-over-30-global-honors-at-ifa-2026-recognizing-cutting-edge-innovations-across-display-ai-and-smart-living-302871975.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "BERLIN, Sept. 8, 2026 /PRNewswire/ -- TCL, a global leader in consumer electronics and the world's No. 1 Mini LED and ultra-large[1] TV brand, announced that it has received over 30 honors at IFA 2026, including seven IFA Innovation Award Honoree recognitions and five Global Product...",
+    "published": "2026-09-08T08:21:00+00:00",
+    "raw_text": "HONG KONG, Sept. 8, 2026 /PRNewswire/ -- SANY Heavy Industry (600031.SH) reported H1 2026 revenue of approximately USD 7.89 billion, up 19.49% year over year, and attributable net profit of USD 838.887 million, up 9.13%. Q2 revenue rose 24.39% to USD 4.328 billion, exceeding the H1 growth...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "BERLIN, Sept. 8, 2026 /PRNewswire/ -- TCL, a global leader in consumer electronics and the world's No. 1 Mini LED and ultra-large[1] TV brand, announced that it has received over 30 honors at IFA 2026, including seven IFA Innovation Award Honoree recognitions and five Global Product..."
+    "summary": "HONG KONG, Sept. 8, 2026 /PRNewswire/ -- SANY Heavy Industry (600031.SH) reported H1 2026 revenue of approximately USD 7.89 billion, up 19.49% year over year, and attributable net profit of USD 838.887 million, up 9.13%. Q2 revenue rose 24.39% to USD 4.328 billion, exceeding the H1 growth..."
   },
   {
-    "title": "Insightec Marks 10,000 Patients Treated Across Europe, Middle East and Africa (EMEA) With MR-Guided Focused Ultrasound",
-    "url": "https://www.prnewswire.com/news-releases/insightec-marks-10-000-patients-treated-across-europe-middle-east-and-africa-emea-with-mr-guided-focused-ultrasound-302871550.html",
+    "title": "Epicyt Pharma reports positive results in first-in-human study of BAFA in patients following gastric bypass surgery",
+    "url": "https://www.prnewswire.com/news-releases/epicyt-pharma-reports-positive-results-in-first-in-human-study-of-bafa-in-patients-following-gastric-bypass-surgery-302872055.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "Milestone reflects a doubling of treatment volumes in EMEA over the past three years, as growing access to incisionless therapy for essential tremor and Parkinson's disease reaches more than 62 treatment centers across 20 countries, even as significant gaps in access and reimbursement...",
+    "published": "2026-09-08T08:17:00+00:00",
+    "raw_text": "GOTHENBURG, Sweden, Sept. 8, 2026 /PRNewswire/ -- Epicyt Pharma AB, a Gothenburg-based clinical-stage biopharmaceutical company developing therapies for impaired intestinal calcium uptake, today announced positive topline results from its Phase 1/2a first-in-human study of BAFA in...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Milestone reflects a doubling of treatment volumes in EMEA over the past three years, as growing access to incisionless therapy for essential tremor and Parkinson's disease reaches more than 62 treatment centers across 20 countries, even as significant gaps in access and reimbursement..."
+    "summary": "GOTHENBURG, Sweden, Sept. 8, 2026 /PRNewswire/ -- Epicyt Pharma AB, a Gothenburg-based clinical-stage biopharmaceutical company developing therapies for impaired intestinal calcium uptake, today announced positive topline results from its Phase 1/2a first-in-human study of BAFA in..."
   },
   {
-    "title": "Fuze Finance Expands to Switzerland to Serve Growing Demand for Crypto-Assets and Stablecoins",
-    "url": "https://www.prnewswire.com/news-releases/fuze-finance-expands-to-switzerland-to-serve-growing-demand-for-crypto-assets-and-stablecoins-302871516.html",
+    "title": "GEEKOM lanza el mini PC A5 Edición 2027, diseñado para una productividad duradera",
+    "url": "https://www.prnewswire.com/news-releases/geekom-lanza-el-mini-pc-a5-edicion-2027-disenado-para-una-productividad-duradera-302872048.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "Approved by SO-FIT as a supervised financial intermediary, it will offer institutional clients with crypto-assets infrastructure and stablecoin settlement alongside SWIFT, SEPA and SIC rails LUGANO, Switzerland, Sept. 8, 2026 /PRNewswire/ -- Fuze Finance (Fuze), a regulated crypto-assets...",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "Approved by SO-FIT as a supervised financial intermediary, it will offer institutional clients with crypto-assets infrastructure and stablecoin settlement alongside SWIFT, SEPA and SIC rails LUGANO, Switzerland, Sept. 8, 2026 /PRNewswire/ -- Fuze Finance (Fuze), a regulated crypto-assets..."
-  },
-  {
-    "title": "transcosmos launches trans-AI Chat, a generative AI chatbot, in Indonesia",
-    "url": "https://www.prnewswire.com/news-releases/transcosmos-launches-trans-ai-chat-a-generative-ai-chatbot-in-indonesia-302871869.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "Reinforcing its commitment to transforming CX through AI-powered dynamic, human-like responses TOKYO, Sept. 8, 2026 /PRNewswire/ -- transcosmos today announced the official launch of trans-AI Chat, a generative AI-powered chatbot, in Indonesia. Unlike conventional chatbots that rely on...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Reinforcing its commitment to transforming CX through AI-powered dynamic, human-like responses TOKYO, Sept. 8, 2026 /PRNewswire/ -- transcosmos today announced the official launch of trans-AI Chat, a generative AI-powered chatbot, in Indonesia. Unlike conventional chatbots that rely on..."
-  },
-  {
-    "title": "Ribbon Bio Appoints Jay Therrien as Chief Business Officer",
-    "url": "https://www.prnewswire.com/news-releases/ribbon-bio-appoints-jay-therrien-as-chief-business-officer-302871546.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "VIENNA, Sept. 8, 2026 /PRNewswire/ -- Cell-free DNA assembly pioneer, Ribbon Bio, has today announced the appointment of Jay Therrien as Chief Business Officer. Therrien joins Ribbon's executive leadership team where he will lead the company's commercial strategy and growth initiatives....",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "VIENNA, Sept. 8, 2026 /PRNewswire/ -- Cell-free DNA assembly pioneer, Ribbon Bio, has today announced the appointment of Jay Therrien as Chief Business Officer. Therrien joins Ribbon's executive leadership team where he will lead the company's commercial strategy and growth initiatives...."
-  },
-  {
-    "title": "IDnow publie son enquête sur l'EUDI Wallet : des consommateurs intéressés mais prudents avant son déploiement en décembre",
-    "url": "https://www.prnewswire.com/news-releases/idnow-publie-son-enquete-sur-leudi-wallet--des-consommateurs-interesses-mais-prudents-avant-son-deploiement-en-decembre-302871510.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "La dernière enquête d'IDnow met en lumière le déficit de confiance, le coût des parcours complexes et les fonctionnalités qui détermineront l'adoption de l'EUDI Wallet. MUNICH, 8 septembre 2026 /PRNewswire/ -- IDnow, leader européen de l'identité numérique et de la prévention de la...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "La dernière enquête d'IDnow met en lumière le déficit de confiance, le coût des parcours complexes et les fonctionnalités qui détermineront l'adoption de l'EUDI Wallet. MUNICH, 8 septembre 2026 /PRNewswire/ -- IDnow, leader européen de l'identité numérique et de la prévention de la..."
-  },
-  {
-    "title": "Fuze Finance expandiert in die Schweiz, um der wachsenden Nachfrage nach Krypto-Assets und Stablecoins gerecht zu werden",
-    "url": "https://www.prnewswire.com/news-releases/fuze-finance-expandiert-in-die-schweiz-um-der-wachsenden-nachfrage-nach-krypto-assets-und-stablecoins-gerecht-zu-werden-302871591.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "Das Unternehmen wurde von SO-FIT als beaufsichtigter Finanzintermediär zugelassen und wird institutionellen Kunden neben den Zahlungssystemen SWIFT, SEPA und SIC auch eine Infrastruktur für Krypto-Assets sowie die Abwicklung von Stablecoins anbieten LUGANO, Schweiz, 8. September 2026...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Das Unternehmen wurde von SO-FIT als beaufsichtigter Finanzintermediär zugelassen und wird institutionellen Kunden neben den Zahlungssystemen SWIFT, SEPA und SIC auch eine Infrastruktur für Krypto-Assets sowie die Abwicklung von Stablecoins anbieten LUGANO, Schweiz, 8. September 2026..."
-  },
-  {
-    "title": "Power Metallic Defines High-Grade Maiden Resource at Lion Averaging ~3.9% CuEq, with >85% Indicated and Significant Expansion Potential",
-    "url": "https://www.prnewswire.com/news-releases/power-metallic-defines-high-grade-maiden-resource-at-lion-averaging-3-9-cueq-with-85-indicated-and-significant-expansion-potential-302871947.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "Lion at a Glance ~406Mlb contained CuEq | ~3.9% CuEq | >85% Indicated | Starts at surface |~59% of tonnes within open-pit resource | >98% Cu recovery | 25%+ Cu concentrate | MRE cut-off April 19| 5 rigs active| Post cut-off deep drilling not included | Assays expected by end of September...",
+    "published": "2026-09-08T08:08:00+00:00",
+    "raw_text": "TAIPEI, 8 de septiembre de 2026 /PRNewswire/ -- GEEKOM, una marca líder mundial de mini PC, redefine la productividad con el lanzamiento de la edición A5 2027. Diseñada para una jornada laboral productiva, la nueva A5 combina un rendimiento fiable, una larga vida útil y una expansión...",
     "categories": [
       "Networks"
     ],
@@ -2103,14 +2176,38 @@
         "lan"
       ]
     },
-    "summary": "Lion at a Glance ~406Mlb contained CuEq | ~3.9% CuEq | >85% Indicated | Starts at surface |~59% of tonnes within open-pit resource | >98% Cu recovery | 25%+ Cu concentrate | MRE cut-off April 19| 5 rigs active| Post cut-off deep drilling not included | Assays expected by end of September..."
+    "summary": "TAIPEI, 8 de septiembre de 2026 /PRNewswire/ -- GEEKOM, una marca líder mundial de mini PC, redefine la productividad con el lanzamiento de la edición A5 2027. Diseñada para una jornada laboral productiva, la nueva A5 combina un rendimiento fiable, una larga vida útil y una expansión..."
   },
   {
-    "title": "Highlands Community Services Featured on \"All Access hosted by Andy Garcia\"",
-    "url": "https://www.prnewswire.com/news-releases/highlands-community-services-featured-on-all-access-hosted-by-andy-garcia-302867254.html",
+    "title": "Autoliv Advances Vehicle Safety Through Virtual Testing",
+    "url": "https://www.prnewswire.com/news-releases/autoliv-advances-vehicle-safety-through-virtual-testing-302872047.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "Resolving the Rural Care Divide Through Compassion and Collaboration LOS ANGELES, Sept. 8, 2026 /PRNewswire/ -- An upcoming Public Television program will examine how community-based behavioral health initiatives resolve geographic isolation and systemic trauma through integrated local...",
+    "published": "2026-09-08T08:06:00+00:00",
+    "raw_text": "STOCKHOLM, Sept. 8, 2026 /PRNewswire/ -- Autoliv, Inc. (NYSE: ALV) (SSE: ALIVsdb), the worldwide leader in automotive safety systems, is advancing the development of virtual testing through its Human Body Model (HBM) Safety Suite. The platform is designed to support the development of...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "STOCKHOLM, Sept. 8, 2026 /PRNewswire/ -- Autoliv, Inc. (NYSE: ALV) (SSE: ALIVsdb), the worldwide leader in automotive safety systems, is advancing the development of virtual testing through its Human Body Model (HBM) Safety Suite. The platform is designed to support the development of..."
+  },
+  {
+    "title": "/C O R R E C T I O N -- GCCL/",
+    "url": "https://www.prnewswire.com/news-releases/gccl-strengthens-asia-pacific-presence-at-asia-bio-partnering-forum-2026-302871927.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-08T08:05:00+00:00",
+    "raw_text": "In the news release, \"GCCL Strengthens Asia-Pacific Presence at Asia Bio Partnering Forum 2026,\" issued on September 8, 2026 by GCCL over PR Newswire, we are advised by the company that the name \"Yoo-Hwa Choi\" should read \"Yuhwa Choi\" throughout the release, as originally issued...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "In the news release, \"GCCL Strengthens Asia-Pacific Presence at Asia Bio Partnering Forum 2026,\" issued on September 8, 2026 by GCCL over PR Newswire, we are advised by the company that the name \"Yoo-Hwa Choi\" should read \"Yuhwa Choi\" throughout the release, as originally issued..."
+  },
+  {
+    "title": "ARTEMIS II CREW LANDS AT STARMUS VIII - 15 YEARS AFTER ARMSTRONG, ALDRIN AND LEONOV LAUNCHED ITS LEGACY",
+    "url": "https://www.prnewswire.com/news-releases/artemis-ii-crew-lands-at-starmus-viii---15-years-after-armstrong-aldrin-and-leonov-launched-its-legacy-302871956.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "Reid Wiseman, Victor Glover and Jeremy Hansen will join STARMUS VIII in Tenerife and La Palma, continuing a remarkable tradition that began with the pioneers of human spaceflight in the Canary Islands in 2011. TENERIFE, Canary Islands, Sept. 8, 2026 /PRNewswire/ -- Fifteen years after...",
     "categories": [
       "Networks"
     ],
@@ -2119,54 +2216,110 @@
         "lan"
       ]
     },
-    "summary": "Resolving the Rural Care Divide Through Compassion and Collaboration LOS ANGELES, Sept. 8, 2026 /PRNewswire/ -- An upcoming Public Television program will examine how community-based behavioral health initiatives resolve geographic isolation and systemic trauma through integrated local..."
+    "summary": "Reid Wiseman, Victor Glover and Jeremy Hansen will join STARMUS VIII in Tenerife and La Palma, continuing a remarkable tradition that began with the pioneers of human spaceflight in the Canary Islands in 2011. TENERIFE, Canary Islands, Sept. 8, 2026 /PRNewswire/ -- Fifteen years after..."
   },
   {
-    "title": "IDnow-Studie: Verbraucher müssen von der EUDI-Wallet erst noch überzeugt werden",
-    "url": "https://www.prnewswire.com/news-releases/idnow-studie-verbraucher-mussen-von-der-eudi-wallet-erst-noch-uberzeugt-werden-302871514.html",
+    "title": "JOHNNIE WALKER DROPS LIMITED EDITION SABRINA CARPENTER BLACK LABEL BOTTLE DESIGN",
+    "url": "https://www.prnewswire.com/news-releases/johnnie-walker-drops-limited-edition-sabrina-carpenter-black-label-bottle-design-302872028.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T07:00:00+00:00",
-    "raw_text": "Die neue EUDI-Wallet-Verbraucherstudie von IDnow zeigt, warum Verbrauchern bisher noch das Vertrauen fehlt, welche Hürden bestehende Verifizierungsprozesse mit sich bringen und welche Funktionen für die Akzeptanz der EUDI-Wallet entscheidend sein werden. MÜNCHEN, 8. September 2026...",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "Latest chapter in Johnnie Walker x Sabrina Carpenter collaboration celebrates bold creativity through collectible new bottle inspired by the confident, unapologetic vibe of Sabrina's album, Man's Best Friend LONDON, Sept. 8, 2026 /PRNewswire/ -- Johnnie Walker, the world's No. 1 Scotch...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Die neue EUDI-Wallet-Verbraucherstudie von IDnow zeigt, warum Verbrauchern bisher noch das Vertrauen fehlt, welche Hürden bestehende Verifizierungsprozesse mit sich bringen und welche Funktionen für die Akzeptanz der EUDI-Wallet entscheidend sein werden. MÜNCHEN, 8. September 2026..."
+    "summary": "Latest chapter in Johnnie Walker x Sabrina Carpenter collaboration celebrates bold creativity through collectible new bottle inspired by the confident, unapologetic vibe of Sabrina's album, Man's Best Friend LONDON, Sept. 8, 2026 /PRNewswire/ -- Johnnie Walker, the world's No. 1 Scotch..."
   },
   {
-    "title": "BIGBANG 2026-2027 WORLD TOUR < XX: COSMOS > IN HONG KONG Officially Announced",
-    "url": "https://www.prnewswire.com/news-releases/bigbang-2026-2027-world-tour--xx-cosmos--in-hong-kong-officially-announced-302871977.html",
+    "title": "Dall'industria alla casa: TCL porta a IFA 2026 la sua visione integrata dell'energia",
+    "url": "https://www.prnewswire.com/news-releases/dallindustria-alla-casa-tcl-porta-a-ifa-2026-la-sua-visione-integrata-dellenergia-302872039.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T06:53:00+00:00",
-    "raw_text": "HONG KONG, Sept. 8, 2026 /PRNewswire/ -- Recently, the long-awaited BIGBANG 2026-2027 WORLD TOUR < XX: COSMOS > IN HONG KONG has been officially announced. Jointly organized by TME live and ELF ASIA, the legendary BIGBANG Tour in Hong Kong will be held at the Kai Tak Stadium from November...",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "L'Inspiration Habitat mostra come l'esperienza di TCL nei settori fotovoltaico, dell'accumulo energetico e delle tecnologie per la casa connessa possano favorire un approccio più intelligente e sostenibile all'abitare del futuro BERLINO, 8 settembre 2026 /PRNewswire/ -- In occasione di...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "HONG KONG, Sept. 8, 2026 /PRNewswire/ -- Recently, the long-awaited BIGBANG 2026-2027 WORLD TOUR < XX: COSMOS > IN HONG KONG has been officially announced. Jointly organized by TME live and ELF ASIA, the legendary BIGBANG Tour in Hong Kong will be held at the Kai Tak Stadium from November..."
+    "summary": "L'Inspiration Habitat mostra come l'esperienza di TCL nei settori fotovoltaico, dell'accumulo energetico e delle tecnologie per la casa connessa possano favorire un approccio più intelligente e sostenibile all'abitare del futuro BERLINO, 8 settembre 2026 /PRNewswire/ -- In occasione di..."
   },
   {
-    "title": "Implantica to host Capital Markets Day in Stockholm on September 9",
-    "url": "https://www.prnewswire.com/news-releases/implantica-to-host-capital-markets-day-in-stockholm-on-september-9-302871976.html",
+    "title": "MERACH представляет UltraWalk W60 Plus -- беговую дорожку, созданную для современного дома и домашнего офиса",
+    "url": "https://www.prnewswire.com/news-releases/merach--ultrawalk-w60-plus-----------302871729.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T06:51:00+00:00",
-    "raw_text": "VADUZ, Liechtenstein, Sept. 8, 2026 /PRNewswire/ -- Implantica AG (publ.) reminds investors and media that it will host its Capital Markets Day on September 9, 2026, from 14:00-16:30 CEST in Stockholm. The event will focus on Implantica's plans following the recent FDA approval of...",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "MERACH впервые представляет в Европе свою новую флагманскую беговую дорожку с бесщеточном двигателем, рассчитанным на 15 000 часов эксплуатации, бесшумной работой (уровень шума — 53 дБ), электронной регулировкой наклона и встроенными развлекательными функциями. На старте продаж первым...",
     "categories": [
-      "Networks"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "VADUZ, Liechtenstein, Sept. 8, 2026 /PRNewswire/ -- Implantica AG (publ.) reminds investors and media that it will host its Capital Markets Day on September 9, 2026, from 14:00-16:30 CEST in Stockholm. The event will focus on Implantica's plans following the recent FDA approval of..."
+    "matched_keywords": {},
+    "summary": "MERACH впервые представляет в Европе свою новую флагманскую беговую дорожку с бесщеточном двигателем, рассчитанным на 15 000 часов эксплуатации, бесшумной работой (уровень шума — 53 дБ), электронной регулировкой наклона и встроенными развлекательными функциями. На старте продаж первым..."
   },
   {
-    "title": "Replit ouvre son premier bureau international à Londres",
-    "url": "https://www.prnewswire.com/news-releases/replit-ouvre-son-premier-bureau-international-a-londres-302871965.html",
+    "title": "Inceptio Technology Surpasses 1 Billion Kilometers in Commercial Autonomous Trucking, Accelerating the Development of Freight Physical AI",
+    "url": "https://www.prnewswire.com/news-releases/inceptio-technology-surpasses-1-billion-kilometers-in-commercial-autonomous-trucking-accelerating-the-development-of-freight-physical-ai-302872025.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-08T06:39:00+00:00",
-    "raw_text": "La demande croissante des particuliers, des petites et des grandes entreprises stimule l'expansion mondiale Partenariat avec l'association caritative The Lord Mayor's Appeal pour proposer un renforcement des compétences aux jeunes ni scolarisés, ni employés, ni en formation (NEET) LONDRES...",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "SHANGHAI, Sept. 8, 2026 /PRNewswire/ -- Inceptio Technology (\"Inceptio\" or the \"Company\"), an industry-leading developer of autonomous driving technologies for trucks, today announced that its autonomous driving systems have surpassed 1 billion kilometers of commercial autonomous driving...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SHANGHAI, Sept. 8, 2026 /PRNewswire/ -- Inceptio Technology (\"Inceptio\" or the \"Company\"), an industry-leading developer of autonomous driving technologies for trucks, today announced that its autonomous driving systems have surpassed 1 billion kilometers of commercial autonomous driving..."
+  },
+  {
+    "title": "MERACH stellt den UltraWalk W60 Plus vor - ein Laufband, das speziell für das moderne Zuhause und das Homeoffice entwickelt wurde",
+    "url": "https://www.prnewswire.com/news-releases/merach-stellt-den-ultrawalk-w60-plus-vor--ein-laufband-das-speziell-fur-das-moderne-zuhause-und-das-homeoffice-entwickelt-wurde-302871921.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "Ausgestattet mit einem bürstenlosen-Motor, der für eine Betriebsdauer von bis zu 15.000 Stunden ausgelegt ist, einem leisen Laufgeräusch von 53 dB, einer elektronischen Neigungsverstellung und integrierten Unterhaltungsfunktionen bringt MERACH sein neues Flaggschiff unter den Walking-Pads...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Ausgestattet mit einem bürstenlosen-Motor, der für eine Betriebsdauer von bis zu 15.000 Stunden ausgelegt ist, einem leisen Laufgeräusch von 53 dB, einer elektronischen Neigungsverstellung und integrierten Unterhaltungsfunktionen bringt MERACH sein neues Flaggschiff unter den Walking-Pads..."
+  },
+  {
+    "title": "Le congrès Smart City Expo 2026 promeut des solutions urbaines ayant un impact concret",
+    "url": "https://www.prnewswire.com/news-releases/le-congres-smart-city-expo-2026-promeut-des-solutions-urbaines-ayant-un-impact-concret-302871509.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "BARCELONE, Espagne, 8 septembre 2026 /PRNewswire/ -- Le Smart City Expo World Congress (SCEWC), l'événement international de référence consacré aux villes et aux solutions urbaines intelligentes organisé par Fira de Barcelona, tiendra son édition 2026 du 3 au 5 novembre au centre Gran Via...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BARCELONE, Espagne, 8 septembre 2026 /PRNewswire/ -- Le Smart City Expo World Congress (SCEWC), l'événement international de référence consacré aux villes et aux solutions urbaines intelligentes organisé par Fira de Barcelona, tiendra son édition 2026 du 3 au 5 novembre au centre Gran Via..."
+  },
+  {
+    "title": "Himax Unveils Industry-Leading eDP TDDI, Advancing Automotive Display Technology",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357394/8267/en/himax-unveils-industry-leading-edp-tddi-advancing-automotive-display-technology.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-08T08:42:00+00:00",
+    "raw_text": "Single-Chip Solution Integrates High-Speed eDP Interface, Touch, and Display Driver For Large-Format, High-Resolution Smart Car Displays Single-Chip Solution Integrates High-Speed eDP Interface, Touch, and Display Driver For Large-Format, High-Resolution Smart Car Displays",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Single-Chip Solution Integrates High-Speed eDP Interface, Touch, and Display Driver For Large-Format, High-Resolution Smart Car Displays Single-Chip Solution Integrates High-Speed eDP Interface, Touch, and Display Driver For Large-Format, High-Resolution Smart Car Displays"
+  },
+  {
+    "title": "Autheo Brings THEO to Robinhood Chain as Two Visions of Convergence Meet",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357367/0/en/autheo-brings-theo-to-robinhood-chain-as-two-visions-of-convergence-meet.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-08T08:14:00+00:00",
+    "raw_text": "THEO is scheduled to launch September 10 on Uniswap v3 on Robinhood Chain",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "THEO is scheduled to launch September 10 on Uniswap v3 on Robinhood Chain"
+  },
+  {
+    "title": "Timo, an In-Car AI Social Robot, Is Coming to Kickstarter to Make Everyday Drives More Interactive and Fun",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357351/0/en/timo-an-in-car-ai-social-robot-is-coming-to-kickstarter-to-make-everyday-drives-more-interactive-and-fun.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "Timo, YiLink’s In-Car AI Social Robot",
     "categories": [
       "Cybersecurity"
     ],
@@ -2175,7 +2328,63 @@
         "soc"
       ]
     },
-    "summary": "La demande croissante des particuliers, des petites et des grandes entreprises stimule l'expansion mondiale Partenariat avec l'association caritative The Lord Mayor's Appeal pour proposer un renforcement des compétences aux jeunes ni scolarisés, ni employés, ni en formation (NEET) LONDRES..."
+    "summary": "Timo, YiLink’s In-Car AI Social Robot"
+  },
+  {
+    "title": "Du massage intelligent au bien-être proactif : SKG élargit sa gamme de dispositifs de santé portables à l’occasion de l’IFA 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357353/0/fr/du-massage-intelligent-au-bien-%C3%AAtre-proactif-skg-%C3%A9largit-sa-gamme-de-dispositifs-de-sant%C3%A9-portables-%C3%A0-l-occasion-de-l-ifa-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "La présentation à Berlin associe la technologie de massage portable de SKG à la récupération, à l’accompagnement de l’entraînement et au suivi préventif de la santé La présentation à Berlin associe la technologie de massage portable de SKG à la récupération, à l’accompagnement de l’entraînement et au suivi préventif de la santé",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "La présentation à Berlin associe la technologie de massage portable de SKG à la récupération, à l’accompagnement de l’entraînement et au suivi préventif de la santé La présentation à Berlin associe la technologie de massage portable de SKG à la récupération, à l’accompagnement de l’entraînement et au suivi préventif de la santé"
+  },
+  {
+    "title": "Von intelligenter Massage bis hin zu proaktiver Wellness: SKG erweitert sein Portfolio tragbarer Gesundheitsgeräte auf der IFA 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357353/0/de/von-intelligenter-massage-bis-hin-zu-proaktiver-wellness-skg-erweitert-sein-portfolio-tragbarer-gesundheitsger%C3%A4te-auf-der-ifa-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "Die Präsentation in Berlin verbindet die tragbare Massagetechnologie von SKG mit Regeneration, Trainingsunterstützung und proaktiver Gesundheitsüberwachung Die Präsentation in Berlin verbindet die tragbare Massagetechnologie von SKG mit Regeneration, Trainingsunterstützung und proaktiver Gesundheitsüberwachung",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Die Präsentation in Berlin verbindet die tragbare Massagetechnologie von SKG mit Regeneration, Trainingsunterstützung und proaktiver Gesundheitsüberwachung Die Präsentation in Berlin verbindet die tragbare Massagetechnologie von SKG mit Regeneration, Trainingsunterstützung und proaktiver Gesundheitsüberwachung"
+  },
+  {
+    "title": "From Smart Massage to Proactive Wellness: SKG Expands Its Wearable Health Portfolio at IFA 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357354/0/en/from-smart-massage-to-proactive-wellness-skg-expands-its-wearable-health-portfolio-at-ifa-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-08T08:00:00+00:00",
+    "raw_text": "SKG Health is showcasing an expanded portfolio of wearable health products at IFA 2026.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "SKG Health is showcasing an expanded portfolio of wearable health products at IFA 2026."
+  },
+  {
+    "title": "Unmasking Fraud: Verisk Releases Fraud Discovery, connecting intelligence, analytics and investigations in one powerful fraud platform",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357342/0/en/unmasking-fraud-verisk-releases-fraud-discovery-connecting-intelligence-analytics-and-investigations-in-one-powerful-fraud-platform.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-08T07:30:00+00:00",
+    "raw_text": "The platform combines advanced detection, investigation and management capabilities into a single modular solution, helping insurers detect, investigate and disrupt fraud with tools tailored to their unique risk profiles. The platform combines advanced detection, investigation and management capabilities into a single modular solution, helping insurers detect, investigate and disrupt fraud with tools tailored to their unique risk profiles.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The platform combines advanced detection, investigation and management capabilities into a single modular solution, helping insurers detect, investigate and disrupt fraud with tools tailored to their unique risk profiles. The platform combines advanced detection, investigation and management capabilities into a single modular solution, helping insurers detect, investigate and disrupt fraud with tools tailored to their unique risk profiles."
   },
   {
     "title": "Magnite Launches First Agentic Campaign in EMEA With Amnet France",
@@ -2373,105 +2582,5 @@
       ]
     },
     "summary": "The 22nd edition welcomes leading developers and 300+ exhibitors to showcase huge investment opportunities"
-  },
-  {
-    "title": "معرض العقارات الدولي 2026 يجمع المستثمرين العالميين بفرص السوق العقاري في دبي",
-    "url": "https://www.globenewswire.com/news-release/2026/09/07/3357253/0/ar/%D9%85%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-2026-%D9%8A%D8%AC%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AB%D9%85%D8%B1%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%8A%D9%86-%D8%A8%D9%81%D8%B1%D8%B5-%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D9%8A-%D9%81%D9%8A-%D8%AF%D8%A8%D9%8A.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-07T18:47:00+00:00",
-    "raw_text": "الدورة الثانية والعشرون تستضيف نخبة من المطورين وأكثر من 300 جهة عارضة لاستعراض فرص استثمارية واعدة وضخمة الدورة الثانية والعشرون تستضيف نخبة من المطورين وأكثر من 300 جهة عارضة لاستعراض فرص استثمارية واعدة وضخمة",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "الدورة الثانية والعشرون تستضيف نخبة من المطورين وأكثر من 300 جهة عارضة لاستعراض فرص استثمارية واعدة وضخمة الدورة الثانية والعشرون تستضيف نخبة من المطورين وأكثر من 300 جهة عارضة لاستعراض فرص استثمارية واعدة وضخمة"
-  },
-  {
-    "title": "Bozzino Capital Launches to Counter “Situational Awareness” and Capitalize on the Post-AI Imagination Economy",
-    "url": "https://www.globenewswire.com/news-release/2026/09/07/3357251/0/en/bozzino-capital-launches-to-counter-situational-awareness-and-capitalize-on-the-post-ai-imagination-economy.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-07T18:40:00+00:00",
-    "raw_text": "Flipping Leopold Aschenbrenner’s playbook on its head, the contrarian platform targets multi-trillion-dollar Creative Alpha missed by tech-obsessed funds.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Flipping Leopold Aschenbrenner’s playbook on its head, the contrarian platform targets multi-trillion-dollar Creative Alpha missed by tech-obsessed funds."
-  },
-  {
-    "title": "Solo Travelers Are Quietly Remaking a $1 Trillion Wellness Economy — One Sunday Check-In at a Time",
-    "url": "https://www.globenewswire.com/news-release/2026/09/07/3357249/0/en/solo-travelers-are-quietly-remaking-a-1-trillion-wellness-economy-one-sunday-check-in-at-a-time.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-07T18:25:00+00:00",
-    "raw_text": "Firefly has been doing it since 2013, before \"wellness tourism\" was a headline.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Firefly has been doing it since 2013, before \"wellness tourism\" was a headline."
-  },
-  {
-    "title": "ARBREST Introduces Award-Winning COVE at IFA 2026, Built Around Women’s Body proportions, Sitting Postures and Needs",
-    "url": "https://www.globenewswire.com/news-release/2026/09/07/3357227/0/en/arbrest-introduces-award-winning-cove-at-ifa-2026-built-around-women-s-body-proportions-sitting-postures-and-needs.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-07T16:50:00+00:00",
-    "raw_text": "COVE rethinks ergonomic fit and movement around women’s body proportions and real working postures COVE rethinks ergonomic fit and movement around women’s body proportions and real working postures",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "COVE rethinks ergonomic fit and movement around women’s body proportions and real working postures COVE rethinks ergonomic fit and movement around women’s body proportions and real working postures"
-  },
-  {
-    "title": "10 Seconds of Video in 4 Seconds: Yoroll Launches H3 Superfast and YoLive",
-    "url": "https://www.globenewswire.com/news-release/2026/09/07/3357194/0/en/10-seconds-of-video-in-4-seconds-yoroll-launches-h3-superfast-and-yolive.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-07T15:57:00+00:00",
-    "raw_text": "A new video model and a shared storytelling experience put real-time generation in the audience’s hands.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "A new video model and a shared storytelling experience put real-time generation in the audience’s hands."
-  },
-  {
-    "title": "Watt2Trade Announces Limited Fjord Foundry Round for $WATTOIN",
-    "url": "https://www.globenewswire.com/news-release/2026/09/07/3357168/0/en/watt2trade-announces-limited-fjord-foundry-round-for-wattoin.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-07T14:59:00+00:00",
-    "raw_text": "Company opens a reduced-price sale on Fjord Foundry for a limited period while the existing community presale remains live Company opens a reduced-price sale on Fjord Foundry for a limited period while the existing community presale remains live",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Company opens a reduced-price sale on Fjord Foundry for a limited period while the existing community presale remains live Company opens a reduced-price sale on Fjord Foundry for a limited period while the existing community presale remains live"
-  },
-  {
-    "title": "Rosenberg Plumbing Expands Sewer Lateral Services as Pacifica Homeowners Navigate Aging Infrastructure",
-    "url": "https://www.globenewswire.com/news-release/2026/09/07/3357140/0/en/rosenberg-plumbing-expands-sewer-lateral-services-as-pacifica-homeowners-navigate-aging-infrastructure.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-07T14:00:00+00:00",
-    "raw_text": "As older sewer lines complicate San Mateo County real estate transactions, the local plumbing company is helping homeowners identify issues through sewer camera inspections and sewer line replacements. As older sewer lines complicate San Mateo County real estate transactions, the local plumbing company is helping homeowners identify issues through sewer camera inspections and sewer line replacements.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "As older sewer lines complicate San Mateo County real estate transactions, the local plumbing company is helping homeowners identify issues through sewer camera inspections and sewer line replacements. As older sewer lines complicate San Mateo County real estate transactions, the local plumbing company is helping homeowners identify issues through sewer camera inspections and sewer line replacements."
   }
 ]
