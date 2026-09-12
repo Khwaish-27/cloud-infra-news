@@ -1299,20 +1299,64 @@
     "summary": "Anthropic has found a fourth case of its model accessing third-party systems without authorization"
   },
   {
-    "title": "OFAC Sanctions Chinese Scam Platform Xinbi Guarantee",
-    "url": "https://www.infosecurity-magazine.com/news/ofac-sanctions-chinese-scam/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-09-10T08:00:00+00:00",
-    "raw_text": "The US Treasury has placed sanctions on notorious Chinese cybercrime marketplace Xinbi Guarantee",
+    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
+    "url": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-container-management/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-09-10T21:00:00+00:00",
+    "raw_text": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog .",
     "categories": [
-      "Cybersecurity"
+      "Cloud Infrastructure",
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
+      "Cloud Infrastructure": [
+        "azure"
+      ],
+      "Industry & Market": [
+        "gartner"
       ]
     },
-    "summary": "The US Treasury has placed sanctions on notorious Chinese cybercrime marketplace Xinbi Guarantee"
+    "summary": "Microsoft was named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. Discover how AKS, Azure Arc, and Azure Container Apps help organizations run AI and hybrid workloads at scale. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management appeared first on Microsoft Azure Blog ."
+  },
+  {
+    "title": "The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI",
+    "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-how-ai-agent-governance-controls-cost-and-proves-roi/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-09-10T17:00:00+00:00",
+    "raw_text": "This blog post is the fourth and final installment of The Economics of Agent Optimization, which shares the strategies, capabilities, and proof points that can help you optimize agent costs and run AI as a managed investment system on Microsoft Foundry. The post The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure",
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ],
+      "GRC": [
+        "governance"
+      ],
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "This blog post is the fourth and final installment of The Economics of Agent Optimization, which shares the strategies, capabilities, and proof points that can help you optimize agent costs and run AI as a managed investment system on Microsoft Foundry. The post The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI appeared first on Microsoft Azure Blog ."
+  },
+  {
+    "title": "The future of infrastructure resiliency starts with modernization",
+    "url": "https://azure.microsoft.com/en-us/blog/the-future-of-infrastructure-resiliency-starts-with-modernization/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-09-10T16:00:00+00:00",
+    "raw_text": "Modernization only succeeds when organizations have confidence that their infrastructure can withstand disruption and continue supporting critical operations. The post The future of infrastructure resiliency starts with modernization appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ]
+    },
+    "summary": "Modernization only succeeds when organizations have confidence that their infrastructure can withstand disruption and continue supporting critical operations. The post The future of infrastructure resiliency starts with modernization appeared first on Microsoft Azure Blog ."
   },
   {
     "title": "3 Highlights from Thomas Kurian’s Keynote at the Goldman Sachs Communicopia & Technology Conference",
@@ -1349,7 +1393,7 @@
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
     "source": "Google Cloud Blog",
     "published": "2026-09-10T19:53:00+00:00",
-    "raw_text": "Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightforward to install. However, you might have noticed that managing individual skills can be unwieldy, or that some skills are most useful when they act alongside other skills or MCP servers toward the same goal. That's where plugins come in to help. Today, we're thrilled to announce a new Google Cloud plugin for AI coding agents! Designed as installable bundles, agent plugins equip the AI agent of your choice with skills and tools to be more effective on Google Cloud. Solving the tool coupling problem As you expand your usage of coding agents, you might find that they become significantly more capable when they use related skills in tandem or with complementary context and tooling. For example, an agent analyzing infrastructure is more effective when combining domain knowledge, workflow recommendations, and the ability to interact with a live environment together. Plugins solve this coupling challenge by packaging related capabilities into cohesive, installable bundles. This allows you to take advantage of both broad foundational capabilities and deep, product-specific tools without managing complex dependencies. For this release, we've started with a foundational plugin that supports agent functionality for all Google Cloud users, focusing on making it easier for agents to retrieve Google Cloud-related skills, make use of official documentation, and handle programmatic interactions with Google Cloud. Built on an open standard We've also built our plugin in compliance with the Agent Plugins specification , an open, vendor-neutral standard for packaging Agent Skills and Model Context Protocol (MCP) servers into portable, interoperable units. Rather than requiring developers to maintain different configurations and wrappers for every AI assistant, the Agent Plugins standard provides a unified manifest and directory structure. Our Google Cloud plugin adopts this standard to ensure that developers across a variety of AI coding environments get consistent, high-quality access to tools that help them succeed with Google Cloud. That includes not only the plugins we talk about today, but all other plugins published to the Google Agent Skills repository as well. Let's take a look at the flagship plugin that we've just published in the Google Agent Skills repository: google-cloud-developer . This plugin exists to help agents successfully navigate the fundamentals of interacting with Google Cloud: things like authentication, authorization, managing projects, and guardrails for gcloud CLI operations. This plugin also bundles configuration for the Developer Knowledge MCP server , which gives agents up-to-date grounding in Google's official developer documentation. Plugin in action: Project onboarding and identity authentication To see how this plugin works, consider a situation where you're bootstrapping a new project as part of working on a script. With the google-cloud-developer plugin installed, you can prompt your agent: I'm brand new to this platform, and I need to get an account and a first project with billing set up. Then, I need my local machine authenticated so a script that I'm writing can call the APIs as a service identity instead of as me. Environment awareness: The agent silently runs background checks against your live environment for prerequisites like CLI availability and potential existing projects or organizations. Review: The agent considers IAM best practices to avoid risks that might be assumed as part of the prompt, like accidental key leaks or git commits. Interaction with guardrails: The agent outlines a workflow roadmap and offers to act on those steps before modifying any resources. Installing Google Cloud plugins Because Google Cloud plugins are available from the open Google Agent Skills repository and adhere to the standard Agent Plugins layout, adding them to your environment is straightforward. For example, here's how you'd install the google-cloud-developer plugin: Antigravity CLI Install the plugin directly via the CLI using its path in the Google Agent Skills repository: code_block <ListValue: [StructValue([('code', 'agy plugin install https://github.com/google/skills/plugins/cloud/google-cloud-developer'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff9b9c01430>)])]> Claude Code Add the Google plugins marketplace, then install the plugin: code_block <ListValue: [StructValue([('code', 'claude plugin marketplace add google/skills\\r\\nclaude plugin install google-cloud-developer@google-plugins'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff9b9c015e0>)])]> Codex CLI Add the Google plugins marketplace, then install the plugin: code_block <ListValue: [StructValue([('code', 'codex plugin marketplace add google/skills\\r\\ncodex plugin add google-cloud-developer@google-plugins'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff9b9c012b0>)])]> Next Steps If you're already a Google Cloud user, try the above installation steps to set up your agent for success. We think you'll like what you see! For those who want a more guided approach, our new codelab will walk you through the installation and initial exploration of the plugin in Antigravity. If you're new to Google Cloud, you can also get started with instructions in our documentation to set yourself up for local development. The most curious readers can also take a deeper look at the plugins and agent skills available to use today in the Google Agent Skills repository.",
+    "raw_text": "Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightforward to install. However, you might have noticed that managing individual skills can be unwieldy, or that some skills are most useful when they act alongside other skills or MCP servers toward the same goal. That's where plugins come in to help. Today, we're thrilled to announce a new Google Cloud plugin for AI coding agents! Designed as installable bundles, agent plugins equip the AI agent of your choice with skills and tools to be more effective on Google Cloud. Solving the tool coupling problem As you expand your usage of coding agents, you might find that they become significantly more capable when they use related skills in tandem or with complementary context and tooling. For example, an agent analyzing infrastructure is more effective when combining domain knowledge, workflow recommendations, and the ability to interact with a live environment together. Plugins solve this coupling challenge by packaging related capabilities into cohesive, installable bundles. This allows you to take advantage of both broad foundational capabilities and deep, product-specific tools without managing complex dependencies. For this release, we've started with a foundational plugin that supports agent functionality for all Google Cloud users, focusing on making it easier for agents to retrieve Google Cloud-related skills, make use of official documentation, and handle programmatic interactions with Google Cloud. Built on an open standard We've also built our plugin in compliance with the Agent Plugins specification , an open, vendor-neutral standard for packaging Agent Skills and Model Context Protocol (MCP) servers into portable, interoperable units. Rather than requiring developers to maintain different configurations and wrappers for every AI assistant, the Agent Plugins standard provides a unified manifest and directory structure. Our Google Cloud plugin adopts this standard to ensure that developers across a variety of AI coding environments get consistent, high-quality access to tools that help them succeed with Google Cloud. That includes not only the plugins we talk about today, but all other plugins published to the Google Agent Skills repository as well. Let's take a look at the flagship plugin that we've just published in the Google Agent Skills repository: google-cloud-developer . This plugin exists to help agents successfully navigate the fundamentals of interacting with Google Cloud: things like authentication, authorization, managing projects, and guardrails for gcloud CLI operations. This plugin also bundles configuration for the Developer Knowledge MCP server , which gives agents up-to-date grounding in Google's official developer documentation. Plugin in action: Project onboarding and identity authentication To see how this plugin works, consider a situation where you're bootstrapping a new project as part of working on a script. With the google-cloud-developer plugin installed, you can prompt your agent: I'm brand new to this platform, and I need to get an account and a first project with billing set up. Then, I need my local machine authenticated so a script that I'm writing can call the APIs as a service identity instead of as me. Environment awareness: The agent silently runs background checks against your live environment for prerequisites like CLI availability and potential existing projects or organizations. Review: The agent considers IAM best practices to avoid risks that might be assumed as part of the prompt, like accidental key leaks or git commits. Interaction with guardrails: The agent outlines a workflow roadmap and offers to act on those steps before modifying any resources. Installing Google Cloud plugins Because Google Cloud plugins are available from the open Google Agent Skills repository and adhere to the standard Agent Plugins layout, adding them to your environment is straightforward. For example, here's how you'd install the google-cloud-developer plugin: Antigravity CLI Install the plugin directly via the CLI using its path in the Google Agent Skills repository: code_block <ListValue: [StructValue([('code', 'agy plugin install https://github.com/google/skills/plugins/cloud/google-cloud-developer'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f76617f3a00>)])]> Claude Code Add the Google plugins marketplace, then install the plugin: code_block <ListValue: [StructValue([('code', 'claude plugin marketplace add google/skills\\r\\nclaude plugin install google-cloud-developer@google-plugins'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f76617fb0a0>)])]> Codex CLI Add the Google plugins marketplace, then install the plugin: code_block <ListValue: [StructValue([('code', 'codex plugin marketplace add google/skills\\r\\ncodex plugin add google-cloud-developer@google-plugins'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f76617fb1c0>)])]> Next Steps If you're already a Google Cloud user, try the above installation steps to set up your agent for success. We think you'll like what you see! For those who want a more guided approach, our new codelab will walk you through the installation and initial exploration of the plugin in Antigravity. If you're new to Google Cloud, you can also get started with instructions in our documentation to set yourself up for local development. The most curious readers can also take a deeper look at the plugins and agent skills available to use today in the Google Agent Skills repository.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1962,60 +2006,6 @@
     "summary": "I’ve sat in enough boardroom conversations about quantum computing to notice a pattern. Someone raises it, someone else says “that’s ten years out,” and the topic gets tabled until next year’s budget cycle. The clock that matters isn’t the one measuring when a quantum computer arrives. It started running the moment your organization first sent sensitive data over a channel an adversary could capture and store."
   },
   {
-    "title": "10 most critical LLM vulnerabilities",
-    "url": "https://www.csoonline.com/article/575497/owasp-lists-10-most-critical-large-language-model-vulnerabilities.html",
-    "source": "CSO Online",
-    "published": "2026-09-10T08:25:00+00:00",
-    "raw_text": "Enterprise adoption of generative AI technologies has exploded due to the rapid evolution of the technology and the emergence of a variety of business use cases. But large language models (LLMs) can accidentally produce harmful results, leak information, or become exposed to threat actors. These vulnerabilities are changing as the technology evolves and as attackers find new ways to compromise systems. For enterprises, this means the risk of bad publicity, compliance or cybersecurity exposure, legal liability, or even class-action lawsuits. To keep up with the latest in LLM risks, the Open Worldwide Application Security Project (OWASP) has updated its list of the top 10 most critical vulnerabilities of LLM applications . For the first time, the list is influenced by real-world incident data alongside expert voting on classes of AI security risk. Prompt injection and sensitive information disclosure remain the two most severe threats, with excessive agency (agentic actions outside permitted bounds) rising to OWASP’s No. 3 spot, a change reflecting the evolution from chatbots to agentic systems that call APIs and run code. Issues such as unbounded consumption of AI resources have grown in prominence while risks from improper output handling have dropped to the bottom of the list thanks to more widespread use of output sanitization. The changes reflect how fast the generative AI sector is evolving — and the list is likely to change again soon as new technologies hit the market. The list brings together the judgment of the security practitioners who attack and defend these systems along with the record of what has actually gone wrong in the field, each cross-referenced against each other, according to OWASP. The list intends not only to educate developers and organizations about potential security risks but also to suggest remediation strategies for improving the security posture of LLM applications. Organizations should work on all 10 categories, starting at the top. 1. Prompt injection Prompt injection has topped OWASP’s list since it was first released in early 2023. The attack technique involves maliciously crafted inputs meant to manipulate an LLM to unknowingly execute an attacker’s intentions. This can include direct “jailbreaking” or the manipulation of external inputs such as files or websites, potentially resulting in data exfiltration, social engineering, or other issues. For example, a user can write a prompt to trick a company chatbot into revealing proprietary information the user doesn’t have access to or upload a text, image, or audio file with hidden instructions to cause the application to misbehave. Prompt injection also includes cross-modal attacks aimed at manipulating tool output, intermediate reasoning, or persistent memory to nefarious ends. To reduce the risk of prompt injection, OWASP recommends the following: Constrain the model’s role and capabilities in the system prompt. Add a human in the loop for the most sensitive operations, requiring an extra approval step to check for unauthorized actions. Define a strict output schema, validating every response with trusted application code. Scan inputs and outputs (text, image, audio, and structured data) for harmful content and block sensitive or unauthorized content before it reaches the model or is returned to users. Hold credentials and state-change capability in application code, not the model, and grant least privilege per operation. 2. Sensitive information disclosure Also referred to as “ data leakage ,” sensitive information disclosure involves an LLM revealing protected data, proprietary algorithms, or other confidential details on output, which can result in unauthorized access, privacy violations, and other security breaches. Sensitive data can get into an LLM through multiple routes, including initial training, during fine-tuning or embedding, or when entered by a user’s prompt. Once the model has access to this information, there’s the potential for other, unauthorized users to see it. Preventative measures include: Use data sanitization and scrubbing to prevent LLMs from getting access to sensitive data during training or inference. Apply filters to user inputs to prevent sensitive data from being uploaded or to identify and remove or mask confidential information. Use strict access controls and the principle of least privilege when LLMs need to access data sources during inference. 3. Excessive agency This vulnerability has moved up from sixth place as agentic systems have become more commonplace in the enterprise. Excessive agency involves an LLM with too much power to perform actions and typically stems from excessive functionality , excessive permissions, and insufficient oversight. Damaging actions could be performed when an LLM hallucinates, when it falls victim to a prompt injection, a malicious plugin, poorly written prompts, or just because it’s a badly performing model, OWASP says. Excessive agency’s jump on OWASP’s list — due to both expert votes and incident data — is evidence that the industry’s concern with agentic risk is justified, according to Crystal Morin, a senior cybersecurity strategist at AI cloud security vendor Sysdig. “LLMs have evolved from generating text to executing actions with real permissions, tool access, and an impactful blast radius,” says Morin. “OWASP’s updated Top 10 list is built on real-world evidence organizations can use to prioritize better application security today.” Daniel Bechenea, security manager at Pentest-Tools.com, says that enough organizations now run agents with production credentials that it shows up in the incident record. “The two examples that back this up are the April 2026 situation in which a Cursor coding agent working a staging task at PocketOS hit a credential mismatch , reached outside the scope of that task to find a root-level API token in an unrelated file, and used it to delete a Railway [MCP] volume,” Bechenea explains. “That happened because Railway stored volume-level backups inside the same volume, the backups went with the data, and the most recent recoverable copy was three months old.” In another high-profile case, a Replit agent deleted SaaStr’s production database during a declared code freeze before falsely claiming recovery was impossible. “Neither case involved an attacker,” says Bechenea. “Both involved credentials scoped wider than the task and no enforced gate on a destructive, irreversible action. In both, written guardrails existed and didn’t hold. These situations are a strong reminder that a rule in a prompt is not a control.” Organizations should test what the agent can reach through connected tools, and whether anything intervenes when it gets there to stay ahead of the risk, Bechenea advises. Preventative measures for this vulnerability include: Limit the plugins and tools the LLM can call, and the functions implemented in those plugins and tools, to the minimum. Avoid open-ended functions such as running a shell command or fetching a URL, using more granular functionality instead. Limit the permissions that LLMs, plugins, and tools are granted to systems to the minimum. Track user authorization and security scope to ensure actions taken on behalf of a user are executed on downstream systems in the context of that specific user, and with the minimum privileges necessary. 4. Supply chain vulnerabilities Supply chain vulnerabilities , previously in third place, involve third-party components, poisoned or outdated pre-trained models , or corrupted training data sets. The category now includes Model Context Protocol (MCP) servers and model artefacts as an emphasis. The rise of open-access LLMs and new fine-tuning techniques has introduced additional supply chain risks, particularly when models are sourced from public repositories or collaborative platforms. This vulnerability also covers cases where the creator of the original model did not properly vet the training data, leading to privacy, software licensing, or copyright violations. According to OWASP, this can lead to biased outcomes, security breaches, or system failures. Preventative measures include: Vet data sources and suppliers carefully. Use only reputable plug-ins and ensure they’ve been tested for your requirements, and use model and code signing when using external models and suppliers. Scan environments for unauthorized plugins and out-of-date components, including the model and its artefacts and have a patching policy to remediate issues. Use comprehensive AI red teaming and evaluation processes when selecting third-party models to identify potential vulnerabilities, biases, or malicious features before deployment. 5. Data and model poisoning Data and model poisoning refers to manipulation of pretraining data or data involved with the fine-tuning or embedding processes to introduce vulnerabilities, backdoors, or biases that could compromise the model, according to OWASP. For example, a malicious attacker or insider who gains access to a training data set can change the data to make the model give incorrect instructions or recommendations to damage the company or benefit the attacker. Preventative measures include: Verify your training data’s supply chain, especially when sourced externally. Craft different models via separate training data or fine-tuning for different use-cases to create a more granular and accurate generative AI output. Ensure sufficient sandboxing to prevent the model from scraping unintended data sources. Use strict vetting or input filters for specific training data or categories of data sources to control volume of falsified data. 6. Unbounded consumption Previously called a model denial of service, unbounded consumption involves an attacker causing an LLM to use an exceptionally high number of resources, resulting in a decline in the quality of service for other users, as well as potentially high resource costs. This issue is becoming more critical due to LLMs’ intensive resource utilization, the unpredictability of user input, and a general lack of awareness among developers regarding this vulnerability, OWASP says. For example, an attacker could use automation to flood a company’s chatbot with complicated queries , each of which takes time — and costs money (aka “denial of wallet”) — to answer. Unbounded consumption also includes model theft, where an attacker is able to ask so many questions that they can effectively reverse engineer the original model or use it to generate synthetic data to build new models. Preventative measures include: Implement input validation and sanitization to ensure user input adheres to defined limits and filters out malicious content. Cap resource use per request or step, so that requests involving complex parts execute slowly; enforce API rate limits per individual user or IP address; or limit the number of queued actions or total actions in a system reacting to LLM responses. Continuously monitor resource utilization to identify abnormal spikes or patterns. Design systems for graceful degradation under heavy load, maintaining partial functionality rather than complete failure. 7. Misinformation LLMs are prone to occasionally generating content that is factually incorrect, inappropriate, or unsafe. Such “hallucinations” can be dangerous, for example, if the LLM is used by a company’s security analysts, says Rik Turner, a senior principal analyst for cybersecurity at Omdia: “If it comes back talking rubbish and the analyst can easily identify it as such, he or she can slap it down and help train the algorithm further. But what if the hallucination is highly plausible and looks like the real thing?” Hallucinations are an even bigger risk when companies deploy LLMs directly to the public, such as with customer service chatbots. When the information provided is dangerous, illegal, or inaccurate, it can cost a company money, reputation loss, or legal risk. The impact of misinformation is amplified by overreliance, where users place excessive trust in LLM-generated content without adequate verification. Key preventative measures include: Require outputs to be grounded in authoritative sources and verify claims before acting. Introduce approval workflows and system checks. Log claims, evidence, and outcomes, and test adversarial scenarios. Regularly test workflows against misleading scenarios. Apply least privilege, sandboxing, and rate limits to limit the potential impact of any incident. 8. Hidden context exposure Hidden prompt exposure expands the previous category of system prompt leakage to include hidden-context scope problems. System prompts are starting instructions given to LLMs to guide their conversations, and can contain sensitive instructions, operational parameters, security controls, business logic, and private corporate information. Enterprises may incorrectly assume these system prompts are kept confidential, but they could be exposed. According to OWASP, the problem isn’t that attackers can get their hands on this system prompt — the problem is that companies are putting sensitive information into this prompt to begin with, including API keys and authentication details. Developers should operate under the assumption that hidden context is potentially discoverable. Key preventative measures include: Store sensitive information such as API keys, authentication details, and database information separate from system prompts, in systems the model cannot directly access. Avoid relying on system prompts for model behavior control; instead implement these controls, such as detecting harmful content, in external systems. Deploy guardrails outside the LLM to inspect model outputs to ensure the model acts as expectated. Implement critical security controls such as privilege separation and authorization checks independently from the LLM in a deterministic, auditable manner. If a workflow involves multiple tasks requiring different levels of access, use multiple agents instead, each configured with the least privileges necessary. 9. Vector and embedding weaknesses Companies often augment LLMs with vector databases and retrieval-augmented generation (RAG) systems, pulling relevant, up-to-date information from corporate data stores before prompts are sent off to the LLMs. In such context, attackers may be able to trick the system into retrieving information they should not have access to, or go after these data sources directly, poisoning the model and making it give incorrect information. According to OWASP, vector and embedding weaknesses are failures in the retrieval substrate of RAG-style systems rather than in the LLM or prompt itself. Embeddings and vector stores offer a distinct attack surface, OWASP says, because they often lack the same access controls and auditability as traditional data stores. For example, multi-tenant or poorly filtered vector stores can return documents across tenants or beyond a user’s authorization, potentially leaking data to attackers. Key preventative measures include: Implement fine-grained access controls and permission-aware vector and embedding stores with strict partitioning of datasets to prevent users from leveraging the LLM to get access to information they shouldn’t. Create strong data validation pipelines that only accept and process information from trusted, verified sources. For user-submitted content, such as resumes, use text extraction tools that detect and flag hidden text. Thoroughly review and classify combined datasets to prevent data mismatch errors and control access levels. 10. Improper output handling Improper output handling refers to insufficient validation, sanitization, and handling of the outputs generated by LLMs before they are passed downstream to other components and systems. Because LLM-generated content can be controlled by prompt input, this behavior is similar to providing users indirect access to additional functionality. For example, if the LLM’s output is sent directly into a system shell or similar function, it can result in remote code execution. The category has been expanded to include insecure code that assistants generate at scale. Preventative measures include: Treat the model as any other user, adopting a zero-trust approach, and apply proper input validation on responses coming from the model to backend functions. Follow the OWASP ASVS (Application Security Verification Standard) guidelines to ensure effective input validation and sanitization and encode the output to mitigate undesired code execution.",
-    "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "saas"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "vulnerability",
-        "threat",
-        "data leak",
-        "security",
-        "cyber",
-        "soc",
-        "red team",
-        "cloud security",
-        "application security"
-      ],
-      "GRC": [
-        "compliance",
-        "audit",
-        "policy",
-        "nist",
-        "privacy"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "expands",
-        "valuation",
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "Enterprise adoption of generative AI technologies has exploded due to the rapid evolution of the technology and the emergence of a variety of business use cases. But large language models (LLMs) can accidentally produce harmful results, leak information, or become exposed to threat actors. These vulnerabilities are changing as the technology evolves and as attackers find new ways to compromise systems. For enterprises, this means the risk of bad publicity, compliance or cybersecurity exposure, legal liability, or even class-action lawsuits."
-  },
-  {
     "title": "Satellite Internet coming to UK rail network as part of £7.8bn space strategy",
     "url": "https://www.datacenterdynamics.com/en/news/satellite-internet-coming-to-uk-rail-network-as-part-of-78bn-space-strategy/",
     "source": "DataCenterDynamics",
@@ -2357,6 +2347,501 @@
       ]
     },
     "summary": "A practical 10-step journey to improve asset availability, efficiency & reduce unplanned uptime"
+  },
+  {
+    "title": "AI more likely to kill animals if it saves fuel or money",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/11/ai-more-likely-to-kill-animals-if-it-saves-fuel-or-money/5295993",
+    "source": "The Register",
+    "published": "2026-09-11T21:49:59+00:00",
+    "raw_text": "Machine learning models still have a lot to learn about the value of life",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Machine learning models still have a lot to learn about the value of life"
+  },
+  {
+    "title": "More JFrog Artifactory bugs under attack, and all 3 have patches",
+    "url": "https://www.theregister.com/security/2026/09/11/more-jfrog-artifactory-bugs-under-attack-and-all-3-have-patches/5295943",
+    "source": "The Register",
+    "published": "2026-09-11T17:43:30+00:00",
+    "raw_text": "If you're waiting for a sign to upgrade to a fixed version: this is it",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "If you're waiting for a sign to upgrade to a fixed version: this is it"
+  },
+  {
+    "title": "Mars astronauts could live in houses made of yeast and jello, say scientists",
+    "url": "https://www.theregister.com/offbeat/2026/09/11/mars-astronauts-could-live-in-houses-made-of-yeast-and-jello-say-scientists/5295931",
+    "source": "The Register",
+    "published": "2026-09-11T16:50:01+00:00",
+    "raw_text": "Low-energy 3D printing could turn Martian dirt into sturdy structures",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Low-energy 3D printing could turn Martian dirt into sturdy structures"
+  },
+  {
+    "title": "Disembodied fruit fly brain joins the crypto speculation swarm",
+    "url": "https://www.theregister.com/offbeat/2026/09/11/disembodied-fruit-fly-brain-joins-the-crypto-speculation-swarm/5295914",
+    "source": "The Register",
+    "published": "2026-09-11T16:03:00+00:00",
+    "raw_text": "Coinbase engineer gives simulated insect $100 and lets its neurons make the trades",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Coinbase engineer gives simulated insect $100 and lets its neurons make the trades"
+  },
+  {
+    "title": "AT&T store worker gets 16 months inside for SIM-swap side hustle",
+    "url": "https://www.theregister.com/cyber-crime/2026/09/11/att-store-worker-gets-16-months-inside-for-sim-swap-side-hustle/5295898",
+    "source": "The Register",
+    "published": "2026-09-11T15:16:00+00:00",
+    "raw_text": "Phone shop staffer claimed he was paid less than $4k for in his part attacks leading to combined intended losses of $600,000",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Phone shop staffer claimed he was paid less than $4k for in his part attacks leading to combined intended losses of $600,000"
+  },
+  {
+    "title": "Higher prices can't crimp server sales as AI drives demand",
+    "url": "https://www.theregister.com/systems/2026/09/11/higher-prices-cant-crimp-server-sales-as-ai-drives-demand/5295827",
+    "source": "The Register",
+    "published": "2026-09-11T14:27:00+00:00",
+    "raw_text": "Shipments rise with enterprise and government buyers joining the hyperscaler spending spree",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "hyperscale"
+      ]
+    },
+    "summary": "Shipments rise with enterprise and government buyers joining the hyperscaler spending spree"
+  },
+  {
+    "title": "Britain's technology brief is now everyone's job and nobody's responsibility",
+    "url": "https://www.theregister.com/public-sector/2026/09/11/britains-technology-brief-is-now-everyones-job-and-nobodys-responsibility/5295849",
+    "source": "The Register",
+    "published": "2026-09-11T13:12:00+00:00",
+    "raw_text": "Whitehall has scattered science, AI, and digital government across a thicket of competing ministerial portfolios",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "Whitehall has scattered science, AI, and digital government across a thicket of competing ministerial portfolios"
+  },
+  {
+    "title": "Ukrainian lawyer's second career as a Conti coder earns him 4 years behind bars",
+    "url": "https://www.theregister.com/cyber-crime/2026/09/11/ukrainian-lawyers-second-career-as-a-conti-coder-earns-him-4-years-behind-bars/5295841",
+    "source": "The Register",
+    "published": "2026-09-11T12:15:00+00:00",
+    "raw_text": "Swapping legal work for malware development ended in extradition and a guilty plea",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware"
+      ]
+    },
+    "summary": "Swapping legal work for malware development ended in extradition and a guilty plea"
+  },
+  {
+    "title": "EU's Cyber Resilience Act starts the 24-hour vulnerability clock",
+    "url": "https://www.theregister.com/security/2026/09/11/eus-cyber-resilience-act-starts-the-24-hour-vulnerability-clock/5295821",
+    "source": "The Register",
+    "published": "2026-09-11T11:34:41+00:00",
+    "raw_text": "Manufacturers must now disclose actively exploited flaws and severe security incidents through ENISA's new reporting platform",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "exploit",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Manufacturers must now disclose actively exploited flaws and severe security incidents through ENISA's new reporting platform"
+  },
+  {
+    "title": "Union body tells UK government workers must get a say before AI clocks in",
+    "url": "https://www.theregister.com/public-sector/2026/09/11/union-body-tells-uk-government-workers-must-get-a-say-before-ai-clocks-in/5295806",
+    "source": "The Register",
+    "published": "2026-09-11T10:35:22+00:00",
+    "raw_text": "TUC warns against letting algorithms call the shots in the workplace",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "TUC warns against letting algorithms call the shots in the workplace"
+  },
+  {
+    "title": "Digital Research's GEM opens a new window on Linux",
+    "url": "https://www.theregister.com/software/2026/09/11/digital-researchs-gem-opens-a-new-window-on-linux/5295546",
+    "source": "The Register",
+    "published": "2026-09-11T09:16:00+00:00",
+    "raw_text": "A radical new way to resolve the Gordian knot of X11 versus Wayland",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "A radical new way to resolve the Gordian knot of X11 versus Wayland"
+  },
+  {
+    "title": "BOFH: Oh no! The CMS ate 500 pages of corporate documentation",
+    "url": "https://www.theregister.com/bofh/2026/09/11/bofh-oh-no-the-cms-ate-500-pages-of-corporate-documentation/5295201",
+    "source": "The Register",
+    "published": "2026-09-11T08:31:00+00:00",
+    "raw_text": "How could such a terrible tragedy have occurred?",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "How could such a terrible tragedy have occurred?"
+  },
+  {
+    "title": "DeepSeek's new model sets a template for powerful LLMs that run lean",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/11/deepseeks-new-model-sets-a-template-for-powerful-llms-that-run-lean/5295715",
+    "source": "The Register",
+    "published": "2026-09-11T07:15:00+00:00",
+    "raw_text": "DeepSeek V4.1 Flash proves that just because you build a bigger model doesn't mean you need more GPUs to serve it",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "DeepSeek V4.1 Flash proves that just because you build a bigger model doesn't mean you need more GPUs to serve it"
+  },
+  {
+    "title": "On Call: Boss wrongly claimed IT deleted his files, refused to learn the one-click fix",
+    "url": "https://www.theregister.com/personal-tech/2026/09/11/on-call-boss-wrongly-claimed-it-deleted-his-files-refused-to-learn-the-one-click-fix/5295448",
+    "source": "The Register",
+    "published": "2026-09-11T06:30:00+00:00",
+    "raw_text": "There's no place like the Home directory, but the Documents folder is sometimes nicer",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "There's no place like the Home directory, but the Documents folder is sometimes nicer"
+  },
+  {
+    "title": "Microsoft annoints Rust as a 'Tier 1' internal language",
+    "url": "https://www.theregister.com/devops/2026/09/11/microsoft-annoints-rust-as-a-tier-1-internal-language/5295732",
+    "source": "The Register",
+    "published": "2026-09-11T06:26:00+00:00",
+    "raw_text": "Redmond's coders get the tool to help them scrub memory bugs off Windows",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Redmond's coders get the tool to help them scrub memory bugs off Windows"
+  },
+  {
+    "title": "Oracle says AI will save it from the SaaSpocalypse, not bring it on",
+    "url": "https://www.theregister.com/software/2026/09/11/oracle-says-ai-will-save-it-from-the-saaspocalypse-not-bring-it-on/5295736",
+    "source": "The Register",
+    "published": "2026-09-11T02:43:10+00:00",
+    "raw_text": "It’s a better interface, can speed installations, and drives IaaS sales too",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "iaas",
+        "saas"
+      ]
+    },
+    "summary": "It’s a better interface, can speed installations, and drives IaaS sales too"
+  },
+  {
+    "title": "OpenAI arms devs with AI conversation tool that can talk and listen at the same time",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/10/openai-arms-devs-with-ai-conversation-tool-that-can-talk-and-listen-at-the-same-time/5295708",
+    "source": "The Register",
+    "published": "2026-09-10T22:59:00+00:00",
+    "raw_text": "GPT-Live-1 makes speaking to AI models more fluid",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "GPT-Live-1 makes speaking to AI models more fluid"
+  },
+  {
+    "title": "Latest Anthropic horror story chills with tales of kamikaze drone swarms and bioweapons research",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/10/latest-anthropic-horror-story-chills-with-tales-of-kamikaze-drone-swarms-and-bioweapons-research/5295702",
+    "source": "The Register",
+    "published": "2026-09-10T22:38:35+00:00",
+    "raw_text": "Everyone from ShinyHunters to Russian freelancers is in on the illicit model fun",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Everyone from ShinyHunters to Russian freelancers is in on the illicit model fun"
+  },
+  {
+    "title": "Watch out: Apple timepiece can grab snippets of conversation without both speakers' consent",
+    "url": "https://www.theregister.com/security/2026/09/10/watch-out-apple-timepiece-can-grab-snippets-of-conversation-without-both-speakers-consent/5295666",
+    "source": "The Register",
+    "published": "2026-09-10T19:50:24+00:00",
+    "raw_text": "War is peace. Freedom is slavery. Privacy is surveillance",
+    "categories": [
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "privacy"
+      ]
+    },
+    "summary": "War is peace. Freedom is slavery. Privacy is surveillance"
+  },
+  {
+    "title": "Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line",
+    "url": "https://www.theregister.com/devops/2026/09/10/shopify-extends-lifeline-to-tailwind-as-vibe-coding-erodes-web-dev-platforms-bottom-line/5295672",
+    "source": "The Register",
+    "published": "2026-09-10T19:43:55+00:00",
+    "raw_text": "Acquisition gives open source CSS framework 'a stable long-term home'",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquisition"
+      ]
+    },
+    "summary": "Acquisition gives open source CSS framework 'a stable long-term home'"
+  },
+  {
+    "title": "Hundreds of AI agents helped PaperCut attacker hit 395+ orgs, and some went off script",
+    "url": "https://www.theregister.com/security/2026/09/10/hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-script/5295650",
+    "source": "The Register",
+    "published": "2026-09-10T18:49:43+00:00",
+    "raw_text": "Human operator: don't touch CIS orgs. AI agents: look a squirrel!",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Human operator: don't touch CIS orgs. AI agents: look a squirrel!"
+  },
+  {
+    "title": "OpenAI's website-hijacking swarm reached far further than we thought",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/10/openais-website-hijacking-swarm-reached-far-further-than-we-thought/5295644",
+    "source": "The Register",
+    "published": "2026-09-10T18:15:10+00:00",
+    "raw_text": "New report points finger at OpenAI bots that hijacked a German wiki for improper use of an additional 20 websites, and 14 fetching services",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "New report points finger at OpenAI bots that hijacked a German wiki for improper use of an additional 20 websites, and 14 fetching services"
+  },
+  {
+    "title": "AI job cuts could come with a costly undo button",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-job-cuts-could-come-with-a-costly-undo-button/5295605",
+    "source": "The Register",
+    "published": "2026-09-10T16:21:22+00:00",
+    "raw_text": "Gartner reckons nearly a third of displaced employees may be rehired by 2029 – at a premium",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "gartner"
+      ]
+    },
+    "summary": "Gartner reckons nearly a third of displaced employees may be rehired by 2029 – at a premium"
+  },
+  {
+    "title": "NASA and IBM open source lunar mapping tools",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/10/nasa-and-ibm-open-source-lunar-mapping-tools/5295633",
+    "source": "The Register",
+    "published": "2026-09-10T16:09:12+00:00",
+    "raw_text": "Can help you pick the perfect spot for your future evil lair, or boffins make discoveries about Earth's satellite",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ibm"
+      ]
+    },
+    "summary": "Can help you pick the perfect spot for your future evil lair, or boffins make discoveries about Earth's satellite"
+  },
+  {
+    "title": "Azure SQL Data Sync stops taking newcomers before 2027 execution",
+    "url": "https://www.theregister.com/databases/2026/09/10/azure-sql-data-sync-stops-taking-newcomers-before-2027-execution/5295579",
+    "source": "The Register",
+    "published": "2026-09-10T14:47:00+00:00",
+    "raw_text": "Existing customers can carry on for now, but Microsoft offers no like-for-like successor",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ]
+    },
+    "summary": "Existing customers can carry on for now, but Microsoft offers no like-for-like successor"
+  },
+  {
+    "title": "Nscale swallows lion's share of UK datacenter investment",
+    "url": "https://www.theregister.com/on-prem/2026/09/10/nscale-swallows-lions-share-of-uk-datacenter-investment/5295541",
+    "source": "The Register",
+    "published": "2026-09-10T14:08:00+00:00",
+    "raw_text": "Tracxn credits one AI infrastructure outfit with $3.7B of sector's $5.7B haul",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "datacenter",
+        "ai infrastructure"
+      ],
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "Tracxn credits one AI infrastructure outfit with $3.7B of sector's $5.7B haul"
+  },
+  {
+    "title": "ShinyHunters expose 6.4M in attack on medical supplier McKesson",
+    "url": "https://www.theregister.com/security/2026/09/10/shinyhunters-expose-64m-in-attack-on-medical-supplier-mckesson/5295550",
+    "source": "The Register",
+    "published": "2026-09-10T13:13:00+00:00",
+    "raw_text": "Have I Been Pwned logs leaked records spanning patients, staff, and providers",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Have I Been Pwned logs leaked records spanning patients, staff, and providers"
+  },
+  {
+    "title": "d-Matrix drinks the Nvidia Kool-Aid with NVLink Fusion and MGX rack designs",
+    "url": "https://www.theregister.com/systems/2026/09/10/d-matrix-drinks-the-nvidia-kool-aid-with-nvlink-fusion-and-mgx-rack-designs/5295403",
+    "source": "The Register",
+    "published": "2026-09-10T13:00:00+00:00",
+    "raw_text": "AI infrastructure startup joins Qualcomm, Arm, Marvell, Amazon, Fujitsu, and MediaTek as NVLink true believers",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "rack",
+        "ai infrastructure"
+      ]
+    },
+    "summary": "AI infrastructure startup joins Qualcomm, Arm, Marvell, Amazon, Fujitsu, and MediaTek as NVLink true believers"
+  },
+  {
+    "title": "Ministers rejected NATS reimbursement plan before 2,000 UK flights were cancelled",
+    "url": "https://www.theregister.com/public-sector/2026/09/10/ministers-rejected-nats-reimbursement-plan-before-2000-uk-flights-were-cancelled/5295529",
+    "source": "The Register",
+    "published": "2026-09-10T12:28:32+00:00",
+    "raw_text": "Government orders independent review as carriers demand boss's resignation",
+    "categories": [
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "Government orders independent review as carriers demand boss's resignation"
+  },
+  {
+    "title": "Trezor, BitBox users targeted in newsletter phishing spree",
+    "url": "https://www.theregister.com/cyber-crime/2026/09/10/trezor-bitbox-users-targeted-in-newsletter-phishing-spree/5295496",
+    "source": "The Register",
+    "published": "2026-09-10T11:30:00+00:00",
+    "raw_text": "Attackers exploit legitimate mailing channels to demand crypto wallet backups",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "phishing",
+        "exploit"
+      ]
+    },
+    "summary": "Attackers exploit legitimate mailing channels to demand crypto wallet backups"
+  },
+  {
+    "title": "AI uprising postponed after Copilot falls off the web",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-uprising-postponed-after-copilot-falls-off-the-web/5295475",
+    "source": "The Register",
+    "published": "2026-09-10T10:30:50+00:00",
+    "raw_text": "Error 1016 kept the chatbot quiet for 100 minutes while a separate resilience drill swallowed suggestion pills",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Error 1016 kept the chatbot quiet for 100 minutes while a separate resilience drill swallowed suggestion pills"
+  },
+  {
+    "title": "German optics giant ditches greenfield SAP migration",
+    "url": "https://www.theregister.com/software/2026/09/10/german-optics-giant-ditches-greenfield-sap-migration/5295251",
+    "source": "The Register",
+    "published": "2026-09-10T09:45:00+00:00",
+    "raw_text": "'Realigned' project plan aims to move existing landscape to new platform to 'achieve faster progress'",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "'Realigned' project plan aims to move existing landscape to new platform to 'achieve faster progress'"
+  },
+  {
+    "title": "Digital sovereignty sounds great until you try ditching your suppliers",
+    "url": "https://www.theregister.com/paas-and-iaas/2026/09/10/digital-sovereignty-sounds-great-until-you-try-ditching-your-suppliers/5294997",
+    "source": "The Register",
+    "published": "2026-09-10T09:05:00+00:00",
+    "raw_text": "Most organizations say tech independence is unrealistic – and one in ten can't replace a critical provider at all",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Most organizations say tech independence is unrealistic – and one in ten can't replace a critical provider at all"
   },
   {
     "title": "US lawmakers call for UK court to lift secrecy over Apple ‘backdoor’ surveillance",
@@ -2854,6 +3339,18 @@
     "summary": "<p>IBM and NASA have published&nbsp;the open NASA‑IBM Lunar Foundation Model on <a href=\"https://www.computerweekly.com/news/366650116/Nvidia-acquires-Hugging-Face-and-becomes-open-platform-provider\">Hugging Face</a>. The pair describe the model as one of the first publicly available foundation models for scientific exploration of the Moon, turning decades of lunar observations into a foundation for discovery, to help scientists surface patterns across data at a scale they claim no single instrument has previously provided.</p> <p>The model extends an established IBM and NASA collaboration that transforms scientific data into an openly available foundation for discovery for the entire scientific community.&nbsp;</p> <p>In 2024, the two organisations created a family of <a href=\"https://www.computerweekly.com/news/365529777/NASA-works-with-IBM-for-foundational-data-model-for-Earth-science\">AI foundation models for Earth</a> called Prithvi. These geospatial foundation models were made available on Hugging Face for open science users, startups and enterprises to simplify model training and deployment.</p> <p><a href=\"https://www.techtarget.com/ai/news/366629781/IBM-NASA-Surya-open-source-AI-model-forecasts-solar-flares\">In 2025, IBM and NASA made Surya</a>, the first heliophysics AI foundation model trained on high resolution solar observation data, available on Hugging Face. According to IBM and NASA, this model offers insights into the Sun’s dynamic surface, and can be used to help plan for solar weather that can disrupt technology on Earth and in space.</p> <p>The latest NASA‑IBM Lunar Foundation Model has been trained on a lunar observation dataset curated by IBM and NASA researchers, which provides multi-instrument data into insights to support the establishment of a sustained human presence on the Moon.</p> <p>For decades, sensors and instruments have continuously observed the Moon, generating petabytes of data."
   },
   {
+    "title": "ARTiSTORY's Four IAI Awards Signal a New Era for Cultural IP: From Licensing Assets to Building Global Cultural Brands",
+    "url": "https://www.prnewswire.com/news-releases/artistorys-four-iai-awards-signal-a-new-era-for-cultural-ip-from-licensing-assets-to-building-global-cultural-brands-302876422.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-12T08:00:00+00:00",
+    "raw_text": "Following four honors at the 26th International Advertising Institute Awards (IAI Awards) and a debut in License Global's Top 60, ARTiSTORY is advancing a model that connects cultural heritage, brand strategy, creative storytelling and global licensing. SHANGHAI, Sept. 12, 2026...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Following four honors at the 26th International Advertising Institute Awards (IAI Awards) and a debut in License Global's Top 60, ARTiSTORY is advancing a model that connects cultural heritage, brand strategy, creative storytelling and global licensing. SHANGHAI, Sept. 12, 2026..."
+  },
+  {
     "title": "Amid a Changing Global Landscape, Countries Seek Investment Opportunities at CIFIT",
     "url": "https://www.prnewswire.com/news-releases/amid-a-changing-global-landscape-countries-seek-investment-opportunities-at-cifit-302876826.html",
     "source": "PR Newswire - Technology",
@@ -3184,26 +3681,6 @@
     "summary": "NEW YORK and NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., remind investors with substantial losses that they have until October 13, 2026 to file lead plaintiff applications in a..."
   },
   {
-    "title": "Beta Bionics, Inc. Notice of November 3, 2026 Application Deadline for Class Action Lawsuit - Contact Lewis Kahn, Esq. at Kahn Swick & Foti, LLC, Before Application Deadline",
-    "url": "https://www.prnewswire.com/news-releases/beta-bionics-inc-notice-of-november-3-2026-application-deadline-for-class-action-lawsuit---contact-lewis-kahn-esq-at-kahn-swick--foti-llc-before-application-deadline-302876746.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-12T02:00:00+00:00",
-    "raw_text": "NEW YORK and NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\") (NasdaqGM: BBNX) of a class action securities...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK and NEW ORLEANS, Sept. 11, 2026 /PRNewswire/ -- Kahn Swick & Foti, LLC (\"KSF\") and KSF partner, former Attorney General of Louisiana, Charles C. Foti, Jr., notifies investors in Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\") (NasdaqGM: BBNX) of a class action securities..."
-  },
-  {
     "title": "New Crypto: Pepeto Announces $10.96M Raised While Ethereum Price Prediction Climbs to $40,000",
     "url": "https://www.globenewswire.com/news-release/2026/09/12/3360569/0/en/new-crypto-pepeto-announces-10-96m-raised-while-ethereum-price-prediction-climbs-to-40-000.html",
     "source": "GlobeNewswire - Technology",
@@ -3517,11 +3994,11 @@
     "summary": "Community invited to tour Kokomo's newest luxury apartment community, meet the team, and take advantage of exclusive grand opening leasing offers Community invited to tour Kokomo's newest luxury apartment community, meet the team, and take advantage of exclusive grand opening leasing offers"
   },
   {
-    "title": "Cybersecurity News: NetScaler vulnerability exploited, AdaptHealth suffers breach, new Android malware - CISO Series",
+    "title": "Cybersecurity News: NetScaler vulnerability exploited, AdaptHealth suffers breach, new Android malware - cisoseries.com",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUGlXdDgyUHp1TzJkZDFSSnFadGU1clNzRi1RWHdEajU4TGhOZVNoaWExMTI4RXFzN0hZNzFIZjdwT0I2YmlxTzdLa01WRW1fM3JFd25zSVpPWEVyYVVWNThqbEx1eWhaX1hFeUtvVHg5N0JFQVFLWnN2bl95UW45YXlkUUlULVZhYnhFWUFPRDg4VWx5eXZidVhHdDJ3U05WWWo5cVd2bm5BX0VZQlRwWnZQaTNwaFBsaWdvTlhzSVI?oc=5",
     "source": "Google News: Cybersecurity",
     "published": "2026-09-11T10:00:00+00:00",
-    "raw_text": "Cybersecurity News: NetScaler vulnerability exploited, AdaptHealth suffers breach, new Android malware CISO Series",
+    "raw_text": "Cybersecurity News: NetScaler vulnerability exploited, AdaptHealth suffers breach, new Android malware cisoseries.com",
     "categories": [
       "Cybersecurity"
     ],
@@ -3535,7 +4012,7 @@
         "cyber"
       ]
     },
-    "summary": "Cybersecurity News: NetScaler vulnerability exploited, AdaptHealth suffers breach, new Android malware CISO Series"
+    "summary": "Cybersecurity News: NetScaler vulnerability exploited, AdaptHealth suffers breach, new Android malware cisoseries.com"
   },
   {
     "title": "The 10 Biggest Tech M&A Deals In 2026 (So Far) - crn.com",
