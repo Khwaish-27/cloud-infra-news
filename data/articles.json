@@ -92,80 +92,45 @@
     "summary": "The \"major malicious attack\" that targeted RubyGems in May 2026 was the work of a swarm of OpenAI agents, according to a new report published by researchers Spencer Kitts, Thomas Larsen, and Sydney Von Arx. On May 12, Maciej Mensfeld, senior product manager for software supply chain security at Mend.io, disclosed details of a coordinated cyber attack that targeted the package manager for the"
   },
   {
-    "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-    "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-    "source": "The Hacker News",
-    "published": "2026-09-11T16:30:18+00:00",
-    "raw_text": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under",
+    "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+    "source": "BleepingComputer",
+    "published": "2026-09-14T07:06:27+00:00",
+    "raw_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]",
     "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
       "Cybersecurity": [
         "vulnerability",
-        "cve",
-        "security"
-      ]
-    },
-    "summary": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under"
-  },
-  {
-    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-    "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-    "source": "The Hacker News",
-    "published": "2026-09-11T16:15:29+00:00",
-    "raw_text": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself is a legitimate training method. It refers to a machine learning technique where a large, powerful AI model assumes the role of a \"teacher\" to",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself is a legitimate training method. It refers to a machine learning technique where a large, powerful AI model assumes the role of a \"teacher\" to"
-  },
-  {
-    "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-    "source": "The Hacker News",
-    "published": "2026-09-11T14:29:47+00:00",
-    "raw_text": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threat actors, which the artificial intelligence (AI) company has branded Generative Threat Groups (GTGs), span state-sponsored groups, financially motivated criminals, commercial",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
         "exploit",
         "hacker",
-        "threat",
+        "security",
         "cyber"
       ]
     },
-    "summary": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threat actors, which the artificial intelligence (AI) company has branded Generative Threat Groups (GTGs), span state-sponsored groups, financially motivated criminals, commercial"
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned that hackers are now exploiting a maximum-severity GitLab vulnerability in attacks. [...]"
   },
   {
-    "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-    "source": "The Hacker News",
-    "published": "2026-09-11T14:10:20+00:00",
-    "raw_text": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. The operation has been attributed to a cyber espionage group it calls GTG-20006 (where \"GTG\" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight",
+    "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+    "source": "BleepingComputer",
+    "published": "2026-09-13T14:26:32+00:00",
+    "raw_text": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
         "malware",
+        "vulnerability",
+        "cve",
+        "exploit",
         "hacker",
-        "threat",
-        "cyber"
+        "threat"
       ]
     },
-    "summary": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. The operation has been attributed to a cyber espionage group it calls GTG-20006 (where \"GTG\" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight"
+    "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]"
   },
   {
     "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
@@ -199,102 +164,139 @@
     "summary": "The Dutch Nationaal Cyber Security Centrum (NCSC) is warning of imminent exploitation of two critical flaws in Check Point VPN tracked as CVE-2026-85102 and CVE-2026-85103. [...]"
   },
   {
-    "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-    "source": "BleepingComputer",
-    "published": "2026-09-11T20:19:09+00:00",
-    "raw_text": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]",
+    "title": "Debian 13.7 ships the fixes behind 92 security advisories, updates 106 packages",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/debian-13-7-point-release/",
+    "source": "Help Net Security",
+    "published": "2026-09-14T07:40:52+00:00",
+    "raw_text": "The Debian project shipped Debian 13.7 codenamed “trixie.” The project folded in 92 security advisories it had already published separately, added corrections to 106 source packages, and rebuilt the installer around both. Six of the 92 advisories cover the Linux kernel, each listing the linux source package alongside the signed amd64 and arm64 builds: DSA-6381, DSA-6393, DSA-6405, DSA-6415, DSA-6466 and DSA-6477. Anyone installing from older trixie media gets package versions that predate this whole set, … More → The post Debian 13.7 ships the fixes behind 92 security advisories, updates 106 packages appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "hacker",
-        "threat"
+        "security"
       ]
     },
-    "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [...]"
+    "summary": "The Debian project shipped Debian 13.7 codenamed “trixie.” The project folded in 92 security advisories it had already published separately, added corrections to 106 source packages, and rebuilt the installer around both. Six of the 92 advisories cover the Linux kernel, each listing the linux source package alongside the signed amd64 and arm64 builds: DSA-6381, DSA-6393, DSA-6405, DSA-6415, DSA-6466 and DSA-6477. Anyone installing from older trixie media gets package versions that predate this whole set, … More → The post Debian 13.7 ships the fixes behind 92 security advisories, updates 106 packages appeared first on Help Net Security ."
   },
   {
-    "title": "Florida confirms DMV database breached via stolen police account",
-    "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
-    "source": "BleepingComputer",
-    "published": "2026-09-11T19:00:29+00:00",
-    "raw_text": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police department employee. [...]",
+    "title": "What we know about the Revolut data breach so far",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/revolut-data-breach-privacy/",
+    "source": "Help Net Security",
+    "published": "2026-09-14T07:02:51+00:00",
+    "raw_text": "Someone impersonating a government agency, using an email address on that agency’s domain, obtained sensitive customer records from Revolut. The bank confirmed the incident on Saturday, September 12. The London-based fintech told TechCrunch that a limited number of customers were affected and that it had contacted them directly. The notification Revolut emailed affected customers listed birth dates, postal and email addresses, phone numbers, and copies of identity documents such as passports and driving licences. Verification … More → The post What we know about the Revolut data breach so far appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "breach"
+        "breach",
+        "security"
       ]
     },
-    "summary": "The Florida Department of Highway Safety and Motor Vehicles (FLHSMV) has confirmed that its DAVID driver database suffered a data breach, saying the attackers gained access using credentials belonging to a police department employee. [...]"
+    "summary": "Someone impersonating a government agency, using an email address on that agency’s domain, obtained sensitive customer records from Revolut. The bank confirmed the incident on Saturday, September 12. The London-based fintech told TechCrunch that a limited number of customers were affected and that it had contacted them directly. The notification Revolut emailed affected customers listed birth dates, postal and email addresses, phone numbers, and copies of identity documents such as passports and driving licences."
   },
   {
-    "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-    "url": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-    "source": "BleepingComputer",
-    "published": "2026-09-11T17:26:50+00:00",
-    "raw_text": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]",
+    "title": "Turn it off and on again, but for critical infrastructure",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/ot-intrusion-response-agent/",
+    "source": "Help Net Security",
+    "published": "2026-09-14T06:00:04+00:00",
+    "raw_text": "Researchers at KTH Royal Institute of Technology built a container replica of a segmented industrial network, attacked it repeatedly across 14 days of running time, and used the captured traffic to train a defense agent that decides on its own when to intervene. The agent sees six numbers per interval: packet counts crossing the network’s segments and moving to and from individual machines. From those counts it infers how far an intruder has progressed, and … More → The post Turn it off and on again, but for critical infrastructure appeared first on Help Net Security .",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Researchers at KTH Royal Institute of Technology built a container replica of a segmented industrial network, attacked it repeatedly across 14 days of running time, and used the captured traffic to train a defense agent that decides on its own when to intervene. The agent sees six numbers per interval: packet counts crossing the network’s segments and moving to and from individual machines. From those counts it infers how far an intruder has progressed, and … More → The post Turn it off and on again, but for critical infrastructure appeared first on Help Net Security ."
+  },
+  {
+    "title": "Permify: Open-source authorization as a service",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/permify-open-source-authorization-as-a-service/",
+    "source": "Help Net Security",
+    "published": "2026-09-14T05:30:58+00:00",
+    "raw_text": "Permify is an open-source authorization service that answers access questions at run time: can user X view document Y, which posts can members of team Y edit. It keeps those rules in one place, apart from the application code that would otherwise carry them. Permify follows the design of Google Zanzibar, the authorization system Google runs across its own products. Teams reach for something like it when permissions get specific and start nesting inside each … More → The post Permify: Open-source authorization as a service appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Permify is an open-source authorization service that answers access questions at run time: can user X view document Y, which posts can members of team Y edit. It keeps those rules in one place, apart from the application code that would otherwise carry them. Permify follows the design of Google Zanzibar, the authorization system Google runs across its own products. Teams reach for something like it when permissions get specific and start nesting inside each … More → The post Permify: Open-source authorization as a service appeared first on Help Net Security ."
+  },
+  {
+    "title": "Cybersecurity attention fades within months after a breach",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/manageengine-cybersecurity-breach-confidence-report/",
+    "source": "Help Net Security",
+    "published": "2026-09-14T05:00:57+00:00",
+    "raw_text": "Cybersecurity attention often rises after an incident, then recedes as organizations return to their existing priorities and practices, according to a new ManageEngine survey of 700 IT and cybersecurity leaders in the US and Canada. (Source: ManageEngine) All of them had already been through a breach or incident. Still, 91% said they trust their organization’s current cybersecurity posture. Only 8% said cybersecurity becomes a permanent priority once the incident is behind them. “The belief that … More → The post Cybersecurity attention fades within months after a breach appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "phishing",
-        "threat",
-        "soc"
+        "breach",
+        "security",
+        "cyber"
       ],
       "Industry & Market": [
         "ey"
       ]
     },
-    "summary": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]"
+    "summary": "Cybersecurity attention often rises after an incident, then recedes as organizations return to their existing priorities and practices, according to a new ManageEngine survey of 700 IT and cybersecurity leaders in the US and Canada. (Source: ManageEngine) All of them had already been through a breach or incident. Still, 91% said they trust their organization’s current cybersecurity posture. Only 8% said cybersecurity becomes a permanent priority once the incident is behind them."
   },
   {
-    "title": "Artifactory flaws chained in attacks deploying backdoor malware",
-    "url": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
-    "source": "BleepingComputer",
-    "published": "2026-09-11T16:29:44+00:00",
-    "raw_text": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
+    "title": "Certificate failures can cost firms over $250,000",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/digicert-certificate-management-automation-report/",
+    "source": "Help Net Security",
+    "published": "2026-09-14T04:30:38+00:00",
+    "raw_text": "The move toward 47-day public TLS certificates by 2029 will increase the certificate management workload for enterprises, according to DigiCert’s Certificate Management Outlook. Organizations will need to renew certificates more than eight times as often as under the previous certificate lifecycle and conduct 40 times as many domain validations. What certificate management challenges were listed as a combination of very or extremely concerned? (Source: DigiCert) Certificate failures cause costly outages Certificate failures can disrupt business … More → The post Certificate failures can cost firms over $250,000 appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "The move toward 47-day public TLS certificates by 2029 will increase the certificate management workload for enterprises, according to DigiCert’s Certificate Management Outlook. Organizations will need to renew certificates more than eight times as often as under the previous certificate lifecycle and conduct 40 times as many domain validations. What certificate management challenges were listed as a combination of very or extremely concerned? (Source: DigiCert) Certificate failures cause costly outages Certificate failures can disrupt business … More → The post Certificate failures can cost firms over $250,000 appeared first on Help Net Security ."
+  },
+  {
+    "title": "AWS puts AI vulnerability detection to the test, and false positives pile up",
+    "url": "https://www.helpnetsecurity.com/2026/09/14/aws-deception-benchmark-security-vulnerabilities/",
+    "source": "Help Net Security",
+    "published": "2026-09-14T04:00:14+00:00",
+    "raw_text": "AWS’ Deception Benchmark measures how well AI models distinguish genuine security vulnerabilities from code that looks risky but is safe. AWS is making it publicly available so researchers can use the dataset and evaluation process without repeating the cost of generating and refining the samples. Security teams use AI for vulnerability triage, penetration testing, threat modeling, incident response, and code review. High false-positive rates can create more work, increase alert fatigue, and reduce confidence in … More → The post AWS puts AI vulnerability detection to the test, and false positives pile up appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity",
       "Cloud Infrastructure",
-      "GRC"
+      "Industry & Market"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
         "aws"
       ],
       "Cybersecurity": [
-        "malware",
-        "exploit",
-        "threat"
+        "vulnerability",
+        "threat",
+        "security",
+        "incident response",
+        "penetration testing"
       ],
-      "GRC": [
-        "nist"
+      "Industry & Market": [
+        "valuation"
       ]
     },
-    "summary": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]"
-  },
-  {
-    "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-    "url": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-    "source": "BleepingComputer",
-    "published": "2026-09-11T14:01:11+00:00",
-    "raw_text": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "threat"
-      ]
-    },
-    "summary": "Threat actors are abusing trusted AI platforms to host malicious content, poison search results, and trick users into installing malware. Huntress examines campaigns targeting AI users through weaponized Claude Artifacts, shared AI conversations, sponsored search results, and ClickFix-style lures. [...]"
+    "summary": "AWS’ Deception Benchmark measures how well AI models distinguish genuine security vulnerabilities from code that looks risky but is safe. AWS is making it publicly available so researchers can use the dataset and evaluation process without repeating the cost of generating and refining the samples. Security teams use AI for vulnerability triage, penetration testing, threat modeling, incident response, and code review. High false-positive rates can create more work, increase alert fatigue, and reduce confidence in … More → The post AWS puts AI vulnerability detection to the test, and false positives pile up appeared first on Help Net Security ."
   },
   {
     "title": "Week in review: Linux rootkit deployed on F5 BIG-IP APM devices, Cisco FMC bugs exploited",
@@ -313,93 +315,6 @@
       ]
     },
     "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Zero trust AI agents demand a different kind of security In this interview, Chris Webber, VP, Product Marketing at Teleport, explains why zero trust principles need to change for AI agents. He covers how agents act fast, unpredictably, and continuously, and why old ideas like least privilege and point-in-time verification fall short. AI-Infra-Guard: Open-source security scanner for AI systems Tencent’s … More → The post Week in review: Linux rootkit deployed on F5 BIG-IP APM devices, Cisco FMC bugs exploited appeared first on Help Net Security ."
-  },
-  {
-    "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days",
-    "source": "Dark Reading",
-    "published": "2026-09-11T19:21:08+00:00",
-    "raw_text": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "cyber"
-      ]
-    },
-    "summary": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI."
-  },
-  {
-    "title": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
-    "url": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate",
-    "source": "Dark Reading",
-    "published": "2026-09-11T18:44:03+00:00",
-    "raw_text": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "cyber",
-        "incident response"
-      ],
-      "GRC": [
-        "regulatory"
-      ]
-    },
-    "summary": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols."
-  },
-  {
-    "title": "Why AI Is So Good at Scamming Humans",
-    "url": "https://www.darkreading.com/cyber-risk/ai-scamming-humans",
-    "source": "Dark Reading",
-    "published": "2026-09-11T18:14:06+00:00",
-    "raw_text": "Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency."
-  },
-  {
-    "title": "AI Governance Can't Wait",
-    "url": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
-    "source": "Dark Reading",
-    "published": "2026-09-11T17:10:56+00:00",
-    "raw_text": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "GRC": [
-        "governance"
-      ]
-    },
-    "summary": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks."
-  },
-  {
-    "title": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
-    "url": "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain",
-    "source": "Dark Reading",
-    "published": "2026-09-11T15:48:27+00:00",
-    "raw_text": "From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI.",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
-      ]
-    },
-    "summary": "From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI."
   },
   {
     "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
@@ -430,6 +345,22 @@
     "summary": "No summary available."
   },
   {
+    "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+    "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+    "source": "SecurityWeek",
+    "published": "2026-09-13T13:27:25+00:00",
+    "raw_text": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet. The post Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet. The post Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up appeared first on SecurityWeek ."
+  },
+  {
     "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
     "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
     "source": "SecurityWeek",
@@ -453,267 +384,74 @@
     "summary": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments. The post BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days appeared first on SecurityWeek ."
   },
   {
-    "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
-    "url": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
-    "source": "SecurityWeek",
-    "published": "2026-09-12T01:50:53+00:00",
-    "raw_text": "Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket. The post Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says appeared first on SecurityWeek .",
+    "title": "Sponsored: Gerchamp launches modular AI data center to bring high-density compute to available power",
+    "url": "https://www.datacenterdynamics.com/en/product-news/gerchamp-launches-modular-ai-data-center-to-bring-high-density-compute-to-available-power/",
+    "source": "DataCenterDynamics",
+    "published": "2026-09-14T07:00:00+00:00",
+    "raw_text": "AI infrastructure for sites with available power, with rapid deployment from factory-assembled systems",
     "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Anthropic said the users did not succeed in “fielding an operational device” but did carry out a failed test of a guided rocket. The post Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Phishing Research Challenges Conventional Security Awareness Testing",
-    "url": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
-    "source": "SecurityWeek",
-    "published": "2026-09-11T17:23:36+00:00",
-    "raw_text": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks. The post Phishing Research Challenges Conventional Security Awareness Testing appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "security"
-      ]
-    },
-    "summary": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks. The post Phishing Research Challenges Conventional Security Awareness Testing appeared first on SecurityWeek ."
-  },
-  {
-    "title": "GitLab Vulnerability Exploited One Day After Disclosure",
-    "url": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
-    "source": "SecurityWeek",
-    "published": "2026-09-11T16:11:08+00:00",
-    "raw_text": "The critical-severity path traversal flaw allows unauthenticated attackers to read arbitrary files from the GitLab server. The post GitLab Vulnerability Exploited One Day After Disclosure appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "exploit",
-        "security"
-      ]
-    },
-    "summary": "The critical-severity path traversal flaw allows unauthenticated attackers to read arbitrary files from the GitLab server. The post GitLab Vulnerability Exploited One Day After Disclosure appeared first on SecurityWeek ."
-  },
-  {
-    "title": "In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review",
-    "url": "https://www.securityweek.com/in-other-news-injecteave-attack-sim-swapper-sentenced-glasswing-findings-review/",
-    "source": "SecurityWeek",
-    "published": "2026-09-11T14:19:18+00:00",
-    "raw_text": "Noteworthy stories that might have slipped under the radar: Invisible Unicode slips past phishing filters, US puts $10 million bounty on Iranian cyber official, military ties of Chinese hacking group QTFY. The post In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "Noteworthy stories that might have slipped under the radar: Invisible Unicode slips past phishing filters, US puts $10 million bounty on Iranian cyber official, military ties of Chinese hacking group QTFY. The post In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack",
-    "url": "https://www.securityweek.com/trezor-says-347000-users-received-phishing-emails-after-brevo-hack/",
-    "source": "SecurityWeek",
-    "published": "2026-09-11T12:48:04+00:00",
-    "raw_text": "Hackers compromised the Brevo marketing platform and used that access to send phishing emails to users of Trezor, BitBox, and CoinTracking. The post Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "hacker",
-        "security"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Hackers compromised the Brevo marketing platform and used that access to send phishing emails to users of Trezor, BitBox, and CoinTracking. The post Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Hackers Favor US Eastern Business Hours in M365 Phishing Campaign",
-    "url": "https://www.infosecurity-magazine.com/news/hackers-us-business-hours-m365/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-09-11T13:30:00+00:00",
-    "raw_text": "KnowBe4 researchers observed a new phishing campaign leveraging Microsoft 365’s Direct Send to send malicious emails",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "hacker"
-      ]
-    },
-    "summary": "KnowBe4 researchers observed a new phishing campaign leveraging Microsoft 365’s Direct Send to send malicious emails"
-  },
-  {
-    "title": "Introducing automatic remediation policies with Cloudflare CASB",
-    "url": "https://blog.cloudflare.com/casb-policies/",
-    "source": "Cloudflare Blog",
-    "published": "2026-09-11T13:00:00+00:00",
-    "raw_text": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "saas"
-      ],
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention."
-  },
-  {
-    "title": "Why AI raises the stakes for exposure validation",
-    "url": "https://www.csoonline.com/article/4221299/why-ai-raises-the-stakes-for-exposure-validation.html",
-    "source": "CSO Online",
-    "published": "2026-09-11T21:49:32+00:00",
-    "raw_text": "AI dominated the conversation at Fal.Con 2026, but one of the most important takeaways wasn’t simply how AI is changing cyber defense. It was how AI is changing the speed and scale of a problem defenders already face. Security teams already have more vulnerabilities and security signals than they can reasonably act on. As AI makes it faster to discover vulnerabilities and determine whether they can be exploited, finding more weaknesses only makes one question more important: Which exposures actually matter in my environment? That question surfaced throughout Fal.Con. In his keynote, CrowdStrike CEO George Kurtz spoke about AI as the new cyber battlefield, offense informing defense, AI red teaming, and the need for a continuous approach to security. For defenders, that means moving beyond theoretical risk to understand what attackers can exploit in their specific environments. Can credentials be abused? Can weaknesses be chained together? Can attackers move laterally or escalate privileges? Can they reach critical systems or data? Answering those questions gives security teams evidence they can use to prioritize what matters most, remediate with clarity, and verify that their actions actually reduced exposure. As AI increases attacker speed and scale, that evidence becomes more important, not less. Read Horizon3’s full Fal.Con 2026 perspective on why AI is making exposure validation more critical than ever.",
-    "categories": [
-      "Cybersecurity",
+      "Data Centres",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "exploit",
-        "security",
-        "cyber",
-        "red team"
+      "Data Centres": [
+        "data center",
+        "ai infrastructure"
       ],
       "Industry & Market": [
-        "raises",
-        "ey"
+        "launches"
       ]
     },
-    "summary": "AI dominated the conversation at Fal.Con 2026, but one of the most important takeaways wasn’t simply how AI is changing cyber defense. It was how AI is changing the speed and scale of a problem defenders already face. Security teams already have more vulnerabilities and security signals than they can reasonably act on. As AI makes it faster to discover vulnerabilities and determine whether they can be exploited, finding more weaknesses only makes one question more important: Which exposures actually matter in my environment?"
+    "summary": "AI infrastructure for sites with available power, with rapid deployment from factory-assembled systems"
   },
   {
-    "title": "Update your firewall rules: Teams and Copilot are changing address",
-    "url": "https://www.csoonline.com/article/4221275/update-your-firewall-rules-teams-and-copilot-are-changing-address.html",
-    "source": "CSO Online",
-    "published": "2026-09-11T17:00:20+00:00",
-    "raw_text": "Microsoft is changing the destination address of two of its most popular services: starting this month, it will redirect M365 and Teams web users to copilot.cloud.microsoft and teams.cloud.microsoft, respectively. The Teams move is already under way, and Microsoft has now added M365 to the mix. The company announced the changes in two MessageCenter posts: MC1465764 ( mirror ) and MC1462915 ( mirror ). Organizations using these products are advised to update their systems and documentation to ensure continued access. Microsoft has told customers to review configurations on client devices, proxies, firewalls, secure web gateways, or other enterprise network controls to confirm that users can connect to the new addresses. Companies having trouble connecting should ensure that their environment aligns with the recommended network requirements for Microsoft 365 Copilot . Enterprises that had been blocking the new Copilot address to prevent employees accessing their personal Microsoft accounts can use Microsoft’s TenantRestrictions control to achieve their goals instead, it said. All redirects should be completed by early October, Microsoft said, advising companies that can’t meet the deadline to contact their account representative for help. Limited exceptions to the Teams redirect are possible until Dec. 31, 2026, but after that no further delays will be possible, it said. This article first appeared on Computerworld .",
+    "title": "Sponsored: When AI grows new limbs: The fiber scale out",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/when-ai-grows-new-limbs-the-fiber-scale-out/",
+    "source": "DataCenterDynamics",
+    "published": "2026-09-14T07:00:00+00:00",
+    "raw_text": "The connectivity foundations for AI infrastructure at Corning’s fingertips",
     "categories": [
       "Networks",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "network",
-        "firewall"
-      ]
-    },
-    "summary": "Microsoft is changing the destination address of two of its most popular services: starting this month, it will redirect M365 and Teams web users to copilot.cloud.microsoft and teams.cloud.microsoft, respectively. The Teams move is already under way, and Microsoft has now added M365 to the mix. The company announced the changes in two MessageCenter posts: MC1465764 ( mirror ) and MC1462915 ( mirror ). Organizations using these products are advised to update their systems and documentation to ensure continued access."
-  },
-  {
-    "title": "ConnectWise patches critical ScreenConnect authentication failure after five days",
-    "url": "https://www.csoonline.com/article/4221263/connectwise-patches-critical-screenconnect-authentication-failure-after-five-days-2.html",
-    "source": "CSO Online",
-    "published": "2026-09-11T16:17:07+00:00",
-    "raw_text": "ConnectWise has issued a security update for ScreenConnect, five days after warning customers the product could allow files to be transferred and executed through active remote sessions without authorization or confirmation. The company warned customers on Sept. 3 of the problem with support and access sessions in ConnectWise Remote Access, advising admins to log in and remove the “TransferFiles” permission from any users with an open session. The vulnerability, tracked as CVE-2026-84869 , has been patched in the ScreenConnect client version 26.6.5 onwards. Last month ConnectWise took the opportunity to reassure customers at its IT Nation Connect Asia Pacific conference that it was getting back on track after a “nation-state attack” in May 2025 that had affected several customers. The company quickly released a patch for that attack and said no customers had suffered loss. This was not the first time that the company had suffered from a cyberattack. In 2024, ConnectWise had to issue a patch after reports that ScreenConnect had been exploited. This story first appeared on Computerworld .",
-    "categories": [
-      "Cybersecurity",
       "Data Centres"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "cyberattack",
-        "security",
-        "cyber"
+      "Networks": [
+        "fiber",
+        "connectivity"
       ],
       "Data Centres": [
-        "rack"
+        "ai infrastructure"
       ]
     },
-    "summary": "ConnectWise has issued a security update for ScreenConnect, five days after warning customers the product could allow files to be transferred and executed through active remote sessions without authorization or confirmation. The company warned customers on Sept. 3 of the problem with support and access sessions in ConnectWise Remote Access, advising admins to log in and remove the “TransferFiles” permission from any users with an open session. The vulnerability, tracked as CVE-2026-84869 , has been patched in the ScreenConnect client version 26.6.5 onwards."
+    "summary": "The connectivity foundations for AI infrastructure at Corning’s fingertips"
   },
   {
-    "title": "India’s STPI serves TerminalFix-style attack via fake Cloudflare check",
-    "url": "https://www.csoonline.com/article/4221243/indias-stpi-serves-terminalfix-style-attack-via-fake-cloudflare-check.html",
-    "source": "CSO Online",
-    "published": "2026-09-11T15:26:58+00:00",
-    "raw_text": "A website linked to India’s Software Technology Parks of India (STPI) is serving a spoofed Cloudflare verification page that silently copies a malicious string to visitors’ clipboards and prompts them to execute it via Windows Terminal, in a technique consistent with emerging TerminalFix-style attacks. STPI, a Government of India organization that supports the country’s IT services and startup ecosystem, operates platforms used by technology firms, developers, and public-sector stakeholders. The activity was observed on the ananta.stpi[.]in subdomain by cybersecurity researcher and red teamer Vibhum Dubey , who reported the issue to STPI and CERT-In, India’s Computer Emergency Response Team. A suspicious external JavaScript tied to the behavior remained embedded in the site’s source, even after the attack briefly disappeared, a review by CSO confirmed, indicating the issue may not have been fully resolved. Fake verification flow used to trigger execution The page mimics a standard Cloudflare “Verify you are human” prompt, but includes an additional step instructing users to open Windows Terminal, paste a command, and press Enter, and preloads a string into the clipboard without explicit user action, Dubey said. The copied content is a URL which, when pasted into the terminal, would be interpreted by the system shell to initiate a request to external infrastructure controlled by the attacker. Dubey did not execute the command. The destination associated with the URL has been flagged as malicious by multiple security vendors, with 17 engines detecting it as malicious on VirusTotal at the time of analysis. The method shifts execution from the browser to the endpoint, relying on user interaction rather than direct payload delivery. “What stood out was that this wasn’t a shady email or a fake website, it was on a government portal,” Dubey said. “You go to ananta.stpi[.]in expecting to access STPI services, and you see what looks like a normal Cloudflare verification check. Most users would follow the steps without thinking. That’s what makes it effective: You’re not being redirected somewhere suspicious, you’re already on a site you trust.” Looks like TerminalFix The technique observed in this case is consistent with an attack pattern Microsoft calls TerminalFix , a variant of ClickFix. These attacks use spoofed verification pages to prompt users to copy and execute commands locally, moving the point of compromise outside traditional web security controls. “The technique follows the same playbook: fake verification page, clipboard injection, and instructions to execute via the terminal,” Dubey said. “Microsoft has flagged similar patterns in its TerminalFix reporting.” While no direct attribution to a specific campaign has been established, the overlap in behavior, including clipboard manipulation, terminal-based execution prompts, and staged delivery, matches documented attack workflows, Dubey said. Staged delivery Inspection of the site’s source shows an external script loaded from cdn[.]quickdelivr[.]com, a domain less than a week old and vaguely resembling the legitimate jsDelivr content delivery network. The registrant of the domain name provided an address in Russia, as for at least three other recently registered domains hosted on the same server at an IP address located in Hong Kong, according to data provided by domaintools.com. Dubey attributed both the fake overlay and clipboard manipulation to this script, a finding independently verified by CSO at the time of reporting. “The attacker appears to be storing command-and-control configuration on external infrastructure in a way that makes takedowns more difficult,” he said. “The script itself is heavily obfuscated and runs through a virtual machine inside the browser, making it hard to analyze. Each visitor is also assigned a unique identifier, suggesting some level of session tracking.” The script interacts with browser components including the document object model and network request interfaces, enabling dynamic content injection and communication with external infrastructure, he added. External configuration and persistence concerns The fake verification page, which had briefly disappeared, has since reappeared, according to the researcher. The continued presence of the external script indicates that the underlying mechanism enabling the behavior may still be active. Dubey also pointed to a potential weakness in the site’s WordPress configuration, where the login endpoint reveals a valid administrator username through differential error messages. He noted that confirming whether this was used as an entry point would require server-side analysis. “What’s concerning here is that it’s appearing on a government-linked site,” he said. “The audience includes IT companies, startups, and officials. If a user executes the command on a work system, it could expose credentials or access to internal environments.” CERT-In acknowledged the report to the researcher and said it is “in process of taking appropriate action with the concerned authority.” STPI had not responded to CSO ’s queries at the time of publication.",
+    "title": "How retrofitting can help win the AI infrastructure race",
+    "url": "https://www.datacenterdynamics.com/en/opinions/how-retrofitting-can-help-win-the-ai-infrastructure-race/",
+    "source": "DataCenterDynamics",
+    "published": "2026-09-13T16:00:27+00:00",
+    "raw_text": "Stop building, start upgrading",
     "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "GRC",
       "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "network",
-        "cdn"
-      ],
-      "Cybersecurity": [
-        "security",
-        "cyber",
-        "soc",
-        "red team"
-      ],
-      "GRC": [
-        "nist"
-      ],
       "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
+        "ai infrastructure"
       ]
     },
-    "summary": "A website linked to India’s Software Technology Parks of India (STPI) is serving a spoofed Cloudflare verification page that silently copies a malicious string to visitors’ clipboards and prompts them to execute it via Windows Terminal, in a technique consistent with emerging TerminalFix-style attacks. STPI, a Government of India organization that supports the country’s IT services and startup ecosystem, operates platforms used by technology firms, developers, and public-sector stakeholders. The activity was observed on the ananta.stpi[.]in subdomain by cybersecurity researcher and red teamer Vibhum Dubey , who reported the issue to STPI and CERT-In, India’s Computer Emergency Response Team. A suspicious external JavaScript tied to the behavior remained embedded in the site’s source, even after the attack briefly disappeared, a review by CSO confirmed, indicating the issue may not have been fully resolved."
+    "summary": "Stop building, start upgrading"
   },
   {
-    "title": "Anthropic finds evidence of a fourth AI escaping from containment",
-    "url": "https://www.csoonline.com/article/4221160/anthropic-finds-evidence-of-a-fourth-ai-escaping-from-containment.html",
-    "source": "CSO Online",
-    "published": "2026-09-11T14:13:00+00:00",
-    "raw_text": "Anthropic has owned up to a fourth security incident involving its AI model, Claude, escaping onto the open internet and attacking other organizations during a test of cybersecurity abilities on what was believed to be a closed system. The company revealed three such incidents in July after a preliminary investigation. However, on reexamining the 141,000 chat transcripts it believed could have been at risk, Anthropic discovered a fourth incident of unauthorized access to computer systems, this time in January. After this discovery, the company instigated a wider search of 481 million transcripts, covering all those from its Frontier Red Team, some non-cyber evaluations, reinforcement learning environments, and more, to see if any other incidents had occurred. So far, this search has only identified the four already-known incidents, it said. It has also reported details of all the previous incidents to the non-profit lab Model Evaluation and Threat Research (METR), which has agreed to conduct an independent investigation. Anthropic is not revealing too many details of its latest discovery. It has contented itself with saying that it was due to a misconfiguration which mistakenly connected to the open internet, when the simulation was meant to be without such access. It also said that it all four faults were with the same evaluation partner. It has asked METR to investigate all the incidents. The company said that this latest revelation was not connected to the Mythos incident reported by the UK’s AI Security Institute last month . News of the latest discovery broke at the same time as a young researcher, Jacob Coxon, dramatically quit Anthropic accusing it and his previous employer, OpenAI, of “acting irresponsibly” and “gambling with our lives” — a warning that has excited many sections of the press .",
+    "title": "Attackers already understand your software supply chain better than you do",
+    "url": "https://www.datacenterdynamics.com/en/opinions/attackers-already-understand-your-software-supply-chain-better-than-you-do/",
+    "source": "DataCenterDynamics",
+    "published": "2026-09-13T14:00:31+00:00",
+    "raw_text": "And AI is only making these attackers smarter",
     "categories": [
-      "Cybersecurity",
-      "Industry & Market"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "cyber",
-        "red team"
-      ],
-      "Industry & Market": [
-        "valuation"
-      ]
-    },
-    "summary": "Anthropic has owned up to a fourth security incident involving its AI model, Claude, escaping onto the open internet and attacking other organizations during a test of cybersecurity abilities on what was believed to be a closed system. The company revealed three such incidents in July after a preliminary investigation. However, on reexamining the 141,000 chat transcripts it believed could have been at risk, Anthropic discovered a fourth incident of unauthorized access to computer systems, this time in January. After this discovery, the company instigated a wider search of 481 million transcripts, covering all those from its Frontier Red Team, some non-cyber evaluations, reinforcement learning environments, and more, to see if any other incidents had occurred."
+    "matched_keywords": {},
+    "summary": "And AI is only making these attackers smarter"
   },
   {
     "title": "From grid constraint to grid asset: Rethinking the path to data center power",
@@ -784,173 +522,65 @@
     "summary": "AI rewrites the rules yet again"
   },
   {
-    "title": "Satellite Internet coming to UK rail network as part of £7.8bn space strategy",
-    "url": "https://www.datacenterdynamics.com/en/news/satellite-internet-coming-to-uk-rail-network-as-part-of-78bn-space-strategy/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T16:25:00+00:00",
-    "raw_text": "British rail policymakers plan to enable seamless broadband on trains by 2030 after promising to do it by 2025",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "lan",
-        "broadband"
-      ],
-      "GRC": [
-        "policy"
-      ]
-    },
-    "summary": "British rail policymakers plan to enable seamless broadband on trains by 2030 after promising to do it by 2025"
-  },
-  {
-    "title": "UK telcos lament planning rules, says 5G coverage is being stifled",
-    "url": "https://www.datacenterdynamics.com/en/news/uk-telcos-lament-planning-rules-says-5g-coverage-is-being-stifled/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T16:16:53+00:00",
-    "raw_text": "More flexibility on regulations could drive 5G forward",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "5g",
-        "lan",
-        "telco"
-      ],
-      "GRC": [
-        "regulation"
-      ]
-    },
-    "summary": "More flexibility on regulations could drive 5G forward"
-  },
-  {
-    "title": "Plans for 120MW data center withdrawn in Lombardy, Italy",
-    "url": "https://www.datacenterdynamics.com/en/news/plans-for-120mw-data-center-withdrawn-in-lombardy-italy/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T16:12:18+00:00",
-    "raw_text": "Mayor says municipality never received data needed for the grid connection",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Mayor says municipality never received data needed for the grid connection"
-  },
-  {
-    "title": "SpaceX signs compute contract valued at $13.3bn annually",
-    "url": "https://www.datacenterdynamics.com/en/news/spacex-signs-compute-contract-valued-at-133bn-annually/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T16:02:26+00:00",
-    "raw_text": "Brings total annual income from compute leases to $41.1bn",
+    "title": "Who, Me? Tech team stood and laughed at colleague who pressed the wrong off button",
+    "url": "https://www.theregister.com/systems/2026/09/14/who-me-tech-team-stood-and-laughed-at-colleague-who-pressed-the-wrong-off-button/5295749",
+    "source": "The Register",
+    "published": "2026-09-14T06:30:00+00:00",
+    "raw_text": "Ticklish situation solved with a lie about emergency maintenance",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Brings total annual income from compute leases to $41.1bn"
+    "summary": "Ticklish situation solved with a lie about emergency maintenance"
   },
   {
-    "title": "Sponsored: Fluid strategy in the era of high-density computing",
-    "url": "https://www.datacenterdynamics.com/en/opinions/fluid-strategy-in-the-era-of-high-density-computing/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T15:00:00+00:00",
-    "raw_text": "Material compatibility, contamination control and lifecycle considerations for direct-to-chip liquid cooling",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "cooling",
-        "liquid cooling"
-      ]
-    },
-    "summary": "Material compatibility, contamination control and lifecycle considerations for direct-to-chip liquid cooling"
-  },
-  {
-    "title": "United Internet outlines plans to cut hundreds of jobs across 1&1, Ionos subsidiaries",
-    "url": "https://www.datacenterdynamics.com/en/news/united-internet-outlines-plans-to-cut-hundreds-of-jobs-across-11-ionos-subsidiaries/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T12:57:56+00:00",
-    "raw_text": "Around 800 jobs are set to go",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Around 800 jobs are set to go"
-  },
-  {
-    "title": "Virgin Media O2 owners consider £600m cost cuts - report",
-    "url": "https://www.datacenterdynamics.com/en/news/virgin-media-o2-owners-consider-600m-cost-cuts-report/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T12:50:03+00:00",
-    "raw_text": "Could include layoffs at the telco in effort to service debt pile",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "telco"
-      ]
-    },
-    "summary": "Could include layoffs at the telco in effort to service debt pile"
-  },
-  {
-    "title": "Orbital partners with Reflex Aerospace for space data center constellation",
-    "url": "https://www.datacenterdynamics.com/en/news/orbital-partners-with-reflex-aerospace-for-space-data-center-constellation/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T12:45:41+00:00",
-    "raw_text": "Experienced German developer finds its first US customer, promises it technology exclusively",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Experienced German developer finds its first US customer, promises it technology exclusively"
-  },
-  {
-    "title": "Former Digital Realty and Equinix executive named CEO of Anthropic-backed Theseus Infrastructure",
-    "url": "https://www.datacenterdynamics.com/en/news/former-digital-realty-and-equinix-executive-named-ceo-of-anthropic-backed-theseus-infrastructure/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T12:40:00+00:00",
-    "raw_text": "Krupal Raval joins from CyrusOne",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Krupal Raval joins from CyrusOne"
-  },
-  {
-    "title": "Pentagon in talks to loan Fluidstack $5bn - report",
-    "url": "https://www.datacenterdynamics.com/en/news/pentagon-in-talks-to-loan-fluidstack-5bn-report/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-11T12:38:38+00:00",
-    "raw_text": "Money would come from Pentagon's Office of Strategic Capital",
+    "title": "AI and its main promoters are not enterprise-ready, says Gartner",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ai-and-its-main-promoters-are-not-enterprise-ready-says-gartner/5296074",
+    "source": "The Register",
+    "published": "2026-09-14T05:11:19+00:00",
+    "raw_text": "Model-makers move too fast and don’t care when they break things",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
+        "ey",
+        "gartner"
+      ]
+    },
+    "summary": "Model-makers move too fast and don’t care when they break things"
+  },
+  {
+    "title": "Big AI sets out its terms for regulatory capture and calls it ‘Pace the frontier’",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+    "source": "The Register",
+    "published": "2026-09-14T01:15:16+00:00",
+    "raw_text": "Amodei, Altman, Nadella and Musk agree on how government can tame the monster they created",
+    "categories": [
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "regulatory"
+      ],
+      "Industry & Market": [
         "ey"
       ]
     },
-    "summary": "Money would come from Pentagon's Office of Strategic Capital"
+    "summary": "Amodei, Altman, Nadella and Musk agree on how government can tame the monster they created"
+  },
+  {
+    "title": "The improbable music of the ZX Spectrum's one-bit speaker",
+    "url": "https://www.theregister.com/offbeat/2026/09/13/the-improbable-music-of-the-zx-spectrums-one-bit-speaker/5295862",
+    "source": "The Register",
+    "published": "2026-09-13T13:00:00+00:00",
+    "raw_text": "Ingenious coders coaxed multichannel chiptunes from the humblest of sound hardware",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Ingenious coders coaxed multichannel chiptunes from the humblest of sound hardware"
   },
   {
     "title": "Security through obscurity is dead, and AI delivered the fatal blow",
@@ -1025,429 +655,161 @@
     "summary": "Information is not forthcoming from this screen"
   },
   {
-    "title": "AI more likely to kill animals if it saves fuel or money",
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/11/ai-more-likely-to-kill-animals-if-it-saves-fuel-or-money/5295993",
-    "source": "The Register",
-    "published": "2026-09-11T21:49:59+00:00",
-    "raw_text": "Machine learning models still have a lot to learn about the value of life",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Machine learning models still have a lot to learn about the value of life"
-  },
-  {
-    "title": "More JFrog Artifactory bugs under attack, and all 3 have patches",
-    "url": "https://www.theregister.com/security/2026/09/11/more-jfrog-artifactory-bugs-under-attack-and-all-3-have-patches/5295943",
-    "source": "The Register",
-    "published": "2026-09-11T17:43:30+00:00",
-    "raw_text": "If you're waiting for a sign to upgrade to a fixed version: this is it",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "If you're waiting for a sign to upgrade to a fixed version: this is it"
-  },
-  {
-    "title": "Mars astronauts could live in houses made of yeast and jello, say scientists",
-    "url": "https://www.theregister.com/offbeat/2026/09/11/mars-astronauts-could-live-in-houses-made-of-yeast-and-jello-say-scientists/5295931",
-    "source": "The Register",
-    "published": "2026-09-11T16:50:01+00:00",
-    "raw_text": "Low-energy 3D printing could turn Martian dirt into sturdy structures",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Low-energy 3D printing could turn Martian dirt into sturdy structures"
-  },
-  {
-    "title": "Disembodied fruit fly brain joins the crypto speculation swarm",
-    "url": "https://www.theregister.com/offbeat/2026/09/11/disembodied-fruit-fly-brain-joins-the-crypto-speculation-swarm/5295914",
-    "source": "The Register",
-    "published": "2026-09-11T16:03:00+00:00",
-    "raw_text": "Coinbase engineer gives simulated insect $100 and lets its neurons make the trades",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Coinbase engineer gives simulated insect $100 and lets its neurons make the trades"
-  },
-  {
-    "title": "AT&T store worker gets 16 months inside for SIM-swap side hustle",
-    "url": "https://www.theregister.com/cyber-crime/2026/09/11/att-store-worker-gets-16-months-inside-for-sim-swap-side-hustle/5295898",
-    "source": "The Register",
-    "published": "2026-09-11T15:16:00+00:00",
-    "raw_text": "Phone shop staffer claimed he was paid less than $4k for in his part attacks leading to combined intended losses of $600,000",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Phone shop staffer claimed he was paid less than $4k for in his part attacks leading to combined intended losses of $600,000"
-  },
-  {
-    "title": "Higher prices can't crimp server sales as AI drives demand",
-    "url": "https://www.theregister.com/systems/2026/09/11/higher-prices-cant-crimp-server-sales-as-ai-drives-demand/5295827",
-    "source": "The Register",
-    "published": "2026-09-11T14:27:00+00:00",
-    "raw_text": "Shipments rise with enterprise and government buyers joining the hyperscaler spending spree",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "hyperscale"
-      ]
-    },
-    "summary": "Shipments rise with enterprise and government buyers joining the hyperscaler spending spree"
-  },
-  {
-    "title": "Britain's technology brief is now everyone's job and nobody's responsibility",
-    "url": "https://www.theregister.com/public-sector/2026/09/11/britains-technology-brief-is-now-everyones-job-and-nobodys-responsibility/5295849",
-    "source": "The Register",
-    "published": "2026-09-11T13:12:00+00:00",
-    "raw_text": "Whitehall has scattered science, AI, and digital government across a thicket of competing ministerial portfolios",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Whitehall has scattered science, AI, and digital government across a thicket of competing ministerial portfolios"
-  },
-  {
-    "title": "Ukrainian lawyer's second career as a Conti coder earns him 4 years behind bars",
-    "url": "https://www.theregister.com/cyber-crime/2026/09/11/ukrainian-lawyers-second-career-as-a-conti-coder-earns-him-4-years-behind-bars/5295841",
-    "source": "The Register",
-    "published": "2026-09-11T12:15:00+00:00",
-    "raw_text": "Swapping legal work for malware development ended in extradition and a guilty plea",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware"
-      ]
-    },
-    "summary": "Swapping legal work for malware development ended in extradition and a guilty plea"
-  },
-  {
-    "title": "US lawmakers call for UK court to lift secrecy over Apple ‘backdoor’ surveillance",
-    "url": "https://www.computerweekly.com/news/366650365/US-lawmakers-call-for-UK-court-to-lift-secrecy-over-Apple-backdoor-surveillance",
+    "title": "CW@60: This computer malarkey - one life-changing moment after another",
+    "url": "https://www.computerweekly.com/feature/CW60-This-computer-malarkey-one-life-changing-moment-after-another",
     "source": "ComputerWeekly",
-    "published": "2026-09-11T15:44:00+00:00",
-    "raw_text": "<p>US lawmakers are urging a UK court to lift the secrecy around UK government moves to require Apple to create a “back door” into its end-to-end encrypted data storage, ahead of a court hearing next week.</p> <p>In a letter to the Investigatory Powers Tribunal, US Democratic senator, Ron Wyden, and Republican <a href=\"https://davidson.house.gov/\">Warren Davidson</a>, warned that the UK’s unprecedented secrecy is needlessly straining the relations between the two countries.</p> <p>The letter comes ahead of a <a href=\"https://investigatorypowerstribunal.org.uk/hearings/\">case management hearing</a> by the Investigatory Powers Tribunal that will consider a <a href=\"https://www.computerweekly.com/news/366647012/Apple-files-fresh-claim-against-Home-Office-move-to-access-encrypted-cloud-data\">new complaint</a> by Apple against the Home Office over a secret order to give the UK access to end-to-end encrypted messages, photographs and data stored on Apple’s iCloud service.</p> <p>The letter reveals that Apple has sought permission from the UK government to discuss the order with the executive and legislative branches of the US government. Apple has been given permission to brief the US Attorney General, the Vice President, and their staff, but has been explicitly prohibited from discussing the matter with the US Congress.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Weakening encryption poses security risks\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Weakening encryption poses security risks</h2> <p>“Weakening encryption in consumer software introduces critical vulnerabilities that can be exploited by hostile foreign actors,” the lawmakers wrote. “Congress cannot fulfill its constitutional duty to evaluate and mitigate these national security threats if foreign non-disclosure orders are weaponized to prevent US technology companies from answering inquiries from duly elected lawmakers.”</p> <p>The congressmen state that under the US system, Congress is not only a co-equal branch of government, it is the “First Branch of the US government”. It is “wholly inappropriate” for the UK to attempt to dictate the distribution of powers within the US government, they write.</p> <p>The UK first issued a secret order to require Apple to provide the capability for the UK to access end-to-end encrypted phone messages, photographs and data of <a href=\"https://www.computerweekly.com/news/366630023/Home-Office-back-door-seeks-world-wide-access-to-Apple-iCloud-users-data-court-documents-confirm\">users worldwide, including US citizens</a>, from Apple’s iCloud service, in January 2025, <a href=\"https://www.washingtonpost.com/technology/2025/02/07/apple-encryption-backdoor-uk/\">leaks to the <i>Washington Post</i></a> revealed.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"US pushback led to UK rethink\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>US pushback led to UK rethink</h2> <p>The US government pushed back, when <a href=\"https://www.computerweekly.com/news/366619170/UK-accused-of-political-foreign-cyberattack-on-US-after-serving-secret-snooping-order-on-Apple\">Wyden and republican representative Andy Biggs urged</a> the then <a href=\"https://biggs.house.gov/sites/evo-subsites/biggs.house.gov/files/evo-media-document/Wyden-Biggs-letter-to-DNI-re-UK-backdoors.pdf\">US Director of National Intelligence</a> (DNI) Tulsi Gabbard, to remove the UK from the 65-year-old UK-USA signals intelligence sharing agreement,&nbsp;if the UK did not withdraw its order against Apple.</p> <p><a href=\"https://www.computerweekly.com/news/366619753/US-intelligence-chief-Tulsi-Gabbard-probes-UK-demand-for-Apples-encrypted-data\">Gabbard warned</a> that the UK’s surveillance demands, which would weaken the security and encryption of American citizens, would be a “clear and egregious violation of Americans’ privacy and civil liberties”.</p> <p>The outcry appears to have <a href=\"https://www.computerweekly.com/news/366629434/US-says-UK-has-agreed-to-drop-encryption-back-door-demands-against-Apple\">persuaded the UK to withdraw</a> its first order against Apple, bringing a <a href=\"https://www.computerweekly.com/news/366632561/Court-dismisses-Apples-appeal-against-Home-Office-backdoor\">temporary end to Apple’s legal proceedings</a> against the Home Office in the Investigatory Powers Tribunal.</p> <p>The Home Office went on to issue a <a href=\"https://www.computerweekly.com/news/366632159/Home-Office-issues-new-back-door-order-over-Apple-encryption\">new order against Apple</a>, in October 2025, which restricted UK access to the end-to-end encrypted data of UK citizens stored on the iCloud.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Full scope of UK order unknown\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Full scope of UK order unknown</h2> <p>However, according to Wyden and Davidson, the full scope of the current request is unknown, both to the public and members of Congress, because of secrecy mandated by the UK government.</p> <p>The lawmakers urge the UK’s Investigatory Powers Tribunal to consider the “profound constitutional and intergovernmental implications” of Technical Capability Notices served on technology companies.</p> <p>They call for “open justice” in the tribunal, which frequently holds hearings in closed session, to allow independent cyber security experts and impacted stakeholders to evaluate the technical demands of the order against Apple.</p> <p>“The Tribunal should ensure that no surveillance demand issued under UK law is permitted to restrict U.S. companies from fully informing and engaging with the United States Congress,” the letter states.</p> <p>The order, known as a Technical Capability Notice, targets users of Apple’s Advanced Data Protection (ADP). The optional service allows Apple customers to encrypt data and messages stored on iCloud with their own encryption keys, making it impossible for Apple or anyone else without access to those keys to decrypt and read the stored data.</p> <p>Apple withdrew its ADP service from the UK in February 2025, stating, “<a href=\"https://urldefense.com/v3/__https:/www.apple.com/privacy/government-information-requests/__;!!BfIZgRvxoUc!nIKaOKATUVHt1H_MG_GjqJm_KfreBM1d4udo0MKpygBOR3kFavJGPhBLOqaxq1gXjTJxNWAlTCPrFJ_67u8p2uARabOyfDM$\">As we have said many times before</a>, we have never built a backdoor or master key to any of our products or services and we never will.”</p> <p>The campaign groups Privacy International and Liberty, together with two individual users of ADP, are bringing a separate legal challenge against the Home Office, which is expected to be joined to Apple’s legal challenge, in a hearing on 17 September 2026.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Timeline of UK government’s order for backdoor access into Apple’s encrypted iCloud service</h3> <ul type=\"square\" class=\"default-list\"> <li>7 February 2025: <a href=\"https://www.computerweekly.com/news/366618999/Tech-companies-brace-after-UK-demands-back-door-access-to-Apple-cloud-Tech-companies-brace-for-more\">Tech companies brace after UK demands backdoor access to Apple cloud</a> – The UK has served a notice on Apple demanding backdoor access to encrypted data stored by users anywhere in the world on Apple’s cloud service.</li> <li>10 February 2025: <a href=\"https://www.computerweekly.com/news/366619028/Apple-British-techies-to-advise-on-devastating-UK-global-crypto-power-grab\">Apple: British techies to advise on ‘devastating’ UK global crypto power grab</a> – A hitherto unknown British organisation, which even the government may have forgotten about, is about to be drawn into a global technical and financial battle, facing threats from Apple to pull out of the UK.</li> <li>13 February 2025: <a href=\"https://www.computerweekly.com/news/366619170/UK-accused-of-political-foreign-cyberattack-on-US-after-serving-secret-snooping-order-on-Apple\">UK accused of political ‘foreign cyber attack’ on US after serving secret snooping order on Apple</a> – US administration asked to kick UK out of 65-year-old UK-US Five Eyes intelligence sharing agreement after secret order to access encrypted data of Apple users.</li> <li>14 February 2025: <a href=\"https://www.computerweekly.com/news/366619260/Top-cryptography-experts-join-calls-for-UK-to-drop-plans-to-snoop-on-Apples-encrypted-data\">Top cryptography experts join calls for UK to drop plans to snoop on Apple’s encrypted data</a> – Some of the world’s leading computer science experts have signed an open letter calling for the home secretary to drop a controversial secret order to require Apple to provide access to users’ encrypted data.</li> <li>21 February 2025: <a href=\"https://www.computerweekly.com/news/366619614/Apple-withdraws-encrypted-iCloud-storage-from-UK-after-government-demands-back-door-access\">Apple withdraws encrypted iCloud storage from UK after government demands ‘backdoor’ access</a> – After the Home Office issued a secret order for Apple to open up a backdoor in its encrypted storage, the tech company has instead chosen to withdraw the service from the UK.</li> <li>26 February 2025: <a href=\"https://www.computerweekly.com/news/366619753/US-intelligence-chief-Tulsi-Gabbard-probes-UK-demand-for-Apples-encrypted-data\">US intelligence chief Tulsi Gabbard probes UK demand for Apple’s encrypted data</a> – A secret order issued by the UK against Apple would be a ‘clear and egregious violation’ if it provides backdoor access to Americans’ encrypted data, says US director of national intelligence.</li> <li>5 March 2025: <a href=\"https://www.computerweekly.com/news/366620138/Apple-IPT-appeal-against-back-door-encryption-order-is-test-case-for-bigger-targets\">Apple IPT appeal against backdoor encryption order is test case for bigger targets</a> – The Home Office decision to target Apple with an order requiring access to users’ encrypted data is widely seen as a ‘stalking horse’ for attacks against encrypted messaging services WhatsApp, Telegram and Signal.</li> <li>11 March 2025: <a href=\"https://www.computerweekly.com/news/366620363/Secret-London-tribunal-to-hear-appeal-in-Apple-vs-government-battle-over-encryption\">Secret London tribunal to hear appeal in Apple vs government battle over encryption</a> – A secret tribunal is due to meet at the High Court in London to <a href=\"https://www.computerweekly.com/news/366620363/Secret-London-tribunal-to-hear-appeal-in-Apple-vs-government-battle-over-encryption\">hear tech giant Apple appeal against a Home Office order to compromise the encryption of data</a> stored by its customers on the iCloud service worldwide.</li> <li>13 March 2025: <a href=\"https://www.computerweekly.com/news/366620601/US-Congress-demands-UK-lifts-gag-on-Apple-encryption-order\">US Congress demands UK lifts gag on Apple encryption order</a> – Apple and Google have told US lawmakers that they cannot tell Congress whether they have received technical capability notices from the UK.</li> <li>14 March 2025: The Investigatory Powers Tribunal holds a<a href=\"https://www.computerweekly.com/news/366620938/Apple-encryption-legal-challenge-heard-behind-closed-doors-despite-calls-for-public-hearing\"> day-long secret hearing into an appeal brought by Apple</a> against a government notice requiring it to provide law enforcement access to data encrypted by its Advanced Data Protection service on the iCloud, despite calls for the hearing to be open to the public.</li> <li>24 March 2025: Gus Hosein, executive director of Privacy International – <a href=\"https://www.computerweekly.com/opinion/Why-I-am-challenging-Yvette-Coopers-secret-back-door-order-against-Apples-encryption\">Why I am challenging Yvette Cooper’s ‘secret backdoor’ order against Apple’s encryption</a>.</li> <li>31 March 2025: <a href=\"https://www.computerweekly.com/news/366621785/Apple-devices-are-at-most-risk-in-UK-following-government-backdoor-order\">Apple devices are at ‘most risk’ in UK</a> following government ‘backdoor’ order, <a href=\"https://www.computerweekly.com/news/366621785/Apple-devices-are-at-most-risk-in-UK-following-government-backdoor-order\">Lord Strasburger tells the House of Lords</a> as a Home Office minister declines to give answers.</li> <li>2 April 2025: <a href=\"https://www.computerweekly.com/opinion/Apples-appeal-to-the-Investigatory-Powers-Tribunal-over-the-UKs-encryption-back-door-explained\">Apple has appealed to the Investigatory Powers Tribunal over an order by home secretary Yvette Cooper</a> to give the UK access to customers’ data protected by Advanced Data Protection encryption. What happens next?</li> <li>7 April 2025: Investigatory Powers Tribunal rejects Home Office arguments that identifying the ‘bare details’ of legal action by Apple would damage national security, <a href=\"https://www.computerweekly.com/news/366622253/Court-rejects-Home-Office-bid-for-blanket-secrecy-in-hearings-over-Apple-encryption-case\">leaving open the possibility of future open court hearings</a>.</li> <li>15 April 2025: <a href=\"https://www.computerweekly.com/news/366622356/The-Investigatory-Powers-Tribunal-explained\">The Investigatory Powers Tribunal is a semi-secret judicial body that has made significant legal rulings on privacy, surveillance and the use of investigatory powers</a>. What does it do and why is it important?</li> <li>5 June 2025: US politicians are calling for Congress to <a href=\"https://www.computerweekly.com/news/366625614/US-lawmakers-say-UK-has-gone-too-far-by-attacking-Apples-encryption\">rewrite the US Cloud Act to prevent the UK issuing orders to require US tech companies</a> to introduce ‘backdoors’ in end-to-end encrypted messaging and storage.</li> <li>11 June 2025: <a href=\"https://www.computerweekly.com/news/366625724/Government-using-national-security-as-smokescreen-in-Apple-encryption-row\">Government using national security as ‘smokescreen’ in Apple encryption row</a> – Senior conservative MP David Davis says the Home Office should disclose how many secret orders it has issued against telecoms and internet companies to Parliament.</li> <li>11 June 2025: <a href=\"https://www.computerweekly.com/news/366625702/WhatsApp-seeks-to-join-Apple-in-legal-challenge-against-Home-Office-encryption-orders\">WhatsApp seeks to join Apple in legal challenge against Home Office encryption orders</a> – WhatsApp today applied to intervene in an Investigatory Powers Tribunal case that is considering the UK’s ability to issue a technical capability notice on Apple to ‘weaken encryption’.</li> <li>12 June 2025: <a href=\"https://www.computerweekly.com/news/366625826/Apple-encryption-row-Does-law-enforcement-need-to-use-Technical-Capability-Notices\">Apple encryption row: Does law enforcement need to use technical capability notices</a>? History shows that law enforcement can bring successful prosecutions without the need for the Home Office to introduce ‘backdoors’ into end-to-end encryption.</li> <li>21 July 2025: <a href=\"https://www.computerweekly.com/news/366627928/UK-may-be-seeking-to-pull-back-from-Apple-encryption-row-with-US\">UK may be seeking to pull back from Apple encryption row with US</a> – UK government officials say that attempts by the Home Office to require Apple to introduce ‘backdoors’ to its secure encrypted storage service will cross US red lines.</li> <li>23 July 2025: <a href=\"https://www.computerweekly.com/news/366627911/WhatsApp-is-refused-right-to-intervene-in-Apple-legal-action-on-encryption-backdoors\">WhatsApp is refused right to intervene in Apple legal action</a> on encryption ‘backdoors’ – Investigatory Powers Tribunal to hear arguments in public over lawfulness of secret UK order requiring Apple to give UK law enforcement access to users’ encrypted data stored on the Apple iCloud.</li> <li>19 August 2025: <a href=\"https://www.computerweekly.com/news/366629434/US-says-UK-has-agreed-to-drop-encryption-back-door-demands-against-Apple\">US says UK has agreed to drop encryption ‘backdoor’ demands against Apple</a> – US and UK end diplomatic row over UK encryption ‘backdoor’ order against Apple, but it remains unclear whether Apple will restore advanced encryption services to UK users.</li> <li>29 August 2025: Home Office <a href=\"https://www.computerweekly.com/news/366630023/Home-Office-back-door-seeks-world-wide-access-to-Apple-iCloud-users-data-court-documents-confirm\">‘backdoor’ seeks worldwide access to Apple iCloud users’ data</a>, court documents confirm – A court filing states that a government order against Apple would give it the capability to access communications and metadata of customers using the iCloud service anywhere in the world.</li> <li>1 October 2025: <a href=\"https://www.computerweekly.com/news/366632159/Home-Office-issues-new-back-door-order-over-Apple-encryption\">Home Office issues new ‘backdoor’ order over Apple encryption</a> – A second Home Office technical capability notice requires Apple to provide access to encrypted data and messages of British users stored on its iCloud service</li> <li>7 October 2025: <a href=\"https://www.computerweekly.com/opinion/Our-phones-as-our-castles-can-His-Majestys-Government-enter\">Our phones as our castles: can His Majesty’s Government enter?</a> – Ancient laws secure the sanctity of even the most humble of homes from government intrusion. How do they fare in an age of digital technology?</li> <li>13 October 2025: <a href=\"https://www.computerweekly.com/news/366632561/Court-dismisses-Apples-appeal-against-Home-Office-backdoor\">Court dismisses Apple’s appeal against Home Office backdoor</a> – Court dismisses Apple’s appeal against Home Office backdoor</li> <li>3 August 2026: <a href=\"https://www.computerweekly.com/news/366647012/Apple-files-fresh-claim-against-Home-Office-move-to-access-encrypted-cloud-data\">Apple files fresh claim against Home Office move to access encrypted cloud data</a> – Apple has filed another legal complaint over a secret Home Office order requiring the supplier to provide access to encrypted iCloud data stored by UK customer.</li> <li>26 August 2026: <a href=\"https://www.computerweekly.com/news/366649780/Public-wary-of-UK-government-backdoor-surveillance-following-Apple-row-poll-reveals\">Public wary of UK government ‘backdoor’ surveillance following Apple row, poll reveals</a> - A poll of 2,000 UK citizens taken after the government issued a secret order seeking access to Apple users’ encrypted data finds that&nbsp;the public is sceptical of government surveillance powers</li> </ul> </div> </div> <ul type=\"square\" class=\"default-list\"></ul> </section>",
+    "published": "2026-09-14T03:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>\"I think there might be something in this computer malarkey,\" my mother said, as we approached my GCSE choices.</p> <p>Looking back, it was clearly a conversation my parents had after my school parents' evening, when Mum heard about the <a href=\"https://www.computerweekly.com/news/366648784/Number-of-girls-choosing-GCSE-computing-drops-for-second-year-in-a-row\">GCSE options on offer</a>. Information technology GCSE was the new kid on the block and the first of its kind at my school. Its announcement received a mixed reception and I would love to have heard the conversation that followed when Mum and Dad got home.</p> <p>I was deep in my teenage years, convinced I was pulling off a black wardrobe complete with gothic scarves while declaring my love for Guns N’ Roses and Metallica. Yet somehow, between them, my parents gently nudged me towards a future none of us could really see. A life shaped by this thing called computing.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Micro moments\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Micro moments</h2> <p>What stays with me most are the micro moments.</p> <p>One was the time we upgraded our BBC computer. Dad and I assembled what felt like a piece of technology from the future. He had bought me a couple of games, <i>The 7th Guest</i> and <i>Day of the Tentacle</i>. They made such an impression, I still have the boxes and discs carefully stored away today.</p> <p>Going from a green screen to computer graphics felt nothing short of magical. We could hardly believe what we were seeing, then the music boomed out of these new speakers as if we had stepped into a live concert. Our faces lit up with a mixture of excitement and disbelief. I was jumping up and down while Dad, naturally, remained just a little more composed. We hurried off to fetch Mum so she could see this impossibly advanced machine.</p> <p>The micro moments kept coming. Learning Ctrl+C and Ctrl+V at work was a revelation. A colleague shared their newfound expertise and suddenly the world seemed to change in an instant. We genuinely paused at our desks to marvel at what this simple shortcut could do. It sounds ridiculous now but at the time we kept giggling for days, our lives had just become that little bit simpler.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Avril-Chester-LinkedIn.jpg\" alt=\"Photo of Avril Chester\" width=\"160\" height=\"160\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“Technology may change our world but its secret power is its ability to bring people together. Whether those moments leave us feeling amazed, confused, excited, challenged or occasionally completely baffled, the connections and memories they create are bigger than the technology itself”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Avril Chester</em></span></p> </blockquote> <p>Years later came a very different kind of moment. Less revelation, more confusion. Suddenly everyone seemed to be talking in hashtags. What on earth was this # symbol doing in conversations? And why was I the only one who seemed not to get it? Tentatively, I posted my first tweet and first LinkedIn update, convinced I was about to break some unwritten rule of the internet. Nothing happened. Nobody cared. Yet I still checked obsessively for hours afterwards.</p> <p>Technology evokes emotion. One moment it makes you feel brilliantly clever, the next completely out of your depth.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Life changing\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Life changing</h2> <p>At 37, I experienced a life-changing event. The kind that rips up the tracks beneath you with no obvious route forward. As I slowly began to emerge, beyond the support of immediate family and friends, a number of other voices started offering advice. Take it easy now. Let go of your ambitions. Walk away from your career and do something else.</p> <p>It wasn't just one voice. If I'm honest, I started to believe them. Then through social media, I met someone further along a remarkably similar journey. He had experienced even greater disruption and was thriving in his career. We connected, he became a mentor and he gave me perhaps the most valuable advice of my professional life, “Don't listen. Do your thing”.</p> <p>With renewed confidence that I could still have a career, I dusted myself off and started attending conferences again, learning how technology had evolved and building new connections. I'd been away for a year but I knew I still had something to contribute. I waved goodbye to my parents once more after returning home to rebuild - with more scarves, this time in brighter colours - determined not to become a cliché who found purpose in adversity. Naturally, that's exactly what happened.</p> <p>From one inspirational connection on social media, I forged ahead, eventually becoming a founder and chief technology officer. Imagine that - squeaky, high-pitched-voice me, learning to encourage teams, lead departments and occasionally put out fires (literally, in a datacentre).</p> <p>What fascinates me isn't the technology itself but what it can achieve. How can we use it to improve lives? Connect people to the information and services they need? Design with the whole of society in mind and avoid leaving people behind?</p> <p>Some of my best memories are the workshops and hackathons (or heffalumps as Mum calls them). A room full of inspired talent driving towards a common goal, exploring different routes and possibilities together, occasionally grabbing a piece of now very cold pizza because we were too busy creating to stop. The best bits are us.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Secret powers\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Secret powers</h2> <p>Technology may change our world but its secret power is its ability to bring people together. Whether those moments leave us feeling amazed, confused, excited, challenged or occasionally completely baffled, the connections and memories they create are bigger than the technology itself.</p> <p>That's why I struggle to choose one defining moment, I feel incredibly fortunate to have so many.</p> <p>As we learn to navigate a new world, <a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">Computer Weekly has once again hit on the most important story as it celebrates its 60th anniversary</a>. While technology provides the backdrop, it's the people, conversations and shared experiences around it that bring it to life.</p> <p>It'll be fascinating to see what memories are made next in an AI world. My parents were right - shh, don't tell them that. There really is something in this computer malarkey.</p> <p><i>Avril Chester is chief operating officer at AI venture studio Ainad, co-founder of The Human Intelligence Circle, lead author of </i><a href=\"https://www.amazon.co.uk/Leading-Humanity-World-Avril-Chester/dp/1807691799\">Leading with humanity in an AI world</a><i>, founder of Cancer Central, and former CTO at the Royal Pharmaceutical Society.</i></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read all of Computer Weekly's 60th anniversary essays</h3> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup> anniversary, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. Read our full collection of essays, which offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p> <h2><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">CW@60 - How technology has changed our lives over 60 years</a></h2> </div> </div> </section>",
     "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Cloud Infrastructure",
       "Networks",
+      "Data Centres",
+      "Cybersecurity",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws"
-      ],
       "Networks": [
-        "lan",
-        "telecom"
+        "cdn",
+        "wan"
       ],
       "Cybersecurity": [
-        "exploit",
-        "cyberattack",
-        "threat",
-        "encryption",
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "nist",
-        "data protection",
-        "privacy"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "<p>US lawmakers are urging a UK court to lift the secrecy around UK government moves to require Apple to create a “back door” into its end-to-end encrypted data storage, ahead of a court hearing next week.</p> <p>In a letter to the Investigatory Powers Tribunal, US Democratic senator, Ron Wyden, and Republican <a href=\"https://davidson.house.gov/\">Warren Davidson</a>, warned that the UK’s unprecedented secrecy is needlessly straining the relations between the two countries.</p> <p>The letter comes ahead of a <a href=\"https://investigatorypowerstribunal.org.uk/hearings/\">case management hearing</a> by the Investigatory Powers Tribunal that will consider a <a href=\"https://www.computerweekly.com/news/366647012/Apple-files-fresh-claim-against-Home-Office-move-to-access-encrypted-cloud-data\">new complaint</a> by Apple against the Home Office over a secret order to give the UK access to end-to-end encrypted messages, photographs and data stored on Apple’s iCloud service.</p> <p>The letter reveals that Apple has sought permission from the UK government to discuss the order with the executive and legislative branches of the US government. Apple has been given permission to brief the US Attorney General, the Vice President, and their staff, but has been explicitly prohibited from discussing the matter with the US Congress.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Weakening encryption poses security risks\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Weakening encryption poses security risks</h2> <p>“Weakening encryption in consumer software introduces critical vulnerabilities that can be exploited by hostile foreign actors,” the lawmakers wrote. “Congress cannot fulfill its constitutional duty to evaluate and mitigate these national security threats if foreign non-disclosure orders are weaponized to prevent US technology companies from answering inquiries from duly elected lawmakers.”</p> <p>The congressmen state that under the US system, Congress is not only a co-equal branch of government, it is the “First Branch of the US government”. It is “wholly inappropriate” for the UK to attempt to dictate the distribution of powers within the US government, they write.</p> <p>The UK first issued a secret order to require Apple to provide the capability for the UK to access end-to-end encrypted phone messages, photographs and data of <a href=\"https://www.computerweekly.com/news/366630023/Home-Office-back-door-seeks-world-wide-access-to-Apple-iCloud-users-data-court-documents-confirm\">users worldwide, including US citizens</a>, from Apple’s iCloud service, in January 2025, <a href=\"https://www.washingtonpost.com/technology/2025/02/07/apple-encryption-backdoor-uk/\">leaks to the <i>Washington Post</i></a> revealed.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"US pushback led to UK rethink\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>US pushback led to UK rethink</h2> <p>The US government pushed back, when <a href=\"https://www.computerweekly.com/news/366619170/UK-accused-of-political-foreign-cyberattack-on-US-after-serving-secret-snooping-order-on-Apple\">Wyden and republican representative Andy Biggs urged</a> the then <a href=\"https://biggs.house.gov/sites/evo-subsites/biggs.house.gov/files/evo-media-document/Wyden-Biggs-letter-to-DNI-re-UK-backdoors.pdf\">US Director of National Intelligence</a> (DNI) Tulsi Gabbard, to remove the UK from the 65-year-old UK-USA signals intelligence sharing agreement,&nbsp;if the UK did not withdraw its order against Apple.</p> <p><a href=\"https://www.computerweekly.com/news/366619753/US-intelligence-chief-Tulsi-Gabbard-probes-UK-demand-for-Apples-encrypted-data\">Gabbard warned</a> that the UK’s surveillance demands, which would weaken the security and encryption of American citizens, would be a “clear and egregious violation of Americans’ privacy and civil liberties”.</p> <p>The outcry appears to have <a href=\"https://www.computerweekly.com/news/366629434/US-says-UK-has-agreed-to-drop-encryption-back-door-demands-against-Apple\">persuaded the UK to withdraw</a> its first order against Apple, bringing a <a href=\"https://www.computerweekly.com/news/366632561/Court-dismisses-Apples-appeal-against-Home-Office-backdoor\">temporary end to Apple’s legal proceedings</a> against the Home Office in the Investigatory Powers Tribunal.</p> <p>The Home Office went on to issue a <a href=\"https://www.computerweekly.com/news/366632159/Home-Office-issues-new-back-door-order-over-Apple-encryption\">new order against Apple</a>, in October 2025, which restricted UK access to the end-to-end encrypted data of UK citizens stored on the iCloud.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Full scope of UK order unknown\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Full scope of UK order unknown</h2> <p>However, according to Wyden and Davidson, the full scope of the current request is unknown, both to the public and members of Congress, because of secrecy mandated by the UK government.</p> <p>The lawmakers urge the UK’s Investigatory Powers Tribunal to consider the “profound constitutional and intergovernmental implications” of Technical Capability Notices served on technology companies.</p> <p>They call for “open justice” in the tribunal, which frequently holds hearings in closed session, to allow independent cyber security experts and impacted stakeholders to evaluate the technical demands of the order against Apple.</p> <p>“The Tribunal should ensure that no surveillance demand issued under UK law is permitted to restrict U.S."
-  },
-  {
-    "title": "Rackspace Technology Deadline: RXT Investors Have Opportunity to Lead Rackspace Technology, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/rackspace-technology-deadline-rxt-investors-have-opportunity-to-lead-rackspace-technology-inc-securities-fraud-lawsuit-302876727.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T11:58:00+00:00",
-    "raw_text": "NEW YORK, Sept. 13, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Rackspace Technology, Inc. (NASDAQ: RXT) between May 7, 2026 and July 8, 2026 inclusive (the \"Class Period\"), of the important September 28, 2026 lead plaintiff...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+        "soc"
       ],
       "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "NEW YORK, Sept. 13, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Rackspace Technology, Inc. (NASDAQ: RXT) between May 7, 2026 and July 8, 2026 inclusive (the \"Class Period\"), of the important September 28, 2026 lead plaintiff..."
-  },
-  {
-    "title": "GAC AION UT gewinnt den Preis für das beste Außendesign beim Torino Automotive Design Award 2026",
-    "url": "https://www.prnewswire.com/news-releases/gac-aion-ut-gewinnt-den-preis-fur-das-beste-auWendesign-beim-torino-automotive-design-award-2026-302876985.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T11:54:00+00:00",
-    "raw_text": "TURIN, Italien, 13. September 2026 /PRNewswire/ -- Der AION UT von GAC wurde beim Torino Automotive Design Award (TADA) 2026, der im Rahmen des Salone Auto Torino 2026 stattfand, mit dem Preis für das beste Außendesign ausgezeichnet. Diese Auszeichnung würdigt die unverwechselbare...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "TURIN, Italien, 13. September 2026 /PRNewswire/ -- Der AION UT von GAC wurde beim Torino Automotive Design Award (TADA) 2026, der im Rahmen des Salone Auto Torino 2026 stattfand, mit dem Preis für das beste Außendesign ausgezeichnet. Diese Auszeichnung würdigt die unverwechselbare..."
-  },
-  {
-    "title": "L'AION UT de GAC remporte le prix du meilleur design extérieur lors du Torino Automotive Design Award 2026",
-    "url": "https://www.prnewswire.com/news-releases/laion-ut-de-gac-remporte-le-prix-du-meilleur-design-exterieur-lors-du-torino-automotive-design-award-2026-302876984.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T11:51:00+00:00",
-    "raw_text": "TURIN, Italie, 13 septembre 2026 /PRNewswire/ -- L'AION UT de GAC a remporté le prix du meilleur design extérieur lors du Torino Automotive Design Award (TADA) 2026, organisé dans le cadre du Salone Auto Torino 2026. Cette distinction récompense l'identité visuelle unique de ce modèle...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "TURIN, Italie, 13 septembre 2026 /PRNewswire/ -- L'AION UT de GAC a remporté le prix du meilleur design extérieur lors du Torino Automotive Design Award (TADA) 2026, organisé dans le cadre du Salone Auto Torino 2026. Cette distinction récompense l'identité visuelle unique de ce modèle..."
-  },
-  {
-    "title": "Sacituzumab Govitecan Plus Pembrolizumab Does Not Meet Primary Endpoints in First-Line PD-L1-High Metastatic NSCLC",
-    "url": "https://www.prnewswire.com/news-releases/sacituzumab-govitecan-plus-pembrolizumab-does-not-meet-primary-endpoints-in-first-line-pd-l1-high-metastatic-nsclc-302876942.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T11:50:00+00:00",
-    "raw_text": "Phase 3 EVOKE-03/KEYNOTE-D46 reports numerically longer progression-free survival and higher response rates, but no statistically significant PFS or OS benefit SEOUL, Republic of Korea, Sept. 13, 2026 /PRNewswire/ -- Sacituzumab govitecan (SG) plus pembrolizumab did not demonstrate a...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Phase 3 EVOKE-03/KEYNOTE-D46 reports numerically longer progression-free survival and higher response rates, but no statistically significant PFS or OS benefit SEOUL, Republic of Korea, Sept. 13, 2026 /PRNewswire/ -- Sacituzumab govitecan (SG) plus pembrolizumab did not demonstrate a..."
-  },
-  {
-    "title": "Phase III ARTEMIS-008 Trial Shows Risvutatug Rezetecan Significantly Improves Overall Survival in Relapsed Small-Cell Lung Cancer",
-    "url": "https://www.prnewswire.com/news-releases/phase-iii-artemis-008-trial-shows-risvutatug-rezetecan-significantly-improves-overall-survival-in-relapsed-small-cell-lung-cancer-302876941.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T11:46:00+00:00",
-    "raw_text": "B7-H3-directed antibody-drug conjugate reduced the risk of death by 54% compared with topotecan and improved progression-free survival and response rates SEOUL, South Korea, Sept. 13, 2026 /PRNewswire/ -- Results from the randomized Phase III ARTEMIS-008 trial show that risvutatug...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "B7-H3-directed antibody-drug conjugate reduced the risk of death by 54% compared with topotecan and improved progression-free survival and response rates SEOUL, South Korea, Sept. 13, 2026 /PRNewswire/ -- Results from the randomized Phase III ARTEMIS-008 trial show that risvutatug..."
-  },
-  {
-    "title": "DKS Investors Have Opportunity to Lead DICK'S Sporting Goods, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/dks-investors-have-opportunity-to-lead-dicks-sporting-goods-inc-securities-fraud-lawsuit-302876678.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T11:39:00+00:00",
-    "raw_text": "NEW YORK, Sept. 13, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of common stock of DICK'S Sporting Goods, Inc. (NYSE: DKS) between September 8, 2025 and August 24, 2026, both dates inclusive (the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+        "rack",
+        "colo"
       ],
       "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "NEW YORK, Sept. 13, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of common stock of DICK'S Sporting Goods, Inc. (NYSE: DKS) between September 8, 2025 and August 24, 2026, both dates inclusive (the..."
-  },
-  {
-    "title": "POWTEK Group, Heating Tech Expo 2026 ve Zuchex 2026 Fuarlarında Çok Markalı Üretim Gücünü Sergiliyor",
-    "url": "https://www.prnewswire.com/news-releases/powtek-group-heating-tech-expo-2026-ve-zuchex-2026-fuarlarnda-cok-markal-uretim-gucunu-sergiliyor-302876974.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T09:51:00+00:00",
-    "raw_text": "VARŞOVA, Polonya ve İSTANBUL, 13 Eylül 2026 /PRNewswire/ -- POWTEK Group (\"POWTEK\"), Eylül ayında düzenlenen iki büyük Avrupa fuarında çok markalı ürün portföyünü ve üretim kapasitesini sergiledi. KALTEC, Polonya'nın Varşova kentinde düzenlenen Heating Tech Expo 2026 fuarına katılırken,...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
         "ey"
       ]
     },
-    "summary": "VARŞOVA, Polonya ve İSTANBUL, 13 Eylül 2026 /PRNewswire/ -- POWTEK Group (\"POWTEK\"), Eylül ayında düzenlenen iki büyük Avrupa fuarında çok markalı ürün portföyünü ve üretim kapasitesini sergiledi. KALTEC, Polonya'nın Varşova kentinde düzenlenen Heating Tech Expo 2026 fuarına katılırken,..."
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>\"I think there might be something in this computer malarkey,\" my mother said, as we approached my GCSE choices.</p> <p>Looking back, it was clearly a conversation my parents had after my school parents' evening, when Mum heard about the <a href=\"https://www.computerweekly.com/news/366648784/Number-of-girls-choosing-GCSE-computing-drops-for-second-year-in-a-row\">GCSE options on offer</a>. Information technology GCSE was the new kid on the block and the first of its kind at my school."
   },
   {
-    "title": "CARNIVAL TROPICALE 現已開放預訂，將於 2028 年自加爾維斯敦啟航",
-    "url": "https://www.prnewswire.com/news-releases/carnival-tropicale-xian-yi-kai-fang-yu-ding-jiang-yu-2028-nian-zi-jia-er-wei-si-dun-qi-hang--856204887.html",
+    "title": "New Scania Dynamic strengthens driver focus and energy efficiency",
+    "url": "https://www.prnewswire.com/news-releases/new-scania-dynamic-strengthens-driver-focus-and-energy-efficiency-302877405.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-13T09:17:00+00:00",
-    "raw_text": "德國帕彭堡2026年9月10日 /美通社/ -- 旅客即日起已可預訂 Carnival Cruise Line 旗下最新且為 Excel 級最後一艘郵輪的 Carnival Tropicale。隨著預訂開放，該郵輪品牌也正在德國帕彭堡的 MEYER WERFT 慶祝這艘郵輪從概念邁入實體建造階段。 自加爾維斯敦啟航 素有豪邁大氣之稱的德州，自 2028 年 4 月 15 日起，Carnival Tropicale 將為加爾維斯敦帶來截然不同境界的歡樂體驗。身為從德州啟航的最新郵輪，Carnival Tropicale...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "德國帕彭堡2026年9月10日 /美通社/ -- 旅客即日起已可預訂 Carnival Cruise Line 旗下最新且為 Excel 級最後一艘郵輪的 Carnival Tropicale。隨著預訂開放，該郵輪品牌也正在德國帕彭堡的 MEYER WERFT 慶祝這艘郵輪從概念邁入實體建造階段。 自加爾維斯敦啟航 素有豪邁大氣之稱的德州，自 2028 年 4 月 15 日起，Carnival Tropicale 將為加爾維斯敦帶來截然不同境界的歡樂體驗。身為從德州啟航的最新郵輪，Carnival Tropicale..."
-  },
-  {
-    "title": "Aignostics bringt „PathoSearch\" auf den Markt, eine visuelle Suchmaschine für pathologische Fälle",
-    "url": "https://www.prnewswire.com/news-releases/aignostics-bringt-pathosearch-auf-den-markt-eine-visuelle-suchmaschine-fur-pathologische-falle-302876971.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T09:15:00+00:00",
-    "raw_text": "Jetzt im Early Access verfügbar: Die bildbasierte Suche liefert echte, diagnostizierte Referenzfälle aus weltweit führenden Zentren, die mehr als 300 Diagnosekategorien abdecken. BERLIN und NEW YORK, 13. September 2026 /PRNewswire/ -- Aignostics gab heute die Veröffentlichung der...",
+    "published": "2026-09-14T07:46:00+00:00",
+    "raw_text": "SÖDERTÄLJE, Sweden, Sept. 14, 2026 /PRNewswire/ -- The major updates in the new Scania Dynamic contribute to lower energy consumption, improved driver comfort and a more dynamic vehicle experience across powertrains. This means Scania keeps its approach of continuous improvement for...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Jetzt im Early Access verfügbar: Die bildbasierte Suche liefert echte, diagnostizierte Referenzfälle aus weltweit führenden Zentren, die mehr als 300 Diagnosekategorien abdecken. BERLIN und NEW YORK, 13. September 2026 /PRNewswire/ -- Aignostics gab heute die Veröffentlichung der..."
+    "summary": "SÖDERTÄLJE, Sweden, Sept. 14, 2026 /PRNewswire/ -- The major updates in the new Scania Dynamic contribute to lower energy consumption, improved driver comfort and a more dynamic vehicle experience across powertrains. This means Scania keeps its approach of continuous improvement for..."
   },
   {
-    "title": "CARNIVAL TROPICALE 号开放预订 | CARNIVAL TROPICALE 号正式开放预订，2028 年将从加尔维斯顿启航",
-    "url": "https://www.prnewswire.com/news-releases/carnival-tropicale-hao-kai-fang-yu-ding-carnival-tropicale-hao-zheng-shi-kai-fang-yu-ding-2028-nian-jiang-cong-jia-er-wei-si-dun-qi-hang--846074486.html",
+    "title": "Fujitsu launches made-in-Japan next-generation CPU FUJITSU-MONAKA and Fujitsu MONAKA Server for sovereign AI infrastructure",
+    "url": "https://www.prnewswire.com/news-releases/fujitsu-launches-made-in-japan-next-generation-cpu-fujitsu-monaka-and-fujitsu-monaka-server-for-sovereign-ai-infrastructure-302877394.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-13T09:11:00+00:00",
-    "raw_text": "德国帕彭堡2026年9月13日 /美通社/ -- 宾客现已可以预定 Carnival Cruise Line 旗下最新邮轮，也是 Excel 级船队的收官之作——Carnival Tropicale。在开放预订之际，Carnival Cruise Line 还在德国帕彭堡的 MEYER WERFT 造船厂举行了庆祝活动，见证该船从概念设计走向实体建造的里程碑。 从加尔维斯顿启航 德克萨斯州的一切总是更胜一筹。自 2028 年 4 月 15 日起，Carnival Tropicale 将为加尔维斯顿带来全新升级的邮轮乐趣。作为从德克萨斯州启航的最新邮轮，Carnival...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "德国帕彭堡2026年9月13日 /美通社/ -- 宾客现已可以预定 Carnival Cruise Line 旗下最新邮轮，也是 Excel 级船队的收官之作——Carnival Tropicale。在开放预订之际，Carnival Cruise Line 还在德国帕彭堡的 MEYER WERFT 造船厂举行了庆祝活动，见证该船从概念设计走向实体建造的里程碑。 从加尔维斯顿启航 德克萨斯州的一切总是更胜一筹。自 2028 年 4 月 15 日起，Carnival Tropicale 将为加尔维斯顿带来全新升级的邮轮乐趣。作为从德克萨斯州启航的最新邮轮，Carnival..."
-  },
-  {
-    "title": "Aignostics lance PathoSearch, un moteur de recherche visuel dédié aux cas pathologiques",
-    "url": "https://www.prnewswire.com/news-releases/aignostics-lance-pathosearch-un-moteur-de-recherche-visuel-dedie-aux-cas-pathologiques-302876970.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T09:11:00+00:00",
-    "raw_text": "Désormais disponible en accès anticipé : La recherche par image permet de retrouver des cas de référence réels et diagnostiqués, provenant de centres de renommée mondiale, couvrant plus de 300 entités diagnostiques. BERLIN et NEW YORK, 13 septembre 2026 /PRNewswire/ -- Aignostics a...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Désormais disponible en accès anticipé : La recherche par image permet de retrouver des cas de référence réels et diagnostiqués, provenant de centres de renommée mondiale, couvrant plus de 300 entités diagnostiques. BERLIN et NEW YORK, 13 septembre 2026 /PRNewswire/ -- Aignostics a..."
-  },
-  {
-    "title": "PwC US and PwC India Form Joint Venture to Help Clients Grow and Compete at Greater Speed and Scale",
-    "url": "https://www.prnewswire.com/news-releases/pwc-us-and-pwc-india-form-joint-venture-to-help-clients-grow-and-compete-at-greater-speed-and-scale-302876923.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T09:00:00+00:00",
-    "raw_text": "Strategic combination brings together the breadth of PwC's advisory talent and capabilities across India and the US into a single, integrated platform for global clients NEW YORK, Sept. 13, 2026 /PRNewswire/ -- PwC US and PwC India today announced a joint venture that brings together the...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "joint venture",
-        "pwc"
-      ]
-    },
-    "summary": "Strategic combination brings together the breadth of PwC's advisory talent and capabilities across India and the US into a single, integrated platform for global clients NEW YORK, Sept. 13, 2026 /PRNewswire/ -- PwC US and PwC India today announced a joint venture that brings together the..."
-  },
-  {
-    "title": "SURF'S UP FOR THE WORLD'S PAW-SOME-EST COMPETITORS!",
-    "url": "https://www.prnewswire.com/news-releases/surfs-up-for-the-worlds-paw-some-est-competitors-302875856.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T08:35:00+00:00",
-    "raw_text": "Helen Woodward Animal Center's 21st Annual Surf Dog Surf-A-Thon Sends Surfing Dogs Riding Waves for Orphan Pets RANCHO SANTA FE, Calif., Sept. 13, 2026 /PRNewswire/ -- DIVE IN! Today, more than 50 four-legged surfers are making a splash at Del Mar Dog Beach for the 21st annual Surf Dog...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Helen Woodward Animal Center's 21st Annual Surf Dog Surf-A-Thon Sends Surfing Dogs Riding Waves for Orphan Pets RANCHO SANTA FE, Calif., Sept. 13, 2026 /PRNewswire/ -- DIVE IN! Today, more than 50 four-legged surfers are making a splash at Del Mar Dog Beach for the 21st annual Surf Dog..."
-  },
-  {
-    "title": "Quantinuum participará en la 5ª Conferencia anual Growth Frontiers de Piper Sandler",
-    "url": "https://www.prnewswire.com/news-releases/quantinuum-participara-en-la-5-conferencia-anual-growth-frontiers-de-piper-sandler-302876965.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T08:16:00+00:00",
-    "raw_text": "BROOMFIELD, Colo., 13 de septiembre de 2026 /PRNewswire/ -- Quantinuum Inc. (Nasdaq: QNT) (la \"Compañía\"), un líder en computación cuántica, anunció hoy que miembros de su equipo directivo participarán en la 5ª Conferencia Anual Growth Frontiers de Piper Sandler, que tendrá lugar del 14...",
+    "published": "2026-09-14T07:27:00+00:00",
+    "raw_text": "Achieving world-class AI inference performance through Japan-developed 2nm 3D-stacked CPU and server integrated, developed, and manufactured in Japan KAWASAKI, Japan, Sept. 14, 2026 /PRNewswire/ -- Fujitsu Limited today announced that it will begin global sales of its next-generation CPU,...",
     "categories": [
       "Data Centres",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Data Centres": [
-        "colo"
+        "ai infrastructure"
       ],
       "Industry & Market": [
-        "ipo"
+        "launches"
       ]
     },
-    "summary": "BROOMFIELD, Colo., 13 de septiembre de 2026 /PRNewswire/ -- Quantinuum Inc. (Nasdaq: QNT) (la \"Compañía\"), un líder en computación cuántica, anunció hoy que miembros de su equipo directivo participarán en la 5ª Conferencia Anual Growth Frontiers de Piper Sandler, que tendrá lugar del 14..."
+    "summary": "Achieving world-class AI inference performance through Japan-developed 2nm 3D-stacked CPU and server integrated, developed, and manufactured in Japan KAWASAKI, Japan, Sept. 14, 2026 /PRNewswire/ -- Fujitsu Limited today announced that it will begin global sales of its next-generation CPU,..."
   },
   {
-    "title": "CGTN: Jak BRICS vytváří nové příležitosti pro rozvoj Globálního Jihu",
-    "url": "https://www.prnewswire.com/news-releases/cgtn-jak-brics-vytvai-nove-pileitosti-pro-rozvoj-globalniho-jihu-302876959.html",
+    "title": "Scania digital services and Services 360 extend the value of Scania Dynamic",
+    "url": "https://www.prnewswire.com/news-releases/scania-digital-services-and-services-360-extend-the-value-of-scania-dynamic-302877388.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-13T07:53:00+00:00",
-    "raw_text": "Čínská státní televizní stanice CGTN zveřejnila článek, který se zabývá tím, jak se čtyři globální iniciativy Číny propojují se spoluprací v rámci BRICS s cílem vytvořit nové příležitosti pro rozvoj Globálního Jihu. Článek zdůrazňuje, jak tyto iniciativy pomáhají Globálnímu Jihu usilovat...",
+    "published": "2026-09-14T07:23:00+00:00",
+    "raw_text": "SÖDERTÄLJE, Sweden, Sept. 14, 2026 /PRNewswire/ -- With Scania Dynamic, Scania introduces updates that improve the driver environment, energy efficiency and everyday usability. Scania's digital and service solutions help customers turn those improvements into everyday performance that...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Čínská státní televizní stanice CGTN zveřejnila článek, který se zabývá tím, jak se čtyři globální iniciativy Číny propojují se spoluprací v rámci BRICS s cílem vytvořit nové příležitosti pro rozvoj Globálního Jihu. Článek zdůrazňuje, jak tyto iniciativy pomáhají Globálnímu Jihu usilovat..."
+    "summary": "SÖDERTÄLJE, Sweden, Sept. 14, 2026 /PRNewswire/ -- With Scania Dynamic, Scania introduces updates that improve the driver environment, energy efficiency and everyday usability. Scania's digital and service solutions help customers turn those improvements into everyday performance that..."
   },
   {
-    "title": "CGTN -- Как БРИКС создает новые возможности для развития Глобального Юга",
-    "url": "https://www.prnewswire.com/news-releases/cgtn-----------302876957.html",
+    "title": "Scania enables electric long-haul with up to 720 km range",
+    "url": "https://www.prnewswire.com/news-releases/scania-enables-electric-long-haul-with-up-to-720-km-range-302877387.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-13T07:39:00+00:00",
-    "raw_text": "CGTN опубликовала статью, в которой рассматривается, как четыре глобальные инициативы Китая согласуются с сотрудничеством БРИКС для создания новых возможностей развития для Глобального Юга. В статье подчеркивается, как эти инициативы помогают Глобальному Югу добиваться более инклюзивного...",
+    "published": "2026-09-14T07:22:00+00:00",
+    "raw_text": "SÖDERTÄLJE, Sweden, Sept. 14, 2026 /PRNewswire/ -- Scania is addressing one of the transport industry's biggest electrification challenges: how to make electric trucks work for long-haul operations. The solution combines expanded battery capacity, MCS charging and practical vehicle...",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "capacity"
+      ]
+    },
+    "summary": "SÖDERTÄLJE, Sweden, Sept. 14, 2026 /PRNewswire/ -- Scania is addressing one of the transport industry's biggest electrification challenges: how to make electric trucks work for long-haul operations. The solution combines expanded battery capacity, MCS charging and practical vehicle..."
+  },
+  {
+    "title": "ACLS Presents Hashtag Humanities: Scholars, Social Media, and Knowledge for the Public Good",
+    "url": "https://www.prnewswire.com/news-releases/acls-presents-hashtag-humanities-scholars-social-media-and-knowledge-for-the-public-good-302876761.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T07:06:00+00:00",
+    "raw_text": "A live Zoom event, Thursday, October 1, 2026, 2-3 PM ET NEW YORK, Sept. 14, 2026 /PRNewswire/ -- The American Council of Learned Societies presents \"Hashtag Humanities: Scholars, Social Media, and Knowledge for the Public Good,\" a virtual discussion panel, on Thursday, October 1, 2026,...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "A live Zoom event, Thursday, October 1, 2026, 2-3 PM ET NEW YORK, Sept. 14, 2026 /PRNewswire/ -- The American Council of Learned Societies presents \"Hashtag Humanities: Scholars, Social Media, and Knowledge for the Public Good,\" a virtual discussion panel, on Thursday, October 1, 2026,..."
+  },
+  {
+    "title": "Aitech presenta el nuevo ordenador robusto de placa única C165",
+    "url": "https://www.prnewswire.com/news-releases/aitech-presenta-el-nuevo-ordenador-robusto-de-placa-unica-c165-302875048.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T07:05:00+00:00",
+    "raw_text": "-Aitech presenta el nuevo ordenador robusto de placa única C165 para ayudar a los programas de defensa a construir y modernizar sistemas VME en servicio El nuevo 6U VME SBC ofrece computación y gráficos Intel de última generación, optimización SWaP y almacenamiento seguro de alta...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "CGTN опубликовала статью, в которой рассматривается, как четыре глобальные инициативы Китая согласуются с сотрудничеством БРИКС для создания новых возможностей развития для Глобального Юга. В статье подчеркивается, как эти инициативы помогают Глобальному Югу добиваться более инклюзивного..."
+    "summary": "-Aitech presenta el nuevo ordenador robusto de placa única C165 para ayudar a los programas de defensa a construir y modernizar sistemas VME en servicio El nuevo 6U VME SBC ofrece computación y gráficos Intel de última generación, optimización SWaP y almacenamiento seguro de alta..."
   },
   {
-    "title": "CGTN: Ako BRICS vytvára nové príležitosti pre rozvoj globálneho Juhu",
-    "url": "https://www.prnewswire.com/news-releases/cgtn-ako-brics-vytvara-nove-prileitosti-pre-rozvoj-globalneho-juhu-302876956.html",
+    "title": "Aitech Introduces New C165 Rugged Single Board Computer to Help Defense Programs Build and Modernize Fielded VME Systems",
+    "url": "https://www.prnewswire.com/news-releases/aitech-introduces-new-c165-rugged-single-board-computer-to-help-defense-programs-build-and-modernize-fielded-vme-systems-302874413.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-13T07:34:00+00:00",
-    "raw_text": "CGTN publikovala článok skúmajúci, ako sa štyri globálne iniciatívy Číny zosúlaďujú so spoluprácou v rámci BRICS s cieľom vytvoriť nové rozvojové príležitosti pre globálny Juh. Článok zdôrazňuje, ako tieto iniciatívy pomáhajú globálnemu Juhu presadzovať inkluzívnejší rozvoj a získať väčší...",
+    "published": "2026-09-14T07:05:00+00:00",
+    "raw_text": "New 6U VME SBC Delivers Modern Intel Computing and Graphics, SWaP Optimization and Secure High-Capacity Storage While Preserving Existing Infrastructure and Reducing Modernization Risk NATIONAL HARBOR, Md., Sept. 14, 2026 /PRNewswire/ -- (AFA Air, Space & Cyber Conference, Booth MB400) --...",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cyber"
+      ],
+      "Data Centres": [
+        "capacity"
+      ]
+    },
+    "summary": "New 6U VME SBC Delivers Modern Intel Computing and Graphics, SWaP Optimization and Secure High-Capacity Storage While Preserving Existing Infrastructure and Reducing Modernization Risk NATIONAL HARBOR, Md., Sept. 14, 2026 /PRNewswire/ -- (AFA Air, Space & Cyber Conference, Booth MB400) --..."
+  },
+  {
+    "title": "Aitech présente son nouvel ordinateur monocarte robuste C165 destiné à aider les programmes de défense à développer et à moderniser les systèmes VME déployés sur le terrain",
+    "url": "https://www.prnewswire.com/news-releases/aitech-presente-son-nouvel-ordinateur-monocarte-robuste-c165-destine-a-aider-les-programmes-de-defense-a-developper-et-a-moderniser-les-systemes-vme-deployes-sur-le-terrain-302875619.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T07:05:00+00:00",
+    "raw_text": "Le nouveau 6U VME SBC offre des capacités de calcul et graphiques Intel de dernière génération, une optimisation SWaP, ainsi qu'un stockage sécurisé de grande capacité, tout en préservant l'infrastructure existante et en réduisant les risques liés à la modernisation NATIONAL HARBOR,...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "CGTN publikovala článok skúmajúci, ako sa štyri globálne iniciatívy Číny zosúlaďujú so spoluprácou v rámci BRICS s cieľom vytvoriť nové rozvojové príležitosti pre globálny Juh. Článok zdôrazňuje, ako tieto iniciatívy pomáhajú globálnemu Juhu presadzovať inkluzívnejší rozvoj a získať väčší..."
+    "summary": "Le nouveau 6U VME SBC offre des capacités de calcul et graphiques Intel de dernière génération, une optimisation SWaP, ainsi qu'un stockage sécurisé de grande capacité, tout en préservant l'infrastructure existante et en réduisant les risques liés à la modernisation NATIONAL HARBOR,..."
   },
   {
-    "title": "CGTN : Comment les BRICS ouvrent de nouvelles perspectives pour le développement des pays du Sud",
-    "url": "https://www.prnewswire.com/news-releases/cgtn--comment-les-brics-ouvrent-de-nouvelles-perspectives-pour-le-developpement-des-pays-du-sud-302876955.html",
+    "title": "Aitech präsentiert neuen C165 Rugged Single Board Computer zur Unterstützung von Verteidigungsprogrammen beim Aufbau und der Modernisierung bereits im Einsatz befindlicher VME-Systeme",
+    "url": "https://www.prnewswire.com/news-releases/aitech-prasentiert-neuen-c165-rugged-single-board-computer-zur-unterstutzung-von-verteidigungsprogrammen-beim-aufbau-und-der-modernisierung-bereits-im-einsatz-befindlicher-vme-systeme-302875187.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-13T07:21:00+00:00",
-    "raw_text": "CGTN a publié un article analysant la manière dont les quatre initiatives mondiales de la Chine s'inscrivent dans le cadre de la coopération entre les BRICS afin de créer de nouvelles opportunités de développement pour les pays du Sud. Cet article met en lumière la manière dont ces...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "CGTN a publié un article analysant la manière dont les quatre initiatives mondiales de la Chine s'inscrivent dans le cadre de la coopération entre les BRICS afin de créer de nouvelles opportunités de développement pour les pays du Sud. Cet article met en lumière la manière dont ces..."
-  },
-  {
-    "title": "CGTN: Wie die BRICS-Staaten neue Entwicklungsmöglichkeiten für den Globalen Süden schaffen",
-    "url": "https://www.prnewswire.com/news-releases/cgtn-wie-die-brics-staaten-neue-entwicklungsmoglichkeiten-fur-den-globalen-suden-schaffen-302876954.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-13T07:16:00+00:00",
-    "raw_text": "CGTN veröffentlichte einen Artikel, in dem untersucht wird, wie Chinas vier globale Initiativen mit der BRICS-Zusammenarbeit in Einklang stehen, um neue Entwicklungsmöglichkeiten für den Globalen Süden zu schaffen. Der Artikel hebt hervor, wie die Initiativen dem Globalen Süden helfen,...",
+    "published": "2026-09-14T07:05:00+00:00",
+    "raw_text": "Neuer 6U VME SBC bietet moderne Intel-Rechen- und Grafikleistung, SWaP-Optimierung sowie sicheren Speicher mit hoher Kapazität – bei gleichzeitiger Beibehaltung der bestehenden Infrastruktur und Reduzierung des Modernisierungsrisikos NATIONAL HARBOR, Maryland, 14. September 2026...",
     "categories": [
       "Networks"
     ],
@@ -1456,19 +818,352 @@
         "lan"
       ]
     },
-    "summary": "CGTN veröffentlichte einen Artikel, in dem untersucht wird, wie Chinas vier globale Initiativen mit der BRICS-Zusammenarbeit in Einklang stehen, um neue Entwicklungsmöglichkeiten für den Globalen Süden zu schaffen. Der Artikel hebt hervor, wie die Initiativen dem Globalen Süden helfen,..."
+    "summary": "Neuer 6U VME SBC bietet moderne Intel-Rechen- und Grafikleistung, SWaP-Optimierung sowie sicheren Speicher mit hoher Kapazität – bei gleichzeitiger Beibehaltung der bestehenden Infrastruktur und Reduzierung des Modernisierungsrisikos NATIONAL HARBOR, Maryland, 14. September 2026..."
   },
   {
-    "title": "Ivonescimab Versus Pembrolizumab in First-Line PD-L1-Positive NSCLC: Positive Overall Survival Results from HARMONi-2 Presented at WCLC 2026",
-    "url": "https://www.prnewswire.com/news-releases/ivonescimab-versus-pembrolizumab-in-first-line-pd-l1-positive-nsclc-positive-overall-survival-results-from-harmoni-2-presented-at-wclc-2026-302876953.html",
+    "title": "Myrias Optics Garners 2026 SIVA Award",
+    "url": "https://www.prnewswire.com/news-releases/myrias-optics-garners-2026-siva-award-302876995.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-13T06:59:00+00:00",
-    "raw_text": "HONG KONG, Sept. 13, 2026 /PRNewswire/ -- Akeso, Inc. (9926.HK) today announced the presentation of positive overall survival (OS) results from the randomized, double-blind, multicenter, registrational Phase III HARMONi-2 study (AK112-303) at the 2026 World Conference on Lung Cancer...",
+    "published": "2026-09-14T07:01:00+00:00",
+    "raw_text": "AMHERST, Mass., Sept. 14, 2026 /PRNewswire/ -- Myrias Optics, a world leader in wafer-level metaoptics and diffractive optical technologies, announced today that the company has been selected as the winner of the 2026 SIVA Award for \"Optical Technology Breakthrough of the Year\" at the...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "HONG KONG, Sept. 13, 2026 /PRNewswire/ -- Akeso, Inc. (9926.HK) today announced the presentation of positive overall survival (OS) results from the randomized, double-blind, multicenter, registrational Phase III HARMONi-2 study (AK112-303) at the 2026 World Conference on Lung Cancer..."
+    "summary": "AMHERST, Mass., Sept. 14, 2026 /PRNewswire/ -- Myrias Optics, a world leader in wafer-level metaoptics and diffractive optical technologies, announced today that the company has been selected as the winner of the 2026 SIVA Award for \"Optical Technology Breakthrough of the Year\" at the..."
+  },
+  {
+    "title": "Global Startup EXPO 2026 to Give Overseas VCs Front-door Access to Japan's Startup and Investment Ecosystem, October 5-7, 2026",
+    "url": "https://www.prnewswire.com/news-releases/global-startup-expo-2026-to-give-overseas-vcs-front-door-access-to-japans-startup-and-investment-ecosystem-october-5-7-2026-302877219.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T07:00:00+00:00",
+    "raw_text": "TOKYO, Sept. 14, 2026 /PRNewswire/ -- The Ministry of Economy, Trade and Industry (hereinafter: \"METI\") will host the Global Startup EXPO 2026 (hereinafter: \"GSE2026\") from Monday, October 5 to Wednesday, October 7 in Osaka, Japan. As Japan's startup ecosystem expands, GSE2026 is designed...",
+    "categories": [
+      "Industry & Market",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "nist"
+      ],
+      "Industry & Market": [
+        "expands",
+        "investment"
+      ]
+    },
+    "summary": "TOKYO, Sept. 14, 2026 /PRNewswire/ -- The Ministry of Economy, Trade and Industry (hereinafter: \"METI\") will host the Global Startup EXPO 2026 (hereinafter: \"GSE2026\") from Monday, October 5 to Wednesday, October 7 in Osaka, Japan. As Japan's startup ecosystem expands, GSE2026 is designed..."
+  },
+  {
+    "title": "Isolated Communities Overcome Severe Staffing Scarcity Through Local Mentorship as Daniels Memorial Healthcare Center Joins \"All Access hosted by Andy Garcia\"",
+    "url": "https://www.prnewswire.com/news-releases/isolated-communities-overcome-severe-staffing-scarcity-through-local-mentorship-as-daniels-memorial-healthcare-center-joins-all-access-hosted-by-andy-garcia-302876525.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T07:00:00+00:00",
+    "raw_text": "An upcoming educational feature explores the critical intersection of community-driven workforce programs and modern rural hospital sustainability. LOS ANGELES, Sept. 14, 2026 /PRNewswire/ -- The educational series \"All Access hosted by Andy Garcia\" will document a compelling solution to...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "An upcoming educational feature explores the critical intersection of community-driven workforce programs and modern rural hospital sustainability. LOS ANGELES, Sept. 14, 2026 /PRNewswire/ -- The educational series \"All Access hosted by Andy Garcia\" will document a compelling solution to..."
+  },
+  {
+    "title": "SIRUI Wins \"Best of Show\", Showcases New Lenses at IBC 2026",
+    "url": "https://www.prnewswire.com/news-releases/sirui-wins-best-of-show-showcases-new-lenses-at-ibc-2026-302876261.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T07:00:00+00:00",
+    "raw_text": "LAS VEGAS, Sept. 14, 2026 /PRNewswire/ -- SIRUI, an imaging brand specializing in innovative lens design and technology, showcased its latest lens innovations at IBC 2026. A major highlight of the show was the Aurora 15mm F1.6 full-frame autofocus lens receiving a Best of Show Award on...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LAS VEGAS, Sept. 14, 2026 /PRNewswire/ -- SIRUI, an imaging brand specializing in innovative lens design and technology, showcased its latest lens innovations at IBC 2026. A major highlight of the show was the Aurora 15mm F1.6 full-frame autofocus lens receiving a Best of Show Award on..."
+  },
+  {
+    "title": "Share buybacks in Ericsson during the period September 7 - September 11, 2026",
+    "url": "https://www.prnewswire.com/news-releases/share-buybacks-in-ericsson-during-the-period-september-7---september-11-2026-302877354.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T06:49:00+00:00",
+    "raw_text": "STOCKHOLM, Sept. 14, 2026 /PRNewswire/ -- During the period September 7 - September 11, 2026, Telefonaktiebolaget LM Ericsson(publ) (\"Ericsson\") (LEI code 549300W9JLPW15XIFM52) repurchased own Class B shares (ISIN: SE0000108656) as follows: Date Aggregated daily volume (number of shares)...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "STOCKHOLM, Sept. 14, 2026 /PRNewswire/ -- During the period September 7 - September 11, 2026, Telefonaktiebolaget LM Ericsson(publ) (\"Ericsson\") (LEI code 549300W9JLPW15XIFM52) repurchased own Class B shares (ISIN: SE0000108656) as follows: Date Aggregated daily volume (number of shares)..."
+  },
+  {
+    "title": "Alfa Laval selected by Saipem to supply heat transfer technology for one of Europe's largest carbon capture projects",
+    "url": "https://www.prnewswire.com/news-releases/alfa-laval-selected-by-saipem-to-supply-heat-transfer-technology-for-one-of-europes-largest-carbon-capture-projects-302877351.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T06:48:00+00:00",
+    "raw_text": "LUND, Sweden, Sept. 14, 2026 /PRNewswire/ -- Alfa Laval has been selected by Saipem, the EPC (Engineering, Procurement, Construction) contractor for Stockholm Exergi's BECCS (Bioenergy with Carbon Capture and Storage) project to supply heat transfer equipment for one of Europe's largest...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LUND, Sweden, Sept. 14, 2026 /PRNewswire/ -- Alfa Laval has been selected by Saipem, the EPC (Engineering, Procurement, Construction) contractor for Stockholm Exergi's BECCS (Bioenergy with Carbon Capture and Storage) project to supply heat transfer equipment for one of Europe's largest..."
+  },
+  {
+    "title": "Eutelsat Network Solutions and G&S SatCom Bring Greater Control and Agility to Government LEO Connectivity",
+    "url": "https://www.prnewswire.com/news-releases/eutelsat-network-solutions-and-gs-satcom-bring-greater-control-and-agility-to-government-leo-connectivity-302877065.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T06:32:00+00:00",
+    "raw_text": "Enhanced Online Management Tool (OMT) provides customers greater control, faster service activation and actionable insight across OneWeb LEO connectivity HOUSTON and OSNABRÜCK, GERMANY, Sept. 14, 2026 /PRNewswire/ -- Today, Eutelsat Network Solutions, the company that empowers the U.S....",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "connectivity"
+      ]
+    },
+    "summary": "Enhanced Online Management Tool (OMT) provides customers greater control, faster service activation and actionable insight across OneWeb LEO connectivity HOUSTON and OSNABRÜCK, GERMANY, Sept. 14, 2026 /PRNewswire/ -- Today, Eutelsat Network Solutions, the company that empowers the U.S...."
+  },
+  {
+    "title": "DAZN STRENGTHENS LEADERSHIP TEAM TO ACCELERATE PROFITABLE GROWTH",
+    "url": "https://www.prnewswire.com/news-releases/dazn-strengthens-leadership-team-to-accelerate-profitable-growth-302877138.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T06:30:00+00:00",
+    "raw_text": "Patrick Delany appointed Chief Operating Officer to accelerate subscriber and revenue growth and drive tight integration across DAZN's divisions. Alex Gersh joins DAZN as Chief Financial Officer to lead financial strategy, capital allocation and group performance through DAZN's next phase....",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Patrick Delany appointed Chief Operating Officer to accelerate subscriber and revenue growth and drive tight integration across DAZN's divisions. Alex Gersh joins DAZN as Chief Financial Officer to lead financial strategy, capital allocation and group performance through DAZN's next phase...."
+  },
+  {
+    "title": "Neuberger Specialty Finance Announces Launch of New Bridge AeroFinance",
+    "url": "https://www.prnewswire.com/news-releases/neuberger-specialty-finance-announces-launch-of-new-bridge-aerofinance-302876930.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-14T06:30:00+00:00",
+    "raw_text": "New aerospace financing platform will seek to provide flexible and scalable capital to aerospace sector NEW YORK, Sept. 14, 2026 /PRNewswire/ -- Neuberger Specialty Finance (\"NBSF\") today announced an agreement with several leading aerospace finance professionals to jointly establish and...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "New aerospace financing platform will seek to provide flexible and scalable capital to aerospace sector NEW YORK, Sept. 14, 2026 /PRNewswire/ -- Neuberger Specialty Finance (\"NBSF\") today announced an agreement with several leading aerospace finance professionals to jointly establish and..."
+  },
+  {
+    "title": "Futurionex Completes System Upgrade and Officially Launches Multi-Asset CFD Trading Services",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360713/0/en/futurionex-completes-system-upgrade-and-officially-launches-multi-asset-cfd-trading-services.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:47:00+00:00",
+    "raw_text": "DENVER, Sept. 14, 2026 (GLOBE NEWSWIRE) -- Futurionex , a global multi-asset CFD trading platform, completed a new round of system upgrades and officially launched its expanded multi-asset CFD trading services. This upgrade marks a new milestone in the platform's development, broadening market coverage, strengthening trading infrastructure, and enhancing the unified multi-asset trading experience to provide users with a more comprehensive framework for participating in global markets.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "DENVER, Sept. 14, 2026 (GLOBE NEWSWIRE) -- Futurionex , a global multi-asset CFD trading platform, completed a new round of system upgrades and officially launched its expanded multi-asset CFD trading services. This upgrade marks a new milestone in the platform's development, broadening market coverage, strengthening trading infrastructure, and enhancing the unified multi-asset trading experience to provide users with a more comprehensive framework for participating in global markets."
+  },
+  {
+    "title": "Futurionex conclui atualização do sistema e lança oficialmente serviços de negociação de CFDs multiativos",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360713/0/pt/futurionex-conclui-atualiza%C3%A7%C3%A3o-do-sistema-e-lan%C3%A7a-oficialmente-servi%C3%A7os-de-negocia%C3%A7%C3%A3o-de-cfds-multiativos.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:47:00+00:00",
+    "raw_text": "DENVER, Sept. 14, 2026 (GLOBE NEWSWIRE) -- Recentemente, a Futurionex , uma plataforma global de negociação de CFDs multiativos, concluiu uma nova rodada de atualização do sistema e lançou oficialmente seus serviços ampliados de negociação de CFDs multiativos. A atualização marca uma nova etapa no desenvolvimento da plataforma, ampliando a cobertura de mercados, fortalecendo sua infraestrutura de negociação e aprimorando a experiência unificada de negociação multiativos para oferecer uma estrutura de serviços mais completa aos participantes dos mercados globais.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "DENVER, Sept. 14, 2026 (GLOBE NEWSWIRE) -- Recentemente, a Futurionex , uma plataforma global de negociação de CFDs multiativos, concluiu uma nova rodada de atualização do sistema e lançou oficialmente seus serviços ampliados de negociação de CFDs multiativos. A atualização marca uma nova etapa no desenvolvimento da plataforma, ampliando a cobertura de mercados, fortalecendo sua infraestrutura de negociação e aprimorando a experiência unificada de negociação multiativos para oferecer uma estrutura de serviços mais completa aos participantes dos mercados globais."
+  },
+  {
+    "title": "Continued positive performance in funds managed by NCI Advisory",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360704/0/da/continued-positive-performance-in-funds-managed-by-nci-advisory.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:11:00+00:00",
+    "raw_text": "Investor News no - 1 / 2026",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Investor News no - 1 / 2026"
+  },
+  {
+    "title": "Turntide Showcases Compact, High-Torque Axial Flux Motor Systems for Commercial Vehicles at IAA Transportation",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360685/0/en/turntide-showcases-compact-high-torque-axial-flux-motor-systems-for-commercial-vehicles-at-iaa-transportation.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:00:00+00:00",
+    "raw_text": "New axial flux systems deliver efficient, compact and flexible solutions for propulsion, ePTO and hybrid applications. New axial flux systems deliver efficient, compact and flexible solutions for propulsion, ePTO and hybrid applications.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "New axial flux systems deliver efficient, compact and flexible solutions for propulsion, ePTO and hybrid applications. New axial flux systems deliver efficient, compact and flexible solutions for propulsion, ePTO and hybrid applications."
+  },
+  {
+    "title": "STMicroelectronics présente un capteur d’image automobile pour faciliter le déploiement des systèmes d’imagerie de l’habitacle abordables",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360697/0/fr/stmicroelectronics-pr%C3%A9sente-un-capteur-d-image-automobile-pour-faciliter-le-d%C3%A9ploiement-des-syst%C3%A8mes-d-imagerie-de-l-habitacle-abordables.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:00:00+00:00",
+    "raw_text": "STMicroelectronics présente un capteur d’image automobile pour faciliter le déploiement des systèmes d’imagerie de l’habitacle abordables",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "STMicroelectronics présente un capteur d’image automobile pour faciliter le déploiement des systèmes d’imagerie de l’habitacle abordables"
+  },
+  {
+    "title": "J-VISIONS Vol. 4 Now Online: Read English Articles on Japanese Corporate IR",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360698/0/en/j-visions-vol-4-now-online-read-english-articles-on-japanese-corporate-ir.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:00:00+00:00",
+    "raw_text": "TOKYO, Sept. 14, 2026 (GLOBE NEWSWIRE) -- J-VISiONS, a cross-media publication launched by Edit Inc. for investors and corporate management, features in its 2026 Autumn issue. Kaname Capital, a Japan equities-focused activist investor; and Seven Bank, Japan's first retailer-founded financial institution.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "TOKYO, Sept. 14, 2026 (GLOBE NEWSWIRE) -- J-VISiONS, a cross-media publication launched by Edit Inc. for investors and corporate management, features in its 2026 Autumn issue. Kaname Capital, a Japan equities-focused activist investor; and Seven Bank, Japan's first retailer-founded financial institution."
+  },
+  {
+    "title": "NANOBIOTIX Announces Complete Full Cohort Phase 1 Results for JNJ-1900 (NBTXR3) in Inoperable, Recurrent Non-Small Cell Lung Cancer",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360699/0/en/nanobiotix-announces-complete-full-cohort-phase-1-results-for-jnj-1900-nbtxr3-in-inoperable-recurrent-non-small-cell-lung-cancer.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:00:00+00:00",
+    "raw_text": "Data presented at the IASLC 2026 World Conference on Lung Cancer",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Data presented at the IASLC 2026 World Conference on Lung Cancer"
+  },
+  {
+    "title": "NANOBIOTIX annonce les résultats complets de la phase 1 pour JNJ-1900 (NBTXR3) dans le cancer du poumon non à petites cellules inopérable et récurrent",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360699/0/fr/nanobiotix-annonce-les-r%C3%A9sultats-complets-de-la-phase-1-pour-jnj-1900-nbtxr3-dans-le-cancer-du-poumon-non-%C3%A0-petites-cellules-inop%C3%A9rable-et-r%C3%A9current.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T06:00:00+00:00",
+    "raw_text": "Données présentées à la Conférence mondiale du cancer du poumon 2026 de l’IASLC",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ]
+    },
+    "summary": "Données présentées à la Conférence mondiale du cancer du poumon 2026 de l’IASLC"
+  },
+  {
+    "title": "Beverly Wilshire Aesthetics Beverly Hills Medical Spa Announces Global Rebrand, Expanding Botox, Dermal Fillers, and Morpheus8 Services",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360677/0/en/beverly-wilshire-aesthetics-beverly-hills-medical-spa-announces-global-rebrand-expanding-botox-dermal-fillers-and-morpheus8-services.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T04:42:00+00:00",
+    "raw_text": "Beverly Wilshire Aesthetics redefines medical spa experiences in Beverly Hills, blending elite clinical precision with luxury 5-star resort styled Botox.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Beverly Wilshire Aesthetics redefines medical spa experiences in Beverly Hills, blending elite clinical precision with luxury 5-star resort styled Botox."
+  },
+  {
+    "title": "Report About the 1993 WWE Survivor Series Published by Pardu Productions",
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360676/0/en/report-about-the-1993-wwe-survivor-series-published-by-pardu-productions.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-14T02:35:00+00:00",
+    "raw_text": "LOS ANGELES, Sept. 14, 2026 (GLOBE NEWSWIRE) -- Pardu Productions announced today that they published a report about the 1993 WWE Survivor Series. Marc Mysterio said Bret Hart’s father told his grandfather after Survivor Series 1993 that “Walter’s boy is coming,” and that he wants a winner-take-all match against \"the next Shawn Michaels\".",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "LOS ANGELES, Sept. 14, 2026 (GLOBE NEWSWIRE) -- Pardu Productions announced today that they published a report about the 1993 WWE Survivor Series. Marc Mysterio said Bret Hart’s father told his grandfather after Survivor Series 1993 that “Walter’s boy is coming,” and that he wants a winner-take-all match against \"the next Shawn Michaels\"."
+  },
+  {
+    "title": "FITSTOP Global Games Set to Bring 1,000 Athletes to Brisbane for Major Functional Fitness Showdown",
+    "url": "https://www.globenewswire.com/news-release/2026/09/13/3360671/0/en/fitstop-global-games-set-to-bring-1-000-athletes-to-brisbane-for-major-functional-fitness-showdown.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-13T23:26:00+00:00",
+    "raw_text": "Australian-born fitness brand brings its global competition home as athletes from across the country descend on Brisbane.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Australian-born fitness brand brings its global competition home as athletes from across the country descend on Brisbane."
+  },
+  {
+    "title": "Fergus launches AI-first job management for tradespeople",
+    "url": "https://www.globenewswire.com/news-release/2026/09/13/3360663/0/en/fergus-launches-ai-first-job-management-for-tradespeople.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-13T22:00:00+00:00",
+    "raw_text": "Built on 15 years of trade experience and the job data already inside Fergus, new AI capabilities help tradespeople spend less time on admin, understand where they’re making money and turn completed work into cash faster. Built on 15 years of trade experience and the job data already inside Fergus, new AI capabilities help tradespeople spend less time on admin, understand where they’re making money and turn completed work into cash faster.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches",
+        "ey"
+      ]
+    },
+    "summary": "Built on 15 years of trade experience and the job data already inside Fergus, new AI capabilities help tradespeople spend less time on admin, understand where they’re making money and turn completed work into cash faster. Built on 15 years of trade experience and the job data already inside Fergus, new AI capabilities help tradespeople spend less time on admin, understand where they’re making money and turn completed work into cash faster."
+  },
+  {
+    "title": "Online Casino Real Money 2026: Jackbit Casino Announces New Online Casino Real Money No deposit Bonus Codes For Crypto Casinos Players USA.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/13/3360656/0/en/online-casino-real-money-2026-jackbit-casino-announces-new-online-casino-real-money-no-deposit-bonus-codes-for-crypto-casinos-players-usa.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-13T16:02:00+00:00",
+    "raw_text": "Jakbit Casino announces 2026 updates to its platform, covering online casino real money no deposit bonus USA options and developments related to Online Crypto Casinos. Jakbit Casino announces 2026 updates to its platform, covering online casino real money no deposit bonus USA options and developments related to Online Crypto Casinos.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces",
+        "ey"
+      ]
+    },
+    "summary": "Jakbit Casino announces 2026 updates to its platform, covering online casino real money no deposit bonus USA options and developments related to Online Crypto Casinos. Jakbit Casino announces 2026 updates to its platform, covering online casino real money no deposit bonus USA options and developments related to Online Crypto Casinos."
+  },
+  {
+    "title": "MemoHoney Launch Advanced Brain Memory Support Capsules 2026 in USA: Read Memohoney Supplement Facts, Benefits and Ingredients Highlights.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/13/3360647/0/en/memohoney-launch-advanced-brain-memory-support-capsules-2026-in-usa-read-memohoney-supplement-facts-benefits-and-ingredients-highlights.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-13T15:07:00+00:00",
+    "raw_text": "MemoHoney 2026 Announces a natural formula in the USA, designed to support brain health, memory and focus. Explore Memo Honey supplement facts, ingredients and key benefits. MemoHoney 2026 Announces a natural formula in the USA, designed to support brain health, memory and focus. Explore Memo Honey supplement facts, ingredients and key benefits.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces",
+        "ey"
+      ]
+    },
+    "summary": "MemoHoney 2026 Announces a natural formula in the USA, designed to support brain health, memory and focus. Explore Memo Honey supplement facts, ingredients and key benefits. MemoHoney 2026 Announces a natural formula in the USA, designed to support brain health, memory and focus. Explore Memo Honey supplement facts, ingredients and key benefits."
   },
   {
     "title": "Apeing Opens Stage 3 of $APEING Presale at $0.0004 as Project Advances Its 33-Stage Token Sale",
@@ -1554,268 +1249,5 @@
       ]
     },
     "summary": "Quant AI Wants to Build the Intelligence Layer for Global Markets, 400,000+ People Are Already Waiting Quant AI Wants to Build the Intelligence Layer for Global Markets, 400,000+ People Are Already Waiting"
-  },
-  {
-    "title": "RaserTech.com: From Geothermal Energy to AI GPU Infrastructure",
-    "url": "https://www.globenewswire.com/news-release/2026/09/12/3360585/0/en/rasertech-com-from-geothermal-energy-to-ai-gpu-infrastructure.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-12T13:46:00+00:00",
-    "raw_text": "NEW YORK, Sept. 12, 2026 (GLOBE NEWSWIRE) -- RaserTech.com is an example of a company that did not simply survive change — it was reshaped by it. Founded in Utah in 2002, Raser Technologies originally operated in the energy and infrastructure space, where projects demanded heavy capital, deep technical expertise, and patience for long return cycles. That background matters, because it shows Raser Technologies was built in a difficult, asset-heavy environment long before it became associated with AI infrastructure.",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Data Centres": [
-        "ai infrastructure"
-      ]
-    },
-    "summary": "NEW YORK, Sept. 12, 2026 (GLOBE NEWSWIRE) -- RaserTech.com is an example of a company that did not simply survive change — it was reshaped by it. Founded in Utah in 2002, Raser Technologies originally operated in the energy and infrastructure space, where projects demanded heavy capital, deep technical expertise, and patience for long return cycles. That background matters, because it shows Raser Technologies was built in a difficult, asset-heavy environment long before it became associated with AI infrastructure."
-  },
-  {
-    "title": "[Crypto Market News] Apeing Announces Stage 3 Presale at $0.0004 as More Than 400 Million $APEING Tokens Are Sold",
-    "url": "https://www.globenewswire.com/news-release/2026/09/12/3360577/0/en/crypto-market-news-apeing-announces-stage-3-presale-at-0-0004-as-more-than-400-million-apeing-tokens-are-sold.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-12T11:20:00+00:00",
-    "raw_text": "NEW YORK, Sept. 12, 2026 (GLOBE NEWSWIRE) -- Apeing has announced that its cryptocurrency presale is now active in Stage 3, giving participants access to $APEING at a current price of $0.0004. The project’s latest presale milestone comes as more than 400 million tokens have already been sold, while the current stage has raised $70K and reached 240 holders. With the Stage 3 allocation continuing to fill, Apeing is highlighting the remaining availability ahead of its next presale transition.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "NEW YORK, Sept. 12, 2026 (GLOBE NEWSWIRE) -- Apeing has announced that its cryptocurrency presale is now active in Stage 3, giving participants access to $APEING at a current price of $0.0004. The project’s latest presale milestone comes as more than 400 million tokens have already been sold, while the current stage has raised $70K and reached 240 holders. With the Stage 3 allocation continuing to fill, Apeing is highlighting the remaining availability ahead of its next presale transition."
-  },
-  {
-    "title": "New Crypto: Pepeto Announces $10.96M Raised While Ethereum Price Prediction Climbs to $40,000",
-    "url": "https://www.globenewswire.com/news-release/2026/09/12/3360569/0/en/new-crypto-pepeto-announces-10-96m-raised-while-ethereum-price-prediction-climbs-to-40-000.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-12T06:18:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, Sept. 12, 2026 (GLOBE NEWSWIRE) -- Ethereum based crypto Pepeto announced its newest presale update, and the numbers are getting huge: more than $10.96 million raised, with the current stage filling faster than any stage before it. Growth like that is never luck, it is thousands of buyers reaching the same decision at the same time. The team is building a full movement in crypto rather than one more token, the kind of project holders treat as their own and defend like it, and every update pulls more people in. So the real question is simple, what do all these buyers see?",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "DUBAI, United Arab Emirates, Sept. 12, 2026 (GLOBE NEWSWIRE) -- Ethereum based crypto Pepeto announced its newest presale update, and the numbers are getting huge: more than $10.96 million raised, with the current stage filling faster than any stage before it. Growth like that is never luck, it is thousands of buyers reaching the same decision at the same time. The team is building a full movement in crypto rather than one more token, the kind of project holders treat as their own and defend like it, and every update pulls more people in."
-  },
-  {
-    "title": "KBW Announces Index Rebalancing for Third-Quarter 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/09/12/3360564/0/en/kbw-announces-index-rebalancing-for-third-quarter-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-12T00:30:00+00:00",
-    "raw_text": "NEW YORK, Sept. 11, 2026 (GLOBE NEWSWIRE) -- Keefe, Bruyette & Woods, Inc., a leading specialist investment bank to the financial services and fintech sectors, and a wholly owned subsidiary of Stifel Financial Corp. (NYSE: SF), announces the upcoming index rebalancing for the third quarter of 2026.",
-    "categories": [
-      "Industry & Market",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces",
-        "investment"
-      ]
-    },
-    "summary": "NEW YORK, Sept. 11, 2026 (GLOBE NEWSWIRE) -- Keefe, Bruyette & Woods, Inc., a leading specialist investment bank to the financial services and fintech sectors, and a wholly owned subsidiary of Stifel Financial Corp. (NYSE: SF), announces the upcoming index rebalancing for the third quarter of 2026."
-  },
-  {
-    "title": "LiveVoice Introduces Hardware-Free Multilingual Events Platform With AI Live Translation in 70+ Languages",
-    "url": "https://www.globenewswire.com/news-release/2026/09/12/3360563/0/en/livevoice-introduces-hardware-free-multilingual-events-platform-with-ai-live-translation-in-70-languages.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-12T00:01:00+00:00",
-    "raw_text": "Cloud-Based Platform Delivers AI Live Translation in 70+ Languages Through Attendee Smartphones, Removing Equipment Rental From Event Budgets Cloud-Based Platform Delivers AI Live Translation in 70+ Languages Through Attendee Smartphones, Removing Equipment Rental From Event Budgets",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Cloud-Based Platform Delivers AI Live Translation in 70+ Languages Through Attendee Smartphones, Removing Equipment Rental From Event Budgets Cloud-Based Platform Delivers AI Live Translation in 70+ Languages Through Attendee Smartphones, Removing Equipment Rental From Event Budgets"
-  },
-  {
-    "title": "Afognak Commercial Group Invests in Weaver Bros., Doyle’s Fuel Service, and Doyle Transport",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360557/0/en/afognak-commercial-group-invests-in-weaver-bros-doyle-s-fuel-service-and-doyle-transport.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T22:44:00+00:00",
-    "raw_text": "Afognak Commercial Group, a subsidiary of Afognak Native Corporation, invests in Weaver Bros.; Doyle’s Fuel Service; and Doyle Transport.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Afognak Commercial Group, a subsidiary of Afognak Native Corporation, invests in Weaver Bros.; Doyle’s Fuel Service; and Doyle Transport."
-  },
-  {
-    "title": "Capital Power and Alpine Canada Launch a Partnership to Fuel the Future of Canadian Winter Sport",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360534/0/en/capital-power-and-alpine-canada-launch-a-partnership-to-fuel-the-future-of-canadian-winter-sport.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T21:15:00+00:00",
-    "raw_text": "Anchor private-sector sponsorship helping turn Canada’s ‘Playground to Podium’ vision into action",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "Anchor private-sector sponsorship helping turn Canada’s ‘Playground to Podium’ vision into action"
-  },
-  {
-    "title": "Circle Cardiovascular Imaging Ready to Help Heart Teams Meet the Next Era of TAVR as CMS Finalizes Expanded Medicare Coverage",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360533/0/en/circle-cardiovascular-imaging-ready-to-help-heart-teams-meet-the-next-era-of-tavr-as-cms-finalizes-expanded-medicare-coverage.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T21:00:00+00:00",
-    "raw_text": "As CMS finalizes expanded Medicare coverage for asymptomatic aortic stenosis, Circle CVI's cvi42 equips heart teams with efficient, scalable TAVR planning.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "As CMS finalizes expanded Medicare coverage for asymptomatic aortic stenosis, Circle CVI's cvi42 equips heart teams with efficient, scalable TAVR planning."
-  },
-  {
-    "title": "“BEYOND THE EXTREME\" Digital Music Night Debuts at ICEBAR Stockholm",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360528/0/en/beyond-the-extreme-digital-music-night-debuts-at-icebar-stockholm.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T20:46:00+00:00",
-    "raw_text": "Perfect World Digital Art debuted an Arctic night of AI, esports and Chinese heritage at ICEBAR Stockholm.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Perfect World Digital Art debuted an Arctic night of AI, esports and Chinese heritage at ICEBAR Stockholm."
-  },
-  {
-    "title": "States Logistics Distribution Center Coming to Las Vegas",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360527/0/en/states-logistics-distribution-center-coming-to-las-vegas.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T20:41:00+00:00",
-    "raw_text": "States Logistics Announces Plans to Establish a Distribution Center in Las Vegas States Logistics Announces Plans to Establish a Distribution Center in Las Vegas",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "States Logistics Announces Plans to Establish a Distribution Center in Las Vegas States Logistics Announces Plans to Establish a Distribution Center in Las Vegas"
-  },
-  {
-    "title": "Arteris Announces New Employment Inducement Grants",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360524/0/en/arteris-announces-new-employment-inducement-grants.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T20:30:00+00:00",
-    "raw_text": "CAMPBELL, Calif., Sept. 11, 2026 (GLOBE NEWSWIRE) -- Arteris, Inc. (Nasdaq: AIP), a leading technology provider for accelerating semiconductor creation in the AI era, today announced that the company’s board of directors has granted equity awards to Saurabh Sinha, the company’s Chief Financial Officer, as inducement awards material to Mr. Sinha’s acceptance of employment with the company under the company’s 2022 Employment Inducement Incentive Plan. The grants were made in accordance with Nasdaq Listing Rule 5635(c)(4).",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "CAMPBELL, Calif., Sept. 11, 2026 (GLOBE NEWSWIRE) -- Arteris, Inc. (Nasdaq: AIP), a leading technology provider for accelerating semiconductor creation in the AI era, today announced that the company’s board of directors has granted equity awards to Saurabh Sinha, the company’s Chief Financial Officer, as inducement awards material to Mr. Sinha’s acceptance of employment with the company under the company’s 2022 Employment Inducement Incentive Plan."
-  },
-  {
-    "title": "CULLINAN PROPERTIES ANNOUNCES ITS ROCK RUN COLLECTION DEVELOPMENT IN JOLIET HAS OVER 500,000 SQUARE FEET OF SPACE IN EXECUTED DEALS OPEN OR OPENING IN 2027",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360513/0/en/cullinan-properties-announces-its-rock-run-collection-development-in-joliet-has-over-500-000-square-feet-of-space-in-executed-deals-open-or-opening-in-2027.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T20:19:00+00:00",
-    "raw_text": "Five additional national and regional retailers announced to join DICK’S House of Sport at the ceremonial retail groundbreaking for the 1.3 million square foot super regional destination Five additional national and regional retailers announced to join DICK’S House of Sport at the ceremonial retail groundbreaking for the 1.3 million square foot super regional destination",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Five additional national and regional retailers announced to join DICK’S House of Sport at the ceremonial retail groundbreaking for the 1.3 million square foot super regional destination Five additional national and regional retailers announced to join DICK’S House of Sport at the ceremonial retail groundbreaking for the 1.3 million square foot super regional destination"
-  },
-  {
-    "title": "How Claim Rework Adds to the Staffing Burden Behind Rising Medical Billing Costs",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360496/0/en/how-claim-rework-adds-to-the-staffing-burden-behind-rising-medical-billing-costs.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T19:30:00+00:00",
-    "raw_text": "Rapid Growth Trend reports a 99.4% first-pass claim rate and a net collection rate above 97% for the practices it bills for.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Rapid Growth Trend reports a 99.4% first-pass claim rate and a net collection rate above 97% for the practices it bills for."
-  },
-  {
-    "title": "Crypto News Today: MemeToro Leaves Solana and XRP Behind as Presale Moves Toward Stage 7 Sellout",
-    "url": "https://www.globenewswire.com/news-release/2026/09/11/3360490/0/en/crypto-news-today-memetoro-leaves-solana-and-xrp-behind-as-presale-moves-toward-stage-7-sellout.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-11T18:53:00+00:00",
-    "raw_text": "MemeToro’s Stage 7 presale advances beyond $122,000 while Solana and XRP decline, although fundraising progress cannot be compared directly with traded-asset performance.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "MemeToro’s Stage 7 presale advances beyond $122,000 while Solana and XRP decline, although fundraising progress cannot be compared directly with traded-asset performance."
-  },
-  {
-    "title": "Top Cybersecurity Frameworks: NIST, DORA & More (2026) - Bitsight",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcldEVVRrYk9ybV82QTNueXhGWmI4aUo3a2JqcUpDbmJpd2FScmhaQTB5NlIzUDdGcTBTaTNaVGZ5blN0eHpmZkdJd3Jjby15eHdFNktKTWZNZC0tb1lUU2hVd3Y4aUFrSTYwNUtuZVFjZTgwREN4VFVEMkZ4Y2NQNzd1dl95dw?oc=5",
-    "source": "Google News: GRC",
-    "published": "2026-09-11T17:36:24+00:00",
-    "raw_text": "Top Cybersecurity Frameworks: NIST, DORA & More (2026) Bitsight",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "dora",
-        "nist"
-      ]
-    },
-    "summary": "Top Cybersecurity Frameworks: NIST, DORA & More (2026) Bitsight"
   }
 ]
