@@ -479,6 +479,22 @@
     "summary": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as CVE-2026-87886 (CVSS score: 7.8), is described as a case of local privilege escalation due to insecure file permissions. It affects the following versions - Acronis Backup plugin for cPanel & WHM (Linux"
   },
   {
+    "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+    "source": "BleepingComputer",
+    "published": "2026-09-18T07:35:31+00:00",
+    "raw_text": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]"
+  },
+  {
     "title": "New RatHat Android malware uses AI to automate device control",
     "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
     "source": "BleepingComputer",
@@ -729,22 +745,6 @@
     "summary": "The Spanish Data Protection Agency (AEPD) was notified of an attack allegedly carried out with an AI agent powered by a known large language model (LLM). [...]"
   },
   {
-    "title": "The true cost of a ransomware attack, with and without BCDR",
-    "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/",
-    "source": "BleepingComputer",
-    "published": "2026-09-16T14:00:10+00:00",
-    "raw_text": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can reduce downtime and provide a faster, more predictable path to recovery. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware"
-      ]
-    },
-    "summary": "The ransom itself can be only a fraction of the total cost of a ransomware attack, with downtime, recovery, remediation, and legal obligations adding millions to the bill. Datto explains how a mature BCDR strategy can reduce downtime and provide a faster, more predictable path to recovery. [...]"
-  },
-  {
     "title": "Data Broker Radaris Loses Domains in Privacy Fight",
     "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
     "source": "Krebs on Security",
@@ -768,6 +768,65 @@
       ]
     },
     "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement officials. In the face of repeated stonewalling and prevarication by attorneys for Radaris, the judge in the case ordered that radaris.com and more than a dozen other data broker domains be transferred to the plaintiffs."
+  },
+  {
+    "title": "Arcjet brings security controls and audit trails to AI agents",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/arcjet-agent-runtime-security/",
+    "source": "Help Net Security",
+    "published": "2026-09-18T08:55:00+00:00",
+    "raw_text": "Arcjet has launched agent runtime security, a new product that helps engineering teams secure the AI agents they are building while giving security teams the governance and compliance evidence they need. Arcjet brings observability, enforcement, and audit capabilities across agent workflows so teams can discover which agents are running, control what they can do, and understand what happened and why. AI agents are moving beyond chat interfaces and into production workflows, where they can read … More → The post Arcjet brings security controls and audit trails to AI agents appeared first on Help Net Security .",
+    "categories": [
+      "GRC",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "audit"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Arcjet has launched agent runtime security, a new product that helps engineering teams secure the AI agents they are building while giving security teams the governance and compliance evidence they need. Arcjet brings observability, enforcement, and audit capabilities across agent workflows so teams can discover which agents are running, control what they can do, and understand what happened and why. AI agents are moving beyond chat interfaces and into production workflows, where they can read … More → The post Arcjet brings security controls and audit trails to AI agents appeared first on Help Net Security ."
+  },
+  {
+    "title": "Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
+    "source": "Help Net Security",
+    "published": "2026-09-18T08:49:00+00:00",
+    "raw_text": "Four major AI coding agents, Claude Code, Codex, GitHub Copilot and Gemini CLI, all share the same zero-click RCE vulnerability, one that could give an attacker the same reach into a company’s systems and data as the employee running the agent, according to AIR. “It is the first supply chain vulnerability of the AI agent ecosystem,” the researchers said. “Anyone running a major coding agent that installs plugins from a marketplace is exposed. The exposure … More → The post Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "security"
+      ]
+    },
+    "summary": "Four major AI coding agents, Claude Code, Codex, GitHub Copilot and Gemini CLI, all share the same zero-click RCE vulnerability, one that could give an attacker the same reach into a company’s systems and data as the employee running the agent, according to AIR. “It is the first supply chain vulnerability of the AI agent ecosystem,” the researchers said. “Anyone running a major coding agent that installs plugins from a marketplace is exposed. The exposure … More → The post Zero-click RCE vulnerability hit four major AI coding agents, two remain unpatched appeared first on Help Net Security ."
+  },
+  {
+    "title": "Android apps can now check security patches down to individual device components",
+    "url": "https://www.helpnetsecurity.com/2026/09/18/google-androidx-security-state-libraries/",
+    "source": "Help Net Security",
+    "published": "2026-09-18T08:38:42+00:00",
+    "raw_text": "New AndroidX Security State libraries provide a more granular way to determine how securely patched an Android device is. The stable Security State v1.1.0 and Security State Provider v1.0.0 libraries allow developers to check the security status of individual device components and determine whether security updates are ready to be downloaded and installed on a specific device. For phone manufacturers and developers who build over-the-air (OTA) update systems, the androidx.security.state.provider library provides a standard way … More → The post Android apps can now check security patches down to individual device components appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "New AndroidX Security State libraries provide a more granular way to determine how securely patched an Android device is. The stable Security State v1.1.0 and Security State Provider v1.0.0 libraries allow developers to check the security status of individual device components and determine whether security updates are ready to be downloaded and installed on a specific device. For phone manufacturers and developers who build over-the-air (OTA) update systems, the androidx.security.state.provider library provides a standard way … More → The post Android apps can now check security patches down to individual device components appeared first on Help Net Security ."
   },
   {
     "title": "Abandoned IoT apps keep sending sensitive data to broken servers",
@@ -933,78 +992,6 @@
     "summary": "A fake ChatGPT billing email is steering users to a copy of the OpenAI login page that keeps whatever username and password they type. Josh Varden of Cofense’s Phishing Defense Center traced the email’s payment button through a Google redirect to the attacker’s page. The lure targets ChatGPT users on work and personal accounts alike, and it copies the kind of bill a subscriber already expects. Credentials entered on the fake page go to the … More → The post A fake ChatGPT billing email is after your OpenAI password appeared first on Help Net Security ."
   },
   {
-    "title": "Download: The IT leader’s guide to AI code sprawl",
-    "url": "https://www.helpnetsecurity.com/2026/09/17/tines-ai-code-sprawl-guide/",
-    "source": "Help Net Security",
-    "published": "2026-09-17T13:00:28+00:00",
-    "raw_text": "AI hasn’t just made building faster, it’s made everyone a builder. Across every department, employees are shipping apps, agents and automations using AI tools, often without knowing they’ve created something that needs governing at all. The result: AI code sprawl is taking root, increasing risk, compromising compliance, and wasting resources. The usual responses aren’t working: not because they’re poorly executed, but because they were never built for a problem at this scale or speed. Drawing … More → The post Download: The IT leader’s guide to AI code sprawl appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "compliance"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "AI hasn’t just made building faster, it’s made everyone a builder. Across every department, employees are shipping apps, agents and automations using AI tools, often without knowing they’ve created something that needs governing at all. The result: AI code sprawl is taking root, increasing risk, compromising compliance, and wasting resources. The usual responses aren’t working: not because they’re poorly executed, but because they were never built for a problem at this scale or speed."
-  },
-  {
-    "title": "CISA wants critical infrastructure orgs and smaller security teams to start using cyber decoys",
-    "url": "https://www.helpnetsecurity.com/2026/09/17/cisa-guidance-for-implementing-cyber-decoys/",
-    "source": "Help Net Security",
-    "published": "2026-09-17T12:51:40+00:00",
-    "raw_text": "Cyber deception has long been the domain of well-resourced security teams, but CISA’s latest guidance, titled “Using Cyber Decoys to Strengthen Detection and Response”, is an attempt to try and change that. Why decoys, and why now The core problem CISA is attempting to address is that many organizations are incapable of detecting adversaries who use legitimate credentials, built-in administrative utilities, and living-off-the-land (LOTL) techniques. CISA’s new guidance argues that once you accept intruders will … More → The post CISA wants critical infrastructure orgs and smaller security teams to start using cyber decoys appeared first on Help Net Security .",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Cyber deception has long been the domain of well-resourced security teams, but CISA’s latest guidance, titled “Using Cyber Decoys to Strengthen Detection and Response”, is an attempt to try and change that. Why decoys, and why now The core problem CISA is attempting to address is that many organizations are incapable of detecting adversaries who use legitimate credentials, built-in administrative utilities, and living-off-the-land (LOTL) techniques. CISA’s new guidance argues that once you accept intruders will … More → The post CISA wants critical infrastructure orgs and smaller security teams to start using cyber decoys appeared first on Help Net Security ."
-  },
-  {
-    "title": "Druva expands identity resilience with ransomware detection",
-    "url": "https://www.helpnetsecurity.com/2026/09/17/druva-identity-resilience-ransomware-detection/",
-    "source": "Help Net Security",
-    "published": "2026-09-17T12:29:26+00:00",
-    "raw_text": "Druva has announced new capabilities for Druva Identity Resilience alongside the launch of Ransomware Detection, a new feature fueled by a proprietary AI threat pipeline. Powered by Dru MetaGraph, the new offerings use behavioral intelligence and built-in validation to turn suspicious behavior into actionable evidence, definitively confirm impact, and accelerate precise containment and clean recovery. AI is making it harder for security teams to distinguish real compromise from normal behaviors and activity. Attackers are using … More → The post Druva expands identity resilience with ransomware detection appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware",
-        "threat",
-        "security"
-      ],
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "Druva has announced new capabilities for Druva Identity Resilience alongside the launch of Ransomware Detection, a new feature fueled by a proprietary AI threat pipeline. Powered by Dru MetaGraph, the new offerings use behavioral intelligence and built-in validation to turn suspicious behavior into actionable evidence, definitively confirm impact, and accelerate precise containment and clean recovery. AI is making it harder for security teams to distinguish real compromise from normal behaviors and activity. Attackers are using … More → The post Druva expands identity resilience with ransomware detection appeared first on Help Net Security ."
-  },
-  {
     "title": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
     "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data",
     "source": "Dark Reading",
@@ -1117,6 +1104,25 @@
     ],
     "matched_keywords": {},
     "summary": "A new type of attack hijacks the AI assistant built directly into various browsers to access sensitive information, execute malicious actions, and exfiltrate data."
+  },
+  {
+    "title": "Critical Orkes Conductor Vulnerability Exploited in Attacks",
+    "url": "https://www.securityweek.com/critical-orkes-conductor-vulnerability-exploited-in-attacks/",
+    "source": "SecurityWeek",
+    "published": "2026-09-18T08:42:18+00:00",
+    "raw_text": "CVE-2026-58138 is an unauthenticated remote code execution vulnerability that attackers can exploit via inline workflow definitions. The post Critical Orkes Conductor Vulnerability Exploited in Attacks appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "CVE-2026-58138 is an unauthenticated remote code execution vulnerability that attackers can exploit via inline workflow definitions. The post Critical Orkes Conductor Vulnerability Exploited in Attacks appeared first on SecurityWeek ."
   },
   {
     "title": "MIND Secures $72 Million for AI-Powered DLP",
@@ -1298,24 +1304,20 @@
     "summary": "Research shows attacks on manufacturers rose 40% in early 2026, as ransomware groups increasingly exploit the supply-chain disruption caused by operational shutdowns. The post Ransomware Attacks on Manufacturers Surge as Supply Chain Risk Grows appeared first on SecurityWeek ."
   },
   {
-    "title": "Cisco Fixes Dozens of Flaws Across FMC, ISE and Nexus Dashboard",
-    "url": "https://www.securityweek.com/cisco-fixes-dozens-of-flaws-across-fmc-ise-and-nexus-dashboard/",
-    "source": "SecurityWeek",
-    "published": "2026-09-17T12:17:40+00:00",
-    "raw_text": "The vulnerabilities may lead to root access, command execution, bypasses, SQL injection, and remote code execution. The post Cisco Fixes Dozens of Flaws Across FMC, ISE and Nexus Dashboard appeared first on SecurityWeek .",
+    "title": "Manufacturing Accounts for 22% of all Ransomware Victims",
+    "url": "https://www.infosecurity-magazine.com/news/manufacturing-22-ransomware-victims/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-09-18T08:00:00+00:00",
+    "raw_text": "Black Kite has found that manufacturing remained the most targeted sector for ransomware attacks, and saw a big jump in incidents in H1 2026",
     "categories": [
-      "Cloud Infrastructure",
       "Cybersecurity"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
       "Cybersecurity": [
-        "security"
+        "ransomware"
       ]
     },
-    "summary": "The vulnerabilities may lead to root access, command execution, bypasses, SQL injection, and remote code execution. The post Cisco Fixes Dozens of Flaws Across FMC, ISE and Nexus Dashboard appeared first on SecurityWeek ."
+    "summary": "Black Kite has found that manufacturing remained the most targeted sector for ransomware attacks, and saw a big jump in incidents in H1 2026"
   },
   {
     "title": "FamousSparrow Swaps SparrowDoor For New SparroWocky Backdoor",
@@ -1485,49 +1487,6 @@
       ]
     },
     "summary": "OPSWAT researchers find two zero-days in TP-Link cameras"
-  },
-  {
-    "title": "Major Cyber Vendors Turn to New UK Testing Program as MITRE Evaluations Face Changes",
-    "url": "https://www.infosecurity-magazine.com/news/cyber-vendors-mitre-uk-testing/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-09-16T09:00:00+00:00",
-    "raw_text": "A group of cyber threat detection providers, including CrowdStrike, Palo Alto Networks and Sophos, have joined SE Labs’ PIVOT program",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "threat",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "valuation",
-        "vendor"
-      ]
-    },
-    "summary": "A group of cyber threat detection providers, including CrowdStrike, Palo Alto Networks and Sophos, have joined SE Labs’ PIVOT program"
-  },
-  {
-    "title": "NCSC and Allies Warn of Iranian Spyware Campaign",
-    "url": "https://www.infosecurity-magazine.com/news/ncsc-allies-warn-iranian-chosen/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-09-16T08:25:00+00:00",
-    "raw_text": "The UK’s National Cyber Security Centre says Iranian Chosen Brick spyware is designed to snoop on dissidents",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "The UK’s National Cyber Security Centre says Iranian Chosen Brick spyware is designed to snoop on dissidents"
   },
   {
     "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
@@ -1845,7 +1804,7 @@
     "url": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/",
     "source": "Google Cloud Blog",
     "published": "2026-09-16T16:00:00+00:00",
-    "raw_text": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7fd7afe90490>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat Intelligence Sandra Joyce, VP, Google Threat Intelligence Anyone operating in security knows that speculation is a major liability during periods of technological disruption. While there is plenty of hype and understandable concern around how threats might use and target AI, a CISO’s AI security strategy has to be anchored in ground truth. Google operates at a rare intersection as both a frontier AI lab and a security company with a frontline view of global incidents. This dual vantage point allows us to understand how AI is built, and exactly how AI is being targeted in the wild. To provide the operational realities that security and business leaders need in the AI era, Google Threat Intelligence Group (GTIG) recently released our latest AI Threat Tracker . When we strip away the noise and look at the telemetry, the real threat landscape boils down to three structural shifts that CISOs must address: AI is reshaping how software is built. AI is expanding the attack surface. AI is enhancing threat capabilities. Today, we’re sharing details on Google’s visibility into these three challenges, and our approach for solving them. Building securely in the AI era AI has fundamentally altered software development velocity. Across the industry, autonomous agents and AI workflows now push code into production at unprecedented speed. This creates exciting opportunities for innovation, yet CISOs are faced with the difficult task of mitigating enterprise risk while maintaining business momentum. We’re seeing threat actors turn our greatest engineering shortcut against us by contaminating upstream packages that AI assistants are trained to suggest and trust. GTIG believes that malicious contamination of AI-assisted coding practices has been contributing to the significant growth in large-scale, open-source software supply chain compromises we observed in 2025 and early 2026 . The solution to a machine-speed threat landscape isn't slowing developers down — it’s building security natively into the AI pipeline. Part of this process involves in-editor guardrails for developers that create a real-time 'spellcheck for cybersecurity.' We’re also monitoring adversaries targeting agents. The financially-motivated threat actor TeamPCP (UNC6780) has implemented more than half a dozen methods to exploit AI tools and open-source software development practices, including hijacking AI toolkits, prompt injection, and blinding AI scanners with toxic prompts to obfuscate malicious payloads. The solution to a machine-speed threat landscape isn't slowing developers down — it’s building security natively into the AI pipeline. Part of this process involves in-editor guardrails for developers that create a real-time “spellcheck for cybersecurity.” Just as word processors underline typos without forcing the writer to stop, security controls must sit natively inside the developer’s editor and agentic workflows, instantly flagging poisoned packages, toxic prompts, and misconfigured toolkits. Crucially, this can’t stop at the editor. Traditional security suffers from context blindness: Code editors can’t see cloud configurations, delivery pipelines miss runtime exposure, and production teams can’t easily patch root-cause blueprints. Bridging this gap requires an integrated code-to-cloud approach — the exact design principle behind platforms like Wiz Code . The underlying approach is to ensure code is continuously verified against live cloud realities before it ships. When organizations think about AI-driven code analysis, the default assumption is to pick one frontier model and point it at their repository. However, our research and telemetry show that single-model security creates a dangerous monoculture: No single AI model can discover every vulnerability, and threat actors are already testing inputs that can blind specific LLM safety filters and scanners. To secure this expanding attack surface, CISOs should avoid the trap of managing AI through disconnected silos... The future of cloud and AI defense needs to be built on a unified and dynamic graph that connects your code, your models, your data lineage, and your runtime identities into a single living map. To solve this, Google takes a deliberate multi-model approach . By orchestrating several foundation models — including Gemini, commercial, and open-source — we cross-validate findings, strip out false positives, remediate code, and identify complex logic flaws that a single model misses. We’re smarter with more than one “brain.” Securing AI Securing the development lifecycle is only half the battle. We also need to prevent adversaries from exploiting AI attack surfaces and weaponizing over-privileged agents. Threat actors are targeting AI workloads with techniques that include: LLMJacking : Cybercriminals and state-sponsored groups target GPU access to support running their AI models and agentic workflows. In one notable intrusion Mandiant investigated in April, a threat actor gained initial access to a victim’s cloud environment from an exposed personal access token, and used it to deploy unauthorized AI infrastructure and scale high-performance compute resources, leaving the victim to absorb the hardware and platform costs. Targeting of AI data and access : Cybercriminals now recognize that your custom prompts, agent instructions, and fine-tuned models represent high-value crown jewels. In Q2 2026, Mandiant investigated multiple data theft extortion operations where threat actors stole proprietary AI data, including models, skills, prompts, source code, and related research. Demand is also surging for AI account credentials in underground marketplace forums, with some sellers offering steep discounts for consumer accounts at up to 99% off retail prices. To secure this expanding attack surface, CISOs should avoid the trap of managing AI through disconnected silos. Don’t treat agent access policies, model inventories (AI-BOMs) and shadow AI as separate challenges because these risks are deeply connected. The future of cloud and AI defense needs to be built on a unified and dynamic graph that connects your code, your models, your data lineage, and your runtime identities into a single living map. Pioneered by the Wiz Security Graph , this approach serves as the contextual engine for Google AI Threat Defense (AITD) — our broader autonomous security framework that fuses the reasoning power of Gemini and other frontier models, the contextual risk prioritization of Wiz, the code remediation capabilities of CodeMender, and the frontline expertise of Mandiant to stay ahead of AI-driven attacks. Crucially, this context is not siloed; it directly feeds Google Security Operations , ensuring that security operations teams can continuously identify, prioritize, and sever toxic attack paths at machine speed. Defending against AI threats Threat actors are rapidly moving beyond simple prompt generation toward fully-automated, multi-agent attack pipelines. Security in the AI Era Cyber Defense Summit 2026: Security in the AI era In one notable intrusion investigated by Mandiant, a financially-motivated actor compromised an organization's cloud infrastructure and deployed an autonomous agent framework. The threat actor used an AI coding chatbot, a prompt, and a set of agent instructions to plan, build, and execute a mass credential harvesting campaign in less than six hours. We’re also tracking adversaries using AI as an intelligent orchestrator across the entire attack lifecycle. GTIG recently observed a PRC-nexus espionage group experimenting with a tool called CC Switch to cycle across multiple accounts and swap AI models — like Claude, Codex, and Gemini — picking the best model for specific tasks, such as writing exploit scripts and drafting lures. While the underlying hacking tools aren’t new, AI turned what had been a disjointed manual process into a smooth and automated workflow. To take advantage of your deep context, it’s imperative to shift from manual, human-scale incident response to machine-speed security operations. We can no longer rely on human analysts manually triaging endless backlogs of static alerts. While these machine-speed attacks sound daunting, defenders actually hold an asymmetric advantage. Even when armed with autonomous AI, an attacker operates from the outside with limited context — probing in the dark, guessing connections, and hoping a compromised credential leads to a useful asset. Defenders, on the other hand, possess deep context that attackers don’t have. You know your code, cloud configurations, user identities, deployment realities, and internal architecture better than anyone. When you feed this rich, multi-dimensional internal observability into security models, AI defense becomes inherently faster and more accurate than AI offense. To take advantage of your deep context, it’s imperative to shift from manual, human-scale incident response to machine-speed security operations. We can no longer rely on human analysts manually triaging endless backlogs of static alerts. By codifying our frontline threat intelligence directly into these AI models, these autonomous agents can continuously monitor for, investigate, prioritize, and remediate attacks. How Google is helping defend the ecosystem As adversaries adopt AI, we have a unique opportunity to disrupt them at the source. As a major security and AI provider, we take this responsibility seriously, using multiple levers to stay ahead. Disabling malicious infrastructure . If you use Google tools to facilitate an attack, you lose access to those tools. We proactively disable the projects, accounts, and assets of known bad actors. Hardening our AI models and classifiers . We operate a continuous feedback loop for our AI models. By feeding threat intelligence directly back into product development, our models learn to recognize and refuse malicious requests before an attack can even be generated. Automating vulnerability hunting and patching also disrupt adversaries . We are moving from manual patching to AI-driven hunting. Tools like CodeMender automatically fix critical vulnerabilities in the code itself. Developing advanced defenses and threat models . Our teams at Google DeepMind are building specialized defenses for generative AI — deploying active monitoring across our entire ecosystem to identify misuse in real-time. Securing the AI era can’t be achieved with the disconnected, manual tools of the past, and you can only defend against an AI-powered threat with an AI-powered defense. To tip the scales back in favor of defenders, we must transition to a continuous, machine-speed model of protection — and at Google, we are committed to building that secure future alongside you. To learn more about our approach to securing the AI era, please check out our new Mandiant AI Risk and Resilience report . aside_block <ListValue: [StructValue([('title', 'Learn something new'), ('body', <wagtail.rich_text.RichText object at 0x7fd7b8164590>), ('btn_text', 'Watch now'), ('href', 'https://x.com/googlecloud/status/2090213589558698309?s=20'), ('image', <GAEImage: Cloud-CISO-Perspectives-logo-A>)])]> In case you missed it Here are the latest updates, products, services, and resources from our security teams so far this month: A manufacturing blueprint for secure agentic AI : AI and agents have arrived on the factory floor. Today’s CISOs and business leaders must balance innovation with precision, physical safety, and operational resilience. Read more . Proactive cyber defense for governments and enterprises : Our new Fairwind Program is a limited access program for governments and trusted partners to use our most advanced cyber defense capabilities. Read more . Getting started with the Mantis harness to find and fix bugs : Mantis is part of how Google finds and fixes vulnerabilities at machine-speed. The open-source AI harness creates a more effective repository analysis. Read more . Breaking into Google's GFile for $100,000 : Learn about how a vulnerability — that was not exploited and has now been patched — could have allowed attackers to chain unauthenticated, undocumented internal APIs with overly-permissive shared file libraries to achieve unrestricted data access across core infrastructure. Read more . Introducing new session management tools with native, granular controls : New Google Cloud session controls are deeply integrated and a granular feature of Context-Aware Access. Here’s what you need to know. Read more . How Blackline prevents data exfiltration with VPC Service Controls : We’re excited to share new policy intelligence capabilities in VPC-SC that help drive operational simplicity: Violation analyzer and violation dashboard. Read more . Introducing Continuous Vulnerability Assessment : You can detect exposure to new vulnerabilities the moment they’re published with Wiz CVA. Read more . How developers prevent production risk at the source : Fixing security vulnerabilities in code takes seconds, while patching in production creates high operational costs and risk. Discover how empowering developers as your first line of defense eliminates exposure across every phase of your software pipeline. Read more . Wiz achieves GovRAMP High authorization : Delivering unified cloud security and accelerating secure modernization to protect citizen data and critical infrastructure. Read more . Please visit the Google Cloud blog for more security stories published this month . aside_block <ListValue: [StructValue([('title', 'Join the Google Cloud CISO Community'), ('body', <wagtail.rich_text.RichText object at 0x7fd7b8166f90>), ('btn_text', 'Learn more'), ('href', 'https://rsvp.withgoogle.com/events/google-cloud-ciso-community-interest-form-2026?utm_source=cgc-blog&utm_medium=blog&utm_campaign=FY25-Q1-global-GCP30328-physicalevent-er-dgcsm-parent-CISO-community-2025&utm_content=cisop_&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> Threat Intelligence news AI Threat Tracker: From prompting to autonomy : In the newest Google Threat Intelligence Group (GTIG) report on the adversarial misuse of AI, we’ve observed adversaries transition from basic prompting to agentic AI workflows and AI-enabled automation, including threat actors compromise a cloud resource, then plan, build, and execute an agent-enabled mass credential harvesting campaign in under six hours. Read more . Financially-motivated threat actor BREEZE COMET targets Brazil : Learn about BREEZE COMET’s tactics and toolkit, and our mitigation recommendations and detections to support organizations in defending against this active and developing threat. Read more . JFrog Artifactory under attack : Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory. Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control. Read more . Please visit the Google Cloud blog for more threat intelligence stories published this month . Now hear this: Podcasts from Google Cloud Cloud Security Podcast: Patching browsers with AI, agents, Rust, and your tabs : Jasika Bawa and Doug Turner of Chrome Security explore how Google Chrome now uses AI agents to autonomously identify and patch security vulnerabilities at an unprecedented scale, significantly accelerating the browser's update cadence. Listen here . Cloud Security Podcast: All about Project Atlas, Wiz's AI vulnerability research : Nir Orfeld, head of vulnerability research, Wiz, discusses how his team uses multi-agent AI systems for discovering high-impact zero-day vulnerabilities in cloud infrastructure. Listen here . Cloud Security Podcast: How Google eliminates classes of vulnerabilities at scale : How do you build the foundations for a secure Google-scale enterprise that stays secure even if an AI is writing the code and nobody has time to review it? Christoph Kern, principal security engineer, Google, explores what secure-by-design really means in the AI era. Listen here . To have our Cloud CISO Perspectives post delivered twice a month to your inbox, sign up for our newsletter . We’ll be back in a few weeks with more security-related updates from Google Cloud.",
+    "raw_text": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block <ListValue: [StructValue([('title', 'Get vital board insights with Google Cloud'), ('body', <wagtail.rich_text.RichText object at 0x7f1bc9b5cb10>), ('btn_text', 'Visit the hub'), ('href', 'https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&utm_medium=et&utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&utm_content=-&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> ‘Spellcheck for cybersecurity’ and beyond: How Google monitors AI threats and advances AI defenses By Sandra Joyce, VP, Google Threat Intelligence Sandra Joyce, VP, Google Threat Intelligence Anyone operating in security knows that speculation is a major liability during periods of technological disruption. While there is plenty of hype and understandable concern around how threats might use and target AI, a CISO’s AI security strategy has to be anchored in ground truth. Google operates at a rare intersection as both a frontier AI lab and a security company with a frontline view of global incidents. This dual vantage point allows us to understand how AI is built, and exactly how AI is being targeted in the wild. To provide the operational realities that security and business leaders need in the AI era, Google Threat Intelligence Group (GTIG) recently released our latest AI Threat Tracker . When we strip away the noise and look at the telemetry, the real threat landscape boils down to three structural shifts that CISOs must address: AI is reshaping how software is built. AI is expanding the attack surface. AI is enhancing threat capabilities. Today, we’re sharing details on Google’s visibility into these three challenges, and our approach for solving them. Building securely in the AI era AI has fundamentally altered software development velocity. Across the industry, autonomous agents and AI workflows now push code into production at unprecedented speed. This creates exciting opportunities for innovation, yet CISOs are faced with the difficult task of mitigating enterprise risk while maintaining business momentum. We’re seeing threat actors turn our greatest engineering shortcut against us by contaminating upstream packages that AI assistants are trained to suggest and trust. GTIG believes that malicious contamination of AI-assisted coding practices has been contributing to the significant growth in large-scale, open-source software supply chain compromises we observed in 2025 and early 2026 . The solution to a machine-speed threat landscape isn't slowing developers down — it’s building security natively into the AI pipeline. Part of this process involves in-editor guardrails for developers that create a real-time 'spellcheck for cybersecurity.' We’re also monitoring adversaries targeting agents. The financially-motivated threat actor TeamPCP (UNC6780) has implemented more than half a dozen methods to exploit AI tools and open-source software development practices, including hijacking AI toolkits, prompt injection, and blinding AI scanners with toxic prompts to obfuscate malicious payloads. The solution to a machine-speed threat landscape isn't slowing developers down — it’s building security natively into the AI pipeline. Part of this process involves in-editor guardrails for developers that create a real-time “spellcheck for cybersecurity.” Just as word processors underline typos without forcing the writer to stop, security controls must sit natively inside the developer’s editor and agentic workflows, instantly flagging poisoned packages, toxic prompts, and misconfigured toolkits. Crucially, this can’t stop at the editor. Traditional security suffers from context blindness: Code editors can’t see cloud configurations, delivery pipelines miss runtime exposure, and production teams can’t easily patch root-cause blueprints. Bridging this gap requires an integrated code-to-cloud approach — the exact design principle behind platforms like Wiz Code . The underlying approach is to ensure code is continuously verified against live cloud realities before it ships. When organizations think about AI-driven code analysis, the default assumption is to pick one frontier model and point it at their repository. However, our research and telemetry show that single-model security creates a dangerous monoculture: No single AI model can discover every vulnerability, and threat actors are already testing inputs that can blind specific LLM safety filters and scanners. To secure this expanding attack surface, CISOs should avoid the trap of managing AI through disconnected silos... The future of cloud and AI defense needs to be built on a unified and dynamic graph that connects your code, your models, your data lineage, and your runtime identities into a single living map. To solve this, Google takes a deliberate multi-model approach . By orchestrating several foundation models — including Gemini, commercial, and open-source — we cross-validate findings, strip out false positives, remediate code, and identify complex logic flaws that a single model misses. We’re smarter with more than one “brain.” Securing AI Securing the development lifecycle is only half the battle. We also need to prevent adversaries from exploiting AI attack surfaces and weaponizing over-privileged agents. Threat actors are targeting AI workloads with techniques that include: LLMJacking : Cybercriminals and state-sponsored groups target GPU access to support running their AI models and agentic workflows. In one notable intrusion Mandiant investigated in April, a threat actor gained initial access to a victim’s cloud environment from an exposed personal access token, and used it to deploy unauthorized AI infrastructure and scale high-performance compute resources, leaving the victim to absorb the hardware and platform costs. Targeting of AI data and access : Cybercriminals now recognize that your custom prompts, agent instructions, and fine-tuned models represent high-value crown jewels. In Q2 2026, Mandiant investigated multiple data theft extortion operations where threat actors stole proprietary AI data, including models, skills, prompts, source code, and related research. Demand is also surging for AI account credentials in underground marketplace forums, with some sellers offering steep discounts for consumer accounts at up to 99% off retail prices. To secure this expanding attack surface, CISOs should avoid the trap of managing AI through disconnected silos. Don’t treat agent access policies, model inventories (AI-BOMs) and shadow AI as separate challenges because these risks are deeply connected. The future of cloud and AI defense needs to be built on a unified and dynamic graph that connects your code, your models, your data lineage, and your runtime identities into a single living map. Pioneered by the Wiz Security Graph , this approach serves as the contextual engine for Google AI Threat Defense (AITD) — our broader autonomous security framework that fuses the reasoning power of Gemini and other frontier models, the contextual risk prioritization of Wiz, the code remediation capabilities of CodeMender, and the frontline expertise of Mandiant to stay ahead of AI-driven attacks. Crucially, this context is not siloed; it directly feeds Google Security Operations , ensuring that security operations teams can continuously identify, prioritize, and sever toxic attack paths at machine speed. Defending against AI threats Threat actors are rapidly moving beyond simple prompt generation toward fully-automated, multi-agent attack pipelines. Security in the AI Era Cyber Defense Summit 2026: Security in the AI era In one notable intrusion investigated by Mandiant, a financially-motivated actor compromised an organization's cloud infrastructure and deployed an autonomous agent framework. The threat actor used an AI coding chatbot, a prompt, and a set of agent instructions to plan, build, and execute a mass credential harvesting campaign in less than six hours. We’re also tracking adversaries using AI as an intelligent orchestrator across the entire attack lifecycle. GTIG recently observed a PRC-nexus espionage group experimenting with a tool called CC Switch to cycle across multiple accounts and swap AI models — like Claude, Codex, and Gemini — picking the best model for specific tasks, such as writing exploit scripts and drafting lures. While the underlying hacking tools aren’t new, AI turned what had been a disjointed manual process into a smooth and automated workflow. To take advantage of your deep context, it’s imperative to shift from manual, human-scale incident response to machine-speed security operations. We can no longer rely on human analysts manually triaging endless backlogs of static alerts. While these machine-speed attacks sound daunting, defenders actually hold an asymmetric advantage. Even when armed with autonomous AI, an attacker operates from the outside with limited context — probing in the dark, guessing connections, and hoping a compromised credential leads to a useful asset. Defenders, on the other hand, possess deep context that attackers don’t have. You know your code, cloud configurations, user identities, deployment realities, and internal architecture better than anyone. When you feed this rich, multi-dimensional internal observability into security models, AI defense becomes inherently faster and more accurate than AI offense. To take advantage of your deep context, it’s imperative to shift from manual, human-scale incident response to machine-speed security operations. We can no longer rely on human analysts manually triaging endless backlogs of static alerts. By codifying our frontline threat intelligence directly into these AI models, these autonomous agents can continuously monitor for, investigate, prioritize, and remediate attacks. How Google is helping defend the ecosystem As adversaries adopt AI, we have a unique opportunity to disrupt them at the source. As a major security and AI provider, we take this responsibility seriously, using multiple levers to stay ahead. Disabling malicious infrastructure . If you use Google tools to facilitate an attack, you lose access to those tools. We proactively disable the projects, accounts, and assets of known bad actors. Hardening our AI models and classifiers . We operate a continuous feedback loop for our AI models. By feeding threat intelligence directly back into product development, our models learn to recognize and refuse malicious requests before an attack can even be generated. Automating vulnerability hunting and patching also disrupt adversaries . We are moving from manual patching to AI-driven hunting. Tools like CodeMender automatically fix critical vulnerabilities in the code itself. Developing advanced defenses and threat models . Our teams at Google DeepMind are building specialized defenses for generative AI — deploying active monitoring across our entire ecosystem to identify misuse in real-time. Securing the AI era can’t be achieved with the disconnected, manual tools of the past, and you can only defend against an AI-powered threat with an AI-powered defense. To tip the scales back in favor of defenders, we must transition to a continuous, machine-speed model of protection — and at Google, we are committed to building that secure future alongside you. To learn more about our approach to securing the AI era, please check out our new Mandiant AI Risk and Resilience report . aside_block <ListValue: [StructValue([('title', 'Learn something new'), ('body', <wagtail.rich_text.RichText object at 0x7f1bc99b9ad0>), ('btn_text', 'Watch now'), ('href', 'https://x.com/googlecloud/status/2090213589558698309?s=20'), ('image', <GAEImage: Cloud-CISO-Perspectives-logo-A>)])]> In case you missed it Here are the latest updates, products, services, and resources from our security teams so far this month: A manufacturing blueprint for secure agentic AI : AI and agents have arrived on the factory floor. Today’s CISOs and business leaders must balance innovation with precision, physical safety, and operational resilience. Read more . Proactive cyber defense for governments and enterprises : Our new Fairwind Program is a limited access program for governments and trusted partners to use our most advanced cyber defense capabilities. Read more . Getting started with the Mantis harness to find and fix bugs : Mantis is part of how Google finds and fixes vulnerabilities at machine-speed. The open-source AI harness creates a more effective repository analysis. Read more . Breaking into Google's GFile for $100,000 : Learn about how a vulnerability — that was not exploited and has now been patched — could have allowed attackers to chain unauthenticated, undocumented internal APIs with overly-permissive shared file libraries to achieve unrestricted data access across core infrastructure. Read more . Introducing new session management tools with native, granular controls : New Google Cloud session controls are deeply integrated and a granular feature of Context-Aware Access. Here’s what you need to know. Read more . How Blackline prevents data exfiltration with VPC Service Controls : We’re excited to share new policy intelligence capabilities in VPC-SC that help drive operational simplicity: Violation analyzer and violation dashboard. Read more . Introducing Continuous Vulnerability Assessment : You can detect exposure to new vulnerabilities the moment they’re published with Wiz CVA. Read more . How developers prevent production risk at the source : Fixing security vulnerabilities in code takes seconds, while patching in production creates high operational costs and risk. Discover how empowering developers as your first line of defense eliminates exposure across every phase of your software pipeline. Read more . Wiz achieves GovRAMP High authorization : Delivering unified cloud security and accelerating secure modernization to protect citizen data and critical infrastructure. Read more . Please visit the Google Cloud blog for more security stories published this month . aside_block <ListValue: [StructValue([('title', 'Join the Google Cloud CISO Community'), ('body', <wagtail.rich_text.RichText object at 0x7f1bc99bab10>), ('btn_text', 'Learn more'), ('href', 'https://rsvp.withgoogle.com/events/google-cloud-ciso-community-interest-form-2026?utm_source=cgc-blog&utm_medium=blog&utm_campaign=FY25-Q1-global-GCP30328-physicalevent-er-dgcsm-parent-CISO-community-2025&utm_content=cisop_&utm_term=-'), ('image', <GAEImage: GCAT-replacement-logo-A>)])]> Threat Intelligence news AI Threat Tracker: From prompting to autonomy : In the newest Google Threat Intelligence Group (GTIG) report on the adversarial misuse of AI, we’ve observed adversaries transition from basic prompting to agentic AI workflows and AI-enabled automation, including threat actors compromise a cloud resource, then plan, build, and execute an agent-enabled mass credential harvesting campaign in under six hours. Read more . Financially-motivated threat actor BREEZE COMET targets Brazil : Learn about BREEZE COMET’s tactics and toolkit, and our mitigation recommendations and detections to support organizations in defending against this active and developing threat. Read more . JFrog Artifactory under attack : Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory. Attackers are chaining these vulnerabilities to bypass authentication and gain administrative control. Read more . Please visit the Google Cloud blog for more threat intelligence stories published this month . Now hear this: Podcasts from Google Cloud Cloud Security Podcast: Patching browsers with AI, agents, Rust, and your tabs : Jasika Bawa and Doug Turner of Chrome Security explore how Google Chrome now uses AI agents to autonomously identify and patch security vulnerabilities at an unprecedented scale, significantly accelerating the browser's update cadence. Listen here . Cloud Security Podcast: All about Project Atlas, Wiz's AI vulnerability research : Nir Orfeld, head of vulnerability research, Wiz, discusses how his team uses multi-agent AI systems for discovering high-impact zero-day vulnerabilities in cloud infrastructure. Listen here . Cloud Security Podcast: How Google eliminates classes of vulnerabilities at scale : How do you build the foundations for a secure Google-scale enterprise that stays secure even if an AI is writing the code and nobody has time to review it? Christoph Kern, principal security engineer, Google, explores what secure-by-design really means in the AI era. Listen here . To have our Cloud CISO Perspectives post delivered twice a month to your inbox, sign up for our newsletter . We’ll be back in a few weeks with more security-related updates from Google Cloud.",
     "categories": [
       "Cybersecurity",
       "Cloud Infrastructure",
@@ -1909,6 +1868,46 @@
       ]
     },
     "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation."
+  },
+  {
+    "title": "Strong fundamentals make next-gen security possible",
+    "url": "https://www.csoonline.com/article/4223032/strong-fundamentals-make-next-gen-security-possible.html",
+    "source": "CSO Online",
+    "published": "2026-09-18T08:25:00+00:00",
+    "raw_text": "Risk management has always been a difficult job, but the current threat landscape has taken the challenge to a new level. I’ve spent years leading cybersecurity efforts at large enterprises, including Hyatt and United Airlines, and in that time I’ve seen cybercriminals grow increasingly creative, leveraging innovative tactics and technology to further their efforts. I’ve also seen security professionals make the mistake of assuming that responding to those new and emerging tactics requires shiny new tech tools. In reality, mastering foundational controls is what moves the needle. New tools are exciting and innovative, so it’s easy to understand the draw. But they’re often less impactful than simply focusing on strong fundamentals. Embracing AI, for example, can provide real value for organizations, but it is only effective when built upon a rock-solid foundation of security basics. Don’t spend your budget cycling through expensive new security tools each quarter. Get real bang for your buck by strengthening the baseline security capabilities that have a real, measurable impact on attacker success. Here are five areas that fit the bill. 1. Gain visibility with better asset discovery and management One of the most troubling issues plaguing modern businesses is a lack of visibility . If you don’t know where an asset is located within your digital environment, you won’t be able to protect it. If you don’t know an asset exists in the first place, it’s an even bigger problem. Today’s businesses need to secure on-premises servers, cloud (and multicloud) environments, individual devices and endpoints, third-party applications, and countless other potential targets. If you don’t have an up-to-date, actively maintained inventory of every asset present within those systems, you’re putting your business at unnecessary risk. That means engaging in a comprehensive discovery process that encompasses all your digital environments is a critical first step toward greater security. Working within larger enterprises gave me a greater appreciation for the importance of asset management. Inventory of physical and digital assets often are scattered across the organization. One of my biggest wins is bringing that all together by (1) identifying what platform should be the single source of truth and (2) integrating these data points, ensuring the data is accurate, and updating accordingly. 2. Manage your identities more effectively Security leaders have been saying “identity is the new perimeter” for almost a decade, but identity management is still overlooked or taken for granted. That’s a real problem, because the average organization now manages tens (if not hundreds) of thousands of human identities, machine identities, applications, AI agents, and countless other identity types. When I worked for Hyatt, I saw firsthand how challenging it could be to manage the endless cycle of visitor identities alongside full-time staff, part-time workers, contractors, and others. Manual management is impossible at this scale, which means an effective identity platform is essential. I have my teams start by ensuring the most basic security measures are in place. For example, we’ve known for decades that multifactor authentication (MFA) significantly decreases the likelihood that an identity will be compromised. MFA isn’t a magic bullet that will solve every problem, but research shows that accounts with MFA are 99% less likely to be hacked. Personally, I would go one step further by implementing passkeys , which have proven even more effective and alleviate friction on remembering and entering passwords. It’s a win-win situation, as some security enhancements can create unwanted friction. This is the opposite of that. 3. Right-size your approach to security Too many organizations get caught up in chasing the “latest and greatest” security technology, but it’s important to consider what your business actually needs. That starts with determining your risk appetite. What products or services represent the “crown jewels” of your organization? What data can you not afford to lose access to? Preventing disruption to those areas should be your top priority, and where most of your attention should be focused. From there, you can move down the ladder, assigning priority tiers to specific risks and determining which are acceptable and which are not. It doesn’t matter how big or small your organization is. It is imperative to create a common security framework that can be understood and digested at all levels in the organization. This will provide your organization a clear picture of how well your security program is doing. Start small and leverage widely used frameworks like CIS CSC to initiate the conversation. From there, strengthen your foundation by identifying what is working and what is not. Every organization takes risks based on the business appetite. We just need to have the data to make informed decisions about what to prioritize. 4. Prioritize resilience and recovery Security and risk management used to focus heavily on prevention, but that’s no longer enough in today’s threat environment. The complex, sprawling nature of the modern digital landscape means that, with enough time and resources, a determined attacker will find a vulnerability to exploit. That doesn’t mean security teams should abandon prevention — it’s always a good idea to make the attacker’s life as hard as possible — but it does mean resilience and recovery must be prioritized , too. That starts with having the right systems and processes in place to react to a breach. The quicker you can identify a breach in progress, the quicker you can shut it down. But if the worst does come to pass and your organization suffers a serious breach, it also means having a recovery plan . Secure backups for both systems and data are a must, but technology alone isn’t enough. You need to have the right processes in place, and you need to practice putting them into action . Too many organizations overlook this critical step, leaving employees wondering what to do in a crisis. 5. Create a common security language This may sound a bit abstract, but it’s arguably the most important step. Too often, the biggest obstacle preventing organizations from managing risk more effectively is poor communication between those on the security side and those on the business side. Business leaders often lack the technical expertise to understand the details of specific security risks, while risk management professionals aren’t always well versed in the language of business . Bridging that communications gap is critical. For security and risk management teams, it’s important to be able to quantify risks in a meaningful way , assigning a dollar value whenever possible. While it’s admittedly difficult to estimate the cost of a breach or security incident that didn’t happen, there are defensible metrics to assign value to risks based on projected lost business, regulatory penalties, reputational damage, and other factors. Building a strong foundation of security fundamentals The rapid adoption of AI is unlocking unprecedented potential across every industry, but even the most cutting-edge technology can’t solve every problem on its own. If you really want to reduce your cyber risk in a meaningful way, you need to build a strong foundation of security fundamentals. That means doing the “un-sexy” work in the security trenches, like identifying visibility gaps, prioritizing resilience, and improving interdepartmental communication. Take it from a longtime CISO: Security isn’t always exciting. In fact, it shouldn’t be. The most effective action you can take to reduce your exposure and keep your digital environments secure is to focus your efforts on the everyday vulnerabilities commonly exploited by real-world attackers.",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Networks",
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "exploit",
+        "threat",
+        "security",
+        "cyber"
+      ],
+      "GRC": [
+        "regulatory",
+        "risk management",
+        "cyber risk"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Risk management has always been a difficult job, but the current threat landscape has taken the challenge to a new level. I’ve spent years leading cybersecurity efforts at large enterprises, including Hyatt and United Airlines, and in that time I’ve seen cybercriminals grow increasingly creative, leveraging innovative tactics and technology to further their efforts. I’ve also seen security professionals make the mistake of assuming that responding to those new and emerging tactics requires shiny new tech tools. In reality, mastering foundational controls is what moves the needle."
   },
   {
     "title": "Cisco patches max-severity ISE flaw, the second critical zero-day this week",
@@ -2257,95 +2256,6 @@
     "summary": "AI agents’ actions are out of scope for new guidance from US authorities on securing identity and access tokens, but there is still plenty enterprises can do to protect their systems from rogue humans and AI agents alike. “ Protecting Tokens and Assertions from Forgery, Theft, and Misuse ,” a new report from the National Institute of Standards and Technology (NIST) with help from the Cybersecurity and Infrastructure Security Agency (CISA), offers guidance for operators of systems that use digitally signed tokens to make access decisions, including single sign-on and API access. The guidelines, also known as NIST IR 8587, address what happens after authentication: Tokens and assertions can carry proof of authentication or authorization between systems, allowing an attacker who compromises them to exploit access that has already been granted. NIST recommends continuous monitoring, along with tighter controls throughout the token lifecycle."
   },
   {
-    "title": "You don’t have to join the hack-back program to inherit its risk",
-    "url": "https://www.csoonline.com/article/4222302/you-dont-have-to-join-the-hack-back-program-to-inherit-its-risk.html",
-    "source": "CSO Online",
-    "published": "2026-09-16T09:00:00+00:00",
-    "raw_text": "The obvious question about Washington’s new private offensive cyber program is which security vendors will join it. The CSO question is what happens to you when one of your vendors does. The August 12 National Security Presidential Memorandum , “Expanding Capabilities to Combat Transnational Cyber-Enabled Crime,” directs the National Coordination Center to build a program for vetted “Participating Companies.” The Justice Department and the Department of Homeland Security run it jointly, and two co-executive directors must approve every operation in writing. Once the directors sign, a participating company can run covert access intended to stay undetected (Cyber Surveillance Operations) or manipulation, disruption, degradation, or destruction of systems (Cyber Effects Operations). The memorandum directs the operating procedures to authorize the Department of Justice (DOJ) and the Department of Homeland Security (DHS) to require a forfeitable bond of at least $1 million as a contract condition. Those procedures, which govern day-to-day execution, remain unpublished. They are due in mid-October, 60 days after signing. The White House fact sheet frames the program as consumer protection, citing more than $20.8 billion in American losses to cyber-enabled crime in 2025. The frame that matters to a CSO is different. The memorandum moves sovereign activity onto commercial infrastructure while leaving substantial residual liability in private hands. It behaves like a risk-transfer contract, except that most of the parties bearing the risk never signed it. The shield is thinner than the authorization The program’s criminal protection rests on one untested reading of one statutory clause. The Computer Fraud and Abuse Act (CFFA) exempts “lawfully authorized investigative, protective, or intelligence activity of a law enforcement agency” at 18 U.S.C. 1030(f) , and the memorandum styles every operation as federal law enforcement activity to fit inside that exemption. Congress wrote that exemption for law enforcement agencies. No court has ruled on whether it stretches to a private company operating under contract. A statute can create that protection outright. The Active Cyber Defense Certainty Act would have given companies an affirmative defense against CFAA charges for hacking back, but Congress never passed it. A presidential memorandum cannot amend a statute. In Little v. Barreme , the Supreme Court held that a presidential order did not protect an officer from damages when the seizure exceeded congressional authority. What the memorandum withholds runs longer than what it grants. Crowell & Moring’s client alert counts the gaps: no civil safe harbor, so CFAA civil suits by collateral victims remain live; no preemption of state anti-hacking law; no protection under foreign law; no indemnification. Section 5(c) then closes the other direction, creating no right or benefit enforceable against the United States. A participating firm holds an unadjudicated criminal theory, while civil, state, foreign, and contractual exposure sits outside the shield. The same government-control language that supports the domestic CFAA theory also strengthens the case for attributing the operations to the United States internationally. Under Article 8 of the International Law Commission’s state-responsibility articles , private conduct is attributed to a state when that conduct follows the state’s instructions or runs under its direction and control. Both propositions hold at once, and that is the problem for a company more than for a government. The stronger the control record supporting the vendor’s CFAA defense, the more readily a foreign ministry can treat that vendor’s work as an official act of the United States. Non-participation is not an exemption Most security organizations will file this under someone else’s problem. The exposure reaches them four ways. Substrate. Criminal groups rent and compromise the same clouds, content delivery networks, and SaaS platforms your workloads sit on. An approved effects operation against that infrastructure can surface in your environment as an unexplained outage. The memorandum anticipates the event: its implementing guidance orders a participating company to cease, minimize, and notify when an operation unintentionally reaches a system in the United States or under American control. Governments do not write cleanup procedures for events they consider remote. Section 5(c) then gives the affected company no remedy under the memorandum itself, which routes any claim into ordinary law and ordinary cost. Silence. Participating companies must disclose their commercial agreements to the NCC, not to their customers. The memorandum creates no customer-disclosure obligation, so the burden falls on the buyer to extract a written representation and on the vendor to decide whether to give one. The Cloud Security Alliance draws the conclusion plainly: absent a standard attestation, vendor nationality itself becomes a rational procurement screen for foreign buyers. Coverage. Lloyd’s market bulletin Y5381 requires its syndicates to carry state-backed cyberattack exclusions in standalone cyber policies, and the standard clauses key attribution to government determinations. A retaliation event or a collateral loss from a government-directed operation puts the claim directly into state-backed exclusion analysis. Pipelines. The memorandum invites participating companies to buy threat information from private entities and propose operations built on it. Threat intelligence you share with ISACs, government channels, or commercial platforms can feed an offensive proposal wherever the receiving party’s contractual rights permit that use. The memorandum overrides none of those contracts, so their use restrictions are the only controls you have. Review them for residual liability and customer-notification duties before your telemetry becomes targeting data. China has already run the retaliation playbook The sharpest market evidence predates the memorandum, which is exactly what makes it evidence. Reuters reported in January 2026 that Beijing had directed Chinese firms to stop using cybersecurity software from roughly 15 American and Israeli vendors. In February, Reuters reported that Palo Alto Networks softened its own attribution of a Chinese espionage campaign over concerns that its personnel in China or its clients elsewhere faced retaliation. On August 6, six days before the signing, the Cyberspace Administration of China opened a formal cybersecurity review of Palo Alto’s products, the mechanism whose best-known precedent ended with Micron barred from Chinese critical-infrastructure procurement. The program caused none of that; the sequence began seven months before it existed. The point runs the other way. Beijing operates a demonstrated regulatory and procurement playbook for converting cyber-policy friction into named-company commercial pressure, and the memorandum enlarges the set of American firms within its reach. Chinese state media is already collapsing the distinction Washington spent two decades drawing between contractor hacking and lawful practice, framing the program as America bringing previously covert operations into the open. For multinationals, the exposure also runs inward. China’s Data Security Law bars providing data stored in China to foreign law enforcement without approval and compels cooperation with Chinese security authorities. Chinese law can bar a vendor’s China-based staff from supporting the American program their employer joined, and expose those employees personally for perceived cooperation. Employee travel protocol now belongs in the risk register. What the unpublished rules have to solve The memorandum never mentions artificial intelligence, and one silence carries operational weight. The text directs the NCC to use automation to streamline the program. Crowell & Moring names the failure mode . Agentic tooling compresses the interval between an approved action and an unintended effect. An autonomous operation can exceed its parameters at machine speed, exposing the vendor to bond forfeiture and civil claims before a human intervenes. Whether the October rules require human supervision at execution will materially affect that exposure. It then travels the same four ways to the vendor’s customers. The definition of a Cyber Effects Operation also reaches industrial control systems and embedded controllers, which raises the same collateral question for connected physical systems. The program’s constraints are real. Dual written approval, the Critical Outcome prohibitions, and the minimization rules impose substantially tighter controls than an unrestricted hack-back regime. And nobody can yet say whether the program will shrink cybercrime losses or grow them; the operation-level data that settles the question is precisely what the memorandum keeps classified. However, both points stand, and neither changes the allocation. Whatever the program achieves against criminal networks, the residual legal, insurance, and market risk sits with private companies, and much of it sits with companies that never joined. Five questions belong on the board’s agenda before the operating rules are published: Which of our critical security, cloud, identity, and incident-response vendors intend to participate, and will they represent that status in writing to the extent the law allows? Can each participating vendor segregate our data from its operations work, and will it contract to that segregation? Which representations to customers, regulators, and insurers become incomplete if a vendor participates and we do not know? What does our cyber policy pay on a retaliatory state-backed attack, an accidental American-directed effect, and a shared-cloud outage? Ask before the reservation-of-rights letter arrives. Which employees, affiliates, and joint ventures in China or other rival jurisdictions connect to participating vendors, and what does their travel protocol require? Watch two documents next: the operating procedures, and the Cyber Letters of Marque and Reprisal Act, introduced July 15 as S. 5000 and H.R. 9697 . Section 8 of the House bill bars any cause of action against a letter holder for acts the letter expressly authorizes, which would supply a statutory civil shield the memorandum does not contain, and an executive instrument cannot create. Participation is a decision your vendors get to make. Treat the memorandum as the risk-transfer instrument it is: The government authorizes the operation, and much of the residual legal, insurance, and commercial exposure stays private, including with companies that never signed anything.",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "GRC",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "saas"
-      ],
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "cyberattack",
-        "threat",
-        "security",
-        "cyber",
-        "threat intelligence",
-        "cloud security"
-      ],
-      "GRC": [
-        "regulatory",
-        "policy",
-        "nist"
-      ],
-      "Industry & Market": [
-        "joint venture",
-        "raises",
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "The obvious question about Washington’s new private offensive cyber program is which security vendors will join it. The CSO question is what happens to you when one of your vendors does. The August 12 National Security Presidential Memorandum , “Expanding Capabilities to Combat Transnational Cyber-Enabled Crime,” directs the National Coordination Center to build a program for vetted “Participating Companies.” The Justice Department and the Department of Homeland Security run it jointly, and two co-executive directors must approve every operation in writing. Once the directors sign, a participating company can run covert access intended to stay undetected (Cyber Surveillance Operations) or manipulation, disruption, degradation, or destruction of systems (Cyber Effects Operations)."
-  },
-  {
-    "title": "AI made software development unrecognizable. Is cybersecurity next?",
-    "url": "https://www.csoonline.com/article/4221311/ai-made-software-development-unrecognizable-is-cybersecurity-next.html",
-    "source": "CSO Online",
-    "published": "2026-09-16T08:25:00+00:00",
-    "raw_text": "The rapid emergence of AI has radically changed a host of professions, with software engineering and development perhaps the most transformed of all pursuits. The usual “ solitary ritual ” of a developer writing code for hours is giving way to collaboration with an army of chatbots. In its 2025 report on the State of AI-Assisted Software Development , Google Cloud researchers found that even then, LLM usage was almost universal among coders, with 90% of developer respondents using AI as part of their work, and 80% believing it has increased their productivity. An earlier Microsoft study documented the effects AI had on productivity, with software developers who used AI completing 26% more tasks than developers who didn’t use AI. The downside of the increased productivity is the impact on software developer jobs. Although data is hard to find, anecdotal evidence and some research show an impact on employment. For example, a March 2026 Federal Reserve Board working paper found that coder employment is slowing . “We find robust evidence that annual coder employment growth is about 3% lower now than it was pre-ChatGPT,” the authors concluded. Not only has the number of developer jobs potentially dipped, but the organization around those jobs has also shifted. Gartner predicts that “80% of organizations will evolve large software engineering teams into smaller, AI-augmented teams by 2030,” with more midlevel and senior specialists; managers supervising a wider arena of activity; new roles emerging that include AI-governance specialists , context designers, and AI-augmented UX designers; and greater demand for systems-thinking. Experts predict these kinds of changes will soon be felt across the cybersecurity sector with agent-run SOCs, continuous vulnerability triage, machine-speed containment, and humans directing fleets of defensive agents , posing the potential to make information security unrecognizable from its current state. And yet, the analogy between the evolution of software and cybersecurity is imperfect. “The hard part for us is, if we’re talking about where engineering is moving — to fully looped autonomous agents, feedback loops, all the things that they’re building now, and just having humans supervise the machines — security really requires reproducibility,” David Lindner , CISO at Contrast Security, tells CSO, meaning that a security control must produce consistent, repeatable results. Moreover, any changes won’t be as rapid for cyber as they were for software development. “I don’t think cybersecurity will be completely changed that quickly, but certainly we will see month-by-month big changes, and two years from now, it may be unrecognizable from what it is today,” Jim Reavis , CEO and co-founder of the Cloud Security Alliance, tells CSO. The autonomous SOC is almost here The transition to a new world of cybersecurity has already begun, and the most obvious area transforming is the security operations center (SOC) . Most experts agree that AI agents can easily do the job that fully staffed SOCs do today, and do it faster and better. “We had an incident come in through Jira, and the agent went and pulled all the information from GitHub, pulled all the information from Datadog, and then gave an initial triage,” Contrast Security’s Lindner says. “I don’t want to even call it a junior SOC analyst. It is a SOC analyst that does some initial triage.” But there appears to be disagreement regarding how much authority SOC-replacing AI agents should be granted . “We’re definitely leveraging AI tools, and maybe some of what would have been first-level triage is now being done by agents,” Lionel Litty , CISO at Menlo Security, tells CSO. “But at this point, at least for us, we’re not yet comfortable with just letting agents run wide in our SOC and make the ultimate decision of, ‘Hey, this is something that we can ignore, or this is something that definitely we should look at.’ We use them to help provide context and prioritize.” Still, experts believe that much of the first-level work performed by SOC analysts will move to agents, leaving humans to handle escalation, oversight, and higher-level judgment. “Basically all of cybersecurity is going to need to operate at machine speed,” Reavis says. “SOCs absolutely are going to have a layer of activity where it’s going to be all agents making the decisions and doing the triage. Then the human in the loop is going to be at a higher level, more senior.” Vulnerability discovery becomes abundant, but absorption becomes scarce It’s undeniable that the most immediate and ongoing changes from AI for cyber defenders are the rapid discovery of massive numbers of cybersecurity vulnerabilities, a shift the industry is already experiencing. But even this transformation comes with downsides because chasing down and fixing every flaw is an arduous task that consumes most defenders’ time. “The problem absolutely is absorption,” CSA’s Reavis says. “How do I absorb this information? How do I triage it? How do I fix it?” Menlo’s Litty has seen this problem before with static analysis systems that generated more findings than engineering organizations could address. “You can find hundreds of things, but if you send hundreds of things to engineering and most of them aren’t relevant, engineering will just ignore you,” he says. AI can already find and test problems in source code, but autonomous validation against complicated production environments remains harder. Caleb Sima , chair of the CSA AI Safety Initiative and founding partner of White Rabbit, distinguishes between analyzing source code and autonomously testing complex production environments. “I think vulnerability discovery today in source code is done,” he tells CSO. “But in terms of real vulnerability discovery in an autonomous way, in a real enterprise production network that produces valid vulnerability and exploitation, we still have a bit of ways to go.” The so-called “vulnerability apocalypse” is less a fundamental cybersecurity change that will make the field unrecognizable and more a question of an increasing disconnect defenders know too well. As Lindner puts it: “We don’t have a problem finding problems. We have a problem triaging and remediating all the problems that we find.” Machine-speed attacks force machine-speed containment Another change that could leave traditional cybersecurity practices in the rearview mirror is what happens when autonomous attacks alter the threat environment, necessitating machine-speed response. “It’s no longer about a single attacker rooting through your network, but it’s a landing of an agent that spawns 200 agents that rapidly move through your enterprise to identify and exploit its vulnerabilities,” Sima says. These agents can scope out the environment, locate valuable assets, and abscond with data before defenders can respond. Cyber defenders should be positioned to respond in equal lightning-fast fashion. “The cloud, the application, and the endpoints should all be able to actively quarantine, move, and adjust controls at machine speed without breaking production,” Sima says. Litty believes that defenders should assume any component could be breached and design the environment to limit the resulting damage. “This goes back to fundamentals: least privilege and separation of duties,” he says. “How do I make sure that I have separated components, defense in depth, so that one vulnerability being exploited doesn’t take my entire company down?” Defender teams become flatter, more agent-heavy Although it would be tempting to conclude that as SOC analyst jobs disappear, the AI-centric cybersecurity landscape would result in net job losses across the industry, experts say that likely won’t happen. Instead, they anticipate a restructuring of roles and the emergence of smaller, agent-heavy teams. “I see a flattening of organizations between the leaders and the builders,” Reavis says. “The more senior people are going to have to go and build things.” White Rabbit’s Sima sees a workforce model that is barbell-shaped, consisting of highly experienced professionals on one end and AI-native junior workers on the other end, with pressure on the workers in the middle who are devoted to coordination and project management. “I think you’ll see a barbell: top-tier, senior individual contributors and then juniors and interns,” he says. “The middle is going to struggle.” Contrast Security’s Lindner agrees that workers with the highest knowledge and experience will fare well in the future. “The things AI isn’t going to be able to replace are experience and judgment,” he says. “My team is uber-senior today, and I need that. I need them to fully understand and have the experience and the judgment to know how and when AI is going to work for us, and where we need to add different controls where AI isn’t going to work, because it’s not going to work everywhere.” AI will likely never replace skilled cyber professionals, according to Litty. “I’m definitely not seeing the humans going away in those areas for now,” he says. From tool sprawl to an AI control plane One beneficial restructuring of the cybersecurity market as AI takes hold fully is that LLMs may be the interface that connects, but does not reduce, today’s existing security tool sprawl. Sima describes controlling firewalls, endpoint tools, and other systems conversationally without having to grapple with each product’s interface. “AI becomes the interface and the glue across all of these fragmented security products,” he says. The ability to manage sprawl will surely be welcomed in a world with enormous agent proliferation and accelerated churn. “The technology footprint is exploding, and it’s so vast,” CSA’s Reavis says. “On the one hand, you see a lot of sprawl, and we’re going to have trillions of agents.” Litty, on the other hand, thinks that existing tools will evolve instead of proliferating. “What we’re seeing so far is that it changes the tools,” he says. “It doesn’t necessarily mean more tools. So far, I’m not seeing an explosion of tools.” What should CISOs do now? CISOs don’t need to wait for these and other AI-related changes to occur before taking action. Experts recommend that security leaders identify bounded, high-volume tasks such as alert enrichment, initial triage, and vulnerability prioritization, where agents can be tested with restricted authority. “What I would consider telling senior people is: Go build things,” Reavis says. “Building things doesn’t mean going to an entry-level position, but go build things that create a new way of doing your job.” CISOs should also direct attention to creating a new governance discipline based on an inventory of every agent and AI-enabled security function. “First, [have] a registry of where you are using AI, and then look at the quality of the output,” Menlo’s Litty says. “How do you do drift detection for what your AI tools are doing? Is this still working? If you take the SOC example, how do you evaluate how well your AI agent is doing at triaging your vulnerabilities?” Finally, autonomous agents should not be considered anonymous agents. Every agent should have a named human or team that is accountable for it, with human review reserved for situations that are consequential or difficult to reproduce. “There has to be a named owner,” Sima says. “Whether that named owner is a team or an individual is all dependent upon what that AI agent is responsible for, what its goal and objective are, and the job that it does.” The task for CISOs, then, is not to automate everything. It is to learn where agents work, restrict what they can do, and establish who answers for them when they fail.",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud"
-      ],
-      "Networks": [
-        "network",
-        "firewall",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "vulnerability",
-        "exploit",
-        "threat",
-        "security",
-        "cyber",
-        "soc",
-        "cloud security"
-      ],
-      "GRC": [
-        "governance"
-      ],
-      "Industry & Market": [
-        "ey",
-        "gartner"
-      ]
-    },
-    "summary": "The rapid emergence of AI has radically changed a host of professions, with software engineering and development perhaps the most transformed of all pursuits. The usual “ solitary ritual ” of a developer writing code for hours is giving way to collaboration with an army of chatbots. In its 2025 report on the State of AI-Assisted Software Development , Google Cloud researchers found that even then, LLM usage was almost universal among coders, with 90% of developer respondents using AI as part of their work, and 80% believing it has increased their productivity. An earlier Microsoft study documented the effects AI had on productivity, with software developers who used AI completing 26% more tasks than developers who didn’t use AI."
-  },
-  {
     "title": "Sponsored: The truth about speed to power – and why it matters now more than ever",
     "url": "https://www.datacenterdynamics.com/en/marketwatch/the-truth-about-speed-to-power-and-why-it-matters-now-more-than-ever/",
     "source": "DataCenterDynamics",
@@ -2675,8 +2585,24 @@
     "summary": "Three-year contract worth an estimated €100 million"
   },
   {
-    "title": "On Call: Techie fixed Wi-Fi dead zone with a drill",
-    "url": "https://www.theregister.com/networks/2026/09/18/on-call-techie-fixed-wi-fi-dead-zone-with-a-drill/5297036",
+    "title": "Royal Society slams UK.gov science shake-up",
+    "url": "https://www.theregister.com/public-sector/2026/09/18/royal-society-slams-ukgov-science-shake-up/5296913",
+    "source": "The Register",
+    "published": "2026-09-18T08:30:00+00:00",
+    "raw_text": "Whitehall changes a 'big mistake' as anything going in with Business department gets squeezed",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "Whitehall changes a 'big mistake' as anything going in with Business department gets squeezed"
+  },
+  {
+    "title": "Techie fixed Wi-Fi dead zone with a drill",
+    "url": "https://www.theregister.com/networks/2026/09/18/techie-fixed-wi-fi-dead-zone-with-a-drill/5297036",
     "source": "The Register",
     "published": "2026-09-18T06:30:00+00:00",
     "raw_text": "When wires and wireless mix, the combination can be electric",
@@ -3302,21 +3228,120 @@
     "summary": "Telco says accounts are secure as customers report hundreds of mystery codes arriving in rapid bursts"
   },
   {
-    "title": "UK funds flying broadband stations with power beamed from below",
-    "url": "https://www.theregister.com/networks/2026/09/16/uk-funds-flying-broadband-stations-with-power-beamed-from-below/5296545",
-    "source": "The Register",
-    "published": "2026-09-16T08:30:00+00:00",
-    "raw_text": "£70M ARIA program backs 18 projects aiming to keep connectivity aloft for a week",
+    "title": "Capita boss gets ‘obscene’ pay packet while retired civil servants need emergency loans",
+    "url": "https://www.computerweekly.com/news/366650555/Capita-boss-gets-obscene-pay-packet-while-retired-civil-servants-need-emergency-loans",
+    "source": "ComputerWeekly",
+    "published": "2026-09-18T04:00:00+00:00",
+    "raw_text": "<p>Capita CEO Adolfo Hernandez earned £1.6m in his last pay packet, while thousands of retired civil servants were forced to apply for emergency loans because the company he runs failed to pay their pensions.</p> <p>With almost all of Capita’s earnings coming from the public sector, it is the taxpayer ultimately footing Capita’s bills, including the CEO’s salary.</p> <p>The substantial pay packet emerged during a Westminster Hall debate this week (15 September), which saw MPs chastise Capita for <a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">huge failings in the Civil Service Pension Scheme (CSPS) administration</a>, which left many of their constituents in financial hardship after years of service to the country.</p> <p>It is increasingly being referred to as a “scandal”, and while Capita’s boss received his large pay packet, more than 4,100 former civil servants and their spouses have been forced to apply for emergency loans.</p> <p>Former civil servant&nbsp;<a href=\"https://www.computerweekly.com/news/366639686/Civil-service-veteran-incandescent-as-wait-for-pension-hits-four-months-amid-outsourcing-mess\">Steve Tessier</a> is still waiting for his pension, more than nine months after retiring. Tessier, who had a long career at the Ministry of Defence, as well as a spell on secondment at Nato, said: “It feels obscene that someone should trouser such a large sum when they have been responsible for causing misery and financial hardship for tens of thousands of people.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pressure in the chamber\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pressure in the chamber</h2> <p>During the Westminster Hall debate, Peter Prinsley, Bury St Edmunds and Stowmarket MP, outlined innate unfairness.</p> <p>“I believe the CEO of Capita has an annual remuneration of £1.6m,” he said. “My constituent is a man who gave 33 years of service to the Metropolitan Police, and despite giving masses of notice of his retirement, never received his pension for at least six months. He wanted to fund his daughter for university; he was unable to do so. He took out loans from the police. He then developed cancer and is under treatment at my local hospital.”</p> <p>Prinsley said: “This is an utter disgrace. It’s a complete disgrace.”</p> <p>A CSPS claimant, who wished to remain anonymous, said: “Mr Hernandez took responsibility for this mess. Perhaps he has performed competently in other areas of the company which may justify his huge salary, but in this instance he has fallen abysmally short of being competent.”</p> <p>“Perhaps he ought to hand back some of that salary, it could go towards hiring more staff, paying overtime or setting up a hardship fund for the bereaved who do not have access to the government bridging loan. Alternatively, he may put it towards any compensation for those affected.”</p> <p>The government has so far approved over £100m to provide interest-free transitional support loans to those affected by pension delays, which has seen more than 4,100 loans made.</p> <p>As revealed by Computer Weekly in August, Hernandez was <a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">slammed by a Capita staff member</a>, working on pensions, after he made claims internally that the “right” things are in place to turn the <a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">botched CSPS</a> administration around.</p> <p>The comments from a staff member, which appeared in a message copied to all staff, cast doubt on Capita’s ability to fix the problems being experienced.</p> <p>The staff member wrote: “The service provided by Capita surpasses your assertion of ‘not good enough’, it has been abysmal for members. The fact members have died in waiting due to this whole catastrophe is a really harrowing thought that none of us should have to live with, yet we sadly do.”</p> <p>Capita and the Cabinet were asked questions about Hernadez’s pay packet and the number of emergency loans given, neither responded.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MPs must act\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MPs must act</h2> <p>Prinsley suggested he and other MPs must be able to sort the mess out. “We all came to this place in order to change things,” he said. “Surely this is something that we can change…”</p> <p>One of the things the government is hoping to do is insource the contract. It has already said it is “actively shaping a long-term strategy to bring the pension scheme back in-house” – a statement repeated by Sally Jameson MP, parliamentary secretary in the Cabinet Office. But there is still uncertainty among members of the scheme, the trade union and MPs about what this means.</p> <p>Jameson went further in the Westminster debate when she said: “We stood on a manifesto as a Labour government to have the biggest wave of insourcing in a generation. I am personally committed to that. I’ve said in this house before that I think that’s a priority for this [CSPS] scheme…”</p> <p>But she added that the government can only do it after making sure it’s in the interest of the scheme members. “We’ve got to make sure that there is no disruption,” said Jameson. “We’ve got to do it in the smoothest and quickest way.”</p> <p>The government has already insourced a failing pension scheme run by Capita, when in April it <a href=\"https://www.computerweekly.com/news/366642152/Government-terminates-Capitas-Royal-Mail-pension-contract\">terminated the supplier’s contract</a> to administer the Royal Mail pension scheme. The government said the outsourcing provider “failed to deliver numerous milestones … following a failure to meet critical transition milestones, and a lack of confidence in Capita’s ability to implement and transition to the new operating model in a timely fashion”.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tech didn’t work\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tech didn’t work</h2> <p>The CSPS contract transferred from MyCSP to Capita in December 2025, after being awarded in 2023. Despite having two years to prepare for it, in the month following Capita’s takeover – amid delays and problems – an HM Revenue &amp; Customs <a href=\"https://www.computerweekly.com/news/366637837/Troubleshooter-steps-in-as-Capita-and-civil-service-bosses-apologise-for-pension-scheme-problems\">troubleshooter was brought in</a>&nbsp;to lead an “urgent recovery plan”.</p> <p>During contract bidding, Capita had claimed artificial intelligence would revolutionise the delivery of the scheme, but its project failed.</p> <p>In a recent <a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">joint PAC and Public Administration and Constitutional Affairs Committee (Pacac) hearing</a>, Pacac chair Simon Hoare MP said Capita had two years to prepare for the takeover of CSPS in December 2025, yet the technology behind its stated the “artificial intelligence” revolution failed.</p> <p>In that meeting, Hoare reminded CEO Hernandez and his colleagues of promises made to government during the contracting process. The Cabinet Office was told “the two-year transition period would lead to the digital artificial intelligence revolution to deliver a world-class, world-leading pension service. None of that met neither the novel nor the basic”.</p> <p>CSPS member Tessier told Computer Weekly that accountability does not rest solely with Capita. “Who in the Cabinet Office took the decision to go ahead with the contract despite strong warnings from the National Audit Office (NAO) and the Public Accounts Committee (PAC)? And what consequences – financial or otherwise – have there been for that individual (and any others who may share responsibility)?”</p> <p>Speaking during the Westminster Hall debate, MP Charlie Dewhirst raised similar questions of the government. He said ministers claimed they received personal assurances from Capita as to its readiness to take over the scheme, and they have not said why they chose to believe these claims despite the findings of the NAO and the PAC: “Can the minister clarify who in their department authorised the go, no go decision in November 2025, [and] what criteria was used to make that decision?”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Government mission\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Government mission</h2> <p>Beyond this debacle, the government has declared <a href=\"https://www.computerweekly.com/news/366644790/UK-government-publishes-guidelines-to-end-era-of-outsourcing-will-IT-be-in-scope\">its plan for the biggest wave of insourcing in a generation</a>. In July, Cabinet Office minister Nick Thomas-Symonds said he would insource CSPS “today” if it was possible.</p> <p>Speaking in the Westminster debate this week, Ian Byrne, MP for Liverpool West Derby, who secured the debate on the CSPS disaster, described Capita’s handing of the pension scheme as an example of the failure of outsourcing.</p> <p>“This is the failed ideology of outsourcing laid bare,” he said. “Born under Thatcher, followed by successive governments of all colours in the name of efficiency, while delivering to absolutely the opposite and putting the burden on ordinary people.”</p> <p>He highlighted Fujitsu’s role in the Post Office scandal and the failing water industry as further examples. “How many more examples must we bring before this House before the political establishment finally accepts that this experiment has completely failed?”</p> <p>Lorraine Beavers, MP for Blackpool North and Fleetwood, like minister Jameson,<b>&nbsp;</b>said she “stood on a manifesto that promised the biggest wave of insourcing in a generation”.</p> <p>“[The CSPS] case is only one of the many since 1980s where the responsibility of the state has been outsourced to private companies who have consistently failed to deliver for working people,” she said. “I will not stop fighting until this scheme is brought back where it belongs.”</p> <p>While there was support for insourcing among MPs at the meeting, others did not believe it to be the answer.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Plain English, please\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Plain English, please</h2> <p>About 80 MPs have now signed an open letter to Capita’s public sector boss, Richard Holroyd, requesting a “plain language” explanation of “what has happened since the last update, what work remains outstanding, whether there are any barriers preventing progress, what the next step will be, and where possible, an indication of when that next step is expected.”</p> <p>The lack of information is causing huge stress amongst CSPS members waiting for the money they are owed and, in many cases, desperately need. They are being held for hours on the phone waiting for support.</p> <p>The Pensions Before Profit Campaigns Group, set up in April this year to campaign around the Civil Service Pension Scheme crisis, is run by a small group of volunteers and supports more than 20,000 members.</p> <p>Following the Westminster Hall debate, the group said in a statement: “We welcome the very belated recognition that Capita’s claims and shifting targets cannot be accepted at face value. We were encouraged by Minister Sally Jameson’s honesty at the Westminster Hall debate about the scale of the crisis, her acknowledgement of members’ lived experiences and her willingness to challenge Capita.”</p> <p>But it added that it believes “Capita continues to treat the Public Accounts Committee, the government and scheme members with contempt”.</p> <p>Its claims that calls are answered within eight minutes and cases are resolved “once and done” are completely at odds with members’ experiences of lengthy waits, repeated contacts, lost documents, inaccurate information and months of delay.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Capita and the Civil Service Pension Scheme</h3> <ul class=\"default-list\"> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366650460/Capita-doesnt-get-to-walk-away-from-civil-service-pension-mess-says-minister\">Capita doesn’t get to ‘walk away from’ civil service pension mess, says minister</a>.</li> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366649749/UK-government-to-create-team-to-validate-Capitas-data-on-troubled-pension-scheme\">UK government to create team to validate Capita’s data on troubled pension scheme</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650254/Capita-meeting-self-imposed-civil-service-pension-targets-not-sufficient-says-government\">UK government views the outsourcer’s overall performance as ‘unacceptable’ after it reports meeting a self-imposed target</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650193/Government-has-seen-enough-of-Capita-failure-and-Civil-Service-Pension-scheme-to-be-moved-in-house\">Government has seen enough of Capita failure and Civil Service Pension Scheme to be moved in-house</a>.</li> <li>Aug 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">Capita CEO receives scathing rebuttal from employee over botched contract</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645827/PAC-raises-more-questions-over-Capitas-role-in-government?_gl=1*xbkv0w*_ga*Mjg4MTcxMzU3LjE3Nzk5NjUxNTU.*_ga_TQKE4GS5P9*czE3ODU5Mjk3MjIkbzI2NiRnMSR0MTc4NTkyOTcyNiRqNTYkbDAkaDA.\">PAC raises more questions over Capita’s role in government</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645700/Capita-to-lose-money-on-pension-debacle-but-has-governments-private-parts-in-its-grip\">Capita to lose money on pension debacle but ‘has government’s private parts in its grip’</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645462/Capita-civil-service-pension-contract-prime-candidate-for-insourcing-says-government-minister\">Capita civil service pension contract ‘prime candidate’ for insourcing, says government minister</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645478/Capitas-rush-to-hit-civil-service-pension-deadline-risking-errors-say-staff\">Capita’s rush to hit civil service pension deadline risking errors, say staff</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645354/Union-calls-for-insourcing-of-pension-contract-as-Capita-shit-show-goes-on\">Union calls for insourcing of pension contract as Capita ‘shit show’ goes on</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366644692/Cabinet-Office-states-Capita-set-to-miss-Civil-Service-Pension-Scheme-deadline\">Cabinet Office states Capita set to miss Civil Service Pension Scheme deadline</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643878/Capita-launched-civil-service-pension-scheme-site-without-basic-web-security\">Capita went live with its troubled civil service pensions administration without a basic Domain Name System security feature</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643712/Ministers-refused-to-sign-off-563m-Capita-contract-amid-civil-service-pension-disaster\">Ministers refused to sign off £563m Capita contract amid civil service pension disaster</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643012/Civil-servants-to-protest-at-Capita-general-meeting-amid-pension-crisis\">Civil servants to protest at Capita general meeting amid pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642492/Was-Capitas-Royal-Mail-pension-contract-a-botch-too-far\">Was Capita’s Royal Mail pension contract a botch too far?</a></li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">Capita lacked ‘detail and thoroughness’ in planning botched Civil Service Pension Scheme takeover</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">MP committees to double up on Capita’s civil service pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642312/Government-should-drop-Capita-from-civil-service-scheme-after-it-loses-Royal-Mail-role-says-union\">Government should drop Capita from civil service scheme after it loses Royal Mail role, says union</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642152/Government-terminates-Capitas-Royal-Mail-pension-contract\">Government terminates Capita’s Royal Mail pension contract</a>.</li> <li>Mar 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366640779/Capita-left-to-deal-with13000-civil-service-pension-cases-over-a-year-old\">Capita left to deal with 13,000 civil service pension cases over a year old</a>.</li> <li>Feb 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">Thousands of unread emails and 20 million database errors cause civil service pension hardship</a>.</li> <li>Jan 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366637837/Troubleshooter-steps-in-as-Capita-and-civil-service-bosses-apologise-for-pension-scheme-problems\">Troubleshooter steps in as Capita and civil service bosses apologise for pension scheme problems</a>.</li> <li>Oct 2025: <a href=\"https://www.computerweekly.com/news/366633358/Capita-rubbishes-Public-Accounts-Committee-report-claims\">Capita rubbishes Public Accounts Committee report claims</a>.</li> </ul> </div> </div> </section>",
     "categories": [
-      "Networks"
+      "Networks",
+      "GRC",
+      "Industry & Market",
+      "Cybersecurity",
+      "Data Centres"
     ],
     "matched_keywords": {
       "Networks": [
-        "connectivity",
-        "broadband"
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "audit",
+        "nist"
+      ],
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
+        "raises",
+        "ey"
       ]
     },
-    "summary": "£70M ARIA program backs 18 projects aiming to keep connectivity aloft for a week"
+    "summary": "<p>Capita CEO Adolfo Hernandez earned £1.6m in his last pay packet, while thousands of retired civil servants were forced to apply for emergency loans because the company he runs failed to pay their pensions.</p> <p>With almost all of Capita’s earnings coming from the public sector, it is the taxpayer ultimately footing Capita’s bills, including the CEO’s salary.</p> <p>The substantial pay packet emerged during a Westminster Hall debate this week (15 September), which saw MPs chastise Capita for <a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">huge failings in the Civil Service Pension Scheme (CSPS) administration</a>, which left many of their constituents in financial hardship after years of service to the country.</p> <p>It is increasingly being referred to as a “scandal”, and while Capita’s boss received his large pay packet, more than 4,100 former civil servants and their spouses have been forced to apply for emergency loans.</p> <p>Former civil servant&nbsp;<a href=\"https://www.computerweekly.com/news/366639686/Civil-service-veteran-incandescent-as-wait-for-pension-hits-four-months-amid-outsourcing-mess\">Steve Tessier</a> is still waiting for his pension, more than nine months after retiring. Tessier, who had a long career at the Ministry of Defence, as well as a spell on secondment at Nato, said: “It feels obscene that someone should trouser such a large sum when they have been responsible for causing misery and financial hardship for tens of thousands of people.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pressure in the chamber\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pressure in the chamber</h2> <p>During the Westminster Hall debate, Peter Prinsley, Bury St Edmunds and Stowmarket MP, outlined innate unfairness.</p> <p>“I believe the CEO of Capita has an annual remuneration of £1.6m,” he said. “My constituent is a man who gave 33 years of service to the Metropolitan Police, and despite giving masses of notice of his retirement, never received his pension for at least six months. He wanted to fund his daughter for university; he was unable to do so."
+  },
+  {
+    "title": "CW@60: Falling in love – why open source reflects my Scottish values",
+    "url": "https://www.computerweekly.com/feature/CW60-Falling-in-love-why-open-source-reflects-my-Scottish-values",
+    "source": "ComputerWeekly",
+    "published": "2026-09-18T04:00:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>Across the last 60 years there’s been a dramatic change in software, from the early days of being given away with mainframe hardware in the 1960s, through the free software movement of the 1980s and into today’s world of open source software and AI.</p> <p>Software has changed dramatically but decisions made all the way back to the early days of software when copyright was applied to it, still have a surprising effect on the market today.</p> <p>I first got involved with open source almost 20 years ago and value mattered to me. I was a commercial lawyer in tech, having worked in innovation for companies that turned over billions. Monday morning all-hands trading calls, trading checks and pressure to meet targets were the norm. In my role as a lawyer, getting value for my company mattered.</p> <p>In early 2008, I joined a UK company called Canonical on a three-month contract. Well-known today as the commercial sponsor of the open source Ubuntu operating system, at the time Canonical was the cool kid on the open source block. This meant nothing to me.</p> <p>I’d worked in electrical retail for Europe’s biggest computer distributor Dixons Group and the company’s two original equipment manufacturer (OEM) brands, Advent and Patriot. That experience of OEM negotiation wasn’t something Canonical had expected from me, and unsurprisingly Canonical’s team had little experience of OEM at that point. My three-month-contract had been scoped to work out the organisation’s legal needs and for me to structure its legal team - not be a part of it. I soon found myself deep in Canonical’s negotiations with Dell, with which Canonical was partnering to pre-load <a href=\"https://www.computerweekly.com/feature/CW60-My-life-as-an-alt-tech-geek\">Ubuntu Linux on the desktop</a>.</p> <p>This was a first - putting a Linux distribution pre-loaded on the desktop was exciting stuff. In 2008 the open source war was on the desktop and Microsoft was public enemy number one. Operating systems were under intense scrutiny from the European Commission and other anti-trust and competition authorities.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Values versus value\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Values versus value</h2> <p>But a strange thing happened to me within weeks of joining Canonical. I fell in love.</p> <p>There are a lot of jokes about lawyers, mostly along the lines of, “What do you call 1000 dead lawyers at the bottom of the ocean? A good start…” Boom boom.&nbsp;</p> <p>Lawyers are often considered materialistic but - commercial lawyer that I was - I have values. My values were ingrained from a working class upbringing in rural Scotland. I am the first of any generation of my family to study at university and my upbringing not only gave me a fairly formidable work ethic and determination - which I have to this day - but it also taught me the value of money. As a Scot that may not be a surprise to you.</p> <p>But growing up relatively poor in rural Scotland also instilled a sense of community, duty and the need to ensure that everyone has their basic needs met. I have often reflected on navigating the open source community and this being like navigating Scots, but that is a story for another day. Those basic needs being met have shifted to become technological, digital and AI needs being met over time.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Amanda-Brock-OpenUK-PR.jpg\" alt=\"Photo of Amanda Brock, CEO of OpenUK \" width=\"180\" height=\"135\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“Open source is for the smart and the hard working and that’s another part of the environment that I loved. It is also incredibly tolerant of the neurodiverse and dare I say it might even have been built on a culture of neurodiversity. I found my tribe”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Amanda Brock</em></span></p> </blockquote> <p>As I’ve aged I’ve realised that the inevitable challenges in my life have arisen when my values have been out of step with those of partners in either my personal or business lives. Whenever there has been a mismatch, there’s been a disconnect. My values and these societal values are critical to me and in my view to the functioning of society. They are at the heart of my purpose and not in any way politically aligned.</p> <p>The drive for shareholder value that dictates all commercial companies’ ethos has not always sat well with me as a result. A balanced scorecard and a different form of capitalism are needed, in my view, to enable a better society with a healthier corporate structure, but that’s also a debate for another day.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Stumbling into open source and falling in love\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Stumbling into open source and falling in love</h2> <p>I stumbled into open source at Canonical and within a few weeks fell in love with a partner that had the same values as me - open source.</p> <p>These values recognised the need to share, to give back and to create things and tools that all could benefit from. Recently someone suggested to me that “open source is for the elite”. Indeed, it’s for the smart and the hard working and that’s another part of the environment that I loved. It is also incredibly tolerant of the neurodiverse and dare I say it might even have been built on a culture of neurodiversity. While at Canonical I found my tribe.</p> <p>Perhaps now it’s self-evident why my values matched open source enough for me to fall in love.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Value generated by open source in software sector\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Value generated by open source in software sector</h2> <p>Since 2008, open source has shifted, particularly in the last decade. Today it’s no longer the fringe I joined, but the software norm and rapidly becoming the same in AI. At <a href=\"https://www.computerweekly.com/blog/Open-Source-Insider/OpenUK-Public-Good-AI-report-2025-good-could-do-better\">OpenUK we’ve worked on calculating the value generated by open source</a> for several years. We know today that we would spend 3.5 times more on software if open source did not exist. Without doubt it creates value.</p> <p>A wise woman once said to me, “Love is blind, but your friends and your family are not.” My and the original open source ecosystem’s values have largely remained the same across the years. I hope that while I may be blind, the world adopting open source is not.</p> <p>Yes, like clannish Scots, the open source ecosystem falls out with each other, fork projects and argue in public. But, fundamentally, despite this, we have more in common across our communities than we do not. However as a collective, we have faced major challenges and face those together.</p> <p>While individuals may see their values reflected in open source, companies have seen a different opportunity to generate shareholder value in line with their purpose, either directly by selling products or services or indirectly by using open source software behind the scenes in platforms and software as a service.</p> <p>Open source enables cost savings with software projects becoming de facto standards across the industry. Some extraordinarily large organisations have grown and made vast profit off the back of open source - from hyperscale cloud providers to technology application providers that we all rely on, all day, every day.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Risk to open source’s values\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Risk to open source’s values</h2> <p>Unfortunately, the pace of growth and adoption of open source software and also in AI has not been matched by a similar pace of understanding of its nuances. These nuances are fundamental to open source’s survival. Even those who wax lyrical in its favour do not always understand key elements of what they are talking about when it comes to open source. I hope that doesn’t sound too harsh, but sadly it’s a reality.</p> <p>When we distribute open source, the licences require that anyone must be able to use it for any purpose subject to laws. In a commercial landscape we effectively enable our competitors with our own innovation. Making money in this environment is the holy grail of open source.</p> <p>In recent years we have seen a few companies change their software licences to open access licences that restrict the fully open usage of open source, but still claiming to be open source despite their products not being freely available for anyone to use. This process is known as open washing - claiming the value of open source without paying its price.</p> <p>This is not just a problem in open source software but also in AI. We have seen AI shared on licences that potentially undermine the fundamental premise of open source, with restrictions as to how it can be used, or by whom, or with anti-commercialisation provisions that are fundamentally opposed to the meaning of open source, but despite that labelled as open source.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Is there a future for open source’s values?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Is there a future for open source’s values?</h2> <p>When we talk about sustainability challenges for open source, we usually mean the pressure on open source maintainers and the burden they face in maintaining a secure codebase, project or ecosystem. There is however a bigger challenge in open source.</p> <p>Fundamentally the question we face is one of values versus value.</p> <p>Is open source just about building adoption or are we exercising the right to democratise digital and AI through openness? It’s undoubtedly the case that <a href=\"https://www.computerweekly.com/news/366636231/Digital-Ethics-Summit-2025-open-sourcing-and-assuring-AI\">open source in software and AI</a> can generate value, but it won't survive in the long-term if its values are not respected in the process of generating that value.</p> <p>The risk today is that we will look back in a few years and think of open source as such a great concept that we ought to have used to democratise tech, but it’s such a shame we didn’t align to its values and so let it fail.</p> <p><i>Amanda Brock is CEO of OpenUK and OpenHQ.</i></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read all of Computer Weekly's 60th anniversary essays</h3> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup> anniversary, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. Read our full collection of essays, which offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p> <h2><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">CW@60 - How technology has changed our lives over 60 years</a></h2> </div> </div> </section>",
+    "categories": [
+      "Networks",
+      "Cloud Infrastructure",
+      "Data Centres",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws"
+      ],
+      "Networks": [
+        "cdn",
+        "wan",
+        "lan",
+        "iot"
+      ],
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Data Centres": [
+        "hyperscale",
+        "colo"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>Across the last 60 years there’s been a dramatic change in software, from the early days of being given away with mainframe hardware in the 1960s, through the free software movement of the 1980s and into today’s world of open source software and AI.</p> <p>Software has changed dramatically but decisions made all the way back to the early days of software when copyright was applied to it, still have a surprising effect on the market today.</p> <p>I first got involved with open source almost 20 years ago and value mattered to me. I was a commercial lawyer in tech, having worked in innovation for companies that turned over billions."
+  },
+  {
+    "title": "CW@60: What sport taught me about technology, and vice versa",
+    "url": "https://www.computerweekly.com/feature/CW60-What-sport-taught-me-about-technology-and-vice-versa",
+    "source": "ComputerWeekly",
+    "published": "2026-09-18T03:30:00+00:00",
+    "raw_text": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>I've always loved technology, at least partly because my father did first. He was a PE teacher, but he made sure we had the early computers in the house. The first was an Amstrad CPC 464. Then came a Commodore Amiga, and the jump from 8-bit to 16-bit blew my mind. I can still remember the feeling - going from <i>Harrier Attack</i> to <i>Sensible Soccer</i> felt life changing at that age.</p> <p>Given that context, it won't surprise you that sport was my other love. Both have followed me throughout my career, and the longer I've spent in technology, the more I've realised the lessons they teach are not that different.</p> <section class=\"section main-article-chapter\" data-menu-title=\"From engineer to translator\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>From engineer to translator</h2> <p>I started out in software engineering but moved fairly quickly into architecture and consulting. What pulled me in was turning a business challenge into a technology solution that actually delivered the outcome the business needed. That's been the constant thread ever since.</p> <p>One of my first jobs was at <a href=\"https://www.computerweekly.com/news/2240161906/How-did-EDS-lose-8bn-in-value-in-four-years\">Electronic Data Systems</a>, working with government statisticians in London. It was old-fashioned, almost quaint by today's standards. There was even an annual cricket match between the statisticians and the IT team, at which I was once told off for being too competitive, which was code for \"don't bowl out the lead statistician\".</p> <p>Soon the projects became larger and the consequences more tangible - transforming the way goods moved between the UK and Europe, or architecting the systems behind the tax self-assessment filing peak when millions of returns land in the final days before the deadline.</p> <p>I've also spent a good part of my career making sure Christmas runs smoothly, building Royalmail.com and Parcelforce.com to withstand seasonal peaks and helping Waitrose make sure it has enough turkeys.</p> <p>All of this experience taught me that success is never just about the technology - there is always a business outcome to deliver.</p> <p>One of the most ambitious projects came when the government was preparing to revalue domestic properties as part of proposed changes to council tax bands. I was asked to work out how geospatial data, property records and imagery could tackle the problem at enormous scale. We managed to revalue and band the country just before the government shelved the policy, so the work was ultimately never used.</p> <p>It might sound strange to include an abandoned project among the formative experiences of a career, but it taught me something important - technology careers aren't just made up of successful launches. Sometimes the most interesting engineering happens when you're asked to take a problem that appears impossibly large and make it practical.</p> <p>I still do that job today, just at a larger scale, and these days sport has found its way back into my working life too. I never expected to end up <a href=\"https://www.computerweekly.com/news/366641737/England-Rugby-chooses-Capgemini-as-it-targets-half-a-million-new-fans\">building technology for the sports I grew up playing</a>, but I do now. There’s something special about seeing those two parts of my life finally converge.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Riding the waves\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Riding the waves</h2> <p>I've been lucky enough to live through several distinct technology cycles, from e-commerce to cloud and now AI, and I count that as a privilege. Each cycle has changed the industry. But I've also watched us repeat a surprisingly consistent behaviour - when something new arrives, we become so excited by its possibilities that we temporarily forget the discipline we developed during the previous wave.</p> <blockquote> <div class=\"imagecaption alignLeft\"> <img src=\" https://cdn.ttgtmedia.com/rms/computerweekly/Steven-Webb-Capgemini-PR.jpg\" alt=\"Photo of Steven Webb, CTO at Capgemini\" width=\"180\" height=\"180\"> </div> <p><span style=\"font-size: 14pt;\"><strong><span style=\"color: #34495e;\">“Some of the best sport coaches I had were great at reading a team - knowing who needed a clear instruction and who needed space to work it out for themselves. I didn't understand how rare that skill was until I had to learn it myself, the hard way, running large and complex transformation programmes”</span></strong></span></p> <p><span style=\"color: #34495e;\"><em>Steven Webb</em></span></p> </blockquote> <p>Cloud is the clearest comparison with what's happening in AI today. I spent years trying to talk retail clients out of simply lifting their legacy systems into the cloud and calling it done. It was tempting to pack up the old datacentre, ship it to someone else's and keep everything exactly as it was. But that was just moving the furniture, and it usually cost more than staying put. The real value only showed up once we persuaded them to rebuild on cloud-native, so the platform could flex to seasonal demand.</p> <p>I hear the same conversation now with AI, just with different words. Too many organisations want to drop it into what they already have, rather than transform how they work so they can use it properly. And we're relearning another cloud lesson at the same time. It took years of bill shock and sprawl before <a href=\"https://www.computerweekly.com/news/366641816/How-the-AI-boom-is-reshaping-tech-cost-management\">FinOps brought proper discipline to cloud economics</a>. With AI, the unit of consumption has changed from compute to tokens, and we're now having to develop the same discipline around tokenomics.</p> <p>I find the pattern more endearing than frustrating. Experience doesn't stop you making mistakes with the next wave. It just helps you recognise them a little earlier.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"The return of the all-rounder\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The return of the all-rounder</h2> <p>I guess I was an all-rounder in sport, splitting my time between football, cricket, tennis, golf and rugby. When I started in software, the industry felt much the same. It was the age of the generalist. One person could reasonably be expected to understand the business problem, consult with the customer, design the architecture and build significant parts of the solution, software and infrastructure alike.</p> <p>As technology became more powerful, it also became enormously more complex. The industry responded by specialising. Engineering split into ever more specific disciplines – front-end, back-end, cloud, data, security, platform engineering and many others. That specialisation created real depth, and let us build systems of a scale and sophistication that would have been unimaginable when I started.</p> <p>AI is now shifting that balance back the other way. I saw it properly for the first time when we had to move one of our platforms onto a new data provider between the <a href=\"https://www.computerweekly.com/news/366632100/Womens-Rugby-World-Cup-premiered-GenAI-for-broadcast-match-analysis\">Rugby World Cup</a> and the Six Nations, a switch that would once have needed a DevOps engineer, an API expert, a data specialist, and weeks we didn't have. With AI alongside, we did it in a matter of days.</p> <p>That doesn't make expertise less important. If anything, it makes knowing what “good” looks like more important than ever, because the danger is confusing the ability to produce something with understanding why it works.</p> <p>It's also changing what a young engineer needs to learn, and how, since a lot of the narrow, repetitive work that used to build judgement is quietly disappearing. The opportunity, if we get it right, is a new generation of technology all-rounders who combine that breadth with the discipline the last 20 years of specialisation taught us.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Full circle\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Full circle</h2> <p>Some of the best sport coaches I had were great at reading a team - knowing who needed a clear instruction and who needed space to work it out for themselves, spotting the moment to step back rather than step in. I didn't understand how rare that skill was until I had to learn it myself, the hard way, running large and complex transformation programmes.</p> <p>My view of technology leadership has changed in much the same way. Earlier in my career I probably thought being a technology leader meant having the answers. However, through experience, and watching those coaches, I’ve learned that leadership is much more about creating the conditions in which other people find better answers than you could find yourself, and that's what actually builds a high-performing team, on a pitch or in a project.</p> <p>I've gone from an Amstrad to satellite imagery, cloud computing and large language models, and the tools I use bear no resemblance to the ones I started on. But the underlying job hasn't changed nearly as much - understanding what actually matters, delivering business value and finding the best technology to solve the problem.</p> <p>I can still picture sitting in front of that Amstrad, watching the screen flicker and judder as a game loaded from cassette tape, minutes ticking by before anything happened at all. These days I watch AI build something useful before that tape would have even finished loading.</p> <p>My kids have never waited for anything to load in their lives. I wonder what technology will look like by the time they're old enough to look back on their own childhoods and reflect on how far it's come.</p> <p><i>Steven Webb is chief technology &amp; innovation officer for Capgemini in the UK.</i></p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read all of Computer Weekly's 60th anniversary essays</h3> <p>Technology is changing the way we live and work like never before – touching people’s lives every day, opening up new opportunities and creating new challenges.</p> <p>So for our 60<sup>th</sup> anniversary, we wanted to reflect on the human stories of how the digital revolution has changed the lives of some of the key leaders and influencers in tech today. Read our full collection of essays, which offers a unique set of insights and perspectives into the changes we have seen during Computer Weekly's first 60 years.</p> <h2><a href=\"https://www.computerweekly.com/essentialguide/CW60-How-technology-has-changed-our-lives-over-60-years\">CW@60 - How technology has changed our lives over 60 years</a></h2> </div> </div> </section>",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market",
+      "Cybersecurity",
+      "GRC",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "cloud-native",
+        "devops",
+        "cloud computing"
+      ],
+      "Networks": [
+        "cdn",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "soc"
+      ],
+      "GRC": [
+        "policy"
+      ],
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
+        "launches",
+        "ey",
+        "consulting"
+      ]
+    },
+    "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>I've always loved technology, at least partly because my father did first. He was a PE teacher, but he made sure we had the early computers in the house."
   },
   {
     "title": "CW@60: The language I could speak – and a lesson from a Sony Walkman",
@@ -3782,32 +3807,6 @@
     "summary": "<p>Financial information provider Thomson Reuters has developed an in-house, proprietary <a href=\"https://www.techtarget.com/whatis/definition/large-language-model-LLM\">large language model</a> (LLM) to power its use of artificial intelligence (AI) in the products it develops for customers.</p> <p>Senior executives in most major enterprises are turning to generative and agentic AI to explore value-generating opportunities – but significant challenges, such as <a href=\"https://www.computerweekly.com/opinion/Security-Think-Tank-Stop-buying-AI-start-buying-outcomes\">security, accuracy and fears over supplier lock-in</a>, can prevent firms from making the most of such opportunities.</p> <p>In a pioneering attempt to overcome these issues, content and technology specialist Thomson Reuters has taken a step that would be anathema to many CIOs and their C-suite colleagues – launching its own in-house-developed proprietary LLM.</p> <p><a href=\"https://www.computerweekly.com/news/366628267/Interview-Kirsty-Roth-chief-operations-and-technology-officer-Thomson-Reuters\">Kirsty Roth</a>, chief operating officer at Thomson Reuters, understands that many of her digital leadership peers would see the company’s decision to launch its LLM, known as Thomson, as radical. Tech giants, such as OpenAI, Anthropic, Google and Meta, spend billions of dollars developing new models on what feels like a weekly release cadence.</p> <p>AI model development is a world characterised by rapid change and high investment, so why would a traditional blue-chip enterprise outside the high-tech world of super-powerful frontier models decide to spend millions of dollars developing its own LLM? After all, <a href=\"https://www.computerweekly.com/news/366644833/Interview-How-a-startup-mentality-helps-keep-pace-with-AI\">aren’t the tech giants always going to be bigger and better at AI?</a></p> <p>Not necessarily, suggests Roth. Yes, the behemoths will have the edge in developing publicly available models, such as ChatGPT, Claude and Gemini, that a broad user base can explore and exploit for day-to-day activities across a range of industries and professions.</p> <p>“The big tech companies are always going to be bigger, and I think potentially better for very generic use cases,” she says."
   },
   {
-    "title": "Executive interview: Reckitt has no fear of missing out on the AI frenzy",
-    "url": "https://www.computerweekly.com/news/366650472/Executive-interview-Reckitt-has-no-fear-of-missing-out-on-the-AI-frenzy",
-    "source": "ComputerWeekly",
-    "published": "2026-09-16T07:30:00+00:00",
-    "raw_text": "<p>Bastien Parizot, senior vice-president of global business services and artificial intelligence (AI) at hygiene and consumer health brands parent Reckitt, remains level-headed when it comes to the <a href=\"https://www.techtarget.com/it-infrastructure/definition/early-adopter\">latest developments in technology</a>. For him, fear of missing out is one of the enemies of AI adoption.</p> <p>“I think there is a lot changing in the world of AI outside,” says Parizot.</p> <p>Rather than chasing all of the new shiny tech, he believes IT and business leaders should change the way people work to deploy AI at scale across their organisations.</p> <p>“I don’t like the words ‘AI strategy’ because we only have one strategy, which is a business one,” says Parizot. “We believe we have an AI approach which enables the business strategy.”</p> <p>Given the pace of change across the tech landscape, particularly in terms of how quickly AI is evolving, he says a company like Reckitt – which owns brands like Cillit Bang, Durex, Dettol and Nurofen – is not concerned about having access to the latest AI. Instead, he says: “Our business is actually to make sure we put better health in the hands of consumers every day.</p> <p>“AI should be an enabler to help people do their jobs better,” says Parizot. “We shouldn’t be chasing the latest models, otherwise, I would have shifted through maybe eight models in the past two years. The reality is that we bring value by having AI enabling our core businesses and the processes within the enterprise.”</p> <p>He says the goal of enterprise AI is to deliver business value. This means moving beyond testing and piloting artificial intelligence and delivering AI projects that scale.</p> <section class=\"section main-article-chapter\" data-menu-title=\"AI in R&amp;D\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>AI in R&amp;D</h2> <p>In May, Parizot, along with chief research and development officer Angela Naef, <a href=\"https://eu-assets.contentstack.com/v3/assets/blt93c8bc7a598af9f0/bltd6f93dd1174315aa/6a0acbf3933d4570c6589a60/Transcript_-_Reckitt_Focus_on_Digital_Science_.pdf\">gave a presentation</a> showing digital science at the company. Among the digital technologies presented was a generative AI tool called WriteItt, a good practice (GxP)-compliant AI platform for document drafting, literature search, and protocol generation.</p> <p>GxP is a framework and guidance for life science and healthcare. “Validating our system as GxP-compliant ensures further robustness, repeatability and continuous control with strong data integrity and high product quality at the centre,” says Parizot.&nbsp;</p> <p>Rather than building WriteItt using a generic AI tool layered onto the business, he says it was co-developed with the respective teams in R&amp;D and designed around process reinvention of real workflows.</p> <p>“Much of the discussion around AI focuses on the technology and performance of large language models,” says Parizot. “Our effort has been on putting AI to work by codifying the tacit knowledge of our teams into AI applications.”</p> <p>It also embeds context around market categories and Reckitt-specific information. “Applying this approach at scale and consistently across all teams is where we believe AI makes a real difference in driving our winning playbook,” he says.</p> <p>Looking at how WriteItt works in industrial trials, Parizot says: “Every time we scale a product from the labs to the factory, teams must prepare, review and approve detailed industrial trial reports across category teams, product development teams, quality and supply.</p> <p>“We run more than 250 of these trials each year across brands, including Lysol and Vanish. With WriteItt, drafting and reviewing become significantly faster – up to eight times faster – which means our teams are spending far fewer hours creating documents and much more time on advancing innovation.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more executive interviews</h3> <ul class=\"default-list\"> <li>Balancing AI with <a href=\"https://www.computerweekly.com/news/366580655/Executive-interview-Balancing-AI-with-human-creativity\">human creativity</a>: We speak to the chief product officer at Getty Images and iStock about the role generative AI can play in the image-making process.</li> <li>Putting a <a href=\"https://www.computerweekly.com/news/365530079/Executive-interview-Putting-a-value-on-open-source\">value on open source</a>: Spotify’s open source tech lead discusses why open source is failing those whose free time is dedicated to maintaining code.</li> </ul> </div> </div> <p>WriteItt is one of many AI projects helping to support the business. In fact, Reckitt started embedding AI into a transformation that began in the summer of 2024. The company worked with <a href=\"https://www.computerweekly.com/news/366637279/CEOs-are-taking-the-lead-on-AI-initiatives\">Boston Consulting Group</a> (BCG) and its technology arm, BCG X, on a programme that has enabled Reckitt to <a href=\"https://www.linkedin.com/posts/boston-consulting-group_consumer-goods-giant-reckitt-has-partnered-activity-7338493915274108929-PnAj/\">modernise key parts of its business</a>.</p> <p>From a technology perspective, Reckitt has implemented an enterprise-wide AI platform it calls Trinity AI, which brings together different datasets and types of databases as well as AI models, all accessible via managed application programming interfaces.</p> <p>According to a BCG LinkedIn post, hundreds of teams are using custom AI tools and 40% of employee time has been freed for higher-value work.</p> <p>In the <a href=\"https://eu-assets.contentstack.com/v3/assets/blt93c8bc7a598af9f0/blt9afb200b87aba912/6a6c6632390a4cfb2bf139fb/HALF_YEAR_2026_RECKITT_BENCKISER_GROUP.pdf\">company’s latest financial results</a>, filed at the end of July 2026, chief financial officer Shannon Eisenhard was asked about the company’s AI investment and IT costs. She said Reckitt was very focused on driving AI across the company.</p> <p>“We view it as something that’s not only going to enable us to drive productivity, which we’ve talked a lot about, but we also view it as a tool that’s going to help us drive top-line growth, and so we’re very focused on making sure that we’re expanding and focusing on both sides of the equation.”</p> <p>Looking specifically at token cost, which correlates to how much AI workloads actually cost the business, she said: “We just reviewed it and it’s very small today. We’re assuming it will grow quite rapidly, but even assuming that rapid growth, we don’t see it as something that we’re particularly concerned about at this point in time.”</p> <p>She said Reckitt is investing heavily in building internal models and capabilities to deliver productivity as well as top-line growth.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"An iterative journey\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>An iterative journey</h2> <p>Parizot describes the company’s experience of AI as “a continuous learning journey”. It has used AI to create more content, but he says this may not be how the technology is used a year from now.</p> <p>While there is no fear of missing out, he says: “We are constantly reassessing the complete return on investment of what we’re doing by domain.”</p> <p>Reckitt relies on its technology partners to help it build the technology to achieve favourable business outcomes, but Parizot says the key to a successful business outcome is not linked to a particular technology or technology partner.</p> <p>“It’s our ability to change the ways we work, our ability to bring a consistent way of doing things so that we are being more effective and can change how the business operates,” he says.</p> <p>For Parizot, regardless of the technology, <a href=\"https://www.computerweekly.com/news/252489736/Reckitt-Benckiser-embarks-on-data-driven-marketing-overhaul-with-Google-Cloud\">data and knowledge management</a> codifies the know-how people have and helps everyone across the business access that knowledge.</p> </section>",
-    "categories": [
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey",
-        "consulting"
-      ]
-    },
-    "summary": "<p>Bastien Parizot, senior vice-president of global business services and artificial intelligence (AI) at hygiene and consumer health brands parent Reckitt, remains level-headed when it comes to the <a href=\"https://www.techtarget.com/it-infrastructure/definition/early-adopter\">latest developments in technology</a>. For him, fear of missing out is one of the enemies of AI adoption.</p> <p>“I think there is a lot changing in the world of AI outside,” says Parizot.</p> <p>Rather than chasing all of the new shiny tech, he believes IT and business leaders should change the way people work to deploy AI at scale across their organisations.</p> <p>“I don’t like the words ‘AI strategy’ because we only have one strategy, which is a business one,” says Parizot. “We believe we have an AI approach which enables the business strategy.”</p> <p>Given the pace of change across the tech landscape, particularly in terms of how quickly AI is evolving, he says a company like Reckitt – which owns brands like Cillit Bang, Durex, Dettol and Nurofen – is not concerned about having access to the latest AI. Instead, he says: “Our business is actually to make sure we put better health in the hands of consumers every day.</p> <p>“AI should be an enabler to help people do their jobs better,” says Parizot."
-  },
-  {
     "title": "Roku rolls out over 30 subscription bundles for up to 30% off, plus a new Labs feature",
     "url": "https://www.zdnet.com/home-and-office/roku-streaming-premium-bundles-labs-feature/",
     "source": "ZDNet",
@@ -3904,22 +3903,266 @@
     "summary": "Can’t decide between the iPhone 18 Pro and 18 Pro Max? Absolute feature parity makes this year’s decision a little easier for me."
   },
   {
-    "title": "Windows 11 out-of-band update fixes audio glitch and other bugs – grab it now",
-    "url": "https://www.zdnet.com/business/windows-11-out-of-band-update-fixes-audio-glitch/",
-    "source": "ZDNet",
-    "published": "2026-09-16T09:04:02+00:00",
-    "raw_text": "The latest out-of-band update resolves a few problems in Windows 11, including one that cut off the sound for certain USB audio devices.",
+    "title": "Priority Pass, Collinson Grubu'nun 500 milyon sterlinlik büyüme programının desteğiyle seyahat inovasyonunu hızlandırıyor",
+    "url": "https://www.prnewswire.com/news-releases/priority-pass-collinson-grubunun-500-milyon-sterlinlik-buyume-programnn-desteiyle-seyahat-inovasyonunu-hzlandryor-302883107.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T09:04:00+00:00",
+    "raw_text": "Collinson Grubu, 500 milyon sterlinlik büyüme stratejisini hızlandıracak 350 milyon sterlinlik yeni bir finansmanı kısa süre önce duyurdu; bu adım, hem Grubun performansına duyulan güçlü güveni hem de havalimanı deneyimlerinde inovasyon ve liderliği sürdürme taahhüdünü yansıtıyor. Temel...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Collinson Grubu, 500 milyon sterlinlik büyüme stratejisini hızlandıracak 350 milyon sterlinlik yeni bir finansmanı kısa süre önce duyurdu; bu adım, hem Grubun performansına duyulan güçlü güveni hem de havalimanı deneyimlerinde inovasyon ve liderliği sürdürme taahhüdünü yansıtıyor. Temel..."
+  },
+  {
+    "title": "Huawei Unveils Upgraded Stellar AI Network to Power the Agentic World with Secure, Intelligent Connectivity",
+    "url": "https://www.prnewswire.com/news-releases/huawei-unveils-upgraded-stellar-ai-network-to-power-the-agentic-world-with-secure-intelligent-connectivity-302883105.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T09:02:00+00:00",
+    "raw_text": "SHANGHAI, Sept. 18, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei unveiled its upgraded Stellar AI Network Solution under the philosophy of secure, intelligent connectivity. With stand-out features such as efficient computing production, lossless delivery, and superfast application,...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "connectivity"
+      ]
+    },
+    "summary": "SHANGHAI, Sept. 18, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei unveiled its upgraded Stellar AI Network Solution under the philosophy of secure, intelligent connectivity. With stand-out features such as efficient computing production, lossless delivery, and superfast application,..."
+  },
+  {
+    "title": "2026 Utility Innovation Survey: Industry leaders turning more to AI as data-center boom reshapes grid planning",
+    "url": "https://www.prnewswire.com/news-releases/2026-utility-innovation-survey-industry-leaders-turning-more-to-ai-as-data-center-boom-reshapes-grid-planning-302883063.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T09:00:00+00:00",
+    "raw_text": "National Grid Partners survey of U.S. utility innovation leaders finds 78% use artificial intelligence to manage rising power demand, as industry works to keep pace with rapid change BOSTON, Sept. 18, 2026 /PRNewswire/ -- National Grid Partners, the corporate venture capital and...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "National Grid Partners survey of U.S. utility innovation leaders finds 78% use artificial intelligence to manage rising power demand, as industry works to keep pace with rapid change BOSTON, Sept. 18, 2026 /PRNewswire/ -- National Grid Partners, the corporate venture capital and..."
+  },
+  {
+    "title": "Where boldness begins: TECNO POVA explores the Italian inspiration behind its Tonino Lamborghini limited edition",
+    "url": "https://www.prnewswire.com/news-releases/where-boldness-begins-tecno-pova-explores-the-italian-inspiration-behind-its-tonino-lamborghini-limited-edition-302883102.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:57:00+00:00",
+    "raw_text": "An exclusive journey to Tonino Lamborghini's headquarters immersed global media, creators and partners in the Italian design culture and bold lifestyle vision behind the limited-edition smartphone. BOLOGNA, Italy, Sept. 18, 2026 /PRNewswire/ -- Italy has long been known for its...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "An exclusive journey to Tonino Lamborghini's headquarters immersed global media, creators and partners in the Italian design culture and bold lifestyle vision behind the limited-edition smartphone. BOLOGNA, Italy, Sept. 18, 2026 /PRNewswire/ -- Italy has long been known for its..."
+  },
+  {
+    "title": "atNorth appoints Fredrik Jansson as Senior Advisor",
+    "url": "https://www.prnewswire.com/news-releases/atnorth-appoints-fredrik-jansson-as-senior-advisor-302883097.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:43:00+00:00",
+    "raw_text": "STOCKHOLM, Sept. 18, 2026 /PRNewswire/ -- atNorth, the leading Nordic high-density colocation and built-to-suit data center provider, today announced that Fredrik Jansson will step down from his operational executive role as Chief Strategy and Marketing & Communications Officer due to...",
+    "categories": [
+      "Data Centres",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "edr"
+      ],
+      "Data Centres": [
+        "data center",
+        "colocation",
+        "colo"
+      ]
+    },
+    "summary": "STOCKHOLM, Sept. 18, 2026 /PRNewswire/ -- atNorth, the leading Nordic high-density colocation and built-to-suit data center provider, today announced that Fredrik Jansson will step down from his operational executive role as Chief Strategy and Marketing & Communications Officer due to..."
+  },
+  {
+    "title": "ACROBiosystems deepens its France presence with a dedicated hub at The HIVE Innovation Center, embedding into the Campus Grand Parc ecosystem",
+    "url": "https://www.prnewswire.com/news-releases/acrobiosystems-deepens-its-france-presence-with-a-dedicated-hub-at-the-hive-innovation-center-embedding-into-the-campus-grand-parc-ecosystem-302883089.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:31:00+00:00",
+    "raw_text": "ZURICH, Sept. 18, 2026 /PRNewswire/ -- Kadans Science Partner is pleased to welcome ACROBiosystems to The HIVE Innovation Center, its laboratory and office building dedicated to the life sciences, situated on the Campus Grand Parc in Villejuif. A global biotechnology company dedicated to...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "iot"
+      ]
+    },
+    "summary": "ZURICH, Sept. 18, 2026 /PRNewswire/ -- Kadans Science Partner is pleased to welcome ACROBiosystems to The HIVE Innovation Center, its laboratory and office building dedicated to the life sciences, situated on the Campus Grand Parc in Villejuif. A global biotechnology company dedicated to..."
+  },
+  {
+    "title": "Edopi Health Care Clinic Highlights Breast Implant Care as Vietnam Expands Focus on Medical Tourism",
+    "url": "https://www.prnewswire.com/news-releases/edopi-health-care-clinic-highlights-breast-implant-care-as-vietnam-expands-focus-on-medical-tourism-302883086.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:29:00+00:00",
+    "raw_text": "HO CHI MINH CITY, Vietnam, Sept. 18, 2026 /PRNewswire/ -- As Vietnam continues to develop its healthcare offerings for international visitors, specialized medical and aesthetic services are becoming part of the broader conversation around the country's medical tourism potential. Against...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "HO CHI MINH CITY, Vietnam, Sept. 18, 2026 /PRNewswire/ -- As Vietnam continues to develop its healthcare offerings for international visitors, specialized medical and aesthetic services are becoming part of the broader conversation around the country's medical tourism potential. Against..."
+  },
+  {
+    "title": "Geely Farizon představuje na veletrhu IAA Transportation 2026 kompletní řadu elektrických užitkových vozidel",
+    "url": "https://www.prnewswire.com/news-releases/geely-farizon-pedstavuje-na-veletrhu-iaa-transportation-2026-kompletni-adu-elektrickych-uitkovych-vozidel-302883075.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:07:00+00:00",
+    "raw_text": "HANNOVER, Německo, 18. září 2026 /PRNewswire/ -- Značka Geely Farizon se oficiálně uvedla na veletrhu IAA Transportation 2026 představením komplexního portfolia elektrických užitkových vozidel s modely Farizon SV, Farizon V7E či vlajkovou lodí mezi čistě elektrickými těžkými nákladními...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "The latest out-of-band update resolves a few problems in Windows 11, including one that cut off the sound for certain USB audio devices."
+    "summary": "HANNOVER, Německo, 18. září 2026 /PRNewswire/ -- Značka Geely Farizon se oficiálně uvedla na veletrhu IAA Transportation 2026 představením komplexního portfolia elektrických užitkových vozidel s modely Farizon SV, Farizon V7E či vlajkovou lodí mezi čistě elektrickými těžkými nákladními..."
+  },
+  {
+    "title": "Pearson Acquires Assessment Technology Provider, ITS",
+    "url": "https://www.prnewswire.com/news-releases/pearson-acquires-assessment-technology-provider-its-302882596.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:00:00+00:00",
+    "raw_text": "Strengthens global assessment and verification capabilities with proven technology and talent LONDON, Sept. 18, 2026 /PRNewswire/ -- Pearson (FTSE: PSON.L), the world's lifelong learning company, today announced it has acquired ITS, a Baltimore, Maryland-based assessment technology...",
+    "categories": [
+      "Industry & Market",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "acquires",
+        "acquired"
+      ]
+    },
+    "summary": "Strengthens global assessment and verification capabilities with proven technology and talent LONDON, Sept. 18, 2026 /PRNewswire/ -- Pearson (FTSE: PSON.L), the world's lifelong learning company, today announced it has acquired ITS, a Baltimore, Maryland-based assessment technology..."
+  },
+  {
+    "title": "MyPureSkin Recognised Among the 20 Most Innovative Healthcare Companies to Watch in 2026 by Business Worldwide Magazine",
+    "url": "https://www.prnewswire.com/news-releases/mypureskin-recognised-among-the-20-most-innovative-healthcare-companies-to-watch-in-2026-by-business-worldwide-magazine-302882908.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:00:00+00:00",
+    "raw_text": "LONDON, Sept. 18, 2026 /PRNewswire/ -- Business Worldwide Magazine's 20 Most Innovative Healthcare Companies to Watch, 2026 recognises organisations advancing innovation across the global healthcare landscape. Among those earning recognition is MyPureSkin S.A, a Swiss nutricosmetics...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "LONDON, Sept. 18, 2026 /PRNewswire/ -- Business Worldwide Magazine's 20 Most Innovative Healthcare Companies to Watch, 2026 recognises organisations advancing innovation across the global healthcare landscape. Among those earning recognition is MyPureSkin S.A, a Swiss nutricosmetics..."
+  },
+  {
+    "title": "Wrexham AFC Names KNOX Hydration as Official Hydration Partner",
+    "url": "https://www.prnewswire.com/news-releases/wrexham-afc-names-knox-hydration-as-official-hydration-partner-302882833.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T08:00:00+00:00",
+    "raw_text": "Multi-year sponsorship brings together two challenger brands to support hydration, recovery and performance across the Club WREXHAM, Wales, Sept. 18, 2026 /PRNewswire/ -- Wrexham AFC and KNOX Hydration today announce a new multi-year partnership, naming KNOX the Club's Official Hydration...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "partnership"
+      ]
+    },
+    "summary": "Multi-year sponsorship brings together two challenger brands to support hydration, recovery and performance across the Club WREXHAM, Wales, Sept. 18, 2026 /PRNewswire/ -- Wrexham AFC and KNOX Hydration today announce a new multi-year partnership, naming KNOX the Club's Official Hydration..."
+  },
+  {
+    "title": "evobeing R1 Debuts at IFA Berlin 2026, Wins Trusted Reviews' \"Best in Show\"",
+    "url": "https://www.prnewswire.com/news-releases/evobeing-r1-debuts-at-ifa-berlin-2026-wins-trusted-reviews-best-in-show-302883070.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T07:54:00+00:00",
+    "raw_text": "BERLIN, Sept. 18, 2026 /PRNewswire/ -- Wearable startup evobeing made its public debut at IFA Berlin 2026, showcasing the first working demo of its debut smart ring, evobeing R1. During the show, R1 was named \"Best in Show – IFA 2026\" by Trusted Reviews, an exciting early milestone for...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BERLIN, Sept. 18, 2026 /PRNewswire/ -- Wearable startup evobeing made its public debut at IFA Berlin 2026, showcasing the first working demo of its debut smart ring, evobeing R1. During the show, R1 was named \"Best in Show – IFA 2026\" by Trusted Reviews, an exciting early milestone for..."
+  },
+  {
+    "title": "Sungrow and be.storaged strengthen partnership for gigawatt-hour-scale battery storage projects",
+    "url": "https://www.prnewswire.com/news-releases/sungrow-and-bestoraged-strengthen-partnership-for-gigawatt-hour-scale-battery-storage-projects-302883068.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T07:50:00+00:00",
+    "raw_text": "MUNICH and OLDENBURG, Germany, Sept. 18, 2026 /PRNewswire/ -- Sungrow Deutschland GmbH and be.storaged GmbH have signed a framework agreement for continued cooperation on large-scale battery energy storage (BESS) projects. The agreement strengthens the companies' long-standing partnership...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "partnership"
+      ]
+    },
+    "summary": "MUNICH and OLDENBURG, Germany, Sept. 18, 2026 /PRNewswire/ -- Sungrow Deutschland GmbH and be.storaged GmbH have signed a framework agreement for continued cooperation on large-scale battery energy storage (BESS) projects. The agreement strengthens the companies' long-standing partnership..."
+  },
+  {
+    "title": "Svalner Atlas | Advisors wins three Firm of the Year awards at the ITR Europe Tax Awards 2026",
+    "url": "https://www.prnewswire.com/news-releases/svalner-atlas--advisors-wins-three-firm-of-the-year-awards-at-the-itr-europe-tax-awards-2026-302883066.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T07:41:00+00:00",
+    "raw_text": "STOCKHOLM, Sept. 18, 2026 /PRNewswire/ -- The awards recognise the expertise and impact of Svalner Atlas' work for clients across its markets Svalner Atlas was named: Finland: Transfer Pricing Firm of the Year Netherlands: Tax Advisory Firm of the Year Sweden: Tax Advisory Firm of the...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "STOCKHOLM, Sept. 18, 2026 /PRNewswire/ -- The awards recognise the expertise and impact of Svalner Atlas' work for clients across its markets Svalner Atlas was named: Finland: Transfer Pricing Firm of the Year Netherlands: Tax Advisory Firm of the Year Sweden: Tax Advisory Firm of the..."
+  },
+  {
+    "title": "When technology meets culture: BOE helps showcase Chinese intangible cultural heritage in London",
+    "url": "https://www.prnewswire.com/news-releases/when-technology-meets-culture-boe-helps-showcase-chinese-intangible-cultural-heritage-in-london-302883065.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-18T07:41:00+00:00",
+    "raw_text": "LONDON, Sept. 18, 2026 /PRNewswire/ -- Chinese display giant BOE is participating as the lead display technology partner at the \"Reviving Craft – Chinese Intangible Cultural Heritage and Contemporary Design Exhibition\"，which is hosted by Sun Media Group, during London Design Festival 2026....",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LONDON, Sept. 18, 2026 /PRNewswire/ -- Chinese display giant BOE is participating as the lead display technology partner at the \"Reviving Craft – Chinese Intangible Cultural Heritage and Contemporary Design Exhibition\"，which is hosted by Sun Media Group, during London Design Festival 2026...."
   },
   {
     "title": "Antonony Gu, Huawei Cloud: All for AI, Huawei Cloud Stack Powers a New Era of Intelligence",
-    "url": "https://www.prnewswire.com/news-releases/antonony-gu-huawei-cloud-all-for-ai-huawei-cloud-stack-powers-a-new-era-of-intelligence-302883054.html",
+    "url": "https://www.prnewswire.com/news-releases/antonony-gu-huawei-cloud-all-for-ai-huawei-cloud-stack-powers-a-new-era-of-intelligence-302883061.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-18T07:24:00+00:00",
+    "published": "2026-09-18T07:38:00+00:00",
     "raw_text": "SHANGHAI, Sept. 18, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei hosted the Huawei Cloud Summit under the theme \"Agentic Hybrid Cloud: Powering a New Era of Intelligence.\" Antonony Gu, President of Huawei Hybrid Cloud, delivered a keynote speech at the summit, discussing the...",
     "categories": [
       "Cloud Infrastructure",
@@ -3937,263 +4180,16 @@
     "summary": "SHANGHAI, Sept. 18, 2026 /PRNewswire/ -- At HUAWEI CONNECT 2026, Huawei hosted the Huawei Cloud Summit under the theme \"Agentic Hybrid Cloud: Powering a New Era of Intelligence.\" Antonony Gu, President of Huawei Hybrid Cloud, delivered a keynote speech at the summit, discussing the..."
   },
   {
-    "title": "Lactips y SmartSolve anuncian una alianza estratégica global para envases libres de plástico",
-    "url": "https://www.prnewswire.com/news-releases/lactips-y-smartsolve-anuncian-una-alianza-estrategica-global-para-envases-libres-de-plastico-302882981.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T07:15:00+00:00",
-    "raw_text": "Innovación pionera en envases en dos continentes PARÍS, 18 de septiembre de 2026 /PRNewswire/ -- Lactips, empresa francesa innovadora en polímeros naturales hidrosolubles de origen 100 % biológico, y SmartSolve, pionera estadounidense en envases hidrosolubles de origen biológico, han...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "dora"
-      ]
-    },
-    "summary": "Innovación pionera en envases en dos continentes PARÍS, 18 de septiembre de 2026 /PRNewswire/ -- Lactips, empresa francesa innovadora en polímeros naturales hidrosolubles de origen 100 % biológico, y SmartSolve, pionera estadounidense en envases hidrosolubles de origen biológico, han..."
-  },
-  {
-    "title": "Lactips und SmartSolve geben eine weltweite strategische Partnerschaft für plastikfreie Verpackungen bekannt",
-    "url": "https://www.prnewswire.com/news-releases/lactips-und-smartsolve-geben-eine-weltweite-strategische-partnerschaft-fur-plastikfreie-verpackungen-bekannt-302882996.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T07:15:00+00:00",
-    "raw_text": "Wegweisende Verpackungsinnovationen auf zwei Kontinenten PARIS, 18. September 2026 /PRNewswire/ -- Lactips, ein französischer Innovator im Bereich zu 100 % biobasierter, wasserlöslicher Naturpolymere, und SmartSolve, ein US-amerikanischer Pionier für biobasierte, wasserlösliche...",
+    "title": "Building on Global Progress, LEPAS Set to Launch Its First Global Elegant Lifestyle Week",
+    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364515/0/en/building-on-global-progress-lepas-set-to-launch-its-first-global-elegant-lifestyle-week.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-18T08:16:00+00:00",
+    "raw_text": "WUHU, China, Sept. 18, 2026 (GLOBE NEWSWIRE) -- LEPAS is set to launch its first LEPAS Global Elegant Lifestyle Week this October. Since its debut as a new independent brand in 2025, LEPAS has begun its global rollout of products and brand presence, entering the global spotlight.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Wegweisende Verpackungsinnovationen auf zwei Kontinenten PARIS, 18. September 2026 /PRNewswire/ -- Lactips, ein französischer Innovator im Bereich zu 100 % biobasierter, wasserlöslicher Naturpolymere, und SmartSolve, ein US-amerikanischer Pionier für biobasierte, wasserlösliche..."
-  },
-  {
-    "title": "Lactips et SmartSolve annoncent un partenariat stratégique mondial en faveur des emballages sans plastique",
-    "url": "https://www.prnewswire.com/news-releases/lactips-et-smartsolve-annoncent-un-partenariat-strategique-mondial-en-faveur-des-emballages-sans-plastique-302882994.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T07:15:00+00:00",
-    "raw_text": "À l'avant-garde de l'innovation en matière d'emballage sur deux continents PARIS, 18 septembre 2026 /PRNewswire/ -- Lactips, une entreprise française innovante spécialisée dans les polymères naturels 100 % biosourcés et hydrosolubles, et SmartSolve, une entreprise américaine pionnière...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "À l'avant-garde de l'innovation en matière d'emballage sur deux continents PARIS, 18 septembre 2026 /PRNewswire/ -- Lactips, une entreprise française innovante spécialisée dans les polymères naturels 100 % biosourcés et hydrosolubles, et SmartSolve, une entreprise américaine pionnière..."
-  },
-  {
-    "title": "Lactips and SmartSolve Announce Global Strategic Partnership for Plastic-Free Packaging",
-    "url": "https://www.prnewswire.com/news-releases/lactips-and-smartsolve-announce-global-strategic-partnership-for-plastic-free-packaging-302882940.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T07:15:00+00:00",
-    "raw_text": "Pioneering Packaging Innovation Across Two Continents PARIS, Sept. 18, 2026 /PRNewswire/ -- Lactips, a French innovator in 100% bio-based, water-soluble natural polymers, and SmartSolve, a U.S. pioneer in bio-based, water-soluble packaging, today announced a global strategic partnership...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "Pioneering Packaging Innovation Across Two Continents PARIS, Sept. 18, 2026 /PRNewswire/ -- Lactips, a French innovator in 100% bio-based, water-soluble natural polymers, and SmartSolve, a U.S. pioneer in bio-based, water-soluble packaging, today announced a global strategic partnership..."
-  },
-  {
-    "title": "Skin Pros Addresses the Gap on an Upcoming Segment of \"All Access hosted by Andy Garcia\"",
-    "url": "https://www.prnewswire.com/news-releases/skin-pros-addresses-the-gap-on-an-upcoming-segment-of-all-access-hosted-by-andy-garcia-302882347.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T07:00:00+00:00",
-    "raw_text": "Why Are Early Detection Rates for Skin Conditions Falling Behind While Medical Technology Accelerates? LOS ANGELES, Sept. 18, 2026 /PRNewswire/ -- An upcoming segment of \"All Access hosted by Andy Garcia\" features Skin Pros in an educational broadcast dedicated to advancing public...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Why Are Early Detection Rates for Skin Conditions Falling Behind While Medical Technology Accelerates? LOS ANGELES, Sept. 18, 2026 /PRNewswire/ -- An upcoming segment of \"All Access hosted by Andy Garcia\" features Skin Pros in an educational broadcast dedicated to advancing public..."
-  },
-  {
-    "title": "Can We Clean What We Cannot See? \"All Access hosted by Andy Garcia\" Features PolyGone Systems to Explore the Quest to Extract Microplastics from Our Water Systems",
-    "url": "https://www.prnewswire.com/news-releases/can-we-clean-what-we-cannot-see-all-access-hosted-by-andy-garcia-features-polygone-systems-to-explore-the-quest-to-extract-microplastics-from-our-water-systems-302856820.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T07:00:00+00:00",
-    "raw_text": "LOS ANGELES, Sept. 18, 2026 /PRNewswire/ -- A breakthrough biomimetic filtration media captures up to 98% of microscopic plastic particles down to the nanoscale, offering municipalities and industries an affordable, gravity-driven strategy to secure public health and meet impending...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "LOS ANGELES, Sept. 18, 2026 /PRNewswire/ -- A breakthrough biomimetic filtration media captures up to 98% of microscopic plastic particles down to the nanoscale, offering municipalities and industries an affordable, gravity-driven strategy to secure public health and meet impending..."
-  },
-  {
-    "title": "Elbit Systems Files a Shelf Prospectus in Israel",
-    "url": "https://www.prnewswire.com/news-releases/elbit-systems-files-a-shelf-prospectus-in-israel-302883045.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:56:00+00:00",
-    "raw_text": "HAIFA, Israel, Sept. 18, 2026 /PRNewswire/ -- Elbit Systems Ltd. (NASDAQ: ESLT) (TASE: ESLT) (\"Elbit Systems\" or the \"Company\") announced today that it has filed a shelf prospectus with the Israel Securities Authority and the Tel Aviv Stock Exchange (the \"Shelf Prospectus\"). The Shelf...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "HAIFA, Israel, Sept. 18, 2026 /PRNewswire/ -- Elbit Systems Ltd. (NASDAQ: ESLT) (TASE: ESLT) (\"Elbit Systems\" or the \"Company\") announced today that it has filed a shelf prospectus with the Israel Securities Authority and the Tel Aviv Stock Exchange (the \"Shelf Prospectus\"). The Shelf..."
-  },
-  {
-    "title": "Alors que le fardeau du cancer chez les femmes s'alourdit, les soins intégrés s'imposent comme la prochaine étape dans le traitement du cancer",
-    "url": "https://www.prnewswire.com/news-releases/alors-que-le-fardeau-du-cancer-chez-les-femmes-salourdit-les-soins-integres-simposent-comme-la-prochaine-etape-dans-le-traitement-du-cancer-302883044.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:56:00+00:00",
-    "raw_text": "Plus de 30 000 femmes prises en charge, plus de 1 000 interventions chirurgicales liées au cancer : Athenaa met en place une prise en charge spécialisée, du diagnostic à la vie après le cancer. NEW DELHI, 18 septembre 2026 /PRNewswire/ -- Alors que le cancer chez les femmes est en hausse,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Plus de 30 000 femmes prises en charge, plus de 1 000 interventions chirurgicales liées au cancer : Athenaa met en place une prise en charge spécialisée, du diagnostic à la vie après le cancer. NEW DELHI, 18 septembre 2026 /PRNewswire/ -- Alors que le cancer chez les femmes est en hausse,..."
-  },
-  {
-    "title": "ADAMA Appoints Dr. Zhigang Hao as President and CEO and Sammy Leibowitz as Chief Financial Officer",
-    "url": "https://www.prnewswire.com/news-releases/adama-appoints-dr-zhigang-hao-as-president-and-ceo-and-sammy-leibowitz-as-chief-financial-officer-302883041.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:52:00+00:00",
-    "raw_text": "Global leadership experience and deep ADAMA expertise to support future growth BEIJING and TEL AVIV, Israel, Sept. 18, 2026 /PRNewswire/ -- ADAMA Ltd. (SZSE: 000553), a leading global crop protection company, today announced the appointments of Dr. Zhigang Hao as President and Chief...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Global leadership experience and deep ADAMA expertise to support future growth BEIJING and TEL AVIV, Israel, Sept. 18, 2026 /PRNewswire/ -- ADAMA Ltd. (SZSE: 000553), a leading global crop protection company, today announced the appointments of Dr. Zhigang Hao as President and Chief..."
-  },
-  {
-    "title": "GomSpace signs 3.8 MEUR multi-phased partnership agreement with European space company specializing in advanced systems and critical technology",
-    "url": "https://www.prnewswire.com/news-releases/gomspace-signs-3-8-meur-multi-phased-partnership-agreement-with-european-space-company-specializing-in-advanced-systems-and-critical-technology-302883022.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:32:00+00:00",
-    "raw_text": "The initial agreement establishes a new customer relationship and framework for long-term cooperation. STOCKHOLM, Sept. 18, 2026 /PRNewswire/ -- GomSpace has signed a multi-phased partnership agreement with a new commercial customer in the EMEA region, specializing in advanced systems and...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership"
-      ]
-    },
-    "summary": "The initial agreement establishes a new customer relationship and framework for long-term cooperation. STOCKHOLM, Sept. 18, 2026 /PRNewswire/ -- GomSpace has signed a multi-phased partnership agreement with a new commercial customer in the EMEA region, specializing in advanced systems and..."
-  },
-  {
-    "title": "AML RightSource mit CobraSight-Award für Expertise im Bereich Compliance bei digitalen Vermögenswerten ausgezeichnet",
-    "url": "https://www.prnewswire.com/news-releases/aml-rightsource-mit-cobrasight-award-fur-expertise-im-bereich-compliance-bei-digitalen-vermogenswerten-ausgezeichnet-302883015.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:26:00+00:00",
-    "raw_text": "Die Anerkennung durch die Branche unterstreicht die Kompetenz von AML RightSource bei der Unterstützung von Unternehmen bei der Bewältigung der sich ständig weiterentwickelnden Vorschriften im Bereich Krypto sowie digitale Vermögenswerte. HIGHLAND HILLS, Ohio, 18. September 2026...",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "compliance"
-      ]
-    },
-    "summary": "Die Anerkennung durch die Branche unterstreicht die Kompetenz von AML RightSource bei der Unterstützung von Unternehmen bei der Bewältigung der sich ständig weiterentwickelnden Vorschriften im Bereich Krypto sowie digitale Vermögenswerte. HIGHLAND HILLS, Ohio, 18. September 2026..."
-  },
-  {
-    "title": "SK hynix Launches 'SK hynix Ventures' in Silicon Valley to Expand Global AI Ecosystem Investment",
-    "url": "https://www.prnewswire.com/news-releases/sk-hynix-launches-sk-hynix-ventures-in-silicon-valley-to-expand-global-ai-ecosystem-investment-302882993.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:01:00+00:00",
-    "raw_text": "CEO Kwak Noh-Jung and key executives, alongside global VCs and startup leaders, attend the inaugural 'SK hynix Ventures Day' in Silicon Valley Company to expand investments across the entire AI ecosystem Discussing strategies to strengthen partnerships with global venture firms and...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "partnership",
-        "launches",
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "CEO Kwak Noh-Jung and key executives, alongside global VCs and startup leaders, attend the inaugural 'SK hynix Ventures Day' in Silicon Valley Company to expand investments across the entire AI ecosystem Discussing strategies to strengthen partnerships with global venture firms and..."
-  },
-  {
-    "title": "As Women's Cancer Burden Rises, Integrated Care Emerges as the Next Frontier in Cancer Treatment",
-    "url": "https://www.prnewswire.com/news-releases/as-womens-cancer-burden-rises-integrated-care-emerges-as-the-next-frontier-in-cancer-treatment-302882991.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:00:00+00:00",
-    "raw_text": "30,000+ women cared for, 1,000+ cancer surgeries - Athenaa builds specialised care from diagnosis to survivorship NEW DELHI, Sept. 18, 2026 /PRNewswire/ -- As cancer among women rises, the focus of care is shifting beyond treating the tumour to addressing the wider physical, reproductive...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "30,000+ women cared for, 1,000+ cancer surgeries - Athenaa builds specialised care from diagnosis to survivorship NEW DELHI, Sept. 18, 2026 /PRNewswire/ -- As cancer among women rises, the focus of care is shifting beyond treating the tumour to addressing the wider physical, reproductive..."
-  },
-  {
-    "title": "THE TOKYO PASS Renews Official Website, Redefining Wellness Tourism in Tokyo with \"Museum Bathing (R)\"",
-    "url": "https://www.prnewswire.com/news-releases/the-tokyo-pass-renews-official-website-redefining-wellness-tourism-in-tokyo-with-museum-bathing-r-302882818.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T06:00:00+00:00",
-    "raw_text": "-Commemorative 50% Discount Autumn Campaign for International Visitors to Tokyo- TOKYO, Sept. 18, 2026 /PRNewswire/ -- Tanseisha Co., Ltd., headquartered in Tokyo, announced the full renewal of an official website for THE TOKYO PASS, a digital platform offering seamless access to Tokyo's...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "-Commemorative 50% Discount Autumn Campaign for International Visitors to Tokyo- TOKYO, Sept. 18, 2026 /PRNewswire/ -- Tanseisha Co., Ltd., headquartered in Tokyo, announced the full renewal of an official website for THE TOKYO PASS, a digital platform offering seamless access to Tokyo's..."
-  },
-  {
-    "title": "Cyble y el Consejo de Ciberseguridad de los EAU firman un Memorando de Entendimiento",
-    "url": "https://www.prnewswire.com/news-releases/cyble-y-el-consejo-de-ciberseguridad-de-los-eau-firman-un-memorando-de-entendimiento-302882963.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T04:44:00+00:00",
-    "raw_text": "-Cyble y el Consejo de Ciberseguridad de los EAU firman un Memorando de Entendimiento para fortalecer las capacidades nacionales de inteligencia de amenazas ABU DHABI, EAU, 18 de septiembre de 2026 /PRNewswire/ -- Cyble, una empresa global de ciberseguridad nativa de IA, anunció hoy la...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "-Cyble y el Consejo de Ciberseguridad de los EAU firman un Memorando de Entendimiento para fortalecer las capacidades nacionales de inteligencia de amenazas ABU DHABI, EAU, 18 de septiembre de 2026 /PRNewswire/ -- Cyble, una empresa global de ciberseguridad nativa de IA, anunció hoy la..."
-  },
-  {
-    "title": "EyeROV: Una empresa emergente india de tecnología avanzada presenta sus drones submarinos a líderes mundiales",
-    "url": "https://www.prnewswire.com/news-releases/eyerov-una-empresa-emergente-india-de-tecnologia-avanzada-presenta-sus-drones-submarinos-a-lideres-mundiales-302882961.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T04:36:00+00:00",
-    "raw_text": "Desde Kochi hasta la cumbre de los BRICS, EyeROV desarrolla tecnología marina de fabricación propia con ambiciones globales. KOCHI, India, 18 de septiembre de 2026 /PRNewswire/ -- Un robot submarino desarrollado en Kochi fue recientemente el protagonista de una presentación ante algunos...",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Desde Kochi hasta la cumbre de los BRICS, EyeROV desarrolla tecnología marina de fabricación propia con ambiciones globales. KOCHI, India, 18 de septiembre de 2026 /PRNewswire/ -- Un robot submarino desarrollado en Kochi fue recientemente el protagonista de una presentación ante algunos..."
-  },
-  {
-    "title": "Lucid et Bolt s'associent pour développer et déployer à grande échelle des solutions de mobilité autonome en Europe",
-    "url": "https://www.prnewswire.com/news-releases/lucid-et-bolt-sassocient-pour-developper-et-deployer-a-grande-echelle-des-solutions-de-mobilite-autonome-en-europe-302882953.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T04:19:00+00:00",
-    "raw_text": "Bolt prévoit de déployer au moins 25 000 véhicules autonomes Lucid dans des grandes villes européennes, équipés de la technologie NVIDIA Hyperion NEWARK, Californie, et TALLINN, Estonie, 18 septembre 2026 /PRNewswire/ -- Lucid Group, Inc. (NASDAQ : LCID), constructeur de véhicules et de...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "Bolt prévoit de déployer au moins 25 000 véhicules autonomes Lucid dans des grandes villes européennes, équipés de la technologie NVIDIA Hyperion NEWARK, Californie, et TALLINN, Estonie, 18 septembre 2026 /PRNewswire/ -- Lucid Group, Inc. (NASDAQ : LCID), constructeur de véhicules et de..."
-  },
-  {
-    "title": "Mango Power S Earns UL 3700 Certification for Interactive Plug-In Solar Applications",
-    "url": "https://www.prnewswire.com/news-releases/mango-power-s-earns-ul-3700-certification-for-interactive-plug-in-solar-applications-302882939.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T04:04:00+00:00",
-    "raw_text": "Building on UL 1741, IEEE 1547 and CEC listing, Mango Power S combines 97% CEC efficiency, single-stage Cyclo topology and intelligent anti-backflow control for a simpler owner-led solar experience NEW YORK, Sept. 18, 2026 /PRNewswire/ -- Mango Power, a clean energy technology company and...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Building on UL 1741, IEEE 1547 and CEC listing, Mango Power S combines 97% CEC efficiency, single-stage Cyclo topology and intelligent anti-backflow control for a simpler owner-led solar experience NEW YORK, Sept. 18, 2026 /PRNewswire/ -- Mango Power, a clean energy technology company and..."
+    "summary": "WUHU, China, Sept. 18, 2026 (GLOBE NEWSWIRE) -- LEPAS is set to launch its first LEPAS Global Elegant Lifestyle Week this October. Since its debut as a new independent brand in 2025, LEPAS has begun its global rollout of products and brand presence, entering the global spotlight."
   },
   {
     "title": "Zoomex Prediction Markets Announce Expansion of Long-Term Trading To Bolster Product Stance",
@@ -4516,26 +4512,6 @@
       ]
     },
     "summary": "SAXONBURG, Pa., Sept. 17, 2026 (GLOBE NEWSWIRE) -- Coherent Corp. (NYSE: OHR), the global leader in photonics, today announced the expansion of its Pluggable Optical Line System (POLS) portfolio, with the full C-band, high-power variable-gain amplifier optical line system in a compact QSFP form factor. Designed for the latest generation of 800G ZR/ZR+ digital coherent optics, the enhanced POLS supports up to 32 DWDM wavelengths over a single fiber pair, enabling as much as 25.6Tbps of AI datacenter traffic across links from 2km to 200km."
-  },
-  {
-    "title": "ViaSat-3 F2 Enters Service, Expanding Capacity and Enabling Growth Across the Americas",
-    "url": "https://www.globenewswire.com/news-release/2026/09/17/3364375/0/en/viasat-3-f2-enters-service-expanding-capacity-and-enabling-growth-across-the-americas.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-17T20:05:00+00:00",
-    "raw_text": "Satellite completes next-generation constellation, increasing service capability in key markets Satellite completes next-generation constellation, increasing service capability in key markets",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "capacity"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Satellite completes next-generation constellation, increasing service capability in key markets Satellite completes next-generation constellation, increasing service capability in key markets"
   },
   {
     "title": "Americas Data Center Colocation Market to Reach USD 92.90 - openPR.com",
