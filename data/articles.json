@@ -400,63 +400,6 @@
     "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment?"
   },
   {
-    "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
-    "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
-    "source": "The Hacker News",
-    "published": "2026-09-17T10:50:53+00:00",
-    "raw_text": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door. It starts 31% of breaches (Verizon DBIR",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "exploit",
-        "security"
-      ]
-    },
-    "summary": "Attackers now weaponize new vulnerabilities in about five days (Mandiant, part of Google Cloud). The median organization takes 43 days to patch one (Verizon DBIR 2026). A new free guide explains how autonomous AI agents are closing that gap, and what security leaders must demand before pointing one at production. TL;DR Exploitation is now the front door."
-  },
-  {
-    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-    "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-    "source": "The Hacker News",
-    "published": "2026-09-17T10:05:45+00:00",
-    "raw_text": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025. \"SparroWocky is a modular, C++ backdoor,\" ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker",
-        "threat",
-        "security"
-      ]
-    },
-    "summary": "The China-aligned state-sponsored threat actor known as FamousSparrow has been observed deploying a previously unreported backdoor called SparroWocky in attacks targeting multiple countries in Latin America since at least August 2025. \"SparroWocky is a modular, C++ backdoor,\" ESET security researchers Alexandre Côté Cyr and Romain Dumont said in a technical report shared with The Hacker News"
-  },
-  {
-    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-    "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-    "source": "The Hacker News",
-    "published": "2026-09-17T09:53:38+00:00",
-    "raw_text": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency. \"As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "OpenAI on Wednesday disclosed six new instances of \"unexpected or concerning model behavior\" that took place over the past six months, while sharing a new framework for reporting, tracking, investigating, and disclosing model misalignment in a bid to improve transparency. \"As AI systems grow more advanced and more widely deployed, we need to build a broader and better-informed consensus on the"
-  },
-  {
     "title": "Gyazo server flaw exploited to steal 23.6 million user records",
     "url": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
     "source": "BleepingComputer",
@@ -696,23 +639,6 @@
       ]
     },
     "summary": "The U.S. Federal Bureau of Investigation (FBI) seized the domains used by NightmareStresser, one of the world's longest-running distributed denial-of-service (DDoS) platforms. [...]"
-  },
-  {
-    "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
-    "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-    "source": "BleepingComputer",
-    "published": "2026-09-17T09:00:00+00:00",
-    "raw_text": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "hacker"
-      ]
-    },
-    "summary": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]"
   },
   {
     "title": "Bots with good manners are better at fooling people on social media",
@@ -1433,7 +1359,7 @@
     "url": "https://cloud.google.com/blog/products/databases/native-bm25-search-in-alloydb-and-cloud-sql/",
     "source": "Google Cloud Blog",
     "published": "2026-09-18T16:30:00+00:00",
-    "raw_text": "Vector search is a critical component of generative AI, retrieval-augmented generation (RAG), and data agent architectures, but sometimes vector search alone isn't enough. While vector embeddings are incredible at understanding conceptual meaning, they stumble on specific alphanumeric IDs and exact product SKU numbers. To build truly robust search and AI applications, you may need the combination of semantic vector search and traditional exact keyword full-text search — what we call hybrid search. In search, Best Matching 25, or BM25, is a key algorithm used to estimate how relevant a document is to a given query. Until today, if you wanted BM25 ranking with AlloyDB or Cloud SQL, you needed to add an additional full-text search backend. This introduced data silos, sync lags, and operational complexity. Today, we are eliminating the friction of maintaining a separate full-text search backend altogether, with the preview of the native BM25 index in AlloyDB and Cloud SQL for PostgreSQL 17+, made possible through the open-source pg_textsearch extension created by Tiger Data. Now, with a unified hybrid search backend, you no longer need to provision, manage, or pay for separate systems to get state-of-the-art full-text retrieval. It all happens directly inside your database, where your operational data lives, delivering: Industry-standard keyword ranking: Powered by Tiger Data's pg_textsearch , bring lightning-fast, C-optimized BM25 scoring directly to your Postgres tables. No complexity, total consistency: Eliminate the data duplication, ETL pipelines, and synchronization lag that you get when you maintain multiple backends for vector and full-text retrieval. Supercharged semantic search (AlloyDB exclusive): Get up to 6x and 10x faster vector search queries (when compared to standard PostgreSQL) with ScaNN and HNSW index types. Why pg_textsearch ? If you’ve used PostgreSQL's built-in ts_rank for full-text search at any meaningful scale, you already know its limitations. Ranking quality degrades as your corpus grows. There’s no support for inverse document frequency, so common words carry the same weight as rare ones. There’s no term-frequency saturation, so a document that mentions \"database\" 50 times outranks one that mentions it once. BM25 is the information retrieval gold standard, providing inverse document frequency (rarer terms matter more), term frequency saturation (repetition doesn't dominate), and document length normalization. You can learn more in this blog post by Tiger Data about how they built a BM25 search engine on PostgreSQL pages. Full-text search example Here’s how to get started with BM25 full-text search on both AlloyDB and Cloud SQL. Consider a sample table, cymbal_products , that contains the unique identifier uniq_id , a product_name column, a product_description column containing a text description of each product, and a generated product_embedding column. cymbal_products contains information on various retail products, including indoor and outdoor plants. Index creation To use BM25, enable the pg_textsearch extension. code_block <ListValue: [StructValue([('code', '-- Install pg_textsearch extension\\r\\nCREATE EXTENSION pg_textsearch;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8fc313b10>)])]> Create the index on the product_description column from the cymbal_products table. code_block <ListValue: [StructValue([('code', \"-- Create the native BM25 index on the content column\\r\\nCREATE INDEX idx_docs_bm25 \\r\\nON cymbal_products \\r\\nUSING bm25 (product_description) \\r\\nWITH (text_config='english');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8fc311c10>)])]> A BM25 full-text search query can be executed using the <@> special operator. In the snippet below, we search for ‘cherry tree’. code_block <ListValue: [StructValue([('code', \"-- Full text search query\\r\\nSELECT product_name, product_description <@> 'cherry tree' AS bm25_score \\r\\nFROM cymbal_products\\r\\nORDER BY bm25_score \\r\\nLIMIT 5;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8fc312450>)])]> Sample output is shown below. A more negative score indicates a stronger relevance match. AlloyDB hybrid search example Setting up a hybrid search system in AlloyDB is simple. You can create both your vector and keyword indexes on the same table and merge the results seamlessly using the hybrid search user-defined function (UDF ). Vector index creation Here is how to create a ScaNN vector search index: code_block <ListValue: [StructValue([('code', '-- Install vector extension\\r\\nCREATE EXTENSION vector;\\r\\n\\r\\n-- Install scann extension\\r\\nCREATE EXTENSION IF NOT EXISTS alloydb_scann;\\r\\n\\r\\n-- Create scann vector search index \\r\\nCREATE INDEX cymbal_products_embeddings_scann ON cymbal_products USING scann(product_embedding cosine);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8fc313690>)])]> Hybrid search AlloyDB provides an out-of-the-box hybrid search UDF that makes it very simple to run hybrid search queries. The UDF merges the ranked results from each search component into a single, unified list using the Reciprocal Rank Fusion (RRF) algorithm. This query utilizes the UDF to perform a vector search for ‘trees that grow taller than houses’ and a keyword search for ‘California’ in the product description. code_block <ListValue: [StructValue([('code', 'CREATE EXTENSION google_ml_integration;\\r\\n\\r\\nSELECT *\\r\\nFROM ai.hybrid_search(\\r\\n search_inputs => ARRAY[\\r\\n \\'{\\r\\n \"data_type\": \"vector\",\\r\\n \"weight\": 0.5,\\r\\n \"table_name\": \"cymbal_products\",\\r\\n \"key_column\": \"uniq_id\",\\r\\n \"vec_column\": \"product_embedding\",\\r\\n \"distance_operator\": \"public.<=>\",\\r\\n \"limit\": 10,\\r\\n \"query_vector\": \"ai.embedding(\\'\\'text-embedding-005\\'\\', \\'\\'trees that grow taller than houses\\'\\')::vector\"\\r\\n }\\'::JSONB,\\r\\n \\'{\\r\\n \"data_type\": \"text\",\\r\\n \"weight\": 0.5,\\r\\n \"table_name\": \"cymbal_products\",\\r\\n \"key_column\": \"uniq_id\",\\r\\n \"text_column\": \"product_description\",\\r\\n \"limit\": 10,\\r\\n \"ranking_function\": \"<@>\",\\r\\n \"query_text_input\": \"California\"\\r\\n }\\'::JSONB\\r\\n ],\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8fc311b90>)])]> As shown in the sample output below, results are ranked in descending order of their RRF scores. Here, hybrid search bridges the gap between semantic intuition and exact keyword matching. While vector embeddings excel at grasping conceptual queries, like \"trees that grow taller than houses\", traditional full-text search provides the pinpoint precision needed for strict identifiers like \"California.\" By fusing the two, AlloyDB helps ensure your application prioritizes highly specific, locally relevant results like ‘California Sycamore’ right at the top of the list. Cloud SQL hybrid search example In Cloud SQL, you can create both your vector and keyword indexes on the same table and merge the results seamlessly using Common Table Expressions (CTEs) and coalescing the RRF score, as shown below. Vector index creation Here is how to create an HNSW index in Cloud SQL. code_block <ListValue: [StructValue([('code', '-- Install vector extension\\r\\nCREATE EXTENSION vector;\\r\\n\\r\\n-- Create an HNSW index on the embedding column for fast approximate nearest neighbor search\\r\\nCREATE INDEX product_hnsw_idx ON cymbal_products USING hnsw(product_embedding vector_cosine_ops);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8fc3107d0>)])]> Hybrid search Here is the hybrid search query. code_block <ListValue: [StructValue([('code', \"CREATE EXTENSION google_ml_integration;\\r\\n\\r\\n-- BM25 keyword results\\r\\nWITH keyword_results AS (\\r\\n SELECT uniq_id, product_name, \\r\\n ROW_NUMBER() OVER (ORDER BY product_description <@> 'California') AS rank_kw\\r\\n FROM cymbal_products\\r\\n ORDER BY product_description <@> 'California'\\r\\n LIMIT 10\\r\\n),\\r\\n-- Semantic vector results\\r\\nsemantic_results AS (\\r\\n SELECT uniq_id, product_name, \\r\\n ROW_NUMBER() OVER (ORDER BY product_embedding <=> google_ml.embedding('text-embedding-005', 'trees that grow taller than houses')::vector) AS rank_vec\\r\\n FROM cymbal_products\\r\\n ORDER BY product_embedding <=> google_ml.embedding('text-embedding-005', 'trees that grow taller than houses')::vector\\r\\n LIMIT 10\\r\\n)\\r\\n-- Reciprocal Rank Fusion (RRF) to merge and score both lists\\r\\nSELECT COALESCE(k.uniq_id, s.uniq_id) AS uniq_id,\\r\\n COALESCE(k.product_name, s.product_name) AS product_name,\\r\\n COALESCE(1.0 / (60 + k.rank_kw), 0) + COALESCE(1.0 / (60 + s.rank_vec), 0) AS rrf_score\\r\\nFROM keyword_results k\\r\\nFULL OUTER JOIN semantic_results s ON k.uniq_id = s.uniq_id\\r\\nORDER BY rrf_score DESC\\r\\nLIMIT 5;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8fc311350>)])]> The resulting output is identical to the AlloyDB hybrid search results shown above. Watch it in action Watch how this all comes together in this demo video. Introducing BM25 on AlloyDB & Cloud SQL Relevant resources We are incredibly excited to work with Tiger Data and cannot wait to see how you leverage native BM25 support to build faster, smarter, and simpler AI applications. Turn on the pg_textsearch extension today, and experience the ultimate hybrid search engine experience with AlloyDB and Cloud SQL. Want to get started? Check out” AlloyDB resources New to AlloyDB? Discover AlloyDB with a 30-day free trial Choose a vector index in AlloyDB AI AlloyDB BM25 documentation AlloyDB hybrid search UDF documentation Cloud SQL resources Cloud SQL BM25 documentation Tiger Data pg_textsearch Release Page",
+    "raw_text": "Vector search is a critical component of generative AI, retrieval-augmented generation (RAG), and data agent architectures, but sometimes vector search alone isn't enough. While vector embeddings are incredible at understanding conceptual meaning, they stumble on specific alphanumeric IDs and exact product SKU numbers. To build truly robust search and AI applications, you may need the combination of semantic vector search and traditional exact keyword full-text search — what we call hybrid search. In search, Best Matching 25, or BM25, is a key algorithm used to estimate how relevant a document is to a given query. Until today, if you wanted BM25 ranking with AlloyDB or Cloud SQL, you needed to add an additional full-text search backend. This introduced data silos, sync lags, and operational complexity. Today, we are eliminating the friction of maintaining a separate full-text search backend altogether, with the preview of the native BM25 index in AlloyDB and Cloud SQL for PostgreSQL 17+, made possible through the open-source pg_textsearch extension created by Tiger Data. Now, with a unified hybrid search backend, you no longer need to provision, manage, or pay for separate systems to get state-of-the-art full-text retrieval. It all happens directly inside your database, where your operational data lives, delivering: Industry-standard keyword ranking: Powered by Tiger Data's pg_textsearch , bring lightning-fast, C-optimized BM25 scoring directly to your Postgres tables. No complexity, total consistency: Eliminate the data duplication, ETL pipelines, and synchronization lag that you get when you maintain multiple backends for vector and full-text retrieval. Supercharged semantic search (AlloyDB exclusive): Get up to 6x and 10x faster vector search queries (when compared to standard PostgreSQL) with ScaNN and HNSW index types. Why pg_textsearch ? If you’ve used PostgreSQL's built-in ts_rank for full-text search at any meaningful scale, you already know its limitations. Ranking quality degrades as your corpus grows. There’s no support for inverse document frequency, so common words carry the same weight as rare ones. There’s no term-frequency saturation, so a document that mentions \"database\" 50 times outranks one that mentions it once. BM25 is the information retrieval gold standard, providing inverse document frequency (rarer terms matter more), term frequency saturation (repetition doesn't dominate), and document length normalization. You can learn more in this blog post by Tiger Data about how they built a BM25 search engine on PostgreSQL pages. Full-text search example Here’s how to get started with BM25 full-text search on both AlloyDB and Cloud SQL. Consider a sample table, cymbal_products , that contains the unique identifier uniq_id , a product_name column, a product_description column containing a text description of each product, and a generated product_embedding column. cymbal_products contains information on various retail products, including indoor and outdoor plants. Index creation To use BM25, enable the pg_textsearch extension. code_block <ListValue: [StructValue([('code', '-- Install pg_textsearch extension\\r\\nCREATE EXTENSION pg_textsearch;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e34787d0>)])]> Create the index on the product_description column from the cymbal_products table. code_block <ListValue: [StructValue([('code', \"-- Create the native BM25 index on the content column\\r\\nCREATE INDEX idx_docs_bm25 \\r\\nON cymbal_products \\r\\nUSING bm25 (product_description) \\r\\nWITH (text_config='english');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e3479510>)])]> A BM25 full-text search query can be executed using the <@> special operator. In the snippet below, we search for ‘cherry tree’. code_block <ListValue: [StructValue([('code', \"-- Full text search query\\r\\nSELECT product_name, product_description <@> 'cherry tree' AS bm25_score \\r\\nFROM cymbal_products\\r\\nORDER BY bm25_score \\r\\nLIMIT 5;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e347b150>)])]> Sample output is shown below. A more negative score indicates a stronger relevance match. AlloyDB hybrid search example Setting up a hybrid search system in AlloyDB is simple. You can create both your vector and keyword indexes on the same table and merge the results seamlessly using the hybrid search user-defined function (UDF ). Vector index creation Here is how to create a ScaNN vector search index: code_block <ListValue: [StructValue([('code', '-- Install vector extension\\r\\nCREATE EXTENSION vector;\\r\\n\\r\\n-- Install scann extension\\r\\nCREATE EXTENSION IF NOT EXISTS alloydb_scann;\\r\\n\\r\\n-- Create scann vector search index \\r\\nCREATE INDEX cymbal_products_embeddings_scann ON cymbal_products USING scann(product_embedding cosine);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e3478790>)])]> Hybrid search AlloyDB provides an out-of-the-box hybrid search UDF that makes it very simple to run hybrid search queries. The UDF merges the ranked results from each search component into a single, unified list using the Reciprocal Rank Fusion (RRF) algorithm. This query utilizes the UDF to perform a vector search for ‘trees that grow taller than houses’ and a keyword search for ‘California’ in the product description. code_block <ListValue: [StructValue([('code', 'CREATE EXTENSION google_ml_integration;\\r\\n\\r\\nSELECT *\\r\\nFROM ai.hybrid_search(\\r\\n search_inputs => ARRAY[\\r\\n \\'{\\r\\n \"data_type\": \"vector\",\\r\\n \"weight\": 0.5,\\r\\n \"table_name\": \"cymbal_products\",\\r\\n \"key_column\": \"uniq_id\",\\r\\n \"vec_column\": \"product_embedding\",\\r\\n \"distance_operator\": \"public.<=>\",\\r\\n \"limit\": 10,\\r\\n \"query_vector\": \"ai.embedding(\\'\\'text-embedding-005\\'\\', \\'\\'trees that grow taller than houses\\'\\')::vector\"\\r\\n }\\'::JSONB,\\r\\n \\'{\\r\\n \"data_type\": \"text\",\\r\\n \"weight\": 0.5,\\r\\n \"table_name\": \"cymbal_products\",\\r\\n \"key_column\": \"uniq_id\",\\r\\n \"text_column\": \"product_description\",\\r\\n \"limit\": 10,\\r\\n \"ranking_function\": \"<@>\",\\r\\n \"query_text_input\": \"California\"\\r\\n }\\'::JSONB\\r\\n ],\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e3479650>)])]> As shown in the sample output below, results are ranked in descending order of their RRF scores. Here, hybrid search bridges the gap between semantic intuition and exact keyword matching. While vector embeddings excel at grasping conceptual queries, like \"trees that grow taller than houses\", traditional full-text search provides the pinpoint precision needed for strict identifiers like \"California.\" By fusing the two, AlloyDB helps ensure your application prioritizes highly specific, locally relevant results like ‘California Sycamore’ right at the top of the list. Cloud SQL hybrid search example In Cloud SQL, you can create both your vector and keyword indexes on the same table and merge the results seamlessly using Common Table Expressions (CTEs) and coalescing the RRF score, as shown below. Vector index creation Here is how to create an HNSW index in Cloud SQL. code_block <ListValue: [StructValue([('code', '-- Install vector extension\\r\\nCREATE EXTENSION vector;\\r\\n\\r\\n-- Create an HNSW index on the embedding column for fast approximate nearest neighbor search\\r\\nCREATE INDEX product_hnsw_idx ON cymbal_products USING hnsw(product_embedding vector_cosine_ops);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e347b510>)])]> Hybrid search Here is the hybrid search query. code_block <ListValue: [StructValue([('code', \"CREATE EXTENSION google_ml_integration;\\r\\n\\r\\n-- BM25 keyword results\\r\\nWITH keyword_results AS (\\r\\n SELECT uniq_id, product_name, \\r\\n ROW_NUMBER() OVER (ORDER BY product_description <@> 'California') AS rank_kw\\r\\n FROM cymbal_products\\r\\n ORDER BY product_description <@> 'California'\\r\\n LIMIT 10\\r\\n),\\r\\n-- Semantic vector results\\r\\nsemantic_results AS (\\r\\n SELECT uniq_id, product_name, \\r\\n ROW_NUMBER() OVER (ORDER BY product_embedding <=> google_ml.embedding('text-embedding-005', 'trees that grow taller than houses')::vector) AS rank_vec\\r\\n FROM cymbal_products\\r\\n ORDER BY product_embedding <=> google_ml.embedding('text-embedding-005', 'trees that grow taller than houses')::vector\\r\\n LIMIT 10\\r\\n)\\r\\n-- Reciprocal Rank Fusion (RRF) to merge and score both lists\\r\\nSELECT COALESCE(k.uniq_id, s.uniq_id) AS uniq_id,\\r\\n COALESCE(k.product_name, s.product_name) AS product_name,\\r\\n COALESCE(1.0 / (60 + k.rank_kw), 0) + COALESCE(1.0 / (60 + s.rank_vec), 0) AS rrf_score\\r\\nFROM keyword_results k\\r\\nFULL OUTER JOIN semantic_results s ON k.uniq_id = s.uniq_id\\r\\nORDER BY rrf_score DESC\\r\\nLIMIT 5;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e3479c10>)])]> The resulting output is identical to the AlloyDB hybrid search results shown above. Watch it in action Watch how this all comes together in this demo video. Introducing BM25 on AlloyDB & Cloud SQL Relevant resources We are incredibly excited to work with Tiger Data and cannot wait to see how you leverage native BM25 support to build faster, smarter, and simpler AI applications. Turn on the pg_textsearch extension today, and experience the ultimate hybrid search engine experience with AlloyDB and Cloud SQL. Want to get started? Check out” AlloyDB resources New to AlloyDB? Discover AlloyDB with a 30-day free trial Choose a vector index in AlloyDB AI AlloyDB BM25 documentation AlloyDB hybrid search UDF documentation Cloud SQL resources Cloud SQL BM25 documentation Tiger Data pg_textsearch Release Page",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -1561,7 +1487,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/",
     "source": "Google Cloud Blog",
     "published": "2026-09-18T16:00:00+00:00",
-    "raw_text": "Today, we are excited to announce enhancements to the borderless Lakehouse , our answer to how data engineers, data scientists, and increasingly, AI agents, can query governed data directly where it lives. To reason accurately and automate complex enterprise workflows, agents and data consumers of all types need fast, unified access to an organization's complete data estate, joining customer records, transaction logs, and operational telemetry across clouds. However, modern enterprise data is rarely confined to a single location; data estates often span Amazon S3, Azure Data Lake Storage (ADLS), Google Cloud Storage, operational databases, and SaaS platforms like Salesforce, SAP, and Workday. Historically, uniting these distributed datasets required brittle ETL pipelines, duplicated storage, and prohibitive cross-cloud data transfer costs. We introduced the borderless Lakehouse earlier this year to let organizations query and activate data in place across clouds. By adopting the Apache Iceberg REST catalog specification, we federate directly to catalogs such as Databricks Unity Catalog, AWS Glue, and Snowflake Horizon. We also introduced Partner Cross-Cloud Interconnect to establish high-bandwidth, private links to other cloud providers, lowering per-gigabyte transfer costs compared to the public internet. Today, we are taking multi-cloud efficiency a step further by optimizing how much data needs to be transferred across the wire in the first place . We are excited to announce two new features to help further reduce costs of querying cross-cloud data. First, the preview of cross-cloud caching for Lakehouse transparently accelerates cross-cloud queries in BigQuery and cuts remote transfer costs by caching frequently accessed data locally in Google Cloud. Combining standard Iceberg columnar compression with cross-cloud caching means you often only need to transfer under 5% of the data you process across clouds, which helps lower the Total Cost of Ownership (TCO) to make cross-cloud analytics and AI viable at enterprise scale. In addition, BigQuery cross-cloud connections are also available in preview to query non-Iceberg data in other clouds and accelerate workloads. How cross-cloud caching works Cross-cloud caching meets enterprise performance and security requirements with no knobs to turn or storage to manage to accelerate your queries. Some of the mechanisms used under the hood are: Sub-file block granularity: Instead of transferring entire multi-gigabyte files across clouds when a query touches only a few columns, cross-cloud caching operates at the sub-file block level for columnar formats like Apache Parquet. BigQuery caches only the specific column chunks and dictionary pages projected by the query. On a cache miss, BigQuery fetches the needed data from the remote cloud to answer the query, and saves a local copy in the cache for future queries, drastically cutting network transfer and latency on repeated workloads. Default encryption at rest: Cached data blocks are encrypted at rest by default using Google-managed encryption keys (GMEK) so that temporary cache storage maintains the same enterprise-grade security posture as native BigQuery storage without extra overhead. Tenant and regional isolation: Cache entries are strictly partitioned by project and catalog boundaries to help prevent cross-tenant data exposure. Lakehouse anchors both the local cache and query execution strictly to the configured Google Cloud region (e.g., us-east4 ) to support compliance with regional data residency requirements when querying remote clouds. Freshness checks: Multi-cloud caching often forces a trade-off between speed and freshness. To avoid stale reads, BigQuery fetches remote object metadata before using cached data to ensure the data hasn’t changed and the user still has access. Any upstream table modification prompts BigQuery to fetch new files, while unreferenced cached blocks expire automatically, delivering local query speed with single-source-of-truth accuracy. For more details on caching mechanics, statistics counters, and regional considerations, see the Lakehouse intelligent caching documentation . Cross-cloud caching in action So how does this work in day-to-day operations? Consider an e-commerce team querying a 10 TiB Iceberg sales table ( aws_lakehouse_catalog.sales.web_sales ) in Amazon S3, federated into Lakehouse from Databricks Unity Catalog. During evening promotional drops (8:00–9:00 PM), analysts query historical transactions to identify which storefronts drive peak volume and revenue among high-intent demographics: code_block <ListValue: [StructValue([('code', 'SELECT w.web_name, hd.hd_buy_potential, COUNT(*) AS total_transactions, ROUND(SUM(ws.ws_sales_price), 2) AS total_sales\\r\\nFROM `aws_lakehouse_catalog.sales.web_sales` ws\\r\\n-- Joins household_demographics, time_dim (8:00-9:00 PM), and web_site.\\r\\nGROUP BY w.web_name, hd.hd_buy_potential;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8ef635710>)])]> Initial execution: Cold columnar retrieval On this initial cold run, the local cache is empty ( cacheBytesRead: \"0\" ). BigQuery applies partition pruning and column projection to transfer only the required Parquet byte ranges from Amazon S3 over Partner Cross-Cloud Interconnect: code_block <ListValue: [StructValue([('code', '{\\r\\n \"totalBytesProcessed\": \"230343464114\",\\r\\n \"objectStorageStats\": [\\r\\n{\"cloudProvider\": \"AWS\", \\r\\n\"objectStorageBytesRead\": \"25834740486\", \\r\\n\"cacheBytesRead\": \"0\"}]\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8ef37c510>)])]> Logical data processed: BigQuery processes 214.5 GiB across the 10 TiB dataset. Standard Iceberg compression efficiency: BigQuery reads 24.1 GiB from S3 thanks to standard Iceberg columnar compression with Zstandard ( zstd ) — an 8.9:1 compression ratio . As these sub-file Parquet blocks arrive in Google Cloud, BigQuery populates the regional cache. Follow-on exploration: Adding a dimension In practice, analysts and agents rarely run the exact same query twice in a row. To drill deeper into fulfillment methods, the analyst modifies the query by adding the shipping method dimension ( sm.sm_type ): code_block <ListValue: [StructValue([('code', 'SELECT w.web_name, sm.sm_type, hd.hd_buy_potential, COUNT(*) AS total_transactions, ROUND(SUM(ws.ws_sales_price), 2) AS total_sales\\r\\nFROM `aws_lakehouse_catalog.sales.web_sales` ws\\r\\nJOIN `aws_lakehouse_catalog.sales.ship_mode` sm ON ws.ws_ship_mode_sk = sm.sm_ship_mode_sk\\r\\n-- Reuses existing joins on household_demographics, time_dim, and web_site.\\r\\nGROUP BY w.web_name, sm.sm_type, hd.hd_buy_potential;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8ef37dc10>)])]> Job statistics for this follow-on query show: code_block <ListValue: [StructValue([('code', '{\\r\\n \"totalBytesProcessed\": \"287928766472\",\\r\\n \"objectStorageStats\": [\\r\\n{\"cloudProvider\": \"AWS\", \\r\\n\"objectStorageBytesRead\": \"1426587648\", \\r\\n\"cacheBytesRead\": \"25834740486\"}]\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fa8ef712550>)])]> 94.8% cache hit rate: BigQuery serves 24.1 GiB of previously queried columns directly from local cache. Granular remote retrieval: BigQuery transfers only 1.33 GiB from S3 for the new ws_ship_mode_sk column and ship_mode table. Sub-file flexibility: Modifying a query reuses cached column chunks and transfers only newly required bytes. Compounding efficiency at enterprise scale When thinking about TCO of cross-cloud queries, the top two factors to account for are: Compression ratio: when using default compression algorithms (Zstandard/zstd) on Iceberg, columnar data is highly compressible. If you assume that your data achieves a compression ratio of 8:1, it means every 1 TiB of logical data processed only requires ~128 GiB of data to move over the network. Cache hit rates: when data is retrieved from cache rather than across the network because it was recently accessed, a network transit is avoided. Assuming 80% of your data results in a cache hit it means for every 100 GiB of physical data accessed only 20 GiB moves over the network. Taking both factors and assumptions into account, for every 1 TiB of data your organization processes, you only need to transfer ~26 GiB across the network (under 3% of total data processed) . Combining this reduction with Partner Cross-Cloud Interconnect lowers TCO enough to make cross-cloud analytics and AI cost-effective at petabyte scale. BigQuery cross-cloud connections now in preview Alongside cross-cloud caching, the preview of BigQuery cross-cloud connections lets organizations connect BigQuery directly to open-format data in Amazon S3 and Azure Storage. Understanding when to use catalog federation versus cross-cloud connections is straightforward: BigQuery cross-cloud connections (for raw files): For standalone files (CSV, JSON, ad-hoc Parquet) without an Iceberg catalog, cross-cloud connections let you create BigQuery external tables referencing remote bucket paths directly. Lakehouse catalog federation (for Iceberg): For Iceberg data managed by catalogs like Databricks Unity, AWS Glue, or Snowflake Horizon, Lakehouse automatically synchronizes schemas and table snapshots to simplify the user experience and ensure users are always querying the latest data. Cross-cloud connections serve as the modern architectural evolution by using standard BigQuery compute workers in Google Cloud regions rather than compute workers in other clouds. This approach helps unlock global region availability and provides full BigQuery feature parity — including with BigQuery AI and Gemini on remote files. The cross-cloud caching capabilities for Lakehouse applies to data queried from BigQuery cross-cloud connections as well as Lakehouse catalog federation. To learn how to create connections and query external bucket paths, see the BigQuery cross-cloud connections setup documentation .",
+    "raw_text": "Today, we are excited to announce enhancements to the borderless Lakehouse , our answer to how data engineers, data scientists, and increasingly, AI agents, can query governed data directly where it lives. To reason accurately and automate complex enterprise workflows, agents and data consumers of all types need fast, unified access to an organization's complete data estate, joining customer records, transaction logs, and operational telemetry across clouds. However, modern enterprise data is rarely confined to a single location; data estates often span Amazon S3, Azure Data Lake Storage (ADLS), Google Cloud Storage, operational databases, and SaaS platforms like Salesforce, SAP, and Workday. Historically, uniting these distributed datasets required brittle ETL pipelines, duplicated storage, and prohibitive cross-cloud data transfer costs. We introduced the borderless Lakehouse earlier this year to let organizations query and activate data in place across clouds. By adopting the Apache Iceberg REST catalog specification, we federate directly to catalogs such as Databricks Unity Catalog, AWS Glue, and Snowflake Horizon. We also introduced Partner Cross-Cloud Interconnect to establish high-bandwidth, private links to other cloud providers, lowering per-gigabyte transfer costs compared to the public internet. Today, we are taking multi-cloud efficiency a step further by optimizing how much data needs to be transferred across the wire in the first place . We are excited to announce two new features to help further reduce costs of querying cross-cloud data. First, the preview of cross-cloud caching for Lakehouse transparently accelerates cross-cloud queries in BigQuery and cuts remote transfer costs by caching frequently accessed data locally in Google Cloud. Combining standard Iceberg columnar compression with cross-cloud caching means you often only need to transfer under 5% of the data you process across clouds, which helps lower the Total Cost of Ownership (TCO) to make cross-cloud analytics and AI viable at enterprise scale. In addition, BigQuery cross-cloud connections are also available in preview to query non-Iceberg data in other clouds and accelerate workloads. How cross-cloud caching works Cross-cloud caching meets enterprise performance and security requirements with no knobs to turn or storage to manage to accelerate your queries. Some of the mechanisms used under the hood are: Sub-file block granularity: Instead of transferring entire multi-gigabyte files across clouds when a query touches only a few columns, cross-cloud caching operates at the sub-file block level for columnar formats like Apache Parquet. BigQuery caches only the specific column chunks and dictionary pages projected by the query. On a cache miss, BigQuery fetches the needed data from the remote cloud to answer the query, and saves a local copy in the cache for future queries, drastically cutting network transfer and latency on repeated workloads. Default encryption at rest: Cached data blocks are encrypted at rest by default using Google-managed encryption keys (GMEK) so that temporary cache storage maintains the same enterprise-grade security posture as native BigQuery storage without extra overhead. Tenant and regional isolation: Cache entries are strictly partitioned by project and catalog boundaries to help prevent cross-tenant data exposure. Lakehouse anchors both the local cache and query execution strictly to the configured Google Cloud region (e.g., us-east4 ) to support compliance with regional data residency requirements when querying remote clouds. Freshness checks: Multi-cloud caching often forces a trade-off between speed and freshness. To avoid stale reads, BigQuery fetches remote object metadata before using cached data to ensure the data hasn’t changed and the user still has access. Any upstream table modification prompts BigQuery to fetch new files, while unreferenced cached blocks expire automatically, delivering local query speed with single-source-of-truth accuracy. For more details on caching mechanics, statistics counters, and regional considerations, see the Lakehouse intelligent caching documentation . Cross-cloud caching in action So how does this work in day-to-day operations? Consider an e-commerce team querying a 10 TiB Iceberg sales table ( aws_lakehouse_catalog.sales.web_sales ) in Amazon S3, federated into Lakehouse from Databricks Unity Catalog. During evening promotional drops (8:00–9:00 PM), analysts query historical transactions to identify which storefronts drive peak volume and revenue among high-intent demographics: code_block <ListValue: [StructValue([('code', 'SELECT w.web_name, hd.hd_buy_potential, COUNT(*) AS total_transactions, ROUND(SUM(ws.ws_sales_price), 2) AS total_sales\\r\\nFROM `aws_lakehouse_catalog.sales.web_sales` ws\\r\\n-- Joins household_demographics, time_dim (8:00-9:00 PM), and web_site.\\r\\nGROUP BY w.web_name, hd.hd_buy_potential;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e2b8d610>)])]> Initial execution: Cold columnar retrieval On this initial cold run, the local cache is empty ( cacheBytesRead: \"0\" ). BigQuery applies partition pruning and column projection to transfer only the required Parquet byte ranges from Amazon S3 over Partner Cross-Cloud Interconnect: code_block <ListValue: [StructValue([('code', '{\\r\\n \"totalBytesProcessed\": \"230343464114\",\\r\\n \"objectStorageStats\": [\\r\\n{\"cloudProvider\": \"AWS\", \\r\\n\"objectStorageBytesRead\": \"25834740486\", \\r\\n\"cacheBytesRead\": \"0\"}]\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e262b2d0>)])]> Logical data processed: BigQuery processes 214.5 GiB across the 10 TiB dataset. Standard Iceberg compression efficiency: BigQuery reads 24.1 GiB from S3 thanks to standard Iceberg columnar compression with Zstandard ( zstd ) — an 8.9:1 compression ratio . As these sub-file Parquet blocks arrive in Google Cloud, BigQuery populates the regional cache. Follow-on exploration: Adding a dimension In practice, analysts and agents rarely run the exact same query twice in a row. To drill deeper into fulfillment methods, the analyst modifies the query by adding the shipping method dimension ( sm.sm_type ): code_block <ListValue: [StructValue([('code', 'SELECT w.web_name, sm.sm_type, hd.hd_buy_potential, COUNT(*) AS total_transactions, ROUND(SUM(ws.ws_sales_price), 2) AS total_sales\\r\\nFROM `aws_lakehouse_catalog.sales.web_sales` ws\\r\\nJOIN `aws_lakehouse_catalog.sales.ship_mode` sm ON ws.ws_ship_mode_sk = sm.sm_ship_mode_sk\\r\\n-- Reuses existing joins on household_demographics, time_dim, and web_site.\\r\\nGROUP BY w.web_name, sm.sm_type, hd.hd_buy_potential;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e2629690>)])]> Job statistics for this follow-on query show: code_block <ListValue: [StructValue([('code', '{\\r\\n \"totalBytesProcessed\": \"287928766472\",\\r\\n \"objectStorageStats\": [\\r\\n{\"cloudProvider\": \"AWS\", \\r\\n\"objectStorageBytesRead\": \"1426587648\", \\r\\n\"cacheBytesRead\": \"25834740486\"}]\\r\\n}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff0e3060290>)])]> 94.8% cache hit rate: BigQuery serves 24.1 GiB of previously queried columns directly from local cache. Granular remote retrieval: BigQuery transfers only 1.33 GiB from S3 for the new ws_ship_mode_sk column and ship_mode table. Sub-file flexibility: Modifying a query reuses cached column chunks and transfers only newly required bytes. Compounding efficiency at enterprise scale When thinking about TCO of cross-cloud queries, the top two factors to account for are: Compression ratio: when using default compression algorithms (Zstandard/zstd) on Iceberg, columnar data is highly compressible. If you assume that your data achieves a compression ratio of 8:1, it means every 1 TiB of logical data processed only requires ~128 GiB of data to move over the network. Cache hit rates: when data is retrieved from cache rather than across the network because it was recently accessed, a network transit is avoided. Assuming 80% of your data results in a cache hit it means for every 100 GiB of physical data accessed only 20 GiB moves over the network. Taking both factors and assumptions into account, for every 1 TiB of data your organization processes, you only need to transfer ~26 GiB across the network (under 3% of total data processed) . Combining this reduction with Partner Cross-Cloud Interconnect lowers TCO enough to make cross-cloud analytics and AI cost-effective at petabyte scale. BigQuery cross-cloud connections now in preview Alongside cross-cloud caching, the preview of BigQuery cross-cloud connections lets organizations connect BigQuery directly to open-format data in Amazon S3 and Azure Storage. Understanding when to use catalog federation versus cross-cloud connections is straightforward: BigQuery cross-cloud connections (for raw files): For standalone files (CSV, JSON, ad-hoc Parquet) without an Iceberg catalog, cross-cloud connections let you create BigQuery external tables referencing remote bucket paths directly. Lakehouse catalog federation (for Iceberg): For Iceberg data managed by catalogs like Databricks Unity, AWS Glue, or Snowflake Horizon, Lakehouse automatically synchronizes schemas and table snapshots to simplify the user experience and ensure users are always querying the latest data. Cross-cloud connections serve as the modern architectural evolution by using standard BigQuery compute workers in Google Cloud regions rather than compute workers in other clouds. This approach helps unlock global region availability and provides full BigQuery feature parity — including with BigQuery AI and Gemini on remote files. The cross-cloud caching capabilities for Lakehouse applies to data queried from BigQuery cross-cloud connections as well as Lakehouse catalog federation. To learn how to create connections and query external bucket paths, see the BigQuery cross-cloud connections setup documentation .",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -2982,42 +2908,6 @@
     "summary": "Even a temporary staging server needs to be locked down."
   },
   {
-    "title": "Omarchy gains $18.5M in backing, fresh converts – and fierce critics",
-    "url": "https://www.theregister.com/software/2026/09/17/omarchy-gains-185m-in-backing-fresh-converts-and-fierce-critics/5296780",
-    "source": "The Register",
-    "published": "2026-09-17T10:44:00+00:00",
-    "raw_text": "DHH's Arch-based desktop becomes the latest front in FOSS's culture wars",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "DHH's Arch-based desktop becomes the latest front in FOSS's culture wars"
-  },
-  {
-    "title": "Ofcom discovers issuing Online Safety Act fines is easier than collecting them",
-    "url": "https://www.theregister.com/security/2026/09/17/ofcom-discovers-issuing-online-safety-act-fines-is-easier-than-collecting-them/5297110",
-    "source": "The Register",
-    "published": "2026-09-17T10:08:04+00:00",
-    "raw_text": "Platforms comply just enough to avoid being blocked, leaving the regulator chasing debt",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Platforms comply just enough to avoid being blocked, leaving the regulator chasing debt"
-  },
-  {
-    "title": "Government Digital Service move 'grinds gears' in UK's e-government",
-    "url": "https://www.theregister.com/public-sector/2026/09/17/government-digital-service-move-grinds-gears-in-uks-e-government/5296784",
-    "source": "The Register",
-    "published": "2026-09-17T09:15:00+00:00",
-    "raw_text": "As team responsible for tech strategy shunted to third department in three years, experts fear exodus of talent",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "As team responsible for tech strategy shunted to third department in three years, experts fear exodus of talent"
-  },
-  {
     "title": "US cyber agency endorses ‘decoy’ tactics",
     "url": "https://www.computerweekly.com/news/366650815/US-cyber-agency-endorses-decoy-tactics",
     "source": "ComputerWeekly",
@@ -3359,6 +3249,41 @@
     "summary": "<p>The Middle East’s <a href=\"https://www.computerweekly.com/news/366649634/What-the-latest-UAE-cyber-attacks-reveal-about-threats-to-critical-sectors\" target=\"_blank\" rel=\"noopener\">cyber security landscape</a> is entering a new phase, defined not only by accelerating digital transformation and artificial intelligence (AI) adoption, but also by growing concerns over sophisticated cyber attacks targeting governments, critical infrastructure and private-sector organisations.</p> <p>Addressing this issue at GISEC Global 2026, H.E. Dr Mohamed Al Kuwaiti, head of cyber security for the UAE government, outlined how the country is strengthening its cyber resilience through a combination of AI innovation, sovereign cyber capabilities, national preparedness programmes and international collaboration.</p> <p>“Cyber threats do not respect geography, jurisdiction or diplomatic protocol,” said Al Kuwaiti. “We are here not to serve the UAE only. We are here to serve the cyber security community, society and citizens to protect their data, their privacy and themselves.”</p> <p>His comments come as regional organisations face a rapidly evolving threat landscape shaped by AI-enabled cyber crime, state-sponsored activity, ransomware campaigns, supply chain compromises and attacks against operational technology environments.</p> <section class=\"section main-article-chapter\" data-menu-title=\"AI: from productivity tool to cyber battlefield\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>AI: from productivity tool to cyber battlefield</h2> <p>Artificial intelligence dominated discussions throughout GISEC, reflecting its growing role as both a cyber security enabler and a threat multiplier."
   },
   {
+    "title": "Capita boss gets ‘obscene’ pay packet while retired civil servants need emergency loans",
+    "url": "https://www.computerweekly.com/news/366650555/Capita-boss-gets-obscene-pay-packet-while-retired-civil-servants-need-emergency-loans",
+    "source": "ComputerWeekly",
+    "published": "2026-09-18T04:00:00+00:00",
+    "raw_text": "<p>Capita CEO Adolfo Hernandez earned £1.6m in his last pay packet, while thousands of retired civil servants were forced to apply for emergency loans because the company he runs failed to pay their pensions.</p> <p>With almost all of Capita’s earnings coming from the public sector, it is the taxpayer ultimately footing Capita’s bills, including the CEO’s salary.</p> <p>The substantial pay packet emerged during a Westminster Hall debate this week (15 September), which saw MPs chastise Capita for <a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">huge failings in the Civil Service Pension Scheme (CSPS) administration</a>, which left many of their constituents in financial hardship after years of service to the country.</p> <p>It is increasingly being referred to as a “scandal”, and while Capita’s boss received his large pay packet, more than 4,100 former civil servants and their spouses have been forced to apply for emergency loans.</p> <p>Former civil servant&nbsp;<a href=\"https://www.computerweekly.com/news/366639686/Civil-service-veteran-incandescent-as-wait-for-pension-hits-four-months-amid-outsourcing-mess\">Steve Tessier</a> is still waiting for his pension, more than nine months after retiring. Tessier, who had a long career at the Ministry of Defence, as well as a spell on secondment at Nato, said: “It feels obscene that someone should trouser such a large sum when they have been responsible for causing misery and financial hardship for tens of thousands of people.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pressure in the chamber\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pressure in the chamber</h2> <p>During the Westminster Hall debate, Peter Prinsley, Bury St Edmunds and Stowmarket MP, outlined innate unfairness.</p> <p>“I believe the CEO of Capita has an annual remuneration of £1.6m,” he said. “My constituent is a man who gave 33 years of service to the Metropolitan Police, and despite giving masses of notice of his retirement, never received his pension for at least six months. He wanted to fund his daughter for university; he was unable to do so. He took out loans from the police. He then developed cancer and is under treatment at my local hospital.”</p> <p>Prinsley said: “This is an utter disgrace. It’s a complete disgrace.”</p> <p>A CSPS claimant, who wished to remain anonymous, said: “Mr Hernandez took responsibility for this mess. Perhaps he has performed competently in other areas of the company which may justify his huge salary, but in this instance he has fallen abysmally short of being competent.”</p> <p>“Perhaps he ought to hand back some of that salary, it could go towards hiring more staff, paying overtime or setting up a hardship fund for the bereaved who do not have access to the government bridging loan. Alternatively, he may put it towards any compensation for those affected.”</p> <p>The government has so far approved over £100m to provide interest-free transitional support loans to those affected by pension delays, which has seen more than 4,100 loans made.</p> <p>As revealed by Computer Weekly in August, Hernandez was <a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">slammed by a Capita staff member</a>, working on pensions, after he made claims internally that the “right” things are in place to turn the <a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">botched CSPS</a> administration around.</p> <p>The comments from a staff member, which appeared in a message copied to all staff, cast doubt on Capita’s ability to fix the problems being experienced.</p> <p>The staff member wrote: “The service provided by Capita surpasses your assertion of ‘not good enough’, it has been abysmal for members. The fact members have died in waiting due to this whole catastrophe is a really harrowing thought that none of us should have to live with, yet we sadly do.”</p> <p>Capita and the Cabinet were asked questions about Hernadez’s pay packet and the number of emergency loans given, neither responded.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MPs must act\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MPs must act</h2> <p>Prinsley suggested he and other MPs must be able to sort the mess out. “We all came to this place in order to change things,” he said. “Surely this is something that we can change…”</p> <p>One of the things the government is hoping to do is insource the contract. It has already said it is “actively shaping a long-term strategy to bring the pension scheme back in-house” – a statement repeated by Sally Jameson MP, parliamentary secretary in the Cabinet Office. But there is still uncertainty among members of the scheme, the trade union and MPs about what this means.</p> <p>Jameson went further in the Westminster debate when she said: “We stood on a manifesto as a Labour government to have the biggest wave of insourcing in a generation. I am personally committed to that. I’ve said in this house before that I think that’s a priority for this [CSPS] scheme…”</p> <p>But she added that the government can only do it after making sure it’s in the interest of the scheme members. “We’ve got to make sure that there is no disruption,” said Jameson. “We’ve got to do it in the smoothest and quickest way.”</p> <p>The government has already insourced a failing pension scheme run by Capita, when in April it <a href=\"https://www.computerweekly.com/news/366642152/Government-terminates-Capitas-Royal-Mail-pension-contract\">terminated the supplier’s contract</a> to administer the Royal Mail pension scheme. The government said the outsourcing provider “failed to deliver numerous milestones … following a failure to meet critical transition milestones, and a lack of confidence in Capita’s ability to implement and transition to the new operating model in a timely fashion”.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tech didn’t work\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tech didn’t work</h2> <p>The CSPS contract transferred from MyCSP to Capita in December 2025, after being awarded in 2023. Despite having two years to prepare for it, in the month following Capita’s takeover – amid delays and problems – an HM Revenue &amp; Customs <a href=\"https://www.computerweekly.com/news/366637837/Troubleshooter-steps-in-as-Capita-and-civil-service-bosses-apologise-for-pension-scheme-problems\">troubleshooter was brought in</a>&nbsp;to lead an “urgent recovery plan”.</p> <p>During contract bidding, Capita had claimed artificial intelligence would revolutionise the delivery of the scheme, but its project failed.</p> <p>In a recent <a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">joint PAC and Public Administration and Constitutional Affairs Committee (Pacac) hearing</a>, Pacac chair Simon Hoare MP said Capita had two years to prepare for the takeover of CSPS in December 2025, yet the technology behind its stated the “artificial intelligence” revolution failed.</p> <p>In that meeting, Hoare reminded CEO Hernandez and his colleagues of promises made to government during the contracting process. The Cabinet Office was told “the two-year transition period would lead to the digital artificial intelligence revolution to deliver a world-class, world-leading pension service. None of that met neither the novel nor the basic”.</p> <p>CSPS member Tessier told Computer Weekly that accountability does not rest solely with Capita. “Who in the Cabinet Office took the decision to go ahead with the contract despite strong warnings from the National Audit Office (NAO) and the Public Accounts Committee (PAC)? And what consequences – financial or otherwise – have there been for that individual (and any others who may share responsibility)?”</p> <p>Speaking during the Westminster Hall debate, MP Charlie Dewhirst raised similar questions of the government. He said ministers claimed they received personal assurances from Capita as to its readiness to take over the scheme, and they have not said why they chose to believe these claims despite the findings of the NAO and the PAC: “Can the minister clarify who in their department authorised the go, no go decision in November 2025, [and] what criteria was used to make that decision?”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Government mission\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Government mission</h2> <p>Beyond this debacle, the government has declared <a href=\"https://www.computerweekly.com/news/366644790/UK-government-publishes-guidelines-to-end-era-of-outsourcing-will-IT-be-in-scope\">its plan for the biggest wave of insourcing in a generation</a>. In July, Cabinet Office minister Nick Thomas-Symonds said he would insource CSPS “today” if it was possible.</p> <p>Speaking in the Westminster debate this week, Ian Byrne, MP for Liverpool West Derby, who secured the debate on the CSPS disaster, described Capita’s handing of the pension scheme as an example of the failure of outsourcing.</p> <p>“This is the failed ideology of outsourcing laid bare,” he said. “Born under Thatcher, followed by successive governments of all colours in the name of efficiency, while delivering to absolutely the opposite and putting the burden on ordinary people.”</p> <p>He highlighted Fujitsu’s role in the Post Office scandal and the failing water industry as further examples. “How many more examples must we bring before this House before the political establishment finally accepts that this experiment has completely failed?”</p> <p>Lorraine Beavers, MP for Blackpool North and Fleetwood, like minister Jameson,<b>&nbsp;</b>said she “stood on a manifesto that promised the biggest wave of insourcing in a generation”.</p> <p>“[The CSPS] case is only one of the many since 1980s where the responsibility of the state has been outsourced to private companies who have consistently failed to deliver for working people,” she said. “I will not stop fighting until this scheme is brought back where it belongs.”</p> <p>While there was support for insourcing among MPs at the meeting, others did not believe it to be the answer.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Plain English, please\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Plain English, please</h2> <p>About 80 MPs have now signed an open letter to Capita’s public sector boss, Richard Holroyd, requesting a “plain language” explanation of “what has happened since the last update, what work remains outstanding, whether there are any barriers preventing progress, what the next step will be, and where possible, an indication of when that next step is expected.”</p> <p>The lack of information is causing huge stress amongst CSPS members waiting for the money they are owed and, in many cases, desperately need. They are being held for hours on the phone waiting for support.</p> <p>The Pensions Before Profit Campaigns Group, set up in April this year to campaign around the Civil Service Pension Scheme crisis, is run by a small group of volunteers and supports more than 20,000 members.</p> <p>Following the Westminster Hall debate, the group said in a statement: “We welcome the very belated recognition that Capita’s claims and shifting targets cannot be accepted at face value. We were encouraged by Minister Sally Jameson’s honesty at the Westminster Hall debate about the scale of the crisis, her acknowledgement of members’ lived experiences and her willingness to challenge Capita.”</p> <p>But it added that it believes “Capita continues to treat the Public Accounts Committee, the government and scheme members with contempt”.</p> <p>Its claims that calls are answered within eight minutes and cases are resolved “once and done” are completely at odds with members’ experiences of lengthy waits, repeated contacts, lost documents, inaccurate information and months of delay.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Capita and the Civil Service Pension Scheme</h3> <ul class=\"default-list\"> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366650460/Capita-doesnt-get-to-walk-away-from-civil-service-pension-mess-says-minister\">Capita doesn’t get to ‘walk away from’ civil service pension mess, says minister</a>.</li> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366649749/UK-government-to-create-team-to-validate-Capitas-data-on-troubled-pension-scheme\">UK government to create team to validate Capita’s data on troubled pension scheme</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650254/Capita-meeting-self-imposed-civil-service-pension-targets-not-sufficient-says-government\">UK government views the outsourcer’s overall performance as ‘unacceptable’ after it reports meeting a self-imposed target</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650193/Government-has-seen-enough-of-Capita-failure-and-Civil-Service-Pension-scheme-to-be-moved-in-house\">Government has seen enough of Capita failure and Civil Service Pension Scheme to be moved in-house</a>.</li> <li>Aug 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">Capita CEO receives scathing rebuttal from employee over botched contract</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645827/PAC-raises-more-questions-over-Capitas-role-in-government?_gl=1*xbkv0w*_ga*Mjg4MTcxMzU3LjE3Nzk5NjUxNTU.*_ga_TQKE4GS5P9*czE3ODU5Mjk3MjIkbzI2NiRnMSR0MTc4NTkyOTcyNiRqNTYkbDAkaDA.\">PAC raises more questions over Capita’s role in government</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645700/Capita-to-lose-money-on-pension-debacle-but-has-governments-private-parts-in-its-grip\">Capita to lose money on pension debacle but ‘has government’s private parts in its grip’</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645462/Capita-civil-service-pension-contract-prime-candidate-for-insourcing-says-government-minister\">Capita civil service pension contract ‘prime candidate’ for insourcing, says government minister</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645478/Capitas-rush-to-hit-civil-service-pension-deadline-risking-errors-say-staff\">Capita’s rush to hit civil service pension deadline risking errors, say staff</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645354/Union-calls-for-insourcing-of-pension-contract-as-Capita-shit-show-goes-on\">Union calls for insourcing of pension contract as Capita ‘shit show’ goes on</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366644692/Cabinet-Office-states-Capita-set-to-miss-Civil-Service-Pension-Scheme-deadline\">Cabinet Office states Capita set to miss Civil Service Pension Scheme deadline</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643878/Capita-launched-civil-service-pension-scheme-site-without-basic-web-security\">Capita went live with its troubled civil service pensions administration without a basic Domain Name System security feature</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643712/Ministers-refused-to-sign-off-563m-Capita-contract-amid-civil-service-pension-disaster\">Ministers refused to sign off £563m Capita contract amid civil service pension disaster</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643012/Civil-servants-to-protest-at-Capita-general-meeting-amid-pension-crisis\">Civil servants to protest at Capita general meeting amid pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642492/Was-Capitas-Royal-Mail-pension-contract-a-botch-too-far\">Was Capita’s Royal Mail pension contract a botch too far?</a></li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">Capita lacked ‘detail and thoroughness’ in planning botched Civil Service Pension Scheme takeover</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">MP committees to double up on Capita’s civil service pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642312/Government-should-drop-Capita-from-civil-service-scheme-after-it-loses-Royal-Mail-role-says-union\">Government should drop Capita from civil service scheme after it loses Royal Mail role, says union</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642152/Government-terminates-Capitas-Royal-Mail-pension-contract\">Government terminates Capita’s Royal Mail pension contract</a>.</li> <li>Mar 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366640779/Capita-left-to-deal-with13000-civil-service-pension-cases-over-a-year-old\">Capita left to deal with 13,000 civil service pension cases over a year old</a>.</li> <li>Feb 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">Thousands of unread emails and 20 million database errors cause civil service pension hardship</a>.</li> <li>Jan 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366637837/Troubleshooter-steps-in-as-Capita-and-civil-service-bosses-apologise-for-pension-scheme-problems\">Troubleshooter steps in as Capita and civil service bosses apologise for pension scheme problems</a>.</li> <li>Oct 2025: <a href=\"https://www.computerweekly.com/news/366633358/Capita-rubbishes-Public-Accounts-Committee-report-claims\">Capita rubbishes Public Accounts Committee report claims</a>.</li> </ul> </div> </div> </section>",
+    "categories": [
+      "Networks",
+      "GRC",
+      "Industry & Market",
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "audit",
+        "nist"
+      ],
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
+        "raises",
+        "ey"
+      ]
+    },
+    "summary": "<p>Capita CEO Adolfo Hernandez earned £1.6m in his last pay packet, while thousands of retired civil servants were forced to apply for emergency loans because the company he runs failed to pay their pensions.</p> <p>With almost all of Capita’s earnings coming from the public sector, it is the taxpayer ultimately footing Capita’s bills, including the CEO’s salary.</p> <p>The substantial pay packet emerged during a Westminster Hall debate this week (15 September), which saw MPs chastise Capita for <a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">huge failings in the Civil Service Pension Scheme (CSPS) administration</a>, which left many of their constituents in financial hardship after years of service to the country.</p> <p>It is increasingly being referred to as a “scandal”, and while Capita’s boss received his large pay packet, more than 4,100 former civil servants and their spouses have been forced to apply for emergency loans.</p> <p>Former civil servant&nbsp;<a href=\"https://www.computerweekly.com/news/366639686/Civil-service-veteran-incandescent-as-wait-for-pension-hits-four-months-amid-outsourcing-mess\">Steve Tessier</a> is still waiting for his pension, more than nine months after retiring. Tessier, who had a long career at the Ministry of Defence, as well as a spell on secondment at Nato, said: “It feels obscene that someone should trouser such a large sum when they have been responsible for causing misery and financial hardship for tens of thousands of people.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pressure in the chamber\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pressure in the chamber</h2> <p>During the Westminster Hall debate, Peter Prinsley, Bury St Edmunds and Stowmarket MP, outlined innate unfairness.</p> <p>“I believe the CEO of Capita has an annual remuneration of £1.6m,” he said. “My constituent is a man who gave 33 years of service to the Metropolitan Police, and despite giving masses of notice of his retirement, never received his pension for at least six months. He wanted to fund his daughter for university; he was unable to do so."
+  },
+  {
     "title": "CW@60: Falling in love – why open source reflects my Scottish values",
     "url": "https://www.computerweekly.com/feature/CW60-Falling-in-love-why-open-source-reflects-my-Scottish-values",
     "source": "ComputerWeekly",
@@ -3394,41 +3319,6 @@
       ]
     },
     "summary": "<div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/CW-60-anniversary-logo-white-400px.jpg\" alt=\"Computer Weekly 60th anniversary logo\" width=\"226\" height=\"117\"> </div> <p><i>On 22 September 2026, Computer Weekly turns 60. To mark the milestone, we asked some of our friends - experts, parliamentarians, IT leaders and suppliers - for their perspectives on how tech has changed their lives over six decades. What's changed the most for you since then?</i></p> <p>Across the last 60 years there’s been a dramatic change in software, from the early days of being given away with mainframe hardware in the 1960s, through the free software movement of the 1980s and into today’s world of open source software and AI.</p> <p>Software has changed dramatically but decisions made all the way back to the early days of software when copyright was applied to it, still have a surprising effect on the market today.</p> <p>I first got involved with open source almost 20 years ago and value mattered to me. I was a commercial lawyer in tech, having worked in innovation for companies that turned over billions."
-  },
-  {
-    "title": "Capita boss gets ‘obscene’ pay packet while retired civil servants need emergency loans",
-    "url": "https://www.computerweekly.com/news/366650555/Capita-boss-gets-obscene-pay-packet-while-retired-civil-servants-need-emergency-loans",
-    "source": "ComputerWeekly",
-    "published": "2026-09-18T04:00:00+00:00",
-    "raw_text": "<p>Capita CEO Adolfo Hernandez earned £1.6m in his last pay packet, while thousands of retired civil servants were forced to apply for emergency loans because the company he runs failed to pay their pensions.</p> <p>With almost all of Capita’s earnings coming from the public sector, it is the taxpayer ultimately footing Capita’s bills, including the CEO’s salary.</p> <p>The substantial pay packet emerged during a Westminster Hall debate this week (15 September), which saw MPs chastise Capita for <a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">huge failings in the Civil Service Pension Scheme (CSPS) administration</a>, which left many of their constituents in financial hardship after years of service to the country.</p> <p>It is increasingly being referred to as a “scandal”, and while Capita’s boss received his large pay packet, more than 4,100 former civil servants and their spouses have been forced to apply for emergency loans.</p> <p>Former civil servant&nbsp;<a href=\"https://www.computerweekly.com/news/366639686/Civil-service-veteran-incandescent-as-wait-for-pension-hits-four-months-amid-outsourcing-mess\">Steve Tessier</a> is still waiting for his pension, more than nine months after retiring. Tessier, who had a long career at the Ministry of Defence, as well as a spell on secondment at Nato, said: “It feels obscene that someone should trouser such a large sum when they have been responsible for causing misery and financial hardship for tens of thousands of people.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pressure in the chamber\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pressure in the chamber</h2> <p>During the Westminster Hall debate, Peter Prinsley, Bury St Edmunds and Stowmarket MP, outlined innate unfairness.</p> <p>“I believe the CEO of Capita has an annual remuneration of £1.6m,” he said. “My constituent is a man who gave 33 years of service to the Metropolitan Police, and despite giving masses of notice of his retirement, never received his pension for at least six months. He wanted to fund his daughter for university; he was unable to do so. He took out loans from the police. He then developed cancer and is under treatment at my local hospital.”</p> <p>Prinsley said: “This is an utter disgrace. It’s a complete disgrace.”</p> <p>A CSPS claimant, who wished to remain anonymous, said: “Mr Hernandez took responsibility for this mess. Perhaps he has performed competently in other areas of the company which may justify his huge salary, but in this instance he has fallen abysmally short of being competent.”</p> <p>“Perhaps he ought to hand back some of that salary, it could go towards hiring more staff, paying overtime or setting up a hardship fund for the bereaved who do not have access to the government bridging loan. Alternatively, he may put it towards any compensation for those affected.”</p> <p>The government has so far approved over £100m to provide interest-free transitional support loans to those affected by pension delays, which has seen more than 4,100 loans made.</p> <p>As revealed by Computer Weekly in August, Hernandez was <a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">slammed by a Capita staff member</a>, working on pensions, after he made claims internally that the “right” things are in place to turn the <a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">botched CSPS</a> administration around.</p> <p>The comments from a staff member, which appeared in a message copied to all staff, cast doubt on Capita’s ability to fix the problems being experienced.</p> <p>The staff member wrote: “The service provided by Capita surpasses your assertion of ‘not good enough’, it has been abysmal for members. The fact members have died in waiting due to this whole catastrophe is a really harrowing thought that none of us should have to live with, yet we sadly do.”</p> <p>Capita and the Cabinet were asked questions about Hernadez’s pay packet and the number of emergency loans given, neither responded.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MPs must act\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MPs must act</h2> <p>Prinsley suggested he and other MPs must be able to sort the mess out. “We all came to this place in order to change things,” he said. “Surely this is something that we can change…”</p> <p>One of the things the government is hoping to do is insource the contract. It has already said it is “actively shaping a long-term strategy to bring the pension scheme back in-house” – a statement repeated by Sally Jameson MP, parliamentary secretary in the Cabinet Office. But there is still uncertainty among members of the scheme, the trade union and MPs about what this means.</p> <p>Jameson went further in the Westminster debate when she said: “We stood on a manifesto as a Labour government to have the biggest wave of insourcing in a generation. I am personally committed to that. I’ve said in this house before that I think that’s a priority for this [CSPS] scheme…”</p> <p>But she added that the government can only do it after making sure it’s in the interest of the scheme members. “We’ve got to make sure that there is no disruption,” said Jameson. “We’ve got to do it in the smoothest and quickest way.”</p> <p>The government has already insourced a failing pension scheme run by Capita, when in April it <a href=\"https://www.computerweekly.com/news/366642152/Government-terminates-Capitas-Royal-Mail-pension-contract\">terminated the supplier’s contract</a> to administer the Royal Mail pension scheme. The government said the outsourcing provider “failed to deliver numerous milestones … following a failure to meet critical transition milestones, and a lack of confidence in Capita’s ability to implement and transition to the new operating model in a timely fashion”.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tech didn’t work\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tech didn’t work</h2> <p>The CSPS contract transferred from MyCSP to Capita in December 2025, after being awarded in 2023. Despite having two years to prepare for it, in the month following Capita’s takeover – amid delays and problems – an HM Revenue &amp; Customs <a href=\"https://www.computerweekly.com/news/366637837/Troubleshooter-steps-in-as-Capita-and-civil-service-bosses-apologise-for-pension-scheme-problems\">troubleshooter was brought in</a>&nbsp;to lead an “urgent recovery plan”.</p> <p>During contract bidding, Capita had claimed artificial intelligence would revolutionise the delivery of the scheme, but its project failed.</p> <p>In a recent <a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">joint PAC and Public Administration and Constitutional Affairs Committee (Pacac) hearing</a>, Pacac chair Simon Hoare MP said Capita had two years to prepare for the takeover of CSPS in December 2025, yet the technology behind its stated the “artificial intelligence” revolution failed.</p> <p>In that meeting, Hoare reminded CEO Hernandez and his colleagues of promises made to government during the contracting process. The Cabinet Office was told “the two-year transition period would lead to the digital artificial intelligence revolution to deliver a world-class, world-leading pension service. None of that met neither the novel nor the basic”.</p> <p>CSPS member Tessier told Computer Weekly that accountability does not rest solely with Capita. “Who in the Cabinet Office took the decision to go ahead with the contract despite strong warnings from the National Audit Office (NAO) and the Public Accounts Committee (PAC)? And what consequences – financial or otherwise – have there been for that individual (and any others who may share responsibility)?”</p> <p>Speaking during the Westminster Hall debate, MP Charlie Dewhirst raised similar questions of the government. He said ministers claimed they received personal assurances from Capita as to its readiness to take over the scheme, and they have not said why they chose to believe these claims despite the findings of the NAO and the PAC: “Can the minister clarify who in their department authorised the go, no go decision in November 2025, [and] what criteria was used to make that decision?”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Government mission\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Government mission</h2> <p>Beyond this debacle, the government has declared <a href=\"https://www.computerweekly.com/news/366644790/UK-government-publishes-guidelines-to-end-era-of-outsourcing-will-IT-be-in-scope\">its plan for the biggest wave of insourcing in a generation</a>. In July, Cabinet Office minister Nick Thomas-Symonds said he would insource CSPS “today” if it was possible.</p> <p>Speaking in the Westminster debate this week, Ian Byrne, MP for Liverpool West Derby, who secured the debate on the CSPS disaster, described Capita’s handing of the pension scheme as an example of the failure of outsourcing.</p> <p>“This is the failed ideology of outsourcing laid bare,” he said. “Born under Thatcher, followed by successive governments of all colours in the name of efficiency, while delivering to absolutely the opposite and putting the burden on ordinary people.”</p> <p>He highlighted Fujitsu’s role in the Post Office scandal and the failing water industry as further examples. “How many more examples must we bring before this House before the political establishment finally accepts that this experiment has completely failed?”</p> <p>Lorraine Beavers, MP for Blackpool North and Fleetwood, like minister Jameson,<b>&nbsp;</b>said she “stood on a manifesto that promised the biggest wave of insourcing in a generation”.</p> <p>“[The CSPS] case is only one of the many since 1980s where the responsibility of the state has been outsourced to private companies who have consistently failed to deliver for working people,” she said. “I will not stop fighting until this scheme is brought back where it belongs.”</p> <p>While there was support for insourcing among MPs at the meeting, others did not believe it to be the answer.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Plain English, please\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Plain English, please</h2> <p>About 80 MPs have now signed an open letter to Capita’s public sector boss, Richard Holroyd, requesting a “plain language” explanation of “what has happened since the last update, what work remains outstanding, whether there are any barriers preventing progress, what the next step will be, and where possible, an indication of when that next step is expected.”</p> <p>The lack of information is causing huge stress amongst CSPS members waiting for the money they are owed and, in many cases, desperately need. They are being held for hours on the phone waiting for support.</p> <p>The Pensions Before Profit Campaigns Group, set up in April this year to campaign around the Civil Service Pension Scheme crisis, is run by a small group of volunteers and supports more than 20,000 members.</p> <p>Following the Westminster Hall debate, the group said in a statement: “We welcome the very belated recognition that Capita’s claims and shifting targets cannot be accepted at face value. We were encouraged by Minister Sally Jameson’s honesty at the Westminster Hall debate about the scale of the crisis, her acknowledgement of members’ lived experiences and her willingness to challenge Capita.”</p> <p>But it added that it believes “Capita continues to treat the Public Accounts Committee, the government and scheme members with contempt”.</p> <p>Its claims that calls are answered within eight minutes and cases are resolved “once and done” are completely at odds with members’ experiences of lengthy waits, repeated contacts, lost documents, inaccurate information and months of delay.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Capita and the Civil Service Pension Scheme</h3> <ul class=\"default-list\"> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366650460/Capita-doesnt-get-to-walk-away-from-civil-service-pension-mess-says-minister\">Capita doesn’t get to ‘walk away from’ civil service pension mess, says minister</a>.</li> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366649749/UK-government-to-create-team-to-validate-Capitas-data-on-troubled-pension-scheme\">UK government to create team to validate Capita’s data on troubled pension scheme</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650254/Capita-meeting-self-imposed-civil-service-pension-targets-not-sufficient-says-government\">UK government views the outsourcer’s overall performance as ‘unacceptable’ after it reports meeting a self-imposed target</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650193/Government-has-seen-enough-of-Capita-failure-and-Civil-Service-Pension-scheme-to-be-moved-in-house\">Government has seen enough of Capita failure and Civil Service Pension Scheme to be moved in-house</a>.</li> <li>Aug 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">Capita CEO receives scathing rebuttal from employee over botched contract</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645827/PAC-raises-more-questions-over-Capitas-role-in-government?_gl=1*xbkv0w*_ga*Mjg4MTcxMzU3LjE3Nzk5NjUxNTU.*_ga_TQKE4GS5P9*czE3ODU5Mjk3MjIkbzI2NiRnMSR0MTc4NTkyOTcyNiRqNTYkbDAkaDA.\">PAC raises more questions over Capita’s role in government</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645700/Capita-to-lose-money-on-pension-debacle-but-has-governments-private-parts-in-its-grip\">Capita to lose money on pension debacle but ‘has government’s private parts in its grip’</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645462/Capita-civil-service-pension-contract-prime-candidate-for-insourcing-says-government-minister\">Capita civil service pension contract ‘prime candidate’ for insourcing, says government minister</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645478/Capitas-rush-to-hit-civil-service-pension-deadline-risking-errors-say-staff\">Capita’s rush to hit civil service pension deadline risking errors, say staff</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645354/Union-calls-for-insourcing-of-pension-contract-as-Capita-shit-show-goes-on\">Union calls for insourcing of pension contract as Capita ‘shit show’ goes on</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366644692/Cabinet-Office-states-Capita-set-to-miss-Civil-Service-Pension-Scheme-deadline\">Cabinet Office states Capita set to miss Civil Service Pension Scheme deadline</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643878/Capita-launched-civil-service-pension-scheme-site-without-basic-web-security\">Capita went live with its troubled civil service pensions administration without a basic Domain Name System security feature</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643712/Ministers-refused-to-sign-off-563m-Capita-contract-amid-civil-service-pension-disaster\">Ministers refused to sign off £563m Capita contract amid civil service pension disaster</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643012/Civil-servants-to-protest-at-Capita-general-meeting-amid-pension-crisis\">Civil servants to protest at Capita general meeting amid pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642492/Was-Capitas-Royal-Mail-pension-contract-a-botch-too-far\">Was Capita’s Royal Mail pension contract a botch too far?</a></li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">Capita lacked ‘detail and thoroughness’ in planning botched Civil Service Pension Scheme takeover</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">MP committees to double up on Capita’s civil service pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642312/Government-should-drop-Capita-from-civil-service-scheme-after-it-loses-Royal-Mail-role-says-union\">Government should drop Capita from civil service scheme after it loses Royal Mail role, says union</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642152/Government-terminates-Capitas-Royal-Mail-pension-contract\">Government terminates Capita’s Royal Mail pension contract</a>.</li> <li>Mar 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366640779/Capita-left-to-deal-with13000-civil-service-pension-cases-over-a-year-old\">Capita left to deal with 13,000 civil service pension cases over a year old</a>.</li> <li>Feb 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">Thousands of unread emails and 20 million database errors cause civil service pension hardship</a>.</li> <li>Jan 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366637837/Troubleshooter-steps-in-as-Capita-and-civil-service-bosses-apologise-for-pension-scheme-problems\">Troubleshooter steps in as Capita and civil service bosses apologise for pension scheme problems</a>.</li> <li>Oct 2025: <a href=\"https://www.computerweekly.com/news/366633358/Capita-rubbishes-Public-Accounts-Committee-report-claims\">Capita rubbishes Public Accounts Committee report claims</a>.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Networks",
-      "GRC",
-      "Industry & Market",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "audit",
-        "nist"
-      ],
-      "Data Centres": [
-        "colo"
-      ],
-      "Industry & Market": [
-        "raises",
-        "ey"
-      ]
-    },
-    "summary": "<p>Capita CEO Adolfo Hernandez earned £1.6m in his last pay packet, while thousands of retired civil servants were forced to apply for emergency loans because the company he runs failed to pay their pensions.</p> <p>With almost all of Capita’s earnings coming from the public sector, it is the taxpayer ultimately footing Capita’s bills, including the CEO’s salary.</p> <p>The substantial pay packet emerged during a Westminster Hall debate this week (15 September), which saw MPs chastise Capita for <a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">huge failings in the Civil Service Pension Scheme (CSPS) administration</a>, which left many of their constituents in financial hardship after years of service to the country.</p> <p>It is increasingly being referred to as a “scandal”, and while Capita’s boss received his large pay packet, more than 4,100 former civil servants and their spouses have been forced to apply for emergency loans.</p> <p>Former civil servant&nbsp;<a href=\"https://www.computerweekly.com/news/366639686/Civil-service-veteran-incandescent-as-wait-for-pension-hits-four-months-amid-outsourcing-mess\">Steve Tessier</a> is still waiting for his pension, more than nine months after retiring. Tessier, who had a long career at the Ministry of Defence, as well as a spell on secondment at Nato, said: “It feels obscene that someone should trouser such a large sum when they have been responsible for causing misery and financial hardship for tens of thousands of people.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pressure in the chamber\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pressure in the chamber</h2> <p>During the Westminster Hall debate, Peter Prinsley, Bury St Edmunds and Stowmarket MP, outlined innate unfairness.</p> <p>“I believe the CEO of Capita has an annual remuneration of £1.6m,” he said. “My constituent is a man who gave 33 years of service to the Metropolitan Police, and despite giving masses of notice of his retirement, never received his pension for at least six months. He wanted to fund his daughter for university; he was unable to do so."
   },
   {
     "title": "CW@60: What sport taught me about technology, and vice versa",
@@ -3718,11 +3608,11 @@
     "summary": "Bose announces the Ultra Open (2nd Gen) and the Sport Open Earbuds, offering more options for aware listeners."
   },
   {
-    "title": "2026 Cross-Strait (Kunshan) Mid-Autumn Lantern Festival Opens",
-    "url": "https://www.prnewswire.com/news-releases/2026-cross-strait-kunshan-mid-autumn-lantern-festival-opens-302883774.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T07:04:00+00:00",
-    "raw_text": "SUZHOU, China, Sept. 19, 2026 /PRNewswire/ -- The 2026 Cross-Strait (Kunshan) Mid-Autumn Lantern Festival officially opened on the evening of Sept. 16 in Kunshan, Suzhou, Jiangsu Province. This year's festival features two main lantern display areas at Huiju Square and Zhouzhuang, along...",
+    "title": "Forte de son développement à l’échelle mondiale, LEPAS s’apprête à lancer sa première Global Elegant Lifestyle Week",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/fr/forte-de-son-d%C3%A9veloppement-%C3%A0-l-%C3%A9chelle-mondiale-lepas-s-appr%C3%AAte-%C3%A0-lancer-sa-premi%C3%A8re-global-elegant-lifestyle-week.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "WUHU, Chine, 19 sept. 2026 (GLOBE NEWSWIRE) -- LEPAS s’apprête à lancer, en octobre prochain, sa première Global Elegant Lifestyle Week. Depuis ses débuts en 2025 en tant que nouvelle marque indépendante, LEPAS a entamé le déploiement mondial de ses produits et de son identité de marque pour entrer sur la scène internationale.",
     "categories": [
       "Networks"
     ],
@@ -3731,78 +3621,138 @@
         "lan"
       ]
     },
-    "summary": "SUZHOU, China, Sept. 19, 2026 /PRNewswire/ -- The 2026 Cross-Strait (Kunshan) Mid-Autumn Lantern Festival officially opened on the evening of Sept. 16 in Kunshan, Suzhou, Jiangsu Province. This year's festival features two main lantern display areas at Huiju Square and Zhouzhuang, along..."
+    "summary": "WUHU, Chine, 19 sept. 2026 (GLOBE NEWSWIRE) -- LEPAS s’apprête à lancer, en octobre prochain, sa première Global Elegant Lifestyle Week. Depuis ses débuts en 2025 en tant que nouvelle marque indépendante, LEPAS a entamé le déploiement mondial de ses produits et de son identité de marque pour entrer sur la scène internationale."
   },
   {
-    "title": "Global Times: China's innovation success is real global news, landing in the living rooms of Italian retirees who barely use a smartphone: Italian scientist",
-    "url": "https://www.prnewswire.com/news-releases/global-times-chinas-innovation-success-is-real-global-news-landing-in-the-living-rooms-of-italian-retirees-who-barely-use-a-smartphone-italian-scientist-302883745.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T04:35:00+00:00",
-    "raw_text": "BEIJING, Sept. 18, 2026 /PRNewswire/ -- Ahead of the opening of the 2026 World AI Conference and High-Level Meeting on Global AI Governance, Chinese AI start-up Moonshot AI released its Kimi K3 large language model. As the world's largest open-source model by parameter count to date, this...",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "governance"
-      ]
-    },
-    "summary": "BEIJING, Sept. 18, 2026 /PRNewswire/ -- Ahead of the opening of the 2026 World AI Conference and High-Level Meeting on Global AI Governance, Chinese AI start-up Moonshot AI released its Kimi K3 large language model. As the world's largest open-source model by parameter count to date, this..."
-  },
-  {
-    "title": "Global Times: China's success and prosperity stem from the CPC's outstanding leadership: former Egyptian PM",
-    "url": "https://www.prnewswire.com/news-releases/global-times-chinas-success-and-prosperity-stem-from-the-cpcs-outstanding-leadership-former-egyptian-pm-302883746.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T04:35:00+00:00",
-    "raw_text": "BEIJING, Sept. 18, 2026 /PRNewswire/ -- As this year marks the 105th anniversary of the founding of the Communist Party of China (CPC), a national conference on Party building was held in Beijing on June 15, making arrangements for studying and implementing Xi Jinping Thought on Party...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "BEIJING, Sept. 18, 2026 /PRNewswire/ -- As this year marks the 105th anniversary of the founding of the Communist Party of China (CPC), a national conference on Party building was held in Beijing on June 15, making arrangements for studying and implementing Xi Jinping Thought on Party..."
-  },
-  {
-    "title": "Lactips и SmartSolve объявляют о глобальном стратегическом партнерстве в области беспластиковой упаковки",
-    "url": "https://www.prnewswire.com/news-releases/lactips--smartsolve----------302883730.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:21:00+00:00",
-    "raw_text": "Передовые инновации в области упаковки на двух континентах ПАРИЖ, 19 сентября 2026 г. /PRNewswire/ -- Lactips, французская компания-новатор в области 100%-ных биоматериалов на основе водорастворимых природных полимеров, и SmartSolve, американский пионер в области водорастворимой упаковки...",
+    "title": "Aufbauend auf globalen Erfolgen veranstaltet LEPAS seine erste „Global Elegant Lifestyle Week“",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/de/aufbauend-auf-globalen-erfolgen-veranstaltet-lepas-seine-erste-global-elegant-lifestyle-week.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS wird im Oktober dieses Jahres erstmals die „LEPAS Global Elegant Lifestyle Week“ veranstalten. Seit seinem Debüt als neue, unabhängige Marke im Jahr 2025 hat LEPAS mit der weltweiten Markteinführung seiner Produkte und dem Ausbau seiner Markenpräsenz begonnen und damit internationale Aufmerksamkeit auf sich gezogen.",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Передовые инновации в области упаковки на двух континентах ПАРИЖ, 19 сентября 2026 г. /PRNewswire/ -- Lactips, французская компания-новатор в области 100%-ных биоматериалов на основе водорастворимых природных полимеров, и SmartSolve, американский пионер в области водорастворимой упаковки..."
+    "summary": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS wird im Oktober dieses Jahres erstmals die „LEPAS Global Elegant Lifestyle Week“ veranstalten. Seit seinem Debüt als neue, unabhängige Marke im Jahr 2025 hat LEPAS mit der weltweiten Markteinführung seiner Produkte und dem Ausbau seiner Markenpräsenz begonnen und damit internationale Aufmerksamkeit auf sich gezogen."
   },
   {
-    "title": "Blaize Holdings, Inc. Deadline: BZAI Investors Have Opportunity to Lead Blaize Holdings, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/blaize-holdings-inc-deadline-bzai-investors-have-opportunity-to-lead-blaize-holdings-inc-securities-fraud-lawsuit-filed-by-the-rosen-law-firm-302883673.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:16:00+00:00",
-    "raw_text": "NEW YORK, Sept. 18, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Blaize Holdings, Inc. (NASDAQ: BZAI) between July 18, 2025 and April 28, 2026, both dates inclusive (the \"Class Period\"), of the important October 5, 2026...",
+    "title": "בהמשך להתקדמות הגלובלית, LEPAS עומדת להשיק את שבוע סגנון החיים האלגנטי הגלובלי הראשון שלה",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/he/%D7%91%D7%94%D7%9E%D7%A9%D7%9A-%D7%9C%D7%94%D7%AA%D7%A7%D7%93%D7%9E%D7%95%D7%AA-%D7%94%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99%D7%AA-lepas-%D7%A2%D7%95%D7%9E%D7%93%D7%AA-%D7%9C%D7%94%D7%A9%D7%99%D7%A7-%D7%90%D7%AA-%D7%A9%D7%91%D7%95%D7%A2-%D7%A1%D7%92%D7%A0%D7%95%D7%9F-%D7%94%D7%97%D7%99%D7%99%D7%9D-%D7%94%D7%90%D7%9C%D7%92%D7%A0%D7%98%D7%99-%D7%94%D7%92%D7%9C%D7%95%D7%91%D7%9C%D7%99-%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F-%D7%A9%D7%9C%D7%94.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "ווהו, סין, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS עתידה להשיק את אירוע שבוע סגנון החיים האלגנטי הגלובלי של LEPAS הראשון שלה בחודש אוקטובר הקרוב. מאז הופעת הבכורה שלה כמותג עצמאי חדש בשנת 2025, החלה LEPAS בפריסה גלובלית של מוצריה ושל נוכחות המותג, כשהיא זוכה לתשומת לב עולמית.",
     "categories": [
-      "Cloud Infrastructure"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "ווהו, סין, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS עתידה להשיק את אירוע שבוע סגנון החיים האלגנטי הגלובלי של LEPAS הראשון שלה בחודש אוקטובר הקרוב. מאז הופעת הבכורה שלה כמותג עצמאי חדש בשנת 2025, החלה LEPAS בפריסה גלובלית של מוצריה ושל נוכחות המותג, כשהיא זוכה לתשומת לב עולמית."
+  },
+  {
+    "title": "Melanjutkan Pencapaiannya di Tingkat Global, LEPAS Siap Menggelar Global Elegant Lifestyle Week Perdana",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/id/melanjutkan-pencapaiannya-di-tingkat-global-lepas-siap-menggelar-global-elegant-lifestyle-week-perdana.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "WUHU, Tiongkok, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS akan mengadakan LEPAS Global Elegant Lifestyle Week untuk pertama kalinya pada Oktober ini. Sejak debutnya sebagai merek independen baru pada tahun 2025, LEPAS terus memperluas jangkauan produk dan kehadiran mereknya secara global sehingga mulai mendapat perhatian di kancah dunia.",
+    "categories": [
+      "Networks"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Networks": [
+        "lan"
       ]
     },
-    "summary": "NEW YORK, Sept. 18, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Blaize Holdings, Inc. (NASDAQ: BZAI) between July 18, 2025 and April 28, 2026, both dates inclusive (the \"Class Period\"), of the important October 5, 2026..."
+    "summary": "WUHU, Tiongkok, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS akan mengadakan LEPAS Global Elegant Lifestyle Week untuk pertama kalinya pada Oktober ini. Sejak debutnya sebagai merek independen baru pada tahun 2025, LEPAS terus memperluas jangkauan produk dan kehadiran mereknya secara global sehingga mulai mendapat perhatian di kancah dunia."
   },
   {
-    "title": "PayPal Holdings Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of PayPal Holdings, Inc. - PYPL",
-    "url": "https://www.prnewswire.com/news-releases/paypal-holdings-investigation-initiated-kahn-swick--foti-llc-investigates-the-officers-and-directors-of-paypal-holdings-inc---pypl-302883670.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW YORK CITY and NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- Former Attorney General of Louisiana, Charles C. Foti, Jr., Esq., a partner at the law firm of Kahn Swick & Foti, LLC (\"KSF\"), announces that KSF has commenced an investigation into PayPal Holdings, Inc. (\"PayPal\" or the...",
+    "title": "レパス、グローバルな進展を土台に、初回グローバル・エレガント・ライフスタイル・ウィークをローンチ",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/ja/%E3%83%AC%E3%83%91%E3%82%B9-%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E3%81%AA%E9%80%B2%E5%B1%95%E3%82%92%E5%9C%9F%E5%8F%B0%E3%81%AB-%E5%88%9D%E5%9B%9E%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB-%E3%82%A8%E3%83%AC%E3%82%AC%E3%83%B3%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB-%E3%82%A6%E3%82%A3%E3%83%BC%E3%82%AF%E3%82%92%E3%83%AD%E3%83%BC%E3%83%B3%E3%83%81.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "中国・蕪湖発, Sept. 19, 2026 (GLOBE NEWSWIRE) -- レパス (LEPAS) は、今年10月に初回レパス・グローバル・エレガント・ライフスタイル・ウィーク (LEPAS Global Elegant Lifestyle Week) を開催する。 2025年に新たな独立ブランドとして誕生して以来、レパスは製品とブランドプレゼンスのグローバル展開を開始し、世界の注目を集めてきた。",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "中国・蕪湖発, Sept. 19, 2026 (GLOBE NEWSWIRE) -- レパス (LEPAS) は、今年10月に初回レパス・グローバル・エレガント・ライフスタイル・ウィーク (LEPAS Global Elegant Lifestyle Week) を開催する。 2025年に新たな独立ブランドとして誕生して以来、レパスは製品とブランドプレゼンスのグローバル展開を開始し、世界の注目を集めてきた。"
+  },
+  {
+    "title": "글로벌 시장 성과 기반으로 LEPAS, 첫 ‘Global Elegant Lifestyle Week’ 개최",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/ko/%EA%B8%80%EB%A1%9C%EB%B2%8C-%EC%8B%9C%EC%9E%A5-%EC%84%B1%EA%B3%BC-%EA%B8%B0%EB%B0%98%EC%9C%BC%EB%A1%9C-lepas-%EC%B2%AB-global-elegant-lifestyle-week-%EA%B0%9C%EC%B5%9C.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "중국 우후, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS가 오는 10월 첫 번째 ‘LEPAS Global Elegant Lifestyle Week’를 개최할 예정이다. 2025년 새로운 독립 브랜드로 첫선을 보인 이후 LEPAS는 제품 출시와 브랜드 확장을 전 세계로 본격화하며 글로벌 시장에서 존재감을 높여왔다.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "중국 우후, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS가 오는 10월 첫 번째 ‘LEPAS Global Elegant Lifestyle Week’를 개최할 예정이다. 2025년 새로운 독립 브랜드로 첫선을 보인 이후 LEPAS는 제품 출시와 브랜드 확장을 전 세계로 본격화하며 글로벌 시장에서 존재감을 높여왔다."
+  },
+  {
+    "title": "Meneruskan Kemajuan Global, LEPAS Bersedia Melancarkan Global Elegant Lifestyle Week Pertamanya",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/ms/meneruskan-kemajuan-global-lepas-bersedia-melancarkan-global-elegant-lifestyle-week-pertamanya.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS bakal melancarkan LEPAS Global Elegant Lifestyle Week yang pertama Oktober ini. Sejak diperkenalkan sebagai jenama bebas baharu pada 2025, LEPAS telah memulakan pelancaran produknya di peringkat global serta memperluas kehadiran jenama, sekali gus meraih perhatian di persada antarabangsa.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS bakal melancarkan LEPAS Global Elegant Lifestyle Week yang pertama Oktober ini. Sejak diperkenalkan sebagai jenama bebas baharu pada 2025, LEPAS telah memulakan pelancaran produknya di peringkat global serta memperluas kehadiran jenama, sekali gus meraih perhatian di persada antarabangsa."
+  },
+  {
+    "title": "Dando Seguimento ao Seu Progresso Global, a LEPAS Irá Realizar a Primeira Edição da Global Elegant Lifestyle Week",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/pt/dando-seguimento-ao-seu-progresso-global-a-lepas-ir%C3%A1-realizar-a-primeira-edi%C3%A7%C3%A3o-da-global-elegant-lifestyle-week.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- A LEPAS irá realizar a primeira edição da LEPAS Global Elegant Lifestyle Week em outubro. A partir da sua estreia como uma nova marca independente em 2025, a LEPAS iniciou o lançamento global dos seus produtos e a expansão da presença da sua marca, conquistando destaque no cenário mundial.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- A LEPAS irá realizar a primeira edição da LEPAS Global Elegant Lifestyle Week em outubro. A partir da sua estreia como uma nova marca independente em 2025, a LEPAS iniciou o lançamento global dos seus produtos e a expansão da presença da sua marca, conquistando destaque no cenário mundial."
+  },
+  {
+    "title": "Sobre la base de su progreso global, LEPAS se prepara para lanzar su primera Semana Mundial del Estilo de Vida Elegante",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/es/sobre-la-base-de-su-progreso-global-lepas-se-prepara-para-lanzar-su-primera-semana-mundial-del-estilo-de-vida-elegante.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS se prepara para lanzar su primera Semana Mundial del Estilo de Vida Elegante este mes de octubre. Desde su debut como nueva marca independiente en 2025, LEPAS ha comenzado su lanzamiento mundial de productos y presencia de marca, recibiendo atención internacional.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "WUHU, China, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS se prepara para lanzar su primera Semana Mundial del Estilo de Vida Elegante este mes de octubre. Desde su debut como nueva marca independiente en 2025, LEPAS ha comenzado su lanzamiento mundial de productos y presencia de marca, recibiendo atención internacional."
+  },
+  {
+    "title": "LEPAS เตรียมเปิดตัว Global Elegant Lifestyle Week ครั้งแรก ต่อยอดความสำเร็จระดับโลก",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365004/0/th/lepas-%E0%B9%80%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B8%A7-global-elegant-lifestyle-week-%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%81%E0%B8%A3%E0%B8%81-%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B8%A2%E0%B8%AD%E0%B8%94%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%B3%E0%B9%80%E0%B8%A3%E0%B9%87%E0%B8%88%E0%B8%A3%E0%B8%B0%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%82%E0%B8%A5%E0%B8%81.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T11:13:00+00:00",
+    "raw_text": "อู่หู ประเทศจีน, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS เตรียมเปิดตัวง LEPAS Global Elegant Lifestyle Week เป็นครั้งแรกในเดือนตุลาคมนี้ นับตั้งแต่การเปิดตัวในฐานะแบรนด์อิสระแบรนด์ใหม่ในปี 2025 LEPAS ได้เริ่มเปิดตัวผลิตภัณฑ์และขยายตัวตนของแบรนด์ในระดับสากล ก้าวขึ้นมาเป็นที่จับตามองของทั่วโลก",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "อู่หู ประเทศจีน, Sept. 19, 2026 (GLOBE NEWSWIRE) -- LEPAS เตรียมเปิดตัวง LEPAS Global Elegant Lifestyle Week เป็นครั้งแรกในเดือนตุลาคมนี้ นับตั้งแต่การเปิดตัวในฐานะแบรนด์อิสระแบรนด์ใหม่ในปี 2025 LEPAS ได้เริ่มเปิดตัวผลิตภัณฑ์และขยายตัวตนของแบรนด์ในระดับสากล ก้าวขึ้นมาเป็นที่จับตามองของทั่วโลก"
+  },
+  {
+    "title": "No Deposit Bonus Codes 2026: BitStarz Announces No Deposit Bonus Casino Promo Codes And Free Spins Offers For Real Money Players.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/19/3365003/0/en/no-deposit-bonus-codes-2026-bitstarz-announces-no-deposit-bonus-casino-promo-codes-and-free-spins-offers-for-real-money-players.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-19T10:53:00+00:00",
+    "raw_text": "No Deposit Bonus Codes 2026: BitStarz announces casino promo codes with 30 free spins for real players. Explore bonus details, eligibility, and current offers. No Deposit Bonus Codes 2026: BitStarz announces casino promo codes with 30 free spins for real players. Explore bonus details, eligibility, and current offers.",
     "categories": [
       "Industry & Market"
     ],
@@ -3812,264 +3762,7 @@
         "ey"
       ]
     },
-    "summary": "NEW YORK CITY and NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- Former Attorney General of Louisiana, Charles C. Foti, Jr., Esq., a partner at the law firm of Kahn Swick & Foti, LLC (\"KSF\"), announces that KSF has commenced an investigation into PayPal Holdings, Inc. (\"PayPal\" or the..."
-  },
-  {
-    "title": "York Space Systems Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against York Space Systems, Inc. - YSS",
-    "url": "https://www.prnewswire.com/news-releases/york-space-systems-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-york-space-systems-inc---yss-302883663.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against York Space Systems, Inc. (\"York Space Systems\" or the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against York Space Systems, Inc. (\"York Space Systems\" or the..."
-  },
-  {
-    "title": "Simply Good Foods Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Simply Good Foods Company - SMPL",
-    "url": "https://www.prnewswire.com/news-releases/simply-good-foods-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-simply-good-foods-company---smpl-302883664.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Simply Good Foods Company (\"Simply Good\" or the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Simply Good Foods Company (\"Simply Good\" or the..."
-  },
-  {
-    "title": "Hims & Hers Health Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Hims & Hers Health, Inc. - HIMS",
-    "url": "https://www.prnewswire.com/news-releases/hims--hers-health-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hims--hers-health-inc---hims-302883660.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 2, 2026 to file lead plaintiff applications in a securities class action lawsuit against Hims & Hers Health, Inc. (\"Hims\" or the \"Company\")...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 2, 2026 to file lead plaintiff applications in a securities class action lawsuit against Hims & Hers Health, Inc. (\"Hims\" or the \"Company\")..."
-  },
-  {
-    "title": "HDFC Bank Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against HDFC Bank Limited - HDB",
-    "url": "https://www.prnewswire.com/news-releases/hdfc-bank-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hdfc-bank-limited---hdb-302883666.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against HDFC Bank Limited (\"HDFC\" or the \"Company\") (NYSE:...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against HDFC Bank Limited (\"HDFC\" or the \"Company\") (NYSE:..."
-  },
-  {
-    "title": "Capricor Therapeutics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Capricor Therapeutics, Inc. - CAPR",
-    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-capricor-therapeutics-inc---capr-302883656.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until September 28, 2026 to file lead plaintiff applications in a securities class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until September 28, 2026 to file lead plaintiff applications in a securities class action lawsuit against Capricor Therapeutics, Inc. (\"Capricor\" or the..."
-  },
-  {
-    "title": "Beta Bionics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Beta Bionics, Inc. - BBNX",
-    "url": "https://www.prnewswire.com/news-releases/beta-bionics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-beta-bionics-inc---bbnx-302883658.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 3, 2026 to file lead plaintiff applications in a securities class action lawsuit against Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\")...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 3, 2026 to file lead plaintiff applications in a securities class action lawsuit against Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\")..."
-  },
-  {
-    "title": "Avis Budget Group Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Avis Budget Group, Inc. - CAR",
-    "url": "https://www.prnewswire.com/news-releases/avis-budget-group-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-avis-budget-group-inc---car-302883655.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until September 29, 2026 to file lead plaintiff applications in a securities class action lawsuit against Avis Budget Group, Inc. (\"Avis\" or the \"Company\")...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until September 29, 2026 to file lead plaintiff applications in a securities class action lawsuit against Avis Budget Group, Inc. (\"Avis\" or the \"Company\")..."
-  },
-  {
-    "title": "AEVEX Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against AEVEX Corp. - AVEX",
-    "url": "https://www.prnewswire.com/news-releases/aevex-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-aevex-corp---avex-302883649.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 20, 2026 to file lead plaintiff applications in a securities class action lawsuit against AEVEX Corp. (\"Aevex\" or the \"Company\") (NYSE: AVEX), if...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Sept. 18, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 20, 2026 to file lead plaintiff applications in a securities class action lawsuit against AEVEX Corp. (\"Aevex\" or the \"Company\") (NYSE: AVEX), if..."
-  },
-  {
-    "title": "Corgi Insurance Appoints Daniel Hausman as Vice President of Trucking Program",
-    "url": "https://www.prnewswire.com/news-releases/corgi-insurance-appoints-daniel-hausman-as-vice-president-of-trucking-program-302883722.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T00:31:00+00:00",
-    "raw_text": "ATLANTA, Sept. 18, 2026 /PRNewswire/ -- Corgi Insurance, an AI-native insurance carrier, has announced the appointment of Daniel Hausman as Vice President of its Trucking Program, bringing decades of experience in commercial trucking insurance, underwriting, program development,...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "ATLANTA, Sept. 18, 2026 /PRNewswire/ -- Corgi Insurance, an AI-native insurance carrier, has announced the appointment of Daniel Hausman as Vice President of its Trucking Program, bringing decades of experience in commercial trucking insurance, underwriting, program development,..."
-  },
-  {
-    "title": "WSE Stockholder Alert: Robbins LLP Reminds Investors with Significant Losses They Should Contact the Firm in Advance of the September 28, 2026 Lead Plaintiff Deadline in the Securities Fraud Class Action Filed Against Wise Group plc",
-    "url": "https://www.prnewswire.com/news-releases/wse-stockholder-alert-robbins-llp-reminds-investors-with-significant-losses-they-should-contact-the-firm-in-advance-of-the-september-28-2026-lead-plaintiff-deadline-in-the-securities-fraud-class-action-filed-against-wise-group-p-302883644.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T00:07:00+00:00",
-    "raw_text": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Robbins LLP reminds investors that a securities class action has been filed on behalf of all persons and entities that purchased or otherwise acquired Wise Group plc (NASDAQ: WSE) securities between May 11, 2026 and July 23, 2026 (the \"Class...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquired",
-        "ey"
-      ]
-    },
-    "summary": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Robbins LLP reminds investors that a securities class action has been filed on behalf of all persons and entities that purchased or otherwise acquired Wise Group plc (NASDAQ: WSE) securities between May 11, 2026 and July 23, 2026 (the \"Class..."
-  },
-  {
-    "title": "REPL Stockholders with Significant Losses Should Contact Robbins LLP Before the Pending October 5, 2026 Lead Plaintiff Deadline for Information About Recovering Their Losses",
-    "url": "https://www.prnewswire.com/news-releases/repl-stockholders-with-significant-losses-should-contact-robbins-llp-before-the-pending-october-5-2026-lead-plaintiff-deadline-for-information-about-recovering-their-losses-302883639.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-19T00:04:00+00:00",
-    "raw_text": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Shareholder rights law firm Robbins LLP reminds investors that a class action was filed on behalf of all persons and entities that purchased or otherwise acquired Replimune Group, Inc. (NASDAQ: REPL) securities between October 20, 2025 and April...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquired"
-      ]
-    },
-    "summary": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Shareholder rights law firm Robbins LLP reminds investors that a class action was filed on behalf of all persons and entities that purchased or otherwise acquired Replimune Group, Inc. (NASDAQ: REPL) securities between October 20, 2025 and April..."
-  },
-  {
-    "title": "TBLA Deadline: TBLA Investors Have Opportunity to Lead Taboola.com Ltd. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/tbla-deadline-tbla-investors-have-opportunity-to-lead-taboolacom-ltd-securities-fraud-lawsuit-302883633.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T23:09:00+00:00",
-    "raw_text": "NEW YORK, Sept. 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Taboola.com Ltd. (NASDAQ: TBLA) between May 6, 2026 and August 4, 2026, both dates inclusive (the \"Class Period\"), of the important October 20, 2026 lead...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, Sept. 18, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Taboola.com Ltd. (NASDAQ: TBLA) between May 6, 2026 and August 4, 2026, both dates inclusive (the \"Class Period\"), of the important October 20, 2026 lead..."
-  },
-  {
-    "title": "Capricor Therapeutics, Inc. Stockholders with Significant Losses Should Contact Robbins LLP Before the Pending September 28, 2026 Lead Plaintiff Deadline",
-    "url": "https://www.prnewswire.com/news-releases/capricor-therapeutics-inc-stockholders-with-significant-losses-should-contact-robbins-llp-before-the-pending-september-28-2026-lead-plaintiff-deadline-302883636.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T23:07:00+00:00",
-    "raw_text": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Robbins LLP informs investors that a securities class action has been filed on behalf of all persons and entities that purchased or otherwise acquired Capricor Therapeutics, Inc. (NASDAQ: CAPR) securities between December 17, 2025 and July 26,...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquired"
-      ]
-    },
-    "summary": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Robbins LLP informs investors that a securities class action has been filed on behalf of all persons and entities that purchased or otherwise acquired Capricor Therapeutics, Inc. (NASDAQ: CAPR) securities between December 17, 2025 and July 26,..."
-  },
-  {
-    "title": "Bloom Energy Corporation Investors Should Learn About Their Rights Against the Company; Contact Robbins LLP Before the September 28, 2026 Lead Plaintiff Deadline",
-    "url": "https://www.prnewswire.com/news-releases/bloom-energy-corporation-investors-should-learn-about-their-rights-against-the-company-contact-robbins-llp-before-the-september-28-2026-lead-plaintiff-deadline-302883628.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-18T23:06:00+00:00",
-    "raw_text": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Robbins LLP reminds investors that a securities class action has been filed on behalf of all persons and entities that purchased or otherwise acquired Bloom Energy Corporation (NYSE: BE) securities between February 27, 2025 and July 8, 2026 (the...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquired"
-      ]
-    },
-    "summary": "SAN DIEGO, Sept. 18, 2026 /PRNewswire/ -- Robbins LLP reminds investors that a securities class action has been filed on behalf of all persons and entities that purchased or otherwise acquired Bloom Energy Corporation (NYSE: BE) securities between February 27, 2025 and July 8, 2026 (the..."
+    "summary": "No Deposit Bonus Codes 2026: BitStarz announces casino promo codes with 30 free spins for real players. Explore bonus details, eligibility, and current offers. No Deposit Bonus Codes 2026: BitStarz announces casino promo codes with 30 free spins for real players. Explore bonus details, eligibility, and current offers."
   },
   {
     "title": "CGTN：CGTN Poll | Why is the SCO Solution for Global Governance Drawing Wide Attention?",
@@ -4203,166 +3896,6 @@
     ],
     "matched_keywords": {},
     "summary": "After 10 years of persistent efforts, the time to reap the rewards has arrived. CT Group Hi-Tech has been separated into an independent corporation with 15 member companies and is rolling out a series of programs aimed at achieving milestones in celebration of this historic event After 10 years of persistent efforts, the time to reap the rewards has arrived. CT Group Hi-Tech has been separated into an independent corporation with 15 member companies and is rolling out a series of programs aimed at achieving milestones in celebration of this historic event"
-  },
-  {
-    "title": "First Atlantic Nickel & Cobalt Raises 6.15 Million Dollars in No-Warrant, Non-Brokered Private Placement to Accelerate Mining Exploration and Development at Pipestone XL Nickel-Cobalt Alloy (Awaruite) Project in Newfoundland",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364958/0/en/first-atlantic-nickel-cobalt-raises-6-15-million-dollars-in-no-warrant-non-brokered-private-placement-to-accelerate-mining-exploration-and-development-at-pipestone-xl-nickel-cobalt.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T21:02:00+00:00",
-    "raw_text": "First Atlantic Nickel & Cobalt closes $6.16 million flow-through financing to fund drilling and exploration at its Pipestone XL project.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "raises"
-      ]
-    },
-    "summary": "First Atlantic Nickel & Cobalt closes $6.16 million flow-through financing to fund drilling and exploration at its Pipestone XL project."
-  },
-  {
-    "title": "Teva Announces New Olanzapine LAI (TEV-'749) Post Hoc Data Highlighting High Rates of Stabilization and Long-Term Efficacy as Once-Monthly Subcutaneous Injectable for the Treatment of Schizophrenia in Adults",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364951/0/en/teva-announces-new-olanzapine-lai-tev-749-post-hoc-data-highlighting-high-rates-of-stabilization-and-long-term-efficacy-as-once-monthly-subcutaneous-injectable-for-the-treatment-of.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T20:30:00+00:00",
-    "raw_text": "PARSIPPANY, N.J., Sept. 18, 2026 (GLOBE NEWSWIRE) -- Teva Pharmaceuticals, a U.S. affiliate of Teva Pharmaceutical Industries Ltd. (NYSE and TASE: TEVA), today announced the presentation of new olanzapine LAI (TEV-'749) post hoc data from the pivotal SOLARIS Phase 3 trial as well as analyses supporting treatment switch strategies. The SOLARIS data highlighted the acute and long-term durability, efficacy and safety of TEV-'749 as a once-monthly subcutaneous long-acting injectable (LAI) formulation of olanzapine for the treatment of schizophrenia in adults. The findings were presented at Psych Congress, held September 15 – 19, 2026, in New Orleans, LA.",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "PARSIPPANY, N.J., Sept. 18, 2026 (GLOBE NEWSWIRE) -- Teva Pharmaceuticals, a U.S. affiliate of Teva Pharmaceutical Industries Ltd. (NYSE and TASE: TEVA), today announced the presentation of new olanzapine LAI (TEV-'749) post hoc data from the pivotal SOLARIS Phase 3 trial as well as analyses supporting treatment switch strategies."
-  },
-  {
-    "title": "Pemi Named Best Perimenopause Supplement Brand of 2026",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364925/0/en/pemi-named-best-perimenopause-supplement-brand-of-2026.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T19:15:00+00:00",
-    "raw_text": "The women-founded perimenopause brand's oral dissolving strips for mood, mental clarity, and sleep took the top spot in a new ranking of the best perimenopause supplements of 2026, recognized as the best pick for an easy, targeted perimenopause routine. The women-founded perimenopause brand's oral dissolving strips for mood, mental clarity, and sleep took the top spot in a new ranking of the best perimenopause supplements of 2026, recognized as the best pick for an easy, targeted perimenopause routine.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The women-founded perimenopause brand's oral dissolving strips for mood, mental clarity, and sleep took the top spot in a new ranking of the best perimenopause supplements of 2026, recognized as the best pick for an easy, targeted perimenopause routine. The women-founded perimenopause brand's oral dissolving strips for mood, mental clarity, and sleep took the top spot in a new ranking of the best perimenopause supplements of 2026, recognized as the best pick for an easy, targeted perimenopause routine."
-  },
-  {
-    "title": "Remittix Moves Closer to Launch Milestone as XRP Stabilizes Near $1.33 After CLARITY Act Setback",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364917/0/en/remittix-moves-closer-to-launch-milestone-as-xrp-stabilizes-near-1-33-after-clarity-act-setback.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T18:30:00+00:00",
-    "raw_text": "Remittix reports 82.33% of its current presale allocation sold, with RTX priced at $0.21 ahead of its next scheduled price of $0.23 Remittix reports 82.33% of its current presale allocation sold, with RTX priced at $0.21 ahead of its next scheduled price of $0.23",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Remittix reports 82.33% of its current presale allocation sold, with RTX priced at $0.21 ahead of its next scheduled price of $0.23 Remittix reports 82.33% of its current presale allocation sold, with RTX priced at $0.21 ahead of its next scheduled price of $0.23"
-  },
-  {
-    "title": "Mark Cuban Foundation and SL2 Bring Free AI Bootcamp to Boston Teens",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364915/0/en/mark-cuban-foundation-and-sl2-bring-free-ai-bootcamp-to-boston-teens.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T18:28:00+00:00",
-    "raw_text": "APPLICATIONS CLOSE SEPTEMBER 30 APPLICATIONS CLOSE SEPTEMBER 30",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "APPLICATIONS CLOSE SEPTEMBER 30 APPLICATIONS CLOSE SEPTEMBER 30"
-  },
-  {
-    "title": "Elite Asia Group Unveils New Integrative Wellness Approach Combining Traditional Chinese Medicine and AI Technology",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364913/0/en/elite-asia-group-unveils-new-integrative-wellness-approach-combining-traditional-chinese-medicine-and-ai-technology.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T18:22:00+00:00",
-    "raw_text": "Elite Asia Group launches an integrative wellness center in Hong Kong combining Traditional Chinese Medicine, AI moxibustion, and quantum grounding therapy",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Elite Asia Group launches an integrative wellness center in Hong Kong combining Traditional Chinese Medicine, AI moxibustion, and quantum grounding therapy"
-  },
-  {
-    "title": "IBN Initiates Coverage of Apimeds Pharmaceuticals US, Inc.",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364908/0/en/ibn-initiates-coverage-of-apimeds-pharmaceuticals-us-inc.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T18:00:00+00:00",
-    "raw_text": "AUSTIN, Texas, Sept. 18, 2026 (GLOBE NEWSWIRE) -- via IBN – Apimeds Pharmaceuticals US, Inc. (NYSE American: APUS) has engaged IBN , a multifaceted financial news and publishing company serving private and public entities, to assist with its corporate communications strategy.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "AUSTIN, Texas, Sept. 18, 2026 (GLOBE NEWSWIRE) -- via IBN – Apimeds Pharmaceuticals US, Inc. (NYSE American: APUS) has engaged IBN , a multifaceted financial news and publishing company serving private and public entities, to assist with its corporate communications strategy."
-  },
-  {
-    "title": "Avant Files Application to Establish Avant Bank, N.A.",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364905/0/en/avant-files-application-to-establish-avant-bank-n-a.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T17:42:00+00:00",
-    "raw_text": "Proposed national bank charter would let Avant serve customers directly, expanding access to affordable, transparent credit and financial tools for underserved Americans Proposed national bank charter would let Avant serve customers directly, expanding access to affordable, transparent credit and financial tools for underserved Americans",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Proposed national bank charter would let Avant serve customers directly, expanding access to affordable, transparent credit and financial tools for underserved Americans Proposed national bank charter would let Avant serve customers directly, expanding access to affordable, transparent credit and financial tools for underserved Americans"
-  },
-  {
-    "title": "City of New Rochelle’s Initiative with AGZA and Quiet Communities Aims to Create Quieter, Healthier Neighborhoods",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364891/0/en/city-of-new-rochelle-s-initiative-with-agza-and-quiet-communities-aims-to-create-quieter-healthier-neighborhoods.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T16:56:00+00:00",
-    "raw_text": "Comprehensive program will help the city, landscaping businesses and residents transition from gas-powered landscape equipment to cleaner, quieter battery-electric alternatives Comprehensive program will help the city, landscaping businesses and residents transition from gas-powered landscape equipment to cleaner, quieter battery-electric alternatives",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Comprehensive program will help the city, landscaping businesses and residents transition from gas-powered landscape equipment to cleaner, quieter battery-electric alternatives Comprehensive program will help the city, landscaping businesses and residents transition from gas-powered landscape equipment to cleaner, quieter battery-electric alternatives"
-  },
-  {
-    "title": "Crypto News: Pepeto Announces DeFi Exchange While Bitcoin Price Prediction Reaches $200,000 and Whales Pick the Next Dogecoin",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364887/0/en/crypto-news-pepeto-announces-defi-exchange-while-bitcoin-price-prediction-reaches-200-000-and-whales-pick-the-next-dogecoin.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T16:42:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, Sept. 18, 2026 (GLOBE NEWSWIRE) -- The crypto news that matters this week fits in one line: Pepeto is finishing its DeFi toolset just as the Bitcoin price prediction climbs to $200,000, and crypto communities are getting bullish around this project. Each Pepeto stage sells out quicker than the last, its community outgrows far bigger budgets, and the wallets moving in match those that quietly bought Dogecoin in 2020.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "DUBAI, United Arab Emirates, Sept. 18, 2026 (GLOBE NEWSWIRE) -- The crypto news that matters this week fits in one line: Pepeto is finishing its DeFi toolset just as the Bitcoin price prediction climbs to $200,000, and crypto communities are getting bullish around this project. Each Pepeto stage sells out quicker than the last, its community outgrows far bigger budgets, and the wallets moving in match those that quietly bought Dogecoin in 2020."
-  },
-  {
-    "title": "Minnesota Artist John Kaul to Unveil “Defenders of Democracy” Exhibition in Washington, D.C.",
-    "url": "https://www.globenewswire.com/news-release/2026/09/18/3364885/0/en/minnesota-artist-john-kaul-to-unveil-defenders-of-democracy-exhibition-in-washington-d-c.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-18T16:32:00+00:00",
-    "raw_text": "WASHINGTON, Sept. 18, 2026 (GLOBE NEWSWIRE) -- Minnesota artist, photographer and documentary filmmaker John Kaul will unveil “Defenders of Democracy,” a powerful exhibition of photographic portraits and personal stories honoring Americans who have taken significant personal and professional risks to defend democratic institutions and the rule of law.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "WASHINGTON, Sept. 18, 2026 (GLOBE NEWSWIRE) -- Minnesota artist, photographer and documentary filmmaker John Kaul will unveil “Defenders of Democracy,” a powerful exhibition of photographic portraits and personal stories honoring Americans who have taken significant personal and professional risks to defend democratic institutions and the rule of law."
   },
   {
     "title": "Americas Data Center Colocation Market to Reach USD 92.90 - openPR.com",
