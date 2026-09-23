@@ -1,5 +1,48 @@
 [
   {
+    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+    "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "source": "The Hacker News",
+    "published": "2026-09-23T08:29:48+00:00",
+    "raw_text": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in an advisory on September 22 and has released engineering hotfixes.",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cve",
+        "zero-day",
+        "exploit"
+      ],
+      "GRC": [
+        "policy"
+      ]
+    },
+    "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw, CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in an advisory on September 22 and has released engineering hotfixes."
+  },
+  {
+    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "source": "The Hacker News",
+    "published": "2026-09-23T08:29:24+00:00",
+    "raw_text": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "cve",
+        "zero-day",
+        "exploit",
+        "hacker",
+        "threat"
+      ]
+    },
+    "summary": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break"
+  },
+  {
     "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
     "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
     "source": "The Hacker News",
@@ -463,20 +506,20 @@
     "summary": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary"
   },
   {
-    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-    "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-    "source": "The Hacker News",
-    "published": "2026-09-21T08:39:38+00:00",
-    "raw_text": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)",
+    "title": "Ryuk ransomware member sentenced to 24 months in prison",
+    "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+    "source": "BleepingComputer",
+    "published": "2026-09-23T08:20:05+00:00",
+    "raw_text": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "threat"
+        "ransomware"
       ]
     },
-    "summary": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software,\" Blackpoint Adversary Pursuit Group (APG)"
+    "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]"
   },
   {
     "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
@@ -734,27 +777,73 @@
     "summary": "Ecommerce platform BigCommerce has alerted multiple merchants to data breaches after attackers compromised credentials for third-party Ribon applications and used them to inject malicious scripts into online stores. [...]"
   },
   {
-    "title": "CISA alerts of active exploitation of three Linux kernel flaws",
-    "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
-    "source": "BleepingComputer",
-    "published": "2026-09-21T20:12:17+00:00",
-    "raw_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]",
+    "title": "WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902)",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/cve-2026-87902-wordpress-7-1-2-security-release/",
+    "source": "Help Net Security",
+    "published": "2026-09-23T09:01:45+00:00",
+    "raw_text": "WordPress released version 7.1.2 to fix a critical flaw that lets an unauthenticated attacker make the software load a PHP file of the attacker’s choosing from outside the site’s active theme folders. On sites where the server and the active theme meet certain conditions, the attacker can go on to run code on the server. The project tracks the flaw as CVE-2026-87902 and lists every release from 4.7.0 through 7.1.1 as affected. The attacker needs … More → The post WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902) appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "security"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "WordPress released version 7.1.2 to fix a critical flaw that lets an unauthenticated attacker make the software load a PHP file of the attacker’s choosing from outside the site’s active theme folders. On sites where the server and the active theme meet certain conditions, the attacker can go on to run code on the server. The project tracks the flaw as CVE-2026-87902 and lists every release from 4.7.0 through 7.1.1 as affected. The attacker needs … More → The post WordPress 7.1.2 fixes critical unauthenticated path traversal vulnerability (CVE-2026-87902) appeared first on Help Net Security ."
+  },
+  {
+    "title": "Microsoft disrupts EvilTokens phishing service that gave criminals access to 12,000 inboxes",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/microsoft-eviltokens-phishing-service-disrupted/",
+    "source": "Help Net Security",
+    "published": "2026-09-23T08:34:15+00:00",
+    "raw_text": "The EvilTokens phishing service, which compromised more than 12,000 inboxes at over 10,000 organizations, has been disrupted by a coalition of law enforcement and private-sector partners led by Microsoft. With authorization from the US District Court for the Eastern District of Virginia, Microsoft and Health-ISAC worked with Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver Foundation and TRM Labs to seize 50 websites used to operate the service and disable more than 150 domains tied to … More → The post Microsoft disrupts EvilTokens phishing service that gave criminals access to 12,000 inboxes appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity",
       "Cloud Infrastructure"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
-        "aws"
+        "cloud"
       ],
       "Cybersecurity": [
-        "exploit",
-        "hacker",
-        "security",
-        "cyber"
+        "phishing",
+        "security"
       ]
     },
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that hackers are exploiting three Linux kernel vulnerabilities, one of them rated critical. [...]"
+    "summary": "The EvilTokens phishing service, which compromised more than 12,000 inboxes at over 10,000 organizations, has been disrupted by a coalition of law enforcement and private-sector partners led by Microsoft. With authorization from the US District Court for the Eastern District of Virginia, Microsoft and Health-ISAC worked with Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver Foundation and TRM Labs to seize 50 websites used to operate the service and disable more than 150 domains tied to … More → The post Microsoft disrupts EvilTokens phishing service that gave criminals access to 12,000 inboxes appeared first on Help Net Security ."
+  },
+  {
+    "title": "Claude Opus 5.5 cuts costs and adds safeguards for autonomous AI",
+    "url": "https://www.helpnetsecurity.com/2026/09/23/anthropic-claude-opus-5-5/",
+    "source": "Help Net Security",
+    "published": "2026-09-23T08:30:52+00:00",
+    "raw_text": "Claude Opus 5.5 is available across Anthropic’s platforms, Amazon Web Services, Google Cloud and Microsoft Azure. Developers can access it through the Claude Platform using the model name claude-opus-5-5. It includes watermarking measures designed to comply with the EU AI Act. Built for long and complex tasks Opus 5.5 is designed for codebase migrations, software audits, financial analysis, data collection and workflows involving several applications. Early testers used the model for engineering tasks that ran … More → The post Claude Opus 5.5 cuts costs and adds safeguards for autonomous AI appeared first on Help Net Security .",
+    "categories": [
+      "Cloud Infrastructure",
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "azure",
+        "google cloud"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "audit"
+      ]
+    },
+    "summary": "Claude Opus 5.5 is available across Anthropic’s platforms, Amazon Web Services, Google Cloud and Microsoft Azure. Developers can access it through the Claude Platform using the model name claude-opus-5-5. It includes watermarking measures designed to comply with the EU AI Act. Built for long and complex tasks Opus 5.5 is designed for codebase migrations, software audits, financial analysis, data collection and workflows involving several applications."
   },
   {
     "title": "Prismor: Open-source runtime control plane for AI agents",
@@ -902,79 +991,6 @@
       ]
     },
     "summary": "Three domains / web portals belonging to Dutch academic publishing company Elsevier have been redirecting users to a page branded “LAPSUS$ GROUP, Chapter II,” carrying a signed statement that taunted the FBI and counted down to a future victim. According to Cloudskope researchers, the redirect ran for at least 78 minutes, from roughly 7:49pm CT until it was cleared before 10:09pm CT on September 21, 2026. Elsevier is yet to offer an explanation on how … More → The post Brief hijack makes Elsevier domains redirect to LAPSUS$ “Chapter II” page appeared first on Help Net Security ."
-  },
-  {
-    "title": "The latest deepfake numbers give CISOs plenty to worry about",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/cisos-deepfake-incidents-social-engineering-survey/",
-    "source": "Help Net Security",
-    "published": "2026-09-22T12:05:36+00:00",
-    "raw_text": "AI is letting cybercriminals reach deeper into organizations than a phishing email ever could. 41% of CISOs reported at least one social engineering incident involving a deepfake during an employee audio call in the past 12 months, according to Gartner. 36% reported the same for a video call. 79% of CISOs surveyed reported at least one phishing, spear-phishing, or business email compromise incident in the past 12 months. 58% reported a vishing or smishing incident. … More → The post The latest deepfake numbers give CISOs plenty to worry about appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "security",
-        "cyber",
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey",
-        "gartner"
-      ]
-    },
-    "summary": "AI is letting cybercriminals reach deeper into organizations than a phishing email ever could. 41% of CISOs reported at least one social engineering incident involving a deepfake during an employee audio call in the past 12 months, according to Gartner. 36% reported the same for a video call. 79% of CISOs surveyed reported at least one phishing, spear-phishing, or business email compromise incident in the past 12 months."
-  },
-  {
-    "title": "The next intellectual property thief may sound like your CEO",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/csc-online-intellectual-property-risk-report/",
-    "source": "Help Net Security",
-    "published": "2026-09-22T12:00:05+00:00",
-    "raw_text": "Impersonation, phishing and domain-name abuse are the most concerning types of online intellectual property infringement, according to CSC’s The State of Online IP Risk 2026 report. Internet and branded content, online marketplaces and paid search were the channels most frequently targeted. CSC surveyed 300 senior executives specializing in intellectual property law during the second quarter of 2026. Top three operational challenges when managing IP infringements (Source: CSC) “We know from dealing with our customers that … More → The post The next intellectual property thief may sound like your CEO appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Impersonation, phishing and domain-name abuse are the most concerning types of online intellectual property infringement, according to CSC’s The State of Online IP Risk 2026 report. Internet and branded content, online marketplaces and paid search were the channels most frequently targeted. CSC surveyed 300 senior executives specializing in intellectual property law during the second quarter of 2026. Top three operational challenges when managing IP infringements (Source: CSC) “We know from dealing with our customers that … More → The post The next intellectual property thief may sound like your CEO appeared first on Help Net Security ."
-  },
-  {
-    "title": "Attacker compromised nearly 1000 Zyxel switches since August (CVE-2026-7273)",
-    "url": "https://www.helpnetsecurity.com/2026/09/22/zyxel-switches-cve-2026-7273-vulnerability-exploited/",
-    "source": "Help Net Security",
-    "published": "2026-09-22T10:42:54+00:00",
-    "raw_text": "A Chinese-speaking threat actor has exploited a vulnerability (CVE-2026-7273) in unpatched ZyXEL GS1900 Smart Managed Switches and has exfiltrated sensitive data from 996 devices across 48 countries, GreyNoise reported on Monday. The affected switches are predominantly located in Italy, the US, Taiwan, South Korea, and a number of EU countries. CVE-2026-7273 exploitation is part of an unfolding operation The Zyxel GS1900 Series is a line of Gigabit Ethernet switches aimed at small and mid-sized business … More → The post Attacker compromised nearly 1000 Zyxel switches since August (CVE-2026-7273) appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "threat",
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "A Chinese-speaking threat actor has exploited a vulnerability (CVE-2026-7273) in unpatched ZyXEL GS1900 Smart Managed Switches and has exfiltrated sensitive data from 996 devices across 48 countries, GreyNoise reported on Monday. The affected switches are predominantly located in Italy, the US, Taiwan, South Korea, and a number of EU countries. CVE-2026-7273 exploitation is part of an unfolding operation The Zyxel GS1900 Series is a line of Gigabit Ethernet switches aimed at small and mid-sized business … More → The post Attacker compromised nearly 1000 Zyxel switches since August (CVE-2026-7273) appeared first on Help Net Security ."
   },
   {
     "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
@@ -1131,6 +1147,24 @@
       ]
     },
     "summary": "No summary available."
+  },
+  {
+    "title": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
+    "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
+    "source": "SecurityWeek",
+    "published": "2026-09-23T08:33:06+00:00",
+    "raw_text": "Remote attackers could trigger the critical-severity flaw to access privileged internal functionality. The post Arista Urges Immediate Patching of Exploited VCO Zero-Day appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "zero-day",
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "Remote attackers could trigger the critical-severity flaw to access privileged internal functionality. The post Arista Urges Immediate Patching of Exploited VCO Zero-Day appeared first on SecurityWeek ."
   },
   {
     "title": "Critical F5 BIG-IP Vulnerability Exploited as Zero-Day",
@@ -1305,21 +1339,25 @@
     "summary": "Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method. The post Malicious B-tree NPM Package Accumulates Millions of Downloads appeared first on SecurityWeek ."
   },
   {
-    "title": "WordPress Patches ‘Click2Shell’ Vulnerability",
-    "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
-    "source": "SecurityWeek",
-    "published": "2026-09-22T10:22:27+00:00",
-    "raw_text": "The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek .",
+    "title": "EU Auditors Warn Information-Sharing Gaps Are Hindering Cyber Incident Response",
+    "url": "https://www.infosecurity-magazine.com/news/eu-auditors-slam-blocs-cyberinfo/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-09-23T08:30:00+00:00",
+    "raw_text": "The EU Court of Auditors has criticized EU shortcomings in responding to major cyber incidents",
     "categories": [
-      "Cybersecurity"
+      "Cybersecurity",
+      "GRC"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "vulnerability",
-        "security"
+        "cyber",
+        "incident response"
+      ],
+      "GRC": [
+        "audit"
       ]
     },
-    "summary": "The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek ."
+    "summary": "The EU Court of Auditors has criticized EU shortcomings in responding to major cyber incidents"
   },
   {
     "title": "North Korean Attackers Hit 30,000 Devices and Steal $10.7m",
@@ -1483,23 +1521,6 @@
     "summary": "A breach at image-sharing service Gyazo on September 11 affected over 23 million customers"
   },
   {
-    "title": "Revolut Customers Targeted with New Wave of Phishing Attacks",
-    "url": "https://www.infosecurity-magazine.com/news/revolut-customers-targeted-wave/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-09-21T09:00:00+00:00",
-    "raw_text": "Following a major data breach, Revolut customers are being sent convincing phishing messages",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "phishing"
-      ]
-    },
-    "summary": "Following a major data breach, Revolut customers are being sent convincing phishing messages"
-  },
-  {
     "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
     "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-collaborative-ai-powered-observability-for-your-applications/",
     "source": "AWS News Blog",
@@ -1597,7 +1618,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/maximize-apache-spark-availability-with-flexible-vms/",
     "source": "Google Cloud Blog",
     "published": "2026-09-21T16:00:00+00:00",
-    "raw_text": "The surge in AI development has created unprecedented demand for compute capacity around the globe. This can have negative implications for data processing and pipelines with Apache Spark. Whether you are managing your own Spark infrastructure or using a managed service, you can face availability constraints. However, a significant advantage of using Google’s Managed Service for Apache Spark is the availability of flexible VMs, which provide a targeted mechanism to adopt a dynamic, resource-agnostic philosophy and ensure your pipelines remain operational, even during regional or zonal capacity stockouts. Understanding capacity stockouts Capacity stockouts occur when demand for a specific machine family (such as N2 or N2D) exceeds available capacity in a target zone or region. For time-sensitive analytics pipelines, rigid single-VM requirements transform standard provisioning into a single point of failure which can result in cluster creation delays, failed executions, and potentially compromised business SLAs. Flexible VMs Flexible VMs fundamentally overhaul how a Managed Spark cluster requests compute resources. Rather than binding a cluster to a rigid instance type, flexible VMs allow teams to establish an ordered list of acceptable machine families for master, primary worker, and secondary worker nodes. Key features Multi-family blending: Mix nodes across diverse machine types and generations, combining Gen2 families (e.g., N2, N2D) with Gen4 families (e.g., N4, C4) in a single configuration. Mixed storage support: Broaden available capacity pools by allowing storage options to dynamically adapt to the underlying host family's supported disk types. Comprehensive cluster coverage: Apply flexible rules to primary workers, secondary (preemptible/spot) workers, and master nodes to guarantee cluster provisioning end-to-end. Ranked configuration: A strategy for success A successful flexible VM implementation relies on intentional ranking. By defining a clear hierarchy of options, Managed Spark clusters automatically attempt provisioning, systematically mitigating stockout risks without requiring manual intervention. To improve the availability of suitable VMs, we recommend specifying at least two machine families in the highest priority (Rank 0) flexible VM list. As an example, for production pipelines standardizing on n2d-standard-16 shapes, the following tiering strategy provides robust resilience against capacity constraints: Rank Machine family examples Storage recommendation Rank 0 (Primary) n2d-standard-16, n2-standard-16 Standard Local SSD or PD Rank 1 n4-standard-16, n4d-standard-16 Hyperdisk Balanced Rank 2 c4-standard-16, c3-standard-22 Hyperdisk Balanced Rank 3 e2-standard-16 Standard PD code_block <ListValue: [StructValue([('code', 'gcloud dataproc clusters create $CLUSTER_NAME \\\\\\r\\n--num-workers=10 \\\\\\r\\n--zone=\"\" \\\\\\r\\n--region=us-east1 \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"n2d-standard-16\",\"n2-standard-16\"],\"rank\":0,\"diskConfig\":{\"bootDiskType\":\"pd-standard\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"n4-standard-16\",\"n4d-standard-16\"],\"rank\":1,\"diskConfig\":{\"bootDiskType\":\"hyperdisk-balanced\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"c4-standard-16\",\"c3-standard-22\"],\"rank\":2,\"diskConfig\":{\"bootDiskType\":\"hyperdisk-balanced\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"e2-standard-16\"],\"rank\":3, \"diskConfig\":{\"bootDiskType\":\"pd-ssd\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--master-instance-selection=\\'{\"machineTypes\":[\"n4-standard-16\",\"n4d-standard-16\"],\"rank\":0,\"diskConfig\":{\"bootDiskType\":\"hyperdisk-balanced\",\"bootDiskSizeGb\":400}}\\''), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff25027d2d0>)])]> For pipelines standardizing on legacy n1-standard-16 shapes, the following tiering strategy helps transition workloads toward newer, more available architectures while preserving operational stability: Rank Machine family examples Storage recommendation Rank 0 (Primary) n1-standard-16 n2-standard-16 Standard Local SSD or PD Rank 1 n2d-standard-16 Standard Local SSD or PD Rank 2 n4-standard-16 n4d-standard-16 Hyperdisk Balanced Rank 3 e2-standard-16 Standard PD Leveraging Hyperdisk Balanced Unlocking maximum availability with flexible VMs often requires adopting modern storage architectures like Hyperdisk Balanced . Newer instance families (including N4 and C4) rely on Hyperdisk to deliver predictable performance across variable VM sizes. Starting with default IOPS and throughput settings typically provides a reliable baseline for the majority of distributed Spark jobs. Trade-offs and key considerations While flexible VMs dramatically improve cluster provisioning success, aligning them with enterprise requirements involves evaluating several architectural and financial factors: 1. Resource quotas It is no longer enough to have one specific machine (e.g., N2) quota. You need to ensure you have sufficient compute and disk quotas allocated for all specific machine types and disks (including Hyperdisk) defined in their flexible VM lists. 2. Compute flexible Committed Use Discounts (CUDs) Traditional, resource-based CUDs are tied to specific machine families, which limits flexibility. Adopt Compute flexible Committed Use Discounts (CUDs) to apply savings across multiple VM families and regions. 3. Performance Characteristics Performance can vary between machine generations, as well as between Local SSD and Hyperdisk. While the Managed Spark team maintains internal benchmarks for these comparisons , actual outcomes are workload-dependent. Testing your specific Spark jobs across these families is essential for understanding SLA impacts. Additional recommendations In addition to implementing flexible VMs, there are several other key architectural and scheduling strategies to improve resource availability and workload stability: AutoZone: Implement AutoZone routing to allow Managed Spark to automatically select the zone best suited to execute the job based on current capacity. Smaller machine shapes: Avoid high in demand, large-core shapes. Design workloads and YARN containers to utilize smaller machine shapes (such as 4, 8, or 16 cores). These smaller shapes are much easier to fulfill from the available GCE on-demand pool. Autoscaling: Deploy cluster autoscaling with reasonable maxInstances to manage capacity effectively for bursty or unpredictable workloads without relying on rigid, massive upfront provisioning. Partial cluster creation : Configure a minimum acceptable number of primary workers. This allows clusters to spin up under resource constraints and begin executing, while autoscaling can dynamically add remaining workers as resources become available. Establish regional fallbacks: Some regions, such as us-central1, can experience high demand. Setting up fallbacks to other regions reduces capacity stockout risks. Keep your Spark jobs running with flexible VMs Managing your own Apache Spark infrastructure can be complex, especially when capacity stockouts disrupt your data processing. Utilizing a managed service like Managed Service for Apache Spark provides unique advantages — including built-in platform resilience and access to flexible VMs. By adopting a prioritized fallback strategy with flexible VMs, you can protect your workloads from regional hardware shortages and keep your critical pipelines running. Ready to improve your Spark workload resilience? Start configuring flexible VMs for your Managed Spark clusters today.",
+    "raw_text": "The surge in AI development has created unprecedented demand for compute capacity around the globe. This can have negative implications for data processing and pipelines with Apache Spark. Whether you are managing your own Spark infrastructure or using a managed service, you can face availability constraints. However, a significant advantage of using Google’s Managed Service for Apache Spark is the availability of flexible VMs, which provide a targeted mechanism to adopt a dynamic, resource-agnostic philosophy and ensure your pipelines remain operational, even during regional or zonal capacity stockouts. Understanding capacity stockouts Capacity stockouts occur when demand for a specific machine family (such as N2 or N2D) exceeds available capacity in a target zone or region. For time-sensitive analytics pipelines, rigid single-VM requirements transform standard provisioning into a single point of failure which can result in cluster creation delays, failed executions, and potentially compromised business SLAs. Flexible VMs Flexible VMs fundamentally overhaul how a Managed Spark cluster requests compute resources. Rather than binding a cluster to a rigid instance type, flexible VMs allow teams to establish an ordered list of acceptable machine families for master, primary worker, and secondary worker nodes. Key features Multi-family blending: Mix nodes across diverse machine types and generations, combining Gen2 families (e.g., N2, N2D) with Gen4 families (e.g., N4, C4) in a single configuration. Mixed storage support: Broaden available capacity pools by allowing storage options to dynamically adapt to the underlying host family's supported disk types. Comprehensive cluster coverage: Apply flexible rules to primary workers, secondary (preemptible/spot) workers, and master nodes to guarantee cluster provisioning end-to-end. Ranked configuration: A strategy for success A successful flexible VM implementation relies on intentional ranking. By defining a clear hierarchy of options, Managed Spark clusters automatically attempt provisioning, systematically mitigating stockout risks without requiring manual intervention. To improve the availability of suitable VMs, we recommend specifying at least two machine families in the highest priority (Rank 0) flexible VM list. As an example, for production pipelines standardizing on n2d-standard-16 shapes, the following tiering strategy provides robust resilience against capacity constraints: Rank Machine family examples Storage recommendation Rank 0 (Primary) n2d-standard-16, n2-standard-16 Standard Local SSD or PD Rank 1 n4-standard-16, n4d-standard-16 Hyperdisk Balanced Rank 2 c4-standard-16, c3-standard-22 Hyperdisk Balanced Rank 3 e2-standard-16 Standard PD code_block <ListValue: [StructValue([('code', 'gcloud dataproc clusters create $CLUSTER_NAME \\\\\\r\\n--num-workers=10 \\\\\\r\\n--zone=\"\" \\\\\\r\\n--region=us-east1 \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"n2d-standard-16\",\"n2-standard-16\"],\"rank\":0,\"diskConfig\":{\"bootDiskType\":\"pd-standard\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"n4-standard-16\",\"n4d-standard-16\"],\"rank\":1,\"diskConfig\":{\"bootDiskType\":\"hyperdisk-balanced\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"c4-standard-16\",\"c3-standard-22\"],\"rank\":2,\"diskConfig\":{\"bootDiskType\":\"hyperdisk-balanced\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--worker-instance-selection=\\'{\"machineTypes\":[\"e2-standard-16\"],\"rank\":3, \"diskConfig\":{\"bootDiskType\":\"pd-ssd\",\"bootDiskSizeGb\":400}}\\' \\\\\\r\\n--master-instance-selection=\\'{\"machineTypes\":[\"n4-standard-16\",\"n4d-standard-16\"],\"rank\":0,\"diskConfig\":{\"bootDiskType\":\"hyperdisk-balanced\",\"bootDiskSizeGb\":400}}\\''), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f51ca0aa650>)])]> For pipelines standardizing on legacy n1-standard-16 shapes, the following tiering strategy helps transition workloads toward newer, more available architectures while preserving operational stability: Rank Machine family examples Storage recommendation Rank 0 (Primary) n1-standard-16 n2-standard-16 Standard Local SSD or PD Rank 1 n2d-standard-16 Standard Local SSD or PD Rank 2 n4-standard-16 n4d-standard-16 Hyperdisk Balanced Rank 3 e2-standard-16 Standard PD Leveraging Hyperdisk Balanced Unlocking maximum availability with flexible VMs often requires adopting modern storage architectures like Hyperdisk Balanced . Newer instance families (including N4 and C4) rely on Hyperdisk to deliver predictable performance across variable VM sizes. Starting with default IOPS and throughput settings typically provides a reliable baseline for the majority of distributed Spark jobs. Trade-offs and key considerations While flexible VMs dramatically improve cluster provisioning success, aligning them with enterprise requirements involves evaluating several architectural and financial factors: 1. Resource quotas It is no longer enough to have one specific machine (e.g., N2) quota. You need to ensure you have sufficient compute and disk quotas allocated for all specific machine types and disks (including Hyperdisk) defined in their flexible VM lists. 2. Compute flexible Committed Use Discounts (CUDs) Traditional, resource-based CUDs are tied to specific machine families, which limits flexibility. Adopt Compute flexible Committed Use Discounts (CUDs) to apply savings across multiple VM families and regions. 3. Performance Characteristics Performance can vary between machine generations, as well as between Local SSD and Hyperdisk. While the Managed Spark team maintains internal benchmarks for these comparisons , actual outcomes are workload-dependent. Testing your specific Spark jobs across these families is essential for understanding SLA impacts. Additional recommendations In addition to implementing flexible VMs, there are several other key architectural and scheduling strategies to improve resource availability and workload stability: AutoZone: Implement AutoZone routing to allow Managed Spark to automatically select the zone best suited to execute the job based on current capacity. Smaller machine shapes: Avoid high in demand, large-core shapes. Design workloads and YARN containers to utilize smaller machine shapes (such as 4, 8, or 16 cores). These smaller shapes are much easier to fulfill from the available GCE on-demand pool. Autoscaling: Deploy cluster autoscaling with reasonable maxInstances to manage capacity effectively for bursty or unpredictable workloads without relying on rigid, massive upfront provisioning. Partial cluster creation : Configure a minimum acceptable number of primary workers. This allows clusters to spin up under resource constraints and begin executing, while autoscaling can dynamically add remaining workers as resources become available. Establish regional fallbacks: Some regions, such as us-central1, can experience high demand. Setting up fallbacks to other regions reduces capacity stockout risks. Keep your Spark jobs running with flexible VMs Managing your own Apache Spark infrastructure can be complex, especially when capacity stockouts disrupt your data processing. Utilizing a managed service like Managed Service for Apache Spark provides unique advantages — including built-in platform resilience and access to flexible VMs. By adopting a prioritized fallback strategy with flexible VMs, you can protect your workloads from regional hardware shortages and keep your critical pipelines running. Ready to improve your Spark workload resilience? Start configuring flexible VMs for your Managed Spark clusters today.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1731,6 +1752,54 @@
       ]
     },
     "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code."
+  },
+  {
+    "title": "Okta bets on identity to control AI agents, but is identity enough?",
+    "url": "https://www.csoonline.com/article/4225230/okta-bets-on-identity-to-control-ai-agents-but-is-identity-alone-enough.html",
+    "source": "CSO Online",
+    "published": "2026-09-23T08:25:00+00:00",
+    "raw_text": "Concerns over agentic risks are rising, and identity and access management (IAM) giant Okta believes it’s making the moves of a would-be leader in this emerging cyber market. “Identity is the primary control plane for securing AI,” said Okta CEO and co-founder Todd McKinnon in an earnings call in late August , telling investment analysts that the company’s customers see Okta as well-positioned to secure this agentic future. “And so we’re going after that on all fronts.” “We think that being the system of record for agents in the enterprise and being the system of record for agent identity, in the fullness of time, could be the biggest category of cyber,” he added. At the center of that strategy is Okta for AI Agents, an identity management and security platform for tracking and controlling agentic entities and activity. The company is billing the solution as a blueprint for securing the agentic enterprise, and has kicked off its annual Oktane conference with a slew of enhancements aimed at managing agentic risk, including the expansion of its Agent SSO identity model, the ability to set rules for agent-to-agent interactions, and added policy and logging enforcement for interactions at runtime. But even fully authenticated AI agents can go rogue and do harm, and there are other challenges ahead for the identity management company, experts say. “Identity in itself is not the largest problem in the agentic world,” says Aisling Dawson, an analyst at ABI Research. “Authentication is only the first stage.” Moreover, moving from human to agentic identities is also a challenge, given that AI agents operate at a very different scale than humans, Dawson notes. Vendors coming from the machine identity market already know how to handle this, she says. That may put competitors from the non-human identity (NHI) side of the ledger in a better position for CISO budget in this area, especially as agentic identity also has agent-specific challenges, such as multi-hop delegation, she says. The latest Hugging Face hack, for example, shows that runtime governance, behavioral monitoring, and excessive permissions are all rising threats, she says. But Hugging Face would have been a much smaller event had there been better security practices in place, Ric Smith, president of products and technology at Okta, said in a media briefing last week. “There’s just basic primitives in security that were missed that allowed a lot of this to happen.” That includes identity-related practices, such as the elimination of standing credentials, he said. “Agentic AI is very interesting, and in some ways, the complexity of it makes us forget about the basic principles that we have to put in place to run a secure enterprise,” he said. In addition, Okta’s new agentic gateway would have addressed some of the other issues that made the attack possible, he noted. The agentic security space is a free-for-all Gartner predicts that the average global Fortune 500 company will have more than 150,000 agents in use by 2028 — up from under 15 in 2025. And security is not an afterthought. Headlines are rife with AI agents being used by attackers, being compromised, or going rogue and hacking other companies. OpenAI, Anthropic, and, most recently, Google, have all admitted that their AI agents have gone rogue and hacked other companies. Gartner predicts that the market for securing AI will hit $2.8 billion this year , up 83% from 2025 — and grow to $4.8 billion in 2027 and $7.7 billion in 2028. The identity security market, by comparison, is much larger and more mature. According to IDC , it was $29 billion in 2025 and is expected to grow to $56 billion by 2029. The intersection of the two promises to be a hotly contested area. Hyperscalers and third-party agentic development platforms have agentic security as part of their offerings. Identity and access management vendors, including Okta, Microsoft, and Ping, are expanding beyond human identities to AI agents. Other companies are buying their way in — this year alone, Palo Alto bought CyberArk , CrowdStrike bought SGNL , and Zscaler bought Symmetry Systems . “Everyone wants to own the traffic system of the agent economy,” says IDC analyst Emanuel Figueroa. “Identity vendors, cloud providers, AI platforms, and cybersecurity vendors all see an opportunity to become the control plane for autonomous actors.” Identity providers are positioned well, he says, because agents operate through credentials, permissions, delegated access, and trust relationships. “The question is which layer enterprises ultimately trust to coordinate agent activity at scale.” Okta could have an edge over Microsoft, says ABI’s Dawson, because it offers a more agnostic identity platform. “Limiting vendor lock-in is increasingly a buy-side demand,” she says. That’s partly due to sovereignty requirements, she adds, and is “bolstering the market positioning of players like Okta when compared to hyperscalers and agent provisioners like Microsoft.” “Most enterprises are not looking for another dashboard,” says Figueroa. “They’re looking for fewer of them.” Okta is in a unique position because of their focus on IAM and their broader platform independence, says Forrester analyst Geoff Cairns. “But the competitive landscape is getting more challenging.”",
+    "categories": [
+      "Industry & Market",
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Networks",
+      "GRC",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws"
+      ],
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "threat",
+        "security",
+        "cyber",
+        "identity security"
+      ],
+      "GRC": [
+        "governance",
+        "policy"
+      ],
+      "Data Centres": [
+        "hyperscale",
+        "rack"
+      ],
+      "Industry & Market": [
+        "investment",
+        "ey",
+        "gartner",
+        "forrester",
+        "idc",
+        "vendor"
+      ]
+    },
+    "summary": "Concerns over agentic risks are rising, and identity and access management (IAM) giant Okta believes it’s making the moves of a would-be leader in this emerging cyber market. “Identity is the primary control plane for securing AI,” said Okta CEO and co-founder Todd McKinnon in an earnings call in late August , telling investment analysts that the company’s customers see Okta as well-positioned to secure this agentic future. “And so we’re going after that on all fronts.” “We think that being the system of record for agents in the enterprise and being the system of record for agent identity, in the fullness of time, could be the biggest category of cyber,” he added. At the center of that strategy is Okta for AI Agents, an identity management and security platform for tracking and controlling agentic entities and activity."
   },
   {
     "title": "AI malware just removed the human from the attack loop",
@@ -2092,80 +2161,49 @@
     "summary": "Readiness tagging for AI, always-on observability, and coordinated kill switches at the application layer give enterprises a defensible route to scaling agents while keeping authority in human hands. New York, London – September 15, 2026 – Orchid Security, which unlocks safe AI adoption by solving identity at its core, today unveiled a set of AI readiness controls for AI agents, spanning ongoing identity drift detection and kill switches that operate at the application level. Within seconds, an AI agent can carry an authorized task well past the privilege level it started with — and it never has to “break” a security control or a workflow guardrail to get there. What it does instead is discover and exploit the identity debt already sitting inside the enterprise: credentials hard-coded into systems, orphaned accounts, authentication paths nobody manages, and permissions granted far beyond need."
   },
   {
-    "title": "Revoking the token didn’t kill the backdoor",
-    "url": "https://www.csoonline.com/article/4223975/revoking-the-token-didnt-kill-the-backdoor.html",
-    "source": "CSO Online",
-    "published": "2026-09-21T09:00:00+00:00",
-    "raw_text": "Every identity-compromise runbook I have written, read or inherited has the same step near the top: revoke the tokens. Reset the password, kill the sessions, invalidate the refresh tokens, then go hunting. It is the right instinct. Against adversary-in-the-middle phishing, where the whole prize is a stolen session cookie, revocation is the move that ends the incident. Then I spent a few days taking apart a backdoor where that step buys you nothing at all. The reason sits in one function, and it is the last place most of us would think to look. The sample is GraphWorm, a custom implant tied to the China-nexus APT group Webworm. One thing I found there rewrote a line in my own incident response procedure, and I think it belongs in yours. The C2 channel is somebody’s OneDrive GraphWorm has no C2 domain, no beacon to a rented VPS, no hardcoded address to block. It authenticates to Microsoft Graph as an OAuth application and uses a OneDrive account as a dead drop. The layout is simple enough to sketch on a napkin. The operator writes an encrypted task file into a job folder. The implant polls that folder, runs the task, then uploads the encrypted result into a result folder. A heartbeat file gets a fresh timestamp every interval and a fingerprint file carries the victim’s system details. The command set covers shell execution, file upload and download, sleep, kill and a key exchange pair that upgrades the deployment key to per-session keys. All of it rides graph.microsoft.com over TLS, from a host that is already talking to Microsoft 365 all day. There is no unusual destination for a firewall to flag, no freshly registered domain for a reputation engine to penalize, no odd port. The network layer has nothing to say. That is the design goal, and it is the same shift I have written about before, where operators stop building their own infrastructure and start running on somebody else’s . The credentials are all sitting in the binary in cleartext: a client ID, a client secret, a tenant ID and a refresh token more than 1,300 characters long. The operator also shipped a debug build with the full PDB path intact. One more detail matters for anyone planning a response. The implant does not identify its victims by hostname or address. It builds an identifier by hashing the network adapter’s hardware address together with CPU and disk serial numbers pulled through WMI. Rename the machine, move it to a different subnet or put it behind a new egress address, and the operator still recognizes it as the same box. Any containment plan that leans on changing the victim’s network identity is solving a problem this implant does not have. So far this is a good story but a familiar one. Cloud-hosted C2 is not new. The part I did not expect was in the tasking handler. The function that breaks the runbook Among the commands the implant accepts is one called upgrade. The flow is short, and it is worth walking through. The handler parses a configuration blob out of the incoming task. It then destroys all five credential strings held in the beacon object, copies five new ones in, rebuilds the OAuth scope structure, tests a connection against the new OneDrive account, writes the replacement configuration to disk and swaps the live API instance. One task. Entire identity replaced. Sit with the consequence for a second. Your investigation reaches the point where you have identified the application, you file with the platform and the tokens get revoked. The implant’s next poll fails. If the operator is watching, and an operator writing a heartbeat file every interval is watching, they queue an upgrade task pointing at a second OneDrive account they registered months ago. The implant collects it, rotates and resumes. Nothing on the endpoint changed. No new binary, no new persistence mechanism, no new process. Same file on disk, different identity behind it. Revocation removed a credential. It did not remove access. This does not appear in the public reporting on the family, which is not a criticism. Vendor writeups are scoped to the campaign they observed, and this is the kind of detail you only see with the decompiler open on a function nobody had a reason to prioritize. I confirmed it twice before I was willing to write it down, once from the extracted strings and once from the decompiled function itself. The credential field offsets I recovered from the strings had to line up with the offsets the constructor actually reads from, and they did, which is the difference between a finding and a guess. What I changed afterward Three things came out of this that I would put into an identity response procedure tomorrow. Treat revocation as a delay rather than an eviction whenever the C2 rides an application identity . The durable object is the registration, not the tokens it issues. Tokens are leaves, the registration is the root, and containment that stops at revoking has started a timer rather than closed a door. If the registration lives in a tenant, you do not control, suspension means filing a report and waiting on somebody else’s queue, so file early rather than as a last step. Assume the operator holds a spare. Credential rotation costs an attacker almost nothing and costs you an entire response cycle. That asymmetry should drive sequencing: remove the endpoint’s ability to reach the channel at the same moment you burn the credential, not afterward. Isolating the host, or blocking that specific application from authenticating in your own tenant, are both moves that do not depend on anyone else’s cooperation. Hunt on the identity plane, because the network plane is blind here. The detections that actually fire on this family are not network signatures at all. They are cloud telemetry queries: the operator’s application ID appearing in your sign-in events, authentication against an unfamiliar tenant, a non-browser HTTP library user agent hitting OneDrive, the beacon and fingerprint file names showing up in file telemetry. The application ID is a fixed string; it belongs to nobody legitimate, and a single query across your sign-in telemetry answers whether it has ever asked your tenant for a token. None of that needs new tooling. It needs the application registration treated as the thing you are trying to kill. The wider pattern is what stayed with me. We spent a decade learning to hunt infrastructure, and adversaries answered by not having any. When the channel is a folder in a cloud tenant, and the identity behind that folder can be swapped by remote command, the artifacts we are trained to chase are precisely the ones an operator can replace most cheaply. What they cannot replace cheaply is the code sitting on the endpoint and the behavior of that code inside your telemetry. So, I check the assumption now. Before calling an identity incident contained, I ask what specifically I killed, and whether the adversary can hand themselves a replacement without ever touching the victim’s machine. In this sample, the answer was yes, and it took one function to prove it. The full teardown and detection content from this analysis are published on GitHub .",
+    "title": "SoftBank presses on with blimp-based base station plans",
+    "url": "https://www.datacenterdynamics.com/en/news/softbank-presses-on-with-blimp-based-base-station-plans/",
+    "source": "DataCenterDynamics",
+    "published": "2026-09-23T09:14:10+00:00",
+    "raw_text": "Laser-tracking tests showcase possibilities for quite literal cloud connectivity",
     "categories": [
       "Networks",
-      "Cybersecurity",
-      "Industry & Market",
-      "Cloud Infrastructure"
+      "Cloud Infrastructure",
+      "Data Centres"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
         "cloud"
       ],
       "Networks": [
-        "network",
-        "firewall",
-        "lan"
+        "lan",
+        "connectivity"
       ],
-      "Cybersecurity": [
-        "phishing",
-        "incident response",
-        "edr"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
+      "Data Centres": [
+        "rack"
       ]
     },
-    "summary": "Every identity-compromise runbook I have written, read or inherited has the same step near the top: revoke the tokens. Reset the password, kill the sessions, invalidate the refresh tokens, then go hunting. It is the right instinct. Against adversary-in-the-middle phishing, where the whole prize is a stolen session cookie, revocation is the move that ends the incident."
+    "summary": "Laser-tracking tests showcase possibilities for quite literal cloud connectivity"
   },
   {
-    "title": "5 ways AI is reshaping the cybersecurity job market",
-    "url": "https://www.csoonline.com/article/4224019/5-ways-ai-is-reshaping-the-cybersecurity-job-market.html",
-    "source": "CSO Online",
-    "published": "2026-09-21T08:25:00+00:00",
-    "raw_text": "Mario Platt spent part of last year eliminating a team. As CISO for online password management service LastPass, he shut down the company’s dedicated vulnerability management function in late 2025, folding its responsibilities directly into IT and product security. AI and business intelligence tools now handle the triage and analysis that once required a standing group of specialists. It’s a concrete example of a trend that’s largely lived in the abstract: security work reorganizing itself around what AI can now do faster than people can. The pressure to rethink cybersecurity roles for this new era is profound: 87% of organizations cite AI-related vulnerabilities as their fastest-growing risk category, according to the World Economic Forum’s 2026 Global Cybersecurity Outlook . Companies are already responding. The 2026 SANS/GIAC Cybersecurity Workforce Research Report found that 74% of organizations say AI is already affecting the size of their security teams and the shape of the roles within them. Ask security leaders and staffing experts whether AI is creating new jobs, killing old ones, or just changing what the people already there do, and they’ll tell you it’s a bit of each. Here are five ways that’s playing out across companies. 1. Security leadership is consolidating, not multiplying Some cyber roles were eliminated alongside consolidation at LastPass. Platt is also partway through a similar shakeup in his governance, risk, and compliance (GRC) function, automating the routine compliance work so the group can take on a higher-level risk advisory role, with staff evolving into full business information security officers aligned to specific business units. Elsewhere, entire functions are consolidating under one executive rather than splitting up among new ones. Burke Autrey, president of technology consulting and executive services firm Fortium Partners, says his firm’s standard advice to clients wrestling with AI governance comes down to one simple rule: Don’t invent another C-level title. One client recently consolidated infrastructure, information security, and AI/ML under an existing senior technology leader and promoted that person rather than recruiting a separate CISO and AI leader. Martha Heller, founder and CEO of executive search firm Heller, sees the same pattern in her practice. Clients increasingly want a single leader to run both infrastructure and cyber — particularly candidates who cut their teeth on a cloud migration. “Anybody who’s led a really successful cloud migration will know a thing or two about cyber,” she says. Most companies are still in an earlier, messier phase: piling AI governance duties onto existing security and privacy leaders without adding staff to match, says John Alford, CSO at Quant, where he leads security, compliance, and AI governance for the company’s agentic AI platform. “Companies will eventually formalize these responsibilities,” Alford says. “The current model puts too much risk into too few roles.” 2. The security analyst’s job is changing from finding answers to evaluating them At Nexus Black, the AI accelerator unit within enterprise software company IFS, head of cybersecurity Robin Fewster built an automation that scans security sources daily, checks affected packages against the company’s source code, and flags exposure. That kind of capability, he says, is becoming the baseline expectation rather than a specialty. And the line between security analyst and security engineer, Fewster says, is blurring. Detection tools already handle the who, what, when, and where of an incident quite well, says Randy Gross, CISO at CompTIA; the SOC analyst’s real value now is in answering the why. “‘Why’ unlocks business impact, appropriate response, and long-term mitigations,” Gross says, “and, as a bonus, it’s also moving some senior InfoSec functions left.” That doesn’t necessarily equate to fewer jobs, though. Automating a process or enriching telemetry won’t eliminate the person who did it, says Gross; it clears space to deal with GRC debt, incident response planning, and the rest of the backlog every security team has. Today’s analysts spend less time working the queue and more time designing, tuning, and validating the systems that work the queue, says Autrey of Fortium Partners. That evolution is producing new titles that didn’t exist 18 months ago, says Heller, including one companies are now asking for by name: agent security engineer. 3. Judgment, not technical knowledge, is the scarcest skill Judgment is “the hardest trait to hire for,” says Quant’s Alford. AI can produce a technically polished answer that ignores business impact or architecture, he says, and reduced cyber staffing leaves fewer experienced people around to catch it. Gross of CompTIA frames what’s happening in cyber hiring as a value shift: judgment, he says, is now in high demand. But it may also be in short supply, according to Autrey. Verifying an automated conclusion “takes more seniority than producing the finding ever did,” he says, “and that is the seat almost nobody has staffed.” That shortage is most acute for identity engineers and identity and access management (IAM) architects who understand machine and agent identity, a specialty nearly every client asks for and almost none can find, Autrey says. The mechanical work of parsing logs, correlating alerts, and first-pass triage has mostly moved to the model, says Rob T. Lee, chief AI officer and chief of research at SANS Institute. “What is left is judgment: knowing when the output is wrong, what to ask next, when to stop and escalate.” The problems compound when AI starts checking AI. Alford calls it the “AI loop”: one system drafts a policy or control, a second evaluates it, and a third produces the risk rating an executive actually sees — each layer potentially reinforcing the assumptions of the one before it. “The final report can look sophisticated even when the original assumption was wrong,” Alford says. Automation, he warns, “can fail confidently and at machine speed.” Breaking that loop still requires an experienced person to check the output against the actual architecture and business impact. 4. AI fluency has become a baseline hiring filter The share of cybersecurity job postings requiring AI skills doubled year over year across G7 countries, from 14.2% to 28.5%, according to an August 2026 analysis of recruitment data from Cornerstone and Indeed by the Cisco-founded AI Workforce Consortium. But it’s no longer enough for a cybersecurity professional to be technically strong. Candidates are also being screened for how they relate to the tools they use. “No company can afford to hire a new AI skeptic,” says LastPass’ Platt, adding that outright AI evangelism isn’t the goal either, because many of these capabilities haven’t been around long enough to prove themselves. “Assessing AI enthusiasm is key.” However, the appetite for AI-fluent hires runs ahead of what most organizations actually need right now, Fortium Partners’ Autrey cautions. Many clients ask his firm for AI security talent when what they most need is asset inventory, identity hygiene, data classification, and least-privilege capabilities. “AI did not invent a new control set,” he says. “It exposed the companies that never finished implementing and automating the old one.” Even when organizations try to validate AI competence, the tools they use may be lagging, too. Certifications are now the leading way organizations validate skills, ahead of degrees, says Lee of SANS Institute. “A certification is a timestamp,” he cautions. “It tells you when someone last proved it, not whether it is still true.” 5. A shrinking pipeline is becoming a security risk The same intelligent automation that’s driving cybersecurity role consolidation and boosting the importance of judgment is also closing off the paths cybersecurity pros traditionally took to develop their very human skills. Senior-titled cybersecurity postings grew 65% in the six months ending March 2026, while junior-titled postings grew just 5.9%, according to the AI Workforce Consortium . Autrey of Fortium Partners warns that Tier 1 SOC and manual control-testing work, long the apprenticeships for tomorrow’s senior analysts, are going unfilled when someone leaves . “If you automate the entry rung without replacing that learning path,” he says, “you are trading a cost reduction today for a talent shortage a few years from now.” The 2026 SANS/GIAC report confirms the pattern: the gap between the skills organizations need and the skills their teams actually have has widened from a four-percentage-point spread to 20 points in a single year, and AI is disrupting entry-level roles specifically. Skills gaps overtook headcount as organizations’ top workforce problem for the first time in 2025, according to the report, and the gap kept widening. Twenty-seven percent of organizations now tie an actual breach to a skills gap on their own team. “That is not a training request,” Lee of SANS Institute says. “That is an incident report with the training request stapled to the back.”",
+    "title": "Abbott halts new Texas data center permits pending ERCOT audit",
+    "url": "https://www.datacenterdynamics.com/en/news/abbott-halts-new-texas-data-center-permits-pending-ercot-audit/",
+    "source": "DataCenterDynamics",
+    "published": "2026-09-23T08:49:28+00:00",
+    "raw_text": "ERCOT claims the audit will be completed by December",
     "categories": [
-      "Cybersecurity",
       "GRC",
-      "Cloud Infrastructure",
-      "Networks",
-      "Industry & Market"
+      "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "cloud migration"
-      ],
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "vulnerability",
-        "security",
-        "cyber",
-        "soc",
-        "incident response"
-      ],
       "GRC": [
-        "governance",
-        "compliance",
-        "policy",
-        "privacy"
+        "audit"
       ],
-      "Industry & Market": [
-        "ey",
-        "consulting"
+      "Data Centres": [
+        "data center"
       ]
     },
-    "summary": "Mario Platt spent part of last year eliminating a team. As CISO for online password management service LastPass, he shut down the company’s dedicated vulnerability management function in late 2025, folding its responsibilities directly into IT and product security. AI and business intelligence tools now handle the triage and analysis that once required a standing group of specialists. It’s a concrete example of a trend that’s largely lived in the abstract: security work reorganizing itself around what AI can now do faster than people can."
+    "summary": "ERCOT claims the audit will be completed by December"
   },
   {
     "title": "Sponsored: How AI factories are driving the next industrial revolution",
@@ -2471,762 +2509,11 @@
     "summary": "Proposal is now subject to a two-month scrutiny period"
   },
   {
-    "title": "Sponsored: Move faster from site selection to coordinated design with Catalyx by Ramboll",
-    "url": "https://www.datacenterdynamics.com/en/product-news/move-faster-from-site-selection-to-coordinated-design-with-catalyx-by-ramboll/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-22T08:00:00+00:00",
-    "raw_text": "With Catalyx by Ramboll, siting and design that usually takes months can be completed in days",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "With Catalyx by Ramboll, siting and design that usually takes months can be completed in days"
-  },
-  {
-    "title": "Sponsored: Scaling connectivity beyond the data center walls",
-    "url": "https://www.datacenterdynamics.com/en/marketwatch/scaling-connectivity-beyond-the-data-center-walls/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-22T07:00:00+00:00",
-    "raw_text": "Connecting buildings, sites, or cities? The challenges and core priorities look significantly different, says Corning’s Nilson Gabela",
-    "categories": [
-      "Networks",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "connectivity"
-      ],
-      "Data Centres": [
-        "data center"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Connecting buildings, sites, or cities? The challenges and core priorities look significantly different, says Corning’s Nilson Gabela"
-  },
-  {
-    "title": "Shut up and calculate: Jev's new AI primitives for coders",
-    "url": "https://www.theregister.com/devops/2026/09/23/shut-up-and-calculate-jevs-new-ai-primitives-for-coders/5298431",
-    "source": "The Register",
-    "published": "2026-09-23T07:27:00+00:00",
-    "raw_text": "Developers test what they can build with TypeSafe's fast, typed decision model",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Developers test what they can build with TypeSafe's fast, typed decision model"
-  },
-  {
-    "title": "In the age of AI, teaching networking principles remains more important than learning protocols",
-    "url": "https://www.theregister.com/networks/2026/09/23/in-the-age-of-ai-teaching-networking-principles-remains-more-important-than-learning-protocols/5298478",
-    "source": "The Register",
-    "published": "2026-09-23T06:25:26+00:00",
-    "raw_text": "Kids can learn why BGP matters in a semester, but that won’t leave them ready to implement it",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "networking"
-      ]
-    },
-    "summary": "Kids can learn why BGP matters in a semester, but that won’t leave them ready to implement it"
-  },
-  {
-    "title": "Artificial intelligence must have a new name, says politician who likes renaming bodies of water",
-    "url": "https://www.theregister.com/offbeat/2026/09/23/artificial-intelligence-must-have-a-new-name-says-politician-who-likes-renaming-bodies-of-water/5298470",
-    "source": "The Register",
-    "published": "2026-09-23T04:32:53+00:00",
-    "raw_text": "Meet ‘superintelligence’ and the ‘globalist scheme’ – probably a polite diplomatic letter – to control it",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Meet ‘superintelligence’ and the ‘globalist scheme’ – probably a polite diplomatic letter – to control it"
-  },
-  {
-    "title": "Frontier AI keeps racing despite calls to slow down",
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/23/frontier-ai-keeps-racing-despite-calls-to-slow-down/5298448",
-    "source": "The Register",
-    "published": "2026-09-23T00:02:47+00:00",
-    "raw_text": "Anthropic and OpenAI debut Opus 5.5 and GPT-6 Sol and Luna",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Anthropic and OpenAI debut Opus 5.5 and GPT-6 Sol and Luna"
-  },
-  {
-    "title": "Windows CLOSEDQUORUM malware uses AI models to autonomously select post-compromise actions",
-    "url": "https://www.theregister.com/security/2026/09/22/windows-closedquorum-malware-uses-ai-models-to-autonomously-select-post-compromise-actions/5298435",
-    "source": "The Register",
-    "published": "2026-09-22T21:33:29+00:00",
-    "raw_text": "'first' publicly documented Windows implant to use LLMs for C2",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "malware"
-      ]
-    },
-    "summary": "'first' publicly documented Windows implant to use LLMs for C2"
-  },
-  {
-    "title": "Security firm finds naming AI agents after Seinfeld characters helps bots join the team",
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424",
-    "source": "The Register",
-    "published": "2026-09-22T20:43:17+00:00",
-    "raw_text": "Not that there's anything wrong with it",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Not that there's anything wrong with it"
-  },
-  {
-    "title": "ShinyHunters claims FBI hack: 'This is NOT financially motivated'",
-    "url": "https://www.theregister.com/security/2026/09/22/shinyhunters-claims-fbi-hack-this-is-not-financially-motivated/5298385",
-    "source": "The Register",
-    "published": "2026-09-22T17:24:13+00:00",
-    "raw_text": "This time it's personal",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "This time it's personal"
-  },
-  {
-    "title": "ABBYY gives old-school OCR a job in the AI pipeline",
-    "url": "https://www.theregister.com/applications/2026/09/22/abbyy-gives-old-school-ocr-a-job-in-the-ai-pipeline/5298361",
-    "source": "The Register",
-    "published": "2026-09-22T17:15:00+00:00",
-    "raw_text": "FineParser runs in a CPU-powered container, preserving tables and layout before handing documents to an LLM",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "FineParser runs in a CPU-powered container, preserving tables and layout before handing documents to an LLM"
-  },
-  {
-    "title": "NightmareEclipse's latest zero-day leaves Microsoft Defender stuck in the past",
-    "url": "https://www.theregister.com/security/2026/09/22/nightmareeclipses-latest-zero-day-leaves-microsoft-defender-stuck-in-the-past/5298320",
-    "source": "The Register",
-    "published": "2026-09-22T16:36:00+00:00",
-    "raw_text": "BigDiskBuster leaves Microsoft's antivirus running but unable to install updates",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "zero-day"
-      ]
-    },
-    "summary": "BigDiskBuster leaves Microsoft's antivirus running but unable to install updates"
-  },
-  {
-    "title": "Z.ai says sorry for slurping up your code, open sources ZCode",
-    "url": "https://www.theregister.com/security/2026/09/22/zai-says-sorry-for-slurping-up-your-code-open-sources-zcode/5298300",
-    "source": "The Register",
-    "published": "2026-09-22T15:59:00+00:00",
-    "raw_text": "China’s AI darling goes on the defense after engineer highlighted Grok-esque security flaws",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "China’s AI darling goes on the defense after engineer highlighted Grok-esque security flaws"
-  },
-  {
-    "title": "Privacy group slams EU for changing the data rules to cater to AI",
-    "url": "https://www.theregister.com/legal/2026/09/22/privacy-group-slams-eu-for-changing-the-data-rules-to-cater-to-ai/5298175",
-    "source": "The Register",
-    "published": "2026-09-22T15:30:00+00:00",
-    "raw_text": "Schrems campaign raises specter of another legal challenge as legislators propose changes to GDPR",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "gdpr",
-        "privacy"
-      ],
-      "Industry & Market": [
-        "raises"
-      ]
-    },
-    "summary": "Schrems campaign raises specter of another legal challenge as legislators propose changes to GDPR"
-  },
-  {
-    "title": "UK cops arrest 2 EvilTokens suspects, Microsoft seizes 50 phishing kit websites",
-    "url": "https://www.theregister.com/security/2026/09/22/uk-cops-arrest-2-eviltokens-suspects-microsoft-seizes-50-phishing-kit-websites/5298317",
-    "source": "The Register",
-    "published": "2026-09-22T15:00:00+00:00",
-    "raw_text": "Used by crims to compromise 12K+ email inboxes across 10K+ global orgs",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing"
-      ]
-    },
-    "summary": "Used by crims to compromise 12K+ email inboxes across 10K+ global orgs"
-  },
-  {
-    "title": "Who signed off on that AI agent? Nobody? Thought so.",
-    "url": "https://www.theregister.com/security/2026/09/22/sponsored/5297693",
-    "source": "The Register",
-    "published": "2026-09-22T15:00:00+00:00",
-    "raw_text": "SPONSORED FEATURE: AI agents may be unpredictable. Who they are, what they can do, and who owns them shouldn’t be.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "SPONSORED FEATURE: AI agents may be unpredictable. Who they are, what they can do, and who owns them shouldn’t be."
-  },
-  {
-    "title": "Well-done hack flames 3.2M Burger King Russia users",
-    "url": "https://www.theregister.com/cyber-crime/2026/09/22/well-done-hack-flames-32m-burger-king-russia-users/5298114",
-    "source": "The Register",
-    "published": "2026-09-22T14:13:00+00:00",
-    "raw_text": "HIBP confirms cybercrims stuck a straw into marketing reservoir, sucking up six-years of leaky Whopper secrets",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
-      ]
-    },
-    "summary": "HIBP confirms cybercrims stuck a straw into marketing reservoir, sucking up six-years of leaky Whopper secrets"
-  },
-  {
-    "title": "EU datacenter green scorecard finally escapes Brussels",
-    "url": "https://www.theregister.com/on-prem/2026/09/22/eu-datacenter-green-scorecard-finally-escapes-brussels/5298167",
-    "source": "The Register",
-    "published": "2026-09-22T13:32:00+00:00",
-    "raw_text": "Long-delayed sustainability labels land as Commission eyes minimum efficiency standards",
-    "categories": [
-      "Networks",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "datacenter"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Long-delayed sustainability labels land as Commission eyes minimum efficiency standards"
-  },
-  {
-    "title": "Register reader hit with surprise bill after Microsoft portals disagreed",
-    "url": "https://www.theregister.com/saas/2026/09/22/register-reader-hit-with-surprise-bill-after-microsoft-portals-disagreed/5297799",
-    "source": "The Register",
-    "published": "2026-09-22T13:00:00+00:00",
-    "raw_text": "Did Copilot write the synchronization code?",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Did Copilot write the synchronization code?"
-  },
-  {
-    "title": "Civo plots 40 edge datacenters to power Britain's sovereign AI",
-    "url": "https://www.theregister.com/off-prem/2026/09/22/civo-plots-40-edge-datacenters-to-power-britains-sovereign-ai/5298141",
-    "source": "The Register",
-    "published": "2026-09-22T12:13:00+00:00",
-    "raw_text": "First site is due in Hertfordshire next March, with Nvidia's Vera Rubin systems and a longer-term 1 GW ambition",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "datacenter"
-      ]
-    },
-    "summary": "First site is due in Hertfordshire next March, with Nvidia's Vera Rubin systems and a longer-term 1 GW ambition"
-  },
-  {
-    "title": "Campaigners tell Burnham not to trade away the UK's tech tax to please Trump",
-    "url": "https://www.theregister.com/public-sector/2026/09/22/campaigners-tell-burnham-not-to-trade-away-the-uks-tech-tax-to-please-trump/5298124",
-    "source": "The Register",
-    "published": "2026-09-22T11:38:02+00:00",
-    "raw_text": "Letter lands ahead of the PM's first face-to-face meeting with the US president",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Letter lands ahead of the PM's first face-to-face meeting with the US president"
-  },
-  {
-    "title": "NHS Trust IT blunder overwrites 11 years of maternity records",
-    "url": "https://www.theregister.com/databases/2026/09/22/nhs-trust-it-blunder-overwrites-11-years-of-maternity-records/5298130",
-    "source": "The Register",
-    "published": "2026-09-22T10:45:00+00:00",
-    "raw_text": "Human error sent reused instructions at the wrong database, taking historical access logs with it",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Human error sent reused instructions at the wrong database, taking historical access logs with it"
-  },
-  {
-    "title": "Longtime SUSE staff asked if they'd opt for 'voluntary separation'",
-    "url": "https://www.theregister.com/software/2026/09/22/longtime-suse-staff-asked-if-theyd-opt-for-voluntary-separation/5297457",
-    "source": "The Register",
-    "published": "2026-09-22T10:00:00+00:00",
-    "raw_text": "Other changes also afoot as employees unionize and the distro itself sees modifications",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Other changes also afoot as employees unionize and the distro itself sees modifications"
-  },
-  {
-    "title": "Commodore's forgotten Amiga Unix gets a modern revival",
-    "url": "https://www.theregister.com/software/2026/09/22/commodores-forgotten-amiga-unix-gets-a-modern-revival/5297805",
-    "source": "The Register",
-    "published": "2026-09-22T09:15:00+00:00",
-    "raw_text": "Amix gains newer CPU support and a package manager as Open Look joins the retro comeback",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Amix gains newer CPU support and a package manager as Open Look joins the retro comeback"
-  },
-  {
-    "title": "GOV.UK founder warns AI gold rush could leave Britain locked in",
-    "url": "https://www.theregister.com/public-sector/2026/09/22/govuk-founder-warns-ai-gold-rush-could-leave-britain-locked-in/5297828",
-    "source": "The Register",
-    "published": "2026-09-22T08:30:00+00:00",
-    "raw_text": "Mike Bracken says the dash to adopt sovereign AI risks giving more control to a handful of tech suppliers",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Mike Bracken says the dash to adopt sovereign AI risks giving more control to a handful of tech suppliers"
-  },
-  {
-    "title": "Alibaba Cloud plans six-year stroll to 20GW of datacenters, reveals chip to power them",
-    "url": "https://www.theregister.com/off-prem/2026/09/22/alibaba-cloud-plans-six-year-stroll-to-20gw-of-datacenters-reveals-chip-to-power-them/5298062",
-    "source": "The Register",
-    "published": "2026-09-22T05:42:32+00:00",
-    "raw_text": "USA alone has 37GW under construction, but Alibaba doesn't think the AI boom will run out of steam",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "alibaba cloud"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "datacenter"
-      ]
-    },
-    "summary": "USA alone has 37GW under construction, but Alibaba doesn't think the AI boom will run out of steam"
-  },
-  {
-    "title": "Gartner predicts 55% of enterprise VMware users will be investigating an exit by 2029",
-    "url": "https://www.theregister.com/virtualization/2026/09/22/gartner-predicts-55-of-enterprise-vmware-users-will-be-investigating-an-exit-by-2029/5298043",
-    "source": "The Register",
-    "published": "2026-09-22T02:39:35+00:00",
-    "raw_text": "Chasing pack has its problems too, with maturity, cost, and complex licenses",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "gartner"
-      ]
-    },
-    "summary": "Chasing pack has its problems too, with maturity, cost, and complex licenses"
-  },
-  {
-    "title": "California tightens datacenter rules on water and power",
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/22/california-tightens-datacenter-rules-on-water-and-power/5298028",
-    "source": "The Register",
-    "published": "2026-09-21T23:33:47+00:00",
-    "raw_text": "Public pushback puts bit barn resource use under the microscope",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "datacenter"
-      ]
-    },
-    "summary": "Public pushback puts bit barn resource use under the microscope"
-  },
-  {
-    "title": "Anthropic-linked CVEs pile up, attackers mostly shrug",
-    "url": "https://www.theregister.com/security/2026/09/21/anthropic-linked-cves-pile-up-attackers-mostly-shrug/5298018",
-    "source": "The Register",
-    "published": "2026-09-21T22:32:51+00:00",
-    "raw_text": "Of 225 flaws found by Glasswing and tracked by VulnCheck researcher, just one has confirmed exploitation in the wild",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Cybersecurity": [
-        "cve",
-        "exploit"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Of 225 flaws found by Glasswing and tracked by VulnCheck researcher, just one has confirmed exploitation in the wild"
-  },
-  {
-    "title": "Perpetual underdog AMD nips at Nvidia's heels as it joins the $1T club",
-    "url": "https://www.theregister.com/systems/2026/09/21/perpetual-underdog-amd-nips-at-nvidias-heels-as-it-joins-the-1t-club/5297998",
-    "source": "The Register",
-    "published": "2026-09-21T20:59:00+00:00",
-    "raw_text": "Fueled by the AI boom, the House of Zen's rise isn't just Instinct - Lisa Su is riding high on some Epyc design chops too",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Fueled by the AI boom, the House of Zen's rise isn't just Instinct - Lisa Su is riding high on some Epyc design chops too"
-  },
-  {
-    "title": "Skip the upgrade? iPhone 18 Pro aperture about as unrepairable as it gets, iFixit finds",
-    "url": "https://www.theregister.com/personal-tech/2026/09/21/skip-the-upgrade-iphone-18-pro-aperture-about-as-unrepairable-as-it-gets-ifixit-finds/5297970",
-    "source": "The Register",
-    "published": "2026-09-21T20:30:00+00:00",
-    "raw_text": "Repairability improvements can't lift last year's score as camera complexity and screen-frame concerns remain",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Repairability improvements can't lift last year's score as camera complexity and screen-frame concerns remain"
-  },
-  {
-    "title": "Meta Muse AI app flaw lets local malware redirect dictation traffic",
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/21/meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-traffic/5297980",
-    "source": "The Register",
-    "published": "2026-09-21T19:59:52+00:00",
-    "raw_text": "Ad biz promises users control while bug could expose voice prompts",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware"
-      ]
-    },
-    "summary": "Ad biz promises users control while bug could expose voice prompts"
-  },
-  {
-    "title": "Treasury chief says AI bosses, not their bots, will carry the can for criminal acts",
-    "url": "https://www.theregister.com/security/2026/09/21/treasury-chief-says-ai-bosses-not-their-bots-will-carry-the-can-for-criminal-acts/5297965",
-    "source": "The Register",
-    "published": "2026-09-21T19:10:53+00:00",
-    "raw_text": "'Humans are responsible, not the AI,' argues Scott Bessent as he calls out OpenAI agents' hack of Hugging Face",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "'Humans are responsible, not the AI,' argues Scott Bessent as he calls out OpenAI agents' hack of Hugging Face"
-  },
-  {
-    "title": "Google smacks forehead, realizes $899+ thin-and-lights were what it was missing",
-    "url": "https://www.theregister.com/personal-tech/2026/09/21/google-smacks-forehead-realizes-899-thin-and-lights-were-what-it-was-missing/5297947",
-    "source": "The Register",
-    "published": "2026-09-21T18:47:52+00:00",
-    "raw_text": "'A new category,' insists the Chocolate Factory, not a premium Chromebook - yet some of the family resemblance remains",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "'A new category,' insists the Chocolate Factory, not a premium Chromebook - yet some of the family resemblance remains"
-  },
-  {
-    "title": "London neocloud Nscale takes its $1B loss to Wall Street",
-    "url": "https://www.theregister.com/on-prem/2026/09/21/london-neocloud-nscale-takes-its-1b-loss-to-wall-street/5297824",
-    "source": "The Register",
-    "published": "2026-09-21T17:15:00+00:00",
-    "raw_text": "Rent-a-GPU firm reportedly seeks a valuation of up to $35B in New York IPO",
-    "categories": [
-      "Industry & Market",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Industry & Market": [
-        "ipo",
-        "valuation"
-      ]
-    },
-    "summary": "Rent-a-GPU firm reportedly seeks a valuation of up to $35B in New York IPO"
-  },
-  {
-    "title": "AI can't outprompt a shortage of power, water, and land",
-    "url": "https://www.theregister.com/on-prem/2026/09/21/ai-cant-outprompt-a-shortage-of-power-water-and-land/5297811",
-    "source": "The Register",
-    "published": "2026-09-21T16:35:00+00:00",
-    "raw_text": "Forrester predicts operators will face tariffs, grid commitments, and tougher community scrutiny",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "forrester"
-      ]
-    },
-    "summary": "Forrester predicts operators will face tariffs, grid commitments, and tougher community scrutiny"
-  },
-  {
-    "title": "AWS bolts together open source agent harness, says it sips fewer tokens than rivals",
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/21/aws-bolts-together-open-source-agent-harness-says-it-sips-fewer-tokens-than-rivals/5297915",
-    "source": "The Register",
-    "published": "2026-09-21T16:00:00+00:00",
-    "raw_text": "Strands claims near-parity with Claude Code and Codex on benchmarks, though it only raced coding agents and marked its own homework",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "Strands claims near-parity with Claude Code and Codex on benchmarks, though it only raced coding agents and marked its own homework"
-  },
-  {
-    "title": "RansomHouse picks a fight with Namibia's defense establishment",
-    "url": "https://www.theregister.com/cyber-crime/2026/09/21/ransomhouse-picks-a-fight-with-namibias-defense-establishment/5297816",
-    "source": "The Register",
-    "published": "2026-09-21T15:19:06+00:00",
-    "raw_text": "National cyber team confirms the breach, but not whether data was stolen or encrypted",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "cyber"
-      ]
-    },
-    "summary": "National cyber team confirms the breach, but not whether data was stolen or encrypted"
-  },
-  {
-    "title": "Schneider says hotter coolant can make AI datacenters less thirsty",
-    "url": "https://www.theregister.com/on-prem/2026/09/21/schneider-says-hotter-coolant-can-make-ai-datacenters-less-thirsty/5297759",
-    "source": "The Register",
-    "published": "2026-09-21T14:29:00+00:00",
-    "raw_text": "Modeling suggests liquid-cooled designs can halve water consumption, though the company has skin in the game",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "datacenter"
-      ]
-    },
-    "summary": "Modeling suggests liquid-cooled designs can halve water consumption, though the company has skin in the game"
-  },
-  {
-    "title": "Amazon shows Meta's Muse AI shopping agent the door",
-    "url": "https://www.theregister.com/ai-and-ml/2026/09/21/amazon-shows-metas-muse-ai-shopping-agent-the-door/5297777",
-    "source": "The Register",
-    "published": "2026-09-21T13:28:00+00:00",
-    "raw_text": "Retailer cites credentials and transparency concerns while guarding its lucrative customer journey",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Retailer cites credentials and transparency concerns while guarding its lucrative customer journey"
-  },
-  {
-    "title": "Clop gets a taste of its own medicine after ShinyHunters hijack leak site",
-    "url": "https://www.theregister.com/cyber-crime/2026/09/21/clop-gets-a-taste-of-its-own-medicine-after-shinyhunters-hijack-leak-site/5297702",
-    "source": "The Register",
-    "published": "2026-09-21T12:46:00+00:00",
-    "raw_text": "Rival crew demands eight figures and threatens to expose companies that paid to keep quiet",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat"
-      ]
-    },
-    "summary": "Rival crew demands eight figures and threatens to expose companies that paid to keep quiet"
-  },
-  {
-    "title": "NASA gives SpaceX a billion reasons to keep flying Crew Dragon",
-    "url": "https://www.theregister.com/offbeat/2026/09/21/nasa-gives-spacex-a-billion-reasons-to-keep-flying-crew-dragon/5297705",
-    "source": "The Register",
-    "published": "2026-09-21T12:01:00+00:00",
-    "raw_text": "Crew-15 through Crew-17 shore up astronaut access to ISS while Starliner's future remains uncertain",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Crew-15 through Crew-17 shore up astronaut access to ISS while Starliner's future remains uncertain"
-  },
-  {
-    "title": "American datacenters might be getting dirtier, but at least they'll be efficient",
-    "url": "https://www.theregister.com/systems/2026/09/21/american-datacenters-might-be-getting-dirtier-but-at-least-theyll-be-efficient/5297526",
-    "source": "The Register",
-    "published": "2026-09-21T11:15:00+00:00",
-    "raw_text": "US power emissions restrictions are being wiped out, but hey – datacenters running Nvidia kit are getting better at extracting ever bit of compute they can from a megawatt, for what it's worth",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "datacenter",
-        "megawatt"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "US power emissions restrictions are being wiped out, but hey – datacenters running Nvidia kit are getting better at extracting ever bit of compute they can from a megawatt, for what it's worth"
-  },
-  {
-    "title": "Rustaceans warned of job interviews with a malicious payload",
-    "url": "https://www.theregister.com/security/2026/09/21/rustaceans-warned-of-job-interviews-with-a-malicious-payload/5297690",
-    "source": "The Register",
-    "published": "2026-09-21T10:33:00+00:00",
-    "raw_text": "Attackers are courting crate owners with plausible company profiles and booby-trapped recruitment calls",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Attackers are courting crate owners with plausible company profiles and booby-trapped recruitment calls"
-  },
-  {
-    "title": "It's raining, the transport isn't working, and now an Android app wants to walk out in solidarity",
-    "url": "https://www.theregister.com/offbeat/2026/09/21/its-raining-the-transport-isnt-working-and-now-an-android-app-wants-to-walk-out-in-solidarity/5297494",
-    "source": "The Register",
-    "published": "2026-09-21T09:45:00+00:00",
-    "raw_text": "Please release me, let me close...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "Please release me, let me close..."
-  },
-  {
-    "title": "Salesforce wants to charge for AI outcomes, but first it needs to figure out how",
-    "url": "https://www.theregister.com/software/2026/09/21/salesforce-wants-to-charge-for-ai-outcomes-but-first-it-needs-to-figure-out-how/5297402",
-    "source": "The Register",
-    "published": "2026-09-21T09:07:00+00:00",
-    "raw_text": "Seats, Flex Credits, and all-you-can-eat contracts make for an 'anxiety-filled architecture'",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "Seats, Flex Credits, and all-you-can-eat contracts make for an 'anxiety-filled architecture'"
-  },
-  {
-    "title": "Your cloud survived everything except the real world",
-    "url": "https://www.theregister.com/columnists/2026/09/21/your-cloud-survived-everything-except-the-real-world/5297423",
-    "source": "The Register",
-    "published": "2026-09-21T08:03:00+00:00",
-    "raw_text": "War damage, air traffic chaos, and a storage shortage expose the cost of treating resilience as someone else's problem",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ]
-    },
-    "summary": "War damage, air traffic chaos, and a storage shortage expose the cost of treating resilience as someone else's problem"
-  },
-  {
     "title": "Okta debuts agentic lifecycle management tools, AI kill switch",
     "url": "https://www.computerweekly.com/news/366650934/Okta-debuts-agentic-lifecycle-management-tools-AI-kill-switch",
     "source": "ComputerWeekly",
     "published": "2026-09-22T21:00:00+00:00",
-    "raw_text": "<p>Setting out to help its customers answer pressing questions such as, ‘where are my agents?’, ‘what can they do?’, ‘what are they doing?’ and ‘how do I respond?’, Okta has become the latest in a string of cyber firms to debut new security capabilities to manage <a href=\"https://www.techtarget.com/ai/definition/What-are-AI-agents-Types-and-examples\" target=\"_blank\" rel=\"noopener\">artificial intelligence (AI) agents</a>.</p> <p>The identity and access management (IAM) house unveiled a range of innovations that collectively build on a vision first outlined this time last year <a href=\"https://www.computerweekly.com/news/366631993/Oktane-2025-Okta-takes-aim-at-agentic-AI-governance-gap\" target=\"_blank\" rel=\"noopener\">at Okta’s 2025 Oktane event</a>, where CEO Todd McKinnon proudly proclaimed that AI security and identity security were becoming indistinguishable as he launched <a href=\"https://www.computerweekly.com/news/366632056/Okta-CEO-AI-security-and-identity-security-are-one-and-the-same\" target=\"_blank\" rel=\"noopener\">the first iteration of Okta for AI Agents</a>.</p> <p>As Okta’s customers descended once more on Las Vegas, Nevada for <a href=\"https://www.okta.com/oktane/\" target=\"_blank\" rel=\"noopener\">Oktane 2026</a> in the wake of a string of high-profile mishaps in which <a href=\"https://www.computerweekly.com/news/366647165/Mythos-ran-real-life-supply-chain-attack-in-AI-safety-body-test\" target=\"_blank\" rel=\"noopener\">mismanaged agents</a> went <a href=\"https://www.techtarget.com/ai/tip/Key-guardrails-to-defend-against-rogue-AI-agents\" target=\"_blank\" rel=\"noopener\">rogue</a>, <a href=\"http://okta.com/products/govern-ai-agent-identity/\" target=\"_blank\" rel=\"noopener\">Okta for AI Agents</a> is now being enhanced to better manage agentic risk while providing agents with enough access to accomplish appropriate tasks, all the while ensuring humans retain visibility and control.</p> <p>Okta invited conferencegoers to consider a scenario in which an employee links an AI agent to their everyday tools to work faster but unintentionally give it approved access to sensitive systems. Then, when they leave the company, the agent effectively becomes an orphan, running in the background “ungoverned and unknown”.</p> <p>Okta for AI Agents, it claimed, will eliminate the danger from this sort of scenario, bringing centralised governance and end-to-end agent lifecycle management, runtime policy enforcement, and should all else fail, a ‘last resort’ <a href=\"https://www.computerweekly.com/news/366649464/NCSC-tells-organisations-to-have-AI-kill-switches-at-the-ready\" target=\"_blank\" rel=\"noopener\">kill switch</a>.</p> <p>“The challenge businesses face is the same access that makes agents powerful also makes them dangerous,” explained Okta president of products and technology Ric Smith.</p> <p>“For over a decade, Okta has continuously modernised how the workforce authenticates and connects to every app they use. That same discipline extends to AI agents. Our goal is to give enterprises the visibility and runtime assurance they need to turn AI agents from an unmanaged security risk into a massive competitive advantage.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Four questions answered</h3> <ul class=\"default-list\"> <li><b>Where are my agents? </b>Shadow AI Agent Discovery for Endpoints will surface unmanaged agents running on employee devices before they become blind spots.</li> <li><b>What can they do? </b>Agent Single Sign On (SSO) will bring cross-app access to all Okta SSO customers, letting them swap non-expiring keys for short-lived, identity-governed tokens to reduce consent fatigue; Agent-to-Agent Connections will lay down a rulebook for which agents can call other ones, what they can access, and audit the handoff process; Configuration Designer will visually map agent-to-resource connections so handoffs are governed, scoped and auditable; and Resource Access Certifications will review agent connections to prevent standing or excessive permissions.</li> <li><b>What are they doing? </b>Agent Gateway will take up residence in the execution path in between agents and tool calls to enforce policies and log interactions at runtime.</li> <li><b>How do I respond? </b>Kill switch capabilities built into Agent Gateway will let humans cut off access if something goes wrong. Deactivating an agent at the gateway will revoke every active token held by a compromised agent and shut down every session ‘in flight’.</li> </ul> <p>A number of these enhancements including Agent SSO, Agent-to-Agent Connections, and Resource Access Certifications, are already generally available, all the others should come on stream by the end of Q4, said Okta.</p> </div> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Embracing agents\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Embracing agents</h2> <p>James Simcox, chief product officer and chief operating officer at UK-based fintech firm <a href=\"https://equalsmoney.com/en-us/coming-soon\" target=\"_blank\" rel=\"noopener\">Equals Money</a>, is among the Okta customers to have wholeheartedly embraced agentic AI, in some cases rebuilding basic business processes from scratch after finding traditional workflows do not always translate effectively to agents.</p> <p>“Across the business we’ve got agents running almost everywhere. You can call us up now to book an FX [foreign exchange] transaction on the phone where the entire interaction will be agentic – it sounds like a human, it feels like a human,” he said.</p> <p>“[But] if we enable financial transactions in that agentic environment, how we secure it is very, very difficult,” he added.</p> <p>Echoing McKinnon’s thesis that non-human identities are now to some extent akin to human ones, Simcox said that Equals Money now treats its AI agents as, essentially, staff members with specific roles, permissions and identities – not mere service accounts.</p> <p>To comply with the UK and Europe’s complex regulatory environments, Equals Money has implemented an agentic platform that continuously audits the ‘thinking’ process and behaviours of every agent so that the company can justify any decision taken by the agent, like suspending a fraudulent account – in court if needed, since deploying a customer-facing agent presents a far higher liability risk in the financial services sector.</p> <p>Additionally, the firm assigns its agents specific, tightly-defined roles – such as changing customer email addresses – with highly-limited permissions to stop oversharing or unauthorised access to out-of-scope metadata.</p> <p>And to mitigate any lingering friction between Equals Money’s engineering and security teams, said Simcox, the organisation has implemented a multi-modal review process where one agent must review code written by another before it can be released.</p> <p>“The way that I'm seeing the Okta products evolve for me is exactly what I want, which is good. It is now about how do we control agents as relevant entities,” said Simcox, looking ahead to the latest introductions.</p> <p>“The thing I’m really excited to get my hands on is the piece around the kill switch functionality,” he added. “It’s very hard currently for us to stop an agent if it’s doing something that it shouldn’t be doing.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Blueprint for a safe agentic stack\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Blueprint for a safe agentic stack</h2> <p>Meanwhile, Okta has also teamed up with a crowd of other suppliers, including the likes of Amazon Web Services (AWS), CrowdStrike, Databricks, Docker, Google Cloud, Proofpoint, Salesforce, ServiceNow, Wiz and Zscaler to form a cross-industry coalition – the <a href=\"https://www.okta.com/blueprint-alliance/\" target=\"_blank\" rel=\"noopener\">Blueprint Alliance</a> – that aims to help customers operate agentic stacks as single unified, governed systems.</p> <p>The founding members of the coalition propose to align towards a shared set of principles – or blueprint – to secure AI agents in which every agent is treated as a ‘first class’ identity, access is scoped to tasks, delegation is traceable, runtime behaviour is subject to continuous monitoring, containment is instant and reversible, and governance is adaptable to the rapid evolution of AI.</p> <p>The same four big questions at the heart of Okta’s tech enhancements also sit at the heart of the blueprint, with the ultimate goal being a zero-trust, agentic control plane that gives technology leaders a means to scale agentic deployments safely and securely.</p> <p>According to Steven Tamm, senior vice president of ecosystem at Okta, the supplier originated the blueprint because it recognised customers would need a consistent architecture to secure agents, governing identity, access and execution across the entire stack, without shutting out the autonomy that makes agents useful in the first place.</p> <p>“Getting there required founding members across the Blueprint Alliance to align on a shared approach rather than each vendor solving it alone. We're glad to have contributed to that work, and we look forward to the industry building and testing against it as we help secure the future of AI,” he said.</p> <p>Domestic equipment giant <a href=\"https://www.geappliances.com/\" target=\"_blank\" rel=\"noopener\">GE Appliances</a> and charity <a href=\"https://wck.org/\" target=\"_blank\" rel=\"noopener\">World Central Kitchen</a> have both signed on to serve as strategic advisors and will help the alliance refine and validate approaches to securing agentic AI as they continue to develop in the future.</p> <p>“AI agents have the potential to transform manufacturing by accelerating problem-solving, improving quality and strengthening collaboration across the value chain. Unlocking that value at scale requires strong governance, clear visibility into where agents operate, what they can access and how they make decisions,” said Mandar Deo, GE chief digital technology advisor.</p> <p>“GE Appliances is bringing a real-world manufacturing perspective to help shape and validate a secure, scalable architecture that can operate across complex industrial environments – while maintaining accountability, trust and human controls.”</p> <p>Brian Stoll, chief technology officer at World Central Kitchen – which was established by celebrity chef and restaurateur <a href=\"https://thehill.com/blogs/in-the-know/5472479-jose-andres-trump-dc-takeover-restaurants/\" target=\"_blank\" rel=\"noopener\">José Andrés</a> – added: “In order to support the urgent technology demands of disaster response on a global scale, World Central Kitchen is embracing the dynamic benefits of agentic technology.</p> <p>“To do so responsibly requires establishing governance that is as dynamic as the agents themselves,” said Stoll. “We are looking forward to participating in the Blueprint Alliance for this exact reason: to help establish principles, processes, and tooling for agentic discovery, ownership, runtime control, and observability – not to mention a better night's rest for the CTO.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about security for AI agents</h3> <ul class=\"default-list\"> <li>The idea of using AI agents to secure AI agents seems compelling, but in doing so, we risk unnecessarily <a href=\"https://www.computerweekly.com/opinion/Why-AI-agents-cannot-be-trusted-to-secure-agentic-AI-yet\" target=\"_blank\" rel=\"noopener\">expanding our attack surface</a>.</li> <li>Experts outline comprehensive testing practices before and after deployment of AI agents to prevent them from acting on their own <a href=\"https://www.techtarget.com/ai/news/366649952/AI-agent-security-How-reliable-is-enterprise-AI-testing\" target=\"_blank\" rel=\"noopener\">beyond prescribed instructions</a>.</li> <li>Identity teams can accelerate AI adoption with strong security foundations. But managing nondeterministic AI agents is different from <a href=\"https://www.techtarget.com/cybersecurity/opinion/Identity-security-for-AI-agents-The-proliferation-challenge\" target=\"_blank\" rel=\"noopener\">securing human identities and traditional NHIs. </a></li> </ul> </div> </div> </section>",
+    "raw_text": "<p>Setting out to help its customers answer pressing questions such as, “where are my agents?”, “what can they do?”, “what are they doing?” and “how do I respond?”, Okta has become the latest in a string of cyber firms to debut security capabilities to manage <a href=\"https://www.techtarget.com/ai/definition/What-are-AI-agents-Types-and-examples\" target=\"_blank\" rel=\"noopener\">artificial intelligence (AI) agents</a>.</p> <p>The identity and access management (IAM) house unveiled a range of innovations that collectively build on a vision first outlined this time last year <a href=\"https://www.computerweekly.com/news/366631993/Oktane-2025-Okta-takes-aim-at-agentic-AI-governance-gap\" target=\"_blank\" rel=\"noopener\">at Okta’s 2025 Oktane event</a>, where CEO Todd McKinnon proudly proclaimed that AI security and identity security were becoming indistinguishable as he launched <a href=\"https://www.computerweekly.com/news/366632056/Okta-CEO-AI-security-and-identity-security-are-one-and-the-same\" target=\"_blank\" rel=\"noopener\">the first iteration of Okta for AI Agents</a>.</p> <p>As Okta’s customers descended once more on Las Vegas, Nevada for <a href=\"https://www.okta.com/oktane/\" target=\"_blank\" rel=\"noopener\">Oktane 2026</a> in the wake of a string of high-profile mishaps in which <a href=\"https://www.computerweekly.com/news/366647165/Mythos-ran-real-life-supply-chain-attack-in-AI-safety-body-test\" target=\"_blank\" rel=\"noopener\">mismanaged agents</a> went <a href=\"https://www.techtarget.com/ai/tip/Key-guardrails-to-defend-against-rogue-AI-agents\" target=\"_blank\" rel=\"noopener\">rogue</a>, <a href=\"http://okta.com/products/govern-ai-agent-identity/\" target=\"_blank\" rel=\"noopener\">Okta for AI Agents</a> is now being enhanced to better manage agentic risk while providing agents with enough access to accomplish appropriate tasks, all the while ensuring humans retain visibility and control.</p> <p>Okta invited conferencegoers to consider a scenario in which an employee links an AI agent to their everyday tools to work faster but unintentionally give it approved access to sensitive systems. Then, when they leave the company, the agent effectively becomes an orphan, running in the background “ungoverned and unknown”.</p> <p>Okta for AI Agents, it claimed, will eliminate the danger from this sort of scenario, bringing centralised governance and end-to-end agent lifecycle management, runtime policy enforcement, and should all else fail, a “last resort” <a href=\"https://www.computerweekly.com/news/366649464/NCSC-tells-organisations-to-have-AI-kill-switches-at-the-ready\" target=\"_blank\" rel=\"noopener\">kill switch</a>.</p> <p>“The challenge businesses face is the same access that makes agents powerful also makes them dangerous,” said Okta president of products and technology Ric Smith.</p> <p>“For over a decade, Okta has continuously modernised how the workforce authenticates and connects to every app they use. That same discipline extends to AI agents. Our goal is to give enterprises the visibility and runtime assurance they need to turn AI agents from an unmanaged security risk into a massive competitive advantage.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Four questions answered</h3> <ul class=\"default-list\"> <li><b>Where are my agents? </b>Shadow AI Agent Discovery for Endpoints will surface unmanaged agents running on employee devices before they become blind spots.</li> <li><b>What can they do? </b>Agent Single Sign On (SSO) will bring cross-app access to all Okta SSO customers, letting them swap non-expiring keys for short-lived, identity-governed tokens to reduce consent fatigue; Agent-to-Agent Connections will lay down a rulebook for which agents can call other ones, what they can access, and audit the handoff process; Configuration Designer will visually map agent-to-resource connections so handoffs are governed, scoped and auditable; and Resource Access Certifications will review agent connections to prevent standing or excessive permissions.</li> <li><b>What are they doing? </b>Agent Gateway will take up residence in the execution path in between agents and tool calls to enforce policies and log interactions at runtime.</li> <li><b>How do I respond? </b>Kill switch capabilities built into Agent Gateway will let humans cut off access if something goes wrong. Deactivating an agent at the gateway will revoke every active token held by a compromised agent and shut down every session ‘in flight’.</li> </ul> <p>A number of these enhancements including Agent SSO, Agent-to-Agent Connections, and Resource Access Certifications, are already generally available, all the others should come on stream by the end of Q4, said Okta.</p> </div> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Embracing agents\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Embracing agents</h2> <p>James Simcox, chief product officer and chief operating officer at UK-based fintech firm <a href=\"https://equalsmoney.com/en-us/coming-soon\" target=\"_blank\" rel=\"noopener\">Equals Money</a>, is among the Okta customers to have wholeheartedly embraced agentic AI, in some cases rebuilding basic business processes from scratch after finding traditional workflows do not always translate effectively to agents.</p> <p>“Across the business we’ve got agents running almost everywhere. You can call us up now to book an FX [foreign exchange] transaction on the phone where the entire interaction will be agentic – it sounds like a human, it feels like a human,” he said. “[But] if we enable financial transactions in that agentic environment, how we secure it is very difficult.”</p> <p>Echoing McKinnon’s thesis that non-human identities are now to some extent akin to human ones, Simcox said that Equals Money now treats its AI agents as, essentially, staff members with specific roles, permissions and identities – not mere service accounts.</p> <p>To comply with the UK and Europe’s complex regulatory environments, Equals Money has implemented an agentic platform that continuously audits the “thinking” process and behaviours of every agent so that the company can justify any decision taken by the agent, like suspending a fraudulent account – in court if needed, since deploying a customer-facing agent presents a far higher liability risk in the financial services sector.</p> <p>Additionally, the firm assigns its agents specific, tightly defined roles – such as changing customer email addresses – with highly limited permissions to stop oversharing or unauthorised access to out-of-scope metadata.</p> <p>And to mitigate any lingering friction between Equals Money’s engineering and security teams, said Simcox, the organisation has implemented a multi-modal review process where one agent must review code written by another before it can be released.</p> <p>“The way that I’m seeing the Okta products evolve for me is exactly what I want, which is good. It is now about how do we control agents as relevant entities,” said Simcox, looking ahead to the latest introductions.</p> <p>“The thing I’m really excited to get my hands on is the piece around the kill switch functionality,” he added. “It’s very hard currently for us to stop an agent if it’s doing something that it shouldn’t be doing.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Blueprint for a safe agentic stack\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Blueprint for a safe agentic stack</h2> <p>Meanwhile, Okta has also teamed up with a crowd of other suppliers, including the likes of Amazon Web Services (AWS), CrowdStrike, Databricks, Docker, Google Cloud, Proofpoint, Salesforce, ServiceNow, Wiz and Zscaler to form a cross-industry coalition – the <a href=\"https://www.okta.com/blueprint-alliance/\" target=\"_blank\" rel=\"noopener\">Blueprint Alliance</a> – that aims to help customers operate agentic stacks as single unified, governed systems.</p> <p>The founding members of the coalition propose to align towards a shared set of principles – or blueprint – to secure AI agents in which every agent is treated as a “first class” identity, access is scoped to tasks, delegation is traceable, runtime behaviour is subject to continuous monitoring, containment is instant and reversible, and governance is adaptable to the rapid evolution of AI.</p> <p>The same four big questions at the heart of Okta’s tech enhancements also sit at the heart of the blueprint, with the ultimate goal being a zero-trust, agentic control plane that gives technology leaders a means to scale agentic deployments safely and securely.</p> <p>According to Steven Tamm, senior vice-president of ecosystem at Okta, the supplier originated the blueprint because it recognised customers would need a consistent architecture to secure agents, governing identity, access and execution across the entire stack, without shutting out the autonomy that makes agents useful in the first place.</p> <p>“Getting there required founding members across the Blueprint Alliance to align on a shared approach rather than each vendor solving it alone. We’re glad to have contributed to that work, and we look forward to the industry building and testing against it as we help secure the future of AI,” he said.</p> <p>Domestic equipment giant <a href=\"https://www.geappliances.com/\" target=\"_blank\" rel=\"noopener\">GE Appliances</a> and charity <a href=\"https://wck.org/\" target=\"_blank\" rel=\"noopener\">World Central Kitchen</a> have both signed on to serve as strategic advisors and will help the alliance refine and validate approaches to securing agentic AI as they continue to develop in the future.</p> <p>“AI agents have the potential to transform manufacturing by accelerating problem-solving, improving quality and strengthening collaboration across the value chain. Unlocking that value at scale requires strong governance, clear visibility into where agents operate, what they can access and how they make decisions,” said Mandar Deo, GE chief digital technology adviser.</p> <p>“GE Appliances is bringing a real-world manufacturing perspective to help shape and validate a secure, scalable architecture that can operate across complex industrial environments – while maintaining accountability, trust and human controls.”</p> <p>Brian Stoll, chief technology officer at World Central Kitchen – which was established by celebrity chef and restaurateur <a href=\"https://thehill.com/blogs/in-the-know/5472479-jose-andres-trump-dc-takeover-restaurants/\" target=\"_blank\" rel=\"noopener\">José Andrés</a> – added: “To support the urgent technology demands of disaster response on a global scale, World Central Kitchen is embracing the dynamic benefits of agentic technology.</p> <p>“To do so responsibly requires establishing governance that is as dynamic as the agents themselves,” said Stoll. “We are looking forward to participating in the Blueprint Alliance for this exact reason: to help establish principles, processes, and tooling for agentic discovery, ownership, runtime control and observability – not to mention a better night’s rest for the CTO.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about security for AI agents</h3> <ul class=\"default-list\"> <li>The idea of using AI agents to secure AI agents seems compelling, but in doing so, we risk unnecessarily <a href=\"https://www.computerweekly.com/opinion/Why-AI-agents-cannot-be-trusted-to-secure-agentic-AI-yet\" target=\"_blank\" rel=\"noopener\">expanding our attack surface</a>.</li> <li>Experts outline comprehensive testing practices before and after deployment of AI agents to prevent them from acting on their own <a href=\"https://www.techtarget.com/ai/news/366649952/AI-agent-security-How-reliable-is-enterprise-AI-testing\" target=\"_blank\" rel=\"noopener\">beyond prescribed instructions</a>.</li> <li>Identity teams can accelerate AI adoption with strong security foundations. But managing nondeterministic AI agents is different from <a href=\"https://www.techtarget.com/cybersecurity/opinion/Identity-security-for-AI-agents-The-proliferation-challenge\" target=\"_blank\" rel=\"noopener\">securing human identities and traditional NHIs. </a></li> </ul> </div> </div> </section>",
     "categories": [
       "GRC",
       "Cybersecurity",
@@ -3262,7 +2549,7 @@
         "vendor"
       ]
     },
-    "summary": "<p>Setting out to help its customers answer pressing questions such as, ‘where are my agents?’, ‘what can they do?’, ‘what are they doing?’ and ‘how do I respond?’, Okta has become the latest in a string of cyber firms to debut new security capabilities to manage <a href=\"https://www.techtarget.com/ai/definition/What-are-AI-agents-Types-and-examples\" target=\"_blank\" rel=\"noopener\">artificial intelligence (AI) agents</a>.</p> <p>The identity and access management (IAM) house unveiled a range of innovations that collectively build on a vision first outlined this time last year <a href=\"https://www.computerweekly.com/news/366631993/Oktane-2025-Okta-takes-aim-at-agentic-AI-governance-gap\" target=\"_blank\" rel=\"noopener\">at Okta’s 2025 Oktane event</a>, where CEO Todd McKinnon proudly proclaimed that AI security and identity security were becoming indistinguishable as he launched <a href=\"https://www.computerweekly.com/news/366632056/Okta-CEO-AI-security-and-identity-security-are-one-and-the-same\" target=\"_blank\" rel=\"noopener\">the first iteration of Okta for AI Agents</a>.</p> <p>As Okta’s customers descended once more on Las Vegas, Nevada for <a href=\"https://www.okta.com/oktane/\" target=\"_blank\" rel=\"noopener\">Oktane 2026</a> in the wake of a string of high-profile mishaps in which <a href=\"https://www.computerweekly.com/news/366647165/Mythos-ran-real-life-supply-chain-attack-in-AI-safety-body-test\" target=\"_blank\" rel=\"noopener\">mismanaged agents</a> went <a href=\"https://www.techtarget.com/ai/tip/Key-guardrails-to-defend-against-rogue-AI-agents\" target=\"_blank\" rel=\"noopener\">rogue</a>, <a href=\"http://okta.com/products/govern-ai-agent-identity/\" target=\"_blank\" rel=\"noopener\">Okta for AI Agents</a> is now being enhanced to better manage agentic risk while providing agents with enough access to accomplish appropriate tasks, all the while ensuring humans retain visibility and control.</p> <p>Okta invited conferencegoers to consider a scenario in which an employee links an AI agent to their everyday tools to work faster but unintentionally give it approved access to sensitive systems. Then, when they leave the company, the agent effectively becomes an orphan, running in the background “ungoverned and unknown”.</p> <p>Okta for AI Agents, it claimed, will eliminate the danger from this sort of scenario, bringing centralised governance and end-to-end agent lifecycle management, runtime policy enforcement, and should all else fail, a ‘last resort’ <a href=\"https://www.computerweekly.com/news/366649464/NCSC-tells-organisations-to-have-AI-kill-switches-at-the-ready\" target=\"_blank\" rel=\"noopener\">kill switch</a>.</p> <p>“The challenge businesses face is the same access that makes agents powerful also makes them dangerous,” explained Okta president of products and technology Ric Smith.</p> <p>“For over a decade, Okta has continuously modernised how the workforce authenticates and connects to every app they use. That same discipline extends to AI agents. Our goal is to give enterprises the visibility and runtime assurance they need to turn AI agents from an unmanaged security risk into a massive competitive advantage.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Four questions answered</h3> <ul class=\"default-list\"> <li><b>Where are my agents?"
+    "summary": "<p>Setting out to help its customers answer pressing questions such as, “where are my agents?”, “what can they do?”, “what are they doing?” and “how do I respond?”, Okta has become the latest in a string of cyber firms to debut security capabilities to manage <a href=\"https://www.techtarget.com/ai/definition/What-are-AI-agents-Types-and-examples\" target=\"_blank\" rel=\"noopener\">artificial intelligence (AI) agents</a>.</p> <p>The identity and access management (IAM) house unveiled a range of innovations that collectively build on a vision first outlined this time last year <a href=\"https://www.computerweekly.com/news/366631993/Oktane-2025-Okta-takes-aim-at-agentic-AI-governance-gap\" target=\"_blank\" rel=\"noopener\">at Okta’s 2025 Oktane event</a>, where CEO Todd McKinnon proudly proclaimed that AI security and identity security were becoming indistinguishable as he launched <a href=\"https://www.computerweekly.com/news/366632056/Okta-CEO-AI-security-and-identity-security-are-one-and-the-same\" target=\"_blank\" rel=\"noopener\">the first iteration of Okta for AI Agents</a>.</p> <p>As Okta’s customers descended once more on Las Vegas, Nevada for <a href=\"https://www.okta.com/oktane/\" target=\"_blank\" rel=\"noopener\">Oktane 2026</a> in the wake of a string of high-profile mishaps in which <a href=\"https://www.computerweekly.com/news/366647165/Mythos-ran-real-life-supply-chain-attack-in-AI-safety-body-test\" target=\"_blank\" rel=\"noopener\">mismanaged agents</a> went <a href=\"https://www.techtarget.com/ai/tip/Key-guardrails-to-defend-against-rogue-AI-agents\" target=\"_blank\" rel=\"noopener\">rogue</a>, <a href=\"http://okta.com/products/govern-ai-agent-identity/\" target=\"_blank\" rel=\"noopener\">Okta for AI Agents</a> is now being enhanced to better manage agentic risk while providing agents with enough access to accomplish appropriate tasks, all the while ensuring humans retain visibility and control.</p> <p>Okta invited conferencegoers to consider a scenario in which an employee links an AI agent to their everyday tools to work faster but unintentionally give it approved access to sensitive systems. Then, when they leave the company, the agent effectively becomes an orphan, running in the background “ungoverned and unknown”.</p> <p>Okta for AI Agents, it claimed, will eliminate the danger from this sort of scenario, bringing centralised governance and end-to-end agent lifecycle management, runtime policy enforcement, and should all else fail, a “last resort” <a href=\"https://www.computerweekly.com/news/366649464/NCSC-tells-organisations-to-have-AI-kill-switches-at-the-ready\" target=\"_blank\" rel=\"noopener\">kill switch</a>.</p> <p>“The challenge businesses face is the same access that makes agents powerful also makes them dangerous,” said Okta president of products and technology Ric Smith.</p> <p>“For over a decade, Okta has continuously modernised how the workforce authenticates and connects to every app they use. That same discipline extends to AI agents. Our goal is to give enterprises the visibility and runtime assurance they need to turn AI agents from an unmanaged security risk into a massive competitive advantage.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Four questions answered</h3> <ul class=\"default-list\"> <li><b>Where are my agents?"
   },
   {
     "title": "Zero-trust was built for people. Nobody told it about agents",
@@ -3678,47 +2965,87 @@
     "summary": "We know models cheat. A new benchmark measures how much, and on what tasks."
   },
   {
-    "title": "LE NATURAL DIAMOND COUNCIL SE RÉINCARNE SOUS LE NOM DE « DIAMOND COLLECTIVE » AVEC UNE NOUVELLE STRATÉGIE VISANT À RAVIVER L'ENGOUEMENT POUR LES DIAMANTS NATURELS",
-    "url": "https://www.prnewswire.com/news-releases/le-natural-diamond-council-se-reincarne-sous-le-nom-de--diamond-collective--avec-une-nouvelle-strategie-visant-a-raviver-lengouement-pour-les-diamants-naturels-302887397.html",
+    "title": "ZEELOOL y Aimee Song lanzan una nueva colección de gafas con el lema \"Let's Frame Your Vibe\"",
+    "url": "https://www.prnewswire.com/news-releases/zeelool-y-aimee-song-lanzan-una-nueva-coleccion-de-gafas-con-el-lema-lets-frame-your-vibe-302887474.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:38:00+00:00",
-    "raw_text": "Le Diamond Collective rassemblera les acteurs du secteur autour d'une ambition commune : redonner aux gens le goût de la rareté, de la signification et de la puissance émotionnelle intemporelle des diamants. LONDRES, 23 septembre 2026 /PRNewswire/ -- Aujourd'hui, le Natural Diamond...",
+    "published": "2026-09-23T09:23:00+00:00",
+    "raw_text": "AUSTIN, Texas, 23 de septiembre de 2026 /PRNewswire/ -- La marca de gafas online ZEELOOL y la creadora y diseñadora con sede en Los Ángeles, Aimee Song, han lanzado una nueva colección de gafas, que ya está disponible en ZEELOOL.com. Presentada bajo el lema de la campaña \"Let's Frame Your...",
+    "categories": [
+      "Networks",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "dora"
+      ]
+    },
+    "summary": "AUSTIN, Texas, 23 de septiembre de 2026 /PRNewswire/ -- La marca de gafas online ZEELOOL y la creadora y diseñadora con sede en Los Ángeles, Aimee Song, han lanzado una nueva colección de gafas, que ya está disponible en ZEELOOL.com. Presentada bajo el lema de la campaña \"Let's Frame Your..."
+  },
+  {
+    "title": "Gravity Game Unite Successfully Concludes Ragnarok Zero: Global Showcase at Gaming Istanbul 2026",
+    "url": "https://www.prnewswire.com/news-releases/gravity-game-unite-successfully-concludes-ragnarok-zero-global-showcase-at-gaming-istanbul-2026-302887473.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-23T09:16:00+00:00",
+    "raw_text": "KUALA LUMPUR, Malaysia, Sept. 23, 2026 /PRNewswire/ -- Gravity Game Unite (GGU), the Malaysian subsidiary of global gaming company Gravity, successfully concluded its showcase of the PC MMORPG Ragnarok Zero: Global at Gaming Istanbul 2026, held in Türkiye from September 18 to 20. Gaming...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Le Diamond Collective rassemblera les acteurs du secteur autour d'une ambition commune : redonner aux gens le goût de la rareté, de la signification et de la puissance émotionnelle intemporelle des diamants. LONDRES, 23 septembre 2026 /PRNewswire/ -- Aujourd'hui, le Natural Diamond..."
+    "summary": "KUALA LUMPUR, Malaysia, Sept. 23, 2026 /PRNewswire/ -- Gravity Game Unite (GGU), the Malaysian subsidiary of global gaming company Gravity, successfully concluded its showcase of the PC MMORPG Ragnarok Zero: Global at Gaming Istanbul 2026, held in Türkiye from September 18 to 20. Gaming..."
   },
   {
-    "title": "Übernahmeangebot von Persistent für Nagarro erfolgreich",
-    "url": "https://www.prnewswire.com/news-releases/ubernahmeangebot-von-persistent-fur-nagarro-erfolgreich-302887391.html",
+    "title": "StarCharge Earns First Domestic and Global Certifications for Microgrid Technology",
+    "url": "https://www.prnewswire.com/news-releases/starcharge-earns-first-domestic-and-global-certifications-for-microgrid-technology-302887471.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:33:00+00:00",
-    "raw_text": "Zusätzliche Annahmefrist läuft vom 23. September 2026 bis zum 6. Oktober 2026 Persistent hat bis zum Ende der Annahmefrist insgesamt 83,25 %1 des ausstehenden Aktienkapitals von Nagarro gesichert Die zusätzliche Annahmefrist von zwei Wochen beginnt am 23. September 2026: Die Aktionäre von...",
+    "published": "2026-09-23T09:15:00+00:00",
+    "raw_text": "CHANGZHOU, China, Sept. 23, 2026 /PRNewswire/ -- StarCharge has received two industry-first certifications for its microgrid technology, marking the first domestic certification for cloud-edge-device AI collaborative performance and the first global Tick Mark certification for...",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ]
+    },
+    "summary": "CHANGZHOU, China, Sept. 23, 2026 /PRNewswire/ -- StarCharge has received two industry-first certifications for its microgrid technology, marking the first domestic certification for cloud-edge-device AI collaborative performance and the first global Tick Mark certification for..."
+  },
+  {
+    "title": "JEGI LEONIS ha asesorado a Forge en su acuerdo definitivo para adquirir Becker's Healthcare",
+    "url": "https://www.prnewswire.com/news-releases/jegi-leonis-ha-asesorado-a-forge-en-su-acuerdo-definitivo-para-adquirir-beckers-healthcare-302887466.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-23T09:10:00+00:00",
+    "raw_text": "- JEGI LEONIS ha asesorado a Forge, empresa de la cartera de Apollo, en su acuerdo definitivo para adquirir Becker's Healthcare, empresa de la cartera de Pamlico Capital NUEVA YORK, 23 de septiembre de 2026 /PRNewswire/ -- Forge, asesorada por medio de JEGI LEONIS y empresa participada...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Zusätzliche Annahmefrist läuft vom 23. September 2026 bis zum 6. Oktober 2026 Persistent hat bis zum Ende der Annahmefrist insgesamt 83,25 %1 des ausstehenden Aktienkapitals von Nagarro gesichert Die zusätzliche Annahmefrist von zwei Wochen beginnt am 23. September 2026: Die Aktionäre von..."
+    "summary": "- JEGI LEONIS ha asesorado a Forge, empresa de la cartera de Apollo, en su acuerdo definitivo para adquirir Becker's Healthcare, empresa de la cartera de Pamlico Capital NUEVA YORK, 23 de septiembre de 2026 /PRNewswire/ -- Forge, asesorada por medio de JEGI LEONIS y empresa participada..."
   },
   {
-    "title": "TENA Answers Women's Most-Searched Pelvic Floor Questions For Healthy Aging Month",
-    "url": "https://www.prnewswire.com/news-releases/tena-answers-womens-most-searched-pelvic-floor-questions-for-healthy-aging-month-302886677.html",
+    "title": "Timur Turlov propone una mayor representación de Ucrania en la dirección de la FIDE",
+    "url": "https://www.prnewswire.com/news-releases/timur-turlov-propone-una-mayor-representacion-de-ucrania-en-la-direccion-de-la-fide-302887467.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:30:00+00:00",
-    "raw_text": "PHILADELPHIA, Sept. 23, 2026 /PRNewswire/ -- Women are increasingly turning to AI tools for answers about aging. But, while more access to information can be a boon, it poses its own risks, such as danger of misinformation and a lack of understanding of personal situations. To stop women...",
+    "published": "2026-09-23T09:10:00+00:00",
+    "raw_text": "SAMARCANDA, Uzbekistán, 23 de septiembre de 2026 /PRNewswire/ -- El papel de Ucrania en el ajedrez internacional se ha convertido en uno de los temas centrales de las elecciones a la presidencia de la FIDE de 2026, después de que Timur Turlov propusiera que Ucrania presentara a su propio...",
     "categories": [
-      "Uncategorised"
+      "Cybersecurity"
     ],
-    "matched_keywords": {},
-    "summary": "PHILADELPHIA, Sept. 23, 2026 /PRNewswire/ -- Women are increasingly turning to AI tools for answers about aging. But, while more access to information can be a boon, it poses its own risks, such as danger of misinformation and a lack of understanding of personal situations. To stop women..."
+    "matched_keywords": {
+      "Cybersecurity": [
+        "edr"
+      ]
+    },
+    "summary": "SAMARCANDA, Uzbekistán, 23 de septiembre de 2026 /PRNewswire/ -- El papel de Ucrania en el ajedrez internacional se ha convertido en uno de los temas centrales de las elecciones a la presidencia de la FIDE de 2026, después de que Timur Turlov propusiera que Ucrania presentara a su propio..."
   },
   {
-    "title": "ZEELOOL and Aimee Song Launch New Eyewear Collection With \"Let's Frame Your Vibe\"",
-    "url": "https://www.prnewswire.com/news-releases/zeelool-and-aimee-song-launch-new-eyewear-collection-with-lets-frame-your-vibe-302886980.html",
+    "title": "Beijing Review: Walking with history",
+    "url": "https://www.prnewswire.com/news-releases/beijing-review-walking-with-history-302887465.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:30:00+00:00",
-    "raw_text": "AUSTIN, Texas, Sept. 23, 2026 /PRNewswire/ -- Online eyewear brand ZEELOOL and Los Angeles-based creator and designer Aimee Song have launched a new eyewear collection, now available at ZEELOOL.com. Presented under the campaign theme \"Let's Frame Your Vibe,\" the collaboration brings...",
+    "published": "2026-09-23T09:07:00+00:00",
+    "raw_text": "BEIJING, Sept. 23, 2026 /PRNewswire/ -- Some journeys change you the first time you take them. Others reveal their true weight only when you return. Ten years ago, in 2016, I had the incredible opportunity to retrace the route of the Long March (1934-36) as an intern journalist during the...",
     "categories": [
       "Industry & Market"
     ],
@@ -3727,98 +3054,98 @@
         "ey"
       ]
     },
-    "summary": "AUSTIN, Texas, Sept. 23, 2026 /PRNewswire/ -- Online eyewear brand ZEELOOL and Los Angeles-based creator and designer Aimee Song have launched a new eyewear collection, now available at ZEELOOL.com. Presented under the campaign theme \"Let's Frame Your Vibe,\" the collaboration brings..."
+    "summary": "BEIJING, Sept. 23, 2026 /PRNewswire/ -- Some journeys change you the first time you take them. Others reveal their true weight only when you return. Ten years ago, in 2016, I had the incredible opportunity to retrace the route of the Long March (1934-36) as an intern journalist during the..."
   },
   {
-    "title": "Xinhua Silk Road: Foreign influencers explore spectacular scenery of northeastern China in Heilongjiang",
-    "url": "https://www.prnewswire.com/news-releases/xinhua-silk-road-foreign-influencers-explore-spectacular-scenery-of-northeastern-china-in-heilongjiang-302887375.html",
+    "title": "Sceye Supports SoftBank Corp. in World-First Demonstration of Laser Ranging by Tracking a HAPS from the Ground",
+    "url": "https://www.prnewswire.com/news-releases/sceye-supports-softbank-corp-in-world-first-demonstration-of-laser-ranging-by-tracking-a-haps-from-the-ground-302886794.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:20:00+00:00",
-    "raw_text": "BEIJING, Sept. 23, 2026 /PRNewswire/ -- Why settle for ordinary vacations when you can explore cool summers and diverse landscapes? In Heilongjiang, a province in northeast China, several influencers from different countries gathered recently to unlock its hidden beauty and down-to-earth...",
+    "published": "2026-09-23T09:03:00+00:00",
+    "raw_text": "SoftBank Corp.'s ground team tracked Sceye's stratospheric platform in real time and continuously received reflected laser signals, advancing future free-space optical (FSO) communications between ground, stratosphere, and space MORIARTY, N.M., Sept. 23, 2026 /PRNewswire/ -- Sceye, a U.S....",
     "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "BEIJING, Sept. 23, 2026 /PRNewswire/ -- Why settle for ordinary vacations when you can explore cool summers and diverse landscapes? In Heilongjiang, a province in northeast China, several influencers from different countries gathered recently to unlock its hidden beauty and down-to-earth..."
-  },
-  {
-    "title": "Epson Introduces SureColor F370 and New Cotton Primer Solution to Help Creators and Small Businesses Personalize More Products with Dye-Sublimation",
-    "url": "https://www.prnewswire.com/news-releases/epson-introduces-surecolor-f370-and-new-cotton-primer-solution-to-help-creators-and-small-businesses-personalize-more-products-with-dye-sublimation-302886933.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:15:00+00:00",
-    "raw_text": "New Compact Dye-Sublimation Printer Simplifies Personalized Product Creation; Cotton Primer Expands Applications to Natural Fibers LAS VEGAS, Sept. 23, 2026 /PRNewswire/ -- PRINTING United Expo, Booth #C1945 -- As personalized and on-demand product customization continues to grow, Epson...",
-    "categories": [
-      "Networks",
       "Data Centres",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "fiber"
-      ],
       "Data Centres": [
-        "colo"
+        "rack"
       ],
       "Industry & Market": [
-        "expands"
+        "ey"
       ]
     },
-    "summary": "New Compact Dye-Sublimation Printer Simplifies Personalized Product Creation; Cotton Primer Expands Applications to Natural Fibers LAS VEGAS, Sept. 23, 2026 /PRNewswire/ -- PRINTING United Expo, Booth #C1945 -- As personalized and on-demand product customization continues to grow, Epson..."
+    "summary": "SoftBank Corp.'s ground team tracked Sceye's stratospheric platform in real time and continuously received reflected laser signals, advancing future free-space optical (FSO) communications between ground, stratosphere, and space MORIARTY, N.M., Sept. 23, 2026 /PRNewswire/ -- Sceye, a U.S...."
   },
   {
-    "title": "Appian domina la classifica nel report Gartner® Critical Capabilities™ 2026 sulle tecnologie di orchestrazione e automazione aziendale, per i casi d'uso relativi all'automazione deterministica dei flussi di lavoro e al consolidamento delle piattaforme",
-    "url": "https://www.prnewswire.com/news-releases/appian-domina-la-classifica-nel-report-gartner-critical-capabilities-2026-sulle-tecnologie-di-orchestrazione-e-automazione-aziendale-per-i-casi-duso-relativi-allautomazione-deterministica-dei-flussi-di-lavoro-e-al-consolidame-302886478.html",
+    "title": "Best Medical Waste Disposal Company for Dental Offices (2026): Sharps Assure Named a Top Mail-Back Provider by Better Business Advice",
+    "url": "https://www.prnewswire.com/news-releases/best-medical-waste-disposal-company-for-dental-offices-2026-sharps-assure-named-a-top-mail-back-provider-by-better-business-advice-302886868.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:15:00+00:00",
-    "raw_text": "Appian è stata inoltre nominata leader nel rapporto Gartner® Magic Quadrant™ per le tecnologie di orchestrazione e automazione aziendale (BOAT) MILANO, 23 settembre 2026 /PRNewswire/ -- Appian (Nasdaq: APPN) ha annunciato oggi di essersi classificata al primo posto per i casi d'uso...",
+    "published": "2026-09-23T09:00:00+00:00",
+    "raw_text": "NEW YORK, Sept. 23, 2026 /PRNewswire/ -- Better Business Advice has named Sharps Assure a top mail-back provider for dental offices, highlighting the company's range of sharps disposal systems, dental amalgam waste solutions, prepaid return services, and disposal documentation. Best...",
     "categories": [
-      "Networks",
-      "GRC",
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "NEW YORK, Sept. 23, 2026 /PRNewswire/ -- Better Business Advice has named Sharps Assure a top mail-back provider for dental offices, highlighting the company's range of sharps disposal systems, dental amalgam waste solutions, prepaid return services, and disposal documentation. Best..."
+  },
+  {
+    "title": "Zahav Foods Debuts Restaurant-Recipe Hummus Matbucha and Hummus Harissa at Stores Across the U.S.",
+    "url": "https://www.prnewswire.com/news-releases/zahav-foods-debuts-restaurant-recipe-hummus-matbucha-and-hummus-harissa-at-stores-across-the-us-302886955.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-23T09:00:00+00:00",
+    "raw_text": "The five-time James Beard Award-winning restaurateurs behind Michelin-Recommended Zahav — Michael Solomonov and Steven Cook — debut Zahav Hummus Matbucha and Zahav Hummus Harissa at select Whole Foods Markets nationwide, Bristol Farms, Giant, and McCaffrey's Link to Photos - Product...",
+    "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "nist"
-      ],
       "Industry & Market": [
-        "gartner"
+        "ey"
       ]
     },
-    "summary": "Appian è stata inoltre nominata leader nel rapporto Gartner® Magic Quadrant™ per le tecnologie di orchestrazione e automazione aziendale (BOAT) MILANO, 23 settembre 2026 /PRNewswire/ -- Appian (Nasdaq: APPN) ha annunciato oggi di essersi classificata al primo posto per i casi d'uso..."
+    "summary": "The five-time James Beard Award-winning restaurateurs behind Michelin-Recommended Zahav — Michael Solomonov and Steven Cook — debut Zahav Hummus Matbucha and Zahav Hummus Harissa at select Whole Foods Markets nationwide, Bristol Farms, Giant, and McCaffrey's Link to Photos - Product..."
   },
   {
-    "title": "Appian belegt Platz 1 im 2026 Gartner® Critical Capabilities™ for Business Orchestration and Automation Technologies Report bei den Anwendungsfällen „Deterministische Workflow-Automatisierung\" und „Plattformkonsolidierung\"",
-    "url": "https://www.prnewswire.com/news-releases/appian-belegt-platz-1-im-2026-gartner-critical-capabilities-for-business-orchestration-and-automation-technologies-report-bei-den-anwendungsfallen-deterministische-workflow-automatisierung-und-plattformkonsolidierung-302886476.html",
+    "title": "Timur Turlov schlägt eine stärkere Vertretung der Ukraine in der FIDE-Führung vor",
+    "url": "https://www.prnewswire.com/news-releases/timur-turlov-schlagt-eine-starkere-vertretung-der-ukraine-in-der-fide-fuhrung-vor-302887460.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:15:00+00:00",
-    "raw_text": "Gartner stuft Appian zudem im Magic Quadrant™ für Business Orchestration and Automation Technologies (BOAT) Report als Leader ein BERLIN, 23. September 2026 /PRNewswire/ -- Appian [Nasdaq: APPN] hat bekanntgegeben, dass das Unternehmen im 2026 Gartner® Critical Capabilities™ for Business...",
+    "published": "2026-09-23T09:00:00+00:00",
+    "raw_text": "SAMARKAND, Usbekistan, 23. September 2026 /PRNewswire/ -- Die Rolle der Ukraine im internationalen Schach ist zu einem Schwerpunkt der FIDE-Präsidentschaftswahlen 2026 geworden, nachdem Timur Turlov vorgeschlagen hatte, dass die Ukraine einen eigenen Kandidaten für das Amt des...",
     "categories": [
-      "GRC",
-      "Industry & Market"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "gartner"
-      ]
-    },
-    "summary": "Gartner stuft Appian zudem im Magic Quadrant™ für Business Orchestration and Automation Technologies (BOAT) Report als Leader ein BERLIN, 23. September 2026 /PRNewswire/ -- Appian [Nasdaq: APPN] hat bekanntgegeben, dass das Unternehmen im 2026 Gartner® Critical Capabilities™ for Business..."
+    "matched_keywords": {},
+    "summary": "SAMARKAND, Usbekistan, 23. September 2026 /PRNewswire/ -- Die Rolle der Ukraine im internationalen Schach ist zu einem Schwerpunkt der FIDE-Präsidentschaftswahlen 2026 geworden, nachdem Timur Turlov vorgeschlagen hatte, dass die Ukraine einen eigenen Kandidaten für das Amt des..."
   },
   {
-    "title": "The science that brought green back to China's Loess Plateau awarded the 2026 Volvo Environment Prize",
-    "url": "https://www.prnewswire.com/news-releases/the-science-that-brought-green-back-to-chinas-loess-plateau-awarded-the-2026-volvo-environment-prize-302887367.html",
+    "title": "Timur Turlov propose de renforcer la représentation ukrainienne au sein de la direction de la FIDE",
+    "url": "https://www.prnewswire.com/news-releases/timur-turlov-propose-de-renforcer-la-representation-ukrainienne-au-sein-de-la-direction-de-la-fide-302887459.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:13:00+00:00",
-    "raw_text": "GOTHENBURG, Sweden, Sept. 23, 2026 /PRNewswire/ -- Once stripped of vegetation and scarred by some of the world's most severe soil erosion, China's Loess Plateau has undergone a remarkable ecological transformation. Professor Bojie Fu, one of the scientists who helped make that recovery...",
+    "published": "2026-09-23T08:53:00+00:00",
+    "raw_text": "SAMARCANDE, Ouzbékistan, 23 septembre 2026 /PRNewswire/ -- Le rôle de l'Ukraine dans le monde des échecs internationaux est devenu un enjeu central de l'élection présidentielle de la FIDE de 2026, après que Timur Turlov a proposé que l'Ukraine désigne son propre candidat au poste de...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SAMARCANDE, Ouzbékistan, 23 septembre 2026 /PRNewswire/ -- Le rôle de l'Ukraine dans le monde des échecs internationaux est devenu un enjeu central de l'élection présidentielle de la FIDE de 2026, après que Timur Turlov a proposé que l'Ukraine désigne son propre candidat au poste de..."
+  },
+  {
+    "title": "Timur Turlov proposes stronger Ukrainian representation in FIDE leadership",
+    "url": "https://www.prnewswire.com/news-releases/timur-turlov-proposes-stronger-ukrainian-representation-in-fide-leadership-302887457.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-23T08:49:00+00:00",
+    "raw_text": "SAMARKAND, Uzbekistan, Sept. 23, 2026 /PRNewswire/ -- Ukraine's role in international chess has emerged as a focus of the 2026 FIDE presidential election after Timur Turlov proposed that Ukraine nominate its own candidate for FIDE Vice President if his ticket is elected. Turlov, who is...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SAMARKAND, Uzbekistan, Sept. 23, 2026 /PRNewswire/ -- Ukraine's role in international chess has emerged as a focus of the 2026 FIDE presidential election after Timur Turlov proposed that Ukraine nominate its own candidate for FIDE Vice President if his ticket is elected. Turlov, who is..."
+  },
+  {
+    "title": "Innovent to Present New Clinical Data of Next-gen IO and ADC Pipeline at the 2026 ESMO Annual Meeting",
+    "url": "https://www.prnewswire.com/news-releases/innovent-to-present-new-clinical-data-of-next-gen-io-and-adc-pipeline-at-the-2026-esmo-annual-meeting-302887455.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-23T08:48:00+00:00",
+    "raw_text": "SAN FRANCISCO and SUZHOU, China, Sept. 23, 2026 /PRNewswire/ -- Innovent Biologics, Inc. (\"Innovent\") (HKEX: 01801), a world-class biopharmaceutical company that develops, manufactures and commercializes high quality medicines for the treatment of oncology, cardiovascular and metabolic,...",
     "categories": [
       "Data Centres"
     ],
@@ -3827,152 +3154,123 @@
         "colo"
       ]
     },
-    "summary": "GOTHENBURG, Sweden, Sept. 23, 2026 /PRNewswire/ -- Once stripped of vegetation and scarred by some of the world's most severe soil erosion, China's Loess Plateau has undergone a remarkable ecological transformation. Professor Bojie Fu, one of the scientists who helped make that recovery..."
+    "summary": "SAN FRANCISCO and SUZHOU, China, Sept. 23, 2026 /PRNewswire/ -- Innovent Biologics, Inc. (\"Innovent\") (HKEX: 01801), a world-class biopharmaceutical company that develops, manufactures and commercializes high quality medicines for the treatment of oncology, cardiovascular and metabolic,..."
   },
   {
-    "title": "Co-Creating Future Transit Value: CRRC Brings Three Full-Size Trains and End-to-End Solutions to InnoTrans 2026",
-    "url": "https://www.prnewswire.com/news-releases/co-creating-future-transit-value-crrc-brings-three-full-size-trains-and-end-to-end-solutions-to-innotrans-2026-302887366.html",
+    "title": "Habanos, S.A. presentó Trinidad Vigía Reserva Cosecha 2022, la primera Reserva en la historia de Trinidad",
+    "url": "https://www.prnewswire.com/news-releases/habanos-sa-presento-trinidad-vigia-reserva-cosecha-2022-la-primera-reserva-en-la-historia-de-trinidad-302887450.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:11:00+00:00",
-    "raw_text": "BERLIN, Sept. 23, 2026 /PRNewswire/ -- CRRC, the world's largest rail equipment manufacturer, opened its InnoTrans 2026 showcase with the global debut of three new full-size vehicles and a comprehensive suite of system-level solutions, offering the industry a broader set of options for...",
+    "published": "2026-09-23T08:43:00+00:00",
+    "raw_text": "Una edición excepcional elaborada con hojas sometidas a un riguroso proceso de envejecimiento adicional de al menos tres años, que cuenta con una producción limitada de 5.000 cajas numeradas de 20 Habanos cada una, así como un estuche de regalo ideal que contiene 3 Habanos. LA HABANA, 23...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "BERLIN, Sept. 23, 2026 /PRNewswire/ -- CRRC, the world's largest rail equipment manufacturer, opened its InnoTrans 2026 showcase with the global debut of three new full-size vehicles and a comprehensive suite of system-level solutions, offering the industry a broader set of options for..."
+    "summary": "Una edición excepcional elaborada con hojas sometidas a un riguroso proceso de envejecimiento adicional de al menos tres años, que cuenta con una producción limitada de 5.000 cajas numeradas de 20 Habanos cada una, así como un estuche de regalo ideal que contiene 3 Habanos. LA HABANA, 23..."
   },
   {
-    "title": "The Appointment Ends and the Questions Begin. Bay Area Cancer Connections Answers Them on \"All Access hosted by Andy Garcia\"",
-    "url": "https://www.prnewswire.com/news-releases/the-appointment-ends-and-the-questions-begin-bay-area-cancer-connections-answers-them-on-all-access-hosted-by-andy-garcia-302883232.html",
+    "title": "As the Industry Revisits What Premium Customers Value, LEPAS Shares Its Own Perspective",
+    "url": "https://www.prnewswire.com/news-releases/as-the-industry-revisits-what-premium-customers-value-lepas-shares-its-own-perspective-302887449.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:00:00+00:00",
-    "raw_text": "SAN FRANCISCO, Sept. 23, 2026 /PRNewswire/ -- An upcoming Public Television feature will examine how a San Mateo nonprofit supports people affected by breast and ovarian cancer with navigation, education, financial help and community support that continues long after treatment...",
+    "published": "2026-09-23T08:39:00+00:00",
+    "raw_text": "BARCELONA, Spain, Sept. 23, 2026 /PRNewswire/ -- As the automotive industry revisits what premium customers value, LEPAS, Chery Auto's mid-to-premium new energy vehicle (NEV) brand, is setting out its own perspective. For LEPAS, premium is defined by elegance: design people connect with,...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "SAN FRANCISCO, Sept. 23, 2026 /PRNewswire/ -- An upcoming Public Television feature will examine how a San Mateo nonprofit supports people affected by breast and ovarian cancer with navigation, education, financial help and community support that continues long after treatment..."
+    "summary": "BARCELONA, Spain, Sept. 23, 2026 /PRNewswire/ -- As the automotive industry revisits what premium customers value, LEPAS, Chery Auto's mid-to-premium new energy vehicle (NEV) brand, is setting out its own perspective. For LEPAS, premium is defined by elegance: design people connect with,..."
   },
   {
-    "title": "Temu Expands Seller Education with Bureau Veritas, QIMA and TÜV SÜD",
-    "url": "https://www.prnewswire.com/news-releases/temu-expands-seller-education-with-bureau-veritas-qima-and-tuv-sud-302887240.html",
+    "title": "THE 50 BEST BARS, 2026 YILI İÇİN GENİŞLETİLMİŞ 51-100 LİSTESİNİ AÇIKLADI",
+    "url": "https://www.prnewswire.com/news-releases/the-50-best-bars-2026-yili-icin-geniletilmi-51-100-listesini-acikladi-302884622.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T07:00:00+00:00",
-    "raw_text": "DUBLIN, Sept. 23, 2026 /PRNewswire/ -- Temu is expanding its seller education programs in collaboration with eight global product testing and certification organizations, including Bureau Veritas, QIMA and TÜV SÜD. The courses help sellers on Temu understand the product safety and...",
+    "published": "2026-09-23T08:30:00+00:00",
+    "raw_text": "LONDRA, 23 Eylül 2026 /PRNewswire/ -- Perrier'in sponsorluğunda The 50 Best Bars listesi, Milano'da düzenlenecek The 50 Best Bars 2026 ödül töreninden iki hafta önce, genişletilmiş sıralamanın onuncu yılını kutlayarak No.51'den No.100'e kadar yer alan barları açıkladı. Rakamlarla 51-100...",
     "categories": [
+      "Networks",
       "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "DUBLIN, Sept. 23, 2026 /PRNewswire/ -- Temu is expanding its seller education programs in collaboration with eight global product testing and certification organizations, including Bureau Veritas, QIMA and TÜV SÜD. The courses help sellers on Temu understand the product safety and..."
-  },
-  {
-    "title": "Valmet supplies a complete board making line for efficient premium-quality coated board production in Asia",
-    "url": "https://www.prnewswire.com/news-releases/valmet-supplies-a-complete-board-making-line-for-efficient-premium-quality-coated-board-production-in-asia-302887344.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-23T06:55:00+00:00",
-    "raw_text": "Valmet Oyj's press release on September 23, 2026, at 9:30 a.m. EEST ESPOO, Finland, Sept. 23, 2026 /PRNewswire/ -- Valmet has been selected to supply a coated board making line, automation, and lifecycle services to a customer in Asia. The new line will produce premium-quality coated...",
-    "categories": [
-      "Networks"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
-      ]
-    },
-    "summary": "Valmet Oyj's press release on September 23, 2026, at 9:30 a.m. EEST ESPOO, Finland, Sept. 23, 2026 /PRNewswire/ -- Valmet has been selected to supply a coated board making line, automation, and lifecycle services to a customer in Asia. The new line will produce premium-quality coated..."
-  },
-  {
-    "title": "CATL lance la production expérimentale de cellules de batterie en Hongrie",
-    "url": "https://www.prnewswire.com/news-releases/catl-lance-la-production-experimentale-de-cellules-de-batterie-en-hongrie-302887343.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-23T06:54:00+00:00",
-    "raw_text": "DEBRECEN, Hongrie, 23 septembre 2026 /PRNewswire/ -- CATL lance la production d'essai le 22 septembre 2026 dans son usine de fabrication de cellules récemment construite à Debrecen, l'entreprise ayant rempli toutes les conditions préalables requises pour démarrer la phase d'essai....",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "DEBRECEN, Hongrie, 23 septembre 2026 /PRNewswire/ -- CATL lance la production d'essai le 22 septembre 2026 dans son usine de fabrication de cellules récemment construite à Debrecen, l'entreprise ayant rempli toutes les conditions préalables requises pour démarrer la phase d'essai...."
-  },
-  {
-    "title": "Leekr Technology Accelerates the Global Deployment of System-Level Intelligent Chassis Solutions, Driving the Next Generation of Smart Mobility",
-    "url": "https://www.prnewswire.com/news-releases/leekr-technology-accelerates-the-global-deployment-of-system-level-intelligent-chassis-solutions-driving-the-next-generation-of-smart-mobility-302887327.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-23T06:47:00+00:00",
-    "raw_text": "SHANGHAI, Sept. 23, 2026 /PRNewswire/ -- As software-defined vehicles and autonomous driving technologies continue to evolve, the global automotive industry is undergoing a structural transformation. Competition among OEMs is expanding beyond traditional strengths such as powertrains,...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "SHANGHAI, Sept. 23, 2026 /PRNewswire/ -- As software-defined vehicles and autonomous driving technologies continue to evolve, the global automotive industry is undergoing a structural transformation. Competition among OEMs is expanding beyond traditional strengths such as powertrains,..."
-  },
-  {
-    "title": "CATL startet Testproduktion von Batteriezellen in Ungarn",
-    "url": "https://www.prnewswire.com/news-releases/catl-startet-testproduktion-von-batteriezellen-in-ungarn-302887324.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-23T06:46:00+00:00",
-    "raw_text": "DEBRECEN, Ungarn, 23. September 2026 /PRNewswire/ -- CATL beginnt am 22. September 2026 mit der Testproduktion in seinem neu errichteten Zellwerk in Debrecen, da das Unternehmen alle Voraussetzungen für den Start des Testbetriebs erfüllt hat. Ziel der Testproduktion ist es, die...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "DEBRECEN, Ungarn, 23. September 2026 /PRNewswire/ -- CATL beginnt am 22. September 2026 mit der Testproduktion in seinem neu errichteten Zellwerk in Debrecen, da das Unternehmen alle Voraussetzungen für den Start des Testbetriebs erfüllt hat. Ziel der Testproduktion ist es, die..."
-  },
-  {
-    "title": "Xinhua Silk Road: Factory tours become new trend for cultural tourism in Jiaozhou, Shandong Province",
-    "url": "https://www.prnewswire.com/news-releases/xinhua-silk-road-factory-tours-become-new-trend-for-cultural-tourism-in-jiaozhou-shandong-province-302887304.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-23T06:34:00+00:00",
-    "raw_text": "BEIJING, Sept. 23, 2026 /PRNewswire/ -- Factory tourism is becoming a new trend in Jiaozhou, a city in Qingdao, east China's Shandong Province, breathing new life into the city's cultural tourism industry. A number of local leading enterprises are opening their doors to visitors, turning...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "BEIJING, Sept. 23, 2026 /PRNewswire/ -- Factory tourism is becoming a new trend in Jiaozhou, a city in Qingdao, east China's Shandong Province, breathing new life into the city's cultural tourism industry. A number of local leading enterprises are opening their doors to visitors, turning..."
-  },
-  {
-    "title": "Nemak, S.A.B. de C.V. Announces Results of Tender Offer and Consent Solicitation for Any and All of Its Outstanding 2.250% Senior Notes Due 2028",
-    "url": "https://www.prnewswire.com/news-releases/nemak-sab-de-cv-announces-results-of-tender-offer-and-consent-solicitation-for-any-and-all-of-its-outstanding-2-250-senior-notes-due-2028--302887302.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-23T06:32:00+00:00",
-    "raw_text": "MONTERREY, Mexico, Sept. 23, 2026 /PRNewswire/ -- NEMAK, S.A.B. de C.V. (the \"Company\") announced today that the previously announced cash tender offer and consent solicitation (the \"Offer\") for any and all of its outstanding 2.250% Senior Notes due 2028 (Regulation S Notes: ISIN...",
-    "categories": [
-      "Industry & Market",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "regulation"
       ],
       "Industry & Market": [
-        "announces",
         "ey"
       ]
     },
-    "summary": "MONTERREY, Mexico, Sept. 23, 2026 /PRNewswire/ -- NEMAK, S.A.B. de C.V. (the \"Company\") announced today that the previously announced cash tender offer and consent solicitation (the \"Offer\") for any and all of its outstanding 2.250% Senior Notes due 2028 (Regulation S Notes: ISIN..."
+    "summary": "LONDRA, 23 Eylül 2026 /PRNewswire/ -- Perrier'in sponsorluğunda The 50 Best Bars listesi, Milano'da düzenlenecek The 50 Best Bars 2026 ödül töreninden iki hafta önce, genişletilmiş sıralamanın onuncu yılını kutlayarak No.51'den No.100'e kadar yer alan barları açıkladı. Rakamlarla 51-100..."
   },
   {
-    "title": "Quest Global signe le Pacte des forces armées britanniques (UK Armed Forces Covenant)",
-    "url": "https://www.prnewswire.com/news-releases/quest-global-signe-le-pacte-des-forces-armees-britanniques-uk-armed-forces-covenant-302887300.html",
+    "title": "BNP Paribas BNL Equity Investments se une a la estructura accionarial de hlpy",
+    "url": "https://www.prnewswire.com/news-releases/bnp-paribas-bnl-equity-investments-se-une-a-la-estructura-accionarial-de-hlpy-302885956.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-23T06:31:00+00:00",
-    "raw_text": "Cette initiative vise à soutenir les anciens combattants, les réservistes, les familles des militaires et les personnes quittant l'armée sur tous les sites britanniques de Quest Global. BANGALORE, Inde, 23 septembre 2026 /PRNewswire/ -- Quest Global Engineering Services Limited a signé le...",
+    "published": "2026-09-23T08:30:00+00:00",
+    "raw_text": "La plataforma europea de asistencia a vehículos totalmente digital cierra una nueva ronda de financiación de 20 millones de euros y anuncia la adquisición de Carvoilà. MILAN, 23 de septiembre de 2026 /PRNewswire/ -- hlpy, la 'scale-up' italiana que está rediseñando la asistencia a...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "La plataforma europea de asistencia a vehículos totalmente digital cierra una nueva ronda de financiación de 20 millones de euros y anuncia la adquisición de Carvoilà. MILAN, 23 de septiembre de 2026 /PRNewswire/ -- hlpy, la 'scale-up' italiana que está rediseñando la asistencia a..."
+  },
+  {
+    "title": "THE 50 BEST BARS ANUNCIA LA LISTA AMPLIADA 51-100 PARA 2026",
+    "url": "https://www.prnewswire.com/news-releases/the-50-best-bars-anuncia-la-lista-ampliada-51-100-para-2026-302884591.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-23T08:30:00+00:00",
+    "raw_text": "LONDON, 23 de septiembre de 2026 /PRNewswire/ -- The 50 Best Bars, patrocinada por Perrier, da a conocer los bares clasificados del No.51 a No.100, marcando el décimo aniversário de esta clasificación ampliada, dos semanas antes de la ceremonia de The 50 Best Bars 2026 que se celebrará en...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Cette initiative vise à soutenir les anciens combattants, les réservistes, les familles des militaires et les personnes quittant l'armée sur tous les sites britanniques de Quest Global. BANGALORE, Inde, 23 septembre 2026 /PRNewswire/ -- Quest Global Engineering Services Limited a signé le..."
+    "summary": "LONDON, 23 de septiembre de 2026 /PRNewswire/ -- The 50 Best Bars, patrocinada por Perrier, da a conocer los bares clasificados del No.51 a No.100, marcando el décimo aniversário de esta clasificación ampliada, dos semanas antes de la ceremonia de The 50 Best Bars 2026 que se celebrará en..."
+  },
+  {
+    "title": "Ibexa lance sa nouvelle Agentic Marketing Platform et place les agents IA au cœur de l'exécution marketing",
+    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367206/0/fr/ibexa-lance-sa-nouvelle-agentic-marketing-platform-et-place-les-agents-ia-au-c%C5%93ur-de-l-ex%C3%A9cution-marketing.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-23T09:12:00+00:00",
+    "raw_text": "Les agents IA quittent le rôle d'assistant pour devenir de vrais équipiers. La nouvelle plateforme d'Ibexa connecte les outils marketing, intègre les agents là où le travail se fait et prend en charge l’exécution des campagnes, du brief à la mise en ligne.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Les agents IA quittent le rôle d'assistant pour devenir de vrais équipiers. La nouvelle plateforme d'Ibexa connecte les outils marketing, intègre les agents là où le travail se fait et prend en charge l’exécution des campagnes, du brief à la mise en ligne."
+  },
+  {
+    "title": "Blackstone-backed Super Technologies becomes strategic partner of the Atlantic Council and founding partner of its Power of Sports Center",
+    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367174/0/en/blackstone-backed-super-technologies-becomes-strategic-partner-of-the-atlantic-council-and-founding-partner-of-its-power-of-sports-center.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-23T08:48:00+00:00",
+    "raw_text": "BUCHAREST, Romania, Sept. 23, 2026 (GLOBE NEWSWIRE) -- Super Technologies, the global entertainment technology company backed by leading institutional investors including Blackstone, has announced a strategic partnership with the Atlantic Council , joining its international community of business, government and policy leaders. Super will also become a founding partner of the Atlantic Council’s new Power of Sports Center, a groundbreaking convening and content platform that explores the role of sport in diplomacy, international cooperation, innovation and economic development.",
+    "categories": [
+      "Networks",
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "policy"
+      ],
+      "Industry & Market": [
+        "partnership"
+      ]
+    },
+    "summary": "BUCHAREST, Romania, Sept. 23, 2026 (GLOBE NEWSWIRE) -- Super Technologies, the global entertainment technology company backed by leading institutional investors including Blackstone, has announced a strategic partnership with the Atlantic Council , joining its international community of business, government and policy leaders. Super will also become a founding partner of the Atlantic Council’s new Power of Sports Center, a groundbreaking convening and content platform that explores the role of sport in diplomacy, international cooperation, innovation and economic development."
   },
   {
     "title": "Hotel Equities inaugura Kimpton Tres Ríos, el primer resort todo incluido de la marca",
@@ -4230,33 +3528,5 @@
     ],
     "matched_keywords": {},
     "summary": "רשת CGTN פרסמה מאמר העוסק בביקור המדינה הקרוב של נשיא סין, שי ג'ינפינג, בארצות הברית. המאמר, המדגיש את ההגדרה המחודשת של יחסי סין-ארה\"ב כפי שנקבעה על ידי שני המנהיגים בחודש מאי, מציין כי הדיפלומטיה ברמת ראשי המדינות שימשה מאז ומתמיד כ\"עוגן\" של היחסים; היא ממלאת תפקיד מכוון ואסטרטגי שאין לו תחליף, ומספקת ערובות אסטרטגיות חשובות לשיפור ופיתוח הקשרים הדו-צדדיים. רשת CGTN פרסמה מאמר העוסק בביקור המדינה הקרוב של נשיא סין, שי ג'ינפינג, בארצות הברית. המאמר, המדגיש את ההגדרה המחודשת של יחסי סין-ארה\"ב כפי שנקבעה על ידי שני המנהיגים בחודש מאי, מציין כי הדיפלומטיה ברמת ראשי המדינות שימשה מאז ומתמיד כ\"עוגן\" של היחסים; היא ממלאת תפקיד מכוון ואסטרטגי שאין לו תחליף, ומספקת ערובות אסטרטגיות חשובות לשיפור ופיתוח הקשרים הדו-צדדיים."
-  },
-  {
-    "title": "CGTN: Bagaimana diplomasi tingkat kepala negara mengarahkan hubungan Tiongkok-AS menuju stabilitas",
-    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367073/0/id/cgtn-bagaimana-diplomasi-tingkat-kepala-negara-mengarahkan-hubungan-tiongkok-as-menuju-stabilitas.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-23T04:30:00+00:00",
-    "raw_text": "CGTN menerbitkan artikel mengenai rencana kunjungan kenegaraan Presiden Tiongkok Xi Jinping ke Amerika Serikat. Artikel tersebut menyoroti posisi baru hubungan Tiongkok-AS yang ditetapkan oleh kedua kepala negara pada bulan Mei lalu, sekaligus menegaskan bahwa diplomasi tingkat kepala negara selalu menjadi \"jangkar\" hubungan kedua negara. Diplomasi ini memiliki peran pengarah strategis yang tak tergantikan sekaligus menjadi penopang strategis yang penting bagi peningkatan dan pengembangan hubungan bilateral. CGTN menerbitkan artikel mengenai rencana kunjungan kenegaraan Presiden Tiongkok Xi Jinping ke Amerika Serikat. Artikel tersebut menyoroti posisi baru hubungan Tiongkok-AS yang ditetapkan oleh kedua kepala negara pada bulan Mei lalu, sekaligus menegaskan bahwa diplomasi tingkat kepala negara selalu menjadi \"jangkar\" hubungan kedua negara. Diplomasi ini memiliki peran pengarah strategis yang tak tergantikan sekaligus menjadi penopang strategis yang penting bagi peningkatan dan pengembangan hubungan bilateral.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "CGTN menerbitkan artikel mengenai rencana kunjungan kenegaraan Presiden Tiongkok Xi Jinping ke Amerika Serikat. Artikel tersebut menyoroti posisi baru hubungan Tiongkok-AS yang ditetapkan oleh kedua kepala negara pada bulan Mei lalu, sekaligus menegaskan bahwa diplomasi tingkat kepala negara selalu menjadi \"jangkar\" hubungan kedua negara. Diplomasi ini memiliki peran pengarah strategis yang tak tergantikan sekaligus menjadi penopang strategis yang penting bagi peningkatan dan pengembangan hubungan bilateral. CGTN menerbitkan artikel mengenai rencana kunjungan kenegaraan Presiden Tiongkok Xi Jinping ke Amerika Serikat."
-  },
-  {
-    "title": "CGTN：首脳外交がいかにして中米関係を安定へと導くか",
-    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367073/0/ja/cgtn-%E9%A6%96%E8%84%B3%E5%A4%96%E4%BA%A4%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E4%B8%AD%E7%B1%B3%E9%96%A2%E4%BF%82%E3%82%92%E5%AE%89%E5%AE%9A%E3%81%B8%E3%81%A8%E5%B0%8E%E3%81%8F%E3%81%8B.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-23T04:30:00+00:00",
-    "raw_text": "CGTNは、間もなく行われる習近平中国国家主席による米国公式訪問についての記事を掲載した。同記事は、5月に両国首脳が打ち出した中米関係の新たな位置づけに焦点を当て、国家首脳外交が常にこの関係の「錨」としての役割を果たし、かけがえのない戦略的指針となり、両国間の関係改善と発展に向けた重要な戦略的保障を提供してきたことを強調した。 CGTNは、間もなく行われる習近平中国国家主席による米国公式訪問についての記事を掲載した。同記事は、5月に両国首脳が打ち出した中米関係の新たな位置づけに焦点を当て、国家首脳外交が常にこの関係の「錨」としての役割を果たし、かけがえのない戦略的指針となり、両国間の関係改善と発展に向けた重要な戦略的保障を提供してきたことを強調した。",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "CGTNは、間もなく行われる習近平中国国家主席による米国公式訪問についての記事を掲載した。同記事は、5月に両国首脳が打ち出した中米関係の新たな位置づけに焦点を当て、国家首脳外交が常にこの関係の「錨」としての役割を果たし、かけがえのない戦略的指針となり、両国間の関係改善と発展に向けた重要な戦略的保障を提供してきたことを強調した。 CGTNは、間もなく行われる習近平中国国家主席による米国公式訪問についての記事を掲載した。同記事は、5月に両国首脳が打ち出した中米関係の新たな位置づけに焦点を当て、国家首脳外交が常にこの関係の「錨」としての役割を果たし、かけがえのない戦略的指針となり、両国間の関係改善と発展に向けた重要な戦略的保障を提供してきたことを強調した。"
   }
 ]
