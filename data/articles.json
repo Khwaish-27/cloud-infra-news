@@ -1,5 +1,62 @@
 [
   {
+    "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+    "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+    "source": "The Hacker News",
+    "published": "2026-09-24T07:07:25+00:00",
+    "raw_text": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal"
+  },
+  {
+    "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+    "source": "The Hacker News",
+    "published": "2026-09-24T06:32:03+00:00",
+    "raw_text": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses. \"The campaign compromised 7 accounts –",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses. \"The campaign compromised 7 accounts –"
+  },
+  {
+    "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+    "source": "The Hacker News",
+    "published": "2026-09-24T05:36:18+00:00",
+    "raw_text": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE). \"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file"
+  },
+  {
     "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
     "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
     "source": "The Hacker News",
@@ -503,26 +560,20 @@
     "summary": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls. \"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility,\" Checkmarx said. \""
   },
   {
-    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-    "url": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-    "source": "The Hacker News",
-    "published": "2026-09-22T07:52:03+00:00",
-    "raw_text": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers",
+    "title": "Microsoft fixes bug that broke Windows File History backup feature",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/",
+    "source": "BleepingComputer",
+    "published": "2026-09-24T08:14:47+00:00",
+    "raw_text": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]",
     "categories": [
-      "Cybersecurity",
-      "Industry & Market"
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "phishing",
-        "threat",
         "security"
-      ],
-      "Industry & Market": [
-        "ey"
       ]
     },
-    "summary": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers"
+    "summary": "Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]"
   },
   {
     "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
@@ -805,22 +856,58 @@
     "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases. [...]"
   },
   {
-    "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-    "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-    "source": "BleepingComputer",
-    "published": "2026-09-22T19:13:29+00:00",
-    "raw_text": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
+    "title": "GNOME 50.5 security fixes patch a gvfs CVE and Epiphany code injection",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/gnome-50-5-security-fixes/",
+    "source": "Help Net Security",
+    "published": "2026-09-24T08:17:04+00:00",
+    "raw_text": "GNOME 50.5, which the GNOME Release Team shipped on September 24, patches a CVE in the gvfs file system layer, a JavaScript injection flaw in the Epiphany web browser and a use-after-free bug in the librsvg image library. The release updates 22 modules. Users who browse with Epiphany, view SVG images through librsvg or reach files through gvfs keep these flaws until their distribution ships the new packages. “All operating systems shipping GNOME 50 are … More → The post GNOME 50.5 security fixes patch a gvfs CVE and Epiphany code injection appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "cve",
+        "security"
+      ]
+    },
+    "summary": "GNOME 50.5, which the GNOME Release Team shipped on September 24, patches a CVE in the gvfs file system layer, a JavaScript injection flaw in the Epiphany web browser and a use-after-free bug in the librsvg image library. The release updates 22 modules. Users who browse with Epiphany, view SVG images through librsvg or reach files through gvfs keep these flaws until their distribution ships the new packages. “All operating systems shipping GNOME 50 are … More → The post GNOME 50.5 security fixes patch a gvfs CVE and Epiphany code injection appeared first on Help Net Security ."
+  },
+  {
+    "title": "Apple’s new iOS 27 feature looks for signs you’re being scammed",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/apple-ios-27-impersonation-risk-detection/",
+    "source": "Help Net Security",
+    "published": "2026-09-24T08:02:31+00:00",
+    "raw_text": "Apple introduced a scam-prevention feature called Impersonation Risk Detection with iOS 27 and iPadOS 27. The feature allows supported apps to request a risk assessment when a user takes an action that could be connected to an active social engineering scam. “Impersonation Risk Detection helps protect against active social engineering scams. In these scams, an attacker might pose as a bank, government agency, or someone you trust to pressure or guide you into making a … More → The post Apple’s new iOS 27 feature looks for signs you’re being scammed appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "breach",
-        "vulnerability",
-        "zero-day"
+        "security",
+        "soc"
       ]
     },
-    "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]"
+    "summary": "Apple introduced a scam-prevention feature called Impersonation Risk Detection with iOS 27 and iPadOS 27. The feature allows supported apps to request a risk assessment when a user takes an action that could be connected to an active social engineering scam. “Impersonation Risk Detection helps protect against active social engineering scams. In these scams, an attacker might pose as a bank, government agency, or someone you trust to pressure or guide you into making a … More → The post Apple’s new iOS 27 feature looks for signs you’re being scammed appeared first on Help Net Security ."
+  },
+  {
+    "title": "Claude.ai is about 3x faster after 3,000+ changes",
+    "url": "https://www.helpnetsecurity.com/2026/09/24/anthropic-claude-ai-faster/",
+    "source": "Help Net Security",
+    "published": "2026-09-24T08:01:04+00:00",
+    "raw_text": "Anthropic engineers made claude.ai and the Claude desktop app roughly three times faster during a two-week sprint in August, with Claude finding the bottlenecks and writing the fixes. The team merged more than 3,000 changes and says none of them caused a customer-facing incident or rollback. The engineers ran the whole thing out of one Slack channel, using an internal research model roughly comparable to Opus 5.5 through the Claude Tag beta. Claude built benchmarks, … More → The post Claude.ai is about 3x faster after 3,000+ changes appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Anthropic engineers made claude.ai and the Claude desktop app roughly three times faster during a two-week sprint in August, with Claude finding the bottlenecks and writing the fixes. The team merged more than 3,000 changes and says none of them caused a customer-facing incident or rollback. The engineers ran the whole thing out of one Slack channel, using an internal research model roughly comparable to Opus 5.5 through the Claude Tag beta. Claude built benchmarks, … More → The post Claude.ai is about 3x faster after 3,000+ changes appeared first on Help Net Security ."
   },
   {
     "title": "What to do first when you get 90 days to secure AI agent data",
@@ -969,81 +1056,6 @@
       ]
     },
     "summary": "More than 80,000 relay servers are helping users in China bypass geographic restrictions on leading U.S. AI models, according to Team Cymru. “What we have uncovered is an entire ecosystem designed explicitly to break the frontier model providers’ T&Cs, enabling fraud and illicit activity,” said Scott Fisher, Senior Principal Engineer at Team Cymru. Earlier this month, CISA, the NSA and the FBI warned in a joint advisory that China-based AI firms are running large-scale knowledge … More → The post 80,000 relay servers help users in China slip past U.S."
-  },
-  {
-    "title": "Portnox detects and removes unauthorized AI applications from managed devices",
-    "url": "https://www.helpnetsecurity.com/2026/09/23/portnox-shadow-ai-control-and-visibility/",
-    "source": "Help Net Security",
-    "published": "2026-09-23T13:49:39+00:00",
-    "raw_text": "Portnox has announced new capabilities to detect unauthorized AI applications and agents on managed devices and automatically enforce security policy, restricting, quarantining, or removing unapproved or risky applications the moment they’re detected. The capability addresses shadow AI: generative AI applications that increasingly act as autonomous agents, reaching local files, remote resources, and enterprise data with the same permissions as the logged-in user. As this footprint grows faster than most organizations can track, Portnox gives IT … More → The post Portnox detects and removes unauthorized AI applications from managed devices appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "policy"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Portnox has announced new capabilities to detect unauthorized AI applications and agents on managed devices and automatically enforce security policy, restricting, quarantining, or removing unapproved or risky applications the moment they’re detected. The capability addresses shadow AI: generative AI applications that increasingly act as autonomous agents, reaching local files, remote resources, and enterprise data with the same permissions as the logged-in user. As this footprint grows faster than most organizations can track, Portnox gives IT … More → The post Portnox detects and removes unauthorized AI applications from managed devices appeared first on Help Net Security ."
-  },
-  {
-    "title": "Network Solutions Dark Web Monitoring alerts small businesses to domain-linked data exposure",
-    "url": "https://www.helpnetsecurity.com/2026/09/23/network-solutions-dark-web-monitoring/",
-    "source": "Help Net Security",
-    "published": "2026-09-23T13:40:14+00:00",
-    "raw_text": "Network Solutions has launched Dark Web Monitoring, a new security capability that alerts small businesses when information associated with their domain appears in known breach data and provides steps they can take to reduce risk. Stolen credentials and other information exposed in data breaches can circulate across dark web marketplaces, forums and other sources. For a small business, that exposure can lead to account takeovers, compromised email, impersonation and unauthorized access to sensitive business or … More → The post Network Solutions Dark Web Monitoring alerts small businesses to domain-linked data exposure appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "security",
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Network Solutions has launched Dark Web Monitoring, a new security capability that alerts small businesses when information associated with their domain appears in known breach data and provides steps they can take to reduce risk. Stolen credentials and other information exposed in data breaches can circulate across dark web marketplaces, forums and other sources. For a small business, that exposure can lead to account takeovers, compromised email, impersonation and unauthorized access to sensitive business or … More → The post Network Solutions Dark Web Monitoring alerts small businesses to domain-linked data exposure appeared first on Help Net Security ."
-  },
-  {
-    "title": "DarkMe RAT trades zero-days for plain phishing emails",
-    "url": "https://www.helpnetsecurity.com/2026/09/23/darkme-rat-phishing-email-hits-corporate-targets/",
-    "source": "Help Net Security",
-    "published": "2026-09-23T13:24:17+00:00",
-    "raw_text": "DarkMe, a remote access trojan and info-stealer that has previously been associated with a threat group that targeted financial market traders and cryptocurrency users, has been spotted again. This time around, its distribution has been simplified: instead of leveraging zero-day exploits, attackers are betting on a simple email to convince targets to run it on their machine: The malicious email pointing to the first stage downloader for DarkMe (Source: Huntress) The link supposedly points to … More → The post DarkMe RAT trades zero-days for plain phishing emails appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "zero-day",
-        "exploit",
-        "threat",
-        "security",
-        "soc"
-      ]
-    },
-    "summary": "DarkMe, a remote access trojan and info-stealer that has previously been associated with a threat group that targeted financial market traders and cryptocurrency users, has been spotted again. This time around, its distribution has been simplified: instead of leveraging zero-day exploits, attackers are betting on a simple email to convince targets to run it on their machine: The malicious email pointing to the first stage downloader for DarkMe (Source: Huntress) The link supposedly points to … More → The post DarkMe RAT trades zero-days for plain phishing emails appeared first on Help Net Security ."
   },
   {
     "title": "EDR Evasion Stack Helps Process Injection Slip Past Defenses",
@@ -1250,6 +1262,23 @@
     "summary": "No summary available."
   },
   {
+    "title": "US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks",
+    "url": "https://www.securityweek.com/us-court-sentences-armenian-man-to-prison-for-ryuk-ransomware-attacks/",
+    "source": "SecurityWeek",
+    "published": "2026-09-24T08:38:29+00:00",
+    "raw_text": "Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims. The post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware",
+        "security"
+      ]
+    },
+    "summary": "Karen Vardanyan has also been ordered to pay over $1.2 million in restitution to victims. The post US Court Sentences Armenian Man to Prison for Ryuk Ransomware Attacks appeared first on SecurityWeek ."
+  },
+  {
     "title": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
     "url": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
     "source": "SecurityWeek",
@@ -1422,22 +1451,20 @@
     "summary": "Emerging from stealth with $16 million in pre-seed funding, Outerlimit offers a decentralized authorization layer designed to discover, observe, and block harmful autonomous AI actions. The post Outerlimit Raises $16 Million to Stop Rogue AI Agents From Causing Harm appeared first on SecurityWeek ."
   },
   {
-    "title": "Arista Urges Immediate Patching of Exploited VCO Zero-Day",
-    "url": "https://www.securityweek.com/arista-urges-immediate-patching-of-exploited-vco-zero-day/",
-    "source": "SecurityWeek",
-    "published": "2026-09-23T08:33:06+00:00",
-    "raw_text": "Remote attackers could trigger the critical-severity flaw to access privileged internal functionality. The post Arista Urges Immediate Patching of Exploited VCO Zero-Day appeared first on SecurityWeek .",
+    "title": "Data Overtakes Skills as Top Threat Hunting Challenge, SANS Study Finds",
+    "url": "https://www.infosecurity-magazine.com/news/data-top-bottleneck-barrier-threat/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-09-24T08:30:00+00:00",
+    "raw_text": "SANS Institute report claims data rather than skills is now the main hurdle for threat hunters",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "zero-day",
-        "exploit",
-        "security"
+        "threat"
       ]
     },
-    "summary": "Remote attackers could trigger the critical-severity flaw to access privileged internal functionality. The post Arista Urges Immediate Patching of Exploited VCO Zero-Day appeared first on SecurityWeek ."
+    "summary": "SANS Institute report claims data rather than skills is now the main hurdle for threat hunters"
   },
   {
     "title": "Hundreds of Leaked GitHub App Keys Still Authenticate",
@@ -1645,11 +1672,83 @@
     "summary": "Learn how Amazon CloudWatch Omni delivers AI-powered observability purpose-built for generative AI and agentic workloads. Trace, evaluate, and experiment with AI agents across any framework—directly from your IDE or a standalone web experience—using open standards and built-in evaluators for quality, correctness, and coherence."
   },
   {
+    "title": "Your architecture diagram is not your resilience",
+    "url": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-09-23T16:00:00+00:00",
+    "raw_text": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain. The post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ]
+    },
+    "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain. The post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog ."
+  },
+  {
+    "title": "Designing agent-first platforms: What changes when agents do the work",
+    "url": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-09-23T15:00:00+00:00",
+    "raw_text": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software. The post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software. The post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog ."
+  },
+  {
+    "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
+    "url": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-09-22T18:30:00+00:00",
+    "raw_text": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks. The post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ]
+    },
+    "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks. The post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog ."
+  },
+  {
+    "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
+    "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-09-22T17:00:25+00:00",
+    "raw_text": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process. The post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "AI models are increasingly taking on work that extends far beyond a single prompt: building a feature across a codebase, investigating a complex issue, synthesizing hundreds of pages of information, or working through a multi-step business process. The post Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work appeared first on Microsoft Azure Blog ."
+  },
+  {
     "title": "A guide to speeding up your video processing with AlphaEvolve",
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-speed-up-your-video-processing-with-alphaevolve/",
     "source": "Google Cloud Blog",
     "published": "2026-09-23T16:00:00+00:00",
-    "raw_text": "In real-time streaming, every millisecond counts. For example, at 30 frames per second (fps), developers have a strict frame budget of just 33.3 ms (and only 16.6 ms at 60 fps) to ingest camera frames, run neural segmentation, apply shaders, and composite output. Exceeding that budget by even a fraction of a millisecond leads to dropped frames and stuttering. Manual optimization is notoriously tedious — requiring weeks of analyzing flame graphs and hand-tuning low-level code in Swift, C++, or Metal. While standard AI coding assistants can generate boilerplate, they can’t optimize against target hardware, benchmark real-world latency, or ensure optimizations preserve visual fidelity. Autonomous, closed-loop evolutionary optimization changes this paradigm. Tools like AlphaEvolve pair cloud-scale model reasoning with local hardware execution, and we’re already seeing real-world impact. In partnership with Google, DoIt used AlphaEvolve to autonomously optimize production Swift code in a live macOS streaming app, uncovering performance headroom that manual profiling missed (read the full technical writeup ). While this post focuses on video pipelines, the split-loop pattern applies anywhere performance matters — from microservice throughput and database queries to ML tensor pipelines and embedded systems. In every case, the formula is the same: pair Gemini code generation in the cloud with your domain-specific benchmark harness and automated quality gates. Today, we’ll show you how to use AlphaEvolve to speed up video processing—and apply these principles to your own performance bottlenecks: Understanding the split-loop architecture: How AlphaEvolve decouples managed cloud generation (Gemini model ensemble on Google Cloud) from local evaluation (e.g. compiling and timing native Swift/Metal code). Evaluator craft and quality gates: How to construct scoring functions using metrics like Structural Similarity Index (SSIM) to prevent evolutionary loops from gaming the benchmark (e.g., skipping rendering entirely to go fast). Autonomous algorithmic discovery: How Gemini-driven evolutionary search can autonomously discover unprompted framework APIs and make intelligent engineering trade-offs (e.g., frame-caching limits). Setting realistic performance boundaries: How to measure code optimization against physical hardware floors. 1. Understanding AlphaEvolve’s split-loop architecture AlphaEvolve runs a closed-loop evolutionary process: given a seed program and a custom scoring function, a mixture of Gemini models proposes code variations, executes the scoring function against each candidate, keeps the highest-performing code, and iteratively climbs toward an optimal solution over multiple generations. A core architectural advantage of AlphaEvolve is its clean separation into two halves: The generation half (Google Cloud managed service): Contains the prompt sampler, Gemini model ensemble, and program database. Google Cloud handles the scale, prompt orchestration, and generation mechanics. The evaluation half (customer managed compute): Scoring code quality is strictly domain-specific. You own the evaluator module entirely, running it on your own hardware or target architecture (in this case, macOS running native Swift code). While AlphaEvolve is Python-first on the cloud generation side, evaluation can be written in any language. The custom evaluator compiles each Swift candidate using swift and executes it against a standard reference webcam clip. 2. Evaluator craft and quality gates An automated optimization loop like AlphaEvolve never actually \"sees\" your video stream. It only sees the numeric fitness score your evaluator returns. If your evaluation metric has a blind spot, evolutionary code generation will aggressively exploit it. In our early runs, a naive fitness score weighted toward raw latency produced an astonishing speedup: the model simply bypassed blur rendering entirely and returned unmodified frames in 0 ms. Structural Similarity Index Measure (SSIM) : To prevent the model from gaming your benchmark, try building a two-tiered scoring function that pairs throughput with structural fidelity metrics like Structural Similarity Index (SSIM) : code_block <ListValue: [StructValue([('code', 'speedup = baseline_ms_per_frame / candidate_ms_per_frame\\r\\nssim = mean_ssim_vs_golden\\r\\n\\r\\n#Disqualify any candidate falling below visual threshold\\r\\n\\r\\n\\r\\nif ssim < 0.98 or worst_frame_ssim < 0.95:\\r\\n return {\"speedup\": -1e12} # Disqualified\\r\\n\\r\\nreturn {\"speedup\": speedup, \"ssim\": ssim}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f68760f9a50>)])]> What does this give you? The ability to test against worst-case clips: Never benchmark on static frames or blank cameras. Candidate code can easily pass an average SSIM gate on static backgrounds while failing completely during quick head turns. You can track the minimum, not just the mean: Enforce both an average threshold and a per-frame floor to catch dropped frames or delayed mask updates. Autonomous algorithmic discovery: Most developers use generative AI for local micro-optimizations (e.g., inlining helper functions, unrolling loops, or tweaking memory pools). But when given architectural room, the evolutionary loop can discover systemic optimizations on its own. Engineering lessons: Provide framework context, not isolated loops: Include public SDK headers, interface definitions, or API reference symbols in the prompt or retrieval harness. An LLM cannot adopt a sequence-aware subsystem if its context window only contains an isolated frame-processing callback. Expose multi-frame lifecycle hooks: Let your candidate code maintain a bounded state across executions (e.g., historical masks or cache timestamps) rather than enforcing pure, stateless functions. Let quality gates police the trade-offs: When AlphaEvolve introduced temporal mask caching, it initially cached masks too aggressively, causing noticeable trailing artifacts. Because our SSIM gate penalized drift during motion, the search converged on a production-ready cache window without manual parameter tuning. Setting realistic performance boundaries A common pitfall in performance engineering is optimizing in the dark. If you achieve a 2x speedup, is that an incredible achievement, or did you leave another 3x on the table? In real-time media, total frame time splits into two distinct categories: Mutable software overhead: Memory allocations, buffer format conversions, thread context switches, and API dispatch friction. Immutable hardware floors: Raw Neural Engine inference latency, GPU shader compute time, and hardware display synchronization. To make the most of AlphaEvolve, developers should measure against theoretical maximum headroom Before running optimization loops, here’s a few principles to keep in mind: Build a \"no-op\" pipeline: Strip out Swift/C++ orchestration, data marshalling, and frame conversions. Dispatch only the pre-warmed ML model and bare GPU pass on a dummy buffer. The resulting time is your physical hardware lower bound. Calculate your addressable ceiling: Your total possible optimization potential is: 3. Score against the hardware gap: Instead of arbitrary speedup multiples, measure optimization efficiency: Get started All benchmark code, test clips, evaluation scripts, and raw candidate logs are open source: GitHub repository: AlphaEvolve Camera Background Blur Example Detailed technical write-up of our case study with DoIt: Running AlphaEvolve on Your Own Code",
+    "raw_text": "In real-time streaming, every millisecond counts. For example, at 30 frames per second (fps), developers have a strict frame budget of just 33.3 ms (and only 16.6 ms at 60 fps) to ingest camera frames, run neural segmentation, apply shaders, and composite output. Exceeding that budget by even a fraction of a millisecond leads to dropped frames and stuttering. Manual optimization is notoriously tedious — requiring weeks of analyzing flame graphs and hand-tuning low-level code in Swift, C++, or Metal. While standard AI coding assistants can generate boilerplate, they can’t optimize against target hardware, benchmark real-world latency, or ensure optimizations preserve visual fidelity. Autonomous, closed-loop evolutionary optimization changes this paradigm. Tools like AlphaEvolve pair cloud-scale model reasoning with local hardware execution, and we’re already seeing real-world impact. In partnership with Google, DoIt used AlphaEvolve to autonomously optimize production Swift code in a live macOS streaming app, uncovering performance headroom that manual profiling missed (read the full technical writeup ). While this post focuses on video pipelines, the split-loop pattern applies anywhere performance matters — from microservice throughput and database queries to ML tensor pipelines and embedded systems. In every case, the formula is the same: pair Gemini code generation in the cloud with your domain-specific benchmark harness and automated quality gates. Today, we’ll show you how to use AlphaEvolve to speed up video processing—and apply these principles to your own performance bottlenecks: Understanding the split-loop architecture: How AlphaEvolve decouples managed cloud generation (Gemini model ensemble on Google Cloud) from local evaluation (e.g. compiling and timing native Swift/Metal code). Evaluator craft and quality gates: How to construct scoring functions using metrics like Structural Similarity Index (SSIM) to prevent evolutionary loops from gaming the benchmark (e.g., skipping rendering entirely to go fast). Autonomous algorithmic discovery: How Gemini-driven evolutionary search can autonomously discover unprompted framework APIs and make intelligent engineering trade-offs (e.g., frame-caching limits). Setting realistic performance boundaries: How to measure code optimization against physical hardware floors. 1. Understanding AlphaEvolve’s split-loop architecture AlphaEvolve runs a closed-loop evolutionary process: given a seed program and a custom scoring function, a mixture of Gemini models proposes code variations, executes the scoring function against each candidate, keeps the highest-performing code, and iteratively climbs toward an optimal solution over multiple generations. A core architectural advantage of AlphaEvolve is its clean separation into two halves: The generation half (Google Cloud managed service): Contains the prompt sampler, Gemini model ensemble, and program database. Google Cloud handles the scale, prompt orchestration, and generation mechanics. The evaluation half (customer managed compute): Scoring code quality is strictly domain-specific. You own the evaluator module entirely, running it on your own hardware or target architecture (in this case, macOS running native Swift code). While AlphaEvolve is Python-first on the cloud generation side, evaluation can be written in any language. The custom evaluator compiles each Swift candidate using swift and executes it against a standard reference webcam clip. 2. Evaluator craft and quality gates An automated optimization loop like AlphaEvolve never actually \"sees\" your video stream. It only sees the numeric fitness score your evaluator returns. If your evaluation metric has a blind spot, evolutionary code generation will aggressively exploit it. In our early runs, a naive fitness score weighted toward raw latency produced an astonishing speedup: the model simply bypassed blur rendering entirely and returned unmodified frames in 0 ms. Structural Similarity Index Measure (SSIM) : To prevent the model from gaming your benchmark, try building a two-tiered scoring function that pairs throughput with structural fidelity metrics like Structural Similarity Index (SSIM) : code_block <ListValue: [StructValue([('code', 'speedup = baseline_ms_per_frame / candidate_ms_per_frame\\r\\nssim = mean_ssim_vs_golden\\r\\n\\r\\n#Disqualify any candidate falling below visual threshold\\r\\n\\r\\n\\r\\nif ssim < 0.98 or worst_frame_ssim < 0.95:\\r\\n return {\"speedup\": -1e12} # Disqualified\\r\\n\\r\\nreturn {\"speedup\": speedup, \"ssim\": ssim}'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f502e0d8d50>)])]> What does this give you? The ability to test against worst-case clips: Never benchmark on static frames or blank cameras. Candidate code can easily pass an average SSIM gate on static backgrounds while failing completely during quick head turns. You can track the minimum, not just the mean: Enforce both an average threshold and a per-frame floor to catch dropped frames or delayed mask updates. Autonomous algorithmic discovery: Most developers use generative AI for local micro-optimizations (e.g., inlining helper functions, unrolling loops, or tweaking memory pools). But when given architectural room, the evolutionary loop can discover systemic optimizations on its own. Engineering lessons: Provide framework context, not isolated loops: Include public SDK headers, interface definitions, or API reference symbols in the prompt or retrieval harness. An LLM cannot adopt a sequence-aware subsystem if its context window only contains an isolated frame-processing callback. Expose multi-frame lifecycle hooks: Let your candidate code maintain a bounded state across executions (e.g., historical masks or cache timestamps) rather than enforcing pure, stateless functions. Let quality gates police the trade-offs: When AlphaEvolve introduced temporal mask caching, it initially cached masks too aggressively, causing noticeable trailing artifacts. Because our SSIM gate penalized drift during motion, the search converged on a production-ready cache window without manual parameter tuning. Setting realistic performance boundaries A common pitfall in performance engineering is optimizing in the dark. If you achieve a 2x speedup, is that an incredible achievement, or did you leave another 3x on the table? In real-time media, total frame time splits into two distinct categories: Mutable software overhead: Memory allocations, buffer format conversions, thread context switches, and API dispatch friction. Immutable hardware floors: Raw Neural Engine inference latency, GPU shader compute time, and hardware display synchronization. To make the most of AlphaEvolve, developers should measure against theoretical maximum headroom Before running optimization loops, here’s a few principles to keep in mind: Build a \"no-op\" pipeline: Strip out Swift/C++ orchestration, data marshalling, and frame conversions. Dispatch only the pre-warmed ML model and bare GPU pass on a dummy buffer. The resulting time is your physical hardware lower bound. Calculate your addressable ceiling: Your total possible optimization potential is: 3. Score against the hardware gap: Instead of arbitrary speedup multiples, measure optimization efficiency: Get started All benchmark code, test clips, evaluation scripts, and raw candidate logs are open source: GitHub repository: AlphaEvolve Camera Background Blur Example Detailed technical write-up of our case study with DoIt: Running AlphaEvolve on Your Own Code",
     "categories": [
       "Industry & Market",
       "Cloud Infrastructure",
@@ -1685,7 +1784,7 @@
     "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-adds-native-scale-to-zero-capabilities/",
     "source": "Google Cloud Blog",
     "published": "2026-09-23T16:00:00+00:00",
-    "raw_text": "True elasticity has long been the holy grail of cloud-native engineering. And while Kubernetes has revolutionized resource management, workloads that run sporadically (e.g., batch processors, event-driven workers, and development environments) still consume compute resources while they wait for work, driving up costs. We’re addressing this head-on in Google Kubernetes Engine (GKE) 1.37 with a native way to scale to and from zero . A new collection of features allows you to scale down your workloads completely to zero replicas so that they stop consuming resources. At the same time, you can quickly and easily restart these workloads on GKE capacity buffers when demand returns, so you waste less infrastructure. This isn't just about saving money, but about decoupling the cost of always-on infrastructure from workload readiness. Scale To & From Zero on GKE using HPA The evolution: HPA-based scale-to-zero vs. KEDA For years, Kubernetes Event-Driven Autoscaling (KEDA) , an optional Kubernetes component, was the go-to solution for scaling to zero. While powerful, KEDA adds complexity to an environment. Feature GKE scale-to-zero KEDA-based setups Operational toil Managed service; no extra components. Requires management of ScaledObject CRDs & operators. Configuration Native HPA & CRDs (minimal YAML). Can exceed 10,000 lines of YAML for large fleets. Latency Internalized signal path reduces reaction time. Polling intervals and hop-counts increase cold-start delays. By baking scale-to-zero directly into the GKE control plane, we eliminate the need for add-on operators and thousands of lines of configuration. The logic moves from \"sidecar management\" to a native attribute of the workload. Under the hood: HPA with AutoscalingMetric and KEP-2021 The magic behind scaling to zero within GKE lies in the integration of two critical components: HPA with AutoscalingMetric : This is the managed metrics signal pipeline that now supports direct reading of external signals from Google Cloud Managed Service for Prometheus. HorizontalPodAutoscaler (HPA) with AutoscalingMetric provides a unified, high-performance path for metrics from Pub/Sub, Cloud Monitoring, or Load Balancer signals to reach the autoscaler, without the complexity of an adapter. KEP-2021: Built on the Kubernetes Enhancement Proposal that enables minReplicas: 0 in the HPA, this mechanism allows the HPA to stop all pods when metrics fall below a threshold. It also ensures the HPA can \"wake up\" the deployment as soon as the metric indicates pending work. Configuring your first scale-to-zero workload To implement native scale-to-zero, you need two primary objects: a metric definition and an HPA. In the following example, we scale a worker based on the number of undelivered messages in a Pub/Sub subscription. Define the metric source Use the AutoscalingMetric CRD to map an external Cloud Monitoring metric to your cluster. code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling.gke.io/v1beta1\\r\\nkind: AutoscalingMetric\\r\\nmetadata:\\r\\n name: my-autoscalingmetric\\r\\nspec:\\r\\n metrics:\\r\\n - promql:\\r\\n name: pubsub-undelivered\\r\\n query: >\\r\\n {\\r\\n \"pubsub.googleapis.com/subscription/num_undelivered_messages\",\\r\\n subscription_id=\"my-subscription\"\\r\\n }'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f68765507d0>)])]> Configure the HPA with minReplicas: 0 Reference the metric in your HPA and explicitly set the minimum replicas to zero. code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling/v2\\r\\nkind: HorizontalPodAutoscaler\\r\\nmetadata:\\r\\n name: worker-hpa\\r\\nspec:\\r\\n scaleTargetRef:\\r\\n apiVersion: apps/v1\\r\\n kind: Deployment\\r\\n name: worker-deployment\\r\\n minReplicas: 0\\r\\n maxReplicas: 50\\r\\n metrics:\\r\\n - type: External\\r\\n pods:\\r\\n metric:\\r\\n name: autoscaling.gke.io|my-autoscalingmetric|pubsub-undelivered\\r\\n target:\\r\\n type: AverageValue\\r\\n averageValue: 10'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f68772c33d0>)])]> There you go — you’ve allowed your workload to scale to and from zero based on an external metric. Scale-to-zero capabilities are made possible by support in GKE for external metrics from Cloud Monitoring. By extending the AutoscalingMetric custom resource, you can now query metrics from Google Managed Service for Prometheus, without complex, third-party adapters. This reduces latency, simplifies security, and serves as a key foundation for configuring native scale-to-zero workloads. To learn more about this integration, read our companion blog post on native support for external metrics in GKE . Managing startup latency with capacity buffers The biggest challenge with scaling from zero is the so-called cold start — the time it takes for GKE to provision a node and for the container to pull it and start it. This is where GKE capacity buffers come in. Capacity buffers act as pooled warm capacity. By maintaining a small amount of warm compute resources that can be shared by multiple workloads that can all scale to zero, GKE ensures that when your HPA jumps from 0 to 1, the pod has resources that it can claim immediately. This eliminates the 60-90 second wait for a new GKE node to spin up, reducing startup latency from minutes to an instant, all while maintaining zero cost for the workload. Capacity buffers come in two flavors: active and standby. A small active buffer can serve hundreds of workloads that are scaled to zero; instead of each of the workloads maintaining a replica, the active buffer acts as wildcard capacity that serves the whole cluster. A larger standby buffer, which costs a fraction of an active buffer, quickly refills the active buffer for any sustained load encountered by the cluster. By using them together, you get both instant scaling and can maintain low costs. What’s ahead We continue to expand our roadmap for GKE elasticity. For example, imagine you want your development environments to scale to zero at 8:00 PM and scale back up at 7:00 AM. Be on the lookout for methods to exert finer-grained control over recurring scaling, so you can proactively define your scale-to-zero windows. Get started with scaling-to-zero today The days of paying for idle resources are numbered. By enabling GKE's native scale-to-zero capabilities for event-driven and sporadic workloads, you can slash costs without sacrificing startup performance. To get started with scale-to-zero, follow these steps: Identify a workload with fluctuating demand that has periods of idleness. Configure your AutoscalingMetric , and set your minReplicas to zero . Add capacity buffers to your cluster or workload to keep response times snappy. For more, check out the documentation on Scaling GKE workloads to and from zero using HPA .",
+    "raw_text": "True elasticity has long been the holy grail of cloud-native engineering. And while Kubernetes has revolutionized resource management, workloads that run sporadically (e.g., batch processors, event-driven workers, and development environments) still consume compute resources while they wait for work, driving up costs. We’re addressing this head-on in Google Kubernetes Engine (GKE) 1.37 with a native way to scale to and from zero . A new collection of features allows you to scale down your workloads completely to zero replicas so that they stop consuming resources. At the same time, you can quickly and easily restart these workloads on GKE capacity buffers when demand returns, so you waste less infrastructure. This isn't just about saving money, but about decoupling the cost of always-on infrastructure from workload readiness. Scale To & From Zero on GKE using HPA The evolution: HPA-based scale-to-zero vs. KEDA For years, Kubernetes Event-Driven Autoscaling (KEDA) , an optional Kubernetes component, was the go-to solution for scaling to zero. While powerful, KEDA adds complexity to an environment. Feature GKE scale-to-zero KEDA-based setups Operational toil Managed service; no extra components. Requires management of ScaledObject CRDs & operators. Configuration Native HPA & CRDs (minimal YAML). Can exceed 10,000 lines of YAML for large fleets. Latency Internalized signal path reduces reaction time. Polling intervals and hop-counts increase cold-start delays. By baking scale-to-zero directly into the GKE control plane, we eliminate the need for add-on operators and thousands of lines of configuration. The logic moves from \"sidecar management\" to a native attribute of the workload. Under the hood: HPA with AutoscalingMetric and KEP-2021 The magic behind scaling to zero within GKE lies in the integration of two critical components: HPA with AutoscalingMetric : This is the managed metrics signal pipeline that now supports direct reading of external signals from Google Cloud Managed Service for Prometheus. HorizontalPodAutoscaler (HPA) with AutoscalingMetric provides a unified, high-performance path for metrics from Pub/Sub, Cloud Monitoring, or Load Balancer signals to reach the autoscaler, without the complexity of an adapter. KEP-2021: Built on the Kubernetes Enhancement Proposal that enables minReplicas: 0 in the HPA, this mechanism allows the HPA to stop all pods when metrics fall below a threshold. It also ensures the HPA can \"wake up\" the deployment as soon as the metric indicates pending work. Configuring your first scale-to-zero workload To implement native scale-to-zero, you need two primary objects: a metric definition and an HPA. In the following example, we scale a worker based on the number of undelivered messages in a Pub/Sub subscription. Define the metric source Use the AutoscalingMetric CRD to map an external Cloud Monitoring metric to your cluster. code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling.gke.io/v1beta1\\r\\nkind: AutoscalingMetric\\r\\nmetadata:\\r\\n name: my-autoscalingmetric\\r\\nspec:\\r\\n metrics:\\r\\n - promql:\\r\\n name: pubsub-undelivered\\r\\n query: >\\r\\n {\\r\\n \"pubsub.googleapis.com/subscription/num_undelivered_messages\",\\r\\n subscription_id=\"my-subscription\"\\r\\n }'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f502e623d10>)])]> Configure the HPA with minReplicas: 0 Reference the metric in your HPA and explicitly set the minimum replicas to zero. code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling/v2\\r\\nkind: HorizontalPodAutoscaler\\r\\nmetadata:\\r\\n name: worker-hpa\\r\\nspec:\\r\\n scaleTargetRef:\\r\\n apiVersion: apps/v1\\r\\n kind: Deployment\\r\\n name: worker-deployment\\r\\n minReplicas: 0\\r\\n maxReplicas: 50\\r\\n metrics:\\r\\n - type: External\\r\\n pods:\\r\\n metric:\\r\\n name: autoscaling.gke.io|my-autoscalingmetric|pubsub-undelivered\\r\\n target:\\r\\n type: AverageValue\\r\\n averageValue: 10'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f502d6e1d90>)])]> There you go — you’ve allowed your workload to scale to and from zero based on an external metric. Scale-to-zero capabilities are made possible by support in GKE for external metrics from Cloud Monitoring. By extending the AutoscalingMetric custom resource, you can now query metrics from Google Managed Service for Prometheus, without complex, third-party adapters. This reduces latency, simplifies security, and serves as a key foundation for configuring native scale-to-zero workloads. To learn more about this integration, read our companion blog post on native support for external metrics in GKE . Managing startup latency with capacity buffers The biggest challenge with scaling from zero is the so-called cold start — the time it takes for GKE to provision a node and for the container to pull it and start it. This is where GKE capacity buffers come in. Capacity buffers act as pooled warm capacity. By maintaining a small amount of warm compute resources that can be shared by multiple workloads that can all scale to zero, GKE ensures that when your HPA jumps from 0 to 1, the pod has resources that it can claim immediately. This eliminates the 60-90 second wait for a new GKE node to spin up, reducing startup latency from minutes to an instant, all while maintaining zero cost for the workload. Capacity buffers come in two flavors: active and standby. A small active buffer can serve hundreds of workloads that are scaled to zero; instead of each of the workloads maintaining a replica, the active buffer acts as wildcard capacity that serves the whole cluster. A larger standby buffer, which costs a fraction of an active buffer, quickly refills the active buffer for any sustained load encountered by the cluster. By using them together, you get both instant scaling and can maintain low costs. What’s ahead We continue to expand our roadmap for GKE elasticity. For example, imagine you want your development environments to scale to zero at 8:00 PM and scale back up at 7:00 AM. Be on the lookout for methods to exert finer-grained control over recurring scaling, so you can proactively define your scale-to-zero windows. Get started with scaling-to-zero today The days of paying for idle resources are numbered. By enabling GKE's native scale-to-zero capabilities for event-driven and sporadic workloads, you can slash costs without sacrificing startup performance. To get started with scale-to-zero, follow these steps: Identify a workload with fluctuating demand that has periods of idleness. Configure your AutoscalingMetric , and set your minReplicas to zero . Add capacity buffers to your cluster or workload to keep response times snappy. For more, check out the documentation on Scaling GKE workloads to and from zero using HPA .",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1722,7 +1821,7 @@
     "url": "https://cloud.google.com/blog/products/containers-kubernetes/native-support-for-prometheus-metrics-in-gke/",
     "source": "Google Cloud Blog",
     "published": "2026-09-23T16:00:00+00:00",
-    "raw_text": "Earlier this year, we announced native support for Google Kubernetes Engine (GKE) custom metrics. This milestone allowed you to scrap external adapters and instead collect autoscaling metrics directly from your pods. By routing these metrics straight to the Horizontal Pod Autoscaler (HPA), we cut metrics reading latency down to 5 seconds. Today, we are excited to introduce built-in support for processing Prometheus metrics, allowing you to use expressive PromQL queries to customize autoscaling triggers. With this update, HPA can now directly process autoscaling metrics present in Cloud Monitoring using Google Managed Service for Prometheus. Reading metrics from these backends will not require third-party adapters, leveraging the AutoscalingMetric integration used to support pod-level metrics. After the preview, we plan to support self-hosted Prometheus servers as we move to general availability. The challenge: Setting up Cloud Monitoring metrics Support for custom pod-level metrics made autoscaling more straightforward, but production workloads often need to scale on multiple, complex infrastructure metrics. Common examples include scaling: a worker pool based on the number of unacknowledged messages in a Pub/Sub topic an inference service based on query-per-second (QPS) metrics stored in Cloud Monitoring / Prometheus a webserver farm based on the 95th percentile of their measured response time To achieve this, you used to need to deploy an external adapter like the Stackdriver Custom Metrics Adapter or the Prometheus adapter to retrieve the metrics from an external logging environment. While this sounds straightforward at first, these adapters introduce a lot of operational friction: Management overhead: Platform teams have to install, configure, patch, and monitor these third-party components. Reliability and inefficiency: Intermediate adapter pods reading from external systems introduce failure points in critical autoscaling loops. IAM complexity: Enabling secure cross-component communication requires setting up Kubernetes service account mappings to Cloud service accounts including their permissions. And while setting up this system and maintaining it not impossible, it’s complex and features a complicated architecture: How processing Prometheus Metrics in GKE can help E xtending the AutoscalingMetric object drastically simplifies this setup. Now you can read metrics from monitoring directly via PromQL and provide them to HPA via a high-performance, low-latency autoscaling pipeline, resulting in a simplified environment. To prevent inefficiencies, we built this feature with minimal resource consumption in mind. The controller runs on the GKE control plane. It monitors your AutoscalingMetric custom resources and only deploys the system pod on your user nodes when a PromQL metric is actively requested. If no Prometheus metrics are configured, the controller is shut down, so there’s no resource overhead. Configuring built-in Prometheus metrics Configuring GKE to use PromQLl metrics is easy; here’s a sample configuration file providing PubSubs message queue depth as scaling metric: code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling.gke.io/v1beta1\\r\\nkind: AutoscalingMetric\\r\\nmetadata:\\r\\n name: gmp-metric\\r\\nspec:\\r\\n metrics:\\r\\n - promql:\\r\\n name: pubsub-queue-depth\\r\\n query: |\\r\\n {\\r\\n \"pubsub.googleapis.com/subscription/num_undelivered_messages\",\\r\\n subscription_id=\"my-subscription\"\\r\\n }'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f68764005d0>)])]> Linking Prometheus metrics to your HPA Once defined in your AutoscalingMetric resource, you can reference the metric in your standard HorizontalPodAutoscaler using the same intuitive format as raw custom metrics: autoscaling.gke.io|<custom-resource-name>|<metric-name> . Scaling globally (Prometheus metric) For global metrics like a queue size that returns a single aggregate value: code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling/v2\\r\\nkind: HorizontalPodAutoscaler\\r\\nmetadata:\\r\\n name: worker-hpa\\r\\nspec:\\r\\n scaleTargetRef:\\r\\n apiVersion: apps/v1\\r\\n kind: Deployment\\r\\n name: worker-deployment\\r\\n maxReplicas: 10\\r\\n metrics:\\r\\n - type: External\\r\\n external:\\r\\n metric:\\r\\n name: autoscaling.gke.io|gmp-metric|pubsub-queue-depth\\r\\n target:\\r\\n type: AverageValue\\r\\n averageValue: 100 # maintain queue size at ~100 per pod'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6876552e50>)])]> Scaling on Cloud Monitoring per-Pod metrics GKE natively supports scale based on the most recent gauge metric values, but PromQL offers greater flexibility, allowing you to scale across time windows and calculate rates or histogram percentiles. To use this capability, configure your PromQL metric to include a label for the pod name, then assign type: Pods within your AutoscalingMetric manifest. Below is an example that calculates a Pod's average memory usage over a five-minute rolling window. code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling.gke.io/v1beta1\\r\\nkind: AutoscalingMetric\\r\\nmetadata:\\r\\n name: per-pod-stored-metric\\r\\nspec:\\r\\n metrics:\\r\\n - promql:\\r\\n name: container-memory-metric\\r\\n query: |\\r\\n sum by (\"pod\")\\r\\n (avg_over_time({\"container_memory_working_set_bytes\"}[5m]))\\r\\n type: Pods # The promql query returns per-pod metrics'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f68765511d0>)])]> Key benefits No adapter maintenance: No pods to install, configure, or upgrade. The entire lifecycle is fully managed within GKE. Streamlined security: Out of the box, the Kubernetes Default Node Service Agent has read permissions to Cloud Monitoring and Google Managed Prometheus in the same project. No extra IAM service accounts, keys, or federation parameters are required. Low latency and fast scalability: The new Autoscaling Metric system polls the backend every 15 seconds, helping ensure fast scaling reactions. Rich query capabilities: Leverage the full power of PromQL (including rate calculations, averages, and percentiles) to translate high-level business and user-experience objectives directly into scaling. Support for the new HPA scale-to-zero capability : Utilize it for scaling workloads to zero replicas when demand hits zero (e.g., Pub/Sub queue size) and, more crucially, back up from zero replicas quickly using CapacityBuffers API . Try it today By natively supporting both custom container metrics and Prometheus metrics, GKE now offers a more robust, performant, and low-friction autoscaling experience. Built-in support for Prometheus Metrics is in preview now. To learn more about setting up your first AutoscalingMetric resource, check out the latest GKE autoscaling documentation .",
+    "raw_text": "Earlier this year, we announced native support for Google Kubernetes Engine (GKE) custom metrics. This milestone allowed you to scrap external adapters and instead collect autoscaling metrics directly from your pods. By routing these metrics straight to the Horizontal Pod Autoscaler (HPA), we cut metrics reading latency down to 5 seconds. Today, we are excited to introduce built-in support for processing Prometheus metrics, allowing you to use expressive PromQL queries to customize autoscaling triggers. With this update, HPA can now directly process autoscaling metrics present in Cloud Monitoring using Google Managed Service for Prometheus. Reading metrics from these backends will not require third-party adapters, leveraging the AutoscalingMetric integration used to support pod-level metrics. After the preview, we plan to support self-hosted Prometheus servers as we move to general availability. The challenge: Setting up Cloud Monitoring metrics Support for custom pod-level metrics made autoscaling more straightforward, but production workloads often need to scale on multiple, complex infrastructure metrics. Common examples include scaling: a worker pool based on the number of unacknowledged messages in a Pub/Sub topic an inference service based on query-per-second (QPS) metrics stored in Cloud Monitoring / Prometheus a webserver farm based on the 95th percentile of their measured response time To achieve this, you used to need to deploy an external adapter like the Stackdriver Custom Metrics Adapter or the Prometheus adapter to retrieve the metrics from an external logging environment. While this sounds straightforward at first, these adapters introduce a lot of operational friction: Management overhead: Platform teams have to install, configure, patch, and monitor these third-party components. Reliability and inefficiency: Intermediate adapter pods reading from external systems introduce failure points in critical autoscaling loops. IAM complexity: Enabling secure cross-component communication requires setting up Kubernetes service account mappings to Cloud service accounts including their permissions. And while setting up this system and maintaining it not impossible, it’s complex and features a complicated architecture: How processing Prometheus Metrics in GKE can help E xtending the AutoscalingMetric object drastically simplifies this setup. Now you can read metrics from monitoring directly via PromQL and provide them to HPA via a high-performance, low-latency autoscaling pipeline, resulting in a simplified environment. To prevent inefficiencies, we built this feature with minimal resource consumption in mind. The controller runs on the GKE control plane. It monitors your AutoscalingMetric custom resources and only deploys the system pod on your user nodes when a PromQL metric is actively requested. If no Prometheus metrics are configured, the controller is shut down, so there’s no resource overhead. Configuring built-in Prometheus metrics Configuring GKE to use PromQLl metrics is easy; here’s a sample configuration file providing PubSubs message queue depth as scaling metric: code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling.gke.io/v1beta1\\r\\nkind: AutoscalingMetric\\r\\nmetadata:\\r\\n name: gmp-metric\\r\\nspec:\\r\\n metrics:\\r\\n - promql:\\r\\n name: pubsub-queue-depth\\r\\n query: |\\r\\n {\\r\\n \"pubsub.googleapis.com/subscription/num_undelivered_messages\",\\r\\n subscription_id=\"my-subscription\"\\r\\n }'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f502daae9d0>)])]> Linking Prometheus metrics to your HPA Once defined in your AutoscalingMetric resource, you can reference the metric in your standard HorizontalPodAutoscaler using the same intuitive format as raw custom metrics: autoscaling.gke.io|<custom-resource-name>|<metric-name> . Scaling globally (Prometheus metric) For global metrics like a queue size that returns a single aggregate value: code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling/v2\\r\\nkind: HorizontalPodAutoscaler\\r\\nmetadata:\\r\\n name: worker-hpa\\r\\nspec:\\r\\n scaleTargetRef:\\r\\n apiVersion: apps/v1\\r\\n kind: Deployment\\r\\n name: worker-deployment\\r\\n maxReplicas: 10\\r\\n metrics:\\r\\n - type: External\\r\\n external:\\r\\n metric:\\r\\n name: autoscaling.gke.io|gmp-metric|pubsub-queue-depth\\r\\n target:\\r\\n type: AverageValue\\r\\n averageValue: 100 # maintain queue size at ~100 per pod'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f502d6e0390>)])]> Scaling on Cloud Monitoring per-Pod metrics GKE natively supports scale based on the most recent gauge metric values, but PromQL offers greater flexibility, allowing you to scale across time windows and calculate rates or histogram percentiles. To use this capability, configure your PromQL metric to include a label for the pod name, then assign type: Pods within your AutoscalingMetric manifest. Below is an example that calculates a Pod's average memory usage over a five-minute rolling window. code_block <ListValue: [StructValue([('code', 'apiVersion: autoscaling.gke.io/v1beta1\\r\\nkind: AutoscalingMetric\\r\\nmetadata:\\r\\n name: per-pod-stored-metric\\r\\nspec:\\r\\n metrics:\\r\\n - promql:\\r\\n name: container-memory-metric\\r\\n query: |\\r\\n sum by (\"pod\")\\r\\n (avg_over_time({\"container_memory_working_set_bytes\"}[5m]))\\r\\n type: Pods # The promql query returns per-pod metrics'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f502d6e3390>)])]> Key benefits No adapter maintenance: No pods to install, configure, or upgrade. The entire lifecycle is fully managed within GKE. Streamlined security: Out of the box, the Kubernetes Default Node Service Agent has read permissions to Cloud Monitoring and Google Managed Prometheus in the same project. No extra IAM service accounts, keys, or federation parameters are required. Low latency and fast scalability: The new Autoscaling Metric system polls the backend every 15 seconds, helping ensure fast scaling reactions. Rich query capabilities: Leverage the full power of PromQL (including rate calculations, averages, and percentiles) to translate high-level business and user-experience objectives directly into scaling. Support for the new HPA scale-to-zero capability : Utilize it for scaling workloads to zero replicas when demand hits zero (e.g., Pub/Sub queue size) and, more crucially, back up from zero replicas quickly using CapacityBuffers API . Try it today By natively supporting both custom container metrics and Prometheus metrics, GKE now offers a more robust, performant, and low-friction autoscaling experience. Built-in support for Prometheus Metrics is in preview now. To learn more about setting up your first AutoscalingMetric resource, check out the latest GKE autoscaling documentation .",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -1818,6 +1917,87 @@
     ],
     "matched_keywords": {},
     "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production."
+  },
+  {
+    "title": "Aviation solved the vigilance problem. AI just gave security a worse one",
+    "url": "https://www.csoonline.com/article/4225613/aviation-solved-the-vigilance-problem-ai-just-gave-security-a-worse-one.html",
+    "source": "CSO Online",
+    "published": "2026-09-24T09:00:00+00:00",
+    "raw_text": "An air traffic controller watching a busy scope will, sooner or later, miss the one aircraft that matters. Sustained attention decays under load, a limit aviation named the vigilance decrement and has spent seventy years designing around. AI has moved every knowledge worker into that chair. You now work a dozen aircraft at once: six open conversations, an agent drafting in the background, three more waiting, and someone calls it efficiency. Your scope is your inbox. The vigilance decrement does not care that you were told to keep up. What aviation did about it Aviation did not answer the vigilance decrement by telling controllers to concentrate harder. It built a machine that watches on its own, then let the machine overrule the human. In 2002, over Überlingen, an overloaded controller working two positions told a passenger jet to descend at the same moment its onboard collision-avoidance system told it to climb. One crew obeyed the controller. The other obeyed its machine. They collided, and 71 people died. Aviation’s response was a rule that still governs every cockpit: when the machine and the human disagree, follow the machine. And note what kind of machine it was. A collision-avoidance system reads no intent; it computes two converging tracks and calls it. Aviation did not teach crews to trust a clever machine. It taught them to obey a dumb, certain one. Security made the opposite bet Security bet the other way. For 30 years, its last line of defense has been a person noticing that a message is wrong. AI just made that a losing bet twice over. First, it erased the tell. In one controlled study, Bruce Schneier and Fredrik Heiding found AI can cut the cost of a phishing campaign by more than 95 percent while matching the click-through of a skilled human team. The clumsy, typo-ridden lure we taught people to catch is disappearing. Second, AI erased attention by sitting every reader in the controller’s chair. Switching degrades attention, so we are asking a saturated controller to catch the one hostile aircraft on a scope that aviation already proved they will miss. Our problem is harder. A converging jet is not trying to hide; it shows on the scope as exactly what it is. A fraudulent wire is built to look legitimate, and the adversary can pick the moment you are most swamped. Aviation’s machine had to out-watch human fatigue. Ours has to out-think an opponent. Watch the ones that can kill you You cannot watch every aircraft equally, so watch the ones that can kill you, and the threat data says which they are. The FBI recorded 21,442 business email compromise complaints in 2024, out of 859,532 total complaints, yet BEC accounted for $2.77 billion of the year’s $16.6 billion in reported losses. These attacks represent a small fraction of incidents but a disproportionate share of the damage because they lead to consequential actions: a wire, a change of bank details, a credential reset. Rare and hard to reverse. This is where aviation’s rule actually lands, and it lands on the dumb machine. Guard those actions with something that fires on the event itself, not on a human’s read of it: a mandatory callback to a known number for any change of bank details, dual control on a wire, a hard threshold above which a payment stops on its own. None of this is new. These controls used to serve as belt and suspenders behind an email filter that caught the obvious lure. The tell is disappearing, so these controls have to carry more of the load. Like the collision system, they read no one’s intent. They fire on the act, every time, and ask no one to be clever. What they miss is the wire that is already coherent: a request from a genuinely compromised vendor thread, correct in every detail, that a callback confirms because the fraudster holds the other end too. Catching that means judging whether an action makes sense in context, the adversarial problem a collision system never had to solve. This is where aviation’s rule stops transferring, at least for now. You cannot tell anyone to follow this machine because it is not the dumb, certain kind. It guesses in an adversarial fog, and a wrong guess halts a real wire. Any machine in the money path earns its place only if it is quiet enough to be trusted and cheap enough when wrong that treasury does not route around it. A noisy machine just relocates the vigilance decrement onto the backup, who clears its alerts on the same schedule the controller missed the blips. The reliability required to ever say “follow the machine” is the problem security still has to solve. The question worth ending on Aviation reformed because the cost of pretending was a wreck in a field with 71 names on it. Security’s cost is quieter: a wire that clears and an identity handed over, so we keep asking people to do the one thing aviation proved they cannot: serve as the reliable last line against a rare event buried in routine. AI has made that bet even worse. The discipline that learned this first did not demand more vigilance. It built controls around the moments where failure carried the greatest consequence and stopped depending on an overloaded person to catch every dangerous event. Security already has its version of the dumb machine: controls that fire on the act, regardless of whether anyone recognizes the attack. The machine that reads intent has to earn that same trust before anyone follows it. So the question is not whether your people are paying attention. Aviation could have told you decades ago that, eventually, they will not. The question is whether, at the moment someone is about to move money or surrender identity, anything stands in the path except a human hoping to notice.",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market",
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "phishing",
+        "threat",
+        "security",
+        "edr"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "An air traffic controller watching a busy scope will, sooner or later, miss the one aircraft that matters. Sustained attention decays under load, a limit aviation named the vigilance decrement and has spent seventy years designing around. AI has moved every knowledge worker into that chair. You now work a dozen aircraft at once: six open conversations, an agent drafting in the background, three more waiting, and someone calls it efficiency."
+  },
+  {
+    "title": "58 hardware vulnerabilities: A guide to the threats",
+    "url": "https://www.csoonline.com/article/567525/hardware-and-firmware-vulnerabilities-a-guide-to-the-threats.html",
+    "source": "CSO Online",
+    "published": "2026-09-24T08:25:00+00:00",
+    "raw_text": "In January 2018, the entire computer industry was put on alert by two new processor vulnerabilities dubbed Meltdown and Spectre that defeated the fundamental OS security boundaries separating kernel and user space memory. The flaws stemmed from a performance feature of modern CPUs known as speculative execution and mitigating them required one of the biggest patch coordination efforts in history, involving CPU makers, device manufacturers and operating system vendors. Meltdown and Spectre were certainly not the first vulnerabilities to result from a hardware design decision, but their widespread impact sparked the interest of the security research community into such flaws. Since then, many researchers, both from academia and the private sector, have been studying the low-level operation of CPUs and other hardware components and have been uncovering more and more issues. Some hardware vulnerabilities are impossible to mitigate completely without releasing a new generation of components, while others can be fixed in firmware, the low-level programming present in hardware chips. In either case, patching is not straightforward, so such flaws can continue to impact real world devices for a very long time. Here are some of the most significant CPU and DRAM vulnerabilities, discovered both before and after Meltdown. CPU side-channel attacks Spectre variant 1 Spectre variant 2 Meltdown variant 3 Meltdown-GP Meltdown-NM Spectre-NG Spectre-PHT Meltdown-RW Foreshadow-OS Foreshadow-VMM Foreshadow-SGX Meltdown-PK and Meltdown-BND Spectre-PHT-CA-OP, Spectre-PHT-CA-IP and Spectre-PHT-SA-OP Spectre-BTB-SA-IP and Spectre-BTB-SA-OP Fallout RIDL Zombieload Starbleed PLATYPUS SRBDS Spectre-BHI Retbleed Hertzbleed SQUIP Zenbleed Downfall Reptar Inception SLAM GhostRace TikTag Indirector Register File Data Sampling SinkClose Native BHI GoFetch EntrySign Transient Scheduler Attacks Branch Privilege Injection VMScape SysBumps LoongLeak Spectre variant 1 (CVE-2017-5753) Also known as bounds check bypass, CVE-2017-5753 allows attackers to exploit the branch prediction feature of modern CPUs to extract information from the memory of other processes by using the CPU cache as a side channel. It allows one process to extract sensitive information from the memory of another process but could also bypass the user/kernel memory privilege boundary. The vulnerability affects Intel, IBM, and a limited number of ARM CPUs. Spectre variant 2 (CVE-2017-5715) Spectre variant 2 has the same impact as variant 1 but uses a different exploitation technique called branch target injection. Mitigating this variant of Spectre efficiently requires updates to the affected CPU microcode, which can be applied either through BIOS/UEFI updates or by the operating system at every reboot. Meltdown variant 3 (CVE-2017-5754) Also known as Rogue Data Cache Load (RDCL) or variant 3 of the CPU speculative execution flaws, Meltdown is a vulnerability that leverages the out-of-order execution capabilities of modern Intel CPUs. It allows a user process to read protected kernel memory across security boundaries. The fix only requires operating system updates and involves enforcing stricter isolation of the kernel memory, which typically contains sensitive secrets, through mechanisms such as Linux’s kernel page-table isolation (KPTI). Meltdown-GP (CVE-2018-3640) A variant of Meltdown, or variant 3a, it uses speculative reads of system registers to achieve side-channel leaks of information. Because of this, it is also know Rogue System Register Read (RSRE). Mitigation requires microcode updates. Meltdown-NM (CVE-2018-3665) A speculative execution flaw related to Meltdown that’s also known as LazyFP and can be used to leak the state of the floating-point unit (FPU) — a specialized math coprocessor present in Intel’s modern CPUs that’s used to accelerate mathematical operations on floating point numbers. The FPU state can contain sensitive information from cryptographic operations. This vulnerability can be mitigated by enforcing “eager” instead of “lazy” FPU context switching at the operating system level. Spectre-NG (CVE-2018-3639) Also known as Spectre variant 4, or Speculative Store Bypass (SSB), this is a Spectre variant that allows performing memory reads before prior memory write addresses are known and can be used to leak cross-process information. Mitigation requires both microcode and OS updates . Spectre-PHT (CVE-2018-3693) Also known as Spectre 1.1, is a variant of Spectre that leverages speculative stores to create speculative buffer overflows. It allowed bypassing some of the previous software-based mitigations for Spectre and requires OS updates. Meltdown-RW Also known as Spectre 1.2, is a variant that leverages speculative stores to overwrite read-only data and code pointers. This variant can be used to breach software sandboxes and is related Spectre 1.1. Mitigation required OS updates. Foreshadow-OS (CVE-2018-3620) Also known as L1 Terminal Fault, Foreshadow is a speculative execution attack against Intel CPUs that allows extracting information from the processor’s L1 data cache. This is particularly sensitive in the context of virtual machines which split the same physical CPU into multiple virtual CPUs, because those virtual CPUs use the same L1 cache. This variant allows attackers to extract information from the OS or SMM (system management mode), an alternate mode of CPU operation that is separate from the operating system and is designed to be used by BIOS/UEFI or low-level OEM code. Foreshadow-VMM (CVE-2018-3646) A variant of Foreshadow that affects virtual machines and allows a guest operating system running inside a VM to potentially read sensitive memory from other guest VMs or the hypervisor itself. Foreshadow-SGX (CVE-2018-3615) A variant of Foreshadow that allows attackers to read the memory of Intel Software Guard Extensions (SGX) enclaves. SGX is a trusted execution environment provided by some Intel CPUs that allows developers to store data and execute code securely, even if the operating system itself has been compromised. Meltdown-PK and Meltdown-BND Meltdown-PK (Protection Key Bypass) and Meltdown-BND (Bounds Check Bypass) are two variants of Meltdown presented in November 2018 by a team of academic researchers as part of a larger evaluation of transient execution attacks. Meltdown-PK affects Intel CPUs while Meltdown-BND affects both Intel and AMD. Spectre-PHT-CA-OP, Spectre-PHT-CA-IP and Spectre-PHT-SA-OP These are variants of Spectre that leverage the CPU’s Pattern History Table (PHT). They were disclosed at the same time as Meltdown-PK and Meltdown-BND by the same team. Spectre-BTB-SA-IP and Spectre-BTB-SA-OP These are variants of the Spectre attack that leverage the Branch Target Buffer (BTB). They were disclosed in November 2018 by the same team who found Meltdown-PK and Meltdown-BND. The team concluded at the time that “most defenses, including deployed ones, cannot fully mitigate all attack variants.” Fallout (CVE-2018-12126) Fallout , also known as microarchitectural store buffer data sampling (MSBDS), is a vulnerability whose effects are similar to Meltdown in that it can be used to leak sensitive secrets from protected memory regions across security boundaries. It is part of a new class of side-channel attacks against CPUs that Intel calls Microarchitectural Data Sampling (MDS). The flaw affects both operating systems and hypervisors and mitigation requires CPU microcode updates. RIDL (CVE-2018-12127 and CVE-2018-12130) Another two variants of MDS attacks known as microarchitectural load port data sampling (MLPDS) and microarchitectural fill buffer data sampling (MFBDS). Like Fallout, mitigation requires CPU microcode updates. Zombieload (CVE-2019-11091) A fourth variant of MDS attacks known as microarchitectural data sampling uncacheable memory (MDSUM). Like Fallout and RIDL, it can be used to leak sensitive kernel or hypervisor memory. Starbleed Starbleed is a design flaw in the bitstream encryption process of field-programmable gate arrays (FPGAs) made by Xilinx. Unlike CPUs, which come with predetermined general-purpose instructions fit for most computing tasks, FPGAs are integrated circuits whose logic is programmable by the customer. They’re usually configured to perform one specific task more efficiently than general-purpose CPUs and are widely used for mission- or safety-critical applications in sectors such as aerospace, finance, and the military. Configuration files loaded by customers onto FPGAs are called bitstreams, and FPGA manufacturers, like Xilinx, which controls around 50% of the FPGA market, have added encryption and bitstream validation mechanisms to protect customers’ intellectual property and other secrets deployed FPGAs might contain. Researchers from Horst Goertz Institute for IT Security at Ruhr University Bochum in Germany found a design flaw in the bitstream security mechanism of Xilinx 7-Series and Virtex-6 FPGAs that allows an attacker to decrypt bitstreams and modify them. To pull off the Starbleed attack, hackers need access to a hardware configuration interface on the FPGA, which normally requires physical access to the device. But some FPGAs are programmed and reprogrammed through separate microcontrollers, which can be connected to a network, in which case an attack could be executed remotely. The design flaw cannot be patched because it exists in the silicon, so it will be corrected in future generations of Xilinx FPGAs. The company has been notified of the vulnerability before the paper was published and has sent an advisory to customers. PLATYPUS PLATYPUS is a side-channel attack that abuses the running average power limit (RAPL) interface that measures CPU power consumption and is present in all Intel CPUs developed since 2011 (Sandy Bridge). It is the first differential power analysis attack that can be executed remotely and used to leak secrets such as encryption keys from the Linux kernel memory and Intel SGX secure enclaves. The attack was announced in November 2020 and was devised by a team of researchers from the Graz University of Technology, the University of Birmingham in UK, and CISPA Helmholtz Center for Information Security. The Linux kernel developers patched the vulnerabilities, which are tracked as CVE-2020-8694 and CVE-2020-8695, by preventing unprivileged applications from accessing the RAPL energy consumption data. However, this does not address the privileged attack vector against Intel SGX, a trusted execution environment (TEE) built into the CPU that’s supposed to keep sensitive cryptographic data secure even in the case of a complete OS compromise. To address this, users have to deploy CPU microcode updates released by Intel . While the researchers tested and confirmed their attack on Intel CPUs, they warned that CPUs from other chip makers including AMD, Nvidia and ARM also have on-board energy meters that are accessible and could be vulnerable to a variation of this attack. SRBDS (CVE-2020-0543) SRBDS (Special Register Buffer Data Sampling) is an attack technique developed by researchers at VU Amsterdam in 2020 that demonstrates the possibility of speculative execution attacks that leak data through side-channels across CPU cores. Previously, such attacks and their mitigations assumed the attacker and victim share the same CPU core because internal CPU buffers used to leak data are shared by the hyperthreads running on the same CPU core. But the researchers found that some instructions can read data from a staging buffer shared between all CPU cores, expanding the attack surface of known and previously mitigated speculative execution attacks such as RIDL (CVE-2018-12127 and CVE-2018-12130). The team developed a tool called CrossTalk to examine the behavior of all x86 instructions in different contexts to determine when they make offcore memory requests and then used the new attack technique to leak the random number generator (RNG) output used by Intel SGX secure enclaves from the staging buffer. With this RNG output they were able to leak the ECDSA private key of an Intel SGX enclave running on a separate CPU core after the key was used to perform a single digital signature operation. Intel released CPU microcode updates to mitigate the vulnerability for critical instructions such as RDRAND, RDSEED, and EGETKEY that locks the entire memory bus until the staging buffer is cleared. This operation adds a significant performance overhead, which is why it was only introduced for certain instructions. Spectre-BHI (CVE-2022-0001, CVE-2022-0002 and CVE-2022-23960) Spectre-BHI (Branch History Injection) or Spectre-BHB (Branch History Buffer), is an attack disclosed in March 2022 by researchers from VU Amsterdam that’s a variation of the original Spectre v2 or Spectre-BTI (Branch Target Injection) attack and impacts Intel and ARM CPUs. Like Spectre-BTI, the new attack variation can leak sensitive information from the kernel’s memory but does so by poisoning the global history of the CPU predictor, which bypasses the hardware defenses introduced by CPU vendors. By exploiting the original Spectre v2 flaw attackers could actually inject target code locations and then trick the kernel to execute that code, but with the new Spectre-BHI attack, they have to leverage code gadgets and snippets that already exist in the history because they were executed in the past and which might leak interesting data. This makes Spectre-BHI exploitation harder, but the technique shows the Spectre attack surface is larger than previously believed. To demonstrate the attack, the researchers abused eBPF, a technology available in Linux since kernel 4.4 that allows the execution of sandboxed programs inside the kernel. If enabled, this mechanism makes it very easy to exploit speculative execution issues like Spectre-BHI Linux, but disabling it does not completely mitigate the issue as other gadgets can be found to leak data. Retbleed (CVE-2022-29901 and CVE-2022-29900) Retbleed is an attack technique disclosed in July 2022 by researchers from ETH Zurich that exploits the speculative execution feature of Intel and AMD CPUs and circumvents software defenses OSes put in place to prevent previous exploits such as Spectre. The original 2018 Spectre attacks later triggered branch target speculation by using indirect jumps or calls, at which time Google researchers proposed a software defense mechanism called retpoline to replace indirect jumps and calls in software with return instructions. Returns were believed to be impractical to exploit because they normally don’t trigger speculative execution, but Retbleed proves they can under certain conditions, such as when executing deep call stacks to underflow the return stack buffer. The researchers demonstrated their attack on Linux where they found over 1,000 conditions that could allow for this. Intel refers to Retbleed as Return Stack Buffer Underflow (RSBU) and said that systems that use its hardware mitigations, namely indirect branch restricted speculation (IBRS) or enhanced IBRS (eIBRS), are protected against the attack. Only systems that rely solely on the retpoline software mitigation for performance reasons, or which use older CPUs that don’t have the hardware mitigation, are impacted. AMD considers the attack part of a larger class of microarchitectural misbehavior dubbed Branch Type Confusion (CVE-2022-23825). Hertzbleed (CVE-2022-23823 and CVE-2022-24436) Hertzbleed is a new family of side-channel attacks affecting Intel, AMD and possibly ARM CPUs that was disclosed in June 2022 by a team of academic researchers from University of Texas at Austin, University of Illinois Urbana-Champaign and University of Washington. It stems from dynamic frequency scaling, a feature in modern CPUs that is used to reduce power consumption and ensure the CPU stays below thermal and power limits. The researchers who discovered the attack show that different computations can use different CPU frequencies depending on the data that’s being processed. Power analysis attacks are not new, but they are typically local and require some sort of power measurement interface in order to monitor differences between computations and infer details about what’s being processed. This side-channel technique has been used before to leak cryptographic secrets such as keys. Hertzbleed, however, shows that frequency scaling generates timing differences in computations and these can be observed even remotely without any power measurement interface. The novelty is that Hertzbleed works even against so-called constant time cryptographic implementations that were intentionally designed to prevent leaking information through timing analysis. The researchers used Hertzbleed to implement a novel chosen-ciphertext attack against SIKE (Supersingular Isogeny Key Encapsulation), a post-quantum key encapsulation mechanism that is also a NIST competition finalist and is implemented as constant time. The team was able to perform a full key extraction via remote timing. Intel published guidance for developers of cryptographic libraries to mitigate Hertzbleed using software countermeasures. Another possible mitigation is to disable “Turbo Boost” at runtime on the system, but this has a significant system-wide performance impact. SQUIP (CVE-2021-46778) SQUIP is a side channel attack and vulnerability impacting AMD CPUs that was disclosed in August 2022. The attack was devised by researchers from Lamarr Security Research, Graz University of Technology, and Georgia Institute of Technology, and it exploits scheduler queues used during simultaneous multithreading (SMT) operations to schedule instructions that will be executed in CPUs. By measuring the contention level on scheduler queues an attacker may potentially leak sensitive information, AMD said . Zenbleed (CVE-2023-20593) Zenbleed is a vulnerability patched in July 2013 in the Zen 2 family of AMD CPUs. The flaw was found by security researchers from Google and is described as a user-after-free memory vulnerability but for CPUs . It’s caused by incorrectly implemented speculative execution of the SIMD Zeroupper instruction and can allow attackers to leak stale data from physical hardware registers. Such data can include sensitive information such as passwords or encryption keys. Downfall (CVE-2022-40982) Downfall , technically called Gather Data Sampling (GDS) by Intel, is a transient execution vulnerability disclosed in August 2023 that impacts multiple generations of Intel CPUs. Found by security researchers from Google, the flaw is similar to Zenbleed in that it allows attackers to leak sensitive data belonging to other processes and users sharing the same CPU core because stale data stored in physical hardware registers as a result of speculative execution is forwarded to subsequent instructions. The data can be extracted using techniques similar to those used by Meltdown. The flaw also impacts the security of Intel’s Software Guard Extensions (SGX) security subsystem. Reptar (CVE-2023-23583) Reptar is a third CPU vulnerability found by Google security researchers last year and was patched in November 2023 . It impacts Intel CPUs that support a new feature called fast short repeat move (FSRM) and can result in privilege escalation. The flaw is caused by the CPU microcode not ignoring redundant instruction prefixes when FSRM is active and interpreting them in weird ways. Inception (CVE-2023-20569) Inception is a vulnerability in AMD CPUs that can lead to found by researchers from ETH Zurich that was disclosed in August 2023 and can lead to sensitive information disclosure. Inception is a new type of speculative execution attack that hijacks the transient control-flow of return instructions and allows attackers to insert new predictions into the CPU branch predictor at an attacker-controlled address register. SLAM Spectre based on Linear Address Masking (SLAM) is a proof-of-concept attack technique devised by researchers from Vrije Universiteit Amsterdam that shows how previously unexplored Spectre gadgets could be exploited on upcoming AMD, Intel, and ARM CPUs that implement linear address masking, a new security feature planned by CPU vendors: Intel’s Linear Address Masking (LAM), AMD’s Upper Address Ignore (UAI), and ARM’s Top Byte Ignore (TBI). SLAM is notable for being the first speculative execution attack targeting CPU features that were announced but not yet released. GhostRace (CVE-2024-2193) GhostRace is a new type of CPU attack disclosed in March 2024 by researchers from Vrije Universiteit Amsterdam that take advantage of race conditions on speculatively executed code paths. The research shows that synchronization primitives implemented using conditional branches at the OS level can be bypassed on speculative paths using a Spectre v1 attack, potentially allowing for information leaks from targeted software. TikTag TikTag is an attack that leverages speculative execution to bypass a new security feature in ARM CPUs called the Arm Memory Tagging Extension (MTE). This feature, when used by operating systems, makes it harder to exploit out-of-bounds memory violations such as buffer overflows that can lead to arbitrary code execution. The TikTag attack was developed by a team of researchers from Seoul National University, Samsung Research and Georgia Institute of Technology and was described in a research paper in June 2024. Separately, researchers from Vrije Universiteit Amsterdam already showed that MTE is vulnerable to speculative execution probing with an attack they dubbed Spectre-MTE and proposed a proposed a mitigation called StickyTags . Indirector Indirector is a new speculative execution attack that is a variation of Spectre v2 and was disclosed in July 2024. The attack, developed by researchers from University of California San Diego exploits the indirect branch predictor (IBP) and the branch target buffer (BTB) in high-end Intel CPUs (Raptor Lake and Alder Lake) to perform precise branch target injections and leak sensitive data across processes and privilege levels. Register File Data Sampling (CVE-2023-28746) Disclosed in March 2024, Register File Data Sampling (RFDS) affects some Intel Atom processors and allows local software to infer stale data left in floating-point, vector, or integer registers after transient execution. RFDS does not let an attacker choose which values are leaked and exposes only the data that happens to remain in the register files. Intel released a microcode update . SinkClose (CVE-2023-31315) Disclosed in August 2024 by researchers from IOActive, SinkClose gives applications with kernel-level (ring 0) access to modify the configuration of System Management Mode (SMM) even when the SMI lock is enabled. The flaw went undetected for almost two decades and affects nearly all AMD EPYC, Ryzen, and Threadripper CPUs. It provides privilege escalation to ring -2, the processor’s most privileged execution mode, which enables the deployment of malicious implants into the UEFI firmware. AMD released microcode updates for some of the affected chips, but their availability depends on motherboard vendors providing UEFI updates. Native BHI (CVE-2024-2201) In April 2024 researchers from Vrije Universiteit Amsterdam demonstrated that the Branch History Injection (BHI) Spectre v2 variant can be exploited without unprivileged eBPF. The researchers built a tool called InSpectre Gadget that used symbolic execution to find usable Spectre gadgets and identified more than 1,500 in the Linux kernel. Using those gadgets, they built the first native BHI exploit, which leaked kernel memory at 3.5KB/s on Intel CPUs. Intel’s BHI_DIS_S mitigation and software defenses are the available countermeasures. GoFetch GoFetch is a side-channel attack that exploits a data memory-dependent prefetcher (DMP) in Apple’s M-series CPUs. Disclosed in March 2024 by a team of academic researchers from different universities, the technique was used to extract keys from constant-time implementations of OpenSSL’s Diffie-Hellman key exchange, Go’s RSA decryption, and the post-quantum CRYSTALS-Kyber and CRYSTALS-Dilithium algorithms. DMP can be disabled on M3 CPUs through the data-independent timing (DIT) bit, and a hidden configuration bit can disable it on M1 and M2. EntrySign (CVE-2024-36347 and CVE-2024-56161) Two flaws disclosed in March 2025 by researchers from Google and dubbed EntrySign can be used to forge the signature of microcode patches for AMD Zen CPUs. EntrySign affects Zen 1 through Zen 5 CPUs and can undermine AMD’s Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP) because it lets attackers with local administrator privileges load malicious microcode into confidential guests. AMD released microcode and Linux kernel changes . Transient Scheduler Attacks (CVE-2024-36348, CVE-2024-36349, CVE-2024-36350, and CVE-2024-36357) Transient Scheduler Attacks (TSA) are two timing side-channel vulnerabilities in Zen 3 and Zen 4 CPUs that were found by AMD while investigating a Microsoft research report . The flaws allow attackers to leak data across privilege boundaries from the store queue and the L1 data cache. AMD rated the two most serious variants medium severity and released Platform Initialization firmware and operating system updates. Branch Privilege Injection (CVE-2024-45332) The hardware mitigations built into Intel CPUs to stop Spectre v2 branch target injection attacks contain a race condition reported in May 2025 by researchers from ETH Zurich . The flaw affects Intel CPUs released since 2018, from Coffee Lake Refresh through Raptor Lake, and was used to leak arbitrary kernel memory on a fully patched Ubuntu 24.04 system with default mitigations enabled. Intel released a microcode update. VMScape (CVE-2025-40300) Disclosed in September 2025 by researchers from ETH Zurich, VMScape is a Spectre-like branch target injection attack that breaks the isolation between guest virtual machines and the host hypervisor on AMD and Intel CPUs . The researchers used the attack to extract the disk encryption key from a KVM/QEMU host. Linux kernel maintainers mitigated the issue by adding an indirect branch prediction barrier on each VM exit, with only marginal performance overhead. SysBumps (CVE-2024-54531) SysBumps is the first attack to break kernel address space layout randomization (KASLR) on macOS running on Apple M-series chips with kernel isolation enabled. It was described in a research paper published in December 2024 by researchers from Soongsil University and is a Spectre-like vulnerability that occurs when macOS handles user-supplied pointers. This allows unprivileged attackers to force the processor to speculatively translate attacker-chosen kernel addresses, reveling whether an address is valid. LoongLeak LoongLeak is an architectural vulnerability in Loongson 3A5000 and 3A6000 processors, which use China’s LoongArch instruction set, that was described in a research paper presented at USENIX Security 2026 by researchers from Germany’s CISPA Helmholtz Center for Information Security. It belongs to the same class of architectural flaws as Reptar and Zenbleed, which leak data from the retired instruction stream rather than only during transient execution. The flaw can be used to recover kernel AES disk-encryption keys, partial root password hashes, and break address space layout randomization (ASLR) within seconds. The software workaround involves emulating floating-point instructions in the kernel but carries a 10x to 21x performance penalty. DRAM and GPU memory attacks Rowhammer Rowhammer.js Drammer Flip Feng Shui ECCploit Throwhammer RAMBleed ZenHammer Phoenix LeftoverLocals GPUHammer GPUBreach GPUThor BadRAM Battering RAM DDRop Rowhammer Rowhammer is a physical effect with security implications that occurs inside SDRAM chips when the same physical row of memory cells is read for a large number of times in rapid succession — an action dubbed hammering. This can cause electric charges from cells in the hammered row to leak into adjacent rows, modifying the value of the cells in those rows. This is known as bit flipping and possible because of the increased cell density of modern SDRAM chips, particularly DDR3 and DDR4. While the Rowhammer effect has been known or documented for a long time, members of Google’s Project Zero team were the first to prove it can have security implications in March 2015 when they revealed two privilege escalation exploits based on it. Rowhammer.js Rowhammer.js was an implementation of the Rowhammer attack via JavaScript, proving that this flaw can be exploited remotely through the browser, simply by visiting a malicious web page. Browser vendors have added mitigations against this exploit. Drammer – CVE-2016-6728 Drammer is a Rowhammer-type exploit demonstrated in 2016 against Android devices. Until then the memory chips in mobile devices were thought to be unaffected. Flip Feng Shui An implementation of the Rowhammer attack against virtual machines, where a malicious guest VM can flip bits in the physical memory affecting a different virtual machine in a controlled manner. The researchers demonstrated this by breaking the OpenSSH public key authentication in the target VM. ECCploit ECCploit is an attack that demonstrates that Rowhammer-type attacks can work even against SDRAM chips that have error-correcting code (ECC) capabilities. This type of memory, which is typically used in servers, was thought to be immune to Rowhammer. Throwhammer A Rowhammer attack that can be exploited over a network by leveraging the remote direct memory access (RDMA) feature present in fast network cards like those used in servers. RAMBleed RAMBleed is the first attack that has shown it is possible to use the Rowhammer effect to steal data from memory cells instead of simply modifying it. Previous Rowhammer attacks compromised memory integrity through bit flips, which could lead to privilege escalation and other conditions. Meanwhile, RAMBleed uses row hammering and a side-channel in order to infer information about and ultimately extract data from adjacent memory cells. In that respect it is similar to the effects of Meltdown and Spectre. ZenHammer Disclosed in March 2024 by researchers from ETH Zurich, ZenHammer was the first Rowhammer attack on AMD Zen-based CPUs and also the first to trigger bit flips in DDR5 memory. The researchers reverse-engineered AMD’s undisclosed DRAM addressing functions, synchronized their access patterns with refresh commands to evade Target Row Refresh (TRR) mitigations, and scheduled flush and fence instructions to reach a high activation rate. AMD published a security bulletin and pointed users to their DRAM and system vendors for mitigation. Phoenix (CVE-2025-6202) Disclosed in September 2025 by researchers from ETH Zurich and Google, Phoenix is a Rowhammer technique that defeats the advanced TRR mitigations in DDR5 memory and achieves privilege escalation on systems with AMD CPUs. The researchers used the bit flips to modify page table entries, leak RSA-2048 SSH keys from a co-located virtual machine, and gain root through the sudo binary in as little as 109 seconds. The attack works only on AMD platforms because Intel CPUs add a pTRR mitigation. LeftoverLocals (CVE-2023-4969) GPUs from Apple, AMD, and Qualcomm can leak data left in local memory by other processes. The flaw was disclosed in January 2024 by researchers from Trail of Bits who managed to recover roughly 5.5MB of data per GPU invocation on an AMD Radeon RX 7900 XT, or about 181MB for each query when a large language model is running on llama.cpp, enough to reconstruct the model’s responses. Apple fixed the issue in its A17 and M3 chips, and fixes were released for some Qualcomm and Imagination devices. GPUHammer The first Rowhammer attack against an Nvidia dedicated GPU with GDDR6 , GPUHammer was disclosed in August 2025 by researchers from the University of Toronto. The attack showed that the GDDR6 memory used by Nvidia’s RTX A6000 can be made to flip bits from an unprivileged CUDA program. Nvidia recommends enabling error-correcting code (ECC), which costs up to 10% performance and 6.25% memory capacity on the A6000. GPUBreach GPUBreach is a Rowhammer attack that corrupts GPU page tables to escalate privileges. It was discovered by researchers from the University of Toronto and builds on GPUHammer. An unprivileged CUDA kernel can use targeted page-table corruption to read and write another process’s GPU memory, leak cryptographic keys from GPU libraries, and tamper with a model’s GPU assembly. The researchers also used memory-safety bugs in Nvidia’s kernel driver to gain kernel write privileges on the CPU and spawn a root shell, even with the input-output memory management unit (IOMMU) enabled. GPUThor Disclosed in August 2026 by researchers from the University of Toronto, GPUThor is a Rowhammer attack that defeats the ECC protection on some Nvidia enterprise GPUs . The earlier GPUHammer and GPUBreach attacks used uniform hammering patterns, which the Target Row Refresh (TRR) mechanism in newer memory can detect and ECC can correct. GPUThor enables the first practical non-uniform hammering on GPU DRAM, producing double- and even triple-bit errors that ECC was not designed to handle. Users should avoid running untrusted code on vulnerable GPUs and monitor Nvidia’s ECC telemetry. BadRAM (CVE-2024-21944) Tampering with the Serial Presence Detect (SPD) chip on a DRAM module can make it report twice its actual capacity and defeat the memory protections in trusted execution environments such as those based on AMD SEV-SNP. The attack was disclosed in December 2024 by researchers from KU Leuven, the University of Lübeck, and the University of Birmingham. The attack costs about $10 and, on some modules with unlocked SPD chips, can be carried out without physical access. AMD released firmware that validates the memory configuration during boot. Battering RAM A runtime memory-aliasing attack that uses a low-cost DDR4 interposer between the processor and a memory module. The attack was presented at Black Hat Europe in December 2025 by researchers from KU Leuven and requires a $50 device to manipulate memory address mapping at runtime, bypassing the boot-time checks Intel and AMD added after BadRAM. The researchers gained arbitrary plaintext read and write access to memory protected by Intel Software Guard Extensions (SGX), extracted the platform provisioning key, forged attestation reports, and implanted backdoors in AMD SEV-protected virtual machines. Neither Intel nor AMD plan a fix because the attack requires physical access and falls outside their threat models. DDRop Disclosed in September 2026 by researchers from KU Leuven, ETH Zurich, Durham University, and Google, DDRop is a memory-bus attack that breaks the memory-integrity guarantees of Intel Trusted Domain Extensions (TDX), Intel Scalable SGX, and AMD SEV-SNP. A $159 interposer forces an error on the DDR5 command bus and suppresses the signal the memory module uses to report it. On Intel TDX, dropped writes during page-table setup let the researchers inject their own page-table entries, read protected memory, force a confidential virtual machine into debug mode, and forge remote-attestation reports with attacker-chosen measurements. Intel and AMD classified the technique as outside their published threat models. Editor’s note: This article, originally published in July 2019 and amended in August 2022, has been updated to include new vulnerabilities as they come to light.",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "Networks",
+      "Data Centres",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws",
+        "virtualization"
+      ],
+      "Networks": [
+        "network",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "cve",
+        "exploit",
+        "hacker",
+        "threat",
+        "encryption",
+        "security"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Data Centres": [
+        "rack",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "valuation",
+        "ey",
+        "ibm",
+        "vendor"
+      ]
+    },
+    "summary": "In January 2018, the entire computer industry was put on alert by two new processor vulnerabilities dubbed Meltdown and Spectre that defeated the fundamental OS security boundaries separating kernel and user space memory. The flaws stemmed from a performance feature of modern CPUs known as speculative execution and mitigating them required one of the biggest patch coordination efforts in history, involving CPU makers, device manufacturers and operating system vendors. Meltdown and Spectre were certainly not the first vulnerabilities to result from a hardware design decision, but their widespread impact sparked the interest of the security research community into such flaws. Since then, many researchers, both from academia and the private sector, have been studying the low-level operation of CPUs and other hardware components and have been uncovering more and more issues."
   },
   {
     "title": "Check Point hacked: The security software protecting your network has become a prime attack target",
@@ -2117,89 +2297,21 @@
     "summary": "Websites offering fake subscriptions to AI transcription tools, image generators, and other digital assistants could be putting enterprise data at risk, according to researchers at Malwarebytes. The sites impersonate AI products with solid reputations, including GPT-6 Astra , DaVinci Resolve , PixAI and OpenCut , in addition to some that no longer exist (such as Omegle, a chat service shut down in 2023) or are less reputable. All the fake websites were polished and incorporate genuine Google authentication elements inviting users to “Sign in with Google” to enhance credibility on the path to charging visitors’ payment cards anything from $10 a month to as much as $2,000 for a year’s access to the promised AI and software services. “The sites we examined did not use fake password forms or push malware downloads,” Malwarebytes researchers said in a blog post describing their discovery ."
   },
   {
-    "title": "The cyber AI parity window now has a deadline",
-    "url": "https://www.csoonline.com/article/4224418/the-cyber-ai-parity-window-now-has-a-deadline.html",
-    "source": "CSO Online",
-    "published": "2026-09-22T09:00:00+00:00",
-    "raw_text": "In April, I wrote about what I called the Cyber AI Parity Window . This is the rare period in which defenders and adversaries gained access to the same transformative technology at roughly the same moment. For most of cybersecurity history, advanced offensive capability reached attackers years before defenders could respond with comparable technology. AI changed that pattern. At the time, my argument was simple. Parity creates an opportunity, and its value depends on what defenders do with it. I also warned that the window would narrow. Five months later, we have a better sense of how quickly. OpenAI recently described what it calls the “defender’s window.” Greg Brockman wrote that open-weight models with significant cyber capabilities are already only months behind frontier systems, and that organizations need to begin significantly automating their security programs over the coming months. The warning carries unusual weight after OpenAI’s own models, operating during internal cybersecurity evaluations, circumvented controls and compromised parts of Hugging Face’s production infrastructure. For CISOs, the significance reaches well beyond another dramatic AI milestone. The parity window gave defenders simultaneous access to a new capability. The defender’s window puts a timeframe around converting that access into institutional capability. That should shape what security leaders do next. The window is operational The conversation around AI in security has moved quickly. A year ago, many CISOs I spoke with were still asking whether AI could investigate alerts accurately enough for production. The discussion soon expanded into deployment, architecture, trust, and the effect on security teams. Today, the question I hear most often is how quickly organizations can put AI to work while managing the operational risk that comes with greater autonomy. OpenAI’s own security program offers a useful signal. Brockman writes that almost all of OpenAI’s initial security alerts are already triaged by intelligence before humans become involved. The company is connecting detections to bounded automated responses and using frontier intelligence continuously to probe its environment for attack paths, vulnerabilities, misconfigurations, excessive privileges, and unintended trust relationships. Progress should now be measured by how much security work an organization can safely move to machine speed while preserving accountability, visibility, and human judgment. That requires changes in the operating model around the technology. Security leaders need to establish where AI can take ownership of work, how performance will be measured, when authority can expand, and where people remain responsible for consequential decisions. Start where performance can be measured The first priority is identifying security workflows with outcomes that can be evaluated rigorously. Alert investigation is one obvious area. Phishing, identity events, endpoint alerts, and similar workflows generate large volumes of repetitive evidence-gathering work. They also have established analyst practices that give CISOs a baseline to measure AI performance against. I have watched experienced analysts test AI systems by repeating investigations step by step and searching for errors in the conclusion or reasoning. That instinct is healthy. It creates the evidence required for confidence. Security leaders should formalize that process. Measure agreement between AI conclusions and experienced analysts. Track false positives, false negatives, escalations, missing data, investigation time, and the evidence supporting each determination. Study the circumstances where performance remains consistent and the circumstances where ambiguity increases. Over time, this creates an empirical record of performance that can guide decisions about additional autonomy. Make trust an operating metric CISOs should treat trust as something they can observe and measure . A security team should be able to answer basic questions about every AI-driven workflow. What evidence produced the conclusion? Which systems were queried? Where was information missing? How frequently do experienced analysts agree with the result? Under what conditions does the system escalate? Those answers give security leaders a basis for defining thresholds around authority. A workflow with a strong record of high-confidence conclusions may progress from read-only analysis to recommended actions and then to bounded execution. Policies governing critical infrastructure, privileged identities, sensitive data, and high-impact changes can establish different levels of oversight based on business risk. The progression follows demonstrated performance. Each successful cycle builds additional evidence, and that evidence gives the organization confidence to determine where AI can safely assume greater responsibility. Define machine-speed response before you need it Faster investigation naturally creates the next operational question: what happens after the system reaches a conclusion? CISOs should establish response authority before an incident forces those decisions under pressure. Response policies can account for asset criticality, identity, reversibility, business impact, and confidence in the underlying investigation. A session revocation or temporary containment action carries a different risk profile from shutting down production infrastructure or altering access to a critical business system. Security leaders, infrastructure owners, legal teams, and business stakeholders need a common understanding of the authority assigned to AI across those scenarios. The policy should make clear which actions can execute automatically, which require approval, and which remain under direct human control. When an attack moves at machine speed, these decisions cannot begin after the attack does. Predefined authority reduces decision latency and lets the organization act within boundaries established when everyone had time to consider the consequences. Invest the recovered capacity in proactive defense The defender’s window has much greater value when AI changes what the security organization can do with its time . As repetitive investigation work moves to machines, CISOs should deliberately redirect human capacity toward threat hunting, detection engineering, attack-path analysis, security architecture, and improving the organizational context that guides defensive decisions. This is where the advantage can begin to compound. An investigation may reveal a noisy detection rule. A threat hunt can expose a coverage gap. Repeated escalations may identify missing telemetry or an unclear policy. Analysts can turn those findings into stronger controls, improved detections, better response procedures, and fewer avoidable alerts entering the system. I believe this is one of the most important organizational shifts ahead. The security team can increasingly learn from every investigation and use those lessons to improve the environment itself. Analysts gain more time to ask questions that never fit into the alert queue, such as where are we exposed? What are we missing? What should we hunt for next? Turn the window into durable capability The Cyber AI Parity Window gave defenders something rare: access to a transformative technology before adversaries had years to establish an uncontested lead. The defender’s window adds urgency. Capabilities concentrated among frontier organizations today will continue to diffuse. Offensive experimentation will expand. Longstanding vulnerabilities, weak configurations, forgotten permissions, and accumulated technical debt will become easier to discover and exploit. OpenAI is explicitly telling organizations to use the coming months to strengthen their defenses and put capable AI into the hands of security teams. I have already underestimated the pace once. I expected enterprise trust in autonomous investigation to develop over years. I have watched that confidence develop much faster as teams accumulated operational evidence and learned where they could safely expand AI’s responsibility. CISOs still control how prepared their organizations will be as these capabilities spread. The work now is practical. Identify measurable workflows, establish evidence-based trust, define response authority, and redirect human expertise toward proactive defense and continuous improvement. In April, I argued that parity’s value would depend on execution. Five months later, that opening is visibly narrowing. Frontier capabilities are diffusing faster, offensive experimentation is accelerating, and the time available to turn access to AI into institutional capability is shrinking. The defender’s window remains open, and every new advance narrows it. What CISOs build in the coming months will determine whether they enter the next phase of AI-driven security with a durable defensive advantage.",
+    "title": "800 VDC architecture for AI infrastructure",
+    "url": "https://www.datacenterdynamics.com/en/whitepapers/800-vdc-architecture-for-ai-infrastructure/",
+    "source": "DataCenterDynamics",
+    "published": "2026-09-24T08:11:27+00:00",
+    "raw_text": "What does the shift to 800 VDC mean for AI data center efficiency, resilience, energy storage and power distribution?",
     "categories": [
-      "Cybersecurity",
-      "Data Centres",
-      "Industry & Market",
-      "Networks",
-      "GRC"
+      "Data Centres"
     ],
     "matched_keywords": {
-      "Networks": [
-        "latency"
-      ],
-      "Cybersecurity": [
-        "phishing",
-        "exploit",
-        "threat",
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "policy"
-      ],
       "Data Centres": [
-        "rack",
-        "capacity"
-      ],
-      "Industry & Market": [
-        "valuation",
-        "ey"
+        "data center",
+        "ai infrastructure"
       ]
     },
-    "summary": "In April, I wrote about what I called the Cyber AI Parity Window . This is the rare period in which defenders and adversaries gained access to the same transformative technology at roughly the same moment. For most of cybersecurity history, advanced offensive capability reached attackers years before defenders could respond with comparable technology. AI changed that pattern."
-  },
-  {
-    "title": "CISOs can no longer ignore the nation-state threat",
-    "url": "https://www.csoonline.com/article/4224629/ai-reshapes-the-nation-state-threat-landscape-for-cisos.html",
-    "source": "CSO Online",
-    "published": "2026-09-22T08:25:00+00:00",
-    "raw_text": "Flare-ups between US intelligence agencies and private-sector defenders have long been a characteristic of the cybersecurity landscape, with the balance swinging between deep collaboration and friction. The goal of CISOs has typically been to get adversaries out of networks as quickly as possible to contain liabilities, while government responders want to remain longer in compromised systems to watch the adversary and gather intelligence. “A CISO will say, ‘Get them out of my network right now,’” Vikram Thakur , technical director at Symantec by Broadcom Software, tells CSO. “The government will say, ‘No, we know they’re there. Leave them there. We want to be able to see what they do.’ So there is no CISO who’s going to say, ‘Yeah, I think we should continue observing them.’” The accelerating use of AI by nation-state threat actors is compounding this tension by blurring the distinction between national-security threats and ordinary enterprise threats. These blurred lines don’t mean that CISOs need to embrace more of the functions currently assigned to the NSA or FBI. But they do mean that CISOs must incorporate more geopolitical threats into ordinary risk management and increasingly treat nation-state activity as part of their threat models. Moreover, according to government officials, they must also work more closely with the federal government as the cyber front becomes faster and more complex. “The big thing from my perspective and from the president’s perspective is engaging with private industry in a new way,” Sean Cairncross, US National Cyber Director, told attendees at the Billington Cybersecurity Summit earlier this month. “In order to move forward, protect critical infrastructure, and make sure the systems that our citizens rely on for daily life are protected and secure, we need a relationship that is hand-in-glove.” Why companies may be targets without knowing it One blind spot when it comes to managing nation-state threats is that many organizations do not consider themselves strategic targets of adversarial nations. John Fokker , vice president of threat intelligence strategy at Trellix, tells CSO he frequently encounters this mindset. “The number of times that I’ve been to organizations … and it’s like, ‘Yeah, but why would we be a target of nation-states?’” he says. Fokker points to the Netherlands, which has become the No. 2 produce exporter in the world due to its expertise in optimizing greenhouse technology. As a consequence, Chinese threat actors target greenhouse operations and their suppliers to steal their technology secrets. “So that whole industry was like, ‘Hey, I just grow tomatoes,’” Fokker says. “‘I have Windows 95, and I don’t have it patched. I don’t care about IT or whatever.’” The challenge for most CISOs is to identify whether and to what degree their research, contracts, customers, suppliers, infrastructure, or access make it strategically relevant to foreign threat actors, because nation-states are continuously trying to figure that out, too. Identifying nation-state intrusions can be a challenge given that threat actors are not as noisy as cybercriminal actors. They operate in stealth mode to give them as much cover as possible, John Hultquist , chief analyst of Google Threat Intelligence Group, tells CSO. “Just because you haven’t necessarily seen these incidents, [doesn’t mean] you won’t be affected by them,” Hultquist says. AI is going to make threat actors even more effective, raising their ability to quietly pre-position themselves within organizational assets. “Given the ability of AI to sort of help them troubleshoot technical problems, they’re simply going to be better at it than they were in the past,” Hultquist says. Pre-positioning converts geopolitics into enterprise risk Government leaders at the Billington Summit cited potential threats from China in particular as a prominent concern driving why they were exhorting the private sector to up its defense game against nation-states. “What are we going to do [in a] situation [where] we see the Chinese moving to take significant action in cyberspace to degrade our civilian critical infrastructure?” Nick Andersen, acting director and deputy director for the Cybersecurity and Infrastructure Security Agency (CISA), said at the event. Charles Carmakal , CTO of Mandiant Consulting, connects the concern to uncertainty about how the United States would respond to a Chinese attack on Taiwan. “We see a lot of intrusion activity by Chinese actors into organizations where we know they can disrupt critical infrastructure and do a lot of bad things, but we don’t see them doing it,” Carmakal tells CSO. “The question is, does something change from a geopolitical perspective that makes them want to change?” AI hasn’t changed the geopolitical objectives behind nation-state intrusions, but it has changed how quickly and broadly adversaries can act. What AI actually changes — and what it does not Although some experts fear that AI technology could usher in an autonomous war in cyberspace, a more realistic impact is that it could lower the threshold for malicious activity. “While we’re talking about the defensive side, we’ve seen evidence that attackers have also been adopting AI into their own workflow, which ultimately could be seen as the bar for a nation-state-level sophistication of an attack has gone down,” Symantec’s Thakur says. Making the challenge greater, AI can enable lots of threat actors — even relatively amateurish cybercriminals — to launch what might appear to be a sophisticated nation-state attack. “If that bar has gone down, all CISOs across the board should be looking and saying, ‘Wow, now even the credit card thieves look like nation-state attackers; I need to be able to up my game,” Thakur says. Aiding the sophistication upgrade of both nation-states and cybercriminals is the widespread availability of top-level, open-weight AI models out of China. David Wong, a director at Mandiant, Google Cloud, said on a panel at Google’s Cyber Defense summit last week, “Imagine a world where you have a nation-state that’s using an open-source or an open-weight model and it’s pointing it at critical infrastructure.” AI compresses the response window AI is compressing the interval between vulnerability disclosure and exploitation to minutes or seconds, potentially outrunning conventional patching processes. “A friend of mine once told me, in talking about this North Korean actor, ‘This guy, every day he wakes up and sees if there’s a zero-day or whatever in these appliances, and he just starts running on it,” Google’s Hultquist says. “The future is, he won’t have to wake up because the agent will have already run all that. He can pull himself out of the cycle and speed it way up.” The compressed time frame makes patching alone inadequate to fight off nation-state threats, given that the few seconds between discovery and exploitation leave organizations with no realistic ability to patch in time. “You only have to open the window a couple of seconds, and somebody is in,” Trellix’s Fokker says. What CISOs should do now Although preparing for nation-state attacks in the AI era is no simple task, experts offer four immediate actions CISOs should consider. The first is to calibrate the threat without waiting for truly autonomous AI attacks to occur. In fewer than 10% of Mandiant’s current incident-response cases, roughly 90% or more of the intrusion activity was agentic or AI-enabled, Mandiant’s Carmakal says. AI is already present in many attacks, but predominantly autonomous intrusions remain uncommon, as Carmakal’s estimate suggests. CISOs should prepare for far greater speed and scale as the percentage of fully agentic attacks rises. The second task for CISOs is to plan to operate through a compromise. CISOs should determine whether critical operations can continue if corporate IT must be isolated, credentials revoked, cloud services interrupted, or outside infrastructure unavailable. Cybersecurity leaders should rerun exercises without declaring prolonged power, telecommunications, water, cloud, or supplier disruptions out of scope. “We probably sat through business continuity exercises and tabletop exercises where we would very conveniently hand-wave away a lot of the difficult problems,” CISA’s Andersen said. “That’s no longer sufficient.” The third task is to reduce exposure and compress decision time wherever possible. “A lot of the core security controls that you have in the non-AI world help with AI attacks — things like zero trust, things like MFA, things like limiting the amount of data that you have online,” Mandiant’s Wong said. Finally, as is true for almost everything a CISO does, it’s critical to seek C-suite and board-level direction. Experts say that nation-state resilience cannot be an unfunded mandate placed on Boards, and CEOs must authorize the investment, operational interruptions, and cross-enterprise planning required to make resilience real. “There are a lot of CISOs who know exactly what they need to do,” Trellix’s Fokker says. “They just need to be empowered to do so.”",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud",
-        "cloud services"
-      ],
-      "Networks": [
-        "network",
-        "wan",
-        "lan",
-        "telecom"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "zero-day",
-        "exploit",
-        "threat",
-        "security",
-        "cyber",
-        "zero trust",
-        "threat intelligence"
-      ],
-      "GRC": [
-        "risk management",
-        "enterprise risk"
-      ],
-      "Industry & Market": [
-        "investment",
-        "ey",
-        "consulting"
-      ]
-    },
-    "summary": "Flare-ups between US intelligence agencies and private-sector defenders have long been a characteristic of the cybersecurity landscape, with the balance swinging between deep collaboration and friction. The goal of CISOs has typically been to get adversaries out of networks as quickly as possible to contain liabilities, while government responders want to remain longer in compromised systems to watch the adversary and gather intelligence. “A CISO will say, ‘Get them out of my network right now,’” Vikram Thakur , technical director at Symantec by Broadcom Software, tells CSO. “The government will say, ‘No, we know they’re there."
+    "summary": "What does the shift to 800 VDC mean for AI data center efficiency, resilience, energy storage and power distribution?"
   },
   {
     "title": "Sponsored: Huawei unveils new UnifiedBus computing architecture for SuperPoDs and clusters",
@@ -2525,24 +2637,40 @@
     "summary": "Laser-tracking tests showcase possibilities for quite literal cloud connectivity"
   },
   {
-    "title": "Abbott halts new Texas data center permits pending ERCOT audit",
-    "url": "https://www.datacenterdynamics.com/en/news/abbott-halts-new-texas-data-center-permits-pending-ercot-audit/",
-    "source": "DataCenterDynamics",
-    "published": "2026-09-23T08:49:00+00:00",
-    "raw_text": "ERCOT claims the audit will be completed by December",
+    "title": "Experts question whether Salesforce demo breaches SAP API policy",
+    "url": "https://www.theregister.com/saas/2026/09/24/experts-question-whether-salesforce-demo-breaches-sap-api-policy/5298606",
+    "source": "The Register",
+    "published": "2026-09-24T09:15:00+00:00",
+    "raw_text": "For the German vendor, greater challenges may lie ahead, as rivals seek to control the user experience",
     "categories": [
+      "Cybersecurity",
       "GRC",
-      "Data Centres"
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "GRC": [
-        "audit"
+      "Cybersecurity": [
+        "breach"
       ],
-      "Data Centres": [
-        "data center"
+      "GRC": [
+        "policy"
+      ],
+      "Industry & Market": [
+        "vendor"
       ]
     },
-    "summary": "ERCOT claims the audit will be completed by December"
+    "summary": "For the German vendor, greater challenges may lie ahead, as rivals seek to control the user experience"
+  },
+  {
+    "title": "Government contractor exposed path to immigration records",
+    "url": "https://www.theregister.com/security/2026/09/24/government-contractor-exposed-path-to-immigration-records/5298689",
+    "source": "The Register",
+    "published": "2026-09-24T08:30:00+00:00",
+    "raw_text": "IT took a shortcut when the boss was away, and it led to danger!",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "IT took a shortcut when the boss was away, and it led to danger!"
   },
   {
     "title": "Europe’s internet registry wants governance ‘correction’ because its ‘Executive Board’ is not the executive",
@@ -3181,34 +3309,6 @@
     "summary": "Other changes also afoot as employees unionize and the distro itself sees modifications"
   },
   {
-    "title": "Commodore's forgotten Amiga Unix gets a modern revival",
-    "url": "https://www.theregister.com/software/2026/09/22/commodores-forgotten-amiga-unix-gets-a-modern-revival/5297805",
-    "source": "The Register",
-    "published": "2026-09-22T09:15:00+00:00",
-    "raw_text": "Amix gains newer CPU support and a package manager as Open Look joins the retro comeback",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Amix gains newer CPU support and a package manager as Open Look joins the retro comeback"
-  },
-  {
-    "title": "GOV.UK founder warns AI gold rush could leave Britain locked in",
-    "url": "https://www.theregister.com/public-sector/2026/09/22/govuk-founder-warns-ai-gold-rush-could-leave-britain-locked-in/5297828",
-    "source": "The Register",
-    "published": "2026-09-22T08:30:00+00:00",
-    "raw_text": "Mike Bracken says the dash to adopt sovereign AI risks giving more control to a handful of tech suppliers",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Mike Bracken says the dash to adopt sovereign AI risks giving more control to a handful of tech suppliers"
-  },
-  {
     "title": "Law firm paid £200m to support Post Office, while police investigating scandal are forced to beg",
     "url": "https://www.computerweekly.com/news/366650861/Law-firm-paid-200m-to-support-Post-Office-while-police-investigating-scandal-are-forced-to-beg",
     "source": "ComputerWeekly",
@@ -3599,260 +3699,220 @@
     "summary": "Anthropic’s newest Claude model aims to make frontier AI cheaper, faster, and safer, while giving subscribers more breathing room before those frustrating usage limits kick in."
   },
   {
-    "title": "Verneek Launches European Expansion",
-    "url": "https://www.prnewswire.com/news-releases/verneek-launches-european-expansion-302888935.html",
+    "title": "Pacific Coast Brings Hotel-Inspired Comfort Home With Three Distinct Pillow Designs",
+    "url": "https://www.prnewswire.com/news-releases/pacific-coast-brings-hotel-inspired-comfort-home-with-three-distinct-pillow-designs-302889021.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:36:00+00:00",
-    "raw_text": "The U.S.-based AI-native leader is expanding in Europe to serve a growing regional customer base of retailers and consumer brands. LUXEMBOURG and NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Verneek, the deep-tech enterprise AI company, today announced the expansion of its European operations...",
+    "published": "2026-09-24T09:10:00+00:00",
+    "raw_text": "The heritage bedding brand launches three purpose-built pillow options — a three-chamber design, a 650 fill power down pillow, and a gusseted goose feather pillow — making it easier for consumers to find the ideal comfort, loft and support for every bedroom. SEATTLE, Sept. 24, 2026...",
     "categories": [
+      "Cybersecurity",
       "Industry & Market"
     ],
     "matched_keywords": {
+      "Cybersecurity": [
+        "edr"
+      ],
       "Industry & Market": [
         "launches"
       ]
     },
-    "summary": "The U.S.-based AI-native leader is expanding in Europe to serve a growing regional customer base of retailers and consumer brands. LUXEMBOURG and NEW YORK, Sept. 24, 2026 /PRNewswire/ -- Verneek, the deep-tech enterprise AI company, today announced the expansion of its European operations..."
+    "summary": "The heritage bedding brand launches three purpose-built pillow options — a three-chamber design, a 650 fill power down pillow, and a gusseted goose feather pillow — making it easier for consumers to find the ideal comfort, loft and support for every bedroom. SEATTLE, Sept. 24, 2026..."
   },
   {
-    "title": "Desde visitas a templos hasta escapadas a islas: la isla Meizhou de Fujian amplía su atractivo turístico",
-    "url": "https://www.prnewswire.com/news-releases/desde-visitas-a-templos-hasta-escapadas-a-islas-la-isla-meizhou-de-fujian-amplia-su-atractivo-turistico-302888930.html",
+    "title": "Huawei präsentiert sechs weltweite Referenzprojekte und erschließt ein neues Energiesystem durch die Synergie von KI und Energie",
+    "url": "https://www.prnewswire.com/news-releases/huawei-prasentiert-sechs-weltweite-referenzprojekte-und-erschlieWt-ein-neues-energiesystem-durch-die-synergie-von-ki-und-energie-302889019.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:33:00+00:00",
-    "raw_text": "- Xinhua Silk Road: Desde visitas a templos hasta escapadas a islas: la isla Meizhou de Fujian amplía su atractivo turístico PEKÍN, 24 de septiembre de 2026 /PRNewswire/ -- La isla Meizhou, que se encuentra situada en la ciudad de Putian, provincia de Fujian, al sureste de China, es...",
+    "published": "2026-09-24T09:07:00+00:00",
+    "raw_text": "SHANGHAI, 24. September 2026 /PRNewswire/ -- Im Rahmen der HUAWEI CONNECT 2026 veranstaltete Huawei den „Global Electric Power Summit 2026\" unter dem Titel „KI × Energie: Erschließung eines neuen Energiesystems\". Mehr als 600 Vertreter globaler Energieunternehmen, Branchenverbände,...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "- Xinhua Silk Road: Desde visitas a templos hasta escapadas a islas: la isla Meizhou de Fujian amplía su atractivo turístico PEKÍN, 24 de septiembre de 2026 /PRNewswire/ -- La isla Meizhou, que se encuentra situada en la ciudad de Putian, provincia de Fujian, al sureste de China, es..."
+    "summary": "SHANGHAI, 24. September 2026 /PRNewswire/ -- Im Rahmen der HUAWEI CONNECT 2026 veranstaltete Huawei den „Global Electric Power Summit 2026\" unter dem Titel „KI × Energie: Erschließung eines neuen Energiesystems\". Mehr als 600 Vertreter globaler Energieunternehmen, Branchenverbände,..."
   },
   {
-    "title": "A&B Couture devient l'actionnaire majoritaire de Bertan, atelier italien d'excellence spécialisé dans la maille.",
-    "url": "https://www.prnewswire.com/news-releases/ab-couture-devient-lactionnaire-majoritaire-de-bertan-atelier-italien-dexcellence-specialise-dans-la-maille-302886341.html",
+    "title": "GEOSAT BECOMES FIRST EUROPEAN PARTNER IN THE SDG DATA ALLIANCE",
+    "url": "https://www.prnewswire.com/news-releases/geosat-becomes-first-european-partner-in-the-sdg-data-alliance-302888178.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:30:00+00:00",
-    "raw_text": "Le groupe de confection A&B Couture devient ainsi une plateforme intégrée franco-italienne dédiée au développement et à la fabrication de vêtements de luxe, partenaire stratégique des principales maisons de mode. Cette opération crée un pont entre la France et l'Italie, deux grands...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Le groupe de confection A&B Couture devient ainsi une plateforme intégrée franco-italienne dédiée au développement et à la fabrication de vêtements de luxe, partenaire stratégique des principales maisons de mode. Cette opération crée un pont entre la France et l'Italie, deux grands..."
-  },
-  {
-    "title": "Scania Irizar i6S Efficient PHEV wins Sustainable Bus Award 2027",
-    "url": "https://www.prnewswire.com/news-releases/scania-irizar-i6s-efficient-phev-wins-sustainable-bus-award-2027-302888918.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:22:00+00:00",
-    "raw_text": "The Scania Irizar i6S Efficient PHEV wins the Sustainable Bus Award 2027 in the Coach category, recognising its plug-in hybrid platform as an innovative solution for reducing fuel consumption by up to 47 percent and emissions by up to 94 percent in long-distance coach operations, while...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The Scania Irizar i6S Efficient PHEV wins the Sustainable Bus Award 2027 in the Coach category, recognising its plug-in hybrid platform as an innovative solution for reducing fuel consumption by up to 47 percent and emissions by up to 94 percent in long-distance coach operations, while..."
-  },
-  {
-    "title": "Three million tonnes hauled autonomously by Volvo",
-    "url": "https://www.prnewswire.com/news-releases/three-million-tonnes-hauled-autonomously-by-volvo-302888919.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:22:00+00:00",
-    "raw_text": "GOTHENBURG, Sweden, Sept. 24, 2026 /PRNewswire/ -- In a new milestone achievement, Volvo Autonomous Solutions (V.A.S.) has hauled more than 3 million tonnes of material autonomously in the mining and quarrying segment. The milestone demonstrates the ability of autonomous transportation to...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "GOTHENBURG, Sweden, Sept. 24, 2026 /PRNewswire/ -- In a new milestone achievement, Volvo Autonomous Solutions (V.A.S.) has hauled more than 3 million tonnes of material autonomously in the mining and quarrying segment. The milestone demonstrates the ability of autonomous transportation to..."
-  },
-  {
-    "title": "Teleste Awarded Landmark Contract by Siemens Mobility for Modernization Program in Copenhagen",
-    "url": "https://www.prnewswire.com/news-releases/teleste-awarded-landmark-contract-by-siemens-mobility-for-modernization-program-in-copenhagen-302888915.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:20:00+00:00",
-    "raw_text": "TURKU, Finland, Sept. 24, 2026 /PRNewswire/ -- Siemens Mobility has selected Teleste to deliver on-board passenger information and CCTV systems for the next generation of trains for the Copenhagen S-bane network operated by Danish State Railways (DSB). The initial contract value,...",
+    "published": "2026-09-24T09:00:00+00:00",
+    "raw_text": "PARTNERSHIP OPENS THE DOOR TO SATELLITE DATA FOR OVER 3,000 ISLANDS NEW YORK, Sept. 24, 2026 /PRNewswire/ -- GEOSAT, a Earth Observation satellite operator, has become the first European company to join the SDG Data Alliance, the coalition mobilising data to accelerate the UN Sustainable...",
     "categories": [
       "Networks",
-      "Cybersecurity"
+      "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
-        "network",
         "lan"
       ],
-      "Cybersecurity": [
-        "siem"
-      ]
-    },
-    "summary": "TURKU, Finland, Sept. 24, 2026 /PRNewswire/ -- Siemens Mobility has selected Teleste to deliver on-board passenger information and CCTV systems for the next generation of trains for the Copenhagen S-bane network operated by Danish State Railways (DSB). The initial contract value,..."
-  },
-  {
-    "title": "Amap Launches Spatial Intelligence Open Platform for No-Code AI Agents in Location Services",
-    "url": "https://www.prnewswire.com/news-releases/amap-launches-spatial-intelligence-open-platform-for-no-code-ai-agents-in-location-services-302888910.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:16:00+00:00",
-    "raw_text": "HANGZHOU, China, Sept. 24, 2026 /PRNewswire/ -- Amap Platform, Amap's global provider of location-based solutions, has launched Qianyu, a spatial-intelligence open platform that incorporates its location and mapping capabilities into standardized agentic tools. Developers and enterprises...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
       "Industry & Market": [
-        "launches"
+        "partnership"
       ]
     },
-    "summary": "HANGZHOU, China, Sept. 24, 2026 /PRNewswire/ -- Amap Platform, Amap's global provider of location-based solutions, has launched Qianyu, a spatial-intelligence open platform that incorporates its location and mapping capabilities into standardized agentic tools. Developers and enterprises..."
+    "summary": "PARTNERSHIP OPENS THE DOOR TO SATELLITE DATA FOR OVER 3,000 ISLANDS NEW YORK, Sept. 24, 2026 /PRNewswire/ -- GEOSAT, a Earth Observation satellite operator, has become the first European company to join the SDG Data Alliance, the coalition mobilising data to accelerate the UN Sustainable..."
   },
   {
-    "title": "Le rapport Critical Capabilities™ 2026 de Gartner® consacré aux technologies d'orchestration et d'automatisation des processus métier classe Appian n° 1 pour les cas d'utilisation « Automatisation déterministe des flux de travail » et « Consolidation des plateformes »",
-    "url": "https://www.prnewswire.com/news-releases/le-rapport-critical-capabilities-2026-de-gartner-consacre-aux-technologies-dorchestration-et-dautomatisation-des-processus-metier-classe-appian-n-1-pour-les-cas-dutilisation--automatisation-deterministe-des-flux-de-travail--302888839.html",
+    "title": "CRRC schließt die Produktion eines recycelbaren 110-Meter-Windturbinenflügels ab und erreicht eine Rückgewinnungsquote von über 95 % bei den wichtigsten Materialien",
+    "url": "https://www.prnewswire.com/news-releases/crrc-schlieWt-die-produktion-eines-recycelbaren-110-meter-windturbinenflugels-ab-und-erreicht-eine-ruckgewinnungsquote-von-uber-95--bei-den-wichtigsten-materialien-302889012.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:15:00+00:00",
-    "raw_text": "Appian a également été désigné leader dans le rapport Magic Quadrant™ de Gartner® consacré aux technologies d'orchestration et d'automatisation des processus métier (BOAT) LONDRES, 24 septembre 2026 /PRNewswire/ -- Appian (Nasdaq : APPN) a annoncé aujourd'hui qu'il avait été classé n° 1...",
+    "published": "2026-09-24T09:00:00+00:00",
+    "raw_text": "HAMBURG, Deutschland, 24. September 2026 /PRNewswire/ -- CRRC (SHA: 601766) gab in Sheyang in der Provinz Jiangsu die Fertigstellung seines eigenentwickelten, 110 Meter langen, leistungsstarken und recycelbaren Windturbinenflügels bekannt. Der Flügel wurde für eine effiziente...",
     "categories": [
-      "GRC",
+      "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
-      "GRC": [
-        "nist"
+      "Networks": [
+        "lan"
       ],
       "Industry & Market": [
-        "gartner"
+        "ey"
       ]
     },
-    "summary": "Appian a également été désigné leader dans le rapport Magic Quadrant™ de Gartner® consacré aux technologies d'orchestration et d'automatisation des processus métier (BOAT) LONDRES, 24 septembre 2026 /PRNewswire/ -- Appian (Nasdaq : APPN) a annoncé aujourd'hui qu'il avait été classé n° 1..."
+    "summary": "HAMBURG, Deutschland, 24. September 2026 /PRNewswire/ -- CRRC (SHA: 601766) gab in Sheyang in der Provinz Jiangsu die Fertigstellung seines eigenentwickelten, 110 Meter langen, leistungsstarken und recycelbaren Windturbinenflügels bekannt. Der Flügel wurde für eine effiziente..."
   },
   {
-    "title": "El informe Gartner® 2026 sitúa a Appian en el primer puesto en flujos de trabajo y consolidación de plataformas",
-    "url": "https://www.prnewswire.com/news-releases/el-informe-gartner-2026-situa-a-appian-en-el-primer-puesto-en-flujos-de-trabajo-y-consolidacion-de-plataformas-302888848.html",
+    "title": "CRRC Completes Production of 110-Meter Recyclable Wind Turbine Blade, Achieving Over 95% Recovery of Key Materials",
+    "url": "https://www.prnewswire.com/news-releases/crrc-completes-production-of-110-meter-recyclable-wind-turbine-blade-achieving-over-95-recovery-of-key-materials-302888789.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:15:00+00:00",
-    "raw_text": "Appian también ha sido nombrada líder en el informe Gartner® Magic Quadrant™ para tecnologías de orquestación y automatización empresarial MCLEAN, Va., 24 de septiembre de 2026 /PRNewswire/ -- Appian (Nasdaq: APPN) ha anunciado que ha obtenido el primer puesto en los casos de uso de...",
+    "published": "2026-09-24T09:00:00+00:00",
+    "raw_text": "HAMBURG, Germany, Sept. 24, 2026 /PRNewswire/ -- CRRC (SHA: 601766) announced the completion in Sheyang, Jiangsu Province, of its internally developed 110-meter high-performance recyclable wind turbine blade. Designed for efficient material separation and recovery, the blade achieves a...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "HAMBURG, Germany, Sept. 24, 2026 /PRNewswire/ -- CRRC (SHA: 601766) announced the completion in Sheyang, Jiangsu Province, of its internally developed 110-meter high-performance recyclable wind turbine blade. Designed for efficient material separation and recovery, the blade achieves a..."
+  },
+  {
+    "title": "Morgan Stanley B.V. - six months interim report and financial statements for the period ended 30 June 2026",
+    "url": "https://www.prnewswire.com/news-releases/morgan-stanley-bv--six-months-interim-report-and-financial-statements-for-the-period-ended-30-june-2026-302889013.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-24T08:58:00+00:00",
+    "raw_text": "AMSTERDAM, Sept. 24, 2026 /PRNewswire/ -- Morgan Stanley B.V. hereby announces that the interim report and financial statements for the six months period ended 30 June 2026 as expressed in article 5.25d of the Act on Financial Supervision (\"Wet op het financieel toezicht\") has been made...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces",
+        "ey"
+      ]
+    },
+    "summary": "AMSTERDAM, Sept. 24, 2026 /PRNewswire/ -- Morgan Stanley B.V. hereby announces that the interim report and financial statements for the six months period ended 30 June 2026 as expressed in article 5.25d of the Act on Financial Supervision (\"Wet op het financieel toezicht\") has been made..."
+  },
+  {
+    "title": "TrinaTracker Launches Two Robots to Expand its Smart PV Ecosystem",
+    "url": "https://www.prnewswire.com/news-releases/trinatracker-launches-two-robots-to-expand-its-smart-pv-ecosystem-302889010.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-24T08:56:00+00:00",
+    "raw_text": "CHANGZHOU, China, Sept. 24, 2026 /PRNewswire/ -- TrinaTracker, a global provider of smart tracking systems and a wholly owned subsidiary of Trina Solar Co., Ltd. (SHA: 688599), has launched two self-developed robotic products: BUILDEX PV Module Installation Robot and AURORA PV Cleaning...",
     "categories": [
       "Data Centres",
       "Industry & Market"
     ],
     "matched_keywords": {
       "Data Centres": [
-        "pue"
+        "rack"
       ],
       "Industry & Market": [
-        "gartner"
+        "launches"
       ]
     },
-    "summary": "Appian también ha sido nombrada líder en el informe Gartner® Magic Quadrant™ para tecnologías de orquestación y automatización empresarial MCLEAN, Va., 24 de septiembre de 2026 /PRNewswire/ -- Appian (Nasdaq: APPN) ha anunciado que ha obtenido el primer puesto en los casos de uso de..."
+    "summary": "CHANGZHOU, China, Sept. 24, 2026 /PRNewswire/ -- TrinaTracker, a global provider of smart tracking systems and a wholly owned subsidiary of Trina Solar Co., Ltd. (SHA: 688599), has launched two self-developed robotic products: BUILDEX PV Module Installation Robot and AURORA PV Cleaning..."
   },
   {
-    "title": "Yeastar lancia NovoOne, la piattaforma di comunicazione multi-tenant AI-native per i service provider",
-    "url": "https://www.prnewswire.com/news-releases/yeastar-lancia-novoone-la-piattaforma-di-comunicazione-multi-tenant-ai-native-per-i-service-provider-302878318.html",
+    "title": "Sobi to present clinical data on Gamifant® at Histiocyte Society 2026 in Rotterdam",
+    "url": "https://www.prnewswire.com/news-releases/sobi-to-present-clinical-data-on-gamifant-at-histiocyte-society-2026-in-rotterdam-302889008.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "XIAMEN, Cina, 24 settembre 2026 /PRNewswire/ -- Yeastar, leader globale nelle soluzioni di Unified Communications, ha annunciato oggi il lancio ufficiale di NovoOne, una piattaforma di comunicazione multi-tenant, AI-native e carrier-grade, progettata specificamente per MSP, ITSP,...",
+    "published": "2026-09-24T08:53:00+00:00",
+    "raw_text": "STOCKHOLM, Sept. 24, 2026 /PRNewswire/ -- Sobi® (STO: SOBI) today announced that new clinical data on Gamifant® (emapalumab) in primary haemophagocytic lymphohistiocytosis (HLH) will be presented at the 2026 Annual Meeting of the Histiocyte Society (HS2026), taking place 26-29 September...",
     "categories": [
-      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ]
+    },
+    "summary": "STOCKHOLM, Sept. 24, 2026 /PRNewswire/ -- Sobi® (STO: SOBI) today announced that new clinical data on Gamifant® (emapalumab) in primary haemophagocytic lymphohistiocytosis (HLH) will be presented at the 2026 Annual Meeting of the Histiocyte Society (HS2026), taking place 26-29 September..."
+  },
+  {
+    "title": "Bairong AI Rolls Out Market‑Capitalization‑Linked Equity Incentive, Deeply Aligning Long‑Term Interests Between Key Leader and All Shareholders",
+    "url": "https://www.prnewswire.com/news-releases/bairong-ai-rolls-out-marketcapitalizationlinked-equity-incentive-deeply-aligning-longterm-interests-between-key-leader-and-all-shareholders-302889007.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-24T08:52:00+00:00",
+    "raw_text": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- Bairong AI Inc. (HKEX: 6608) recently issued an announcement, announcing the conditional grant of 24,395,000 Share Awards to Mr. Zhang Shaofeng, founder, chairman of the Board and chief executive officer of the Company. Vesting of such Share Awards...",
+    "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
       "Industry & Market": [
-        "service provider"
+        "ey"
       ]
     },
-    "summary": "XIAMEN, Cina, 24 settembre 2026 /PRNewswire/ -- Yeastar, leader globale nelle soluzioni di Unified Communications, ha annunciato oggi il lancio ufficiale di NovoOne, una piattaforma di comunicazione multi-tenant, AI-native e carrier-grade, progettata specificamente per MSP, ITSP,..."
+    "summary": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- Bairong AI Inc. (HKEX: 6608) recently issued an announcement, announcing the conditional grant of 24,395,000 Share Awards to Mr. Zhang Shaofeng, founder, chairman of the Board and chief executive officer of the Company."
   },
   {
-    "title": "Yeastar lanza la plataforma de comunicaciones NovoOne",
-    "url": "https://www.prnewswire.com/news-releases/yeastar-lanza-la-plataforma-de-comunicaciones-novoone-302877120.html",
+    "title": "Společnost Pantum Technology představila na veletrhu IFA 2026 nová řešení pro tiskárny a rozšířila svou strategii pro evropský trh",
+    "url": "https://www.prnewswire.com/news-releases/spolenost-pantum-technology-pedstavila-na-veletrhu-ifa-2026-nova-eeni-pro-tiskarny-a-roziila-svou-strategii-pro-evropsky-trh-302889000.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "- Yeastar lanza NovoOne, una plataforma de comunicaciones multiinquilino nativa de IA para proveedores de servicios XIAMEN, China, 24 de septiembre de 2026 /PRNewswire/ -- Yeastar, líder mundial en soluciones de comunicaciones unificadas, ha anunciado hoy el lanzamiento oficial de...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "- Yeastar lanza NovoOne, una plataforma de comunicaciones multiinquilino nativa de IA para proveedores de servicios XIAMEN, China, 24 de septiembre de 2026 /PRNewswire/ -- Yeastar, líder mundial en soluciones de comunicaciones unificadas, ha anunciado hoy el lanzamiento oficial de..."
-  },
-  {
-    "title": "Pearson research warns of a 'triple capability gap' emerging as AI adoption outpaces education and training in skilled occupations",
-    "url": "https://www.prnewswire.com/news-releases/pearson-research-warns-of-a-triple-capability-gap-emerging-as-ai-adoption-outpaces-education-and-training-in-skilled-occupations-302887586.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "SHANGHAI, Sept. 24, 2026 /PRNewswire/ -- Pearson (FTSE: PSON.L) today launched new research, For Every Future: Preparing Early-Career Skilled Trade, Technical and Service Talent for an AI-Infused World, at the WorldSkills International Conference 2026 in Shanghai. The report finds that as...",
+    "published": "2026-09-24T08:47:00+00:00",
+    "raw_text": "BERLÍN, 24. září 2026 /PRNewswire/ -- Společnost Pantum Technology, přední světový poskytovatel komplexních řešení pro tiskárny, zaznamenala na veletrhu IFA 2026 velký ohlas díky představení rozsáhlého portfolia produktů vytvořeného pro dnešní neustále se vyvíjející celosvětový trh. Díky...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "SHANGHAI, Sept. 24, 2026 /PRNewswire/ -- Pearson (FTSE: PSON.L) today launched new research, For Every Future: Preparing Early-Career Skilled Trade, Technical and Service Talent for an AI-Infused World, at the WorldSkills International Conference 2026 in Shanghai. The report finds that as..."
+    "summary": "BERLÍN, 24. září 2026 /PRNewswire/ -- Společnost Pantum Technology, přední světový poskytovatel komplexních řešení pro tiskárny, zaznamenala na veletrhu IFA 2026 velký ohlas díky představení rozsáhlého portfolia produktů vytvořeného pro dnešní neustále se vyvíjející celosvětový trh. Díky..."
   },
   {
-    "title": "Independent research firm names RWS a Leader in latest Localization Services analyst report",
-    "url": "https://www.prnewswire.com/news-releases/independent-research-firm-names-rws-a-leader-in-latest-localization-services-analyst-report-302888008.html",
+    "title": "Envision Energy Unveils EN-252/16.7 Offshore Wind Turbine to Deliver High Performance and Reliability in High-Wind Environments",
+    "url": "https://www.prnewswire.com/news-releases/envision-energy-unveils-en-25216-7-offshore-wind-turbine-to-deliver-high-performance-and-reliability-in-high-wind-environments-302888999.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "RWS achieves maximum scores across 18 criteria, including Vision; Innovation; AI search, semantics, and knowledge enablement; and Hyperlocalization and cultural adaptation MAIDENHEAD, England, Sept. 24, 2026 /PRNewswire/ -- RWS (AIM: RWS.L), a global AI solutions company, today announced...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "RWS achieves maximum scores across 18 criteria, including Vision; Innovation; AI search, semantics, and knowledge enablement; and Hyperlocalization and cultural adaptation MAIDENHEAD, England, Sept. 24, 2026 /PRNewswire/ -- RWS (AIM: RWS.L), a global AI solutions company, today announced..."
-  },
-  {
-    "title": "Rockwell Automation, Tekna Automazione e Controllo and Prometeon Collaborate to Advance Tire Inspection Processes",
-    "url": "https://www.prnewswire.com/news-releases/rockwell-automation-tekna-automazione-e-controllo-and-prometeon-collaborate-to-advance-tire-inspection-processes-302882268.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "Initiative combines Rockwell's industrial automation expertise with Tekna's detection capabilities to support quality, consistency and manufacturing performance MILAN, Sept. 24, 2026 /PRNewswire/ -- Rockwell Automation, the world's largest company dedicated to industrial automation and...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Initiative combines Rockwell's industrial automation expertise with Tekna's detection capabilities to support quality, consistency and manufacturing performance MILAN, Sept. 24, 2026 /PRNewswire/ -- Rockwell Automation, the world's largest company dedicated to industrial automation and..."
-  },
-  {
-    "title": "Daewoong Pharmaceutical Presents Baseline Characteristics of 104 Patients in Global Phase 2 Trial for IPF Drug Candidate 'Bersiporocin' at ERS 2026",
-    "url": "https://www.prnewswire.com/news-releases/daewoong-pharmaceutical-presents-baseline-characteristics-of-104-patients-in-global-phase-2-trial-for-ipf-drug-candidate-bersiporocin-at-ers-2026-302886913.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "104 IPF patients enrolled in US and South Korea as global Phase 2 trial progresses toward completion Study includes both antifibrotic-treated and untreated patients; top-line data expected in H1 2027 First-in-class PRS inhibitor being developed as a potential new therapeutic option for...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ipo"
-      ]
-    },
-    "summary": "104 IPF patients enrolled in US and South Korea as global Phase 2 trial progresses toward completion Study includes both antifibrotic-treated and untreated patients; top-line data expected in H1 2027 First-in-class PRS inhibitor being developed as a potential new therapeutic option for..."
-  },
-  {
-    "title": "Yeastar bringt NovoOne auf den Markt, eine KI-native Multi-tenant Communications Platform für Dienstanbieter",
-    "url": "https://www.prnewswire.com/news-releases/yeastar-bringt-novoone-auf-den-markt-eine-ki-native-multi-tenant-communications-platform-fur-dienstanbieter-302877118.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "XIAMEN, China, 24. September 2026 /PRNewswire/ -- Yeastar, ein weltweit führender Anbieter von Unified-Communications-Lösungen, gab heute die offizielle Einführung von NovoOne bekannt, einer KI-basierten Carrier-Grade-Kommunikationsplattform mit Multi-Tenant-Fähigkeit , die speziell für...",
+    "published": "2026-09-24T08:45:00+00:00",
+    "raw_text": "HAMBURG, Germany, Sept. 24, 2026 /PRNewswire/ -- Envision Energy, a global leader in green technology, launched the EN-252/16.7, its next-generation offshore wind turbine developed for high-wind environments and tailored to the requirements of international offshore markets. With 16.7 MW...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "XIAMEN, China, 24. September 2026 /PRNewswire/ -- Yeastar, ein weltweit führender Anbieter von Unified-Communications-Lösungen, gab heute die offizielle Einführung von NovoOne bekannt, einer KI-basierten Carrier-Grade-Kommunikationsplattform mit Multi-Tenant-Fähigkeit , die speziell für..."
+    "summary": "HAMBURG, Germany, Sept. 24, 2026 /PRNewswire/ -- Envision Energy, a global leader in green technology, launched the EN-252/16.7, its next-generation offshore wind turbine developed for high-wind environments and tailored to the requirements of international offshore markets. With 16.7 MW..."
   },
   {
-    "title": "Yeastar lance NovoOne, une plateforme de communication multi-locataires intégrant l'IA destinée aux fournisseurs de services",
-    "url": "https://www.prnewswire.com/news-releases/yeastar-lance-novoone-une-plateforme-de-communication-multi-locataires-integrant-lia-destinee-aux-fournisseurs-de-services-302877435.html",
+    "title": "WhalesBot Launches EliteMind, Bringing Physical AI Into STEM & AI Education",
+    "url": "https://www.prnewswire.com/news-releases/whalesbot-launches-elitemind-bringing-physical-ai-into-stem--ai-education-302888996.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "XIAMEN, Chine, 24 septembre 2026 /PRNewswire/ -- Yeastar, leader mondial des solutions de communications unifiées, a annoncé aujourd'hui le lancement officiel de NovoOne, une plateforme de communications multi-locataires de niveau opérateur native IA spécialement conçue pour les MSP, les...",
+    "published": "2026-09-24T08:39:00+00:00",
+    "raw_text": "Powered by W-Hong LLM, EliteMind lets students take AI models and programs from digital learning into real-world sensing, reasoning and action. SHANGHAI, Sept. 23, 2026 /PRNewswire/ -- WhalesBot, a global leader in STEM and AI education, has announced EliteMind, a modular Physical AI...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Powered by W-Hong LLM, EliteMind lets students take AI models and programs from digital learning into real-world sensing, reasoning and action. SHANGHAI, Sept. 23, 2026 /PRNewswire/ -- WhalesBot, a global leader in STEM and AI education, has announced EliteMind, a modular Physical AI..."
+  },
+  {
+    "title": "Volvo Trucks receives record order for gas-powered trucks",
+    "url": "https://www.prnewswire.com/news-releases/volvo-trucks-receives-record-order-for-gas-powered-trucks-302888985.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-24T08:27:00+00:00",
+    "raw_text": "Volvo Trucks has received its largest order to date for gas-powered trucks, with the purchase of 500 Volvo FH Aero trucks by German transport company Reinert Logistics. GOTHENBURG, Sweden, Sept. 24, 2026 /PRNewswire/ -- Volvo's gas-powered trucks are growing in volume as more markets are...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Volvo Trucks has received its largest order to date for gas-powered trucks, with the purchase of 500 Volvo FH Aero trucks by German transport company Reinert Logistics. GOTHENBURG, Sweden, Sept. 24, 2026 /PRNewswire/ -- Volvo's gas-powered trucks are growing in volume as more markets are..."
+  },
+  {
+    "title": "Pantum Technology présente ses nouvelles solutions d'impression à l'IFA 2026 et renforce sa stratégie de développement sur le marché européen",
+    "url": "https://www.prnewswire.com/news-releases/pantum-technology-presente-ses-nouvelles-solutions-dimpression-a-lifa-2026-et-renforce-sa-strategie-de-developpement-sur-le-marche-europeen-302888976.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-24T08:23:00+00:00",
+    "raw_text": "BERLIN, 24 septembre 2026 /PRNewswire/ -- Pantum Technology, l'un des principaux fournisseurs mondiaux de solutions d'impression complètes, a fait forte impression lors de l'IFA 2026 en dévoilant une gamme complète de produits conçus pour répondre aux besoins d'un marché mondial en...",
     "categories": [
       "Networks"
     ],
@@ -3861,44 +3921,120 @@
         "lan"
       ]
     },
-    "summary": "XIAMEN, Chine, 24 septembre 2026 /PRNewswire/ -- Yeastar, leader mondial des solutions de communications unifiées, a annoncé aujourd'hui le lancement officiel de NovoOne, une plateforme de communications multi-locataires de niveau opérateur native IA spécialement conçue pour les MSP, les..."
+    "summary": "BERLIN, 24 septembre 2026 /PRNewswire/ -- Pantum Technology, l'un des principaux fournisseurs mondiaux de solutions d'impression complètes, a fait forte impression lors de l'IFA 2026 en dévoilant une gamme complète de produits conçus pour répondre aux besoins d'un marché mondial en..."
   },
   {
-    "title": "Grand Rapids Housing Commission Featured on \"All Access hosted by Andy Garcia\" for Innovative Approach to Affordable Housing",
-    "url": "https://www.prnewswire.com/news-releases/grand-rapids-housing-commission-featured-on-all-access-hosted-by-andy-garcia-for-innovative-approach-to-affordable-housing-302887233.html",
+    "title": "Uxin Reports Unaudited Financial Results for the Quarter Ended June 30, 2026",
+    "url": "https://www.prnewswire.com/news-releases/uxin-reports-unaudited-financial-results-for-the-quarter-ended-june-30-2026-302888958.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "GRAND RAPIDS, Mich., Sept. 24, 2026 /PRNewswire/ -- As housing costs continue to challenge low-income households across West Michigan, the Grand Rapids Housing Commission (GRHC) is using a combination of rental assistance, affordable housing development, community partnerships, and...",
+    "published": "2026-09-24T08:20:00+00:00",
+    "raw_text": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- Uxin Limited (\"Uxin\" or the \"Company\") (Nasdaq: UXIN), China's leading used car retailer, today announced its unaudited financial results for the quarter ended June 30, 2026. Highlights for the Quarter Ended June 30, 2026 Transaction volume was...",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "audit"
+      ]
+    },
+    "summary": "BEIJING, Sept. 24, 2026 /PRNewswire/ -- Uxin Limited (\"Uxin\" or the \"Company\") (Nasdaq: UXIN), China's leading used car retailer, today announced its unaudited financial results for the quarter ended June 30, 2026. Highlights for the Quarter Ended June 30, 2026 Transaction volume was..."
+  },
+  {
+    "title": "Bank al Etihad Enters the UAE Market Through Strategic Partnership with Ethmar International Holding",
+    "url": "https://www.prnewswire.com/news-releases/bank-al-etihad-enters-the-uae-market-through-strategic-partnership-with-ethmar-international-holding-302888951.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-24T08:04:00+00:00",
+    "raw_text": "AMMAN, Jordan and ABU DHABI, UAE, Sept. 24, 2026 /PRNewswire/ -- Bank al Etihad, one of Jordan's largest banks, has announced its entry into the United Arab Emirates through a strategic partnership with Ethmar International Holding (EIH), a leading Abu Dhabi-based institutional investment...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "partnership"
+        "partnership",
+        "investment"
       ]
     },
-    "summary": "GRAND RAPIDS, Mich., Sept. 24, 2026 /PRNewswire/ -- As housing costs continue to challenge low-income households across West Michigan, the Grand Rapids Housing Commission (GRHC) is using a combination of rental assistance, affordable housing development, community partnerships, and..."
+    "summary": "AMMAN, Jordan and ABU DHABI, UAE, Sept. 24, 2026 /PRNewswire/ -- Bank al Etihad, one of Jordan's largest banks, has announced its entry into the United Arab Emirates through a strategic partnership with Ethmar International Holding (EIH), a leading Abu Dhabi-based institutional investment..."
   },
   {
-    "title": "Yeastar Launches NovoOne, an AI-native Multi-tenant Communications Platform for Service Providers",
-    "url": "https://www.prnewswire.com/news-releases/yeastar-launches-novoone-an-ai-native-multi-tenant-communications-platform-for-service-providers-302876182.html",
+    "title": "TORM plc capital increase in connection with RSU exercise as part of TORM's incentive program",
+    "url": "https://www.prnewswire.com/news-releases/torm-plc-capital-increase-in-connection-with-rsu-exercise-as-part-of-torms-incentive-program-302888959.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-09-24T07:00:00+00:00",
-    "raw_text": "XIAMEN, China, Sept. 24, 2026 /PRNewswire/ -- Yeastar, a global leader in Unified Communications solutions, today announced the official launch of NovoOne, an AI-native, carrier-grade multi-tenant communications platform purpose-built for MSPs, ITSPs, telecom resellers, and carriers...",
+    "published": "2026-09-24T08:01:00+00:00",
+    "raw_text": "HELLERUP, Denmark, Sept. 24, 2026 /PRNewswire/ -- TORM plc (NASDAQ: TRMD) (NASDAQ: TRMD A) has increased its share capital by 97,089 Class A shares, corresponding to a nominal increase of USD 970.89, as a result of the exercise of a corresponding number of Restricted Share Units (\"RSUs\")....",
     "categories": [
-      "Industry & Market",
-      "Networks"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "HELLERUP, Denmark, Sept. 24, 2026 /PRNewswire/ -- TORM plc (NASDAQ: TRMD) (NASDAQ: TRMD A) has increased its share capital by 97,089 Class A shares, corresponding to a nominal increase of USD 970.89, as a result of the exercise of a corresponding number of Restricted Share Units (\"RSUs\")...."
+  },
+  {
+    "title": "Los robots de servicio de la Feria de Cantón demostrarán su capacidad para resolver problemas del mundo real",
+    "url": "https://www.prnewswire.com/news-releases/los-robots-de-servicio-de-la-feria-de-canton-demostraran-su-capacidad-para-resolver-problemas-del-mundo-real-302886207.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-09-24T08:00:00+00:00",
+    "raw_text": "- La IA pasa de ser opcional a esencial: los robots de servicio de la Feria de Cantón demostrarán su capacidad para resolver problemas del mundo real GUANGZHOU, China, 24 de septiembre de 2026 /PRNewswire/ -- La 140ª edición de la Feria de Cantón se inaugurará el 15 de octubre y reunirá a...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "- La IA pasa de ser opcional a esencial: los robots de servicio de la Feria de Cantón demostrarán su capacidad para resolver problemas del mundo real GUANGZHOU, China, 24 de septiembre de 2026 /PRNewswire/ -- La 140ª edición de la Feria de Cantón se inaugurará el 15 de octubre y reunirá a..."
+  },
+  {
+    "title": "From NVIDIA to MEXC: Autheo Expands the Markets Behind Its Internet Operating System",
+    "url": "https://www.globenewswire.com/news-release/2026/09/24/3368063/0/en/from-nvidia-to-mexc-autheo-expands-the-markets-behind-its-internet-operating-system.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-24T08:54:00+00:00",
+    "raw_text": "From NVIDIA to MEXC: Autheo Expands the Markets Behind Its Internet Operating System",
+    "categories": [
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "telecom"
-      ],
       "Industry & Market": [
-        "launches",
-        "service provider"
+        "expands"
       ]
     },
-    "summary": "XIAMEN, China, Sept. 24, 2026 /PRNewswire/ -- Yeastar, a global leader in Unified Communications solutions, today announced the official launch of NovoOne, an AI-native, carrier-grade multi-tenant communications platform purpose-built for MSPs, ITSPs, telecom resellers, and carriers..."
+    "summary": "From NVIDIA to MEXC: Autheo Expands the Markets Behind Its Internet Operating System"
+  },
+  {
+    "title": "LBank Ranks No. 1 for Mainstream Crypto ($52.16M) and Stock Depth (4.4x) in BeInCrypto Report",
+    "url": "https://www.globenewswire.com/news-release/2026/09/24/3368047/0/en/lbank-ranks-no-1-for-mainstream-crypto-52-16m-and-stock-depth-4-4x-in-beincrypto-report.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-24T08:41:00+00:00",
+    "raw_text": "LBank ranks No. 1 for major crypto order-book depth ($52.16M) and leads tokenized stock liquidity by 4.4x in a new BeInCrypto report.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LBank ranks No. 1 for major crypto order-book depth ($52.16M) and leads tokenized stock liquidity by 4.4x in a new BeInCrypto report."
+  },
+  {
+    "title": "LBS launches SARI Foundation Institute for Work, Careers and Longevity",
+    "url": "https://www.globenewswire.com/news-release/2026/09/24/3367999/0/en/lbs-launches-sari-foundation-institute-for-work-careers-and-longevity.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-24T08:00:00+00:00",
+    "raw_text": "Led by Academic Co-Directors Lynda Gratton and Herminia Ibarra, the SARI Institute researches how to support six-decade working lives.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Led by Academic Co-Directors Lynda Gratton and Herminia Ibarra, the SARI Institute researches how to support six-decade working lives."
+  },
+  {
+    "title": "UnionPay Showcases at the 23rd China-ASEAN Expo",
+    "url": "https://www.globenewswire.com/news-release/2026/09/24/3367995/0/en/unionpay-showcases-at-the-23rd-china-asean-expo.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-09-24T07:56:00+00:00",
+    "raw_text": "UnionPay UnionPay",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "UnionPay UnionPay"
   },
   {
     "title": "Airia and Nephos Technologies announce strategic partnership to close gap between AI platform control and data governance",
@@ -4129,59 +4265,19 @@
     "summary": "FUERTEVENTURA, Espanja, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Mira Aerospace, arabiemiraattilaisen tekoälyratkaisuja hyödyntävän SpaceTech-yhtiön Space42 :n (ADX: SPACE42) tytäryhtiö, joka keskittyy HAPS (High Altitude Platform Systems) -aluksiin, ja Leonardo Spaceen kuuluva Telespazio Ibérica ilmoittivat metsäpalojen valvonnan aloittamisesta Espanjassa. Ensimmäisellä lennolla ApusNeo18-HAPS-alus nousi lentoon HAPS- ja UAS-aluksille tarkoitetulta Canarias Stratoport -asemalta Fuerteventurassa. Lento toteutettiin Fuerteventura Technology Parkin ISSEC-projektin alaisena."
   },
   {
-    "title": "Space42 e Telespazio Ibérica avviano il monitoraggio degli incendi boschivi in Spagna con il supporto di sistemi di piattaforme ad alta quota",
-    "url": "https://www.globenewswire.com/news-release/2026/09/24/3367953/0/it/space42-e-telespazio-ib%C3%A9rica-avviano-il-monitoraggio-degli-incendi-boschivi-in-spagna-con-il-supporto-di-sistemi-di-piattaforme-ad-alta-quota.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-24T05:19:00+00:00",
-    "raw_text": "FUERTEVENTURA, Spagna, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Mira Aerospace, la controllata specializzata in sistemi di piattaforme ad alta quota (HAPS) di Space42 (ADX: SPACE42), società specializzata in tecnologia spaziale basata sull’IA con sede negli Emirati Arabi Uniti, e Telespazio Ibérica, del gruppo Leonardo Space, hanno annunciato l’avvio di una missione di monitoraggio degli incendi boschivi in Spagna. Nell’ambito del progetto ISSEC, promosso dal Parco tecnologico di Fuerteventura, il primo volo della missione ha visto il modello HAPS ApusNeo18 decollare dal Canarias Stratoport for HAPS & UAS (Stratoporto delle Canarie per HAPS e UAS), sull’isola di Fuerteventura. Il volo, durato 29 ore e raggiunta un’altitudine di circa 16.000 piedi, ha stabilito due record europei nella categoria HAPS e ha trasmesso in diretta video e immagini ad alta risoluzione acquisite da sensori elettro-ottici e a infrarossi.",
+    "title": "Introducing Unit 42 Continuous Frontier AI Defense - Palo Alto Networks",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWlF5V3Z5US04Q2R0OHhNSHhxZkx0X0VFTU9xbk5ybFVQaThaaS1pbWVNUklxYXZCc3FqY2xKUTc4MmlqMVNyanFiUmJMaDhjRFVpcG1NR2x0U1pvSU1EZFVTN3F1M2xDYjZXV0dPaFV4YWxQTnlseU5pb0JJOERPQTF0Ml9adm5SS1MyR0wtYTh3ZEI3elBXd3BYWVBHZw?oc=5",
+    "source": "Google News: Vendor Press Releases",
+    "published": "2026-09-22T15:48:34+00:00",
+    "raw_text": "Introducing Unit 42 Continuous Frontier AI Defense Palo Alto Networks",
     "categories": [
-      "Cybersecurity"
+      "Networks"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
+      "Networks": [
+        "network"
       ]
     },
-    "summary": "FUERTEVENTURA, Spagna, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Mira Aerospace, la controllata specializzata in sistemi di piattaforme ad alta quota (HAPS) di Space42 (ADX: SPACE42), società specializzata in tecnologia spaziale basata sull’IA con sede negli Emirati Arabi Uniti, e Telespazio Ibérica, del gruppo Leonardo Space, hanno annunciato l’avvio di una missione di monitoraggio degli incendi boschivi in Spagna. Nell’ambito del progetto ISSEC, promosso dal Parco tecnologico di Fuerteventura, il primo volo della missione ha visto il modello HAPS ApusNeo18 decollare dal Canarias Stratoport for HAPS & UAS (Stratoporto delle Canarie per HAPS e UAS), sull’isola di Fuerteventura. Il volo, durato 29 ore e raggiunta un’altitudine di circa 16.000 piedi, ha stabilito due record europei nella categoria HAPS e ha trasmesso in diretta video e immagini ad alta risoluzione acquisite da sensori elettro-ottici e a infrarossi."
-  },
-  {
-    "title": "Space42 og Telespazio Ibérica begynner med overvåkning av skogbranner støttet av høytflyvende plattformsystemer",
-    "url": "https://www.globenewswire.com/news-release/2026/09/24/3367953/0/no/space42-og-telespazio-ib%C3%A9rica-begynner-med-overv%C3%A5kning-av-skogbranner-st%C3%B8ttet-av-h%C3%B8ytflyvende-plattformsystemer.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-24T05:19:00+00:00",
-    "raw_text": "FUERTEVENTURA, Spana, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Mira Aerospace, HAPS-datterselskapet (høytflyvende plattformsystemer) til Space42 (ADX: SPACE42), det KI-drevne SpaceTech-selskapet med base i De forente arabiske emirater og Telespazio Ibérica, en del av Leonardo Space, kunngjør at de har startet et oppdrag for overvåking av skogbranner i Spania. Oppdragets første flyvning så ApusNeo18 HAPS-modellen ta av fra Canarias Stratoport for HAPS & UAS på øya Fuerteventura, under ISSEC-prosjektet ledet av Fuerteventura Technology Park. Etter å ha pågått i 29 timer og nådd en høyde på omtrent 16 000 fot, markerte flyvningen to europeiske HAPS-rekorder og leverte levende video og bilder i høy opplysning fra elektrooptiske og infrarøde sensorer.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "FUERTEVENTURA, Spana, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Mira Aerospace, HAPS-datterselskapet (høytflyvende plattformsystemer) til Space42 (ADX: SPACE42), det KI-drevne SpaceTech-selskapet med base i De forente arabiske emirater og Telespazio Ibérica, en del av Leonardo Space, kunngjør at de har startet et oppdrag for overvåking av skogbranner i Spania. Oppdragets første flyvning så ApusNeo18 HAPS-modellen ta av fra Canarias Stratoport for HAPS & UAS på øya Fuerteventura, under ISSEC-prosjektet ledet av Fuerteventura Technology Park. Etter å ha pågått i 29 timer og nådd en høyde på omtrent 16 000 fot, markerte flyvningen to europeiske HAPS-rekorder og leverte levende video og bilder i høy opplysning fra elektrooptiske og infrarøde sensorer."
-  },
-  {
-    "title": "Space42 e Telespazio Ibérica dão início à monitorização de incêndios florestais em Espanha com o apoio de Sistemas de Plataformas de Elevada Altitude",
-    "url": "https://www.globenewswire.com/news-release/2026/09/24/3367953/0/pt/space42-e-telespazio-ib%C3%A9rica-d%C3%A3o-in%C3%ADcio-%C3%A0-monitoriza%C3%A7%C3%A3o-de-inc%C3%AAndios-florestais-em-espanha-com-o-apoio-de-sistemas-de-plataformas-de-elevada-altitude.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-24T05:19:00+00:00",
-    "raw_text": "FUERTEVENTURA, Espanha, Sept. 24, 2026 (GLOBE NEWSWIRE) -- A Mira Aerospace, a subsidiária de Sistemas de Plataformas de Elevada Altitude (HAPS) da Space42 (ADX: SPACE42), empresa de tecnologia espacial com sede nos Emirados Árabes Unidos e impulsionada por IA, e a Telespazio Ibérica, parte da Leonardo Space, anunciaram o início de uma missão de monitorização de incêndios florestais em Espanha. No primeiro voo da missão, o modelo ApusNeo18 HAPS descolou do Estratoporto das Canárias para HAPS e UAS, na ilha de Fuerteventura, no âmbito do projeto ISSEC, promovido pelo Parque Tecnológico de Fuerteventura. Com uma duração de 29 horas e tendo atingido uma altitude de aproximadamente 16 000 pés, o voo estabeleceu dois recordes europeus de HAPS e transmitiu vídeo e imagens em direto e de alta resolução a partir de sensores eletro-óticos e de infravermelhos.",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "colo"
-      ]
-    },
-    "summary": "FUERTEVENTURA, Espanha, Sept. 24, 2026 (GLOBE NEWSWIRE) -- A Mira Aerospace, a subsidiária de Sistemas de Plataformas de Elevada Altitude (HAPS) da Space42 (ADX: SPACE42), empresa de tecnologia espacial com sede nos Emirados Árabes Unidos e impulsionada por IA, e a Telespazio Ibérica, parte da Leonardo Space, anunciaram o início de uma missão de monitorização de incêndios florestais em Espanha. No primeiro voo da missão, o modelo ApusNeo18 HAPS descolou do Estratoporto das Canárias para HAPS e UAS, na ilha de Fuerteventura, no âmbito do projeto ISSEC, promovido pelo Parque Tecnológico de Fuerteventura. Com uma duração de 29 horas e tendo atingido uma altitude de aproximadamente 16 000 pés, o voo estabeleceu dois recordes europeus de HAPS e transmitiu vídeo e imagens em direto e de alta resolução a partir de sensores eletro-óticos e de infravermelhos."
-  },
-  {
-    "title": "Space42 och Telespazio Ibérica inleder övervakning av skogsbränder i Spanien med hjälp av High Altitude Platform Systems (HAPS)",
-    "url": "https://www.globenewswire.com/news-release/2026/09/24/3367953/0/sv/space42-och-telespazio-ib%C3%A9rica-inleder-%C3%B6vervakning-av-skogsbr%C3%A4nder-i-spanien-med-hj%C3%A4lp-av-high-altitude-platform-systems-haps.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-09-24T05:19:00+00:00",
-    "raw_text": "FUERTEVENTURA, Spanien, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Mira Aerospace, verksamt inom High Altitude Platform Systems (HAPS) och dotterbolag till Space42 (ADX: SPACE42), ett AI-drivet SpaceTech-företag baserat i Förenade Arabemiraten, och Telespazio Ibérica, som ingår i Leonardo Space, har meddelat att de inleder ett övervakningsuppdrag för skogsbränder i Spanien. Under uppdragets första flygning lyfte HAPS-modellen ApusNeo18 från Canarias Stratoport for HAPS & UAS på Fuerteventura, inom ramen för ISSEC-projektet som drivs av Fuerteventura Technology Park. Flygningen varade i 29 timmar och nådde en höjd på ca 16 000 fot, vilket innebar två europeiska HAPS-rekord, och sändes live i högupplöst video och bildmaterial från elektrooptiska och infraröda sensorer.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "FUERTEVENTURA, Spanien, Sept. 24, 2026 (GLOBE NEWSWIRE) -- Mira Aerospace, verksamt inom High Altitude Platform Systems (HAPS) och dotterbolag till Space42 (ADX: SPACE42), ett AI-drivet SpaceTech-företag baserat i Förenade Arabemiraten, och Telespazio Ibérica, som ingår i Leonardo Space, har meddelat att de inleder ett övervakningsuppdrag för skogsbränder i Spanien. Under uppdragets första flygning lyfte HAPS-modellen ApusNeo18 från Canarias Stratoport for HAPS & UAS på Fuerteventura, inom ramen för ISSEC-projektet som drivs av Fuerteventura Technology Park. Flygningen varade i 29 timmar och nådde en höjd på ca 16 000 fot, vilket innebar två europeiska HAPS-rekord, och sändes live i högupplöst video och bildmaterial från elektrooptiska och infraröda sensorer."
+    "summary": "Introducing Unit 42 Continuous Frontier AI Defense Palo Alto Networks"
   }
 ]
