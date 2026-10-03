@@ -527,27 +527,6 @@
     "summary": "Microsoft announced that Windows settings backup and restore is now enabled by default on all Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems upgraded to Windows 11 26H2. [...]"
   },
   {
-    "title": "Hackers stole Pentagon personnel records of over 3 million people",
-    "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-pentagon-human-resources-management-system-steal-data-of-nearly-3-million-people/",
-    "source": "BleepingComputer",
-    "published": "2026-10-01T09:44:28+00:00",
-    "raw_text": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]",
-    "categories": [
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "hacker"
-      ],
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "The Pentagon's Defense Manpower Data Center (DMDC) is notifying millions of military service members that hackers stole their data after breaching the Pentagon's human resources management system in October 2025. [...]"
-  },
-  {
     "title": "AI is giving attackers a head start, Microsoft warns",
     "url": "https://www.helpnetsecurity.com/2026/10/02/ai-cybersecurity-threats-microsoft-report/",
     "source": "Help Net Security",
@@ -1283,28 +1262,6 @@
     "summary": "CloudSyncD uses a fake Zoom installer to phish Mac passwords and launch a two-stage backdoor"
   },
   {
-    "title": "AI Threats Top Cybersecurity Preparedness Gap, PwC Finds",
-    "url": "https://www.infosecurity-magazine.com/news/mitigating-adversarial-ai-top/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-10-01T09:30:00+00:00",
-    "raw_text": "PwC finds global security leaders are most concerned about attacks on AI systems",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "pwc"
-      ]
-    },
-    "summary": "PwC finds global security leaders are most concerned about attacks on AI systems"
-  },
-  {
     "title": "Announcing AWS Well-Architected Agent, an AI-powered intelligence to optimize your cloud environment (preview)",
     "url": "https://aws.amazon.com/blogs/aws/announcing-aws-well-architected-agent-an-ai-powered-intelligence-to-optimize-your-cloud-environment-preview/",
     "source": "AWS News Blog",
@@ -1446,7 +1403,7 @@
     "url": "https://cloud.google.com/blog/products/databases/spanner-queues-provide-native-transactional-messaging/",
     "source": "Google Cloud Blog",
     "published": "2026-10-02T16:00:00+00:00",
-    "raw_text": "AI agents don't just answer queries — they can autonomously issue refunds, manage inventory, execute multi-step handoffs, and orchestrate sub-agents, to name but a few complex agentic workflows. That frequently requires the agents to maintain internal state in an operational database while dispatching asynchronous actions through a separate messaging or event queue system. And unfortunately for the teams building these applications, managing two systems with disjointed commit points destroys transactional consistency in agentic systems. Today, we are excited to announce the general availability of Spanner queues : native transactional messaging embedded directly within Spanner. Designed specifically for reliable agentic execution, with Spanner queues, creating a message is simply another write in your transaction. An agent's state change and intended downstream actions commit together atomically or fail completely. Compare this to traditional approaches: When a database state update succeeds, but the action dispatch fails, your AI agent decides to act but doesn’t execute. If the message dispatch succeeds but the state transaction rolls back, your agent executes an action based on an invalid state. In asynchronous multi-agent coordination, retries, speculation, and race conditions amplify these failures, forcing developers to build complex outbox patterns, idempotency layers, and reconciliation workers — a heavy reliability tax on agentic architecture. Key capabilities for agentic architectures Spanner queues introduces several core capabilities to support these complex asynchronous workflows without introducing infrastructure overhead. Atomic decide-and-act enqueue. Within a single Spanner read-write transaction, agents can update internal memory or state tables and enqueue tasks to peer agents simultaneously. Backed by Spanner's strict serializability and global external consistency, state changes and execution intent commit as a single atomic unit. Scheduled execution and delays. Queue messages can be dispatched immediately upon commit or scheduled for future delivery. Agentic patterns such as delayed retries, scheduled agent check-ins, or SLA escalation timers can be enqueued transactionally alongside memory updates without requiring external cron schedulers or polling infrastructure. Streaming SQL pull for agent workers. Autonomous agents consume tasks dynamically using streaming SQL reads. Agent runtimes stream incoming tasks, process them as capacity becomes available, and acknowledge task completion within a transaction to guarantee end-to-end task execution state reliability. Episodic memory persistence and handoffs. Agent memory updates — including long-term episodic summaries, reflective state transitions, and context handoffs across sub-agents — can be persisted asynchronously and transactionally via queues. This guarantees that an agent's internal memory remains fully synchronized with its execution history without blocking real-time interactive turns. Why Spanner queues are essential for autonomous agents Transactional exactly-once agent execution: When an agent evaluates tool call results, state modification, reasoning persistence, and downstream tool invocation tasks are saved in one transaction. We guarantee at-least-once delivery and at-most-once ACK, enabling you to achieve exactly-once processing. Robust multi-agent orchestration and handoffs: In multi-agent systems (A2A), handing off state from a primary agent to a specialist agent is represented as a durable, transactionally committed message. Specialist agent workers receive deliverable messages while maintaining a fully auditable lineage of agent interactions. First-class timeouts and human-in-the-loop workflows: Agent workflows frequently require pausing for human approvals or scheduled follow-ups. Spanner queues handles timeout management natively: A single transaction records the pending approval state and schedules an automated escalation message, resolving whichever triggers first. SQL-native observability for agent queues: Inspecting in-flight agent workloads, monitoring task backlogs, or auditing agent execution history can be accomplished with standard SQL queries over queue tables, avoiding opaque message-store black boxes. Beyond agentic workflows Beyond AI agents, Spanner queues serves as a flexible, multi-purpose messaging platform across a variety of traditional event-driven architectures. Whether powering real-time activity feeds in social applications, delivering live updates in news publishing, orchestrating order processing and inventory workflows in retail, or handling high-throughput asynchronous task processing and transaction notifications in financial services, Spanner queues provides a robust foundation for asynchronous message delivery and transactional event-driven workflows within your primary database. Under the hood: Transactional mechanics of Spanner queues Because Spanner queues are represented as first-class relational structures in Spanner, you define, inspect, and manage queues using familiar GoogleSQL. 1. Defining a queue and enqueuing atomically When an agent decides to approve a customer refund, it updates the Orders table and dispatches an execution task to the OrderAgentTasks queue within a single ACID transaction: code_block <ListValue: [StructValue([('code', '-- Assume parent table:\\r\\n-- CREATE TABLE Orders (\\r\\n-- OrderId STRING(64) NOT NULL, ...\\r\\n-- )\\r\\n-- PRIMARY KEY (OrderId);\\r\\n\\r\\n-- Define the transactional queue table\\r\\nCREATE QUEUE OrderAgentTasks (\\r\\n OrderId STRING(64) NOT NULL,\\r\\n TaskId STRING(64) NOT NULL,\\r\\n TaskType STRING(64) NOT NULL,\\r\\n Payload JSON NOT NULL\\r\\n) PRIMARY KEY (OrderId, TaskId, TaskType), INTERLEAVE IN Orders;\\r\\n\\r\\n-- Inside a Read-Write Transaction:\\r\\n-- 1. Update business state atomically\\r\\n\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = \\'REFUND_APPROVED\\',\\r\\n UpdatedAt = PENDING_COMMIT_TIMESTAMP()\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- 2. Enqueue the asynchronous agent action in the same transaction\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @taskId,\\r\\n \\'EXECUTE_REFUND\\',\\r\\n JSON \\'{\"action\": \"execute_refund\", \"amount\": 49.99}\\'\\r\\n);\\r\\n\\r\\n-- COMMIT;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14dc7590>)])]> This ensures that the EXECUTE_REFUND task exists if and only if the order status successfully transitioned to REFUND_APPROVED . 2. Temporal scheduling and atomic cancellation For workflows that depend on time — such as waiting up to 72 hours for a manager's approval before escalating — agents populate the system DeliverTime column to defer message visibility: code_block <ListValue: [StructValue([('code', '-- Schedule an automated escalation check-in 72 hours in the future\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload, DeliverTime)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @escalationTaskId,\\r\\n \\'ESCALATE_UNAPPROVED_ORDER\\',\\r\\n JSON \\'{\"action\": \"escalate_to_supervisor\"}\\',\\r\\n TIMESTAMP_ADD(CURRENT_TIMESTAMP(), INTERVAL 72 HOUR)\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14dc5210>)])]> If the manager approves the request after four hours, your application doesn't have to deal with phantom escalation alerts firing days later. In a single transaction, you update the order status and cancel the pending escalation task using a standard SQL DELETE : code_block <ListValue: [StructValue([('code', \"-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = 'MANAGER_APPROVED',\\r\\n ApprovedBy = @managerId\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- Atomically cancel the pending delayed escalation task. `ASSERT_ROWS_MODIFIED 1` will\\r\\n-- act as a safeguard and cause a statement level error.\\r\\n\\r\\n-- A statement level error can be captured and the transaction can be\\r\\n-- user-aborted/cancelled in case the queue entry was already deleted.\\r\\n-- Otherwise the transaction will complete successfully regardless if the \\r\\n-- queue entry still exists and you'll only know if a queue entry was deleted by\\r\\n-- checking the number of rows affected by the DELETE.\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @escalationTaskId\\r\\n AND TaskType = 'ESCALATE_UNAPPROVED_ORDER',\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14dc41d0>)])]> 3. Streaming consumption, lease renewal, and atomic acknowledgment Downstream agent workers consume tasks using the RECEIVE_<QueueName> table-valued function (TVF) over a streaming SQL connection ( ExecuteStreamingSql ). Spanner automatically manages message leases, returning a unique SpannerLeaseToken and expiration timestamp with each leased task: code_block <ListValue: [StructValue([('code', \"-- Step 1: Consume tasks via a long-lived streaming SQL query\\r\\nSELECT\\r\\n OrderId,\\r\\n TaskId,\\r\\n TaskType,\\r\\n Payload,\\r\\n SpannerLeaseToken,\\r\\n SpannerLeaseExpirationTimestamp\\r\\nFROM RECEIVE_OrderAgentTasks(max_duration => '20m');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14dc7690>)])]> Because AI agent tasks often involve multi-turn LLM reasoning or external API calls that take longer than default lease windows, workers can actively extend their lease using the RENEWLEASE_<QueueName> function: code_block <ListValue: [StructValue([('code', '-- Step 2: Extend lease ownership during long-running agent execution\\r\\nSELECT *\\r\\nFROM RENEWLEASE_OrderAgentTasks(lease_tokens => [@leaseToken]);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14dc5390>)])]> When the agent finishes executing its external tool (passing TaskId as the external API's idempotency key), it opens a read-write transaction to record the final state and acknowledge the message by deleting it with ASSERT_ROWS_MODIFIED 1 : code_block <ListValue: [StructValue([('code', \"-- Step 3: Atomically checkpoint agent results and ACK the message\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET RefundTransactionId = @externalRefundId,\\r\\n Status = 'REFUND_COMPLETED'\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @taskId\\r\\n AND TaskType = @taskType\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14dc43d0>)])]> Using ASSERT_ROWS_MODIFIED 1 protects your system against lease-expiration races. If a worker stalled due to a network pause and its lease expired, another worker may have already processed and deleted the task. When the stalled worker resumes and attempts to execute the statement, ASSERT_ROWS_MODIFIED 1 detects that the queue row is already gone and throws a statement-level error. Catching that error and aborting that transaction prevents stale workers from overwriting newer database state. Spanner change streams vs. Spanner queues Spanner change streams capture database data changes (inserts, updates, and deletes) in near real-time for downstream integration and auditing. While both change streams and queues allow applications to react to data changes, Spanner change streams are designed for continuous change data capture (CDC) and data streaming to downstream analytics or storage. In contrast, Spanner queues are explicitly designed for transactional task orchestration, supporting native message leases, scheduled deliveries, SQL-based pulling, and atomic acknowledgments within read-write transactions. Get started Spanner provides a unified foundation for agentic data, combining relational, hybrid search, graph, and key-value capabilities under strict global consistency. Spanner queues completes the agentic loop by enabling agents to transition seamlessly from reasoning over data to executing transactional actions within a single unified platform. Spanner queues are now generally available. Sign up for the Spanner 90-day free trial and read up our public documentation to start building resilient, exactly-once agentic workloads by creating a queue table in your Spanner database today.",
+    "raw_text": "AI agents don't just answer queries — they can autonomously issue refunds, manage inventory, execute multi-step handoffs, and orchestrate sub-agents, to name but a few complex agentic workflows. That frequently requires the agents to maintain internal state in an operational database while dispatching asynchronous actions through a separate messaging or event queue system. And unfortunately for the teams building these applications, managing two systems with disjointed commit points destroys transactional consistency in agentic systems. Today, we are excited to announce the general availability of Spanner queues : native transactional messaging embedded directly within Spanner. Designed specifically for reliable agentic execution, with Spanner queues, creating a message is simply another write in your transaction. An agent's state change and intended downstream actions commit together atomically or fail completely. Compare this to traditional approaches: When a database state update succeeds, but the action dispatch fails, your AI agent decides to act but doesn’t execute. If the message dispatch succeeds but the state transaction rolls back, your agent executes an action based on an invalid state. In asynchronous multi-agent coordination, retries, speculation, and race conditions amplify these failures, forcing developers to build complex outbox patterns, idempotency layers, and reconciliation workers — a heavy reliability tax on agentic architecture. Key capabilities for agentic architectures Spanner queues introduces several core capabilities to support these complex asynchronous workflows without introducing infrastructure overhead. Atomic decide-and-act enqueue. Within a single Spanner read-write transaction, agents can update internal memory or state tables and enqueue tasks to peer agents simultaneously. Backed by Spanner's strict serializability and global external consistency, state changes and execution intent commit as a single atomic unit. Scheduled execution and delays. Queue messages can be dispatched immediately upon commit or scheduled for future delivery. Agentic patterns such as delayed retries, scheduled agent check-ins, or SLA escalation timers can be enqueued transactionally alongside memory updates without requiring external cron schedulers or polling infrastructure. Streaming SQL pull for agent workers. Autonomous agents consume tasks dynamically using streaming SQL reads. Agent runtimes stream incoming tasks, process them as capacity becomes available, and acknowledge task completion within a transaction to guarantee end-to-end task execution state reliability. Episodic memory persistence and handoffs. Agent memory updates — including long-term episodic summaries, reflective state transitions, and context handoffs across sub-agents — can be persisted asynchronously and transactionally via queues. This guarantees that an agent's internal memory remains fully synchronized with its execution history without blocking real-time interactive turns. Why Spanner queues are essential for autonomous agents Transactional exactly-once agent execution: When an agent evaluates tool call results, state modification, reasoning persistence, and downstream tool invocation tasks are saved in one transaction. We guarantee at-least-once delivery and at-most-once ACK, enabling you to achieve exactly-once processing. Robust multi-agent orchestration and handoffs: In multi-agent systems (A2A), handing off state from a primary agent to a specialist agent is represented as a durable, transactionally committed message. Specialist agent workers receive deliverable messages while maintaining a fully auditable lineage of agent interactions. First-class timeouts and human-in-the-loop workflows: Agent workflows frequently require pausing for human approvals or scheduled follow-ups. Spanner queues handles timeout management natively: A single transaction records the pending approval state and schedules an automated escalation message, resolving whichever triggers first. SQL-native observability for agent queues: Inspecting in-flight agent workloads, monitoring task backlogs, or auditing agent execution history can be accomplished with standard SQL queries over queue tables, avoiding opaque message-store black boxes. Beyond agentic workflows Beyond AI agents, Spanner queues serves as a flexible, multi-purpose messaging platform across a variety of traditional event-driven architectures. Whether powering real-time activity feeds in social applications, delivering live updates in news publishing, orchestrating order processing and inventory workflows in retail, or handling high-throughput asynchronous task processing and transaction notifications in financial services, Spanner queues provides a robust foundation for asynchronous message delivery and transactional event-driven workflows within your primary database. Under the hood: Transactional mechanics of Spanner queues Because Spanner queues are represented as first-class relational structures in Spanner, you define, inspect, and manage queues using familiar GoogleSQL. 1. Defining a queue and enqueuing atomically When an agent decides to approve a customer refund, it updates the Orders table and dispatches an execution task to the OrderAgentTasks queue within a single ACID transaction: code_block <ListValue: [StructValue([('code', '-- Assume parent table:\\r\\n-- CREATE TABLE Orders (\\r\\n-- OrderId STRING(64) NOT NULL, ...\\r\\n-- )\\r\\n-- PRIMARY KEY (OrderId);\\r\\n\\r\\n-- Define the transactional queue table\\r\\nCREATE QUEUE OrderAgentTasks (\\r\\n OrderId STRING(64) NOT NULL,\\r\\n TaskId STRING(64) NOT NULL,\\r\\n TaskType STRING(64) NOT NULL,\\r\\n Payload JSON NOT NULL\\r\\n) PRIMARY KEY (OrderId, TaskId, TaskType), INTERLEAVE IN Orders;\\r\\n\\r\\n-- Inside a Read-Write Transaction:\\r\\n-- 1. Update business state atomically\\r\\n\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = \\'REFUND_APPROVED\\',\\r\\n UpdatedAt = PENDING_COMMIT_TIMESTAMP()\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- 2. Enqueue the asynchronous agent action in the same transaction\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @taskId,\\r\\n \\'EXECUTE_REFUND\\',\\r\\n JSON \\'{\"action\": \"execute_refund\", \"amount\": 49.99}\\'\\r\\n);\\r\\n\\r\\n-- COMMIT;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a0e2cd0>)])]> This ensures that the EXECUTE_REFUND task exists if and only if the order status successfully transitioned to REFUND_APPROVED . 2. Temporal scheduling and atomic cancellation For workflows that depend on time — such as waiting up to 72 hours for a manager's approval before escalating — agents populate the system DeliverTime column to defer message visibility: code_block <ListValue: [StructValue([('code', '-- Schedule an automated escalation check-in 72 hours in the future\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload, DeliverTime)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @escalationTaskId,\\r\\n \\'ESCALATE_UNAPPROVED_ORDER\\',\\r\\n JSON \\'{\"action\": \"escalate_to_supervisor\"}\\',\\r\\n TIMESTAMP_ADD(CURRENT_TIMESTAMP(), INTERVAL 72 HOUR)\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a31f190>)])]> If the manager approves the request after four hours, your application doesn't have to deal with phantom escalation alerts firing days later. In a single transaction, you update the order status and cancel the pending escalation task using a standard SQL DELETE : code_block <ListValue: [StructValue([('code', \"-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = 'MANAGER_APPROVED',\\r\\n ApprovedBy = @managerId\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- Atomically cancel the pending delayed escalation task. `ASSERT_ROWS_MODIFIED 1` will\\r\\n-- act as a safeguard and cause a statement level error.\\r\\n\\r\\n-- A statement level error can be captured and the transaction can be\\r\\n-- user-aborted/cancelled in case the queue entry was already deleted.\\r\\n-- Otherwise the transaction will complete successfully regardless if the \\r\\n-- queue entry still exists and you'll only know if a queue entry was deleted by\\r\\n-- checking the number of rows affected by the DELETE.\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @escalationTaskId\\r\\n AND TaskType = 'ESCALATE_UNAPPROVED_ORDER',\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a31f810>)])]> 3. Streaming consumption, lease renewal, and atomic acknowledgment Downstream agent workers consume tasks using the RECEIVE_<QueueName> table-valued function (TVF) over a streaming SQL connection ( ExecuteStreamingSql ). Spanner automatically manages message leases, returning a unique SpannerLeaseToken and expiration timestamp with each leased task: code_block <ListValue: [StructValue([('code', \"-- Step 1: Consume tasks via a long-lived streaming SQL query\\r\\nSELECT\\r\\n OrderId,\\r\\n TaskId,\\r\\n TaskType,\\r\\n Payload,\\r\\n SpannerLeaseToken,\\r\\n SpannerLeaseExpirationTimestamp\\r\\nFROM RECEIVE_OrderAgentTasks(max_duration => '20m');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a31d7d0>)])]> Because AI agent tasks often involve multi-turn LLM reasoning or external API calls that take longer than default lease windows, workers can actively extend their lease using the RENEWLEASE_<QueueName> function: code_block <ListValue: [StructValue([('code', '-- Step 2: Extend lease ownership during long-running agent execution\\r\\nSELECT *\\r\\nFROM RENEWLEASE_OrderAgentTasks(lease_tokens => [@leaseToken]);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a31ce10>)])]> When the agent finishes executing its external tool (passing TaskId as the external API's idempotency key), it opens a read-write transaction to record the final state and acknowledge the message by deleting it with ASSERT_ROWS_MODIFIED 1 : code_block <ListValue: [StructValue([('code', \"-- Step 3: Atomically checkpoint agent results and ACK the message\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET RefundTransactionId = @externalRefundId,\\r\\n Status = 'REFUND_COMPLETED'\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @taskId\\r\\n AND TaskType = @taskType\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f303832f750>)])]> Using ASSERT_ROWS_MODIFIED 1 protects your system against lease-expiration races. If a worker stalled due to a network pause and its lease expired, another worker may have already processed and deleted the task. When the stalled worker resumes and attempts to execute the statement, ASSERT_ROWS_MODIFIED 1 detects that the queue row is already gone and throws a statement-level error. Catching that error and aborting that transaction prevents stale workers from overwriting newer database state. Spanner change streams vs. Spanner queues Spanner change streams capture database data changes (inserts, updates, and deletes) in near real-time for downstream integration and auditing. While both change streams and queues allow applications to react to data changes, Spanner change streams are designed for continuous change data capture (CDC) and data streaming to downstream analytics or storage. In contrast, Spanner queues are explicitly designed for transactional task orchestration, supporting native message leases, scheduled deliveries, SQL-based pulling, and atomic acknowledgments within read-write transactions. Get started Spanner provides a unified foundation for agentic data, combining relational, hybrid search, graph, and key-value capabilities under strict global consistency. Spanner queues completes the agentic loop by enabling agents to transition seamlessly from reasoning over data to executing transactional actions within a single unified platform. Spanner queues are now generally available. Sign up for the Spanner 90-day free trial and read up our public documentation to start building resilient, exactly-once agentic workloads by creating a queue table in your Spanner database today.",
     "categories": [
       "Networks",
       "Cybersecurity",
@@ -1479,7 +1436,7 @@
     "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-cpu-startup-boost-faster-pod-starts-lower-costs/",
     "source": "Google Cloud Blog",
     "published": "2026-10-02T16:00:00+00:00",
-    "raw_text": "Whether you’re launching microservices in response to sudden traffic spikes, deploying new software releases, or scaling up application replicas, pod startup time is critical to maintaining a fast, responsive user experience for applications running on Google Kubernetes Engine (GKE). Yet, platform engineers and developers face a persistent dilemma: Applications often demand significantly more CPU power during startup than they do during steady-state operations. Sizing CPU requests for normal, steady-state usage leads to CPU throttling during launch, which can result in sluggish cold starts and readiness probe timeouts. On the flip side, over-provisioning baseline CPU requests to satisfy short-lived startup bursts wastes valuable compute resources, inflating infrastructure bills. Today, we are excited to announce CPU startup boost for GKE in preview. Integrated directly into GKE's Vertical Pod Autoscaler (VPA), CPU startup boost dynamically elevates a container's CPU allocation during initialization and seamlessly scales it back to baseline steady-state levels once the application is ready - all without restarting your containers. Why modern applications need extra CPU at boot time When a new container launches, it may perform intensive initialization tasks before it begins serving user requests. Depending on your tech stack, the following startup workloads require substantial CPU cycles: Java JVM applications : Frameworks like Spring Boot require high CPU burst capacity for class loading, classpath scanning, instantiating dependency injection containers, and running Just-in-Time (JIT) compilation. Node.js servers : Apps parse JavaScript files, build complex module dependency trees ( require / import ), and execute V8 engine optimization and JIT compilation passes during initial execution. Python and AI/ML microservices : These services spend initial cycles importing heavy libraries (such as PyTorch, NumPy, or LangChain), compiling .pyc bytecode, establishing ORM database schemas, and pre-loading cache structures. If you size CPU requests strictly for steady-state performance, these initialization workloads experience CPU throttling on launch, delaying readiness probes. To prevent slow cold starts, teams frequently overprovision CPU requests. However, once the application stabilizes, those extra CPU resources sit idle, increasing your cloud spend without adding value. How CPU startup boost can help CPU Startup Boost solves this by giving your workloads temporary vCPU \"boosts\" during launch, and automatically returning them to baseline once initialization completes. Key benefits: Faster cold starts : Reduce application initialization times by up to 2x , accelerating auto-scaling responsiveness during unexpected traffic surges. Optimized cloud spend : Right-size steady-state CPU requests to fit actual runtime needs rather than paying for idle startup headroom. Zero pod restarts : Dynamic resource resizing happens live inside the running container. Flexible policy controls : Apply simple pod-level multiplier factors (e.g., 2x CPU during startup) or define granular, container-specific rules for complex multi-container pods. Under the hood: Kubernetes In-place Pod Resize Historically, changing a pod's resource requests or limits required deleting and recreating the pod. This disruptive process triggered container restarts, cache invalidation, and node rescheduling overhead. To fix that, CPU startup boost builds on Kubernetes In-place Pod Resize (IPPR) . Tracked under KEP-1287 , IPPR introduced dynamic, in-place resource mutation. Introduced as Alpha in Kubernetes 1.27, promoted to Beta in v1.33, and graduating to General Availability (GA) in v1.35, IPPR allows the Kubernetes control plane and kubelet to update container CPU and memory requests on running pods without restarting the container process . GKE leverages IPPR within the VPA to apply startup CPU boosts at pod admission and smoothly step them down post-readiness. How CPU startup boost works (pod lifecycle overview) CPU startup boost operates across three distinct phases: Admission phase : When you deploy a pod, the VPA admission webhook intercepts the creation request. It calculates the elevated CPU request based on your policy (e.g., 2x multiplier or +2 vCPUs) and injects the boosted CPU request along with tracking annotations into the pod spec. Startup phase : The pod is scheduled and initialized with the boosted CPU allocation. Your application completes class loading, JIT compilation, or module parsing at top speed without experiencing CPU throttling. Unboosting phase : As soon as the pod's readinessProbe passes (plus any configured durationSeconds cooldown delay), the VPA updater issues an in-place resize request. The CPU request steps back down to your baseline level while the container continues running uninterrupted. Prerequisites and availability CPU startup boost is available today in preview on GKE: GKE version : Version 1.36.0-gke.4447000 or later on Standard and Autopilot clusters. Cluster Modes : Enabled natively on GKE Autopilot (VPA is active by default). On GKE Standard, simply ensure Vertical Pod Autoscaling (VPA) is enabled. Workload Support : Works with standard Kubernetes controllers, including Deployments and StatefulSets. Getting started: Configuring CPU startup boost Configuring CPU startup boost is as simple as adding a startupBoost section to your VerticalPodAutoscaler manifest. Example 1: Pod-level boost with fixed steady-state ( updateMode: \"Off\" ) If you want to use VPA purely for startup boost while keeping steady-state CPU requests locked to your manifest definitions, set updateMode to \"Off\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: java-app-startup-boost\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: java-app\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 2\\r\\n durationSeconds: 10'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f156642d0>)])]> In this example, GKE doubles the container's CPU request during launch and holds the boosted allocation for 10 seconds after readiness probes pass before scaling back to baseline. Example 2: Combining startup boost with continuous VPA auto-scaling If you want GKE to boost CPU during launch and continuously optimize steady-state resources post-startup, set updateMode to \"InPlaceOrRecreate\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: nodejs-app-vpa\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: nodejs-service\\r\\n updatePolicy:\\r\\n updateMode: \"InPlaceOrRecreate\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 3\\r\\n durationSeconds: 15'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f15666ed0>)])]> Example 3: Granular container-level boost For pods running sidecars (such as logging agents or service mesh proxies) that do not require extra CPU on boot, target specific app containers: code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: app-container-boost\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: API-gateway\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n resourcePolicy:\\r\\n containerPolicies:\\r\\n - containerName: \"web-app\"\\r\\n mode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Quantity\"\\r\\n quantity: \"2\"\\r\\n durationSeconds: 5'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f156648d0>)])]> Verifying startup boost in your cluster You can verify that GKE applied and downscaled the startup boost using kubectl : 1. Inspect pod annotations : Check for the vpaCpuStartupBoost tracking annotation: code_block <ListValue: [StructValue([('code', 'kubectl get pod <POD_NAME> -o yaml'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f15664290>)])]> Look for annotations indicating the original baseline and boosted CPU requests. 2. Monitor in-place resize events : Confirm that GKE downscaled the CPU request back to baseline after readiness: code_block <ListValue: [StructValue([('code', 'kubectl get events --field-selector reason=InPlaceResizedByVPA'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f15665650>)])]> An event with reason=InPlaceResizedByVPA confirms successful in-place downscaling post-startup. Best practices for production workloads Pairing with Horizontal Pod Autoscaler (HPA) : When using HPA alongside CPU startup boost, ensure a robust readinessProbe is defined and keep durationSeconds short (e.g., 0s – 10s ). This prevents HPA from falsely interpreting initialization CPU spikes as high steady-state load. Handle traffic spikes with GKE capacity buffers API : By reducing the startup tax at scale, you can achieve higher workload density on fewer nodes to improve overall utilization. Consider adopting the GKE capacity buffers API to absorb sudden traffic surges with minimal operational overhead while maintaining strict SLOs. GKE Autopilot resource ratios : On GKE Autopilot, remember that pods must maintain valid CPU-to-memory ratios. Ensure baseline memory allocations accommodate the boosted CPU ratio during startup. Get started today CPU startup boost gives GKE users the best of both worlds: lightning-fast cold starts for CPU-intensive workloads like Java, Node.js, and Python, paired with maximum resource efficiency and lower cloud costs. Ready to accelerate your GKE workloads? Explore the GKE CPU startup boost documentation . Learn more about Vertical Pod Autoscaling on GKE . Try CPU startup boost on your GKE Standard or Autopilot clusters running GKE 1.36.0-gke.4447000 or later!",
+    "raw_text": "Whether you’re launching microservices in response to sudden traffic spikes, deploying new software releases, or scaling up application replicas, pod startup time is critical to maintaining a fast, responsive user experience for applications running on Google Kubernetes Engine (GKE). Yet, platform engineers and developers face a persistent dilemma: Applications often demand significantly more CPU power during startup than they do during steady-state operations. Sizing CPU requests for normal, steady-state usage leads to CPU throttling during launch, which can result in sluggish cold starts and readiness probe timeouts. On the flip side, over-provisioning baseline CPU requests to satisfy short-lived startup bursts wastes valuable compute resources, inflating infrastructure bills. Today, we are excited to announce CPU startup boost for GKE in preview. Integrated directly into GKE's Vertical Pod Autoscaler (VPA), CPU startup boost dynamically elevates a container's CPU allocation during initialization and seamlessly scales it back to baseline steady-state levels once the application is ready - all without restarting your containers. Why modern applications need extra CPU at boot time When a new container launches, it may perform intensive initialization tasks before it begins serving user requests. Depending on your tech stack, the following startup workloads require substantial CPU cycles: Java JVM applications : Frameworks like Spring Boot require high CPU burst capacity for class loading, classpath scanning, instantiating dependency injection containers, and running Just-in-Time (JIT) compilation. Node.js servers : Apps parse JavaScript files, build complex module dependency trees ( require / import ), and execute V8 engine optimization and JIT compilation passes during initial execution. Python and AI/ML microservices : These services spend initial cycles importing heavy libraries (such as PyTorch, NumPy, or LangChain), compiling .pyc bytecode, establishing ORM database schemas, and pre-loading cache structures. If you size CPU requests strictly for steady-state performance, these initialization workloads experience CPU throttling on launch, delaying readiness probes. To prevent slow cold starts, teams frequently overprovision CPU requests. However, once the application stabilizes, those extra CPU resources sit idle, increasing your cloud spend without adding value. How CPU startup boost can help CPU Startup Boost solves this by giving your workloads temporary vCPU \"boosts\" during launch, and automatically returning them to baseline once initialization completes. Key benefits: Faster cold starts : Reduce application initialization times by up to 2x , accelerating auto-scaling responsiveness during unexpected traffic surges. Optimized cloud spend : Right-size steady-state CPU requests to fit actual runtime needs rather than paying for idle startup headroom. Zero pod restarts : Dynamic resource resizing happens live inside the running container. Flexible policy controls : Apply simple pod-level multiplier factors (e.g., 2x CPU during startup) or define granular, container-specific rules for complex multi-container pods. Under the hood: Kubernetes In-place Pod Resize Historically, changing a pod's resource requests or limits required deleting and recreating the pod. This disruptive process triggered container restarts, cache invalidation, and node rescheduling overhead. To fix that, CPU startup boost builds on Kubernetes In-place Pod Resize (IPPR) . Tracked under KEP-1287 , IPPR introduced dynamic, in-place resource mutation. Introduced as Alpha in Kubernetes 1.27, promoted to Beta in v1.33, and graduating to General Availability (GA) in v1.35, IPPR allows the Kubernetes control plane and kubelet to update container CPU and memory requests on running pods without restarting the container process . GKE leverages IPPR within the VPA to apply startup CPU boosts at pod admission and smoothly step them down post-readiness. How CPU startup boost works (pod lifecycle overview) CPU startup boost operates across three distinct phases: Admission phase : When you deploy a pod, the VPA admission webhook intercepts the creation request. It calculates the elevated CPU request based on your policy (e.g., 2x multiplier or +2 vCPUs) and injects the boosted CPU request along with tracking annotations into the pod spec. Startup phase : The pod is scheduled and initialized with the boosted CPU allocation. Your application completes class loading, JIT compilation, or module parsing at top speed without experiencing CPU throttling. Unboosting phase : As soon as the pod's readinessProbe passes (plus any configured durationSeconds cooldown delay), the VPA updater issues an in-place resize request. The CPU request steps back down to your baseline level while the container continues running uninterrupted. Prerequisites and availability CPU startup boost is available today in preview on GKE: GKE version : Version 1.36.0-gke.4447000 or later on Standard and Autopilot clusters. Cluster Modes : Enabled natively on GKE Autopilot (VPA is active by default). On GKE Standard, simply ensure Vertical Pod Autoscaling (VPA) is enabled. Workload Support : Works with standard Kubernetes controllers, including Deployments and StatefulSets. Getting started: Configuring CPU startup boost Configuring CPU startup boost is as simple as adding a startupBoost section to your VerticalPodAutoscaler manifest. Example 1: Pod-level boost with fixed steady-state ( updateMode: \"Off\" ) If you want to use VPA purely for startup boost while keeping steady-state CPU requests locked to your manifest definitions, set updateMode to \"Off\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: java-app-startup-boost\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: java-app\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 2\\r\\n durationSeconds: 10'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f303a279c10>)])]> In this example, GKE doubles the container's CPU request during launch and holds the boosted allocation for 10 seconds after readiness probes pass before scaling back to baseline. Example 2: Combining startup boost with continuous VPA auto-scaling If you want GKE to boost CPU during launch and continuously optimize steady-state resources post-startup, set updateMode to \"InPlaceOrRecreate\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: nodejs-app-vpa\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: nodejs-service\\r\\n updatePolicy:\\r\\n updateMode: \"InPlaceOrRecreate\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 3\\r\\n durationSeconds: 15'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f303a27ac90>)])]> Example 3: Granular container-level boost For pods running sidecars (such as logging agents or service mesh proxies) that do not require extra CPU on boot, target specific app containers: code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: app-container-boost\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: API-gateway\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n resourcePolicy:\\r\\n containerPolicies:\\r\\n - containerName: \"web-app\"\\r\\n mode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Quantity\"\\r\\n quantity: \"2\"\\r\\n durationSeconds: 5'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a924790>)])]> Verifying startup boost in your cluster You can verify that GKE applied and downscaled the startup boost using kubectl : 1. Inspect pod annotations : Check for the vpaCpuStartupBoost tracking annotation: code_block <ListValue: [StructValue([('code', 'kubectl get pod <POD_NAME> -o yaml'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a924d50>)])]> Look for annotations indicating the original baseline and boosted CPU requests. 2. Monitor in-place resize events : Confirm that GKE downscaled the CPU request back to baseline after readiness: code_block <ListValue: [StructValue([('code', 'kubectl get events --field-selector reason=InPlaceResizedByVPA'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302a927a90>)])]> An event with reason=InPlaceResizedByVPA confirms successful in-place downscaling post-startup. Best practices for production workloads Pairing with Horizontal Pod Autoscaler (HPA) : When using HPA alongside CPU startup boost, ensure a robust readinessProbe is defined and keep durationSeconds short (e.g., 0s – 10s ). This prevents HPA from falsely interpreting initialization CPU spikes as high steady-state load. Handle traffic spikes with GKE capacity buffers API : By reducing the startup tax at scale, you can achieve higher workload density on fewer nodes to improve overall utilization. Consider adopting the GKE capacity buffers API to absorb sudden traffic surges with minimal operational overhead while maintaining strict SLOs. GKE Autopilot resource ratios : On GKE Autopilot, remember that pods must maintain valid CPU-to-memory ratios. Ensure baseline memory allocations accommodate the boosted CPU ratio during startup. Get started today CPU startup boost gives GKE users the best of both worlds: lightning-fast cold starts for CPU-intensive workloads like Java, Node.js, and Python, paired with maximum resource efficiency and lower cloud costs. Ready to accelerate your GKE workloads? Explore the GKE CPU startup boost documentation . Learn more about Vertical Pod Autoscaling on GKE . Try CPU startup boost on your GKE Standard or Autopilot clusters running GKE 1.36.0-gke.4447000 or later!",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1517,7 +1474,7 @@
     "url": "https://cloud.google.com/blog/products/databases/implementing-long-term-ai-agent-memory-in-alloydb-and-memorystore/",
     "source": "Google Cloud Blog",
     "published": "2026-10-02T07:00:00+00:00",
-    "raw_text": "Enterprise AI agents need persistent memory to execute complex, multi-day workflows and long-horizon tasks. In this blog, we examine how a 2-tier memory architecture using Memorystore for Valkey for short-term buffer memory and AlloyDB AI for long-term persistent memory can help reduce token spend by up to 70%, while maintaining critical data and enterprise guardrails. Imagine building a personalized travel agent designed to help users book vacations. The user interacts with the agent many times over the course of several days, asking questions that range from brainstorming itineraries to actual purchase intent. To provide a truly seamless experience, this agent must remember flight preferences (e.g. “I only want non-stop flights”), hotel budgets, and dietary restrictions (e.g. “I need Gluten Free dining options”) established in previous sessions. More importantly, it has to hold onto these core facts even when the conversation gets deep into the weeds of sightseeing recommendations and itinerary planning. The agent must ensure that all the follow-up questions and exciting details about places to visit doesn’t cause it to forget or overwrite the user's fundamental requirements and decisions. Stateful workflows inherently conflict with LLM’s stateless nature AI agents are being used for multi-turn conversations and long-running workflows, but large language models (LLMs) remain stateless across sessions. When a user returns to an agent days later, the model starts with an empty context window. Unless your application is built to reconstruct past context using long-term agent memory, your users have to explain their goals and context all over again, resulting in a frustrating and fragmented experience. With million-token context windows now the norm, a common shortcut to this problem is \"context stuffing\" - dumping everything you can fit into the prompt at every turn, from raw chat histories to tool execution logs. In fact, this was a common pattern in the early days of AI model usage. But this shortcut quickly creates issues at scale: token costs multiply with every message, response times can drag out past 30+ seconds for otherwise simple prompts, and the model starts suffering from \" lost in the middle \" degradation, overlooking critical instructions buried in mountains of prompt text. Another common workaround is to use rolling summaries; asking an LLM to periodically compress older messages into a summary paragraph. While this trims prompt size, LLM-based summarization is inherently lossy. After a few rounds of compression, subtle but important details get filtered out as background noise. A few turns later, your agent quietly breaks the exact constraints you set earlier. Clearly, you need a more scalable approach for keeping a memory from previous conversations or multi-turn tasks, but without degrading the experience or creating new bottlenecks. Implementing a 2-tier memory architecture To build reliable, cost-effective enterprise agents that respect your guardrails and constraints, we recommend a 2-tier memory architecture : Short-term session buffer : Caches active conversation turns in memory using a token-bounded sliding window, allowing the context window size to remain stable across multiple rounds, even across devices, while keeping the latest messages fresh. This tier requires sub-millisecond, high-throughput lookups on every turn, making Memorystore for Valkey well suited for maintaining active session state. Long-term persistent memory : Stores important facts, user preferences, and episodic facts across sessions. This tier requires transactional integrity, data governance, and hybrid retrieval across relational data and vectors - capabilities provided natively by AlloyDB AI . While it’s possible to store both long-term memory and active session buffers directly in a relational database, a two-tier architecture with an in-memory cache provides better performance and scalability. Active session buffers are highly ephemeral and require sub-millisecond, high-throughput updates on every single conversation turn. Handling these rapid-fire writes in an in-memory key-value cache prevents write amplification and table bloat in your relational database, which would otherwise require frequent row deletions and intensive vacuuming. This is analogous to adding a caching tier in front of your database to offload high-frequency lookups for hot rows. The division of labor keeps your primary database lean and responsive, allowing it to focus its resources on what it is designed for: transactional consistency, complex hybrid vector search, and long-term analytical query execution. By pairing short-term caching in Memorystore for Valkey with native AlloyDB AI capabilities, you can run entity extraction, memory compaction, cross-session memory, and hybrid retrieval directly inside the database tier, keeping active prompts lean, fast, and cost-efficient. aside_block <ListValue: [StructValue([('title', 'Get started with a 30-day AlloyDB free trial instance'), ('body', <wagtail.rich_text.RichText object at 0x7f6f15667910>), ('btn_text', ''), ('href', ''), ('image', None)])]> Understanding the four memory types To organize long-term agent state effectively, we further divide agent memory into four complementary types across the short-term and long-term storage tiers we described above: Memory type What it stores Storage layer Lifespan Buffer (Short-term) Recent raw conversation turns Memorystore for Valkey Active session Summary memory Compressed history of older turns, commonly referred to as “compaction” Memorystore for Valkey Multi-turn window Episodic memory Past actions, events, and tool outputs AlloyDB for PostgreSQL (Hybrid retrieval with structured SQL + full-text search + vector) Permanent Entity & rule memory User preferences, constraints, and vetoes AlloyDB for PostgreSQL (Hybrid retrieval with structured SQL + full-text search + vector) Permanent By isolating short-term conversation context from structured long-term rules, your agent retrieves relevant context on demand without filling token windows with raw interaction logs. The tiered memory architectural blueprint The diagram below outlines the read and write paths connecting the application orchestration layer, the Memorystore for Valkey short-term buffer, and the AlloyDB AI long-term repository: The system operates across two coordinated execution paths: The read path : When a user asks a question, the application fetches the active sliding window from Memorystore for Valkey , runs in-database query normalization using ai.generate , and queries AlloyDB using ai.hybrid_search to retrieve scoped entity rules and relevant episodic facts. The write path : After generating the response, the turn is immediately cached in Memorystore for Valkey . An asynchronous background queue worker extracts structured entities from the exchange and writes them directly into AlloyDB , where transactional auto-embeddings immediately compute and store vector representations in the database. Business impact and ROI In our benchmark testing across multi-turn development dialogues (45+ turns with heavy tool executions), separating short-term caching from long-term persistence delivered measurable cost and performance improvements compared to naive context stuffing: Metric / dimension Naive context stuffing Tiered memory (AlloyDB + Valkey) Net business impact Active prompt size (turn 45) 747,033 tokens 83,262 tokens 88.9% smaller prompt Turn 45 response latency 33.5 seconds 6.7 seconds 80.0% faster response Per-turn response wait time 33.5 seconds 4.2s – 6.7s 36% to 80% reduction Cumulative session tokens 17.9M tokens 4.09M tokens 72.0% token & cost savings Rule & constraint recall Degrades over turns Does not degrade ACID-preserved recall Note: The metrics above reflect internal benchmark results from a simulated developer workload that mimics a real-world enterprise AI pair-programming assistant interacting with a developer over multiple sessions, projects, and context switches. Actual savings and latencies vary based on prompt structure, query frequency, and data volume. These results demonstrate how tiered memory changes agent unit economics: instead of an escalating cost curve on every additional turn, prompt sizes remain bounded, reducing ongoing LLM API expenses while keeping response times fast. Core AlloyDB AI technical advantages AlloyDB AI reduces the operational overhead of implementing persistent agent memory by embedding core AI functions directly into the database engine: Transactional in-database auto-embeddings ( ai.initialize_embeddings ) : AlloyDB automatically generates vector embeddings for text columns using a native integration with Agent Platform (formerly Vertex AI), generating up to 3,000 embeddings per second. Using incremental_refresh_mode => 'transactional' , AlloyDB keeps embeddings up to date as source data changes within the same transaction, removing the need for custom embedding pipelines, external schedulers, or complex retry logic. In-database generative AI functions ( ai.generate ) : AlloyDB allows you to execute foundation models, such as Gemini, directly from SQL queries. You can use this for in-database query decomposition - breaking compound user questions into single-aspect sub-queries and resolving relative time phrases (like \"last session\") into explicit identifiers - without making separate roundtrips from your application. Native hybrid search with built-in Reciprocal Rank Fusion ( ai.hybrid_search ) : AlloyDB provides a built-in SQL function that executes Reciprocal Rank Fusion (RRF) directly inside the engine. It combines vector cosine similarity ( <=> over HNSW or ScaNN indexes) with PostgreSQL full-text search (using BM25, RUM, or GIN) in a single database call, blending semantic matching with exact keyword retrieval while supporting metadata filter pushdown ( filter_condition ) for improved performance and deterministic scope isolation. Direct Agent Platform integration with IAM credentials : AlloyDB connects directly to Agent Platform foundation models over Google Cloud's private network using Google Cloud IAM service account roles and database authentication, avoiding the need to store, rotate, or pass API keys in application code. Unified operational, vector, and governance engine : AlloyDB consolidates relational business data, vector embeddings, full-text indexes, and enterprise permissions in a single ACID-compliant PostgreSQL database, avoiding data drift and integration complexity across separate operational and vector databases. Key implementation patterns Below are the core database patterns used to configure the 2-tier memory architecture. For complete, runnable Python and SQL scripts, refer to the companion AlloyDB Agent Memory Codelab . 1. Setting up schema and auto-embeddings In AlloyDB , install the necessary extensions and define the agent_entities table with structured metadata, a generated tsvector column for full-text search, and a vector embedding column. code_block <ListValue: [StructValue([('code', \"-- 1. Enable AI extensions\\r\\nCREATE EXTENSION IF NOT EXISTS google_ml_integration CASCADE;\\r\\nCREATE EXTENSION IF NOT EXISTS vector CASCADE;\\r\\nCREATE EXTENSION IF NOT EXISTS rum CASCADE;\\r\\n\\r\\n-- 2. Create structured entity & preference table\\r\\nCREATE TABLE IF NOT EXISTS agent_entities (\\r\\n entity_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\\r\\n user_id TEXT NOT NULL,\\r\\n entity_name TEXT NOT NULL,\\r\\n project_id TEXT DEFAULT 'global',\\r\\n session_id TEXT,\\r\\n scope TEXT NOT NULL DEFAULT 'session',\\r\\n summary TEXT NOT NULL,\\r\\n summary_embedding VECTOR(768),\\r\\n summary_tsv TSVECTOR GENERATED ALWAYS AS (\\r\\n to_tsvector('english', entity_name || ' ' || summary)\\r\\n ) STORED,\\r\\n updated_at TIMESTAMPTZ DEFAULT NOW(),\\r\\n UNIQUE (user_id, entity_name)\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f15666a10>)])]> Then, generate embeddings using ai.initialize_embeddings . Using transactional mode ensures the embeddings are kept up to date as source data changes. code_block <ListValue: [StructValue([('code', \"-- Register transactional in-database auto-embedding\\r\\nCALL ai.initialize_embeddings(\\r\\n model_id => 'text-embedding-005',\\r\\n table_name => 'agent_entities',\\r\\n content_column => 'summary',\\r\\n embedding_column => 'summary_embedding',\\r\\n incremental_refresh_mode => 'transactional',\\r\\n batch_size => 10\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f15664cd0>)])]> Finally, create the HNSW vector index and the RUM full-text search index to ensure your hybrid searches are fast and efficient. code_block <ListValue: [StructValue([('code', '-- Create vector and full-text indexes\\r\\nCREATE INDEX IF NOT EXISTS agent_entities_embedding_idx\\r\\n ON agent_entities USING hnsw (summary_embedding vector_cosine_ops);\\r\\n\\r\\nCREATE INDEX IF NOT EXISTS agent_entities_tsv_idx\\r\\n ON agent_entities USING rum (summary_tsv rum_tsvector_ops);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14accd50>)])]> 2. Querying long-term memory with native hybrid search On the read path, retrieve relevant long-term entities using ai.hybrid_search . This native SQL function executes Reciprocal Rank Fusion (RRF) directly in AlloyDB, seamlessly reranking and combining vector similarity search and full-text keyword search results in a single database query: code_block <ListValue: [StructValue([('code', 'def retrieve_hybrid_entities(\\r\\n conn,\\r\\n user_id: str,\\r\\n project_id: str,\\r\\n query_text: str,\\r\\n query_vector_literal: str,\\r\\n limit: int = 3\\r\\n) -> dict[str, Any]:\\r\\n \"\"\"Queries long-term memory using AlloyDB native hybrid_search (RRF).\"\"\"\\r\\n filter_cond = f\"user_id = \\'{user_id}\\' AND (project_id = \\'{project_id}\\' OR scope = \\'global\\')\"\\r\\n \\r\\n search_inputs = [\\r\\n json.dumps({\\r\\n \"data_type\": \"vector\",\\r\\n \"weight\": 0.4,\\r\\n \"table_name\": \"agent_entities\",\\r\\n \"key_column\": \"entity_name\",\\r\\n \"vec_column\": \"summary_embedding\",\\r\\n \"distance_operator\": \"<=>\",\\r\\n \"limit\": 10,\\r\\n \"query_vector\": query_vector_literal,\\r\\n \"filter_condition\": filter_cond\\r\\n }),\\r\\n json.dumps({\\r\\n \"data_type\": \"text\",\\r\\n \"weight\": 0.6,\\r\\n \"table_name\": \"agent_entities\",\\r\\n \"key_column\": \"entity_name\",\\r\\n \"text_column\": \"summary_tsv\",\\r\\n \"limit\": 10,\\r\\n \"ranking_function\": \"ts_rank\",\\r\\n \"query_text_input\": query_text,\\r\\n \"filter_condition\": filter_cond\\r\\n })\\r\\n ]\\r\\n\\r\\n query_sql = \"\"\"\\r\\n SELECT e.entity_name, e.summary, e.project_id, e.scope, e.updated_at\\r\\n FROM ai.hybrid_search(\\r\\n search_inputs => %s::JSONB[],\\r\\n include_json_output => false\\r\\n ) h\\r\\n JOIN agent_entities e ON e.entity_name = h.id\\r\\n WHERE e.user_id = %s\\r\\n LIMIT %s;\\r\\n \"\"\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14acd650>)])]> 3. In-database memory compaction with AI functions To manage long-term storage growth without writing custom pruning scripts, you can run automated extraction and compaction queries directly in AlloyDB to identify the important parts which can benefit from being stored. This pattern uses a SQL common table expression (CTE) with ai.generate to consolidate older episodic entries into a high-density summary: code_block <ListValue: [StructValue([('code', \"-- Consolidate older episodic logs into a permanent summary\\r\\nWITH old_events AS (\\r\\n SELECT document AS content\\r\\n FROM langchain_pg_embedding\\r\\n WHERE cmetadata->>'user_id' = 'user_dev_42'\\r\\n AND created_at < NOW() - INTERVAL '30 days'\\r\\n ORDER BY created_at ASC\\r\\n LIMIT 50\\r\\n),\\r\\nconsolidated AS (\\r\\n SELECT ai.generate(\\r\\n 'Summarize these historical events into a dense memory paragraph:\\\\n' || string_agg(content, E'\\\\n'),\\r\\n model_id => 'gemini-3.5-flash'\\r\\n ) AS summary_text\\r\\n FROM old_events\\r\\n)\\r\\nINSERT INTO agent_entities (user_id, entity_name, summary, updated_at)\\r\\nSELECT 'user_dev_42', 'longterm_session_summary', summary_text, NOW()\\r\\nFROM consolidated\\r\\nWHERE summary_text IS NOT NULL\\r\\nON CONFLICT (user_id, entity_name)\\r\\nDO UPDATE SET summary = EXCLUDED.summary, updated_at = NOW();\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14acf190>)])]> For example, a long interaction regarding the complexities of changing flights with kids can result in a summary of “I prefer non-stop flights”. 4. Connecting the 2-tier memory architecture to an ADK agent With the core 2-tier memory architecture configured, you can now extend the default ADK Memory provider to use this 2-tier memory architecture as shown in the accompanying Codelab (e.g. ADKTieredMemoryProvider ). To attach the long-term memory to an ADK agent, you simply provide it as a tool (e.g. longterm_memory_tool ) like this: code_block <ListValue: [StructValue([('code', 'from adk_memory_provider import ADKTieredMemoryProvider\\r\\n\\r\\nagent = Agent(\\r\\n name=\"adk_memory_agent\", model=GEMINI_MODEL, instruction=\"Initial instruction\",\\r\\n tools=[long_term_memory_tool, run_command_tool],\\r\\n before_tool_callback=guardrail.create_before_tool_callback(USER_ID, \"CloudRetail\")\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14a28f90>)])]> Enterprise governance and multi-tenant security Running agent memory in enterprise production environments requires strict security boundaries and access controls. First of all, we need to maintain scope and multi-tenant isolation. By indexing user_id , project_id , and scope columns in agent_entities and enforcing PostgreSQL Row-Level Security (RLS), you can isolate memory stores across departments, teams, and individual users within the same database cluster. Parameterized Secure Views (PSV) offer another layer of deterministic application-level security, helping you protect against malicious prompts and overly-broad SQL queries. In addition, we need to provide automated memory lifecycle management as shown in the implementation pattern above. Combining scheduled SQL compaction queries with time-based partition pruning helps maintain predictable database footprint and query latencies over time. See the accompanying Codelab for more details on this approach. Summary and next steps Decoupling active context windows from persistent storage is a practical approach to building production-ready AI agents. By pairing Memorystore for Valkey for sub-millisecond session caching with AlloyDB AI for transactional long-term storage, you can achieve substantial token cost savings and faster response times while maintaining strict business rules throughout long-horizon tasks and many-turn agentic experiences. To get started: Step through the complete hands-on tutorial in the companion AlloyDB Agent Memory Codelab to deploy the working 2-tier memory architecture. Learn more about database-side machine learning features in the AlloyDB AI documentation . Explore guides on generating auto vector embeddings and running hybrid vector search .",
+    "raw_text": "Enterprise AI agents need persistent memory to execute complex, multi-day workflows and long-horizon tasks. In this blog, we examine how a 2-tier memory architecture using Memorystore for Valkey for short-term buffer memory and AlloyDB AI for long-term persistent memory can help reduce token spend by up to 70%, while maintaining critical data and enterprise guardrails. Imagine building a personalized travel agent designed to help users book vacations. The user interacts with the agent many times over the course of several days, asking questions that range from brainstorming itineraries to actual purchase intent. To provide a truly seamless experience, this agent must remember flight preferences (e.g. “I only want non-stop flights”), hotel budgets, and dietary restrictions (e.g. “I need Gluten Free dining options”) established in previous sessions. More importantly, it has to hold onto these core facts even when the conversation gets deep into the weeds of sightseeing recommendations and itinerary planning. The agent must ensure that all the follow-up questions and exciting details about places to visit doesn’t cause it to forget or overwrite the user's fundamental requirements and decisions. Stateful workflows inherently conflict with LLM’s stateless nature AI agents are being used for multi-turn conversations and long-running workflows, but large language models (LLMs) remain stateless across sessions. When a user returns to an agent days later, the model starts with an empty context window. Unless your application is built to reconstruct past context using long-term agent memory, your users have to explain their goals and context all over again, resulting in a frustrating and fragmented experience. With million-token context windows now the norm, a common shortcut to this problem is \"context stuffing\" - dumping everything you can fit into the prompt at every turn, from raw chat histories to tool execution logs. In fact, this was a common pattern in the early days of AI model usage. But this shortcut quickly creates issues at scale: token costs multiply with every message, response times can drag out past 30+ seconds for otherwise simple prompts, and the model starts suffering from \" lost in the middle \" degradation, overlooking critical instructions buried in mountains of prompt text. Another common workaround is to use rolling summaries; asking an LLM to periodically compress older messages into a summary paragraph. While this trims prompt size, LLM-based summarization is inherently lossy. After a few rounds of compression, subtle but important details get filtered out as background noise. A few turns later, your agent quietly breaks the exact constraints you set earlier. Clearly, you need a more scalable approach for keeping a memory from previous conversations or multi-turn tasks, but without degrading the experience or creating new bottlenecks. Implementing a 2-tier memory architecture To build reliable, cost-effective enterprise agents that respect your guardrails and constraints, we recommend a 2-tier memory architecture : Short-term session buffer : Caches active conversation turns in memory using a token-bounded sliding window, allowing the context window size to remain stable across multiple rounds, even across devices, while keeping the latest messages fresh. This tier requires sub-millisecond, high-throughput lookups on every turn, making Memorystore for Valkey well suited for maintaining active session state. Long-term persistent memory : Stores important facts, user preferences, and episodic facts across sessions. This tier requires transactional integrity, data governance, and hybrid retrieval across relational data and vectors - capabilities provided natively by AlloyDB AI . While it’s possible to store both long-term memory and active session buffers directly in a relational database, a two-tier architecture with an in-memory cache provides better performance and scalability. Active session buffers are highly ephemeral and require sub-millisecond, high-throughput updates on every single conversation turn. Handling these rapid-fire writes in an in-memory key-value cache prevents write amplification and table bloat in your relational database, which would otherwise require frequent row deletions and intensive vacuuming. This is analogous to adding a caching tier in front of your database to offload high-frequency lookups for hot rows. The division of labor keeps your primary database lean and responsive, allowing it to focus its resources on what it is designed for: transactional consistency, complex hybrid vector search, and long-term analytical query execution. By pairing short-term caching in Memorystore for Valkey with native AlloyDB AI capabilities, you can run entity extraction, memory compaction, cross-session memory, and hybrid retrieval directly inside the database tier, keeping active prompts lean, fast, and cost-efficient. aside_block <ListValue: [StructValue([('title', 'Get started with a 30-day AlloyDB free trial instance'), ('body', <wagtail.rich_text.RichText object at 0x7f3038949cd0>), ('btn_text', ''), ('href', ''), ('image', None)])]> Understanding the four memory types To organize long-term agent state effectively, we further divide agent memory into four complementary types across the short-term and long-term storage tiers we described above: Memory type What it stores Storage layer Lifespan Buffer (Short-term) Recent raw conversation turns Memorystore for Valkey Active session Summary memory Compressed history of older turns, commonly referred to as “compaction” Memorystore for Valkey Multi-turn window Episodic memory Past actions, events, and tool outputs AlloyDB for PostgreSQL (Hybrid retrieval with structured SQL + full-text search + vector) Permanent Entity & rule memory User preferences, constraints, and vetoes AlloyDB for PostgreSQL (Hybrid retrieval with structured SQL + full-text search + vector) Permanent By isolating short-term conversation context from structured long-term rules, your agent retrieves relevant context on demand without filling token windows with raw interaction logs. The tiered memory architectural blueprint The diagram below outlines the read and write paths connecting the application orchestration layer, the Memorystore for Valkey short-term buffer, and the AlloyDB AI long-term repository: The system operates across two coordinated execution paths: The read path : When a user asks a question, the application fetches the active sliding window from Memorystore for Valkey , runs in-database query normalization using ai.generate , and queries AlloyDB using ai.hybrid_search to retrieve scoped entity rules and relevant episodic facts. The write path : After generating the response, the turn is immediately cached in Memorystore for Valkey . An asynchronous background queue worker extracts structured entities from the exchange and writes them directly into AlloyDB , where transactional auto-embeddings immediately compute and store vector representations in the database. Business impact and ROI In our benchmark testing across multi-turn development dialogues (45+ turns with heavy tool executions), separating short-term caching from long-term persistence delivered measurable cost and performance improvements compared to naive context stuffing: Metric / dimension Naive context stuffing Tiered memory (AlloyDB + Valkey) Net business impact Active prompt size (turn 45) 747,033 tokens 83,262 tokens 88.9% smaller prompt Turn 45 response latency 33.5 seconds 6.7 seconds 80.0% faster response Per-turn response wait time 33.5 seconds 4.2s – 6.7s 36% to 80% reduction Cumulative session tokens 17.9M tokens 4.09M tokens 72.0% token & cost savings Rule & constraint recall Degrades over turns Does not degrade ACID-preserved recall Note: The metrics above reflect internal benchmark results from a simulated developer workload that mimics a real-world enterprise AI pair-programming assistant interacting with a developer over multiple sessions, projects, and context switches. Actual savings and latencies vary based on prompt structure, query frequency, and data volume. These results demonstrate how tiered memory changes agent unit economics: instead of an escalating cost curve on every additional turn, prompt sizes remain bounded, reducing ongoing LLM API expenses while keeping response times fast. Core AlloyDB AI technical advantages AlloyDB AI reduces the operational overhead of implementing persistent agent memory by embedding core AI functions directly into the database engine: Transactional in-database auto-embeddings ( ai.initialize_embeddings ) : AlloyDB automatically generates vector embeddings for text columns using a native integration with Agent Platform (formerly Vertex AI), generating up to 3,000 embeddings per second. Using incremental_refresh_mode => 'transactional' , AlloyDB keeps embeddings up to date as source data changes within the same transaction, removing the need for custom embedding pipelines, external schedulers, or complex retry logic. In-database generative AI functions ( ai.generate ) : AlloyDB allows you to execute foundation models, such as Gemini, directly from SQL queries. You can use this for in-database query decomposition - breaking compound user questions into single-aspect sub-queries and resolving relative time phrases (like \"last session\") into explicit identifiers - without making separate roundtrips from your application. Native hybrid search with built-in Reciprocal Rank Fusion ( ai.hybrid_search ) : AlloyDB provides a built-in SQL function that executes Reciprocal Rank Fusion (RRF) directly inside the engine. It combines vector cosine similarity ( <=> over HNSW or ScaNN indexes) with PostgreSQL full-text search (using BM25, RUM, or GIN) in a single database call, blending semantic matching with exact keyword retrieval while supporting metadata filter pushdown ( filter_condition ) for improved performance and deterministic scope isolation. Direct Agent Platform integration with IAM credentials : AlloyDB connects directly to Agent Platform foundation models over Google Cloud's private network using Google Cloud IAM service account roles and database authentication, avoiding the need to store, rotate, or pass API keys in application code. Unified operational, vector, and governance engine : AlloyDB consolidates relational business data, vector embeddings, full-text indexes, and enterprise permissions in a single ACID-compliant PostgreSQL database, avoiding data drift and integration complexity across separate operational and vector databases. Key implementation patterns Below are the core database patterns used to configure the 2-tier memory architecture. For complete, runnable Python and SQL scripts, refer to the companion AlloyDB Agent Memory Codelab . 1. Setting up schema and auto-embeddings In AlloyDB , install the necessary extensions and define the agent_entities table with structured metadata, a generated tsvector column for full-text search, and a vector embedding column. code_block <ListValue: [StructValue([('code', \"-- 1. Enable AI extensions\\r\\nCREATE EXTENSION IF NOT EXISTS google_ml_integration CASCADE;\\r\\nCREATE EXTENSION IF NOT EXISTS vector CASCADE;\\r\\nCREATE EXTENSION IF NOT EXISTS rum CASCADE;\\r\\n\\r\\n-- 2. Create structured entity & preference table\\r\\nCREATE TABLE IF NOT EXISTS agent_entities (\\r\\n entity_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\\r\\n user_id TEXT NOT NULL,\\r\\n entity_name TEXT NOT NULL,\\r\\n project_id TEXT DEFAULT 'global',\\r\\n session_id TEXT,\\r\\n scope TEXT NOT NULL DEFAULT 'session',\\r\\n summary TEXT NOT NULL,\\r\\n summary_embedding VECTOR(768),\\r\\n summary_tsv TSVECTOR GENERATED ALWAYS AS (\\r\\n to_tsvector('english', entity_name || ' ' || summary)\\r\\n ) STORED,\\r\\n updated_at TIMESTAMPTZ DEFAULT NOW(),\\r\\n UNIQUE (user_id, entity_name)\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f30389c9650>)])]> Then, generate embeddings using ai.initialize_embeddings . Using transactional mode ensures the embeddings are kept up to date as source data changes. code_block <ListValue: [StructValue([('code', \"-- Register transactional in-database auto-embedding\\r\\nCALL ai.initialize_embeddings(\\r\\n model_id => 'text-embedding-005',\\r\\n table_name => 'agent_entities',\\r\\n content_column => 'summary',\\r\\n embedding_column => 'summary_embedding',\\r\\n incremental_refresh_mode => 'transactional',\\r\\n batch_size => 10\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f30389cb190>)])]> Finally, create the HNSW vector index and the RUM full-text search index to ensure your hybrid searches are fast and efficient. code_block <ListValue: [StructValue([('code', '-- Create vector and full-text indexes\\r\\nCREATE INDEX IF NOT EXISTS agent_entities_embedding_idx\\r\\n ON agent_entities USING hnsw (summary_embedding vector_cosine_ops);\\r\\n\\r\\nCREATE INDEX IF NOT EXISTS agent_entities_tsv_idx\\r\\n ON agent_entities USING rum (summary_tsv rum_tsvector_ops);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f30389ca0d0>)])]> 2. Querying long-term memory with native hybrid search On the read path, retrieve relevant long-term entities using ai.hybrid_search . This native SQL function executes Reciprocal Rank Fusion (RRF) directly in AlloyDB, seamlessly reranking and combining vector similarity search and full-text keyword search results in a single database query: code_block <ListValue: [StructValue([('code', 'def retrieve_hybrid_entities(\\r\\n conn,\\r\\n user_id: str,\\r\\n project_id: str,\\r\\n query_text: str,\\r\\n query_vector_literal: str,\\r\\n limit: int = 3\\r\\n) -> dict[str, Any]:\\r\\n \"\"\"Queries long-term memory using AlloyDB native hybrid_search (RRF).\"\"\"\\r\\n filter_cond = f\"user_id = \\'{user_id}\\' AND (project_id = \\'{project_id}\\' OR scope = \\'global\\')\"\\r\\n \\r\\n search_inputs = [\\r\\n json.dumps({\\r\\n \"data_type\": \"vector\",\\r\\n \"weight\": 0.4,\\r\\n \"table_name\": \"agent_entities\",\\r\\n \"key_column\": \"entity_name\",\\r\\n \"vec_column\": \"summary_embedding\",\\r\\n \"distance_operator\": \"<=>\",\\r\\n \"limit\": 10,\\r\\n \"query_vector\": query_vector_literal,\\r\\n \"filter_condition\": filter_cond\\r\\n }),\\r\\n json.dumps({\\r\\n \"data_type\": \"text\",\\r\\n \"weight\": 0.6,\\r\\n \"table_name\": \"agent_entities\",\\r\\n \"key_column\": \"entity_name\",\\r\\n \"text_column\": \"summary_tsv\",\\r\\n \"limit\": 10,\\r\\n \"ranking_function\": \"ts_rank\",\\r\\n \"query_text_input\": query_text,\\r\\n \"filter_condition\": filter_cond\\r\\n })\\r\\n ]\\r\\n\\r\\n query_sql = \"\"\"\\r\\n SELECT e.entity_name, e.summary, e.project_id, e.scope, e.updated_at\\r\\n FROM ai.hybrid_search(\\r\\n search_inputs => %s::JSONB[],\\r\\n include_json_output => false\\r\\n ) h\\r\\n JOIN agent_entities e ON e.entity_name = h.id\\r\\n WHERE e.user_id = %s\\r\\n LIMIT %s;\\r\\n \"\"\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f30389c9950>)])]> 3. In-database memory compaction with AI functions To manage long-term storage growth without writing custom pruning scripts, you can run automated extraction and compaction queries directly in AlloyDB to identify the important parts which can benefit from being stored. This pattern uses a SQL common table expression (CTE) with ai.generate to consolidate older episodic entries into a high-density summary: code_block <ListValue: [StructValue([('code', \"-- Consolidate older episodic logs into a permanent summary\\r\\nWITH old_events AS (\\r\\n SELECT document AS content\\r\\n FROM langchain_pg_embedding\\r\\n WHERE cmetadata->>'user_id' = 'user_dev_42'\\r\\n AND created_at < NOW() - INTERVAL '30 days'\\r\\n ORDER BY created_at ASC\\r\\n LIMIT 50\\r\\n),\\r\\nconsolidated AS (\\r\\n SELECT ai.generate(\\r\\n 'Summarize these historical events into a dense memory paragraph:\\\\n' || string_agg(content, E'\\\\n'),\\r\\n model_id => 'gemini-3.5-flash'\\r\\n ) AS summary_text\\r\\n FROM old_events\\r\\n)\\r\\nINSERT INTO agent_entities (user_id, entity_name, summary, updated_at)\\r\\nSELECT 'user_dev_42', 'longterm_session_summary', summary_text, NOW()\\r\\nFROM consolidated\\r\\nWHERE summary_text IS NOT NULL\\r\\nON CONFLICT (user_id, entity_name)\\r\\nDO UPDATE SET summary = EXCLUDED.summary, updated_at = NOW();\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f30389cb090>)])]> For example, a long interaction regarding the complexities of changing flights with kids can result in a summary of “I prefer non-stop flights”. 4. Connecting the 2-tier memory architecture to an ADK agent With the core 2-tier memory architecture configured, you can now extend the default ADK Memory provider to use this 2-tier memory architecture as shown in the accompanying Codelab (e.g. ADKTieredMemoryProvider ). To attach the long-term memory to an ADK agent, you simply provide it as a tool (e.g. longterm_memory_tool ) like this: code_block <ListValue: [StructValue([('code', 'from adk_memory_provider import ADKTieredMemoryProvider\\r\\n\\r\\nagent = Agent(\\r\\n name=\"adk_memory_agent\", model=GEMINI_MODEL, instruction=\"Initial instruction\",\\r\\n tools=[long_term_memory_tool, run_command_tool],\\r\\n before_tool_callback=guardrail.create_before_tool_callback(USER_ID, \"CloudRetail\")\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f30389ca710>)])]> Enterprise governance and multi-tenant security Running agent memory in enterprise production environments requires strict security boundaries and access controls. First of all, we need to maintain scope and multi-tenant isolation. By indexing user_id , project_id , and scope columns in agent_entities and enforcing PostgreSQL Row-Level Security (RLS), you can isolate memory stores across departments, teams, and individual users within the same database cluster. Parameterized Secure Views (PSV) offer another layer of deterministic application-level security, helping you protect against malicious prompts and overly-broad SQL queries. In addition, we need to provide automated memory lifecycle management as shown in the implementation pattern above. Combining scheduled SQL compaction queries with time-based partition pruning helps maintain predictable database footprint and query latencies over time. See the accompanying Codelab for more details on this approach. Summary and next steps Decoupling active context windows from persistent storage is a practical approach to building production-ready AI agents. By pairing Memorystore for Valkey for sub-millisecond session caching with AlloyDB AI for transactional long-term storage, you can achieve substantial token cost savings and faster response times while maintaining strict business rules throughout long-horizon tasks and many-turn agentic experiences. To get started: Step through the complete hands-on tutorial in the companion AlloyDB Agent Memory Codelab to deploy the working 2-tier memory architecture. Learn more about database-side machine learning features in the AlloyDB AI documentation . Explore guides on generating auto vector embeddings and running hybrid vector search .",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -1620,7 +1577,7 @@
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/democratizing-managed-lustre-with-lower-cost-and-frictionless-development/",
     "source": "Google Cloud Blog",
     "published": "2026-10-01T13:00:00+00:00",
-    "raw_text": "This is the first of a two-part series exploring how Google Cloud is bringing the foundational values of a high-performance parallel filesystem–TB/s throughput, sub-ms latency at high client scale, and POSIX support–to a broader set of use cases and users. Historically, due to the cost and special purpose nature of parallel filesystems, colder data had to be stored outside of the filesystem and AI developers have had to maintain separate, slower environments for writing code, compiling libraries, and managing repositories. This fragmentation increases the toil of manual data staging, dataset copying, and managing disjointed namespaces. Google Cloud Managed Lustre is solving these problems through our 6 cents/GB*month Dynamic Tier and by optimizing Managed Lustre performance for a range of development tasks and workloads – making Managed Lustre a “One-Stop Shop” for high-performance AI and HPC workloads. Lower Cost: More Lustre for Less with the Dynamic Tier The Managed Lustre Dynamic Tier provides sub-ms latency for hot data, which allows you to store all of your data in a single namespace, and costs only 6 cents/GB*month . Throughput, capacity scale and client scale: Throughput scales linearly with capacity up to 80 PB, while sub-ms latency for hot data remains stable as you scale to tens of thousands of clients. Single-flat fee: Predictable pricing. No independent charges for disk media types, data movement within the namespace, or metadata IOPS. Read Latencies: Sub-ms latencies for High-Performance Cache (SSD). The Capacity Pool (“HDD”) is built on Google Cloud Hyperdisk throughput, which has an average read latency of 10 to 30 ms . Recommended workloads for Dynamic Tier Multi-Epoch Training and/or Training with Optimized Fetch Sizes: Hot data is promoted to the High Performance Cache (SSD) after the first run. Larger data prefetch will allow you to take advantage of the Dynamic Tier cost structure and gain from low-latency SSD. Write-Heavy Checkpointing: Bursty checkpoint writes land directly in the High Performance Cache. Older checkpoints are transparently demoted to the Capacity Pool (HDD). Rapid Checkpoint Restore: New checkpoints are written to the High Performance Cache, enabling low-latency checkpoint restores. Interactive Snappiness for Developers: Low-latency tasks like git cloning, compiling libraries, or running notebooks benefit from a local-disk feel (~300µs average read latencies) on the same shared workspace hosting large training sets. Frictionless development: Lustre as a one-stop shop for developer’s workloads In addition to Managed Lustre’s scalability for large AI and HPC workloads (checkpoint/restart/data-loading), it also meets the demands for interactive work, meaning developers can start on Managed Lustre and stay on Managed Lustre throughout the entire workload lifecycle: Unified Foundation & Interactive Performance Consolidates the AI and HPC lifecycle into a single namespace, providing a \"local disk\" feel for interactive work (Read more about the latency benefits of Managed Lustre experienced by Salesforce and others ). Latency: ~300µs average read latency—delivering up to 4x better responsiveness than alternative distributed file systems. Accelerated Setup: Untar the Linux kernel in ~2 minutes (4.7x faster than alternative file solutions), run a 20-worker parallel git clone of Python in ~40 seconds, compile Python in ~200s. High-Concurrency Broadcast & Cluster Startup Managed Lustre maximizes GPU ROI by preventing storage bottlenecks during cluster initialization. When thousands of worker nodes attempt to read the exact same file simultaneously (such as a shared model checkpoint, base weights, or container layer), traditional distributed file systems can choke on localized hotspotting, leaving high-cost GPU clusters idle for minutes. Improves Aggregate Throughput for a large number of clients reading the same file: Demonstrates a 67% improvement over alternative file solutions. Parallel Loading: Imports libraries like PyTorch across 4,000+ processes in under 60 seconds. Run One-Stop Shop Workflows for Yourself Here is the code for the tests we’ve run, so that you can perform your own testing. Low latency for interactive access We used fio to emulate small, low-concurrency reads and writes: 1 Storage system specs: 500 MBps per TiB tier of Managed Lustre, 108,000 GiB capacity. Zonal Filestore at 102,400 GiB capacity. Average throughput of 36.7 GB/s to 2,048 client VMs reading the same 40 GiB file. code_block <ListValue: [StructValue([('code', '# Read workload\\r\\nfio --ioengine=libaio --filesize=100M --ramp_time=2s \\\\\\r\\n --runtime=2m --time_based --numjobs=1 --direct=1 --verify=0 --randrepeat=0 \\\\\\r\\n --group_reporting --directory=~/LUSTRE_MOUNT \\\\\\r\\n --name=randread --blocksize=4k --iodepth=1 --readwrite=randread \\\\\\r\\n --buffer_compress_percentage=50\\r\\n\\r\\n# Write workload\\r\\nfio --ioengine=libaio --filesize=100M --ramp_time=2s \\\\\\r\\n --runtime=2m --time_based --numjobs=1 --direct=1 --verify=0 --randrepeat=0 \\\\\\r\\n --group_reporting --directory=~/LUSTRE_MOUNT \\\\\\r\\n --name=randwrite --blocksize=4k --iodepth=1 --readwrite=randwrite \\\\\\r\\n --buffer_compress_percentage=50'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f156644d0>)])]> Accelerated setup How to run Linux untar code_block <ListValue: [StructValue([('code', '# Download a kernel tarball\\r\\nwget -P /tmp https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.9.tar.xz\\r\\n\\r\\n# Extract the archive to the Lustre mount\\r\\nmkdir ~/LUSTRE_MOUNT/kernel\\r\\ntar -C ~/LUSTRE_MOUNT/kernel -xf /tmp/linux-5.18.9.tar.xz'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f15665190>)])]> In the above use case, you will want to take care to avoid the metadata performance tax that can come from running as root (Namely, tar issues chown and chmod calls to make extracted files’ owner+permissions match the ones recorded in the archive.). If you still wish to run as root (and have verified that this approach is compatible with your setup), you may specify `--no-same-owner --no-same-permissions` in order to ensure that extracted files maintain root as owner and have root's default file permissions. In other words, it makes extraction as root behave like extraction as non-root (by ignoring the owner+permissions in the archive). How to run Python gitclone code_block <ListValue: [StructValue([('code', 'git config --global checkout.workers 20\\r\\nmkdir ~/LUSTRE_MOUNT/python\\r\\ngit clone https://github.com/python/cpython.git ~/LUSTRE_MOUNT/python'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14dc7350>)])]> How to run Python compile code_block <ListValue: [StructValue([('code', 'pushd ~/LUSTRE_MOUNT/python\\r\\n./configure > /dev/null\\r\\nmake > /dev/null\\r\\npopd'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f15b2b450>)])]> High scale distribution Aggregate throughput for distributing one large file to many nodes Run the below on each client VM: code_block <ListValue: [StructValue([('code', '# Start fio in server mode\\r\\nfio --server'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f14a29210>)])]> Run the below on a selected client VM: code_block <ListValue: [StructValue([('code', \"# Create a 40 GiB file\\r\\nfio --name=job1 \\\\\\r\\n --ioengine=libaio \\\\\\r\\n --direct=1 \\\\\\r\\n --buffer_compress_percentage=50 \\\\\\r\\n --blocksize=4m \\\\\\r\\n --iodepth=32 \\\\\\r\\n --filesize=40g \\\\\\r\\n --readwrite=write \\\\\\r\\n --filename ~/LUSTRE_MOUNT/40gb_test\\r\\n\\r\\n# Create an fio job file for the read workload\\r\\ncat <<'EOF' > /tmp/read.fio\\r\\n[job1]\\r\\nfilename=${HOME}/LUSTRE_MOUNT/40gb_test\\r\\nrw=read\\r\\nbs=4m\\r\\nexitall_on_error=1\\r\\nEOF\\r\\n\\r\\n# Run the read workload using all client VMs in ~/hostfile\\r\\nfio --client ~/hostfile /tmp/read.fio\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f150f5b10>)])]> Parallel loading of libraries across many processes Run the below on a selected client VM: code_block <ListValue: [StructValue([('code', '# Install PyTorch in a virtual env\\r\\npython3 -m venv ~/LUSTRE_MOUNT/env\\r\\nsource ~/LUSTRE_MOUNT/env/bin/activate\\r\\npip3 install --upgrade pip\\r\\npip3 install torch torchvision torchaudio \\r\\ndeactivate\\r\\n\\r\\n# Import PyTorch on all client VMs in ~/hostfile, 4 processes per host\\r\\nmpirun --allow-run-as-root --oversubscribe --hostfile ~/hostfile -N 4 \\\\\\r\\n bash -c \\'source ~/LUSTRE_MOUNT/env/bin/activate && python3 -c \"import torch\"\\''), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6f150f6c90>)])]> Looking ahead and next steps By eliminating the manual data staging tax and lowering entry costs with the Dynamic Tier, Google Cloud Managed Lustre is evolving from an elite, single-purpose engine into a highly versatile, unified storage fabric for the entire AI lifecycle. In the second part of this series, we will focus on upcoming object integration features . Stay tuned! Next steps Run the benchmarks yourself (if you haven’t already): Deploy a Google Cloud Managed Lustre instance using the Google Cloud console and run tests provided above to benchmark your own workloads. Explore the Dynamic Tier: Read the Google Cloud Managed Lustre Documentation to learn more. Stay tuned for Part 2: In the next installment of this series, we will dive deep into upcoming object integration features and how they further simplify AI and HPC storage. Get started with centralizing your development-to-training lifecycle on Google Cloud Managed Lustre!",
+    "raw_text": "This is the first of a two-part series exploring how Google Cloud is bringing the foundational values of a high-performance parallel filesystem–TB/s throughput, sub-ms latency at high client scale, and POSIX support–to a broader set of use cases and users. Historically, due to the cost and special purpose nature of parallel filesystems, colder data had to be stored outside of the filesystem and AI developers have had to maintain separate, slower environments for writing code, compiling libraries, and managing repositories. This fragmentation increases the toil of manual data staging, dataset copying, and managing disjointed namespaces. Google Cloud Managed Lustre is solving these problems through our 6 cents/GB*month Dynamic Tier and by optimizing Managed Lustre performance for a range of development tasks and workloads – making Managed Lustre a “One-Stop Shop” for high-performance AI and HPC workloads. Lower Cost: More Lustre for Less with the Dynamic Tier The Managed Lustre Dynamic Tier provides sub-ms latency for hot data, which allows you to store all of your data in a single namespace, and costs only 6 cents/GB*month . Throughput, capacity scale and client scale: Throughput scales linearly with capacity up to 80 PB, while sub-ms latency for hot data remains stable as you scale to tens of thousands of clients. Single-flat fee: Predictable pricing. No independent charges for disk media types, data movement within the namespace, or metadata IOPS. Read Latencies: Sub-ms latencies for High-Performance Cache (SSD). The Capacity Pool (“HDD”) is built on Google Cloud Hyperdisk throughput, which has an average read latency of 10 to 30 ms . Recommended workloads for Dynamic Tier Multi-Epoch Training and/or Training with Optimized Fetch Sizes: Hot data is promoted to the High Performance Cache (SSD) after the first run. Larger data prefetch will allow you to take advantage of the Dynamic Tier cost structure and gain from low-latency SSD. Write-Heavy Checkpointing: Bursty checkpoint writes land directly in the High Performance Cache. Older checkpoints are transparently demoted to the Capacity Pool (HDD). Rapid Checkpoint Restore: New checkpoints are written to the High Performance Cache, enabling low-latency checkpoint restores. Interactive Snappiness for Developers: Low-latency tasks like git cloning, compiling libraries, or running notebooks benefit from a local-disk feel (~300µs average read latencies) on the same shared workspace hosting large training sets. Frictionless development: Lustre as a one-stop shop for developer’s workloads In addition to Managed Lustre’s scalability for large AI and HPC workloads (checkpoint/restart/data-loading), it also meets the demands for interactive work, meaning developers can start on Managed Lustre and stay on Managed Lustre throughout the entire workload lifecycle: Unified Foundation & Interactive Performance Consolidates the AI and HPC lifecycle into a single namespace, providing a \"local disk\" feel for interactive work (Read more about the latency benefits of Managed Lustre experienced by Salesforce and others ). Latency: ~300µs average read latency—delivering up to 4x better responsiveness than alternative distributed file systems. Accelerated Setup: Untar the Linux kernel in ~2 minutes (4.7x faster than alternative file solutions), run a 20-worker parallel git clone of Python in ~40 seconds, compile Python in ~200s. High-Concurrency Broadcast & Cluster Startup Managed Lustre maximizes GPU ROI by preventing storage bottlenecks during cluster initialization. When thousands of worker nodes attempt to read the exact same file simultaneously (such as a shared model checkpoint, base weights, or container layer), traditional distributed file systems can choke on localized hotspotting, leaving high-cost GPU clusters idle for minutes. Improves Aggregate Throughput for a large number of clients reading the same file: Demonstrates a 67% improvement over alternative file solutions. Parallel Loading: Imports libraries like PyTorch across 4,000+ processes in under 60 seconds. Run One-Stop Shop Workflows for Yourself Here is the code for the tests we’ve run, so that you can perform your own testing. Low latency for interactive access We used fio to emulate small, low-concurrency reads and writes: 1 Storage system specs: 500 MBps per TiB tier of Managed Lustre, 108,000 GiB capacity. Zonal Filestore at 102,400 GiB capacity. Average throughput of 36.7 GB/s to 2,048 client VMs reading the same 40 GiB file. code_block <ListValue: [StructValue([('code', '# Read workload\\r\\nfio --ioengine=libaio --filesize=100M --ramp_time=2s \\\\\\r\\n --runtime=2m --time_based --numjobs=1 --direct=1 --verify=0 --randrepeat=0 \\\\\\r\\n --group_reporting --directory=~/LUSTRE_MOUNT \\\\\\r\\n --name=randread --blocksize=4k --iodepth=1 --readwrite=randread \\\\\\r\\n --buffer_compress_percentage=50\\r\\n\\r\\n# Write workload\\r\\nfio --ioengine=libaio --filesize=100M --ramp_time=2s \\\\\\r\\n --runtime=2m --time_based --numjobs=1 --direct=1 --verify=0 --randrepeat=0 \\\\\\r\\n --group_reporting --directory=~/LUSTRE_MOUNT \\\\\\r\\n --name=randwrite --blocksize=4k --iodepth=1 --readwrite=randwrite \\\\\\r\\n --buffer_compress_percentage=50'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f302b4b7d10>)])]> Accelerated setup How to run Linux untar code_block <ListValue: [StructValue([('code', '# Download a kernel tarball\\r\\nwget -P /tmp https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.18.9.tar.xz\\r\\n\\r\\n# Extract the archive to the Lustre mount\\r\\nmkdir ~/LUSTRE_MOUNT/kernel\\r\\ntar -C ~/LUSTRE_MOUNT/kernel -xf /tmp/linux-5.18.9.tar.xz'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f3038407f90>)])]> In the above use case, you will want to take care to avoid the metadata performance tax that can come from running as root (Namely, tar issues chown and chmod calls to make extracted files’ owner+permissions match the ones recorded in the archive.). If you still wish to run as root (and have verified that this approach is compatible with your setup), you may specify `--no-same-owner --no-same-permissions` in order to ensure that extracted files maintain root as owner and have root's default file permissions. In other words, it makes extraction as root behave like extraction as non-root (by ignoring the owner+permissions in the archive). How to run Python gitclone code_block <ListValue: [StructValue([('code', 'git config --global checkout.workers 20\\r\\nmkdir ~/LUSTRE_MOUNT/python\\r\\ngit clone https://github.com/python/cpython.git ~/LUSTRE_MOUNT/python'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f3038405250>)])]> How to run Python compile code_block <ListValue: [StructValue([('code', 'pushd ~/LUSTRE_MOUNT/python\\r\\n./configure > /dev/null\\r\\nmake > /dev/null\\r\\npopd'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f30389cb010>)])]> High scale distribution Aggregate throughput for distributing one large file to many nodes Run the below on each client VM: code_block <ListValue: [StructValue([('code', '# Start fio in server mode\\r\\nfio --server'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f3029cc9250>)])]> Run the below on a selected client VM: code_block <ListValue: [StructValue([('code', \"# Create a 40 GiB file\\r\\nfio --name=job1 \\\\\\r\\n --ioengine=libaio \\\\\\r\\n --direct=1 \\\\\\r\\n --buffer_compress_percentage=50 \\\\\\r\\n --blocksize=4m \\\\\\r\\n --iodepth=32 \\\\\\r\\n --filesize=40g \\\\\\r\\n --readwrite=write \\\\\\r\\n --filename ~/LUSTRE_MOUNT/40gb_test\\r\\n\\r\\n# Create an fio job file for the read workload\\r\\ncat <<'EOF' > /tmp/read.fio\\r\\n[job1]\\r\\nfilename=${HOME}/LUSTRE_MOUNT/40gb_test\\r\\nrw=read\\r\\nbs=4m\\r\\nexitall_on_error=1\\r\\nEOF\\r\\n\\r\\n# Run the read workload using all client VMs in ~/hostfile\\r\\nfio --client ~/hostfile /tmp/read.fio\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f3029ef3050>)])]> Parallel loading of libraries across many processes Run the below on a selected client VM: code_block <ListValue: [StructValue([('code', '# Install PyTorch in a virtual env\\r\\npython3 -m venv ~/LUSTRE_MOUNT/env\\r\\nsource ~/LUSTRE_MOUNT/env/bin/activate\\r\\npip3 install --upgrade pip\\r\\npip3 install torch torchvision torchaudio \\r\\ndeactivate\\r\\n\\r\\n# Import PyTorch on all client VMs in ~/hostfile, 4 processes per host\\r\\nmpirun --allow-run-as-root --oversubscribe --hostfile ~/hostfile -N 4 \\\\\\r\\n bash -c \\'source ~/LUSTRE_MOUNT/env/bin/activate && python3 -c \"import torch\"\\''), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f3029ef3a90>)])]> Looking ahead and next steps By eliminating the manual data staging tax and lowering entry costs with the Dynamic Tier, Google Cloud Managed Lustre is evolving from an elite, single-purpose engine into a highly versatile, unified storage fabric for the entire AI lifecycle. In the second part of this series, we will focus on upcoming object integration features . Stay tuned! Next steps Run the benchmarks yourself (if you haven’t already): Deploy a Google Cloud Managed Lustre instance using the Google Cloud console and run tests provided above to benchmark your own workloads. Explore the Dynamic Tier: Read the Google Cloud Managed Lustre Documentation to learn more. Stay tuned for Part 2: In the next installment of this series, we will dive deep into upcoming object integration features and how they further simplify AI and HPC storage. Get started with centralizing your development-to-training lifecycle on Google Cloud Managed Lustre!",
     "categories": [
       "Networks",
       "Data Centres",
@@ -1648,43 +1605,6 @@
       ]
     },
     "summary": "This is the first of a two-part series exploring how Google Cloud is bringing the foundational values of a high-performance parallel filesystem–TB/s throughput, sub-ms latency at high client scale, and POSIX support–to a broader set of use cases and users. Historically, due to the cost and special purpose nature of parallel filesystems, colder data had to be stored outside of the filesystem and AI developers have had to maintain separate, slower environments for writing code, compiling libraries, and managing repositories. This fragmentation increases the toil of manual data staging, dataset copying, and managing disjointed namespaces. Google Cloud Managed Lustre is solving these problems through our 6 cents/GB*month Dynamic Tier and by optimizing Managed Lustre performance for a range of development tasks and workloads – making Managed Lustre a “One-Stop Shop” for high-performance AI and HPC workloads."
-  },
-  {
-    "title": "The future of browser-based security: Leveraging browser data for proactive defense",
-    "url": "https://cloud.google.com/blog/products/chrome-enterprise/the-future-of-browser-based-security-leveraging-browser-data-for-proactive-defense/",
-    "source": "Google Cloud Blog",
-    "published": "2026-10-01T09:02:00+00:00",
-    "raw_text": "The browser has changed significantly. Rather than just a window to the web, it serves as an AI workspace and central operating environment for the modern enterprise. With knowledge workers spending over 56% of their workday in the browser, it is a key gateway for daily work, complex workflows, and direct interaction with autonomous AI agents ( Omdia , 2026). To keep pace with threat actors, organizations need a browser strategy that places browser telemetry at the center of their security architecture. The rise of shadow AI and agentic risk As enterprises adopt AI, new vulnerabilities have emerged. Shadow AI —the unauthorized use of public generative AI tools—can expose sensitive corporate IP through prompt sharing and autonomous agent actions. Ninety-two percent of organizations express concern around potential data leakage through these channels. Leaving this unmonitored creates significant risk ( Omdia , 2026). Legacy security stacks, including traditional endpoint detection and response (EDR) and perimeter firewalls, are fundamentally blind to in-browser interactions. They completely miss high-risk threat vectors unique to AI-driven workflows, such as: Malicious extensions that \"read\" sensitive financial data or \"write\" keyloggers onto sign-in pages. \"Living off the land\" (LOTL) tactics and session hijacking. State-sponsored threat actors leveraging AI to accelerate the attack lifecycle. Chrome Enterprise Premium: Your high-fidelity telemetry engine Chrome Enterprise Premium addresses this visibility gap by capturing browser telemetry. Rather than relying on external observation after the fact, Chrome Enterprise records signals directly at the point of user interaction. Core Capabilities for Modern Defense Real-time signals: Continuous telemetry for network events, high-risk user behaviors, and suspicious domain access. Extension telemetry: Granular visibility into side-loaded extensions and extension-to-domain communications that traditional EDR might miss. GenAI and SaaS app reporting: A dedicated capability to discover and govern sanctioned versus unsanctioned AI tools across the fleet. Evidence locker: The ability to capture files and content that violate DLP policies, providing a crucial trail for forensic analysis, root cause determination, and detection rule refinement. Transforming reactive review into proactive mitigation Transitioning to proactive defense allows security teams to mitigate threats early. By streaming browser signals into security operations platforms such as Google Security Operations, teams can automate responses and reduce manual investigation time, lowering incident response costs. Insights from the frontlines: Mandiant case studies Mandiant observations reveal the practical impact of browser visibility. These cases show how browser telemetry helps detect attacks that bypass standard controls: RMM Software Download: Chrome Enterprise Premium flagged a legitimate Remote Monitoring and Management (RMM) executable because it originated from a newly registered domain—a key indicator of social engineering that network tools often miss. Credential Harvesting: Chrome Enterprise Premium evaluated URL risks and navigation parameters at the precise moment of interaction, disrupting a phishing attempt before the user could submit credentials. Malvertising: Integration with Google Threat Intelligence allowed for immediate identification of a malicious ad click, containing the threat before the actor gained hands-on-keyboard access. Closing the security gap starts with recognizing that the browser is a key resource for enterprise security. With Google telemetry spanning billions of protected devices, organizations can maintain defensive visibility alongside emerging AI usage to drive a proactive security strategy ( Google Safe Browsing ). Ready to transform your security posture? Avoid leaving a blind spot in your security strategy. Learn more about web defense options by reading our digital paper, \" Securing the Browser: How telemetry brings web defense into the next frontier . \" This resource outlines a framework for modern defense, detailing adversary tactics, infection vectors, and threat trends. Read the digital paper to evaluate your organization's browser security strategy.",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "saas"
-      ],
-      "Networks": [
-        "network",
-        "firewall",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "phishing",
-        "threat",
-        "data leak",
-        "security",
-        "soc",
-        "threat intelligence",
-        "incident response",
-        "edr"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "The browser has changed significantly. Rather than just a window to the web, it serves as an AI workspace and central operating environment for the modern enterprise. With knowledge workers spending over 56% of their workday in the browser, it is a key gateway for daily work, complex workflows, and direct interaction with autonomous AI agents ( Omdia , 2026). To keep pace with threat actors, organizations need a browser strategy that places browser telemetry at the center of their security architecture."
   },
   {
     "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
@@ -2197,34 +2117,6 @@
     "summary": "Cisco’s SD-WAN management software has been letting some attackers walk through an authentication check without having to prove who they are. The company says it has now fixed the flaw that was allowing it. The affected platform, Cisco Catalyst SD-WAN Manager , is used to configure and operate software-defined network deployments. Cisco said in an advisory that improper handling of URI encoding in HTTP requests enabled attackers to get around an authentication control meant to restrict access to a specific API endpoint."
   },
   {
-    "title": "Why AI agents are like the dog that pushed kids into the Seine",
-    "url": "https://www.csoonline.com/article/4228972/why-ai-agents-are-like-the-dog-that-pushed-kids-into-the-seine.html",
-    "source": "CSO Online",
-    "published": "2026-10-01T09:00:00+00:00",
-    "raw_text": "There is an interesting story about a French dog on the banks of the Seine river that helps us understand misbehaving AI agents. The dog is trained to save children from drowning. He succeeds and is rewarded, becoming an overnight sensation. He saves another child a week later. Not long after, someone witnesses the dog actually push a child into the river, jumping in to “save” him. The dog did not understand that it was being rewarded for keeping children safe, not for pulling them out of water. AI agent failures also live in this gap, where the focus is on the shortest path to fulfill the instruction rather than the overriding objective. Reward hacking and why agents cheat AI agents fall into this same gap between what’s rewarded and what’s actually wanted. This is Goodhart’s Law, which says that when a measure becomes the target, it stops being a good measure. You cannot code “be helpful” or “be honest” directly into an AI system, so you train it on a proxy instead, including a score, a metric or a human ranking. The gap between proxy and goal is where agents learn to cheat, a behavior known as reward hacking. This ‘cheating’ isn’t new. Back in 2016, OpenAI trained an AI to play CoastRunners, a boat-racing game. It got rewarded for hitting targets scattered along the course. Instead of racing, it found a lagoon full of targets that kept respawning, so it just parked there and farmed points. While it never finished the race, it still ended up with a score 20% higher than the average human player. More recently, OpenAI reported that when given a chance, its frontier reasoning models have no qualms about hacking rewards, and when penalized for cheating their own chain of thought, they learn to hide their reward-hacking. Six ways an agent gets pushed off course There are six common scenarios where AI agents can be led astray: Information isn’t instruction. In 2025, security researchers showed that OpenAI’s Atlas browser could be tricked into treating a disguised URL as a trusted command, letting attackers hijack the agent into deleting a user’s files. An agent also reads web pages, documents and emails in its attempt to complete a task, but can’t always tell the difference between information and a command. That makes everything it perceives a potential way to manipulate it. Convinced to take the wrong call. As part of a test, AI was placed inside a fictional scenario where hacking was framed as an admirable activity. Inside this scenario, the AI was asked to write code to steal saved browser passwords. The AI, which should have refused, complied. It wasn’t that the AI was broken, but the fact that it was persuaded to do so by context. Manufactured version of reality. A sufficient number of maliciously crafted documents can bias a model’s output. Disinformation networks target AI with a large volume of false content to get that content picked up and repeated by AI chatbots when people ask about current events. This means what an agent treats as fact isn’t necessarily true; it can be manufactured. Authorization causes unauthorized harm. A flaw called “ EchoLeak ” let attackers send Microsoft 365 Copilot users a normal-looking email with hidden instructions inside. Copilot read the email, followed the hidden commands and quietly leaked the user’s files and messages using access it already had. An agent with legitimate access was manipulated into taking malicious action. One bad input, simultaneous consequences. Scenarios exist where multiple systems rely on the same data or logic. Here, a false signal can manipulate all systems at the same time. E.g., fake GPS signals rerouting traffic without hacking the system. The same thinking applies to AI agents. Just one malicious input targeting a shared data source can trigger a coordinated unwanted action across many systems simultaneously. Approval as a matter of course. We keep talking about human oversight as an integral component of safe AI use. However, constant approval requests will produce fatigue, and approval will be like a formality, given out of habit, not evaluation. Soft guardrails vs. hard guardrails When AI agents are pushed off course, they become a Frankenstein monster, whose reach extends across systems, which organizations find difficult to address. Implementing guardrails is important to exercise control and ensure safe AI use. Soft guardrails are safety valves written into the model itself, namely the natural language, the system prompt, reinforcement learning and general instructions like “you’re not allowed to do this or that.” But AI reads everything in a stream as it comes in, including information from an email or a webpage and can’t separate orders from data. Hidden malicious instructions can override safety instructions. Soft guardrails will try to reduce cases of agent misfires but are dependent on the agent choosing to cooperate. This is why you need hard guardrails that sit outside the model. These include least-privilege access, allow-lists, sandboxing, rate limits and mandatory human sign-off on high-impact actions. These guardrails limit the impact when something does go wrong, shrinking the blast radius. A basic risk calculation is the probability of an event multiplied by the severity of its impact. Soft guardrails lower the probability of an unwanted event; hard guardrails cap the blast radius in case something happens. In practice, this means implementing: Task-based access: Give the agent only the access it needs to complete the task. Not trusting everything an agent reads: Approach every webpage, email or document it pulls from with skepticism. Human sign-off for high-impact actions: Use approvals carefully, on actions that could go badly wrong. An eye for behavior and credentials: Check credentials but also watch for a mismatch between authorization and behavior. An agent can become a weapon proportional to its reach. That’s why the conversation needs to shift to start limiting what agents can access. Curtail reach. Monitor behavior. Enforce accountability. Until we do that, every misbehavior can potentially spread as far as its permission allows.",
-    "categories": [
-      "Networks",
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "routing",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "valuation",
-        "ey"
-      ]
-    },
-    "summary": "There is an interesting story about a French dog on the banks of the Seine river that helps us understand misbehaving AI agents. The dog is trained to save children from drowning. He succeeds and is rewarded, becoming an overnight sensation. He saves another child a week later."
-  },
-  {
     "title": "General Compute signs multi-year agreement with Cerebras",
     "url": "https://www.datacenterdynamics.com/en/news/general-compute-signs-multi-year-agreement-with-cerebras/",
     "source": "DataCenterDynamics",
@@ -2593,6 +2485,633 @@
       ]
     },
     "summary": "Paul Lipscombe speaks with Venessa Moffat of Data Center Alliance on the industry challenges such as misinformation, planning reform, and workforce development for AI."
+  },
+  {
+    "title": "Palantir's fondness for French food cooked up tech's latest fad – forward-deployed engineers",
+    "url": "https://www.theregister.com/channel/2026/10/03/palantirs-fondness-for-french-food-cooked-up-techs-latest-fad-forward-deployed-engineers/5300360",
+    "source": "The Register",
+    "published": "2026-10-03T08:02:00+00:00",
+    "raw_text": "Embedded consultants who get you up to speed on new tech in a hurry aren’t new, but they meet the AI moment",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Embedded consultants who get you up to speed on new tech in a hurry aren’t new, but they meet the AI moment"
+  },
+  {
+    "title": "Google hearts Apple's Swift so much it's pumping out server-side support",
+    "url": "https://www.theregister.com/software/2026/10/02/google-hearts-apples-swift-so-much-its-pumping-out-server-side-support/5300921",
+    "source": "The Register",
+    "published": "2026-10-02T19:52:40+00:00",
+    "raw_text": "After a decade of false starts, Swift is showing backend appeal",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "After a decade of false starts, Swift is showing backend appeal"
+  },
+  {
+    "title": "Shut up and take our money: Amazon plows $1B into quashing datacenter dissent",
+    "url": "https://www.theregister.com/systems/2026/10/02/shut-up-and-take-our-money-amazon-plows-1b-into-quashing-datacenter-dissent/5300914",
+    "source": "The Register",
+    "published": "2026-10-02T19:30:56+00:00",
+    "raw_text": "Thou shalt love the datacenter! Verily, thou shalt rejoice in the house of the datacenter!",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "datacenter"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Thou shalt love the datacenter! Verily, thou shalt rejoice in the house of the datacenter!"
+  },
+  {
+    "title": "arXiv imposes rate limit on paper submissions to stem the AI slop tide",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/02/arxiv-imposes-rate-limit-on-paper-submissions-to-stem-the-ai-slop-tide/5300899",
+    "source": "The Register",
+    "published": "2026-10-02T18:02:32+00:00",
+    "raw_text": "Two a month per submitter, starting now, and you can thank science slop for the change",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Two a month per submitter, starting now, and you can thank science slop for the change"
+  },
+  {
+    "title": "OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break in - or worse",
+    "url": "https://www.theregister.com/security/2026/10/02/openai-alerts-100-orgs-that-its-misaligned-models-attempted-to-break-in-or-worse/5300891",
+    "source": "The Register",
+    "published": "2026-10-02T17:37:05+00:00",
+    "raw_text": "Mostly 'routine research tasks,' and 'some involved government websites, which our models often use,' AI giant tells The Reg",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Mostly 'routine research tasks,' and 'some involved government websites, which our models often use,' AI giant tells The Reg"
+  },
+  {
+    "title": "Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval",
+    "url": "https://www.theregister.com/security/2026/10/02/californian-accused-of-shipping-300m-worth-of-nvidia-chips-to-china-without-uncle-sams-approval/5300856",
+    "source": "The Register",
+    "published": "2026-10-02T15:20:00+00:00",
+    "raw_text": "Prosecutors claim Greg Lui helped China procure advanced hardware to develop, ahem, 'super intelligence’",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Prosecutors claim Greg Lui helped China procure advanced hardware to develop, ahem, 'super intelligence’"
+  },
+  {
+    "title": "The VMware exit is a protection upgrade",
+    "url": "https://www.theregister.com/virtualization/2026/10/02/partner-content-the-vmware-exit-is-a-protection-upgrade/5300391",
+    "source": "The Register",
+    "published": "2026-10-02T14:35:00+00:00",
+    "raw_text": "PARTNER CONTENT: VergeIO says an exit is also an opportunity",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "PARTNER CONTENT: VergeIO says an exit is also an opportunity"
+  },
+  {
+    "title": "OpenAI's wandering AI agents earn it a California subpoena",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
+    "source": "The Register",
+    "published": "2026-10-02T14:34:00+00:00",
+    "raw_text": "Plus: Attorneys-general say investigators should have direct access to AI companies' records when things go wrong",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Plus: Attorneys-general say investigators should have direct access to AI companies' records when things go wrong"
+  },
+  {
+    "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+    "url": "https://www.theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+    "source": "The Register",
+    "published": "2026-10-02T13:50:39+00:00",
+    "raw_text": "Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk",
+    "categories": [
+      "Networks",
+      "GRC",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "regulatory"
+      ],
+      "Data Centres": [
+        "datacenter"
+      ]
+    },
+    "summary": "Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk"
+  },
+  {
+    "title": "OpenAI shows three staff the door over alleged information misuse",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openai-shows-three-staff-the-door-over-alleged-information-misuse/5300820",
+    "source": "The Register",
+    "published": "2026-10-02T13:05:00+00:00",
+    "raw_text": "Two safety researchers and a program manager dismissed, company denies retaliation for raising concerns",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Two safety researchers and a program manager dismissed, company denies retaliation for raising concerns"
+  },
+  {
+    "title": "Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch",
+    "url": "https://www.theregister.com/systems/2026/10/02/nvidia-debuts-4999-dgx-spark-with-half-the-ram-and-storage-amid-memory-crunch/5300622",
+    "source": "The Register",
+    "published": "2026-10-02T13:00:00+00:00",
+    "raw_text": "Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price"
+  },
+  {
+    "title": "Excel Canvas offers to turn your workbook into the boss's next report",
+    "url": "https://www.theregister.com/software/2026/10/02/excel-canvas-offers-to-turn-your-workbook-into-the-bosss-next-report/5300812",
+    "source": "The Register",
+    "published": "2026-10-02T12:27:00+00:00",
+    "raw_text": "Copilot builds charts and metrics from spreadsheet data, with automatic refreshes when the numbers change",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Copilot builds charts and metrics from spreadsheet data, with automatic refreshes when the numbers change"
+  },
+  {
+    "title": "Teen suspected of running KillSec ransomware group as cops seize servers, arrest three",
+    "url": "https://www.theregister.com/cyber-crime/2026/10/02/teen-suspected-of-running-killsec-ransomware-group-as-cops-seize-servers-arrest-three/5300784",
+    "source": "The Register",
+    "published": "2026-10-02T11:43:35+00:00",
+    "raw_text": "Operation KillSwitch takes over leak site holding at least 110 TB of stolen data",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware"
+      ]
+    },
+    "summary": "Operation KillSwitch takes over leak site holding at least 110 TB of stolen data"
+  },
+  {
+    "title": "Once a $35 computer, the 2 GB Raspberry Pi 4 now costs $67.50",
+    "url": "https://www.theregister.com/personal-tech/2026/10/02/once-a-35-computer-the-2-gb-raspberry-pi-4-now-costs-6750/5300774",
+    "source": "The Register",
+    "published": "2026-10-02T11:20:00+00:00",
+    "raw_text": "Pi 5 also gets a $12.50 bump as customers urged to consider older models or less RAM",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Pi 5 also gets a $12.50 bump as customers urged to consider older models or less RAM"
+  },
+  {
+    "title": "Fortinet sounds the alarm over actively exploited FortiMail zero-day",
+    "url": "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803",
+    "source": "The Register",
+    "published": "2026-10-02T10:53:49+00:00",
+    "raw_text": "No login required, exploitation underway, and some admins are still waiting for patches",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "zero-day",
+        "exploit"
+      ]
+    },
+    "summary": "No login required, exploitation underway, and some admins are still waiting for patches"
+  },
+  {
+    "title": "UK spending watchdog opens investigation into Capita's pension fiasco",
+    "url": "https://www.theregister.com/public-sector/2026/10/02/uk-spending-watchdog-opens-investigation-into-capitas-pension-fiasco/5300766",
+    "source": "The Register",
+    "published": "2026-10-02T10:04:04+00:00",
+    "raw_text": "Outsourcer admits service remains below expectations after missed recovery deadline",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Outsourcer admits service remains below expectations after missed recovery deadline"
+  },
+  {
+    "title": "Met Police suspends use of phone-hacking software over Russian links",
+    "url": "https://www.theregister.com/software/2026/10/02/met-police-suspends-use-of-phone-hacking-software-over-russian-links/5300549",
+    "source": "The Register",
+    "published": "2026-10-02T09:15:00+00:00",
+    "raw_text": "Scotland Yard hits pause after US prosecutors trace supposedly American tech back to Moscow",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Scotland Yard hits pause after US prosecutors trace supposedly American tech back to Moscow"
+  },
+  {
+    "title": "Flight delayed? So are these codec updates",
+    "url": "https://www.theregister.com/offbeat/2026/10/02/flight-delayed-so-are-these-codec-updates/5300405",
+    "source": "The Register",
+    "published": "2026-10-02T08:30:00+00:00",
+    "raw_text": "A slice of Bolivian bork at Alcantarí International Airport",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "A slice of Bolivian bork at Alcantarí International Airport"
+  },
+  {
+    "title": "Techie was stung by a wasp, held overnight by Chinese police, then trapped in a 13-hour meeting",
+    "url": "https://www.theregister.com/software/2026/10/02/techie-was-stung-by-a-wasp-held-overnight-by-chinese-police-then-trapped-in-a-13-hour-meeting/5300368",
+    "source": "The Register",
+    "published": "2026-10-02T08:01:00+00:00",
+    "raw_text": "Sales calls can be even nastier than support calls",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Sales calls can be even nastier than support calls"
+  },
+  {
+    "title": "Pi coding agent pulls a 180 and adds MCP support",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/02/pi-coding-agent-pulls-a-180-and-adds-mcp-support/5300678",
+    "source": "The Register",
+    "published": "2026-10-02T07:01:00+00:00",
+    "raw_text": "To maintain minimalism, a new harness layer has been folded into a separate component",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "To maintain minimalism, a new harness layer has been folded into a separate component"
+  },
+  {
+    "title": "AWS turns its best practice framework into an agent that recommends cloudy reconfigs",
+    "url": "https://www.theregister.com/off-prem/2026/10/02/aws-turns-its-best-practice-framework-into-an-agent-that-recommends-cloudy-reconfigs/5300730",
+    "source": "The Register",
+    "published": "2026-10-02T05:10:09+00:00",
+    "raw_text": "Possesses powers equivalent to an 'experienced architect' and will happily make cost-saving suggestions",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws"
+      ]
+    },
+    "summary": "Possesses powers equivalent to an 'experienced architect' and will happily make cost-saving suggestions"
+  },
+  {
+    "title": "Google launches first datacenter satellite and research that finds orbiting bit barns can work",
+    "url": "https://www.theregister.com/systems/2026/10/02/google-launches-first-datacenter-satellite-and-research-that-finds-orbiting-bit-barns-can-work/5300721",
+    "source": "The Register",
+    "published": "2026-10-02T02:08:45+00:00",
+    "raw_text": "If SpaceX can launch 1,800 Starships, and researchers nail gnarly networking, design and formation flying problems...",
+    "categories": [
+      "Networks",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "networking"
+      ],
+      "Data Centres": [
+        "datacenter"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "If SpaceX can launch 1,800 Starships, and researchers nail gnarly networking, design and formation flying problems..."
+  },
+  {
+    "title": "AI agents hacked the hackers, stealing email addresses from security research org",
+    "url": "https://www.theregister.com/security/2026/10/01/ai-agents-hacked-the-hackers-stealing-email-addresses-from-security-research-org/5300652",
+    "source": "The Register",
+    "published": "2026-10-01T21:26:42+00:00",
+    "raw_text": "Chained Zammad flaws enabled session hijacking, code execution, and root escalation in seconds",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "hacker",
+        "security"
+      ]
+    },
+    "summary": "Chained Zammad flaws enabled session hijacking, code execution, and root escalation in seconds"
+  },
+  {
+    "title": "Cloudflare tries to outplay Jev with open-weight Clef models",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/01/cloudflare-tries-to-outplay-jev-with-open-weight-clef-models/5300649",
+    "source": "The Register",
+    "published": "2026-10-01T20:39:49+00:00",
+    "raw_text": "Sure, it costs more, but it can handle images and video and it's available on Hugging Face if you have the hardware horsepower to run it locally",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ]
+    },
+    "summary": "Sure, it costs more, but it can handle images and video and it's available on Hugging Face if you have the hardware horsepower to run it locally"
+  },
+  {
+    "title": "Stanford prof is beating the drum for a new protocol to replace TCP",
+    "url": "https://www.theregister.com/networks/2026/10/01/stanford-prof-is-beating-the-drum-for-a-new-protocol-to-replace-tcp/5300629",
+    "source": "The Register",
+    "published": "2026-10-01T20:00:45+00:00",
+    "raw_text": "Homa is a rethink of networks for the AI age",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ]
+    },
+    "summary": "Homa is a rethink of networks for the AI age"
+  },
+  {
+    "title": "Cloudflare launches Data Platform with bland 'Basin' branding, promise of fewer fees",
+    "url": "https://www.theregister.com/databases/2026/10/01/cloudflare-launches-data-platform-with-bland-basin-branding-promise-of-fewer-fees/5300618",
+    "source": "The Register",
+    "published": "2026-10-01T19:17:47+00:00",
+    "raw_text": "Serverless data management without egress fees, sort of",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "serverless"
+      ],
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "Serverless data management without egress fees, sort of"
+  },
+  {
+    "title": "EU’s hodgepodge tech policy exposes members to Chinese vendor risks, says think tank",
+    "url": "https://www.theregister.com/security/2026/10/01/eus-hodgepodge-tech-policy-exposes-members-to-chinese-vendor-risks-says-think-tank/5300599",
+    "source": "The Register",
+    "published": "2026-10-01T17:30:03+00:00",
+    "raw_text": "RUSI wants procurement rethink that could put US suppliers under scrutiny too",
+    "categories": [
+      "GRC",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "GRC": [
+        "policy",
+        "vendor risk"
+      ],
+      "Industry & Market": [
+        "vendor"
+      ]
+    },
+    "summary": "RUSI wants procurement rethink that could put US suppliers under scrutiny too"
+  },
+  {
+    "title": "Suspected Chinese spies spoofed an Anthropic exec, ex-White House official in AI phishing",
+    "url": "https://www.theregister.com/security/2026/10/01/suspected-chinese-spies-spoofed-an-anthropic-exec-ex-white-house-official-in-ai-phishing/5300595",
+    "source": "The Register",
+    "published": "2026-10-01T16:43:30+00:00",
+    "raw_text": "Your invite to a fake AI policy advisory committee has strings attached",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "phishing"
+      ],
+      "GRC": [
+        "policy"
+      ]
+    },
+    "summary": "Your invite to a fake AI policy advisory committee has strings attached"
+  },
+  {
+    "title": "AWS offers local, open source leash for agent harnesses",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578",
+    "source": "The Register",
+    "published": "2026-10-01T16:11:25+00:00",
+    "raw_text": "Dogwood Local Engine checks AI tool calls against user-defined temporal rules before they run",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Dogwood Local Engine checks AI tool calls against user-defined temporal rules before they run"
+  },
+  {
+    "title": "Microsoft makes Windows settings backup the default in 26H2",
+    "url": "https://www.theregister.com/os-platforms/2026/10/01/microsoft-makes-windows-settings-backup-the-default-in-26h2/5300552",
+    "source": "The Register",
+    "published": "2026-10-01T15:31:00+00:00",
+    "raw_text": "Annual update installed. You're up to date, so nothing seems to have changed. Wait a minute...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Annual update installed. You're up to date, so nothing seems to have changed. Wait a minute..."
+  },
+  {
+    "title": "Build the right AI factory for your needs: partner for success",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/01/sponsored-build-the-right-ai-factory-for-your-needs-partner-for-success/5300143",
+    "source": "The Register",
+    "published": "2026-10-01T15:00:00+00:00",
+    "raw_text": "SPONSORED FEATURE: HPE and NVIDIA help organizations apply accelerated computing, software, enterprise infrastructure, networking, control plane, and services to the workloads and business outcomes that matter most.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "networking",
+        "lan"
+      ]
+    },
+    "summary": "SPONSORED FEATURE: HPE and NVIDIA help organizations apply accelerated computing, software, enterprise infrastructure, networking, control plane, and services to the workloads and business outcomes that matter most."
+  },
+  {
+    "title": "Microsoft catches hackers exploiting Zimbra bug before disclosure",
+    "url": "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+    "source": "The Register",
+    "published": "2026-10-01T14:44:00+00:00",
+    "raw_text": "Attackers were probing the mail server flaw weeks before it had a CVE to its name",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cve",
+        "exploit",
+        "hacker"
+      ]
+    },
+    "summary": "Attackers were probing the mail server flaw weeks before it had a CVE to its name"
+  },
+  {
+    "title": "MI5 warns UK academics their research may have helped Chinese spies",
+    "url": "https://www.theregister.com/security/2026/10/01/mi5-warns-uk-academics-their-research-may-have-helped-chinese-spies/5300502",
+    "source": "The Register",
+    "published": "2026-10-01T14:04:00+00:00",
+    "raw_text": "Institutions told to trace who is really financing their work or risk falling foul of national security law",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Institutions told to trace who is really financing their work or risk falling foul of national security law"
+  },
+  {
+    "title": "CISO thought he had a 'r3@lg00dp@$$w0rd' but forgot to patch",
+    "url": "https://www.theregister.com/security/2026/10/01/ciso-thought-he-had-a-r3lg00dpw0rd-but-forgot-to-patch/5300314",
+    "source": "The Register",
+    "published": "2026-10-01T13:32:00+00:00",
+    "raw_text": "Replacing letters with symbols still doesn’t make it good.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Replacing letters with symbols still doesn’t make it good."
+  },
+  {
+    "title": "Exchange Web Services enters the final stretch before Microsoft pulls access",
+    "url": "https://www.theregister.com/saas/2026/10/01/exchange-web-services-enters-the-final-stretch-before-microsoft-pulls-access/5300458",
+    "source": "The Register",
+    "published": "2026-10-01T12:59:00+00:00",
+    "raw_text": "Legacy API begins disappearing from tenants today, with no exceptions after April",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Legacy API begins disappearing from tenants today, with no exceptions after April"
+  },
+  {
+    "title": "Palantir's Tom Watson lectures MP on accuracy, citing selective data",
+    "url": "https://www.theregister.com/public-sector/2026/10/01/palantirs-tom-watson-lectures-mp-on-accuracy-citing-selective-data/5300493",
+    "source": "The Register",
+    "published": "2026-10-01T12:41:31+00:00",
+    "raw_text": "Former Labour deputy challenges Clive Lewis but skips the warnings attached to NHS figures",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Former Labour deputy challenges Clive Lewis but skips the warnings attached to NHS figures"
+  },
+  {
+    "title": "England's schools are getting better at mopping up cyber incidents",
+    "url": "https://www.theregister.com/security/2026/10/01/englands-schools-are-getting-better-at-mopping-up-cyber-incidents/5300465",
+    "source": "The Register",
+    "published": "2026-10-01T11:40:13+00:00",
+    "raw_text": "Two-thirds report immediate recovery, although teachers remain divided over whose job security is",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "Two-thirds report immediate recovery, although teachers remain divided over whose job security is"
+  },
+  {
+    "title": "UK privacy watchdog starts over with new board and Manchester HQ",
+    "url": "https://www.theregister.com/security/2026/10/01/uk-privacy-watchdog-starts-over-with-new-board-and-manchester-hq/5300439",
+    "source": "The Register",
+    "published": "2026-10-01T10:42:00+00:00",
+    "raw_text": "The Information Commission replaces the Information Commissioner, putting statutory powers under collective control",
+    "categories": [
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "privacy"
+      ]
+    },
+    "summary": "The Information Commission replaces the Information Commissioner, putting statutory powers under collective control"
+  },
+  {
+    "title": "Sopra Steria widens legal challenge to Capita's Whitehall outsourcing deal",
+    "url": "https://www.theregister.com/public-sector/2026/10/01/sopra-steria-widens-legal-challenge-to-capitas-whitehall-outsourcing-deal/5300051",
+    "source": "The Register",
+    "published": "2026-10-01T10:00:00+00:00",
+    "raw_text": "Unredacted contract prompts fresh claims of preferential treatment and greater risk for the DWP",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Unredacted contract prompts fresh claims of preferential treatment and greater risk for the DWP"
   },
   {
     "title": "UK and Europe at risk from Chinese tech, says security think tank",
@@ -3068,34 +3587,6 @@
     "summary": "<p>Microsoft, the UAE Cyber Security Council&nbsp;and <a href=\"https://www.computerweekly.com/news/366642883/Core42-partners-with-Solutions-on-Mubadala-sovereign-AI\" target=\"_blank\" rel=\"noopener\">Core42</a> have announced plans to deploy Microsoft’s artificial intelligence (AI)-powered cyber security platform, MDASH, across UAE government entities to strengthen national cyber resilience and accelerate the adoption of secure AI technologies across the public sector.</p> <p>The initiative will see the three organisations collaborate on the phased implementation of MDASH, an AI-driven cyber security capability designed to help security teams identify vulnerabilities, prioritise risks and improve security posture through automated analysis and advanced AI models.</p> <p>The deployment represents the latest step in a broader strategic partnership between Microsoft, Core42 and the UAE government, which has already seen significant investments in sovereign cloud infrastructure, artificial intelligence and cyber security capabilities across the country.</p> <p>According to the organisations, the collaboration aims to give government entities enhanced tools to defend against increasingly sophisticated cyber threats while supporting the UAE’s wider ambitions to build one of the world’s most advanced and trusted digital ecosystems.</p> <p>“Code safety is a national priority and a cornerstone of cyber resilience,” said Mohamed Al Kuwaiti, head of cyber security for the UAE government. “As AI becomes integral to government and critical services, securing the code that underpins these systems must be built in from the outset, not treated as an afterthought. Bringing MDASH capabilities to the UAE is a major catalyst for wider adoption of AI-powered code security across government and our national digital ecosystem.”</p> <p>Under the proposed framework, the Cyber Security Council will support the adoption and responsible use of AI-powered cyber security technologies through the UAE’s National AI Test and Validation Lab, helping government entities evaluate and implement emerging cyber defence capabilities.</p> <p>Core42, a G42 company and Microsoft’s sovereign cloud partner in the UAE, will provide onboarding, implementation and capacity-building services through its Sovereign Public Cloud offering. The company will also support participating organisations with integration services and operational guidance focused on security, privacy and resilience requirements.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about tech in the UAE</h3> <ul style=\"list-style-type: square;\" class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366632644/Interview-Shaping-the-future-of-AI-in-the-UAE\" target=\"_blank\" rel=\"noopener\">Shaping the future of AI in the UAE</a>: At Gitex 2025 in Dubai, the largest tech show in the Middle East, Chiara Marcati, chief AI advisory and business officer at AI71, discusses the UAE’s ambition to become a global leader in artificial intelligence.</li> <li><a href=\"https://www.computerweekly.com/news/366636844/UAE-launches-AI-ecosystem-to-boost-climate-resilient-agriculture-worldwide\" target=\"_blank\" rel=\"noopener\">UAE launches AI ecosystem to boost climate-resilient agriculture worldwide</a>: In partnership with the Gates Foundation, Abu Dhabi unveils a multi-institution AI platform designed to accelerate agricultural innovation, strengthen food security and support millions of smallholder farmers facing climate volatility.</li> </ul> </div> </div> <p>The initiative builds on the strategic relationship between Microsoft and G42, one of the most significant AI partnerships in the region."
   },
   {
-    "title": "Atos invests in AI education for West Midlands youth",
-    "url": "https://www.computerweekly.com/news/366651503/Atos-invests-in-AI-education-for-West-Midlands-youth",
-    "source": "ComputerWeekly",
-    "published": "2026-10-01T08:43:00+00:00",
-    "raw_text": "<p>Free artificial intelligence (AI) training is being offered to up to 650,000 young people in the West Midlands to help them become AI ready.</p> <p>IT services firm Atos is investing money into Tech First Youth’s Future Readiness initiative which will see schools and colleges in the region receive free access to resources. It will have a focus on AI discernment, which is the ability to discern when AI outputs should be used or when caution is required.</p> <p>“By teaching AI literacy and critical thinking, Futures Readiness equips young people and educators to live, learn and work in a world increasingly shaped by AI,” said Atos.</p> <p>Although AI is a concept dating back decades, the widespread take-up of generative AI (GenAI) began around 2022 with the release of ChatGPT. It was a wake-up call for governments and businesses alike, which must prepare for inevitable disruption. Likewise, seemingly all careers must be tailored to work with AI technology.</p> <p>Because AI will touch all of society, the programme aims to use the AI training resources across the curriculum rather than as an individual course. “Society and the workplace are being reshaped by AI with new capabilities, risks and behaviours emerging in cycles of weeks and months,” said Atos. “Futures Readiness is designed to help education keep up with the development of AI as responsive enrichment to the curriculum, rather than a static course or one-off intervention.”</p> <p>Every three weeks, interactive videos will be made available to schools to help them respond to live developments in AI.</p> <p>Atos has made several commitments to educating the UK’s youth. In October last year Michael Herron, the <a href=\"https://www.linkedin.com/in/michaelherronatos/?originalSubdomain=uk\">UK head at Atos</a> said he was “utterly determined” not to allow GenAI to pull up a career drawbridge.</p> <p>Back then, Herron said Atos’s plans will take into account the increasing use of GenAI. “I am working on this whole model around the coexistence of humans and AI together, because AI can do some people’s jobs,” he said.</p> <p>“We are redefining the skills the next generation of UK-based talent need to thrive in an AI-driven workplace. We believe these will be both technical and softer skills, such as curiosity, experimentation and creativity.”</p> <p>As a result, careers will be “multi-dimensional and much more ubiquitous”, he said, adding: “I do not subscribe to the view that there are going to be mass redundancies because of AI and agentic. What I do subscribe to is that there are <a href=\"https://www.techtarget.com/whatis/feature/Will-AI-replace-jobs-9-job-types-that-might-be-affected?_gl=1*1vfat4n*_ga*MTEwNzM2MTI5My4xNzQyODE4ODQ3*_ga_TQKE4GS5P9*czE3NzIwMjM3MjkkbzI1MiRnMSR0MTc3MjAyNTEwMSRqMzUkbDAkaDA.\">certain roles which will become defunct</a>, but there will be new roles in the world of agentic.</p> <p>“There is a sad amount of high youth unemployment at the moment, but I don’t buy into the fact that it’s <a href=\"https://www.computerweekly.com/feature/Will-AI-wipe-out-entry-level-jobs\">because the junior jobs are going to go</a> – they’re just going to be different.”</p> <p>In February, also in the West Midlands, <a href=\"https://www.computerweekly.com/news/366639497/Atos-IT-services-staff-of-the-future-begin-apprenticeships\">Atos’s first UK apprentices began training</a> to become IT staff of the future as part of its programme to train IT support professionals in the era of AI.</p> <p>As part of this, Atos’s agentic factory, which will feature AI agents and people working together on customer IT projects, was opened at the supplier’s delivery centre in Solihull, on the outskirts of Birmingham.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about AI and jobs</h3> <ul class=\"default-list\"> <li><a href=\"https://www.techtarget.com/searchenterpriseai/feature/AIs-effect-on-jobs-not-what-expected-Yale-study-finds?_gl=1*kpixky*_ga*MTEwNzM2MTI5My4xNzQyODE4ODQ3*_ga_TQKE4GS5P9*czE3NzIwMjM3MjkkbzI1MiRnMSR0MTc3MjAyNDc5NSRqNTMkbDAkaDA.\">A recent Yale study finds AI is reshaping jobs, automating tasks and boosting demand for analytical and collaborative skills, with overall employment remaining stable</a>.</li> <li><a href=\"https://www.computerweekly.com/news/366634565/Artificial-intelligence-helps-Klarna-double-revenues-with-half-the-staff\">Swedish fintech has gradually replaced half of its staff with artificial intelligence and doubled its revenues</a>.</li> <li><a href=\"https://www.techtarget.com/whatis/feature/Will-AI-replace-jobs-9-job-types-that-might-be-affected?_gl=1*xx0413*_ga*Mjg4MTcxMzU3LjE3Nzk5NjUxNTU.*_ga_TQKE4GS5P9*czE3OTA4NDcwNjUkbzUyJGcxJHQxNzkwODUwNzY1JGozOCRsMCRoMA..\">These 18 job types – including administrative, customer service and teaching – might be replaced, augmented or improved by the latest artificial intelligence wave</a>.</li> </ul> </div> </div>",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "<p>Free artificial intelligence (AI) training is being offered to up to 650,000 young people in the West Midlands to help them become AI ready.</p> <p>IT services firm Atos is investing money into Tech First Youth’s Future Readiness initiative which will see schools and colleges in the region receive free access to resources. It will have a focus on AI discernment, which is the ability to discern when AI outputs should be used or when caution is required.</p> <p>“By teaching AI literacy and critical thinking, Futures Readiness equips young people and educators to live, learn and work in a world increasingly shaped by AI,” said Atos.</p> <p>Although AI is a concept dating back decades, the widespread take-up of generative AI (GenAI) began around 2022 with the release of ChatGPT. It was a wake-up call for governments and businesses alike, which must prepare for inevitable disruption. Likewise, seemingly all careers must be tailored to work with AI technology.</p> <p>Because AI will touch all of society, the programme aims to use the AI training resources across the curriculum rather than as an individual course."
-  },
-  {
     "title": "iPhone 18 Pro Max can’t call or text on AT&T? Apple will replace it for free",
     "url": "https://www.zdnet.com/tech/iphone-18-pro-max-att-no-service-free-replacement/",
     "source": "ZDNet",
@@ -3136,21 +3627,21 @@
     "summary": "Some Pixel users are having tap-to-pay problems, and there’s no fix from Google yet. But here a few things that helped others."
   },
   {
-    "title": "Who owns AI risk at work? Business and tech leaders can’t agree, PwC survey finds",
-    "url": "https://www.zdnet.com/innovation/pwc-digital-trust-insights-2027-ai-risk-responsibility/",
-    "source": "ZDNet",
-    "published": "2026-10-01T09:00:00+00:00",
-    "raw_text": "PwC research highlights a growing need for someone to own AI. Is an AI chief the answer?",
+    "title": "Planet Classroom Network & POP Movement Uncover Venice's Rising Sea Risk with Climate Scientist Marco Marani",
+    "url": "https://www.prnewswire.com/news-releases/planet-classroom-network--pop-movement-uncover-venices-rising-sea-risk-with-climate-scientist-marco-marani-302897608.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-03T09:00:00+00:00",
+    "raw_text": "New Net Zero Speaks Episode Reveals Why Sinking Land, Rising Seas, and Disappearing Salt Marshes Are Reshaping Coastal Communities NEW YORK, Oct. 1, 2026 /PRNewswire/ -- As sea levels rise and coastal lands sink, communities in low-lying cities and river deltas face risks that global...",
     "categories": [
-      "Industry & Market"
+      "Networks"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "pwc",
-        "ey"
+      "Networks": [
+        "network",
+        "lan"
       ]
     },
-    "summary": "PwC research highlights a growing need for someone to own AI. Is an AI chief the answer?"
+    "summary": "New Net Zero Speaks Episode Reveals Why Sinking Land, Rising Seas, and Disappearing Salt Marshes Are Reshaping Coastal Communities NEW YORK, Oct. 1, 2026 /PRNewswire/ -- As sea levels rise and coastal lands sink, communities in low-lying cities and river deltas face risks that global..."
   },
   {
     "title": "Vatrer Power to Showcase Lithium Golf Cart Battery Conversion Kits at 2026 Golf Carting Expo & Dealer Summit",
@@ -3254,6 +3745,26 @@
     "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against York Space Systems, Inc. (\"York Space Systems\" or the..."
   },
   {
+    "title": "Hims & Hers Health Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Hims & Hers Health, Inc. - HIMS",
+    "url": "https://www.prnewswire.com/news-releases/hims--hers-health-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hims--hers-health-inc---hims-302897519.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-03T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 2, 2026 to file lead plaintiff applications in a securities class action lawsuit against Hims & Hers Health, Inc. (\"Hims\" or the \"Company\")...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 2, 2026 to file lead plaintiff applications in a securities class action lawsuit against Hims & Hers Health, Inc. (\"Hims\" or the \"Company\")..."
+  },
+  {
     "title": "Honeywell Aerospace Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Honeywell Aerospace, Inc. - HONA",
     "url": "https://www.prnewswire.com/news-releases/honeywell-aerospace-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-honeywell-aerospace-inc---hona-302897533.html",
     "source": "PR Newswire - Technology",
@@ -3272,26 +3783,6 @@
       ]
     },
     "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against Honeywell Aerospace, Inc. (\"Honeywell Aerospace\" or the..."
-  },
-  {
-    "title": "Simply Good Foods Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Simply Good Foods Company - SMPL",
-    "url": "https://www.prnewswire.com/news-releases/simply-good-foods-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-simply-good-foods-company---smpl-302897518.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Simply Good Foods Company (\"Simply Good\" or the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Simply Good Foods Company (\"Simply Good\" or the..."
   },
   {
     "title": "HDFC Bank Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against HDFC Bank Limited - HDB",
@@ -3314,6 +3805,26 @@
     "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against HDFC Bank Limited (\"HDFC\" or the \"Company\") (NYSE: HDB),..."
   },
   {
+    "title": "Simply Good Foods Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Simply Good Foods Company - SMPL",
+    "url": "https://www.prnewswire.com/news-releases/simply-good-foods-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-simply-good-foods-company---smpl-302897518.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-03T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Simply Good Foods Company (\"Simply Good\" or the...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 13, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Simply Good Foods Company (\"Simply Good\" or the..."
+  },
+  {
     "title": "Beta Bionics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Beta Bionics, Inc. - BBNX",
     "url": "https://www.prnewswire.com/news-releases/beta-bionics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-beta-bionics-inc---bbnx-302897515.html",
     "source": "PR Newswire - Technology",
@@ -3332,26 +3843,6 @@
       ]
     },
     "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 3, 2026 to file lead plaintiff applications in a securities class action lawsuit against Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\")..."
-  },
-  {
-    "title": "Hims & Hers Health Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Hims & Hers Health, Inc. - HIMS",
-    "url": "https://www.prnewswire.com/news-releases/hims--hers-health-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hims--hers-health-inc---hims-302897519.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 2, 2026 to file lead plaintiff applications in a securities class action lawsuit against Hims & Hers Health, Inc. (\"Hims\" or the \"Company\")...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Oct. 2, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 2, 2026 to file lead plaintiff applications in a securities class action lawsuit against Hims & Hers Health, Inc. (\"Hims\" or the \"Company\")..."
   },
   {
     "title": "DOCS Investors Have Opportunity to Lead Doximity, Inc. Securities Fraud Lawsuit",
@@ -3499,16 +3990,20 @@
     "summary": "SHANGHAI and HONG KONG, Oct. 2, 2026 /PRNewswire/ -- Antengene Corporation Limited (\"Antengene\", SEHK: 6996.HK), a leading innovative, commercial-stage global biotech company dedicated to discovering, developing and commercializing first-in-class and/or best-in-class medicines for..."
   },
   {
-    "title": "Uber Settles Background Check Sexual Assault Case Less Than 48 Hours After Jury Selection",
-    "url": "https://www.prnewswire.com/news-releases/uber-settles-background-check-sexual-assault-case-less-than-48-hours-after-jury-selection-302897577.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T00:13:00+00:00",
-    "raw_text": "Uber Stipulated the Assault Occurred; MDL Co-Leads Call on Company to Pursue Global Resolution for 5,000+ Survivors AUSTIN, Texas, Oct. 2, 2026 /PRNewswire/ -- Uber Technologies, Inc. has settled Jane Doe QLF 001 v. Uber Technologies, Inc. less than 48 hours after a jury was selected in...",
+    "title": "LEPAS Enters Romania: LEPAS L8 PHEV Officially Launches as First Flagship Store Opens",
+    "url": "https://www.globenewswire.com/news-release/2026/10/03/3374091/0/en/lepas-enters-romania-lepas-l8-phev-officially-launches-as-first-flagship-store-opens.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-03T08:47:00+00:00",
+    "raw_text": "WUHU, China, Oct. 03, 2026 (GLOBE NEWSWIRE) -- On September 30, LEPAS, Chery Auto's Premium NEV brand, launched the LEPAS L8 PHEV in Romania and opened its first flagship store in Sibiu, giving customers an experience of elegant mobility.",
     "categories": [
-      "Uncategorised"
+      "Industry & Market"
     ],
-    "matched_keywords": {},
-    "summary": "Uber Stipulated the Assault Occurred; MDL Co-Leads Call on Company to Pursue Global Resolution for 5,000+ Survivors AUSTIN, Texas, Oct. 2, 2026 /PRNewswire/ -- Uber Technologies, Inc. has settled Jane Doe QLF 001 v. Uber Technologies, Inc."
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "WUHU, China, Oct. 03, 2026 (GLOBE NEWSWIRE) -- On September 30, LEPAS, Chery Auto's Premium NEV brand, launched the LEPAS L8 PHEV in Romania and opened its first flagship store in Sibiu, giving customers an experience of elegant mobility."
   },
   {
     "title": "Geno Launches PassGo, Unveiling Malaysia’s Most Comprehensive Rewards Club for Car Owners",
@@ -3801,39 +4296,6 @@
     ],
     "matched_keywords": {},
     "summary": "BASports.com just won 10 straight College Football picks and is the sports handicapping GOAT. Every major AI search model agrees."
-  },
-  {
-    "title": "ALIF Holding Breaks Ground on Phase I of Umm Al Quwain Industrial Park",
-    "url": "https://www.globenewswire.com/news-release/2026/10/02/3373968/0/en/alif-holding-breaks-ground-on-phase-i-of-umm-al-quwain-industrial-park.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-02T17:51:00+00:00",
-    "raw_text": "UMM AL QUWAIN, United Arab Emirates, Oct. 02, 2026 (GLOBE NEWSWIRE) -- ALIF Holding, the industrial group of Robo.ai (Nasdaq: AIIO), held the groundbreaking ceremony for Phase I of the ALIF Holding Group Industrial Park in Umm Al Quwain on September 25.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "UMM AL QUWAIN, United Arab Emirates, Oct. 02, 2026 (GLOBE NEWSWIRE) -- ALIF Holding, the industrial group of Robo.ai (Nasdaq: AIIO), held the groundbreaking ceremony for Phase I of the ALIF Holding Group Industrial Park in Umm Al Quwain on September 25."
-  },
-  {
-    "title": "PwC Middle East and Google Cloud Launch AI Experience Zone in Saudi Arabia - TechAfrica News",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWnZKYnc5bmw1dHc1NmtWR2ZzTHNrVUlIcUwzb0lMZ0JwZzVsRzZDT0NrTEMwMjVVRl9IZGU0dllubkN2d0xVUTR6TzBWQU53VVo5LVJ4SklwX1lXT0FzaW9CeXlQQ3dMNUlMeHc5aVlPMWZxYUhaV3JRcE94NWs5QkxHaTFIWXFDaTRmbDBWYW9haFBoTF9Vc1VpN2FrN0xwaXZwVTFPRkdzM0l4Zmc?oc=5",
-    "source": "Google News: Consulting Firm Announcements",
-    "published": "2026-10-01T08:30:26+00:00",
-    "raw_text": "PwC Middle East and Google Cloud Launch AI Experience Zone in Saudi Arabia TechAfrica News",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud"
-      ],
-      "Industry & Market": [
-        "pwc"
-      ]
-    },
-    "summary": "PwC Middle East and Google Cloud Launch AI Experience Zone in Saudi Arabia TechAfrica News"
   },
   {
     "title": "Quorum Cyber to acquire Ontinue in Microsoft security deal - SecurityBrief Asia",
