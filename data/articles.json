@@ -167,43 +167,16 @@
     "summary": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The vulnerabilities are listed below - CVE-2026-63688 (CVSS score: 10.0) - A missing authentication for critical function vulnerability in the csm-authorization-storage gRPC server that an"
   },
   {
-    "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
-    "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
-    "source": "The Hacker News",
-    "published": "2026-10-02T12:23:15+00:00",
-    "raw_text": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" a spokesperson for the company was quoted as saying. \"Our investigation confirmed that these",
+    "title": "Anthropic asks Claude users to share voice data for AI model training",
+    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+    "source": "BleepingComputer",
+    "published": "2026-10-04T10:53:21+00:00",
+    "raw_text": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
     "categories": [
-      "Industry & Market"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported. \"We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information,\" a spokesperson for the company was quoted as saying. \"Our investigation confirmed that these"
-  },
-  {
-    "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-    "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-    "source": "The Hacker News",
-    "published": "2026-10-02T11:30:00+00:00",
-    "raw_text": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides. Then a board member asks three questions: How secure is the organization, overall? What is",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "security",
-        "siem",
-        "edr"
-      ]
-    },
-    "summary": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone is building a spreadsheet to reconcile them. Someone else is turning that spreadsheet into slides."
+    "matched_keywords": {},
+    "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]"
   },
   {
     "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
@@ -641,40 +614,6 @@
     "summary": "The dropper “carries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime. The post macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor appeared first on SecurityWeek ."
   },
   {
-    "title": "Crypto Scammers Hijack Microsoft’s Official X Account",
-    "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/",
-    "source": "SecurityWeek",
-    "published": "2026-10-02T11:46:10+00:00",
-    "raw_text": "Hackers used the account, which has 13 million followers, to amplify a Clippy-themed cryptocurrency account. The post Crypto Scammers Hijack Microsoft’s Official X Account appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker",
-        "security"
-      ]
-    },
-    "summary": "Hackers used the account, which has 13 million followers, to amplify a Clippy-themed cryptocurrency account. The post Crypto Scammers Hijack Microsoft’s Official X Account appeared first on SecurityWeek ."
-  },
-  {
-    "title": "In Rare Move, Alleged Iranian State Hacker Extradited to US",
-    "url": "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/",
-    "source": "SecurityWeek",
-    "published": "2026-10-02T11:14:34+00:00",
-    "raw_text": "Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad. The post In Rare Move, Alleged Iranian State Hacker Extradited to US appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker",
-        "security"
-      ]
-    },
-    "summary": "Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad. The post In Rare Move, Alleged Iranian State Hacker Extradited to US appeared first on SecurityWeek ."
-  },
-  {
     "title": "Microsoft: AI Cuts Post-Compromise Attack Time to Minutes",
     "url": "https://www.infosecurity-magazine.com/news/microsoft-ai-attack-time-minutes/",
     "source": "InfoSecurity Magazine",
@@ -811,7 +750,7 @@
     "url": "https://cloud.google.com/blog/products/databases/spanner-queues-provide-native-transactional-messaging/",
     "source": "Google Cloud Blog",
     "published": "2026-10-02T16:00:00+00:00",
-    "raw_text": "AI agents don't just answer queries — they can autonomously issue refunds, manage inventory, execute multi-step handoffs, and orchestrate sub-agents, to name but a few complex agentic workflows. That frequently requires the agents to maintain internal state in an operational database while dispatching asynchronous actions through a separate messaging or event queue system. And unfortunately for the teams building these applications, managing two systems with disjointed commit points destroys transactional consistency in agentic systems. Today, we are excited to announce the general availability of Spanner queues : native transactional messaging embedded directly within Spanner. Designed specifically for reliable agentic execution, with Spanner queues, creating a message is simply another write in your transaction. An agent's state change and intended downstream actions commit together atomically or fail completely. Compare this to traditional approaches: When a database state update succeeds, but the action dispatch fails, your AI agent decides to act but doesn’t execute. If the message dispatch succeeds but the state transaction rolls back, your agent executes an action based on an invalid state. In asynchronous multi-agent coordination, retries, speculation, and race conditions amplify these failures, forcing developers to build complex outbox patterns, idempotency layers, and reconciliation workers — a heavy reliability tax on agentic architecture. Key capabilities for agentic architectures Spanner queues introduces several core capabilities to support these complex asynchronous workflows without introducing infrastructure overhead. Atomic decide-and-act enqueue. Within a single Spanner read-write transaction, agents can update internal memory or state tables and enqueue tasks to peer agents simultaneously. Backed by Spanner's strict serializability and global external consistency, state changes and execution intent commit as a single atomic unit. Scheduled execution and delays. Queue messages can be dispatched immediately upon commit or scheduled for future delivery. Agentic patterns such as delayed retries, scheduled agent check-ins, or SLA escalation timers can be enqueued transactionally alongside memory updates without requiring external cron schedulers or polling infrastructure. Streaming SQL pull for agent workers. Autonomous agents consume tasks dynamically using streaming SQL reads. Agent runtimes stream incoming tasks, process them as capacity becomes available, and acknowledge task completion within a transaction to guarantee end-to-end task execution state reliability. Episodic memory persistence and handoffs. Agent memory updates — including long-term episodic summaries, reflective state transitions, and context handoffs across sub-agents — can be persisted asynchronously and transactionally via queues. This guarantees that an agent's internal memory remains fully synchronized with its execution history without blocking real-time interactive turns. Why Spanner queues are essential for autonomous agents Transactional exactly-once agent execution: When an agent evaluates tool call results, state modification, reasoning persistence, and downstream tool invocation tasks are saved in one transaction. We guarantee at-least-once delivery and at-most-once ACK, enabling you to achieve exactly-once processing. Robust multi-agent orchestration and handoffs: In multi-agent systems (A2A), handing off state from a primary agent to a specialist agent is represented as a durable, transactionally committed message. Specialist agent workers receive deliverable messages while maintaining a fully auditable lineage of agent interactions. First-class timeouts and human-in-the-loop workflows: Agent workflows frequently require pausing for human approvals or scheduled follow-ups. Spanner queues handles timeout management natively: A single transaction records the pending approval state and schedules an automated escalation message, resolving whichever triggers first. SQL-native observability for agent queues: Inspecting in-flight agent workloads, monitoring task backlogs, or auditing agent execution history can be accomplished with standard SQL queries over queue tables, avoiding opaque message-store black boxes. Beyond agentic workflows Beyond AI agents, Spanner queues serves as a flexible, multi-purpose messaging platform across a variety of traditional event-driven architectures. Whether powering real-time activity feeds in social applications, delivering live updates in news publishing, orchestrating order processing and inventory workflows in retail, or handling high-throughput asynchronous task processing and transaction notifications in financial services, Spanner queues provides a robust foundation for asynchronous message delivery and transactional event-driven workflows within your primary database. Under the hood: Transactional mechanics of Spanner queues Because Spanner queues are represented as first-class relational structures in Spanner, you define, inspect, and manage queues using familiar GoogleSQL. 1. Defining a queue and enqueuing atomically When an agent decides to approve a customer refund, it updates the Orders table and dispatches an execution task to the OrderAgentTasks queue within a single ACID transaction: code_block <ListValue: [StructValue([('code', '-- Assume parent table:\\r\\n-- CREATE TABLE Orders (\\r\\n-- OrderId STRING(64) NOT NULL, ...\\r\\n-- )\\r\\n-- PRIMARY KEY (OrderId);\\r\\n\\r\\n-- Define the transactional queue table\\r\\nCREATE QUEUE OrderAgentTasks (\\r\\n OrderId STRING(64) NOT NULL,\\r\\n TaskId STRING(64) NOT NULL,\\r\\n TaskType STRING(64) NOT NULL,\\r\\n Payload JSON NOT NULL\\r\\n) PRIMARY KEY (OrderId, TaskId, TaskType), INTERLEAVE IN Orders;\\r\\n\\r\\n-- Inside a Read-Write Transaction:\\r\\n-- 1. Update business state atomically\\r\\n\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = \\'REFUND_APPROVED\\',\\r\\n UpdatedAt = PENDING_COMMIT_TIMESTAMP()\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- 2. Enqueue the asynchronous agent action in the same transaction\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @taskId,\\r\\n \\'EXECUTE_REFUND\\',\\r\\n JSON \\'{\"action\": \"execute_refund\", \"amount\": 49.99}\\'\\r\\n);\\r\\n\\r\\n-- COMMIT;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f10445ac350>)])]> This ensures that the EXECUTE_REFUND task exists if and only if the order status successfully transitioned to REFUND_APPROVED . 2. Temporal scheduling and atomic cancellation For workflows that depend on time — such as waiting up to 72 hours for a manager's approval before escalating — agents populate the system DeliverTime column to defer message visibility: code_block <ListValue: [StructValue([('code', '-- Schedule an automated escalation check-in 72 hours in the future\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload, DeliverTime)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @escalationTaskId,\\r\\n \\'ESCALATE_UNAPPROVED_ORDER\\',\\r\\n JSON \\'{\"action\": \"escalate_to_supervisor\"}\\',\\r\\n TIMESTAMP_ADD(CURRENT_TIMESTAMP(), INTERVAL 72 HOUR)\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f10445afd90>)])]> If the manager approves the request after four hours, your application doesn't have to deal with phantom escalation alerts firing days later. In a single transaction, you update the order status and cancel the pending escalation task using a standard SQL DELETE : code_block <ListValue: [StructValue([('code', \"-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = 'MANAGER_APPROVED',\\r\\n ApprovedBy = @managerId\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- Atomically cancel the pending delayed escalation task. `ASSERT_ROWS_MODIFIED 1` will\\r\\n-- act as a safeguard and cause a statement level error.\\r\\n\\r\\n-- A statement level error can be captured and the transaction can be\\r\\n-- user-aborted/cancelled in case the queue entry was already deleted.\\r\\n-- Otherwise the transaction will complete successfully regardless if the \\r\\n-- queue entry still exists and you'll only know if a queue entry was deleted by\\r\\n-- checking the number of rows affected by the DELETE.\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @escalationTaskId\\r\\n AND TaskType = 'ESCALATE_UNAPPROVED_ORDER',\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f103fe65b10>)])]> 3. Streaming consumption, lease renewal, and atomic acknowledgment Downstream agent workers consume tasks using the RECEIVE_<QueueName> table-valued function (TVF) over a streaming SQL connection ( ExecuteStreamingSql ). Spanner automatically manages message leases, returning a unique SpannerLeaseToken and expiration timestamp with each leased task: code_block <ListValue: [StructValue([('code', \"-- Step 1: Consume tasks via a long-lived streaming SQL query\\r\\nSELECT\\r\\n OrderId,\\r\\n TaskId,\\r\\n TaskType,\\r\\n Payload,\\r\\n SpannerLeaseToken,\\r\\n SpannerLeaseExpirationTimestamp\\r\\nFROM RECEIVE_OrderAgentTasks(max_duration => '20m');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f103fe67b10>)])]> Because AI agent tasks often involve multi-turn LLM reasoning or external API calls that take longer than default lease windows, workers can actively extend their lease using the RENEWLEASE_<QueueName> function: code_block <ListValue: [StructValue([('code', '-- Step 2: Extend lease ownership during long-running agent execution\\r\\nSELECT *\\r\\nFROM RENEWLEASE_OrderAgentTasks(lease_tokens => [@leaseToken]);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f103fe67990>)])]> When the agent finishes executing its external tool (passing TaskId as the external API's idempotency key), it opens a read-write transaction to record the final state and acknowledge the message by deleting it with ASSERT_ROWS_MODIFIED 1 : code_block <ListValue: [StructValue([('code', \"-- Step 3: Atomically checkpoint agent results and ACK the message\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET RefundTransactionId = @externalRefundId,\\r\\n Status = 'REFUND_COMPLETED'\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @taskId\\r\\n AND TaskType = @taskType\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f103fe654d0>)])]> Using ASSERT_ROWS_MODIFIED 1 protects your system against lease-expiration races. If a worker stalled due to a network pause and its lease expired, another worker may have already processed and deleted the task. When the stalled worker resumes and attempts to execute the statement, ASSERT_ROWS_MODIFIED 1 detects that the queue row is already gone and throws a statement-level error. Catching that error and aborting that transaction prevents stale workers from overwriting newer database state. Spanner change streams vs. Spanner queues Spanner change streams capture database data changes (inserts, updates, and deletes) in near real-time for downstream integration and auditing. While both change streams and queues allow applications to react to data changes, Spanner change streams are designed for continuous change data capture (CDC) and data streaming to downstream analytics or storage. In contrast, Spanner queues are explicitly designed for transactional task orchestration, supporting native message leases, scheduled deliveries, SQL-based pulling, and atomic acknowledgments within read-write transactions. Get started Spanner provides a unified foundation for agentic data, combining relational, hybrid search, graph, and key-value capabilities under strict global consistency. Spanner queues completes the agentic loop by enabling agents to transition seamlessly from reasoning over data to executing transactional actions within a single unified platform. Spanner queues are now generally available. Sign up for the Spanner 90-day free trial and read up our public documentation to start building resilient, exactly-once agentic workloads by creating a queue table in your Spanner database today.",
+    "raw_text": "AI agents don't just answer queries — they can autonomously issue refunds, manage inventory, execute multi-step handoffs, and orchestrate sub-agents, to name but a few complex agentic workflows. That frequently requires the agents to maintain internal state in an operational database while dispatching asynchronous actions through a separate messaging or event queue system. And unfortunately for the teams building these applications, managing two systems with disjointed commit points destroys transactional consistency in agentic systems. Today, we are excited to announce the general availability of Spanner queues : native transactional messaging embedded directly within Spanner. Designed specifically for reliable agentic execution, with Spanner queues, creating a message is simply another write in your transaction. An agent's state change and intended downstream actions commit together atomically or fail completely. Compare this to traditional approaches: When a database state update succeeds, but the action dispatch fails, your AI agent decides to act but doesn’t execute. If the message dispatch succeeds but the state transaction rolls back, your agent executes an action based on an invalid state. In asynchronous multi-agent coordination, retries, speculation, and race conditions amplify these failures, forcing developers to build complex outbox patterns, idempotency layers, and reconciliation workers — a heavy reliability tax on agentic architecture. Key capabilities for agentic architectures Spanner queues introduces several core capabilities to support these complex asynchronous workflows without introducing infrastructure overhead. Atomic decide-and-act enqueue. Within a single Spanner read-write transaction, agents can update internal memory or state tables and enqueue tasks to peer agents simultaneously. Backed by Spanner's strict serializability and global external consistency, state changes and execution intent commit as a single atomic unit. Scheduled execution and delays. Queue messages can be dispatched immediately upon commit or scheduled for future delivery. Agentic patterns such as delayed retries, scheduled agent check-ins, or SLA escalation timers can be enqueued transactionally alongside memory updates without requiring external cron schedulers or polling infrastructure. Streaming SQL pull for agent workers. Autonomous agents consume tasks dynamically using streaming SQL reads. Agent runtimes stream incoming tasks, process them as capacity becomes available, and acknowledge task completion within a transaction to guarantee end-to-end task execution state reliability. Episodic memory persistence and handoffs. Agent memory updates — including long-term episodic summaries, reflective state transitions, and context handoffs across sub-agents — can be persisted asynchronously and transactionally via queues. This guarantees that an agent's internal memory remains fully synchronized with its execution history without blocking real-time interactive turns. Why Spanner queues are essential for autonomous agents Transactional exactly-once agent execution: When an agent evaluates tool call results, state modification, reasoning persistence, and downstream tool invocation tasks are saved in one transaction. We guarantee at-least-once delivery and at-most-once ACK, enabling you to achieve exactly-once processing. Robust multi-agent orchestration and handoffs: In multi-agent systems (A2A), handing off state from a primary agent to a specialist agent is represented as a durable, transactionally committed message. Specialist agent workers receive deliverable messages while maintaining a fully auditable lineage of agent interactions. First-class timeouts and human-in-the-loop workflows: Agent workflows frequently require pausing for human approvals or scheduled follow-ups. Spanner queues handles timeout management natively: A single transaction records the pending approval state and schedules an automated escalation message, resolving whichever triggers first. SQL-native observability for agent queues: Inspecting in-flight agent workloads, monitoring task backlogs, or auditing agent execution history can be accomplished with standard SQL queries over queue tables, avoiding opaque message-store black boxes. Beyond agentic workflows Beyond AI agents, Spanner queues serves as a flexible, multi-purpose messaging platform across a variety of traditional event-driven architectures. Whether powering real-time activity feeds in social applications, delivering live updates in news publishing, orchestrating order processing and inventory workflows in retail, or handling high-throughput asynchronous task processing and transaction notifications in financial services, Spanner queues provides a robust foundation for asynchronous message delivery and transactional event-driven workflows within your primary database. Under the hood: Transactional mechanics of Spanner queues Because Spanner queues are represented as first-class relational structures in Spanner, you define, inspect, and manage queues using familiar GoogleSQL. 1. Defining a queue and enqueuing atomically When an agent decides to approve a customer refund, it updates the Orders table and dispatches an execution task to the OrderAgentTasks queue within a single ACID transaction: code_block <ListValue: [StructValue([('code', '-- Assume parent table:\\r\\n-- CREATE TABLE Orders (\\r\\n-- OrderId STRING(64) NOT NULL, ...\\r\\n-- )\\r\\n-- PRIMARY KEY (OrderId);\\r\\n\\r\\n-- Define the transactional queue table\\r\\nCREATE QUEUE OrderAgentTasks (\\r\\n OrderId STRING(64) NOT NULL,\\r\\n TaskId STRING(64) NOT NULL,\\r\\n TaskType STRING(64) NOT NULL,\\r\\n Payload JSON NOT NULL\\r\\n) PRIMARY KEY (OrderId, TaskId, TaskType), INTERLEAVE IN Orders;\\r\\n\\r\\n-- Inside a Read-Write Transaction:\\r\\n-- 1. Update business state atomically\\r\\n\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = \\'REFUND_APPROVED\\',\\r\\n UpdatedAt = PENDING_COMMIT_TIMESTAMP()\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- 2. Enqueue the asynchronous agent action in the same transaction\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @taskId,\\r\\n \\'EXECUTE_REFUND\\',\\r\\n JSON \\'{\"action\": \"execute_refund\", \"amount\": 49.99}\\'\\r\\n);\\r\\n\\r\\n-- COMMIT;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738ad28d0>)])]> This ensures that the EXECUTE_REFUND task exists if and only if the order status successfully transitioned to REFUND_APPROVED . 2. Temporal scheduling and atomic cancellation For workflows that depend on time — such as waiting up to 72 hours for a manager's approval before escalating — agents populate the system DeliverTime column to defer message visibility: code_block <ListValue: [StructValue([('code', '-- Schedule an automated escalation check-in 72 hours in the future\\r\\nINSERT INTO OrderAgentTasks (OrderId, TaskId, TaskType, Payload, DeliverTime)\\r\\nVALUES (\\r\\n @orderId,\\r\\n @escalationTaskId,\\r\\n \\'ESCALATE_UNAPPROVED_ORDER\\',\\r\\n JSON \\'{\"action\": \"escalate_to_supervisor\"}\\',\\r\\n TIMESTAMP_ADD(CURRENT_TIMESTAMP(), INTERVAL 72 HOUR)\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738ad3610>)])]> If the manager approves the request after four hours, your application doesn't have to deal with phantom escalation alerts firing days later. In a single transaction, you update the order status and cancel the pending escalation task using a standard SQL DELETE : code_block <ListValue: [StructValue([('code', \"-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET Status = 'MANAGER_APPROVED',\\r\\n ApprovedBy = @managerId\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\n-- Atomically cancel the pending delayed escalation task. `ASSERT_ROWS_MODIFIED 1` will\\r\\n-- act as a safeguard and cause a statement level error.\\r\\n\\r\\n-- A statement level error can be captured and the transaction can be\\r\\n-- user-aborted/cancelled in case the queue entry was already deleted.\\r\\n-- Otherwise the transaction will complete successfully regardless if the \\r\\n-- queue entry still exists and you'll only know if a queue entry was deleted by\\r\\n-- checking the number of rows affected by the DELETE.\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @escalationTaskId\\r\\n AND TaskType = 'ESCALATE_UNAPPROVED_ORDER',\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738ad2a10>)])]> 3. Streaming consumption, lease renewal, and atomic acknowledgment Downstream agent workers consume tasks using the RECEIVE_<QueueName> table-valued function (TVF) over a streaming SQL connection ( ExecuteStreamingSql ). Spanner automatically manages message leases, returning a unique SpannerLeaseToken and expiration timestamp with each leased task: code_block <ListValue: [StructValue([('code', \"-- Step 1: Consume tasks via a long-lived streaming SQL query\\r\\nSELECT\\r\\n OrderId,\\r\\n TaskId,\\r\\n TaskType,\\r\\n Payload,\\r\\n SpannerLeaseToken,\\r\\n SpannerLeaseExpirationTimestamp\\r\\nFROM RECEIVE_OrderAgentTasks(max_duration => '20m');\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738ad3890>)])]> Because AI agent tasks often involve multi-turn LLM reasoning or external API calls that take longer than default lease windows, workers can actively extend their lease using the RENEWLEASE_<QueueName> function: code_block <ListValue: [StructValue([('code', '-- Step 2: Extend lease ownership during long-running agent execution\\r\\nSELECT *\\r\\nFROM RENEWLEASE_OrderAgentTasks(lease_tokens => [@leaseToken]);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738ad36d0>)])]> When the agent finishes executing its external tool (passing TaskId as the external API's idempotency key), it opens a read-write transaction to record the final state and acknowledge the message by deleting it with ASSERT_ROWS_MODIFIED 1 : code_block <ListValue: [StructValue([('code', \"-- Step 3: Atomically checkpoint agent results and ACK the message\\r\\n-- BEGIN TRANSACTION;\\r\\n\\r\\nUPDATE Orders\\r\\nSET RefundTransactionId = @externalRefundId,\\r\\n Status = 'REFUND_COMPLETED'\\r\\nWHERE OrderId = @orderId;\\r\\n\\r\\nDELETE FROM OrderAgentTasks\\r\\nWHERE OrderId = @orderId\\r\\n AND TaskId = @taskId\\r\\n AND TaskType = @taskType\\r\\nASSERT_ROWS_MODIFIED 1;\\r\\n\\r\\n-- COMMIT;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738ad0250>)])]> Using ASSERT_ROWS_MODIFIED 1 protects your system against lease-expiration races. If a worker stalled due to a network pause and its lease expired, another worker may have already processed and deleted the task. When the stalled worker resumes and attempts to execute the statement, ASSERT_ROWS_MODIFIED 1 detects that the queue row is already gone and throws a statement-level error. Catching that error and aborting that transaction prevents stale workers from overwriting newer database state. Spanner change streams vs. Spanner queues Spanner change streams capture database data changes (inserts, updates, and deletes) in near real-time for downstream integration and auditing. While both change streams and queues allow applications to react to data changes, Spanner change streams are designed for continuous change data capture (CDC) and data streaming to downstream analytics or storage. In contrast, Spanner queues are explicitly designed for transactional task orchestration, supporting native message leases, scheduled deliveries, SQL-based pulling, and atomic acknowledgments within read-write transactions. Get started Spanner provides a unified foundation for agentic data, combining relational, hybrid search, graph, and key-value capabilities under strict global consistency. Spanner queues completes the agentic loop by enabling agents to transition seamlessly from reasoning over data to executing transactional actions within a single unified platform. Spanner queues are now generally available. Sign up for the Spanner 90-day free trial and read up our public documentation to start building resilient, exactly-once agentic workloads by creating a queue table in your Spanner database today.",
     "categories": [
       "Networks",
       "Cybersecurity",
@@ -844,7 +783,7 @@
     "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-cpu-startup-boost-faster-pod-starts-lower-costs/",
     "source": "Google Cloud Blog",
     "published": "2026-10-02T16:00:00+00:00",
-    "raw_text": "Whether you’re launching microservices in response to sudden traffic spikes, deploying new software releases, or scaling up application replicas, pod startup time is critical to maintaining a fast, responsive user experience for applications running on Google Kubernetes Engine (GKE). Yet, platform engineers and developers face a persistent dilemma: Applications often demand significantly more CPU power during startup than they do during steady-state operations. Sizing CPU requests for normal, steady-state usage leads to CPU throttling during launch, which can result in sluggish cold starts and readiness probe timeouts. On the flip side, over-provisioning baseline CPU requests to satisfy short-lived startup bursts wastes valuable compute resources, inflating infrastructure bills. Today, we are excited to announce CPU startup boost for GKE in preview. Integrated directly into GKE's Vertical Pod Autoscaler (VPA), CPU startup boost dynamically elevates a container's CPU allocation during initialization and seamlessly scales it back to baseline steady-state levels once the application is ready - all without restarting your containers. Why modern applications need extra CPU at boot time When a new container launches, it may perform intensive initialization tasks before it begins serving user requests. Depending on your tech stack, the following startup workloads require substantial CPU cycles: Java JVM applications : Frameworks like Spring Boot require high CPU burst capacity for class loading, classpath scanning, instantiating dependency injection containers, and running Just-in-Time (JIT) compilation. Node.js servers : Apps parse JavaScript files, build complex module dependency trees ( require / import ), and execute V8 engine optimization and JIT compilation passes during initial execution. Python and AI/ML microservices : These services spend initial cycles importing heavy libraries (such as PyTorch, NumPy, or LangChain), compiling .pyc bytecode, establishing ORM database schemas, and pre-loading cache structures. If you size CPU requests strictly for steady-state performance, these initialization workloads experience CPU throttling on launch, delaying readiness probes. To prevent slow cold starts, teams frequently overprovision CPU requests. However, once the application stabilizes, those extra CPU resources sit idle, increasing your cloud spend without adding value. How CPU startup boost can help CPU Startup Boost solves this by giving your workloads temporary vCPU \"boosts\" during launch, and automatically returning them to baseline once initialization completes. Key benefits: Faster cold starts : Reduce application initialization times by up to 2x , accelerating auto-scaling responsiveness during unexpected traffic surges. Optimized cloud spend : Right-size steady-state CPU requests to fit actual runtime needs rather than paying for idle startup headroom. Zero pod restarts : Dynamic resource resizing happens live inside the running container. Flexible policy controls : Apply simple pod-level multiplier factors (e.g., 2x CPU during startup) or define granular, container-specific rules for complex multi-container pods. Under the hood: Kubernetes In-place Pod Resize Historically, changing a pod's resource requests or limits required deleting and recreating the pod. This disruptive process triggered container restarts, cache invalidation, and node rescheduling overhead. To fix that, CPU startup boost builds on Kubernetes In-place Pod Resize (IPPR) . Tracked under KEP-1287 , IPPR introduced dynamic, in-place resource mutation. Introduced as Alpha in Kubernetes 1.27, promoted to Beta in v1.33, and graduating to General Availability (GA) in v1.35, IPPR allows the Kubernetes control plane and kubelet to update container CPU and memory requests on running pods without restarting the container process . GKE leverages IPPR within the VPA to apply startup CPU boosts at pod admission and smoothly step them down post-readiness. How CPU startup boost works (pod lifecycle overview) CPU startup boost operates across three distinct phases: Admission phase : When you deploy a pod, the VPA admission webhook intercepts the creation request. It calculates the elevated CPU request based on your policy (e.g., 2x multiplier or +2 vCPUs) and injects the boosted CPU request along with tracking annotations into the pod spec. Startup phase : The pod is scheduled and initialized with the boosted CPU allocation. Your application completes class loading, JIT compilation, or module parsing at top speed without experiencing CPU throttling. Unboosting phase : As soon as the pod's readinessProbe passes (plus any configured durationSeconds cooldown delay), the VPA updater issues an in-place resize request. The CPU request steps back down to your baseline level while the container continues running uninterrupted. Prerequisites and availability CPU startup boost is available today in preview on GKE: GKE version : Version 1.36.0-gke.4447000 or later on Standard and Autopilot clusters. Cluster Modes : Enabled natively on GKE Autopilot (VPA is active by default). On GKE Standard, simply ensure Vertical Pod Autoscaling (VPA) is enabled. Workload Support : Works with standard Kubernetes controllers, including Deployments and StatefulSets. Getting started: Configuring CPU startup boost Configuring CPU startup boost is as simple as adding a startupBoost section to your VerticalPodAutoscaler manifest. Example 1: Pod-level boost with fixed steady-state ( updateMode: \"Off\" ) If you want to use VPA purely for startup boost while keeping steady-state CPU requests locked to your manifest definitions, set updateMode to \"Off\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: java-app-startup-boost\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: java-app\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 2\\r\\n durationSeconds: 10'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1044202410>)])]> In this example, GKE doubles the container's CPU request during launch and holds the boosted allocation for 10 seconds after readiness probes pass before scaling back to baseline. Example 2: Combining startup boost with continuous VPA auto-scaling If you want GKE to boost CPU during launch and continuously optimize steady-state resources post-startup, set updateMode to \"InPlaceOrRecreate\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: nodejs-app-vpa\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: nodejs-service\\r\\n updatePolicy:\\r\\n updateMode: \"InPlaceOrRecreate\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 3\\r\\n durationSeconds: 15'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1044202b50>)])]> Example 3: Granular container-level boost For pods running sidecars (such as logging agents or service mesh proxies) that do not require extra CPU on boot, target specific app containers: code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: app-container-boost\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: API-gateway\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n resourcePolicy:\\r\\n containerPolicies:\\r\\n - containerName: \"web-app\"\\r\\n mode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Quantity\"\\r\\n quantity: \"2\"\\r\\n durationSeconds: 5'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1044201510>)])]> Verifying startup boost in your cluster You can verify that GKE applied and downscaled the startup boost using kubectl : 1. Inspect pod annotations : Check for the vpaCpuStartupBoost tracking annotation: code_block <ListValue: [StructValue([('code', 'kubectl get pod <POD_NAME> -o yaml'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f1044201dd0>)])]> Look for annotations indicating the original baseline and boosted CPU requests. 2. Monitor in-place resize events : Confirm that GKE downscaled the CPU request back to baseline after readiness: code_block <ListValue: [StructValue([('code', 'kubectl get events --field-selector reason=InPlaceResizedByVPA'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f103fe65610>)])]> An event with reason=InPlaceResizedByVPA confirms successful in-place downscaling post-startup. Best practices for production workloads Pairing with Horizontal Pod Autoscaler (HPA) : When using HPA alongside CPU startup boost, ensure a robust readinessProbe is defined and keep durationSeconds short (e.g., 0s – 10s ). This prevents HPA from falsely interpreting initialization CPU spikes as high steady-state load. Handle traffic spikes with GKE capacity buffers API : By reducing the startup tax at scale, you can achieve higher workload density on fewer nodes to improve overall utilization. Consider adopting the GKE capacity buffers API to absorb sudden traffic surges with minimal operational overhead while maintaining strict SLOs. GKE Autopilot resource ratios : On GKE Autopilot, remember that pods must maintain valid CPU-to-memory ratios. Ensure baseline memory allocations accommodate the boosted CPU ratio during startup. Get started today CPU startup boost gives GKE users the best of both worlds: lightning-fast cold starts for CPU-intensive workloads like Java, Node.js, and Python, paired with maximum resource efficiency and lower cloud costs. Ready to accelerate your GKE workloads? Explore the GKE CPU startup boost documentation . Learn more about Vertical Pod Autoscaling on GKE . Try CPU startup boost on your GKE Standard or Autopilot clusters running GKE 1.36.0-gke.4447000 or later!",
+    "raw_text": "Whether you’re launching microservices in response to sudden traffic spikes, deploying new software releases, or scaling up application replicas, pod startup time is critical to maintaining a fast, responsive user experience for applications running on Google Kubernetes Engine (GKE). Yet, platform engineers and developers face a persistent dilemma: Applications often demand significantly more CPU power during startup than they do during steady-state operations. Sizing CPU requests for normal, steady-state usage leads to CPU throttling during launch, which can result in sluggish cold starts and readiness probe timeouts. On the flip side, over-provisioning baseline CPU requests to satisfy short-lived startup bursts wastes valuable compute resources, inflating infrastructure bills. Today, we are excited to announce CPU startup boost for GKE in preview. Integrated directly into GKE's Vertical Pod Autoscaler (VPA), CPU startup boost dynamically elevates a container's CPU allocation during initialization and seamlessly scales it back to baseline steady-state levels once the application is ready - all without restarting your containers. Why modern applications need extra CPU at boot time When a new container launches, it may perform intensive initialization tasks before it begins serving user requests. Depending on your tech stack, the following startup workloads require substantial CPU cycles: Java JVM applications : Frameworks like Spring Boot require high CPU burst capacity for class loading, classpath scanning, instantiating dependency injection containers, and running Just-in-Time (JIT) compilation. Node.js servers : Apps parse JavaScript files, build complex module dependency trees ( require / import ), and execute V8 engine optimization and JIT compilation passes during initial execution. Python and AI/ML microservices : These services spend initial cycles importing heavy libraries (such as PyTorch, NumPy, or LangChain), compiling .pyc bytecode, establishing ORM database schemas, and pre-loading cache structures. If you size CPU requests strictly for steady-state performance, these initialization workloads experience CPU throttling on launch, delaying readiness probes. To prevent slow cold starts, teams frequently overprovision CPU requests. However, once the application stabilizes, those extra CPU resources sit idle, increasing your cloud spend without adding value. How CPU startup boost can help CPU Startup Boost solves this by giving your workloads temporary vCPU \"boosts\" during launch, and automatically returning them to baseline once initialization completes. Key benefits: Faster cold starts : Reduce application initialization times by up to 2x , accelerating auto-scaling responsiveness during unexpected traffic surges. Optimized cloud spend : Right-size steady-state CPU requests to fit actual runtime needs rather than paying for idle startup headroom. Zero pod restarts : Dynamic resource resizing happens live inside the running container. Flexible policy controls : Apply simple pod-level multiplier factors (e.g., 2x CPU during startup) or define granular, container-specific rules for complex multi-container pods. Under the hood: Kubernetes In-place Pod Resize Historically, changing a pod's resource requests or limits required deleting and recreating the pod. This disruptive process triggered container restarts, cache invalidation, and node rescheduling overhead. To fix that, CPU startup boost builds on Kubernetes In-place Pod Resize (IPPR) . Tracked under KEP-1287 , IPPR introduced dynamic, in-place resource mutation. Introduced as Alpha in Kubernetes 1.27, promoted to Beta in v1.33, and graduating to General Availability (GA) in v1.35, IPPR allows the Kubernetes control plane and kubelet to update container CPU and memory requests on running pods without restarting the container process . GKE leverages IPPR within the VPA to apply startup CPU boosts at pod admission and smoothly step them down post-readiness. How CPU startup boost works (pod lifecycle overview) CPU startup boost operates across three distinct phases: Admission phase : When you deploy a pod, the VPA admission webhook intercepts the creation request. It calculates the elevated CPU request based on your policy (e.g., 2x multiplier or +2 vCPUs) and injects the boosted CPU request along with tracking annotations into the pod spec. Startup phase : The pod is scheduled and initialized with the boosted CPU allocation. Your application completes class loading, JIT compilation, or module parsing at top speed without experiencing CPU throttling. Unboosting phase : As soon as the pod's readinessProbe passes (plus any configured durationSeconds cooldown delay), the VPA updater issues an in-place resize request. The CPU request steps back down to your baseline level while the container continues running uninterrupted. Prerequisites and availability CPU startup boost is available today in preview on GKE: GKE version : Version 1.36.0-gke.4447000 or later on Standard and Autopilot clusters. Cluster Modes : Enabled natively on GKE Autopilot (VPA is active by default). On GKE Standard, simply ensure Vertical Pod Autoscaling (VPA) is enabled. Workload Support : Works with standard Kubernetes controllers, including Deployments and StatefulSets. Getting started: Configuring CPU startup boost Configuring CPU startup boost is as simple as adding a startupBoost section to your VerticalPodAutoscaler manifest. Example 1: Pod-level boost with fixed steady-state ( updateMode: \"Off\" ) If you want to use VPA purely for startup boost while keeping steady-state CPU requests locked to your manifest definitions, set updateMode to \"Off\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: java-app-startup-boost\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: java-app\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 2\\r\\n durationSeconds: 10'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738b2f3d0>)])]> In this example, GKE doubles the container's CPU request during launch and holds the boosted allocation for 10 seconds after readiness probes pass before scaling back to baseline. Example 2: Combining startup boost with continuous VPA auto-scaling If you want GKE to boost CPU during launch and continuously optimize steady-state resources post-startup, set updateMode to \"InPlaceOrRecreate\" : code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: nodejs-app-vpa\\r\\n namespace: default\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: nodejs-service\\r\\n updatePolicy:\\r\\n updateMode: \"InPlaceOrRecreate\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Factor\"\\r\\n factor: 3\\r\\n durationSeconds: 15'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738c48550>)])]> Example 3: Granular container-level boost For pods running sidecars (such as logging agents or service mesh proxies) that do not require extra CPU on boot, target specific app containers: code_block <ListValue: [StructValue([('code', 'apiVersion: \"autoscaling.k8s.io/v1\"\\r\\nkind: VerticalPodAutoscaler\\r\\nmetadata:\\r\\n name: app-container-boost\\r\\nspec:\\r\\n targetRef:\\r\\n apiVersion: \"apps/v1\"\\r\\n kind: Deployment\\r\\n name: API-gateway\\r\\n updatePolicy:\\r\\n updateMode: \"Off\"\\r\\n resourcePolicy:\\r\\n containerPolicies:\\r\\n - containerName: \"web-app\"\\r\\n mode: \"Off\"\\r\\n startupBoost:\\r\\n cpu:\\r\\n type: \"Quantity\"\\r\\n quantity: \"2\"\\r\\n durationSeconds: 5'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738c48810>)])]> Verifying startup boost in your cluster You can verify that GKE applied and downscaled the startup boost using kubectl : 1. Inspect pod annotations : Check for the vpaCpuStartupBoost tracking annotation: code_block <ListValue: [StructValue([('code', 'kubectl get pod <POD_NAME> -o yaml'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738c4b1d0>)])]> Look for annotations indicating the original baseline and boosted CPU requests. 2. Monitor in-place resize events : Confirm that GKE downscaled the CPU request back to baseline after readiness: code_block <ListValue: [StructValue([('code', 'kubectl get events --field-selector reason=InPlaceResizedByVPA'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f5738c67b50>)])]> An event with reason=InPlaceResizedByVPA confirms successful in-place downscaling post-startup. Best practices for production workloads Pairing with Horizontal Pod Autoscaler (HPA) : When using HPA alongside CPU startup boost, ensure a robust readinessProbe is defined and keep durationSeconds short (e.g., 0s – 10s ). This prevents HPA from falsely interpreting initialization CPU spikes as high steady-state load. Handle traffic spikes with GKE capacity buffers API : By reducing the startup tax at scale, you can achieve higher workload density on fewer nodes to improve overall utilization. Consider adopting the GKE capacity buffers API to absorb sudden traffic surges with minimal operational overhead while maintaining strict SLOs. GKE Autopilot resource ratios : On GKE Autopilot, remember that pods must maintain valid CPU-to-memory ratios. Ensure baseline memory allocations accommodate the boosted CPU ratio during startup. Get started today CPU startup boost gives GKE users the best of both worlds: lightning-fast cold starts for CPU-intensive workloads like Java, Node.js, and Python, paired with maximum resource efficiency and lower cloud costs. Ready to accelerate your GKE workloads? Explore the GKE CPU startup boost documentation . Learn more about Vertical Pod Autoscaling on GKE . Try CPU startup boost on your GKE Standard or Autopilot clusters running GKE 1.36.0-gke.4447000 or later!",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1362,86 +1301,6 @@
     "summary": "And why there's constraints to overcome in order to meet AI workload demands"
   },
   {
-    "title": "Enetron Park announces zoning approval for 250MW data center in Pyhäjoki, Finland, despite local government denial",
-    "url": "https://www.datacenterdynamics.com/en/news/enetron-park-announces-zoning-approval-for-250mw-data-center-in-pyh%C3%A4joki-finland-despite-local-government-denial/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-02T12:28:41+00:00",
-    "raw_text": "Announcement at odds with government decision",
-    "categories": [
-      "Networks",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "data center"
-      ],
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Announcement at odds with government decision"
-  },
-  {
-    "title": "Sharon AI and Lambda secure GPU-backed debt funding",
-    "url": "https://www.datacenterdynamics.com/en/news/sharon-ai-and-lambda-secure-gpu-backed-debt-funding/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-02T12:14:36+00:00",
-    "raw_text": "Combined, the two neoclouds have raised $1.356bn",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Industry & Market": [
-        "funding"
-      ]
-    },
-    "summary": "Combined, the two neoclouds have raised $1.356bn"
-  },
-  {
-    "title": "Zella DC launches stackable micro data center boxes",
-    "url": "https://www.datacenterdynamics.com/en/news/zella-dc-launches-stackable-micro-data-center-boxes/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-02T12:12:27+00:00",
-    "raw_text": "Company makes its micro DC offering even smaller",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Company makes its micro DC offering even smaller"
-  },
-  {
-    "title": "Skybox & Prologis file for fourth data center in Hutto, Texas",
-    "url": "https://www.datacenterdynamics.com/en/news/skybox-prologis-file-for-fourth-data-center-in-hutto-texas/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-02T12:08:57+00:00",
-    "raw_text": "Set to be largest facility yet at the campus",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Set to be largest facility yet at the campus"
-  },
-  {
     "title": "Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care",
     "url": "https://www.theregister.com/software/2026/10/04/revive-raskins-3-laws-of-software-with-humane-work-that-considers-a-devs-duty-of-care/5300539",
     "source": "The Register",
@@ -1670,146 +1529,6 @@
     "summary": "Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price"
   },
   {
-    "title": "Excel Canvas offers to turn your workbook into the boss's next report",
-    "url": "https://www.theregister.com/software/2026/10/02/excel-canvas-offers-to-turn-your-workbook-into-the-bosss-next-report/5300812",
-    "source": "The Register",
-    "published": "2026-10-02T12:27:00+00:00",
-    "raw_text": "Copilot builds charts and metrics from spreadsheet data, with automatic refreshes when the numbers change",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Copilot builds charts and metrics from spreadsheet data, with automatic refreshes when the numbers change"
-  },
-  {
-    "title": "Teen suspected of running KillSec ransomware group as cops seize servers, arrest three",
-    "url": "https://www.theregister.com/cyber-crime/2026/10/02/teen-suspected-of-running-killsec-ransomware-group-as-cops-seize-servers-arrest-three/5300784",
-    "source": "The Register",
-    "published": "2026-10-02T11:43:35+00:00",
-    "raw_text": "Operation KillSwitch takes over leak site holding at least 110 TB of stolen data",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware"
-      ]
-    },
-    "summary": "Operation KillSwitch takes over leak site holding at least 110 TB of stolen data"
-  },
-  {
-    "title": "Once a $35 computer, the 2 GB Raspberry Pi 4 now costs $67.50",
-    "url": "https://www.theregister.com/personal-tech/2026/10/02/once-a-35-computer-the-2-gb-raspberry-pi-4-now-costs-6750/5300774",
-    "source": "The Register",
-    "published": "2026-10-02T11:20:00+00:00",
-    "raw_text": "Pi 5 also gets a $12.50 bump as customers urged to consider older models or less RAM",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Pi 5 also gets a $12.50 bump as customers urged to consider older models or less RAM"
-  },
-  {
-    "title": "Fortinet sounds the alarm over actively exploited FortiMail zero-day",
-    "url": "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803",
-    "source": "The Register",
-    "published": "2026-10-02T10:53:49+00:00",
-    "raw_text": "No login required, exploitation underway, and some admins are still waiting for patches",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "zero-day",
-        "exploit"
-      ]
-    },
-    "summary": "No login required, exploitation underway, and some admins are still waiting for patches"
-  },
-  {
-    "title": "UK and Europe at risk from Chinese tech, says security think tank",
-    "url": "https://www.computerweekly.com/news/366651406/UK-and-Europe-at-risk-from-Chinese-tech-says-security-think-tank",
-    "source": "ComputerWeekly",
-    "published": "2026-10-02T12:00:00+00:00",
-    "raw_text": "<p>European telecoms and computer infrastructure is vulnerable to hostile state interference with Chinese equipment suppliers such as Huawei and ZTE deeply embedded in parts of Europe’s networks, a research report claims.</p> <p>The <a href=\"https://www.rusi.org/explore-our-research/publications/research-papers/high-risk-ict-vendors-and-critical-infrastructure-european-approaches\">study</a> by defence and security think tank Rusi warns that Europe’s patchwork approach to assessing risks from equipment suppliers means the security of critical national infrastructure is at risk from espionage and cyber attacks.</p> <p>The report comes after a warning from MI5 that China’s Ministry of State Security is using a front company to fund research at UK universities, allowing it to gain access to technology that could pose a threat to the UK’s national security.</p> <p>According to Rusi, the lack of agreement over what constitutes a high-risk ICT supplier has resulted in an inconsistent approach in Europe and the UK to Chinese suppliers, with many governments lacking basic information about what equipment is used in their networks.</p> <p>This has led to widely different approaches by countries to using Chinese components in critical infrastructure, with Chinese suppliers accounting for nearly 60% of Germany’s 5G radio access network, compared with 30% in Spain and only 20% in the UK.</p> <p>Spain, for example, awarded Chinese telecoms company Huawei a €12m contract for its OceanStor cloud storage servers, which were used to store recordings of judicial wiretaps.</p> <p>The deal alarmed <a href=\"https://www.cotton.senate.gov/imo/media/doc/gabbard_cottoncrawford_17jul25.pdf\">US lawmakers</a>, who last year raised concerns that the Chinese government could gain access to highly sensitive data, including the ability to monitor Spanish investigations into Chinese spies.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\"><a id=\"securityrisks\"></a>Security risks posed by China</h3> <p>China’s National Intelligence and Counter-Espionage laws require private companies to supply data to the state on request.</p> <p>There is deep coordination between Chinese businesses and the state, with Chinese firms legally required to host representatives of the Chinese Communist Party (CCP) on their premises.</p> <p>China also compels companies operating in the country to report software flaws to the Ministry of Industry and Information Technology within 48 hours of their discovery, while prohibiting their disclosure outside of the country.</p> <p>This gives China’s intelligence services early and privileged access to vulnerabilities that can be exploited by the state to hack into western companies and governments.</p> <p style=\"text-align: right;\"><em>Source: Rusi</em></p> </div> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Security vulnerabilities\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Security vulnerabilities</h2> <p>National security legislation in China enables Chinese authorities to control technology suppliers, such as telecoms supplier Huawei. It also provides a mechanism for the Chinese government to harvest security vulnerabilities that <a href=\"https://www.consilium.europa.eu/en/press/press-releases/2026/03/16/cyber-attacks-against-the-eu-and-its-member-states-council-sanctions-three-entities-and-two-individuals/\">could be used to launch hacking attacks</a> (<em>see box: <a href=\"#securityrisks\">Security risks posed by China</a></em>). There are also concerns that Chinese companies could withhold updates or maintenance for key services during political crises or conflict.</p> <p>The report urges the UK to introduce legislation to protect the wider critical national infrastructure beyond telecoms and public sector procurement to give government powers to restrict the use of technology that could pose a risk more widely.</p> <p>The UK has blocked Huawei from the 5G network and Chinese video camera suppliers from use by government departments, but has so far not intervened to assess and remove high-risk suppliers from other parts of the critical national infrastructure.</p> <p>An <a href=\"https://www.computerweekly.com/news/366649781/UK-government-set-to-adjudicate-on-risky-tech-purchases\">amendment to the Cyber Security and Resilience Bill</a>, if passed, will give the government powers to ban technology suppliers on national security grounds, without having to publicly designate the supplier as a national security risk.</p> <p>Across Europe, the report identifies a gap between legislative ambition to restrict components that may cause a security risk and the implementation of measures to limit the deployment of Chinese technology in critical applications.</p> <p>“Closing that gap will require not only stronger laws but also deeper institutional capacity, greater economic courage and a willingness to treat technology procurement as an instrument of strategic policy rather than a compliance exercise,” the report states.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MI5 warning to universities\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MI5 warning to universities</h2> <p>Rusi’s report follows a warning by MI5 that more than 100 UK-linked academics have received funding from a research institute with strong ties to China’s Ministry of State Security.</p> <p>UK academics have contributed to projects funded by the China General Technology Research Institute (CGTRI) on artificial intelligence, cyber security, covert communications systems and steganography, which actively support Chinese espionage.</p> <p>Academics could be subject to criminal consequences under the National Security Act 2023 if they knowingly materially assisted a foreign intelligence service, or ought reasonably to have known they were doing so, according to the <a href=\"https://www.mi5.gov.uk/mi5-issues-espionage-alert-cgtri-%E4%B8%AD%E5%9B%BD%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2\">MI5 advisory</a>.&nbsp;</p> <hr> </section> <section class=\"section main-article-chapter\" data-menu-title=\"How Europe and the UK have managed the risks of overseas suppliers\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>How Europe and the UK have managed the risks of overseas suppliers</h2> <p>2005: British Telecom gives Huawei its first major contract in the UK.</p> <p>2019: Political <a href=\"https://www.cfr.org/articles/five-security-arguments-against-huawei-5g\">concerns are raised about existence of backdoors</a> that would allow Huawei to access data.</p> <p>2020: The UK’s National Cyber Security Centre found that <a href=\"https://www.ncsc.gov.uk/information/hcsec-ob-report\">none of the vulnerabilities in Huawei equipment were the result of state control or influence</a>.</p> <p>2020: <a href=\"https://www.mobileeurope.co.uk/sweden-bans-use-of-huawei-and-zte-equipment-in-5g-networks/\">Sweden excludes Huawei and ZTE from 5G networks</a> on national security grounds.</p> <p>July 2020: <a href=\"mailto:amishuadhikari@gmail.com\">UK announces plans, which became legally binding, to strip Huawei equipment from the 5G network</a> by December 2027 following US pressure.</p> <p>2020: EU introduces a voluntary ‘Toolbox for 5G Security’ giving guidelines for managing high-risk telecoms suppliers.</p> <p>2021: Germany passes the IT Security law 2.0, which allows the Ministry of Interior to exclude components from critical national infrastructure.</p> <p>2021: The UK introduces the National Security and Investment Act, giving the UK power to screen and block foreign investments from Chinese. companies.</p> <p>2021: UK introduces the Telecommunications Security Act, which gives government powers to designate equipment suppliers as high risk.</p> <p>March 2022: Germany warns against the use of Kaspersky anti-virus software following Russia’s invasion of Ukraine.</p> <p>November 2022: UK instructs government departments <a href=\"https://questions-statements.parliament.uk/written-statements/detail/2022-11-24/hcws386\">to remove cameras and surveillance systems supplied by Chinese suppliers</a>.</p> <p>2023: The European Commission <a href=\"https://digital-strategy.ec.europa.eu/en/library/communication-commission-implementation-5g-cybersecurity-toolbox\">explicitly states that Huawei and ZTE represent materially higher risks</a> than other 5G suppliers.</p> <p>2023: UK introduces the Procurement Act, which allows suppliers to the public sector to be excluded for national security reasons.</p> <p>July 2024: Germany opts to phase out Chinese suppliers from ‘core’ 5G network.</p> <p>2025: <a href=\"https://www.reuters.com/sustainability/climate-energy/ghost-machine-rogue-communication-devices-found-chinese-inverters-2025-05-14/\">A report by Reuters raises concerns about the security risks of Chinese solar panel inverters</a>.</p> <p>2025: Germany announces it <a href=\"https://www.heise.de/en/news/Chancellor-Merz-Will-not-allow-components-from-China-in-6G-network-11080056.html\">will not allow components from China in its 6G network</a>.</p> <p>2025: Germany implements the EU NIS2 Directive, which expands the scope of cyber security requirements to cover critical national infrastructure operators and large companies. It allows the German government to limit the use of critical components seen to pose a security risk.</p> <p>2026: A review by the US Department of Energy found no evidence of backdoors in Chinese solar power inverters.</p> <p>January 2026: The European Commission proposes amendments to the EU Cyber Security Act that, if enacted, will give the Commission powers to exclude high-risk suppliers, such as Huawei and ZTE, from critical sectors.</p> <p>March 2026: UK government blocks a Chinese wind turbine manufacturer from building a factory in Scotland on national security grounds.</p> <p><em>Source: Rusi</em></p> <hr> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about China</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366643654/UK-has-narrowing-window-to-stay-ahead-of-tech-threats-says-GCHQ-chief-Keast-Butler\">UK has ‘narrowing window’ to stay ahead of tech threats, says GCHQ chief Keast-Butler</a>: UK needs to treat cyber security 10 times more urgently in the wake of threats from Russia, China and other adversaries, says GCHQ director Anne Keast-Butler</li> <li><a href=\"https://www.computerweekly.com/news/366635660/UK-prosecution-of-alleged-Chinese-spies-was-shambolic-says-Parliamentary-committee\">UK prosecution of alleged Chinese spies was ‘shambolic’ says Parliamentary committee</a>: The Joint Committee on National Security Strategy reports that China was engaged in malicious cyber attacks against UK Parliament and democratic institutions</li> <li><a href=\"https://www.computerweekly.com/news/366645754/Hostile-states-launched-nearly-200-attacks-on-UK-infrastructure-in-12-months-says-NCSC-chief\">Hostile states launched nearly 200 attacks on UK infrastructure in 12 months, says NCSC chief</a>: Hackers will use AI-enabled cyber capabilities to exploit known vulnerabilities in legacy technology at scale by 2028, says National Cyber Security Centre CEO Richard Horne.&nbsp;</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity",
-      "Networks",
-      "GRC",
-      "Cloud Infrastructure",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws"
-      ],
-      "Networks": [
-        "network",
-        "5g",
-        "lan",
-        "telecom"
-      ],
-      "Cybersecurity": [
-        "exploit",
-        "hacker",
-        "threat",
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "compliance",
-        "nis2",
-        "policy",
-        "nist"
-      ],
-      "Data Centres": [
-        "capacity"
-      ],
-      "Industry & Market": [
-        "expands",
-        "announces",
-        "funding",
-        "investment",
-        "raises",
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "<p>European telecoms and computer infrastructure is vulnerable to hostile state interference with Chinese equipment suppliers such as Huawei and ZTE deeply embedded in parts of Europe’s networks, a research report claims.</p> <p>The <a href=\"https://www.rusi.org/explore-our-research/publications/research-papers/high-risk-ict-vendors-and-critical-infrastructure-european-approaches\">study</a> by defence and security think tank Rusi warns that Europe’s patchwork approach to assessing risks from equipment suppliers means the security of critical national infrastructure is at risk from espionage and cyber attacks.</p> <p>The report comes after a warning from MI5 that China’s Ministry of State Security is using a front company to fund research at UK universities, allowing it to gain access to technology that could pose a threat to the UK’s national security.</p> <p>According to Rusi, the lack of agreement over what constitutes a high-risk ICT supplier has resulted in an inconsistent approach in Europe and the UK to Chinese suppliers, with many governments lacking basic information about what equipment is used in their networks.</p> <p>This has led to widely different approaches by countries to using Chinese components in critical infrastructure, with Chinese suppliers accounting for nearly 60% of Germany’s 5G radio access network, compared with 30% in Spain and only 20% in the UK.</p> <p>Spain, for example, awarded Chinese telecoms company Huawei a €12m contract for its OceanStor cloud storage servers, which were used to store recordings of judicial wiretaps.</p> <p>The deal alarmed <a href=\"https://www.cotton.senate.gov/imo/media/doc/gabbard_cottoncrawford_17jul25.pdf\">US lawmakers</a>, who last year raised concerns that the Chinese government could gain access to highly sensitive data, including the ability to monitor Spanish investigations into Chinese spies.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\"><a id=\"securityrisks\"></a>Security risks posed by China</h3> <p>China’s National Intelligence and Counter-Espionage laws require private companies to supply data to the state on request.</p> <p>There is deep coordination between Chinese businesses and the state, with Chinese firms legally required to host representatives of the Chinese Communist Party (CCP) on their premises.</p> <p>China also compels companies operating in the country to report software flaws to the Ministry of Industry and Information Technology within 48 hours of their discovery, while prohibiting their disclosure outside of the country.</p> <p>This gives China’s intelligence services early and privileged access to vulnerabilities that can be exploited by the state to hack into western companies and governments.</p> <p style=\"text-align: right;\"><em>Source: Rusi</em></p> </div> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Security vulnerabilities\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Security vulnerabilities</h2> <p>National security legislation in China enables Chinese authorities to control technology suppliers, such as telecoms supplier Huawei. It also provides a mechanism for the Chinese government to harvest security vulnerabilities that <a href=\"https://www.consilium.europa.eu/en/press/press-releases/2026/03/16/cyber-attacks-against-the-eu-and-its-member-states-council-sanctions-three-entities-and-two-individuals/\">could be used to launch hacking attacks</a> (<em>see box: <a href=\"#securityrisks\">Security risks posed by China</a></em>). There are also concerns that Chinese companies could withhold updates or maintenance for key services during political crises or conflict.</p> <p>The report urges the UK to introduce legislation to protect the wider critical national infrastructure beyond telecoms and public sector procurement to give government powers to restrict the use of technology that could pose a risk more widely.</p> <p>The UK has blocked Huawei from the 5G network and Chinese video camera suppliers from use by government departments, but has so far not intervened to assess and remove high-risk suppliers from other parts of the critical national infrastructure.</p> <p>An <a href=\"https://www.computerweekly.com/news/366649781/UK-government-set-to-adjudicate-on-risky-tech-purchases\">amendment to the Cyber Security and Resilience Bill</a>, if passed, will give the government powers to ban technology suppliers on national security grounds, without having to publicly designate the supplier as a national security risk.</p> <p>Across Europe, the report identifies a gap between legislative ambition to restrict components that may cause a security risk and the implementation of measures to limit the deployment of Chinese technology in critical applications.</p> <p>“Closing that gap will require not only stronger laws but also deeper institutional capacity, greater economic courage and a willingness to treat technology procurement as an instrument of strategic policy rather than a compliance exercise,” the report states.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"MI5 warning to universities\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>MI5 warning to universities</h2> <p>Rusi’s report follows a warning by MI5 that more than 100 UK-linked academics have received funding from a research institute with strong ties to China’s Ministry of State Security.</p> <p>UK academics have contributed to projects funded by the China General Technology Research Institute (CGTRI) on artificial intelligence, cyber security, covert communications systems and steganography, which actively support Chinese espionage.</p> <p>Academics could be subject to criminal consequences under the National Security Act 2023 if they knowingly materially assisted a foreign intelligence service, or ought reasonably to have known they were doing so, according to the <a href=\"https://www.mi5.gov.uk/mi5-issues-espionage-alert-cgtri-%E4%B8%AD%E5%9B%BD%E9%80%9A%E7%94%A8%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2\">MI5 advisory</a>.&nbsp;</p> <hr> </section> <section class=\"section main-article-chapter\" data-menu-title=\"How Europe and the UK have managed the risks of overseas suppliers\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>How Europe and the UK have managed the risks of overseas suppliers</h2> <p>2005: British Telecom gives Huawei its first major contract in the UK.</p> <p>2019: Political <a href=\"https://www.cfr.org/articles/five-security-arguments-against-huawei-5g\">concerns are raised about existence of backdoors</a> that would allow Huawei to access data.</p> <p>2020: The UK’s National Cyber Security Centre found that <a href=\"https://www.ncsc.gov.uk/information/hcsec-ob-report\">none of the vulnerabilities in Huawei equipment were the result of state control or influence</a>.</p> <p>2020: <a href=\"https://www.mobileeurope.co.uk/sweden-bans-use-of-huawei-and-zte-equipment-in-5g-networks/\">Sweden excludes Huawei and ZTE from 5G networks</a> on national security grounds.</p> <p>July 2020: <a href=\"mailto:amishuadhikari@gmail.com\">UK announces plans, which became legally binding, to strip Huawei equipment from the 5G network</a> by December 2027 following US pressure.</p> <p>2020: EU introduces a voluntary ‘Toolbox for 5G Security’ giving guidelines for managing high-risk telecoms suppliers.</p> <p>2021: Germany passes the IT Security law 2.0, which allows the Ministry of Interior to exclude components from critical national infrastructure.</p> <p>2021: The UK introduces the National Security and Investment Act, giving the UK power to screen and block foreign investments from Chinese. companies.</p> <p>2021: UK introduces the Telecommunications Security Act, which gives government powers to designate equipment suppliers as high risk.</p> <p>March 2022: Germany warns against the use of Kaspersky anti-virus software following Russia’s invasion of Ukraine.</p> <p>November 2022: UK instructs government departments <a href=\"https://questions-statements.parliament.uk/written-statements/detail/2022-11-24/hcws386\">to remove cameras and surveillance systems supplied by Chinese suppliers</a>.</p> <p>2023: The European Commission <a href=\"https://digital-strategy.ec.europa.eu/en/library/communication-commission-implementation-5g-cybersecurity-toolbox\">explicitly states that Huawei and ZTE represent materially higher risks</a> than other 5G suppliers.</p> <p>2023: UK introduces the Procurement Act, which allows suppliers to the public sector to be excluded for national security reasons.</p> <p>July 2024: Germany opts to phase out Chinese suppliers from ‘core’ 5G network.</p> <p>2025: <a href=\"https://www.reuters.com/sustainability/climate-energy/ghost-machine-rogue-communication-devices-found-chinese-inverters-2025-05-14/\">A report by Reuters raises concerns about the security risks of Chinese solar panel inverters</a>.</p> <p>2025: Germany announces it <a href=\"https://www.heise.de/en/news/Chancellor-Merz-Will-not-allow-components-from-China-in-6G-network-11080056.html\">will not allow components from China in its 6G network</a>.</p> <p>2025: Germany implements the EU NIS2 Directive, which expands the scope of cyber security requirements to cover critical national infrastructure operators and large companies."
-  },
-  {
-    "title": "NRF Europe: tech transformations prevalent among major retailers",
-    "url": "https://www.computerweekly.com/feature/NRF-Europe-tech-transformations-prevalent-among-major-retailers",
-    "source": "ComputerWeekly",
-    "published": "2026-10-02T10:50:00+00:00",
-    "raw_text": "<p>Retail executives from leading merchants and specialist technology providers returned to Paris for the second <a href=\"https://www.computerweekly.com/feature/NRF-Europe-AI-quietly-does-it\">European event from the US-based National Retail Federation (NRF)</a> that showcases cutting-edge technologies and provides a platform for the latest industry thinking.</p> <p>Not surprisingly <a href=\"https://www.computerweekly.com/feature/NRF-Review-no-escaping-AI-for-retail-in-2025\">at such events, artificial intelligence (AI) is inescapable</a>, but what was also evident this year at NRF Europe was the growing body of evidence that larger organisations are integrating AI-powered solutions alongside undertaking wholesale changes to their underlying technology infrastructures.</p> <p>This has certainly <a href=\"https://www.computerweekly.com/news/366645439/Where-AI-fits-in-modern-supply-chains\">been the case at Debenhams</a>, which offloaded its physical stores and has adopted an online marketplace model selling products from 25,000 different brands and retailers, which does not involve holding any products in warehouses.</p> <p>Dan Finley, CEO of Debenhams, says: “It’s been a fundamental transformation of the business model and it’s worked really well. We now see ourselves as a tech-led business. We’ve completely changed all the technology over the lpst two years. It’s delivered greater efficiencies.”</p> <p>On top of the core IT systems, AI is being used to revolutionise areas such as the merchandising function, with price changes now possible across the 25,000-30,000 brands’ products in only minutes, and website content including descriptions and images can be created using these tools rather than involving a whole team of people.</p> <p>Debenhams has also put a virtual assistant into the hands of all its customers that enables them to navigate through the company’s now massive inventory and focus in on exactly what they are after. “We are seeing much more expansive search terms and questions being asked. As agentic commerce company’s monetise their services [through advertising], then it will be an evolution for customers,” says Finley.</p> <p>Home décor and furniture retailer Westwing has also undergone a fundamental technology overhaul. Andreas Hoerning, CEO of Westwing Group, says: “We shifted from our own tech stack to Shopify … moving from our own stack to a software-as-a-service [SaaS] model was a tough decision. As this model has evolved, there have been more off-the-shelf solutions available – whereas 15 years ago, you had to build things yourself. While the front end is still handled in-house all the other technology [for the back end] is SaaS, which simplifies things and enables us to stay ahead with our technology.”</p> <p>This change has helped it shift its business model away from selling third-party brands to being a retailer of mainly own-label goods. He says 65% of its sales are now generated from in-house designed own-label products (accounting for 90% of margins) across around 5,000 lines compared with the previous 100% of goods from third-party brands, with their lesser margins.</p> <p>A similar journey is being undertaken by Polish-based Zabka Group that has both repositioned itself as a more modern, dynamic convenience store – attracting a younger audience to its ready meals and hot food-to-go ranges – and a transformation of its technology that has driven great efficiencies and given it the flexibility to build capabilities such as a “super app”.</p> <p>Tomasz Blicharski, incoming CEO of Zabka Group, says this move has helped it attract top technology talent who have constructed a solution for running the business much more efficiently. At the heart of this is the <a href=\"https://www.computerweekly.com/blog/CW-Developer-Network/AWS-data-analytics-VP-Charting-new-oceans-the-evolution-of-data-lakes\">creation of data lakes</a>, on top of which services have been built such as pricing, assortment and transportation.</p> <p>“We’ve moved to higher margin products and differentiated formats with different ranges. Every single store now has its own unique planogram that’s created automatically based on the data,” he says, adding that differentiated pricing is also used across its stores that now number 13,000 in Poland and 300 in Romania.</p> <section class=\"section main-article-chapter\" data-menu-title=\"The swing towards electronic pricing labels\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The swing towards electronic pricing labels&nbsp;</h2> <p>Pricing has certainly risen up the agenda of retailers and the power to be able to use data to determine prices more intelligently and change them swiftly is now regarded as extremely attractive. Hence all the major grocery chains around the world are <a href=\"https://www.computerweekly.com/feature/The-pros-cons-and-misconceptions-of-dynamic-pricing-for-retailers\">rolling out Electronic Shelf-edge Labels (ESLs)</a> along with the back-end pricing intelligence tools to better use price as a lever to improve efficiency and boost margins.</p> <p>Like other businesses, Morrisons has found ESLs can play an increasingly important role beyond simply changing prices quickly. Gordon Macpherson, group productivity director at Morrisons, says: “The original premise was to save time, because we have 5,000-6,000 prices changes made on an evening … but as we continue to see online sales grow, then we will see how we can use the tech for quick-commerce. We get the benefits when all the tech interplays in-store.”</p> <p>What attracted attention at NRF Europe was its use of the labels for “pick-by-light” that has been piloted to help colleagues navigate around its stores when picking for online orders. They are assigned one of seven colours and the label flashes this colour on the relevant product that they need to pick next for the order or the quick-commerce deliveries they are fulfilling.</p> <p>The pilot has increased pick rate efficiency by 10% – with improvements in both speed and accuracy – that has given Morrisons the confidence to roll it out and give customers the capability to find products on the shelf via the flashing labels. Macpherson has noted the success by Walmart in the US, and so Morrisons will soon be enabling shoppers to select a product within the supermarket’s app and for this to prompt the label to flash.</p> <p>Within the Innovators Showcase area of NRF Europe, AI solutions were certainly prevalent and in various instances sought to bring together disparate data sources and inject large language model (LLM) and machine learning capabilities to bring insights and intelligence into retailers’ businesses. <a href=\"https://www.computerweekly.com/podcast/AI-in-fashion-retail-A-Computer-Weekly-Downtime-Upload-podcast\">Fashion was a category of particular attention</a> as it is notable for its fragmented data sources and workflows..&nbsp;</p> <p>Aristo AI brings together data sourced from across a business – including from the brand DNA documents through to design drawings and photo-shoots – and integrating this with a company’s Product Lifecycle Management (PLM) system before feeding it into a single unified system.</p> <p>It is a similar story at Maeve AI, which also has a solution that plugs into a PLM as well as sourcing data from a fashion retailer’s sales and returns systems and then uses LLMs to identify errors in product designs before they move into the production process. These errors can include quality issues on certain materials, higher returns from specific suppliers and size issues with certain components.</p> <p>Phoebe Gormley, founder of Maeve AI, says: “If you make a bad decision and then make products with it, then you have a problem. Once it’s baked into a product, then it’s the e-commerce teams who will have to deal with it and discount the products. These micro decisions can make a big difference.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about retail technology&nbsp;</h3> <ul class=\"default-list\"> <li>Technology companies churn out services for retail and hospitality businesses, but there are still problems to solve in these sectors, <a href=\"https://www.computerweekly.com/feature/Inside-the-trend-of-tech-spinouts-solving-real-world-problems\">driving a trend for in-house software developments</a> being ‘spun out’.</li> <li>When Tesco Clubcard was developed 30 years ago, using the technology of the time to analyse data was a long shot, but it grew into a scheme that <a href=\"https://www.computerweekly.com/feature/Clubcard-at-30-the-evolution-of-retail-loyalty\">birthed retail loyalty as we know it today</a>.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws",
-        "saas"
-      ],
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Data Centres": [
-        "colo"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "<p>Retail executives from leading merchants and specialist technology providers returned to Paris for the second <a href=\"https://www.computerweekly.com/feature/NRF-Europe-AI-quietly-does-it\">European event from the US-based National Retail Federation (NRF)</a> that showcases cutting-edge technologies and provides a platform for the latest industry thinking.</p> <p>Not surprisingly <a href=\"https://www.computerweekly.com/feature/NRF-Review-no-escaping-AI-for-retail-in-2025\">at such events, artificial intelligence (AI) is inescapable</a>, but what was also evident this year at NRF Europe was the growing body of evidence that larger organisations are integrating AI-powered solutions alongside undertaking wholesale changes to their underlying technology infrastructures.</p> <p>This has certainly <a href=\"https://www.computerweekly.com/news/366645439/Where-AI-fits-in-modern-supply-chains\">been the case at Debenhams</a>, which offloaded its physical stores and has adopted an online marketplace model selling products from 25,000 different brands and retailers, which does not involve holding any products in warehouses.</p> <p>Dan Finley, CEO of Debenhams, says: “It’s been a fundamental transformation of the business model and it’s worked really well. We now see ourselves as a tech-led business. We’ve completely changed all the technology over the lpst two years. It’s delivered greater efficiencies.”</p> <p>On top of the core IT systems, AI is being used to revolutionise areas such as the merchandising function, with price changes now possible across the 25,000-30,000 brands’ products in only minutes, and website content including descriptions and images can be created using these tools rather than involving a whole team of people.</p> <p>Debenhams has also put a virtual assistant into the hands of all its customers that enables them to navigate through the company’s now massive inventory and focus in on exactly what they are after."
-  },
-  {
     "title": "iPhone 18 Pro Max can’t call or text on AT&T? Apple will replace it for free",
     "url": "https://www.zdnet.com/tech/iphone-18-pro-max-att-no-service-free-replacement/",
     "source": "ZDNet",
@@ -1850,300 +1569,16 @@
     "summary": "Some Pixel users are having tap-to-pay problems, and there’s no fix from Google yet. But here a few things that helped others."
   },
   {
-    "title": "Blokees představila na veletrhu Festival zázraků Šanghaj 2026 více než 90 nových produktů",
-    "url": "https://www.prnewswire.com/news-releases/blokees-pedstavila-na-veletrhu-festival-zazrak-anghaj-2026-vice-ne-90-novych-produkt-302897735.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-04T09:00:00+00:00",
-    "raw_text": "ŠANGHAJ, 4. října 2026 /PRNewswire/ -- Ve dnech 3. až 4. října se značka sestavitelných hraček Blokees zúčastnila veletrhu Festival zázraků Šanghaj 2026, kde představila téměř 500 produktů ze svých dvou hlavních kategorií: stavebnice modelů Blokees a KOLA BLOKEES. Poprvé bylo předvedeno...",
+    "title": "AI Kill Switch: Project Meridian & the Vulcan Frontier AI Defense Matrix (Veterans First for America)",
+    "url": "https://www.globenewswire.com/news-release/2026/10/04/3374124/0/en/ai-kill-switch-project-meridian-the-vulcan-frontier-ai-defense-matrix-veterans-first-for-america.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-04T11:29:00+00:00",
+    "raw_text": "AI Kill Switch: Project Meridian & the Vulcan Frontier AI Defense Matrix (Veterans First for America)",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "ŠANGHAJ, 4. října 2026 /PRNewswire/ -- Ve dnech 3. až 4. října se značka sestavitelných hraček Blokees zúčastnila veletrhu Festival zázraků Šanghaj 2026, kde představila téměř 500 produktů ze svých dvou hlavních kategorií: stavebnice modelů Blokees a KOLA BLOKEES."
-  },
-  {
-    "title": "Blokees Debuts 90+ New Products at Wonder Festival Shanghai 2026",
-    "url": "https://www.prnewswire.com/news-releases/blokees-debuts-90-new-products-at-wonder-festival-shanghai-2026-302897719.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-04T04:00:00+00:00",
-    "raw_text": "SHANGHAI, Oct. 4, 2026 /PRNewswire/ -- From October 3 to 4, Assembly Character Toys Brand Blokees exhibited at Wonder Festival Shanghai 2026, featuring nearly 500 products across its two core categories, Blokees Model Kits and BLOKEES WHEELS. More than 90 new products made their debut,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHANGHAI, Oct. 4, 2026 /PRNewswire/ -- From October 3 to 4, Assembly Character Toys Brand Blokees exhibited at Wonder Festival Shanghai 2026, featuring nearly 500 products across its two core categories, Blokees Model Kits and BLOKEES WHEELS. More than 90 new products made their debut,..."
-  },
-  {
-    "title": "SIBIONICS and PharmaSens Explore New Horizons for Automated Insulin Delivery at EASD 2026",
-    "url": "https://www.prnewswire.com/news-releases/sibionics-and-pharmasens-explore-new-horizons-for-automated-insulin-delivery-at-easd-2026-302897720.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-04T03:09:00+00:00",
-    "raw_text": "MILAN, Oct. 4, 2026 /PRNewswire/ -- At the European Association for the Study of Diabetes (EASD) 2026, SiBionics presented \"See More, Act Earlier,\" connecting continuous sensing with future diabetes care. Three exhibition chapters shaped this vision: \"See More: Beyond Glucose,\" covering...",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "MILAN, Oct. 4, 2026 /PRNewswire/ -- At the European Association for the Study of Diabetes (EASD) 2026, SiBionics presented \"See More, Act Earlier,\" connecting continuous sensing with future diabetes care. Three exhibition chapters shaped this vision: \"See More: Beyond Glucose,\" covering..."
-  },
-  {
-    "title": "Smartee segna un traguardo europeo con il primo vertice regionale a Maiorca",
-    "url": "https://www.prnewswire.com/news-releases/smartee-segna-un-traguardo-europeo-con-il-primo-vertice-regionale-a-maiorca-302897712.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-04T02:08:00+00:00",
-    "raw_text": "PALMA DI MAIORCA, Spagna, 4 ottobre 2026 /PRNewswire/ -- Smartee Denti-Technology ha concluso lo Smartee European Summit 2026 a Palma di Maiorca, in Spagna, il 19 settembre, segnando il primo vertice accademico su larga scala dell'azienda tenuto al di fuori della Cina. L'evento, della...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "PALMA DI MAIORCA, Spagna, 4 ottobre 2026 /PRNewswire/ -- Smartee Denti-Technology ha concluso lo Smartee European Summit 2026 a Palma di Maiorca, in Spagna, il 19 settembre, segnando il primo vertice accademico su larga scala dell'azienda tenuto al di fuori della Cina. L'evento, della..."
-  },
-  {
-    "title": "Smartee franchit une étape importante en Europe avec son premier sommet régional à Majorque",
-    "url": "https://www.prnewswire.com/news-releases/smartee-franchit-une-etape-importante-en-europe-avec-son-premier-sommet-regional-a-majorque-302897711.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-04T01:59:00+00:00",
-    "raw_text": "PALMA DE MAJORQUE, Espagne, 4 octobre 2026 /PRNewswire/ -- Smartee Denti-Technology a clôturé le Sommet européen Smartee 2026 à Palma de Majorque, en Espagne, le 19 septembre, marquant ainsi le premier sommet académique de grande envergure organisé par l'entreprise hors de Chine. Cet...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "PALMA DE MAJORQUE, Espagne, 4 octobre 2026 /PRNewswire/ -- Smartee Denti-Technology a clôturé le Sommet européen Smartee 2026 à Palma de Majorque, en Espagne, le 19 septembre, marquant ainsi le premier sommet académique de grande envergure organisé par l'entreprise hors de Chine. Cet..."
-  },
-  {
-    "title": "Smartee feiert europäischen Meilenstein mit erstem regionalen Gipfel auf Mallorca",
-    "url": "https://www.prnewswire.com/news-releases/smartee-feiert-europaischen-meilenstein-mit-erstem-regionalen-gipfel-auf-mallorca-302897710.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-04T01:54:00+00:00",
-    "raw_text": "PALMA DE MALLORCA, Spanien, 4. Oktober 2026 /PRNewswire/ -- Smartee Denti-Technology schloss am 19. September den Smartee European Summit 2026 in Palma de Mallorca, Spanien, ab und veranstaltete damit seinen ersten groß angelegten wissenschaftlichen Gipfel außerhalb Chinas. An der...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "PALMA DE MALLORCA, Spanien, 4. Oktober 2026 /PRNewswire/ -- Smartee Denti-Technology schloss am 19. September den Smartee European Summit 2026 in Palma de Mallorca, Spanien, ab und veranstaltete damit seinen ersten groß angelegten wissenschaftlichen Gipfel außerhalb Chinas. An der..."
-  },
-  {
-    "title": "Power Knot MEA Recognized as THE BIZZ 2026 Winner for Business Excellence",
-    "url": "https://www.prnewswire.com/news-releases/power-knot-mea-recognized-as-the-bizz-2026-winner-for-business-excellence-302897697.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-04T00:20:00+00:00",
-    "raw_text": "FREMONT, Calif., Oct. 3, 2026 /PRNewswire/ -- Power Knot LLC, the market leader for on-site organic waste management solutions, announced that its sister office, Power Knot Middle East (PKME), has been recognized as a THE BIZZ 2026 Winner by the World Confederation of Businesses...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "FREMONT, Calif., Oct. 3, 2026 /PRNewswire/ -- Power Knot LLC, the market leader for on-site organic waste management solutions, announced that its sister office, Power Knot Middle East (PKME), has been recognized as a THE BIZZ 2026 Winner by the World Confederation of Businesses..."
-  },
-  {
-    "title": "La tercera campaña anual Flags of Fellowship de la International Fellowship of Christians and Jews duplica con creces el número de participantes y se expande a nivel internacional para luchar contra el antisemitismo",
-    "url": "https://www.prnewswire.com/news-releases/la-tercera-campana-anual-flags-of-fellowship-de-la-international-fellowship-of-christians-and-jews-duplica-con-creces-el-numero-de-participantes-y-se-expande-a-nivel-internacional-para-luchar-contra-el-antisemitismo-822599359.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T22:52:00+00:00",
-    "raw_text": "Más de 4375 iglesias, sinagogas y organizaciones de 13 países de todo el mundo izarán más de 5,2 millones de banderas y se unirán en oración, recuerdo y solidaridad con Israel y el pueblo judío a lo largo del mes de octubre CHICAGO, 3 de octubre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- La...",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "pue"
-      ]
-    },
-    "summary": "Más de 4375 iglesias, sinagogas y organizaciones de 13 países de todo el mundo izarán más de 5,2 millones de banderas y se unirán en oración, recuerdo y solidaridad con Israel y el pueblo judío a lo largo del mes de octubre CHICAGO, 3 de octubre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- La..."
-  },
-  {
-    "title": "Une nouvelle carte interactive du Costa Rica met en valeur son patrimoine culturel, naturel et marin",
-    "url": "https://www.prnewswire.com/news-releases/une-nouvelle-carte-interactive-du-costa-rica-met-en-valeur-son-patrimoine-culturel-naturel-et-marin-302897701.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T22:42:00+00:00",
-    "raw_text": "Discover Costa Rica est une plateforme gratuite développée par essential COSTA RICA en partenariat avec le ministère des Affaires étrangères et du Culte, le CIMAR-UCR et l'UCR School of Geography SAN JOSÉ, Costa Rica, 4 octobre 2026 /PRNewswire/ -- Le Costa Rica dispose désormais d'une...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Discover Costa Rica est une plateforme gratuite développée par essential COSTA RICA en partenariat avec le ministère des Affaires étrangères et du Culte, le CIMAR-UCR et l'UCR School of Geography SAN JOSÉ, Costa Rica, 4 octobre 2026 /PRNewswire/ -- Le Costa Rica dispose désormais d'une..."
-  },
-  {
-    "title": "EQUITY ALERT - The M&A Class Action Firm Launches Inquiry -- LSTA, FSHP, BWIN, and ACVA",
-    "url": "https://www.prnewswire.com/news-releases/equity-alert---the-ma-class-action-firm-launches-inquiry--lsta-fshp-bwin-and-acva-302897700.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T22:38:00+00:00",
-    "raw_text": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the \"M&A Class Action Firm\"), has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm in the 2025 ISS Securities Class Action Services Report. We are...",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "launches",
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the \"M&A Class Action Firm\"), has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm in the 2025 ISS Securities Class Action Services Report. We are..."
-  },
-  {
-    "title": "Blaize Holdings, Inc. Deadline: BZAI Investors with Losses in Excess of $100K Have Opportunity to Lead Blaize Holdings, Inc. Securities Fraud Lawsuit Filed by The Rosen Law Firm",
-    "url": "https://www.prnewswire.com/news-releases/blaize-holdings-inc-deadline-bzai-investors-with-losses-in-excess-of-100k-have-opportunity-to-lead-blaize-holdings-inc-securities-fraud-lawsuit-filed-by-the-rosen-law-firm-302897547.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T21:56:00+00:00",
-    "raw_text": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Blaize Holdings, Inc. (NASDAQ: BZAI) between July 18, 2025 and April 28, 2026, both dates inclusive (the \"Class Period\"), of the important October 5, 2026 lead...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Blaize Holdings, Inc. (NASDAQ: BZAI) between July 18, 2025 and April 28, 2026, both dates inclusive (the \"Class Period\"), of the important October 5, 2026 lead..."
-  },
-  {
-    "title": "Plastic-Covered Couch Turned Work of Art To Protect Black Culture Lands In Brooklyn This Weekend",
-    "url": "https://www.prnewswire.com/news-releases/plastic-covered-couch-turned-work-of-art-to-protect-black-culture-lands-in-brooklyn-this-weekend-302897690.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T20:11:00+00:00",
-    "raw_text": "The living archive project \"Protect Our Piece\" makes its CultureCon debut inviting people to add to its hand-stitched story and inspire its next appearances NEW YORK, Oct. 2, 2026 /PRNewswire/ -- If you grew up in a Black home, you probably remember the couch you weren't supposed to sit...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "The living archive project \"Protect Our Piece\" makes its CultureCon debut inviting people to add to its hand-stitched story and inspire its next appearances NEW YORK, Oct. 2, 2026 /PRNewswire/ -- If you grew up in a Black home, you probably remember the couch you weren't supposed to sit..."
-  },
-  {
-    "title": "BBNX Investors Have Opportunity to Lead Beta Bionics, Inc. Securities Fraud Lawsuit",
-    "url": "https://www.prnewswire.com/news-releases/bbnx-investors-have-opportunity-to-lead-beta-bionics-inc-securities-fraud-lawsuit-302897539.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T20:07:00+00:00",
-    "raw_text": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Beta Bionics, Inc. (NASDAQ: BBNX) between July 30, 2025 and February 24, 2026, both dates inclusive (the \"Class Period\"), of the important November 3, 2026...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Why: Rosen Law Firm, a global investor rights law firm, reminds purchasers of common stock of Beta Bionics, Inc. (NASDAQ: BBNX) between July 30, 2025 and February 24, 2026, both dates inclusive (the \"Class Period\"), of the important November 3, 2026..."
-  },
-  {
-    "title": "ARTBOX, KOREA'S ICONIC LIFESTYLE RETAILER, MAKES U.S. DEBUT WITH LOS ANGELES POP-UP FEATURING GLOBAL K-POP ICON ILLIT",
-    "url": "https://www.prnewswire.com/news-releases/artbox-koreas-iconic-lifestyle-retailer-makes-us-debut-with-los-angeles-pop-up-featuring-global-k-pop-icon-illit-302897494.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T20:00:00+00:00",
-    "raw_text": "The Korean retailer, founded in 1984, will open its first U.S. retail activation on Melrose Avenue from October 3–11, marking the first step in ARTBOX's broader American expansion LOS ANGELES, Oct. 3, 2026 /PRNewswire/ -- ARTBOX, Korea's original design-lifestyle retail brand, is...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The Korean retailer, founded in 1984, will open its first U.S. retail activation on Melrose Avenue from October 3–11, marking the first step in ARTBOX's broader American expansion LOS ANGELES, Oct. 3, 2026 /PRNewswire/ -- ARTBOX, Korea's original design-lifestyle retail brand, is..."
-  },
-  {
-    "title": "Corboy & Demetrio files Lawsuit for Family of Frankfort Girl Killed by School Bus",
-    "url": "https://www.prnewswire.com/news-releases/corboy--demetrio-files-lawsuit-for-family-of-frankfort-girl-killed-by-school-bus-302897689.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T19:52:00+00:00",
-    "raw_text": "CHICAGO, Oct. 3, 2026 /PRNewswire/ -- Corboy & Demetrio has filed a wrongful death lawsuit against two school districts for the death of Jenna Menias, a 6-year-old girl struck and killed on Sept. 8, 2026, seconds after being dropped off by the districts' jointly operated school bus. The...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ]
-    },
-    "summary": "CHICAGO, Oct. 3, 2026 /PRNewswire/ -- Corboy & Demetrio has filed a wrongful death lawsuit against two school districts for the death of Jenna Menias, a 6-year-old girl struck and killed on Sept. 8, 2026, seconds after being dropped off by the districts' jointly operated school bus. The..."
-  },
-  {
-    "title": "EQUITY ALERT - The M&A Class Action Firm Launches Inquiry -- FWAC, MGLD, LFCR, and MG",
-    "url": "https://www.prnewswire.com/news-releases/equity-alert---the-ma-class-action-firm-launches-inquiry--fwac-mgld-lfcr-and-mg-302897678.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T19:00:00+00:00",
-    "raw_text": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the \"M&A Class Action Firm\"), has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm in the 2025 ISS Securities Class Action Services Report. We are...",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "launches",
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the \"M&A Class Action Firm\"), has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm in the 2025 ISS Securities Class Action Services Report. We are..."
-  },
-  {
-    "title": "Captain D's cobra impulso para su crecimiento internacional",
-    "url": "https://www.prnewswire.com/news-releases/captain-ds-cobra-impulso-para-su-crecimiento-internacional-302897681.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T18:50:00+00:00",
-    "raw_text": "-Captain D's cobra impulso para su crecimiento internacional a medida que se extiende el interés por la franquicia en toda Europa NASHVILLE, Tenn., 3 de octubre de 2026 /PRNewswire/ -- Captain D's, la principal franquicia de mariscos de estilo fast-casual de Estados Unidos, está cobrando...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "-Captain D's cobra impulso para su crecimiento internacional a medida que se extiende el interés por la franquicia en toda Europa NASHVILLE, Tenn., 3 de octubre de 2026 /PRNewswire/ -- Captain D's, la principal franquicia de mariscos de estilo fast-casual de Estados Unidos, está cobrando..."
-  },
-  {
-    "title": "EQUITY ALERT - The M&A Class Action Firm Launches Inquiry -- SYNA, CBNK, SSTI, and OCLT",
-    "url": "https://www.prnewswire.com/news-releases/equity-alert---the-ma-class-action-firm-launches-inquiry--syna-cbnk-ssti-and-oclt-302897680.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T18:48:00+00:00",
-    "raw_text": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the \"M&A Class Action Firm\"), has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm in the 2025 ISS Securities Class Action Services Report. We are...",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "launches",
-        "ey"
-      ]
-    },
-    "summary": "NEW YORK, Oct. 3, 2026 /PRNewswire/ -- Class Action Attorney Juan Monteverde with Monteverde & Associates PC (the \"M&A Class Action Firm\"), has recovered millions of dollars for shareholders and is recognized as a Top 50 Firm in the 2025 ISS Securities Class Action Services Report. We are..."
-  },
-  {
-    "title": "Coastal Financial Corporation (CCB) Scrutinized Over BaaS Credit Risk Management Effectiveness, Shares Tank 43% - Hagens Berman Investigation and Investor Advisory",
-    "url": "https://www.prnewswire.com/news-releases/coastal-financial-corporation-ccb-scrutinized-over-baas-credit-risk-management-effectiveness-shares-tank-43--hagens-berman-investigation-and-investor-advisory-302896751.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-03T18:22:00+00:00",
-    "raw_text": "SAN FRANCISCO, Oct. 3, 2026 /PRNewswire/ -- National shareholder rights law firm Hagens Berman is looking into critical corporate governance, underwriting, and risk management failures at Coastal Financial Corporation (NASDAQ: CCB). Following a 43% single-day stock plunge triggered by a...",
-    "categories": [
-      "GRC"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "governance",
-        "risk management"
-      ]
-    },
-    "summary": "SAN FRANCISCO, Oct. 3, 2026 /PRNewswire/ -- National shareholder rights law firm Hagens Berman is looking into critical corporate governance, underwriting, and risk management failures at Coastal Financial Corporation (NASDAQ: CCB). Following a 43% single-day stock plunge triggered by a..."
+    "summary": "AI Kill Switch: Project Meridian & the Vulcan Frontier AI Defense Matrix (Veterans First for America)"
   },
   {
     "title": "Luvme Originalive™ Takes a Slower Approach to Premium Wig Color",
@@ -2445,17 +1880,5 @@
       ]
     },
     "summary": "KUALA LUMPUR, Malaysia, Oct. 03, 2026 (GLOBE NEWSWIRE) -- PassGo, kelab ganjaran pertama di Malaysia yang dibangunkan khusus untuk memenuhi keperluan sepanjang tempoh pemilikan kereta, dilancarkan secara rasmi hari ini."
-  },
-  {
-    "title": "Troman’s Trident demonstrates ability to extinguish bus battery fire in live-fire testing.",
-    "url": "https://www.globenewswire.com/news-release/2026/10/02/3374082/0/en/troman-s-trident-demonstrates-ability-to-extinguish-bus-battery-fire-in-live-fire-testing.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-02T23:58:00+00:00",
-    "raw_text": "Testing at HCT’s Fayetteville facility demonstrates early warning, integrated suppression and thermal runaway control. Testing at HCT’s Fayetteville facility demonstrates early warning, integrated suppression and thermal runaway control.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Testing at HCT’s Fayetteville facility demonstrates early warning, integrated suppression and thermal runaway control. Testing at HCT’s Fayetteville facility demonstrates early warning, integrated suppression and thermal runaway control."
   }
 ]
