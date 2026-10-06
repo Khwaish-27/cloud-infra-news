@@ -1,5 +1,26 @@
 [
   {
+    "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+    "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+    "source": "The Hacker News",
+    "published": "2026-10-06T09:21:47+00:00",
+    "raw_text": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "security"
+      ]
+    },
+    "summary": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit security flaws in the code of projects such as Go, Angular, and Protocol Buffers there for a reward. Reports about supply chain compromises are still accepted, and reports filed before October 1 are"
+  },
+  {
     "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
     "url": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
     "source": "The Hacker News",
@@ -232,6 +253,23 @@
     "summary": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability, tracked as CVE-2026-88779, carries a CVSS score of 8.7 out of 10.0. \"CVE-2026-88779 is a memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway that can lead to"
   },
   {
+    "title": "Nikkei discloses breaches of employees’ Microsoft, Google email accounts",
+    "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-breaches-of-employees-microsoft-google-email-accounts/",
+    "source": "BleepingComputer",
+    "published": "2026-10-06T09:25:50+00:00",
+    "raw_text": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "phishing"
+      ]
+    },
+    "summary": "Over the weekend, Japanese publishing giant Nikkei disclosed that unknown attackers recently breached two employee email accounts and used one to send thousands of phishing emails. [...]"
+  },
+  {
     "title": "Engineer sentenced for locking over 3,000 devices on employer network",
     "url": "https://www.bleepingcomputer.com/news/security/engineer-sentenced-for-locking-thousands-of-devices-on-employer-network/",
     "source": "BleepingComputer",
@@ -457,16 +495,132 @@
     "summary": "Citrix has released emergency updates for a new NetScaler denial-of-service vulnerability tracked as CVE-2026-88779 that has been exploited in zero-day attacks, with researchers investigating whether it can also be exploited for remote code execution. [...]"
   },
   {
-    "title": "Anthropic asks Claude users to share voice data for AI model training",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
-    "source": "BleepingComputer",
-    "published": "2026-10-04T10:53:21+00:00",
-    "raw_text": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]",
+    "title": "Dell System Update flaw allows attackers to gain root privileges (CVE-2026-86360)",
+    "url": "https://www.helpnetsecurity.com/2026/10/06/dell-system-update-vulnerability-cve-2026-86360/",
+    "source": "Help Net Security",
+    "published": "2026-10-06T10:44:41+00:00",
+    "raw_text": "Dell is urging customers to patch a vulnerability (CVE-2026-86360) in Dell System Update (DSU) that could allow an unauthenticated remote attacker to execute arbitrary code with root privileges. DSU is a tool used by enterprise IT administrators to apply driver, BIOS, and firmware updates to Dell PowerEdge servers. About CVE-2026-86360 CVE-2026-86360 is a path traversal vulnerability with a CVSS base score of 9.6 that affects DSU versions prior to 2.3.0.0. “An unauthenticated attacker with remote … More → The post Dell System Update flaw allows attackers to gain root privileges (CVE-2026-86360) appeared first on Help Net Security .",
     "categories": [
-      "Uncategorised"
+      "Cybersecurity",
+      "GRC"
     ],
-    "matched_keywords": {},
-    "summary": "Anthropic has started asking Claude users to voluntarily share their voice conversations to help train and improve its AI models. [...]"
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "security"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "Dell is urging customers to patch a vulnerability (CVE-2026-86360) in Dell System Update (DSU) that could allow an unauthenticated remote attacker to execute arbitrary code with root privileges. DSU is a tool used by enterprise IT administrators to apply driver, BIOS, and firmware updates to Dell PowerEdge servers. About CVE-2026-86360 CVE-2026-86360 is a path traversal vulnerability with a CVSS base score of 9.6 that affects DSU versions prior to 2.3.0.0. “An unauthenticated attacker with remote … More → The post Dell System Update flaw allows attackers to gain root privileges (CVE-2026-86360) appeared first on Help Net Security ."
+  },
+  {
+    "title": "Ontinue extends ION MXDR with managed dark web monitoring",
+    "url": "https://www.helpnetsecurity.com/2026/10/06/ontinue-ion-dark-web-monitoring/",
+    "source": "Help Net Security",
+    "published": "2026-10-06T10:10:39+00:00",
+    "raw_text": "Ontinue has announced the launch of ION for Dark Web Monitoring (DWM), a new managed add-on service that extends ION MXDR to continuously identify exposed credentials, detect brand impersonation attempts, and uncover emerging external threats before attackers can exploit them. Compromised credentials are traded across criminal forums, lookalike domains are created to impersonate trusted brands, and sensitive information can surface across deep and dark web sources long before security teams become aware of the exposure. … More → The post Ontinue extends ION MXDR with managed dark web monitoring appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit",
+        "threat",
+        "security",
+        "xdr"
+      ]
+    },
+    "summary": "Ontinue has announced the launch of ION for Dark Web Monitoring (DWM), a new managed add-on service that extends ION MXDR to continuously identify exposed credentials, detect brand impersonation attempts, and uncover emerging external threats before attackers can exploit them. Compromised credentials are traded across criminal forums, lookalike domains are created to impersonate trusted brands, and sensitive information can surface across deep and dark web sources long before security teams become aware of the exposure. … More → The post Ontinue extends ION MXDR with managed dark web monitoring appeared first on Help Net Security ."
+  },
+  {
+    "title": "Transcend Rails brings policy enforcement and spending controls to AI agents",
+    "url": "https://www.helpnetsecurity.com/2026/10/06/transcend-rails-brings-policy-enforcement-and-spending-controls-to-ai-agents/",
+    "source": "Help Net Security",
+    "published": "2026-10-06T09:57:36+00:00",
+    "raw_text": "Transcend has launched Transcend Rails, a new category of agent management that goes beyond identity and access control to govern what an agent does. Every enterprise scaling AI agents hits the same wall: the board asks what agents did last quarter, and no one can reconstruct it. Or an agent deletes, exports, browses, or spends something it shouldn’t, while the only instruction to stop it sits ignored in a prompt. Gartner predicts that by 2030, … More → The post Transcend Rails brings policy enforcement and spending controls to AI agents appeared first on Help Net Security .",
+    "categories": [
+      "Industry & Market",
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "policy"
+      ],
+      "Industry & Market": [
+        "ey",
+        "gartner"
+      ]
+    },
+    "summary": "Transcend has launched Transcend Rails, a new category of agent management that goes beyond identity and access control to govern what an agent does. Every enterprise scaling AI agents hits the same wall: the board asks what agents did last quarter, and no one can reconstruct it. Or an agent deletes, exports, browses, or spends something it shouldn’t, while the only instruction to stop it sits ignored in a prompt. Gartner predicts that by 2030, … More → The post Transcend Rails brings policy enforcement and spending controls to AI agents appeared first on Help Net Security ."
+  },
+  {
+    "title": "Hack The Box helps enterprises evaluate AI agents for cybersecurity roles",
+    "url": "https://www.helpnetsecurity.com/2026/10/06/hack-the-box-ai-range-enterprise-edition/",
+    "source": "Help Net Security",
+    "published": "2026-10-06T09:45:46+00:00",
+    "raw_text": "Hack The Box has introduced AI Range Enterprise Edition, making its platform for testing and measuring AI security agent effectiveness available to enterprise security teams. The offering enables organizations to evaluate whether their own AI agents can perform the cybersecurity roles assigned to them and make informed decisions about how to use agents across the workforce. Companies often assess whether people can do the job they were hired to do, but AI agents may not … More → The post Hack The Box helps enterprises evaluate AI agents for cybersecurity roles appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Hack The Box has introduced AI Range Enterprise Edition, making its platform for testing and measuring AI security agent effectiveness available to enterprise security teams. The offering enables organizations to evaluate whether their own AI agents can perform the cybersecurity roles assigned to them and make informed decisions about how to use agents across the workforce. Companies often assess whether people can do the job they were hired to do, but AI agents may not … More → The post Hack The Box helps enterprises evaluate AI agents for cybersecurity roles appeared first on Help Net Security ."
+  },
+  {
+    "title": "GitHub’s ReviewBench puts AI code reviewers to the test",
+    "url": "https://www.helpnetsecurity.com/2026/10/06/github-reviewbench-ai-code-review-benchmark/",
+    "source": "Help Net Security",
+    "published": "2026-10-06T09:29:31+00:00",
+    "raw_text": "GitHub’s ReviewBench measures how well AI code review tools detect problems before software is released. Available in research preview through its website, the benchmark lets users compare review agents and evaluate their own tools. Code review involves checking proposed changes for mistakes. ReviewBench measures AI reviewers’ ability to identify issues and avoid false alarms. Users can inspect the test data, reproduce results and track improvements. Its leaderboard shows performance by issue severity, category and scoring … More → The post GitHub’s ReviewBench puts AI code reviewers to the test appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "GitHub’s ReviewBench measures how well AI code review tools detect problems before software is released. Available in research preview through its website, the benchmark lets users compare review agents and evaluate their own tools. Code review involves checking proposed changes for mistakes. ReviewBench measures AI reviewers’ ability to identify issues and avoid false alarms."
+  },
+  {
+    "title": "Data breach at Denmark’s population register exposes 8.8 million people",
+    "url": "https://www.helpnetsecurity.com/2026/10/06/denmark-central-population-register-cpr-data-breach/",
+    "source": "Help Net Security",
+    "published": "2026-10-06T09:05:34+00:00",
+    "raw_text": "A data breach at Denmark’s Central Population Register (CPR) has exposed the personal information of 8.8 million people. These include people living in Denmark, deceased people and citizens who have moved abroad. The CPR is Denmark’s national register of residents, and the 10-digit CPR number it assigns to each person is used for everything from taxes and healthcare to banking. The CPR administration learned on the evening of Friday, 2 October 2026, that there had … More → The post Data breach at Denmark’s population register exposes 8.8 million people appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "security"
+      ],
+      "GRC": [
+        "nist"
+      ]
+    },
+    "summary": "A data breach at Denmark’s Central Population Register (CPR) has exposed the personal information of 8.8 million people. These include people living in Denmark, deceased people and citizens who have moved abroad. The CPR is Denmark’s national register of residents, and the 10-digit CPR number it assigns to each person is used for everything from taxes and healthcare to banking. The CPR administration learned on the evening of Friday, 2 October 2026, that there had … More → The post Data breach at Denmark’s population register exposes 8.8 million people appeared first on Help Net Security ."
   },
   {
     "title": "U.S. Bank CISO says the security role keeps growing and no one can own all of it",
@@ -560,139 +714,6 @@
     "summary": "Webroot Mobile Security combines device security checks, Safari protection, text scam filtering, and data breach monitoring. It is available for iPhone, iPad, and Android devices. The app requires an active Webroot subscription and is included with Essentials, Premium, and Total Protection. The home screen displays subscription status, a Scan Now button, the last scan time, and shortcuts to individual features."
   },
   {
-    "title": "Cybersecurity jobs available right now: October 6, 2026",
-    "url": "https://www.helpnetsecurity.com/2026/10/06/cybersecurity-jobs-available-right-now-october-6-2026/",
-    "source": "Help Net Security",
-    "published": "2026-10-06T04:00:58+00:00",
-    "raw_text": "Associate IAM Engineer New York City Office of Technology & Innovation | USA | On-site – View job details As an Associate IAM Engineer, you will support daily identity and access management operations in Microsoft Entra ID and related platforms. You will manage users, groups, access provisioning, and role assignments, resolve authentication issues and support tickets, and help maintain stable IAM services. You will also document procedures, a Computer Network Defense Analyst National Security Agency … More → The post Cybersecurity jobs available right now: October 6, 2026 appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "security",
-        "cyber",
-        "soc"
-      ]
-    },
-    "summary": "Associate IAM Engineer New York City Office of Technology & Innovation | USA | On-site – View job details As an Associate IAM Engineer, you will support daily identity and access management operations in Microsoft Entra ID and related platforms. You will manage users, groups, access provisioning, and role assignments, resolve authentication issues and support tickets, and help maintain stable IAM services. You will also document procedures, a Computer Network Defense Analyst National Security Agency … More → The post Cybersecurity jobs available right now: October 6, 2026 appeared first on Help Net Security ."
-  },
-  {
-    "title": "CISA flags new exploited NetScaler flaw as attackers crash appliances (CVE-2026-88779)",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/cisa-flags-new-exploited-netscaler-flaw-as-attackers-crash-appliances-cve-2026-88779/",
-    "source": "Help Net Security",
-    "published": "2026-10-05T14:53:48+00:00",
-    "raw_text": "CISA has added another Citrix NetScaler vulnerability to its Known Exploited Vulnerabilities catalog on Sunday: CVE-2026-88779, a memory overflow bug that may cripple vulnerable NetScaler ADCs and Gateways. “Citrix has observed targeted attacks on unmitigated NetScaler deployments which can lead to Denial of Service. If the condition is triggered repeatedly, the service may remain unavailable,” the vendor stated. “Our analysis indicates that this issue affects service availability, and we have not identified an impact on … More → The post CISA flags new exploited NetScaler flaw as attackers crash appliances (CVE-2026-88779) appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "security"
-      ],
-      "Industry & Market": [
-        "vendor"
-      ]
-    },
-    "summary": "CISA has added another Citrix NetScaler vulnerability to its Known Exploited Vulnerabilities catalog on Sunday: CVE-2026-88779, a memory overflow bug that may cripple vulnerable NetScaler ADCs and Gateways. “Citrix has observed targeted attacks on unmitigated NetScaler deployments which can lead to Denial of Service. If the condition is triggered repeatedly, the service may remain unavailable,” the vendor stated. “Our analysis indicates that this issue affects service availability, and we have not identified an impact on … More → The post CISA flags new exploited NetScaler flaw as attackers crash appliances (CVE-2026-88779) appeared first on Help Net Security ."
-  },
-  {
-    "title": "Fake brand discounts on social media prey on shoppers’ fear of missing out",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/milk-dragon-phishing-fake-discounts/",
-    "source": "Help Net Security",
-    "published": "2026-10-05T13:55:15+00:00",
-    "raw_text": "Cybercriminals are using fake discounts posted on Facebook and TikTok to lure shoppers to phishing sites that steal their payment card details and one-time passwords, Group-IB has warned. The phishing kit called Milk Dragon (also known as NaiLong) has been active since October 2025, and is linked to 258 phishing pages and victims in 66 countries. “Milk Dragon differentiates itself from the conventional phishing playbook in a notable way,” GroupIB noted. Its operators skip fake … More → The post Fake brand discounts on social media prey on shoppers’ fear of missing out appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "phishing",
-        "security",
-        "cyber",
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Cybercriminals are using fake discounts posted on Facebook and TikTok to lure shoppers to phishing sites that steal their payment card details and one-time passwords, Group-IB has warned. The phishing kit called Milk Dragon (also known as NaiLong) has been active since October 2025, and is linked to 258 phishing pages and victims in 66 countries. “Milk Dragon differentiates itself from the conventional phishing playbook in a notable way,” GroupIB noted. Its operators skip fake … More → The post Fake brand discounts on social media prey on shoppers’ fear of missing out appeared first on Help Net Security ."
-  },
-  {
-    "title": "LTM launches BlueVerse AgenTraceIQ to monitor AI agents and reverse unintended actions",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/ltm-blueverse-agentraceiq/",
-    "source": "Help Net Security",
-    "published": "2026-10-05T13:37:51+00:00",
-    "raw_text": "LTM has announced the launch of BlueVerse AgenTraceIQ, an offering designed to help organizations securely adopt and scale agentic AI. Combining Rubrik Agent Cloud with LTM’s AI governance and managed services expertise, the offering enables organizations to monitor AI agents, establish guardrails, and rewind unintended agent actions across business-critical environments. As part of Rubrik’s Project Hourglass, LTM and other elite Global Systems Integrators partner with Rubrik, the Security and AI Operations Company, to deliver Rubrik … More → The post LTM launches BlueVerse AgenTraceIQ to monitor AI agents and reverse unintended actions appeared first on Help Net Security .",
-    "categories": [
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "governance"
-      ],
-      "Industry & Market": [
-        "launches",
-        "managed services"
-      ]
-    },
-    "summary": "LTM has announced the launch of BlueVerse AgenTraceIQ, an offering designed to help organizations securely adopt and scale agentic AI. Combining Rubrik Agent Cloud with LTM’s AI governance and managed services expertise, the offering enables organizations to monitor AI agents, establish guardrails, and rewind unintended agent actions across business-critical environments. As part of Rubrik’s Project Hourglass, LTM and other elite Global Systems Integrators partner with Rubrik, the Security and AI Operations Company, to deliver Rubrik … More → The post LTM launches BlueVerse AgenTraceIQ to monitor AI agents and reverse unintended actions appeared first on Help Net Security ."
-  },
-  {
-    "title": "Stellar Cyber 7.0 adds measurable workflows for AI-powered SOCs",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/stellar-cyber-7-0/",
-    "source": "Help Net Security",
-    "published": "2026-10-05T13:31:06+00:00",
-    "raw_text": "Stellar Cyber has announced Stellar Cyber 7.0, a release that advances the Human-Augmented Autonomous SOC from a vision for applying AI to security operations into a practical operating model for running them. Stellar Cyber 7.0 unifies AI-powered case triage, measurable SOC workflows, deeper investigative evidence, expanded automated response and new APIs for operating security at scale. The result marks significant progress from simply using AI to help analysts work faster. Stellar Cyber 7.0 will help … More → The post Stellar Cyber 7.0 adds measurable workflows for AI-powered SOCs appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber",
-        "soc"
-      ]
-    },
-    "summary": "Stellar Cyber has announced Stellar Cyber 7.0, a release that advances the Human-Augmented Autonomous SOC from a vision for applying AI to security operations into a practical operating model for running them. Stellar Cyber 7.0 unifies AI-powered case triage, measurable SOC workflows, deeper investigative evidence, expanded automated response and new APIs for operating security at scale. The result marks significant progress from simply using AI to help analysts work faster. Stellar Cyber 7.0 will help … More → The post Stellar Cyber 7.0 adds measurable workflows for AI-powered SOCs appeared first on Help Net Security ."
-  },
-  {
-    "title": "Malwarebytes Scam Link Check analyzes URLs and explains potential risks",
-    "url": "https://www.helpnetsecurity.com/2026/10/05/malwarebytes-scam-link-check/",
-    "source": "Help Net Security",
-    "published": "2026-10-05T13:30:28+00:00",
-    "raw_text": "Malwarebytes has launched the Malwarebytes Scam Link Check, a free web tool that lets anyone check whether a website link is safe or dangerous before clicking it. Users paste any suspicious URL, the kind that arrives by text, email, chat, or social media, and the tool returns a safety result, along with the reasons behind it and recommended next steps. Scams have overtaken many traditional crimes in scale, with an estimated $442 billion lost to … More → The post Malwarebytes Scam Link Check analyzes URLs and explains potential risks appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "security",
-        "soc"
-      ]
-    },
-    "summary": "Malwarebytes has launched the Malwarebytes Scam Link Check, a free web tool that lets anyone check whether a website link is safe or dangerous before clicking it. Users paste any suspicious URL, the kind that arrives by text, email, chat, or social media, and the tool returns a safety result, along with the reasons behind it and recommended next steps. Scams have overtaken many traditional crimes in scale, with an estimated $442 billion lost to … More → The post Malwarebytes Scam Link Check analyzes URLs and explains potential risks appeared first on Help Net Security ."
-  },
-  {
     "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
     "url": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
     "source": "Dark Reading",
@@ -753,6 +774,66 @@
       ]
     },
     "summary": "AI-powered attacks are fast, relentless, and automated. How security teams can keep up is top of mind, according to the latest Dark Reading reader poll."
+  },
+  {
+    "title": "Cybersecurity M&A Roundup: 39 Deals Announced in September 2026",
+    "url": "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/",
+    "source": "SecurityWeek",
+    "published": "2026-10-06T11:01:35+00:00",
+    "raw_text": "Significant cybersecurity M&A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind. The post Cybersecurity M&A Roundup: 39 Deals Announced in September 2026 appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "ibm"
+      ]
+    },
+    "summary": "Significant cybersecurity M&A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind. The post Cybersecurity M&A Roundup: 39 Deals Announced in September 2026 appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Long-Running NPM Malware Campaign Accumulates 40,000 Downloads",
+    "url": "https://www.securityweek.com/long-running-npm-malware-campaign-accumulates-40000-downloads/",
+    "source": "SecurityWeek",
+    "published": "2026-10-06T10:34:25+00:00",
+    "raw_text": "Since August 2023, attackers have published eight malicious packages as part of the MALFEX supply chain campaign. The post Long-Running NPM Malware Campaign Accumulates 40,000 Downloads appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "security"
+      ]
+    },
+    "summary": "Since August 2023, attackers have published eight malicious packages as part of the MALFEX supply chain campaign. The post Long-Running NPM Malware Campaign Accumulates 40,000 Downloads appeared first on SecurityWeek ."
+  },
+  {
+    "title": "8.8 Million Impacted by Data Breach at Denmark’s Central Person Register",
+    "url": "https://www.securityweek.com/8-8-million-impacted-by-data-breach-at-denmarks-central-person-register/",
+    "source": "SecurityWeek",
+    "published": "2026-10-06T09:38:30+00:00",
+    "raw_text": "Hackers abused a company’s lawful access to the CPR system to steal the personal information of registered citizens. The post 8.8 Million Impacted by Data Breach at Denmark’s Central Person Register appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "hacker",
+        "security"
+      ]
+    },
+    "summary": "Hackers abused a company’s lawful access to the CPR system to steal the personal information of registered citizens. The post 8.8 Million Impacted by Data Breach at Denmark’s Central Person Register appeared first on SecurityWeek ."
   },
   {
     "title": "Social Engineering Detection Moves Into the Live Conversation",
@@ -898,44 +979,24 @@
     "summary": "Known as Rey, the suspect is reportedly helping the FBI identify and locate other members of the extortion group. The post Alleged ShinyHunters Leader Arrested in Jordan appeared first on SecurityWeek ."
   },
   {
-    "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
-    "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
-    "source": "SecurityWeek",
-    "published": "2026-10-05T05:14:48+00:00",
-    "raw_text": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched. The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first on SecurityWeek .",
+    "title": "Police Urge Passkey Use After Surge in Cybercrime Profits",
+    "url": "https://www.infosecurity-magazine.com/news/police-urge-passkey-surge/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-10-06T09:15:00+00:00",
+    "raw_text": "Report Fraud says cybercrime revenue stemming from account takeover increased 417% annually",
     "categories": [
       "Cybersecurity",
-      "Cloud Infrastructure"
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Cybersecurity": [
+        "cyber"
       ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "zero-day",
-        "exploit",
-        "security"
+      "Industry & Market": [
+        "ey"
       ]
     },
-    "summary": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched. The post Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
-    "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
-    "source": "SecurityWeek",
-    "published": "2026-10-04T14:57:25+00:00",
-    "raw_text": "The announcement comes after Trump hosted top executives of AI companies at the White House last week. The post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "The announcement comes after Trump hosted top executives of AI companies at the White House last week. The post Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force appeared first on SecurityWeek ."
+    "summary": "Report Fraud says cybercrime revenue stemming from account takeover increased 417% annually"
   },
   {
     "title": "Ransomware Affiliate Double-Crosses RaaS Operator to Steal Victim Funds",
@@ -1174,6 +1235,115 @@
       ]
     },
     "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it."
+  },
+  {
+    "title": "Pacing the AI frontier won’t solve agentic cybersecurity’s most urgent problems",
+    "url": "https://www.csoonline.com/article/4230811/pacing-the-ai-frontier-wont-solve-agentic-cybersecuritys-most-urgent-problems.html",
+    "source": "CSO Online",
+    "published": "2026-10-06T11:00:00+00:00",
+    "raw_text": "When Anthropic CEO Dario Amodei urged other leading AI labs to “pace the frontier” last week, his calls for caution were echoed by other prominent voices in tech. Both Sam Altman and Elon Musk agreed with Amodei’s assessment that pausing AI development was essential to prevent the extinction of the human race. Amodei listed several potential disasters that could arise from unchecked AI development, including heightened bioterrorism and cybersecurity threats, the loss of control over critical AI systems, and considerable financial and economic impacts. While these scenarios are indeed within the realm of the possible, battle lines were soon drawn on either side of the issue. In addition to the public support from Altman and Musk, Amodei’s position was lent further credibility by the resignation of former Anthropic researcher Jacob Coxon, whose post on social media accusing Anthropic (and OpenAI) of failing to act responsibly promptly went viral. Days later, former DeepMind safety researcher Josh Engels resigned from his position, citing similar safety concerns regarding frontier labs’ supposedly reckless pursuit of superintelligence. Despite widespread concern about the negative potential of AI technologies , many cybersecurity leaders disagree on the scope of these threats and how to mitigate them. Amodei didn’t help his argument by using an impossible example of a swarm of AI agents “capable of taking over the entire internet with a persistent botnet” to illustrate his concerns. The problem, however, is that while Amodei’s example may be fantastical, there is legitimate cause for alarm that is being overshadowed by discourse about regulatory capture and questions about frontier labs’ commitment to responsible AI development. No other contemporary technology inspires catastrophic sensationalism like AI. Maybe it’s because we’ve spent years watching action heroes fight against malevolent machine intelligence like Skynet in The Terminator franchise — a comparison Coxon made himself in an interview with CBS News — but most fears about AI resist rationality. There are legitimate arguments for measured, coordinated development of AI technologies, but fewer explanations as to why frontier labs such as Anthropic would invite, and even welcome, the kind of greater regulatory scrutiny that would be a gift to competing companies and nation-states developing their own AI tech, such as China. The kind of collaborative oversight Amodei called for in his essay is a primarily geopolitical problem, not a technical one. It’s also almost impossibly unlikely. President Trump dismissed Amodei’s calls for greater oversight as part of a “sick conspiracy” that would only benefit China, and claimed the United States already has “tremendous criminal and regulatory power over these companies.” Trump’s announcement came shortly after Chen Yixin, China’s state security minister, made an unusual public warning about the risks to China’s information infrastructure posed by frontier models and called for collaborative risk prevention frameworks and coordinated global governance of AI technologies. Although Amodei’s essay was met with skepticism across the security community, it reinvigorated questions about frontier labs’ commitment to cybersecurity as an operational principle. The challenge for AI developers and industry regulators alike is agreeing on how, precisely, to slow the pace of AI development without ceding critical economic and national security advantages. To what extent would the burden of such measures fall on private enterprise versus state or government entities ? How would infrastructure and security providers such as AWS, Cloudflare or CrowdStrike be involved? Who would pay for such a costly, global endeavor? Even if every frontier lab agreed to and implemented Amodei’s call for a pause, how would open-source technologies be regulated? None of these questions can be answered until we, as an industry, agree upon the most likely, tangible threats posed by rapid AI development rather than impossible imaginary scenarios and treat serious cybersecurity events as engineering failures rather than PR opportunities. This demands that we acknowledge the considerable disparity between the negative potential of AI technologies and the reality of the risks facing organizations today. Among the most pressing risks is untested agentic technologies being deployed to production environments without adequate testing, not legions of nefarious AI agents hell-bent on bringing down the entire internet. Too many organizations are frantically deploying AI to their networks in the hope of gaining an advantage in the ever-escalating arms race between attackers and defenders. This urgency is understandable, if misguided; every sensationalized headline about rogue models breaching containment creates additional pressure on security leaders to mitigate against threats that have never been seen before using tools that remain largely unproven. But urgency is no excuse for carelessness, and the stakes couldn’t be higher. As recent high-profile incidents such as OAI-HF have demonstrated, security leaders cannot assume that frontier labs will implement adequate safeguards in their models. AI technologies can — and increasingly, should — play a part in responsible defense work, but only if properly tested. Agentic behaviors must be validated before being deployed to production, and it’s vital that security leaders know exactly how their human operators work alongside agentic solutions in high-pressure situations. Researchers, developers, and policymakers must acknowledge the considerable potential for harm posed by agentic AI without anthropomorphizing software or indulging in fanciful hypotheticals about extinction events. As agentic AI becomes increasingly commonplace, it seems inevitable that greater oversight of some kind will be necessary , but the pacing of the frontier Amodei called for seems significantly less likely. The real question is whether regulatory oversight will be imposed upon the AI industry, or if frontier labs will be entrusted to oversee their own models. If the OAI-HF incident is any indicator, I suspect it won’t be long before we find out.",
+    "categories": [
+      "Cybersecurity",
+      "GRC",
+      "Networks",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws"
+      ],
+      "Networks": [
+        "network",
+        "lan",
+        "iot"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "threat",
+        "security",
+        "cyber",
+        "soc"
+      ],
+      "GRC": [
+        "governance",
+        "regulatory",
+        "policy",
+        "nist"
+      ]
+    },
+    "summary": "When Anthropic CEO Dario Amodei urged other leading AI labs to “pace the frontier” last week, his calls for caution were echoed by other prominent voices in tech. Both Sam Altman and Elon Musk agreed with Amodei’s assessment that pausing AI development was essential to prevent the extinction of the human race. Amodei listed several potential disasters that could arise from unchecked AI development, including heightened bioterrorism and cybersecurity threats, the loss of control over critical AI systems, and considerable financial and economic impacts. While these scenarios are indeed within the realm of the possible, battle lines were soon drawn on either side of the issue."
+  },
+  {
+    "title": "Google’s bug bounty pause highlights growing AI vulnerability triage challenge",
+    "url": "https://www.csoonline.com/article/4231109/googles-bug-bounty-pause-highlights-growing-ai-vulnerability-triage-challenge.html",
+    "source": "CSO Online",
+    "published": "2026-10-06T10:10:21+00:00",
+    "raw_text": "AI is accelerating the discovery of software vulnerabilities, but it is also creating a new bottleneck for defenders: deciding which machine-generated findings warrant investigation. Google has decided to temporarily stop accepting certain bug bounty submissions after a surge of largely invalid automated reports highlights a growing challenge for security teams as AI-driven vulnerability discovery begins to outpace human validation capacity. The suspension of its bug bounty program followed earlier attempts by Google to reduce the amount of low-quality material reaching its security teams. In March, the company tightened the rules governing its open-source vulnerability program after reporting a sharp rise in AI-generated submissions . Google said some reports contained incorrect claims about how vulnerabilities could be triggered, while others identified coding defects that had little practical security impact. Google began asking for stronger evidence for some classes of vulnerability, including reproducible results or accepted patches. It later stopped rewarding certain lower-tier product vulnerability reports. But high report volumes do not necessarily mean the findings are low-value. Vercel, for instance, said in September that it had received 1,285 vulnerability reports during a two-week security challenge for its Sandbox environment, with the company automating parts of triage. Dozens of the submissions were ultimately validated. AI-assisted vulnerability research is also producing findings that matter in practice. A critical flaw in Rejetto HTTP File Server, discovered with the help of Anthropic’s Mythos vulnerability-hunting model, was later targeted in exploitation attempts. The problem goes beyond bug bounty programs. As enterprises adopt AI-assisted tools inside application security workflows, vulnerability discovery could overtake the capacity to validate and remediate what those systems find. For CISOs, the question is whether existing vulnerability-management processes can absorb that volume without allowing low-value findings to consume resources needed for confirmed risks. Validation pressure A key concern is that AI can increase submission volume faster than teams can ramp up their verification capacity. “A convincing report can be generated quickly,” said Bhupendra Chopra , chief revenue officer at Kanerika. “Checking it may still require an engineer to trace the code and test the claimed attack conditions.” Google’s experience should be viewed as a warning about the economics of vulnerability reporting rather than evidence that the same problem is already widespread across enterprises, according to Sakshi Grover , research director for information and data security at IDC. “AI can help researchers discover genuine vulnerabilities, but it can also make convincing, poorly substantiated reports inexpensive to produce,” Grover said. “The receiving team still has to establish whether the affected code exists, whether the claimed attack path is reachable and whether there is a meaningful security impact.” That can impose a direct cost on enterprises. A finding that reaches an application owner before it has been properly assessed may consume engineering time even if the affected software version is not deployed or the vulnerable code cannot be reached in the organization’s environment. Chopra said security teams should verify that a reported flaw actually affects their environment before treating it as an urgent remediation priority. Grover said CISOs should judge AI-assisted security tools by the actionable findings they produce and the effort required to validate them, rather than by the raw number of vulnerabilities they identify. “A larger findings dashboard is not, by itself, evidence of better security,” Grover said. Sunil Varkey , a CISO, said enterprises will increasingly need to treat triage as a security capability in its own right, using evidence requirements, reachability scoring and automated filtering before findings reach human reviewers. Fixing the backlog The next major concern is that even confirmed vulnerabilities compete for limited engineering capacity. “More reports do not create more engineering capacity or maintenance windows,” Chopra said. Grover said a technically valid flaw may not be reachable in the deployed environment, while a vulnerability with a lower severity score could demand faster action if it affects an exposed, business-critical system. That makes deployment context and evidence of exploitation more useful for prioritization than relying on a scanner-generated severity rating alone. A scanner finding should be treated as a hypothesis rather than proof of an exploitable vulnerability, said Keith Prabhu , founder and CEO of Confidis. Teams still need to establish whether the affected code is present and reachable, reproduce the issue and assess its impact in their environment. One useful indicator, Chopra added, is whether analysts are spending more time rejecting weak findings while confirmed high-risk vulnerabilities remain unresolved for longer. If that happens, the reporting process itself may be consuming capacity that would otherwise be used to reduce risk. Grover said CISOs should track validation effort and the age of confirmed high-risk exposures, rather than focusing on the number of issues a tool reports. Triage as target Cheap, plausible vulnerability reports could also create opportunities for abuse. Chopra cautioned that while Google’s decision to halt product vulnerability submissions does not show that the company was targeted by a deliberate distraction campaign, such a scenario is plausible. “An unfiltered reporting channel could give attackers a way to consume security capacity without first breaching a system,” he said. Attackers could, for example, submit variations of the same claim across multiple services, forcing security teams to spend time investigating each submission before determining that they relate to the same issue. Prabhu said organizations should treat large volumes of low-quality reports as a resilience and workflow risk without assuming that every poor submission is part of a deliberate attack. Chopra said organizations can reduce that risk by requiring reproducible evidence, grouping duplicate reports and limiting submissions when abuse patterns emerge. Greater use of AI for triage could also introduce another attack path. Grover said malicious vulnerability reports could contain prompt-injection instructions designed to manipulate an AI agent’s assessment or induce it to take actions through connected tools. Submitted text and code should therefore be treated as untrusted input, she said, with vulnerability testing kept away from production systems and important actions independently checked. “The next competitive advantage will not come from finding more vulnerabilities faster,” Varkey said. “It will come from determining more quickly which ones pose a real risk and which ones do not.”",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "vulnerability",
+        "exploit",
+        "security",
+        "application security"
+      ],
+      "Data Centres": [
+        "rack",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "ey",
+        "idc"
+      ]
+    },
+    "summary": "AI is accelerating the discovery of software vulnerabilities, but it is also creating a new bottleneck for defenders: deciding which machine-generated findings warrant investigation. Google has decided to temporarily stop accepting certain bug bounty submissions after a surge of largely invalid automated reports highlights a growing challenge for security teams as AI-driven vulnerability discovery begins to outpace human validation capacity. The suspension of its bug bounty program followed earlier attempts by Google to reduce the amount of low-quality material reaching its security teams. In March, the company tightened the rules governing its open-source vulnerability program after reporting a sharp rise in AI-generated submissions ."
+  },
+  {
+    "title": "The AI app builder your team trusts has a root-level backdoor",
+    "url": "https://www.csoonline.com/article/4230802/the-ai-app-builder-your-team-trusts-has-a-root-level-backdoor.html",
+    "source": "CSO Online",
+    "published": "2026-10-06T10:00:00+00:00",
+    "raw_text": "The fastest-growing category of enterprise software right now is also the least scrutinized from a security standpoint. AI application platforms — tools that let teams build, connect and automate AI-powered workflows without writing much code — are landing in production environments faster than security teams can assess them. They connect to your APIs, your databases, your cloud credentials and your AI service accounts. And attackers have noticed. Langflow is one of the most widely deployed of these platforms. It is open-source, low-code and designed to let teams drag and drop AI models, APIs and data sources into functioning applications and agent workflows without heavy engineering overhead. That accessibility is exactly why it has grown so fast. It is also why what happened at the end of August matters for any organization that has deployed it. On August 29, 2026, VulnCheck’s threat intelligence team began observing continuous exploitation attempts against internet-facing Langflow instances. The vulnerability being exploited — CVE-2026-0768, carrying a CVSS score of 9.8 — had been sitting in Langflow’s codebase since before its public disclosure as a zero-day in January 2026. The exploitation that started late August has not slowed down. What the vulnerability actually does Langflow’s custom component editor includes a validate endpoint — a feature that lets developers test a code snippet before adding it to a workflow. The idea is reasonable: give users a way to check their logic before it runs in production. The implementation is the problem. That endpoint takes whatever code a user submits and passes it directly into Python’s exec(). There is no validation of the input before execution, and in many default deployments, no authentication is required to reach the endpoint at all . An attacker who can reach an internet-facing Langflow instance over the network can send a crafted request to that endpoint and execute arbitrary Python code immediately — as root, with no credentials, no user interaction required. Once inside, the attack chain is fast and consistent . Attackers search for .env files, environment variables, SSH keys and source code. They harvest OpenAI API keys, AWS credentials, cloud storage tokens and database credentials. Those stolen credentials are sent to external infrastructure, and the attacker attempts lateral movement via SSH and other protocols. The entire sequence — from initial exploitation to credential exfiltration — leaves few signs during normal AI workflow activity, which makes detection significantly harder. VulnCheck logged over 360 exploitation attempts on its UK honeypots in the days following public disclosure, with the majority of attack traffic originating from Russia. That number reflects observed attempts against instrumented systems. The number of successful attacks against uninstrumented production deployments is unknown. Why this is becoming a pattern The Langflow vulnerability did not emerge in isolation. Before 2026, only one Langflow vulnerability had ever been exploited in the wild . This year, that number has risen to twelve. VulnCheck has recorded over 15,000 successful exploitation attempts across three related Langflow flaws — CVE-2026-0769, CVE-2025-3248 and CVE-2026-5027 — before CVE-2026-0768 was added to that list. The reason is not that Langflow has suddenly become less secure. It is that Langflow has become valuable enough to attack. As VulnCheck’s researchers wrote, the rapid adoption of AI technologies has brought with it tools whose designers prioritized accessibility over security-first principles . The same qualities that make AI application platforms attractive to enterprise teams — open-source availability, easy deployment, broad API integrations, connections to cloud services and AI accounts — make them attractive targets once a code execution primitive exists. This is the same dynamic that played out with CI/CD platforms, then with Kubernetes management tools, and now with AI development infrastructure. The tooling category grows fast, security scrutiny lags behind and attackers move in once the installed base is large enough to be worth the effort. An internet-exposed Langflow instance with CVE-2026-0768 unpatched is not primarily a Langflow problem. It is a credential exposure problem. The OpenAI API key that gets stolen from a developer’s .env file does not care how it was taken. The AWS credentials harvested from an environment variable do not expire when the patch is eventually applied. The Rails flaw disclosed alongside this research makes that point explicitly : a compromised secret remains useful until it is rotated, regardless of whether the vulnerability that exposed it has been fixed. Three controls that matter right now Patch immediately and identify every exposed instance. All Langflow versions up to and including 1.4.2 are affected. VulnCheck began observing exploitation attempts within hours of public disclosure — the window between a patch becoming available and attackers scanning for unpatched instances is measured in hours, not days. Any Langflow deployment reachable from the internet without authentication in front of the validate endpoint is an active risk right now. The first step is knowing how many instances exist across your environment and which are internet-facing. Many organizations discover during incidents that development and testing deployments were exposed without security team visibility. Rotate every credential that touched an exposed Langflow instance. This is not optional even if you believe your instance was not actively exploited. The attack chain targets .env files, environment variables, SSH keys and cloud credentials — items that persist on disk and in memory throughout normal Langflow operation. An OpenAI API key or AWS access credential stored in an environment that ran an affected version of Langflow should be treated as potentially compromised. Rotate it. Review the access logs on the credential provider’s side for requests that the legitimate owner did not initiate. VulnCheck’s guidance specifically calls out OpenAI and AWS credentials as the primary targets of the observed campaign , and credential rotation is the only control that remains effective regardless of whether exploitation occurred. Do not expose AI development platforms to the internet without authentication. Langflow’s validate endpoint having no authentication in default configurations is the direct enabler of this attack. But the principle is broader: AI application platforms, workflow automation tools and agent development environments are not consumer services. They connect to production credentials, cloud accounts and internal APIs. Deploying them with internet-facing endpoints and no authentication layer is equivalent to exposing a development database to the public internet. Put these deployments behind a VPN or require authentication at the network perimeter. Apply the same access controls you would apply to any other internal development infrastructure. An honest assessment The CVE-2026-0768 vulnerability in Langflow is severe, but the more significant story is the trajectory it represents. Twelve Langflow vulnerabilities exploited in 2026 compared to one in all previous years is not a coincidence . It is a signal that attackers are methodically working through the AI tooling stack the same way they worked through cloud management tools and developer pipelines in earlier years. Security teams that have invested in visibility over their SaaS applications, cloud credentials and development pipelines are better positioned to detect the lateral movement that follows initial exploitation here. The organizations most exposed are those that treat AI development platforms as productivity tools rather than as infrastructure — deploying them quickly, connecting them to production credentials and leaving them outside the security perimeter that governs everything else. CVE-2026-0768 is patched and the fix is available. The credentials harvested between August 29 and whenever your organization patches and rotates are a different problem. That one does not have a vendor update.",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws",
+        "kubernetes",
+        "saas",
+        "cloud services"
+      ],
+      "Networks": [
+        "network",
+        "vpn",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "zero-day",
+        "exploit",
+        "threat",
+        "security",
+        "threat intelligence"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "The fastest-growing category of enterprise software right now is also the least scrutinized from a security standpoint. AI application platforms — tools that let teams build, connect and automate AI-powered workflows without writing much code — are landing in production environments faster than security teams can assess them. They connect to your APIs, your databases, your cloud credentials and your AI service accounts. And attackers have noticed."
   },
   {
     "title": "What exactly is ISOC? And what does it mean for you?",
@@ -1415,6 +1585,107 @@
     "summary": "In its roughly 30-year history, the CISO role has been reshaped by waves of new technology and rising cyber threats. In many organizations, CISOs now own risk reporting, information risk management, threat monitoring, cyber risk accountability and governance, and security strategy. And as AI and digital dependence grow, the CISO’s remit is growing beyond security controls. The latest IANS State of the CISO report finds CISOs carrying increasing executive authority to shape strategy at the organizational level."
   },
   {
+    "title": "Malaysia's DNB secures $1.27bn in funding for next phase of 5G rollout",
+    "url": "https://www.datacenterdynamics.com/en/news/malaysias-dnb-secures-127bn-in-funding-for-next-phase-of-5g-rollout/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-06T10:20:42+00:00",
+    "raw_text": "Comes shortly after the DNB activated more spectrum to expand 5G footprint",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "5g"
+      ],
+      "Industry & Market": [
+        "funding"
+      ]
+    },
+    "summary": "Comes shortly after the DNB activated more spectrum to expand 5G footprint"
+  },
+  {
+    "title": "TeraWulf's Kentucky campus to reach 1GW in 2029",
+    "url": "https://www.datacenterdynamics.com/en/news/terawulfs-kentucky-campus-to-reach-1gw-in-2029/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-06T10:10:39+00:00",
+    "raw_text": "Company adding second 500MW phase a year sooner",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Company adding second 500MW phase a year sooner"
+  },
+  {
+    "title": "Investment firm Forum Markets partners with Edge Node for US compute roll-out",
+    "url": "https://www.datacenterdynamics.com/en/news/investment-firm-forum-markets-partners-with-edge-node-for-us-compute-roll-out/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-06T10:00:32+00:00",
+    "raw_text": "JV taking on data center capacity in Dallas and North Carolina, deploying capacity at Texas cell tower",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "JV taking on data center capacity in Dallas and North Carolina, deploying capacity at Texas cell tower"
+  },
+  {
+    "title": "Axe Compute acquires full ownership of AI cluster in Columbus, Georgia",
+    "url": "https://www.datacenterdynamics.com/en/news/axe-compute-acquires-full-ownership-of-ai-cluster-in-columbus-georgia/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-06T09:50:47+00:00",
+    "raw_text": "Purchased from Duos Technologies Group, Duos still owns facility",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquires"
+      ]
+    },
+    "summary": "Purchased from Duos Technologies Group, Duos still owns facility"
+  },
+  {
+    "title": "Powering North America’s data center boom",
+    "url": "https://www.datacenterdynamics.com/en/whitepapers/powering-north-americas-data-center-boom/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-06T09:47:59+00:00",
+    "raw_text": "How data center operators are overcoming grid constraints to secure reliable and scalable power needed to support North America’s rapid growth",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "How data center operators are overcoming grid constraints to secure reliable and scalable power needed to support North America’s rapid growth"
+  },
+  {
+    "title": "Firmus and CDC end 1.6GW Project Southgate collaboration, deploy just 42MW",
+    "url": "https://www.datacenterdynamics.com/en/news/firmus-and-cdc-end-16gw-project-southgate-collaboration-deploy-just-42mw/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-06T09:45:44+00:00",
+    "raw_text": "Due to Firmus' expansion in Asia raising questions about funding",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "funding"
+      ]
+    },
+    "summary": "Due to Firmus' expansion in Asia raising questions about funding"
+  },
+  {
     "title": "DCD Survey: Data center construction",
     "url": "https://www.datacenterdynamics.com/en/whitepapers/dcd-survey-data-center-construction/",
     "source": "DataCenterDynamics",
@@ -1537,6 +1808,22 @@
     "summary": "EverWind Fuels explores potential co-located data center development"
   },
   {
+    "title": "Sponsored: Three ways data center owners and developers can control costs and preserve liquidity",
+    "url": "https://www.datacenterdynamics.com/en/opinions/three-ways-data-center-owners-and-developers-can-control-costs-and-preserve-liquidity/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-05T15:00:00+00:00",
+    "raw_text": "Three strategies for effective cost containment",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Three strategies for effective cost containment"
+  },
+  {
     "title": "Sovereignty is within Scottish soil",
     "url": "https://www.datacenterdynamics.com/en/opinions/sovereignty-is-within-scottish-soil/",
     "source": "DataCenterDynamics",
@@ -1646,135 +1933,40 @@
     "summary": "Blackstart Digital acquiring IBM's Almaden Research Center in San Jose"
   },
   {
-    "title": "AI cloud startup Verda raises $189m in Series B funding round",
-    "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-startup-verda-raises-189m-in-series-b-funding-round/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-05T13:20:44+00:00",
-    "raw_text": "Round was led by Emergence Capital",
+    "title": "Atos lands £350M beat keeping Met Police applications running",
+    "url": "https://www.theregister.com/public-sector/2026/10/06/atos-lands-350m-beat-keeping-met-police-applications-running/5301310",
+    "source": "The Register",
+    "published": "2026-10-06T10:29:00+00:00",
+    "raw_text": "Six-year deal covers management and security, with options to add cloud and digital workplace services",
     "categories": [
-      "Industry & Market",
-      "Cloud Infrastructure"
+      "Cloud Infrastructure",
+      "Networks",
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Cloud Infrastructure": [
         "cloud"
       ],
-      "Industry & Market": [
-        "funding",
-        "raises"
-      ]
-    },
-    "summary": "Round was led by Emergence Capital"
-  },
-  {
-    "title": "Rethinking power architecture in large-scale data centers",
-    "url": "https://www.datacenterdynamics.com/en/whitepapers/rethinking-power-architecture-in-large-scale-data-centers/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-05T13:04:00+00:00",
-    "raw_text": "How block-redundant (Catcher) architectures optimize power infrastructure while maintaining high availability",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "How block-redundant (Catcher) architectures optimize power infrastructure while maintaining high availability"
-  },
-  {
-    "title": "Jera, Dell Technologies, and Rhaelm team up for behind-the-meter AI infrastructure in Japan",
-    "url": "https://www.datacenterdynamics.com/en/news/jera-dell-technologies-and-rhaelm-team-up-for-behind-the-meter-ai-infrastructure-in-japan/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-05T13:01:08+00:00",
-    "raw_text": "First project planned for power plant at Chiba",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
       "Networks": [
         "lan"
       ],
-      "Data Centres": [
-        "ai infrastructure"
+      "Cybersecurity": [
+        "security"
       ]
     },
-    "summary": "First project planned for power plant at Chiba"
+    "summary": "Six-year deal covers management and security, with options to add cloud and digital workplace services"
   },
   {
-    "title": "Qualcomm and Huawei sign multi-year patent license agreement spanning 5G, compute, AI, and networking technologies",
-    "url": "https://www.datacenterdynamics.com/en/news/qualcomm-and-huawei-sign-multi-year-patent-license-agreement-spanning-5g-compute-ai-and-networking-technologies/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-05T12:33:09+00:00",
-    "raw_text": "Financial terms of the agreement have not been disclosed",
+    "title": "Legacy sign-on service comes back to bite school software provider Bromcom",
+    "url": "https://www.theregister.com/security/2026/10/06/legacy-sign-on-service-comes-back-to-bite-school-software-provider-bromcom/5301156",
+    "source": "The Register",
+    "published": "2026-10-06T09:30:00+00:00",
+    "raw_text": "Intruders retrieved email addresses from superseded tech kept running for an internal system",
     "categories": [
-      "Networks"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "networking",
-        "5g"
-      ]
-    },
-    "summary": "Financial terms of the agreement have not been disclosed"
-  },
-  {
-    "title": "Rightfiber finalizes acquisition of Fastwyre's Nebraska business",
-    "url": "https://www.datacenterdynamics.com/en/news/rightfiber-finalizes-acquisition-of-fastwyres-nebraska-business/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-05T12:18:00+00:00",
-    "raw_text": "Firm was only formed last month",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "fiber"
-      ],
-      "Industry & Market": [
-        "acquisition"
-      ]
-    },
-    "summary": "Firm was only formed last month"
-  },
-  {
-    "title": "Elon Musk confirms TeraFab discussions between SpaceX and TSMC, says SpaceXAI will be renamed SpaceXSI",
-    "url": "https://www.datacenterdynamics.com/en/news/elon-musk-confirms-terafab-discussions-between-spacex-and-tsmc-says-spacexai-will-be-renamed-spacexsi/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-05T12:12:15+00:00",
-    "raw_text": "Follows reports that TSMC is mulling over plans for a chip manufacturing hub in Texas",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Follows reports that TSMC is mulling over plans for a chip manufacturing hub in Texas"
-  },
-  {
-    "title": "Former UK power station site could become data center campus",
-    "url": "https://www.datacenterdynamics.com/en/news/former-uk-power-station-site-could-become-data-center-campus/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-05T11:50:37+00:00",
-    "raw_text": "Former Fawley Power Station outside Southampton could host data centers",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Former Fawley Power Station outside Southampton could host data centers"
+    "matched_keywords": {},
+    "summary": "Intruders retrieved email addresses from superseded tech kept running for an internal system"
   },
   {
     "title": "KPMG tells staff facing the axe: Here's £100, now zip it",
@@ -2171,20 +2363,63 @@
     "summary": "I am just a copy of a copy of a copy, everything I say has come before"
   },
   {
-    "title": "Revive Raskin's 3 laws of software with humane work that considers a dev's duty of care",
-    "url": "https://www.theregister.com/software/2026/10/04/revive-raskins-3-laws-of-software-with-humane-work-that-considers-a-devs-duty-of-care/5300539",
-    "source": "The Register",
-    "published": "2026-10-04T10:30:00+00:00",
-    "raw_text": "All this, and angry NeoVim users",
+    "title": "UK government accepts AI healthcare recommendations",
+    "url": "https://www.computerweekly.com/news/366651579/UK-government-accepts-AI-healthcare-recommendations",
+    "source": "ComputerWeekly",
+    "published": "2026-10-06T06:45:00+00:00",
+    "raw_text": "<p>The government has accepted the 44 recommendations made by the <a href=\"https://www.computerweekly.com/news/366649859/Healthcare-regs-should-include-continuous-AI-monitoring\">National Commission into the Regulation of AI in Healthcare</a>.</p> <p>In September, the commission recommended that the <a href=\"https://www.computerweekly.com/news/366583973/MHRA-launches-AI-regulatory-sandbox\">Medicines and Healthcare products Regulatory Agency</a> (MHRA), which is responsible for regulating all medicines and medical devices in the UK, introduce staged authorisations for new artificial intelligence (AI) models where they are deployed under close supervision and tight guardrails.</p> <p>The commission concluded that the current regulatory approach must evolve for AI technologies by designing a more proportionate, lifecycle-based framework.&nbsp;</p> <p>Specifically, the commission said AI-enabled medical devices should be assessed and monitored throughout their working life to better understand true performance, instead of over-relying on one-time assessments.</p> <p>An <a href=\"https://www.computerweekly.com/news/366649589/Gartner-Deploy-sandboxes-to-rein-in-AI-agents\">AI sandbox</a> called the AI Airlock Phase 3 has been put in place, enabling developers, regulators and healthcare partners to test how AI devices can be safely monitored and managed for post-market surveillance after they are deployed. A webinar for prospective applicants is set to take place on 22 October.&nbsp;</p> <p>The MHRA also aims to issue draft guidance by December 2026 on a new approach to managing changes to AI-enabled medical devices as they adapt and improve over time, moving towards a regulatory system that is designed to maintain safety while supporting timely access to innovative devices.</p> <p>Other commitments include exploring new staged authorisation pathways to allow AI tools to be used in the NHS earlier under close supervision while further real-world evidence is gathered.</p> <p>The government said it will also work with partners across the health system to strengthen patient engagement in decision-making, improve access to redress where standards of care fall below expectations, and ensure the benefits of AI are shared fairly across all communities, including underserved groups.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more NHS AI stories</h3> <ul class=\"default-list\"> <li>The NHS accidentally bought the most <a href=\"https://www.computerweekly.com/opinion/The-NHS-accidentally-bought-the-most-valuable-AI-capability-in-enterprise-software\">valuable AI capability</a> in enterprise software: The NHS could already have one of the most powerful AI platforms in healthcare sitting inside its own data infrastructure – but it barely seems to know what it has.</li> <li>NHS could save millions of hours a year <a href=\"https://www.computerweekly.com/news/366633420/NHS-could-save-millions-of-hours-a-year-using-AI-pilot-shows\">using AI</a>, pilot shows: A Microsoft Copilot AI trial in 90 NHS organisations found that a national roll-out could save up to 400,000 hours per month.</li> </ul> </div> </div> <p>Discussing the opportunity to use AI in healthcare, health innovation minister James Frith said: “We want all patients to benefit from the life-saving potential of AI, with the confidence that it is safe, effective and properly overseen. We also want to see the NHS harness the best new technologies to give patients faster, better care and give staff more time to focus on patients. But innovation must never come at the expense of patient safety.</p> <p>“This will be a continually evolving process as the technology itself develops, but we are acting now by accepting in full all 44 recommendations of the Independent Commission, which will provide a foundation to embrace the opportunities AI brings while putting strong safeguards, transparency and public confidence at the heart of its use.”&nbsp;</p> <p>Gerard Hanratty, partner and head of health and life sciences at UK and Ireland law firm Browne Jacobson, said: “For the UK to truly become a global leader in adopting AI within healthcare, it requires a strong regulatory environment that enables innovators to build and safely test AI, healthcare professionals to use, and patients to engage with it in their care.</p> <p>“The proposed L-plates-style staged authorisation model is a pragmatic and proportionate response to the genuine challenge of deploying adaptive technologies safely in real-world NHS settings,” he continued. “Equally important is the recommendation for continuous, lifecycle monitoring of AI-enabled medical devices, which reflects the reality that these are not static products. They evolve after deployment, and our regulatory frameworks must keep pace with that.</p> <p>“NHS data is extraordinarily rich and holds genuine commercial value, but the question of how to share it internationally, with whom and on what terms remains unresolved at a systemic level – with public trust a central concern,” said Hanratty. “The commission’s recommendation that patients should be able to easily access safety information about AI-enabled devices, and should know when AI is being used in their care, is a proportionate and necessary response to that challenge.”</p>",
     "categories": [
-      "Cloud Infrastructure"
+      "GRC",
+      "Industry & Market",
+      "Networks",
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "edr"
+      ],
+      "GRC": [
+        "regulation",
+        "regulatory",
+        "nist"
+      ],
+      "Industry & Market": [
+        "launches",
+        "ey",
+        "gartner"
       ]
     },
-    "summary": "All this, and angry NeoVim users"
+    "summary": "<p>The government has accepted the 44 recommendations made by the <a href=\"https://www.computerweekly.com/news/366649859/Healthcare-regs-should-include-continuous-AI-monitoring\">National Commission into the Regulation of AI in Healthcare</a>.</p> <p>In September, the commission recommended that the <a href=\"https://www.computerweekly.com/news/366583973/MHRA-launches-AI-regulatory-sandbox\">Medicines and Healthcare products Regulatory Agency</a> (MHRA), which is responsible for regulating all medicines and medical devices in the UK, introduce staged authorisations for new artificial intelligence (AI) models where they are deployed under close supervision and tight guardrails.</p> <p>The commission concluded that the current regulatory approach must evolve for AI technologies by designing a more proportionate, lifecycle-based framework.&nbsp;</p> <p>Specifically, the commission said AI-enabled medical devices should be assessed and monitored throughout their working life to better understand true performance, instead of over-relying on one-time assessments.</p> <p>An <a href=\"https://www.computerweekly.com/news/366649589/Gartner-Deploy-sandboxes-to-rein-in-AI-agents\">AI sandbox</a> called the AI Airlock Phase 3 has been put in place, enabling developers, regulators and healthcare partners to test how AI devices can be safely monitored and managed for post-market surveillance after they are deployed. A webinar for prospective applicants is set to take place on 22 October.&nbsp;</p> <p>The MHRA also aims to issue draft guidance by December 2026 on a new approach to managing changes to AI-enabled medical devices as they adapt and improve over time, moving towards a regulatory system that is designed to maintain safety while supporting timely access to innovative devices.</p> <p>Other commitments include exploring new staged authorisation pathways to allow AI tools to be used in the NHS earlier under close supervision while further real-world evidence is gathered.</p> <p>The government said it will also work with partners across the health system to strengthen patient engagement in decision-making, improve access to redress where standards of care fall below expectations, and ensure the benefits of AI are shared fairly across all communities, including underserved groups.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more NHS AI stories</h3> <ul class=\"default-list\"> <li>The NHS accidentally bought the most <a href=\"https://www.computerweekly.com/opinion/The-NHS-accidentally-bought-the-most-valuable-AI-capability-in-enterprise-software\">valuable AI capability</a> in enterprise software: The NHS could already have one of the most powerful AI platforms in healthcare sitting inside its own data infrastructure – but it barely seems to know what it has.</li> <li>NHS could save millions of hours a year <a href=\"https://www.computerweekly.com/news/366633420/NHS-could-save-millions-of-hours-a-year-using-AI-pilot-shows\">using AI</a>, pilot shows: A Microsoft Copilot AI trial in 90 NHS organisations found that a national roll-out could save up to 400,000 hours per month.</li> </ul> </div> </div> <p>Discussing the opportunity to use AI in healthcare, health innovation minister James Frith said: “We want all patients to benefit from the life-saving potential of AI, with the confidence that it is safe, effective and properly overseen. We also want to see the NHS harness the best new technologies to give patients faster, better care and give staff more time to focus on patients. But innovation must never come at the expense of patient safety.</p> <p>“This will be a continually evolving process as the technology itself develops, but we are acting now by accepting in full all 44 recommendations of the Independent Commission, which will provide a foundation to embrace the opportunities AI brings while putting strong safeguards, transparency and public confidence at the heart of its use.”&nbsp;</p> <p>Gerard Hanratty, partner and head of health and life sciences at UK and Ireland law firm Browne Jacobson, said: “For the UK to truly become a global leader in adopting AI within healthcare, it requires a strong regulatory environment that enables innovators to build and safely test AI, healthcare professionals to use, and patients to engage with it in their care.</p> <p>“The proposed L-plates-style staged authorisation model is a pragmatic and proportionate response to the genuine challenge of deploying adaptive technologies safely in real-world NHS settings,” he continued."
+  },
+  {
+    "title": "JP Morgan Chase most advanced in AI as UK banks group in chasing pack",
+    "url": "https://www.computerweekly.com/news/366651625/JP-Morgan-Chase-most-advanced-in-AI-as-UK-banks-group-in-chasing-pack",
+    "source": "ComputerWeekly",
+    "published": "2026-10-06T05:44:00+00:00",
+    "raw_text": "<p>JP Morgan Chase has retained top spot for artificial intelligence (AI) capabilities, with the UK’s biggest banks grouped in the chasing pack, according to Evident’s benchmark.</p> <p>In the <a href=\"https://evidentinsights.com/ai-index/\">2026 <em>AI index</em></a>, Evident’s top 10 contains six US-headquartered banks and two based in Canada, while Switzerland’s UBS was Europe’s only representative, and <a href=\"https://www.computerweekly.com/news/366638702/Australias-CommBank-partners-business-school-to-research-artificial-intelligence\">Australia’s CommBank</a> also made up the group. <a href=\"https://www.computerweekly.com/news/366640627/HSBC-gets-its-first-artificial-intelligence-chief\">UK bank HSBC</a> came in at number 11, Lloyds Banking Group 15, NatWest 17 and Barclays 19.</p> <p>A total of 50 banks were assessed, with the survey reporting that AI capabilities advanced nearly three times faster over the past year than the average across the previous three years.</p> <p>“This was the year AI in banking went industrial. Banks across the <em>AI index</em> are moving faster than at any point since we began measuring,” said Alexandra Mousavizadeh, co-CEO at Evident.</p> <p>In the latest research, the number of banks that reported a return or projected a return across their AI activities is up to 12 out of 50, an improvement from eight last year, with Lloyds Banking Group one of the latest banks to achieve this milestone, said the research report. <a href=\"https://www.computerweekly.com/news/366646854/AI-will-support-all-Lloyds-Bank-customer-interactions-by-2030\">Lloyds Bank recently</a> said that all customer interactions will be supported by AI by 2030 and that it is targeting £100m in value generation.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Guardrail differentiation\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Guardrail differentiation</h2> <p>Evident said that with public fears and regulatory scrutiny around the use of AI, banks that are investing in AI controls are moving ahead: “As public debate mounts over whether increasingly powerful AI systems can be kept under control, the banks pulling ahead are the ones investing hardest in AI guardrails: sophisticated controls are in place at 80% of the leading banks, against 40% of the rest.”</p> <p>To this end, the research found that “responsible AI principles are near-universal” now, with 49 of the 50 banks surveyed adopting them, which is 16 more than in 2023.</p> <p>Evident found that 80% of the leading AI-adopting banks use sophisticated controls, such as checks on what AI systems are fed and what they produce, as well as monitoring once they are live. This compared to just 40% of the wider group surveyed. Furthermore, recruitment of AI governance experts increased 33% year over year (YoY) in the entire group of 50 banks.</p> <p>Mousavizadeh said that it is what banks add around AI models, including governance, that differentiates the leaders from the chasers: “What separates the leaders is everything they have built around their models, from the data and plumbing to the guardrails, and the habit of building something once and scaling it everywhere. That foundation is what allows them to put AI into production at pace.”</p> <p>It is the investment in the wider AI strategies that has made banking a leading industry for AI adoption. Daniel Shackleford Capel, managing director of banking at Evident, said banks are creating a blueprint for other industries to follow, but still need to fine-tune strategies.<b> </b></p> <p>“The leading banks are focusing on where AI will deliver the greatest impact and not on using AI to cut their way to savings. But while most banks can now show that AI makes work faster, demonstrating what that means for the bottom line is a different story,” he said.</p> <p>“Ultimately, those are the metrics every bank will need to determine which of its hundreds of AI projects to scale. With AI budgets at record levels, the banks that can prove their returns will keep the money flowing to the right places.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Evident’s benchmarking</h3> <ul class=\"default-list\"> <li>The <a href=\"https://www.computerweekly.com/news/366639439/Institutionalised-AI-puts-Visa-top-of-ranking\">payment card services giant leads the way in applying artificial intelligence</a> in its sector, according to research.</li> <li>Research shows that insurers have <a href=\"https://www.computerweekly.com/news/366644435/Insurance-industry-AI-recruitment-correlates-with-success\">accelerated recruitment of artificial intelligence professionals</a>.</li> <li>Banks are <a href=\"https://www.computerweekly.com/news/366638719/Banks-reduce-reliance-on-OpenAI-as-strategies-mature\">increasingly using alternative AI providers</a> as Anthropic and Google eat into OpenAI’s dominance.</li> </ul> </div> </div> </section>",
+    "categories": [
+      "GRC",
+      "Industry & Market",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "governance",
+        "regulatory"
+      ],
+      "Industry & Market": [
+        "investment",
+        "ey"
+      ]
+    },
+    "summary": "<p>JP Morgan Chase has retained top spot for artificial intelligence (AI) capabilities, with the UK’s biggest banks grouped in the chasing pack, according to Evident’s benchmark.</p> <p>In the <a href=\"https://evidentinsights.com/ai-index/\">2026 <em>AI index</em></a>, Evident’s top 10 contains six US-headquartered banks and two based in Canada, while Switzerland’s UBS was Europe’s only representative, and <a href=\"https://www.computerweekly.com/news/366638702/Australias-CommBank-partners-business-school-to-research-artificial-intelligence\">Australia’s CommBank</a> also made up the group. <a href=\"https://www.computerweekly.com/news/366640627/HSBC-gets-its-first-artificial-intelligence-chief\">UK bank HSBC</a> came in at number 11, Lloyds Banking Group 15, NatWest 17 and Barclays 19.</p> <p>A total of 50 banks were assessed, with the survey reporting that AI capabilities advanced nearly three times faster over the past year than the average across the previous three years.</p> <p>“This was the year AI in banking went industrial. Banks across the <em>AI index</em> are moving faster than at any point since we began measuring,” said Alexandra Mousavizadeh, co-CEO at Evident.</p> <p>In the latest research, the number of banks that reported a return or projected a return across their AI activities is up to 12 out of 50, an improvement from eight last year, with Lloyds Banking Group one of the latest banks to achieve this milestone, said the research report. <a href=\"https://www.computerweekly.com/news/366646854/AI-will-support-all-Lloyds-Bank-customer-interactions-by-2030\">Lloyds Bank recently</a> said that all customer interactions will be supported by AI by 2030 and that it is targeting £100m in value generation.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Guardrail differentiation\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Guardrail differentiation</h2> <p>Evident said that with public fears and regulatory scrutiny around the use of AI, banks that are investing in AI controls are moving ahead: “As public debate mounts over whether increasingly powerful AI systems can be kept under control, the banks pulling ahead are the ones investing hardest in AI guardrails: sophisticated controls are in place at 80% of the leading banks, against 40% of the rest.”</p> <p>To this end, the research found that “responsible AI principles are near-universal” now, with 49 of the 50 banks surveyed adopting them, which is 16 more than in 2023.</p> <p>Evident found that 80% of the leading AI-adopting banks use sophisticated controls, such as checks on what AI systems are fed and what they produce, as well as monitoring once they are live."
   },
   {
     "title": "A healthy approach to AI",
@@ -2704,11 +2939,11 @@
     "summary": "Claude helped me vibe-code a Mac app and pass Apple’s review in less than two weeks. Come with me on my journey from idea to purchasable App Store product."
   },
   {
-    "title": "Prophix® gibt strategische Zusammenarbeit mit PwC Belgien zur Transformation des Finanzwesens bekannt",
-    "url": "https://www.prnewswire.com/news-releases/prophix-gibt-strategische-zusammenarbeit-mit-pwc-belgien-zur-transformation-des-finanzwesens-bekannt-302899272.html",
+    "title": "Timber Pizza Co. Expands Maryland Footprint with New Two-Unit Agreement in Chevy Chase and Bethesda",
+    "url": "https://www.prnewswire.com/news-releases/timber-pizza-co-expands-maryland-footprint-with-new-two-unit-agreement-in-chevy-chase-and-bethesda-302899285.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:01:00+00:00",
-    "raw_text": "Durch diese Partnerschaft können Kunden von Prophix und PwC ihre Finanzfunktionen in den Bereichen Budgetierung und Planung, Berichterstattung sowie Konsolidierung und Abschluss automatisieren und skalieren. TORONTO, 6. Oktober 2026 /PRNewswire/ -- Prophix®, ein weltweit führender...",
+    "published": "2026-10-06T11:24:00+00:00",
+    "raw_text": "Award-winning pizza concept signs its seventh franchise group, further strengthening its presence in Montgomery County and the DMV WASHINGTON, Oct. 6, 2026 /PRNewswire/ -- Timber Pizza Co., the award-winning, neighborhood-driven pizza franchise known for its wood-fired pizzas and...",
     "categories": [
       "Networks",
       "Industry & Market"
@@ -2718,38 +2953,300 @@
         "lan"
       ],
       "Industry & Market": [
-        "pwc"
+        "expands"
       ]
     },
-    "summary": "Durch diese Partnerschaft können Kunden von Prophix und PwC ihre Finanzfunktionen in den Bereichen Budgetierung und Planung, Berichterstattung sowie Konsolidierung und Abschluss automatisieren und skalieren. TORONTO, 6. Oktober 2026 /PRNewswire/ -- Prophix®, ein weltweit führender..."
+    "summary": "Award-winning pizza concept signs its seventh franchise group, further strengthening its presence in Montgomery County and the DMV WASHINGTON, Oct. 6, 2026 /PRNewswire/ -- Timber Pizza Co., the award-winning, neighborhood-driven pizza franchise known for its wood-fired pizzas and..."
   },
   {
-    "title": "Prophix® Announces Strategic Collaboration with PwC Belgium to Transform the Finance Function",
-    "url": "https://www.prnewswire.com/news-releases/prophix-announces-strategic-collaboration-with-pwc-belgium-to-transform-the-finance-function-302899164.html",
+    "title": "Prime Cuts Jerky Brings \"Gas Station Gourmet\" Revolution to the NACS Show 2026",
+    "url": "https://www.prnewswire.com/news-releases/prime-cuts-jerky-brings-gas-station-gourmet-revolution-to-the-nacs-show-2026-302899422.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:01:00+00:00",
-    "raw_text": "The relationship enables Prophix and PwC clients to automate and scale their finance functions across budgeting and planning; reporting; and consolidation and close. TORONTO, Oct. 6, 2026 /PRNewswire/ -- Prophix®, a global leader in financial performance management, today announced a...",
+    "published": "2026-10-06T11:21:00+00:00",
+    "raw_text": "Visit Booth N737 | Las Vegas, Nevada | October 7-9, 2026 LAS VEGAS, Oct. 6, 2026 /PRNewswire/ -- Prime Cuts Jerky, one of the fastest-growing premium meat snack brands in America, will showcase its award-worthy lineup of certified Prime beef brisket jerky and premium Angus beef sticks at...",
     "categories": [
-      "Industry & Market",
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Visit Booth N737 | Las Vegas, Nevada | October 7-9, 2026 LAS VEGAS, Oct. 6, 2026 /PRNewswire/ -- Prime Cuts Jerky, one of the fastest-growing premium meat snack brands in America, will showcase its award-worthy lineup of certified Prime beef brisket jerky and premium Angus beef sticks at..."
+  },
+  {
+    "title": "S&H Rugs Announces the Launch of its Fall 2026 Oriental Rug Collection, Unveiling Innovative Textures, Sustainable Materials, and Striking New Hand-Knotted Carpets",
+    "url": "https://www.prnewswire.com/news-releases/sh-rugs-announces-the-launch-of-its-fall-2026-oriental-rug-collection-unveiling-innovative-textures-sustainable-materials-and-striking-new-hand-knotted-carpets-302899189.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:18:00+00:00",
+    "raw_text": "HIGH POINT, N.C., Oct. 6, 2026 /PRNewswire/ -- This Fall 2026, S&H Rugs focuses on breathtaking hand-knotted rug textures, using sustainable materials, and a seamless blend of traditional and contemporary trends. Pushing the boundaries of traditional materials and weaving, the new...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "HIGH POINT, N.C., Oct. 6, 2026 /PRNewswire/ -- This Fall 2026, S&H Rugs focuses on breathtaking hand-knotted rug textures, using sustainable materials, and a seamless blend of traditional and contemporary trends. Pushing the boundaries of traditional materials and weaving, the new..."
+  },
+  {
+    "title": "Seekr Recognized on Fast Company's 2026 Next Big Things in Tech List",
+    "url": "https://www.prnewswire.com/news-releases/seekr-recognized-on-fast-companys-2026-next-big-things-in-tech-list-302899701.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:18:00+00:00",
+    "raw_text": "SeekrFlow honored for bringing explainable, defensible, and sovereign AI to the high-stakes decisions enterprises and government agencies need to make, verify, and defend RESTON, Va., Oct. 6, 2026 /PRNewswire/ -- Seekr, the leader in explainable and sovereign AI, today announced that...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SeekrFlow honored for bringing explainable, defensible, and sovereign AI to the high-stakes decisions enterprises and government agencies need to make, verify, and defend RESTON, Va., Oct. 6, 2026 /PRNewswire/ -- Seekr, the leader in explainable and sovereign AI, today announced that..."
+  },
+  {
+    "title": "ROVENSA NEXT PUTS REAL GROWER CHALLENGES AT THE CENTER OF ITS NEXT PHASE OF 'BIOSOLUTIONIZE AGRICULTURE'",
+    "url": "https://www.prnewswire.com/news-releases/rovensa-next-puts-real-grower-challenges-at-the-center-of-its-next-phase-of-biosolutionize-agriculture-302899699.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:17:00+00:00",
+    "raw_text": "AT FRUIT ATTRACTION 2026 The approach marks a shift to a more customer-centric and consultative model, connecting growers' needs with agronomic expertise, field evidence, and integrated biosolutions strategies. The new framework is based on an analysis of nearly 30 specific challenges...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "AT FRUIT ATTRACTION 2026 The approach marks a shift to a more customer-centric and consultative model, connecting growers' needs with agronomic expertise, field evidence, and integrated biosolutions strategies. The new framework is based on an analysis of nearly 30 specific challenges..."
+  },
+  {
+    "title": "Finance Teams Now Spend a Quarter of Their Week Fact-Checking AI, New Datarails Survey Finds",
+    "url": "https://www.prnewswire.com/news-releases/finance-teams-now-spend-a-quarter-of-their-week-fact-checking-ai-new-datarails-survey-finds-302899700.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:17:00+00:00",
+    "raw_text": "Study also finds that fears of AI-driven layoffs have not materialized, while vast majority of CFOs do not trust AI to produce board-ready materials NEW YORK, Oct. 6, 2026 /PRNewswire/ -- With every CFO now using AI as standard, finance teams are spending over a quarter of their working...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Study also finds that fears of AI-driven layoffs have not materialized, while vast majority of CFOs do not trust AI to produce board-ready materials NEW YORK, Oct. 6, 2026 /PRNewswire/ -- With every CFO now using AI as standard, finance teams are spending over a quarter of their working..."
+  },
+  {
+    "title": "Cedar Investment Group Launches to Originate, Finance, and Deliver Compute Capacity at the Cutting Edge of U.S. Digital Infrastructure",
+    "url": "https://www.prnewswire.com/news-releases/cedar-investment-group-launches-to-originate-finance-and-deliver-compute-capacity-at-the-cutting-edge-of-us-digital-infrastructure-302899196.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:15:00+00:00",
+    "raw_text": "Integrated Model Brings Together Origination, Design, Financing, Procurement and Delivery More Than 2GW of U.S. Data Center Projects Originated and Under Development WASHINGTON and NEW YORK, Oct. 6, 2026 /PRNewswire/ -- Cedar Investment Group (\"Cedar\") today announced its official launch...",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center",
+        "capacity"
+      ],
+      "Industry & Market": [
+        "launches",
+        "investment"
+      ]
+    },
+    "summary": "Integrated Model Brings Together Origination, Design, Financing, Procurement and Delivery More Than 2GW of U.S. Data Center Projects Originated and Under Development WASHINGTON and NEW YORK, Oct. 6, 2026 /PRNewswire/ -- Cedar Investment Group (\"Cedar\") today announced its official launch..."
+  },
+  {
+    "title": "TranspireBio Announces Successful Completion of a Pivotal Phase 1 Study with its Proprietary Springboard™ Soft Mist Inhaler Platform",
+    "url": "https://www.prnewswire.com/news-releases/transpirebio-announces-successful-completion-of-a-pivotal-phase-1-study-with-its-proprietary-springboard-soft-mist-inhaler-platform-302899310.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:15:00+00:00",
+    "raw_text": "SUNRISE, Fla., Oct. 6, 2026 /PRNewswire/ -- TranspireBio Holdings Inc., an integrated U.S.-based clinical-stage, biopharmaceutical company advancing inhaled therapeutics for respiratory and systemic diseases, today announced the successful completion of a pivotal Phase 1 pharmacokinetic...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "SUNRISE, Fla., Oct. 6, 2026 /PRNewswire/ -- TranspireBio Holdings Inc., an integrated U.S.-based clinical-stage, biopharmaceutical company advancing inhaled therapeutics for respiratory and systemic diseases, today announced the successful completion of a pivotal Phase 1 pharmacokinetic..."
+  },
+  {
+    "title": "etisalat lanza un proyecto para ampliar la infraestructura digital dentro de los EAU y en el extranjero",
+    "url": "https://www.prnewswire.com/news-releases/etisalat-lanza-un-proyecto-para-ampliar-la-infraestructura-digital-dentro-de-los-eau-y-en-el-extranjero-302899693.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:13:00+00:00",
+    "raw_text": "-En presencia de Mansour bin Zayed, etisalat lanza un proyecto para ampliar la infraestructura digital dentro de los EAU y en el extranjero, con el fin de aumentar la conectividad internacional a más de 500 Tbps para el año 2030 Una conectividad internacional de más de 500 Tbps equivale a...",
+    "categories": [
       "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "-En presencia de Mansour bin Zayed, etisalat lanza un proyecto para ampliar la infraestructura digital dentro de los EAU y en el extranjero, con el fin de aumentar la conectividad internacional a más de 500 Tbps para el año 2030 Una conectividad internacional de más de 500 Tbps equivale a..."
+  },
+  {
+    "title": "G7 Releases 100 Million Barrels as Diesel Tops $6 a Gallon",
+    "url": "https://www.prnewswire.com/news-releases/g7-releases-100-million-barrels-as-diesel-tops-6-a-gallon-302899544.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:12:00+00:00",
+    "raw_text": "Stock Preachers News Commentary CHICAGO, Oct. 6, 2026 /PRNewswire/ -- The Group of Seven has agreed to release up to 100 million barrels of emergency oil and diesel stocks over four months, with a substantial volume of diesel to be made available within the first 20 days, in a coordinated...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Stock Preachers News Commentary CHICAGO, Oct. 6, 2026 /PRNewswire/ -- The Group of Seven has agreed to release up to 100 million barrels of emergency oil and diesel stocks over four months, with a substantial volume of diesel to be made available within the first 20 days, in a coordinated..."
+  },
+  {
+    "title": "Silicon Quantum Computing Named to Fast Company's 2026 Next Big Things in Tech List",
+    "url": "https://www.prnewswire.com/news-releases/silicon-quantum-computing-named-to-fast-companys-2026-next-big-things-in-tech-list-302899690.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:10:00+00:00",
+    "raw_text": "SQC's quantum-enhanced AI chip Watermelon™ recognized for its ability to make classical models faster, more efficient and less resource-intensive SYDNEY, Oct. 6, 2026 /PRNewswire/ -- Silicon Quantum Computing (SQC), a pioneer in quantum computing and atomic-precision manufacturing, today...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "SQC's quantum-enhanced AI chip Watermelon™ recognized for its ability to make classical models faster, more efficient and less resource-intensive SYDNEY, Oct. 6, 2026 /PRNewswire/ -- Silicon Quantum Computing (SQC), a pioneer in quantum computing and atomic-precision manufacturing, today..."
+  },
+  {
+    "title": "2027 Mitsubishi Eclipse Sportback Priced from $37,745",
+    "url": "https://www.prnewswire.com/news-releases/2027-mitsubishi-eclipse-sportback-priced-from-37-745--302899074.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:09:00+00:00",
+    "raw_text": "A unique blend of style, technology, and efficiency combines to deliver an all-new Mitsubishi Motors battery electric vehicle for the North American market All-new battery EV sales to start in October First all-new vehicle to debut under Momentum 2030 business plan Comprehensive product...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "A unique blend of style, technology, and efficiency combines to deliver an all-new Mitsubishi Motors battery electric vehicle for the North American market All-new battery EV sales to start in October First all-new vehicle to debut under Momentum 2030 business plan Comprehensive product..."
+  },
+  {
+    "title": "Viking Therapeutics Announces Initiation of VK2735 Oral Maintenance Dosing Clinical Trial in Patients with Obesity",
+    "url": "https://www.prnewswire.com/news-releases/viking-therapeutics-announces-initiation-of-vk2735-oral-maintenance-dosing-clinical-trial-in-patients-with-obesity-302899168.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:05:00+00:00",
+    "raw_text": "Study to Explore Oral Maintenance Dosing Regimens Following Initial Weight Loss with Subcutaneous VK2735 Monthly and Every-Other-Week Subcutaneous Regimens to also be Evaluated SAN DIEGO, Oct. 6, 2026 /PRNewswire/ -- Viking Therapeutics, Inc. (Viking) (NASDAQ: VKTX), a clinical-stage...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Study to Explore Oral Maintenance Dosing Regimens Following Initial Weight Loss with Subcutaneous VK2735 Monthly and Every-Other-Week Subcutaneous Regimens to also be Evaluated SAN DIEGO, Oct. 6, 2026 /PRNewswire/ -- Viking Therapeutics, Inc. (Viking) (NASDAQ: VKTX), a clinical-stage..."
+  },
+  {
+    "title": "Playseat® célèbre plus de 30 ans depuis la création de la catégorie des cockpits de simulation",
+    "url": "https://www.prnewswire.com/news-releases/playseat-celebre-plus-de-30-ans-depuis-la-creation-de-la-categorie-des-cockpits-de-simulation-302899682.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:04:00+00:00",
+    "raw_text": "Depuis qu'il a ouvert la voie dans ce domaine au milieu des années 1990 jusqu'à aujourd'hui, où il en façonne l'avenir, Playseat® repousse sans cesse les limites de la simulation automobile. DOETINCHEM, Pays-Bas, 6 octobre 2026 /PRNewswire/ -- Au milieu des années 90, Playseat® a créé la...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Depuis qu'il a ouvert la voie dans ce domaine au milieu des années 1990 jusqu'à aujourd'hui, où il en façonne l'avenir, Playseat® repousse sans cesse les limites de la simulation automobile. DOETINCHEM, Pays-Bas, 6 octobre 2026 /PRNewswire/ -- Au milieu des années 90, Playseat® a créé la..."
+  },
+  {
+    "title": "ACLARA EXPANDS PROJECT DYNAMO TO INCLUDE YTTRIUM, GADOLINIUM AND SAMARIUM SEPARATION",
+    "url": "https://www.prnewswire.com/news-releases/aclara-expands-project-dynamo-to-include-yttrium-gadolinium-and-samarium-separation-302899683.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:04:00+00:00",
+    "raw_text": "TORONTO, Oct. 6, 2026 /PRNewswire/ -- Aclara Resources Inc. (\"Aclara\" or the \"Company\") (TSX: ARA) is pleased to announce it is expanding the scope of Project Dynamo, its planned rare earth separation facility in Louisiana, to incorporate separation capabilities for yttrium (\"Y\"),...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
       "Industry & Market": [
-        "announces",
-        "pwc"
+        "expands"
       ]
     },
-    "summary": "The relationship enables Prophix and PwC clients to automate and scale their finance functions across budgeting and planning; reporting; and consolidation and close. TORONTO, Oct. 6, 2026 /PRNewswire/ -- Prophix®, a global leader in financial performance management, today announced a..."
+    "summary": "TORONTO, Oct. 6, 2026 /PRNewswire/ -- Aclara Resources Inc. (\"Aclara\" or the \"Company\") (TSX: ARA) is pleased to announce it is expanding the scope of Project Dynamo, its planned rare earth separation facility in Louisiana, to incorporate separation capabilities for yttrium (\"Y\"),..."
   },
   {
-    "title": "ISSA Welcomes Back Andrew Wyant as Chief Executive Officer",
-    "url": "https://www.prnewswire.com/news-releases/issa-welcomes-back-andrew-wyant-as-chief-executive-officer-302898646.html",
+    "title": "Veeva DQS depura datos de más de un millón de sujetos en más de 1.000 estudios",
+    "url": "https://www.prnewswire.com/news-releases/veeva-dqs-depura-datos-de-mas-de-un-millon-de-sujetos-en-mas-de-1-000-estudios-302899614.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:01:00+00:00",
-    "raw_text": "The leader who grew ISSA from $10 million to nearly $80 million in revenue returns to help students turn passion into opportunity and give the industry the job-ready talent it needs PHOENIX, Oct. 6, 2026 /PRNewswire/ -- The International Sports Sciences Association (ISSA), a global leader...",
+    "published": "2026-10-06T11:03:00+00:00",
+    "raw_text": "Automatiza la conciliación de datos, consiguiendo así un ahorro de una cantidad significativa de costes, tiempo y esfuerzo de cara a los equipos clínicos BARCELONA, España, 6 de octubre de 2026/PRNewswire/ -- Veeva Systems (NYSE: VEEV) anunció hoy que Veeva DQS (Sistema de Calidad de...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ipo"
+      ]
+    },
+    "summary": "Automatiza la conciliación de datos, consiguiendo así un ahorro de una cantidad significativa de costes, tiempo y esfuerzo de cara a los equipos clínicos BARCELONA, España, 6 de octubre de 2026/PRNewswire/ -- Veeva Systems (NYSE: VEEV) anunció hoy que Veeva DQS (Sistema de Calidad de..."
+  },
+  {
+    "title": "Veeva DQS Cleans Data for More Than 1 Million Subjects Across Over 1,000 Studies",
+    "url": "https://www.prnewswire.com/news-releases/veeva-dqs-cleans-data-for-more-than-1-million-subjects-across-over-1-000-studies-302899065.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:03:00+00:00",
+    "raw_text": "Automates data reconciliation, saving clinical teams significant cost, time, and effort BARCELONA, Spain, Oct. 6, 2026 /PRNewswire/ -- Veeva Systems (NYSE: VEEV) today announced that Veeva DQS (Data Quality System) has aggregated and cleaned data for more than 1 million subjects in more...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Automates data reconciliation, saving clinical teams significant cost, time, and effort BARCELONA, Spain, Oct. 6, 2026 /PRNewswire/ -- Veeva Systems (NYSE: VEEV) today announced that Veeva DQS (Data Quality System) has aggregated and cleaned data for more than 1 million subjects in more..."
+  },
+  {
+    "title": "Enduro 4 smartwatch redefines ultraperformance with extreme battery life and advanced training features",
+    "url": "https://www.prnewswire.com/news-releases/enduro-4-smartwatch-redefines-ultraperformance-with-extreme-battery-life-and-advanced-training-features-302899229.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-06T11:03:00+00:00",
+    "raw_text": "Comprehensive power modes, enhanced stamina metrics, a ComfortFit Fabric Band and Garmin Epic help endurance athletes and multiday adventurers train, race and explore even farther OLATHE, Kan., Oct. 6, 2026 /PRNewswire/ -- Garmin (NYSE: GRMN) today announced Enduro™ 4, its longest-lasting...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Comprehensive power modes, enhanced stamina metrics, a ComfortFit Fabric Band and Garmin Epic help endurance athletes and multiday adventurers train, race and explore even farther OLATHE, Kan., Oct. 6, 2026 /PRNewswire/ -- Garmin (NYSE: GRMN) today announced Enduro™ 4, its longest-lasting..."
+  },
+  {
+    "title": "STARTRADER Adds 20 Stock and ETF CFDs to Its 24/7 Trading Range",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375335/0/en/startrader-adds-20-stock-and-etf-cfds-to-its-24-7-trading-range.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:09:00+00:00",
+    "raw_text": "STARTRADER Adds 20 Stock and ETF CFDs to Its 24/7 Trading Range",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "STARTRADER Adds 20 Stock and ETF CFDs to Its 24/7 Trading Range"
+  },
+  {
+    "title": "Ocugen Appoints Industry Executive Jolanda Crombach General Manager of European Affiliate",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375332/0/en/ocugen-appoints-industry-executive-jolanda-crombach-general-manager-of-european-affiliate.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:02:00+00:00",
+    "raw_text": "MALVERN, Pa., Oct. 06, 2026 (GLOBE NEWSWIRE) -- Ocugen, Inc. (“Ocugen” or the “Company”) (NASDAQ: OCGN), a biotechnology company focused on developing and commercializing novel gene therapies to address blindness diseases, today announced the appointment of Jolanda Crombach, MSc PharmD, as General Manager of the Company’s European affiliate. Ms. Crombach, an accomplished pharmaceutical executive with more than 20 years of industry experience, will lead the Company’s newly established European affiliate, headquartered in Amsterdam, Netherlands.",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan",
+        "iot"
+      ]
+    },
+    "summary": "MALVERN, Pa., Oct. 06, 2026 (GLOBE NEWSWIRE) -- Ocugen, Inc. (“Ocugen” or the “Company”) (NASDAQ: OCGN), a biotechnology company focused on developing and commercializing novel gene therapies to address blindness diseases, today announced the appointment of Jolanda Crombach, MSc PharmD, as General Manager of the Company’s European affiliate. Ms."
+  },
+  {
+    "title": "Regeneron Showcases Advances in Care Across Several Cancers and Cancer-associated Complications at ESMO 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375301/0/en/regeneron-showcases-advances-in-care-across-several-cancers-and-cancer-associated-complications-at-esmo-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:00:00+00:00",
+    "raw_text": "Late-breaking Phase 3 C-POST data provide longer-term survival outcomes for adjuvant Libtayo ® (cemiplimab) in high-risk cutaneous squamous cell carcinoma (CSCC) after surgery and radiation",
     "categories": [
       "Cybersecurity"
     ],
@@ -2758,215 +3255,46 @@
         "soc"
       ]
     },
-    "summary": "The leader who grew ISSA from $10 million to nearly $80 million in revenue returns to help students turn passion into opportunity and give the industry the job-ready talent it needs PHOENIX, Oct. 6, 2026 /PRNewswire/ -- The International Sports Sciences Association (ISSA), a global leader..."
+    "summary": "Late-breaking Phase 3 C-POST data provide longer-term survival outcomes for adjuvant Libtayo ® (cemiplimab) in high-risk cutaneous squamous cell carcinoma (CSCC) after surgery and radiation"
   },
   {
-    "title": "Ontinue Expands External Threat Visibility with ION for Dark Web Monitoring",
-    "url": "https://www.prnewswire.com/news-releases/ontinue-expands-external-threat-visibility-with-ion-for-dark-web-monitoring-302898964.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "New Add-On Service Extends ION MXDR Beyond the Enterprise Perimeter to Identify Exposed Credentials, Brand Impersonation, and Emerging Risks Before They Become Security Incidents ZURICH, Switzerland, Oct. 6, 2026 /PRNewswire/ -- Ontinue, a leading MXDR partner providing nonstop managed...",
+    "title": "Kamada Announces Expansion of Biosimilars Portfolio with the Launch of Two Additional Products in Israel",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375311/0/en/kamada-announces-expansion-of-biosimilars-portfolio-with-the-launch-of-two-additional-products-in-israel.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:00:00+00:00",
+    "raw_text": "Company Expects Growing Biosimilar Product Portfolio, Commercialized in Israel and the MENA Region, to Generate Approximately $10 Million in Annual Revenue in 2028 and Approximately $20 Million-$25 Million in Annual Revenue by 2030 Company Expects Growing Biosimilar Product Portfolio, Commercialized in Israel and the MENA Region, to Generate Approximately $10 Million in Annual Revenue in 2028 and Approximately $20 Million-$25 Million in Annual Revenue by 2030",
     "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Networks"
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "threat",
-        "security",
-        "xdr"
-      ],
       "Industry & Market": [
-        "expands",
+        "announces"
+      ]
+    },
+    "summary": "Company Expects Growing Biosimilar Product Portfolio, Commercialized in Israel and the MENA Region, to Generate Approximately $10 Million in Annual Revenue in 2028 and Approximately $20 Million-$25 Million in Annual Revenue by 2030 Company Expects Growing Biosimilar Product Portfolio, Commercialized in Israel and the MENA Region, to Generate Approximately $10 Million in Annual Revenue in 2028 and Approximately $20 Million-$25 Million in Annual Revenue by 2030"
+  },
+  {
+    "title": "Canadian payment transactions total more than $12 trillion in 2025; real-time payments appeal to over half of Canadians: Payments Canada Research",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375321/0/en/canadian-payment-transactions-total-more-than-12-trillion-in-2025-real-time-payments-appeal-to-over-half-of-canadians-payments-canada-research.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:00:00+00:00",
+    "raw_text": "Key report highlights:",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
         "ey"
       ]
     },
-    "summary": "New Add-On Service Extends ION MXDR Beyond the Enterprise Perimeter to Identify Exposed Credentials, Brand Impersonation, and Emerging Risks Before They Become Security Incidents ZURICH, Switzerland, Oct. 6, 2026 /PRNewswire/ -- Ontinue, a leading MXDR partner providing nonstop managed..."
+    "summary": "Key report highlights:"
   },
   {
-    "title": "Global economic freedom rose in the latest 2026 report but remained below its pre-pandemic level, erasing a decade of progress",
-    "url": "https://www.prnewswire.com/news-releases/global-economic-freedom-rose-in-the-latest-2026-report-but-remained-below-its-pre-pandemic-level-erasing-a-decade-of-progress-302899016.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "TORONTO, Oct. 6, 2026 /PRNewswire/ -- Global economic freedom is beginning to recover after the pandemic but it remains below its pre-pandemic level and the recovery has been uneven, finds the annual Economic Freedom of the World report published today by the Fraser Institute. The 2026...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "TORONTO, Oct. 6, 2026 /PRNewswire/ -- Global economic freedom is beginning to recover after the pandemic but it remains below its pre-pandemic level and the recovery has been uneven, finds the annual Economic Freedom of the World report published today by the Fraser Institute. The 2026..."
-  },
-  {
-    "title": "Worldwide Telecom Capex Rises 5 Percent in 1H26, According to Dell'Oro Group",
-    "url": "https://www.prnewswire.com/news-releases/worldwide-telecom-capex-rises-5-percent-in-1h26-according-to-delloro-group-302898858.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "Longer-Term Capex Outlook Remains Muted as Investment Shifts from Coverage to Capacity REDWOOD CITY, Calif., Oct. 6, 2026 /PRNewswire/ -- According to a recently published report from Dell'Oro Group, a trusted source for market information on the telecommunications, security, networks,...",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "telecom"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "Data Centres": [
-        "capacity"
-      ],
-      "Industry & Market": [
-        "investment"
-      ]
-    },
-    "summary": "Longer-Term Capex Outlook Remains Muted as Investment Shifts from Coverage to Capacity REDWOOD CITY, Calif., Oct. 6, 2026 /PRNewswire/ -- According to a recently published report from Dell'Oro Group, a trusted source for market information on the telecommunications, security, networks,..."
-  },
-  {
-    "title": "New NWEA Research Highlights How Coherent Instructional Systems Can Support Strong Student Growth",
-    "url": "https://www.prnewswire.com/news-releases/new-nwea-research-highlights-how-coherent-instructional-systems-can-support-strong-student-growth-302898769.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "Study uses lessons learned from a school that achieved twice the national average in academic growth in a school year BOSTON, Oct. 6, 2026 /PRNewswire/ -- NWEA, a K-12 assessment and research organization, released today a new research brief that offers a closer look at what it takes to...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Study uses lessons learned from a school that achieved twice the national average in academic growth in a school year BOSTON, Oct. 6, 2026 /PRNewswire/ -- NWEA, a K-12 assessment and research organization, released today a new research brief that offers a closer look at what it takes to..."
-  },
-  {
-    "title": "TradeInn accelerates its logistics to reach €1.5 billion in revenue with major expansion in 2026",
-    "url": "https://www.prnewswire.com/news-releases/tradeinn-accelerates-its-logistics-to-reach-1-5-billion-in-revenue-with-major-expansion-in-2026--302898376.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "GIRONA, Spain, Oct. 6, 2026 /PRNewswire/ -- Online sports equipment retailer TradeInn has announced a major transformation of its operational centre in Celrà. With this initiative, the company is significantly increasing its logistics capacity following almost a decade of technological...",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "capacity"
-      ]
-    },
-    "summary": "GIRONA, Spain, Oct. 6, 2026 /PRNewswire/ -- Online sports equipment retailer TradeInn has announced a major transformation of its operational centre in Celrà. With this initiative, the company is significantly increasing its logistics capacity following almost a decade of technological..."
-  },
-  {
-    "title": "Qurin® launches Qatra™ gDNA extraction kit for large-volume urine processing",
-    "url": "https://www.prnewswire.com/news-releases/qurin-launches-qatra-gdna-extraction-kit-for-large-volume-urine-processing-302896572.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "New Research Use Only kit combines proprietary bead surface chemistry and magnetic bead retrieval to enable streamlined genomic DNA extraction from large urine volumes. Processing larger volumes (up to 400 mL) may lead to a 7.6-fold increased total DNA yield compared to conventional 40-50...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "New Research Use Only kit combines proprietary bead surface chemistry and magnetic bead retrieval to enable streamlined genomic DNA extraction from large urine volumes. Processing larger volumes (up to 400 mL) may lead to a 7.6-fold increased total DNA yield compared to conventional 40-50..."
-  },
-  {
-    "title": "Cut Cost and Effort with 941 add-on Feature in ezAccounting from Halfpricesoft.com",
-    "url": "https://www.prnewswire.com/news-releases/cut-cost-and-effort-with-941-add-on-feature-in-ezaccounting-from-halfpricesoftcom-302874195.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "The new IRS-authorized 941 eFile add-on for ezAccounting supercharges quarterly tax filing for businesses, HR teams, and accountants. REDMOND, Wash., Oct. 6, 2026 /PRNewswire/ -- Halfpricesoft.com has released the updated ezAccounting 2026, fully prepared for the upcoming Q3 Form 941...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The new IRS-authorized 941 eFile add-on for ezAccounting supercharges quarterly tax filing for businesses, HR teams, and accountants. REDMOND, Wash., Oct. 6, 2026 /PRNewswire/ -- Halfpricesoft.com has released the updated ezAccounting 2026, fully prepared for the upcoming Q3 Form 941..."
-  },
-  {
-    "title": "Nscale Appoints Amy Banse to Board of Directors",
-    "url": "https://www.prnewswire.com/news-releases/nscale-appoints-amy-banse-to-board-of-directors-302899560.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "LONDON, Oct. 6, 2026 /PRNewswire/ -- Nscale Limited, the full-stack AI cloud platform, today announced the appointment of Amy Banse, a seasoned corporate executive and veteran board director, to its Board of Directors. Banse will also serve as Chair of the Compensation Committee. Banse...",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "cloud platform"
-      ]
-    },
-    "summary": "LONDON, Oct. 6, 2026 /PRNewswire/ -- Nscale Limited, the full-stack AI cloud platform, today announced the appointment of Amy Banse, a seasoned corporate executive and veteran board director, to its Board of Directors. Banse will also serve as Chair of the Compensation Committee. Banse..."
-  },
-  {
-    "title": "MILANO FASHION WEEK® - SPRING/SUMMER 2027 SHENZHEN FUTIAN FASHION EVENT",
-    "url": "https://www.prnewswire.com/news-releases/milano-fashion-week--springsummer-2027-shenzhen-futian-fashion-event-302899588.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T09:00:00+00:00",
-    "raw_text": "Tre brand protagonisti: Laurèl, IDPAN e YINER MILANO, 6 ottobre 2026 /PRNewswire/ -- L'industria della moda del distretto di Futian è tornata alla Milano Fashion Week® insieme alla Camera Nazionale della Moda Italiana. Con il sostegno del Governo Popolare del Distretto di Futian,...",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "siem"
-      ],
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Tre brand protagonisti: Laurèl, IDPAN e YINER MILANO, 6 ottobre 2026 /PRNewswire/ -- L'industria della moda del distretto di Futian è tornata alla Milano Fashion Week® insieme alla Camera Nazionale della Moda Italiana. Con il sostegno del Governo Popolare del Distretto di Futian,..."
-  },
-  {
-    "title": "/C O R R E C T I O N -- Piramal Pharma Solutions/",
-    "url": "https://www.prnewswire.com/news-releases/piramal-pharma-solutions-launches-new-microbiology-laboratory-at-its-lexington-ky-sterile-injectable-facility-302895076.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T08:59:00+00:00",
-    "raw_text": "In the news release, Piramal Pharma Solutions Launches New Microbiology Laboratory at Its Lexington, KY Sterile Injectable Facility, issued 06-Oct-2026 by Piramal Pharma Solutions over PR Newswire, we are advised by the company that changes have been made to the caption accompanying the...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "In the news release, Piramal Pharma Solutions Launches New Microbiology Laboratory at Its Lexington, KY Sterile Injectable Facility, issued 06-Oct-2026 by Piramal Pharma Solutions over PR Newswire, we are advised by the company that changes have been made to the caption accompanying the..."
-  },
-  {
-    "title": "MILANO FASHION WEEK® - PRIMAVERA/VERANO 2027 SHENZHEN FUTIAN FASHION EVENT",
-    "url": "https://www.prnewswire.com/news-releases/milano-fashion-week--primaveraverano-2027-shenzhen-futian-fashion-event-302899587.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T08:58:00+00:00",
-    "raw_text": "Tres marcas protagonistas: Laurèl, IDPAN y YINER MILÁN, 6 de octubre de 2026 /PRNewswire/ -- La industria de la moda del distrito de Futian regresó a la Milano Fashion Week® de la mano de la Camera Nazionale della Moda Italiana. Con el respaldo del Gobierno Popular del Distrito de Futian...",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Tres marcas protagonistas: Laurèl, IDPAN y YINER MILÁN, 6 de octubre de 2026 /PRNewswire/ -- La industria de la moda del distrito de Futian regresó a la Milano Fashion Week® de la mano de la Camera Nazionale della Moda Italiana. Con el respaldo del Gobierno Popular del Distrito de Futian..."
-  },
-  {
-    "title": "MILANO FASHION WEEK® - PRINTEMPS/ÉTÉ 2027 ÉVÉNEMENT MODE SHENZHEN FUTIAN",
-    "url": "https://www.prnewswire.com/news-releases/milano-fashion-week--printempsete-2027-evenement-mode-shenzhen-futian-302899579.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T08:54:00+00:00",
-    "raw_text": "Trois marques à l'honneur : Laurèl, IDPAN et YINER MILAN, 6 octobre 2026 /PRNewswire/ -- L'industrie de la mode de Futian a fait son retour à la Milano Fashion Week® aux côtés de la Camera Nazionale della Moda Italiana. Soutenu par le gouvernement populaire du district de Futian, à...",
+    "title": "Les opérations de paiement canadiennes totalisent plus de 12 billions de dollars en 2025; les paiements en temps réel intéressent plus de la moitié des Canadiens : Recherche de Paiements Canada",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375321/0/fr/les-op%C3%A9rations-de-paiement-canadiennes-totalisent-plus-de-12-billions-de-dollars-en-2025-les-paiements-en-temps-r%C3%A9el-int%C3%A9ressent-plus-de-la-moiti%C3%A9-des-canadiens-recherche-de-paieme.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:00:00+00:00",
+    "raw_text": "Principaux points saillants du rapport :",
     "categories": [
       "Networks"
     ],
@@ -2975,52 +3303,179 @@
         "lan"
       ]
     },
-    "summary": "Trois marques à l'honneur : Laurèl, IDPAN et YINER MILAN, 6 octobre 2026 /PRNewswire/ -- L'industrie de la mode de Futian a fait son retour à la Milano Fashion Week® aux côtés de la Camera Nazionale della Moda Italiana. Soutenu par le gouvernement populaire du district de Futian, à..."
+    "summary": "Principaux points saillants du rapport :"
   },
   {
-    "title": "Betsson Group: Odds Favourites for the 2026 Nobel Prize in Literature",
-    "url": "https://www.prnewswire.com/news-releases/betsson-group-odds-favourites-for-the-2026-nobel-prize-in-literature-302899576.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T08:49:00+00:00",
-    "raw_text": "TA'XBIEX, Malta, Oct. 6, 2026 /PRNewswire/ -- On Thursday, 8 October, the Nobel Prize in Literature will be announced by the Swedish Academy. At Swedish-founded global betting company Betsson, which has offered odds on the prize for more than a decade, Chinese author Can Xue is currently...",
+    "title": "Forbion raises €2.3 billion across two new funds",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375327/0/en/forbion-raises-2-3-billion-across-two-new-funds.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:00:00+00:00",
+    "raw_text": "Forbion raises €2.3 billion across two new funds. Landmark fundraising sets a new record for Forbion and is one of the largest life sciences.",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "raises"
+      ]
+    },
+    "summary": "Forbion raises €2.3 billion across two new funds. Landmark fundraising sets a new record for Forbion and is one of the largest life sciences."
+  },
+  {
+    "title": "Onco360® Has Been Selected as a National Specialty Pharmacy Partner for BEQALZI™ (sonrotoclax)",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375330/0/en/onco360-has-been-selected-as-a-national-specialty-pharmacy-partner-for-beqalzi-sonrotoclax.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T11:00:00+00:00",
+    "raw_text": "LOUISVILLE, Ky., Oct. 06, 2026 (GLOBE NEWSWIRE) -- Onco360 ® , the nation’s leading independent Specialty Pharmacy, has been selected as a pharmacy partner by BeOne Medicines for Beqalzi™ (sonrotoclax), indicated for the treatment of adults with relapsed or refractory mantle cell lymphoma (MCL) after at least two lines of systemic therapy, including a Bruton’s tyrosine kinase (BTK) inhibitor. 1",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "TA'XBIEX, Malta, Oct. 6, 2026 /PRNewswire/ -- On Thursday, 8 October, the Nobel Prize in Literature will be announced by the Swedish Academy. At Swedish-founded global betting company Betsson, which has offered odds on the prize for more than a decade, Chinese author Can Xue is currently..."
+    "summary": "LOUISVILLE, Ky., Oct. 06, 2026 (GLOBE NEWSWIRE) -- Onco360 ® , the nation’s leading independent Specialty Pharmacy, has been selected as a pharmacy partner by BeOne Medicines for Beqalzi™ (sonrotoclax), indicated for the treatment of adults with relapsed or refractory mantle cell lymphoma (MCL) after at least two lines of systemic therapy, including a Bruton’s tyrosine kinase (BTK) inhibitor. 1"
   },
   {
-    "title": "Playseat® conmemora más de 30 años desde que fundó la categoría de puestos de simulación de carreras",
-    "url": "https://www.prnewswire.com/news-releases/playseat-conmemora-mas-de-30-anos-desde-que-fundo-la-categoria-de-puestos-de-simulacion-de-carreras-302899572.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T08:44:00+00:00",
-    "raw_text": "Desde que fue pionera en la categoría a mediados de la década de 1990 hasta impulsar su futuro, Playseat® sigue haciendo avanzar la simulación de carreras DOETINCHEM, Países Bajos, 6 de octubre de 2026 /PRNewswire/ -- A mediados de los años noventa, Playseat® creó la categoría de puestos...",
+    "title": "Descartes Unveils Next Step in Supply Chain AI with Agent Control Plane",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375294/0/en/descartes-unveils-next-step-in-supply-chain-ai-with-agent-control-plane.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:45:00+00:00",
+    "raw_text": "Debuts at Innovation Forum to Record Attendance",
     "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Debuts at Innovation Forum to Record Attendance"
+  },
+  {
+    "title": "Nox Peptides Announces Launch of GHK-Cu and Wolverine Stack for Canadian Research Market",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375292/0/en/nox-peptides-announces-launch-of-ghk-cu-and-wolverine-stack-for-canadian-research-market.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:40:00+00:00",
+    "raw_text": "Nox Peptides is a Canadian research supply company providing peptide and related research compounds for laboratory and preclinical research purposes.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Nox Peptides is a Canadian research supply company providing peptide and related research compounds for laboratory and preclinical research purposes."
+  },
+  {
+    "title": "First Patients Dosed with Telix’s FDA-Approved Brain Cancer Imaging Drug Pixclara® (floretyrosine F 18)",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375287/0/en/first-patients-dosed-with-telix-s-fda-approved-brain-cancer-imaging-drug-pixclara-floretyrosine-f-18.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:30:00+00:00",
+    "raw_text": "MELBOURNE, Australia and INDIANAPOLIS, Oct. 06, 2026 (GLOBE NEWSWIRE) -- Telix Pharmaceuticals Limited (ASX: TLX, NASDAQ: TLX, “Telix”) today announces that the first patients in the United States (U.S.) have been dosed with Pixclara® (floretyrosine F 18 or 18 F-FET), its FDA-approved, amino acid positron emission tomography (PET) drug for glioma (brain cancer) imaging.",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "MELBOURNE, Australia and INDIANAPOLIS, Oct. 06, 2026 (GLOBE NEWSWIRE) -- Telix Pharmaceuticals Limited (ASX: TLX, NASDAQ: TLX, “Telix”) today announces that the first patients in the United States (U.S.) have been dosed with Pixclara® (floretyrosine F 18 or 18 F-FET), its FDA-approved, amino acid positron emission tomography (PET) drug for glioma (brain cancer) imaging."
+  },
+  {
+    "title": "DIDWW brings carrier-grade voice infrastructure to Gartner® IT Symposium/Xpo™ 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375282/0/en/didww-brings-carrier-grade-voice-infrastructure-to-gartner-it-symposium-xpo-2026.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:26:00+00:00",
+    "raw_text": "DUBLIN, Oct. 06, 2026 (GLOBE NEWSWIRE) -- DIDWW , a fully licensed global telecom operator connecting human and AI communications across 90+ countries, has announced its participation as a Silver exhibitor at Gartner® IT Symposium/Xpo™ 2026 . The event takes place November 9–12 at the International Barcelona Convention Centre.",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "telecom"
+      ],
+      "Industry & Market": [
+        "gartner"
+      ]
+    },
+    "summary": "DUBLIN, Oct. 06, 2026 (GLOBE NEWSWIRE) -- DIDWW , a fully licensed global telecom operator connecting human and AI communications across 90+ countries, has announced its participation as a Silver exhibitor at Gartner® IT Symposium/Xpo™ 2026 . The event takes place November 9–12 at the International Barcelona Convention Centre."
+  },
+  {
+    "title": "Minerva Humanoids Emerges From Stealth With $10M Pre-Seed Round Led by General Catalyst to Build Humanoid Robots for the World's Most Dangerous Jobs",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375277/0/en/minerva-humanoids-emerges-from-stealth-with-10m-pre-seed-round-led-by-general-catalyst-to-build-humanoid-robots-for-the-world-s-most-dangerous-jobs.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:10:00+00:00",
+    "raw_text": "Minerva Humanoids emerges from stealth with $10M pre-seed round to build humanoid robots for hazardous energy and public safety work.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Minerva Humanoids emerges from stealth with $10M pre-seed round to build humanoid robots for hazardous energy and public safety work."
+  },
+  {
+    "title": "Applied Digital Secures Up to 1 GW of Potential Power Capacity in Finland, Marking First International Development in the Nordics",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375266/0/en/applied-digital-secures-up-to-1-gw-of-potential-power-capacity-in-finland-marking-first-international-development-in-the-nordics.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:00:00+00:00",
+    "raw_text": "Agreement establishes a strategic foothold in an emerging European AI market while Applied Digital remains focused on executing its U.S. development pipeline Agreement establishes a strategic foothold in an emerging European AI market while Applied Digital remains focused on executing its U.S. development pipeline",
+    "categories": [
+      "Networks",
       "Data Centres"
     ],
     "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
       "Data Centres": [
-        "pue"
+        "capacity"
       ]
     },
-    "summary": "Desde que fue pionera en la categoría a mediados de la década de 1990 hasta impulsar su futuro, Playseat® sigue haciendo avanzar la simulación de carreras DOETINCHEM, Países Bajos, 6 de octubre de 2026 /PRNewswire/ -- A mediados de los años noventa, Playseat® creó la categoría de puestos..."
+    "summary": "Agreement establishes a strategic foothold in an emerging European AI market while Applied Digital remains focused on executing its U.S. development pipeline Agreement establishes a strategic foothold in an emerging European AI market while Applied Digital remains focused on executing its U.S. development pipeline"
   },
   {
-    "title": "Techman Robot strengthens cybersecurity for trusted Physical AI deployment",
-    "url": "https://www.prnewswire.com/news-releases/techman-robot-strengthens-cybersecurity-for-trusted-physical-ai-deployment-302899568.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-06T08:38:00+00:00",
-    "raw_text": "Techman Robot becomes the world's first built-in vision AI cobot manufacturer to obtain IEC 62443-4-2 SL2 certification TAIPEI, Oct. 6, 2026 /PRNewswire/ -- Techman Robot has obtained IEC 62443-4-2 Security Level 2 (SL2) cybersecurity certification for its TM AI Cobot S Series following...",
+    "title": "Tyton Partners Releases 2026 Driving Toward a Degree Report, Student Supports Reinvented for ROI and AI",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375267/0/en/tyton-partners-releases-2026-driving-toward-a-degree-report-student-supports-reinvented-for-roi-and-ai.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:00:00+00:00",
+    "raw_text": "Tyton Partners' Driving Toward a Degree 2026 finds institutions turning to AI and career readiness to prove ROI amid record advising caseloads.",
     "categories": [
-      "Cybersecurity"
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Tyton Partners' Driving Toward a Degree 2026 finds institutions turning to AI and career readiness to prove ROI amid record advising caseloads."
+  },
+  {
+    "title": "Portillo's and OREO Brand Go Beyond the Ordinary This Halloween by Launching a Trio of Tantalizing Treats",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375270/0/en/portillo-s-and-oreo-brand-go-beyond-the-ordinary-this-halloween-by-launching-a-trio-of-tantalizing-treats.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:00:00+00:00",
+    "raw_text": "Portillo's famous cake collides with milk’s favorite cookie for three new creations – the OREO Shake, OREO Cake and OREO Cake Shake Portillo's famous cake collides with milk’s favorite cookie for three new creations – the OREO Shake, OREO Cake and OREO Cake Shake",
+    "categories": [
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
+      "Industry & Market": [
+        "ey"
       ]
     },
-    "summary": "Techman Robot becomes the world's first built-in vision AI cobot manufacturer to obtain IEC 62443-4-2 SL2 certification TAIPEI, Oct. 6, 2026 /PRNewswire/ -- Techman Robot has obtained IEC 62443-4-2 Security Level 2 (SL2) cybersecurity certification for its TM AI Cobot S Series following..."
+    "summary": "Portillo's famous cake collides with milk’s favorite cookie for three new creations – the OREO Shake, OREO Cake and OREO Cake Shake Portillo's famous cake collides with milk’s favorite cookie for three new creations – the OREO Shake, OREO Cake and OREO Cake Shake"
+  },
+  {
+    "title": "Verde AgriTech Reports Broad Magnet and Heavy Rare Earth Intersections From Surface at Minas Americas",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375271/0/en/verde-agritech-reports-broad-magnet-and-heavy-rare-earth-intersections-from-surface-at-minas-americas.html",
+    "source": "GlobeNewswire - Technology",
+    "published": "2026-10-06T10:00:00+00:00",
+    "raw_text": "Verde Agritech reports broad, from-surface magnet and heavy rare earth intersections at Minas Americas Global Alliance held through Magnes Rare Earths.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Verde Agritech reports broad, from-surface magnet and heavy rare earth intersections at Minas Americas Global Alliance held through Magnes Rare Earths."
   },
   {
     "title": "FREELANDER Details Powertrain, Battery and All-Terrain Technology for International Left-Hand Drive FREELANDER 8",
@@ -3077,291 +3532,11 @@
     "summary": "IESE launches the Global CFO program, a transatlantic leadership program for senior finance executives."
   },
   {
-    "title": "L’IESE inaugure le parcours « Global CFO Program »",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375159/0/fr/l-iese-inaugure-le-parcours-global-cfo-program.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T08:00:00+00:00",
-    "raw_text": "Un programme transatlantique entre New York et Madrid consacré à la transformation induite par l’IA, à la complexité des enjeux géopolitiques et au leadership des dirigeants financiers au sein des comités exécutifs Un programme transatlantique entre New York et Madrid consacré à la transformation induite par l’IA, à la complexité des enjeux géopolitiques et au leadership des dirigeants financiers au sein des comités exécutifs",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Un programme transatlantique entre New York et Madrid consacré à la transformation induite par l’IA, à la complexité des enjeux géopolitiques et au leadership des dirigeants financiers au sein des comités exécutifs Un programme transatlantique entre New York et Madrid consacré à la transformation induite par l’IA, à la complexité des enjeux géopolitiques et au leadership des dirigeants financiers au sein des comités exécutifs"
-  },
-  {
-    "title": "IESE startet das „Global CFO“-Programm",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375159/0/de/iese-startet-das-global-cfo-programm.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T08:00:00+00:00",
-    "raw_text": "Ein transatlantisches Programm zwischen New York und Madrid befasst sich mit dem Wandel durch künstliche Intelligenz, geopolitischer Komplexität und Führungsqualitäten auf oberster Ebene für leitende Finanzmanager Ein transatlantisches Programm zwischen New York und Madrid befasst sich mit dem Wandel durch künstliche Intelligenz, geopolitischer Komplexität und Führungsqualitäten auf oberster Ebene für leitende Finanzmanager",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ]
-    },
-    "summary": "Ein transatlantisches Programm zwischen New York und Madrid befasst sich mit dem Wandel durch künstliche Intelligenz, geopolitischer Komplexität und Führungsqualitäten auf oberster Ebene für leitende Finanzmanager Ein transatlantisches Programm zwischen New York und Madrid befasst sich mit dem Wandel durch künstliche Intelligenz, geopolitischer Komplexität und Führungsqualitäten auf oberster Ebene für leitende Finanzmanager"
-  },
-  {
-    "title": "Smith+Nephew’s revolutionary CARTIHEAL™ AGILI-C™ Cartilage Repair Implant launches in Europe; to be featured at ICRS Summit in Portugal",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375161/0/en/smith-nephew-s-revolutionary-cartiheal-agili-c-cartilage-repair-implant-launches-in-europe-to-be-featured-at-icrs-summit-in-portugal.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T08:00:00+00:00",
-    "raw_text": "A press release announcing the EU launch of Smith+Nephew's CARTIHEAL AGILI-C Cartilage Repair Implant to be showcased at the ICRS Summit in Portugal",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "A press release announcing the EU launch of Smith+Nephew's CARTIHEAL AGILI-C Cartilage Repair Implant to be showcased at the ICRS Summit in Portugal"
-  },
-  {
-    "title": "Smith+Nephew lancia in Europa CARTIHEAL™ AGILI-C™, l’innovativo impianto per la riparazione della cartilagine, che sarà presentato all’ICRS Summit in Portogallo.",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375162/0/en/smith-nephew-lancia-in-europa-cartiheal-agili-c-l-innovativo-impianto-per-la-riparazione-della-cartilagine-che-sar%C3%A0-presentato-all-icrs-summit-in-portogallo.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T08:00:00+00:00",
-    "raw_text": "Smith+Nephew (LSE: SN, NYSE: SNN) azienda di tecnologia medica, annuncia il lancio commerciale in Europa di CARTIHEAL AGILI-C, l’innovativo impianto per la riparazione della cartilagine. La tecnologia sarà presentata all’International Cartilage Regeneration & Joint Preservation Society (ICRS) Summit, che si terrà a Porto, in Portogallo, dall’8 al 10 ottobre.",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "Smith+Nephew (LSE: SN, NYSE: SNN) azienda di tecnologia medica, annuncia il lancio commerciale in Europa di CARTIHEAL AGILI-C, l’innovativo impianto per la riparazione della cartilagine. La tecnologia sarà presentata all’International Cartilage Regeneration & Joint Preservation Society (ICRS) Summit, che si terrà a Porto, in Portogallo, dall’8 al 10 ottobre."
-  },
-  {
-    "title": "Much more than promotion in construction: 12Build supports subcontractors through the entire bidding process",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375164/0/en/much-more-than-promotion-in-construction-12build-supports-subcontractors-through-the-entire-bidding-process.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T08:00:00+00:00",
-    "raw_text": "12Build is announcing a series of new features that give subcontractors, suppliers and installers full support throughout their entire bidding process",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "12Build is announcing a series of new features that give subcontractors, suppliers and installers full support throughout their entire bidding process"
-  },
-  {
-    "title": "Veel meer dan promotie in de bouw: 12Build ondersteunt bouwspecialisten in het héle biedingsproces",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375164/0/nl/veel-meer-dan-promotie-in-de-bouw-12build-ondersteunt-bouwspecialisten-in-het-h%C3%A9le-biedingsproces.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T08:00:00+00:00",
-    "raw_text": "12Build transformeert naar dé centrale plek waar het werk plaatsvindt. De nieuwe productrelease brengt documenten, communicatie en de status van elke offerteaanvraag samen op één plek waar onderaannemers aanvragen beoordelen, uitwerken en bijhouden 12Build transformeert naar dé centrale plek waar het werk plaatsvindt. De nieuwe productrelease brengt documenten, communicatie en de status van elke offerteaanvraag samen op één plek waar onderaannemers aanvragen beoordelen, uitwerken en bijhouden",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "12Build transformeert naar dé centrale plek waar het werk plaatsvindt. De nieuwe productrelease brengt documenten, communicatie en de status van elke offerteaanvraag samen op één plek waar onderaannemers aanvragen beoordelen, uitwerken en bijhouden 12Build transformeert naar dé centrale plek waar het werk plaatsvindt. De nieuwe productrelease brengt documenten, communicatie en de status van elke offerteaanvraag samen op één plek waar onderaannemers aanvragen beoordelen, uitwerken en bijhouden"
-  },
-  {
-    "title": "Smith+Nephew lanza en Europa el innovador implante de reparación de cartílago CARTIHEAL™ AGILI-C™, que será protagonista en el Congreso ICRS de Portugal",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375167/0/en/smith-nephew-lanza-en-europa-el-innovador-implante-de-reparaci%C3%B3n-de-cart%C3%ADlago-cartiheal-agili-c-que-ser%C3%A1-protagonista-en-el-congreso-icrs-de-portugal.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T08:00:00+00:00",
-    "raw_text": "Smith+Nephew (LSE: SN, NYSE: SNN), compañía global de tecnología médica, anuncia hoy que su innovador implante de reparación de cartílago CARTIHEAL AGILI-C ya está disponible para su comercialización en Europa. El implante CARTIHEAL ocupará un lugar destacado en el Congreso de la Sociedad International de Regeneración de Cartílago & Preservación Articular (ICRS), que se celebrará en Oporto (Portugal) del 8 al 10 de octubre.",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Smith+Nephew (LSE: SN, NYSE: SNN), compañía global de tecnología médica, anuncia hoy que su innovador implante de reparación de cartílago CARTIHEAL AGILI-C ya está disponible para su comercialización en Europa. El implante CARTIHEAL ocupará un lugar destacado en el Congreso de la Sociedad International de Regeneración de Cartílago & Preservación Articular (ICRS), que se celebrará en Oporto (Portugal) del 8 al 10 de octubre."
-  },
-  {
-    "title": "WUBEN Prime Day 2026 Offers Exclusive Rewards",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375156/0/en/wuben-prime-day-2026-offers-exclusive-rewards.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T07:41:00+00:00",
-    "raw_text": "SHENZHEN, China, Oct. 06, 2026 (GLOBE NEWSWIRE) -- WUBEN ECL , a leading brand in everyday-carry and outdoor lighting, today announced WUBEN 10TH Anniversary Prime Day , a two-day member-exclusive event taking place October 6–7, 2026.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHENZHEN, China, Oct. 06, 2026 (GLOBE NEWSWIRE) -- WUBEN ECL , a leading brand in everyday-carry and outdoor lighting, today announced WUBEN 10TH Anniversary Prime Day , a two-day member-exclusive event taking place October 6–7, 2026."
-  },
-  {
-    "title": "Caseware Verity-Powered Risk Suggestion Agent Launches to Help Auditors Identify Engagement-Specific Risks",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375150/0/en/caseware-verity-powered-risk-suggestion-agent-launches-to-help-auditors-identify-engagement-specific-risks.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T07:30:00+00:00",
-    "raw_text": "Caseware today launched its Verity-powered Risk Suggestion Agent worldwide and the UK availability of its Disclosure Checklist Agent.",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "audit"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Caseware today launched its Verity-powered Risk Suggestion Agent worldwide and the UK availability of its Disclosure Checklist Agent."
-  },
-  {
-    "title": "Jeppesen ForeFlight Airflow™ Agents Debut for Commercial Aviation, Centered on Operating Intelligence and Adoption Flexibility",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375141/0/en/jeppesen-foreflight-airflow-agents-debut-for-commercial-aviation-centered-on-operating-intelligence-and-adoption-flexibility.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T07:00:00+00:00",
-    "raw_text": "Jeppesen ForeFlight today unveiled the first of hundreds of planned agents for Jeppesen ForeFlight Airflow™, its Aviation Operating Intelligence platform.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Jeppesen ForeFlight today unveiled the first of hundreds of planned agents for Jeppesen ForeFlight Airflow™, its Aviation Operating Intelligence platform."
-  },
-  {
-    "title": "Verdora Excellence Alliance Expands Intelligent Capital and Risk Management Framework",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375136/0/en/verdora-excellence-alliance-expands-intelligent-capital-and-risk-management-framework.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T06:14:00+00:00",
-    "raw_text": "DENVER, Oct. 06, 2026 (GLOBE NEWSWIRE) -- Verdora Excellence Alliance (VEA) , an AI-Native Quant Capital Platform founded in 2020, today announced the broad expansion of its intelligent capital research and risk management framework, anchored by the flagship ORION Intelligent Investment System and the Structural Cognitive Risk Framework (SCRF) .",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "dora",
-        "risk management",
-        "risk framework"
-      ],
-      "Industry & Market": [
-        "expands",
-        "investment"
-      ]
-    },
-    "summary": "DENVER, Oct. 06, 2026 (GLOBE NEWSWIRE) -- Verdora Excellence Alliance (VEA) , an AI-Native Quant Capital Platform founded in 2020, today announced the broad expansion of its intelligent capital research and risk management framework, anchored by the flagship ORION Intelligent Investment System and the Structural Cognitive Risk Framework (SCRF) ."
-  },
-  {
-    "title": "KVB Accelerates Middle East Footprint with Strategic MENA Regional Expansion",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375126/0/en/kvb-accelerates-middle-east-footprint-with-strategic-mena-regional-expansion.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T06:00:00+00:00",
-    "raw_text": "DUBAI, United Arab Emirates, Oct. 06, 2026 (GLOBE NEWSWIRE) -- KVB , a global financial service platform provider, is expanding its presence in the Middle East and North Africa (MENA) region as part of its broader global development strategy. The company is strengthening its regional capabilities and establishing deeper connections across the market as it responds to developments in the region’s financial services landscape.",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "DUBAI, United Arab Emirates, Oct. 06, 2026 (GLOBE NEWSWIRE) -- KVB , a global financial service platform provider, is expanding its presence in the Middle East and North Africa (MENA) region as part of its broader global development strategy. The company is strengthening its regional capabilities and establishing deeper connections across the market as it responds to developments in the region’s financial services landscape."
-  },
-  {
-    "title": "LUBIS EDA Launches FormalOS: Infrastructure for Systematic, Scalable Formal Verification",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375128/0/en/lubis-eda-launches-formalos-infrastructure-for-systematic-scalable-formal-verification.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T06:00:00+00:00",
-    "raw_text": "LUBIS EDA launches FormalOS platform: proven methodology, tools, automation, expert guidance for systematic, scalable formal verification and RTL sign-off",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "LUBIS EDA launches FormalOS platform: proven methodology, tools, automation, expert guidance for systematic, scalable formal verification and RTL sign-off"
-  },
-  {
-    "title": "Nox Peptides Announces Expanded Research Focus on BPC-157 as Canadian Peptide Research Supply Demand Grows",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375119/0/en/nox-peptides-announces-expanded-research-focus-on-bpc-157-as-canadian-peptide-research-supply-demand-grows.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T05:22:00+00:00",
-    "raw_text": "Nox Peptides is a Canadian research supply company providing peptide and related research compounds for laboratory and preclinical research purposes.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Nox Peptides is a Canadian research supply company providing peptide and related research compounds for laboratory and preclinical research purposes."
-  },
-  {
-    "title": "Peptides Canada Operated by Growth Guys Announces Launch of Domestic Research Peptide Supply Platform",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375117/0/en/peptides-canada-operated-by-growth-guys-announces-launch-of-domestic-research-peptide-supply-platform.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T05:01:00+00:00",
-    "raw_text": "Peptides Canada is a research-supply platform operated by Growth Guys, providing peptide materials intended solely for laboratory, scientific.",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "Peptides Canada is a research-supply platform operated by Growth Guys, providing peptide materials intended solely for laboratory, scientific."
-  },
-  {
-    "title": "Deep in the Hidden Forests: Huangshan Introduces Four-Day Itinerary Through Forest Trails and Historic Villages",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375093/0/en/deep-in-the-hidden-forests-huangshan-introduces-four-day-itinerary-through-forest-trails-and-historic-villages.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T01:54:00+00:00",
-    "raw_text": "Huangshan has introduced a four-day, three-night itinerary for independent travelers from South Korea themed “Exploring Hidden Forest Paths”.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Huangshan has introduced a four-day, three-night itinerary for independent travelers from South Korea themed “Exploring Hidden Forest Paths”."
-  },
-  {
-    "title": "숨은 숲길에서 만나는 황산의 비경, 4일 3박 몰입형 미학 여행 코스 출시",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375093/0/ko/%EC%88%A8%EC%9D%80-%EC%88%B2%EA%B8%B8%EC%97%90%EC%84%9C-%EB%A7%8C%EB%82%98%EB%8A%94-%ED%99%A9%EC%82%B0%EC%9D%98-%EB%B9%84%EA%B2%BD-4%EC%9D%BC-3%EB%B0%95-%EB%AA%B0%EC%9E%85%ED%98%95-%EB%AF%B8%ED%95%99-%EC%97%AC%ED%96%89-%EC%BD%94%EC%8A%A4-%EC%B6%9C%EC%8B%9C.html",
-    "source": "GlobeNewswire - Technology",
-    "published": "2026-10-06T01:54:00+00:00",
-    "raw_text": "중국 황산, Oct. 06, 2026 (GLOBE NEWSWIRE) -- 한국 자유여행객을 위해 황산(黄山)이 ‘숨은 숲길에서 비경을 탐하다(秘境森处，寻幽探奇)’를 테마로 한 4일 3박 몰입형 미학 여행 코스를 선보인다. 황산은 상하이·항저우와 인접해 있으며, 두 도시에서 고속철도로 빠르면 약 1시간 30분 만에 도착할 수 있어 짧은 시간 안에 도시에서 산수의 비경으로 분위기를 전환할 수 있다.",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "중국 황산, Oct. 06, 2026 (GLOBE NEWSWIRE) -- 한국 자유여행객을 위해 황산(黄山)이 ‘숨은 숲길에서 비경을 탐하다(秘境森处，寻幽探奇)’를 테마로 한 4일 3박 몰입형 미학 여행 코스를 선보인다. 황산은 상하이·항저우와 인접해 있으며, 두 도시에서 고속철도로 빠르면 약 1시간 30분 만에 도착할 수 있어 짧은 시간 안에 도시에서 산수의 비경으로 분위기를 전환할 수 있다."
-  },
-  {
-    "title": "Enterprise Connectivity 2026: How Telecom Operators Are Finding New Revenue Beyond Consumer Mobile - telecomlead.com",
+    "title": "Enterprise Connectivity 2026: How Telecom Operators Are Finding New Revenue Beyond Consumer Mobile - TelecomLead",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObU5mMkdwQjVGaW5kUDN0b1NBTzkwRzQ3ZG5UMnd5TXN2Z0p6enI1VUNrczFfNXBSRjY3Yk04NFlwLUkxZlhOdUs3OUNjRTg0STdmbUNWeWhwaTZVMEg2WVVDc1lXSFFKYm1ENmc1UGMxOWlhZTk1Z0E2bUVsU3NtUFZzdXRPdXhmVTJHcFBXc2JrWkdTV2h4VUI1ZUw5V2x0ZzR4aDZ6LVkxMjF5dVVHV3dLWTA3amhjcWdaNTZTRkhQRnJhWlEtQmRnY1V0VTlmelVxMzVkRTJWdldKbUHSAeYBQVVfeXFMUHpCd3RBRmY5V0tic2Q5YnJoS3hQVDNtWHJzTE5jUUc5WFBzNGRuTUFKanJhM2lXRldJNmltOFdpNExNTjVvTl8yLWtzQlIyOEppUUhtZ3dOY09qRkZJSkZaQXp3MGtXUFd0MTRXem9vR3lHWnY1M0poZlNJTHIzSnlaZFlMeXBVbE8yeG02eXpPRHVhQzFGU1JvUHl5d0c2dzJ6TF9zMDRkVkdydUJTOFlJUUQtRFNINEZzZHgzSEpDSnVWMlZWbDYxQS1rMTI1M1hnX0o1c1pNVThYckZoZmtkb0pnLUE?oc=5",
     "source": "Google News: Networks",
     "published": "2026-10-05T19:38:56+00:00",
-    "raw_text": "Enterprise Connectivity 2026: How Telecom Operators Are Finding New Revenue Beyond Consumer Mobile telecomlead.com",
+    "raw_text": "Enterprise Connectivity 2026: How Telecom Operators Are Finding New Revenue Beyond Consumer Mobile TelecomLead",
     "categories": [
       "Networks",
       "Industry & Market"
@@ -3375,7 +3550,7 @@
         "ey"
       ]
     },
-    "summary": "Enterprise Connectivity 2026: How Telecom Operators Are Finding New Revenue Beyond Consumer Mobile telecomlead.com"
+    "summary": "Enterprise Connectivity 2026: How Telecom Operators Are Finding New Revenue Beyond Consumer Mobile TelecomLead"
   },
   {
     "title": "Njordium unites GRC and supplier risk under one roof - FinTech Global",
