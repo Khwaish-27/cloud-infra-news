@@ -1,5 +1,48 @@
 [
   {
+    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+    "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+    "source": "The Hacker News",
+    "published": "2026-10-12T10:36:56+00:00",
+    "raw_text": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "threat",
+        "security"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their"
+  },
+  {
+    "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+    "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+    "source": "The Hacker News",
+    "published": "2026-10-12T09:02:14+00:00",
+    "raw_text": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The"
+  },
+  {
     "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
     "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
     "source": "The Hacker News",
@@ -39,20 +82,24 @@
     "summary": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name"
   },
   {
-    "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-    "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-    "source": "The Hacker News",
-    "published": "2026-10-10T11:00:00+00:00",
-    "raw_text": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest",
+    "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+    "source": "BleepingComputer",
+    "published": "2026-10-12T11:58:33+00:00",
+    "raw_text": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
     "categories": [
+      "Networks",
       "Cybersecurity"
     ],
     "matched_keywords": {
+      "Networks": [
+        "iot"
+      ],
       "Cybersecurity": [
         "security"
       ]
     },
-    "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest"
+    "summary": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]"
   },
   {
     "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
@@ -126,6 +173,63 @@
       ]
     },
     "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]"
+  },
+  {
+    "title": "Microsoft’s new model helps AI agents judge their next move",
+    "url": "https://www.helpnetsecurity.com/2026/10/12/microsoft-decision-1-model/",
+    "source": "Help Net Security",
+    "published": "2026-10-12T11:02:24+00:00",
+    "raw_text": "Microsoft-Decision-1 is a small decision-scoring model. Given a situation, a question and a fixed set of answer options, it returns a calibrated probability for each option. “This model is designed for routing, classification, prioritization, verification, and workflow control, making it easier to incorporate decision intelligence into existing applications, agents, and workflows in a secure, trusted environment,” Achint Srivastava, VP of Software Engineering in Microsoft’s Office of the CTO, explained. How Microsoft-Decision-1 works Microsoft said it … More → The post Microsoft’s new model helps AI agents judge their next move appeared first on Help Net Security .",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "routing"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Microsoft-Decision-1 is a small decision-scoring model. Given a situation, a question and a fixed set of answer options, it returns a calibrated probability for each option. “This model is designed for routing, classification, prioritization, verification, and workflow control, making it easier to incorporate decision intelligence into existing applications, agents, and workflows in a secure, trusted environment,” Achint Srivastava, VP of Software Engineering in Microsoft’s Office of the CTO, explained. How Microsoft-Decision-1 works Microsoft said it … More → The post Microsoft’s new model helps AI agents judge their next move appeared first on Help Net Security ."
+  },
+  {
+    "title": "Low-cost Android phones are arriving with malware that owners can’t uninstall",
+    "url": "https://www.helpnetsecurity.com/2026/10/12/midnight-mimosa-malware-cheap-android-phones/",
+    "source": "Help Net Security",
+    "published": "2026-10-12T10:53:51+00:00",
+    "raw_text": "People who buy low-cost Android phones from online marketplaces may be carrying malware that was placed on the device before it reached them, Bitdefender has found. The campaign, dubbed Midnight Mimosa, runs on budget Android devices from different brands built on MediaTek platforms. The malware ships in the device firmware, is present before the owner switches the phone on for the first time, and can’t be uninstalled. “The compromise is complete before the phone is … More → The post Low-cost Android phones are arriving with malware that owners can’t uninstall appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "security"
+      ]
+    },
+    "summary": "People who buy low-cost Android phones from online marketplaces may be carrying malware that was placed on the device before it reached them, Bitdefender has found. The campaign, dubbed Midnight Mimosa, runs on budget Android devices from different brands built on MediaTek platforms. The malware ships in the device firmware, is present before the owner switches the phone on for the first time, and can’t be uninstalled. “The compromise is complete before the phone is … More → The post Low-cost Android phones are arriving with malware that owners can’t uninstall appeared first on Help Net Security ."
+  },
+  {
+    "title": "Hidden implant in Ledger hardware wallets linked to $93M theft",
+    "url": "https://www.helpnetsecurity.com/2026/10/12/ledger-wallets-compromised-via-hardware-implant/",
+    "source": "Help Net Security",
+    "published": "2026-10-12T09:46:53+00:00",
+    "raw_text": "Three days after customers in Southeast Asia began reporting drained wallets, Ledger says the damage is limited. In its 72-hour update on X on October 11, the Paris-based hardware wallet maker said “all confirmed cases related to the disclosed draining incident of Oct 9th, 2026, involve devices sold through the Southeast Asia reseller CryptoBilis.” On-chain researchers put suspected losses at more than $93 million. Ledger said its own systems and direct sales channels were not … More → The post Hidden implant in Ledger hardware wallets linked to $93M theft appeared first on Help Net Security .",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Three days after customers in Southeast Asia began reporting drained wallets, Ledger says the damage is limited. In its 72-hour update on X on October 11, the Paris-based hardware wallet maker said “all confirmed cases related to the disclosed draining incident of Oct 9th, 2026, involve devices sold through the Southeast Asia reseller CryptoBilis.” On-chain researchers put suspected losses at more than $93 million. Ledger said its own systems and direct sales channels were not … More → The post Hidden implant in Ledger hardware wallets linked to $93M theft appeared first on Help Net Security ."
   },
   {
     "title": "Windows PCs missing key updates could lose security fixes in 2027",
@@ -280,6 +384,85 @@
     "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: Three questions a hospital CISO should ask a healthcare fintech vendor In this Help Net Security interview, Drew McCombs, CTO and CISO at Cylerity, explains how he balances both roles. Security work is scheduled into every sprint, and issues touching patient data or funds disbursement come first. He covers how Cylerity keeps PHI away from its bank partner, why AI … More → The post Week in review: FortiBleed is still active, Patch Tuesday forecast appeared first on Help Net Security ."
   },
   {
+    "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+    "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+    "source": "SecurityWeek",
+    "published": "2026-10-12T11:58:39+00:00",
+    "raw_text": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ddos",
+        "security"
+      ]
+    },
+    "summary": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+    "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+    "source": "SecurityWeek",
+    "published": "2026-10-12T11:24:50+00:00",
+    "raw_text": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US. The post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "hacker",
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US. The post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek ."
+  },
+  {
+    "title": "iRhythm Data Breach Impacts at Least 360,000 People",
+    "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+    "source": "SecurityWeek",
+    "published": "2026-10-12T11:05:43+00:00",
+    "raw_text": "Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "hacker",
+        "security"
+      ]
+    },
+    "summary": "Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek ."
+  },
+  {
+    "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
+    "url": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
+    "source": "SecurityWeek",
+    "published": "2026-10-12T10:32:05+00:00",
+    "raw_text": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "ransomware",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference. The post Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe appeared first on SecurityWeek ."
+  },
+  {
     "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
     "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
     "source": "SecurityWeek",
@@ -315,25 +498,41 @@
     "summary": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default. The post Let’s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch appeared first on SecurityWeek ."
   },
   {
-    "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
-    "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
-    "source": "SecurityWeek",
-    "published": "2026-10-10T11:00:00+00:00",
-    "raw_text": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek .",
+    "title": "Major French Supermarket Chains Hit by Cyber-Attack, Food Stock Impacted",
+    "url": "https://www.infosecurity-magazine.com/news/french-supermarket-chains/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-10-12T11:57:00+00:00",
+    "raw_text": "The CEO of Cooperative U confirmed a cyber-attack affected the food stock in several stores from October 11",
     "categories": [
-      "Cybersecurity",
-      "Networks"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
       "Cybersecurity": [
-        "security",
         "cyber"
       ]
     },
-    "summary": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek ."
+    "summary": "The CEO of Cooperative U confirmed a cyber-attack affected the food stock in several stores from October 11"
+  },
+  {
+    "title": "Net Closes Around ShinyHunters with Another FBI Arrest",
+    "url": "https://www.infosecurity-magazine.com/news/net-closes-shinyhunters-another/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-10-12T10:00:00+00:00",
+    "raw_text": "The FBI has arrested a Canadian cybersecurity executive as it continues its crackdown on ShinyHunters",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "The FBI has arrested a Canadian cybersecurity executive as it continues its crackdown on ShinyHunters"
   },
   {
     "title": "Months-Old Palo Alto VPN Vulnerability Remains a Target for Ransomware Groups",
@@ -372,6 +571,37 @@
       ]
     },
     "summary": "Daiichi Kosho says a supply chain breach has exposed personal data on over eight million karaoke customers"
+  },
+  {
+    "title": "Researchers bypass 6 AI agent frameworks with a simple ‘Repeat-After-Me’ prompt",
+    "url": "https://www.csoonline.com/article/4233811/researchers-bypass-6-ai-agent-frameworks-with-a-simple-repeat-after-me-prompt.html",
+    "source": "CSO Online",
+    "published": "2026-10-12T12:07:30+00:00",
+    "raw_text": "Researchers have tricked six widely used AI agent frameworks into running tool calls written by an attacker, simply by asking the underlying model to repeat the call back. The technique, which the researchers call “Repeat-After-Me,” worked on LangChain’s LangGraph, Microsoft Agent Framework, Microsoft’s AutoGen, Google’s Agent Development Kit 2.0, AWS’ Strands Agents and CrewAI, according to researchers from Pennsylvania State University, Université Montpellier and Dartmouth College. “A seemingly benign text-repetition request thus gives the attacker direct control over the tool invocation and its arguments,” the researchers wrote in the paper. The same paper reports that a testing tool the team built found verified security bugs in 118 of the 273 open-source Model Context Protocol (MCP) servers it was able to run. How the trick works In the demonstration, the researchers asked an AI model to repeat text formatted as a request to invoke a tool. The model initially refused the dangerous request but included the requested text in its response. The framework did not execute it at that stage. The researchers then framed the request as hypothetical and instructed the model to reproduce only the supplied text. The model emitted a structured tool invocation, which LangGraph dispatched. The simulated tool returned a result before the model issued another refusal. “The refusal text and the executed call disagree: the system prompt shaped what the model said, not what the orchestrator did,” the researchers wrote. The researchers’ findings do not show that every deployment of the six frameworks behaves this way. A refusal that came too late The paper details one demonstration on LangGraph 1.2.0 running Meta’s Llama 3.1 8B model through Ollama. The agent had two dummy tools, make_bomb and launch_missiles, which returned fixed data and had no real effect. Its only safeguard was a system prompt telling the model to decline dangerous requests. When first asked to repeat a launch_missiles call, the model refused but printed the call as text, and LangGraph ran nothing. The researchers then framed the request as hypothetical and told the model to output only the quoted call. This time the model returned the call in structured form, and LangGraph executed it at once with the attacker’s arguments. The model’s refusal arrived only after the tool had returned. “The system prompt shaped what the model said, not what the orchestrator did,” the researchers wrote. They said they had reported the missing pre-execution check to the LangGraph maintainers. The paper includes a full transcript only for LangGraph. For the other five frameworks, it says the researchers reproduced the behavior but gives no further detail. LangChain, Microsoft, Google, AWS, and CrewAI did not immediately respond to requests for comment. Model output is not the permission Vibhum Dubey, an independent security researcher and red teamer, said the finding points to an architectural weakness rather than a single bug. “A model can generate a technically valid tool call that is still inappropriate for the task,” Dubey said. “If the orchestration layer treats that output as sufficient authority to execute the operation, a model-level manipulation becomes a system-level security issue.” How exploitable the technique is depends on what an attacker can influence and what the agent is allowed to do, he added. A read-only agent poses a different risk from one that can reach confidential files, change code repositories, or run commands. Tools left holding the risk Because an attacker can dictate the arguments that reach a tool, the researchers argued that tools must validate their own inputs. They built ToFu, a fuzzing framework that reads each tool’s description and checks whether the tool enforces the limits it advertises, such as staying inside a designated folder. After manual review, they confirmed 253 bugs affecting 343 tools across 118 servers. The most serious were 64 path-traversal flaws, seven server-side request forgery (SSRF) flaws, five data-exfiltration bugs, and three OS command-injection flaws. Most of the rest were reflected-output and log-injection issues, which the paper rates as lower impact in many deployments. The researchers wrote that “many tools implicitly rely on the LLM to sanitize inputs,” even though prompts, retrieved content, and output from other tools can all influence those inputs. Separating the request from the authority Dubey said the priority for security teams is to separate a model’s ability to request an action from the system’s authority to carry it out. “Every sensitive tool call should undergo independent authorization checks,” he said. “Valid syntax or a convincing explanation from the model should never substitute for permission.” He recommended running agents with restricted file and network access, isolated execution environments, and limited credentials, with explicit approval for sensitive or irreversible operations. Security teams should also monitor sequences of tool calls rather than judging each action in isolation, he said. The paper has not been peer-reviewed. The servers were tested at fixed code versions, and the paper does not say whether any of the flaws have since been fixed or exploited in the wild.",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "network",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "security",
+        "red team"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Researchers have tricked six widely used AI agent frameworks into running tool calls written by an attacker, simply by asking the underlying model to repeat the call back. The technique, which the researchers call “Repeat-After-Me,” worked on LangChain’s LangGraph, Microsoft Agent Framework, Microsoft’s AutoGen, Google’s Agent Development Kit 2.0, AWS’ Strands Agents and CrewAI, according to researchers from Pennsylvania State University, Université Montpellier and Dartmouth College. “A seemingly benign text-repetition request thus gives the attacker direct control over the tool invocation and its arguments,” the researchers wrote in the paper. The same paper reports that a testing tool the team built found verified security bugs in 118 of the 273 open-source Model Context Protocol (MCP) servers it was able to run."
   },
   {
     "title": "The 7 biggest issues CISOs and security teams face today",
@@ -427,6 +657,215 @@
     "summary": "Year after year CISOs see the volume, velocity, and sophistication of attacks increase. They also see their attack surfaces expand and increase in complexity. Advances in artificial intelligence and the rapid growth of AI use in business are also impacting the security agenda, introducing novel attacks, broadening the attack surface to include AI infrastructure, and presenting governance and security control challenges and complications — especially as agentic systems come online. As a result, 68% of security leaders report that their roles have become more stressful over the past five years, according to the 2026 State of Cybersecurity survey from ISACA , with 71% of CISOs citing the increasingly complex threat landscape as their main stressor, up from 63% in 2025."
   },
   {
+    "title": "Ardian, Oak Holdings could buyout minority shareholders in Italy's Inwit - report",
+    "url": "https://www.datacenterdynamics.com/en/news/inwits-major-shareholders/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T12:11:49+00:00",
+    "raw_text": "Such a deal would take Italy's biggest tower company private",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Such a deal would take Italy's biggest tower company private"
+  },
+  {
+    "title": "Google's Jacqueline Dory Prescott named data center portfolio lead at Anthropic",
+    "url": "https://www.datacenterdynamics.com/en/news/googles-jacqueline-dory-prescott-named-data-center-portfolio-lead-at-anthropic/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T12:08:15+00:00",
+    "raw_text": "Yet another Googler heads to Anthropic",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Yet another Googler heads to Anthropic"
+  },
+  {
+    "title": "Dolphin Telecoms signs solar deal with Grid Crux to power ACE cable landing station in Lagos, Nigeria",
+    "url": "https://www.datacenterdynamics.com/en/news/dolphin-t/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T11:40:35+00:00",
+    "raw_text": "Grid Crux will design, finance, install, and operate the system at the cable landing station",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan",
+        "telecom"
+      ]
+    },
+    "summary": "Grid Crux will design, finance, install, and operate the system at the cable landing station"
+  },
+  {
+    "title": "Orcadian Energy terminates data center agreement for North Sea gas field - report",
+    "url": "https://www.datacenterdynamics.com/en/news/orcadian-energy-terminates-data-center-agreement-for-north-sea-gas-field-report/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T11:30:41+00:00",
+    "raw_text": "Non-exclusive agreement signed with US digital infrastructure developer back in July",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Non-exclusive agreement signed with US digital infrastructure developer back in July"
+  },
+  {
+    "title": "Serverfarm tops out first data center at Arkansas campus",
+    "url": "https://www.datacenterdynamics.com/en/news/serverfarm-tops-out-first-data-center-at-arkansas-campus/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T11:20:38+00:00",
+    "raw_text": "Building to offer 108MW across 300,000 sq ft",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Building to offer 108MW across 300,000 sq ft"
+  },
+  {
+    "title": "Telia outlines plans to cut 900 jobs as part of $100m cost-savings strategy",
+    "url": "https://www.datacenterdynamics.com/en/news/telia-outlines-plans-to-cut-900-jobs-as-part-of-100m-cost-savings-strategy/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T11:00:46+00:00",
+    "raw_text": "The layoffs will conclude by the end of the year",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "The layoffs will conclude by the end of the year"
+  },
+  {
+    "title": "Former Hut 8 executive takes CEO role at Fortitude Mining Holdings",
+    "url": "https://www.datacenterdynamics.com/en/news/former-hut-8-executive-takes-ceo-role-at-fortitude-mining-holdings/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T10:30:52+00:00",
+    "raw_text": "Jaime Leverton assumed her new role last month",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Jaime Leverton assumed her new role last month"
+  },
+  {
+    "title": "Five-building data center campus proposed in Metter, Georgia",
+    "url": "https://www.datacenterdynamics.com/en/news/five-building-data-center-campus-proposed-in-metter-georgia/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T10:28:15+00:00",
+    "raw_text": "Developer behind project currently unknown",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Developer behind project currently unknown"
+  },
+  {
+    "title": "Photonic quantum startup Quanfluence raises $10m for full-stack architecture development",
+    "url": "https://www.datacenterdynamics.com/en/news/photonic-quantum-startup-quanfluence-raises-10m-for-full-stack-architecture-development/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T10:25:53+00:00",
+    "raw_text": "Bengaluru-based company is designing and developing its own photonic quantum hardware",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "raises"
+      ]
+    },
+    "summary": "Bengaluru-based company is designing and developing its own photonic quantum hardware"
+  },
+  {
+    "title": "Number of data center fires and power failures has doubled since 2024",
+    "url": "https://www.datacenterdynamics.com/en/news/number-of-data-center-fires-and-power-failures-has-doubled-since-2024/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T10:14:22+00:00",
+    "raw_text": "New data from the Energy Incident Register reveals increasing faults",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "New data from the Energy Incident Register reveals increasing faults"
+  },
+  {
+    "title": "Google's global head of advanced energy departs company",
+    "url": "https://www.datacenterdynamics.com/en/news/googles-global-head-of-advanced-energy-departs-company/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T10:09:51+00:00",
+    "raw_text": "Michael Terrell leaves Google after 19 years",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Michael Terrell leaves Google after 19 years"
+  },
+  {
+    "title": "Third strike on Yandex data center in Russia",
+    "url": "https://www.datacenterdynamics.com/en/news/third-strike-on-yandex-data-center-in-russia/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T10:05:00+00:00",
+    "raw_text": "Vladimir data center gets hit during drone strike",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Vladimir data center gets hit during drone strike"
+  },
+  {
+    "title": "Oratomic raises $775m for development of fault-tolerant quantum computer",
+    "url": "https://www.datacenterdynamics.com/en/news/oratomic-raises-775m-for-development-of-fault-tolerant-quantum-computer/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T10:03:42+00:00",
+    "raw_text": "Pasadena-based startup emerged from stealth in March 2026",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "raises"
+      ]
+    },
+    "summary": "Pasadena-based startup emerged from stealth in March 2026"
+  },
+  {
+    "title": "Astranis secures $468m credit line to ramp GEO satellite production at California factory",
+    "url": "https://www.datacenterdynamics.com/en/news/astranis-secures-468m-credit-line-to-ramp-geo-satellite-production-at-california-factory/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T09:45:19+00:00",
+    "raw_text": "Half-billion credit deal implies sovereign, geopolitical significance of advanced geostationary satellites",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Half-billion credit deal implies sovereign, geopolitical significance of advanced geostationary satellites"
+  },
+  {
     "title": "North America data center report: Midyear 2026",
     "url": "https://www.datacenterdynamics.com/en/whitepapers/north-america-data-center-report-midyear-2026/",
     "source": "DataCenterDynamics",
@@ -441,26 +880,6 @@
       ]
     },
     "summary": "Navigating historic growth and community acceptance"
-  },
-  {
-    "title": "Sponsored: Faster, cleaner data centers that withstand scrutiny",
-    "url": "https://www.datacenterdynamics.com/en/product-news/faster-cleaner-data-centers-that-withstand-scrutiny/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-12T07:00:00+00:00",
-    "raw_text": "Grid connections for new data centers can take a decade to arrive, and, increasingly, communities want proof that the sector will not strain the energy system and local resources",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ],
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Grid connections for new data centers can take a decade to arrive, and, increasingly, communities want proof that the sector will not strain the energy system and local resources"
   },
   {
     "title": "Sponsored: Making every watt work",
@@ -483,6 +902,26 @@
       ]
     },
     "summary": "nVent’s David Wood explores how real-time power intelligence could be the key to unlocking stranded data center capacity and securing responsive AI infrastructure"
+  },
+  {
+    "title": "Sponsored: Faster, cleaner data centers that withstand scrutiny",
+    "url": "https://www.datacenterdynamics.com/en/product-news/faster-cleaner-data-centers-that-withstand-scrutiny/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-12T07:00:00+00:00",
+    "raw_text": "Grid connections for new data centers can take a decade to arrive, and, increasingly, communities want proof that the sector will not strain the energy system and local resources",
+    "categories": [
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Grid connections for new data centers can take a decade to arrive, and, increasingly, communities want proof that the sector will not strain the energy system and local resources"
   },
   {
     "title": "Sponsored: Legacy data center efficiency now has a compliance deadline",
@@ -508,7 +947,7 @@
     "title": "Hyperscale Data plans Patriot BTC subsidiary for Bitcoin mining business",
     "url": "https://www.datacenterdynamics.com/en/news/hyperscale-data-plans-patriot-btc-subsidiary-for-bitcoin-mining-business/",
     "source": "DataCenterDynamics",
-    "published": "2026-10-11T11:00:49+00:00",
+    "published": "2026-10-11T11:00:00+00:00",
     "raw_text": "Will transfer Montana data center to new company",
     "categories": [
       "Networks",
@@ -527,37 +966,88 @@
     "summary": "Will transfer Montana data center to new company"
   },
   {
-    "title": "Sponsored: Why do liquid-cooled AI data centers require different backup power strategy?",
-    "url": "https://www.datacenterdynamics.com/en/opinions/why-do-liquid-cooled-ai-data-centers-require-different-backup-power-strategy/",
+    "title": "The biggest threat to today’s data centers is in the battery room",
+    "url": "https://www.datacenterdynamics.com/en/opinions/the-biggest-threat-to-todays-data-centers-is-in-the-battery-room/",
     "source": "DataCenterDynamics",
-    "published": "2026-10-10T15:00:00+00:00",
-    "raw_text": "AI-focused data centers require new backup power strategies as their rack power density is rising sharply and their workloads fluctuate rapidly",
+    "published": "2026-10-11T10:00:00+00:00",
+    "raw_text": "While the battery units are looking after the servers, who is looking after the batteries?",
     "categories": [
+      "Cybersecurity",
       "Data Centres"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "data center",
-        "rack"
-      ]
-    },
-    "summary": "AI-focused data centers require new backup power strategies as their rack power density is rising sharply and their workloads fluctuate rapidly"
-  },
-  {
-    "title": "Cipher extends Barber Lake data center lease commitments to 20 years",
-    "url": "https://www.datacenterdynamics.com/en/news/cipher-extends-barber-lake-data-center-lease-commitments-to-20-years/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-10T11:00:34+00:00",
-    "raw_text": "Fluidstack and unnamed AI lab agree lengthy leases",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
+      "Cybersecurity": [
+        "threat"
+      ],
       "Data Centres": [
         "data center"
       ]
     },
-    "summary": "Fluidstack and unnamed AI lab agree lengthy leases"
+    "summary": "While the battery units are looking after the servers, who is looking after the batteries?"
+  },
+  {
+    "title": "London cabbies want Sadiq Khan to slam the brakes on robotaxis",
+    "url": "https://www.theregister.com/personal-tech/2026/10/12/london-cabbies-want-sadiq-khan-to-slam-the-brakes-on-robotaxis/5302595",
+    "source": "The Register",
+    "published": "2026-10-12T12:13:00+00:00",
+    "raw_text": "Union urges Mayor to halt driverless taxi rollout as City Hall report raises questions about safety, congestion, and who's actually in charge",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ],
+      "Industry & Market": [
+        "raises"
+      ]
+    },
+    "summary": "Union urges Mayor to halt driverless taxi rollout as City Hall report raises questions about safety, congestion, and who's actually in charge"
+  },
+  {
+    "title": "Pigeon-powered internet packet goes under the hammer at Christie's",
+    "url": "https://www.theregister.com/offbeat/2026/10/12/pigeon-powered-internet-packet-goes-under-the-hammer-at-christies/5302526",
+    "source": "The Register",
+    "published": "2026-10-12T11:30:00+00:00",
+    "raw_text": "25 years after taking flight, a surviving packet from the world's most impractical network has attracted a $4,000 bid",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ]
+    },
+    "summary": "25 years after taking flight, a surviving packet from the world's most impractical network has attracted a $4,000 bid"
+  },
+  {
+    "title": "Imagine there's no Shiny Hunters – AI could make human hacking crews obsolete",
+    "url": "https://www.theregister.com/security/2026/10/12/imagine-theres-no-shiny-hunters-ai-could-make-human-hacking-crews-obsolete/5302430",
+    "source": "The Register",
+    "published": "2026-10-12T10:27:00+00:00",
+    "raw_text": "This week on The Kettle, we discuss some arrests and how Mythos' mathematical expertise has led to a second exploited bug that no human would have found",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit"
+      ]
+    },
+    "summary": "This week on The Kettle, we discuss some arrests and how Mythos' mathematical expertise has led to a second exploited bug that no human would have found"
+  },
+  {
+    "title": "When you just need to build a tiny desktop app: TinyJS",
+    "url": "https://www.theregister.com/devops/2026/10/12/when-you-just-need-to-build-a-tiny-desktop-app-tinyjs/5302502",
+    "source": "The Register",
+    "published": "2026-10-12T09:43:00+00:00",
+    "raw_text": "How a micro JavaScript runtime uses native OS webviews to shrink the desktop footprint.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "How a micro JavaScript runtime uses native OS webviews to shrink the desktop footprint."
   },
   {
     "title": "Celebrating the brilliant pragmatism of TCP/IP, the wiring of the world",
@@ -641,16 +1131,32 @@
     "summary": "Korean boffins use oxygen to stop crystals forming in the wrong places, aiming to get tech to commercial sector by 2030"
   },
   {
-    "title": "Two characters open up a world of typosquatting opportunities in Chromium browsers",
-    "url": "https://www.theregister.com/security/2026/10/10/two-characters-open-up-a-world-of-typosquatting-opportunities-in-chromium-browsers/5302383",
-    "source": "The Register",
-    "published": "2026-10-10T10:15:00+00:00",
-    "raw_text": "Attackers abusing rare Cyrillic and Latin letters to impersonate popular websites",
+    "title": "AI: Faster than the speed of safety",
+    "url": "https://www.computerweekly.com/news/366651940/AI-Faster-than-the-speed-of-safety",
+    "source": "ComputerWeekly",
+    "published": "2026-10-12T08:00:00+00:00",
+    "raw_text": "<p>Microsoft president <a href=\"https://www.techtarget.com/cybersecurity/news/366588768/Congress-grills-Microsoft-president-over-security-failures\">Brad Smith</a> has called on governments and artificial intelligence (AI) firms to work together to implement safety in AI systems. He believes the pace of AI development is moving forward faster than the ability of AI safety to keep up.</p> <p>Speaking on the <a href=\"https://www.bbc.co.uk/sounds/brand/b006qj9z\">BBC’s <em>Today</em> programme</a>, Smith said: “Right now, your washing machine is subject to more safety rules than AI. Every carton of milk that you see in the grocery store is subject to safety rules and inspection. We know how to do this for other products. We should build on that knowledge and start to think about how to apply it to AI.”</p> <p>He urged AI firms to build on knowledge of safety and apply this to AI systems. “You often get your best work done, especially on something like a safety break, for example, when the industry itself starts to develop common standards,” Smith told the <em>Today</em> programme.</p> <p>He said this requires identifying best practices and developing standards, which regulators can adopt to put in place a legal obligation for compliance with these standards.&nbsp;</p> <p>For Smith, the UK is well placed to advance AI safety standards thanks to the <a href=\"https://www.computerweekly.com/news/366619238/Government-renames-AI-Safety-Institute-and-teams-up-with-Anthropic\">AI Safety Institute</a>. “I actually think the country and the government that is in the best position to advance AI safety standards and even rules is the United Kingdom and the AI Security Institute,” he said. “You need capability to do this well and you need to have trained people.”</p> <p>Smith’s comments on the UK’s AI safety readiness preceded the UK government’s announcement to strengthen government cyber defences. Speaking at Imperial College London’s science and tech incubator, Base One, AI minister Kanishka Narayan argued for a whole-society approach to resilience in the face of emerging AI risks, so that this technology continues to serve British people’s interests and boost our prosperity, as well as our security.</p> <p>He warned that as frontier AI systems become increasingly powerful and capable of acting autonomously, the potential consequences of failures or malicious use could become far more serious. Narayan argued that Britain needs to act now to strengthen its defences and prepare for future serious incidents. “I want Britain to become one of the hardest countries in the world to attack using artificial intelligence,” he said.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more AI safety stories</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/opinion/The-AI-kill-switch-what-actually-happens-when-you-press-it\">The AI kill switch</a>: What actually happens when you press it: Talk of an AI kill switch abounds, but what would such a thing actually look like in practice, and what would it mean to ‘press’ it?</li> <li><a href=\"https://www.computerweekly.com/blog/Cliff-Sarans-Enterprise-blog/Fronter-AI-models-Industry-or-government-control\">Fronter AI models</a>: Industry or government control: The question for all governments is whether we need to legislate&nbsp; frontier AI models to keep the public safe.</li> </ul> </div> </div> <p>Narayan said the government plans to use every power at its disposal to reduce the risk of AI causing serious incidents, including legislation and working with the industry and academia.</p> <p>“We will legislate wherever necessary,” he said. “And we won’t look to law alone. We will look to British ingenuity: our scientific expertise, technological capabilities and institutions to understand these increasingly powerful systems.”</p> <p>The National Cyber Security Centre and the AI Security Institute are actively investigating how to respond to incidents involving AI agents, which requires new expertise and capabilities. The government also plans to look at how to identify and report on near-miss incidents to ensure lessons can be learned quickly, which it said reduces the risk of future harm.</p> <p>The government also sees the emerging field of AI verification as an important part of efforts to reduce serious AI risk.</p> <p>Cyber minister Liz Lloyd said: “Through scaling up projects piloting AI to protect public services and progressing a Cyber Bill to boost our defences, the government is putting cyber security and AI preparedness at the heart of the UK’s digital future.”</p>",
     "categories": [
-      "Uncategorised"
+      "Cybersecurity",
+      "Networks",
+      "GRC"
     ],
-    "matched_keywords": {},
-    "summary": "Attackers abusing rare Cyrillic and Latin letters to impersonate popular websites"
+    "matched_keywords": {
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber",
+        "soc"
+      ],
+      "GRC": [
+        "compliance",
+        "nist"
+      ]
+    },
+    "summary": "<p>Microsoft president <a href=\"https://www.techtarget.com/cybersecurity/news/366588768/Congress-grills-Microsoft-president-over-security-failures\">Brad Smith</a> has called on governments and artificial intelligence (AI) firms to work together to implement safety in AI systems. He believes the pace of AI development is moving forward faster than the ability of AI safety to keep up.</p> <p>Speaking on the <a href=\"https://www.bbc.co.uk/sounds/brand/b006qj9z\">BBC’s <em>Today</em> programme</a>, Smith said: “Right now, your washing machine is subject to more safety rules than AI. Every carton of milk that you see in the grocery store is subject to safety rules and inspection. We know how to do this for other products."
   },
   {
     "title": "Undercover agent: Can process mining police AI automation?",
@@ -683,284 +1189,337 @@
     "summary": "<p>“The challenge is monumental. Even under the best circumstances, the transition to this new AI era will be one of the most turbulent times in human history,” <a target=\"_blank\" href=\"https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make\" rel=\"noopener\">wrote</a> Bill Gates in an essay last month. It’s the sort of hyperbolic artificial intelligence (AI) warning to which we are growing accustomed, fuelled as much by corporate reaction to AI as the technology itself.</p> <p>According to Gartner, businesses are turning to AI agents in droves with the promise of doing more with less. Around 80% of large organisations piloting or deploying AI agents, intelligent automation and other autonomous technologies have already reduced their workforce."
   },
   {
-    "title": "NTT DATA Business Solutions launches \"Elevate\", its Agentic AI-powered delivery framework, to help accelerate SAP transformations",
-    "url": "https://www.prnewswire.com/news-releases/ntt-data-business-solutions-launches-elevate-its-agentic-ai-powered-delivery-framework-to-help-accelerate-sap-transformations-302905553.html",
+    "title": "Massachusetts Rockers D-Tension & The Secrets Release Self-Titled Debut Album",
+    "url": "https://www.prnewswire.com/news-releases/massachusetts-rockers-d-tension--the-secrets-release-self-titled-debut-album-302905638.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:25:00+00:00",
-    "raw_text": "Next-generation delivery initiative combines AI-powered execution, intelligent solutions and adoption services BIELEFELD, Germany, Oct. 12, 2026 /PRNewswire/ -- NTT DATA Business Solutions, a leading global IT service provider and specialist in SAP solutions, today announces the launch of...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "launches",
-        "announces",
-        "service provider"
-      ]
-    },
-    "summary": "Next-generation delivery initiative combines AI-powered execution, intelligent solutions and adoption services BIELEFELD, Germany, Oct. 12, 2026 /PRNewswire/ -- NTT DATA Business Solutions, a leading global IT service provider and specialist in SAP solutions, today announces the launch of..."
-  },
-  {
-    "title": "Firma Siteimprove uznana za lidera w raporcie Gartner® Magic Quadrant™ 2026 dotyczącym dostępności cyfrowej",
-    "url": "https://www.prnewswire.com/news-releases/firma-siteimprove-uznana-za-lidera-w-raporcie-gartner-magic-quadrant-2026-dotyczcym-dostpnoci-cyfrowej-302905547.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:19:00+00:00",
-    "raw_text": "Wyróżnienie za kompletność wizji i zdolność do realizacji KOPENHAGA (Dania), 12 października 2026 r. /PRNewswire/ -- Firma Siteimprove z przyjemnością informuje, że została uznana za lidera w raporcie Gartner Magic Quadrant 2026 dotyczącym dostępności cyfrowej. „Jesteśmy dumni, że...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "gartner"
-      ]
-    },
-    "summary": "Wyróżnienie za kompletność wizji i zdolność do realizacji KOPENHAGA (Dania), 12 października 2026 r. /PRNewswire/ -- Firma Siteimprove z przyjemnością informuje, że została uznana za lidera w raporcie Gartner Magic Quadrant 2026 dotyczącym dostępności cyfrowej. „Jesteśmy dumni, że..."
-  },
-  {
-    "title": "Kathy Yang, de Hon Hai Technology Group (Foxconn), una de las mujeres más poderosas de Asia en 2026",
-    "url": "https://www.prnewswire.com/news-releases/kathy-yang-de-hon-hai-technology-group-foxconn-una-de-las-mujeres-mas-poderosas-de-asia-en-2026-302905540.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:08:00+00:00",
-    "raw_text": "- Kathy Yang, de Hon Hai Technology Group (Foxconn), reconocida por Fortune como una de las mujeres más poderosas de Asia en 2026 El liderazgo del sector tecnológico demuestra la formidable fortaleza de Asia TAIPEI, 12 de octubre de 2026 /PRNewswire/ -- Kathy Yang, de Hon Hai Technology...",
+    "published": "2026-10-12T12:15:00+00:00",
+    "raw_text": "Spotify I YouTube I Website I Bandcamp I Facebook I Instagram I TikTok BOSTON, Oct. 12, 2026 /PRNewswire/ -- D-Tension & The Secrets have released their self-titled debut album, D-Tension & The Secrets, a nine-song set led by the single \"Hate To See You Go.\" The record spans rock, alt...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "- Kathy Yang, de Hon Hai Technology Group (Foxconn), reconocida por Fortune como una de las mujeres más poderosas de Asia en 2026 El liderazgo del sector tecnológico demuestra la formidable fortaleza de Asia TAIPEI, 12 de octubre de 2026 /PRNewswire/ -- Kathy Yang, de Hon Hai Technology..."
+    "summary": "Spotify I YouTube I Website I Bandcamp I Facebook I Instagram I TikTok BOSTON, Oct. 12, 2026 /PRNewswire/ -- D-Tension & The Secrets have released their self-titled debut album, D-Tension & The Secrets, a nine-song set led by the single \"Hate To See You Go.\" The record spans rock, alt..."
   },
   {
-    "title": "GOFO becomes a carrier partner of Peoples Post ahead of the year-end peak",
-    "url": "https://www.prnewswire.com/news-releases/gofo-becomes-a-carrier-partner-of-peoples-post-ahead-of-the-year-end-peak-302905538.html",
+    "title": "2026 Winter Equestrian Festival Generates $607.3 Million in Economic Impact for Palm Beach County",
+    "url": "https://www.prnewswire.com/news-releases/2026-winter-equestrian-festival-generates-607-3-million-in-economic-impact-for-palm-beach-county-302905230.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:07:00+00:00",
-    "raw_text": "MARLY-LA-VILLE, France, Oct. 12, 2026 /PRNewswire/ -- GOFO France, a last-mile delivery specialist, announces a strategic partnership with Peoples Post, a French e-commerce logistics provider (3PL). The partnership integrates GOFO France's home delivery services into Peoples Post's...",
+    "published": "2026-10-12T12:13:00+00:00",
+    "raw_text": "WELLINGTON, Fla., Oct. 12, 2026 /PRNewswire/ -- The 2026 Winter Equestrian Festival (WEF) generated $607.3 million (a 13% increase from 2025) to Palm Beach County's gross domestic product (GDP) through spending by equestrians and visitors, according to a new economic impact study prepared...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "WELLINGTON, Fla., Oct. 12, 2026 /PRNewswire/ -- The 2026 Winter Equestrian Festival (WEF) generated $607.3 million (a 13% increase from 2025) to Palm Beach County's gross domestic product (GDP) through spending by equestrians and visitors, according to a new economic impact study prepared..."
+  },
+  {
+    "title": "Tri Pointe Homes Announces Everstead, a New Single-Family Home Community Coming to Raleigh",
+    "url": "https://www.prnewswire.com/news-releases/tri-pointe-homes-announces-everstead-a-new-single-family-home-community-coming-to-raleigh-302905637.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:12:00+00:00",
+    "raw_text": "New 284-Home Community Focused on Main-Floor Living and Amenities Designed for Modern Living RALEIGH, N.C., Oct. 12, 2026 /PRNewswire/ -- Tri Pointe Homes®, one of the nation's largest homebuilders, is excited to announce the arrival of Everstead, a new single-family community coming to...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "partnership",
         "announces"
       ]
     },
-    "summary": "MARLY-LA-VILLE, France, Oct. 12, 2026 /PRNewswire/ -- GOFO France, a last-mile delivery specialist, announces a strategic partnership with Peoples Post, a French e-commerce logistics provider (3PL). The partnership integrates GOFO France's home delivery services into Peoples Post's..."
+    "summary": "New 284-Home Community Focused on Main-Floor Living and Amenities Designed for Modern Living RALEIGH, N.C., Oct. 12, 2026 /PRNewswire/ -- Tri Pointe Homes®, one of the nation's largest homebuilders, is excited to announce the arrival of Everstead, a new single-family community coming to..."
   },
   {
-    "title": "Leadde AI hilft Bildungsteams in Westeuropa, Kursmaterialien in wenigen Minuten in Lernvideos umzuwandeln",
-    "url": "https://www.prnewswire.com/news-releases/leadde-ai-hilft-bildungsteams-in-westeuropa-kursmaterialien-in-wenigen-minuten-in-lernvideos-umzuwandeln-302903411.html",
+    "title": "Wisner Baum Lawsuit Alleges Syngenta Failed to Warn of Atrazine's Cancer Risks",
+    "url": "https://www.prnewswire.com/news-releases/wisner-baum-lawsuit-alleges-syngenta-failed-to-warn-of-atrazines-cancer-risks-302905003.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:00:00+00:00",
-    "raw_text": "SINGAPUR, 12. Oktober 2026 /PRNewswire/ -- Leadde AI hat einen Bildungsworkflow vorgestellt, mit dem Lehrkräfte, Ärzte und Forschungsteams Kursmaterialien, Vorlesungsnotizen, Präsentationen und PDF-Dateien innerhalb weniger Minuten in Lernvideos umwandeln können. Den Engpass bei der...",
+    "published": "2026-10-12T12:09:00+00:00",
+    "raw_text": "Apostolos Panayiotou alleges that nearly three decades of mixing and spraying atrazine-based herbicides in Los Angeles County led to his cancer diagnosis. Wisner Baum's lawsuit also challenges what Syngenta told applicators outside its EPA-approved product labels. LOS ANGELES, Oct. 12,...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "iot"
+      ]
+    },
+    "summary": "Apostolos Panayiotou alleges that nearly three decades of mixing and spraying atrazine-based herbicides in Los Angeles County led to his cancer diagnosis. Wisner Baum's lawsuit also challenges what Syngenta told applicators outside its EPA-approved product labels. LOS ANGELES, Oct. 12,..."
+  },
+  {
+    "title": "Cvi Awarded U.S. Air Force Contract to Support Aircraft Maintenance at Tinker Air Force Base",
+    "url": "https://www.prnewswire.com/news-releases/cvi-awarded-us-air-force-contract-to-support-aircraft-maintenance-at-tinker-air-force-base-302905191.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:09:00+00:00",
+    "raw_text": "PRINEVILLE, Ore., Oct. 12, 2026 /PRNewswire/ -- Cv International, Inc. (Cvi), has been awarded a U.S. Air Force contract to design, fabricate, test and install a comprehensive modular maintenance work stand system at Tinker Air Force Base, Oklahoma. The project will support the 76th...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "PRINEVILLE, Ore., Oct. 12, 2026 /PRNewswire/ -- Cv International, Inc. (Cvi), has been awarded a U.S. Air Force contract to design, fabricate, test and install a comprehensive modular maintenance work stand system at Tinker Air Force Base, Oklahoma."
+  },
+  {
+    "title": "Another Healthcare Increase Is Coming. Are Employers Watching the Spending Closely Enough?",
+    "url": "https://www.prnewswire.com/news-releases/another-healthcare-increase-is-coming-are-employers-watching-the-spending-closely-enough-302905636.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:09:00+00:00",
+    "raw_text": "As 2027 benefit costs climb and workers absorb more of the expense, Vxtra Health founder Larry Hightower says employers need more timely visibility into the claims, contracts and pricing patterns driving their healthcare spending. ATLANTA, Oct. 12, 2026 /PRNewswire/ -- Employers are...",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "wan"
+        "lan"
       ]
     },
-    "summary": "SINGAPUR, 12. Oktober 2026 /PRNewswire/ -- Leadde AI hat einen Bildungsworkflow vorgestellt, mit dem Lehrkräfte, Ärzte und Forschungsteams Kursmaterialien, Vorlesungsnotizen, Präsentationen und PDF-Dateien innerhalb weniger Minuten in Lernvideos umwandeln können. Den Engpass bei der..."
+    "summary": "As 2027 benefit costs climb and workers absorb more of the expense, Vxtra Health founder Larry Hightower says employers need more timely visibility into the claims, contracts and pricing patterns driving their healthcare spending. ATLANTA, Oct. 12, 2026 /PRNewswire/ -- Employers are..."
   },
   {
-    "title": "Constellation Cold Logistics acquires Impruv Logistics AS in Norway",
-    "url": "https://www.prnewswire.com/news-releases/constellation-cold-logistics-acquires-impruv-logistics-as-in-norway-302905493.html",
+    "title": "FlyUSA Opens 50,000-Square-Foot Tampa International Hub as Fleet Growth Accelerates",
+    "url": "https://www.prnewswire.com/news-releases/flyusa-opens-50-000-square-foot-tampa-international-hub-as-fleet-growth-accelerates-302905635.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:00:00+00:00",
-    "raw_text": "LONDON, Oct. 12, 2026 /PRNewswire/ -- Constellation Cold Logistics (\"Constellation\"), a leading European provider of temperature-controlled storage and logistics solutions, today announced the acquisition of Impruv Logistics AS (\"Impruv\"), a Norwegian cold storage and food logistics...",
+    "published": "2026-10-12T12:09:00+00:00",
+    "raw_text": "The new 50,000-square-foot facility brings FlyUSA's primary maintenance operation, dedicated ground services, and an owners-only lounge together while creating room for larger aircraft and future expansion. TAMPA, Fla., Oct. 12, 2026 /PRNewswire/ -- FlyUSA, a U.S.-based private jet...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The new 50,000-square-foot facility brings FlyUSA's primary maintenance operation, dedicated ground services, and an owners-only lounge together while creating room for larger aircraft and future expansion. TAMPA, Fla., Oct. 12, 2026 /PRNewswire/ -- FlyUSA, a U.S.-based private jet..."
+  },
+  {
+    "title": "Flozic Launches Autonomous AI Agents and Agentic Workflows Across Thousands of Apps",
+    "url": "https://www.prnewswire.com/news-releases/flozic-launches-autonomous-ai-agents-and-agentic-workflows-across-thousands-of-apps-302905565.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:06:00+00:00",
+    "raw_text": "The redesigned platform helps businesses build agents that reason, use tools and complete tasks across connected apps, with voice and chat agents that turn customer conversations into action. NOIDA, India, Oct. 12, 2026 /PRNewswire/ -- Flozic today announced the launch of its redesigned...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "The redesigned platform helps businesses build agents that reason, use tools and complete tasks across connected apps, with voice and chat agents that turn customer conversations into action. NOIDA, India, Oct. 12, 2026 /PRNewswire/ -- Flozic today announced the launch of its redesigned..."
+  },
+  {
+    "title": "Accord BioPharma Launches FILKRI™ (filgrastim-laha); Now Offers Both Long- and Short-Acting G-CSF Options",
+    "url": "https://www.prnewswire.com/news-releases/accord-biopharma-launches-filkri-filgrastim-laha-now-offers-both-long--and-short-acting-g-csf-options-302903915.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:05:00+00:00",
+    "raw_text": "FILKRI is available with a permanent Q-code, standardizing the billing and reimbursement process across all sites of care. RALEIGH, N.C., Oct. 12, 2026 /PRNewswire/ -- Accord BioPharma, Inc., the specialty division of Intas Pharmaceuticals, Ltd., focused on the development of oncology,...",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "colo"
+      ],
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "FILKRI is available with a permanent Q-code, standardizing the billing and reimbursement process across all sites of care. RALEIGH, N.C., Oct. 12, 2026 /PRNewswire/ -- Accord BioPharma, Inc., the specialty division of Intas Pharmaceuticals, Ltd., focused on the development of oncology,..."
+  },
+  {
+    "title": "HCLTech and Anthropic sign Global Premier Partnership to scale governed Agentic AI across global enterprises",
+    "url": "https://www.prnewswire.com/news-releases/hcltech-and-anthropic-sign-global-premier-partnership-to-scale-governed-agentic-ai-across-global-enterprises-302905630.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:03:00+00:00",
+    "raw_text": "HCLTech to establish a dedicated Anthropic Business Unit and Center of Excellence (CoE) to accelerate deployments of Claude in enterprise environments HCLSoftware becomes an Anthropic ISV partner, embedding Claude and Claude Code into select enterprise products with frontier safety...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "partnership"
+      ]
+    },
+    "summary": "HCLTech to establish a dedicated Anthropic Business Unit and Center of Excellence (CoE) to accelerate deployments of Claude in enterprise environments HCLSoftware becomes an Anthropic ISV partner, embedding Claude and Claude Code into select enterprise products with frontier safety..."
+  },
+  {
+    "title": "HR Path acelera su estrategia de Inteligencia Artificial con la adquisición de SnapAI",
+    "url": "https://www.prnewswire.com/news-releases/hr-path-acelera-su-estrategia-de-inteligencia-artificial-con-la-adquisicion-de-snapai-302903588.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "PARIS, 12 de octubre de 2026 /PRNewswire/ -- HR Path, líder mundial en consultoría de RR. HH. y soluciones HRIS, anuncia la adquisición de SnapAI, start-up especializada en Inteligencia Artificial y cumplimiento normativo. Esta operación refuerza la experiencia de HR Path en un ámbito...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "PARIS, 12 de octubre de 2026 /PRNewswire/ -- HR Path, líder mundial en consultoría de RR. HH. y soluciones HRIS, anuncia la adquisición de SnapAI, start-up especializada en Inteligencia Artificial y cumplimiento normativo. Esta operación refuerza la experiencia de HR Path en un ámbito..."
+  },
+  {
+    "title": "POMDOCTOR LIMITED Highlights the Shift from Reactive Treatment to Predictive Healthcare",
+    "url": "https://www.prnewswire.com/news-releases/pomdoctor-limited-highlights-the-shift-from-reactive-treatment-to-predictive-healthcare-302905258.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "GUANGZHOU, China, Oct. 12, 2026 /PRNewswire/ -- POMDOCTOR LIMITED (\"Pomdoctor\" or the \"Company\") (NASDAQ: POM), a digital healthcare company focused on advancing artificial intelligence (\"AI\")-enabled healthcare solutions, today highlighted its strategy to participate in the ongoing...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "GUANGZHOU, China, Oct. 12, 2026 /PRNewswire/ -- POMDOCTOR LIMITED (\"Pomdoctor\" or the \"Company\") (NASDAQ: POM), a digital healthcare company focused on advancing artificial intelligence (\"AI\")-enabled healthcare solutions, today highlighted its strategy to participate in the ongoing..."
+  },
+  {
+    "title": "Adient to Discuss Fourth Quarter and Full-Year Fiscal 2026 Financial Results on Nov. 4, 2026",
+    "url": "https://www.prnewswire.com/news-releases/adient-to-discuss-fourth-quarter-and-full-year-fiscal-2026-financial-results-on-nov-4-2026-302905189.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "PLYMOUTH, Mich., Oct. 12, 2026 /PRNewswire/ -- Adient (NYSE: ADNT), a global leader in automotive seating, will host a conference call on Nov. 4, 2026, at 8:30 a.m. ET to review its fourth quarter and full-year fiscal 2026 financial results. A link to the live webcast of the call and...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "PLYMOUTH, Mich., Oct. 12, 2026 /PRNewswire/ -- Adient (NYSE: ADNT), a global leader in automotive seating, will host a conference call on Nov. 4, 2026, at 8:30 a.m. ET to review its fourth quarter and full-year fiscal 2026 financial results."
+  },
+  {
+    "title": "Dauch Corporation Announces Financial Leadership Succession Plan and Executive Realignment",
+    "url": "https://www.prnewswire.com/news-releases/dauch-corporation-announces-financial-leadership-succession-plan-and-executive-realignment-302904961.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "Nathan Iles joins as Senior Vice President of Finance with planned transition to CFO Existing CFO Christopher May to assume role of Chief Administrative Officer DETROIT, Oct. 12, 2026 /PRNewswire/ -- Dauch Corporation (Dauch), (NYSE: DCH) today announced a structured succession plan and...",
+    "categories": [
+      "Networks",
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Industry & Market": [
+        "announces"
+      ]
+    },
+    "summary": "Nathan Iles joins as Senior Vice President of Finance with planned transition to CFO Existing CFO Christopher May to assume role of Chief Administrative Officer DETROIT, Oct. 12, 2026 /PRNewswire/ -- Dauch Corporation (Dauch), (NYSE: DCH) today announced a structured succession plan and..."
+  },
+  {
+    "title": "ROCHESTER MIDLAND CORPORATION ACQUIRES APHINITY TECHNOLOGIES",
+    "url": "https://www.prnewswire.com/news-releases/rochester-midland-corporation-acquires-aphinity-technologies-302903820.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "ROCHESTER, N.Y., Oct. 12, 2026 /PRNewswire/ -- Rochester Midland Corporation (\"Rochester Midland\"), a leading provider of route-based, technical services and specialty chemical products across water treatment, food safety and other verticals, today announced that it has acquired ApHinity...",
+    "categories": [
+      "Industry & Market",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "acquires",
+        "acquired"
+      ]
+    },
+    "summary": "ROCHESTER, N.Y., Oct. 12, 2026 /PRNewswire/ -- Rochester Midland Corporation (\"Rochester Midland\"), a leading provider of route-based, technical services and specialty chemical products across water treatment, food safety and other verticals, today announced that it has acquired ApHinity..."
+  },
+  {
+    "title": "HR Path accelerates its Artificial Intelligence strategy with the acquisition of SnapAI",
+    "url": "https://www.prnewswire.com/news-releases/hr-path-accelerates-its-artificial-intelligence-strategy-with-the-acquisition-of-snapai-302903579.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "PARIS, Oct. 12, 2026 /PRNewswire/ -- HR Path, a global leader in HR consulting and HRIS solutions, announces the acquisition of SnapAI, a start-up specialising in Artificial Intelligence and regulatory compliance. This acquisition strengthens HR Path's expertise in a strategic field for...",
+    "categories": [
+      "Industry & Market",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "compliance",
+        "regulatory"
+      ],
       "Industry & Market": [
         "acquisition",
-        "acquires"
+        "announces",
+        "consulting"
       ]
     },
-    "summary": "LONDON, Oct. 12, 2026 /PRNewswire/ -- Constellation Cold Logistics (\"Constellation\"), a leading European provider of temperature-controlled storage and logistics solutions, today announced the acquisition of Impruv Logistics AS (\"Impruv\"), a Norwegian cold storage and food logistics..."
+    "summary": "PARIS, Oct. 12, 2026 /PRNewswire/ -- HR Path, a global leader in HR consulting and HRIS solutions, announces the acquisition of SnapAI, a start-up specialising in Artificial Intelligence and regulatory compliance. This acquisition strengthens HR Path's expertise in a strategic field for..."
   },
   {
-    "title": "Leadde AI Helps Education Teams Across Western Europe Turn Course Materials Into Videos in Minutes",
-    "url": "https://www.prnewswire.com/news-releases/leadde-ai-helps-education-teams-across-western-europe-turn-course-materials-into-videos-in-minutes-302903381.html",
+    "title": "Six-Month Pilot Study Demonstrates Improved Guideline Adherence Following Implementation of Standardized Cirrhosis Clinical Pathway",
+    "url": "https://www.prnewswire.com/news-releases/six-month-pilot-study-demonstrates-improved-guideline-adherence-following-implementation-of-standardized-cirrhosis-clinical-pathway-302905573.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:00:00+00:00",
-    "raw_text": "SINGAPORE, Oct. 12, 2026 /PRNewswire/ -- Leadde AI introduced an education-focused workflow that helps educators, physicians, and research teams turn course materials, lecture notes, slides, and PDFs into learning videos in minutes. Solving the Course Video Bottleneck Education...",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "LAVAL, QC, Oct. 12, 2026 /PRNewswire/ -- Bausch Health Companies Inc. (NYSE:BHC)(TSX:BHC) and its gastroenterology (GI) business, Salix Pharmaceuticals (\"Salix\"), announced results from a multicenter pilot study evaluating a standardized clinical pathway for cirrhosis management...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "SINGAPORE, Oct. 12, 2026 /PRNewswire/ -- Leadde AI introduced an education-focused workflow that helps educators, physicians, and research teams turn course materials, lecture notes, slides, and PDFs into learning videos in minutes. Solving the Course Video Bottleneck Education..."
+    "summary": "LAVAL, QC, Oct. 12, 2026 /PRNewswire/ -- Bausch Health Companies Inc. (NYSE:BHC)(TSX:BHC) and its gastroenterology (GI) business, Salix Pharmaceuticals (\"Salix\"), announced results from a multicenter pilot study evaluating a standardized clinical pathway for cirrhosis management..."
   },
   {
-    "title": "Leadde AI aide les équipes pédagogiques d'Europe occidentale à transformer leurs supports de cours en vidéos en quelques minutes",
-    "url": "https://www.prnewswire.com/news-releases/leadde-ai-aide-les-equipes-pedagogiques-deurope-occidentale-a-transformer-leurs-supports-de-cours-en-videos-en-quelques-minutes-302903409.html",
+    "title": "Veralto Schedules Third Quarter 2026 Earnings Call",
+    "url": "https://www.prnewswire.com/news-releases/veralto-schedules-third-quarter-2026-earnings-call-302905010.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:00:00+00:00",
-    "raw_text": "SINGAPOUR, 12 octobre 2026 /PRNewswire/ -- Leadde AI a présenté un workflow dédié à l'éducation qui permet aux enseignants, médecins et équipes de recherche de transformer des supports de cours, notes de conférence, présentations et PDF en vidéos pédagogiques en quelques minutes. Résoudre...",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "WALTHAM, Mass., Oct. 12, 2026 /PRNewswire/ -- Veralto Corporation (NYSE: VLTO), a global leader in essential water and product quality solutions dedicated to Safeguarding the World's Most Vital Resources™, announced that it will webcast its third quarter 2026 earnings conference call on...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "SINGAPOUR, 12 octobre 2026 /PRNewswire/ -- Leadde AI a présenté un workflow dédié à l'éducation qui permet aux enseignants, médecins et équipes de recherche de transformer des supports de cours, notes de conférence, présentations et PDF en vidéos pédagogiques en quelques minutes. Résoudre..."
+    "summary": "WALTHAM, Mass., Oct. 12, 2026 /PRNewswire/ -- Veralto Corporation (NYSE: VLTO), a global leader in essential water and product quality solutions dedicated to Safeguarding the World's Most Vital Resources™, announced that it will webcast its third quarter 2026 earnings conference call on..."
   },
   {
-    "title": "Leadde AI ayuda a los equipos educativos de Europa Occidental a convertir materiales didácticos en videos en cuestión de minutos",
-    "url": "https://www.prnewswire.com/news-releases/leadde-ai-ayuda-a-los-equipos-educativos-de-europa-occidental-a-convertir-materiales-didacticos-en-videos-en-cuestion-de-minutos-302903412.html",
+    "title": "One Soldier Can Deliver Affordable, Precision Massed Fires, Test Shows",
+    "url": "https://www.prnewswire.com/news-releases/one-soldier-can-deliver-affordable-precision-massed-fires-test-shows-302905178.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:00:00+00:00",
-    "raw_text": "SINGAPUR, 12 de octubre de 2026 /PRNewswire/ -- Leadde AI presentó un flujo de trabajo enfocado en la educación que permite a docentes, médicos y equipos de investigación convertir materiales didácticos, notas de clase, presentaciones y archivos PDF en videos educativos en cuestión de...",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "Multiple Cummings Aerospace Hellhound S3 Effectors Execute Autonomous Missions in First Vehicle-Mounted Launch HUNTSVILLE, Ala., Oct. 12, 2026 /PRNewswire/ -- Soldiers moved one step closer to being able to affordably deliver precision massed fires. During a recent test, a Cummings...",
     "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Multiple Cummings Aerospace Hellhound S3 Effectors Execute Autonomous Missions in First Vehicle-Mounted Launch HUNTSVILLE, Ala., Oct. 12, 2026 /PRNewswire/ -- Soldiers moved one step closer to being able to affordably deliver precision massed fires. During a recent test, a Cummings..."
+  },
+  {
+    "title": "Pending Class Action Lawsuit Involving the Purchase, Acquisition and/or Sale of Marqeta Inc. Class A Common Stock, Call Options and/or Put Options Between February 28, 2024 and November 4, 2024",
+    "url": "https://www.prnewswire.com/news-releases/pending-class-action-lawsuit-involving-the-purchase-acquisition-andor-sale-of-marqeta-inc-class-a-common-stock-call-options-andor-put-options-between-february-28-2024-and-november-4-2024-302901596.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-12T12:00:00+00:00",
+    "raw_text": "OAKLAND, Calif., Oct. 12, 2026 /PRNewswire/ -- UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF CALIFORNIA IN RE MARQETA, INC. SECURITIES LITIGATION Case No. 4:24-cv-08874-YGR SUMMARY NOTICE OF (I) PENDENCY OF CLASS ACTION, CERTIFICATION OF SETTLEMENT CLASS, AND PROPOSED SETTLEMENT; (II)...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
       "Industry & Market"
     ],
     "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "lan"
+      ],
       "Industry & Market": [
-        "ipo"
+        "acquisition"
       ]
     },
-    "summary": "SINGAPUR, 12 de octubre de 2026 /PRNewswire/ -- Leadde AI presentó un flujo de trabajo enfocado en la educación que permite a docentes, médicos y equipos de investigación convertir materiales didácticos, notas de clase, presentaciones y archivos PDF en videos educativos en cuestión de..."
+    "summary": "OAKLAND, Calif., Oct. 12, 2026 /PRNewswire/ -- UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF CALIFORNIA IN RE MARQETA, INC. SECURITIES LITIGATION Case No. 4:24-cv-08874-YGR SUMMARY NOTICE OF (I) PENDENCY OF CLASS ACTION, CERTIFICATION OF SETTLEMENT CLASS, AND PROPOSED SETTLEMENT; (II)..."
   },
   {
-    "title": "Penn State 'White Out Air' Flights Sold Out",
-    "url": "https://www.prnewswire.com/news-releases/penn-state-white-out-air-flights-sold-out-302905241.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T09:00:00+00:00",
-    "raw_text": "Tim Hayes Enters the Stadium Hospitality Experience Space HAPPY VALLEY, Pa., Oct. 12, 2026 /PRNewswire/ -- Private charter flights with helicopter transfers from Manhattan to Penn State's White Out sold out almost instantly, announced Sports & Concert hospitality company FanHaus.co....",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Tim Hayes Enters the Stadium Hospitality Experience Space HAPPY VALLEY, Pa., Oct. 12, 2026 /PRNewswire/ -- Private charter flights with helicopter transfers from Manhattan to Penn State's White Out sold out almost instantly, announced Sports & Concert hospitality company FanHaus.co...."
-  },
-  {
-    "title": "STARMUS VIII anuncia a dos jóvenes agentes de cambio como ganadores de la Medalla Junior",
-    "url": "https://www.prnewswire.com/news-releases/starmus-viii-anuncia-a-dos-jovenes-agentes-de-cambio-como-ganadores-de-la-medalla-junior-302905526.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:49:00+00:00",
-    "raw_text": "Valeria Corrales recibe la Medalla Junior Stephen Hawking y Aneeshwar Kunchala recibe la Medalla Junior Jane Goodall Earth ISLAS CANARIAS, España, 12 de octubre de 2026 /PRNewswire/ -- STARMUS VIII, el principal festival internacional de ciencia, música y exploración, se enorgullece de...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Valeria Corrales recibe la Medalla Junior Stephen Hawking y Aneeshwar Kunchala recibe la Medalla Junior Jane Goodall Earth ISLAS CANARIAS, España, 12 de octubre de 2026 /PRNewswire/ -- STARMUS VIII, el principal festival internacional de ciencia, música y exploración, se enorgullece de..."
-  },
-  {
-    "title": "Kathy Yang, de Hon Hai Technology Group (Foxconn), mise à l'honneur dans le classement des femmes les plus influentes d'Asie 2026 de Fortune",
-    "url": "https://www.prnewswire.com/news-releases/kathy-yang-de-hon-hai-technology-group-foxconn-mise-a-lhonneur-dans-le-classement-des-femmes-les-plus-influentes-dasie-2026-de-fortune-302905525.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:48:00+00:00",
-    "raw_text": "Le leadership du secteur technologique met en évidence la formidable puissance de l'Asie TAIPEI, 12 octobre 2026 /PRNewswire/ -- Reflétant les responsabilités à la croisée du monde industriel physique et de l'IA du plus grand fabricant d'électronique et fournisseur de serveurs d'IA de la...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Le leadership du secteur technologique met en évidence la formidable puissance de l'Asie TAIPEI, 12 octobre 2026 /PRNewswire/ -- Reflétant les responsabilités à la croisée du monde industriel physique et de l'IA du plus grand fabricant d'électronique et fournisseur de serveurs d'IA de la..."
-  },
-  {
-    "title": "Teleste Selected by INFRABEL to Supply TFT LCD Passenger Information Displays for Railway Stations Across the Entire Belgian Rail Network",
-    "url": "https://www.prnewswire.com/news-releases/teleste-selected-by-infrabel-to-supply-tft-lcd-passenger-information-displays-for-railway-stations-across-the-entire-belgian-rail-network-302905516.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:27:00+00:00",
-    "raw_text": "TURKU, Finland, Oct. 12, 2026 /PRNewswire/ -- Teleste has been selected by INFRABEL, Belgium's railway infrastructure manager, to deliver TFT LCD information displays for railway stations, supporting the continued modernization of passenger information services throughout the country's...",
+    "title": "Next Generation Network (NGN) Equipment Market To 2035: 5G SA and Fiber Demand to Accelerate Growth - News and Statistics - IndexBox",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZHNyMmZyVDhuZllIb29HSG41bjdNSUxpbXhaRkJUNzVjZnlYTzhMNVU3c2ZfalRJeTVVV2ZPbVA0U3RsdGhuUGY0RkRVUldxb0diUE51RmdBb2g0LUFNZEozTGF6MjFuM2E0R2w3d0o4SllfcHZvd1hGNFphTzZmNVU1dGMybWRuUGMxZVZ1RExuTnNrSEJrVnZ5T3BRV0hBdmd4aE4xRnFiTFdGamc4OHVRUlpacjNlZGlvNTVzdFYxTTFEekJpUEM2OUtJOTZSX1EzdVhUQTZ4cGEzNXNDZDFxX1o?oc=5",
+    "source": "Google News: Networks",
+    "published": "2026-10-12T10:31:05+00:00",
+    "raw_text": "Next Generation Network (NGN) Equipment Market To 2035: 5G SA and Fiber Demand to Accelerate Growth - News and Statistics IndexBox",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
         "network",
-        "lan"
+        "5g",
+        "fiber"
       ]
     },
-    "summary": "TURKU, Finland, Oct. 12, 2026 /PRNewswire/ -- Teleste has been selected by INFRABEL, Belgium's railway infrastructure manager, to deliver TFT LCD information displays for railway stations, supporting the continued modernization of passenger information services throughout the country's..."
-  },
-  {
-    "title": "El sistema de almacenamiento de energía comercial TCL X5 ya está disponible para pedidos en Europa",
-    "url": "https://www.prnewswire.com/news-releases/el-sistema-de-almacenamiento-de-energia-comercial-tcl-x5-ya-esta-disponible-para-pedidos-en-europa-302905508.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:23:00+00:00",
-    "raw_text": "Llega a Europa una solución de almacenamiento compacta que incluye un inversor integrado de fábrica, destinada a pequeñas instalaciones comerciales e industriales, ofreciendo a los instaladores una alternativa plug-and-play frente a los sistemas hechos a medida LYON, Francia, 1 de octubre...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Llega a Europa una solución de almacenamiento compacta que incluye un inversor integrado de fábrica, destinada a pequeñas instalaciones comerciales e industriales, ofreciendo a los instaladores una alternativa plug-and-play frente a los sistemas hechos a medida LYON, Francia, 1 de octubre..."
-  },
-  {
-    "title": "The 2026 Global Mayors Dialogue • Luoyang Kicks off in Luoyang, Henan Province, China",
-    "url": "https://www.prnewswire.com/news-releases/the-2026-global-mayors-dialogue--luoyang-kicks-off-in-luoyang-henan-province-china-302905507.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:20:00+00:00",
-    "raw_text": "LUOYANG, China, Oct. 12, 2026 /PRNewswire/ -- A news report from CRIOnline: The 2026 Global Mayors Dialogue • Luoyang opened on October 11 in Luoyang, Henan Province, China. More than 100 guests, including mayors and their representatives from 25 cities across 10 countries such as China,...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "LUOYANG, China, Oct. 12, 2026 /PRNewswire/ -- A news report from CRIOnline: The 2026 Global Mayors Dialogue • Luoyang opened on October 11 in Luoyang, Henan Province, China. More than 100 guests, including mayors and their representatives from 25 cities across 10 countries such as China,..."
-  },
-  {
-    "title": "On the 12th Edition of Global Patient Week Bristol Myers Squibb and Saudi Schizophrenia Association 'Ehtiwaa' Collaborate to Support People Living with Schizophrenia Through the 'Small Wins' Initiative",
-    "url": "https://www.prnewswire.com/news-releases/on-the-12th-edition-of-global-patient-week-bristol-myers-squibb-and-saudi-schizophrenia-association-ehtiwaa-collaborate-to-support-people-living-with-schizophrenia-through-the-small-wins-initiative-302905500.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:10:00+00:00",
-    "raw_text": "More than 70 personalized 'Small Wins' toolkits, assembled by Bristol Myers Squibb employees, were designed to encourage everyday engagement, self-recognition and emotional well-being among people living with schizophrenia in Saudi Arabia. RIYADH, Saudi Arabia, Oct. 12, 2026 /PRNewswire/...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "More than 70 personalized 'Small Wins' toolkits, assembled by Bristol Myers Squibb employees, were designed to encourage everyday engagement, self-recognition and emotional well-being among people living with schizophrenia in Saudi Arabia. RIYADH, Saudi Arabia, Oct. 12, 2026 /PRNewswire/..."
-  },
-  {
-    "title": "CFMOTO 675SR-R se convertirá en la motocicleta oficial del WorldWCR 2027",
-    "url": "https://www.prnewswire.com/news-releases/cfmoto-675sr-r-se-convertira-en-la-motocicleta-oficial-del-worldwcr-2027-302905496.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:05:00+00:00",
-    "raw_text": "HANGZHOU, China, 12 de octubre de 2026 /PRNewswire/ -- La 675SR-R, la motocicleta deportiva tricilíndrica de alto rendimiento de CFMOTO, ha llegado a un acuerdo con la Federación Internacional de Motociclismo (FIM) y Dorna WSBK Organization para convertirse en la motocicleta oficial del...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "HANGZHOU, China, 12 de octubre de 2026 /PRNewswire/ -- La 675SR-R, la motocicleta deportiva tricilíndrica de alto rendimiento de CFMOTO, ha llegado a un acuerdo con la Federación Internacional de Motociclismo (FIM) y Dorna WSBK Organization para convertirse en la motocicleta oficial del..."
-  },
-  {
-    "title": "KAPSARC participará como socio nacional en el 25º Congreso de Energía del WPC en Riad",
-    "url": "https://www.prnewswire.com/news-releases/kapsarc-participara-como-socio-nacional-en-el-25-congreso-de-energia-del-wpc-en-riad-302905494.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:04:00+00:00",
-    "raw_text": "Más de 20 líderes, investigadores y expertos de KAPSARC participarán en los programas ejecutivos, técnicos, de sinergia y especiales del congreso RIAD, Arabia Saudita, 12 de octubre de 2026 /PRNewswire/ -- KAPSARC participa como socio nacional en el 25º Congreso WPC Energy en Riad,...",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "audit"
-      ]
-    },
-    "summary": "Más de 20 líderes, investigadores y expertos de KAPSARC participarán en los programas ejecutivos, técnicos, de sinergia y especiales del congreso RIAD, Arabia Saudita, 12 de octubre de 2026 /PRNewswire/ -- KAPSARC participa como socio nacional en el 25º Congreso WPC Energy en Riad,..."
-  },
-  {
-    "title": "Nuvion s'associe à EbonyLife Place London pour soutenir l'économie créative africaine au-delà des frontières",
-    "url": "https://www.prnewswire.com/news-releases/nuvion-sassocie-a-ebonylife-place-london-pour-soutenir-leconomie-creative-africaine-au-dela-des-frontieres-302905090.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-12T08:00:00+00:00",
-    "raw_text": "Ce partenariat allie la tradition africaine du récit à l'infrastructure financière mondiale, à la suite de l'inauguration de l'EbonyLife Place London au Royaume-Uni. LONDRES, 12 octobre 2026 /PRNewswire/ -- Nuvion, la banque internationale basée sur l'intelligence artificielle destinée...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "Ce partenariat allie la tradition africaine du récit à l'infrastructure financière mondiale, à la suite de l'inauguration de l'EbonyLife Place London au Royaume-Uni. LONDRES, 12 octobre 2026 /PRNewswire/ -- Nuvion, la banque internationale basée sur l'intelligence artificielle destinée..."
+    "summary": "Next Generation Network (NGN) Equipment Market To 2035: 5G SA and Fiber Demand to Accelerate Growth - News and Statistics IndexBox"
   }
 ]
