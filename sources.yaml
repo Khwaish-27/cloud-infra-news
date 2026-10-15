@@ -69,6 +69,12 @@ google_news:
     query: "Palo Alto OR CrowdStrike OR Microsoft OR Google OR AWS announces launches expands cloud security"
   - name: "Market & Industry News"
     query: "cloud security market acquisition merger partnership infrastructure deal"
+  - name: "Digital Workplace"
+    query: '"digital workplace" OR "employee experience" OR "hybrid work" OR "Microsoft 365 Copilot" OR "unified communications" OR "future of work"'
+  - name: "End User Computing"
+    query: '"end user computing" OR "virtual desktop" OR VDI OR "desktop as a service" OR "Windows 365" OR "Citrix Workspace" OR Omnissa OR "endpoint management" OR "AI PC" -NetScaler'
+  - name: "Digital Customer Experience"
+    query: '"customer experience" OR "contact center" OR CCaaS OR "conversational AI" OR omnichannel OR "customer engagement platform"'
 
 # Google News locale (leave as-is unless you want a different region/language)
 google_news_locale: "hl=en-US&gl=US&ceid=US:en"

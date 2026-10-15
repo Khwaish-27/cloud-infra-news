@@ -13,6 +13,9 @@ CATEGORY_ORDER = [
     "Cybersecurity",
     "GRC",
     "Data Centres",
+    "Digital Workplace",
+    "End User Computing",
+    "Digital Customer Experience",
     "Uncategorised",
 ]
 

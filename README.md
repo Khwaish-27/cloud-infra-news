@@ -1,7 +1,8 @@
 # Cloud & Infra News Digest
 
 A local, **zero-API-key** pipeline that pulls tech news daily, classifies it by keyword
-(Cloud Infrastructure, Networks, Cybersecurity, GRC, Data Centres), writes a 3–4 line
+(Cloud Infrastructure, Networks, Cybersecurity, GRC, Data Centres, Digital Workplace,
+End User Computing, Digital Customer Experience), writes a 3–4 line
 summary for each story, and builds a self-contained `index.html` dashboard. A Windows
 scheduler can run it automatically every morning.
 
