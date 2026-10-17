@@ -469,36 +469,6 @@
     "summary": "The credential-theft campaign known as GhostAction has ramped up, targeting more than 30,000 repositories across 3,000 users and organizations. The spike, according to GitGuardian, was observed on October 8 and 9, 2026. \"This resulted from compromising the GitHub accounts of about 1,900 users. It attempted to extract 3,174 secrets from public repositories' CI,\" security researchers Gaetan"
   },
   {
-    "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-    "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-    "source": "The Hacker News",
-    "published": "2026-10-15T07:07:05+00:00",
-    "raw_text": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "threat",
-        "security"
-      ],
-      "Industry & Market": [
-        "acquired",
-        "ey",
-        "ibm"
-      ]
-    },
-    "summary": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence (AI) applications and agentic workflows. In February 2025, DataStax, the parent company of Langflow, was acquired by IBM. The vulnerability in question is CVE-2026-105740 (CVSS score: 9.9), a case of"
-  },
-  {
     "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
     "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
     "source": "BleepingComputer",
@@ -1509,24 +1479,22 @@
     "summary": "Microsoft and partners reveal a major Chinese-language phishing network centered around the Yam Store marketplace"
   },
   {
-    "title": "ICO Reprimands Met Over Third-Party Data Leak",
-    "url": "https://www.infosecurity-magazine.com/news/ico-reprimands-met-over-thirdparty/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-10-15T08:30:00+00:00",
-    "raw_text": "The ICO has handed the Metropolitan Police a reprimand and enforcement notice after privacy failings linked to the Auror platform",
+    "title": "Evolving the cloud-native foundation for the next generation of AI",
+    "url": "https://azure.microsoft.com/en-us/blog/evolving-the-cloud-native-foundation-for-the-next-generation-of-ai/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-10-15T16:00:00+00:00",
+    "raw_text": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale. The post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog .",
     "categories": [
-      "Cybersecurity",
-      "GRC"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "data leak"
-      ],
-      "GRC": [
-        "privacy"
+      "Cloud Infrastructure": [
+        "cloud",
+        "azure",
+        "cloud-native"
       ]
     },
-    "summary": "The ICO has handed the Metropolitan Police a reprimand and enforcement notice after privacy failings linked to the Auror platform"
+    "summary": "Discover how Azure is advancing cloud-native infrastructure to help organizations build, run, and optimize applications and agents at scale. The post Evolving the cloud-native foundation for the next generation of AI appeared first on Microsoft Azure Blog ."
   },
   {
     "title": "Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo",
@@ -1618,7 +1586,7 @@
     "url": "https://cloud.google.com/blog/products/identity-security/wiz-sensor-for-gke-turnkey-threat-detection-for-kubernetes/",
     "source": "Google Cloud Blog",
     "published": "2026-10-16T16:00:00+00:00",
-    "raw_text": "Everything is moving faster in the age of AI, and that includes security threats. What used to take attackers weeks to exploit can now happen in just a few minutes. Standard vulnerability scans that run on artifacts at rest can catch basic setup issues, but to detect an attack that's actively happening you need real-time runtime protection. Today, we’re introducing the Wiz Runtime Sensor add-on for Google Kubernetes Engine (GKE), in preview. This built-in integration brings low-touch deployment, automated lifecycle management, enterprise credential security, and fleet-wide governance to Wiz's industry-leading eBPF runtime threat detection for both Standard and Autopilot GKE clusters. The operational friction of runtime security Security and platform engineering teams share common dilemmas when deploying in-cluster runtime defenses: Deployment and lifecycle friction : Deploying runtime agents often requires managing installations from third-party sources across dozens or hundreds of clusters. Credential sprawl and security risks : Passing and rotating API keys as Kubernetes Secrets introduces administrative overhead and security risk. Fleet-wide enforcement gaps : Platform teams lack built-in policy controls to enforce that every new cluster has runtime sensors enabled before workloads are deployed and start receiving traffic. Performance and operational overhead : Without explicit and strategic resource limits, runtime agents can impact how much CPU and memory is available for your workloads and system functionality. With the Wiz Runtime Sensor for GKE , Google Cloud and Wiz have minimized these operational barriers. The Runtime Sensor is now available in GKE as a first-party, managed platform add-on. Bridging the gap with Wiz Runtime Sensor for GKE The Wiz Runtime Sensor for GKE connects central security and platform engineering workflows by simplifying and automating the sensor lifecycle. Figure 1: High-level architecture showing credential sync, sensor deployment, and threat telemetry. With the add-on, GKE manages the sensor deployment, credential injection, and lifecycle updates. Building runtime protection directly into the platform reduces administrative overhead and provides the following benefits for your Kubernetes fleet: Native Secret Manager integration: Security teams no longer need to distribute Wiz API keys across cluster namespaces. The add-on uses GKE's Secret Manager secret sync integration to store your Wiz credentials in an off-cluster, centralized credential vault that only a dedicated service account can access. GKE automatically retrieves the credentials and injects them directly into the Runtime Sensor pods. Updating a key in Secret Manager automatically syncs to the sensor without requiring cluster restarts or manual intervention. Simplified enablement: After you add your Wiz credentials to Secret Manager, platform operators can enable the Runtime Sensor add-on by using the gcloud CLI or the GKE API. The GKE control plane handles deploying the sensor components, managing the lifecycle of pods, and configuring the nodes. Secure egress and proxy support : For environments that restrict public internet access, the managed sensor supports standard HTTP and mTLS proxy configurations. Telemetry is routed back to Wiz without violating your egress firewall policies. Fleet-wide governance with organization policy : Platform security leads can enforce compliance across their entire organization using custom organization policy constraints . You can use a constraint to reject any attempts to create a cluster that doesn't enable the Runtime Sensor add-on, which can prevent malicious actors from spinning up rogue infrastructure to evade runtime detection. Kernel-level observability with minimal overhead : The Wiz Runtime Sensor continuously monitors system calls, running processes, network connections, and file access. It catches suspicious activity, including reverse shells, unauthorized privilege escalations, container escapes, and unsafe outbound connections while keeping CPU usage low even under heavy workload activity. The sensor uses a fixed memory limit on each node to ensure consistent performance as workload density changes. This is especially valuable for AI workloads and web services where application activity might fluctuate quickly. Independent auto-updates : Security threats and zero-day vulnerabilities don’t wait for scheduled infrastructure maintenance windows. The lifecycle of the Wiz sensor add-on for GKE is independent of your GKE cluster and node lifecycle. The sensor periodically rolls out updates of new sensor versions published by Wiz, to help ensure that your clusters always have the latest detection rules without requiring GKE version bumps, node pool recreations, or workload disruption. How it works: Deploying and enforcing the sensor Enabling the Wiz sensor add-on follows the same process that platform administrators are already familiar with on GKE. Using standard gcloud commands, you can activate runtime protection during cluster creation, turn it on for existing clusters, and enforce it across your fleet while keeping credentials securely managed in Secret Manager. Check the setup documentation for prerequisites, such as granting GKE access to Secret Manager. Provisioning a cluster with the Wiz Sensor add-on To provision a new GKE cluster with the managed Wiz sensor enabled using credentials stored in Secret Manager: code_block <ListValue: [StructValue([('code', 'gcloud container clusters create production-ai-cluster \\\\\\r\\n --zone=us-central1-a \\\\\\r\\n --release-channel=regular \\\\\\r\\n --workload-pool=${PROJECT_ID}.svc.id.goog \\\\\\r\\n --enable-secret-sync \\\\\\r\\n --enable-secret-sync-rotation \\\\\\r\\n --addons=WizSensor=ENABLED \\\\\\r\\n --wiz-sensor-registry-secret-uri=projects/${PROJECT_ID}/secrets/wiz-registry-secret/versions/latest \\\\\\r\\n --wiz-sensor-api-key-secret-uri=projects/${PROJECT_ID}/secrets/wiz-api-key-secret/versions/latest'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f56e3313e10>)])]> To enable the sensor on an existing running cluster with Workload Identity Federation for GKE and Secret Manager secret sync enabled, run the following: code_block <ListValue: [StructValue([('code', 'gcloud container clusters update production-ai-cluster \\\\\\r\\n --zone=us-central1-a \\\\\\r\\n --update-addons=WizSensor=ENABLED \\\\\\r\\n --wiz-sensor-registry-secret-uri=projects/${PROJECT_ID}/secrets/wiz-registry-secret/versions/latest \\\\\\r\\n --wiz-sensor-api-key-secret-uri=projects/${PROJECT_ID}/secrets/wiz-api-key-secret/versions/latest'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f56f00dff50>)])]> Enforcing fleet-wide protection with organization policy You can require all new GKE clusters across your organization to install the runtime sensor by deploying a custom constraint : code_block <ListValue: [StructValue([('code', 'name: organizations/123456789012/customConstraints/custom.GKEWizSensorEnforced\\r\\nresource_types:\\r\\n - container.googleapis.com/Cluster\\r\\nmethod_types:\\r\\n - CREATE\\r\\n - UPDATE\\r\\ncondition: resource.addonsConfig.wizSensorConfig.enabled == true\\r\\naction_type: ALLOW\\r\\ndisplay_name: Enforce Wiz Sensor on All GKE Clusters\\r\\ndescription: Mandates that all GKE clusters enable the managed Wiz Runtime Sensor backed by the corporate Secret Manager vault.'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f56f00df110>)])]> Intelligent threat correlation for AI security The true power of this integration emerges when the managed sensor connects to the broader Wiz AI Application Protection Platform (AI-APP). By feeding GKE runtime telemetry into the Wiz Security Graph, you unlock a security toolkit that goes beyond static alerting, with: Real-time risk assessment and threat verification : By pairing background security scans with live activity monitoring, you get a clear view of real risks. The sensor checks whether vulnerable code is actually running in memory, so you can focus on active security threats and ignore inactive ones. Real-time threat detection and response : Identify suspicious activity like malware, unauthorized access attempts, and software vulnerabilities in real time. Security teams can set rules to automatically block or stop threats before they can spread. Network activity and detailed security insights : Track system activity, network connections, and data flows to uncover hidden risks and unauthorized software usage. If a threat is detected, the sensor automatically gathers diagnostic data to help teams quickly investigate what happened. Together, these capabilities ensure that mission-critical applications and AI agents deployed on GKE are monitored for attacks and data exfiltration without compromising developer velocity. Get started today The Wiz Runtime Sensor add-on for GKE delivers a standard for container security: deep, kernel-level eBPF protection without operational complexity or deployment friction. By combining GKE's managed platform automation with Wiz's comprehensive security intelligence, platform and security teams can innovate at cloud speed while maintaining strong runtime defense. Check out the Wiz Sensor for GKE documentation to learn more.",
+    "raw_text": "Everything is moving faster in the age of AI, and that includes security threats. What used to take attackers weeks to exploit can now happen in just a few minutes. Standard vulnerability scans that run on artifacts at rest can catch basic setup issues, but to detect an attack that's actively happening you need real-time runtime protection. Today, we’re introducing the Wiz Runtime Sensor add-on for Google Kubernetes Engine (GKE), in preview. This built-in integration brings low-touch deployment, automated lifecycle management, enterprise credential security, and fleet-wide governance to Wiz's industry-leading eBPF runtime threat detection for both Standard and Autopilot GKE clusters. The operational friction of runtime security Security and platform engineering teams share common dilemmas when deploying in-cluster runtime defenses: Deployment and lifecycle friction : Deploying runtime agents often requires managing installations from third-party sources across dozens or hundreds of clusters. Credential sprawl and security risks : Passing and rotating API keys as Kubernetes Secrets introduces administrative overhead and security risk. Fleet-wide enforcement gaps : Platform teams lack built-in policy controls to enforce that every new cluster has runtime sensors enabled before workloads are deployed and start receiving traffic. Performance and operational overhead : Without explicit and strategic resource limits, runtime agents can impact how much CPU and memory is available for your workloads and system functionality. With the Wiz Runtime Sensor for GKE , Google Cloud and Wiz have minimized these operational barriers. The Runtime Sensor is now available in GKE as a first-party, managed platform add-on. Bridging the gap with Wiz Runtime Sensor for GKE The Wiz Runtime Sensor for GKE connects central security and platform engineering workflows by simplifying and automating the sensor lifecycle. Figure 1: High-level architecture showing credential sync, sensor deployment, and threat telemetry. With the add-on, GKE manages the sensor deployment, credential injection, and lifecycle updates. Building runtime protection directly into the platform reduces administrative overhead and provides the following benefits for your Kubernetes fleet: Native Secret Manager integration: Security teams no longer need to distribute Wiz API keys across cluster namespaces. The add-on uses GKE's Secret Manager secret sync integration to store your Wiz credentials in an off-cluster, centralized credential vault that only a dedicated service account can access. GKE automatically retrieves the credentials and injects them directly into the Runtime Sensor pods. Updating a key in Secret Manager automatically syncs to the sensor without requiring cluster restarts or manual intervention. Simplified enablement: After you add your Wiz credentials to Secret Manager, platform operators can enable the Runtime Sensor add-on by using the gcloud CLI or the GKE API. The GKE control plane handles deploying the sensor components, managing the lifecycle of pods, and configuring the nodes. Secure egress and proxy support : For environments that restrict public internet access, the managed sensor supports standard HTTP and mTLS proxy configurations. Telemetry is routed back to Wiz without violating your egress firewall policies. Fleet-wide governance with organization policy : Platform security leads can enforce compliance across their entire organization using custom organization policy constraints . You can use a constraint to reject any attempts to create a cluster that doesn't enable the Runtime Sensor add-on, which can prevent malicious actors from spinning up rogue infrastructure to evade runtime detection. Kernel-level observability with minimal overhead : The Wiz Runtime Sensor continuously monitors system calls, running processes, network connections, and file access. It catches suspicious activity, including reverse shells, unauthorized privilege escalations, container escapes, and unsafe outbound connections while keeping CPU usage low even under heavy workload activity. The sensor uses a fixed memory limit on each node to ensure consistent performance as workload density changes. This is especially valuable for AI workloads and web services where application activity might fluctuate quickly. Independent auto-updates : Security threats and zero-day vulnerabilities don’t wait for scheduled infrastructure maintenance windows. The lifecycle of the Wiz sensor add-on for GKE is independent of your GKE cluster and node lifecycle. The sensor periodically rolls out updates of new sensor versions published by Wiz, to help ensure that your clusters always have the latest detection rules without requiring GKE version bumps, node pool recreations, or workload disruption. How it works: Deploying and enforcing the sensor Enabling the Wiz sensor add-on follows the same process that platform administrators are already familiar with on GKE. Using standard gcloud commands, you can activate runtime protection during cluster creation, turn it on for existing clusters, and enforce it across your fleet while keeping credentials securely managed in Secret Manager. Check the setup documentation for prerequisites, such as granting GKE access to Secret Manager. Provisioning a cluster with the Wiz Sensor add-on To provision a new GKE cluster with the managed Wiz sensor enabled using credentials stored in Secret Manager: code_block <ListValue: [StructValue([('code', 'gcloud container clusters create production-ai-cluster \\\\\\r\\n --zone=us-central1-a \\\\\\r\\n --release-channel=regular \\\\\\r\\n --workload-pool=${PROJECT_ID}.svc.id.goog \\\\\\r\\n --enable-secret-sync \\\\\\r\\n --enable-secret-sync-rotation \\\\\\r\\n --addons=WizSensor=ENABLED \\\\\\r\\n --wiz-sensor-registry-secret-uri=projects/${PROJECT_ID}/secrets/wiz-registry-secret/versions/latest \\\\\\r\\n --wiz-sensor-api-key-secret-uri=projects/${PROJECT_ID}/secrets/wiz-api-key-secret/versions/latest'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd620382fd0>)])]> To enable the sensor on an existing running cluster with Workload Identity Federation for GKE and Secret Manager secret sync enabled, run the following: code_block <ListValue: [StructValue([('code', 'gcloud container clusters update production-ai-cluster \\\\\\r\\n --zone=us-central1-a \\\\\\r\\n --update-addons=WizSensor=ENABLED \\\\\\r\\n --wiz-sensor-registry-secret-uri=projects/${PROJECT_ID}/secrets/wiz-registry-secret/versions/latest \\\\\\r\\n --wiz-sensor-api-key-secret-uri=projects/${PROJECT_ID}/secrets/wiz-api-key-secret/versions/latest'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd61b844490>)])]> Enforcing fleet-wide protection with organization policy You can require all new GKE clusters across your organization to install the runtime sensor by deploying a custom constraint : code_block <ListValue: [StructValue([('code', 'name: organizations/123456789012/customConstraints/custom.GKEWizSensorEnforced\\r\\nresource_types:\\r\\n - container.googleapis.com/Cluster\\r\\nmethod_types:\\r\\n - CREATE\\r\\n - UPDATE\\r\\ncondition: resource.addonsConfig.wizSensorConfig.enabled == true\\r\\naction_type: ALLOW\\r\\ndisplay_name: Enforce Wiz Sensor on All GKE Clusters\\r\\ndescription: Mandates that all GKE clusters enable the managed Wiz Runtime Sensor backed by the corporate Secret Manager vault.'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fd61b844d90>)])]> Intelligent threat correlation for AI security The true power of this integration emerges when the managed sensor connects to the broader Wiz AI Application Protection Platform (AI-APP). By feeding GKE runtime telemetry into the Wiz Security Graph, you unlock a security toolkit that goes beyond static alerting, with: Real-time risk assessment and threat verification : By pairing background security scans with live activity monitoring, you get a clear view of real risks. The sensor checks whether vulnerable code is actually running in memory, so you can focus on active security threats and ignore inactive ones. Real-time threat detection and response : Identify suspicious activity like malware, unauthorized access attempts, and software vulnerabilities in real time. Security teams can set rules to automatically block or stop threats before they can spread. Network activity and detailed security insights : Track system activity, network connections, and data flows to uncover hidden risks and unauthorized software usage. If a threat is detected, the sensor automatically gathers diagnostic data to help teams quickly investigate what happened. Together, these capabilities ensure that mission-critical applications and AI agents deployed on GKE are monitored for attacks and data exfiltration without compromising developer velocity. Get started today The Wiz Runtime Sensor add-on for GKE delivers a standard for container security: deep, kernel-level eBPF protection without operational complexity or deployment friction. By combining GKE's managed platform automation with Wiz's comprehensive security intelligence, platform and security teams can innovate at cloud speed while maintaining strong runtime defense. Check out the Wiz Sensor for GKE documentation to learn more.",
     "categories": [
       "Cybersecurity",
       "GRC",
@@ -2697,6 +2665,22 @@
     "summary": "Ransomware attackers are expanding their tactics beyond encrypting corporate systems and threatening to leak stolen data. They are increasingly using AI in attacks, exploiting organizations’ own AI systems and even using physical intimidation by threatening employees and their families to pressure companies into paying ransoms. The Semperis’ 2026 Ransomware Risk Report found that 84% of surveyed ransomware victims experienced attacks involving AI, while 87% reported attacks targeting identity infrastructure. It also highlighted that attackers are exploiting technology and extending pressure beyond corporate networks to the people connected to their targets."
   },
   {
+    "title": "Everton Football Club launches MVNO service",
+    "url": "https://www.datacenterdynamics.com/en/news/everton-football-club-launches-mvno-service/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-17T08:00:26+00:00",
+    "raw_text": "The English football club has phoned it in",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "The English football club has phoned it in"
+  },
+  {
     "title": "DCN Warsaw 2026: Poland deserves a greater share of global data center capacity",
     "url": "https://www.datacenterdynamics.com/en/analysis/dcn-warsaw-2026-poland-deserves-a-greater-share-of-global-data-center-capacity/",
     "source": "DataCenterDynamics",
@@ -3039,23 +3023,20 @@
     "summary": "Legitimate concerns or Norfolk NIMBY-ism?"
   },
   {
-    "title": "Iraq’s iQ Networks and the connectivity arm of Qatar’s Ooredoo Group sign fiber deal",
-    "url": "https://www.datacenterdynamics.com/en/news/iraqs-iq-networks-and-the-connectivity-arm-of-qatars-ooredoo-group-sign-fiber-deal/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-16T11:40:37+00:00",
-    "raw_text": "The agreement will see the extension of traffic from Gulf subsea cable overland into Iraq",
+    "title": "Get in the bin! UK Space Agency wants public to name its debris removal mission",
+    "url": "https://www.theregister.com/science/2026/10/17/get-in-the-bin-uk-space-agency-wants-public-to-name-its-debris-removal-mission/5303555",
+    "source": "The Register",
+    "published": "2026-10-17T07:29:00+00:00",
+    "raw_text": "ClearSpace UK aims to be operational in 2029 with public's suggestion etched on the side of the spacecraft",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "network",
-        "fiber",
-        "lan",
-        "connectivity"
+        "wan"
       ]
     },
-    "summary": "The agreement will see the extension of traffic from Gulf subsea cable overland into Iraq"
+    "summary": "ClearSpace UK aims to be operational in 2029 with public's suggestion etched on the side of the spacecraft"
   },
   {
     "title": "Open-weight models win hearts, minds, and wallets",
@@ -3648,38 +3629,6 @@
     "summary": "Officials say amendments remain under consideration despite minister's pledge to act"
   },
   {
-    "title": "Royal Navy goes fishing for suppliers to build its Type 93 robot submarine",
-    "url": "https://www.theregister.com/offbeat/2026/10/15/royal-navy-goes-fishing-for-suppliers-to-build-its-type-93-robot-submarine/5303038",
-    "source": "The Register",
-    "published": "2026-10-15T08:30:00+00:00",
-    "raw_text": "Preliminary notice seeks XLUUV builders, payload makers and AI developers, with Excalibur and Herne the obvious candidates",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Preliminary notice seeks XLUUV builders, payload makers and AI developers, with Excalibur and Herne the obvious candidates"
-  },
-  {
-    "title": "Metropolitan Police's unchecked use of shoplifting platform lands force in trouble with data watchdog",
-    "url": "https://www.theregister.com/security/2026/10/15/metropolitan-polices-unchecked-use-of-shoplifting-platform-lands-force-in-trouble-with-data-watchdog/5303061",
-    "source": "The Register",
-    "published": "2026-10-15T07:30:00+00:00",
-    "raw_text": "Officers unlawfully uploaded 179 people's details to Auror without required privacy checks or corporate approval",
-    "categories": [
-      "Networks",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "privacy"
-      ]
-    },
-    "summary": "Officers unlawfully uploaded 179 people's details to Auror without required privacy checks or corporate approval"
-  },
-  {
     "title": "FPT and its ilk offer an alternative to Indian offshorers",
     "url": "https://www.computerweekly.com/feature/FPT-and-its-ilk-offer-an-alternative-to-Indian-offshorers",
     "source": "ComputerWeekly",
@@ -3904,33 +3853,36 @@
     "summary": "<p>The Metropolitan Police Service (MPS) has been <a href=\"https://ico.org.uk/media2/a5tcelok/metropolitan-police-service-reprimand-and-enforcement-notice.pdf\">reprimanded</a> after officers and staff uploaded sensitive personal data about suspects to an unapproved web platform used by retailers to track shoplifters.</p> <p>The Information Commission’s Office warned that the incident reflected an “ongoing failure” by the police service to install technical restrictions to prevent staff using unauthorised services, or shadow IT, for police work.</p> <p>The ICO found that measures put in place by the Metropolitan Police to prevent staff using an unauthorised facial recognition application, Clearview, four years earlier had failed to prevent a similar incident occurring.</p> <p>The data protection watchdog said in a <a href=\"https://ico.org.uk/media2/a5tcelok/metropolitan-police-service-reprimand-and-enforcement-notice.pdf\">reprimand</a> issued on 15 October that police officers and staff had put individuals at risk by posting details about people suspected of shoplifting on a web platform used by retailers to deter shoplifting.</p> <p>The <a href=\"https://www.auror.co/uk\">Auror platform</a>, which is owned by a New Zealand-based company, allows retailers to record and analyse shoplifting incidents using facial recognition, automatic number plate recognition and artificial intelligence (AI).</p> <p>Retailers can upload incident reports, images and CCTV footage which they can share with police officers. Officers who are given free accounts on the platform can also share information with retailers about suspects.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Police use of Auror was ‘high-risk’\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Police use of Auror was ‘high-risk’</h2> <p>An investigation by the ICO found that the platform, which is used by retailers including Tesco, Boots, M&amp;S, Greggs, Holland and Barrett, and Home Bargains, was being used by MPS officers and staff without the knowledge of the police force and without having adequate security in place to protect sensitive data.</p> <p>The MPS claims to have alerted the ICO as soon as it became aware of the problem in September 2024, but the ICO reported that it had only learned of the incident during a discussion about a separate matter in December 2024.</p> <p>The use of an unapproved platform to identify potential criminal offenders was likely to result in a “high risk” to the people affected, including misidentification as an offender, being banned from premises, having their movements restricted or damage to their reputation, the ICO found.</p> <p>According to the MPS, retailers encouraged police officers to sign up to the Auror platform to review CCTV evidence of reported crimes from early 2023.</p> <p>The police officers were sent QR codes by Auror Europe, which used MPS branding on its website to allow them to create their own free accounts on the service.</p> <p>A subsequent investigation revealed that police officers and staff created 500 accounts, of which 375 were actively used. The MPS said it did not have information on how frequently officers had accessed the platform.</p> <p>Police staff identified 179 unique individuals, of which 59 were arrested, charged or convicted, or had their information circulated as a wanted person after being identified on the Auror platform.</p> <p>An internal review found that police officers and staff had shared sensitive personal information, including the names of suspects, dates of birth, addresses, and in some cases references to use of facial recognition software. It also included information about three people under the age of 18.</p> <p>The names, warrant numbers and email addresses of MPS officers were also shared on the Auror platform.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Missed opportunities to identify problem\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Missed opportunities to identify problem</h2> <p>The ICO’s investigation revealed the police service missed multiple opportunities to restrict the use of the platform, which had been used by MPS staff since March 2023, before finally taking action.</p> <p>In June that year, for example, a police officer, who no longer works for the force, submitted a request to have access to a mobile version of the platform, Auror Frontline, which was approved in principle by a committee 18 days later, without raising any alerts.</p> <p>In August 2024, the MPS had another opportunity to shut the system down, when a security incident report found that a member of staff had uploaded the names of suspects they recognised in CCTV images shared by a retailer to Auror.</p> <p>The police force took action to restrict the platform after a second incident report a month later that found officers were using the Auror platform to collect CCTV images from retail outlets during investigations.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Ongoing failures\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Ongoing failures</h2> <p>The ICO said the failings form part of a broader and ongoing failure to ensure the processing of data by MPS officers and staff on third-party systems is carried out securely.</p> <p>There was an “ongoing failure” to implement further technical restrictions to prevent staff using unauthorised services.</p> <p>“The MPS failed, and continues to fail, to implement appropriate technical and organisational measures to ensure that the processing of personal data by its officers and staff using third-party online services … is subject to appropriate levels of assessment, approval and organisational oversight,” the ICO stated.</p> <p>The ICO also found that the MPS had failed to demonstrate it had taken appropriate steps to ensure all officers and staff had read and understood its data protection policies and had received regular training.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Met Police now using Auror\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Met Police now using Auror</h2> <p>The MPS signed a formal contract with Auror Europe in December 2025, and began using the system operationally to fight shoplifting in January this year.</p> <p>Police officers are now restricted from uploading and sharing data on the platform, and must access it through a secure authentication system.</p> <p>The MPS <a href=\"https://news.met.police.uk/news/new-tech-sees-met-quadruple-number-of-shoplifters-brought-to-justice-511608\">announced in August 2026</a> that it had completed a pilot of Auror in six London boroughs and would roll it out in another eight, after seeing improvements in the clear-up rate for shoplifting offences.</p> <p>“Following formal approval and a pilot, the platform is now used in 14 London boroughs,” a spokesperson said."
   },
   {
-    "title": "Warm jumpers and a power imbalance – this year’s most influential woman in UK tech",
-    "url": "https://www.computerweekly.com/news/366651863/Warm-jumpers-and-uneven-power-distribution-this-years-most-influential-woman-in-UK-tech",
+    "title": "Computer Weekly’s Women in Tech to Watch 2026",
+    "url": "https://www.computerweekly.com/news/366652136/Computer-Weeklys-Women-in-Tech-to-Watch-2026",
     "source": "ComputerWeekly",
     "published": "2026-10-15T13:00:00+00:00",
-    "raw_text": "<p>This year marks the 15th time Computer Weekly has celebrated the <a href=\"https://www.computerweekly.com/news/366652113/Computer-Weekly-announces-the-Most-Influential-Women-in-UK-Tech-2026\">Most Influential Women in UK Technology</a>, yet women still make up only around 20% of the tech workforce.</p> <p>Not only this, but for twomen who do make it into the tech sector, the environment means <a href=\"https://www.computerweekly.com/news/366627877/Thousands-of-women-in-tech-leave-their-roles-each-year\">thousands are leaving their roles each year</a>, some to move out of the sector altogether.</p> <p>Karen Blake, head of EDIS and this year’s most influential woman in UK tech, says this is because the “programmatic solutions that we’ve worked on so far have been warm jumpers for a cold climate, and now we actually need to do something about that climate”.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-logo-800px-2026.jpg\" alt=\"Computer Weekly logo for the Most Influential Women in UK Tech 2026\" width=\"181\" height=\"97\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Changing the chilly climate\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Changing the chilly climate</h2> <p>As a co-author of the <em><a href=\"https://wearetechwomen.com/2025-lovelace-report/\">Lovelace Report</a></em>, Blake knows more than most how the current climate and culture of the tech sector are not conducive to achieving a diverse workforce.</p> <p>“One of the biggest challenges still is culture in the tech sector,” she says. “We need to think about how we move the culture dial to improve the overall position.”</p> <p>Blake confesses that her own route into tech was “squiggly”, having begun her career with roles focused on human capital at EY and Deloitte, before moving into the education space, and then becoming <a href=\"https://www.computerweekly.com/news/366589038/Tech-Talent-Charter-to-disband-after-nearly-10-years-of-operation\">co-CEO of not-for-profit Tech Talent Charter</a>.</p> <p>She is now a member of the <a href=\"https://www.computerweekly.com/news/366636398/UK-government-launches-Women-in-Tech-Taskforce\">UK government’s Women in Tech Taskforce</a>, and is head of diversity and inclusion collective EDIS.</p> <p>While “squiggly”, the overarching theme of her career has been the importance of giving all people equal access to opportunities. In the tech sector, Blake sees both “joy and frustration”, in that there is a plethora of “brilliant skill” in the industry, which fuels innovation, but there are also higher barriers to entry for so many people who could make the sector “so much more than it is”.</p> <p>The current tech culture is not only preventing certain groups from joining, but also <a href=\"https://www.computerweekly.com/news/366642319/Almost-90-of-women-leave-tech-industry-within-10-years\">making it difficult for those already in the sector to thrive</a>, not only damaging individuals, but also damaging tech development and innovation as a whole.</p> <p>“One of the top-ranked skills is adaptability. You can’t be adaptable without psychological safety, and in an environment where culture is poor, you often don’t have psychological safety,” says Blake.</p> <p>“These things are very much the building blocks of us being able to continue to meet the changes that we’re seeing in our technology workforces and what we’re going to need to do to make the best of those technologies.”</p> <p>Many women in tech experience everything from “microaggressions all the way to sexual assault”, according to Blake, who claims this is “happening at some scale”.</p> <p>“We can’t just continue to allow a culture of harm to be the one that we send so many colleagues into, day in, day out,” she urges.</p> <p>“In terms of the expectation of tech culture, we can’t just settle on ‘tech bro’ culture as the way it always has to be. Some of the labelling has allowed us to become permissive with it. It feels impossible to change.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Power struggle dampens potential\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Power struggle dampens potential</h2> <p>When building initiatives aimed at improving the diversity of the sector, Blake expresses concern there can be the impression of improvement without long-term, sustainable results.</p> <p>Using leadership schemes as an example, Blake says: “That’s great if you’ve been taught the skills. Brilliant. But actually, how many women then go on to hold those [leadership] roles? Are we just creating different holding pens? So for me, it’s about us being able to ensure that when we develop interventions, we’re thinking about more of a lifecycle. Do they move the dial when it’s hooked up?”</p> <p>One thing that is fuelling this <a href=\"https://www.computerweekly.com/news/366596092/computerweekly.com/news/366588797/Tech-industry-losing-steam-for-DEI-finds-TTC-report\">problem is uneven distribution of power</a>.</p> <p>She says: “There has been movement in terms of representation, but in terms of power, that’s been rigidly set. And it’s very difficult to change who the decision-makers are.”</p> <p>The lack of women in decision-making positions in tech is an ongoing concern, with the now-defunct Tech Talent Charter finding that women made up only <a href=\"https://www.computerweekly.com/news/366596092/computerweekly.com/news/366588797/Tech-industry-losing-steam-for-DEI-finds-TTC-report\">21% of senior UK tech leaders</a>&nbsp;among its signatories in 2024, and Frank Recruitment Group finding that women <a href=\"https://www.computerweekly.com/news/365531407/Women-account-for-less-than-a-third-of-FTSE-100-CIOs\">only held a quarter of CIO positions in FTSE 100 companies</a>&nbsp;in the same year.</p> <p>For tech companies, seeking to alter this power imbalance can mean looking at policies for work allocation, looking at the progression pathways and skills development within their organisations, ensuring all employees are given the opportunity to progress, and supporting employee development – all mentioned in the Lovelace Report.</p> <p>Women in particular can “stagnate” in a role. “It takes double the time for women to be promoted than men in tech,” says Blake, who encourages organisations to look at their own data to help understand what the current landscape looks like and how to shift it.</p> <p>“In doing that, you move something in the culture, too,” she adds.</p> <p>But these are “singular programmatic solutions”, and Blake points out that this is a systemic issue across the sector.</p> <p>She explains: “It’s not misunderstood what we would need to do to make the change. Actually, what we need is commitment and consistency on those changes. I think there’s fear that change means a different power distribution, and that’s where we get into all of the traditional challenges around power and participation of who gets to lead, who gets to make those decisions.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"The real story around AI\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The real story around AI</h2> <p>With every technological shift, there’s the potential both to elevate people’s experience and to leave people behind.</p> <p>Artificial intelligence (AI) development and adoption <a href=\"https://www.computerweekly.com/news/366650819/AI-hasnt-changed-core-skills-needed-for-work-say-experts\">is moving quickly</a>, and while many in the sector are doing their best to ensure it’s <a href=\"https://www.computerweekly.com/news/366648791/Wide-misconception-that-AI-investment-information-is-regulated-and-that-users-are-protected\">being built in a sustainable way that suits as many users as possible</a>, Blake claims it’s as if they’re “moving through treacle”. &nbsp;</p> <p>She says: “We’re seeing that homogenised practice means the products, tools, services and approaches are all shaping a society that lots of us have real difficulties being able to participate in. I think more generally speaking, bigger questions are now being asked: Who are the architects of such a big societal shift?”</p> <p>Blake has noticed a “narrative” surrounding AI that <a href=\"https://www.computerweekly.com/news/366639113/Next-Tech-Fest-Breaking-tech-role-misconceptions\">incorrectly suggests</a> women “are adopting it at a slower rate”.</p> <p>“That tells us nothing of the real story of what’s going on. I think it’s quite telling to see how these narratives are quickly depicted to keep a pecking order of where you should be and what your participation should look like,” she says.</p> <p>In reality, Blake states, women are just using AI in a different manner than their male counterparts.</p> <p>“Many women are adopting AI in a more sustainable way. They’re considering their use [of it]. They’re asking, ‘Where is it most applicable in my work? Is it safe? What’s my ethical position on this? Do I know how to apply this in a way that is consistent with my organisational position?’ I think there’s less shadow use of AI, and arguably that means a safer position for organisations.”</p> <p>There are already issues with AI adoption, with <a href=\"https://www.computerweekly.com/news/366627982/AIs-uneven-distribution-widening-diversity-divide\">unequal access to the technology</a> widening the opportunity gap for women and lower-paid workers, and <a href=\"https://www.computerweekly.com/news/366623774/Girls-more-concerned-about-AI-bias-than-boys\">young girls are more concerned</a> than boys about what the future looks like with AI.</p> <p>This caution that women have about AI is an approach more of us should take. Blake argues that, with AI in its infancy and so many organisations adopting the technology out of perceived necessity rather than a business need, more needs to be done to ensure it’s being developed and adopted safely, sustainably and ethically, in a way that’s “meaningful and appropriate”.</p> <p>With the UK said to be the quickest adopter of AI in the G7, Blake says: “I always think there is a word missing there. Adopter of what? Of productivity, of tools, of harm? What are we the quickest adopter of?</p> <p>“I think that women are adopting at a speed we will be more grateful for when we look back on it. I often think of this as a time where it’s a kind of AI toddlerdom, where we’ve got all the crayons out of the box and we’re drawing on the walls. At some point we’ll get to a kind of teenage and adult [stage], and we’ll look back and wonder what on earth we were doing.”</p> <p>Ensuring a diverse workforce can contribute to more sensible development and deployment of AI, but the issue is that while there are women working in AI, as is the case across the wider tech industry, they’re not in decision-making positions where they can make a real difference to how AI is shaped going forward.</p> <p>Blake says: “One of the things I fear is women are finding themselves in those roles, for example AI ethics, and it’s becoming ‘office housework’, where you can be very busy doing it, but you’ve got <a href=\"https://www.computerweekly.com/feature/CW60-Sixty-years-of-progress-but-still-not-everyones-invited\">no power to actually shape what happens with that product or service</a>.”</p> <p>This all comes back to the uneven distribution of power in the sector and why we need more diversity at the top of organisations.</p> <p>“The lack of women in decision-making positions is once again blocking them from participating in meaningful decision-making when it comes to emerging technology,” says Blake.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Giving attention to broken bones\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Giving attention to broken bones</h2> <p>There is no quick fix for shifting towards a more diverse and equitable tech sector, but doing so could reduce mistakes with fast-paced emerging technologies and ensure wider distribution of tech that includes everyone.</p> <p>The issue, though, according to Blake, is that “we haven’t fixed the bones of the system”, and the longer it takes, the more difficult it becomes.</p> <p>She challenges senior leaders to spearhead this change, stating: “Your name is the one heard around dinner tables all over the place, where your employees will be telling stories about what’s happening in their days, and you’ve got the choice of whether you are the nightmares of their children or those that set their aspirations free.”</p> <p>It has already taken a long time to make the smallest of progress towards a diverse and equitable tech workforce, and BCS claimed in a 2024 report that it will take <a href=\"https://www.computerweekly.com/news/366569216/BCS-report-shows-lack-of-improvement-in-tech-diversity\">another 283 years for the percentage of women</a> working in the UK tech sector to match the 48% of women there are in the wider workforce if the pace stays the same.</p> <p>But Blake has hope.&nbsp;“I would much rather think what’s the best that could happen looking at the sky rather than looking at the floor. This is changeable, this is movable. If we had consistency and commitment, we could change it,” she says.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about diversity in tech</h3> <ul class=\"default-list\"> <li>Computer Weekly’s Hall of Fame showcases the <a href=\"https://www.computerweekly.com/news/366547833/Most-Influential-Women-in-UK-Tech-Computer-Weeklys-Hall-of-Fame\">great women who have made a lifetime contribution</a> to the technology sector</li> <li>In her youth, Computer Weekly’s Clare McDonald thought a career in IT looked appealing – until she experienced the <a href=\"https://www.computerweekly.com/feature/CW60-Get-in-the-kitchen-how-lack-of-inclusion-harms-women-in-tech-every-day\">uncomfortable truth about attitudes towards women in tech</a>.</li> </ul> </div> </div> </section>",
+    "raw_text": "<p>Beyond Computer Weekly’s list of the Most Influential Women in UK Tech, it is also important to recognise women who have not yet made it into the top 50 but are still making significant efforts to improve diversity and inclusion in the technology sector.</p> <p>Alongside our list of the top 50 women in UK tech and <a href=\"https://www.computerweekly.com/news/366547833/Most-Influential-Women-in-UK-Tech-Computer-Weeklys-Hall-of-Fame\">Hall of Fame</a>, these Women in Tech to Watch have been chosen by the team and our judges for their impact on the sector.</p> <p>Previously called Rising Stars, this year, our group of expert judges felt WIT to Watch is a more appropriate title for those who may have already had long-standing careers in technology and are making efforts to shift the dial that may see them appear in our top 50 list in the future.</p> <p>People across all levels in the tech sector need to be visible and accessible, so those looking in on the industry, hoping for a tech role, can see the next steps they need to take, rather than only seeing those at the top who, although amazing, may make a <a href=\"https://www.computerweekly.com/news/366633544/Documentary-to-show-womens-journey-to-becoming-role-models\">tech role seem unobtainable</a> to anyone at the beginning of their career.</p> <p>Many of our winners have been WIT to Watch in the past, before making their way into the top 50 and reaching the number one spot.</p> <p>This year’s WIT to Watch are listed below.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-Women-to-Watch-logo-400.png\" alt=\"\" width=\"264\" height=\"140\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU</h2> <p>Clare McGee is co-founder and CEO at AwakenHub and AwakenAngels, each of which offers angel investment to women-led startups in Ireland.</p> <p>She is also the co-founder and director of Innovate NI, a consulting firm that offers business and innovation advice to organisations across Northern Ireland.</p> <p>Alongside these ventures, McGee is a core partner for Women TechEU, a board governor for North West Regional College, and a business mentor for Young Enterprise NI.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Kanta Dihal, lecturer in science communication, Imperial College London\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Kanta Dihal, lecturer in science communication, Imperial College London</h2> <p>Kanta Dihal has a long-standing background in academia, and currently holds roles as associate professor in science communication at Imperial College London and associate fellow of the Leverhulme Centre for the Future of Intelligence at the University of Cambridge.</p> <p>Her research is focused on different narratives around science and technology across different cultures and how these can help us shape the future of technology. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Parven Kaur, founder, Kids N Clicks \"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Parven Kaur, founder, Kids N Clicks </h2> <p>Parven Kaur founded Kids N Clicks in 2025 to serve as a resource for parents and teachers to help them stay ahead of internet trends so they can better promote online safety and digital inclusion for children.</p> <p>She is also a member of the board of advisers for Barnardo’s Scotland and, until recently, was a research expert advisory panel member for The Young Women’s Movement. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Rosemary Francis, founder and CTO, Stealth AI Startup\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Rosemary Francis, founder and CTO, Stealth AI Startup</h2> <p>Rosemary Francis founded Stealth AI Startup earlier this year as a network for AI founders, where she is currently chief technology officer (CTO).</p> <p>She is also CTO of CommonAI Compute, a fellow at the Royal Academy of Engineering and a member of the Raspberry Pi Foundation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Suzanne Ashman, managing partner, Sovereign AI Fund\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Suzanne Ashman, managing partner, Sovereign AI Fund</h2> <p>Suzanne Ashman is managing partner for the £500m Sovereign AI Fund, whose aim is to give founders access to what they need to become global companies.</p> <p>She has invested in several businesses, and was previously general partner at the early-stage venture capital firm for tech startups, LocalGlobe. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M</h2> <p>As well as being CEO of workforce governance system PeopleXYZ, Tommie Edwards is co-founder and CEO of artificial intelligence (AI) training and mentorship platform Tech1M.AI.</p> <p>She is also board chair of Tedbree, where she was previously founder and CEO, president of the UK delegation of the G20 Young Entrepreneurs Alliance, and president and chair of the UK Entrepreneurs Alliance.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Veena Marr, consultant, Spencer Stuart\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Veena Marr, consultant, Spencer Stuart</h2> <p>Veena Marr is a consultant at business consulting services firm Spencer Stuart, where she acts as a leadership adviser in the consumer tech sector.</p> <p>She is also a member of the firm’s UK board and CEO Practice, and leads its Digital and Technology Officer Practice across EMEA.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Zehra Chatoo, founder, Code For Good Now\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Zehra Chatoo, founder, Code For Good Now</h2> <p>As founder of Code For Good Now, Zehra Chatoo leads the charge on discussing responsible and inclusive AI adoption, also creating the AI Judgement Penalty to highlight how women are judged unfairly for using AI in a different manner to their male counterparts.</p> <p>She is also a council member for Effie UK, and board director and trustee of UN Women UK.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about women in tech</h3> <ul class=\"default-list\"> <li>In her youth, Computer Weekly’s Clare McDonald thought a career in IT looked appealing – until she experienced <a href=\"https://www.computerweekly.com/feature/CW60-Get-in-the-kitchen-how-lack-of-inclusion-harms-women-in-tech-every-day\">the uncomfortable truth about attitudes towards women in tech</a>.</li> <li>For a few years, the number of <a href=\"https://www.computerweekly.com/news/366648784/Number-of-girls-choosing-GCSE-computing-drops-for-second-year-in-a-row\">girls choosing computing at GCSE</a> was on the rise, but it has since seen a two-year drop.</li> </ul> </div> </div> </section>",
     "categories": [
-      "Industry & Market",
       "Networks",
-      "Cybersecurity"
+      "Industry & Market",
+      "Cybersecurity",
+      "GRC"
     ],
     "matched_keywords": {
       "Networks": [
+        "network",
         "cdn",
         "lan"
       ],
       "Cybersecurity": [
         "soc"
       ],
+      "GRC": [
+        "governance"
+      ],
       "Industry & Market": [
-        "launches",
-        "announces",
         "investment",
-        "deloitte",
-        "ey"
+        "ey",
+        "consulting"
       ]
     },
-    "summary": "<p>This year marks the 15th time Computer Weekly has celebrated the <a href=\"https://www.computerweekly.com/news/366652113/Computer-Weekly-announces-the-Most-Influential-Women-in-UK-Tech-2026\">Most Influential Women in UK Technology</a>, yet women still make up only around 20% of the tech workforce.</p> <p>Not only this, but for twomen who do make it into the tech sector, the environment means <a href=\"https://www.computerweekly.com/news/366627877/Thousands-of-women-in-tech-leave-their-roles-each-year\">thousands are leaving their roles each year</a>, some to move out of the sector altogether.</p> <p>Karen Blake, head of EDIS and this year’s most influential woman in UK tech, says this is because the “programmatic solutions that we’ve worked on so far have been warm jumpers for a cold climate, and now we actually need to do something about that climate”.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-logo-800px-2026.jpg\" alt=\"Computer Weekly logo for the Most Influential Women in UK Tech 2026\" width=\"181\" height=\"97\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Changing the chilly climate\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Changing the chilly climate</h2> <p>As a co-author of the <em><a href=\"https://wearetechwomen.com/2025-lovelace-report/\">Lovelace Report</a></em>, Blake knows more than most how the current climate and culture of the tech sector are not conducive to achieving a diverse workforce.</p> <p>“One of the biggest challenges still is culture in the tech sector,” she says. “We need to think about how we move the culture dial to improve the overall position.”</p> <p>Blake confesses that her own route into tech was “squiggly”, having begun her career with roles focused on human capital at EY and Deloitte, before moving into the education space, and then becoming <a href=\"https://www.computerweekly.com/news/366589038/Tech-Talent-Charter-to-disband-after-nearly-10-years-of-operation\">co-CEO of not-for-profit Tech Talent Charter</a>.</p> <p>She is now a member of the <a href=\"https://www.computerweekly.com/news/366636398/UK-government-launches-Women-in-Tech-Taskforce\">UK government’s Women in Tech Taskforce</a>, and is head of diversity and inclusion collective EDIS.</p> <p>While “squiggly”, the overarching theme of her career has been the importance of giving all people equal access to opportunities. In the tech sector, Blake sees both “joy and frustration”, in that there is a plethora of “brilliant skill” in the industry, which fuels innovation, but there are also higher barriers to entry for so many people who could make the sector “so much more than it is”.</p> <p>The current tech culture is not only preventing certain groups from joining, but also <a href=\"https://www.computerweekly.com/news/366642319/Almost-90-of-women-leave-tech-industry-within-10-years\">making it difficult for those already in the sector to thrive</a>, not only damaging individuals, but also damaging tech development and innovation as a whole.</p> <p>“One of the top-ranked skills is adaptability. You can’t be adaptable without psychological safety, and in an environment where culture is poor, you often don’t have psychological safety,” says Blake.</p> <p>“These things are very much the building blocks of us being able to continue to meet the changes that we’re seeing in our technology workforces and what we’re going to need to do to make the best of those technologies.”</p> <p>Many women in tech experience everything from “microaggressions all the way to sexual assault”, according to Blake, who claims this is “happening at some scale”.</p> <p>“We can’t just continue to allow a culture of harm to be the one that we send so many colleagues into, day in, day out,” she urges.</p> <p>“In terms of the expectation of tech culture, we can’t just settle on ‘tech bro’ culture as the way it always has to be."
+    "summary": "<p>Beyond Computer Weekly’s list of the Most Influential Women in UK Tech, it is also important to recognise women who have not yet made it into the top 50 but are still making significant efforts to improve diversity and inclusion in the technology sector.</p> <p>Alongside our list of the top 50 women in UK tech and <a href=\"https://www.computerweekly.com/news/366547833/Most-Influential-Women-in-UK-Tech-Computer-Weeklys-Hall-of-Fame\">Hall of Fame</a>, these Women in Tech to Watch have been chosen by the team and our judges for their impact on the sector.</p> <p>Previously called Rising Stars, this year, our group of expert judges felt WIT to Watch is a more appropriate title for those who may have already had long-standing careers in technology and are making efforts to shift the dial that may see them appear in our top 50 list in the future.</p> <p>People across all levels in the tech sector need to be visible and accessible, so those looking in on the industry, hoping for a tech role, can see the next steps they need to take, rather than only seeing those at the top who, although amazing, may make a <a href=\"https://www.computerweekly.com/news/366633544/Documentary-to-show-womens-journey-to-becoming-role-models\">tech role seem unobtainable</a> to anyone at the beginning of their career.</p> <p>Many of our winners have been WIT to Watch in the past, before making their way into the top 50 and reaching the number one spot.</p> <p>This year’s WIT to Watch are listed below.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-Women-to-Watch-logo-400.png\" alt=\"\" width=\"264\" height=\"140\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU</h2> <p>Clare McGee is co-founder and CEO at AwakenHub and AwakenAngels, each of which offers angel investment to women-led startups in Ireland.</p> <p>She is also the co-founder and director of Innovate NI, a consulting firm that offers business and innovation advice to organisations across Northern Ireland.</p> <p>Alongside these ventures, McGee is a core partner for Women TechEU, a board governor for North West Regional College, and a business mentor for Young Enterprise NI.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Kanta Dihal, lecturer in science communication, Imperial College London\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Kanta Dihal, lecturer in science communication, Imperial College London</h2> <p>Kanta Dihal has a long-standing background in academia, and currently holds roles as associate professor in science communication at Imperial College London and associate fellow of the Leverhulme Centre for the Future of Intelligence at the University of Cambridge.</p> <p>Her research is focused on different narratives around science and technology across different cultures and how these can help us shape the future of technology. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Parven Kaur, founder, Kids N Clicks \"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Parven Kaur, founder, Kids N Clicks </h2> <p>Parven Kaur founded Kids N Clicks in 2025 to serve as a resource for parents and teachers to help them stay ahead of internet trends so they can better promote online safety and digital inclusion for children.</p> <p>She is also a member of the board of advisers for Barnardo’s Scotland and, until recently, was a research expert advisory panel member for The Young Women’s Movement. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Rosemary Francis, founder and CTO, Stealth AI Startup\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Rosemary Francis, founder and CTO, Stealth AI Startup</h2> <p>Rosemary Francis founded Stealth AI Startup earlier this year as a network for AI founders, where she is currently chief technology officer (CTO).</p> <p>She is also CTO of CommonAI Compute, a fellow at the Royal Academy of Engineering and a member of the Raspberry Pi Foundation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Suzanne Ashman, managing partner, Sovereign AI Fund\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Suzanne Ashman, managing partner, Sovereign AI Fund</h2> <p>Suzanne Ashman is managing partner for the £500m Sovereign AI Fund, whose aim is to give founders access to what they need to become global companies.</p> <p>She has invested in several businesses, and was previously general partner at the early-stage venture capital firm for tech startups, LocalGlobe. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M</h2> <p>As well as being CEO of workforce governance system PeopleXYZ, Tommie Edwards is co-founder and CEO of artificial intelligence (AI) training and mentorship platform Tech1M.AI.</p> <p>She is also board chair of Tedbree, where she was previously founder and CEO, president of the UK delegation of the G20 Young Entrepreneurs Alliance, and president and chair of the UK Entrepreneurs Alliance.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Veena Marr, consultant, Spencer Stuart\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Veena Marr, consultant, Spencer Stuart</h2> <p>Veena Marr is a consultant at business consulting services firm Spencer Stuart, where she acts as a leadership adviser in the consumer tech sector.</p> <p>She is also a member of the firm’s UK board and CEO Practice, and leads its Digital and Technology Officer Practice across EMEA.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Zehra Chatoo, founder, Code For Good Now\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Zehra Chatoo, founder, Code For Good Now</h2> <p>As founder of Code For Good Now, Zehra Chatoo leads the charge on discussing responsible and inclusive AI adoption, also creating the AI Judgement Penalty to highlight how women are judged unfairly for using AI in a different manner to their male counterparts.</p> <p>She is also a council member for Effie UK, and board director and trustee of UN Women UK.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about women in tech</h3> <ul class=\"default-list\"> <li>In her youth, Computer Weekly’s Clare McDonald thought a career in IT looked appealing – until she experienced <a href=\"https://www.computerweekly.com/feature/CW60-Get-in-the-kitchen-how-lack-of-inclusion-harms-women-in-tech-every-day\">the uncomfortable truth about attitudes towards women in tech</a>.</li> <li>For a few years, the number of <a href=\"https://www.computerweekly.com/news/366648784/Number-of-girls-choosing-GCSE-computing-drops-for-second-year-in-a-row\">girls choosing computing at GCSE</a> was on the rise, but it has since seen a two-year drop.</li> </ul> </div> </div> </section>"
   },
   {
     "title": "Computer Weekly announces the Most Influential Women in UK Tech 2026",
@@ -3988,36 +3940,33 @@
     "summary": "<p>Karen Blake, co-author of the <i>Lovelace Report</i> and head of EDIS, has become the 15th person to be named Computer Weekly’s most influential woman in UK technology.</p> <p>The list was <a href=\"https://www.computerweekly.com/news/2240159491/The-most-influential-women-in-UK-IT\">created in 2012</a> to make the amazing women in the UK’s technology sector more visible and accessible, originally showcasing only 25 women before growing to include 50 women in 2015.</p> <p>Now, the list receives hundreds of nominations each year – <a href=\"https://www.computerweekly.com/news/366648897/Most-Influential-Women-in-UK-Tech-The-2026-longlist\">this year’s longlist features more than 870 women</a>.</p> <p>Alongside the longlist and top 50, Computer Weekly and a collection of expert judges also choose <a href=\"https://www.computerweekly.com/news/366547833/Most-Influential-Women-in-UK-Tech-Computer-Weeklys-Hall-of-Fame\">entrants to its Hall of Fame</a> to acknowledge those who have made a lifetime contribution to the tech sector, and a selection of Women to Watch (formerly Rising Stars) who are expected to continue to do great things over the next few years.</p> <p>This year’s winner has previously been a judge for the list, before joining the top 50 in 2025, and has done invaluable work to increase representation in the technology sector.</p> <p>Here is the list of the 50 Most Influential Women in UK Technology 2026.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-logo-800px-2026.jpg\" alt=\"\" width=\"199\" height=\"107\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"1. Karen Blake, co-author, the Lovelace Report; head, EDIS; member, Women in Tech Taskforce\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>1. Karen Blake, co-author, the <em>Lovelace Report</em>; head, EDIS; member, Women in Tech Taskforce</h2> <p>Karen Blake currently heads up Equality, Diversity and Inclusion in Science and Health (EDIS), a coalition of organisations from the science and health sectors looking to build a more inclusive research system for health in the UK.</p> <p>Until September 2026, she was on the strategy steering board of Women Pivoting to Digital at the City of London Corporation and is a Women in Tech Taskforce member for the Department for Digital, Culture, Media and Sport. Until it was disbanded, she was co-CEO of the Tech Talent Charter, where she led the organisation’s growth and headed up the implementation of some of the tools it offered, such as its benchmarking platform and annual benchmarking reports.</p> <p>She was a co-author of the recent <em>Lovelace Report</em>, and until November 2025, was head of inclusive workforce strategy and advisory at Powered By Diversity."
   },
   {
-    "title": "Computer Weekly’s Women in Tech to Watch 2026",
-    "url": "https://www.computerweekly.com/news/366652136/Computer-Weeklys-Women-in-Tech-to-Watch-2026",
+    "title": "Warm jumpers and a power imbalance – this year’s most influential woman in UK tech",
+    "url": "https://www.computerweekly.com/news/366651863/Warm-jumpers-and-uneven-power-distribution-this-years-most-influential-woman-in-UK-tech",
     "source": "ComputerWeekly",
     "published": "2026-10-15T13:00:00+00:00",
-    "raw_text": "<p>Beyond Computer Weekly’s list of the Most Influential Women in UK Tech, it is also important to recognise women who have not yet made it into the top 50 but are still making significant efforts to improve diversity and inclusion in the technology sector.</p> <p>Alongside our list of the top 50 women in UK tech and <a href=\"https://www.computerweekly.com/news/366547833/Most-Influential-Women-in-UK-Tech-Computer-Weeklys-Hall-of-Fame\">Hall of Fame</a>, these Women in Tech to Watch have been chosen by the team and our judges for their impact on the sector.</p> <p>Previously called Rising Stars, this year, our group of expert judges felt WIT to Watch is a more appropriate title for those who may have already had long-standing careers in technology and are making efforts to shift the dial that may see them appear in our top 50 list in the future.</p> <p>People across all levels in the tech sector need to be visible and accessible, so those looking in on the industry, hoping for a tech role, can see the next steps they need to take, rather than only seeing those at the top who, although amazing, may make a <a href=\"https://www.computerweekly.com/news/366633544/Documentary-to-show-womens-journey-to-becoming-role-models\">tech role seem unobtainable</a> to anyone at the beginning of their career.</p> <p>Many of our winners have been WIT to Watch in the past, before making their way into the top 50 and reaching the number one spot.</p> <p>This year’s WIT to Watch are listed below.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-Women-to-Watch-logo-400.png\" alt=\"\" width=\"264\" height=\"140\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU</h2> <p>Clare McGee is co-founder and CEO at AwakenHub and AwakenAngels, each of which offers angel investment to women-led startups in Ireland.</p> <p>She is also the co-founder and director of Innovate NI, a consulting firm that offers business and innovation advice to organisations across Northern Ireland.</p> <p>Alongside these ventures, McGee is a core partner for Women TechEU, a board governor for North West Regional College, and a business mentor for Young Enterprise NI.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Kanta Dihal, lecturer in science communication, Imperial College London\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Kanta Dihal, lecturer in science communication, Imperial College London</h2> <p>Kanta Dihal has a long-standing background in academia, and currently holds roles as associate professor in science communication at Imperial College London and associate fellow of the Leverhulme Centre for the Future of Intelligence at the University of Cambridge.</p> <p>Her research is focused on different narratives around science and technology across different cultures and how these can help us shape the future of technology. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Parven Kaur, founder, Kids N Clicks \"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Parven Kaur, founder, Kids N Clicks </h2> <p>Parven Kaur founded Kids N Clicks in 2025 to serve as a resource for parents and teachers to help them stay ahead of internet trends so they can better promote online safety and digital inclusion for children.</p> <p>She is also a member of the board of advisers for Barnardo’s Scotland and, until recently, was a research expert advisory panel member for The Young Women’s Movement. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Rosemary Francis, founder and CTO, Stealth AI Startup\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Rosemary Francis, founder and CTO, Stealth AI Startup</h2> <p>Rosemary Francis founded Stealth AI Startup earlier this year as a network for AI founders, where she is currently chief technology officer (CTO).</p> <p>She is also CTO of CommonAI Compute, a fellow at the Royal Academy of Engineering and a member of the Raspberry Pi Foundation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Suzanne Ashman, managing partner, Sovereign AI Fund\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Suzanne Ashman, managing partner, Sovereign AI Fund</h2> <p>Suzanne Ashman is managing partner for the £500m Sovereign AI Fund, whose aim is to give founders access to what they need to become global companies.</p> <p>She has invested in several businesses, and was previously general partner at the early-stage venture capital firm for tech startups, LocalGlobe. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M</h2> <p>As well as being CEO of workforce governance system PeopleXYZ, Tommie Edwards is co-founder and CEO of artificial intelligence (AI) training and mentorship platform Tech1M.AI.</p> <p>She is also board chair of Tedbree, where she was previously founder and CEO, president of the UK delegation of the G20 Young Entrepreneurs Alliance, and president and chair of the UK Entrepreneurs Alliance.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Veena Marr, consultant, Spencer Stuart\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Veena Marr, consultant, Spencer Stuart</h2> <p>Veena Marr is a consultant at business consulting services firm Spencer Stuart, where she acts as a leadership adviser in the consumer tech sector.</p> <p>She is also a member of the firm’s UK board and CEO Practice, and leads its Digital and Technology Officer Practice across EMEA.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Zehra Chatoo, founder, Code For Good Now\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Zehra Chatoo, founder, Code For Good Now</h2> <p>As founder of Code For Good Now, Zehra Chatoo leads the charge on discussing responsible and inclusive AI adoption, also creating the AI Judgement Penalty to highlight how women are judged unfairly for using AI in a different manner to their male counterparts.</p> <p>She is also a council member for Effie UK, and board director and trustee of UN Women UK.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about women in tech</h3> <ul class=\"default-list\"> <li>In her youth, Computer Weekly’s Clare McDonald thought a career in IT looked appealing – until she experienced <a href=\"https://www.computerweekly.com/feature/CW60-Get-in-the-kitchen-how-lack-of-inclusion-harms-women-in-tech-every-day\">the uncomfortable truth about attitudes towards women in tech</a>.</li> <li>For a few years, the number of <a href=\"https://www.computerweekly.com/news/366648784/Number-of-girls-choosing-GCSE-computing-drops-for-second-year-in-a-row\">girls choosing computing at GCSE</a> was on the rise, but it has since seen a two-year drop.</li> </ul> </div> </div> </section>",
+    "raw_text": "<p>This year marks the 15th time Computer Weekly has celebrated the <a href=\"https://www.computerweekly.com/news/366652113/Computer-Weekly-announces-the-Most-Influential-Women-in-UK-Tech-2026\">Most Influential Women in UK Technology</a>, yet women still make up only around 20% of the tech workforce.</p> <p>Not only this, but for twomen who do make it into the tech sector, the environment means <a href=\"https://www.computerweekly.com/news/366627877/Thousands-of-women-in-tech-leave-their-roles-each-year\">thousands are leaving their roles each year</a>, some to move out of the sector altogether.</p> <p>Karen Blake, head of EDIS and this year’s most influential woman in UK tech, says this is because the “programmatic solutions that we’ve worked on so far have been warm jumpers for a cold climate, and now we actually need to do something about that climate”.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-logo-800px-2026.jpg\" alt=\"Computer Weekly logo for the Most Influential Women in UK Tech 2026\" width=\"181\" height=\"97\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Changing the chilly climate\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Changing the chilly climate</h2> <p>As a co-author of the <em><a href=\"https://wearetechwomen.com/2025-lovelace-report/\">Lovelace Report</a></em>, Blake knows more than most how the current climate and culture of the tech sector are not conducive to achieving a diverse workforce.</p> <p>“One of the biggest challenges still is culture in the tech sector,” she says. “We need to think about how we move the culture dial to improve the overall position.”</p> <p>Blake confesses that her own route into tech was “squiggly”, having begun her career with roles focused on human capital at EY and Deloitte, before moving into the education space, and then becoming <a href=\"https://www.computerweekly.com/news/366589038/Tech-Talent-Charter-to-disband-after-nearly-10-years-of-operation\">co-CEO of not-for-profit Tech Talent Charter</a>.</p> <p>She is now a member of the <a href=\"https://www.computerweekly.com/news/366636398/UK-government-launches-Women-in-Tech-Taskforce\">UK government’s Women in Tech Taskforce</a>, and is head of diversity and inclusion collective EDIS.</p> <p>While “squiggly”, the overarching theme of her career has been the importance of giving all people equal access to opportunities. In the tech sector, Blake sees both “joy and frustration”, in that there is a plethora of “brilliant skill” in the industry, which fuels innovation, but there are also higher barriers to entry for so many people who could make the sector “so much more than it is”.</p> <p>The current tech culture is not only preventing certain groups from joining, but also <a href=\"https://www.computerweekly.com/news/366642319/Almost-90-of-women-leave-tech-industry-within-10-years\">making it difficult for those already in the sector to thrive</a>, not only damaging individuals, but also damaging tech development and innovation as a whole.</p> <p>“One of the top-ranked skills is adaptability. You can’t be adaptable without psychological safety, and in an environment where culture is poor, you often don’t have psychological safety,” says Blake.</p> <p>“These things are very much the building blocks of us being able to continue to meet the changes that we’re seeing in our technology workforces and what we’re going to need to do to make the best of those technologies.”</p> <p>Many women in tech experience everything from “microaggressions all the way to sexual assault”, according to Blake, who claims this is “happening at some scale”.</p> <p>“We can’t just continue to allow a culture of harm to be the one that we send so many colleagues into, day in, day out,” she urges.</p> <p>“In terms of the expectation of tech culture, we can’t just settle on ‘tech bro’ culture as the way it always has to be. Some of the labelling has allowed us to become permissive with it. It feels impossible to change.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Power struggle dampens potential\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Power struggle dampens potential</h2> <p>When building initiatives aimed at improving the diversity of the sector, Blake expresses concern there can be the impression of improvement without long-term, sustainable results.</p> <p>Using leadership schemes as an example, Blake says: “That’s great if you’ve been taught the skills. Brilliant. But actually, how many women then go on to hold those [leadership] roles? Are we just creating different holding pens? So for me, it’s about us being able to ensure that when we develop interventions, we’re thinking about more of a lifecycle. Do they move the dial when it’s hooked up?”</p> <p>One thing that is fuelling this <a href=\"https://www.computerweekly.com/news/366596092/computerweekly.com/news/366588797/Tech-industry-losing-steam-for-DEI-finds-TTC-report\">problem is uneven distribution of power</a>.</p> <p>She says: “There has been movement in terms of representation, but in terms of power, that’s been rigidly set. And it’s very difficult to change who the decision-makers are.”</p> <p>The lack of women in decision-making positions in tech is an ongoing concern, with the now-defunct Tech Talent Charter finding that women made up only <a href=\"https://www.computerweekly.com/news/366596092/computerweekly.com/news/366588797/Tech-industry-losing-steam-for-DEI-finds-TTC-report\">21% of senior UK tech leaders</a>&nbsp;among its signatories in 2024, and Frank Recruitment Group finding that women <a href=\"https://www.computerweekly.com/news/365531407/Women-account-for-less-than-a-third-of-FTSE-100-CIOs\">only held a quarter of CIO positions in FTSE 100 companies</a>&nbsp;in the same year.</p> <p>For tech companies, seeking to alter this power imbalance can mean looking at policies for work allocation, looking at the progression pathways and skills development within their organisations, ensuring all employees are given the opportunity to progress, and supporting employee development – all mentioned in the Lovelace Report.</p> <p>Women in particular can “stagnate” in a role. “It takes double the time for women to be promoted than men in tech,” says Blake, who encourages organisations to look at their own data to help understand what the current landscape looks like and how to shift it.</p> <p>“In doing that, you move something in the culture, too,” she adds.</p> <p>But these are “singular programmatic solutions”, and Blake points out that this is a systemic issue across the sector.</p> <p>She explains: “It’s not misunderstood what we would need to do to make the change. Actually, what we need is commitment and consistency on those changes. I think there’s fear that change means a different power distribution, and that’s where we get into all of the traditional challenges around power and participation of who gets to lead, who gets to make those decisions.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"The real story around AI\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>The real story around AI</h2> <p>With every technological shift, there’s the potential both to elevate people’s experience and to leave people behind.</p> <p>Artificial intelligence (AI) development and adoption <a href=\"https://www.computerweekly.com/news/366650819/AI-hasnt-changed-core-skills-needed-for-work-say-experts\">is moving quickly</a>, and while many in the sector are doing their best to ensure it’s <a href=\"https://www.computerweekly.com/news/366648791/Wide-misconception-that-AI-investment-information-is-regulated-and-that-users-are-protected\">being built in a sustainable way that suits as many users as possible</a>, Blake claims it’s as if they’re “moving through treacle”. &nbsp;</p> <p>She says: “We’re seeing that homogenised practice means the products, tools, services and approaches are all shaping a society that lots of us have real difficulties being able to participate in. I think more generally speaking, bigger questions are now being asked: Who are the architects of such a big societal shift?”</p> <p>Blake has noticed a “narrative” surrounding AI that <a href=\"https://www.computerweekly.com/news/366639113/Next-Tech-Fest-Breaking-tech-role-misconceptions\">incorrectly suggests</a> women “are adopting it at a slower rate”.</p> <p>“That tells us nothing of the real story of what’s going on. I think it’s quite telling to see how these narratives are quickly depicted to keep a pecking order of where you should be and what your participation should look like,” she says.</p> <p>In reality, Blake states, women are just using AI in a different manner than their male counterparts.</p> <p>“Many women are adopting AI in a more sustainable way. They’re considering their use [of it]. They’re asking, ‘Where is it most applicable in my work? Is it safe? What’s my ethical position on this? Do I know how to apply this in a way that is consistent with my organisational position?’ I think there’s less shadow use of AI, and arguably that means a safer position for organisations.”</p> <p>There are already issues with AI adoption, with <a href=\"https://www.computerweekly.com/news/366627982/AIs-uneven-distribution-widening-diversity-divide\">unequal access to the technology</a> widening the opportunity gap for women and lower-paid workers, and <a href=\"https://www.computerweekly.com/news/366623774/Girls-more-concerned-about-AI-bias-than-boys\">young girls are more concerned</a> than boys about what the future looks like with AI.</p> <p>This caution that women have about AI is an approach more of us should take. Blake argues that, with AI in its infancy and so many organisations adopting the technology out of perceived necessity rather than a business need, more needs to be done to ensure it’s being developed and adopted safely, sustainably and ethically, in a way that’s “meaningful and appropriate”.</p> <p>With the UK said to be the quickest adopter of AI in the G7, Blake says: “I always think there is a word missing there. Adopter of what? Of productivity, of tools, of harm? What are we the quickest adopter of?</p> <p>“I think that women are adopting at a speed we will be more grateful for when we look back on it. I often think of this as a time where it’s a kind of AI toddlerdom, where we’ve got all the crayons out of the box and we’re drawing on the walls. At some point we’ll get to a kind of teenage and adult [stage], and we’ll look back and wonder what on earth we were doing.”</p> <p>Ensuring a diverse workforce can contribute to more sensible development and deployment of AI, but the issue is that while there are women working in AI, as is the case across the wider tech industry, they’re not in decision-making positions where they can make a real difference to how AI is shaped going forward.</p> <p>Blake says: “One of the things I fear is women are finding themselves in those roles, for example AI ethics, and it’s becoming ‘office housework’, where you can be very busy doing it, but you’ve got <a href=\"https://www.computerweekly.com/feature/CW60-Sixty-years-of-progress-but-still-not-everyones-invited\">no power to actually shape what happens with that product or service</a>.”</p> <p>This all comes back to the uneven distribution of power in the sector and why we need more diversity at the top of organisations.</p> <p>“The lack of women in decision-making positions is once again blocking them from participating in meaningful decision-making when it comes to emerging technology,” says Blake.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Giving attention to broken bones\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Giving attention to broken bones</h2> <p>There is no quick fix for shifting towards a more diverse and equitable tech sector, but doing so could reduce mistakes with fast-paced emerging technologies and ensure wider distribution of tech that includes everyone.</p> <p>The issue, though, according to Blake, is that “we haven’t fixed the bones of the system”, and the longer it takes, the more difficult it becomes.</p> <p>She challenges senior leaders to spearhead this change, stating: “Your name is the one heard around dinner tables all over the place, where your employees will be telling stories about what’s happening in their days, and you’ve got the choice of whether you are the nightmares of their children or those that set their aspirations free.”</p> <p>It has already taken a long time to make the smallest of progress towards a diverse and equitable tech workforce, and BCS claimed in a 2024 report that it will take <a href=\"https://www.computerweekly.com/news/366569216/BCS-report-shows-lack-of-improvement-in-tech-diversity\">another 283 years for the percentage of women</a> working in the UK tech sector to match the 48% of women there are in the wider workforce if the pace stays the same.</p> <p>But Blake has hope.&nbsp;“I would much rather think what’s the best that could happen looking at the sky rather than looking at the floor. This is changeable, this is movable. If we had consistency and commitment, we could change it,” she says.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about diversity in tech</h3> <ul class=\"default-list\"> <li>Computer Weekly’s Hall of Fame showcases the <a href=\"https://www.computerweekly.com/news/366547833/Most-Influential-Women-in-UK-Tech-Computer-Weeklys-Hall-of-Fame\">great women who have made a lifetime contribution</a> to the technology sector</li> <li>In her youth, Computer Weekly’s Clare McDonald thought a career in IT looked appealing – until she experienced the <a href=\"https://www.computerweekly.com/feature/CW60-Get-in-the-kitchen-how-lack-of-inclusion-harms-women-in-tech-every-day\">uncomfortable truth about attitudes towards women in tech</a>.</li> </ul> </div> </div> </section>",
     "categories": [
-      "Networks",
       "Industry & Market",
-      "Cybersecurity",
-      "GRC"
+      "Networks",
+      "Cybersecurity"
     ],
     "matched_keywords": {
       "Networks": [
-        "network",
         "cdn",
         "lan"
       ],
       "Cybersecurity": [
         "soc"
       ],
-      "GRC": [
-        "governance"
-      ],
       "Industry & Market": [
+        "launches",
+        "announces",
         "investment",
-        "ey",
-        "consulting"
+        "deloitte",
+        "ey"
       ]
     },
-    "summary": "<p>Beyond Computer Weekly’s list of the Most Influential Women in UK Tech, it is also important to recognise women who have not yet made it into the top 50 but are still making significant efforts to improve diversity and inclusion in the technology sector.</p> <p>Alongside our list of the top 50 women in UK tech and <a href=\"https://www.computerweekly.com/news/366547833/Most-Influential-Women-in-UK-Tech-Computer-Weeklys-Hall-of-Fame\">Hall of Fame</a>, these Women in Tech to Watch have been chosen by the team and our judges for their impact on the sector.</p> <p>Previously called Rising Stars, this year, our group of expert judges felt WIT to Watch is a more appropriate title for those who may have already had long-standing careers in technology and are making efforts to shift the dial that may see them appear in our top 50 list in the future.</p> <p>People across all levels in the tech sector need to be visible and accessible, so those looking in on the industry, hoping for a tech role, can see the next steps they need to take, rather than only seeing those at the top who, although amazing, may make a <a href=\"https://www.computerweekly.com/news/366633544/Documentary-to-show-womens-journey-to-becoming-role-models\">tech role seem unobtainable</a> to anyone at the beginning of their career.</p> <p>Many of our winners have been WIT to Watch in the past, before making their way into the top 50 and reaching the number one spot.</p> <p>This year’s WIT to Watch are listed below.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-Women-to-Watch-logo-400.png\" alt=\"\" width=\"264\" height=\"140\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Clare McGee, co-founder, Awaken Angels; core partner, Women TechEU</h2> <p>Clare McGee is co-founder and CEO at AwakenHub and AwakenAngels, each of which offers angel investment to women-led startups in Ireland.</p> <p>She is also the co-founder and director of Innovate NI, a consulting firm that offers business and innovation advice to organisations across Northern Ireland.</p> <p>Alongside these ventures, McGee is a core partner for Women TechEU, a board governor for North West Regional College, and a business mentor for Young Enterprise NI.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Kanta Dihal, lecturer in science communication, Imperial College London\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Kanta Dihal, lecturer in science communication, Imperial College London</h2> <p>Kanta Dihal has a long-standing background in academia, and currently holds roles as associate professor in science communication at Imperial College London and associate fellow of the Leverhulme Centre for the Future of Intelligence at the University of Cambridge.</p> <p>Her research is focused on different narratives around science and technology across different cultures and how these can help us shape the future of technology. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Parven Kaur, founder, Kids N Clicks \"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Parven Kaur, founder, Kids N Clicks </h2> <p>Parven Kaur founded Kids N Clicks in 2025 to serve as a resource for parents and teachers to help them stay ahead of internet trends so they can better promote online safety and digital inclusion for children.</p> <p>She is also a member of the board of advisers for Barnardo’s Scotland and, until recently, was a research expert advisory panel member for The Young Women’s Movement. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Rosemary Francis, founder and CTO, Stealth AI Startup\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Rosemary Francis, founder and CTO, Stealth AI Startup</h2> <p>Rosemary Francis founded Stealth AI Startup earlier this year as a network for AI founders, where she is currently chief technology officer (CTO).</p> <p>She is also CTO of CommonAI Compute, a fellow at the Royal Academy of Engineering and a member of the Raspberry Pi Foundation.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Suzanne Ashman, managing partner, Sovereign AI Fund\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Suzanne Ashman, managing partner, Sovereign AI Fund</h2> <p>Suzanne Ashman is managing partner for the £500m Sovereign AI Fund, whose aim is to give founders access to what they need to become global companies.</p> <p>She has invested in several businesses, and was previously general partner at the early-stage venture capital firm for tech startups, LocalGlobe. </p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tommie Edwards, CEO, PeopleXYZ; CEO and co-founder, Tech1M</h2> <p>As well as being CEO of workforce governance system PeopleXYZ, Tommie Edwards is co-founder and CEO of artificial intelligence (AI) training and mentorship platform Tech1M.AI.</p> <p>She is also board chair of Tedbree, where she was previously founder and CEO, president of the UK delegation of the G20 Young Entrepreneurs Alliance, and president and chair of the UK Entrepreneurs Alliance.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Veena Marr, consultant, Spencer Stuart\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Veena Marr, consultant, Spencer Stuart</h2> <p>Veena Marr is a consultant at business consulting services firm Spencer Stuart, where she acts as a leadership adviser in the consumer tech sector.</p> <p>She is also a member of the firm’s UK board and CEO Practice, and leads its Digital and Technology Officer Practice across EMEA.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Zehra Chatoo, founder, Code For Good Now\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Zehra Chatoo, founder, Code For Good Now</h2> <p>As founder of Code For Good Now, Zehra Chatoo leads the charge on discussing responsible and inclusive AI adoption, also creating the AI Judgement Penalty to highlight how women are judged unfairly for using AI in a different manner to their male counterparts.</p> <p>She is also a council member for Effie UK, and board director and trustee of UN Women UK.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about women in tech</h3> <ul class=\"default-list\"> <li>In her youth, Computer Weekly’s Clare McDonald thought a career in IT looked appealing – until she experienced <a href=\"https://www.computerweekly.com/feature/CW60-Get-in-the-kitchen-how-lack-of-inclusion-harms-women-in-tech-every-day\">the uncomfortable truth about attitudes towards women in tech</a>.</li> <li>For a few years, the number of <a href=\"https://www.computerweekly.com/news/366648784/Number-of-girls-choosing-GCSE-computing-drops-for-second-year-in-a-row\">girls choosing computing at GCSE</a> was on the rise, but it has since seen a two-year drop.</li> </ul> </div> </div> </section>"
+    "summary": "<p>This year marks the 15th time Computer Weekly has celebrated the <a href=\"https://www.computerweekly.com/news/366652113/Computer-Weekly-announces-the-Most-Influential-Women-in-UK-Tech-2026\">Most Influential Women in UK Technology</a>, yet women still make up only around 20% of the tech workforce.</p> <p>Not only this, but for twomen who do make it into the tech sector, the environment means <a href=\"https://www.computerweekly.com/news/366627877/Thousands-of-women-in-tech-leave-their-roles-each-year\">thousands are leaving their roles each year</a>, some to move out of the sector altogether.</p> <p>Karen Blake, head of EDIS and this year’s most influential woman in UK tech, says this is because the “programmatic solutions that we’ve worked on so far have been warm jumpers for a cold climate, and now we actually need to do something about that climate”.</p> <div class=\"imagecaption alignLeft\"> <img src=\"https://cdn.ttgtmedia.com/rms/computerweekly/Most-Influential-Women-in-UK-Tech-logo-800px-2026.jpg\" alt=\"Computer Weekly logo for the Most Influential Women in UK Tech 2026\" width=\"181\" height=\"97\"> </div> <section class=\"section main-article-chapter\" data-menu-title=\"Changing the chilly climate\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Changing the chilly climate</h2> <p>As a co-author of the <em><a href=\"https://wearetechwomen.com/2025-lovelace-report/\">Lovelace Report</a></em>, Blake knows more than most how the current climate and culture of the tech sector are not conducive to achieving a diverse workforce.</p> <p>“One of the biggest challenges still is culture in the tech sector,” she says. “We need to think about how we move the culture dial to improve the overall position.”</p> <p>Blake confesses that her own route into tech was “squiggly”, having begun her career with roles focused on human capital at EY and Deloitte, before moving into the education space, and then becoming <a href=\"https://www.computerweekly.com/news/366589038/Tech-Talent-Charter-to-disband-after-nearly-10-years-of-operation\">co-CEO of not-for-profit Tech Talent Charter</a>.</p> <p>She is now a member of the <a href=\"https://www.computerweekly.com/news/366636398/UK-government-launches-Women-in-Tech-Taskforce\">UK government’s Women in Tech Taskforce</a>, and is head of diversity and inclusion collective EDIS.</p> <p>While “squiggly”, the overarching theme of her career has been the importance of giving all people equal access to opportunities. In the tech sector, Blake sees both “joy and frustration”, in that there is a plethora of “brilliant skill” in the industry, which fuels innovation, but there are also higher barriers to entry for so many people who could make the sector “so much more than it is”.</p> <p>The current tech culture is not only preventing certain groups from joining, but also <a href=\"https://www.computerweekly.com/news/366642319/Almost-90-of-women-leave-tech-industry-within-10-years\">making it difficult for those already in the sector to thrive</a>, not only damaging individuals, but also damaging tech development and innovation as a whole.</p> <p>“One of the top-ranked skills is adaptability. You can’t be adaptable without psychological safety, and in an environment where culture is poor, you often don’t have psychological safety,” says Blake.</p> <p>“These things are very much the building blocks of us being able to continue to meet the changes that we’re seeing in our technology workforces and what we’re going to need to do to make the best of those technologies.”</p> <p>Many women in tech experience everything from “microaggressions all the way to sexual assault”, according to Blake, who claims this is “happening at some scale”.</p> <p>“We can’t just continue to allow a culture of harm to be the one that we send so many colleagues into, day in, day out,” she urges.</p> <p>“In terms of the expectation of tech culture, we can’t just settle on ‘tech bro’ culture as the way it always has to be."
   },
   {
     "title": "AI will trade in finance markets instead of humans, says HSBC investment bank boss",
@@ -4078,82 +4027,6 @@
       ]
     },
     "summary": "<p>Martin, a Munich-based company that builds waste-to-energy plants, has deployed the open-source Stackable data platform on German cloud provider Ionos – a move it said keeps its plant telemetry beyond the reach of US <a href=\"https://www.computerweekly.com/news/366645336/Data-dive-Kill-switch-and-catch-up-can-Europe-close-the-sovereignty-gap\">hyperscalers and the US Cloud Act</a>.</p> <p>The firm is a fourth-generation family business founded in 1925 by engineer Josef Martin. It designs, builds and services thermal waste treatment plants. It hands each plant to its client – often a municipality or a public-private partnership – and then supports it for years after. Around 250 people work at its Munich headquarters and more than 1,000 across the group, which has built more than 1,100 incineration lines in its century of operation.</p> <p>Each line carries hundreds of sensors that track combustion, emissions, plant condition and energy recovery."
-  },
-  {
-    "title": "Beyond Nvidia: how alternative silicon is reshaping datacentre design",
-    "url": "https://www.computerweekly.com/feature/Beyond-Nvidia-how-alternative-silicon-is-reshaping-datacentre-design",
-    "source": "ComputerWeekly",
-    "published": "2026-10-15T07:36:00+00:00",
-    "raw_text": "<p>Nvidia’s approach to artificial intelligence (AI) is raw power in action. Electricity flows <a href=\"https://www.computerweekly.com/resources/Data-Centre\">into datacentres</a>, and electrons are turned into the tokens that fuel AI workloads. After being processed by the supplier’s ever more powerful graphics processing units (GPUs), the outcome is whatever the outcome a given enterprise or service provider requires.</p> <p>It is no surprise then that companies’ and countries’ success in the AI battle is measured in <a href=\"https://www.computerweekly.com/news/366650712/Data-dive-London-and-M4-the-datacentre-hotspot-but-not-for-long\">the number of MW, or rather GW, of datacentre capacity</a> they’ve deployed. This means ever more power density – and ever more heat.</p> <p>This has shaped datacentre design over recent years. Demand for power influences the location of facilities, whether that’s repurposed legacy industrial sites with existing grid access, locations in the Nordics with cheap, abundant hydropower, or massive greenfield sites with <a href=\"https://www.computerweekly.com/news/366639248/First-HPE-datacentre-modules-set-to-land-at-Derbyshire-AI-site\">off-grid power generation</a>. On-site, power kit takes up an increasing share of overall footprint, while liquid cooling is now an essential for AI facilities, but which increases the proportion of non-IT – “grey” – space.</p> <p>It’s easy to take as truth that <a href=\"https://www.computerweekly.com/news/366640398/Nvidia-expands-Vera-Rubin-platform-details-Groq-integration\">Nvidia’s chip roadmap</a> will continue to dictate datacentre design for the next decade, but there are hints that we should expect a more diverse datacentre landscape in the future.&nbsp;</p> <section class=\"section main-article-chapter\" data-menu-title=\"CPUs out of the GPU shadow\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>CPUs out of the GPU shadow</h2> <p>“Accelerated” computing dominates AI spend, and Nvidia dominates the market for accelerated computing. Having said that, <a href=\"https://www.idc.com/resource-center/press-releases/2025q3aiinfrastructuretracker/?_gl=1*17xrukx*_up*MQ..*_ga*MzI0NTk3ODYxLjE3ODg4NTY3NjM.*_ga_Y7CNRMFF6J*czE3ODg4NTY3NjMkbzEkZzAkdDE3ODg4NTY3NjMkajYwJGwwJGg5NjMxODExNzM.*_ga_541ENG1F9X*czE3ODg4NTY3NjMkbzEkZzAkdDE3ODg4NTY3NjMkajYwJGwwJGgxNTg3MTkwMzA\">IDC</a> noted last February that “x86 and non-x86 systems saw strong adoption as AI platforms scaled infrastructure to meet rising training and inference requirements”.</p> <p>That rising demand for inference and agentic AI has implications for what goes into datacentres, explains Leo Gergs, research director at ABI Research. That means it plays to Intel, as well as to AMD’s legacy.&nbsp;&nbsp;</p> <p>Other players are hoping to grab a slice of the market too. Qualcomm is pushing its own reference designs for AI racks. And Nvidia has its Grace Hopper architecture, which closely couples Arm-based CPU tech with Nvidia’s GPU silicon on a single chip. However, none of these initiatives are really seeing traction yet, Gergs adds.</p> <p>But according to Dilip Ramachandran, senior director for segment marketing for Arm’s Cloud AI unit, the rise of agentic AI pushes the bottleneck to CPUs in traditional setups where a single CPU is in front of two GPUs.</p> <p>“So, we are talking to a number of customers who are adding CPU clusters to manage tool calling, the orchestration in particular, but also some aspects of reasoning and planning as well,” he says.</p> <p>Gergs says ABI Research expects the ratio of CPUs to GPUs in datacentres to be in the region of six to one, or even seven to one. With CPUs drawing a fraction of the power their Nvidia-branded equivalents suck up, that should rewrite the power and cooling equation for datacentre designers. But it’s not just non-accelerated computing that’s being targeted by alternative silicon suppliers.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Alternative acceleration\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Alternative acceleration</h2> <p>Broadcom’s focus is on accelerated computing parts tailored to customer software and AI models. They operate in a much tighter energy envelope than Nvidia’s flagship chips, which has implications for the amount of power and cooling kit datacentre operators need to design in. Its customer roster includes hyperscalers such as Google and Meta, as well as model makers OpenAI and Anthropic.&nbsp;</p> <p>“Our six XPU customers are accelerating the adoption of custom accelerators, and AI semiconductor revenue more than tripled year over year to $16.7bn,” Broadcom CEO Hock Tan said on its most recent<a href=\"https://finance.yahoo.com/quote/AVGO/earnings/AVGO-Q3-2026-earnings_call-685349.html\"> earnings call</a>. “During the quarter, we delivered Ironwood TPU v7 in high volume to both Anthropic and Google.”</p> <p>Tan claimed the next generation TPU v8i it has begun shipping for Google is optimised for inference workloads, and “in performance, it is comparable – if not surpasses – the Vera Rubin GPU”, adding: “The lesson here is when you co-develop a chip that is optimised for your particular LLM workloads, you will outperform any GPU.” And at substantially lower cost.</p> <p>Beyond Broadcom, Arm’s Ramachandran points out there are a cohort of alternative accelerator suppliers coming up, many of which Arm is partnering with. They are focused on power efficiency and will likely be targeted at specific tasks. He cites Nvidia’s own deal with Groq to boost the GPU giant’s inference capabilities.</p> <p>“That’s where you’re going to have a mix of GPUs in the datacentre,” he predicts. “You’re going to have accelerators which are more power efficient.”</p> <p>Nvidia has advantages which can potentially keep it at the heart of datacentre design, however. Its Cuda platform has underpinned the growth of AI, and effectively ties developers to its platform. But the Cuda moat may become less important, Gergs says, with the gap between AMD’s ROCm and Cuda becoming less significant: “It gradually loses its importance with agentic.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Power and sovereignty: A shift to the edge?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Power and sovereignty: A shift to the edge?</h2> <p>A few years ago, the search for Nvidia GPU silicon was a government-level concern. Now, it looks like datacentre designers and operators will have a far wider silicon menu to choose from – but that doesn’t mean datacentre operators are ripping up blueprints entirely.</p> <p>“Alternative silicon still needs the same energy and cooling to deliver comparable results. Dies are getting smaller and more efficient, but they also provide more compute, so the heat and power profile remains the same,” says Richard Collar, vice-president of customer solutions, Kao Data. So, the “backbone infrastructure” stays the same, and from Kao Data’s perspective, “liquid cooling becomes a necessity”.</p> <p>But other constraints move on a different timescale. Planning approval for datacentres – even when accelerated – is still measured in months and years, as are construction timescales. Grid connections can be measured in decades.</p> <p>In the meantime, the shift to inference makes edge or metro sites with existing power and comms connections a more attractive option, especially as they are closer to customers.</p> <p>The focus on sovereignty and data privacy also shapes datacentre placement, says Gergs. Compute will, in some cases, need to be nearer to the data source, to speed inference and to allay sovereignty or privacy concerns. That shift to the edge, Gergs adds, will mean an increased focus on reference designs and modular designs.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Time to breakup?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Time to breakup?</h2> <p>Meanwhile, specialist inference providers are coming over the horizon.</p> <p>“You will see datacentres breaking up,” says Gergs. “For a number of reasons, particularly when you look at the inference discussion [where] proximity to the data source becomes somewhat important.”</p> <p>That’s the rationale behind Vector Core Compute, backed by Vista Equity, which uses SambaNova’s architecture for token generation in combination with Nvidia for pre-fill, and Intel Xeon for inference and orchestration.</p> <p>SambaNova CEO Rodrigo Liang describes the objective as a “focus on ultra low latency, ultra low cost by deploying AI in the top 50 metropolitan cities in the United States,” adding that this&nbsp;approach is “very pertinent to the European sovereign story” because the two main limiters are the sizing of power and land.</p> <p>“I think the enterprises are just waking up,” Liang says. “For you to actually engage with businesses, real-time is going to be important, and real-time means you’ve got to be where people do business.” That means places where power and land is at a premium. “You can’t drop a gigawatt datacentre in the middle of London.”</p> <p>No government is going to exclude the big hyperscalers from their national AI strategies, Liang says, but governments and customers will want a choice. “It’s going to be heterogeneous,” he says. “Governments are going to bring in a mix, right?”</p> <p>More importantly, SambaNova has stated that “Vista’s enterprise AI inference cloud, utilises air cooling to deliver sustainable, low-cost<a href=\"https://www.vistaequitypartners.com/investing-in-ai/ai-glossary/#inference\"> inference</a>”,&nbsp; although it’s not clear whether its sites will be entirely air-cooled.</p> <p>Arm’s Ramachandran is less convinced about extended life support for air cooling. The demand for AI is so high that datacentre operators will do whatever they can to extract maximum performance from every watt they can get into their facility. And, he says, set against rack costs in the millions, the extra cost of liquid cooling compared to air is marginal.</p> <p>“Once you have a hall that’s liquid cooled, then you typically have only liquid cooled servers in there,” he says. “So, they expect the CPU to be liquid cooled, and they want it to be dense compute.”</p> <p>Kao Data’s Collar agrees, adding: “Future data halls will host CPU, GPU and quantum racks side by side, complementing one another. Our job is to deliver high-density power and cooling to the technology suite, with each rack configuration tailored to the customer, whatever silicon they choose.”</p> <p>What does this mean for enterprises? Datacentre operators and hyperscalers will no doubt do whatever they can to get capacity deployed.</p> <p>But ultimately, Gergs suggests, enterprise customers will be largely indifferent to these architectural questions, unless they’re looking to build their own infrastructure: “They’re more interested in clearly answering operational questions like data protection, data privacy.”</p> <p>They will take inference capacity as and where they can, says Gergs, as long as their data is not being used to train someone else’s model. “The rest I think they don’t really care about,” he says.&nbsp;</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about datacentre design</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366643673/Datacentre-dive-AI-factory-power-draw-changes-the-grid-calculus\">Datacentre dive: AI factory power draw changes the grid calculus</a>. We look at energy as the key driver – and bottleneck – in development, and why water use is less of an issue now datacentres use liquid cooling over air cooling</li> <li><a href=\"https://www.computerweekly.com/news/366639658/Huge-grid-and-heat-challenges-ahead-as-Nvidia-set-for-1MW-rack\">Huge grid and heat challenges ahead as Nvidia set for 1MW rack</a>. With Nvidia Feynman in 2028, 1MW datacentre racks will produce as much heat as 200 5kW ovens. Industry and government must respond, says Schneider Electric UK datacentre executive</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Data Centres",
-      "Industry & Market",
-      "Networks",
-      "GRC",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "latency",
-        "wan",
-        "lan"
-      ],
-      "GRC": [
-        "data protection",
-        "privacy"
-      ],
-      "Data Centres": [
-        "hyperscale",
-        "cooling",
-        "rack",
-        "capacity",
-        "liquid cooling"
-      ],
-      "Industry & Market": [
-        "expands",
-        "ey",
-        "idc",
-        "service provider"
-      ]
-    },
-    "summary": "<p>Nvidia’s approach to artificial intelligence (AI) is raw power in action. Electricity flows <a href=\"https://www.computerweekly.com/resources/Data-Centre\">into datacentres</a>, and electrons are turned into the tokens that fuel AI workloads. After being processed by the supplier’s ever more powerful graphics processing units (GPUs), the outcome is whatever the outcome a given enterprise or service provider requires.</p> <p>It is no surprise then that companies’ and countries’ success in the AI battle is measured in <a href=\"https://www.computerweekly.com/news/366650712/Data-dive-London-and-M4-the-datacentre-hotspot-but-not-for-long\">the number of MW, or rather GW, of datacentre capacity</a> they’ve deployed. This means ever more power density – and ever more heat.</p> <p>This has shaped datacentre design over recent years."
-  },
-  {
-    "title": "AIforce World Tour: Salesforce promises free Slack access to UK students",
-    "url": "https://www.computerweekly.com/news/366652236/AIforce-World-Tour-Salesforce-promises-free-Slack-access-to-UK-students",
-    "source": "ComputerWeekly",
-    "published": "2026-10-15T07:15:00+00:00",
-    "raw_text": "<p><a href=\"https://www.computerweekly.com/feature/CW60-Action-is-the-antithesis-of-anxiety\">Zahra Bahrololoumi</a>, CEO of Salesforce for UK and Ireland, announced at the supplier’s AIforce World Tour London event that it will provide free Slack Enterprise access to British further and higher education students.</p> <p>The supplier said the initiative is part of a $6bn investment in the country’s economy.</p> <p>“Young people will define the next decade of UK business, and it’s imperative that students across all disciplines are able to learn to use AI responsibly,” said Bahrololoumi. “By bringing Slack and AI-powered tools like Slackbot directly into further and higher education, we are giving young people hands-on experience with the exact technology and operating system used by organisations across the UK. Ultimately, this creates a stronger talent pipeline for UK employers and ensures that the benefits of technology can be felt across every postcode.”</p> <p>In a briefing with a small group of UK press at the supplier’s recent <a href=\"https://www.computerweekly.com/news/366650200/Dreamforce-2026-Marc-Benioff-beats-customer-data-drum-for-business-AI-use\">Dreamforce event in San Francisco</a>, she said Salesforce UK and Ireland is looking to help repatriate jobs in the broader economy as well as at the firm, using automation made possible by the use of AI.</p> <p>“We need more talent,” said Bahrololoumi. “I feel so confident, and we’ve got the evidence and the proof points that this [AI] technology and our platform can work and automate jobs, and augment jobs and expand human capacity, that I would like to see more jobs being repatriated from offshore and low-cost locations and jobs being created back in the UK.</p> <p>“I would like to see a stronger drive around automation and repatriation. Why can we not create a hundred jobs in the UK and still do 300-plus worth of capacity?”</p> <p>Today’s announcement is said to be aimed at closing a digital skills gap in the UK, “giving students a single place to learn, connect, and build real AI skills – right where their everyday conversations happen”.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Salesforce’s UK activities</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366632839/UK-Salesforce-execs-Agentforce-begins-to-stoke-new-business-forms\">UK Salesforce execs: Agentforce begins to stoke new business forms</a>: Salesforce UK CEO Zahra Bahrololoumi and CTO Paul O’Sullivan put Dreamforce 2025 discourse about agentic AI into a UK context.</li> <li><a href=\"https://www.computerweekly.com/microscope/news/366644879/Salesforce-UK-boss-underlines-role-of-channel\">Salesforce UK boss underlines role of channel</a>: As the vendor pulled together partners and customers at its June 2026 London World Tour event, there has been a chance to promote its commitment to its channel base.</li> <li><a href=\"https://www.computerweekly.com/news/366644097/Prince-William-charity-and-Salesforce-set-up-data-lab-to-tackle-homelessness\">Prince William charity and Salesforce set up data lab to tackle homelessness</a>: Prince William’s Homewards charity is partnering with Salesforce and LandAid to launch a data lab with the aim of using data technology to predict and prevent homelessness.&nbsp;</li> </ul> </div> </div> <p>The supplier cited <a target=\"_blank\" href=\"https://www.jobsofthefuture.co/salesforce-ai-poll\" rel=\"noopener\">research</a> it commissioned with Jimmy’s Jobs of the Future, a business podcast and media production, and carried out by Focaldata, a London-based research company that extensively uses AI, that said 61% of UK workers receive no AI training. And added that <a target=\"_blank\" href=\"https://www.gov.uk/government/publications/young-people-and-work-interim-report/young-people-and-work-interim-report\" rel=\"noopener\">one million</a> young people are classified as not in education, employment or training, according to UK government figures.</p> <p>Salesforce has previously announced a <a target=\"_blank\" href=\"https://www.salesforce.com/uk/news/press-releases/2025/09/16/united-kingdom-investment-announcement/\" rel=\"noopener\">$6bn investment</a> in its UK business through to 2030. In May 2026, it said it had <a href=\"https://www.salesforce.com/uk/news/press-releases/2026/05/20/ai-centre-london-campus/\">expanded its London campus</a>, relocating its AI Centre to Devonshire Square in London. It says the campus has since welcomed schools whose students have taken part in AI skills workshops.&nbsp;</p> <p>With the free Slack Enterprise offer, Salesforce said universities can introduce AI agents directly into Slack channels to handle student services queries, coordinate study groups and assist academic research teams.</p> <p>It said each HE or FE institution will retain full administrative control: “Colleges and universities can set customised permissions and guardrails based on their needs. Student data remains strictly protected, compliant with UK data regulations, and is never used to train external AI models.”</p> <p>In an <a href=\"https://www.computerweekly.com/feature/CW60-Action-is-the-antithesis-of-anxiety\">essay</a> that was part of Computer Weekly’s 60th anniversary publishing programme, Bahrololoumi said: “AI could insulate us from the need to figure it out together. I could feasibly sit at home, experimenting with the latest tools. Would I learn things? Of course. Would I learn as much as I do by exchanging ideas, challenging assumptions and working through problems together with people? I’m not convinced.</p> <p>“That’s why human skills will always be in demand,” she said. “As AI handles routine tasks, we must continue to nurture talent and not sacrifice entry-level roles.”</p>",
-    "categories": [
-      "GRC",
-      "Industry & Market",
-      "Networks",
-      "Data Centres",
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "GRC": [
-        "regulation",
-        "nist"
-      ],
-      "Data Centres": [
-        "capacity"
-      ],
-      "Industry & Market": [
-        "investment",
-        "vendor"
-      ],
-      "Digital Customer Experience": [
-        "salesforce"
-      ]
-    },
-    "summary": "<p><a href=\"https://www.computerweekly.com/feature/CW60-Action-is-the-antithesis-of-anxiety\">Zahra Bahrololoumi</a>, CEO of Salesforce for UK and Ireland, announced at the supplier’s AIforce World Tour London event that it will provide free Slack Enterprise access to British further and higher education students.</p> <p>The supplier said the initiative is part of a $6bn investment in the country’s economy.</p> <p>“Young people will define the next decade of UK business, and it’s imperative that students across all disciplines are able to learn to use AI responsibly,” said Bahrololoumi. “By bringing Slack and AI-powered tools like Slackbot directly into further and higher education, we are giving young people hands-on experience with the exact technology and operating system used by organisations across the UK. Ultimately, this creates a stronger talent pipeline for UK employers and ensures that the benefits of technology can be felt across every postcode.”</p> <p>In a briefing with a small group of UK press at the supplier’s recent <a href=\"https://www.computerweekly.com/news/366650200/Dreamforce-2026-Marc-Benioff-beats-customer-data-drum-for-business-AI-use\">Dreamforce event in San Francisco</a>, she said Salesforce UK and Ireland is looking to help repatriate jobs in the broader economy as well as at the firm, using automation made possible by the use of AI.</p> <p>“We need more talent,” said Bahrololoumi. “I feel so confident, and we’ve got the evidence and the proof points that this [AI] technology and our platform can work and automate jobs, and augment jobs and expand human capacity, that I would like to see more jobs being repatriated from offshore and low-cost locations and jobs being created back in the UK.</p> <p>“I would like to see a stronger drive around automation and repatriation."
   },
   {
     "title": "Have a Meta business account? You’re consenting to AI scraping now, legal experts say",
@@ -4401,66 +4274,6 @@
     "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- - ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 8, 2026 to file lead plaintiff applications in a securities class action lawsuit against Millrose Properties, Inc. (\"Millrose\" or the..."
   },
   {
-    "title": "Ensign Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Ensign Group, Inc. - ENSG",
-    "url": "https://www.prnewswire.com/news-releases/ensign-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-ensign-group-inc---ensg-302911680.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-17T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")..."
-  },
-  {
-    "title": "Beta Bionics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Beta Bionics, Inc. - BBNX",
-    "url": "https://www.prnewswire.com/news-releases/beta-bionics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-beta-bionics-inc---bbnx-302911666.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-17T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 3, 2026 to file lead plaintiff applications in a securities class action lawsuit against Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\")...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 3, 2026 to file lead plaintiff applications in a securities class action lawsuit against Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\")..."
-  },
-  {
-    "title": "York Space Systems Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against York Space Systems, Inc. - YSS",
-    "url": "https://www.prnewswire.com/news-releases/york-space-systems-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-york-space-systems-inc---yss-302911693.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-17T02:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against York Space Systems, Inc. (\"York Space Systems\" or the...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against York Space Systems, Inc. (\"York Space Systems\" or the..."
-  },
-  {
     "title": "Hims & Hers Health Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Hims & Hers Health, Inc. - HIMS",
     "url": "https://www.prnewswire.com/news-releases/hims--hers-health-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-hims--hers-health-inc---hims-302911689.html",
     "source": "PR Newswire - Technology",
@@ -4519,6 +4332,66 @@
       ]
     },
     "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against Duolingo, Inc. (\"Duolingo\" or the \"Company\") (NasdaqGS:..."
+  },
+  {
+    "title": "Ensign Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Ensign Group, Inc. - ENSG",
+    "url": "https://www.prnewswire.com/news-releases/ensign-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-ensign-group-inc---ensg-302911680.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-17T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")..."
+  },
+  {
+    "title": "Beta Bionics Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Beta Bionics, Inc. - BBNX",
+    "url": "https://www.prnewswire.com/news-releases/beta-bionics-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-beta-bionics-inc---bbnx-302911666.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-17T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 3, 2026 to file lead plaintiff applications in a securities class action lawsuit against Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\")...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until November 3, 2026 to file lead plaintiff applications in a securities class action lawsuit against Beta Bionics, Inc. (\"Beta Bionics\" or the \"Company\")..."
+  },
+  {
+    "title": "York Space Systems Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against York Space Systems, Inc. - YSS",
+    "url": "https://www.prnewswire.com/news-releases/york-space-systems-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-york-space-systems-inc---yss-302911693.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-17T02:00:00+00:00",
+    "raw_text": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against York Space Systems, Inc. (\"York Space Systems\" or the...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, Oct. 16, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against York Space Systems, Inc. (\"York Space Systems\" or the..."
   },
   {
     "title": "Brightmoor Hospice, LLC Provides Notification of Data Security Incident",
@@ -4590,10 +4463,10 @@
   },
   {
     "title": "EVIDENT Expands Its Pramana Digital Pathology Portfolio to Support Small and Medium-Sized Labs",
-    "url": "https://www.prnewswire.com/news-releases/evident-expands-its-pramana-digital-pathology-portfolio-to-support-small-and-medium-sized-labs-302911716.html",
+    "url": "https://www.prnewswire.com/news-releases/evident-expands-its-pramana-digital-pathology-portfolio-to-support-small-and-medium-sized-labs-302911714.html",
     "source": "PR Newswire - Technology",
     "published": "2026-10-17T00:30:00+00:00",
-    "raw_text": "The new Pramana™ POD benchtop WSI scanner delivers autonomous imaging to help laboratories create pathologist-ready whole slide images with minimal operator intervention. NEEDHAM, Mass., Oct. 17, 2026 /PRNewswire/ -- Today, Evident announced the Pramana™ POD whole slide imaging (WSI)...",
+    "raw_text": "The new Pramana™ POD benchtop WSI scanner delivers autonomous imaging to help laboratories create pathologist-ready whole slide images with minimal operator intervention. NEEDHAM, Mass., Oct. 16, 2026 /PRNewswire/ -- Today, Evident announced the Pramana™ POD whole slide imaging (WSI)...",
     "categories": [
       "Industry & Market"
     ],
@@ -4602,7 +4475,7 @@
         "expands"
       ]
     },
-    "summary": "The new Pramana™ POD benchtop WSI scanner delivers autonomous imaging to help laboratories create pathologist-ready whole slide images with minimal operator intervention. NEEDHAM, Mass., Oct. 17, 2026 /PRNewswire/ -- Today, Evident announced the Pramana™ POD whole slide imaging (WSI)..."
+    "summary": "The new Pramana™ POD benchtop WSI scanner delivers autonomous imaging to help laboratories create pathologist-ready whole slide images with minimal operator intervention. NEEDHAM, Mass., Oct. 16, 2026 /PRNewswire/ -- Today, Evident announced the Pramana™ POD whole slide imaging (WSI)..."
   },
   {
     "title": "Replit’s CEO says the future of work is the ‘self-driving company’ - TechCrunch",
@@ -4619,6 +4492,22 @@
       ]
     },
     "summary": "Replit’s CEO says the future of work is the ‘self-driving company’ TechCrunch"
+  },
+  {
+    "title": "5 myths about AI, jobs and the future of work - NTT Data",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZXliX3hjTmF1eHI1SHJYaHp4U2NITnlmcElJU0x3R3hqRkdSUlRCTzBwSG1BU0dhN0dtc0tNQ1RBd2FmcmdSWW9UbDczR1UxbHJ1cWR4V21MUExReElrTWdXTFJsLUVZOXJxWmNUZ3MtQ1BoVTFsWTNKeVBnWmxVdjNNckY0STdYWkxmLVdiTmNFZw?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-10-16T03:47:47+00:00",
+    "raw_text": "5 myths about AI, jobs and the future of work NTT Data",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "5 myths about AI, jobs and the future of work NTT Data"
   },
   {
     "title": "Workstation Accessories Market Forecast to 2035: Ergonomics and Hybrid Work Drive Growth - News and Statistics - IndexBox",
@@ -4639,22 +4528,6 @@
       ]
     },
     "summary": "Workstation Accessories Market Forecast to 2035: Ergonomics and Hybrid Work Drive Growth - News and Statistics IndexBox"
-  },
-  {
-    "title": "Skillprint partners with ASU to power microcredentials based on gameplay for future of work | exclusive - GamesBeat",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTG5pQ2F3WWR4eXQ0d2ROUWE0a2xHS0prbFFRaVk1X04zdTJhaC0zcGxuUkxucE5FZVJ5NFpyT0FLRGV3TFJMTjk5Q0s1Wkd3Z1NwSFJUcmMzRTlQMmgtUy1xajVfR3lheFFUNEZNdlB6U2hTcjVMVkNUVnFzZEVzRlZwYVQ4TTNmekR3VUxGQ21qNWZXcXdyM1hoUVdxZzNJM1lheHZaeVpxakNpSklUWVlwNTQzUkJxcll6bE1QVGwzUQ?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-10-16T14:19:20+00:00",
-    "raw_text": "Skillprint partners with ASU to power microcredentials based on gameplay for future of work | exclusive GamesBeat",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "Skillprint partners with ASU to power microcredentials based on gameplay for future of work | exclusive GamesBeat"
   },
   {
     "title": "Trellis Brings State Trial Court Research to Microsoft 365 Copilot - PR Newswire",
@@ -4692,6 +4565,22 @@
       ]
     },
     "summary": "Workday Channel Chief: Partners Are Key To AI And ‘Defining The Future Of Work’ CRN"
+  },
+  {
+    "title": "Skillprint partners with ASU to power microcredentials based on gameplay for future of work | exclusive - GamesBeat",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTG5pQ2F3WWR4eXQ0d2ROUWE0a2xHS0prbFFRaVk1X04zdTJhaC0zcGxuUkxucE5FZVJ5NFpyT0FLRGV3TFJMTjk5Q0s1Wkd3Z1NwSFJUcmMzRTlQMmgtUy1xajVfR3lheFFUNEZNdlB6U2hTcjVMVkNUVnFzZEVzRlZwYVQ4TTNmekR3VUxGQ21qNWZXcXdyM1hoUVdxZzNJM1lheHZaeVpxakNpSklUWVlwNTQzUkJxcll6bE1QVGwzUQ?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-10-16T14:19:20+00:00",
+    "raw_text": "Skillprint partners with ASU to power microcredentials based on gameplay for future of work | exclusive GamesBeat",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "Skillprint partners with ASU to power microcredentials based on gameplay for future of work | exclusive GamesBeat"
   },
   {
     "title": "Let voices be heard: employee survey closes Oct. 20 - Boise State University",
@@ -4814,54 +4703,6 @@
     "summary": "VZMORE AX9 Max Mini AI PC Review: Local AI Without Surrendering Your Desk Yanko Design"
   },
   {
-    "title": "Omnissa launches Elara beta for AI governance control - IT Brief UK",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS04tOE9JakZkRE5PbGJKM3h0X1h2dXF4aGs3SVBjNDRsMERxRExVY3IwT190bjdYUlNtd253RVZxNTFQLUlCV1lFYWhPUDlRY2lPdHpxbFl2eHNhcVlrd3dPSzB1Nk5SVzdqbFFOT3dSYnhwSVl0NElhTWRHR1hfb2tUaDJQaHhs?oc=5",
-    "source": "Google News: End User Computing",
-    "published": "2026-10-15T07:30:00+00:00",
-    "raw_text": "Omnissa launches Elara beta for AI governance control IT Brief UK",
-    "categories": [
-      "GRC",
-      "Industry & Market",
-      "End User Computing"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "governance"
-      ],
-      "Industry & Market": [
-        "launches"
-      ],
-      "End User Computing": [
-        "omnissa"
-      ]
-    },
-    "summary": "Omnissa launches Elara beta for AI governance control IT Brief UK"
-  },
-  {
-    "title": "Omnissa launches AI tools as endpoint use surges 1,000% - SecurityBrief Asia",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSnlyZ29BWDNadENXNmtSQmVES0VXa0FwTHM0cEMtU1I5ekZpd21iYzI5YVB5czZkbVpoZUdkMXVBN19lb1lsVGNGbko1MmxQcUR3bk9MLTFUeHhuRFh4LWlFOXFWQVlfai1DQkwxZ1M5MXFNWFkyQXJyWmNRYzJDOXdTYjhRcVhxVUEzLXdVdVY?oc=5",
-    "source": "Google News: End User Computing",
-    "published": "2026-10-15T07:30:00+00:00",
-    "raw_text": "Omnissa launches AI tools as endpoint use surges 1,000% SecurityBrief Asia",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market",
-      "End User Computing"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "launches"
-      ],
-      "End User Computing": [
-        "omnissa"
-      ]
-    },
-    "summary": "Omnissa launches AI tools as endpoint use surges 1,000% SecurityBrief Asia"
-  },
-  {
     "title": "Nvidia Launches AI PC ‘RTX Spark’ in South Korea, Vows to Accelerate Agent AI Era - bloomingbit",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FaTBPYklhVEdLZU5reFU0R1hpVGZ6eVMwNEh5bm1BUVZYOC1UajJuTDRLd0tCMHI1alJLOUJ5N29qWloxMHBpMFVHZEtCNlR0a21tSg?oc=5",
     "source": "Google News: End User Computing",
@@ -4974,22 +4815,6 @@
     "summary": "Tectorius Launches New Website to Enhance Customer Experience, Access to Technical Resources Products Finishing"
   },
   {
-    "title": "Agentic AI could solve an energy customer experience crisis - Enlit World",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0hxY2U5cVRoUk95V1J4cENWMmN4eEdfakxlZjJ1SmZSWGRIYkxLNHRLUGNFVVlfXzBJSGxXWkNTYUEyRWJtTkU2MExVc3VUSzJUVkdhbFdya05CeXdjSUZ4SGplMjRFSDE3WlBtanFkaG1feW9tSVMtM3RsZ0xJQnJ1X1RacTFHUkxBa1JsMDgtaGFvRHc?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-16T10:02:29+00:00",
-    "raw_text": "Agentic AI could solve an energy customer experience crisis Enlit World",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Agentic AI could solve an energy customer experience crisis Enlit World"
-  },
-  {
     "title": "COTA launches Customer Experience Action Plan - Mass Transit",
     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNT185TnZ5cWR6TmIyZzI1VGM2VVEwUnlIU0RuWmhfZUdib3k2bzV0TUxFcU1iQUhFb1hfNXVET0o1d2Z0Q2RrM3h3R1V3UEdvdVYzMzI0TnZlWmEwZmFNUjQyVEI2WXJJa1dNODd1YTV5N19odXd0R1NyQndTbDNobTdCOUYwdFB5ZDNsMEIzdWRocGctdXROVU5DQ2NPWVJ1bnpuTkNBel9LNkRGcllDUV9uTnB0SlBlRW0zRjVoU0lJNXFmNXJDMVBKY2Y2VmRwb2JF?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5034,6 +4859,22 @@
     "summary": "Beyond Silos: Omnichannel Integration, Financial Inclusion Mexico Business News"
   },
   {
+    "title": "Agentic AI could solve an energy customer experience crisis - Enlit World",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS0hxY2U5cVRoUk95V1J4cENWMmN4eEdfakxlZjJ1SmZSWGRIYkxLNHRLUGNFVVlfXzBJSGxXWkNTYUEyRWJtTkU2MExVc3VUSzJUVkdhbFdya05CeXdjSUZ4SGplMjRFSDE3WlBtanFkaG1feW9tSVMtM3RsZ0xJQnJ1X1RacTFHUkxBa1JsMDgtaGFvRHc?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-16T10:02:29+00:00",
+    "raw_text": "Agentic AI could solve an energy customer experience crisis Enlit World",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Agentic AI could solve an energy customer experience crisis Enlit World"
+  },
+  {
     "title": "Conversational AI Ordering Kiosks: Square Introduces Voice-Enabled Self-Service Ordering - Trend Hunter",
     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50R1NHdFJvTEhQLXp5ZXNRQWJXQ3d1NVY4bmIzalFPSFJqVkUwUG53Mng0VVNEX0pMLW81bk1ucFRHREdQcWtuQ2lWb2ZzVzJxeGF3dHhZY0txOUZnMFpPdGdQR3hhallrSmwzOXVrVXVaQy1WRk9V?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5066,6 +4907,26 @@
     "summary": "The Hidden Cost of Manual Contact Center Scheduling CX Today"
   },
   {
+    "title": "FourNet Acquires SVL Business Solutions, Creating £65 Million Customer Experience And AI Business - Pulse 2.0",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN3ZIa0s4UTZYM295UVZOYzBRNUJnUGdaUWVqTXZzaHRZTHZzdmllOHlSOWo0SW5PeGdXZ3ctSXpQeDJ2N0J3amVyVktjNmM1NHBsZHJmb29tRjlPNmZWb3Y2MnlXaUhrUm1rTVhPaDh3X2s2OG1pUjVMNWVxMDlPVGZqTjBxZnB6VDlyajRoazBvd1N4VnVCdDRXYmFYZmc4ZHdWT3ZKVDlrb19IMTNIZDhSWWlydw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-15T17:39:40+00:00",
+    "raw_text": "FourNet Acquires SVL Business Solutions, Creating £65 Million Customer Experience And AI Business Pulse 2.0",
+    "categories": [
+      "Industry & Market",
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquires"
+      ],
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "FourNet Acquires SVL Business Solutions, Creating £65 Million Customer Experience And AI Business Pulse 2.0"
+  },
+  {
     "title": "Convenience retailer expands autonomous apartment retail network to 5 locations - Retail Customer Experience",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUXhab2RqYklIbXN5d2F2NzQyckRaa1M4ckRPSkdrUGFZd21pckNxTlo5LWxtc1BBUTR2MkhhNFpfdVUwdW1FQ1VOU0RWTW9udWJxRDhOcDcxTVJLdktRcEZkQzE2aktIcUpocTRLOVAxUjhTa1pJRFhEU1dSSHBITC1oNFg3VXhkSHdKakNXWVp2dUkzQlg5OHZxemJ5c0RKT19KeExySG1DazBUM09uV0ZyRW50YVpuc2pRcWxxX1JYUVNt?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5090,22 +4951,6 @@
     "summary": "Convenience retailer expands autonomous apartment retail network to 5 locations Retail Customer Experience"
   },
   {
-    "title": "Love's retail media campaign drives big sales - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUVyU2gybUw5R0ZsWFFxZ0pHM3hlNzF3OUVpYlVjZ05aU3RTb1M3TzFqR3FpMXlLRWJJcnRxblNncU44allpNUZENUVSclhvZmRJQ2w0dDh4THZOcUp5SG5zUUgyYjlzRV9iZEtkRVA4OGRTZFJ6MFBXU3V6bWxBdWtGclBoajlyeGtiWklsdXZrcHIyT0E?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-16T10:00:00+00:00",
-    "raw_text": "Love's retail media campaign drives big sales Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Love's retail media campaign drives big sales Retail Customer Experience"
-  },
-  {
     "title": "Aurora Mobile's GPTBots.ai Helps NTS Turn 38 Years of Contact Center Expertise into Human-Led AI - Finviz",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd1VUb1hrLXpReTJXSG1JWnJIWGxmWEZhdV82RTRIRUpCS0txamRzamtoUElkUU1NWjAzRnp6RU50VUVnejBON1lYYnotRlNEMFFUQWdnY0djTU9vQmxIbVlWVnZvZjlnZ2R2NVprSjdBOFhkRzY1NHJONnZ5UXlVR1pLR0xzQnRta1F1ellBWGwxXzlWb2hqc2FQZmE4QWFVaVpSZHBXX05WN2ZlM1NfZndWclZhOUotUnU2OXZvSDdfcFU?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5120,6 +4965,22 @@
       ]
     },
     "summary": "Aurora Mobile's GPTBots.ai Helps NTS Turn 38 Years of Contact Center Expertise into Human-Led AI Finviz"
+  },
+  {
+    "title": "Love's retail media campaign drives big sales - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUVyU2gybUw5R0ZsWFFxZ0pHM3hlNzF3OUVpYlVjZ05aU3RTb1M3TzFqR3FpMXlLRWJJcnRxblNncU44allpNUZENUVSclhvZmRJQ2w0dDh4THZOcUp5SG5zUUgyYjlzRV9iZEtkRVA4OGRTZFJ6MFBXU3V6bWxBdWtGclBoajlyeGtiWklsdXZrcHIyT0E?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-16T10:00:00+00:00",
+    "raw_text": "Love's retail media campaign drives big sales Retail Customer Experience",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Love's retail media campaign drives big sales Retail Customer Experience"
   },
   {
     "title": "C-store shoppers favor faster checkout but want human assistance - Retail Customer Experience",
@@ -5140,26 +5001,6 @@
       ]
     },
     "summary": "C-store shoppers favor faster checkout but want human assistance Retail Customer Experience"
-  },
-  {
-    "title": "FourNet Acquires SVL Business Solutions, Creating £65 Million Customer Experience And AI Business - Pulse 2.0",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN3ZIa0s4UTZYM295UVZOYzBRNUJnUGdaUWVqTXZzaHRZTHZzdmllOHlSOWo0SW5PeGdXZ3ctSXpQeDJ2N0J3amVyVktjNmM1NHBsZHJmb29tRjlPNmZWb3Y2MnlXaUhrUm1rTVhPaDh3X2s2OG1pUjVMNWVxMDlPVGZqTjBxZnB6VDlyajRoazBvd1N4VnVCdDRXYmFYZmc4ZHdWT3ZKVDlrb19IMTNIZDhSWWlydw?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-15T17:39:40+00:00",
-    "raw_text": "FourNet Acquires SVL Business Solutions, Creating £65 Million Customer Experience And AI Business Pulse 2.0",
-    "categories": [
-      "Industry & Market",
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "acquires"
-      ],
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "FourNet Acquires SVL Business Solutions, Creating £65 Million Customer Experience And AI Business Pulse 2.0"
   },
   {
     "title": "Can Enterprises Trust AI to Do the Work, Not Just the Demo? - CX Today",
@@ -5210,22 +5051,6 @@
     "summary": "TELUS Digital Partners With Parloa to Enhance AI Customer Experience MarTech Cube"
   },
   {
-    "title": "Mom-daughter team debuts 24-hour flower vending machine - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVFRZQXN4MnVFalYxeWN4X1U3Q2Q3c1RtWlI4aTlKb0NJZGRqbzlrVHJpUkMwa1VVLW5pTEduMVZ0OXR1eVdmOW9pQ2w5a25DSzZJbEI5M3VDSzRCcHB1X2hIQ1lpR19YOVhfS3I2TFlBbDJDQkpsQmY2Z2FEdXRCX0RvSFg4ZllKWVFWUld3MkM0VUdVYWJSYUUyTXdTVE1RbVNRTg?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-16T10:00:00+00:00",
-    "raw_text": "Mom-daughter team debuts 24-hour flower vending machine Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Mom-daughter team debuts 24-hour flower vending machine Retail Customer Experience"
-  },
-  {
     "title": "COTA releases plan to improve bus reliability, rider experience - The Columbus Dispatch",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdmc5VDNpSjBHSDg0Tl9LM3RSQkxBa1RFbVhLUE1ZMlhheUpiTEt3MmFiSXZwUVdiTFk5ZjVKTkx0RFBlM1JmTnYxX3prTFVtZTJ5NFFfNWFNNUp1dzJFUkZmVDBPSlFyY3YzVXRuc0Q5WFluNW9KUFRnNE9NZVBWTkZsVVMwMHhGd3ZNOWxaZHhpZWlkQU1wLXA2QXFxVngtWktVRnZnUDlnLXRiTXh3b2gtb0FaMEcwc0k3ekRZTDdZZ0U?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5242,11 +5067,11 @@
     "summary": "COTA releases plan to improve bus reliability, rider experience The Columbus Dispatch"
   },
   {
-    "title": "Why Resolution Is No Longer Enough for Customer Experience Leaders - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVTlTbjFkTnJrRkZzd3M3UnVuT2pNcG1nS0lkMXFsZGd6RnEyWjMtTEZLSmZoTUpXOF9ZZllPV0JwQThzMjNiNUVHMjlVMTY5YjRIVFMwSDRsNTNRZkNIOW9kZ1VEY1U5NHdZQ1lWSXdlLXFDYzZadFF2Vm53WHZsMHloUC1SVVh5U1ktOU0wUHhyYkxzN0d0TjQzOXRJQ2s?oc=5",
+    "title": "Mom-daughter team debuts 24-hour flower vending machine - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVFRZQXN4MnVFalYxeWN4X1U3Q2Q3c1RtWlI4aTlKb0NJZGRqbzlrVHJpUkMwa1VVLW5pTEduMVZ0OXR1eVdmOW9pQ2w5a25DSzZJbEI5M3VDSzRCcHB1X2hIQ1lpR19YOVhfS3I2TFlBbDJDQkpsQmY2Z2FEdXRCX0RvSFg4ZllKWVFWUld3MkM0VUdVYWJSYUUyTXdTVE1RbVNRTg?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-15T12:32:12+00:00",
-    "raw_text": "Why Resolution Is No Longer Enough for Customer Experience Leaders CX Today",
+    "published": "2026-10-16T10:00:00+00:00",
+    "raw_text": "Mom-daughter team debuts 24-hour flower vending machine Retail Customer Experience",
     "categories": [
       "Digital Customer Experience"
     ],
@@ -5255,23 +5080,7 @@
         "customer experience"
       ]
     },
-    "summary": "Why Resolution Is No Longer Enough for Customer Experience Leaders CX Today"
-  },
-  {
-    "title": "SecureKloud Introduces A New Conversational AI Feature Within DocuGenie.AI - Outlook Business",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQkdaMTNYdHJZR3hieTAwQ3dTMkpLNFBhNFpZSDlaNjhKa2dSb3NXZFVuVklxRlFoQ21pbWpJYnJydVROaTktX1Rnck9EMGQxemdueEdwQ2xadVBMYnRZWER6RXR5UnVQNExxYlNGTHBuMFpHLUltNnhzY09kM2hmU1RTUC1tM2d4NW5ONEJQdE9aZE5tTS1jU2wzZGRiUkNlNFdsQXdzOUlwR292TjNjWmJwN0JIaE1NSjlEU1VwUXPSAc4BQVVfeXFMT2FfN29KZXpaMVpnR0lNZnFMMGtsWnRkTkdUazVUaFJNNzQxU2htMDgzTVNObF9pRU82SUd6LXcxWFVtMFluOFA4dVFQOTByQU43dFFrVTRJRTd2M3gxN0g4TzZ3dExILXJTbEVJX3lTMVJsdXB0bFBKd3JuWWxwaE96SV9JVm9VV1ZZc2xlYUVwWkJRSmtXV2pya29Sb1lFb1lEdVBndV95T0htQ3dwd2tFbi1mUld4VldMYkxVLTlvUVFWQ1ZveDc1Wkc5UHc?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-16T12:05:16+00:00",
-    "raw_text": "SecureKloud Introduces A New Conversational AI Feature Within DocuGenie.AI Outlook Business",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "conversational ai"
-      ]
-    },
-    "summary": "SecureKloud Introduces A New Conversational AI Feature Within DocuGenie.AI Outlook Business"
+    "summary": "Mom-daughter team debuts 24-hour flower vending machine Retail Customer Experience"
   },
   {
     "title": "TP Receives Frost & Sullivan's 2026 Latin America Competitive Strategy Leadership Recognition in the Customer Experience Management Industry - The Globe and Mail",
@@ -5290,11 +5099,11 @@
     "summary": "TP Receives Frost & Sullivan's 2026 Latin America Competitive Strategy Leadership Recognition in the Customer Experience Management Industry The Globe and Mail"
   },
   {
-    "title": "SecureKloud Introduces a New Conversational AI Feature Within DocuGenie.AI - ThePrint",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ2RITGJYZlBsQnJfNnBjdXEySmpRMDdvakRITHhzUEJmTzlraS1uMDd6Y1M2UlRTRWhMbVp1TWpVVFFlY3pIWFMxSjBmTk9ZSGVYLW91cnYteHViTWJnNEQ4T2gzTTduRUNxT0hvN2w2YzRULUNsM05CRWREVm5YZmM4TlJyOVFhM0ZxX0xzUGxzTFN0ZEdHM3hkNm0wWUJrNWpva1VxWEZnVHU1OTFmbXhTVVpINU5pZHVfYjdoUdIBxAFBVV95cUxQYVRKSUFvZlVnRW5BX1dLb1F5eVA4UV90eEtlQ2VodUs2Um8zVkk0cWJBenloOGlhUUJJak15WGNKZHdHUElWbDlCUXFpS2d0cE4tRXZrTXZ4X1cwbVdCUWJTMVc3UndOQWN5V1MxMzA2amZsNDc5NWpfdDZyVnVkQjJfeDdna1o2a1VvLUtUeTRYYi05VEZhdWc4SXJNa1VQNTREVTVUdmZJSE1qeUJsQjFZMGR3WWZjTjdOeklRZ25GdWJf?oc=5",
+    "title": "SecureKloud Introduces A New Conversational AI Feature Within DocuGenie.AI - Outlook Business",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQkdaMTNYdHJZR3hieTAwQ3dTMkpLNFBhNFpZSDlaNjhKa2dSb3NXZFVuVklxRlFoQ21pbWpJYnJydVROaTktX1Rnck9EMGQxemdueEdwQ2xadVBMYnRZWER6RXR5UnVQNExxYlNGTHBuMFpHLUltNnhzY09kM2hmU1RTUC1tM2d4NW5ONEJQdE9aZE5tTS1jU2wzZGRiUkNlNFdsQXdzOUlwR292TjNjWmJwN0JIaE1NSjlEU1VwUXPSAc4BQVVfeXFMT2FfN29KZXpaMVpnR0lNZnFMMGtsWnRkTkdUazVUaFJNNzQxU2htMDgzTVNObF9pRU82SUd6LXcxWFVtMFluOFA4dVFQOTByQU43dFFrVTRJRTd2M3gxN0g4TzZ3dExILXJTbEVJX3lTMVJsdXB0bFBKd3JuWWxwaE96SV9JVm9VV1ZZc2xlYUVwWkJRSmtXV2pya29Sb1lFb1lEdVBndV95T0htQ3dwd2tFbi1mUld4VldMYkxVLTlvUVFWQ1ZveDc1Wkc5UHc?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-16T10:30:25+00:00",
-    "raw_text": "SecureKloud Introduces a New Conversational AI Feature Within DocuGenie.AI ThePrint",
+    "published": "2026-10-16T12:05:16+00:00",
+    "raw_text": "SecureKloud Introduces A New Conversational AI Feature Within DocuGenie.AI Outlook Business",
     "categories": [
       "Digital Customer Experience"
     ],
@@ -5303,7 +5112,7 @@
         "conversational ai"
       ]
     },
-    "summary": "SecureKloud Introduces a New Conversational AI Feature Within DocuGenie.AI ThePrint"
+    "summary": "SecureKloud Introduces A New Conversational AI Feature Within DocuGenie.AI Outlook Business"
   },
   {
     "title": "UK golf club operator brings in neuroscientist to review customer experience - The Golf Business",
@@ -5322,56 +5131,20 @@
     "summary": "UK golf club operator brings in neuroscientist to review customer experience The Golf Business"
   },
   {
-    "title": "1Finity hails successful IMC 2026 ahead of customer experience launch - Telecompaper",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVUtGN3lsTDB0Qi1aUUpMWTVocnlmSTc2YlZidUV1Q3hWaTc5VFh4WlFVS3pnODFLa2FUMzhRUExBS0dUT1R5NU9pQ0VZUF9WeldxN2M5Skx5S0ZoRG1lcHpyVzFkNDBLX2Q5TGlkTTBJdzNmOHEwU0s5M2VvblVTcVlCaWlNUXlfNUZUZHBmcl9qbGVwaWQ0cmVPSFQ4MU1wS0NNbXpJOGkyT1NkUkpnSVhR?oc=5",
+    "title": "SecureKloud Introduces a New Conversational AI Feature Within DocuGenie.AI - ThePrint",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ2RITGJYZlBsQnJfNnBjdXEySmpRMDdvakRITHhzUEJmTzlraS1uMDd6Y1M2UlRTRWhMbVp1TWpVVFFlY3pIWFMxSjBmTk9ZSGVYLW91cnYteHViTWJnNEQ4T2gzTTduRUNxT0hvN2w2YzRULUNsM05CRWREVm5YZmM4TlJyOVFhM0ZxX0xzUGxzTFN0ZEdHM3hkNm0wWUJrNWpva1VxWEZnVHU1OTFmbXhTVVpINU5pZHVfYjdoUdIBxAFBVV95cUxQYVRKSUFvZlVnRW5BX1dLb1F5eVA4UV90eEtlQ2VodUs2Um8zVkk0cWJBenloOGlhUUJJak15WGNKZHdHUElWbDlCUXFpS2d0cE4tRXZrTXZ4X1cwbVdCUWJTMVc3UndOQWN5V1MxMzA2amZsNDc5NWpfdDZyVnVkQjJfeDdna1o2a1VvLUtUeTRYYi05VEZhdWc4SXJNa1VQNTREVTVUdmZJSE1qeUJsQjFZMGR3WWZjTjdOeklRZ25GdWJf?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-15T07:49:08+00:00",
-    "raw_text": "1Finity hails successful IMC 2026 ahead of customer experience launch Telecompaper",
-    "categories": [
-      "Networks",
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "telecom"
-      ],
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "1Finity hails successful IMC 2026 ahead of customer experience launch Telecompaper"
-  },
-  {
-    "title": "Bharat D2C Conclave 2026: From the ₹100 crore playbook to AI-led advertising and omnichannel strategies, f - The Economic Times",
-    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOUGstMjJXZFNoNjF4LUNKbnozbFl3LWUwaFM3QmNzbTl0eHNna0VYR2g0NnBGNDN3TGVObHJBTzYydU11YS00bjN0NDhsUG9qZlVRY2tiSTFtdG9Sd01YMUJuYlRONUc2cHFHY2xscWY1aUtWZUx4NGxmM2xFbFFqdi0tVXBkTHVzQTdMcjBvOHRtcVNQM21vaXVvU0psZFR6TnBXRHVDTjVSbFd1bDNPcWRubnRDcFpzTWV6MWVPeTdBWi0ycXdjSjVEb21kZWRkYWdnbzVwdWJ3ZnQ3cjhBeFBIOFA1S0Npc0JuU3BXeFJZRzFHd09VMlpMTXB4cTV4M3F0V0xMTk1VbDdpX0c2Qmx2VGJUaE5zcG9BTHdKNkp3N09xR3NJSnduVy1JUXA1R1JWaE4yYWUtOGp6aE1meUZ4VHlMMV9RMXluNtIB0gJBVV95cUxOUlZZSjZ1LS1nMjFTOVYyazhDS2NCVk1ySk9mMjZWWi1Uam1CS0dFSm9CUUxGeWxDeE5adU56V1R0QXR0emtSNEFyZ0o5SWNvLVRyVDNTOXBJc204bmdJZS1FbnEtQ09IQUdiVGlnbzZkOG9YR01YTFhhRm1wb2tqeEN1ZXNCUml3UjYtclNYdHRvVW15cHpUQW1RQzdUc3BUWHMzeVFWOGpNU3BvUm95UnRRTDdhdGlyMDBoZC1RVEJ6ZGgyWWF2Sk5Ha2RrUFZHNERwbWZUbHlRT2t6QjdoNGdXTDBrU1RlSWtJMnQ5YzBMRTBtNFpBMUg2dzdMMUg4NWJYY2gxR0JkcEtWeHA5ZHlRbXZVRUxISHNFSTdUTHFfZmUxcmhma1VENm5XcEFEV2xLSVJLX3RQenlfbXk0WHp0eHhuRGt4NU5hTDJlbkhwdw?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-16T15:05:21+00:00",
-    "raw_text": "Bharat D2C Conclave 2026: From the ₹100 crore playbook to AI-led advertising and omnichannel strategies, f The Economic Times",
+    "published": "2026-10-16T10:30:25+00:00",
+    "raw_text": "SecureKloud Introduces a New Conversational AI Feature Within DocuGenie.AI ThePrint",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "omnichannel"
+        "conversational ai"
       ]
     },
-    "summary": "Bharat D2C Conclave 2026: From the ₹100 crore playbook to AI-led advertising and omnichannel strategies, f The Economic Times"
-  },
-  {
-    "title": "AirBorneo appoints The XMakers to develop brand, customer experience - marketech apac",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQemE4ZDktMEJhZ283eEhwa25IUnZ0WS03ZXk4b2gyZ2ZZUWhIRHBZdkh0ckQwQTRRUC14VE03S0RUMEFDdTc0T1RGVko0b0NMQXJkX29vdGVicU5McFY4Wk5ySVlTeF94dF9Vck1uY0JOMmpac1Q4ZTlaWldMbGc2ZGVkTFZvNnZ3XzVXcmZ3MHFXVXBXbjZEMWdTUQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-16T08:34:27+00:00",
-    "raw_text": "AirBorneo appoints The XMakers to develop brand, customer experience marketech apac",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "AirBorneo appoints The XMakers to develop brand, customer experience marketech apac"
+    "summary": "SecureKloud Introduces a New Conversational AI Feature Within DocuGenie.AI ThePrint"
   },
   {
     "title": "Can TELUS (TSX:T) Strengthen Its Digital Customer Experience? - Kalkine Media",
@@ -5389,5 +5162,21 @@
       ]
     },
     "summary": "Can TELUS (TSX:T) Strengthen Its Digital Customer Experience? Kalkine Media"
+  },
+  {
+    "title": "Bharat D2C Conclave 2026: From the ₹100 crore playbook to AI-led advertising and omnichannel strategies, founders on scaling India’s consumer brands - The Economic Times",
+    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOUGstMjJXZFNoNjF4LUNKbnozbFl3LWUwaFM3QmNzbTl0eHNna0VYR2g0NnBGNDN3TGVObHJBTzYydU11YS00bjN0NDhsUG9qZlVRY2tiSTFtdG9Sd01YMUJuYlRONUc2cHFHY2xscWY1aUtWZUx4NGxmM2xFbFFqdi0tVXBkTHVzQTdMcjBvOHRtcVNQM21vaXVvU0psZFR6TnBXRHVDTjVSbFd1bDNPcWRubnRDcFpzTWV6MWVPeTdBWi0ycXdjSjVEb21kZWRkYWdnbzVwdWJ3ZnQ3cjhBeFBIOFA1S0Npc0JuU3BXeFJZRzFHd09VMlpMTXB4cTV4M3F0V0xMTk1VbDdpX0c2Qmx2VGJUaE5zcG9BTHdKNkp3N09xR3NJSnduVy1JUXA1R1JWaE4yYWUtOGp6aE1meUZ4VHlMMV9RMXluNg?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-16T15:05:21+00:00",
+    "raw_text": "Bharat D2C Conclave 2026: From the ₹100 crore playbook to AI-led advertising and omnichannel strategies, founders on scaling India’s consumer brands The Economic Times",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "omnichannel"
+      ]
+    },
+    "summary": "Bharat D2C Conclave 2026: From the ₹100 crore playbook to AI-led advertising and omnichannel strategies, founders on scaling India’s consumer brands The Economic Times"
   }
 ]
