@@ -228,30 +228,6 @@
     "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without"
   },
   {
-    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
-    "source": "The Hacker News",
-    "published": "2026-10-18T08:23:02+00:00",
-    "raw_text": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity",
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Cybersecurity": [
-        "threat"
-      ],
-      "Digital Workplace": [
-        "microsoft 365"
-      ]
-    },
-    "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise"
-  },
-  {
     "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
     "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
     "source": "BleepingComputer",
@@ -1133,7 +1109,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/python-udf-logging-for-pipeline-observability-in-bigquery/",
     "source": "Google Cloud Blog",
     "published": "2026-10-19T16:00:00+00:00",
-    "raw_text": "We are announcing a new logging feature that is now available in Python User-Defined Function (UDF) in BigQuery. Developers can now use Python’s standard logging library directly inside BigQuery UDFs to emit structured logs seamlessly into Cloud Logging—with zero external plugins or custom connectors required. While UDF logging enables a wide range of operational monitoring and debugging workflows, to demonstrate this feature we are showcasing an example for building fault-tolerant, resilient data pipelines. In the example below, we are capturing row-level diagnostic telemetry during query execution, so that teams can easily isolate problematic records, trigger real-time alerts, and triage issues via SQL without halting entire workloads. In this post, we’ll show you how to get started with Python UDF logging and walk through an e-commerce event ingestion pipeline as a practical, end-to-end example. Architecture overview The workflow consists of three stages: Inline validation : The Python UDF parses incoming JSON payloads. Valid records pass to the destination table; corrupted or non-compliant rows trigger logging.error() and return NULL to prevent query failure. Real-time alerting : A Cloud Monitoring log-based metric notifies your team when error rates breach SLA thresholds. SQL triage & replay : Data engineers query the quarantined payloads in BigQuery using standard SQL over the linked _AllLogs view, diagnose the root cause, and re-ingest recovered data. Although this specific demonstration relies on Python for data validation and transformation, you can seamlessly integrate Python-driven logging and validation into pipelines that perform SQL-based transformations. Quickstart walkthrough: Step-by-step Step 1: Create the generic Python UDF This UDF parses JSON and checks for a required field. If parsing fails or the required key is missing, it logs structured diagnostic JSON and returns NULL . code_block <ListValue: [StructValue([('code', 'CREATE OR REPLACE FUNCTION `YOUR_PROJECT.YOUR_DATASET.safe_parse_json`(\\r\\n raw_payload STRING,\\r\\n required_key STRING\\r\\n)\\r\\nRETURNS STRING\\r\\nLANGUAGE python\\r\\nOPTIONS (entry_point=\\'safe_parse_json\\', runtime_version=\\'python-3.11\\')\\r\\nAS r\\'\\'\\'\\r\\nimport json\\r\\nimport logging\\r\\n\\r\\ndef safe_parse_json(raw_payload, required_key):\\r\\n if not raw_payload or raw_payload.strip() == \"\":\\r\\n logging.warning(json.dumps({\"error_type\": \"EMPTY_PAYLOAD\"}))\\r\\n return None\\r\\n\\r\\n try:\\r\\n data = json.loads(raw_payload)\\r\\n if required_key and (required_key not in data or data[required_key] is None):\\r\\n logging.error(json.dumps({\\r\\n \"error_type\": \"MISSING_REQUIRED_KEY\",\\r\\n \"missing_key\": required_key,\\r\\n \"raw_payload\": raw_payload[:200]\\r\\n }))\\r\\n return None\\r\\n return json.dumps(data)\\r\\n\\r\\n except Exception as e:\\r\\n logging.error(json.dumps({\\r\\n \"error_type\": \"JSON_SYNTAX_ERROR\",\\r\\n \"error_message\": str(e),\\r\\n \"raw_payload\": raw_payload[:200]\\r\\n }))\\r\\n return None\\r\\n\\'\\'\\';'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93db677250>)])]> Step 2: Run ingestion with logging enabled In this example, we simulate an e-commerce event ingestion pipeline processing incoming user actions ( click , view , checkout ). Our goal is to extract valid events into our clean analytics table while gracefully quarantining broken or missing-schema payloads. Enable logging in your session with SET @@udf.properties : code_block <ListValue: [StructValue([('code', 'SET @@udf.properties = JSON \\'{\"enableDebugOutput\": true}\\';\\r\\n\\r\\nCREATE OR REPLACE TABLE `YOUR_PROJECT.YOUR_DATASET.clean_events` AS\\r\\nWITH sample_events AS (\\r\\n SELECT \\'evt_001\\' AS event_id, \\'{\"user_id\": \"usr_101\", \"event\": \"click\", \"amount\": 25.5}\\' AS raw_data UNION ALL\\r\\n SELECT \\'evt_002\\' AS event_id, \\'corrupted_json{\\' AS raw_data UNION ALL -- Syntax error\\r\\n SELECT \\'evt_003\\' AS event_id, \\'{\"event\": \"view\"}\\' AS raw_data UNION ALL -- Missing required user_id\\r\\n SELECT \\'evt_004\\' AS event_id, \\'{\"user_id\": \"usr_102\", \"event\": \"checkout\", \"amount\": 99.0}\\' AS raw_data\\r\\n),\\r\\nparsed_events AS (\\r\\n SELECT\\r\\n event_id,\\r\\n `YOUR_PROJECT.YOUR_DATASET.safe_parse_json`(raw_data, \\'user_id\\') AS validated_json\\r\\n FROM sample_events\\r\\n)\\r\\nSELECT\\r\\n event_id,\\r\\n JSON_VALUE(validated_json, \\'$.user_id\\') AS user_id,\\r\\n JSON_VALUE(validated_json, \\'$.event\\') AS event_name,\\r\\n \\'VALID\\' AS status\\r\\nFROM parsed_events\\r\\nWHERE validated_json IS NOT NULL;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93d8e08c50>)])]> Ingestion Results event_id user_id event_name status evt_001 usr_101 click VALID evt_004 usr_102 checkout VALID The query succeeds without interruption while bad rows (2 and 3) are routed to Cloud Logging. Step 3: Set up real-time alerts on Cloud Logging You can configure alerts to notify your on-call team as soon as malformed payloads exceed acceptable thresholds. In the Google Cloud Console (1-Click) In the Google Cloud Console, open Logs Explorer . Paste the log filter for your UDF routine: code_block <ListValue: [StructValue([('code', 'resource.type=\"bigquery.googleapis.com/ManagedRoutineInvocation\"\\r\\nseverity>=ERROR'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93d8e09210>)])]> 3. Click Create alert in the top action bar. 4. Set your notification channels (e.g., Slack, PagerDuty, or Email) and save the policy. Step 4: Triage bad rows with BigQuery Log Analytics \"Note: To query your logs via BigQuery SQL, ensure you have enabled BigQuery Log Analytics on your Cloud Logging bucket and created a linked dataset.\" Query the quarantined payloads using BigQuery SQL via the linked _AllLogs view: code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n timestamp,\\r\\n severity,\\r\\n JSON_VALUE(json_payload.error_type) AS error_type,\\r\\n JSON_VALUE(json_payload.missing_key) AS missing_key,\\r\\n JSON_VALUE(json_payload.raw_payload) AS raw_payload\\r\\nFROM `YOUR_PROJECT.YOUR_LOGS_LINKED_DATASET._AllLogs`\\r\\nWHERE log_name LIKE '%managed_routine_output%'\\r\\nORDER BY timestamp DESC\\r\\nLIMIT 10;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93d3b12f50>)])]> Log Analytics output timestamp severity error_type missing_key raw_payload 2026-09-17 18:35:50 ERROR MISSING_REQUIRED_KEY user_id {\"event\": \"view\"} 2026-09-17 18:35:50 ERROR JSON_SYNTAX_ERROR null corrupted_json{ Recovering data Because full raw payloads are preserved in Cloud Logging, you can recover quarantined records directly with SQL once upstream data is fixed: code_block <ListValue: [StructValue([('code', \"-- 1. Replay and recover quarantined rows from Cloud Logging sink table\\r\\nINSERT INTO `YOUR_PROJECT.YOUR_DATASET.clean_events` (event_id, user_id, event_name, status)\\r\\nSELECT\\r\\n 'evt_003_recovered' AS event_id,\\r\\n 'default_user' AS user_id, -- Apply fallback default for the missing field\\r\\n JSON_VALUE(JSON_VALUE(json_payload.raw_payload), '$.event') AS event_name,\\r\\n 'RECOVERED' AS status\\r\\nFROM `YOUR_PROJECT.YOUR_LOGS_LINKED_DATASET._AllLogs`\\r\\nWHERE JSON_VALUE(json_payload.error_type) = 'MISSING_REQUIRED_KEY'\\r\\n\\r\\n-- 2. Inspect the final clean destination table\\r\\nSELECT event_id, user_id, event_name, status\\r\\nFROM `YOUR_PROJECT.YOUR_DATASET.clean_events`\\r\\nORDER BY event_id;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93d82a92d0>)])]> Final clean_events Table Result: event_id user_id event_name status evt_001 usr_101 click VALID evt_004 usr_102 checkout VALID evt_003_recovered default_user view RECOVERED All valid and recovered data is now unified in the production table without any data loss. Other use cases Shadow execution & safe migrations : Run legacy and new business logic side-by-side in a UDF. Return the legacy result to production while logging calculation differences to Cloud Logging. PII redaction auditing : Mask sensitive tokens (such as SSNs or account numbers) before writing to BigQuery, while emitting anonymized audit events to Cloud Logging. ML inference drift : Log warnings when embedded scoring logic encounters out-of-vocabulary inputs or low model confidence. Best practices Enable debug output : Include SET @@udf.properties = JSON '{\"enableDebugOutput\": true}'; in the session where you want logs captured. Avoid sensitive data in logs : Cloud Logging is visible to users with Logging Viewer permissions. Do not log credentials or secrets. Cost management : On high-throughput pipelines, log selectively (e.g., only on errors or via sampling) to manage logging ingestion volume. Getting started BigQuery Python UDF Documentation BigQuery Log Analytics Overview",
+    "raw_text": "We are announcing a new logging feature that is now available in Python User-Defined Function (UDF) in BigQuery. Developers can now use Python’s standard logging library directly inside BigQuery UDFs to emit structured logs seamlessly into Cloud Logging—with zero external plugins or custom connectors required. While UDF logging enables a wide range of operational monitoring and debugging workflows, to demonstrate this feature we are showcasing an example for building fault-tolerant, resilient data pipelines. In the example below, we are capturing row-level diagnostic telemetry during query execution, so that teams can easily isolate problematic records, trigger real-time alerts, and triage issues via SQL without halting entire workloads. In this post, we’ll show you how to get started with Python UDF logging and walk through an e-commerce event ingestion pipeline as a practical, end-to-end example. Architecture overview The workflow consists of three stages: Inline validation : The Python UDF parses incoming JSON payloads. Valid records pass to the destination table; corrupted or non-compliant rows trigger logging.error() and return NULL to prevent query failure. Real-time alerting : A Cloud Monitoring log-based metric notifies your team when error rates breach SLA thresholds. SQL triage & replay : Data engineers query the quarantined payloads in BigQuery using standard SQL over the linked _AllLogs view, diagnose the root cause, and re-ingest recovered data. Although this specific demonstration relies on Python for data validation and transformation, you can seamlessly integrate Python-driven logging and validation into pipelines that perform SQL-based transformations. Quickstart walkthrough: Step-by-step Step 1: Create the generic Python UDF This UDF parses JSON and checks for a required field. If parsing fails or the required key is missing, it logs structured diagnostic JSON and returns NULL . code_block <ListValue: [StructValue([('code', 'CREATE OR REPLACE FUNCTION `YOUR_PROJECT.YOUR_DATASET.safe_parse_json`(\\r\\n raw_payload STRING,\\r\\n required_key STRING\\r\\n)\\r\\nRETURNS STRING\\r\\nLANGUAGE python\\r\\nOPTIONS (entry_point=\\'safe_parse_json\\', runtime_version=\\'python-3.11\\')\\r\\nAS r\\'\\'\\'\\r\\nimport json\\r\\nimport logging\\r\\n\\r\\ndef safe_parse_json(raw_payload, required_key):\\r\\n if not raw_payload or raw_payload.strip() == \"\":\\r\\n logging.warning(json.dumps({\"error_type\": \"EMPTY_PAYLOAD\"}))\\r\\n return None\\r\\n\\r\\n try:\\r\\n data = json.loads(raw_payload)\\r\\n if required_key and (required_key not in data or data[required_key] is None):\\r\\n logging.error(json.dumps({\\r\\n \"error_type\": \"MISSING_REQUIRED_KEY\",\\r\\n \"missing_key\": required_key,\\r\\n \"raw_payload\": raw_payload[:200]\\r\\n }))\\r\\n return None\\r\\n return json.dumps(data)\\r\\n\\r\\n except Exception as e:\\r\\n logging.error(json.dumps({\\r\\n \"error_type\": \"JSON_SYNTAX_ERROR\",\\r\\n \"error_message\": str(e),\\r\\n \"raw_payload\": raw_payload[:200]\\r\\n }))\\r\\n return None\\r\\n\\'\\'\\';'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93dc566210>)])]> Step 2: Run ingestion with logging enabled In this example, we simulate an e-commerce event ingestion pipeline processing incoming user actions ( click , view , checkout ). Our goal is to extract valid events into our clean analytics table while gracefully quarantining broken or missing-schema payloads. Enable logging in your session with SET @@udf.properties : code_block <ListValue: [StructValue([('code', 'SET @@udf.properties = JSON \\'{\"enableDebugOutput\": true}\\';\\r\\n\\r\\nCREATE OR REPLACE TABLE `YOUR_PROJECT.YOUR_DATASET.clean_events` AS\\r\\nWITH sample_events AS (\\r\\n SELECT \\'evt_001\\' AS event_id, \\'{\"user_id\": \"usr_101\", \"event\": \"click\", \"amount\": 25.5}\\' AS raw_data UNION ALL\\r\\n SELECT \\'evt_002\\' AS event_id, \\'corrupted_json{\\' AS raw_data UNION ALL -- Syntax error\\r\\n SELECT \\'evt_003\\' AS event_id, \\'{\"event\": \"view\"}\\' AS raw_data UNION ALL -- Missing required user_id\\r\\n SELECT \\'evt_004\\' AS event_id, \\'{\"user_id\": \"usr_102\", \"event\": \"checkout\", \"amount\": 99.0}\\' AS raw_data\\r\\n),\\r\\nparsed_events AS (\\r\\n SELECT\\r\\n event_id,\\r\\n `YOUR_PROJECT.YOUR_DATASET.safe_parse_json`(raw_data, \\'user_id\\') AS validated_json\\r\\n FROM sample_events\\r\\n)\\r\\nSELECT\\r\\n event_id,\\r\\n JSON_VALUE(validated_json, \\'$.user_id\\') AS user_id,\\r\\n JSON_VALUE(validated_json, \\'$.event\\') AS event_name,\\r\\n \\'VALID\\' AS status\\r\\nFROM parsed_events\\r\\nWHERE validated_json IS NOT NULL;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93dc5655d0>)])]> Ingestion Results event_id user_id event_name status evt_001 usr_101 click VALID evt_004 usr_102 checkout VALID The query succeeds without interruption while bad rows (2 and 3) are routed to Cloud Logging. Step 3: Set up real-time alerts on Cloud Logging You can configure alerts to notify your on-call team as soon as malformed payloads exceed acceptable thresholds. In the Google Cloud Console (1-Click) In the Google Cloud Console, open Logs Explorer . Paste the log filter for your UDF routine: code_block <ListValue: [StructValue([('code', 'resource.type=\"bigquery.googleapis.com/ManagedRoutineInvocation\"\\r\\nseverity>=ERROR'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93dc5645d0>)])]> 3. Click Create alert in the top action bar. 4. Set your notification channels (e.g., Slack, PagerDuty, or Email) and save the policy. Step 4: Triage bad rows with BigQuery Log Analytics \"Note: To query your logs via BigQuery SQL, ensure you have enabled BigQuery Log Analytics on your Cloud Logging bucket and created a linked dataset.\" Query the quarantined payloads using BigQuery SQL via the linked _AllLogs view: code_block <ListValue: [StructValue([('code', \"SELECT\\r\\n timestamp,\\r\\n severity,\\r\\n JSON_VALUE(json_payload.error_type) AS error_type,\\r\\n JSON_VALUE(json_payload.missing_key) AS missing_key,\\r\\n JSON_VALUE(json_payload.raw_payload) AS raw_payload\\r\\nFROM `YOUR_PROJECT.YOUR_LOGS_LINKED_DATASET._AllLogs`\\r\\nWHERE log_name LIKE '%managed_routine_output%'\\r\\nORDER BY timestamp DESC\\r\\nLIMIT 10;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93dc5647d0>)])]> Log Analytics output timestamp severity error_type missing_key raw_payload 2026-09-17 18:35:50 ERROR MISSING_REQUIRED_KEY user_id {\"event\": \"view\"} 2026-09-17 18:35:50 ERROR JSON_SYNTAX_ERROR null corrupted_json{ Recovering data Because full raw payloads are preserved in Cloud Logging, you can recover quarantined records directly with SQL once upstream data is fixed: code_block <ListValue: [StructValue([('code', \"-- 1. Replay and recover quarantined rows from Cloud Logging sink table\\r\\nINSERT INTO `YOUR_PROJECT.YOUR_DATASET.clean_events` (event_id, user_id, event_name, status)\\r\\nSELECT\\r\\n 'evt_003_recovered' AS event_id,\\r\\n 'default_user' AS user_id, -- Apply fallback default for the missing field\\r\\n JSON_VALUE(JSON_VALUE(json_payload.raw_payload), '$.event') AS event_name,\\r\\n 'RECOVERED' AS status\\r\\nFROM `YOUR_PROJECT.YOUR_LOGS_LINKED_DATASET._AllLogs`\\r\\nWHERE JSON_VALUE(json_payload.error_type) = 'MISSING_REQUIRED_KEY'\\r\\n\\r\\n-- 2. Inspect the final clean destination table\\r\\nSELECT event_id, user_id, event_name, status\\r\\nFROM `YOUR_PROJECT.YOUR_DATASET.clean_events`\\r\\nORDER BY event_id;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f93dc564a50>)])]> Final clean_events Table Result: event_id user_id event_name status evt_001 usr_101 click VALID evt_004 usr_102 checkout VALID evt_003_recovered default_user view RECOVERED All valid and recovered data is now unified in the production table without any data loss. Other use cases Shadow execution & safe migrations : Run legacy and new business logic side-by-side in a UDF. Return the legacy result to production while logging calculation differences to Cloud Logging. PII redaction auditing : Mask sensitive tokens (such as SSNs or account numbers) before writing to BigQuery, while emitting anonymized audit events to Cloud Logging. ML inference drift : Log warnings when embedded scoring logic encounters out-of-vocabulary inputs or low model confidence. Best practices Enable debug output : Include SET @@udf.properties = JSON '{\"enableDebugOutput\": true}'; in the session where you want logs captured. Avoid sensitive data in logs : Cloud Logging is visible to users with Logging Viewer permissions. Do not log credentials or secrets. Cost management : On high-throughput pipelines, log selectively (e.g., only on errors or via sampling) to manage logging ingestion volume. Getting started BigQuery Python UDF Documentation BigQuery Log Analytics Overview",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1167,6 +1143,31 @@
       ]
     },
     "summary": "We are announcing a new logging feature that is now available in Python User-Defined Function (UDF) in BigQuery. Developers can now use Python’s standard logging library directly inside BigQuery UDFs to emit structured logs seamlessly into Cloud Logging—with zero external plugins or custom connectors required. While UDF logging enables a wide range of operational monitoring and debugging workflows, to demonstrate this feature we are showcasing an example for building fault-tolerant, resilient data pipelines. In the example below, we are capturing row-level diagnostic telemetry during query execution, so that teams can easily isolate problematic records, trigger real-time alerts, and triage issues via SQL without halting entire workloads."
+  },
+  {
+    "title": "Who judges the judge? Three helpful ways to audit your LLM evaluators",
+    "url": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
+    "source": "Google Cloud Blog",
+    "published": "2026-10-19T16:00:00+00:00",
+    "raw_text": "Is your LLM-as-a-judge truly objective? There’s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subjective. Just like human reviewers, they can carry biases: Verbosity bias : LLM judges usually favor longer, confident-sounding answers , even when the underlying facts are wrong. Position bias : Swapping the order of two options can cause an LLM judge to flip its verdict over 75% of the time . The halo effect : Because LLMs generate text piece by piece, clean grammar and formatting can trick an AI judge into giving top marks for accuracy while missing errors. Agreeableness bias : LLM judges are great at recognizing valid work. But with detecting errors, they may fail to catch incorrect, buggy, or unsafe outputs up to 75% of the time . Self-enhancement bias: Also known as egocentric bias, AI evaluators systematically overrate outputs that were generated by themselves or from their own family. Ultimately, LLM judges are not objective arbiters of truth. They are subjective models with their own distinct biases. Treating them as infallible tools that don't need their quality measured might leave your work compromised. In this post, we’ll explore what’s holding enterprises back from strong evals, and share an easy three-pillar method you can use to improve your quality. Three helpful ways to audit your LLM judges Pillar 1: Measure internal stability Before you can trust an AI judge’s score, you need to know that it isn't just guessing. Because LLMs are probabilistic, they can be inconsistent, giving different scores to the exact same text. You can test this internal stability by running multi-pass consistency checks on a single output and calculating the variance. If a judge's scores fluctuate wildly on identical inputs, its rubric is too ambiguous. Pillar 2: Validate human alignment When your evaluation datasets are mostly valid responses, a lenient AI judge can look great on paper. It might align closely with human reviewers overall, but miss a majority of invalid or even unsafe outputs. To prove your LLM judge is catching real errors, you need chance-corrected metrics. These mathematical models filter out agreements driven purely by leniency or random chance, showing how closely your evaluator actually aligns with the informed decisions of human experts. Pillar 3: Use multi-judge ensembles To avoid the halo effect mentioned earlier, teams should use decomposed prompting. Instead of asking one LLM judge to score an entire response, assign a specialized judge to evaluate a single criteria, like factual accuracy or tone. This isolates traits and forces independent scoring. Second, to track performance in real time without human intervention, the established best practice is ensembling. This means running at least two different models under the hood to evaluate the exact same output simultaneously. By finding the statistical consensus between these models, you can flag if their evaluations begin to diverge and avoid any scoring quality degradation. Get started Partner with Delta to design and implement statistically-audited evaluation pipelines for your enterprise agentic systems.",
+    "categories": [
+      "Industry & Market",
+      "GRC",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "audit"
+      ],
+      "Data Centres": [
+        "rack"
+      ],
+      "Industry & Market": [
+        "valuation",
+        "ey"
+      ]
+    },
+    "summary": "Is your LLM-as-a-judge truly objective? There’s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subjective. Just like human reviewers, they can carry biases: Verbosity bias : LLM judges usually favor longer, confident-sounding answers , even when the underlying facts are wrong."
   },
   {
     "title": "Developer’s guide to implementing MCP apps in Gemini",
@@ -1205,31 +1206,6 @@
       ]
     },
     "summary": "Enterprise assistants still respond mostly in text. However, that can break down for visual, multi-step work, where every adjustment costs another slow chat turn. MCP Apps ( SEP-1865 ) solves this. This open Model Context Protocol (MCP) extension pairs a tool with a live UI."
-  },
-  {
-    "title": "Who judges the judge? Three helpful ways to audit your LLM evaluators",
-    "url": "https://cloud.google.com/blog/topics/consulting/three-ways-to-audit-your-llm-evaluators/",
-    "source": "Google Cloud Blog",
-    "published": "2026-10-19T16:00:00+00:00",
-    "raw_text": "Is your LLM-as-a-judge truly objective? There’s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subjective. Just like human reviewers, they can carry biases: Verbosity bias : LLM judges usually favor longer, confident-sounding answers , even when the underlying facts are wrong. Position bias : Swapping the order of two options can cause an LLM judge to flip its verdict over 75% of the time . The halo effect : Because LLMs generate text piece by piece, clean grammar and formatting can trick an AI judge into giving top marks for accuracy while missing errors. Agreeableness bias : LLM judges are great at recognizing valid work. But with detecting errors, they may fail to catch incorrect, buggy, or unsafe outputs up to 75% of the time . Self-enhancement bias: Also known as egocentric bias, AI evaluators systematically overrate outputs that were generated by themselves or from their own family. Ultimately, LLM judges are not objective arbiters of truth. They are subjective models with their own distinct biases. Treating them as infallible tools that don't need their quality measured might leave your work compromised. In this post, we’ll explore what’s holding enterprises back from strong evals, and share an easy three-pillar method you can use to improve your quality. Three helpful ways to audit your LLM judges Pillar 1: Measure internal stability Before you can trust an AI judge’s score, you need to know that it isn't just guessing. Because LLMs are probabilistic, they can be inconsistent, giving different scores to the exact same text. You can test this internal stability by running multi-pass consistency checks on a single output and calculating the variance. If a judge's scores fluctuate wildly on identical inputs, its rubric is too ambiguous. Pillar 2: Validate human alignment When your evaluation datasets are mostly valid responses, a lenient AI judge can look great on paper. It might align closely with human reviewers overall, but miss a majority of invalid or even unsafe outputs. To prove your LLM judge is catching real errors, you need chance-corrected metrics. These mathematical models filter out agreements driven purely by leniency or random chance, showing how closely your evaluator actually aligns with the informed decisions of human experts. Pillar 3: Use multi-judge ensembles To avoid the halo effect mentioned earlier, teams should use decomposed prompting. Instead of asking one LLM judge to score an entire response, assign a specialized judge to evaluate a single criteria, like factual accuracy or tone. This isolates traits and forces independent scoring. Second, to track performance in real time without human intervention, the established best practice is ensembling. This means running at least two different models under the hood to evaluate the exact same output simultaneously. By finding the statistical consensus between these models, you can flag if their evaluations begin to diverge and avoid any scoring quality degradation. Get started Partner with Delta to design and implement statistically-audited evaluation pipelines for your enterprise agentic systems.",
-    "categories": [
-      "Industry & Market",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "audit"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "valuation",
-        "ey"
-      ]
-    },
-    "summary": "Is your LLM-as-a-judge truly objective? There’s a common misconception in tech that humans are subjective, so we should rely on AI for objective evaluation. But the reality is that LLMs are also subjective. Just like human reviewers, they can carry biases: Verbosity bias : LLM judges usually favor longer, confident-sounding answers , even when the underlying facts are wrong."
   },
   {
     "title": "Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms",
@@ -1337,6 +1313,96 @@
       ]
     },
     "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code."
+  },
+  {
+    "title": "When defrost becomes sabotage: 3 OT lessons from France’s supermarket attack",
+    "url": "https://www.csoonline.com/article/4237172/when-defrost-becomes-sabotage-3-ot-lessons-from-frances-supermarket-attack.html",
+    "source": "CSO Online",
+    "published": "2026-10-20T09:00:00+00:00",
+    "raw_text": "On the night of 11 October, someone remotely put the cold cases of several hundred French supermarkets into defrost. At Intermarché and Netto stores, fridges and freezers warmed to around 50°C and stayed there for about six hours, according to Les Mousquetaires, which expects losses in the tens of millions of euros. By morning, staff were filling skips with meat, frozen goods and vegetables. Coopérative U counted 80 affected stores out of roughly 2,000. Its chief executive, Dominique Schelcher, told RTL that the cold chain held in most of them. Only a minority reacted too slowly and lost stock, and he credited store staff and refrigeration contractors for the difference. Intermarché said its affected stores had to throw away everything. A second wave followed in the night of 12 to 13 October, this time also reaching stores with Dixell controllers. Similar controllers, similar night, very different mornings. That gap is the part of this story an operator can act on. CSO has already reported which systems were hit and what CERT-FR wants done with them. Nobody has claimed responsibility and no ransom demand has surfaced, which Reuters reports has puzzled investigators; whoever did this wanted spoiled food, not money, or has not said what they wanted yet. Neither CERT-FR nor Danfoss has said how the attackers got in: exposed management interfaces, known flaws and stolen contractor credentials are all still on the table. The three lessons that follow do not depend on either answer. Your refrigeration contractor is your perimeter Schelcher made a remark that deserves more attention than the temperature figures: Coopérative U stores do not buy from Danfoss. They buy from refrigeration contractors, who supply the controller, configure it and keep remote access to it so they can adjust setpoints without driving to the store. E.Leclerc told AFP that the attack reached its stores through one of its refrigeration equipment suppliers. The controller’s embedded web server exists for exactly this purpose, and the contractor’s performance guarantees usually depend on the data feed it provides. Danfoss has seen this before. Its own technical newsletter from October 2025 records attacks on the AK-SM 800 in 2022: 16 Russian supermarkets and 40 Israeli stores. All 40 Israeli sites, the newsletter notes, lacked proper firewall or VPN protection. Four years later the same model, end-of-life since May 2021, was still on the internet in France. The pattern is familiar from industrial sites. The party who decides whether a controller is exposed is not the party who eats the loss when it is. The contractor wants a browser and a public IP address because it turns a Sunday-night callout into a two-minute job. The store carries the inventory. A standard maintenance contract rarely makes that trade-off visible to the person signing it. How deep the dependency runs shows in a sentence I have not seen in a national advisory before. CERT-FR’s alert , updated on 16 October, tells operators to check their insurance terms before cutting the internet link to the refrigeration contractor. The data feed is contractual, and depending on the agreement, cutting it can touch monitoring obligations or policy conditions. And the insurance side is bleak anyway: brokers and underwriters told Reuters that cyber policies typically exclude physical loss, so the spoiled stock is unlikely to be covered. Intermarché told AFP its insurance does not cover the incident. So, the first question: who can log into your refrigeration controllers today, and over what path? Store network, contractor VPN, a cellular router the contractor installed years ago, a port forward on the store router? If answering requires calling the contractor, you do not control that perimeter. You rent it. The lesson is a contract clause, not a firewall rule. The maintenance agreement should name every remote path into the equipment and forbid any other; require access through your gateway or VPN with accounts tied to named technicians; give you the logs; oblige the contractor to tell you when a controller leaves vendor support or a vulnerability is published; and let you revoke access without losing the cold chain. Cold-case controllers run for decades. The contract that pays for their maintenance rarely says any of this. After France, it should. Defrost is a feature. Treat the command as the event Whatever got the attackers in, the damage itself came from ordinary refrigeration functions. Defrost is a built-in cycle on every refrigeration controller, and in the second wave the setpoints were reportedly pushed to values no case can reach. Many controllers also offer a setting that suppresses temperature alarms during defrost and for a delay afterwards, so that scheduled cycles do not page anyone at 3 a.m. That is a sensible configuration. It is also exactly what makes a forced defrost quiet. Whether it played a role in France has not been established, and Coopérative U’s experience shows that alarms did reach people in most of its stores. The structure is the same as in the Minnesota water attacks in July : intended functionality, used by the wrong person at the wrong time. A temperature alarm is a process control. It tells you the product is getting warm. It cannot tell you that the command which made it warm came from someone who should not have been logged in. The signal worth alarming on is an unexpected mode or setpoint change outside a maintenance window, and it gets louder when several circuits move at once or several stores that share a contractor move in the same hour. CERT-FR’s updated alert now tells operators to review their defrost schedules specifically. That is the right instinct: look at the configuration, not just the thermometer. Not every controller can export that event, least of all the models that were hit. Where it cannot, an independent temperature logger that does not depend on the controller catches the consequence early. Either way, someone has to receive the alert, understand it and have the authority to act. At 3 a.m. that chain runs from a store employee to an external technician to a central operations desk, and if nobody has written down who calls whom, the minutes go to finding out. In the second wave, a refrigeration technician in the Gironde told Le Monde that his teams reached a store near Bordeaux in time, and nothing had to be thrown away. Schelcher’s minority lost their stock because they could not respond fast enough. One factor clearly separated the two groups: time from first actionable warning to intervention. The lesson, concretely: an alert on any remote setpoint or mode change that no technician has announced, weighted by time of day and by how many circuits move together, raised by the controller where it can and by the contractor’s monitoring platform where it cannot, since the contractor is the only party that sees all its stores at once. A temperature logger that does not share the controller’s network, as the second opinion. A written call chain for 3 a.m. with names, not roles. And a drill: have the contractor change a setpoint on a test circuit at night and measure how many minutes pass before someone with authority has it reversed. That number is the one to report to the board. An unsupported controller is a budget line, not a patch ticket Claroty’s Team82 published three flaws in the current model , the AK-SM 800A, in August, all fixed in firmware 4.3.1 or earlier, and counted 2,765 of its management interfaces reachable from the internet. Nobody has linked those flaws to the attack. Danfoss says most affected units were the older AK-SM 800 and AK-SC 355, with some 800A units on outdated firmware. For the older models, there is nothing to patch. Danfoss ended updates for the AK-SM 800 in May 2021 and for the AK-SC 355 in 2016. CERT-FR therefore does not lead with patching. It tells operators to take every AK-SM, AK-SC and XWEB controller off the public internet, restore access only through a VPN or protected network, and for compromised Danfoss units, restart, or failing that, factory-reset, and reconfigure before returning them to service. It adds a warning that reads like a prediction: a reset alone removes persistence but leaves the device just as vulnerable, and the campaign is probably still running. The sequence is the one I argued for when CISA asked operators to harden Siemens S7 PLCs : exposure first, firmware second, replacement third. In practice, that means a list of every refrigeration controller by model, firmware and vendor support status by the end of this week; a management interface on a public IP address taken off it the same day; current firmware on everything the vendor still supports; and for everything it does not, a replacement date with a budget line and a name next to it. An aging controller may still do its job perfectly well, and replacing it costs money, engineering time and downtime, so without an owner the decision slides. The security team can document the risk. Someone on the commercial side has to accept it or fund the replacement, and after Reuters’ insurance round-up, that person should know they are also accepting the stock. Which brings the story back to the two groups of stores. Nobody has shown that firmware or hardware explains which stores kept their stock. What is documented is that a warning reached someone who could act before the cold chain gave way. That is an operational capability, and it can be tested long before an attacker tests it for you. Sekoia told Reuters that Spain, Portugal, Poland, Germany and Belgium saw cases too, and the same controller families run cold storage in warehouses and pharmaceutical distribution, maintained by the same kind of contractor. So, before the week is out, do two things. Search Shodan or Censys for your own refrigeration management interfaces, because someone else already has. Then call the contractor and ask one question: when you log into our sites, how do you get there? If the answer is a public IP address and a password, with nothing in between, you have found your incident. It just hasn’t happened yet.",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "GRC"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "network",
+        "router",
+        "vpn",
+        "firewall",
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "vulnerability",
+        "security",
+        "cyber",
+        "siem"
+      ],
+      "GRC": [
+        "policy"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "On the night of 11 October, someone remotely put the cold cases of several hundred French supermarkets into defrost. At Intermarché and Netto stores, fridges and freezers warmed to around 50°C and stayed there for about six hours, according to Les Mousquetaires, which expects losses in the tens of millions of euros. By morning, staff were filling skips with meat, frozen goods and vegetables. Coopérative U counted 80 affected stores out of roughly 2,000."
+  },
+  {
+    "title": "OT systems complicate quantum-resistant data protection",
+    "url": "https://www.csoonline.com/article/4236142/ot-systems-complicate-shift-to-quantum-resistant-data-protection.html",
+    "source": "CSO Online",
+    "published": "2026-10-20T08:25:00+00:00",
+    "raw_text": "Quantum-resistant cryptography presents security leaders with various challenges, but CISOs in industries dependent on IoT and operational technology (OT) devices may face a particularly difficult journey to quantum readiness, especially if sensitive information that must remain confidential for years passes through those devices. A recent report from cybersecurity firm Forescout highlights these challenges in the healthcare industry, where medical histories, diagnostic images, and laboratory results, which retain their sensitivity long after they are created, routinely get transferred between various operational systems. Attackers who collect encrypted traffic carrying this information today can store it for decryption when sufficiently powerful quantum computers become available, an approach security experts call “harvest now, decrypt later” (HNDL). “PQC [post-quantum cryptography] migration in healthcare is not just about data confidentiality, but also patient safety,” the Forescout researchers say in their report, which examined over 2.5 million devices across more than 50 organizations. “Cryptography protects commands sent to medical devices, telemetry received from those devices for diagnostic purposes, medication orders, and other sensitive interactions. Quantum threats include unauthorized remote access by exploiting public keys for authentication, tampering with device-to-device communication by decrypting traffic, and sophisticated malware exploiting firmware integrity signatures.” While upgrading to PQC is relatively straightforward for live servers, where a standardized PQC algorithm can be implemented as a library package upgrade and configuration change, embedded devices such as those used in healthcare need full firmware updates from their manufacturers. Moreover, those upgrades must maintain backwards compatibility with other systems that might not be upgraded at the same time, and in the case of certified devices, they might require re-certification. This issue goes beyond healthcare to include industrial installations or anywhere OT or IoT devices handle sensitive or business-critical data. Last month, the G7 Cybersecurity Working Group urged governments and organizations to begin migrating to PQC as soon as possible, calling for action across all sectors. The group warned that the transition will be lengthy and that organizations should prepare before quantum computers capable of breaking current cryptography become available. Daniel dos Santos, VP of research at Forescout, tells CSO that while government bodies have issued orders and advisories with different expectations for PQC readiness, they all tend to converge on a 2030 timeline, which is when experts expect quantum computers might be capable of breaking existing encryption algorithms. For industries such as healthcare, however, the HNDL threat collapses that quantum-readiness timeline completely. Patient data travels beyond the medical device Protecting patient information requires securing the entire communication chain, from the equipment that generates the data to the IT systems that store it and the applications that make it available to doctors and patients. That includes, for example, a CT scanner that sends images to a picture archiving and communication system (PACS), images that can later be transferred between hospitals, cloud services, and external radiology providers, requiring quantum-resistant protection on each transfer to maintain long-term confidentiality. Laboratory results and prescription records follow similar routes. Electronic prescribing services exchange medication information between providers and pharmacies, including records of controlled substances and treatment for chronic diseases. Attackers can potentially intercept and siphon that data at different points in the chain: at the device level, from an internal network, through a compromised edge router or firewall, or even at the telecom operator’s level . The platforms that store and exchange patient records are often accessible directly from the internet as well. In a Shodan search, Forescout identified more than 5,500 internet-exposed instances of medical information systems, with electronic medical record platforms accounting for 46% of those instances and PACS accounting for 40%. Only 36% of PACS, 33% of electronic medical record systems, and 13% of laboratory information management systems had support for TLS 1.3, the only version of the protocol that supports ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism), a quantum-resistant key encapsulation standard published by NIST. However, the presence of TLS 1.3 does not demonstrate that a connection uses quantum-resistant cryptography, because the connecting client might negotiate a different algorithm. Furthermore, in a previous study published in June , Forescout found that only 11.8% of SSH servers on the internet are PQC-capable, a number that falls to 3% when looking only at Dropbear, an SSH server commonly used on embedded devices. Inside enterprise networks, 50% of IT devices use OpenSSH versions that support PQC, but only 28% of IoT, 16% of OT, and 6% of IoMT devices use the same versions. “Specialized devices are unlikely to be fully migrated this decade if we keep going at the current pace, delaying broader PQC migration efforts and quantum readiness,” the researchers concluded. “Unfortunately, medical devices are among those with the lowest adoption rates and the hardest challenges for adopting PQC.” Challenges extend beyond healthcare Changing cryptography on equipment used for patient care or industrial operations is completely dependent on the device vendor. Dos Santos says modifying the device filesystem independently, even when it can be done, jeopardizes certification, maintenance, and support, and any communication protocol changes need to preserve connections to other equipment. The same problem exists for devices in chemical plants, electricity networks, water treatment facilities, and factory floors. Some medical and industrial equipment already runs on Linux, which could in theory make adopting PQC easier, dos Santos says. However, he has seen little discussion of PQC adoption or roadmaps among OT vendors. The Cybersecurity and Infrastructure Security Agency (CISA) described in its October 2024 OT guidance how changes to equipment controlling heavy machinery or combustible materials can require extensive safety testing. For medical devices, the regulatory implications depend on the changes made to the device. The US Food and Drug Administration’s February 2026 cybersecurity guidance says changes to authentication or encryption algorithms may require a new premarket submission. Concerns about legacy equipment and PQC extend across sectors. In a Certes survey of 200 IT and security professionals engaged with quantum-related risks at large US and UK organizations published in May, 78% of respondents rated the potential quantum threat to legacy environments as very high. For edge and IoT equipment, including industrial and medical devices, ATMs, and vehicles, 43% rated the threat as very high and another 31% as significant. Some devices will need alternative solutions Healthcare information, financial records, and trade secrets, such as code and industrial designs, can remain sensitive years after transmission. But not all data exchanged between devices has the same confidentiality requirements or operational relevance over time. “What’s missing from the policy conversation is a differentiated threat and risk assessment framework — one that accounts for data lifetime and sensitivity decay rate, device class, computational constraints, and realistic adversary capability timelines,” Sharon Hagi, CSO at IoT cybersecurity firm Finite State, told CSO in June after France’s national cybersecurity agency, ANSSI, outlined plans to introduce PQC requirements for product qualification starting in 2027. “The quantum threat is not uniformly distributed across the cryptographic stack,” Hagi said. “Shor’s algorithm breaks RSA and ECC. It does not break AES-256 or SHA-3 in any operationally practical sense — Grover’s provides at most a quadratic speedup, and the effective security margins of properly sized symmetric primitives still holds for most uses. Architectures that rely on symmetric encryption with out-of-band or pre-provisioned key distribution remain meaningful options for resource-constrained embedded devices where NIST PQC algorithms (e.g. ML-KEM, ML-DSA) impose non-trivial compute, bandwidth, and memory costs.” This means vendors will have to weigh carefully on which devices it’s even viable due to hardware limitations to deploy new PQC algorithms. In some cases, end-users might have to come up with alternatives, such as isolating those devices and routing traffic to and from them through other gateway devices that can apply PQC. This is the approach that users should start taking before vendors decide to release firmware upgrades, dos Santos says. For example, internet-facing websites and portals should already be configured to use TLS 1.3 as all modern browsers support it. For remote management and file transfers over the internet, deploy gateways that support protocols with quantum-resistant cryptography. A hospital could use a gateway to protect an image transfer to an external radiology provider. The hospital would still need to assess the connection from the scanner or image archive to that gateway and maybe isolate them on their own network segment with no direct internet access. “But at least for the external part, you’re reducing risk, right?” dos Santos says. But PQC support at one endpoint is effective only if the other endpoint can also negotiate the same algorithm, and manufacturers are reporting difficulty meeting interoperability goals. Thales’s September Manufacturing Data Threat Report , based on 417 respondents in 20 countries, revealed that 30% were behind on their post-quantum interoperability objectives. “For the end users, the main thing to be doing right now is the inventory of devices and data together,” dos Santos said. “Devices, data, and communication.” The resulting map should identify which transfers already have compatible protection, which depend on an upgrade, and where a gateway could protect an external connection. For healthcare, Forescout recommends prioritizing patient portals, external APIs, partner exchanges, and other internet-facing connections, then updating cryptographic libraries and firmware where feasible. For equipment that cannot be upgraded, its healthcare report recommends assessing gateways and isolation measures, obtaining vendor roadmaps, and planning replacement when manufacturers have no viable migration path. Dos Santos says vendors supplying equipment with multiyear service should have a roadmap for PQC communications even when their current firmware does not support it. Operators need to know when that support will arrive, which connections it will protect, and whether it requires new hardware. For equipment expected to remain in service for years, those answers need to inform purchasing and support agreements, alongside a replacement plan if a vendor cannot deliver an upgrade. The G7 call to action urges organizations to integrate quantum-safe replacements into normal equipment renewal schedules and the US Office of Management and Budget’s June guidance directs federal agencies to incorporate PQC upgrades into hardware refreshes and prioritize replacing or decommissioning equipment that cannot support PQC or hybrid cryptography.",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "GRC",
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "cloud services"
+      ],
+      "Networks": [
+        "network",
+        "routing",
+        "router",
+        "bandwidth",
+        "firewall",
+        "lan",
+        "iot",
+        "telecom"
+      ],
+      "Cybersecurity": [
+        "malware",
+        "exploit",
+        "threat",
+        "encryption",
+        "security",
+        "cyber"
+      ],
+      "GRC": [
+        "regulatory",
+        "policy",
+        "nist",
+        "data protection"
+      ],
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "Quantum-resistant cryptography presents security leaders with various challenges, but CISOs in industries dependent on IoT and operational technology (OT) devices may face a particularly difficult journey to quantum readiness, especially if sensitive information that must remain confidential for years passes through those devices. A recent report from cybersecurity firm Forescout highlights these challenges in the healthcare industry, where medical histories, diagnostic images, and laboratory results, which retain their sensitivity long after they are created, routinely get transferred between various operational systems. Attackers who collect encrypted traffic carrying this information today can store it for decryption when sufficiently powerful quantum computers become available, an approach security experts call “harvest now, decrypt later” (HNDL). “PQC [post-quantum cryptography] migration in healthcare is not just about data confidentiality, but also patient safety,” the Forescout researchers say in their report, which examined over 2.5 million devices across more than 50 organizations."
   },
   {
     "title": "F5 rushes out emergency NGINX patches for three critical flaws",
@@ -1572,6 +1638,79 @@
       ]
     },
     "summary": "Malware is evolving rapidly, driven by advances in AI and changes in computing infrastructures. Security professionals must continuously educate themselves on these trends to defend against increasingly sophisticated threats. The traditional game of cat and mouse between security attackers and defenders has got fiercer with fresh techniques evolving and older less effective approaches falling out of fashion. Here is a look at what’s heating up in the world of malware — and what’s cooling off."
+  },
+  {
+    "title": "Google expands partnership with Entergy Arkansas, will fund renewable energy and grid upgrades for West Memphis data center",
+    "url": "https://www.datacenterdynamics.com/en/news/google-expands-partnership-with-entergy-arkansas-will-fund-renewable-energy-and-grid-upgrades-for-west-memphis-data-center/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-20T09:12:03+00:00",
+    "raw_text": "Inks 440MW PPA and backs two BESS projects",
+    "categories": [
+      "Industry & Market",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ],
+      "Industry & Market": [
+        "partnership",
+        "expands"
+      ]
+    },
+    "summary": "Inks 440MW PPA and backs two BESS projects"
+  },
+  {
+    "title": "1GW data center proposed alongside solar farm in Norfolk, UK",
+    "url": "https://www.datacenterdynamics.com/en/news/1gw-data-center-proposed-alongside-solar-farm-in-norfolk-uk/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-20T08:53:54+00:00",
+    "raw_text": "Would be UK's largest solar park",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Would be UK's largest solar park"
+  },
+  {
+    "title": "Sponsored: Ablecom releases whitepaper introducing high-efficiency RDHx liquid cooling solution",
+    "url": "https://www.datacenterdynamics.com/en/product-news/ablecom-releases-whitepaper-introducing-high-efficiency-rdhx-liquid-cooling-solution/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-20T08:00:00+00:00",
+    "raw_text": "The report details how data center operators can bypass high CapEx and downtime while handling heat loads up to 75 kW per rack and slashing PUE to 1.15–1.3",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center",
+        "cooling",
+        "pue",
+        "rack",
+        "liquid cooling"
+      ]
+    },
+    "summary": "The report details how data center operators can bypass high CapEx and downtime while handling heat loads up to 75 kW per rack and slashing PUE to 1.15–1.3"
+  },
+  {
+    "title": "Sponsored: Building a battery ecosystem for AI data centers",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/building-a-battery-ecosystem-for-ai-data-centers/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-20T08:00:00+00:00",
+    "raw_text": "Why the future of data center power may depend on flexible storage technologies and smarter DC infrastructure",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Why the future of data center power may depend on flexible storage technologies and smarter DC infrastructure"
   },
   {
     "title": "Authorities in Lithuania foil arson plot against Starlink satellite gateway station",
@@ -1853,69 +1992,38 @@
     "summary": "Company looks to pivot 18MW site into an AI data center"
   },
   {
-    "title": "Carrier Connect secures customer for 4MW data center outside Atlanta, Georgia",
-    "url": "https://www.datacenterdynamics.com/en/news/carrier-connect-secures-customer-for-4mw-data-center-outside-atlanta-georgia/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-19T12:49:53+00:00",
-    "raw_text": "Company signs lease for entire facility just days after taking over the site",
+    "title": "London’s mobile networks fall to bottom of Europe’s capital league",
+    "url": "https://www.theregister.com/networks/2026/10/20/londons-mobile-networks-fall-to-bottom-of-europes-capital-league/5303800",
+    "source": "The Register",
+    "published": "2026-10-20T08:30:00+00:00",
+    "raw_text": "Rooftop rent cuts, planning refusals and congestion leave Ookla ranking the UK’s capital last for speed and latency",
     "categories": [
-      "Networks",
-      "Data Centres"
+      "Networks"
     ],
     "matched_keywords": {
       "Networks": [
+        "network",
+        "latency",
         "lan"
-      ],
-      "Data Centres": [
-        "data center"
       ]
     },
-    "summary": "Company signs lease for entire facility just days after taking over the site"
+    "summary": "Rooftop rent cuts, planning refusals and congestion leave Ookla ranking the UK’s capital last for speed and latency"
   },
   {
-    "title": "Alcoa sells New York aluminum smelter to data center developer for $315 million",
-    "url": "https://www.datacenterdynamics.com/en/news/alcoa-sells-new-york-aluminum-smelter-to-data-center-developer-for-315-million/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-19T12:20:36+00:00",
-    "raw_text": "Company doesn’t name buyer, but signs point to cryptominer NYDIG",
+    "title": "Why cyber resilience is now a boardroom priority for UK public services",
+    "url": "https://www.theregister.com/security/2026/10/20/partner-content-why-cyber-resilience-is-now-a-boardroom-priority-for-uk-public-services/5301601",
+    "source": "The Register",
+    "published": "2026-10-20T08:00:00+00:00",
+    "raw_text": "PARTNER CONTENT: What happens after the inflection point?",
     "categories": [
-      "Data Centres"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Data Centres": [
-        "data center"
+      "Cybersecurity": [
+        "cyber"
       ]
     },
-    "summary": "Company doesn’t name buyer, but signs point to cryptominer NYDIG"
-  },
-  {
-    "title": "Israel to cap capacity of new data centers at 200MW - report",
-    "url": "https://www.datacenterdynamics.com/en/news/israel-to-cap-capacity-of-new-data-centers-at-200mw-report/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-19T12:20:35+00:00",
-    "raw_text": "New rules come as country faces unprecedented data center demand",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center",
-        "capacity"
-      ]
-    },
-    "summary": "New rules come as country faces unprecedented data center demand"
-  },
-  {
-    "title": "Mosquito control helicopter crashes into radio tower in Florida, killling pilot",
-    "url": "https://www.datacenterdynamics.com/en/news/mosquito-control-helicopter-crashes-into-radio-tower-in-florida-killling-pilot/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-19T11:40:47+00:00",
-    "raw_text": "The tower was unlit",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The tower was unlit"
+    "summary": "PARTNER CONTENT: What happens after the inflection point?"
   },
   {
     "title": "Sony updates the Walkman as a $5,900 gold-plated MP3 player",
@@ -2329,16 +2437,33 @@
     "summary": "Cite difficulty of updating IoT devices as major reason to stop adding time"
   },
   {
-    "title": "Oh no, what happened to my OOHPod? Windows command prompt puts in a surprise appearance",
-    "url": "https://www.theregister.com/offbeat/2026/10/18/oh-no-what-happened-to-my-oohpod-windows-command-prompt-puts-in-a-surprise-appearance/5303109",
-    "source": "The Register",
-    "published": "2026-10-18T08:09:00+00:00",
-    "raw_text": "Pop quiz: somebody left a command shell logged in. What do you do?",
+    "title": "Teachers’ pension transfers from Capita on eve of government’s civil service scheme decision",
+    "url": "https://www.computerweekly.com/news/366652521/Teachers-pension-transfers-from-Capita-on-eve-of-governments-civil-service-scheme-decision",
+    "source": "ComputerWeekly",
+    "published": "2026-10-20T05:00:00+00:00",
+    "raw_text": "<p>The <a href=\"https://www.computerweekly.com/news/366651403/Members-braced-as-teachers-pension-transfer-approaches\">switchover of the teachers’ pension</a> scheme from Capita to Tata Consultancy Services (TCS), which begins this week, will be closely watched as government faces decision time over Capita’s failed civil service pension administration.</p> <p>If all goes to plan, a blackout on the teachers’ pension website is planned from 22 October to 2 November, when the scheme completes its transfer to Indian IT giant TCS.</p> <p>Capita has run the service for more than 20 years, but TCS <a href=\"https://www.computerweekly.com/news/366539474/Indian-giant-takes-UK-teachers-pensions-contract-from-Capita\">secured a 10-year Department for Education contract</a> in 2023, the same year Capita won the contract to take over the civil service pension scheme (CSPS), which since its go live has been a monumental disaster (<a href=\"#Box\"><i>see box below</i></a>).</p> <p>It won’t just be teachers braced for the transfer of more than two million pension accounts from Capita to TCS, but also the government, which is under pressure to strip Capita of the CSPS. It has already removed the outsourcing firm from the contract to administer the Royal Mail pension scheme, following failure to meet key milestones, and is still to decide the scheme’s future administration delivery.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pension problems\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pension problems</h2> <p>As Computer Weekly revealed earlier this month, MPs heard that some teachers are experiencing problems with their pensions. In light of Capita’s disastrous takeover of the Civil Service Pension Scheme, a <a href=\"https://www.computerweekly.com/news/366650460/Capita-doesnt-get-to-walk-away-from-civil-service-pension-mess-says-minister\">Westminster Hall debate</a> was held, where MPs discussed the botched scheme.</p> <p>During the packed-out meeting, Alison Bennet, Liberal Democrat MP for Mid Sussex, said she had been told teachers were experiencing problems with their pensions. She asked: “Are we seeing teachers go through the same ordeal [as civil servants]?</p> <p>“I have received very concerning casework from teachers in my constituency who seem to be having similar or the same troubles with their pensions,” added Bennet. “The idea that the immense stress and potential financial hardship we’ve heard inflicted on civil servants has been [repeated] with teachers is appalling.”</p> <p>One former teacher who is supporting teachers with concerns told Computer Weekly earlier this month that there are thousands of anomalies in the data being transferred that could see teachers lose out. “I have been encouraging teachers to make copies of the data that they have available through the website,” he said.</p> <p>A Department for Education spokesperson repeated <a href=\"https://www.computerweekly.com/news/366651403/Members-braced-as-teachers-pension-transfer-approaches\">an earlier statement</a> that the scheme has some “clearly unacceptable” delays. The spokesperson said it expects Capita to “closely with those affected … resolve issues as quickly as possible and keep them informed throughout”.</p> <p>The government department confirmed the transfer will be complete on 1 November, with the website and member/employer portal available from 2 November.</p> <p>TCS and Capita were contacted for an update on progress but had not responded when this article was published.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Decision time\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Decision time</h2> <p>The government is currently deciding what to do with the CSPS and Royal Mail schemes. It’s Strategic Review of Pension Scheme Delivery is at its “discovery phase”, where it is considering a range of options, including insourcing and increased digital delivery for&nbsp;the schemes.</p> <p>In a recent briefing to members, PCS general secretary Fran Heathcote said the government hopes to develop its “strategic position” by next month. A decision, if made next month, will come soon after TCS’s teachers’ pension administration goes live.</p> <p>Heathcote told union members that the government is considering the “feasibility of insourcing pension administration”, as well as “greater consistency and alignment across public service schemes, shared delivery approaches between schemes, future digital delivery options, and the practical implications of major organisational change”.</p> <p>The PCS’s Heathcote also said the National Trade Union Congress has highlighted government ambitions to strengthen internal digital capability and said the review should examine: “The feasibility of an in-house digital pension platform. The timescales required to develop such a system. Alternative suppliers if an internal solution is not viable.”</p> <p>TCS’s takeover of the teachers’ pension scheme, which involves digitally transforming it, will give the government a live case to watch closely.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Botched AI project\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Botched AI project</h2> <p>Capita had planned a similar transformation with the CSPS but its grand plan to use artificial intelligence (AI) to revolutionise pension scheme delivery failed when the tech didn’t work.</p> <p>Simon Hoare MP, who chairs the <a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">Public Administration and Constitutional Affairs Committee</a>, said during a select committee hearing about the CSPS failures: “The Cabinet Office was told that the two-year transition period would lead to the digital artificial intelligence revolution to deliver a world-class, world-leading pension service. None of that met neither the novel nor the basic.”</p> <p>Capita CEO Adolfo Hernandez conceded: “We have not been able to deploy the technology that would allow us to get there.”</p> <p>What resulted is becoming a scandal as retired civil servants and the families of deceased scheme members have been left without the funds they are owed – for nearly a year in some cases – due to Capta’s mistakes.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\"><a id=\"Box\"></a>Read more about Capita and the Civil Service Pension Scheme</h3> <ul type=\"square\" class=\"default-list\"> <li>Oct 2026: <a href=\"https://www.computerweekly.com/news/366652133/Government-could-firm-up-pension-insourcing-position-next-month\">Government could firm up pension insourcing position next month</a>.</li> <li>Oct 2026: <a href=\"https://www.computerweekly.com/news/366652045/Campaign-group-submits-evidence-to-two-Capita-probes-as-pension-scheme-member-turns-to-food-bank\">Campaign group submits evidence to two Capita probes as pension scheme member turns to food bank</a>.</li> <li>Oct 2026: <a href=\"https://www.computerweekly.com/news/366651551/NAO-to-investigate-what-went-wrong-in-Capitas-civil-service-pension-takeover\">NAO to investigate what went wrong in Capita’s civil service pension takeover</a>.</li> <li>Oct 2025: <a href=\"https://www.computerweekly.com/news/366633358/Capita-rubbishes-Public-Accounts-Committee-report-claims\">Capita rubbishes Public Accounts Committee report claims</a>.</li> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366650555/Capita-boss-gets-obscene-pay-packet-while-retired-civil-servants-need-emergency-loans\">Capita boss gets ‘obscene’ pay packet while retired civil servants need emergency loans</a>.</li> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366650460/Capita-doesnt-get-to-walk-away-from-civil-service-pension-mess-says-minister\">Capita doesn’t get to ‘walk away from’ civil service pension mess, says minister</a>.</li> <li>Sept 2026: <a href=\"https://www.computerweekly.com/news/366649749/UK-government-to-create-team-to-validate-Capitas-data-on-troubled-pension-scheme\">UK government to create team to validate Capita’s data on troubled pension scheme</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650254/Capita-meeting-self-imposed-civil-service-pension-targets-not-sufficient-says-government\">UK government views the outsourcer’s performance as ‘unacceptable’ after it reports meeting a self-imposed target</a>.</li> <li>Sept 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366650193/Government-has-seen-enough-of-Capita-failure-and-Civil-Service-Pension-scheme-to-be-moved-in-house\">Government has seen enough of Capita failure and Civil Service Pension Scheme to be moved in-house</a>.</li> <li>Aug 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">Capita CEO receives scathing rebuttal from employee over botched contract</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645827/PAC-raises-more-questions-over-Capitas-role-in-government?_gl=1*xbkv0w*_ga*Mjg4MTcxMzU3LjE3Nzk5NjUxNTU.*_ga_TQKE4GS5P9*czE3ODU5Mjk3MjIkbzI2NiRnMSR0MTc4NTkyOTcyNiRqNTYkbDAkaDA.\">PAC raises more questions over Capita’s role in government</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645700/Capita-to-lose-money-on-pension-debacle-but-has-governments-private-parts-in-its-grip\">Capita to lose money on pension debacle but ‘has government’s private parts in its grip’</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645462/Capita-civil-service-pension-contract-prime-candidate-for-insourcing-says-government-minister\">Capita civil service pension contract ‘prime candidate’ for insourcing, says government minister</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645478/Capitas-rush-to-hit-civil-service-pension-deadline-risking-errors-say-staff\">Capita’s rush to hit civil service pension deadline risking errors, say staff</a>.</li> <li>July 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366645354/Union-calls-for-insourcing-of-pension-contract-as-Capita-shit-show-goes-on\">Union calls for insourcing of pension contract as Capita ‘shit show’ goes on</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366644692/Cabinet-Office-states-Capita-set-to-miss-Civil-Service-Pension-Scheme-deadline\">Cabinet Office states Capita set to miss Civil Service Pension Scheme deadline</a>.</li> <li>Jun 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643878/Capita-launched-civil-service-pension-scheme-site-without-basic-web-security\">Capita went live with its troubled civil service pensions administration without a basic Domain Name System security feature</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643712/Ministers-refused-to-sign-off-563m-Capita-contract-amid-civil-service-pension-disaster\">Ministers refused to sign off £563m Capita contract amid civil service pension disaster</a>.</li> <li>May 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366643012/Civil-servants-to-protest-at-Capita-general-meeting-amid-pension-crisis\">Civil servants to protest at Capita general meeting amid pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642492/Was-Capitas-Royal-Mail-pension-contract-a-botch-too-far\">Was Capita’s Royal Mail pension contract a botch too far?</a></li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">Capita lacked ‘detail and thoroughness’ in planning botched Civil Service Pension Scheme takeover</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642539/MP-committees-to-double-up-on-Capitas-civil-service-pension-crisis\">MP committees to double up on Capita’s civil service pension crisis</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642312/Government-should-drop-Capita-from-civil-service-scheme-after-it-loses-Royal-Mail-role-says-union\">Government should drop Capita from civil service scheme after it loses Royal Mail role, says union</a>.</li> <li>Apr 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366642152/Government-terminates-Capitas-Royal-Mail-pension-contract\">Government terminates Capita’s Royal Mail pension contract</a>.</li> <li>Mar 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366640779/Capita-left-to-deal-with13000-civil-service-pension-cases-over-a-year-old\">Capita left to deal with 13,000 civil service pension cases over a year old</a>.</li> <li>Feb 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366639026/Thousands-of-unread-emails-and-20-million-database-errors-cause-civil-service-pension-hardship\">Thousands of unread emails and 20 million database errors cause civil service pension hardship</a>.</li> <li>Jan 2026:&nbsp;<a href=\"https://www.computerweekly.com/news/366637837/Troubleshooter-steps-in-as-Capita-and-civil-service-bosses-apologise-for-pension-scheme-problems\">Troubleshooter steps in as Capita and civil service bosses apologise for pension scheme problems</a>.</li> <li>Oct 2025: <a href=\"https://www.computerweekly.com/news/366633358/Capita-rubbishes-Public-Accounts-Committee-report-claims\">Capita rubbishes Public Accounts Committee report claims</a>.</li> </ul> </div> </div> </section>",
     "categories": [
-      "Uncategorised"
+      "Industry & Market",
+      "Networks",
+      "Cybersecurity",
+      "GRC"
     ],
-    "matched_keywords": {},
-    "summary": "Pop quiz: somebody left a command shell logged in. What do you do?"
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "GRC": [
+        "nist"
+      ],
+      "Industry & Market": [
+        "raises",
+        "ey"
+      ]
+    },
+    "summary": "<p>The <a href=\"https://www.computerweekly.com/news/366651403/Members-braced-as-teachers-pension-transfer-approaches\">switchover of the teachers’ pension</a> scheme from Capita to Tata Consultancy Services (TCS), which begins this week, will be closely watched as government faces decision time over Capita’s failed civil service pension administration.</p> <p>If all goes to plan, a blackout on the teachers’ pension website is planned from 22 October to 2 November, when the scheme completes its transfer to Indian IT giant TCS.</p> <p>Capita has run the service for more than 20 years, but TCS <a href=\"https://www.computerweekly.com/news/366539474/Indian-giant-takes-UK-teachers-pensions-contract-from-Capita\">secured a 10-year Department for Education contract</a> in 2023, the same year Capita won the contract to take over the civil service pension scheme (CSPS), which since its go live has been a monumental disaster (<a href=\"#Box\"><i>see box below</i></a>).</p> <p>It won’t just be teachers braced for the transfer of more than two million pension accounts from Capita to TCS, but also the government, which is under pressure to strip Capita of the CSPS. It has already removed the outsourcing firm from the contract to administer the Royal Mail pension scheme, following failure to meet key milestones, and is still to decide the scheme’s future administration delivery.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Pension problems\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Pension problems</h2> <p>As Computer Weekly revealed earlier this month, MPs heard that some teachers are experiencing problems with their pensions. In light of Capita’s disastrous takeover of the Civil Service Pension Scheme, a <a href=\"https://www.computerweekly.com/news/366650460/Capita-doesnt-get-to-walk-away-from-civil-service-pension-mess-says-minister\">Westminster Hall debate</a> was held, where MPs discussed the botched scheme.</p> <p>During the packed-out meeting, Alison Bennet, Liberal Democrat MP for Mid Sussex, said she had been told teachers were experiencing problems with their pensions. She asked: “Are we seeing teachers go through the same ordeal [as civil servants]?</p> <p>“I have received very concerning casework from teachers in my constituency who seem to be having similar or the same troubles with their pensions,” added Bennet."
   },
   {
     "title": "CIOs admit they are being forced to upgrade enterprise IT",
@@ -3176,6 +3301,26 @@
     "summary": "A modernized health plan: Supporting cost management and the employee experience. Mainebiz"
   },
   {
+    "title": "HR & WorkTech Summit Philippines 2026 highlights human-centered AI, workforce transformation, and the future of work - GMA Network",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQT3pLX18ybE5xMVRndDRzRnZSYVNqOHA2M1lxeTlLa3VhSk5YMnUzNkVmS0VYVDBPUk13T2Qwbk80YzI3UXZnN2ZvWnFvOHo3aGNqSkFUSi1nRFFCNlZPNEpUZWY4X190U3Z2NmRwUmFTTlVuRVFhWUpQLXFkZFRkcTJENzdXdE1EaG1IWjgzd2tjRlJFY2x1UWU5WkNGZGR1cUt2TDBZOW9iRGQ5b0lTWjJOanMyWkoyQ2VwUFcxQ0tRalZvelhoekZEVUtmd1VUaVM3Rl9kaWJtaW9xM2ZhMnRoemVPa0VNUzJ1MmpzNHhmWDNfYlRRekRBZw?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-10-20T08:36:57+00:00",
+    "raw_text": "HR & WorkTech Summit Philippines 2026 highlights human-centered AI, workforce transformation, and the future of work GMA Network",
+    "categories": [
+      "Networks",
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "HR & WorkTech Summit Philippines 2026 highlights human-centered AI, workforce transformation, and the future of work GMA Network"
+  },
+  {
     "title": "LG CNS named Major Player in IDC digital workplace assessment - 매일경제",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2WVNnTGNDMDJINmxuYlNzS3VFRjNjb0hMVFlwNENJN3otWGxwVlVUNFhZR0FoWlFRYzJPMjVPV21aeEVLSllsbENSSlBCdkoySWc?oc=5",
     "source": "Google News: Digital Workplace",
@@ -3228,6 +3373,22 @@
     "summary": "Five Strategies from Government HR and Youth Thought Leaders to Shape the Future of Work EIN News"
   },
   {
+    "title": "The real reason some people want everyone back in the office - The National Scot",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONjBaWU9FTlBzT21WSkJzbkZHdm9LNW5hV0dnZTNpLXgzQVMxNGRzUnMwTmk5enktOE52MTRSZkNZNnRBQndhUTdZMkVOTzBlTlp0bEI3XzZaU1hBTnU2US1vcDdUV2FXdTJUbjVnMTJyMWludzR5MnhTWG02Qmx4U2l5aVpkUks3NHUtWUZsOExpc2dYbEtHd19yY1BVQQ?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-10-20T08:11:40+00:00",
+    "raw_text": "The real reason some people want everyone back in the office The National Scot",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "The real reason some people want everyone back in the office The National Scot"
+  },
+  {
     "title": "LG CNS Named First South Korean Company as 'Major Player' in IDC Digital Workplace Assessment - BigGo Finance",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9pb29ocjlSNDZBaEdDbl9KZHRBUG92OGIyLWVNcENMZjY0OE5Vb200VHRTemJITzZUNnMwVjNQcUg5dmJVZTB5bTZseW1kMlA5OWdadDRVaXZyQ25mMnl2RjhaaThFb1lwWGc0ZDBGWWd5NlNzZHc?oc=5",
     "source": "Google News: Digital Workplace",
@@ -3246,22 +3407,6 @@
       ]
     },
     "summary": "LG CNS Named First South Korean Company as 'Major Player' in IDC Digital Workplace Assessment BigGo Finance"
-  },
-  {
-    "title": "The real reason some people want everyone back in the office - The National Scot",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONjBaWU9FTlBzT21WSkJzbkZHdm9LNW5hV0dnZTNpLXgzQVMxNGRzUnMwTmk5enktOE52MTRSZkNZNnRBQndhUTdZMkVOTzBlTlp0bEI3XzZaU1hBTnU2US1vcDdUV2FXdTJUbjVnMTJyMWludzR5MnhTWG02Qmx4U2l5aVpkUks3NHUtWUZsOExpc2dYbEtHd19yY1BVQQ?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-10-20T04:10:11+00:00",
-    "raw_text": "The real reason some people want everyone back in the office The National Scot",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "The real reason some people want everyone back in the office The National Scot"
   },
   {
     "title": "LG CNS earns global recognition for AI-powered workplace services - The Korea Times",
@@ -3296,21 +3441,25 @@
     "summary": "LG CNS ranks as IDC Major Player in global digital workplace services - CHOSUNBIZ Chosunbiz"
   },
   {
-    "title": "Leveraging Agentic AI to Enhance Agent Productivity and Customer Experience in Contact Center Operations - IT Pro",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYjBwSVRRT09Zdm1YNFppZWs3emw3ZERQNFVCVGxaQW5UcWYxZWpGbHRadUhUWXdQTThWSk90dUNkemc5bVQ2ZC13RWJCYzV4MHRhTGN4VWtvS1UzY193cDlUMHVQX3E1SXdFZGM2YUZIM0J1ZDVhUXJhZUpVWEJhdG5tYUdPMHNrSlhGZ1VSQ0lOVVBPMFJCMmZEWXh6eTlJdk5XUEJEdHpicjdOUXRaNHZadkFjaHNYbTNVbGpvWkVNVzFpTElaYXY5VzVEZFFZdUtXMndZRlg3eUpNcUNIZTd5S1RnNjJQZFRSa2puNUxBQ2s?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-20T04:13:02+00:00",
-    "raw_text": "Leveraging Agentic AI to Enhance Agent Productivity and Customer Experience in Contact Center Operations IT Pro",
+    "title": "LG CNS named major player in IDC digital workplace vendor assessment - 디지털투데이",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnE1QnVORFZobVB0amxRSUNaaXlQaGpocDZXdW5sVVJwd2ViQUdVckowZUl4cTRKeXhVNDRKeFVEc0xrWktrclNkZkRLWXlOVU5oUlFXR0xiWmFyS1kzRHkxVmxsSGVUQlZ2UHJ6b0dPSERNTHJoRjF2elRpb3NLdUF1aXNTblR0a0VVTkkxOTNPYmlScGtFQWplUjZNZXg4cmJCaFdHdTFNaTdOc1hJNkpuNWs?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-10-19T02:01:51+00:00",
+    "raw_text": "LG CNS named major player in IDC digital workplace vendor assessment 디지털투데이",
     "categories": [
-      "Digital Customer Experience"
+      "Industry & Market",
+      "Digital Workplace"
     ],
     "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience",
-        "contact center"
+      "Industry & Market": [
+        "idc",
+        "vendor"
+      ],
+      "Digital Workplace": [
+        "digital workplace"
       ]
     },
-    "summary": "Leveraging Agentic AI to Enhance Agent Productivity and Customer Experience in Contact Center Operations IT Pro"
+    "summary": "LG CNS named major player in IDC digital workplace vendor assessment 디지털투데이"
   },
   {
     "title": "Personal Agents Will Drive More Contact Center Traffic Than They Offset - Salesforce",
@@ -3334,6 +3483,23 @@
     "summary": "Personal Agents Will Drive More Contact Center Traffic Than They Offset Salesforce"
   },
   {
+    "title": "Leveraging Agentic AI to Enhance Agent Productivity and Customer Experience in Contact Center Operations - IT Pro",
+    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNYjBwSVRRT09Zdm1YNFppZWs3emw3ZERQNFVCVGxaQW5UcWYxZWpGbHRadUhUWXdQTThWSk90dUNkemc5bVQ2ZC13RWJCYzV4MHRhTGN4VWtvS1UzY193cDlUMHVQX3E1SXdFZGM2YUZIM0J1ZDVhUXJhZUpVWEJhdG5tYUdPMHNrSlhGZ1VSQ0lOVVBPMFJCMmZEWXh6eTlJdk5XUEJEdHpicjdOUXRaNHZadkFjaHNYbTNVbGpvWkVNVzFpTElaYXY5VzVEZFFZdUtXMndZRlg3eUpNcUNIZTd5S1RnNjJQZFRSa2puNUxBQ2s?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-20T04:13:02+00:00",
+    "raw_text": "Leveraging Agentic AI to Enhance Agent Productivity and Customer Experience in Contact Center Operations IT Pro",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience",
+        "contact center"
+      ]
+    },
+    "summary": "Leveraging Agentic AI to Enhance Agent Productivity and Customer Experience in Contact Center Operations IT Pro"
+  },
+  {
     "title": "Conversational AI Chatbots, Explained for 2026 - Slack",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBRMUhVbllHYWM0R1lfNEYwSFh5YThjOWRPMnZfOGh2WUhRRmt3ZklvYS01V1Q2b0txbXA5b0pQRXctcFpLbDJrakI1Zms0WnNERWlldHhJRHlzTi01N2NPS1Rn?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -3349,22 +3515,6 @@
       ]
     },
     "summary": "Conversational AI Chatbots, Explained for 2026 Slack"
-  },
-  {
-    "title": "New research on omnichannel fulfillment shows AI becoming a “strategic enabler” - DC Velocity",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFBORHJjTEVhbjFMVWJlQnR6YUxfVUs3SXBkZzVCMEN3X19YZHZYNE44U0NfUDE2dUltYktCX0Y3NEhyWThOeVJkeFVSUVZJa1ZobWtkZDFBNUtnb3pKN1Q5dWptZHBtSXlQemRsYmNRVVJHWDQ0Yk9xaHVJSTdnek85MDZZTi14LVdIMno0QVg2SzhueElyZ2xXNS1zUXBEYnkwaXFELWdBTkZUN2tXaEY4UHZQNEJl?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-19T15:42:27+00:00",
-    "raw_text": "New research on omnichannel fulfillment shows AI becoming a “strategic enabler” DC Velocity",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "omnichannel"
-      ]
-    },
-    "summary": "New research on omnichannel fulfillment shows AI becoming a “strategic enabler” DC Velocity"
   },
   {
     "title": "DIFF Eyewear CEO Bob Ross Details New Omnichannel Strategy and Brick-and-Mortar Expansion - VisionMonday.com",
@@ -3385,6 +3535,22 @@
       ]
     },
     "summary": "DIFF Eyewear CEO Bob Ross Details New Omnichannel Strategy and Brick-and-Mortar Expansion VisionMonday.com"
+  },
+  {
+    "title": "New research on omnichannel fulfillment shows AI becoming a “strategic enabler” - DC Velocity",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFBORHJjTEVhbjFMVWJlQnR6YUxfVUs3SXBkZzVCMEN3X19YZHZYNE44U0NfUDE2dUltYktCX0Y3NEhyWThOeVJkeFVSUVZJa1ZobWtkZDFBNUtnb3pKN1Q5dWptZHBtSXlQemRsYmNRVVJHWDQ0Yk9xaHVJSTdnek85MDZZTi14LVdIMno0QVg2SzhueElyZ2xXNS1zUXBEYnkwaXFELWdBTkZUN2tXaEY4UHZQNEJl?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-19T15:42:27+00:00",
+    "raw_text": "New research on omnichannel fulfillment shows AI becoming a “strategic enabler” DC Velocity",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "omnichannel"
+      ]
+    },
+    "summary": "New research on omnichannel fulfillment shows AI becoming a “strategic enabler” DC Velocity"
   },
   {
     "title": "The Omnichannel Imperative: Why Credit Unions Need Both Digital and Physical to Thrive - PYMNTS.com",
@@ -3419,6 +3585,22 @@
     "summary": "Title Resources Group Names Robert Greenbaum EVP To Lead Customer Experience National Mortgage Professional"
   },
   {
+    "title": "Why Contact Center Efficiency Can Be a False Win - CX Today",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11TEM3bDAtdVppME9BR2piRVRHY2VfUmg4dEcxX3J3QzctNXJoS0xfTkg3X01JaDdVVGtOeW5TMEJFRVYzQ2NHZGRXRXdKZ0ZYbDdwZG5YMkpwMWVLbzNtSkUyb0Z1bTZCZVRkdm9tVEV6d1ozQXFj?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-19T14:01:00+00:00",
+    "raw_text": "Why Contact Center Efficiency Can Be a False Win CX Today",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "contact center"
+      ]
+    },
+    "summary": "Why Contact Center Efficiency Can Be a False Win CX Today"
+  },
+  {
     "title": "Binance Launches Binance AI Pro, Bringing Conversational AI Strategy Building to Users - PR Newswire",
     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcnVuUE5raW1FS01tdE93czRBU1VCWWtnVmJOY05BbHVkcDNBdHp5NTVGZ01EMFNLMkpxRVM0aTNFMzJWNWFWOEV1X183SmpVSy10RjhUOS10aVcyUGV6cXRfMjVHVFZXc21ZWDNBODVEQ1BwVm9rQWctOWdFY3o2QzRaTmFxUDVsenFZWTVsc3BzUFNNTzZDY1Vhcnl0TUtkdnRsdmUwd2ptY2V0bUtxSkpMZVhjQ3VKMnQyVDY4NGloOVdKRUR0SDZlMHZzZGFjcTN1LXZrQUk?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -3439,20 +3621,20 @@
     "summary": "Binance Launches Binance AI Pro, Bringing Conversational AI Strategy Building to Users PR Newswire"
   },
   {
-    "title": "Why Contact Center Efficiency Can Be a False Win - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11TEM3bDAtdVppME9BR2piRVRHY2VfUmg4dEcxX3J3QzctNXJoS0xfTkg3X01JaDdVVGtOeW5TMEJFRVYzQ2NHZGRXRXdKZ0ZYbDdwZG5YMkpwMWVLbzNtSkUyb0Z1bTZCZVRkdm9tVEV6d1ozQXFj?oc=5",
+    "title": "Hot Spot Strives to Elevate the Customer Experience - Convenience Store News",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WclA0aXpGc1AwdVhQdHlHQjVSbWtDa29ZS3lGcHFsb3BYN1RfVEhpcnZyNmNvdDVnRUttMGxZRk8wRDB4ZWNnQzlsSnJZckQ4TlIzVnREMkh1N1cyd2dRSk45LVh6Y3V2aU1ad3pDQ3M?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-19T14:01:00+00:00",
-    "raw_text": "Why Contact Center Efficiency Can Be a False Win CX Today",
+    "published": "2026-10-19T17:25:22+00:00",
+    "raw_text": "Hot Spot Strives to Elevate the Customer Experience Convenience Store News",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "contact center"
+        "customer experience"
       ]
     },
-    "summary": "Why Contact Center Efficiency Can Be a False Win CX Today"
+    "summary": "Hot Spot Strives to Elevate the Customer Experience Convenience Store News"
   },
   {
     "title": "Microsoft Advances Conversational AI With New Streaming Transcription Model - Cloud Wars",
@@ -3473,22 +3655,6 @@
       ]
     },
     "summary": "Microsoft Advances Conversational AI With New Streaming Transcription Model Cloud Wars"
-  },
-  {
-    "title": "Hot Spot Strives to Elevate the Customer Experience - Convenience Store News",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WclA0aXpGc1AwdVhQdHlHQjVSbWtDa29ZS3lGcHFsb3BYN1RfVEhpcnZyNmNvdDVnRUttMGxZRk8wRDB4ZWNnQzlsSnJZckQ4TlIzVnREMkh1N1cyd2dRSk45LVh6Y3V2aU1ad3pDQ3M?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-19T17:25:22+00:00",
-    "raw_text": "Hot Spot Strives to Elevate the Customer Experience Convenience Store News",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Hot Spot Strives to Elevate the Customer Experience Convenience Store News"
   },
   {
     "title": "USCIS Eyes Up to $100M Follow-On Enterprise Contact Center Contract - GovCon Wire",
@@ -3527,22 +3693,6 @@
     "summary": "API Stock: Can Agora Turn Conversational AI into a Growth Engine? CMC Markets"
   },
   {
-    "title": "You're Ready to Go Global, But Is Your Customer Experience? - UC Today",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM0JsTndwZVAtSGdaMmlGM0VJQlA1aUtiZmFWVXA3WVZxNnJvYmNPTm9RV2pGOU5jaVF2aThrZlJTY3ZOcnVaTVBJZ0lFNXIxUDUyREpIQ0RkWnNFQjZ4cFRpY3oyMzdkcDItNGl4S1ZGSjFDeGRUbXRIT2FOSzJjdEFGN3FKNXFqNnVJa0lCSDJHSS1tZnVPZkF3?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-19T09:35:15+00:00",
-    "raw_text": "You're Ready to Go Global, But Is Your Customer Experience? UC Today",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "You're Ready to Go Global, But Is Your Customer Experience? UC Today"
-  },
-  {
     "title": "Beyond the Bot: Why Embedded Conversational AI Is Banking’s Next Strategic Advantage - PYMNTS.com",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbzZpVkhBVVp0RTJldlI4S0x5Uzh0ZkZqa05mYm5MU0ZTRjJfQW9vaE8wVkM1QWVSV2VZak40eVFpTE9ubjRGMm1jNm9Rc2QzbkN1Y1RWOVFNazFZRlBad3lBeDh1SE5ZX2NEU2xPZjZXdGlyaTFSN2wtT3ViUUdkRUtVMDl1aWJBT0dKYnJXNVhVRFY1UEFlNUQ4UllGanhyWFUyN0N0R0EwYTU4MXNJRk9sWmlYcGo1cWR5Y3JR?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -3579,6 +3729,22 @@
     "summary": "Growing Credit Union Membership via Lending and Omnichannel Banking Innovation PYMNTS.com"
   },
   {
+    "title": "You're Ready to Go Global, But Is Your Customer Experience? - UC Today",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM0JsTndwZVAtSGdaMmlGM0VJQlA1aUtiZmFWVXA3WVZxNnJvYmNPTm9RV2pGOU5jaVF2aThrZlJTY3ZOcnVaTVBJZ0lFNXIxUDUyREpIQ0RkWnNFQjZ4cFRpY3oyMzdkcDItNGl4S1ZGSjFDeGRUbXRIT2FOSzJjdEFGN3FKNXFqNnVJa0lCSDJHSS1tZnVPZkF3?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-19T09:35:15+00:00",
+    "raw_text": "You're Ready to Go Global, But Is Your Customer Experience? UC Today",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "You're Ready to Go Global, But Is Your Customer Experience? UC Today"
+  },
+  {
     "title": "BJ’s awards hourly workers $25M in recognition of service - Retail Customer Experience",
     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONXRIdFRGU3FFbzhsNWcxTG5fc0lYdzh2MDFuMENvS0hhTXJwWmlnSU5GX1NULXBjQk9FNXlrSDhSZWhQMmd2RV9OQXoyUDZSTG02c3BYU0p1MGJQcTNEdmlDQld0U2lCdzhIaXl2Z2E2a3l2YVBUc2JfU1RFenZueEVMYzh0dy1rcmZ3VlllOHZQaTFsTGYzU3ppTnQySmJ3bXlhSA?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -3595,6 +3761,18 @@
     "summary": "BJ’s awards hourly workers $25M in recognition of service Retail Customer Experience"
   },
   {
+    "title": "TENEO AI: Invitation to Presentation of the Q3 report 2026 - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0I1NHRUTW1GZFVFQ013Q2FCXy0wU3h1M2MxcllvZVczeE9Kc1B2cEp4QS0zVVZabWxWOHFudVllNGRHZlpPUmhUZ2xQa3lwa2V4Nl9OMWZzVEVFZmJjTkRmbGQ1QU5pT0tJWEZmaElrS3RraGEzdHFidlo2SEhTODBLZVJwWGIxMGJWSDdIN0J6Rm5JeGpkQWZaUkZCaXJOTDBXeFZHOXMyaGhrUEZVSzYxdUVnaWhMNnFuNGc4MTI?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-19T16:25:00+00:00",
+    "raw_text": "TENEO AI: Invitation to Presentation of the Q3 report 2026 TradingView",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "TENEO AI: Invitation to Presentation of the Q3 report 2026 TradingView"
+  },
+  {
     "title": "Kroger laying off 3K corporate staffers - Retail Customer Experience",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNUlWcE1Qd1BSejgzZDl6bVJ0bjFET2pBVGRuanBuYTlhanFDYmZVa1U1Zm9QSnJfTERHVURjYlVWdFNydGNqdUREX1I1OTlqb01VNTlOZWxlSW92OUlkYTUyNDljWWcweFIyZnA5bGRYbTVFZzFSYjNWNkE4S0NwNTRSc01OZVEyLWxDU0MxNA?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -3609,18 +3787,6 @@
       ]
     },
     "summary": "Kroger laying off 3K corporate staffers Retail Customer Experience"
-  },
-  {
-    "title": "TENEO AI: Invitation to Presentation of the Q3 report 2026 - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS0I1NHRUTW1GZFVFQ013Q2FCXy0wU3h1M2MxcllvZVczeE9Kc1B2cEp4QS0zVVZabWxWOHFudVllNGRHZlpPUmhUZ2xQa3lwa2V4Nl9OMWZzVEVFZmJjTkRmbGQ1QU5pT0tJWEZmaElrS3RraGEzdHFidlo2SEhTODBLZVJwWGIxMGJWSDdIN0J6Rm5JeGpkQWZaUkZCaXJOTDBXeFZHOXMyaGhrUEZVSzYxdUVnaWhMNnFuNGc4MTI?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-19T16:25:00+00:00",
-    "raw_text": "TENEO AI: Invitation to Presentation of the Q3 report 2026 TradingView",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "TENEO AI: Invitation to Presentation of the Q3 report 2026 TradingView"
   },
   {
     "title": "Itron Collaborating With SmartMark Communications to Enhance Utility Customer Experience - marketscreener.com",
@@ -3673,6 +3839,22 @@
       ]
     },
     "summary": "Former Amazon and M&S executive Murray Beckett bags Director of Omnichannel & Retail Media role at Boots Retail Technology Innovation Hub"
+  },
+  {
+    "title": "Savaria UK celebrates double silver success at the UK Customer Experience Awards 2026 - THIIS Magazine",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOEhwZTBfNWxmamhzc2wwZmxnWnVHMm5zbklvTExON1BtNS1xVnd0dGhMUksyLUtSby12cG9XVHRyWkpmeFlILWhjdXdieHdLYk1lUWJ6bWp5TDVuQ01fcm9udEgyTXozb2s3WF9oMXY2TlNCbG1qblc3ZWhuRW5uRFJjbTBvQlhVR051UG83bGF0M3VEdTI0SFFlRk05Umg0NURkSjAtVEdaZw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-20T07:48:20+00:00",
+    "raw_text": "Savaria UK celebrates double silver success at the UK Customer Experience Awards 2026 THIIS Magazine",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Savaria UK celebrates double silver success at the UK Customer Experience Awards 2026 THIIS Magazine"
   },
   {
     "title": "Binance Launches Binance AI Pro, Bringing Conversational AI Strategy Building to Users - ThePrint",
