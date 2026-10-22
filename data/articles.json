@@ -1,10 +1,102 @@
 [
   {
+    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+    "source": "The Hacker News",
+    "published": "2026-10-22T08:28:48+00:00",
+    "raw_text": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor. On October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m."
+  },
+  {
+    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+    "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+    "source": "The Hacker News",
+    "published": "2026-10-22T07:47:22+00:00",
+    "raw_text": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:",
+    "categories": [
+      "Cloud Infrastructure",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Node.js released security updates on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system. Each supported line has one fixed version:"
+  },
+  {
+    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
+    "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+    "source": "The Hacker News",
+    "published": "2026-10-22T06:38:31+00:00",
+    "raw_text": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
+    "categories": [
+      "Cloud Infrastructure",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Cybersecurity": [
+        "security"
+      ],
+      "Industry & Market": [
+        "expands"
+      ]
+    },
+    "summary": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO disclosed, releasing working proof-of-concept code. By sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server"
+  },
+  {
+    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+    "source": "The Hacker News",
+    "published": "2026-10-22T06:34:10+00:00",
+    "raw_text": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "threat",
+        "soc",
+        "threat intelligence"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches. \"The exploit attempt originated from an IP address associated with a commercial anonymization network,\" CJ Moses,"
+  },
+  {
     "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
     "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
     "source": "The Hacker News",
     "published": "2026-10-22T04:21:26+00:00",
-    "raw_text": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse against South Korean financial institutions, to speed up scanning and",
+    "raw_text": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
     "categories": [
       "Cybersecurity",
       "Cloud Infrastructure"
@@ -15,10 +107,11 @@
       ],
       "Cybersecurity": [
         "hacker",
+        "cyber",
         "penetration testing"
       ]
     },
-    "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse against South Korean financial institutions, to speed up scanning and"
+    "summary": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed"
   },
   {
     "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
@@ -537,29 +630,25 @@
     "summary": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup. The company said it has completed the following actions since it began"
   },
   {
-    "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-    "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
-    "source": "The Hacker News",
-    "published": "2026-10-20T08:21:29+00:00",
-    "raw_text": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
+    "title": "Authorities disrupt nearly 11,000 cybercrime networks in Africa",
+    "url": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+    "source": "BleepingComputer",
+    "published": "2026-10-22T08:27:11+00:00",
+    "raw_text": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]",
     "categories": [
       "Cybersecurity",
-      "Cloud Infrastructure",
-      "Industry & Market"
+      "Networks"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
+      "Networks": [
+        "network"
       ],
       "Cybersecurity": [
-        "malware",
-        "hacker"
-      ],
-      "Industry & Market": [
-        "ey"
+        "ransomware",
+        "cyber"
       ]
     },
-    "summary": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says. They were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,"
+    "summary": "Law enforcement agencies have disrupted nearly 11,000 cybercriminal networks and arrested more than 1,400 people in Operation Serengeti III, which targeted business email compromise, ransomware, and online scams. [...]"
   },
   {
     "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
@@ -830,22 +919,6 @@
     "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]"
   },
   {
-    "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-    "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
-    "source": "BleepingComputer",
-    "published": "2026-10-20T18:11:03+00:00",
-    "raw_text": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]"
-  },
-  {
     "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
     "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
     "source": "Krebs on Security",
@@ -864,6 +937,72 @@
       ]
     },
     "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the flaws, and that these critical bugs are already being exploited in the wild."
+  },
+  {
+    "title": "Anthropic finds 94 cases where open-source projects drop security controls without warning",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/anthropic-attack-surface-reduction-open-source/",
+    "source": "Help Net Security",
+    "published": "2026-10-22T09:10:55+00:00",
+    "raw_text": "Software can expose complex functionality to unauthenticated users even when that functionality is disabled or unnecessary. Anthropic’s Frontier Red Team used Claude to examine 25 open-source projects and reported 493 issues involving unnecessary exposure, conflicting settings, and code running before security checks. Attack surface reduction means limiting the parts of software an attacker can reach. Instead of waiting to discover a vulnerability, developers can restrict access to unnecessary features or move security checks ahead of … More → The post Anthropic finds 94 cases where open-source projects drop security controls without warning appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "security",
+        "red team"
+      ]
+    },
+    "summary": "Software can expose complex functionality to unauthenticated users even when that functionality is disabled or unnecessary. Anthropic’s Frontier Red Team used Claude to examine 25 open-source projects and reported 493 issues involving unnecessary exposure, conflicting settings, and code running before security checks. Attack surface reduction means limiting the parts of software an attacker can reach. Instead of waiting to discover a vulnerability, developers can restrict access to unnecessary features or move security checks ahead of … More → The post Anthropic finds 94 cases where open-source projects drop security controls without warning appeared first on Help Net Security ."
+  },
+  {
+    "title": "Signal flaw could expose audio and video even after users hang up",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/signal-ringrtc-vulnerability-cve-2026-113380/",
+    "source": "Help Net Security",
+    "published": "2026-10-22T08:39:57+00:00",
+    "raw_text": "A flaw in Signal’s calling library could let the other person on a call keep receiving a user’s audio, and possibly video, after that user hangs up. Tracked as CVE-2026-113380, the vulnerability affects RingRTC versions before 2.72.0. RingRTC is the open source library that powers voice and video calls in Signal’s apps, built on WebRTC, the technology browsers use for live audio and video. The CVE record states that “a peer that saturates a call’s … More → The post Signal flaw could expose audio and video even after users hang up appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "security"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "A flaw in Signal’s calling library could let the other person on a call keep receiving a user’s audio, and possibly video, after that user hangs up. Tracked as CVE-2026-113380, the vulnerability affects RingRTC versions before 2.72.0. RingRTC is the open source library that powers voice and video calls in Signal’s apps, built on WebRTC, the technology browsers use for live audio and video. The CVE record states that “a peer that saturates a call’s … More → The post Signal flaw could expose audio and video even after users hang up appeared first on Help Net Security ."
+  },
+  {
+    "title": "Africa cybercrime crackdown nets 1,462 arrests and over $105 million",
+    "url": "https://www.helpnetsecurity.com/2026/10/22/interpol-africa-cybercrime-crackdown-operation-serengeti-iii/",
+    "source": "Help Net Security",
+    "published": "2026-10-22T08:03:06+00:00",
+    "raw_text": "Police in 21 countries arrested 1,462 suspects and took down 10,909 malicious networks in Operation Serengeti III, an INTERPOL-coordinated cybercrime sweep across Africa that ran from June 29 to August 31, 2026. Investigators recovered more than $105 million in illicit funds. Financial investigators tied the networks to losses exceeding $385 million and identified 65,929 victims of fraud, ransomware, business email compromise, online scams and digital extortion. Twenty of the countries were African, and the 21st … More → The post Africa cybercrime crackdown nets 1,462 arrests and over $105 million appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network"
+      ],
+      "Cybersecurity": [
+        "ransomware",
+        "security",
+        "cyber"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "Police in 21 countries arrested 1,462 suspects and took down 10,909 malicious networks in Operation Serengeti III, an INTERPOL-coordinated cybercrime sweep across Africa that ran from June 29 to August 31, 2026. Investigators recovered more than $105 million in illicit funds. Financial investigators tied the networks to losses exceeding $385 million and identified 65,929 victims of fraud, ransomware, business email compromise, online scams and digital extortion. Twenty of the countries were African, and the 21st … More → The post Africa cybercrime crackdown nets 1,462 arrests and over $105 million appeared first on Help Net Security ."
   },
   {
     "title": "AI-found bugs are expected to rise, and OpenAI has a five-stage response plan",
@@ -1022,61 +1161,6 @@
       ]
     },
     "summary": "Sixty-two percent of IT and engineering professionals now rely on AI agents frequently to work out why their systems broke, and more than half have no way to measure whether the agents get it right. Splunk surveyed 2,050 of them across ten countries. Source: Splunk Agents diagnose, people still ship the code Teams have been careful about where they let agents work. Finding root causes, tuning alerts, and drafting runbooks, the step-by-step guides engineers follow … More → The post AI agent observability is struggling to keep up with hallucinations appeared first on Help Net Security ."
-  },
-  {
-    "title": "Chrome puts insecure sites behind a permission prompt",
-    "url": "https://www.helpnetsecurity.com/2026/10/22/google-chrome-https-protection/",
-    "source": "Help Net Security",
-    "published": "2026-10-21T22:30:30+00:00",
-    "raw_text": "Google has rolled out a change to Chrome that asks users for permission before making an insecure HTTP connection. The protection is now enabled by default for all users, following its introduction earlier this year for users of Safe Browsing’s Enhanced Protection mode. The vast majority of connections made by Chrome use HTTPS, according to Google. However, unprotected HTTP traffic can expose users to malware, phishing, eavesdropping and other threats. Any HTTP request gives attackers … More → The post Chrome puts insecure sites behind a permission prompt appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "phishing",
-        "threat",
-        "security"
-      ]
-    },
-    "summary": "Google has rolled out a change to Chrome that asks users for permission before making an insecure HTTP connection. The protection is now enabled by default for all users, following its introduction earlier this year for users of Safe Browsing’s Enhanced Protection mode. The vast majority of connections made by Chrome use HTTPS, according to Google. However, unprotected HTTP traffic can expose users to malware, phishing, eavesdropping and other threats."
-  },
-  {
-    "title": "eMudhra security blunder left trusted CA signing keys exposed to anyone",
-    "url": "https://www.helpnetsecurity.com/2026/10/21/emudhra-certificates-private-keys-compromised/",
-    "source": "Help Net Security",
-    "published": "2026-10-21T14:11:24+00:00",
-    "raw_text": "Eight intermediate certificates issued by Indian certificate authority eMudhra were secured with private keys so weak that anyone could recover them from the public certificates in under a second. On its website, the company highlights that it has issued more than 60 million digital certificates. A security researcher known as Wayne discovered the flaw on October 17 while running a check against the Common CA Database (CCADB). To prove the keys were compromised, he signed … More → The post eMudhra security blunder left trusted CA signing keys exposed to anyone appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Eight intermediate certificates issued by Indian certificate authority eMudhra were secured with private keys so weak that anyone could recover them from the public certificates in under a second. On its website, the company highlights that it has issued more than 60 million digital certificates. A security researcher known as Wayne discovered the flaw on October 17 while running a check against the Common CA Database (CCADB). To prove the keys were compromised, he signed … More → The post eMudhra security blunder left trusted CA signing keys exposed to anyone appeared first on Help Net Security ."
-  },
-  {
-    "title": "NVIDIA unveils security architecture that can stop AI agents crossing set boundaries",
-    "url": "https://www.helpnetsecurity.com/2026/10/21/nvidia-openshell-reference-architecture/",
-    "source": "Help Net Security",
-    "published": "2026-10-21T13:52:23+00:00",
-    "raw_text": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for running AI models, managing agent operations and enforcing security rules. The aim is to let agents carry out useful work within defined boundaries, while giving businesses tools to monitor their behaviour and stop activity that crosses those limits. “AI capability and safety … More → The post NVIDIA unveils security architecture that can stop AI agents crossing set boundaries appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "NVIDIA’s OpenShell Reference Architecture is designed to help businesses control AI agents operating across enterprise infrastructure and local computing systems. It builds on NVIDIA’s existing OpenShell security software, combining it with hardware for running AI models, managing agent operations and enforcing security rules. The aim is to let agents carry out useful work within defined boundaries, while giving businesses tools to monitor their behaviour and stop activity that crosses those limits. “AI capability and safety … More → The post NVIDIA unveils security architecture that can stop AI agents crossing set boundaries appeared first on Help Net Security ."
   },
   {
     "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
@@ -1338,6 +1422,22 @@
     "summary": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins."
   },
   {
+    "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
+    "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+    "source": "SecurityWeek",
+    "published": "2026-10-22T07:38:14+00:00",
+    "raw_text": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches. The post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches. The post Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU appeared first on SecurityWeek ."
+  },
+  {
     "title": "Meta Ordered to Pay New Mexico $25 Billion for Deceiving Users About Privacy on Facebook",
     "url": "https://www.securityweek.com/meta-ordered-to-pay-new-mexico-25-billion-for-deceiving-users-about-privacy-on-facebook/",
     "source": "SecurityWeek",
@@ -1521,20 +1621,29 @@
     "summary": "The private keys associated with eight certificates were compromised, and root programs and trust stores are blocking them. The post Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys appeared first on SecurityWeek ."
   },
   {
-    "title": "China Defends DeepSeek After US Ban of Its AI From Government Systems",
-    "url": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
-    "source": "SecurityWeek",
-    "published": "2026-10-21T10:54:49+00:00",
-    "raw_text": "The DHS said agencies should remove DeepSeek products as well as third-party products and services developed using DeepSeek from their IT systems. The post China Defends DeepSeek After US Ban of Its AI From Government Systems appeared first on SecurityWeek .",
+    "title": "Cloud Security Maturity Lags Despite Widespread Adoption, SANS Warns",
+    "url": "https://www.infosecurity-magazine.com/news/cloud-security-maturity-lags-sans/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-10-22T08:20:00+00:00",
+    "raw_text": "Nearly all organizations now run production workloads in the cloud, but a new SANS survey found most have yet to achieve mature cloud security programs",
     "categories": [
-      "Cybersecurity"
+      "Cybersecurity",
+      "Cloud Infrastructure",
+      "Industry & Market"
     ],
     "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud"
+      ],
       "Cybersecurity": [
-        "security"
+        "security",
+        "cloud security"
+      ],
+      "Industry & Market": [
+        "ey"
       ]
     },
-    "summary": "The DHS said agencies should remove DeepSeek products as well as third-party products and services developed using DeepSeek from their IT systems. The post China Defends DeepSeek After US Ban of Its AI From Government Systems appeared first on SecurityWeek ."
+    "summary": "Nearly all organizations now run production workloads in the cloud, but a new SANS survey found most have yet to achieve mature cloud security programs"
   },
   {
     "title": "New PhaaS Platform Uses AI to Craft Phishing Lures and Mask Malicious Activity",
@@ -1745,7 +1854,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/",
     "source": "Google Cloud Blog",
     "published": "2026-10-21T16:00:00+00:00",
-    "raw_text": "For data science, data engineering, and machine learning teams, unlocking the value of unstructured data, such as images, videos, audio, and documents, has historically meant managing siloed data pipelines for structured and unstructured data, and for analytics and AI/ML use cases. Even when files remain in Cloud Storage, running inference requires teams to orchestrate external machine learning workloads, only to face the complex, brittle challenge of stitching those structured inference outputs back into the data warehouse for analysis. This post-hoc data-stitching introduces significant operational overhead and database misalignment. ObjectRef and multimodal data analytics in BigQuery are now in General Availability (GA) , establishing BigQuery as a comprehensive, multimodal agentic data platform. With ObjectRef, BigQuery natively bridges the gap between Cloud Storage and your analytical engine. You can represent unstructured data as native ObjectRef columns directly alongside your traditional relational columns. This unlocks a massive advantage over standalone model APIs by enabling you to pass multimodal, multi-column inputs directly to Gemini models in a single SQL query or natural language query using conversational analytics. ObjectRef integrations with BigQuery AI, conversational analytics in BigQuery and Gemini Enterprise enable you to easily combine Cloud Storage files with rich, structured database context, metadata, timestamps and custom agent instructions. You can now leverage BigQuery's core strengths (fully serverless compute, low total cost of ownership, and built-in at-scale inference) to build, run, and govern powerful unstructured-to-structured, unstructured-to-unstructured and fully multimodal-to-multimodal pipelines without separate compute clusters. Crucially, the extracted features and annotations can be combined directly with the unstructured object itself by storing the ObjectRef in the same row. Using this combined data directly in conversational analytics and AI agents avoids the loss of nuanced data and context that typically occurs when customers transform unstructured files into purely structured formats. Customers are already using this approach to generate embeddings for multimodal vector search , perform at-scale classification using GenAI , and execute precise data and feature extraction from vast archives of documents and media, all via standard SQL. code_block <ListValue: [StructValue([('code', 'SELECT\\r\\nAI.AGG(image_ref, \"Summarize the major categories of pictures\")\\r\\nFROM\\r\\n`bigquery-public-data.cymbal_pets.products`;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6cf3708950>)])]> ObjectRef brings structure to the unstructured ObjectRef is a built-in, predefined STRUCT data type that points to objects outside of BigQuery. code_block <ListValue: [StructValue([('code', '-- ObjectRef is a special STRUCT in BigQuery \\r\\nstruct {\\r\\n uri string,\\r\\n authorizer string,\\r\\n version string, \\r\\n details json { \\r\\n\\tgcs_metadata json\\r\\n }\\r\\n }'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6cf31ec210>)])]> By storing these pointers natively in standard BigQuery tables alongside traditional columns, BigQuery treats unstructured files as first-class data citizens. Furthermore, this architecture supports independent data lifecycles: your GCS data and BigQuery tables can change independently without affecting the underlying data in the other system. This approach serves multiple data personas by offering powerful advantages: Zero-copy architecture: Keep your high-volume media files securely in Cloud Storage and query them instantly in BigQuery, respecting data gravity and avoiding costly data duplication. SQL and Python interoperability: You can query unstructured data using standard SQL or BigQuery DataFrames. Crucially, you can pass ObjectRefs into BigQuery Python UDFs, allowing you to bring open-source Python libraries, like OpenCV, directly to your data to execute custom logic without moving it. Independent lifecycles and versioning: ObjectRefs ensure reproducible inference by tracking specific GCS generation numbers. If the underlying GCS file changes, your query can still reference the exact version of the file that existed when the row was written. Unified governance: You can secure, audit, and share access to both structured columns and their related unstructured files using BigQuery's existing security policies and IAM controls. Create full-fidelity ETL with SQL Since launching ObjectRef in preview, a powerful, highly effective pattern has emerged among our users: building full-fidelity ETL pipelines entirely with SQL. Teams are leveraging BigQuery’s serverless architecture to integrate AI/ML directly into their data environments, eliminating the need for separate compute clusters to handle data movement and inference. Managing unstructured data in GCS as standard BigQuery columns allows users to apply core data engineering best practices, such as building idempotent pipelines, ensuring reproducibility, and executing seamless backfills, directly to images, video, audio, and documents. Once data is robustly prepared, teams use Gemini within BigQuery to execute full-fidelity ETL. They unlock dual-layer analytics by extracting features and annotating unstructured data while keeping the original ObjectRef anchored in the same row. The structured outputs power fast filtering, reporting and BI dashboards, while the attached unstructured objects remain available for deep, context-heavy reasoning. For example, you might extract sentiment scores and topic tags from an archive of customer call recordings to quickly flag at-risk accounts on a BI dashboard (the structured layer). Simultaneously, a conversational analytics agent evaluating escalation processes can seamlessly fall back to the original audio files to analyze the caller and customer service representative interactions, preventing the loss of critical nuance that typically occurs in unstructured-to-structured ETL pipelines. Proven use cases from industry leaders “At Snap, the safety of our community is a top priority, and we aim to limit users’ exposure to content that violates our Community Guidelines. We regularly review samples of public posts, and by leveraging ObjectRef with BigQuery AI, we transitioned from simple random sampling to post-stratification sampling. This transition improved the efficiency of our human review processes, enabling us to reinvest reclaimed capacity into new and expanded workflows that further enhance our ability to detect and address potentially harmful content.” - Carlos Ortiz , Data Scientist, Snap During the preview phase, we saw adoption across a variety of critical workloads. Customers have successfully transitioned these experimental pipelines into production, transforming unstructured data into actionable, structured insights: Content moderation: Online platforms leverage BigQuery to integrate multimedia assets with standard telemetry data in a single pipeline to fundamentally enhance their moderation and safety outcomes. Proactive threat detection: Enterprise security teams use BigQuery to analyze visual and structural web components alongside network logs, driving critical advancements in proactive threat identification. Inventory compliance: Online retailers extract text and context directly from vast image repositories to automatically flag regulatory or brand compliance issues at scale. Customer experience: Service-oriented enterprises analyze audio interactions between support agents and customers with BigQuery AI to evaluate customer sentiment and improve service delivery. New in GA We streamlined the developer experience for the General Availability release, focusing on support for a wide variety of customer use cases: Flexible authentication: In GA, we introduced End User Credentials (EUC) support for ObjectRefs . Users can now quickly query and explore unstructured data using their personal IAM identity directly for ad-hoc analysis. In preview, querying unstructured files required setting up explicit BigQuery connections for ObjectRefs . While these connections remain fully supported and are the recommended best practice for robust, service-account-driven production pipelines , we recognize they require additional setup. Unified support for your Cloud Storage metadata: We know your unstructured data’s metadata lives in various places across Google Cloud. ObjectRef now natively supports the full spectrum of these sources. Whether your metadata currently resides in BigQuery object tables , Cloud Storage insights datasets , or simply as raw string URIs within standard BigQuery tables, you can seamlessly create and manage ObjectRefs to analyze the underlying data. Array support for comparative analytics: We introduced native support for processing ObjectRefs contained within arrays. This enables entirely new classes of workloads, such as comparing multiple documents against one another, analyzing sequences of images, or batching items in a single semantic call. See it in action: End-to-end multimodal analytics To illustrate the power of these GA updates, let's look at how you can build real-world, multimodal pipelines using our streamlined SQL operators. 1. Full-fidelity ETL: Call center audio analysis Analyzing customer service calls historically required moving audio files to specialized transcription and natural language processing clusters. With ObjectRef , you can parse audio files, extract structured business intelligence and add them directly as standard relational columns. Use the GA OBJ.MAKE_REF() function to automatically detect the audio format from a raw string URI and BigQuery’s managed AI functions for well known use-cases. For example, you can use AI.CLASSIFY() to categorize customer call types. By default, BigQuery uses Optimized Mode for AI Functions to reduce the number of tokens consumed. code_block <ListValue: [StructValue([('code', 'CREATE OR REPLACE TABLE call_center.annotated_call_logs AS\\r\\nSELECT \\r\\n customer_id,\\r\\n call_date,\\r\\n OBJ.MAKE_REF(audio_uri) as ref,\\r\\n AI.CLASSIFY(\\r\\n OBJ.MAKE_REF(audio_uri), [\\r\\n \"Lost or stolen card\", \\r\\n \"Declined card payment\", \\r\\n \"Activate my card\",\\r\\n \"Order physical card\",\\r\\n \"Cancel transfer\",\\r\\n \"Password or pin forgotten\",\\r\\n \"Virtual card not working\",\\r\\n \"Card swallowed by ATM\",\\r\\n \"Balance not updated after bank transfer\",\\r\\n \"Balance not updated after check or cash deposit\",\\r\\n \"Extra charge on statement\",\\r\\n \"Transfer fee charged\"\\r\\n ]\\r\\n ) AS customer_issue_type,\\r\\n FROM \\r\\n call_center.raw_call_logs;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6cf31efe50>)])]> This table can serve as a multimodal data source for a BigQuery conversational analytics agent. The agent translates natural language queries into SQL using BigQuery AI functions to analyze audio files when additional information is needed. 2. At-scale gen AI filtering: Product compliance Data engineers frequently need to filter massive datasets based on the contents of images or documents. Instead of running heavy generative queries and parsing text outputs, you can now use the declarative AI.IF() operator natively alongside your standard SQL in WHERE clauses. The default Optimized Mode reduces the number of tokens consumed to further optimize your workloads. code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n product_id,\\r\\n seller_id,\\r\\nFROM \\r\\n ecommerce.vendor_uploads\\r\\nWHERE \\r\\n upload_date >= CURRENT_DATE() - 1 AND\\r\\n AI.IF((\"Does this product image contain a restricted item or policy violation?\", OBJ.MAKE_REF(image_uri))'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6cf31ee650>)])]> 3. Multi-object reasoning: Proactive threat detection With native array support in GA, you can now pass an array of ObjectRefs into a single Gemini call to analyze multiple files simultaneously using Gemini. This unlocks complex comparative logic directly in SQL. For example, a security team can pass a screenshot of their official login page and a screenshot of a newly discovered, suspicious webpage to Gemini simultaneously to detect phishing attempts at scale: code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n log_id,\\r\\n suspect_domain,\\r\\n assessment.is_phishing,\\r\\n assessment.visual_discrepancies\\r\\nFROM (\\r\\n SELECT \\r\\n log_id,\\r\\n suspect_domain,\\r\\n AI.GENERATE(\\r\\n (\\r\\n \"Compare these two web UI screenshots. The first is our official, trusted login page. The second is a suspected spoofed page. Identify any visual discrepancies, missing logos, or fake elements, and determine if it is a phishing attempt.\", \\r\\n [OBJ.MAKE_REF(trusted_ui_uri),OBJ.MAKE_REF(suspect_ui_uri)]\\r\\n ),\\r\\n output_schema => \\'is_phishing BOOLEAN, visual_discrepancies STRING\\'\\r\\n ) AS assessment\\r\\n FROM \\r\\n cybersecurity.network_ui_logs\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6cf31ee450>)])]> Start analyzing today BigQuery ObjectRef is now generally available on all BigQuery editions and on-demand pricing tiers. If you are currently managing complex, fragmented infrastructure just to perform machine learning inference on your Cloud Storage files, it's time to consolidate. Bring AI directly to your storage. Start leveraging your existing data engineering practices to build robust, scalable, and secure multimodal analytics pipelines directly within BigQuery. To get started with ObjectRef and multimodal analytics, check out these resources: Walk through our hands-on tutorial to generate image captions and assign product categories using synthetic data. Watch live demos from Cloud Next about unifying unstructured and structured data , and generating text with LLMs and performing vector search . Learn how to work with ObjectRef in the BigQuery documentation.",
+    "raw_text": "For data science, data engineering, and machine learning teams, unlocking the value of unstructured data, such as images, videos, audio, and documents, has historically meant managing siloed data pipelines for structured and unstructured data, and for analytics and AI/ML use cases. Even when files remain in Cloud Storage, running inference requires teams to orchestrate external machine learning workloads, only to face the complex, brittle challenge of stitching those structured inference outputs back into the data warehouse for analysis. This post-hoc data-stitching introduces significant operational overhead and database misalignment. ObjectRef and multimodal data analytics in BigQuery are now in General Availability (GA) , establishing BigQuery as a comprehensive, multimodal agentic data platform. With ObjectRef, BigQuery natively bridges the gap between Cloud Storage and your analytical engine. You can represent unstructured data as native ObjectRef columns directly alongside your traditional relational columns. This unlocks a massive advantage over standalone model APIs by enabling you to pass multimodal, multi-column inputs directly to Gemini models in a single SQL query or natural language query using conversational analytics. ObjectRef integrations with BigQuery AI, conversational analytics in BigQuery and Gemini Enterprise enable you to easily combine Cloud Storage files with rich, structured database context, metadata, timestamps and custom agent instructions. You can now leverage BigQuery's core strengths (fully serverless compute, low total cost of ownership, and built-in at-scale inference) to build, run, and govern powerful unstructured-to-structured, unstructured-to-unstructured and fully multimodal-to-multimodal pipelines without separate compute clusters. Crucially, the extracted features and annotations can be combined directly with the unstructured object itself by storing the ObjectRef in the same row. Using this combined data directly in conversational analytics and AI agents avoids the loss of nuanced data and context that typically occurs when customers transform unstructured files into purely structured formats. Customers are already using this approach to generate embeddings for multimodal vector search , perform at-scale classification using GenAI , and execute precise data and feature extraction from vast archives of documents and media, all via standard SQL. code_block <ListValue: [StructValue([('code', 'SELECT\\r\\nAI.AGG(image_ref, \"Summarize the major categories of pictures\")\\r\\nFROM\\r\\n`bigquery-public-data.cymbal_pets.products`;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fbb9af08910>)])]> ObjectRef brings structure to the unstructured ObjectRef is a built-in, predefined STRUCT data type that points to objects outside of BigQuery. code_block <ListValue: [StructValue([('code', '-- ObjectRef is a special STRUCT in BigQuery \\r\\nstruct {\\r\\n uri string,\\r\\n authorizer string,\\r\\n version string, \\r\\n details json { \\r\\n\\tgcs_metadata json\\r\\n }\\r\\n }'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fbb9af09010>)])]> By storing these pointers natively in standard BigQuery tables alongside traditional columns, BigQuery treats unstructured files as first-class data citizens. Furthermore, this architecture supports independent data lifecycles: your GCS data and BigQuery tables can change independently without affecting the underlying data in the other system. This approach serves multiple data personas by offering powerful advantages: Zero-copy architecture: Keep your high-volume media files securely in Cloud Storage and query them instantly in BigQuery, respecting data gravity and avoiding costly data duplication. SQL and Python interoperability: You can query unstructured data using standard SQL or BigQuery DataFrames. Crucially, you can pass ObjectRefs into BigQuery Python UDFs, allowing you to bring open-source Python libraries, like OpenCV, directly to your data to execute custom logic without moving it. Independent lifecycles and versioning: ObjectRefs ensure reproducible inference by tracking specific GCS generation numbers. If the underlying GCS file changes, your query can still reference the exact version of the file that existed when the row was written. Unified governance: You can secure, audit, and share access to both structured columns and their related unstructured files using BigQuery's existing security policies and IAM controls. Create full-fidelity ETL with SQL Since launching ObjectRef in preview, a powerful, highly effective pattern has emerged among our users: building full-fidelity ETL pipelines entirely with SQL. Teams are leveraging BigQuery’s serverless architecture to integrate AI/ML directly into their data environments, eliminating the need for separate compute clusters to handle data movement and inference. Managing unstructured data in GCS as standard BigQuery columns allows users to apply core data engineering best practices, such as building idempotent pipelines, ensuring reproducibility, and executing seamless backfills, directly to images, video, audio, and documents. Once data is robustly prepared, teams use Gemini within BigQuery to execute full-fidelity ETL. They unlock dual-layer analytics by extracting features and annotating unstructured data while keeping the original ObjectRef anchored in the same row. The structured outputs power fast filtering, reporting and BI dashboards, while the attached unstructured objects remain available for deep, context-heavy reasoning. For example, you might extract sentiment scores and topic tags from an archive of customer call recordings to quickly flag at-risk accounts on a BI dashboard (the structured layer). Simultaneously, a conversational analytics agent evaluating escalation processes can seamlessly fall back to the original audio files to analyze the caller and customer service representative interactions, preventing the loss of critical nuance that typically occurs in unstructured-to-structured ETL pipelines. Proven use cases from industry leaders “At Snap, the safety of our community is a top priority, and we aim to limit users’ exposure to content that violates our Community Guidelines. We regularly review samples of public posts, and by leveraging ObjectRef with BigQuery AI, we transitioned from simple random sampling to post-stratification sampling. This transition improved the efficiency of our human review processes, enabling us to reinvest reclaimed capacity into new and expanded workflows that further enhance our ability to detect and address potentially harmful content.” - Carlos Ortiz , Data Scientist, Snap During the preview phase, we saw adoption across a variety of critical workloads. Customers have successfully transitioned these experimental pipelines into production, transforming unstructured data into actionable, structured insights: Content moderation: Online platforms leverage BigQuery to integrate multimedia assets with standard telemetry data in a single pipeline to fundamentally enhance their moderation and safety outcomes. Proactive threat detection: Enterprise security teams use BigQuery to analyze visual and structural web components alongside network logs, driving critical advancements in proactive threat identification. Inventory compliance: Online retailers extract text and context directly from vast image repositories to automatically flag regulatory or brand compliance issues at scale. Customer experience: Service-oriented enterprises analyze audio interactions between support agents and customers with BigQuery AI to evaluate customer sentiment and improve service delivery. New in GA We streamlined the developer experience for the General Availability release, focusing on support for a wide variety of customer use cases: Flexible authentication: In GA, we introduced End User Credentials (EUC) support for ObjectRefs . Users can now quickly query and explore unstructured data using their personal IAM identity directly for ad-hoc analysis. In preview, querying unstructured files required setting up explicit BigQuery connections for ObjectRefs . While these connections remain fully supported and are the recommended best practice for robust, service-account-driven production pipelines , we recognize they require additional setup. Unified support for your Cloud Storage metadata: We know your unstructured data’s metadata lives in various places across Google Cloud. ObjectRef now natively supports the full spectrum of these sources. Whether your metadata currently resides in BigQuery object tables , Cloud Storage insights datasets , or simply as raw string URIs within standard BigQuery tables, you can seamlessly create and manage ObjectRefs to analyze the underlying data. Array support for comparative analytics: We introduced native support for processing ObjectRefs contained within arrays. This enables entirely new classes of workloads, such as comparing multiple documents against one another, analyzing sequences of images, or batching items in a single semantic call. See it in action: End-to-end multimodal analytics To illustrate the power of these GA updates, let's look at how you can build real-world, multimodal pipelines using our streamlined SQL operators. 1. Full-fidelity ETL: Call center audio analysis Analyzing customer service calls historically required moving audio files to specialized transcription and natural language processing clusters. With ObjectRef , you can parse audio files, extract structured business intelligence and add them directly as standard relational columns. Use the GA OBJ.MAKE_REF() function to automatically detect the audio format from a raw string URI and BigQuery’s managed AI functions for well known use-cases. For example, you can use AI.CLASSIFY() to categorize customer call types. By default, BigQuery uses Optimized Mode for AI Functions to reduce the number of tokens consumed. code_block <ListValue: [StructValue([('code', 'CREATE OR REPLACE TABLE call_center.annotated_call_logs AS\\r\\nSELECT \\r\\n customer_id,\\r\\n call_date,\\r\\n OBJ.MAKE_REF(audio_uri) as ref,\\r\\n AI.CLASSIFY(\\r\\n OBJ.MAKE_REF(audio_uri), [\\r\\n \"Lost or stolen card\", \\r\\n \"Declined card payment\", \\r\\n \"Activate my card\",\\r\\n \"Order physical card\",\\r\\n \"Cancel transfer\",\\r\\n \"Password or pin forgotten\",\\r\\n \"Virtual card not working\",\\r\\n \"Card swallowed by ATM\",\\r\\n \"Balance not updated after bank transfer\",\\r\\n \"Balance not updated after check or cash deposit\",\\r\\n \"Extra charge on statement\",\\r\\n \"Transfer fee charged\"\\r\\n ]\\r\\n ) AS customer_issue_type,\\r\\n FROM \\r\\n call_center.raw_call_logs;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fbb9af098d0>)])]> This table can serve as a multimodal data source for a BigQuery conversational analytics agent. The agent translates natural language queries into SQL using BigQuery AI functions to analyze audio files when additional information is needed. 2. At-scale gen AI filtering: Product compliance Data engineers frequently need to filter massive datasets based on the contents of images or documents. Instead of running heavy generative queries and parsing text outputs, you can now use the declarative AI.IF() operator natively alongside your standard SQL in WHERE clauses. The default Optimized Mode reduces the number of tokens consumed to further optimize your workloads. code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n product_id,\\r\\n seller_id,\\r\\nFROM \\r\\n ecommerce.vendor_uploads\\r\\nWHERE \\r\\n upload_date >= CURRENT_DATE() - 1 AND\\r\\n AI.IF((\"Does this product image contain a restricted item or policy violation?\", OBJ.MAKE_REF(image_uri))'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fbb99be09d0>)])]> 3. Multi-object reasoning: Proactive threat detection With native array support in GA, you can now pass an array of ObjectRefs into a single Gemini call to analyze multiple files simultaneously using Gemini. This unlocks complex comparative logic directly in SQL. For example, a security team can pass a screenshot of their official login page and a screenshot of a newly discovered, suspicious webpage to Gemini simultaneously to detect phishing attempts at scale: code_block <ListValue: [StructValue([('code', 'SELECT \\r\\n log_id,\\r\\n suspect_domain,\\r\\n assessment.is_phishing,\\r\\n assessment.visual_discrepancies\\r\\nFROM (\\r\\n SELECT \\r\\n log_id,\\r\\n suspect_domain,\\r\\n AI.GENERATE(\\r\\n (\\r\\n \"Compare these two web UI screenshots. The first is our official, trusted login page. The second is a suspected spoofed page. Identify any visual discrepancies, missing logos, or fake elements, and determine if it is a phishing attempt.\", \\r\\n [OBJ.MAKE_REF(trusted_ui_uri),OBJ.MAKE_REF(suspect_ui_uri)]\\r\\n ),\\r\\n output_schema => \\'is_phishing BOOLEAN, visual_discrepancies STRING\\'\\r\\n ) AS assessment\\r\\n FROM \\r\\n cybersecurity.network_ui_logs\\r\\n);'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fbb9b02c410>)])]> Start analyzing today BigQuery ObjectRef is now generally available on all BigQuery editions and on-demand pricing tiers. If you are currently managing complex, fragmented infrastructure just to perform machine learning inference on your Cloud Storage files, it's time to consolidate. Bring AI directly to your storage. Start leveraging your existing data engineering practices to build robust, scalable, and secure multimodal analytics pipelines directly within BigQuery. To get started with ObjectRef and multimodal analytics, check out these resources: Walk through our hands-on tutorial to generate image captions and assign product categories using synthetic data. Watch live demos from Cloud Next about unifying unstructured and structured data , and generating text with LLMs and performing vector search . Learn how to work with ObjectRef in the BigQuery documentation.",
     "categories": [
       "GRC",
       "Cybersecurity",
@@ -2070,7 +2179,7 @@
     "url": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity/",
     "source": "Google Cloud Blog",
     "published": "2026-10-20T16:00:00+00:00",
-    "raw_text": "Whether you are iterating on a quick bug fix or planning a complex migration, different tasks call for different models. In keeping with Google Cloud's commitment to an open ecosystem and to give developers the right model for every job, Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity for Google Cloud customers. Claude Opus 5.5 is built for complex work while Claude Sonnet 5.5 is a faster, lower-cost complement. Once enabled by an administrator, developers can select Claude Opus 5.5 and Sonnet 5.5 directly from the model picker. Administrators can also select Google’s Gemini models, including Gemini 3.8 Flash and Gemini 4 Argon. The models apply across Antigravity 2.0, Antigravity CLI and our recently released Antigravity IDE extensions for VS Code, JetBrains IntelliJ, and Visual Studio. This lets you choose the right model for the job, under a unified enterprise billing and security boundary. In this post, we’ll share two engineering patterns for building in Antigravity using these models. To view the entire list of models supported in Antigravity across subscriptions, see our documentation here . Multi-model engineering patterns in Antigravity Having multiple model families available inside the same agent harness unlocks practical multi-model workflows that improve code quality while controlling latency and cost. Pattern 1: Cross-model verification (\"LLM-as-a-Judge\") in loop and graph workflows When building agentic loops or multi-step graph workflows, using the same model to both write code and review its own output can reinforce model-specific blind spots. Pairing two distinct model families, one as the implementer and another as the validator (judge), provides independent verification before moving to the next stage of a workflow. In Antigravity, you can run this pattern either interactively or via automated subagents: Plan and implement with Model A: Start in planning mode using Claude Opus 5.5 or Gemini 4 Argon to design and implement a multi-file change. Validate with Model B: Before committing or advancing the loop, switch models, or invoke a one-shot /model check in the CLI, to have a different model family critique the implementation against your test suite and requirements. Pattern 2: Pairing reasoning models with Flash subagents Complex engineering tasks often combine a few high-reasoning decisions with dozens of high-volume, mechanical lookups (searching files, grepping logs, checking lint output, or classifying test failures). Running every lookup on a frontier model can increase both latency and spend. Antigravity's Subagent customization system ( .agents/agents/*.md ) lets you assign specific model tiers ( inherit , flash , or pro ) to specialized subagents. When your primary session is running a more powerful model. Subagents configured with model: inherit use your active session model for deep reasoning subtasks. Subagents configured with model: flash offload high-speed search, classification, and triage work to Gemini Flash models. For example, you can define a fast log-triage subagent in .agents/agents/test-triager.md : code_block <ListValue: [StructValue([('code', '---\\r\\nname: test-triager\\r\\ndescription: Runs unit tests, classifies failures, and returns a concise summary of failing assertions.\\r\\nmodel: flash\\r\\ntools:\\r\\n - read\\r\\n - edit\\r\\n---\\r\\n\\r\\nRun the requested test targets, classify any failures by root cause (compilation error, assertion failure, or timeout), and return a structured summary to the parent agent.'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6cf37963d0>)])]> And a cross-model code reviewer subagent in .agents/agents/gemini-judge.md : code_block <ListValue: [StructValue([('code', \"---\\r\\nname:cross-model-judge\\r\\ndescription: Independent LLM-as-a-judge verifier that audits diffs and edge cases using Gemini Pro.\\r\\nmodel: pro\\r\\ntools:\\r\\n - read\\r\\n---\\r\\n\\r\\nReview the current workspace diff against the user's requirements. Check for regressions, missing edge-case tests, and security issues. Output a pass/fail verdict with specific line references.\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6cf39efdd0>)])]> With this setup, you can delegate rapid test-and-classify loops to test-triager and trigger cross-model-judge to validate the final diff, combining the strengths of each model in a single workflow. Getting started Claude Opus 5.5 and Claude Sonnet 5.5 are available now for Google Cloud customers using Antigravity: Administrators (Gemini for business): Third-party partner models do not draw from the pooled Gemini Enterprise Standard and Plus edition monthly token quota. Instead, usage is billed on a pay-as-you-go basis through your existing Google Cloud Billing account, so overages must be enabled. Visit “Gemini Enterprise” > “Settings” > “AI developer tools” in the Google Cloud Console to configure overage billing, spend limits and authorize partner models for your organization. See Configure AI developer tools settings for step-by-step instructions. Administrators (Gemini platform): You can also enable partner models if you are using Antigravity through the API in Gemini platform. Enable Claude models in Model Garden and complete the standard Anthropic terms. Developers: Update to the latest version of Antigravity 2.0, the Antigravity CLI, or the Antigravity IDE extensions, and open the model picker (or run /model ) to select the right model for your task. To learn more about enterprise governance and multi-agent configuration, visit the Google Antigravity Enterprise documentation . You can switch the active model between turns in the same conversation thread while preserving workspace state, open artifacts, and terminal context. Note: Lightweight first-party Gemini models continue to run in the background to handle high-frequency client-side coordination, such as context management and summaries. They consume first-party tokens and can incur charges.",
+    "raw_text": "Whether you are iterating on a quick bug fix or planning a complex migration, different tasks call for different models. In keeping with Google Cloud's commitment to an open ecosystem and to give developers the right model for every job, Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity for Google Cloud customers. Claude Opus 5.5 is built for complex work while Claude Sonnet 5.5 is a faster, lower-cost complement. Once enabled by an administrator, developers can select Claude Opus 5.5 and Sonnet 5.5 directly from the model picker. Administrators can also select Google’s Gemini models, including Gemini 3.8 Flash and Gemini 4 Argon. The models apply across Antigravity 2.0, Antigravity CLI and our recently released Antigravity IDE extensions for VS Code, JetBrains IntelliJ, and Visual Studio. This lets you choose the right model for the job, under a unified enterprise billing and security boundary. In this post, we’ll share two engineering patterns for building in Antigravity using these models. To view the entire list of models supported in Antigravity across subscriptions, see our documentation here . Multi-model engineering patterns in Antigravity Having multiple model families available inside the same agent harness unlocks practical multi-model workflows that improve code quality while controlling latency and cost. Pattern 1: Cross-model verification (\"LLM-as-a-Judge\") in loop and graph workflows When building agentic loops or multi-step graph workflows, using the same model to both write code and review its own output can reinforce model-specific blind spots. Pairing two distinct model families, one as the implementer and another as the validator (judge), provides independent verification before moving to the next stage of a workflow. In Antigravity, you can run this pattern either interactively or via automated subagents: Plan and implement with Model A: Start in planning mode using Claude Opus 5.5 or Gemini 4 Argon to design and implement a multi-file change. Validate with Model B: Before committing or advancing the loop, switch models, or invoke a one-shot /model check in the CLI, to have a different model family critique the implementation against your test suite and requirements. Pattern 2: Pairing reasoning models with Flash subagents Complex engineering tasks often combine a few high-reasoning decisions with dozens of high-volume, mechanical lookups (searching files, grepping logs, checking lint output, or classifying test failures). Running every lookup on a frontier model can increase both latency and spend. Antigravity's Subagent customization system ( .agents/agents/*.md ) lets you assign specific model tiers ( inherit , flash , or pro ) to specialized subagents. When your primary session is running a more powerful model. Subagents configured with model: inherit use your active session model for deep reasoning subtasks. Subagents configured with model: flash offload high-speed search, classification, and triage work to Gemini Flash models. For example, you can define a fast log-triage subagent in .agents/agents/test-triager.md : code_block <ListValue: [StructValue([('code', '---\\r\\nname: test-triager\\r\\ndescription: Runs unit tests, classifies failures, and returns a concise summary of failing assertions.\\r\\nmodel: flash\\r\\ntools:\\r\\n - read\\r\\n - edit\\r\\n---\\r\\n\\r\\nRun the requested test targets, classify any failures by root cause (compilation error, assertion failure, or timeout), and return a structured summary to the parent agent.'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fbb9a66b050>)])]> And a cross-model code reviewer subagent in .agents/agents/gemini-judge.md : code_block <ListValue: [StructValue([('code', \"---\\r\\nname:cross-model-judge\\r\\ndescription: Independent LLM-as-a-judge verifier that audits diffs and edge cases using Gemini Pro.\\r\\nmodel: pro\\r\\ntools:\\r\\n - read\\r\\n---\\r\\n\\r\\nReview the current workspace diff against the user's requirements. Check for regressions, missing edge-case tests, and security issues. Output a pass/fail verdict with specific line references.\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fbb9b054650>)])]> With this setup, you can delegate rapid test-and-classify loops to test-triager and trigger cross-model-judge to validate the final diff, combining the strengths of each model in a single workflow. Getting started Claude Opus 5.5 and Claude Sonnet 5.5 are available now for Google Cloud customers using Antigravity: Administrators (Gemini for business): Third-party partner models do not draw from the pooled Gemini Enterprise Standard and Plus edition monthly token quota. Instead, usage is billed on a pay-as-you-go basis through your existing Google Cloud Billing account, so overages must be enabled. Visit “Gemini Enterprise” > “Settings” > “AI developer tools” in the Google Cloud Console to configure overage billing, spend limits and authorize partner models for your organization. See Configure AI developer tools settings for step-by-step instructions. Administrators (Gemini platform): You can also enable partner models if you are using Antigravity through the API in Gemini platform. Enable Claude models in Model Garden and complete the standard Anthropic terms. Developers: Update to the latest version of Antigravity 2.0, the Antigravity CLI, or the Antigravity IDE extensions, and open the model picker (or run /model ) to select the right model for your task. To learn more about enterprise governance and multi-agent configuration, visit the Google Antigravity Enterprise documentation . You can switch the active model between turns in the same conversation thread while preserving workspace state, open artifacts, and terminal context. Note: Lightweight first-party Gemini models continue to run in the background to handle high-frequency client-side coordination, such as context management and summaries. They consume first-party tokens and can incur charges.",
     "categories": [
       "GRC",
       "Cloud Infrastructure",
@@ -2869,94 +2978,32 @@
     "summary": "Security researchers have found a critical flaw in the Linux kernel’s networking stack that can let attackers escape a KVM virtual machine and execute code on the host system. The weakness could also potentially let attackers compromise systems running other Linux-based virtualization and sandbox platforms. Tracked as CVE-2026-99999 and dubbed PwnEscape , the vulnerability was discovered by researchers from AI-powered pentesting startup Pwn.ai during a $1 million challenge to hack Vercel’s sandbox platform , which uses KVM-based Firecracker microVMs. Rather than exploiting a bug in the KVM hypervisor itself, the attack targets the Linux networking code that handles traffic from inside virtual machines."
   },
   {
-    "title": "When defrost becomes sabotage: 3 OT lessons from France’s supermarket attack",
-    "url": "https://www.csoonline.com/article/4237172/when-defrost-becomes-sabotage-3-ot-lessons-from-frances-supermarket-attack.html",
-    "source": "CSO Online",
-    "published": "2026-10-20T09:00:00+00:00",
-    "raw_text": "On the night of 11 October, someone remotely put the cold cases of several hundred French supermarkets into defrost. At Intermarché and Netto stores, fridges and freezers warmed to around 50°C and stayed there for about six hours, according to Les Mousquetaires, which expects losses in the tens of millions of euros. By morning, staff were filling skips with meat, frozen goods and vegetables. Coopérative U counted 80 affected stores out of roughly 2,000. Its chief executive, Dominique Schelcher, told RTL that the cold chain held in most of them. Only a minority reacted too slowly and lost stock, and he credited store staff and refrigeration contractors for the difference. Intermarché said its affected stores had to throw away everything. A second wave followed in the night of 12 to 13 October, this time also reaching stores with Dixell controllers. Similar controllers, similar night, very different mornings. That gap is the part of this story an operator can act on. CSO has already reported which systems were hit and what CERT-FR wants done with them. Nobody has claimed responsibility and no ransom demand has surfaced, which Reuters reports has puzzled investigators; whoever did this wanted spoiled food, not money, or has not said what they wanted yet. Neither CERT-FR nor Danfoss has said how the attackers got in: exposed management interfaces, known flaws and stolen contractor credentials are all still on the table. The three lessons that follow do not depend on either answer. Your refrigeration contractor is your perimeter Schelcher made a remark that deserves more attention than the temperature figures: Coopérative U stores do not buy from Danfoss. They buy from refrigeration contractors, who supply the controller, configure it and keep remote access to it so they can adjust setpoints without driving to the store. E.Leclerc told AFP that the attack reached its stores through one of its refrigeration equipment suppliers. The controller’s embedded web server exists for exactly this purpose, and the contractor’s performance guarantees usually depend on the data feed it provides. Danfoss has seen this before. Its own technical newsletter from October 2025 records attacks on the AK-SM 800 in 2022: 16 Russian supermarkets and 40 Israeli stores. All 40 Israeli sites, the newsletter notes, lacked proper firewall or VPN protection. Four years later the same model, end-of-life since May 2021, was still on the internet in France. The pattern is familiar from industrial sites. The party who decides whether a controller is exposed is not the party who eats the loss when it is. The contractor wants a browser and a public IP address because it turns a Sunday-night callout into a two-minute job. The store carries the inventory. A standard maintenance contract rarely makes that trade-off visible to the person signing it. How deep the dependency runs shows in a sentence I have not seen in a national advisory before. CERT-FR’s alert , updated on 16 October, tells operators to check their insurance terms before cutting the internet link to the refrigeration contractor. The data feed is contractual, and depending on the agreement, cutting it can touch monitoring obligations or policy conditions. And the insurance side is bleak anyway: brokers and underwriters told Reuters that cyber policies typically exclude physical loss, so the spoiled stock is unlikely to be covered. Intermarché told AFP its insurance does not cover the incident. So, the first question: who can log into your refrigeration controllers today, and over what path? Store network, contractor VPN, a cellular router the contractor installed years ago, a port forward on the store router? If answering requires calling the contractor, you do not control that perimeter. You rent it. The lesson is a contract clause, not a firewall rule. The maintenance agreement should name every remote path into the equipment and forbid any other; require access through your gateway or VPN with accounts tied to named technicians; give you the logs; oblige the contractor to tell you when a controller leaves vendor support or a vulnerability is published; and let you revoke access without losing the cold chain. Cold-case controllers run for decades. The contract that pays for their maintenance rarely says any of this. After France, it should. Defrost is a feature. Treat the command as the event Whatever got the attackers in, the damage itself came from ordinary refrigeration functions. Defrost is a built-in cycle on every refrigeration controller, and in the second wave the setpoints were reportedly pushed to values no case can reach. Many controllers also offer a setting that suppresses temperature alarms during defrost and for a delay afterwards, so that scheduled cycles do not page anyone at 3 a.m. That is a sensible configuration. It is also exactly what makes a forced defrost quiet. Whether it played a role in France has not been established, and Coopérative U’s experience shows that alarms did reach people in most of its stores. The structure is the same as in the Minnesota water attacks in July : intended functionality, used by the wrong person at the wrong time. A temperature alarm is a process control. It tells you the product is getting warm. It cannot tell you that the command which made it warm came from someone who should not have been logged in. The signal worth alarming on is an unexpected mode or setpoint change outside a maintenance window, and it gets louder when several circuits move at once or several stores that share a contractor move in the same hour. CERT-FR’s updated alert now tells operators to review their defrost schedules specifically. That is the right instinct: look at the configuration, not just the thermometer. Not every controller can export that event, least of all the models that were hit. Where it cannot, an independent temperature logger that does not depend on the controller catches the consequence early. Either way, someone has to receive the alert, understand it and have the authority to act. At 3 a.m. that chain runs from a store employee to an external technician to a central operations desk, and if nobody has written down who calls whom, the minutes go to finding out. In the second wave, a refrigeration technician in the Gironde told Le Monde that his teams reached a store near Bordeaux in time, and nothing had to be thrown away. Schelcher’s minority lost their stock because they could not respond fast enough. One factor clearly separated the two groups: time from first actionable warning to intervention. The lesson, concretely: an alert on any remote setpoint or mode change that no technician has announced, weighted by time of day and by how many circuits move together, raised by the controller where it can and by the contractor’s monitoring platform where it cannot, since the contractor is the only party that sees all its stores at once. A temperature logger that does not share the controller’s network, as the second opinion. A written call chain for 3 a.m. with names, not roles. And a drill: have the contractor change a setpoint on a test circuit at night and measure how many minutes pass before someone with authority has it reversed. That number is the one to report to the board. An unsupported controller is a budget line, not a patch ticket Claroty’s Team82 published three flaws in the current model , the AK-SM 800A, in August, all fixed in firmware 4.3.1 or earlier, and counted 2,765 of its management interfaces reachable from the internet. Nobody has linked those flaws to the attack. Danfoss says most affected units were the older AK-SM 800 and AK-SC 355, with some 800A units on outdated firmware. For the older models, there is nothing to patch. Danfoss ended updates for the AK-SM 800 in May 2021 and for the AK-SC 355 in 2016. CERT-FR therefore does not lead with patching. It tells operators to take every AK-SM, AK-SC and XWEB controller off the public internet, restore access only through a VPN or protected network, and for compromised Danfoss units, restart, or failing that, factory-reset, and reconfigure before returning them to service. It adds a warning that reads like a prediction: a reset alone removes persistence but leaves the device just as vulnerable, and the campaign is probably still running. The sequence is the one I argued for when CISA asked operators to harden Siemens S7 PLCs : exposure first, firmware second, replacement third. In practice, that means a list of every refrigeration controller by model, firmware and vendor support status by the end of this week; a management interface on a public IP address taken off it the same day; current firmware on everything the vendor still supports; and for everything it does not, a replacement date with a budget line and a name next to it. An aging controller may still do its job perfectly well, and replacing it costs money, engineering time and downtime, so without an owner the decision slides. The security team can document the risk. Someone on the commercial side has to accept it or fund the replacement, and after Reuters’ insurance round-up, that person should know they are also accepting the stock. Which brings the story back to the two groups of stores. Nobody has shown that firmware or hardware explains which stores kept their stock. What is documented is that a warning reached someone who could act before the cold chain gave way. That is an operational capability, and it can be tested long before an attacker tests it for you. Sekoia told Reuters that Spain, Portugal, Poland, Germany and Belgium saw cases too, and the same controller families run cold storage in warehouses and pharmaceutical distribution, maintained by the same kind of contractor. So, before the week is out, do two things. Search Shodan or Censys for your own refrigeration management interfaces, because someone else already has. Then call the contractor and ask one question: when you log into our sites, how do you get there? If the answer is a public IP address and a password, with nothing in between, you have found your incident. It just hasn’t happened yet.",
+    "title": "Crusoe signs on for Polar DC's upcoming 40MW data center in Norway",
+    "url": "https://www.datacenterdynamics.com/en/news/crusoe-signs-on-for-polar-dcs-upcoming-40mw-data-center-in-norway/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-22T09:21:18+00:00",
+    "raw_text": "Will be located at Polar's Tørdal campus",
     "categories": [
-      "Networks",
-      "Cybersecurity",
-      "Industry & Market",
-      "Cloud Infrastructure",
-      "GRC"
+      "Data Centres"
     ],
     "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Networks": [
-        "network",
-        "router",
-        "vpn",
-        "firewall",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "security",
-        "cyber",
-        "siem"
-      ],
-      "GRC": [
-        "policy"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
+      "Data Centres": [
+        "data center"
       ]
     },
-    "summary": "On the night of 11 October, someone remotely put the cold cases of several hundred French supermarkets into defrost. At Intermarché and Netto stores, fridges and freezers warmed to around 50°C and stayed there for about six hours, according to Les Mousquetaires, which expects losses in the tens of millions of euros. By morning, staff were filling skips with meat, frozen goods and vegetables. Coopérative U counted 80 affected stores out of roughly 2,000."
+    "summary": "Will be located at Polar's Tørdal campus"
   },
   {
-    "title": "OT systems complicate quantum-resistant data protection",
-    "url": "https://www.csoonline.com/article/4236142/ot-systems-complicate-shift-to-quantum-resistant-data-protection.html",
-    "source": "CSO Online",
-    "published": "2026-10-20T08:25:00+00:00",
-    "raw_text": "Quantum-resistant cryptography presents security leaders with various challenges, but CISOs in industries dependent on IoT and operational technology (OT) devices may face a particularly difficult journey to quantum readiness, especially if sensitive information that must remain confidential for years passes through those devices. A recent report from cybersecurity firm Forescout highlights these challenges in the healthcare industry, where medical histories, diagnostic images, and laboratory results, which retain their sensitivity long after they are created, routinely get transferred between various operational systems. Attackers who collect encrypted traffic carrying this information today can store it for decryption when sufficiently powerful quantum computers become available, an approach security experts call “harvest now, decrypt later” (HNDL). “PQC [post-quantum cryptography] migration in healthcare is not just about data confidentiality, but also patient safety,” the Forescout researchers say in their report, which examined over 2.5 million devices across more than 50 organizations. “Cryptography protects commands sent to medical devices, telemetry received from those devices for diagnostic purposes, medication orders, and other sensitive interactions. Quantum threats include unauthorized remote access by exploiting public keys for authentication, tampering with device-to-device communication by decrypting traffic, and sophisticated malware exploiting firmware integrity signatures.” While upgrading to PQC is relatively straightforward for live servers, where a standardized PQC algorithm can be implemented as a library package upgrade and configuration change, embedded devices such as those used in healthcare need full firmware updates from their manufacturers. Moreover, those upgrades must maintain backwards compatibility with other systems that might not be upgraded at the same time, and in the case of certified devices, they might require re-certification. This issue goes beyond healthcare to include industrial installations or anywhere OT or IoT devices handle sensitive or business-critical data. Last month, the G7 Cybersecurity Working Group urged governments and organizations to begin migrating to PQC as soon as possible, calling for action across all sectors. The group warned that the transition will be lengthy and that organizations should prepare before quantum computers capable of breaking current cryptography become available. Daniel dos Santos, VP of research at Forescout, tells CSO that while government bodies have issued orders and advisories with different expectations for PQC readiness, they all tend to converge on a 2030 timeline, which is when experts expect quantum computers might be capable of breaking existing encryption algorithms. For industries such as healthcare, however, the HNDL threat collapses that quantum-readiness timeline completely. Patient data travels beyond the medical device Protecting patient information requires securing the entire communication chain, from the equipment that generates the data to the IT systems that store it and the applications that make it available to doctors and patients. That includes, for example, a CT scanner that sends images to a picture archiving and communication system (PACS), images that can later be transferred between hospitals, cloud services, and external radiology providers, requiring quantum-resistant protection on each transfer to maintain long-term confidentiality. Laboratory results and prescription records follow similar routes. Electronic prescribing services exchange medication information between providers and pharmacies, including records of controlled substances and treatment for chronic diseases. Attackers can potentially intercept and siphon that data at different points in the chain: at the device level, from an internal network, through a compromised edge router or firewall, or even at the telecom operator’s level . The platforms that store and exchange patient records are often accessible directly from the internet as well. In a Shodan search, Forescout identified more than 5,500 internet-exposed instances of medical information systems, with electronic medical record platforms accounting for 46% of those instances and PACS accounting for 40%. Only 36% of PACS, 33% of electronic medical record systems, and 13% of laboratory information management systems had support for TLS 1.3, the only version of the protocol that supports ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism), a quantum-resistant key encapsulation standard published by NIST. However, the presence of TLS 1.3 does not demonstrate that a connection uses quantum-resistant cryptography, because the connecting client might negotiate a different algorithm. Furthermore, in a previous study published in June , Forescout found that only 11.8% of SSH servers on the internet are PQC-capable, a number that falls to 3% when looking only at Dropbear, an SSH server commonly used on embedded devices. Inside enterprise networks, 50% of IT devices use OpenSSH versions that support PQC, but only 28% of IoT, 16% of OT, and 6% of IoMT devices use the same versions. “Specialized devices are unlikely to be fully migrated this decade if we keep going at the current pace, delaying broader PQC migration efforts and quantum readiness,” the researchers concluded. “Unfortunately, medical devices are among those with the lowest adoption rates and the hardest challenges for adopting PQC.” Challenges extend beyond healthcare Changing cryptography on equipment used for patient care or industrial operations is completely dependent on the device vendor. Dos Santos says modifying the device filesystem independently, even when it can be done, jeopardizes certification, maintenance, and support, and any communication protocol changes need to preserve connections to other equipment. The same problem exists for devices in chemical plants, electricity networks, water treatment facilities, and factory floors. Some medical and industrial equipment already runs on Linux, which could in theory make adopting PQC easier, dos Santos says. However, he has seen little discussion of PQC adoption or roadmaps among OT vendors. The Cybersecurity and Infrastructure Security Agency (CISA) described in its October 2024 OT guidance how changes to equipment controlling heavy machinery or combustible materials can require extensive safety testing. For medical devices, the regulatory implications depend on the changes made to the device. The US Food and Drug Administration’s February 2026 cybersecurity guidance says changes to authentication or encryption algorithms may require a new premarket submission. Concerns about legacy equipment and PQC extend across sectors. In a Certes survey of 200 IT and security professionals engaged with quantum-related risks at large US and UK organizations published in May, 78% of respondents rated the potential quantum threat to legacy environments as very high. For edge and IoT equipment, including industrial and medical devices, ATMs, and vehicles, 43% rated the threat as very high and another 31% as significant. Some devices will need alternative solutions Healthcare information, financial records, and trade secrets, such as code and industrial designs, can remain sensitive years after transmission. But not all data exchanged between devices has the same confidentiality requirements or operational relevance over time. “What’s missing from the policy conversation is a differentiated threat and risk assessment framework — one that accounts for data lifetime and sensitivity decay rate, device class, computational constraints, and realistic adversary capability timelines,” Sharon Hagi, CSO at IoT cybersecurity firm Finite State, told CSO in June after France’s national cybersecurity agency, ANSSI, outlined plans to introduce PQC requirements for product qualification starting in 2027. “The quantum threat is not uniformly distributed across the cryptographic stack,” Hagi said. “Shor’s algorithm breaks RSA and ECC. It does not break AES-256 or SHA-3 in any operationally practical sense — Grover’s provides at most a quadratic speedup, and the effective security margins of properly sized symmetric primitives still holds for most uses. Architectures that rely on symmetric encryption with out-of-band or pre-provisioned key distribution remain meaningful options for resource-constrained embedded devices where NIST PQC algorithms (e.g. ML-KEM, ML-DSA) impose non-trivial compute, bandwidth, and memory costs.” This means vendors will have to weigh carefully on which devices it’s even viable due to hardware limitations to deploy new PQC algorithms. In some cases, end-users might have to come up with alternatives, such as isolating those devices and routing traffic to and from them through other gateway devices that can apply PQC. This is the approach that users should start taking before vendors decide to release firmware upgrades, dos Santos says. For example, internet-facing websites and portals should already be configured to use TLS 1.3 as all modern browsers support it. For remote management and file transfers over the internet, deploy gateways that support protocols with quantum-resistant cryptography. A hospital could use a gateway to protect an image transfer to an external radiology provider. The hospital would still need to assess the connection from the scanner or image archive to that gateway and maybe isolate them on their own network segment with no direct internet access. “But at least for the external part, you’re reducing risk, right?” dos Santos says. But PQC support at one endpoint is effective only if the other endpoint can also negotiate the same algorithm, and manufacturers are reporting difficulty meeting interoperability goals. Thales’s September Manufacturing Data Threat Report , based on 417 respondents in 20 countries, revealed that 30% were behind on their post-quantum interoperability objectives. “For the end users, the main thing to be doing right now is the inventory of devices and data together,” dos Santos said. “Devices, data, and communication.” The resulting map should identify which transfers already have compatible protection, which depend on an upgrade, and where a gateway could protect an external connection. For healthcare, Forescout recommends prioritizing patient portals, external APIs, partner exchanges, and other internet-facing connections, then updating cryptographic libraries and firmware where feasible. For equipment that cannot be upgraded, its healthcare report recommends assessing gateways and isolation measures, obtaining vendor roadmaps, and planning replacement when manufacturers have no viable migration path. Dos Santos says vendors supplying equipment with multiyear service should have a roadmap for PQC communications even when their current firmware does not support it. Operators need to know when that support will arrive, which connections it will protect, and whether it requires new hardware. For equipment expected to remain in service for years, those answers need to inform purchasing and support agreements, alongside a replacement plan if a vendor cannot deliver an upgrade. The G7 call to action urges organizations to integrate quantum-safe replacements into normal equipment renewal schedules and the US Office of Management and Budget’s June guidance directs federal agencies to incorporate PQC upgrades into hardware refreshes and prioritize replacing or decommissioning equipment that cannot support PQC or hybrid cryptography.",
+    "title": "General Compute signs on to purchase Positron AI hardware",
+    "url": "https://www.datacenterdynamics.com/en/news/general-compute-signs-on-to-purchase-positron-ai-hardware/",
+    "source": "DataCenterDynamics",
+    "published": "2026-10-22T08:37:35+00:00",
+    "raw_text": "Will start with Atlas systems and later adopt Titan",
     "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC",
-      "Cloud Infrastructure",
-      "Industry & Market"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "cloud services"
-      ],
-      "Networks": [
-        "network",
-        "routing",
-        "router",
-        "bandwidth",
-        "firewall",
-        "lan",
-        "iot",
-        "telecom"
-      ],
-      "Cybersecurity": [
-        "malware",
-        "exploit",
-        "threat",
-        "encryption",
-        "security",
-        "cyber"
-      ],
-      "GRC": [
-        "regulatory",
-        "policy",
-        "nist",
-        "data protection"
-      ],
-      "Industry & Market": [
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "Quantum-resistant cryptography presents security leaders with various challenges, but CISOs in industries dependent on IoT and operational technology (OT) devices may face a particularly difficult journey to quantum readiness, especially if sensitive information that must remain confidential for years passes through those devices. A recent report from cybersecurity firm Forescout highlights these challenges in the healthcare industry, where medical histories, diagnostic images, and laboratory results, which retain their sensitivity long after they are created, routinely get transferred between various operational systems. Attackers who collect encrypted traffic carrying this information today can store it for decryption when sufficiently powerful quantum computers become available, an approach security experts call “harvest now, decrypt later” (HNDL). “PQC [post-quantum cryptography] migration in healthcare is not just about data confidentiality, but also patient safety,” the Forescout researchers say in their report, which examined over 2.5 million devices across more than 50 organizations."
+    "matched_keywords": {},
+    "summary": "Will start with Atlas systems and later adopt Titan"
   },
   {
     "title": "Sponsored: Idle GPUs can now earn their keep: Shadeform launches Spot to help providers recoup rising compute costs",
@@ -3078,7 +3125,7 @@
     "title": "Russian forces destroy GigaCenter data center in Kyiv, Ukraine",
     "url": "https://www.datacenterdynamics.com/en/news/russian-forces-destroy-gigacenter-data-center-in-kyiv-ukraine/",
     "source": "DataCenterDynamics",
-    "published": "2026-10-21T16:14:50+00:00",
+    "published": "2026-10-21T16:14:00+00:00",
     "raw_text": "As Ukrainian forces attack telecoms facilities in Russian-occupied Donetsk and Luhansk",
     "categories": [
       "Networks",
@@ -3285,45 +3332,62 @@
     "summary": "KKR disputes the claims"
   },
   {
-    "title": "atNorth tops out latest data center in Espoo, Finland",
-    "url": "https://www.datacenterdynamics.com/en/news/atnorth-tops-out-latest-data-center-in-espoo-finland/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-21T13:10:09+00:00",
-    "raw_text": "Company adding five-story building to campus",
+    "title": "UK government hasn't the foggiest how much it's spending on digital transformation",
+    "url": "https://www.theregister.com/public-sector/2026/10/22/uk-government-hasnt-the-foggiest-how-much-its-spending-on-digital-transformation/5304662",
+    "source": "The Register",
+    "published": "2026-10-22T09:15:00+00:00",
+    "raw_text": "Years of promises, but officials unable to put a figure on investment",
     "categories": [
-      "Networks",
-      "Data Centres"
+      "Cloud Infrastructure",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "digital transformation"
+      ],
+      "Industry & Market": [
+        "investment"
+      ]
+    },
+    "summary": "Years of promises, but officials unable to put a figure on investment"
+  },
+  {
+    "title": "Vendors asking forward deployed engineers to make good on trillion-dollar AI bet",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/22/vendors-asking-forward-deployed-engineers-to-make-good-on-trillion-dollar-ai-bet/5304366",
+    "source": "The Register",
+    "published": "2026-10-22T08:30:00+00:00",
+    "raw_text": "They might earn more than $200k but who do they work for? Tech buyers need to put some checks in place on FDEs",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey",
+        "vendor"
+      ]
+    },
+    "summary": "They might earn more than $200k but who do they work for? Tech buyers need to put some checks in place on FDEs"
+  },
+  {
+    "title": "Why the immediate future of liquid cooling is hybrid",
+    "url": "https://www.theregister.com/ai-and-ml/2026/10/22/partner-content-why-the-immediate-future-of-liquid-cooling-is-hybrid/5303795",
+    "source": "The Register",
+    "published": "2026-10-22T08:00:00+00:00",
+    "raw_text": "PARTNER CONTENT: AI is driving liquid cooling adoption, but hybrid architectures will help operators balance density, flexibility, and operational realities",
+    "categories": [
+      "Data Centres",
+      "Networks"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
       ],
       "Data Centres": [
-        "data center"
+        "cooling",
+        "liquid cooling"
       ]
     },
-    "summary": "Company adding five-story building to campus"
-  },
-  {
-    "title": "Equinix EPIC: Colo giant launches liquid-cooled testing environment for AI workloads",
-    "url": "https://www.datacenterdynamics.com/en/news/equinix-epic-ai-data-center-colocation/",
-    "source": "DataCenterDynamics",
-    "published": "2026-10-21T12:00:00+00:00",
-    "raw_text": "Available at four data centers, more to be added",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center",
-        "colo"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "Available at four data centers, more to be added"
+    "summary": "PARTNER CONTENT: AI is driving liquid cooling adoption, but hybrid architectures will help operators balance density, flexibility, and operational realities"
   },
   {
     "title": "Certification authority eMudhra defends its laughably weak private keys",
@@ -4016,40 +4080,6 @@
     "summary": "Lloyds, HSBC, Royal Mail, Revolut all hit as europe-west2-b falls over. No recovery time in sight, 'no workarounds for now'"
   },
   {
-    "title": "London’s mobile networks fall to bottom of Europe’s capital league",
-    "url": "https://www.theregister.com/networks/2026/10/20/londons-mobile-networks-fall-to-bottom-of-europes-capital-league/5303800",
-    "source": "The Register",
-    "published": "2026-10-20T08:30:00+00:00",
-    "raw_text": "Rooftop rent cuts, planning refusals and congestion leave Ookla ranking the UK’s capital last for speed and latency",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network",
-        "latency",
-        "lan"
-      ]
-    },
-    "summary": "Rooftop rent cuts, planning refusals and congestion leave Ookla ranking the UK’s capital last for speed and latency"
-  },
-  {
-    "title": "Why cyber resilience is now a boardroom priority for UK public services",
-    "url": "https://www.theregister.com/security/2026/10/20/partner-content-why-cyber-resilience-is-now-a-boardroom-priority-for-uk-public-services/5301601",
-    "source": "The Register",
-    "published": "2026-10-20T08:00:00+00:00",
-    "raw_text": "PARTNER CONTENT: What happens after the inflection point?",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
-      ]
-    },
-    "summary": "PARTNER CONTENT: What happens after the inflection point?"
-  },
-  {
     "title": "Grid ‘runs on coal-age data’, warns Open Climate Fix",
     "url": "https://www.computerweekly.com/news/366652367/Grid-runs-on-coal-age-data-warns-Open-Climate-Fix",
     "source": "ComputerWeekly",
@@ -4594,11 +4624,11 @@
     "summary": "Choose which CNET Group publications appear in your feed, then catch up on news, reviews, and videos – without an algorithm deciding what you see."
   },
   {
-    "title": "Genedata Expands AI Discovery Workflows with NVIDIA BioNeMo Open Models, Including the New RFD4-Proteina Release",
-    "url": "https://www.prnewswire.com/news-releases/genedata-expands-ai-discovery-workflows-with-nvidia-bionemo-open-models-including-the-new-rfd4-proteina-release-302915726.html",
+    "title": "GAC Launches AION UT and AION V in Italy",
+    "url": "https://www.prnewswire.com/news-releases/gac-launches-aion-ut-and-aion-v-in-italy-302916745.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-22T07:31:00+00:00",
-    "raw_text": "Bringing next-generation binder design models into production discovery BASEL, Switzerland, Oct. 22, 2026 /PRNewswire/ -- Genedata, a Danaher company, and the leading provider of enterprise software solutions for biopharmaceutical R&D, today announced the addition of the new RFD4-Proteina...",
+    "published": "2026-10-22T09:15:00+00:00",
+    "raw_text": "MILAN, Oct. 22, 2026 /PRNewswire/ -- GAC launched the AION UT and AION V in Italy on October 8th, holding a media presentation and test-drive event at Superstudio Più in Milan. The introduction brings a compact electric hatchback and an electric SUV to the Italian market as GAC develops...",
     "categories": [
       "Networks",
       "Industry & Market"
@@ -4608,149 +4638,46 @@
         "lan"
       ],
       "Industry & Market": [
-        "expands"
+        "launches"
       ]
     },
-    "summary": "Bringing next-generation binder design models into production discovery BASEL, Switzerland, Oct. 22, 2026 /PRNewswire/ -- Genedata, a Danaher company, and the leading provider of enterprise software solutions for biopharmaceutical R&D, today announced the addition of the new RFD4-Proteina..."
+    "summary": "MILAN, Oct. 22, 2026 /PRNewswire/ -- GAC launched the AION UT and AION V in Italy on October 8th, holding a media presentation and test-drive event at Superstudio Più in Milan. The introduction brings a compact electric hatchback and an electric SUV to the Italian market as GAC develops..."
   },
   {
-    "title": "Körber invests in NAiSE and advances vendor-agnostic fleet management in intralogistics",
-    "url": "https://www.prnewswire.com/news-releases/korber-invests-in-naise-and-advances-vendor-agnostic-fleet-management-in-intralogistics-302915782.html",
+    "title": "Gia Binh International Airport Joins Routes World 2026 to Advance Vietnam's Global Air Connectivity",
+    "url": "https://www.prnewswire.com/news-releases/gia-binh-international-airport-joins-routes-world-2026-to-advance-vietnams-global-air-connectivity-302916742.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-22T07:30:00+00:00",
-    "raw_text": "HAMBURG, Germany, Oct. 22, 2026 /PRNewswire/ -- The international technology company Körber is acquiring a stake in NAiSE GmbH, a Germany-based software company specializing in vendor-agnostic fleet management. Together, the two partners are combining their capabilities to enable...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "vendor"
-      ]
-    },
-    "summary": "HAMBURG, Germany, Oct. 22, 2026 /PRNewswire/ -- The international technology company Körber is acquiring a stake in NAiSE GmbH, a Germany-based software company specializing in vendor-agnostic fleet management. Together, the two partners are combining their capabilities to enable..."
-  },
-  {
-    "title": "Meijer presenta Sage & Sky, una línea de ropa deportiva para jóvenes basada en la comodidad y la buena relación calidad-precio.",
-    "url": "https://www.prnewswire.com/news-releases/meijer-presenta-sage-amp-sky-una-linea-de-ropa-deportiva-para-jovenes-basada-en-la-comodidad-y-la-buena-relacion-calidad-precio--851894074.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T07:14:00+00:00",
-    "raw_text": "La nueva línea incorpora básicos de tendencia a una de las categorías de ropa de más rápido crecimiento, con precios a partir de $14 GRAND RAPIDS, Michigan, 22 de octubre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Meijer anunció hoy el lanzamiento de Sage & Sky, una nueva marca de ropa...",
+    "published": "2026-10-22T09:12:00+00:00",
+    "raw_text": "More than 30 meetings planned to explore route development opportunities and meet demand for direct international services to Vietnam HANOI, Vietnam, Oct. 22, 2026 /PRNewswire/ -- Gia Binh International Airport (GBIA), one of Vietnam's most ambitious and strategically significant...",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "lan"
+        "lan",
+        "connectivity"
       ]
     },
-    "summary": "La nueva línea incorpora básicos de tendencia a una de las categorías de ropa de más rápido crecimiento, con precios a partir de $14 GRAND RAPIDS, Michigan, 22 de octubre de 2026 /PRNewswire-HISPANIC PR WIRE/ -- Meijer anunció hoy el lanzamiento de Sage & Sky, una nueva marca de ropa..."
+    "summary": "More than 30 meetings planned to explore route development opportunities and meet demand for direct international services to Vietnam HANOI, Vietnam, Oct. 22, 2026 /PRNewswire/ -- Gia Binh International Airport (GBIA), one of Vietnam's most ambitious and strategically significant..."
   },
   {
-    "title": "Clarivate Demonstrates Global Demand For AI-native Web Of Science Research Intelligence",
-    "url": "https://www.prnewswire.com/news-releases/clarivate-demonstrates-global-demand-for-ai-native-web-of-science-research-intelligence-302916298.html",
+    "title": "The Radiance of All Things: A Retrospective of Chu Teh-Chun opens at the Art Museum of China Academy of Art",
+    "url": "https://www.prnewswire.com/news-releases/the-radiance-of-all-things-a-retrospective-of-chu-teh-chun-opens-at-the-art-museum-of-china-academy-of-art-302916737.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-22T07:00:00+00:00",
-    "raw_text": "More than 100 institutions across 25 countries and regions are using the AI-native research intelligence platform. LONDON, Oct. 22, 2026 /PRNewswire/ -- Clarivate Plc (NYSE: CLVT), a leading global provider of transformative intelligence, today announced that more than 100 institutions...",
+    "published": "2026-10-22T09:09:00+00:00",
+    "raw_text": "HANGZHOU, China, Oct. 22, 2026 /PRNewswire/ -- In 2028, the China Academy of Art will celebrate its centenary. On October 19, 2026, one of the Academy's major centennial academic projects, The Radiance of All Things: A Retrospective of Chu Teh-Chun, opens at the Art Museum of China...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "More than 100 institutions across 25 countries and regions are using the AI-native research intelligence platform. LONDON, Oct. 22, 2026 /PRNewswire/ -- Clarivate Plc (NYSE: CLVT), a leading global provider of transformative intelligence, today announced that more than 100 institutions..."
+    "summary": "HANGZHOU, China, Oct. 22, 2026 /PRNewswire/ -- In 2028, the China Academy of Art will celebrate its centenary. On October 19, 2026, one of the Academy's major centennial academic projects, The Radiance of All Things: A Retrospective of Chu Teh-Chun, opens at the Art Museum of China..."
   },
   {
-    "title": "LG Innotek is Collaborating with NVIDIA, Taking One Step Closer to Securing a Leading Position in the Physical AI Market",
-    "url": "https://www.prnewswire.com/news-releases/lg-innotek-is-collaborating-with-nvidia-taking-one-step-closer-to-securing-a-leading-position-in-the-physical-ai-market-302914994.html",
+    "title": "Mercuryo Launches Swaps for Seamless Movement Between Digital Tokens",
+    "url": "https://www.prnewswire.com/news-releases/mercuryo-launches-swaps-for-seamless-movement-between-digital-tokens-302916736.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-22T07:00:00+00:00",
-    "raw_text": "Showcases NVIDIA-focused solutions, including camera modules and a Multi-modal Vision System, at GTC Berlin on October 20 Collaboration to expand into robotic vision sensing and robotic hands; next-generation solutions to be unveiled next year Accelerating leadership in the Physical AI...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Showcases NVIDIA-focused solutions, including camera modules and a Multi-modal Vision System, at GTC Berlin on October 20 Collaboration to expand into robotic vision sensing and robotic hands; next-generation solutions to be unveiled next year Accelerating leadership in the Physical AI..."
-  },
-  {
-    "title": "\"All Access Hosted by Andy Garcia\" Explores How Nanomix Group Unlocks the Potential of Silicon",
-    "url": "https://www.prnewswire.com/news-releases/all-access-hosted-by-andy-garcia-explores-how-nanomix-group-unlocks-the-potential-of-silicon-302916132.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T07:00:00+00:00",
-    "raw_text": "The upcoming segment explores the second most abundant element on earth and why its bioavailable form is critical to living organisms across agriculture, animal health, and human wellness. LOS ANGELES, Oct. 22, 2026 /PRNewswire/ -- An upcoming feature will showcase Nanomix Group and its...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The upcoming segment explores the second most abundant element on earth and why its bioavailable form is critical to living organisms across agriculture, animal health, and human wellness. LOS ANGELES, Oct. 22, 2026 /PRNewswire/ -- An upcoming feature will showcase Nanomix Group and its..."
-  },
-  {
-    "title": "BIT Asset Management Receives FINMA Approval for Switzerland's First and Europe's Only Spot Bitcoin ETF",
-    "url": "https://www.prnewswire.com/news-releases/bit-asset-management-receives-finma-approval-for-switzerlands-first-and-europes-only-spot-bitcoin-etf-302916611.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:50:00+00:00",
-    "raw_text": "The first exchange-traded fund under Swiss law to invest directly in bitcoin, approved for retail investors in Switzerland ZURICH, Oct. 22, 2026 /PRNewswire/ -- BIT Asset Management AG (\"BIT AM\"), the wholly owned Swiss asset management subsidiary of BIT (www.bit.com), announced that the...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "The first exchange-traded fund under Swiss law to invest directly in bitcoin, approved for retail investors in Switzerland ZURICH, Oct. 22, 2026 /PRNewswire/ -- BIT Asset Management AG (\"BIT AM\"), the wholly owned Swiss asset management subsidiary of BIT (www.bit.com), announced that the..."
-  },
-  {
-    "title": "Sandvik: Interim report third quarter 2026",
-    "url": "https://www.prnewswire.com/news-releases/sandvik-interim-report-third-quarter-2026-302916605.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:47:00+00:00",
-    "raw_text": "STOCKHOLM, Oct. 22, 2026 /PRNewswire/ -- Order intake SEK 36,948 million (30,769) Order intake, at fixed exchange rates, increased by 17%, and organically by 17% Revenues SEK 37,728 million (29,218) Revenue growth, at fixed exchange rates, increased by 26%, and organically by 25% Adjusted...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "STOCKHOLM, Oct. 22, 2026 /PRNewswire/ -- Order intake SEK 36,948 million (30,769) Order intake, at fixed exchange rates, increased by 17%, and organically by 17% Revenues SEK 37,728 million (29,218) Revenue growth, at fixed exchange rates, increased by 26%, and organically by 25% Adjusted..."
-  },
-  {
-    "title": "Kanazawa University research: Scientists discover hidden weaknesses in microtubules stabilized by a cancer drug",
-    "url": "https://www.prnewswire.com/news-releases/kanazawa-university-research-scientists-discover-hidden-weaknesses-in-microtubules-stabilized-by-a-cancer-drug-302916588.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:40:00+00:00",
-    "raw_text": "High-speed nanoscale imaging reveals how tiny structural defects can cause microtubules to collapse, even when stabilized by the anticancer drug paclitaxel (Taxol). KANAZAWA, Japan, Oct. 22, 2026 /PRNewswire/ -- Researchers at the Nano Life Science Institute (WPI-NanoLSI) at Kanazawa...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "High-speed nanoscale imaging reveals how tiny structural defects can cause microtubules to collapse, even when stabilized by the anticancer drug paclitaxel (Taxol). KANAZAWA, Japan, Oct. 22, 2026 /PRNewswire/ -- Researchers at the Nano Life Science Institute (WPI-NanoLSI) at Kanazawa..."
-  },
-  {
-    "title": "Essity: Interim Report Quarter 3, 2026",
-    "url": "https://www.prnewswire.com/news-releases/essity-interim-report-quarter-3-2026-302916538.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:18:00+00:00",
-    "raw_text": "STOCKHOLM, Oct. 22, 2026 /PRNewswire/ -- Stable volumes, resilient profitability and strong cash flow Quarter 3, 2026 Net sales increased 4.1% to SEK 36,060m (34,638) Organic sales growth amounted to -0.3%, of which volume accounted for -0.1% and price/mix -0.2%. EBITA amounted to SEK...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "STOCKHOLM, Oct. 22, 2026 /PRNewswire/ -- Stable volumes, resilient profitability and strong cash flow Quarter 3, 2026 Net sales increased 4.1% to SEK 36,060m (34,638) Organic sales growth amounted to -0.3%, of which volume accounted for -0.1% and price/mix -0.2%. EBITA amounted to SEK..."
-  },
-  {
-    "title": "WEPACK 2027 Returns to Shanghai, Reuniting the Entire Packaging Value Chain",
-    "url": "https://www.prnewswire.com/news-releases/wepack-2027-returns-to-shanghai-reuniting-the-entire-packaging-value-chain-302916533.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:16:00+00:00",
-    "raw_text": "SHANGHAI, Oct. 22, 2026 /PRNewswire/ -- WEPACK, the World Expo of Packaging Industry, a flagship global platform backed by more than 25 years of industry expertise, has officially announced that WEPACK 2027 will take place from April 27–29, 2027, at the Shanghai New International Expo...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "SHANGHAI, Oct. 22, 2026 /PRNewswire/ -- WEPACK, the World Expo of Packaging Industry, a flagship global platform backed by more than 25 years of industry expertise, has officially announced that WEPACK 2027 will take place from April 27–29, 2027, at the Shanghai New International Expo..."
-  },
-  {
-    "title": "CGTN launches News Pal, an AI-powered news companion",
-    "url": "https://www.prnewswire.com/news-releases/cgtn-launches-news-pal-an-ai-powered-news-companion-302916534.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:16:00+00:00",
-    "raw_text": "BEIJING, Oct. 22, 2026 /PRNewswire/ -- CGTN has launched News Pal, an AI-powered news companion that aggregates and summarizes coverage about China and the world with speed and clarity. The web-based service, which went live on October, turns real-time reporting from a range of media...",
+    "published": "2026-10-22T09:09:00+00:00",
+    "raw_text": "LONDON, Oct. 22, 2026 /PRNewswire/ -- Global payments infrastructure platform Mercuryo has launched Swaps, a product that enables users to convert their holdings between digital tokens and blockchain transport layers. Swaps is available between 38 digital tokens, with a total of 700...",
     "categories": [
       "Industry & Market"
     ],
@@ -4759,50 +4686,174 @@
         "launches"
       ]
     },
-    "summary": "BEIJING, Oct. 22, 2026 /PRNewswire/ -- CGTN has launched News Pal, an AI-powered news companion that aggregates and summarizes coverage about China and the world with speed and clarity. The web-based service, which went live on October, turns real-time reporting from a range of media..."
+    "summary": "LONDON, Oct. 22, 2026 /PRNewswire/ -- Global payments infrastructure platform Mercuryo has launched Swaps, a product that enables users to convert their holdings between digital tokens and blockchain transport layers. Swaps is available between 38 digital tokens, with a total of 700..."
   },
   {
-    "title": "Pearson 2026 Nine Month Trading Update (Unaudited)",
-    "url": "https://www.prnewswire.com/news-releases/pearson-2026-nine-month-trading-update-unaudited-302915984.html",
+    "title": "ESTEVE CDMO renforce sa présence mondiale dans le domaine de la fabrication grâce à un investissement majeur et à l'ouverture d'un nouveau site en Chine",
+    "url": "https://www.prnewswire.com/news-releases/esteve-cdmo-renforce-sa-presence-mondiale-dans-le-domaine-de-la-fabrication-grace-a-un-investissement-majeur-et-a-louverture-dun-nouveau-site-en-chine-302916732.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:10:00+00:00",
-    "raw_text": "Accelerated growth in Q3 and on track to deliver 2026 guidance. Strategic acquisitions and optimising Pearson's structure further strengthen our growth platform. Highlights Underlying Group revenue increased 5% for the nine-month period, with growth accelerating to 6% in Q3, in line with...",
-    "categories": [
-      "GRC",
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "audit"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "acquisition"
-      ]
-    },
-    "summary": "Accelerated growth in Q3 and on track to deliver 2026 guidance. Strategic acquisitions and optimising Pearson's structure further strengthen our growth platform. Highlights Underlying Group revenue increased 5% for the nine-month period, with growth accelerating to 6% in Q3, in line with..."
-  },
-  {
-    "title": "SINBON Electronics lleva los vínculos invisibles detrás de la vida cotidiana a electronica y SPS 2026",
-    "url": "https://www.prnewswire.com/news-releases/sinbon-electronics-lleva-los-vinculos-invisibles-detras-de-la-vida-cotidiana-a-electronica-y-sps-2026-302916517.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:08:00+00:00",
-    "raw_text": "-De la conexión al impacto: SINBON Electronics lleva los vínculos invisibles detrás de la vida cotidiana a electronica y SPS 2026 MÚNICH y NUREMBERG, Alemania, 22 de octubre de 2026 /PRNewswire/ -- Cada día, son millones de personas las que dependen de tecnologías que funcionan de forma...",
+    "published": "2026-10-22T09:07:00+00:00",
+    "raw_text": "Plus de 80 millions de dollars investis pour développer et renforcer les capacités de production d'ESTEVE CDMO en Chine. Trois sites de fabrication et un volume total de production de 250 m³, venant renforcer les capacités de son réseau mondial de production. Plus de 20 ans de présence...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "-De la conexión al impacto: SINBON Electronics lleva los vínculos invisibles detrás de la vida cotidiana a electronica y SPS 2026 MÚNICH y NUREMBERG, Alemania, 22 de octubre de 2026 /PRNewswire/ -- Cada día, son millones de personas las que dependen de tecnologías que funcionan de forma..."
+    "summary": "Plus de 80 millions de dollars investis pour développer et renforcer les capacités de production d'ESTEVE CDMO en Chine. Trois sites de fabrication et un volume total de production de 250 m³, venant renforcer les capacités de son réseau mondial de production. Plus de 20 ans de présence..."
   },
   {
-    "title": "Von der Verbindung zur Wirkung: SINBON Electronics präsentiert auf der electronica und der SPS 2026 die unsichtbaren Verbindungen hinter unserem Alltag",
-    "url": "https://www.prnewswire.com/news-releases/von-der-verbindung-zur-wirkung-sinbon-electronics-prasentiert-auf-der-electronica-und-der-sps-2026-die-unsichtbaren-verbindungen-hinter-unserem-alltag-302916512.html",
+    "title": "Arclin kündigt strategische Erweiterung der Nomex®-Produktionskapazität an",
+    "url": "https://www.prnewswire.com/news-releases/arclin-kundigt-strategische-erweiterung-der-nomex-produktionskapazitat-an-302916197.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:06:00+00:00",
-    "raw_text": "MÜNCHEN und NÜRNBERG, Deutschland, 22. Oktober 2026 /PRNewswire/ -- Jeden Tag verlassen sich Millionen von Menschen auf Technologien, die im Hintergrund nahtlos zusammenarbeiten. Rechenzentren, Ladestationen, Krankenhäuser und Fabrikhallen sind enger miteinander vernetzt denn je, und jede...",
+    "published": "2026-10-22T09:05:00+00:00",
+    "raw_text": "Eine Investition in Millionenhöhe in Asturien wird die Widerstandsfähigkeit der Lieferkette stärken und die wachsende Nachfrage nach Nomex®-Papier in den Bereichen Luft- und Raumfahrt, elektrische Infrastruktur, Elektrofahrzeuge, Verteidigung und anderen kritischen Märkten unterstützen....",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Eine Investition in Millionenhöhe in Asturien wird die Widerstandsfähigkeit der Lieferkette stärken und die wachsende Nachfrage nach Nomex®-Papier in den Bereichen Luft- und Raumfahrt, elektrische Infrastruktur, Elektrofahrzeuge, Verteidigung und anderen kritischen Märkten unterstützen...."
+  },
+  {
+    "title": "Arclin Announces Strategic Expansion of Nomex® Manufacturing Capacity",
+    "url": "https://www.prnewswire.com/news-releases/arclin-announces-strategic-expansion-of-nomex-manufacturing-capacity-302916034.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T09:05:00+00:00",
+    "raw_text": "Multimillion-dollar investment in Asturias will strengthen supply chain resilience and support growing demand for Nomex® paper across aerospace, electrical infrastructure, electric vehicle (EV), defense, and other critical markets ALPHARETTA, Ga., Oct. 22, 2026 /PRNewswire/ -- Arclin, a...",
+    "categories": [
+      "Industry & Market",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "capacity"
+      ],
+      "Industry & Market": [
+        "announces",
+        "investment"
+      ]
+    },
+    "summary": "Multimillion-dollar investment in Asturias will strengthen supply chain resilience and support growing demand for Nomex® paper across aerospace, electrical infrastructure, electric vehicle (EV), defense, and other critical markets ALPHARETTA, Ga., Oct. 22, 2026 /PRNewswire/ -- Arclin, a..."
+  },
+  {
+    "title": "Tairex Launches Multi-Agent AI System to Transform Clinical Collaboration and Decision Support",
+    "url": "https://www.prnewswire.com/news-releases/tairex-launches-multi-agent-ai-system-to-transform-clinical-collaboration-and-decision-support-302916729.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T09:02:00+00:00",
+    "raw_text": "BEIJING, Oct. 22, 2026 /PRNewswire/ -- On 21 October, Tairex, an AI healthcare technology company incubated by the Institute for AI Industry Research (AIR) at Tsinghua University, unveiled the Multidisciplinary Human-Agent Collaboration (MHAC) Ecosystem for Agent Hospital, designed to...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "BEIJING, Oct. 22, 2026 /PRNewswire/ -- On 21 October, Tairex, an AI healthcare technology company incubated by the Institute for AI Industry Research (AIR) at Tsinghua University, unveiled the Multidisciplinary Human-Agent Collaboration (MHAC) Ecosystem for Agent Hospital, designed to..."
+  },
+  {
+    "title": "Semperis Researcher Discovers an Iranian Nation-State-Sponsored Threat Group Operating Command-and-Control Infrastructure in the United States",
+    "url": "https://www.prnewswire.com/news-releases/semperis-researcher-discovers-an-iranian-nation-state-sponsored-threat-group-operating-command-and-control-infrastructure-in-the-united-states-302916309.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T09:00:00+00:00",
+    "raw_text": "Iranian nation-state actor changes hosting strategy, uses shared infrastructure and continues to evolve stealthy malware capabilities. HOBOKEN, N.J., Oct. 22, 2026 /PRNewswire/ -- Semperis, the identity-driven cyber resilience and crisis response company, today announced that Tomer Bar,...",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "malware",
+        "threat",
+        "cyber"
+      ]
+    },
+    "summary": "Iranian nation-state actor changes hosting strategy, uses shared infrastructure and continues to evolve stealthy malware capabilities. HOBOKEN, N.J., Oct. 22, 2026 /PRNewswire/ -- Semperis, the identity-driven cyber resilience and crisis response company, today announced that Tomer Bar,..."
+  },
+  {
+    "title": "3D-Drucker für zu Hause sind an diesem Black Friday dank Bambu Lab zugänglicher denn je",
+    "url": "https://www.prnewswire.com/news-releases/3d-drucker-fur-zu-hause-sind-an-diesem-black-friday-dank-bambu-lab-zuganglicher-denn-je-302916352.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T09:00:00+00:00",
+    "raw_text": "Mit den höchsten Rabatten des Jahres und der allerersten Preissenkung für den X2D macht der globale Sale den leistungsstarken 3D-Druck zugänglicher denn je. AUSTIN, Texas, 22. Oktober 2026 /PRNewswire/ -- Der Desktop-3D-Druck entwickelt sich rasant vom Nischenhobby zur...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Mit den höchsten Rabatten des Jahres und der allerersten Preissenkung für den X2D macht der globale Sale den leistungsstarken 3D-Druck zugänglicher denn je. AUSTIN, Texas, 22. Oktober 2026 /PRNewswire/ -- Der Desktop-3D-Druck entwickelt sich rasant vom Nischenhobby zur..."
+  },
+  {
+    "title": "Home 3D Printers are More Accessible Than Ever This Black Friday with Bambu Lab",
+    "url": "https://www.prnewswire.com/news-releases/home-3d-printers-are-more-accessible-than-ever-this-black-friday-with-bambu-lab-302916370.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T09:00:00+00:00",
+    "raw_text": "Featuring the brand's deepest discounts of the year and the first-ever price cut for the X2D, the global sale makes high-performance 3D printing more attainable than ever. AUSTIN, Texas, Oct. 22, 2026 /PRNewswire/ -- Amid the rapid evolution of desktop 3D printing from a niche hobby into...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Featuring the brand's deepest discounts of the year and the first-ever price cut for the X2D, the global sale makes high-performance 3D printing more attainable than ever. AUSTIN, Texas, Oct. 22, 2026 /PRNewswire/ -- Amid the rapid evolution of desktop 3D printing from a niche hobby into..."
+  },
+  {
+    "title": "Singapore and Malaysia Lead the Largest AppliedEdu ASEAN Rankings to Date",
+    "url": "https://www.prnewswire.com/news-releases/singapore-and-malaysia-lead-the-largest-appliededu-asean-rankings-to-date-302916725.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T08:57:00+00:00",
+    "raw_text": "KUALA LUMPUR, Malaysia, Oct. 22, 2026 /PRNewswire/ -- The National University of Singapore (NUS) and Sunway University have been named ASEAN's No. 1 public and private universities, respectively, in the AppliedEdu University Rankings 2027 for ASEAN. NUS leads the public university...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "KUALA LUMPUR, Malaysia, Oct. 22, 2026 /PRNewswire/ -- The National University of Singapore (NUS) and Sunway University have been named ASEAN's No. 1 public and private universities, respectively, in the AppliedEdu University Rankings 2027 for ASEAN. NUS leads the public university..."
+  },
+  {
+    "title": "IA: menos del 20% de las decisiones automatizadas tienen un responsable identificado",
+    "url": "https://www.prnewswire.com/news-releases/ia-menos-del-20-de-las-decisiones-automatizadas-tienen-un-responsable-identificado-302916719.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T08:47:00+00:00",
+    "raw_text": "En la última edición de su «CIO Compass», Sopra Steria Next amplía el debate sobre la soberanía en materia de IA: no se trata solo de dónde residen los datos y los modelos, sino también de quién controla las decisiones que estos generan PARÍS, 22 de octubre de 2026 /PRNewswire/ -- Las...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "En la última edición de su «CIO Compass», Sopra Steria Next amplía el debate sobre la soberanía en materia de IA: no se trata solo de dónde residen los datos y los modelos, sino también de quién controla las decisiones que estos generan PARÍS, 22 de octubre de 2026 /PRNewswire/ -- Las..."
+  },
+  {
+    "title": "NUS researchers thread the world's first touchscreen into a garment",
+    "url": "https://www.prnewswire.com/news-releases/nus-researchers-thread-the-worlds-first-touchscreen-into-a-garment-302916717.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T08:45:00+00:00",
+    "raw_text": "SINGAPORE, Oct. 22, 2026 /PRNewswire/ -- Researchers at the National University of Singapore's College of Design and Engineering (CDE) have developed a fibre that functions as pixels and senses touch at the same time, integrating 54 of them into a sleeve to create the world's first...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SINGAPORE, Oct. 22, 2026 /PRNewswire/ -- Researchers at the National University of Singapore's College of Design and Engineering (CDE) have developed a fibre that functions as pixels and senses touch at the same time, integrating 54 of them into a sleeve to create the world's first..."
+  },
+  {
+    "title": "Supermicro brengt NVIDIA Aerial RAN-computeroplossingen naar de netwerk-edge in samenwerking met Nokia voor low-latency AI-diensten",
+    "url": "https://www.prnewswire.com/news-releases/supermicro-brengt-nvidia-aerial-ran-computeroplossingen-naar-de-netwerk-edge-in-samenwerking-met-nokia-voor-low-latency-ai-diensten-302916707.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T08:36:00+00:00",
+    "raw_text": "Verbeter de netwerkeconomie met een hogere spectrale efficiëntie dankzij het AI-RAN-platform voor het huidige 5G, inclusief een via software te upgraden traject dat infrastructuurinvesteringen beschermt Ontgrendel AI-monetisering door low-latency, bedrijfskritische AI-diensten, enterprise...",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "5g",
+        "latency"
+      ],
+      "Cybersecurity": [
+        "edr"
+      ]
+    },
+    "summary": "Verbeter de netwerkeconomie met een hogere spectrale efficiëntie dankzij het AI-RAN-platform voor het huidige 5G, inclusief een via software te upgraden traject dat infrastructuurinvesteringen beschermt Ontgrendel AI-monetisering door low-latency, bedrijfskritische AI-diensten, enterprise..."
+  },
+  {
+    "title": "City of Lynn, Massachusetts Earns 2026 New England Employee Benefits Council Best Practice Award for Innovative Approach to GLP-1 Coverage and Obesity Management",
+    "url": "https://www.prnewswire.com/news-releases/city-of-lynn-massachusetts-earns-2026-new-england-employee-benefits-council-best-practice-award-for-innovative-approach-to-glp-1-coverage-and-obesity-management-302916147.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T08:35:00+00:00",
+    "raw_text": "Award recognizes Healthy Weight and Keep It Off® Program for helping employees achieve lasting results while providing a sustainable model for managing obesity care costs CRANSTON, R.I., Oct. 22, 2026 /PRNewswire/ -- The City of Lynn, Massachusetts has been named a recipient of the 2026...",
     "categories": [
       "Networks"
     ],
@@ -4811,19 +4862,51 @@
         "lan"
       ]
     },
-    "summary": "MÜNCHEN und NÜRNBERG, Deutschland, 22. Oktober 2026 /PRNewswire/ -- Jeden Tag verlassen sich Millionen von Menschen auf Technologien, die im Hintergrund nahtlos zusammenarbeiten. Rechenzentren, Ladestationen, Krankenhäuser und Fabrikhallen sind enger miteinander vernetzt denn je, und jede..."
+    "summary": "Award recognizes Healthy Weight and Keep It Off® Program for helping employees achieve lasting results while providing a sustainable model for managing obesity care costs CRANSTON, R.I., Oct. 22, 2026 /PRNewswire/ -- The City of Lynn, Massachusetts has been named a recipient of the 2026..."
   },
   {
-    "title": "De la connexion à l'impact : SINBON Electronics présente les liens invisibles qui sous-tendent notre quotidien aux salons « electronica » et « SPS 2026 »",
-    "url": "https://www.prnewswire.com/news-releases/de-la-connexion-a-limpact--sinbon-electronics-presente-les-liens-invisibles-qui-sous-tendent-notre-quotidien-aux-salons--electronica--et--sps-2026--302916501.html",
+    "title": "Nuix lanza la IA de agente en Nuix Neo con registro de auditoría integrado",
+    "url": "https://www.prnewswire.com/news-releases/nuix-lanza-la-ia-de-agente-en-nuix-neo-con-registro-de-auditoria-integrado-302916702.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-10-22T06:01:00+00:00",
-    "raw_text": "MUNICH et NUREMBERG, Allemagne, 22 octobre 2026 /PRNewswire/ -- Chaque jour, des millions de personnes comptent sur des technologies qui fonctionnent ensemble en toute discrétion. Le centre de données, la station de recharge, l'hôpital et l'usine sont plus étroitement liés que jamais, et...",
+    "published": "2026-10-22T08:32:00+00:00",
+    "raw_text": "SYDNEY, 22 de octubre de 2026 /PRNewswire/ -- Nuix (ASX: NXL), proveedor de software de análisis e inteligencia para investigaciones, ha lanzado hoy Nuix Neo AI Agent. El software de Nuix sirve para llevar a cabo el análisis de grandes volúmenes de datos no estructurados, como correos...",
     "categories": [
-      "Uncategorised"
+      "Networks",
+      "GRC",
+      "Industry & Market"
     ],
-    "matched_keywords": {},
-    "summary": "MUNICH et NUREMBERG, Allemagne, 22 octobre 2026 /PRNewswire/ -- Chaque jour, des millions de personnes comptent sur des technologies qui fonctionnent ensemble en toute discrétion. Le centre de données, la station de recharge, l'hôpital et l'usine sont plus étroitement liés que jamais, et..."
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "GRC": [
+        "audit"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "SYDNEY, 22 de octubre de 2026 /PRNewswire/ -- Nuix (ASX: NXL), proveedor de software de análisis e inteligencia para investigaciones, ha lanzado hoy Nuix Neo AI Agent. El software de Nuix sirve para llevar a cabo el análisis de grandes volúmenes de datos no estructurados, como correos..."
+  },
+  {
+    "title": "Nuix führt Agentic AI in Nuix Neo mit integriertem Audit-Trail ein",
+    "url": "https://www.prnewswire.com/news-releases/nuix-fuhrt-agentic-ai-in-nuix-neo-mit-integriertem-audit-trail-ein-302916701.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-22T08:31:00+00:00",
+    "raw_text": "SYDNEY, 22. Oktober 2026 /PRNewswire/ -- Nuix (ASX: NXL, ein Anbieter von Software für investigative Analysen und Nachrichtendienste, hat heute den Nuix Neo AI Agent auf den Markt gebracht. Die Software von Nuix analysiert große Mengen unstrukturierter Daten, wie E-Mails und Chats, für...",
+    "categories": [
+      "GRC",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "GRC": [
+        "audit"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "SYDNEY, 22. Oktober 2026 /PRNewswire/ -- Nuix (ASX: NXL, ein Anbieter von Software für investigative Analysen und Nachrichtendienste, hat heute den Nuix Neo AI Agent auf den Markt gebracht. Die Software von Nuix analysiert große Mengen unstrukturierter Daten, wie E-Mails und Chats, für..."
   },
   {
     "title": "Google Cloud Outage Hits 7 Services, Revolut Down [2026] - shattered.io",
@@ -5026,42 +5109,6 @@
     "summary": "Audiovisual And Presentation Systems Market To 2035: Hybrid Work and Education Demand Drive Growth - News and Statistics IndexBox"
   },
   {
-    "title": "Kyndryl named a Leader in the IDC MarketScape for Worldwide Digital Workplace Services 2026 - Kyndryl",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZWEzSkNpVGRFZjhiYWlmYk9sb0ZvZXFLUkgyLTFsOXpTQ0ZnNlh5MFBCQ3Zucms1VEQ1UHRidkhjY2RjbVhwYTFiN3Z6R2xaZi1kTjVRNGZpMFdUTEtncHdFcnVpZXlJQ3lPV296YzFyZHR2Nkg2UWVLRVJ2cVlTVWdJbzhVUHc2OEpGR2F6V3I0b3RYZ3ROd2JlUU1yTlljYmRR?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-10-20T13:59:40+00:00",
-    "raw_text": "Kyndryl named a Leader in the IDC MarketScape for Worldwide Digital Workplace Services 2026 Kyndryl",
-    "categories": [
-      "Industry & Market",
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "idc"
-      ],
-      "Digital Workplace": [
-        "digital workplace"
-      ]
-    },
-    "summary": "Kyndryl named a Leader in the IDC MarketScape for Worldwide Digital Workplace Services 2026 Kyndryl"
-  },
-  {
-    "title": "The Future Of Work Cannot Run On Employee Adaptability Alone - BW People",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmNxQ3ZGaVRrOFBhWEM4YUh1dHctbno2NW5MbXlOSVdtV0Y2YmRlYk9vTldYXzdObGNMM3gtUFVCNWRFYlJlSU11VjFTM04yc3ZaOHhBbGJ0ZUJBUkQ4ZnlZeGEza0MtREl1dTFFZDAzTkp2Nmc3b1gtbl8xckdlYlB2WXdmLXpfQ2EzMEJ3eGVXc0lFOHFsdDM5eV91ekdv?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-10-22T04:41:51+00:00",
-    "raw_text": "The Future Of Work Cannot Run On Employee Adaptability Alone BW People",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "The Future Of Work Cannot Run On Employee Adaptability Alone BW People"
-  },
-  {
     "title": "HiBob vs Rippling in 2026: Comparing HR, payroll and employee experience - Tech Funding News",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelpPUDB4dzV4NWRudE9fU21KUEFKMVN1cG1jOGd5SVBwbmhQaUNEX19RWU1meE83M2lVOEtMeFlxTEZGaU00OTd5RlI4cmtEY3ZLMlpUYlBBMy0xWUF1TEliX1R3b2FhNTY2Rk50d3dONXZrNHNTa0VuS20tTEdYN20tWVhyZkpmRWRZRkY0eEtfMXhUZ3Jia1lCWm9ENFJm?oc=5",
     "source": "Google News: Digital Workplace",
@@ -5080,6 +5127,22 @@
       ]
     },
     "summary": "HiBob vs Rippling in 2026: Comparing HR, payroll and employee experience Tech Funding News"
+  },
+  {
+    "title": "The Future Of Work Cannot Run On Employee Adaptability Alone - BW People",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTmNxQ3ZGaVRrOFBhWEM4YUh1dHctbno2NW5MbXlOSVdtV0Y2YmRlYk9vTldYXzdObGNMM3gtUFVCNWRFYlJlSU11VjFTM04yc3ZaOHhBbGJ0ZUJBUkQ4ZnlZeGEza0MtREl1dTFFZDAzTkp2Nmc3b1gtbl8xckdlYlB2WXdmLXpfQ2EzMEJ3eGVXc0lFOHFsdDM5eV91ekdv?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-10-22T04:41:51+00:00",
+    "raw_text": "The Future Of Work Cannot Run On Employee Adaptability Alone BW People",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "The Future Of Work Cannot Run On Employee Adaptability Alone BW People"
   },
   {
     "title": "Future of Work 2030: Making AI work in the workplace - NTT Data",
@@ -5243,24 +5306,20 @@
     "summary": "Matheson and UCC future of work hackathon The Law Society of Ireland"
   },
   {
-    "title": "HR & WorkTech Summit Philippines 2026 highlights human-centered AI, workforce transformation, and the future of work - GMA Network",
-    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQT3pLX18ybE5xMVRndDRzRnZSYVNqOHA2M1lxeTlLa3VhSk5YMnUzNkVmS0VYVDBPUk13T2Qwbk80YzI3UXZnN2ZvWnFvOHo3aGNqSkFUSi1nRFFCNlZPNEpUZWY4X190U3Z2NmRwUmFTTlVuRVFhWUpQLXFkZFRkcTJENzdXdE1EaG1IWjgzd2tjRlJFY2x1UWU5WkNGZGR1cUt2TDBZOW9iRGQ5b0lTWjJOanMyWkoyQ2VwUFcxQ0tRalZvelhoekZEVUtmd1VUaVM3Rl9kaWJtaW9xM2ZhMnRoemVPa0VNUzJ1MmpzNHhmWDNfYlRRekRBZw?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-10-20T08:36:57+00:00",
-    "raw_text": "HR & WorkTech Summit Philippines 2026 highlights human-centered AI, workforce transformation, and the future of work GMA Network",
+    "title": "Omnissa Unveils Elara, New AI Agents for IT Management - Channel Insider",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fNHJ5Rm45cVpsUklYelBVNkdmc1hMRGt0MUg3R2J0bHZWV29CU04xNkxCWG9SbTZhVEtYam1rZUR0NmxaaV9PTXFPQU1yNWZYdS1TU1lKQWhYX1B0bXdIbGFVaHM4Y0Z2eGhVOHVud0ZjMVpDR1JwMDBwNXY?oc=5",
+    "source": "Google News: End User Computing",
+    "published": "2026-10-21T01:53:46+00:00",
+    "raw_text": "Omnissa Unveils Elara, New AI Agents for IT Management Channel Insider",
     "categories": [
-      "Networks",
-      "Digital Workplace"
+      "End User Computing"
     ],
     "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Digital Workplace": [
-        "future of work"
+      "End User Computing": [
+        "omnissa"
       ]
     },
-    "summary": "HR & WorkTech Summit Philippines 2026 highlights human-centered AI, workforce transformation, and the future of work GMA Network"
+    "summary": "Omnissa Unveils Elara, New AI Agents for IT Management Channel Insider"
   },
   {
     "title": "HPQ's AI PC Demand Rises: Can it Offset Declining PC Shipments? - Yahoo Finance Singapore",
@@ -5279,22 +5338,6 @@
     "summary": "HPQ's AI PC Demand Rises: Can it Offset Declining PC Shipments? Yahoo Finance Singapore"
   },
   {
-    "title": "Omnissa Unveils Elara, New AI Agents for IT Management - Channel Insider",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fNHJ5Rm45cVpsUklYelBVNkdmc1hMRGt0MUg3R2J0bHZWV29CU04xNkxCWG9SbTZhVEtYam1rZUR0NmxaaV9PTXFPQU1yNWZYdS1TU1lKQWhYX1B0bXdIbGFVaHM4Y0Z2eGhVOHVud0ZjMVpDR1JwMDBwNXY?oc=5",
-    "source": "Google News: End User Computing",
-    "published": "2026-10-21T01:53:46+00:00",
-    "raw_text": "Omnissa Unveils Elara, New AI Agents for IT Management Channel Insider",
-    "categories": [
-      "End User Computing"
-    ],
-    "matched_keywords": {
-      "End User Computing": [
-        "omnissa"
-      ]
-    },
-    "summary": "Omnissa Unveils Elara, New AI Agents for IT Management Channel Insider"
-  },
-  {
     "title": "Before you buy an AI PC, here’s what you need to know - GadgetGuy",
     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QeVU4X3BMSXRFZTlZSThjR2J4Z05WTnVhMElaNDllMXNOM0xYSFNhdVdIVjVuVDZzNlBEMkEzbVpJaTN3TjRKUmFXc2ZHbS1aSkxpZzc1TFd1R2VzVF9VaFB4c2ZUdjJGMGQtUVUzWUpmaXdsLUt1ZnJ2S18?oc=5",
     "source": "Google News: End User Computing",
@@ -5309,23 +5352,6 @@
       ]
     },
     "summary": "Before you buy an AI PC, here’s what you need to know GadgetGuy"
-  },
-  {
-    "title": "How to Delete a Virtual Desktop in Windows 11 - H2S Media",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjNDN4TURXc1p4SFYwT2tYbS02OXJyZkFJUWN0R1hhb1ViWWZDdndpcklLMWhpb2VrbGdnXzJoeG8tOUluTTQzWnA0Ul9VcHQtVUZ2ckRhV3c0MHhEMllLOHZVRF9kcndVOEdsYWN2bXlWTXFXNE5oR09POA?oc=5",
-    "source": "Google News: End User Computing",
-    "published": "2026-10-21T14:02:47+00:00",
-    "raw_text": "How to Delete a Virtual Desktop in Windows 11 H2S Media",
-    "categories": [
-      "End User Computing"
-    ],
-    "matched_keywords": {
-      "End User Computing": [
-        "virtual desktop",
-        "windows 11"
-      ]
-    },
-    "summary": "How to Delete a Virtual Desktop in Windows 11 H2S Media"
   },
   {
     "title": "Introducing Microsoft Contact Center Intelligence - Microsoft Dynamics 365 Blog - Microsoft",
@@ -5344,22 +5370,6 @@
     "summary": "Introducing Microsoft Contact Center Intelligence - Microsoft Dynamics 365 Blog Microsoft"
   },
   {
-    "title": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion - WSJ",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm9JQ3VzOXEwMFRKaXF3ekhnekdUUjNhcUNjT3AtS0lEWnE5Wno5dFFZOWYySWlQMnNIa0VBdDR6Q2hhNk9jTFpDVS1PT01rZDVxa3hNeHhyYUQ2eTBkclpyWXFmazhTa2pYaURKaFc5OUNSSjNVRW1faXcyYzlyOVU1MERCWHVyQTJtUmRzeFNuQU1YQXNHWl80bF9PUEE2czVVUUdta3lxZnB6TXRvQVlPNA?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-22T07:18:17+00:00",
-    "raw_text": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion WSJ",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "salesforce"
-      ]
-    },
-    "summary": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion WSJ"
-  },
-  {
     "title": "Union Pacific Brings Customers Together to Shape the Future Customer Experience - Union Pacific",
     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KYmtPRFg1d19VSDZ3a0kzVkdUSG9VOHpELWs2T0xkUUo2U1Z4eWloMFhDV0QtcVpRcGs3d3lGUGhacmZyZEFPNFFvUVByWTBYUGRFNFVPQnhiNDMzMVlsNFpCT0drUlQwTGthU0YySlJVZmgzckRGblRTRWdGUHM?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5374,22 +5384,6 @@
       ]
     },
     "summary": "Union Pacific Brings Customers Together to Shape the Future Customer Experience Union Pacific"
-  },
-  {
-    "title": "Researchers develop conversational AI for self-driving labs - Tech Xplore",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QS3AwN2UyN19UTUxNb05CVUNUdklHYndXSmZBMkpOOWxnbG5qVm01eGpYMXRwY1RLMjBHRUhpb3l2eFFfbURwbUJyQVo4Y1dEMF9mTC1fOTRjY05DOXotMnFmb0JBLWQ2WFZfYTNvdEQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T10:00:51+00:00",
-    "raw_text": "Researchers develop conversational AI for self-driving labs Tech Xplore",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "conversational ai"
-      ]
-    },
-    "summary": "Researchers develop conversational AI for self-driving labs Tech Xplore"
   },
   {
     "title": "Surf Internet Honors Ralph Diaz by Naming La Porte Contact Center in His Memory - GreatNews.Life",
@@ -5418,6 +5412,42 @@
     ],
     "matched_keywords": {},
     "summary": "Introducing Service Execution Workspace: Our First Step Toward Outcome-Oriented Service Oracle Blogs"
+  },
+  {
+    "title": "Orange Business, Nvidia pilot conversational AI agents on distributed infrastructure - Telecompaper",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT2NNOTU5c2xlbEdfMmt0SFozc2UtM0JDT2UtUHRFUFZqZktMU1oyVnZ0S0dFVEluZjVJZjJZTXdGbjVJMGNyUEtFVlBOSE90U2JjMUFualBrZnlSWmtXbVpPeG5yRzRnNmZ5Q2tqZ2hzWjk2YmxIVmlWLWFYcngyb21URjBsWE5CSk41S3hwbEtCQkZiZ09UYWlQZVNEbmw0REdjVlJTVlg1SGsydm43NHBNRTcxVWFCUHg1SU5IRF9hSTFT?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-22T08:48:45+00:00",
+    "raw_text": "Orange Business, Nvidia pilot conversational AI agents on distributed infrastructure Telecompaper",
+    "categories": [
+      "Networks",
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "telecom"
+      ],
+      "Digital Customer Experience": [
+        "conversational ai"
+      ]
+    },
+    "summary": "Orange Business, Nvidia pilot conversational AI agents on distributed infrastructure Telecompaper"
+  },
+  {
+    "title": "Researchers develop conversational AI for self-driving labs - Tech Xplore",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QS3AwN2UyN19UTUxNb05CVUNUdklHYndXSmZBMkpOOWxnbG5qVm01eGpYMXRwY1RLMjBHRUhpb3l2eFFfbURwbUJyQVo4Y1dEMF9mTC1fOTRjY05DOXotMnFmb0JBLWQ2WFZfYTNvdEQ?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-21T10:00:51+00:00",
+    "raw_text": "Researchers develop conversational AI for self-driving labs Tech Xplore",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "conversational ai"
+      ]
+    },
+    "summary": "Researchers develop conversational AI for self-driving labs Tech Xplore"
   },
   {
     "title": "C-stores tap conversational AI to boost store ops - C-Store Dive",
@@ -5484,22 +5514,6 @@
     "summary": "How AI is transforming customer experience NTT Data"
   },
   {
-    "title": "Turning AI into real-world impact: Cathay Pacific on AI ROI, customer experience and workforce empowerment - Future Travel Experience",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZDBYMWw0dG1SWk5EWC1YSG9zcV82VnlNdHRkODc2M0s0TEx5ZE55eks0YXNhdk90Uk04QWlrelNDcTZoTGRDTkNxNzF3b0xuVzFtMXc4NGNyQjI0MlhJb2lFZjZxOFRMaGUxdUpHSDdZVWxjYXI0WnBDUmk1N09oNVhmVDBGeHloSHlpbWtvTDV1SkY0eEJETkRReXJWZHRmWEtCWnRzT0JiRTJCSUhaY0NGcUR3ekROajdNcVlpSzBzWV9fQXRKRk1OY2RWS295Y2wwTjI2c2d4ak1UVGdnalJUQXRLYVU?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T15:14:40+00:00",
-    "raw_text": "Turning AI into real-world impact: Cathay Pacific on AI ROI, customer experience and workforce empowerment Future Travel Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Turning AI into real-world impact: Cathay Pacific on AI ROI, customer experience and workforce empowerment Future Travel Experience"
-  },
-  {
     "title": "Salesforce Strikes $5.66 Billion Deal to Buy Customer Engagement Platform Braze - Yahoo Finance",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNkdBX2hLOVd6U25ubTZjOXhRMnRrLUNxdnRxWHBhd0hZRGZ1Y2pydFROdnRTUU1qMVRQb2RzQThOc0djTG1MZEdQNU0xdVJ2cUZ4UlIyRVNySnVrNXY0SEZmdnQ2bmRjY1pBcDVFQmhiR1JUQU9WbmlfUExzLW9DbC1HbWFLM3VEZVBnRzk0Mk9nYVpDVzY0?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5517,41 +5531,36 @@
     "summary": "Salesforce Strikes $5.66 Billion Deal to Buy Customer Engagement Platform Braze Yahoo Finance"
   },
   {
-    "title": "Adobe (ADBE) Deepens AI Partnerships Across Creative And Customer Experience Tools - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcDg4OS0ySWNmaWhKcngyZUJNQU9SRDdWblJNb1loVjZjcjhFNmlSZmdxNFhVaE9fWVJ1WkF6VWtrRG9CWUJaZTlLVDc4S19GYXdObHhpVW9GNVVlZ3k1NWNfb3FPaXJ2MDNyajV6Q3BTVmU4QnpoMC1aQnBHM2ZER2pHN1FGVGRHOUxBNTZsTUZ5RGtKaFBsSjdZTnJvWk0?oc=5",
+    "title": "Turning AI into real-world impact: Cathay Pacific on AI ROI, customer experience and workforce empowerment - Future Travel Experience",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZDBYMWw0dG1SWk5EWC1YSG9zcV82VnlNdHRkODc2M0s0TEx5ZE55eks0YXNhdk90Uk04QWlrelNDcTZoTGRDTkNxNzF3b0xuVzFtMXc4NGNyQjI0MlhJb2lFZjZxOFRMaGUxdUpHSDdZVWxjYXI0WnBDUmk1N09oNVhmVDBGeHloSHlpbWtvTDV1SkY0eEJETkRReXJWZHRmWEtCWnRzT0JiRTJCSUhaY0NGcUR3ekROajdNcVlpSzBzWV9fQXRKRk1OY2RWS295Y2wwTjI2c2d4ak1UVGdnalJUQXRLYVU?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T04:23:00+00:00",
-    "raw_text": "Adobe (ADBE) Deepens AI Partnerships Across Creative And Customer Experience Tools Yahoo Finance",
+    "published": "2026-10-21T15:14:40+00:00",
+    "raw_text": "Turning AI into real-world impact: Cathay Pacific on AI ROI, customer experience and workforce empowerment Future Travel Experience",
     "categories": [
-      "Industry & Market",
       "Digital Customer Experience"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "partnership"
-      ],
       "Digital Customer Experience": [
         "customer experience"
       ]
     },
-    "summary": "Adobe (ADBE) Deepens AI Partnerships Across Creative And Customer Experience Tools Yahoo Finance"
+    "summary": "Turning AI into real-world impact: Cathay Pacific on AI ROI, customer experience and workforce empowerment Future Travel Experience"
   },
   {
-    "title": "Salesforce to acquire Braze for $5.66bn in customer experience push - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMHJLNUxGZWpjSVZja01CakpUcTJSdzhHU1Y5SlBFamY2cFp0OWtTSGhVcS0wSWhvZmMwR2toVlZTTmxWY21yYTlFM1pJSVUtWjJnTmVuVk1yeXI2amN3eTlsYTFBdmkyOF9FSy00ZUlCQVppcGRORWN1UW1zMU5vZV9Xbw?oc=5",
+    "title": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion - WSJ",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVm9JQ3VzOXEwMFRKaXF3ekhnekdUUjNhcUNjT3AtS0lEWnE5Wno5dFFZOWYySWlQMnNIa0VBdDR6Q2hhNk9jTFpDVS1PT01rZDVxa3hNeHhyYUQ2eTBkclpyWXFmazhTa2pYaURKaFc5OUNSSjNVRW1faXcyYzlyOVU1MERCWHVyQTJtUmRzeFNuQU1YQXNHWl80bF9PUEE2czVVUUdta3lxZnB6TXRvQVlPNA?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T09:50:02+00:00",
-    "raw_text": "Salesforce to acquire Braze for $5.66bn in customer experience push Yahoo Finance",
+    "published": "2026-10-20T12:44:00+00:00",
+    "raw_text": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion WSJ",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "customer experience",
         "salesforce"
       ]
     },
-    "summary": "Salesforce to acquire Braze for $5.66bn in customer experience push Yahoo Finance"
+    "summary": "Salesforce to Buy Customer-Engagement Platform for Nearly $5.7 Billion WSJ"
   },
   {
     "title": "AI’s Role in Quality, Operational Efficiency, and Customer Experience - Quality Magazine",
@@ -5568,38 +5577,6 @@
       ]
     },
     "summary": "AI’s Role in Quality, Operational Efficiency, and Customer Experience Quality Magazine"
-  },
-  {
-    "title": "Average holiday shopper spend will increase 4% this season - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamRjZGtiRkFvd1UtdjNmWERDaHlLV2NkWHFMeGt0NlE2NVBGV3dOM1poaGs1THJCZ05DOGdBSkdmd210andyamQ1aWpXZE9aNmh1c1htVlpjcHQ3VXkwejlSNXlKLUJIVm15bW80eGp4RTRyRlBwMjAtemFsOW5Dek13V1RWRlM1VEEzYnIwRzBvdDRMTHZjeWsyQlFQN2xHc09zZmdjVQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T11:00:00+00:00",
-    "raw_text": "Average holiday shopper spend will increase 4% this season Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Average holiday shopper spend will increase 4% this season Retail Customer Experience"
-  },
-  {
-    "title": "Price, discount rank tops in consumer purchasing decisions - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNazhFWVdaeDFBMzFHb0hfdHFsblZQQ1dlNll4R05LajNpVUR1UkpGcVdFLXUxRjNObFUyV0steTJrbWNHZlJFREZHUTh0UWJrRjU1TmhkalQ3NG16TktGNjRQVDF3S1hLXzZvakJiUzdQZmMtRFpOMEtvSHF3bVlrRWs3dTUwZE9RSGpaU3dIV3FNblJvSDhhRmJoMjZtQThXVEJvbHpOWQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T10:00:00+00:00",
-    "raw_text": "Price, discount rank tops in consumer purchasing decisions Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Price, discount rank tops in consumer purchasing decisions Retail Customer Experience"
   },
   {
     "title": "How to empower businesses with trusted conversational AI - EY",
@@ -5678,6 +5655,39 @@
     "summary": "AI in customer experience: Finding the right level of automation Vietnam Investment Review - VIR"
   },
   {
+    "title": "Salesforce to acquire Braze for $5.66bn in customer experience push - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMHJLNUxGZWpjSVZja01CakpUcTJSdzhHU1Y5SlBFamY2cFp0OWtTSGhVcS0wSWhvZmMwR2toVlZTTmxWY21yYTlFM1pJSVUtWjJnTmVuVk1yeXI2amN3eTlsYTFBdmkyOF9FSy00ZUlCQVppcGRORWN1UW1zMU5vZV9Xbw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-21T09:50:02+00:00",
+    "raw_text": "Salesforce to acquire Braze for $5.66bn in customer experience push Yahoo Finance",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience",
+        "salesforce"
+      ]
+    },
+    "summary": "Salesforce to acquire Braze for $5.66bn in customer experience push Yahoo Finance"
+  },
+  {
+    "title": "Average holiday shopper spend will increase 4% this season - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamRjZGtiRkFvd1UtdjNmWERDaHlLV2NkWHFMeGt0NlE2NVBGV3dOM1poaGs1THJCZ05DOGdBSkdmd210andyamQ1aWpXZE9aNmh1c1htVlpjcHQ3VXkwejlSNXlKLUJIVm15bW80eGp4RTRyRlBwMjAtemFsOW5Dek13V1RWRlM1VEEzYnIwRzBvdDRMTHZjeWsyQlFQN2xHc09zZmdjVQ?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-21T11:00:00+00:00",
+    "raw_text": "Average holiday shopper spend will increase 4% this season Retail Customer Experience",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Average holiday shopper spend will increase 4% this season Retail Customer Experience"
+  },
+  {
     "title": "Is Your Customer Experience Still Waiting for Symptoms? - CMSWire",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd3NGQ3NDWU85SXdsa2Y1ZHFqM0F0QlNUaDFRbzV4WlpqeEUxQnowNHVhVHBldTRkM1FwRVRPdEhLd0dkTnNVYmVxeDZLNHdwN0laV3BhdGh4SldDaVcwZEQxZ3lPMVY4bVJhUUFTSXdEYXUxTUdBTl9ZN1RXd1E4ZmFJdEhjLTNtM2tfRDBEWFBZZw?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5694,11 +5704,11 @@
     "summary": "Is Your Customer Experience Still Waiting for Symptoms? CMSWire"
   },
   {
-    "title": "NRF holiday forecast: Retail sales increase reflects consumer resiliency - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUhTc0h5RlY5al80aDdrb2hXNlhVY3loT0dxWWxoMGtQanAzZ25nRXNzVTY2WVZGU09kdU94VGJ2elBCTWM1MjRUX05BS1ZteUtDaVBJd0l5UmlzZUkyeVRxclBjUXZJdHZyY0RuTDFMNHE0VVVTbjJaTTFLeGt5STU0TUJ0T0pPVHlvZnI3cEtkWHgyRnVoUU5IZkotWlQxYzlPZ1VRUkEwdjNkYTB5TlJEMk9YWFlGNkE?oc=5",
+    "title": "Price, discount rank tops in consumer purchasing decisions - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNazhFWVdaeDFBMzFHb0hfdHFsblZQQ1dlNll4R05LajNpVUR1UkpGcVdFLXUxRjNObFUyV0steTJrbWNHZlJFREZHUTh0UWJrRjU1TmhkalQ3NG16TktGNjRQVDF3S1hLXzZvakJiUzdQZmMtRFpOMEtvSHF3bVlrRWs3dTUwZE9RSGpaU3dIV3FNblJvSDhhRmJoMjZtQThXVEJvbHpOWQ?oc=5",
     "source": "Google News: Digital Customer Experience",
     "published": "2026-10-21T10:00:00+00:00",
-    "raw_text": "NRF holiday forecast: Retail sales increase reflects consumer resiliency Retail Customer Experience",
+    "raw_text": "Price, discount rank tops in consumer purchasing decisions Retail Customer Experience",
     "categories": [
       "Digital Customer Experience"
     ],
@@ -5707,23 +5717,7 @@
         "customer experience"
       ]
     },
-    "summary": "NRF holiday forecast: Retail sales increase reflects consumer resiliency Retail Customer Experience"
-  },
-  {
-    "title": "Orvera AI Puts a Contact Center Operator Beside Every Forward Deployed Engineer - New Castle News",
-    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOSDVxUmJ3RWFxTGF6NnFyMjF1MUQ2bnpIdlNLdnJMcHVmbHNxdW0tLURxMGp4OVBhYW9MRmlka1BnTFhHcEVDX1BNMlFGV1pRM29adGxvZExIOTNBSjhPb1VuaTJrWWFMbFdrQVBtZ0xRWlVvcWdxYnNGNGQwd0dFaXNFck9PbWx2V3ZhZDRZbXkxcDJONVlWNFJPc2lXb3FFQlc0bzEzNzhSVkFVMGx4T0R5cVJQNFZPWTdwdzlvbnhfVWFGT1kwTk5RSWlQZmhpeHN4WFhDVWQzOEozZmNzSjFSZkF4QnRHTVFtUUpyTG8yWGJMZFI3RS0tLXVJWFBoQ3c?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-20T18:40:17+00:00",
-    "raw_text": "Orvera AI Puts a Contact Center Operator Beside Every Forward Deployed Engineer New Castle News",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "contact center"
-      ]
-    },
-    "summary": "Orvera AI Puts a Contact Center Operator Beside Every Forward Deployed Engineer New Castle News"
+    "summary": "Price, discount rank tops in consumer purchasing decisions Retail Customer Experience"
   },
   {
     "title": "Robert Downey Jr. Joins SPECS as Chief Customer Experience Officer to Advance Augmented Reality - citybiz",
@@ -5746,22 +5740,6 @@
     "summary": "Robert Downey Jr. Joins SPECS as Chief Customer Experience Officer to Advance Augmented Reality citybiz"
   },
   {
-    "title": "BJ’s kicking off super early Black Friday - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOODBuOHRDRnpJREdGR1A5SXpZTVFzSXRTSTQyMFpJNjRfRzNJd2FPM25jN1YxQy1uSkdHZXVqMDNyRlk5eXpMU2ozbGxZYzRHcW1RcThKd2lWYjhuRVloRXAtMDJtOTNQWFlsRVpoY1dWRDJDSmc4TFZfb05aSy10ZGZySnpSVTFDaWZDeGdjZTY?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-20T10:00:00+00:00",
-    "raw_text": "BJ’s kicking off super early Black Friday Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "BJ’s kicking off super early Black Friday Retail Customer Experience"
-  },
-  {
     "title": "Salesforce Strikes $5.66 Billion Deal to Buy Customer Engagement Platform Braze - marketscreener.com",
     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaDh5NnNkQjV2eGtEMTFLSzYwRy1sazVLQlI1MjVZTjdEQ2lDdGZuMDFIdmdyd3RGM20tdVQtbnJpMHJRc0pyR0I3R0k2MGtnQTRhYzcySTd6aEVFd3l6cjFLbWV4QUxIYjNTb2RBMnUyU0dxQzNmUGt6c01nblIwYUhHNGVpaUhHenpwZWpDOGdnMV9oTFNrTVlaSjd3eXo4UEFJTlk4SDJqd05wSWd5LTdURFVIWk9hNUx3U0JhblhGN2ZYVFBQX2prYw?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5777,6 +5755,50 @@
       ]
     },
     "summary": "Salesforce Strikes $5.66 Billion Deal to Buy Customer Engagement Platform Braze marketscreener.com"
+  },
+  {
+    "title": "Running leaner in hospitality in 2027 without compromising the customer experience - Dynamic Business",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN2JVdWo3SXl4UWc1NEhZeTJaYkVaejhrQXZocUFmLTlJZUN4NU5uNDZkaWd3b0kycTFBVktHdmxwX2pNRmxWLUhrTkVPa2xOYlpNOG1zZUYwOGdWbk0zUG0zb2x6M0tULWZMd0VyY0pjMklYdHlOM1l0OWtJMVQ5OXc2N1cxS21ORnk4VDVtQldSdE43WGFwMkpqTzlFQkdOaDlWXzhPWG9raEJSWHZqdnBpdGRBVTFC?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-22T02:02:54+00:00",
+    "raw_text": "Running leaner in hospitality in 2027 without compromising the customer experience Dynamic Business",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Running leaner in hospitality in 2027 without compromising the customer experience Dynamic Business"
+  },
+  {
+    "title": "NRF holiday forecast: Retail sales increase reflects consumer resiliency - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUhTc0h5RlY5al80aDdrb2hXNlhVY3loT0dxWWxoMGtQanAzZ25nRXNzVTY2WVZGU09kdU94VGJ2elBCTWM1MjRUX05BS1ZteUtDaVBJd0l5UmlzZUkyeVRxclBjUXZJdHZyY0RuTDFMNHE0VVVTbjJaTTFLeGt5STU0TUJ0T0pPVHlvZnI3cEtkWHgyRnVoUU5IZkotWlQxYzlPZ1VRUkEwdjNkYTB5TlJEMk9YWFlGNkE?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-21T10:00:00+00:00",
+    "raw_text": "NRF holiday forecast: Retail sales increase reflects consumer resiliency Retail Customer Experience",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "NRF holiday forecast: Retail sales increase reflects consumer resiliency Retail Customer Experience"
+  },
+  {
+    "title": "Zoom Targets CX’s Broken Context With Its New AI Layer - CX Today",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ock10YVZiNlNzMHJjaElVYnpCVUF4cm0tWEdXNU1lUzgwTEJMb1R1eExVcHBsajcxTUFtYmYxRC1kZWphTnZiLUt4a2J5a0NaclhjdGFSbElHMzRkRXJ3UFkydEdkTDJnZjRuTmx4aGN6WWU5c09ZUHlqdFlPZw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-20T16:35:26+00:00",
+    "raw_text": "Zoom Targets CX’s Broken Context With Its New AI Layer CX Today",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Zoom Targets CX’s Broken Context With Its New AI Layer CX Today"
   },
   {
     "title": "Robert Downey Jr. joins Snap’s SPECS as chief customer experience officer - Campaign India",
@@ -5797,18 +5819,6 @@
       ]
     },
     "summary": "Robert Downey Jr. joins Snap’s SPECS as chief customer experience officer Campaign India"
-  },
-  {
-    "title": "Zoom Targets CX’s Broken Context With Its New AI Layer - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ock10YVZiNlNzMHJjaElVYnpCVUF4cm0tWEdXNU1lUzgwTEJMb1R1eExVcHBsajcxTUFtYmYxRC1kZWphTnZiLUt4a2J5a0NaclhjdGFSbElHMzRkRXJ3UFkydEdkTDJnZjRuTmx4aGN6WWU5c09ZUHlqdFlPZw?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-20T16:35:26+00:00",
-    "raw_text": "Zoom Targets CX’s Broken Context With Its New AI Layer CX Today",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Zoom Targets CX’s Broken Context With Its New AI Layer CX Today"
   },
   {
     "title": "Salesforce to acquire customer engagement platform Braze in $5.66-billion deal - The Globe and Mail",
@@ -5860,22 +5870,6 @@
     "summary": "Zoom Adds Shared Memory for CX Agents CMSWire"
   },
   {
-    "title": "Three High School Students Launch MyDaye AI, a Free Conversational AI Companion That Helps Students Manage Their Entire Lives - 01net",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQM0RHTXdQRjZqeUZoaXBWcWNIMFhSMnNJZ1NmLXJBQjA2MXNEcFg5d1FMbWtSRW1fSlhidlJxM2JzTlAzNVlvUkZGSkszOGFTWUxGSE0yX3FZdTdFZGFJMTY3dVhVOUUyYmcxbjU3dURvZko0UTR3RnZsTk5UY1EzcWlKNm5NTUlwM3ZCYkJqV1YzT2hBR0VRd3d2MVZsLXhnbXV2b1lLa195NzRQNVEyaVJZd0luN0ZHMmNYaV9XSWNoWGtzU0NUbmxyWjhWcFMxcDBwbE5SVWpBUHZ1SXV3?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T16:23:00+00:00",
-    "raw_text": "Three High School Students Launch MyDaye AI, a Free Conversational AI Companion That Helps Students Manage Their Entire Lives 01net",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "conversational ai"
-      ]
-    },
-    "summary": "Three High School Students Launch MyDaye AI, a Free Conversational AI Companion That Helps Students Manage Their Entire Lives 01net"
-  },
-  {
     "title": "Target makes store operations app smarter - Retail Customer Experience",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNamduZjhhc21kSmdBcHdLV2loVW9tcmh6Qm1rQThPbnptSnJyWXFDNWdCZ1dyZmFYR25RQ1JCY1Roa1FFVnZfLTdPTFJ1eW5UOUpFdG9hZkMxdDRYVWwxZm80N0swcXRqRWlvckN4eUlaamZpV3dkMDNwUjBpeHlENXAzUGZ2QmxlWEMyTlo0bmhJQQ?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5892,11 +5886,11 @@
     "summary": "Target makes store operations app smarter Retail Customer Experience"
   },
   {
-    "title": "Running leaner in hospitality in 2027 without compromising the customer experience - Dynamic Business",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN2JVdWo3SXl4UWc1NEhZeTJaYkVaejhrQXZocUFmLTlJZUN4NU5uNDZkaWd3b0kycTFBVktHdmxwX2pNRmxWLUhrTkVPa2xOYlpNOG1zZUYwOGdWbk0zUG0zb2x6M0tULWZMd0VyY0pjMklYdHlOM1l0OWtJMVQ5OXc2N1cxS21ORnk4VDVtQldSdE43WGFwMkpqTzlFQkdOaDlWXzhPWG9raEJSWHZqdnBpdGRBVTFC?oc=5",
+    "title": "BJ’s kicking off super early Black Friday - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOODBuOHRDRnpJREdGR1A5SXpZTVFzSXRTSTQyMFpJNjRfRzNJd2FPM25jN1YxQy1uSkdHZXVqMDNyRlk5eXpMU2ozbGxZYzRHcW1RcThKd2lWYjhuRVloRXAtMDJtOTNQWFlsRVpoY1dWRDJDSmc4TFZfb05aSy10ZGZySnpSVTFDaWZDeGdjZTY?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-22T02:02:54+00:00",
-    "raw_text": "Running leaner in hospitality in 2027 without compromising the customer experience Dynamic Business",
+    "published": "2026-10-20T10:00:00+00:00",
+    "raw_text": "BJ’s kicking off super early Black Friday Retail Customer Experience",
     "categories": [
       "Digital Customer Experience"
     ],
@@ -5905,7 +5899,39 @@
         "customer experience"
       ]
     },
-    "summary": "Running leaner in hospitality in 2027 without compromising the customer experience Dynamic Business"
+    "summary": "BJ’s kicking off super early Black Friday Retail Customer Experience"
+  },
+  {
+    "title": "Southwest Airlines revamps rewards loyalty program - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY0d1azZvcHBKZFVUVkVpMFhocGxYYWFZN3puRXpWb3dkUFBJV3FzMndfd1NGeWpFNzN5VDdyR1pCdHVhNU1qRnRKX1pteE9XNEFyak9Gd240a3BpRTNRWWduZzJ4UW9QazVsYm50Wmw4RF9TNE5teEhKeFhiYUxlcFl4SWpFMDEtT04tSXB1Y243SFgtNkJVbjVlakE5Zw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-20T10:00:00+00:00",
+    "raw_text": "Southwest Airlines revamps rewards loyalty program Retail Customer Experience",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Southwest Airlines revamps rewards loyalty program Retail Customer Experience"
+  },
+  {
+    "title": "Three High School Students Launch MyDaye AI, a Free Conversational AI Companion That Helps Students Manage Their Entire Lives - 01net",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQM0RHTXdQRjZqeUZoaXBWcWNIMFhSMnNJZ1NmLXJBQjA2MXNEcFg5d1FMbWtSRW1fSlhidlJxM2JzTlAzNVlvUkZGSkszOGFTWUxGSE0yX3FZdTdFZGFJMTY3dVhVOUUyYmcxbjU3dURvZko0UTR3RnZsTk5UY1EzcWlKNm5NTUlwM3ZCYkJqV1YzT2hBR0VRd3d2MVZsLXhnbXV2b1lLa195NzRQNVEyaVJZd0luN0ZHMmNYaV9XSWNoWGtzU0NUbmxyWjhWcFMxcDBwbE5SVWpBUHZ1SXV3?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-21T16:23:00+00:00",
+    "raw_text": "Three High School Students Launch MyDaye AI, a Free Conversational AI Companion That Helps Students Manage Their Entire Lives 01net",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "conversational ai"
+      ]
+    },
+    "summary": "Three High School Students Launch MyDaye AI, a Free Conversational AI Companion That Helps Students Manage Their Entire Lives 01net"
   },
   {
     "title": "The Festive Season Attribution Puzzle — What Brands Learned Trying to Track Omnichannel ROI - Agency Reporter",
@@ -5928,22 +5954,6 @@
     "summary": "The Festive Season Attribution Puzzle — What Brands Learned Trying to Track Omnichannel ROI Agency Reporter"
   },
   {
-    "title": "Southwest Airlines revamps rewards loyalty program - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY0d1azZvcHBKZFVUVkVpMFhocGxYYWFZN3puRXpWb3dkUFBJV3FzMndfd1NGeWpFNzN5VDdyR1pCdHVhNU1qRnRKX1pteE9XNEFyak9Gd240a3BpRTNRWWduZzJ4UW9QazVsYm50Wmw4RF9TNE5teEhKeFhiYUxlcFl4SWpFMDEtT04tSXB1Y243SFgtNkJVbjVlakE5Zw?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-20T10:00:00+00:00",
-    "raw_text": "Southwest Airlines revamps rewards loyalty program Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Southwest Airlines revamps rewards loyalty program Retail Customer Experience"
-  },
-  {
     "title": "Orvera AI Puts a Contact Center Operator Beside Every Forward Deployed Engineer - Eagle-Tribune",
     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPd21pd19hUk9GM2ZCQ29adTdGa1RISUJUX2IyVjctMmxhVjdOZlB3R0FTUXZNMHZNbTF5cndudEdTQ3U0NDZjX3d5cUJqN1poamtnN2NpNzNtZHdZQlpBeTlRSjJYRXJDQXBENktDbjBhLU05TEx6Q2o2NDBoYlRKSnZkNHd4NDZ0Sk1EaENibVhkRE45bUR5ekN6MTJnb3Z3WWl2c05YX01pQy00OS1ZOHJoWm9Tc2RRdXlqWmFtYkZyUVNVdXFaaE1yMXU2M2R3cWpWcDc0Z0lSX3R4cTB3STZlQnJKcnBQTk5NVDdwUWpNVmxyd1Z2WA?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -5958,22 +5968,6 @@
       ]
     },
     "summary": "Orvera AI Puts a Contact Center Operator Beside Every Forward Deployed Engineer Eagle-Tribune"
-  },
-  {
-    "title": "Agentic AI and Orchestration will Drive the Next Chapter of Customer Experience in West Africa - Techeconomy",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdzdhdm1ObWxCV3BhSGpaZGVveTRwcTlPU1FpWDFPSnFKOHBDQXlmV3IzZDk3TW0zaTlmMGN3cEZ5MmR5UzJXTEx3bjRBcENnOFYyTngxYnctUm5aNWNteWpHd2xYUUl4MjA4TnB6WmxVTjQ4ZnBveDNGQ09mV28yanJTSEk0OTZnMGUxc0FxVUlHazFOTC1tRHl6Szd5QTktdGpmcEptM1RzNjRSZUg2alViTkNvWTlW?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-22T05:34:37+00:00",
-    "raw_text": "Agentic AI and Orchestration will Drive the Next Chapter of Customer Experience in West Africa Techeconomy",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Agentic AI and Orchestration will Drive the Next Chapter of Customer Experience in West Africa Techeconomy"
   },
   {
     "title": "Robert Downey Jr. Trades Tony Stark's Aviators for Snap's AR Specs - ADWEEK",
@@ -6009,6 +6003,22 @@
     "summary": "Conversational AI Chatbots, Explained for 2026 Slack"
   },
   {
+    "title": "Agentic AI and Orchestration will Drive the Next Chapter of Customer Experience in West Africa - Techeconomy",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdzdhdm1ObWxCV3BhSGpaZGVveTRwcTlPU1FpWDFPSnFKOHBDQXlmV3IzZDk3TW0zaTlmMGN3cEZ5MmR5UzJXTEx3bjRBcENnOFYyTngxYnctUm5aNWNteWpHd2xYUUl4MjA4TnB6WmxVTjQ4ZnBveDNGQ09mV28yanJTSEk0OTZnMGUxc0FxVUlHazFOTC1tRHl6Szd5QTktdGpmcEptM1RzNjRSZUg2alViTkNvWTlW?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-22T05:34:37+00:00",
+    "raw_text": "Agentic AI and Orchestration will Drive the Next Chapter of Customer Experience in West Africa Techeconomy",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Agentic AI and Orchestration will Drive the Next Chapter of Customer Experience in West Africa Techeconomy"
+  },
+  {
     "title": "Robert Downey Jr. joins SPECS as Chief Customer Experience Officer - afaqs!",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTEFBWWJxTGtCdXVRRk1xM2Y1a2VQbE95S2w1S0NUd3pBUE45d0ZCXzVUaDQ0czVaZWRHZ25naEdoYjV5Skh6VURSdEFEQ2x1aUVXeEpGb3VjSE5HQ2FyLXJ3djU4UjBtTUNuTWZDak9SdlU0QnlVS0N2OXE3ZnJnUHROcU9kcS1DY3E4bXJBMHpXUlNPZkhtQlVzQmtMMlZCUkJZbjFHNXl2dw?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -6029,21 +6039,21 @@
     "summary": "Robert Downey Jr. joins SPECS as Chief Customer Experience Officer afaqs!"
   },
   {
-    "title": "Maruti Suzuki partners with Adobe to upgrade digital customer experience - Storyboard18",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb1BNY1lPa2xoMVM3WDlZbHNYRnVYNHd1dFpqVkF6NUdMSG9DdUJ2ZlZsSjV5TmUyY3hTYmFpd3Q2WnN1MDZtVWlZX1BTS3Y5djQwM0YxTzQ4ak4yNUpxR1NyN1lPMTNNUkNQV0JLdEhkc0FvcU4tNGhlcjU1bnZvTi1nYmlWYVkzQjR6WnVhWndpQWR5QmdrVjc3eXJmZjNJdU0xUkk2cHhZdl9pWVhqTUduRVVKLUlqV3dZSHJFUzlYZ2NpS2ZN0gHMAUFVX3lxTFAzUFB4SHVDTUxhM0RyM1V4VVlNMWpMM200QlltQXlLZ1hRZmZ5QjlSb3pGdi1KN1llNU90MHpEUVk1bmdjWGZYV1lMcXFRX3BVbVk1ZndZNmRZekVWU2swaHVHWndlekxQTUxOSDA4WUxDenVwdmpQYURxWlhOOUNTa0NEdVg5NUtXTUN0a2Z4cUt5Vml6MTdPUmllWm5wendZbGpYcFU2aVBzLWdzVTMwSHNzR0RtckctMXpvNHZlb0d4bUk1SmVWVVJPdA?oc=5",
+    "title": "Salesforce to acquire customer engagement platform Braze for $5.66 billion - Exchange4Media",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcndoVXZCMk9hNWg0NUREWkxaWEhGQ2JPa2RpU004WUdVRFE0T1ctS0xQU3MzUmtNY3BVcFNwUXl0MVNzY0VCUXZTc1R3TzVsWWltbDJiMmNsVGFTTk40dEpwemlBQS1HOURtSW43N08xMGhlOTI4ZkNCUUJtc3dzOHRVbDlDb2Z3T1FzMFBSQ0RzcUwwbWdzcUE1UERrNm5NQnZzd3VtR3ZUdnY4VkdTRlN0d3A3ZHFIdmN5SzFhUzhtZ3UxbF9Z?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T12:11:02+00:00",
-    "raw_text": "Maruti Suzuki partners with Adobe to upgrade digital customer experience Storyboard18",
+    "published": "2026-10-21T02:18:28+00:00",
+    "raw_text": "Salesforce to acquire customer engagement platform Braze for $5.66 billion Exchange4Media",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "customer experience",
-        "digital customer experience"
+        "customer engagement",
+        "salesforce"
       ]
     },
-    "summary": "Maruti Suzuki partners with Adobe to upgrade digital customer experience Storyboard18"
+    "summary": "Salesforce to acquire customer engagement platform Braze for $5.66 billion Exchange4Media"
   },
   {
     "title": "Robert Downey Jr. Named Chief Customer Experience Officer At Snap - TheFutureParty",
@@ -6064,22 +6074,6 @@
       ]
     },
     "summary": "Robert Downey Jr. Named Chief Customer Experience Officer At Snap TheFutureParty"
-  },
-  {
-    "title": "Customer Experience Is the Leading Measure of Managed Repair Success, Contractor Connection Research Finds - Business Wire",
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTW5nMVE0aFdScDVJdjJyYTBNbGtIaVNaZnZvaHRkQTJjN0V4T3AxWEVNTDR6UzVBUEFRRG15X1VJYTQ0UURBSng0cWt5QXBKQVo2d25GcEZrQjBEdlp4S3RHNHFaN0ZOdmhsaVlEdEZIZUliLXVOcWhyRTh6VjlHakZ1NUJjbl9wRnZTYkp6Z01NQTFQY2ROejZET1p6eGl4WVgxTFNDSjNIRWdwR0RVa0ppYWU0Q0ttajl5WmFvbzBSSzNiMWtpQktvRDZaTWE5ckhTeEtDaEZ3TzVnMElmSFA2VUhwc0QxLUVQdUZ2Yk5pMC1D?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T15:08:00+00:00",
-    "raw_text": "Customer Experience Is the Leading Measure of Managed Repair Success, Contractor Connection Research Finds Business Wire",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Customer Experience Is the Leading Measure of Managed Repair Success, Contractor Connection Research Finds Business Wire"
   },
   {
     "title": "Snap's Specs appoints Robert Downey Jr. as honorary chief customer experience officer - Telecompaper",
@@ -6106,21 +6100,37 @@
     "summary": "Snap's Specs appoints Robert Downey Jr. as honorary chief customer experience officer Telecompaper"
   },
   {
-    "title": "Salesforce to acquire customer engagement platform Braze for $5.66 billion - Exchange4Media",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcndoVXZCMk9hNWg0NUREWkxaWEhGQ2JPa2RpU004WUdVRFE0T1ctS0xQU3MzUmtNY3BVcFNwUXl0MVNzY0VCUXZTc1R3TzVsWWltbDJiMmNsVGFTTk40dEpwemlBQS1HOURtSW43N08xMGhlOTI4ZkNCUUJtc3dzOHRVbDlDb2Z3T1FzMFBSQ0RzcUwwbWdzcUE1UERrNm5NQnZzd3VtR3ZUdnY4VkdTRlN0d3A3ZHFIdmN5SzFhUzhtZ3UxbF9Z?oc=5",
+    "title": "Maruti Suzuki partners with Adobe to upgrade digital customer experience - Storyboard18",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb1BNY1lPa2xoMVM3WDlZbHNYRnVYNHd1dFpqVkF6NUdMSG9DdUJ2ZlZsSjV5TmUyY3hTYmFpd3Q2WnN1MDZtVWlZX1BTS3Y5djQwM0YxTzQ4ak4yNUpxR1NyN1lPMTNNUkNQV0JLdEhkc0FvcU4tNGhlcjU1bnZvTi1nYmlWYVkzQjR6WnVhWndpQWR5QmdrVjc3eXJmZjNJdU0xUkk2cHhZdl9pWVhqTUduRVVKLUlqV3dZSHJFUzlYZ2NpS2ZN0gHMAUFVX3lxTFAzUFB4SHVDTUxhM0RyM1V4VVlNMWpMM200QlltQXlLZ1hRZmZ5QjlSb3pGdi1KN1llNU90MHpEUVk1bmdjWGZYV1lMcXFRX3BVbVk1ZndZNmRZekVWU2swaHVHWndlekxQTUxOSDA4WUxDenVwdmpQYURxWlhOOUNTa0NEdVg5NUtXTUN0a2Z4cUt5Vml6MTdPUmllWm5wendZbGpYcFU2aVBzLWdzVTMwSHNzR0RtckctMXpvNHZlb0d4bUk1SmVWVVJPdA?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T02:18:28+00:00",
-    "raw_text": "Salesforce to acquire customer engagement platform Braze for $5.66 billion Exchange4Media",
+    "published": "2026-10-21T12:11:02+00:00",
+    "raw_text": "Maruti Suzuki partners with Adobe to upgrade digital customer experience Storyboard18",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "customer engagement",
-        "salesforce"
+        "customer experience",
+        "digital customer experience"
       ]
     },
-    "summary": "Salesforce to acquire customer engagement platform Braze for $5.66 billion Exchange4Media"
+    "summary": "Maruti Suzuki partners with Adobe to upgrade digital customer experience Storyboard18"
+  },
+  {
+    "title": "Customer Experience Is the Leading Measure of Managed Repair Success, Contractor Connection Research Finds - Business Wire",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTW5nMVE0aFdScDVJdjJyYTBNbGtIaVNaZnZvaHRkQTJjN0V4T3AxWEVNTDR6UzVBUEFRRG15X1VJYTQ0UURBSng0cWt5QXBKQVo2d25GcEZrQjBEdlp4S3RHNHFaN0ZOdmhsaVlEdEZIZUliLXVOcWhyRTh6VjlHakZ1NUJjbl9wRnZTYkp6Z01NQTFQY2ROejZET1p6eGl4WVgxTFNDSjNIRWdwR0RVa0ppYWU0Q0ttajl5WmFvbzBSSzNiMWtpQktvRDZaTWE5ckhTeEtDaEZ3TzVnMElmSFA2VUhwc0QxLUVQdUZ2Yk5pMC1D?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-21T15:08:00+00:00",
+    "raw_text": "Customer Experience Is the Leading Measure of Managed Repair Success, Contractor Connection Research Finds Business Wire",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Customer Experience Is the Leading Measure of Managed Repair Success, Contractor Connection Research Finds Business Wire"
   },
   {
     "title": "NiCE Named a Leader in the 2026 Gartner® Magic Quadrant™ for Contact Center as a Service. Delivering AI-Powered Customer Service at Enterprise Scale - Business Wire",
@@ -6184,23 +6194,6 @@
     "summary": "Robert Downey Jr. Joins SPECS as Chief Customer Experience Officer Snap Newsroom"
   },
   {
-    "title": "Eliminating the 'Toggle Tax': How CRM integration transforms your customer experience - Bizcommunity",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ3lWVjEzRXo0OVRzQUhwTHdMV3NIanhjcjlaLXhLWDRuc2M5SkhQdlVXSFNESmxKV0RORndSSUlxOHZlT2xYNV9JcFVFRWNEaU1hRlozOHdTUDFJWHlxU1JXNzVHVVI3b1JESmtBck5JREl3UVRwRE8xNnpkQS1xWUhRTTJ2VjNNR01EOG11dDFkemxvN2thRlBGbENaeGpmSjB4M185VmNkcUtFa2MwUnE5ZVZMeFhTS1hlSTl3QmlJOFhlQ2c?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-21T10:20:16+00:00",
-    "raw_text": "Eliminating the 'Toggle Tax': How CRM integration transforms your customer experience Bizcommunity",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience",
-        "crm"
-      ]
-    },
-    "summary": "Eliminating the 'Toggle Tax': How CRM integration transforms your customer experience Bizcommunity"
-  },
-  {
     "title": "Trinity Acquires Verix, Adding AI-Powered Next-Best-Action and Omnichannel Orchestration to the TrinityEDGE Platform - PR Newswire",
     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPRmc1dFZxbVpCYjIzSDFwUmp2RzVvb3BEcDV1YUREOVMxQWtQeUgtYlVWNXRMczRWekkwMHJmOE9qTENFVk8zY055TGFucHM3bDZjRldlcm1UU25rTWNpaVJBYlo3T3ZSTVRtRnhCdjRzeU1xNkgzQl9jTFJEMjlwZ0lucENJemV4Q2k5TkFkV2J1eUh2WjNmS0Rwb3BGMW82ZkNDVXI2MjhBNFZGTXh2ekp0d1Mxell2NGd0Ym4wbVp3aEgtZTVLaDNzSjViMVhfRENCNWJjVTgxXzVoc3BYSy0zb2ZiTFdTeVBjbHBjdkY3MzR2TWxPdFlaTmdYOURf?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -6219,5 +6212,22 @@
       ]
     },
     "summary": "Trinity Acquires Verix, Adding AI-Powered Next-Best-Action and Omnichannel Orchestration to the TrinityEDGE Platform PR Newswire"
+  },
+  {
+    "title": "Eliminating the 'Toggle Tax': How CRM integration transforms your customer experience - Bizcommunity",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ3lWVjEzRXo0OVRzQUhwTHdMV3NIanhjcjlaLXhLWDRuc2M5SkhQdlVXSFNESmxKV0RORndSSUlxOHZlT2xYNV9JcFVFRWNEaU1hRlozOHdTUDFJWHlxU1JXNzVHVVI3b1JESmtBck5JREl3UVRwRE8xNnpkQS1xWUhRTTJ2VjNNR01EOG11dDFkemxvN2thRlBGbENaeGpmSjB4M185VmNkcUtFa2MwUnE5ZVZMeFhTS1hlSTl3QmlJOFhlQ2c?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-10-21T10:20:16+00:00",
+    "raw_text": "Eliminating the 'Toggle Tax': How CRM integration transforms your customer experience Bizcommunity",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience",
+        "crm"
+      ]
+    },
+    "summary": "Eliminating the 'Toggle Tax': How CRM integration transforms your customer experience Bizcommunity"
   }
 ]
