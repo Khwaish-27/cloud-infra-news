@@ -1,5 +1,26 @@
 [
   {
+    "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+    "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+    "source": "The Hacker News",
+    "published": "2026-10-25T06:54:29+00:00",
+    "raw_text": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan",
+        "internet infrastructure"
+      ],
+      "Cybersecurity": [
+        "security"
+      ]
+    },
+    "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no"
+  },
+  {
     "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
     "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
     "source": "The Hacker News",
@@ -245,44 +266,6 @@
     "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first."
   },
   {
-    "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-    "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-    "source": "The Hacker News",
-    "published": "2026-10-23T08:40:43+00:00",
-    "raw_text": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "cve",
-        "exploit",
-        "security"
-      ]
-    },
-    "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw"
-  },
-  {
-    "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-    "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-    "source": "The Hacker News",
-    "published": "2026-10-23T08:35:45+00:00",
-    "raw_text": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
-    "categories": [
-      "Networks",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set"
-  },
-  {
     "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
     "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
     "source": "BleepingComputer",
@@ -427,6 +410,27 @@
     "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues. [...]"
   },
   {
+    "title": "Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw",
+    "url": "https://www.helpnetsecurity.com/2026/10/25/week-in-review-php-vulnerabilities-patched-exploited-palo-alto-globalprotect-vpn-flaw/",
+    "source": "Help Net Security",
+    "published": "2026-10-25T09:00:56+00:00",
+    "raw_text": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC. The release fixes two vulnerabilities, each rated 9.2 (Critical) under CVSS v4.0. The project will publish those details, along with the patched version numbers, when the release goes out. … More → The post Week in review: PHP vulnerabilities patched, exploited Palo Alto GlobalProtect VPN flaw appeared first on Help Net Security .",
+    "categories": [
+      "Cybersecurity",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "vpn"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A critical PHP security release is coming today, so get ready to update! The PHP security team has announced an urgent security release for Wednesday, 21 October 2026 at 14:00 UTC. The release fixes two vulnerabilities, each rated 9.2 (Critical) under CVSS v4.0. The project will publish those details, along with the patched version numbers, when the release goes out."
+  },
+  {
     "title": "UK proposes 14-year jail terms for subsea cable saboteurs",
     "url": "https://www.helpnetsecurity.com/2026/10/23/uk-undersea-cable-sabotage-sentences/",
     "source": "Help Net Security",
@@ -473,54 +477,6 @@
       ]
     },
     "summary": "An attacker who spent ten weeks replaying stolen Microsoft 365 sign-in sessions broke into email accounts at 79 organizations and used hidden inbox rules to keep victims from seeing parts of their own mail, according to Huntress. The researchers tracked the campaign between July 14 and September 22, 2026, counting 497 successful sign-ins and more than 200,000 failed login attempts. The stolen sessions were replayed from servers at 1337 Services GmbH, a hosting provider incorporated … More → The post Microsoft 365 accounts compromised at 79 organizations, no passwords needed appeared first on Help Net Security ."
-  },
-  {
-    "title": "Capcom data breach exposes 11.7 million account records",
-    "url": "https://www.helpnetsecurity.com/2026/10/23/capcom-id-data-breach-11-million-records-exposed/",
-    "source": "Help Net Security",
-    "published": "2026-10-23T09:07:31+00:00",
-    "raw_text": "Players who signed up for Capcom’s online account service may want to look twice at emails that seem to come from the company. The company has disclosed that a third party gained unauthorized access to customer information linked to CAPCOM ID, the account people use to sign in to the company’s web services and to play some of its games online. It detected suspicious activity on October 19 and confirmed the intrusion the same day. … More → The post Capcom data breach exposes 11.7 million account records appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "security"
-      ]
-    },
-    "summary": "Players who signed up for Capcom’s online account service may want to look twice at emails that seem to come from the company. The company has disclosed that a third party gained unauthorized access to customer information linked to CAPCOM ID, the account people use to sign in to the company’s web services and to play some of its games online. It detected suspicious activity on October 19 and confirmed the intrusion the same day. … More → The post Capcom data breach exposes 11.7 million account records appeared first on Help Net Security ."
-  },
-  {
-    "title": "Hackers hijack exposed AI models to launch cyberattacks at victims’ expense",
-    "url": "https://www.helpnetsecurity.com/2026/10/23/llmjacking-agent-hijacks-exposed-ai-models/",
-    "source": "Help Net Security",
-    "published": "2026-10-23T08:21:48+00:00",
-    "raw_text": "An attack tool built around AI goes looking for AI models that anyone on the internet can reach, then uses them to plan break-ins while the model’s owner pays for the computing power. Symantec captured the agent’s instruction set this summer through a honeypot posing as an unprotected AI service, researchers Priti More and Susmit Yenkar wrote. Its operators sent their entire working prompt to the decoy, expecting a live model on the other end … More → The post Hackers hijack exposed AI models to launch cyberattacks at victims’ expense appeared first on Help Net Security .",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "hacker",
-        "cyberattack",
-        "security",
-        "cyber"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "An attack tool built around AI goes looking for AI models that anyone on the internet can reach, then uses them to plan break-ins while the model’s owner pays for the computing power. Symantec captured the agent’s instruction set this summer through a honeypot posing as an unprotected AI service, researchers Priti More and Susmit Yenkar wrote. Its operators sent their entire working prompt to the decoy, expecting a live model on the other end … More → The post Hackers hijack exposed AI models to launch cyberattacks at victims’ expense appeared first on Help Net Security ."
   },
   {
     "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
@@ -709,87 +665,6 @@
       ]
     },
     "summary": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek ."
-  },
-  {
-    "title": "11 Million Impacted by Capcom Data Breach",
-    "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
-    "source": "SecurityWeek",
-    "published": "2026-10-23T08:34:14+00:00",
-    "raw_text": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts. The post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "hacker",
-        "security"
-      ]
-    },
-    "summary": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts. The post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
-    "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-    "source": "SecurityWeek",
-    "published": "2026-10-23T08:25:06+00:00",
-    "raw_text": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’ appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "security"
-      ],
-      "GRC": [
-        "regulatory"
-      ]
-    },
-    "summary": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’ appeared first on SecurityWeek ."
-  },
-  {
-    "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
-    "url": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
-    "source": "SecurityWeek",
-    "published": "2026-10-23T08:10:46+00:00",
-    "raw_text": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker",
-        "security"
-      ]
-    },
-    "summary": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek ."
-  },
-  {
-    "title": "Atlassian Patches 75 Flaws in Data Center and Server Products",
-    "url": "https://www.securityweek.com/atlassian-patches-75-third-party-flaws-in-data-center-and-server-products/",
-    "source": "SecurityWeek",
-    "published": "2026-10-23T07:54:47+00:00",
-    "raw_text": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components. The post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first on SecurityWeek .",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "security"
-      ],
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Atlassian’s October bulletin lists 176 vulnerability entries, including 14 critical-severity issues, all in third-party components. The post Atlassian Patches 75 Flaws in Data Center and Server Products appeared first on SecurityWeek ."
   },
   {
     "title": "Gaming Giant Capcom Confirms Data Breach Exposed Users’ Personal Information",
@@ -1025,95 +900,6 @@
       ]
     },
     "summary": "Indian digital trust company eMudhra has announced that it is exiting the global SSL/TLS certificate business and is offering customers certificates issued by Sectigo as an alternative, following the compromise of private keys behind eight of its intermediate certificate authorities. The company’s board decided “to voluntarily withdraw from the global SSL/TLS certificate business,” eMudhra said in a press note . It added that data sovereignty and compliance requirements had increased the business’s complexity and cost. “The level of social media amplification around this incident has brought scrutiny that is out of proportion to SSL/TLS’s place in our business,” eMudhra Chairman V Srinivasan said in the announcement."
-  },
-  {
-    "title": "The ‘Mythos moment’ has already passed. Now comes the hard part for cybersecurity",
-    "url": "https://www.csoonline.com/article/4239166/the-mythos-moment-has-already-passed-now-comes-the-hard-part-for-cybersecurity.html",
-    "source": "CSO Online",
-    "published": "2026-10-23T09:00:00+00:00",
-    "raw_text": "When Anthropic introduced Claude Mythos Preview, the cybersecurity debate quickly turned to what AI could do: uncover decades-old vulnerabilities, develop working exploits and accelerate tasks that once required specialist expertise . Anthropic noted that Mythos discovered software flaws no human had caught, and early tests showed it could carry out multi-stage network attacks in minutes, tasks that once took skilled pen testers days. Security leaders and cyber defenders let out an initial sigh of relief when it was announced that Mythos would be available to a select few, with an extension to 150 other organizations. The Mythos moment and hype have now passed, and the harder task is turning its warning into practical defensive readiness. In other words, the “ Mythos moment” and the initial “shock” is over. Now comes the hard part: can organizations identify their exposures, prioritize real risks and patch or mitigate them fast enough to stay ahead of AI-powered attacks? Can they be as fast as AI in even discovering them to begin with? AI-accelerated attacks are already here to stay There is no hiding from it now; AI-enabled and accelerated attacks are here already, and they are already rewriting cyber-attack playbooks worldwide. In 2026, Stanford’s AI Index reports that AI agents now solve cybersecurity problems 93% of the time, up from just 15% in 2024. Independent tests confirm this trend: the UK’s AI Security Institute (AISI) found Claude Mythos Preview could autonomously execute a 32-step simulated corporate network attack (a scenario that humans would take ~20 hours to complete) and retrieve flags hidden on target machines. In short, frontier AI models can chain together reconnaissance, exploitation and privilege escalation without human help. In these trials, Mythos reliably discovered and exploited vulnerabilities autonomously, tasks that would take human professionals days of work. Allied research backs this up. A Cloud Security Alliance report notes that attackers now operate at machine speed, whereas defenders still often operate on “organizational speed.” In practice, this means patch cycles of weeks or months no longer keep pace with exploit windows measured in hours. Widely deployed software (operating systems, browsers, network devices, etc.) – precisely the high-impact targets many enterprises depend on are now rapidly weaponized. Email is also not spared as attackers have now stepped up how they leverage AI-enabled prompt injection phishing attacks to deceive employees into wiring money to fake accounts, Vulnerabilities and exploits are exploding in growth Data shows this isn’t a theoretical worry: the volume of known flaws and their exploitation is surging. Google’s Threat Intelligence group found that reported vulnerabilities doubled from January to July 2026 (rising from ~5,000 to over 10,000 per month ). At the same time, the number of those vulnerabilities actually exploited in the wild nearly doubled, from an average of ~10.5 per month in 2025 to ~18 per month in early 2026. Even zero-day (previously unknown) exploits ticked up slightly. Google and others warn that this trend will continue. If rapid AI-assisted discovery and exploitation keep accelerating, defenders cannot afford “unprioritized mass-patching” as in the past. Instead, they must move to a threat-intelligence-driven triage model: focus on the vulnerabilities actually being targeted, and automate as much response as possible. This means continuous scanning, asset inventory and risk-based prioritization — often called exposure management using tools like Wiz, Tenable and Microsoft Defender for Cloud. For example, Security Boulevard explains that an exposure management program uses AI to constantly map assets, vulnerabilities and misconfigurations , then automatically prioritize and remediate the riskiest ones. This approach is essentially a “Mythos-ready” security program — one designed to handle the avalanche of findings that AI will generate, and to fix them at machine speed. AI, essentially battling AI Using AI defensively Importantly, defenders can use AI as well as attackers, so it benefits both sides of the coin. Anthropic’s own Project Glasswing is a case in point, as seen earlier. In early April 2026, only ~50 organizations were testing Mythos Preview, but within weeks they had already run it across their codebases and uncovered over 10,000 high- or critical-severity flaw s. Anthropic is now expanding Glasswing to ~150 additional organizations deemed critical (power, healthcare, communications, etc.) whose code impacts millions of users. The aim is to train industry on new AI-powered workflows: Partners share best practices, triage vulnerabilities together and even use AI to suggest fixes and pre-emptively harden code. Glasswing’s lessons show that AI can speed up defensive tasks too. For example, Mythos-level models can be repurposed to write patches or convert legacy code into memory-safe languages, and to run “AI red teams” against one’s own systems. Anthropic reports that partners are now using Mythos to automatically generate fixes, and their new public tool (Claude Security) helps scan code and suggest patches using a slightly safer variant of Mythos. In practice, organizations should consider adding AI to their security toolchain and leverage automated penetration testing, intelligent asset discovery and tagging, and AI-assisted patch generation to help keep pace with attackers. Reinforce the fundamentals Even as we deploy sophisticated tools, the basics still matter more than ever. AISI emphasizes that Mythos’s impact actually highlights the importance of cybersecurity basics — regular patching, strong access controls, secure configurations and comprehensive logging, just as is seen in the UK’s Cyber Essentials. In other words, if attackers can automate exploits, defenders must double down on hygiene and detection. With exploit windows collapsing to hours, organizations may need to accelerate patch cycles. This might mean more frequent updates, rolling hotfixes, or virtual patching via network controls when immediate fixes aren’t available. Least privilege and segmentation also must be in place to reduce each user or system’s access to only what it needs. An attacker (or malicious AI agent) with stolen credentials should find it hard to move laterally or escalate privileges. Network segmentation and micro-segmentation can slow or isolate attacks even if they penetrate the perimeter. Incident response rehearsals should also update playbooks to account for fast, AI-enabled attacks. For example, test scenarios where key accounts or credentials are compromised and ensure “break-glass” administrative accounts or recovery keys are secured (offline if possible) so you can take back control even if your primary identity provider or domain is down. In short, building resilience means blending new AI-driven practices with solid engineering. As Anthropic warns, Mythos-class capabilities are coming to many organizations soon and with fewer safeguards than the preview had. There is also no saying if China will get their hands on something similar and make it open source, which means attackers will also gain access to it. Security teams must adapt now by working at machine speed: automate exposure discovery and patching, enforce strict access controls, and enhance detection and response. Only by assuming that some attacks will succeed can organizations design defenses that contain the damage. The Mythos moment, when powerful AI grabbed headlines, has indeed passed and what matters now is translating its warning into practical readiness. The AI genie is out of the bottle, and cyber attackers will leverage these tools at the same time as we also tell it our security wishes.",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure",
-      "Networks",
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws"
-      ],
-      "Networks": [
-        "network",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "phishing",
-        "zero-day",
-        "exploit",
-        "threat",
-        "security",
-        "cyber",
-        "threat intelligence",
-        "incident response",
-        "penetration testing",
-        "red team",
-        "cloud security"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "When Anthropic introduced Claude Mythos Preview, the cybersecurity debate quickly turned to what AI could do: uncover decades-old vulnerabilities, develop working exploits and accelerate tasks that once required specialist expertise . Anthropic noted that Mythos discovered software flaws no human had caught, and early tests showed it could carry out multi-stage network attacks in minutes, tasks that once took skilled pen testers days. Security leaders and cyber defenders let out an initial sigh of relief when it was announced that Mythos would be available to a select few, with an extension to 150 other organizations. The Mythos moment and hype have now passed, and the harder task is turning its warning into practical defensive readiness."
-  },
-  {
-    "title": "The AI notetaker risk is now an everywhere problem",
-    "url": "https://www.csoonline.com/article/4239372/the-ai-notetaker-risk-is-now-an-everywhere-problem.html",
-    "source": "CSO Online",
-    "published": "2026-10-23T08:25:00+00:00",
-    "raw_text": "The businesspeople adopting AI notetakers are not being reckless. They are responding to a real business need. Our teams are in meetings all day with companies we support, and the idea that we could read a clean summary of every one of them at the end of the day makes us better partners to our customers. At the AI-first startups we spend time with, a new account manager can walk in on day one, inherit the full recorded history of every customer conversation, and ask the AI what that customer actually cares about. That is not surveillance culture for its own sake. It’s a better way to serve people. Still, AI notetakers present cyber risks , as we have been warning about for the past year: shadow adoption measured in hundreds of accounts in a matter of weeks, vendors without SOC 2 or real encryption, consent liability, litigation exposure. In April, one of us stood on stage at the [un]prompted conference and argued that the most important attendee in your meetings is no longer a person. AI notetakers decide what matters, assigning the action items and providing the summary that becomes the meeting’s official record. But our early warnings about AI notetakers shared an assumption we no longer hold: that the notetaker joins the meeting. That assumption quietly died this summer, as the notetaker has left the meeting platform and moved onto the body — and policies haven’t noticed let alone caught up to this change yet. From the meeting to the wrist On July 28, Granola, the AI notetaker we see most often in our worlds, launched an Apple Watch app . One tap on the wrist and it records whatever happens around you. No bot joining the call, no banner announcing itself, no laptop open on the table. The same week, DEF CON banned Meta-style smart glasses from the conference floor over recording concerns. Meta, meanwhile, had already acquired Limitless , the AI pendant company, folding always-on personal recording into the largest consumer hardware pipeline in the world. One public company we’ve worked with now screens attendees for smart glasses before all-hands meetings where unreleased plans are discussed. We’ve tested this ourselves, putting the watch under a jacket sleeve, tapping once, and recording an entire evening walk. Clean transcript. Nobody could have known. In the United States, recording someone without their permission depends on which state you are standing in. California says you can’t, but many states say you can. More importantly we still have no norms of disclosure, and the hardware is now designed to be invisible. The record is not neutral Since the April talk , we have met a steady stream of people telling us how they game these systems. One person described doing prompt injection against a notetaker in a live meeting, right as we walked offstage. Another explained the simplest trick we have heard: join early, and for the five minutes you are alone with the notetakers, calmly narrate the outcomes you want captured as the most important takeaways. A third said he figured out how to silently crash other companies’ notetakers, so the meeting ends and there is no record. There is academic research behind all this. Call it manipulation or call it strategic communication. The methods work. Notetaking systems also fail on their own. We have watched a transcript mishear one word, then reinterpret the rest of the conversation to fit the error. Colleagues with accents the models handle poorly carry more of that risk than the rest of us. And these tools are no longer stenographers. They have memories. Granola pulls context from prior meetings and background on the people in the meeting into today’s meeting notes. That is useful, but it also means a summary shared outside your company could leak reasoning from meetings the other party was never in. Then there is the case that should be on every policy writer’s mind. Last November, a Campbell’s security executive was terminated for what they said during a meeting secretly recorded by an employee during what he thought was a private lunch conversation. The recording surfaced months later through an employment lawyer, and the executive was gone within days. Whatever you think of what was said, notice the mechanism: no notetaker bot, no meeting platform. One person, one device, one conversation the speaker believed was off the record. There is no such thing anymore. What a serious policy looks like Boards and legal teams are now asking their CISOs for notetaker policies. Having helped several organizations think through this, here is where we land. Transparency always. If a recording tool is running, everyone present knows. The lightest version we recommend: Change your display name to “Name + AI notetaker.” And the rule must bind employees, too. An employee who records a colleague without disclosure is committing a fireable offense, full stop, before we ever discuss what the recording contains. Classify your meetings. At one firm, we wrote a formal policy naming which meetings may never be recorded. Yours might include M&A, legal, HR, and board executive sessions. Decide deliberately, in writing, before the tools decide for you. Govern other people’s notetakers. When an auditor walks into your building, their laptop has to meet your standards. Apply the same principle to recording. If another organization records your employees, you should know, and you should get a copy. Choose your retention posture. A full transcript is a different corporate record than a summary. Decide whether transcripts are destroyed by default, with legal holds as the exception, or kept forever. Do not let the vendor’s default decide. Treat notetaker vendors like what they are: startups holding your most sensitive conversations in their cloud. Vendor security review, data-reuse terms, indemnification language. Brewer v. Otter.ai , a class action alleging Otter’s notetaker recorded meetings without everyone’s consent and used the recordings to train models, and the sudden shutdown of Novacy both happened for a reason. Assign a human. Every transcript that becomes a record needs a named owner responsible for reviewing its accuracy, no matter whose tool recorded the call. Remember that some may train employees to steer the transcript, the way a lawyer protects the record in a deposition. We understand the instinct, and reviewing the record for accuracy is exactly right. An organization that quietly optimizes its official records has bigger problems coming. We used to debate whether to let the notetaker into the meeting. That debate is over, because the meeting is now everywhere the recorder goes. Write your policies for the world where the microphone is already in the room, because it is.",
-    "categories": [
-      "Cybersecurity",
-      "GRC",
-      "Industry & Market",
-      "Networks",
-      "Cloud Infrastructure",
-      "End User Computing"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "encryption",
-        "security",
-        "cyber",
-        "soc"
-      ],
-      "GRC": [
-        "audit",
-        "soc 2",
-        "policy",
-        "cyber risk"
-      ],
-      "Industry & Market": [
-        "acquired",
-        "ey",
-        "vendor"
-      ],
-      "End User Computing": [
-        "laptop"
-      ]
-    },
-    "summary": "The businesspeople adopting AI notetakers are not being reckless. They are responding to a real business need. Our teams are in meetings all day with companies we support, and the idea that we could read a clean summary of every one of them at the end of the day makes us better partners to our customers. At the AI-first startups we spend time with, a new account manager can walk in on day one, inherit the full recorded history of every customer conversation, and ask the AI what that customer actually cares about."
   },
   {
     "title": "Georgia's Silk Cloud deploys Nvidia Blackwell Ultra GPUs",
@@ -1476,6 +1262,22 @@
     "summary": "The project expands the collaboration between Telefónica and IQM, which have already supplied two quantum computers to the Galicia Supercomputing Center (CESGA)"
   },
   {
+    "title": "Reg readers land on 'Binface' as name for UK space cleanup mission",
+    "url": "https://www.theregister.com/offbeat/2026/10/25/reg-readers-land-on-binface-as-name-for-uk-space-cleanup-mission/5305144",
+    "source": "The Register",
+    "published": "2026-10-25T09:00:00+00:00",
+    "raw_text": "Intergalactic Space Warrior, or a bin in orbit?",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Intergalactic Space Warrior, or a bin in orbit?"
+  },
+  {
     "title": "Autonomous attack agent in 'Skynet mode' hijacks other models to carry out its evil deeds",
     "url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
     "source": "The Register",
@@ -1669,22 +1471,6 @@
     "summary": "Whitehall wants tougher penalties and new powers over telecoms operators as Russian activity raises alarm"
   },
   {
-    "title": "Beware the claw: Do you want to win the bunny or reboot Android?",
-    "url": "https://www.theregister.com/offbeat/2026/10/23/beware-the-claw-do-you-want-to-win-the-bunny-or-reboot-android/5304172",
-    "source": "The Register",
-    "published": "2026-10-23T08:30:00+00:00",
-    "raw_text": "Classic arcade game put to shame by judgemental Bugdroid",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "Classic arcade game put to shame by judgemental Bugdroid"
-  },
-  {
     "title": "Microsoft Frontier Tour London: Agentic AI governance in the spotlight",
     "url": "https://www.computerweekly.com/news/366652713/Microsoft-Frontier-Tour-London-Agentic-AI-governance-in-the-spotlight",
     "source": "ComputerWeekly",
@@ -1720,42 +1506,6 @@
     "summary": "<p>During the opening keynote at the company’s Frontier Tour event in London, Microsoft CEO Satya Nadella discussed how the company would be addressing the growing concern of tokenomics.</p> <p>Analyst Gartner has predicted that by 2030, a failure to adopt adaptive <a href=\"https://www.techtarget.com/it-strategy/news/366650536/Gartner-warns-traditional-IT-controls-wont-keep-up-with-AI\">artificial intelligence (AI) governance runtime controls</a> will triple the cost of AI deployments, eroding value. It warned that standard cloud billing alerts are a lagging indicator of overspending.</p> <p>In its <em>Cost governance is a non-negotiable addition to AI governance</em> report, Gartner said: “Relying on these escalations hours or days after overspending has been identified delays mitigation and fails to prevent immediate curtailing of runaway inference costs at runtime.”</p> <p>Discussing how Microsoft would be tackling potential runaway costs associated with overuse of AI inference, Nadella spoke about a <a href=\"https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/\">Microsoft project</a>&nbsp;that provides AI model orchestration, enabling organisations to select a model, either run locally or in the public cloud.</p> <p>“We now have HydraFusion, which is a learned model where you are now able to take advantage of powerful local models or an RTX Spark,” he said. “You now have very capable coding models. You can start using HyperFusion whenever a task or one of the sub-agents of a task can be done and can be satisfied by using just a local model.”</p> <p>According to Nadella, this means IT departments can essentially provide “an infinite token factory”.</p> <p>The company made Project HydraFusion available on GitHub in September as a research preview."
   },
   {
-    "title": "Can Britain’s grid keep up with the datacentre boom?",
-    "url": "https://www.computerweekly.com/feature/Can-Britains-grid-keep-up-with-the-datacentre-boom",
-    "source": "ComputerWeekly",
-    "published": "2026-10-23T09:00:00+00:00",
-    "raw_text": "<p>Ramping <a href=\"https://www.computerweekly.com/resources/Data-centre-capacity-planning\">datacentre demand</a> is putting a new kind of pressure on the UK’s energy grid. Developers are jostling for position in an increasingly saturated connection queue as new facility plans arrive faster than the network that must accommodate them can grow.</p> <p>Supporting this wave of infrastructure requires major investment in cabling, substations and transmission capacity. In August, for example, the National Grid announced its North West London Upgrade, a £1bn project that will connect five new datacentres across Bedfordshire, Hertfordshire and London, with 1GW of electricity demand.</p> <p>That project illustrates a wider shift across the country. As digital demand grows, the financial pressure to connect new infrastructure is felt by developers – and potentially by consumers too – while the need for new substations, cables and transmission capacity looks likely to reshape Britain’s digital geography as it pushes datacentre development to locations where power is available.</p> <p>In this article, we look at <a href=\"https://www.computerweekly.com/news/366643673/Datacentre-dive-AI-factory-power-draw-changes-the-grid-calculus\">whether Britain’s grid can keep up</a> with the datacentre boom. We examine the sheer scale of the transmission and substation build now required, the speculative connection queue that is pushing developers north, and the increasingly urgent question of who pays for it all – the developers racing to connect, or the households whose bills ultimately fund the network.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Anatomy of a £1bn grid upgrade\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Anatomy of a £1bn grid upgrade</h2> <p>The North West London Upgrade shows just how much physical infrastructure is needed to accommodate new datacentre facilities.</p> <p>The project will see the installation of around 60km of new high-voltage cable, 35km of re-cabling between Sundon and Elstree, and upgrades to more than 200km of overhead lines. At Elstree, the agency is also extending an existing 400kV substation, and building a new 132kV substation at Letchmore Heath to connect the new datacentres.</p> <p>The upgrade is only one part of a much bigger programme of investment in Britain’s electricity network. Ofgem’s RIIO-3 price control, for example, includes up to £10.7bn for electricity transmission between 2026 and 2031, with flexible mechanisms potentially taking investment to as much as £90bn as projects mature.</p> <p>Elisabeth Cremona, energy infrastructure lead at energy think tank Ember, tells Computer Weekly that the scale of investment is a response to the unprecedented speed at which these new facilities come online.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> [Datacentre] developers are behaving differently to any previous class of large energy user. Rather than wait patiently in established queues, they’re moving to find loopholes, to find a place where they can connect immediately </figure> <figcaption> <strong>Elisabeth Cremona, Ember</strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>“Datacentres represent a huge load,” she says. “You’re essentially looking at putting 500,000 houses on the grid in a single location really, really fast, and that’s just never happened before. Households don’t come online that fast, factories don’t come online that fast.”</p> <p>Typically, says Cremona, building out or upgrading a grid takes between five and 15 years, while a datacentre can be ready to come online in 18 months. Bringing datacentres online quickly is also fast becoming a competitive advantage for businesses.</p> <p>“Developers are behaving differently to any previous class of large energy user,” she says. “Rather than wait patiently in established queues, they’re moving to find loopholes, to find a place where they can connect immediately.”</p> <p>For years, the UK’s datacentre industry has been heavily concentrated around London and the M4 corridor, driven by proximity to customers, existing fibre networks, established datacentre ecosystems and access to major business markets.</p> <p>Now, with increased onus on speedy connection times and a backlog of connection requests, projects are shifting north.</p> <p>Analysis of data <a href=\"https://www.computerweekly.com/news/366650192/UK-committed-datacentre-pipeline-grows-to-more-than-14GW\">from construction project information provider Barbour ABI</a> finds that of the UK’s top 10 datacentre projects, only one – at East Havering in Essex – is in the London area. The remainder, totalling just under 4GW, are spread north from Oxfordshire to Lincolnshire, North Wales, the north-east and Scotland.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"A changing grid landscape\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>A changing grid landscape</h2> <p>According to Ofgem, connection offers rose from 41GW to 125GW between November 2024 and June 2025, with datacentres accounting for at least 80GW of that demand. Connection wait times have stretched as a result, some by as much as 15 years.</p> <p>Part of the backlog is self-inflicted. Developers, aware of how slow the process is, submit multiple speculative applications for the same site to see which clears first, and that creates “zombie applications”.</p> <p><a href=\"https://www.computerweekly.com/news/366646572/OFGEM-targets-datacentre-builds-with-megawatt-connection-charge\">Ofgem has proposed reforms</a> intended to remove speculative and non-viable projects from the queue. Large datacentre developers would have to pay an upfront commitment fee when accepting a connection offer, which would range from £237,500 to £712,500 per megawatt. The fee would be refunded when a project reaches energisation but forfeited if it leaves the queue early.</p> <p>Developers would also have to demonstrate that projects are commercially and technically ready to progress.</p> <p>Matt Salter, global head of datacentres at Onnec, says the proposals reflect how tight the market has become.</p> <p>“Ofgem’s ‘Pay to Stay’ proposals are a sign of just how tight the UK’s datacentre power market has become,” he tells Computer Weekly. “Asking developers to prove projects are real and ready to move makes sense, but it adds another pressure point for operators already being pushed to build faster.”</p> <p>Research by Onnec shows that 92% of operators are compressing build timelines to keep pace with artificial intelligence (AI) demand, while 75% say speed-to-market pressure is forcing design decisions before infrastructure requirements are fully understood.</p> <p>Salter says this creates the risk of adding to grid capacity without properly coordinating it with the rest of a facility’s infrastructure.</p> <p>“The £1bn National Grid upgrade shows just how much investment is now needed, but more grid capacity on its own will not fix this,” he says. “Power, cooling, cabling and compute need to be planned together from day one, or we risk spending billions connecting new datacentres only to spend more fixing them after go-live.”</p> <p>The issue is not unique to Britain. In March, <a href=\"https://www.computerweekly.com/news/366645787/Denmark-debates-emergency-energy-plan-to-curb-datacentres\">Denmark’s grid operator suspended new connection requests</a> after receiving roughly 60GW of applications in a country whose peak demand is around 7GW.</p> <p>An increasingly common response to lengthening connection times is for developers to simply move where there is capacity.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Follow the power: One operator’s move north\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Follow the power: One operator’s move north</h2> <p>For Spencer Lamb, CEO of datacentre operator Kao Data, the shift described above is already shaping investment decisions.</p> <p>“Grid availability is one of the most important factors in determining when and where new datacentres are built,” he tells Computer Weekly. “If you cannot secure power within a commercially viable timeframe, it becomes extremely difficult to justify investing in a location, regardless of its other advantages.”</p> <p>As a result, he says, operators are increasingly choosing sites where capacity already exists rather than waiting years for network upgrades. It is one reason Kao Data is investing £450m in a new facility in Greater Manchester. Lamb says the city region offered tech and AI research heritage, government support, a brownfield site that could be redeveloped for the benefit of the community, and a realistic timeline for power delivery.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> We need to deliver new network upgrades before the UK’s AI and economic opportunity is lost </figure> <figcaption> <strong>Spencer Lamb, Kao Data</strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>He cautioned against reading the National Grid’s North West London Upgrade purely as a response to AI. Some substations, he says, have been in planning for many years, driven by demand for cloud, enterprise computing and digital services.</p> <p>“What AI has done is accelerate the conversation and intensify pressures,” he says. “The reality is that the UK’s electricity infrastructure has been under increasing strain for some time, and significant long-term investment will be required if the country wants to maintain its position as a leading destination for datacentre and AI investment.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Who pays for the new infrastructure?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Who pays for the new infrastructure?</h2> <p>While developers do bear some of the cost of these new infrastructure buildouts, the costs of expanding the grid are ultimately recovered through regulated network charges paid by households and businesses. So, the question of who pays for new infrastructure is increasingly significant for the public as power demand ramps up.</p> <p>An Ofgem spokesperson tells Computer Weekly it is alert to the risk that “consumers should not unfairly shoulder the costs of connecting” datacentres, and that its bid to clean up the connection queue aims to mitigate this risk.</p> <p>The regulator’s Demand Connections Reform programme is also designed to reduce the likelihood of consumers funding infrastructure that is ultimately not needed because projects fail to progress.</p> <p>“Our recent consultation will help shape reforms that will help to ensure viable projects, including datacentres, connect faster and network costs are shared fairly,” says the spokesperson.</p> <p>Concentration of datacentres also matters, with location materially affecting network costs, reinforcement requirements and connection timescales.</p> <p>“If you suddenly get a massive cluster of datacentres,” says Ember’s Cremona, “the system operator has to build out a huge amount of transmission lines, substations, and all these very, very expensive things to supply them with power.”</p> <p>With developers pushed to areas of less concentrated connection, she warns they run the risk of prioritising speed over everything else – including cost for businesses and consumers. Additionally, datacentres rarely draw as much power as they request, meaning bills could rise by more than the actual load justifies.</p> <p>“They operate on average at around 50%,” says Cremona. “So that means you build a huge amount of transmission infrastructure, and they only use half of it. They’re not even using it fully, and you’re billed in a way that isn’t the most cost-efficient.”</p> <p>Managing datacentre buildout is therefore a necessity in terms of not overwhelming the grid and in keeping costs down for the public. One solution is to make datacentre demand more flexible, though this remains a difficult pill to swallow for operators facing consumer demand for always-on cloud and enterprise workloads. Cremona says it’s still something worth aiming for, though the road to get there may be long.</p> <p>“If you could enforce flexibility, developers would get online faster and you would bring down network requirements,” she says. “It’s really a win-win for everyone.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Can the grid keep up with AI?\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Can the grid keep up with AI?</h2> <p>Britain’s datacentre ambitions are increasingly becoming an <a href=\"https://www.computerweekly.com/feature/Power-The-UKs-next-digital-infrastructure-bottleneck\">electricity infrastructure problem</a>. The North West London Upgrade demonstrates the physical scale of investment required to connect just five datacentre facilities, while the wider connection queue shows how quickly demand is outstripping available capacity.</p> <p>Asked whether the UK is doing enough to keep power availability in step with planned capacity, Kao Data’s Lamb is blunt: “In short, no.”</p> <p>Too often, he says, discussions focus on securing capacity in a handful of established markets, rather than taking a more strategic view of where power is available today and how future demand can be distributed across the country.</p> <p>“The remaining bottleneck is therefore not simply generation capacity itself, but the speed, transparency and coordination needed to connect demand with available power,” he says. “We need to deliver new network upgrades before the UK’s AI and economic opportunity is lost.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about datacentre pipeline</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366650192/UK-committed-datacentre-pipeline-grows-to-more-than-14GW\">UK committed datacentre pipeline grows to more than 14GW</a>: Barbour ABI data show UK’s datacentre pipeline has grown to 173 projects and more than 14GW of capacity, driven by AI demand and large sites in Scotland and the North East.</li> <li><a href=\"https://www.computerweekly.com/news/366643673/Datacentre-dive-AI-factory-power-draw-changes-the-grid-calculus\">Datacentre dive: AI factory power draw changes the grid calculus</a>: We look at energy as the key driver – and bottleneck – in development, and why water use is less of an issue now datacentres use liquid cooling over air cooling.</li> </ul> </div> </div> </section>",
-    "categories": [
-      "Networks",
-      "Data Centres",
-      "Industry & Market",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Networks": [
-        "network",
-        "5g",
-        "wan",
-        "lan"
-      ],
-      "Data Centres": [
-        "cooling",
-        "capacity",
-        "megawatt",
-        "liquid cooling"
-      ],
-      "Industry & Market": [
-        "funding",
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p>Ramping <a href=\"https://www.computerweekly.com/resources/Data-centre-capacity-planning\">datacentre demand</a> is putting a new kind of pressure on the UK’s energy grid. Developers are jostling for position in an increasingly saturated connection queue as new facility plans arrive faster than the network that must accommodate them can grow.</p> <p>Supporting this wave of infrastructure requires major investment in cabling, substations and transmission capacity. In August, for example, the National Grid announced its North West London Upgrade, a £1bn project that will connect five new datacentres across Bedfordshire, Hertfordshire and London, with 1GW of electricity demand.</p> <p>That project illustrates a wider shift across the country. As digital demand grows, the financial pressure to connect new infrastructure is felt by developers – and potentially by consumers too – while the need for new substations, cables and transmission capacity looks likely to reshape Britain’s digital geography as it pushes datacentre development to locations where power is available.</p> <p>In this article, we look at <a href=\"https://www.computerweekly.com/news/366643673/Datacentre-dive-AI-factory-power-draw-changes-the-grid-calculus\">whether Britain’s grid can keep up</a> with the datacentre boom."
-  },
-  {
     "title": "Android lets you ‘bubble’ apps for easy access now – how it works",
     "url": "https://www.zdnet.com/tech/android-17-app-bubbles-how-to/",
     "source": "ZDNet",
@@ -1782,6 +1532,26 @@
       ]
     },
     "summary": "The PHP Project provides instructions to stop further RCE exploits in limited settings."
+  },
+  {
+    "title": "TCL Zhonghuan, REI Expo 2026'da Güneş Enerjisi Yenilikleriyle Hindistan'ın Enerji Dönüşümüne Öncülük Ediyor",
+    "url": "https://www.prnewswire.com/news-releases/tcl-zhonghuan-rei-expo-2026da-gune-enerjisi-yenilikleriyle-hindistann-enerji-donuumune-onculuk-ediyor-302918740.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-10-25T08:09:00+00:00",
+    "raw_text": "BÜYÜK NOIDA, Hindistan, 25 Ekim 2026 /PRNewswire/ -- Yenilenebilir Enerji Hindistan Fuarı (REI), 22 Ekim'de Büyük Noida'daki Hindistan Fuar Merkezi'nde kapılarını açtı. Güney Asya'nın önde gelen yenilenebilir enerji sektörü etkinliklerinden biri olan bu yılki fuar, dünyanın dört bir...",
+    "categories": [
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "BÜYÜK NOIDA, Hindistan, 25 Ekim 2026 /PRNewswire/ -- Yenilenebilir Enerji Hindistan Fuarı (REI), 22 Ekim'de Büyük Noida'daki Hindistan Fuar Merkezi'nde kapılarını açtı. Güney Asya'nın önde gelen yenilenebilir enerji sektörü etkinliklerinden biri olan bu yılki fuar, dünyanın dört bir..."
   },
   {
     "title": "Johnson & Johnson reports 75% tumor response rate in advanced prostate cancer with JNJ-6143, a first-in-class RIPTAC™ molecule",
@@ -2033,26 +1803,6 @@
     "summary": "NEW YORK, Oct. 24, 2026 /PRNewswire/ -- Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Innventure, Inc. (NASDAQ: INV) between November 17, 2025 and August 13, 2026, both dates inclusive (the \"Class Period\"), of the important October 27, 2026 lead..."
   },
   {
-    "title": "DIRECTV Adds NHL's New Carolina Hurricanes, Columbus Blue Jackets, Minnesota Wild, and St. Louis Blues Regional Channels",
-    "url": "https://www.prnewswire.com/news-releases/directv-adds-nhls-new-carolina-hurricanes-columbus-blue-jackets-minnesota-wild-and-st-louis-blues-regional-channels-302918682.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-10-24T17:43:00+00:00",
-    "raw_text": "EL SEGUNDO, Calif., Oct. 24, 2026 /PRNewswire/ -- DIRECTV today announced a new multi-year distribution agreement with the National Hockey League for Hurricanes Hockey Network, Blue Jackets Hockey Network, Wild+, and Blue Note+ pregame, postgame, and in-game live sports services. Each of...",
-    "categories": [
-      "Networks",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "EL SEGUNDO, Calif., Oct. 24, 2026 /PRNewswire/ -- DIRECTV today announced a new multi-year distribution agreement with the National Hockey League for Hurricanes Hockey Network, Blue Jackets Hockey Network, Wild+, and Blue Note+ pregame, postgame, and in-game live sports services. Each of..."
-  },
-  {
     "title": "'A Great Employee Experience Is Built Through Everyday Moments': Citadel Credit Union Again Certified as a Great Place to Work - PHILADELPHIA.Today",
     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR2tnTFVoUXk2UnZmYjdwekZuX0RCY0J1RTZnenM0MWgxa0RNMzZRVFhiSlhLbXNqalJtOG9SWGRtQ1B6dGxqaGlSNjdQMDZlTzFnUUZOTTJfcncxODNVOGZPN0dFQVdPQTRhaG1sX0dKZnlITXJpOXVJeDVrWTJxcHVabEJSSVU?oc=5",
     "source": "Google News: Digital Workplace",
@@ -2107,22 +1857,6 @@
       ]
     },
     "summary": "Video | AI Agents, Digital Labour And The Future Of Work | Mike Walsh At NDTV World Summit 2026 NDTV"
-  },
-  {
-    "title": "The future of HR: From policies to employee experience why the CHRO must become the architect of culture - People Matters - HR News",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSjhLSWRGRnBIQm9VZG4tOUl2RmNnSktqSHJpbjJWZEhIeFRRSlQ5bkZJZVdfUXRlVUJEaFQ3WERsZmJHT0s2NjcxaTVTNm9XbUU5Mkw2d0NUT19DVk1LWlQ1Nmk0Z3M3SFB5dVMwYXlJSldXR1lkYWhIUmJlVVB1REUwc0NadnV6V2IxdDgxRTI1MkxxOTY0YkNSOEJQRk8yLXBXTG14aFYwOERHLU1rZkVBTU1wTWU3U2JrcW94ZDNGWXVLdVFadGpVekdnMWxwNlJwUTVjZjdiMTZZUFVFZ0Y4N3Jmb040VWZQOUZHQ0c?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-10-23T08:57:24+00:00",
-    "raw_text": "The future of HR: From policies to employee experience why the CHRO must become the architect of culture People Matters - HR News",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "employee experience"
-      ]
-    },
-    "summary": "The future of HR: From policies to employee experience why the CHRO must become the architect of culture People Matters - HR News"
   },
   {
     "title": "What Omnichannel Means for Today’s Distributors and Suppliers - National Association of Wholesaler-Distributors",
@@ -2342,21 +2076,5 @@
       ]
     },
     "summary": "Beyond Chatbots: Why Voice AI Is Becoming the Next Frontier in Customer Experience Business Matters"
-  },
-  {
-    "title": "AI conversational AI {VGhjTY0} - 小豆島町",
-    "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOMGs2dS00UjB4SXhkbUdnZFJ2QkRmT1V3N1JBdU5yVnFPREhDRVpXVWM3ODBXUnM4QXQxVFFmejUzNlRURUxjZ2p4S1k1ODRaSV9nRk9VUzNSWm85MFFpTTNpcERuRURjY1ljQVNMaUgzblI4U25nRXFjSlRkNk02cFZBcVloemU1c05nalFkMUxibXVkUmFKeFphMjJEcnExV2F6Z3I5Tmc1X3BUS1MwX0liZVNqQW9vTlV6UGRJUXI4RVhIczdRR0s5YWpqSlB0RW51UHZJY0t0WHE4OW5ZamtZWWoxVVpWZW1pRVlRRWwtTVJjdXJNNEhDalluclF5cVE3NUswd0QwRy12dzZYZjNMUUNZUmtqNWxlbVZFYktOV2x1LWJpOWtvaXVPZ2RSU2swdHdySU1adTlPc1NBSFRSOTd2R1U?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-10-24T08:58:18+00:00",
-    "raw_text": "AI conversational AI {VGhjTY0} 小豆島町",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "conversational ai"
-      ]
-    },
-    "summary": "AI conversational AI {VGhjTY0} 小豆島町"
   }
 ]
