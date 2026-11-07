@@ -267,40 +267,6 @@
     "summary": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out."
   },
   {
-    "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-    "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-    "source": "The Hacker News",
-    "published": "2026-11-05T12:25:00+00:00",
-    "raw_text": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business. Each missing detail creates",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "vulnerability",
-        "security"
-      ]
-    },
-    "summary": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business. Each missing detail creates"
-  },
-  {
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "source": "The Hacker News",
-    "published": "2026-11-05T12:08:54+00:00",
-    "raw_text": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "exploit",
-        "cyber"
-      ]
-    },
-    "summary": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)"
-  },
-  {
     "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
     "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
     "source": "BleepingComputer",
@@ -1263,20 +1229,37 @@
     "summary": "The Indian CERT said a new cyber malicious group tracked as ‘Crafty Flacon’ is using Chinese-made AI tools to attack fintech and crypto organizations"
   },
   {
-    "title": "Chinese Nation-State Threat Activity Falls Sharply in Q2 and Q3 2026",
-    "url": "https://www.infosecurity-magazine.com/news/chinese-nation-activity-falls/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-11-05T11:40:00+00:00",
-    "raw_text": "Trellix observed a 41.4% drop in China-nexus activity between April and September, which may reflect changing PRC strategic priorities",
+    "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
+    "url": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-11-05T17:00:00+00:00",
+    "raw_text": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects. The post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog .",
     "categories": [
-      "Cybersecurity"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "threat"
+      "Cloud Infrastructure": [
+        "azure"
       ]
     },
-    "summary": "Trellix observed a 41.4% drop in China-nexus activity between April and September, which may reflect changing PRC strategic priorities"
+    "summary": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects. The post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog ."
+  },
+  {
+    "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
+    "url": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
+    "source": "Microsoft Azure Blog",
+    "published": "2026-11-05T16:00:00+00:00",
+    "raw_text": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development. The post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared first on Microsoft Azure Blog .",
+    "categories": [
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "azure"
+      ]
+    },
+    "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development. The post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared first on Microsoft Azure Blog ."
   },
   {
     "title": "What’s new with Google Cloud",
@@ -1461,7 +1444,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-ai-functions-in-pandas/",
     "source": "Google Cloud Blog",
     "published": "2026-11-06T08:00:00+00:00",
-    "raw_text": "Imagine running advanced machine learning workflows—from forecasting and classification to high-dimensional embedding generation—without ever leaving your familiar pandas DataFrame. With the new .bigquery accessor from BigQuery DataFrames (BigFrames) , that vision is now a reality. You can seamlessly invoke BigQuery's enterprise-grade AI functions directly within pandas, scaling your data science and ML pipelines on cloud infrastructure . Take linear regression as an example. Traditionally, a pandas user who needs to run regression would have to extract data locally, manually select features, and train a custom scikit-learn model like this: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\nfrom sklearn.linear_model import LinearRegression\\r\\nfrom sklearn.preprocessing import StandardScaler\\r\\nfrom sklearn.pipeline import make_pipeline\\r\\n\\r\\n# Load historical training data from a CSV\\r\\ntrain_df = pd.read_csv('historical_data.csv')\\r\\n\\r\\n# Separate features (X) and target (y)\\r\\nX_train = train_df[['feature_1', 'feature_2']]\\r\\ny_train = train_df['target_metric']\\r\\n\\r\\n# Build and train a modeling pipeline\\r\\n# The StandardScaler ensures features with different scales don't bias the model\\r\\nmodel_pipeline = make_pipeline(StandardScaler(), LinearRegression())\\r\\nmodel_pipeline.fit(X_train, y_train)\\r\\n\\r\\n# Load new data for inference from another CSV\\r\\nnew_data_df = pd.read_csv('new_data.csv')\\r\\nX_new = new_data_df[['feature_1', 'feature_2']]\\r\\n\\r\\n# Make predictions \\r\\n# (The pipeline automatically scales the new data before predicting)\\r\\nnew_data_df['predictions'] = model_pipeline.predict(X_new)\\r\\n\\r\\nprint(new_data_df.head())\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe87877b850>)])]> Now, with the .bigquery accessor, you can bypass the local training process entirely and leverage powerful ai.predict() directly on your data in BigQuery: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\nimport bigframes.pandas as bpd # Enables bigquery accessor\\r\\n\\r\\n# Set a GCP project to use AI functions.\\r\\nbpd.options.bigquery.project = 'my-project' \\r\\n\\r\\ntrain_df = pd.read_csv('historical_data.csv')\\r\\nnew_data_df = pd.read_csv('new_data.csv')\\r\\n\\r\\n# Make predictions with TabFM\\r\\npredictions = train_df.bigquery.ai.predict(new_data_df, label_col='target_metric')\\r\\nprint(predictions)\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a62e90>)])]> As you can see, the ai.predict() is able to perform regression tasks directly over two pandas dataframes with a single function call, which greatly simplifies the entire ML process. How the BigQuery accessor works Under the hood, the .bigquery accessor uses BigQuery DataFrames library to transparently push your computations to Google Cloud. When you call an AI method like .ai.predict() , it doesn't compute the regression locally. Instead, it translates the pandas operation into Google Standard SQL, executes the corresponding foundational model (like TabFM ) natively on BigQuery's infrastructure, and seamlessly returns the result as a standard pandas DataFrame. This allows you to easily process local datasets with powerful offerings unique to BigQuery. The following sections detail additional executable code examples. You can also find them all in this notebook . Environment setup Before executing the code samples in this post, ensure you have a Google Cloud project with the following roles granted (see more at permissions for AI functions ): Run query jobs: BigQuery Job User (roles/bigquery.jobUser) Access a foundation model in Gemini Enterprise Agent Platform: Agent Platform User (roles/aiplatform.user) Next, install pandas and bigframes in your Jupyter environment. To enable the AI accessors, simply import the bigframes library and specify your Google Cloud project ID. This ensures all subsequent AI function calls are routed through your authorized project: code_block <ListValue: [StructValue([('code', 'import bigframes.pandas as bpd \\r\\n\\r\\n# Replace with your project ID \\r\\nbpd.options.bigquery.project = \"my-project\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a61f50>)])]> Once configured, you can call BigQuery AI functions directly on standard pandas objects. Functions on pandas series AI functions attached to a pandas `Series` accept single-column input sequences. Example: AI.EMBED Generating vector embeddings is a fundamental step in many modern NLP and semantic search pipelines. By using the `ai.embed()` function, you can compute embeddings for an entire column of text in a single, clean expression. code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\n\\r\\nanimals = pd.Series(['dog', 'fish'])\\r\\nanimals.bigquery.ai.embed(endpoint='text-embedding-005')\\r\\n# 0 {'result': array([ 1.78243860e-03, -1.10658340...\\r\\n# 1 {'result': array([-7.29714287e-03, 1.04725976...\\r\\n# dtype: struct<result: list<item: double>, status: string>[pyarrow]\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a61bd0>)])]> Behind the scenes, BigFrames converts the pandas Series for processing in BigQuery and casts the output back into a native pandas Series. From the developer’s perspective, the workflow remains entirely within pandas. code_block <ListValue: [StructValue([('code', \"result = animals.bigquery.ai.embed(endpoint='text-embedding-005')\\r\\ntype(result)\\r\\n# pandas.Series\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a60d90>)])]> Notice that the output of this operation is a native pandas `Series` containing the resulting embedding list. BigFrames handles the temporary BigQuery conversions, model execution, and final data formatting, ensuring that you never have to leave your familiar pandas interface. Example: AI.SIMILARITY When you need to calculate semantic closeness, the `ai.similarity()` function computes cosine similarity scores between your series elements and a target. This target can be either a scalar literal string or another series. Here is how you can compare a pandas `Series` against a scalar string to find matching concepts: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\n\\r\\nanimals = pd.Series(['dog', 'fish'])\\r\\nanimals.bigquery.ai.similarity('shrimp', endpoint='text-embedding-005')\\r\\n# 0 0.629751\\r\\n# 1 0.768028\\r\\n# dtype: Float64\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a63ed0>)])]> Similarly, you can perform pairwise comparisons between two distinct pandas `Series` objects to find semantic correlations across different datasets: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\n\\r\\nanimals = pd.Series(['dog', 'fish'])\\r\\nrandom_stuff = pd.Series(['smart phone', 'salmon'])\\r\\n\\r\\nanimals.bigquery.ai.similarity(random_stuff, endpoint='text-embedding-005')\\r\\n# 0 0.651206\\r\\n# 1 0.835251\\r\\n# dtype: Float64\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a62810>)])]> In both cases, the returned object is a standard pandas `Series` with floating-point similarity scores, making it immediately compatible with downstream pandas methods like filtering or sorting. Functions on pandas DataFrames DataFrame AI functions operate on multi-column structured tables or handle complex prompts involving multiple data inputs. Example: AI.FORECAST Time-series forecasting typically requires a lot of boilerplate code to format timestamps, group entities, and train a model. The `ai.forecast()` function performs time-series forecasting across grouped structured data with simple, high-level parameters. To demonstrate this, you first prepare the input sample DataFrame representing historical sales data: code_block <ListValue: [StructValue([('code', 'import pandas as pd\\r\\n\\r\\ndates = pd.date_range(\"2025-01-01\", periods=14, freq=\"D\")\\r\\n\\r\\ndf = pd.DataFrame({\\r\\n \"date\": dates.tolist() * 2,\\r\\n \"item_id\": [\"item_1\"] * 14 + [\"item_2\"] * 14,\\r\\n \"sales\": [\\r\\n 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165,\\r\\n 50, 52, 55, 58, 60, 62, 65, 68, 70, 72, 75, 78, 80, 85,\\r\\n ],\\r\\n})\\r\\n\\r\\ndf.sample(5)\\r\\n# date item_id sales\\r\\n# 15 2025-01-02 item_2 52\\r\\n# 10 2025-01-11 item_1 150\\r\\n# 24 2025-01-11 item_2 75\\r\\n# 26 2025-01-13 item_2 80\\r\\n# 7 2025-01-08 item_1 135'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a61890>)])]> With your data prepared, you can call `ai.forecast()` directly on the DataFrame. Here, you specify the target metric, timestamp column, grouping key, and a prediction horizon of three days: code_block <ListValue: [StructValue([('code', 'df.bigquery.ai.forecast(\\r\\n data_col=\"sales\", \\r\\n timestamp_col=\"date\", \\r\\n id_cols=[\"item_id\"], \\r\\n horizon=3\\r\\n)\\r\\n# item_id forecast_timestamp forecast_value confidence_level \\\\\\r\\n# 0 item_1 2025-01-16 00:00:00+00:00 174.257492 0.95 \\r\\n# 1 item_1 2025-01-15 00:00:00+00:00 167.466003 0.95 \\r\\n# 2 item_1 2025-01-17 00:00:00+00:00 180.491333 0.95 \\r\\n# 3 item_2 2025-01-17 00:00:00+00:00 91.99752 0.95 \\r\\n# 4 item_2 2025-01-15 00:00:00+00:00 87.950104 0.95 \\r\\n# 5 item_2 2025-01-16 00:00:00+00:00 90.050346 0.95 \\r\\n# \\r\\n# prediction_interval_lower_bound prediction_interval_upper_bound \\\\\\r\\n# 0 175.728216 177.85742 \\r\\n# 1 169.34789 169.553343 \\r\\n# 2 178.587954 185.040092 \\r\\n# 3 79.145413 100.786089 \\r\\n# 4 82.876698 92.470649 \\r\\n# 5 81.460533 96.463373 \\r\\n# \\r\\n# ai_forecast_status \\r\\n# 0 \\r\\n# 1 \\r\\n# 2 \\r\\n# 3 \\r\\n# 4 \\r\\n# 5'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a60250>)])]> The returned DataFrame provides complete forecast values alongside statistical parameters such as confidence levels and prediction intervals. Internally, this triggers a TimesFM model that performs the trend analysis, returning neatly structured results back to your local environment as a pandas DataFrame. You can also choose the model version with the model argument. For example, pass model=\"TimesFM 3.0\" to use the newest TimesFM model, now in Preview in BigQuery, which ranks #1 on the GIFT-Eval, FEV-Bench, and TIME forecasting benchmarks. Example: AI.IF Filtering rows on a natural-language condition is one of the most common generative AI tasks. The `ai.if_()` function evaluates a prompt built from literal strings and DataFrame columns, and returns True or False for each row: code_block <ListValue: [StructValue([('code', 'import pandas as pd\\r\\n\\r\\ndf = pd.DataFrame({\\r\\n \"animal\": [\"cougar\", \"fish\"],\\r\\n \"habitat\": [\"mountain\", \"grassland\"]\\r\\n})\\r\\n\\r\\nprompt = (df[\"animal\"], \" lives in the \", df[\"habitat\"])\\r\\n\\r\\ndf.bigquery.ai.if_(prompt)\\r\\n# 0 True\\r\\n# 1 False\\r\\n# dtype: boolean'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866a63750>)])]> Because `ai.if_()` returns a boolean Series, you can use it directly as a pandas filter mask, for example `df[df.bigquery.ai.if_(prompt)]`. `ai.if_()` runs in optimized mode by default (optimization_mode=\"minimize_cost\"): a local, distilled model processes the majority of rows, and only the rest are sent to Gemini, which reduces cost and latency on large datasets. To send every row to the LLM instead, set `optimization_mode` to `\"maximize_quality\"`. Get started The AI functions provided by bigquery accessor unlock advanced machine learning tools directly inside your native data structures, enabling you to solve complex AI challenges without leaving the Python ecosystem you already know. Currently supported AI functions include the following (see the documentation for full details): Pandas Series embed() : Generates vector embeddings to a single column. generate_embedding() : Generates vector embeddings to a table. generate_table() : Performs natural language tasks and generates structured outputs. generate_text() : Performs natural language tasks and generates free-form texts. similarity() : Computes semantic closeness (cosine similarity) between entries. Pandas DataFrame classify() : Performs zero-shot classification. forecast() : Runs time-series forecasting across grouped data using TimesFM, including the new TimesFM 3.0. generate() : Evaluates dynamic prompts across multiple columns to generate text responses. generate_bool() : Evaluates natural language conditions and returns booleans (True/False). generate_double() : Evaluates a prompt and returns floating-point numbers. generate_int() : Evaluates a prompt and returns integers. if_() : Filters rows on a natural-language condition, using optimized mode by default to reduce cost and latency. predict() : Runs predictive modeling, such as regression, using TabFM. score() : Rates inputs based on a scoring system that you described. Whether you want to generate embeddings or run full time-series forecasts, BigQuery AI functions inside pandas make scaling machine learning effortless. Give it a spin and let your data do the heavy lifting!",
+    "raw_text": "Imagine running advanced machine learning workflows—from forecasting and classification to high-dimensional embedding generation—without ever leaving your familiar pandas DataFrame. With the new .bigquery accessor from BigQuery DataFrames (BigFrames) , that vision is now a reality. You can seamlessly invoke BigQuery's enterprise-grade AI functions directly within pandas, scaling your data science and ML pipelines on cloud infrastructure . Take linear regression as an example. Traditionally, a pandas user who needs to run regression would have to extract data locally, manually select features, and train a custom scikit-learn model like this: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\nfrom sklearn.linear_model import LinearRegression\\r\\nfrom sklearn.preprocessing import StandardScaler\\r\\nfrom sklearn.pipeline import make_pipeline\\r\\n\\r\\n# Load historical training data from a CSV\\r\\ntrain_df = pd.read_csv('historical_data.csv')\\r\\n\\r\\n# Separate features (X) and target (y)\\r\\nX_train = train_df[['feature_1', 'feature_2']]\\r\\ny_train = train_df['target_metric']\\r\\n\\r\\n# Build and train a modeling pipeline\\r\\n# The StandardScaler ensures features with different scales don't bias the model\\r\\nmodel_pipeline = make_pipeline(StandardScaler(), LinearRegression())\\r\\nmodel_pipeline.fit(X_train, y_train)\\r\\n\\r\\n# Load new data for inference from another CSV\\r\\nnew_data_df = pd.read_csv('new_data.csv')\\r\\nX_new = new_data_df[['feature_1', 'feature_2']]\\r\\n\\r\\n# Make predictions \\r\\n# (The pipeline automatically scales the new data before predicting)\\r\\nnew_data_df['predictions'] = model_pipeline.predict(X_new)\\r\\n\\r\\nprint(new_data_df.head())\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f672b6db890>)])]> Now, with the .bigquery accessor, you can bypass the local training process entirely and leverage powerful ai.predict() directly on your data in BigQuery: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\nimport bigframes.pandas as bpd # Enables bigquery accessor\\r\\n\\r\\n# Set a GCP project to use AI functions.\\r\\nbpd.options.bigquery.project = 'my-project' \\r\\n\\r\\ntrain_df = pd.read_csv('historical_data.csv')\\r\\nnew_data_df = pd.read_csv('new_data.csv')\\r\\n\\r\\n# Make predictions with TabFM\\r\\npredictions = train_df.bigquery.ai.predict(new_data_df, label_col='target_metric')\\r\\nprint(predictions)\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f67298248d0>)])]> As you can see, the ai.predict() is able to perform regression tasks directly over two pandas dataframes with a single function call, which greatly simplifies the entire ML process. How the BigQuery accessor works Under the hood, the .bigquery accessor uses BigQuery DataFrames library to transparently push your computations to Google Cloud. When you call an AI method like .ai.predict() , it doesn't compute the regression locally. Instead, it translates the pandas operation into Google Standard SQL, executes the corresponding foundational model (like TabFM ) natively on BigQuery's infrastructure, and seamlessly returns the result as a standard pandas DataFrame. This allows you to easily process local datasets with powerful offerings unique to BigQuery. The following sections detail additional executable code examples. You can also find them all in this notebook . Environment setup Before executing the code samples in this post, ensure you have a Google Cloud project with the following roles granted (see more at permissions for AI functions ): Run query jobs: BigQuery Job User (roles/bigquery.jobUser) Access a foundation model in Gemini Enterprise Agent Platform: Agent Platform User (roles/aiplatform.user) Next, install pandas and bigframes in your Jupyter environment. To enable the AI accessors, simply import the bigframes library and specify your Google Cloud project ID. This ensures all subsequent AI function calls are routed through your authorized project: code_block <ListValue: [StructValue([('code', 'import bigframes.pandas as bpd \\r\\n\\r\\n# Replace with your project ID \\r\\nbpd.options.bigquery.project = \"my-project\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6729824e90>)])]> Once configured, you can call BigQuery AI functions directly on standard pandas objects. Functions on pandas series AI functions attached to a pandas `Series` accept single-column input sequences. Example: AI.EMBED Generating vector embeddings is a fundamental step in many modern NLP and semantic search pipelines. By using the `ai.embed()` function, you can compute embeddings for an entire column of text in a single, clean expression. code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\n\\r\\nanimals = pd.Series(['dog', 'fish'])\\r\\nanimals.bigquery.ai.embed(endpoint='text-embedding-005')\\r\\n# 0 {'result': array([ 1.78243860e-03, -1.10658340...\\r\\n# 1 {'result': array([-7.29714287e-03, 1.04725976...\\r\\n# dtype: struct<result: list<item: double>, status: string>[pyarrow]\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6729824b10>)])]> Behind the scenes, BigFrames converts the pandas Series for processing in BigQuery and casts the output back into a native pandas Series. From the developer’s perspective, the workflow remains entirely within pandas. code_block <ListValue: [StructValue([('code', \"result = animals.bigquery.ai.embed(endpoint='text-embedding-005')\\r\\ntype(result)\\r\\n# pandas.Series\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6729827350>)])]> Notice that the output of this operation is a native pandas `Series` containing the resulting embedding list. BigFrames handles the temporary BigQuery conversions, model execution, and final data formatting, ensuring that you never have to leave your familiar pandas interface. Example: AI.SIMILARITY When you need to calculate semantic closeness, the `ai.similarity()` function computes cosine similarity scores between your series elements and a target. This target can be either a scalar literal string or another series. Here is how you can compare a pandas `Series` against a scalar string to find matching concepts: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\n\\r\\nanimals = pd.Series(['dog', 'fish'])\\r\\nanimals.bigquery.ai.similarity('shrimp', endpoint='text-embedding-005')\\r\\n# 0 0.629751\\r\\n# 1 0.768028\\r\\n# dtype: Float64\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6729827c10>)])]> Similarly, you can perform pairwise comparisons between two distinct pandas `Series` objects to find semantic correlations across different datasets: code_block <ListValue: [StructValue([('code', \"import pandas as pd\\r\\n\\r\\nanimals = pd.Series(['dog', 'fish'])\\r\\nrandom_stuff = pd.Series(['smart phone', 'salmon'])\\r\\n\\r\\nanimals.bigquery.ai.similarity(random_stuff, endpoint='text-embedding-005')\\r\\n# 0 0.651206\\r\\n# 1 0.835251\\r\\n# dtype: Float64\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6750120050>)])]> In both cases, the returned object is a standard pandas `Series` with floating-point similarity scores, making it immediately compatible with downstream pandas methods like filtering or sorting. Functions on pandas DataFrames DataFrame AI functions operate on multi-column structured tables or handle complex prompts involving multiple data inputs. Example: AI.FORECAST Time-series forecasting typically requires a lot of boilerplate code to format timestamps, group entities, and train a model. The `ai.forecast()` function performs time-series forecasting across grouped structured data with simple, high-level parameters. To demonstrate this, you first prepare the input sample DataFrame representing historical sales data: code_block <ListValue: [StructValue([('code', 'import pandas as pd\\r\\n\\r\\ndates = pd.date_range(\"2025-01-01\", periods=14, freq=\"D\")\\r\\n\\r\\ndf = pd.DataFrame({\\r\\n \"date\": dates.tolist() * 2,\\r\\n \"item_id\": [\"item_1\"] * 14 + [\"item_2\"] * 14,\\r\\n \"sales\": [\\r\\n 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165,\\r\\n 50, 52, 55, 58, 60, 62, 65, 68, 70, 72, 75, 78, 80, 85,\\r\\n ],\\r\\n})\\r\\n\\r\\ndf.sample(5)\\r\\n# date item_id sales\\r\\n# 15 2025-01-02 item_2 52\\r\\n# 10 2025-01-11 item_1 150\\r\\n# 24 2025-01-11 item_2 75\\r\\n# 26 2025-01-13 item_2 80\\r\\n# 7 2025-01-08 item_1 135'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6750121c90>)])]> With your data prepared, you can call `ai.forecast()` directly on the DataFrame. Here, you specify the target metric, timestamp column, grouping key, and a prediction horizon of three days: code_block <ListValue: [StructValue([('code', 'df.bigquery.ai.forecast(\\r\\n data_col=\"sales\", \\r\\n timestamp_col=\"date\", \\r\\n id_cols=[\"item_id\"], \\r\\n horizon=3\\r\\n)\\r\\n# item_id forecast_timestamp forecast_value confidence_level \\\\\\r\\n# 0 item_1 2025-01-16 00:00:00+00:00 174.257492 0.95 \\r\\n# 1 item_1 2025-01-15 00:00:00+00:00 167.466003 0.95 \\r\\n# 2 item_1 2025-01-17 00:00:00+00:00 180.491333 0.95 \\r\\n# 3 item_2 2025-01-17 00:00:00+00:00 91.99752 0.95 \\r\\n# 4 item_2 2025-01-15 00:00:00+00:00 87.950104 0.95 \\r\\n# 5 item_2 2025-01-16 00:00:00+00:00 90.050346 0.95 \\r\\n# \\r\\n# prediction_interval_lower_bound prediction_interval_upper_bound \\\\\\r\\n# 0 175.728216 177.85742 \\r\\n# 1 169.34789 169.553343 \\r\\n# 2 178.587954 185.040092 \\r\\n# 3 79.145413 100.786089 \\r\\n# 4 82.876698 92.470649 \\r\\n# 5 81.460533 96.463373 \\r\\n# \\r\\n# ai_forecast_status \\r\\n# 0 \\r\\n# 1 \\r\\n# 2 \\r\\n# 3 \\r\\n# 4 \\r\\n# 5'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6750120790>)])]> The returned DataFrame provides complete forecast values alongside statistical parameters such as confidence levels and prediction intervals. Internally, this triggers a TimesFM model that performs the trend analysis, returning neatly structured results back to your local environment as a pandas DataFrame. You can also choose the model version with the model argument. For example, pass model=\"TimesFM 3.0\" to use the newest TimesFM model, now in Preview in BigQuery, which ranks #1 on the GIFT-Eval, FEV-Bench, and TIME forecasting benchmarks. Example: AI.IF Filtering rows on a natural-language condition is one of the most common generative AI tasks. The `ai.if_()` function evaluates a prompt built from literal strings and DataFrame columns, and returns True or False for each row: code_block <ListValue: [StructValue([('code', 'import pandas as pd\\r\\n\\r\\ndf = pd.DataFrame({\\r\\n \"animal\": [\"cougar\", \"fish\"],\\r\\n \"habitat\": [\"mountain\", \"grassland\"]\\r\\n})\\r\\n\\r\\nprompt = (df[\"animal\"], \" lives in the \", df[\"habitat\"])\\r\\n\\r\\ndf.bigquery.ai.if_(prompt)\\r\\n# 0 True\\r\\n# 1 False\\r\\n# dtype: boolean'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6729827050>)])]> Because `ai.if_()` returns a boolean Series, you can use it directly as a pandas filter mask, for example `df[df.bigquery.ai.if_(prompt)]`. `ai.if_()` runs in optimized mode by default (optimization_mode=\"minimize_cost\"): a local, distilled model processes the majority of rows, and only the rest are sent to Gemini, which reduces cost and latency on large datasets. To send every row to the LLM instead, set `optimization_mode` to `\"maximize_quality\"`. Get started The AI functions provided by bigquery accessor unlock advanced machine learning tools directly inside your native data structures, enabling you to solve complex AI challenges without leaving the Python ecosystem you already know. Currently supported AI functions include the following (see the documentation for full details): Pandas Series embed() : Generates vector embeddings to a single column. generate_embedding() : Generates vector embeddings to a table. generate_table() : Performs natural language tasks and generates structured outputs. generate_text() : Performs natural language tasks and generates free-form texts. similarity() : Computes semantic closeness (cosine similarity) between entries. Pandas DataFrame classify() : Performs zero-shot classification. forecast() : Runs time-series forecasting across grouped data using TimesFM, including the new TimesFM 3.0. generate() : Evaluates dynamic prompts across multiple columns to generate text responses. generate_bool() : Evaluates natural language conditions and returns booleans (True/False). generate_double() : Evaluates a prompt and returns floating-point numbers. generate_int() : Evaluates a prompt and returns integers. if_() : Filters rows on a natural-language condition, using optimized mode by default to reduce cost and latency. predict() : Runs predictive modeling, such as regression, using TabFM. score() : Rates inputs based on a scoring system that you described. Whether you want to generate embeddings or run full time-series forecasts, BigQuery AI functions inside pandas make scaling machine learning effortless. Give it a spin and let your data do the heavy lifting!",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1529,7 +1512,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
     "source": "Google Cloud Blog",
     "published": "2026-11-05T17:00:00+00:00",
-    "raw_text": "For more than a decade, BigQuery has helped set standards for structured data aggregation, calculating financial sums, counting active users, and computing historical averages at a petabyte scale in seconds. But as modern enterprises become inundated with unstructured data — application logs, customer service transcripts, product imagery, and diagnostic reports — a critical gap has emerged. Historically, relational SQL engines have lacked the native ability to aggregate, synthesize, and extract overarching semantic themes from millions of rows of text and multimodal data. While BigQuery recently introduced powerful row-level AI functions (like AI.GENERATE and AI.CLASSIFY), analyzing massive datasets holistically presents a unique architectural challenge: the large language model (LLM) context window. Even with advanced foundation models like Gemini, you cannot pass millions of rows into a single prompt without triggering severe truncation or hard execution failures. Traditionally, solving this required data engineering teams to construct complex external map-reduce pipelines, manage rate-limiting backoffs, and recursively stitch chunked summaries together. Today, we are thrilled to deep-dive into AI.AGG — currently in preview — a fully managed, multi-level semantic aggregation function natively embedded within BigQuery GoogleSQL. By conceptualizing semantic aggregation as a distributed map-reduce problem, AI.AGG enables data teams to run natural-language instructions over millions of rows of data using a single SQL query. Here is a look under the hood at how it works, transformative enterprise use cases, and best practices for deploying it in production. Turning petabytes of data into semantic insights natively in BigQuery. Multi-level batching architecture AI.AGG abstracts the immense engineering complexity of chunking and parallel execution. When you execute an AI.AGG query, the BigQuery engine automatically orchestrates a sequence natively within the database: Row-level validation: The engine helps verify no single row exceeds the maximum context window (dropping or returning an error on payloads >10 MiB). Context-safe batching: The engine dynamically groups input rows into smaller batches that safely fit within the token limits of your chosen Gemini endpoint. Parallel inference: Your natural-language SQL prompt is applied to each batch in parallel, generating intermediate semantic summaries via Vertex AI. Recursive synthesis: Finally, the system batches these intermediate outputs together and passes them back to the LLM with the exact same instruction. This reduction repeats recursively until a single, final aggregated string is produced per SQL GROUP BY clause. Because AI.AGG requires deep reasoning to synthesize concepts across disparate batches, it relies entirely on full-weight LLMs for every stage of its pipeline — differentiating it from row-level functions like AI.CLASSIFY , which can leverage distilled CPU proxy models. Built for the multimodal enterprise AI.AGG natively supports both text and multimodal inputs. By leveraging BigQuery Object Tables and the OBJ.GET_ACCESS_URL function, analytics teams can aggregate visual insights across thousands of images stored directly in Cloud Storage with no data movement or transcoding required. Data engineering pro-tip: The NULL exclusivity rule When evaluating multiple columns, users often pass a STRUCT into the function. However, if even a single field within that composite structure evaluates to NULL, the entire row is treated as NULL and silently discarded. Always explicitly wrap nullable fields with IFNULL() (e.g., IFNULL(description, 'No data provided')) to help verify your data safely enters the pipeline. Transformative enterprise use cases The true analytical power of AI.AGG emerges when combined with standard SQL GROUP BY operations. 1. Diagnostic analysis of high-volume system logs System logs generated by globally distributed microservices often hide subtle degradations (like memory thrashing or systemic clock drift) that never throw explicit fatal errors. Using AI.AGG , DevOps teams can group millions of logs by system component and generate targeted, human-readable diagnostic summaries. Prompting Tip: Instruct the model to explicitly describe the \"normal operation\" of the component before hunting for anomalies. This helps suppress the LLM's tendency to hallucinate errors on completely healthy logs. 2. Building the \"agentic data cloud\" AI.AGG isn't just an analytical reporting tool; it’s a dynamic orchestration engine. Imagine acquiring a massive repository of legacy support tickets with no clear categorization. You can deploy AI.AGG to read the raw text, synthesize a definitive list of categories, and output them as a strict JSON array. By unpacking this array via JSON_VALUE_ARRAY and feeding those dynamic labels directly into row-level classifiers like AI.CLASSIFY , you can orchestrate an end-to-end, autonomous data labeling pipeline natively in SQL — reducing the need for external Python scripts. Prompt engineering is data engineering When integrating generative models into highly deterministic SQL pipelines, standard conversational prompts will often fail. Prompting for programmatic SQL outputs is a strict engineering discipline: Explicit output contracts: Treat the prompt as an API contract. Append commands like: \"Return exactly one valid JSON array of strings. Do not include markdown code blocks or conversational text.\" Contextual delimiters: Use string concatenation with explicit labels (e.g., '- Description: ' ) to anchor the LLM and prevent it from conflating fields across dense batches. Failure state design: Explicitly instruct the model to return strict null values for missing information rather than guessing, preventing schema hallucinations downstream. Few-shot anchoring: Provide a literal example of your expected structure within the prompt to heavily ground the model's attention mechanism. Governance, cost management, and guardrails Transitioning semantic workloads to production requires operational oversight. Because of the recursive batching architecture, the total tokens sent to Gemini will be greater than the token count of your source data. To mitigate costs, mandate strict WHERE and LIMIT pre-filtering. Furthermore, for workflows cross-referencing massive, static datasets, BigQuery supports Gemini Context Caching, which can reduce input token costs and execution latency. Use the AI.COUNT_TOKENS utility to estimate query costs prior to execution. Administrators can operate knowing AI.AGG works strictly within BigQuery's governance framework, supporting VPC Service Controls (VPC-SC) to prevent data exfiltration. Furthermore, if a transient error occurs during a batch process, the function degrades gracefully — skipping the rejected rows rather than crashing the entire query. Preview guardrails to keep in mind: The final output string per SQL group is strictly capped at 10,000 tokens per group. Ask the model for concise output Individual payload rows must not exceed 10 MiB. When processing multimodal arrays, limit image assets to fewer than 10 images per row to avoid silent skipping. For optimal stability, we recommend processing a maximum of 20 million rows and outputting a maximum of 1,000 distinct SQL groups per query. Putting AI.AGG into practice To help you get started, here are examples of how AI.AGG is used to synthesize insights alongside traditional SQL metrics. Macro-level topic discovery Summarize what specific top authors talk about, turning thousands of their comments into a concise narrative code_block <ListValue: [StructValue([('code', \"WITH top_commenters AS (\\r\\n SELECT\\r\\n `by` AS author,\\r\\n `text`\\r\\n FROM `bigquery-public-data.hacker_news.full`\\r\\n WHERE `type` = 'comment'\\r\\n AND `by` IN ('dang', 'patio11', 'tptacek')\\r\\n LIMIT 5000\\r\\n)\\r\\nSELECT\\r\\n author,\\r\\n AI.AGG(\\r\\n `text`,\\r\\n 'These are comments written by this user on a tech forum. Tell me what topics this user talks about the most and what their general tone is. Keep it concise.'\\r\\n ) AS author_persona\\r\\nFROM top_commenters\\r\\nGROUP BY author;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe8781b36d0>)])]> Autonomous diagnostic reporting for DevOps (log analysis) Instead of counting standard HTTP error codes, use AI.AGG to read thousands of raw stack traces and log messages, grouping them by the microservice name to find the qualitative root cause of systemic failures. code_block <ListValue: [StructValue([('code', \"SELECT \\r\\n service_name,\\r\\n COUNT(*) AS total_errors,\\r\\n AI.AGG(\\r\\n STRUCT(error_code, log_message, stack_trace), \\r\\n 'Analyze these error logs and stack traces. Provide a concise, two-sentence summary of the primary root cause or pattern causing failures in this service.'\\r\\n ) AS diagnostic_summary \\r\\nFROM `my_project.ops_logs.application_errors` \\r\\nWHERE severity = 'CRITICAL' AND timestamp >= TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 24 HOUR)\\r\\nGROUP BY service_name \\r\\nORDER BY total_errors DESC;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866b375d0>)])]> The next era of the data warehouse With AI.AGG , Google Cloud is democratizing access to semantic analysis at petabyte scale. By marrying the deterministic grouping power of BigQuery’s relational engine with the macroscopic reasoning capabilities of Vertex AI Gemini, we are transforming the enterprise data warehouse from a passive repository of historical metrics into an active, semantic runtime capable of deep, holistic intelligence. Ready to unlock the semantic value of your enterprise data? Head over to the Google Cloud console, explore the BigQuery documentation, and run your first semantic aggregation today.",
+    "raw_text": "For more than a decade, BigQuery has helped set standards for structured data aggregation, calculating financial sums, counting active users, and computing historical averages at a petabyte scale in seconds. But as modern enterprises become inundated with unstructured data — application logs, customer service transcripts, product imagery, and diagnostic reports — a critical gap has emerged. Historically, relational SQL engines have lacked the native ability to aggregate, synthesize, and extract overarching semantic themes from millions of rows of text and multimodal data. While BigQuery recently introduced powerful row-level AI functions (like AI.GENERATE and AI.CLASSIFY), analyzing massive datasets holistically presents a unique architectural challenge: the large language model (LLM) context window. Even with advanced foundation models like Gemini, you cannot pass millions of rows into a single prompt without triggering severe truncation or hard execution failures. Traditionally, solving this required data engineering teams to construct complex external map-reduce pipelines, manage rate-limiting backoffs, and recursively stitch chunked summaries together. Today, we are thrilled to deep-dive into AI.AGG — currently in preview — a fully managed, multi-level semantic aggregation function natively embedded within BigQuery GoogleSQL. By conceptualizing semantic aggregation as a distributed map-reduce problem, AI.AGG enables data teams to run natural-language instructions over millions of rows of data using a single SQL query. Here is a look under the hood at how it works, transformative enterprise use cases, and best practices for deploying it in production. Turning petabytes of data into semantic insights natively in BigQuery. Multi-level batching architecture AI.AGG abstracts the immense engineering complexity of chunking and parallel execution. When you execute an AI.AGG query, the BigQuery engine automatically orchestrates a sequence natively within the database: Row-level validation: The engine helps verify no single row exceeds the maximum context window (dropping or returning an error on payloads >10 MiB). Context-safe batching: The engine dynamically groups input rows into smaller batches that safely fit within the token limits of your chosen Gemini endpoint. Parallel inference: Your natural-language SQL prompt is applied to each batch in parallel, generating intermediate semantic summaries via Vertex AI. Recursive synthesis: Finally, the system batches these intermediate outputs together and passes them back to the LLM with the exact same instruction. This reduction repeats recursively until a single, final aggregated string is produced per SQL GROUP BY clause. Because AI.AGG requires deep reasoning to synthesize concepts across disparate batches, it relies entirely on full-weight LLMs for every stage of its pipeline — differentiating it from row-level functions like AI.CLASSIFY , which can leverage distilled CPU proxy models. Built for the multimodal enterprise AI.AGG natively supports both text and multimodal inputs. By leveraging BigQuery Object Tables and the OBJ.GET_ACCESS_URL function, analytics teams can aggregate visual insights across thousands of images stored directly in Cloud Storage with no data movement or transcoding required. Data engineering pro-tip: The NULL exclusivity rule When evaluating multiple columns, users often pass a STRUCT into the function. However, if even a single field within that composite structure evaluates to NULL, the entire row is treated as NULL and silently discarded. Always explicitly wrap nullable fields with IFNULL() (e.g., IFNULL(description, 'No data provided')) to help verify your data safely enters the pipeline. Transformative enterprise use cases The true analytical power of AI.AGG emerges when combined with standard SQL GROUP BY operations. 1. Diagnostic analysis of high-volume system logs System logs generated by globally distributed microservices often hide subtle degradations (like memory thrashing or systemic clock drift) that never throw explicit fatal errors. Using AI.AGG , DevOps teams can group millions of logs by system component and generate targeted, human-readable diagnostic summaries. Prompting Tip: Instruct the model to explicitly describe the \"normal operation\" of the component before hunting for anomalies. This helps suppress the LLM's tendency to hallucinate errors on completely healthy logs. 2. Building the \"agentic data cloud\" AI.AGG isn't just an analytical reporting tool; it’s a dynamic orchestration engine. Imagine acquiring a massive repository of legacy support tickets with no clear categorization. You can deploy AI.AGG to read the raw text, synthesize a definitive list of categories, and output them as a strict JSON array. By unpacking this array via JSON_VALUE_ARRAY and feeding those dynamic labels directly into row-level classifiers like AI.CLASSIFY , you can orchestrate an end-to-end, autonomous data labeling pipeline natively in SQL — reducing the need for external Python scripts. Prompt engineering is data engineering When integrating generative models into highly deterministic SQL pipelines, standard conversational prompts will often fail. Prompting for programmatic SQL outputs is a strict engineering discipline: Explicit output contracts: Treat the prompt as an API contract. Append commands like: \"Return exactly one valid JSON array of strings. Do not include markdown code blocks or conversational text.\" Contextual delimiters: Use string concatenation with explicit labels (e.g., '- Description: ' ) to anchor the LLM and prevent it from conflating fields across dense batches. Failure state design: Explicitly instruct the model to return strict null values for missing information rather than guessing, preventing schema hallucinations downstream. Few-shot anchoring: Provide a literal example of your expected structure within the prompt to heavily ground the model's attention mechanism. Governance, cost management, and guardrails Transitioning semantic workloads to production requires operational oversight. Because of the recursive batching architecture, the total tokens sent to Gemini will be greater than the token count of your source data. To mitigate costs, mandate strict WHERE and LIMIT pre-filtering. Furthermore, for workflows cross-referencing massive, static datasets, BigQuery supports Gemini Context Caching, which can reduce input token costs and execution latency. Use the AI.COUNT_TOKENS utility to estimate query costs prior to execution. Administrators can operate knowing AI.AGG works strictly within BigQuery's governance framework, supporting VPC Service Controls (VPC-SC) to prevent data exfiltration. Furthermore, if a transient error occurs during a batch process, the function degrades gracefully — skipping the rejected rows rather than crashing the entire query. Preview guardrails to keep in mind: The final output string per SQL group is strictly capped at 10,000 tokens per group. Ask the model for concise output Individual payload rows must not exceed 10 MiB. When processing multimodal arrays, limit image assets to fewer than 10 images per row to avoid silent skipping. For optimal stability, we recommend processing a maximum of 20 million rows and outputting a maximum of 1,000 distinct SQL groups per query. Putting AI.AGG into practice To help you get started, here are examples of how AI.AGG is used to synthesize insights alongside traditional SQL metrics. Macro-level topic discovery Summarize what specific top authors talk about, turning thousands of their comments into a concise narrative code_block <ListValue: [StructValue([('code', \"WITH top_commenters AS (\\r\\n SELECT\\r\\n `by` AS author,\\r\\n `text`\\r\\n FROM `bigquery-public-data.hacker_news.full`\\r\\n WHERE `type` = 'comment'\\r\\n AND `by` IN ('dang', 'patio11', 'tptacek')\\r\\n LIMIT 5000\\r\\n)\\r\\nSELECT\\r\\n author,\\r\\n AI.AGG(\\r\\n `text`,\\r\\n 'These are comments written by this user on a tech forum. Tell me what topics this user talks about the most and what their general tone is. Keep it concise.'\\r\\n ) AS author_persona\\r\\nFROM top_commenters\\r\\nGROUP BY author;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f672a355590>)])]> Autonomous diagnostic reporting for DevOps (log analysis) Instead of counting standard HTTP error codes, use AI.AGG to read thousands of raw stack traces and log messages, grouping them by the microservice name to find the qualitative root cause of systemic failures. code_block <ListValue: [StructValue([('code', \"SELECT \\r\\n service_name,\\r\\n COUNT(*) AS total_errors,\\r\\n AI.AGG(\\r\\n STRUCT(error_code, log_message, stack_trace), \\r\\n 'Analyze these error logs and stack traces. Provide a concise, two-sentence summary of the primary root cause or pattern causing failures in this service.'\\r\\n ) AS diagnostic_summary \\r\\nFROM `my_project.ops_logs.application_errors` \\r\\nWHERE severity = 'CRITICAL' AND timestamp >= TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 24 HOUR)\\r\\nGROUP BY service_name \\r\\nORDER BY total_errors DESC;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6729b41690>)])]> The next era of the data warehouse With AI.AGG , Google Cloud is democratizing access to semantic analysis at petabyte scale. By marrying the deterministic grouping power of BigQuery’s relational engine with the macroscopic reasoning capabilities of Vertex AI Gemini, we are transforming the enterprise data warehouse from a passive repository of historical metrics into an active, semantic runtime capable of deep, holistic intelligence. Ready to unlock the semantic value of your enterprise data? Head over to the Google Cloud console, explore the BigQuery documentation, and run your first semantic aggregation today.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1601,7 +1584,7 @@
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-an-agent-skill-optimizer-with-alphaevolve-and-harbor/",
     "source": "Google Cloud Blog",
     "published": "2026-11-05T17:00:00+00:00",
-    "raw_text": "Every day, more and more people are using coding agents like Google Antigravity and OpenCode to complete software engineering tasks. But those tools need instructions to operate and their output is only as good as the inputs they get. By utilizing agent skills that direct the agents through building, testing, and deploying code, developers have a powerful way to automate their workflows. But most skills are written manually, so it’s hard to know which instructions are effective without assessing their output. To measure the effectiveness of our skills, we ran OpenCode with Gemini 3.8 Flash on tasks from Terminal-Bench 2.0 , a public benchmark. The results were inconclusive: with our baseline skill, the agent passed about two-thirds of its attempts, but the outcome was about the same even without the skill. We needed better results. To achieve them, we turned to AlphaEvolve , which optimizes skills the way it optimizes code: Gemini proposes a new version, an evaluator scores it, and the search retains the higher-scoring version. And with Harbor , that evaluator can be a real coding agent working on real tasks. We saw improvements of 5% with just a few iterations with alphaevolve This is how you can build the same loop: Treat the skill as the program: AlphaEvolve can rewrite your skill's text. Let the agent judge: Harbor runs the agent with the skill on real tasks. Make the score trustworthy: Compare each version to the baseline skill and run them both at the same time. Check the winner on unseen tasks: Save some tasks the search never sees for your final check. Treat the skill as the program AlphaEvolve is designed to advance the code between two markers in a seed program. Skills are SKILL.md files with names, descriptions, and markdown instructions, so we put their text between the markers and let Gemini rewrite them: code_block <ListValue: [StructValue([('code', 'def build_skill() -> tuple[str, str]:\\r\\n \"\"\"Return the evolvable (description, body) pair for the skill.\"\"\"\\r\\n # EVOLVE-BLOCK-START\\r\\n description = (\\r\\n \"Solve engineering tasks in a Linux terminal: building and compiling \"\\r\\n \"software, fixing broken repositories and configuration, ...\"\\r\\n )\\r\\n body = r\"\"\"# Terminal task solver\\r\\nYou are working in a Linux container. The task has a specific, checkable end\\r\\nstate, and an automated test suite will decide whether you achieved it. ...\\r\\n\"\"\"\\r\\n # EVOLVE-BLOCK-END\\r\\n return description, body'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe866bb0710>)])]> AlphaEvolve operates in Google Cloud and doesn’t run your code. Its feedback is the scores and notes your evaluator sends back about what \"better\" means. Image 1. AlphaEvolve proposes a skill, Harbor runs the agent with it next to the baseline skill, and the score and notes go back to AlphaEvolve. Let the agent judge Harbor runs agents on benchmark tasks, with each trial in its own container. We ran it on Google Kubernetes Engine (GKE) with one pod per trial, and a single search ran thousands of agent trials. For each candidate, the evaluator returns a score for passes and failures, as well as short notes on tasks that failed or timed-out. AlphaEvolve then sends those notes to Gemini for the next version. Make the score trustworthy Agent scores can be noisy. In one of our early runs on the same benchmark, our model’s latency explained much of the variance in candidate scores. With each candidate running next to the baseline skill on the same tasks at the same time, their scores are the difference. Check the winner on unseen tasks The best skills read differently than the baseline, which is a careful checklist: read first, reproduce the failure, and work in small verified steps. AlphaEvolve's version is a protocol built around the time limit: code_block <ListValue: [StructValue([('code', '## 2. Ship a Working Baseline to the Target Path Early\\r\\n(...)\\r\\n- Having a valid artifact on disk protects you from timeouts: if you refine or\\r\\n golf code (`gpt2.c`, `eigen.py`, `my_warrior.red`), keep the last passing\\r\\n version written to the target path at all times.\\r\\n\\r\\n\\r\\n(...)\\r\\n\\r\\n\\r\\n## 5. Hard Stop When Green\\r\\nThe moment `eval.py`, the test suite, or your acceptance check passes and the\\r\\nrequired files exist with exact formatting (...): **STOP IMMEDIATELY**. (...)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fe87813ed10>)])]> What we learned AlphaEvolve focused on the most common failure: running out of time. About a third of the search's trials hit their time limit, as reported in the evaluator's notes, and AlphaEvolve's best skill is built around that limit. We also found that running the search is harder than building the loop. After about 10 hours, the search scored no new candidate; our latency check held back every evaluation while model responses were slow, and full agent logs filled the controller's disk. It’s important to plan for slow model windows and for log storage before a long search. In addition, skills paid off when they added what the agent lacks, as advised by the Agent Skills best practices . Our baseline skill made no measurable difference, while the skill holding the answers added 33 points on the dev tasks. Our hypothesis: today's models and coding agents are already tuned for coding work, so general advice has little left to add. If so, the room is in specifics, which a search can find: AlphaEvolve's best skill is built around the agent's most common failure, running out of time. What's next We’re testing AlphaEvolve on enterprise agent harnesses — system prompt, policy instructions, and tools — where the agent lacks business rules that a search can add. In one small study on customer service test cases for a fictional bank, AlphaEvolve found and fixed a wrong policy rule we had planted, and carried the fix over to cases it never saw. Other small studies were mixed, and we’ll share our final results when we’ve completed the full study. Get started AlphaEvolve on Google Cloud: the GitHub repository . Benchmark and harness: Terminal-Bench 2.0 and Harbor . Agent skills: the format at agentskills.io and the opencode skills docs . Thanks for reading! Tell us what your own tests show on LinkedIn or X.",
+    "raw_text": "Every day, more and more people are using coding agents like Google Antigravity and OpenCode to complete software engineering tasks. But those tools need instructions to operate and their output is only as good as the inputs they get. By utilizing agent skills that direct the agents through building, testing, and deploying code, developers have a powerful way to automate their workflows. But most skills are written manually, so it’s hard to know which instructions are effective without assessing their output. To measure the effectiveness of our skills, we ran OpenCode with Gemini 3.8 Flash on tasks from Terminal-Bench 2.0 , a public benchmark. The results were inconclusive: with our baseline skill, the agent passed about two-thirds of its attempts, but the outcome was about the same even without the skill. We needed better results. To achieve them, we turned to AlphaEvolve , which optimizes skills the way it optimizes code: Gemini proposes a new version, an evaluator scores it, and the search retains the higher-scoring version. And with Harbor , that evaluator can be a real coding agent working on real tasks. We saw improvements of 5% with just a few iterations with alphaevolve This is how you can build the same loop: Treat the skill as the program: AlphaEvolve can rewrite your skill's text. Let the agent judge: Harbor runs the agent with the skill on real tasks. Make the score trustworthy: Compare each version to the baseline skill and run them both at the same time. Check the winner on unseen tasks: Save some tasks the search never sees for your final check. Treat the skill as the program AlphaEvolve is designed to advance the code between two markers in a seed program. Skills are SKILL.md files with names, descriptions, and markdown instructions, so we put their text between the markers and let Gemini rewrite them: code_block <ListValue: [StructValue([('code', 'def build_skill() -> tuple[str, str]:\\r\\n \"\"\"Return the evolvable (description, body) pair for the skill.\"\"\"\\r\\n # EVOLVE-BLOCK-START\\r\\n description = (\\r\\n \"Solve engineering tasks in a Linux terminal: building and compiling \"\\r\\n \"software, fixing broken repositories and configuration, ...\"\\r\\n )\\r\\n body = r\"\"\"# Terminal task solver\\r\\nYou are working in a Linux container. The task has a specific, checkable end\\r\\nstate, and an automated test suite will decide whether you achieved it. ...\\r\\n\"\"\"\\r\\n # EVOLVE-BLOCK-END\\r\\n return description, body'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f672abfa050>)])]> AlphaEvolve operates in Google Cloud and doesn’t run your code. Its feedback is the scores and notes your evaluator sends back about what \"better\" means. Image 1. AlphaEvolve proposes a skill, Harbor runs the agent with it next to the baseline skill, and the score and notes go back to AlphaEvolve. Let the agent judge Harbor runs agents on benchmark tasks, with each trial in its own container. We ran it on Google Kubernetes Engine (GKE) with one pod per trial, and a single search ran thousands of agent trials. For each candidate, the evaluator returns a score for passes and failures, as well as short notes on tasks that failed or timed-out. AlphaEvolve then sends those notes to Gemini for the next version. Make the score trustworthy Agent scores can be noisy. In one of our early runs on the same benchmark, our model’s latency explained much of the variance in candidate scores. With each candidate running next to the baseline skill on the same tasks at the same time, their scores are the difference. Check the winner on unseen tasks The best skills read differently than the baseline, which is a careful checklist: read first, reproduce the failure, and work in small verified steps. AlphaEvolve's version is a protocol built around the time limit: code_block <ListValue: [StructValue([('code', '## 2. Ship a Working Baseline to the Target Path Early\\r\\n(...)\\r\\n- Having a valid artifact on disk protects you from timeouts: if you refine or\\r\\n golf code (`gpt2.c`, `eigen.py`, `my_warrior.red`), keep the last passing\\r\\n version written to the target path at all times.\\r\\n\\r\\n\\r\\n(...)\\r\\n\\r\\n\\r\\n## 5. Hard Stop When Green\\r\\nThe moment `eval.py`, the test suite, or your acceptance check passes and the\\r\\nrequired files exist with exact formatting (...): **STOP IMMEDIATELY**. (...)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f6729b6a510>)])]> What we learned AlphaEvolve focused on the most common failure: running out of time. About a third of the search's trials hit their time limit, as reported in the evaluator's notes, and AlphaEvolve's best skill is built around that limit. We also found that running the search is harder than building the loop. After about 10 hours, the search scored no new candidate; our latency check held back every evaluation while model responses were slow, and full agent logs filled the controller's disk. It’s important to plan for slow model windows and for log storage before a long search. In addition, skills paid off when they added what the agent lacks, as advised by the Agent Skills best practices . Our baseline skill made no measurable difference, while the skill holding the answers added 33 points on the dev tasks. Our hypothesis: today's models and coding agents are already tuned for coding work, so general advice has little left to add. If so, the room is in specifics, which a search can find: AlphaEvolve's best skill is built around the agent's most common failure, running out of time. What's next We’re testing AlphaEvolve on enterprise agent harnesses — system prompt, policy instructions, and tools — where the agent lacks business rules that a search can add. In one small study on customer service test cases for a fictional bank, AlphaEvolve found and fixed a wrong policy rule we had planted, and carried the fix over to cases it never saw. Other small studies were mixed, and we’ll share our final results when we’ve completed the full study. Get started AlphaEvolve on Google Cloud: the GitHub repository . Benchmark and harness: Terminal-Bench 2.0 and Harbor . Agent skills: the format at agentskills.io and the opencode skills docs . Thanks for reading! Tell us what your own tests show on LinkedIn or X.",
     "categories": [
       "Cloud Infrastructure",
       "Networks",
@@ -1689,55 +1672,6 @@
       ]
     },
     "summary": "November 2 - November 6 BigQuery observability for data agents is now generally available : Data teams can now monitor the performance, adoption, latency, and cost of BigQuery data agents and their multi-turn conversations using Google Cloud Observability. This capability provides production-grade visibility into agent execution traces, usage volume, and query behavior so organizations can scale conversational analytics with confidence. Review the BigQuery release notes . BigQuery change history and continuous queries for Apache Iceberg managed tables are now GA : BigQuery change history and continuous queries are now generally available for Lakehouse for Apache Iceberg managed tables."
-  },
-  {
-    "title": "Powering open infrastructure for autonomous agents",
-    "url": "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf/",
-    "source": "Google Cloud Blog",
-    "published": "2026-11-05T12:30:00+00:00",
-    "raw_text": "As AI shifts from human scale to agent scale , from systems of record to systems of action , and from simple requests to complex agentic workflows , the workload underneath your platform changes completely. An agent works in a continuous, stateful loop: It proposes an action, spins up subagents, executes code or tool calls inside a sandbox, and feeds the results back into the model for the next turn. Running that loop at scale requires the same open foundation and neutral governance that Kubernetes and the Cloud Native Computing Foundation (CNCF) brought to containers in the 2010s. Today, we are announcing the donation of Agent Substrate , gVisor , and OpenRL , three open source projects that started at Google, to the CNCF following their acceptance last month into the CNCF Sandbox. To bring this open stack into managed production and accelerate it across TPUs and GPUs, we are also announcing that Agent Substrate has reached its 1.0 milestone and is now generally available as Agent Substrate on GKE . Each project is now working through CNCF Sandbox onboarding with community maintainers and independent build infrastructure, and gVisor is on a path toward Incubation. These releases deliver an open stack that runs on any Kubernetes cluster, on any cloud, across CPUs, GPUs, or TPUs, by: Scaling isolated agent environments without idle compute overhead with Agent Substrate (now 1.0 and GA on GKE): Agents execute code or tests for a few seconds, then wait on model turns, external APIs, or human input. Keeping a dedicated container alive during those pauses ties up memory and compute. Agent Substrate decouples stateful agent sessions and identities from active compute, snapshotting idle agents to storage and restoring them in under 500 milliseconds to run millions of sandboxes at 10x container density. Isolating untrusted code within a sandbox with gVisor : Agents routinely generate and run unreviewed code and external packages, making standard containers that share a host Linux kernel a security risk. gVisor isolates generated code inside a lightweight userspace application kernel at container packing density on any Linux node. Distributing post training and serving efficiently with OpenRL : Training agents with reinforcement learning (RL) gives builders an open loop to learn across millions of parallel sandboxed rollouts. OpenRL orchestrates self-hosted RL post-training loops in plain Python on Kubernetes. Scale fully isolated agent environments with Substrate Agents need isolated compute resources and strict access boundaries, yet spend most of their time waiting: executing code for a few seconds, then pausing while a model reasons or a human responds. They need a discrete identity and central enforcement point to ensure the agent only accesses authorized tools and services without holding sensitive keys. In standard Kubernetes, giving every active agent its own Pod locks up memory and CPU while the agent sits idle, forces the control plane to track millions of persistent objects it was never designed to hold, and ties identities directly to Pods. At the same time, identities are intrinsically tied to Kubernetes Pods, adding exponential complexity for controlling access and secrets. Agent Substrate solves this by separating the stateful agent from the underlying compute: Actors hold each agent's memory, files, and discrete identity. Workers are reusable execution sandboxes drawn from a warm Kubernetes pool. Gateways enforce inbound and outbound access control and inject secrets based on Actor identity, keeping sensitive keys out of the agent environment. When an agent pauses to wait on a model turn or tool call, Agent Substrate snapshots the agent’s memory and files to storage and immediately returns the Worker to the warm pool. When the next request arrives, Agent Substrate restores the Actor onto any available Worker in under 500 milliseconds and picks up right where it left off. Think of it as a hotel room rather than a house: you don't keep a room when you leave town, and a new room is ready when you come back. Agent Substrate decouples stateful Actors and policy Gateways from a warm pool of Kubernetes Workers, restoring idle sessions in under 500 milliseconds. Since public development started in May 2026, the Agent Substrate project has grown to more than 100 contributors. Early design partners like Nous Research are building Hermes Enterprise on it , and it already powers other CNCF projects like kagent . Further, reaching the 1.0 milestone shows that Agent Substrate can accept production workloads across millions of sandboxes, achieving 10x the density of standard container runtimes, and performing more than 500 suspend and resume activations per second . Underneath, you can choose Cloud Hypervisor microVMs or gVisor as your isolation boundary without changing how you manage agent lifecycles. Because Agent Substrate runs standard OCI containers, it works out of the box with Agent Development Kit (ADK) agents, stateful coding environments, and productivity agents. With today's general availability of Agent Substrate on GKE , you can run this runtime as a managed capability on Google Cloud or deploy the open-source code on any Kubernetes cluster. For teams that want a dedicated microVM compute service through an API without having to manage clusters, Agent Substrate complements Agent Compute Engine , our Titanium microVM service that features fast hibernation and parallel environment-forking for evaluation and RL pipelines. SPIRITT is building their SPIRITT Workspace, a platform where agents run real work autonomously while humans collaborate to steer the vision, on top of Agent Substrate on GKE. ”At SPIRITT, every customer gets an autonomous AI workspace where an agent, or a whole swarm of agents, builds, runs, and ships real work across the organization, from code and development cycles to marketing and operations. Agent Substrate on GKE gives us the security isolation to let agents execute code safely, the extensibility to plug in our own runtime, and the density to run every customer's agents economically at scale.\" - Tamir Magen, CEO, SPIRITT Isolate untrusted agent code with gVisor When agents shift from systems of record to systems of action, they run generated shell commands and unreviewed packages. Standard containers share the host Linux kernel with every other workload on the node, which is a risky bet for untrusted code. Hardware microVMs offer a strong boundary, and Agent Substrate supports them natively. Many teams also need strong isolation that runs at container density across any standard Linux instance, even when bare metal or nested virtualization isn't available. gVisor provides that isolation through a lightweight application kernel written in Go. Sitting between the container and the host OS, gVisor intercepts and handles application system calls in userspace so untrusted code never talks directly to the host kernel. Open sourced by Google in 2018, gVisor runs millions of sandboxes every day underneath GKE Sandbox and Cloud Run. Outside Google, Anthropic and OpenAI use it to contain code execution, Modal and Snowflake run their execution sandboxes on it, and Ant Group and Tencent run it in production at scale. Three capabilities make gVisor a natural fit for agent fleets: Container density and flexible memory: Unlike VMs that preallocate fixed blocks of RAM, gVisor keeps a container process model where memory scales up and down with the workload, packing more agents onto every node and lowering your cost per agent. Native GPU, TPU, and snapshot support: gVisor supports GPUs , TPUs , and checkpoint/restore natively, so agents can access accelerators inside the sandbox and pause when idle. Runs anywhere Linux runs: Because it doesn't require nested virtualization, gVisor deploys identically across any cloud or local Linux node. Northflank , for example, uses gVisor to sandbox GPU workloads when nested virtualization isn't available. Donating gVisor to the CNCF clears a longstanding performance barrier for the community. Sandboxed infrastructure providers, including Google, all carry host kernel patches that bring gVisor's I/O performance close to that of native Linux, but upstream Linux maintainers declined to merge them while the project was owned by a single vendor. Moving to neutral CNCF governance opens the path to upstreaming those kernel optimizations, so every builder gets near native performance out of the box. With this move, Ant Group, Modal, and Tines have committed to join gVisor's maintainers , with OpenAI, Tencent, and NVIDIA continuing their contributions. Scale RL post training on Kubernetes with OpenRL The sandbox that runs your agent in production is the exact same environment you need to train an agent with reinforcement learning. Today, most frontier capability gains come from RL post-training: running millions of multiturn rollouts inside real tools, scoring the outcomes, and updating model weights. Building that loop yourself usually means forking a monolithic RL framework and debugging distributed weight transfers before you ever touch your training algorithm. OpenRL brings a clean, self-hosted Python post-training loop directly to your Kubernetes cluster, with: Simple Python primitives: Write your training loop using four clean primitives ( sample , forward_backward , optim_step , and save_state ) through a Tinker compatible API while keeping your weights and data on your own cluster. Existing tinker-cookbook recipes run unchanged, supporting both LoRA adapters and full parameter fine-tuning. Pluggable engines and Kubernetes scheduling: OpenRL uses Kubernetes Dynamic Resource Allocation (DRA) to partition your accelerator pool and orchestrate RL work on the shared pool. Its pluggable architecture uses standard engines, including PyTorch / AutoModel for training and vLLM for sampling, with Gemma and Qwen validated out of the box, and with TPU support on the roadmap. OpenRL also pairs with llm-d , the CNCF distributed inference and RL project founded by Red Hat, Google Cloud, IBM Research, CoreWeave, and NVIDIA that recently reached 1.0 , to keep your accelerators busy across both phases of RL. Here, llm-d provides: Prefix-aware rollout routing: The llm-d router routes multiturn rollouts to samplers that already hold matching KV cache prefixes, cutting redundant prefill compute. GPU time-slicing between training and sampling: In RL training, samplers and trainers take turns, leaving one set of chips idle while the other works. OpenRL uses llm-d time-slicing to share the same physical GPUs between sampling and training, reclaiming idle accelerator cycles the same way Agent Substrate reclaims idle CPU and RAM. OpenRL drives plain Python RL loops on Kubernetes, running episodes inside Agent Substrate sandboxes while llm-d routes rollouts and time slices accelerators. OpenRL is the newest layer of this stack by a wide margin. It started in February as a research preview, and we are bringing it to the CNCF early on purpose. Its north star is one recipe for any model on any accelerator, and no single company can get there alone. To get there, you need the people building accelerators (NVIDIA, AMD, Intel, and TPUs), inference engines ( llm-d , vLLM , SGLang ), training frameworks, and open-weight models starting with Gemma and Qwen. Setting up neutral CNCF governance before the design hardens makes room for everyone to build it together. Why the CNCF, and why now Improving the security and efficiency of AI agents takes joint design across the runtime, scheduler, compiler, and silicon. The past year made the need for affordable, isolated sandboxing and open post-training infrastructure exceedingly clear. Donating Agent Substrate, gVisor, and OpenRL to the CNCF reaffirms Google’s commitment to open collaboration and co-investment. Vendor-neutral ownership lets cloud providers, hardware vendors, and independent software companies participate in the future growth of agentic workloads equally. We believe that these donations will accelerate the development and adoption of agentic workloads through these projects similarly to what we saw with Kubernetes. Come find us at KubeCon Join us at KubeCon + CloudNativeCon North America in Salt Lake City (November 9 to 12) across our sessions and at the Google Cloud booth to learn more about Agent Substrate, OpenRL, and gVisor. You will also hear soon from community partners including Modal, Anyscale, and Tecton on what this open stack means for their agentic workloads. In the meantime, here is where to start: Follow the CNCF Sandbox applications: gVisor #521 , Agent Substrate #523 , and OpenRL #518 , alongside cohort peer KubeRay #525 Kick the tires: ate.dev , gvisor.dev , and openrl.dev Run agents on GKE today: Agent Substrate on GKE , and GKE Sandbox Read the deep dives: Agent Substrate on GKE , gVisor's move to the CNCF , and Introducing OpenRL",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market",
-      "Networks",
-      "GRC",
-      "Cybersecurity",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "google cloud",
-        "kubernetes",
-        "virtualization",
-        "containers",
-        "cloud native"
-      ],
-      "Networks": [
-        "routing",
-        "router",
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security"
-      ],
-      "GRC": [
-        "governance",
-        "policy"
-      ],
-      "Data Centres": [
-        "rack"
-      ],
-      "Industry & Market": [
-        "investment",
-        "valuation",
-        "ey",
-        "ibm",
-        "vendor"
-      ]
-    },
-    "summary": "As AI shifts from human scale to agent scale , from systems of record to systems of action , and from simple requests to complex agentic workflows , the workload underneath your platform changes completely. An agent works in a continuous, stateful loop: It proposes an action, spins up subagents, executes code or tool calls inside a sandbox, and feeds the results back into the model for the next turn. Running that loop at scale requires the same open foundation and neutral governance that Kubernetes and the Cloud Native Computing Foundation (CNCF) brought to containers in the 2010s. Today, we are announcing the donation of Agent Substrate , gVisor , and OpenRL , three open source projects that started at Google, to the CNCF following their acceptance last month into the CNCF Sandbox."
   },
   {
     "title": "The post-quantum future of web privacy",
@@ -2060,38 +1994,6 @@
       ]
     },
     "summary": "OpenAI is introducing GPT-6 Cyber, a restricted access model that the company calls its most capable and aligned cybersecurity model yet, “built to help security researchers identify and validate exploitable vulnerabilities, assess their impact, and harden potential patches before they’re released.” OpenAI researchers said they used GPT-6 Cyber to find 81 previously unknown high-severity vulnerabilities in Firefox and develop working exploits for 948 Linux kernel vulnerabilities, including 588 previously unknown vulnerabilities. Mozilla has begun releasing fixes, and Linux findings are being reported with candidate patches for maintainer review. In a sample of 166 exploits, OpenAI’s researchers identified 10 exploitation techniques that the company says appeared novel, meaning external kernel exploitation experts reportedly had not seen them before, and that could enable someone with local access to obtain root privileges. Highlighting what it called stronger alignment and safeguards, OpenAI said that GPT-6 Cyber “was trained to stay within authorized scope, respect restrictions, and report results accurately.” In its ExploitGym Honeypot evaluation, the model went beyond the intended scope in only 0.07% of cases, compared with 5.51% for GPT-5.6 Cyber."
-  },
-  {
-    "title": "Debian, Ubuntu patch APT flaw that could hand attackers root",
-    "url": "https://www.csoonline.com/article/4245109/debian-ubuntu-patch-apt-flaw-that-could-hand-attackers-root.html",
-    "source": "CSO Online",
-    "published": "2026-11-05T12:20:35+00:00",
-    "raw_text": "Linux administrators’ trust in package managers is being tested by a newly disclosed vulnerability in APT, the package management system used by Debian, Ubuntu, and their derivatives, that could allow attackers to install unverified software with root privileges. Tracked as CVE-2026-109518 , the vulnerability could let an attacker positioned to manipulate HTTP traffic between an APT client and an archive server install an attacker-controlled package without verification. Debian disclosed the flaw on November 4, crediting security researcher Max Justicz. Ubuntu subsequently rated it High, assigning it a CVSS score of 7.7. “I used an AI for two hours and found a zero-day that would let a nation-state hack any server running stock Ubuntu,” Justicz said in an X post . Successful exploitation could allow arbitrary code execution with root privileges on a vulnerable machine. Both distributions have issued fixes. Redirects and retries turn hardlinks into an attack surface The problem lies in APT’s handling of HTTP redirects and resumed downloads. “APT can merge two different package downloads after an HTTP redirect gives them the same URI,” Debian’s advisory said. “Improper file handling when resuming an HTTP download allows a man-in-the-middle ( MitM ) attacker to replace a package after verification, resulting in the execution of arbitrary code as root.” APT developers provide a more detailed explanation: an attacker can exploit redirects and transient HTTP server errors that trigger download retries, causing APT to override existing hard links with a chosen payload. Because Debian packages are installed with root privileges, successfully substituting a package can lead to arbitrary code execution as root. Ubuntu described the required attack position as an on-path attacker able to manipulate traffic between the package client and the archive server. A malicious mirror or proxy could provide that position, but the attack requires specific download conditions. Retry settings decide who is exposed The vulnerability depends on APT’s Acquire::Retries setting being non-zero. APT developers say this has been the default since version 2.3.2, although scripts may have enabled retries on older installations. Ubuntu specifies that the default retry value of three applies from Debian 12 (Bookworm) and Ubuntu 22.04 LTS (Jammy Jellyfish) onward. Older releases are not exposed by default, but may still be vulnerable if retries have been enabled. Debian 13 (Trixie) is patched in APT 3.0.4, while Debian 12 (Bookworm) received the fix in version 2.6.2. Ubuntu has also released patched packages for supported releases, including 22.04 LTS, 24.04.LTS, and 26.04 LTS. Ubuntu 26.10 was also affected, with its fix being published when Ubuntu’s November 4 advisory appeared. The fix addresses the underlying file-handling issue. In a commit authored on October 12, APT developer Julian Andres Klode changed the download code to open destination files exclusively, unlinking existing files before copying over any partially downloaded content. The change prevents downloads from writing through existing hard links, which could otherwise redirect writes to unintended files. Ubuntu recommends updating APT and temporarily disabling retries during remediation. It also advises using HTTPS for package downloads, which protects against traffic manipulation in this attack scenario. For enterprise security teams, the priority is to identify vulnerable installations, check retry configurations, and ensure patched packages reach production systems and the Linux images used to provision them.",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "GRC",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "zero-day",
-        "exploit",
-        "security"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Data Centres": [
-        "rack"
-      ]
-    },
-    "summary": "Linux administrators’ trust in package managers is being tested by a newly disclosed vulnerability in APT, the package management system used by Debian, Ubuntu, and their derivatives, that could allow attackers to install unverified software with root privileges. Tracked as CVE-2026-109518 , the vulnerability could let an attacker positioned to manipulate HTTP traffic between an APT client and an archive server install an attacker-controlled package without verification. Debian disclosed the flaw on November 4, crediting security researcher Max Justicz. Ubuntu subsequently rated it High, assigning it a CVSS score of 7.7."
   },
   {
     "title": "SpaceXAI plans data center in Arizona, Musk's firm claims it will have 6GW capacity",
@@ -2948,46 +2850,6 @@
     "summary": "Curbing compute farms played a big part in recent US elections, now Euro activists are making their feelings known"
   },
   {
-    "title": "Anthropic won't fix a Claude Dispatch flaw that could let attackers execute remote commands across corporate boundaries",
-    "url": "https://www.theregister.com/research/2026/11/05/anthropic-wont-fix-a-claude-dispatch-flaw-that-could-let-attackers-execute-remote-commands-across-corporate-boundaries/5307684",
-    "source": "The Register",
-    "published": "2026-11-05T13:00:00+00:00",
-    "raw_text": "From EOP to RCE in six simple steps",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "From EOP to RCE in six simple steps"
-  },
-  {
-    "title": "New York's Queens Public Library battles ransomware crims: Wi-Fi, checkouts, and website go dark",
-    "url": "https://www.theregister.com/cyber-crime/2026/11/05/new-yorks-queens-public-library-battles-ransomware-crims-wi-fi-checkouts-and-website-go-dark/5307796",
-    "source": "The Register",
-    "published": "2026-11-05T12:10:15+00:00",
-    "raw_text": "No gang has claimed the attack on incredible neighborhood resource yet",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware"
-      ]
-    },
-    "summary": "No gang has claimed the attack on incredible neighborhood resource yet"
-  },
-  {
-    "title": "Norway's aid agency pwned and all users' data is stolen",
-    "url": "https://www.theregister.com/cyber-crime/2026/11/05/norways-aid-agency-pwned-and-all-users-data-is-stolen/5307765",
-    "source": "The Register",
-    "published": "2026-11-05T11:19:16+00:00",
-    "raw_text": "Norad said it cannot be sure that the details of those in 'conflict areas and authoritarian states' are safe or not",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Norad said it cannot be sure that the details of those in 'conflict areas and authoritarian states' are safe or not"
-  },
-  {
     "title": "Adapting to a time of volatility",
     "url": "https://www.computerweekly.com/microscope/ezine/MicroScope/Adapting-to-a-time-of-volatility",
     "source": "ComputerWeekly",
@@ -3290,6 +3152,42 @@
     "summary": "The wait is over for trying Siri AI on iOS 27. Here’s what you need to know to get started."
   },
   {
+    "title": "In HelloNation, Fireplace Expert Jimmy Smith Explains How to Add a Fireplace to an Existing Home",
+    "url": "https://www.prnewswire.com/news-releases/in-hellonation-fireplace-expert-jimmy-smith-explains-how-to-add-a-fireplace-to-an-existing-home-302932202.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-07T13:00:00+00:00",
+    "raw_text": "The article outlines how homeowners can add a fireplace by matching installation options to their home's layout, heating needs, and design goals. NORTH CHARLESTON, S.C., Nov. 7, 2026 /PRNewswire/ -- Can you add a fireplace to an existing home? The answer is provided in a HelloNation...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The article outlines how homeowners can add a fireplace by matching installation options to their home's layout, heating needs, and design goals. NORTH CHARLESTON, S.C., Nov. 7, 2026 /PRNewswire/ -- Can you add a fireplace to an existing home? The answer is provided in a HelloNation..."
+  },
+  {
+    "title": "7th World Media Summit opens in Beijing",
+    "url": "https://www.prnewswire.com/news-releases/7th-world-media-summit-opens-in-beijing-302932579.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-07T12:38:00+00:00",
+    "raw_text": "BEIJING, Nov. 7, 2026 /PRNewswire/ -- The 7th World Media Summit held its opening ceremony in Beijing on Saturday under the theme \"Media in the Intelligent Age: From Consensus to Action.\" Xinhua News Agency and the Beijing municipal government jointly organized this year's summit, which...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "BEIJING, Nov. 7, 2026 /PRNewswire/ -- The 7th World Media Summit held its opening ceremony in Beijing on Saturday under the theme \"Media in the Intelligent Age: From Consensus to Action.\" Xinhua News Agency and the Beijing municipal government jointly organized this year's summit, which..."
+  },
+  {
+    "title": "JOYEE N01 Global Mass Production Launch and First Batch Delivery of 2,000 Overseas Orders Kicks Off",
+    "url": "https://www.prnewswire.com/news-releases/joyee-n01-global-mass-production-launch-and-first-batch-delivery-of-2-000-overseas-orders-kicks-off-302932578.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-07T12:25:00+00:00",
+    "raw_text": "YANCHENG, China, Nov. 7, 2026 /PRNewswire/ -- On October 28, the ceremony for the global mass production launch of the JOYEE N01 and the first batch delivery of 2,000 overseas orders was grandly held at the Yancheng Branch of China FAW. At the event, FAW Bestune delivered the first batch...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "YANCHENG, China, Nov. 7, 2026 /PRNewswire/ -- On October 28, the ceremony for the global mass production launch of the JOYEE N01 and the first batch delivery of 2,000 overseas orders was grandly held at the Yancheng Branch of China FAW. At the event, FAW Bestune delivered the first batch..."
+  },
+  {
     "title": "Pigeon Showcases Parenting Innovations at CIIE 2026 Under \"Boundless Joy of Newborn\" Theme",
     "url": "https://www.prnewswire.com/news-releases/pigeon-showcases-parenting-innovations-at-ciie-2026-under-boundless-joy-of-newborn-theme-302932569.html",
     "source": "PR Newswire - Technology",
@@ -3564,50 +3462,6 @@
     "summary": "MAILAND, 7. November 2026 /PRNewswire/ -- Segway Powersports, SSegways weltweit angebotene Produktlinie für leistungsstarke Powersports-Fahrzeuge auf professionellem Niveau, veranstaltete im Rahmen der EICMA 2026 seine „2026 International Business Partner Conference\" (internationale..."
   },
   {
-    "title": "AXON Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into AXON (AXON)",
-    "url": "https://www.prnewswire.com/news-releases/axon-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-axon-axon-302932415.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-07T01:40:00+00:00",
-    "raw_text": "Axon raised its 2026 growth forecast to 32%-34% on August 5, then cut it to approximately 30% on November 5 after pulling roughly $130 million in revenue tied to three delayed Federal Dedrone deployments. Shareholders who lost money have rights. NEW YORK, Nov. 6, 2026 /PRNewswire/ --...",
-    "categories": [
-      "Cybersecurity",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "edr"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Axon raised its 2026 growth forecast to 32%-34% on August 5, then cut it to approximately 30% on November 5 after pulling roughly $130 million in revenue tied to three delayed Federal Dedrone deployments. Shareholders who lost money have rights. NEW YORK, Nov. 6, 2026 /PRNewswire/ --..."
-  },
-  {
-    "title": "Koppers Holdings Investigation Notice: Levi & Korsinsky Notifies Investors of Pending Investigation Into Koppers Holdings Inc. (KOP)",
-    "url": "https://www.prnewswire.com/news-releases/koppers-holdings-investigation-notice-levi--korsinsky-notifies-investors-of-pending-investigation-into-koppers-holdings-inc-kop-302932421.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-07T01:40:00+00:00",
-    "raw_text": "An investigation is examining whether Koppers Holdings adequately disclosed the business and operational challenges affecting its financial performance before third-quarter results and a substantial reduction in full-year 2026 guidance sent KOP shares lower. NEW YORK, Nov. 6, 2026...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "An investigation is examining whether Koppers Holdings adequately disclosed the business and operational challenges affecting its financial performance before third-quarter results and a substantial reduction in full-year 2026 guidance sent KOP shares lower. NEW YORK, Nov. 6, 2026..."
-  },
-  {
-    "title": "Kim Wileman and Shauna Lahiri Exit No Makeup Makeup Following Rapid Growth",
-    "url": "https://www.prnewswire.com/news-releases/kim-wileman-and-shauna-lahiri-exit-no-makeup-makeup-following-rapid-growth-302932514.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-07T01:38:00+00:00",
-    "raw_text": "The executives who helped build the award-winning beauty brand No Makeup Makeup to an eight-figure revenue conclude their tenure. LOS ANGELES, Nov. 6, 2026 /PRNewswire/ -- Kim Wileman, Co-Founder and Chief Executive Officer of No Makeup Makeup®, and Shauna Lahiri, President, have...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The executives who helped build the award-winning beauty brand No Makeup Makeup to an eight-figure revenue conclude their tenure. LOS ANGELES, Nov. 6, 2026 /PRNewswire/ -- Kim Wileman, Co-Founder and Chief Executive Officer of No Makeup Makeup®, and Shauna Lahiri, President, have..."
-  },
-  {
     "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days - SecurityWeek",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTUY2TVdybUdtbVl4dDlXT1FFX3hEUTlvUGd5UmJKRWNsa1k2VzFMQVRUaXhEYUZIakhEenpEVUF4ZkdsMzY3NElDellKc29jSjV1aUJUUnBJMzVkekhtS2J6Q2YzZHpqUnJfOHJoU21CYjNXbDluZmsxSWljLUE3NlhwYVdUMnpRdzNZai01RlZvWGN6TWRxTVVQNkZuOXBYZTdBbUprYmlYeTUydEZKZndrV3Vmdw?oc=5",
     "source": "Google News: Cybersecurity",
@@ -3659,7 +3513,7 @@
     "title": "Microsoft AI Economy Institute Open Call 4: $75,000 Research Grants for Global Researchers – AI, Jobs and the Future of Work (2026–2027) - Global South Opportunities",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqRnZST092dVZMUXNhb05WQ2gyMktoSmU1djRlUElQa3o3V2pQV0hLU29XTDM2U3AzYnlUQmFWY1YwOEVRQXVBRUhOQkx5djl4T3FkazNIV0JCaXVWU2ViU29yXzVkM3FINXJQaw?oc=5",
     "source": "Google News: Digital Workplace",
-    "published": "2026-11-07T07:05:36+00:00",
+    "published": "2026-11-07T06:23:11+00:00",
     "raw_text": "Microsoft AI Economy Institute Open Call 4: $75,000 Research Grants for Global Researchers – AI, Jobs and the Future of Work (2026–2027) Global South Opportunities",
     "categories": [
       "Digital Workplace"
@@ -3670,6 +3524,22 @@
       ]
     },
     "summary": "Microsoft AI Economy Institute Open Call 4: $75,000 Research Grants for Global Researchers – AI, Jobs and the Future of Work (2026–2027) Global South Opportunities"
+  },
+  {
+    "title": "Agility Robotics co-founder on its Nasdaq debut, lessons from Amazon, and the future of work - GeekWire",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRHl1UXVmSUktSXl4cy1OWFJaMDJSSTRTLTZwRmRMcUp4dVJONjBlRXA2NUliN0FkR3d0dFlrdU4xZ0tHOHliUzRJUTZvWm9sYUxHOW5pY0MzZVpYUTdsVjNFSnYtdEhQcXA1TDJvV3ZKWWpFMlhzck1DWEgtQVd3RlZzc2hqaGh5QjRsSmVSTUhLYWY0ajdxNU1pcUZ3d180VGdmSGtOSWVvMjRaVHFDUzR4emNBUFBFTU1TRjFB?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-06T02:54:56+00:00",
+    "raw_text": "Agility Robotics co-founder on its Nasdaq debut, lessons from Amazon, and the future of work GeekWire",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "Agility Robotics co-founder on its Nasdaq debut, lessons from Amazon, and the future of work GeekWire"
   },
   {
     "title": "What the Court’s Medical Frailty Ruling Means for Patients, Advocates, and the Future of Work Reporting Requirements - Families USA",
@@ -3686,6 +3556,54 @@
       ]
     },
     "summary": "What the Court’s Medical Frailty Ruling Means for Patients, Advocates, and the Future of Work Reporting Requirements Families USA"
+  },
+  {
+    "title": "The HR trust gap: Learning from employee experience to build credibility - HRZone",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVmxpZ2dJZzFHdHpZTnN6cVdYUDVGbzlrQkk1c1c1emxBb3h6N2lLSkhKWHdpT19NVWcwS3MxSUc2QTJ4R2R5Y3FyTWVITDFtdlVZZ1YzeHBseXZ3NlVyQXdHZkRac2RvaUlTVnZ2SllmdTYteUFTSmJ2TDF1NXlZSHo4MFBVeHRCMmtNVDF4TWJNTWFDTWJ6Q3h3SmZ6ekdQMnZz?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-06T01:11:08+00:00",
+    "raw_text": "The HR trust gap: Learning from employee experience to build credibility HRZone",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "employee experience"
+      ]
+    },
+    "summary": "The HR trust gap: Learning from employee experience to build credibility HRZone"
+  },
+  {
+    "title": "Meet ‘Wrikers’: Inside an office where employees are shaping the future of work in Prague - Expats.cz",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObTl6bTU1bUN1aW1oTnJlOFIzcHVSWVZBWndfZERweEs5RWh0VHg3S1FZdk9ub3UtSklZU0tYcFpBdThLal9tU2ptOVZ2aHB2cnZvWjBKdDNqeHdmNnVnYkxtb1hnNWhaVHVmTktVWVM3eElidnJOaXdCUzVISXpwRG9NMmd2RXc4WDFtcU1lcm1Ka0RGa2cwbnJYd0xFX3c?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-06T07:00:00+00:00",
+    "raw_text": "Meet ‘Wrikers’: Inside an office where employees are shaping the future of work in Prague Expats.cz",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "Meet ‘Wrikers’: Inside an office where employees are shaping the future of work in Prague Expats.cz"
+  },
+  {
+    "title": "SoftBank Plans ChatGPT Rollout For Employees Amid AI Push - BW People",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaFdYbGpOajlWTHY1Q0FFSlpGUXJIeGxGdndKVWowQzU2ak9hMkJQWXE2cHpZLUh3SWFfc0xXRjJQZlJtYjZ1ckU3NXl4aTJaeEREOWNiM2Q2YzRRclA2NzBudWh5aS1RdEVoamdfeXdJRHFMUlJvdXkxcnFnNWxHSm5sVmdjMUI1VlM1R3dpT1JnZU5yTjFGaXY0OTQ?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-07T09:44:46+00:00",
+    "raw_text": "SoftBank Plans ChatGPT Rollout For Employees Amid AI Push BW People",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "SoftBank Plans ChatGPT Rollout For Employees Amid AI Push BW People"
   },
   {
     "title": "HP Workforce Experience Platform™ (WXP) Earns Recognition for Vision and Innovation in Digital Employee Experience Management - Yahoo Finance",
@@ -3706,70 +3624,6 @@
       ]
     },
     "summary": "HP Workforce Experience Platform™ (WXP) Earns Recognition for Vision and Innovation in Digital Employee Experience Management Yahoo Finance"
-  },
-  {
-    "title": "Agility Robotics co-founder on its Nasdaq debut, lessons from Amazon, and the future of work - GeekWire",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRHl1UXVmSUktSXl4cy1OWFJaMDJSSTRTLTZwRmRMcUp4dVJONjBlRXA2NUliN0FkR3d0dFlrdU4xZ0tHOHliUzRJUTZvWm9sYUxHOW5pY0MzZVpYUTdsVjNFSnYtdEhQcXA1TDJvV3ZKWWpFMlhzck1DWEgtQVd3RlZzc2hqaGh5QjRsSmVSTUhLYWY0ajdxNU1pcUZ3d180VGdmSGtOSWVvMjRaVHFDUzR4emNBUFBFTU1TRjFB?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-06T02:54:56+00:00",
-    "raw_text": "Agility Robotics co-founder on its Nasdaq debut, lessons from Amazon, and the future of work GeekWire",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "Agility Robotics co-founder on its Nasdaq debut, lessons from Amazon, and the future of work GeekWire"
-  },
-  {
-    "title": "The HR trust gap: Learning from employee experience to build credibility - HRZone",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVmxpZ2dJZzFHdHpZTnN6cVdYUDVGbzlrQkk1c1c1emxBb3h6N2lLSkhKWHdpT19NVWcwS3MxSUc2QTJ4R2R5Y3FyTWVITDFtdlVZZ1YzeHBseXZ3NlVyQXdHZkRac2RvaUlTVnZ2SllmdTYteUFTSmJ2TDF1NXlZSHo4MFBVeHRCMmtNVDF4TWJNTWFDTWJ6Q3h3SmZ6ekdQMnZz?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-06T01:11:08+00:00",
-    "raw_text": "The HR trust gap: Learning from employee experience to build credibility HRZone",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "employee experience"
-      ]
-    },
-    "summary": "The HR trust gap: Learning from employee experience to build credibility HRZone"
-  },
-  {
-    "title": "SoftBank Plans ChatGPT Rollout For Employees Amid AI Push - BW People",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaFdYbGpOajlWTHY1Q0FFSlpGUXJIeGxGdndKVWowQzU2ak9hMkJQWXE2cHpZLUh3SWFfc0xXRjJQZlJtYjZ1ckU3NXl4aTJaeEREOWNiM2Q2YzRRclA2NzBudWh5aS1RdEVoamdfeXdJRHFMUlJvdXkxcnFnNWxHSm5sVmdjMUI1VlM1R3dpT1JnZU5yTjFGaXY0OTQ?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-07T09:44:46+00:00",
-    "raw_text": "SoftBank Plans ChatGPT Rollout For Employees Amid AI Push BW People",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "SoftBank Plans ChatGPT Rollout For Employees Amid AI Push BW People"
-  },
-  {
-    "title": "Meet ‘Wrikers’: Inside an office where employees are shaping the future of work in Prague - Expats.cz",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObTl6bTU1bUN1aW1oTnJlOFIzcHVSWVZBWndfZERweEs5RWh0VHg3S1FZdk9ub3UtSklZU0tYcFpBdThLal9tU2ptOVZ2aHB2cnZvWjBKdDNqeHdmNnVnYkxtb1hnNWhaVHVmTktVWVM3eElidnJOaXdCUzVISXpwRG9NMmd2RXc4WDFtcU1lcm1Ka0RGa2cwbnJYd0xFX3c?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-06T07:00:00+00:00",
-    "raw_text": "Meet ‘Wrikers’: Inside an office where employees are shaping the future of work in Prague Expats.cz",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "Meet ‘Wrikers’: Inside an office where employees are shaping the future of work in Prague Expats.cz"
   },
   {
     "title": "The Future of Work in the Age of AI - United Nations Development Programme",
@@ -3926,20 +3780,20 @@
     "summary": "Five9 Acquires Level AI For Standalone Contact Center AI CMSWire"
   },
   {
-    "title": "Mexico Retail Moves Toward Omnichannel Integration in 2026 - Mexico Business News",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRXdSXzBxazBydVVLeDZaM1BwOGl1NVJxeDliY2ZvS09qTWhDYW11Q3Znb1E3WlVURUppNjk2cWVlVl9sQ0l2RHdFY3FEQmEtWThtcFpCM0RKS3NLZ085ZmczZE0zdDNNVDRQSElKZUNmcURvZDNlX1AzTmlKdm1LQTc3ZTNTanVITFdiRUxHRHVxNWc1MWZEbk9CWWlOaXM?oc=5",
+    "title": "LiveCtx Boosts Conversational AI Accuracy by Selecting Context at Query Time - Bioengineer.org",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPc2FTUUxZcURkaFlKZXdhVHdmb29udVh4eFVncnlWUzd2bHVySzRVVDBHeUIyblhYWDhRZlhUU1otam1fRlpUQTUza25VMzRjRnJINVU4OXo2c3p0U2VRdkhuRGFwU19Ud01MREVmbldNQjQxRUE1Qjl0WEpUckR2ekFpU2E3WV9NYVVLYURScnpfb3ZDd0NBaVFvRm1Fd0NGRXdJ?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-06T16:58:02+00:00",
-    "raw_text": "Mexico Retail Moves Toward Omnichannel Integration in 2026 Mexico Business News",
+    "published": "2026-11-07T12:03:16+00:00",
+    "raw_text": "LiveCtx Boosts Conversational AI Accuracy by Selecting Context at Query Time Bioengineer.org",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "omnichannel"
+        "conversational ai"
       ]
     },
-    "summary": "Mexico Retail Moves Toward Omnichannel Integration in 2026 Mexico Business News"
+    "summary": "LiveCtx Boosts Conversational AI Accuracy by Selecting Context at Query Time Bioengineer.org"
   },
   {
     "title": "Oracle recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for CRM Customer Engagement Center - Oracle Blogs",
@@ -3963,6 +3817,22 @@
     "summary": "Oracle recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for CRM Customer Engagement Center Oracle Blogs"
   },
   {
+    "title": "Mexico Retail Moves Toward Omnichannel Integration in 2026 - Mexico Business News",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRXdSXzBxazBydVVLeDZaM1BwOGl1NVJxeDliY2ZvS09qTWhDYW11Q3Znb1E3WlVURUppNjk2cWVlVl9sQ0l2RHdFY3FEQmEtWThtcFpCM0RKS3NLZ085ZmczZE0zdDNNVDRQSElKZUNmcURvZDNlX1AzTmlKdm1LQTc3ZTNTanVITFdiRUxHRHVxNWc1MWZEbk9CWWlOaXM?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-06T16:58:02+00:00",
+    "raw_text": "Mexico Retail Moves Toward Omnichannel Integration in 2026 Mexico Business News",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "omnichannel"
+      ]
+    },
+    "summary": "Mexico Retail Moves Toward Omnichannel Integration in 2026 Mexico Business News"
+  },
+  {
     "title": "Five9 buys contact center intelligence startup Level AI after posting narrow earnings beat - SiliconANGLE",
     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQalY1a3dwcEYzeHBYU2ZlS3FqTmt4MklFczNHS1RmQUZVdVg1bkpackRhTDVBQmZrZVlVLTFOZnc4NDNRWlFmQ0RfeElGOXJnTjNyb3JOdWwzYnpFN05wMFpFYzhJSVRqdUR4ZUVzeVBic0hsOHU4bjBMMFZaWUFDZlgxRlE0VzJVWWNqT0NCdlV5c0E0ZEFpNHR5bW8tT0tTcllvZ3M1VW9DMTF3bDNQZlJtWHZMV24tZldUUWx2dHlKc25NNWc?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -3978,22 +3848,6 @@
       ]
     },
     "summary": "Five9 buys contact center intelligence startup Level AI after posting narrow earnings beat SiliconANGLE"
-  },
-  {
-    "title": "CVS’s customer experience lead Sri Narasimhan on pleasing people across verticals - Healthcare Brew",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjQ2c0RS1OX0RXXzdjTHRIZUszWG51VTV4Y0Yyb2xvOEl5MWZmc3I3a2lfcmdPN1pGU0oxS2N5RFJQVTVYY0V3dk5XRlNrN2ZnaW5EQ2RZOTc0Q1RXdDFxd3hKei1BbmlvN0x2cnlZWmhhZEZOb1Fr?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-06T16:22:27+00:00",
-    "raw_text": "CVS’s customer experience lead Sri Narasimhan on pleasing people across verticals Healthcare Brew",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "CVS’s customer experience lead Sri Narasimhan on pleasing people across verticals Healthcare Brew"
   },
   {
     "title": "Mercedes Hopes to Woo Motorists With In-Car Conversational AI - PYMNTS.com",
@@ -4012,20 +3866,20 @@
     "summary": "Mercedes Hopes to Woo Motorists With In-Car Conversational AI PYMNTS.com"
   },
   {
-    "title": "Contact Center Quality Assurance Without the AI Theater - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbEtWV3JSTEEzNEJiV2hfUXM2QV80Qk9SUE1EbXI3NmNyNE5ySkgyZkVzRU5nUEV3ZmN4N2FSU2t2RGlzZDQzOHBVX1Q5cHY5Sy1GWE4xUzFsUnUwRGMxTEh2OVE1RnM4bkR6TkpaQkpWM04tNWZacFF0TnZIcUdNSWgtbGtmcFk2bXNMZVVoQXVic1pMcmkw?oc=5",
+    "title": "CVS’s customer experience lead Sri Narasimhan on pleasing people across verticals - Healthcare Brew",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBjQ2c0RS1OX0RXXzdjTHRIZUszWG51VTV4Y0Yyb2xvOEl5MWZmc3I3a2lfcmdPN1pGU0oxS2N5RFJQVTVYY0V3dk5XRlNrN2ZnaW5EQ2RZOTc0Q1RXdDFxd3hKei1BbmlvN0x2cnlZWmhhZEZOb1Fr?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-06T13:32:17+00:00",
-    "raw_text": "Contact Center Quality Assurance Without the AI Theater CX Today",
+    "published": "2026-11-06T16:22:27+00:00",
+    "raw_text": "CVS’s customer experience lead Sri Narasimhan on pleasing people across verticals Healthcare Brew",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "contact center"
+        "customer experience"
       ]
     },
-    "summary": "Contact Center Quality Assurance Without the AI Theater CX Today"
+    "summary": "CVS’s customer experience lead Sri Narasimhan on pleasing people across verticals Healthcare Brew"
   },
   {
     "title": "Why Healthcare Can’t Skip Steps on the Way to Conversational AI - HIT Consultant",
@@ -4044,6 +3898,22 @@
     "summary": "Why Healthcare Can’t Skip Steps on the Way to Conversational AI HIT Consultant"
   },
   {
+    "title": "Contact Center Quality Assurance Without the AI Theater - CX Today",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbEtWV3JSTEEzNEJiV2hfUXM2QV80Qk9SUE1EbXI3NmNyNE5ySkgyZkVzRU5nUEV3ZmN4N2FSU2t2RGlzZDQzOHBVX1Q5cHY5Sy1GWE4xUzFsUnUwRGMxTEh2OVE1RnM4bkR6TkpaQkpWM04tNWZacFF0TnZIcUdNSWgtbGtmcFk2bXNMZVVoQXVic1pMcmkw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-06T13:32:17+00:00",
+    "raw_text": "Contact Center Quality Assurance Without the AI Theater CX Today",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "contact center"
+      ]
+    },
+    "summary": "Contact Center Quality Assurance Without the AI Theater CX Today"
+  },
+  {
     "title": "Enterprise IT, Contact Center Leaders Prioritize Voice Orchestration, Provider Consolidation as AI Reshapes CX - Yahoo Finance Singapore",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOXFKYjdNbHpmY083eklXWU1Zb2NHMlZ3bHdrT3hMM3YwZTAtUkkyZ1NLeEpTRzFsaUE2S0dqT3V1VFEtVkhTMGxCbWlxZ1J2TzM3am9PWFo4V0hEeEJYd3BZZEFDN01mRnRfLTh3TV9KQ1lkYTF6c0FKRnZmd0tiOF9zbTRPSFUwejJURVZzSXdNT2pXUUZJNw?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4060,18 +3930,6 @@
     "summary": "Enterprise IT, Contact Center Leaders Prioritize Voice Orchestration, Provider Consolidation as AI Reshapes CX Yahoo Finance Singapore"
   },
   {
-    "title": "FIVN Q3 Earnings Call Highlights AI Growth and Level AI Deal - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQkpNd0lQSVREUWYwRmtWNGxnZTRVMUpHWmpBUWFpblA4SnR0aWxTTEhlQTlBRDlOdTlXZzU4ck9QbEdwSTRSd01aZENhWHExV1l4TWdHSExYNjhGTFQyM29DdXZLMmpkZ01OOUNrSGZGb3l5Y3dpekIyZGFOWHZiSkVOdzc4NTh2NlhyUE1zOUNvVHBTbHZVd3oxbktGNXl1UlRXUHdNMUp4QlFOSi1kamRqbEdoU1U?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-06T20:57:35+00:00",
-    "raw_text": "FIVN Q3 Earnings Call Highlights AI Growth and Level AI Deal TradingView",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "FIVN Q3 Earnings Call Highlights AI Growth and Level AI Deal TradingView"
-  },
-  {
     "title": "Why Trader Joe’s doesn’t deliver, or offer curb pickup - Retail Customer Experience",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQS1LNEFPdl9tQ2dpcWVBTTVvTGNRU09GTUYzc0VadmwtTDVpWlVLRVJ3WkNLYnFObUZVSV9RWW96dGc3VEc4OEg1VlZsRk5BanJfOVR0UDhoNWx3ekQ4ay1hemhEVkhZbWJuMjEtaDhMR2NyVnYwSm5sU2poM2N4WU9nZ3FqNE5MSEpseF9RVFdkYzhzTzBRSmp6R3JPUDA?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4086,6 +3944,18 @@
       ]
     },
     "summary": "Why Trader Joe’s doesn’t deliver, or offer curb pickup Retail Customer Experience"
+  },
+  {
+    "title": "FIVN Q3 Earnings Call Highlights AI Growth and Level AI Deal - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQkpNd0lQSVREUWYwRmtWNGxnZTRVMUpHWmpBUWFpblA4SnR0aWxTTEhlQTlBRDlOdTlXZzU4ck9QbEdwSTRSd01aZENhWHExV1l4TWdHSExYNjhGTFQyM29DdXZLMmpkZ01OOUNrSGZGb3l5Y3dpekIyZGFOWHZiSkVOdzc4NTh2NlhyUE1zOUNvVHBTbHZVd3oxbktGNXl1UlRXUHdNMUp4QlFOSi1kamRqbEdoU1U?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-06T20:57:35+00:00",
+    "raw_text": "FIVN Q3 Earnings Call Highlights AI Growth and Level AI Deal TradingView",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "FIVN Q3 Earnings Call Highlights AI Growth and Level AI Deal TradingView"
   },
   {
     "title": "When Automation Levels the Field, Customer Experience Becomes the Real Test - CMSWire",
@@ -4148,6 +4018,22 @@
     "summary": "How CSPs Can Turn Agentic Customer Experience Ambitions into Measurable Outcomes Telecom Review Asia"
   },
   {
+    "title": "Genesys Embeds FDEs to Push Agentic CX Into Production - CMSWire",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZnJFU2MtN1ZuUGZOVHBzY2xrMFdKM2pZSTlsNkhMdkFWUzFlU0hPMTFIVVNyQW5jSC1YRGxvUl8yN24waHJ0U1ZmU3VIQ19GYk1qekQ4OUd2U01LakZKcWY2V3REVUtKc1ByV3Y5Wk9XTHZ2UUE1ZXlwejBxRWt6bHVBRFl5UXFleDlENnpEenFlRUtWUzRHU19POXF4bllKMGc?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-05T16:28:29+00:00",
+    "raw_text": "Genesys Embeds FDEs to Push Agentic CX Into Production CMSWire",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "genesys"
+      ]
+    },
+    "summary": "Genesys Embeds FDEs to Push Agentic CX Into Production CMSWire"
+  },
+  {
     "title": "Business Matters: Embrace the Journey: How To Map The Customer Experience - St. Thomas Source",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRndFRWY1WE1ZYXkyLXVjQlpBSVJaTlBteTVuSHJxT2ozWmZQZTQxSWZiMjQySmw3T1h3UVBOWnV0M0JKRUtWcGxxaU1sUHFsdll1MzRvYWJiNVJwa1BQazVpMlIzaTNHQTJVclBIaWIwb1ltSUd6bnNMbWJCU0RVaTFpOEVvSm9QX3FES1ljU2Q4c0xmUkpacURIeXoxMkNXLVJVaWVyTDlma0J5N2pBaS1PZllYRmpxZEE?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4168,11 +4054,11 @@
     "summary": "Business Matters: Embrace the Journey: How To Map The Customer Experience St. Thomas Source"
   },
   {
-    "title": "BPI’s digital push puts customer experience at the centre - The Digital Banker",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVElMbVU5TURNb2p2OG9kOExOeGVheUlhV2RDeWQ2YXVjZTM5cmRmMjduRWl0d00tZ2NGM0FqaE96RTRJRVlxYUpCQUFVWDJYNFN3aTNpTVh3TU95bWJYSC1qcUxlcVFjektKM1J6bEUzU0NQSlBwektwSjVOaFJIMkR2RE12Q1pkMnBZbWJLOA?oc=5",
+    "title": "Extell, Hyatt team to bring StandardX Hotel brand to North America - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0tEMXR2SENqZ1VHOFBaR3lTejcxSEp2aXdiZVBPd0ctTXBtQjZHb0NHZG0xR2V5THVDV09saFR1S2JHaUotQjNqWjBxTnQwVFhQbjlPeTlsbS1uNEk0Z2V6bV9rd0FUYmt1M1dwYW40NWV3V3dEUVdVQnVJU0xXUlVONDVXM0tQcFlZeGxqUWVraW9EaXZHUWRkNUg2TThKT1pzYkdRMDNBZHgtcmVPMjFR?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-06T06:08:17+00:00",
-    "raw_text": "BPI’s digital push puts customer experience at the centre The Digital Banker",
+    "published": "2026-11-06T11:00:00+00:00",
+    "raw_text": "Extell, Hyatt team to bring StandardX Hotel brand to North America Retail Customer Experience",
     "categories": [
       "Digital Customer Experience"
     ],
@@ -4181,23 +4067,7 @@
         "customer experience"
       ]
     },
-    "summary": "BPI’s digital push puts customer experience at the centre The Digital Banker"
-  },
-  {
-    "title": "Genesys Embeds FDEs to Push Agentic CX Into Production - CMSWire",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZnJFU2MtN1ZuUGZOVHBzY2xrMFdKM2pZSTlsNkhMdkFWUzFlU0hPMTFIVVNyQW5jSC1YRGxvUl8yN24waHJ0U1ZmU3VIQ19GYk1qekQ4OUd2U01LakZKcWY2V3REVUtKc1ByV3Y5Wk9XTHZ2UUE1ZXlwejBxRWt6bHVBRFl5UXFleDlENnpEenFlRUtWUzRHU19POXF4bllKMGc?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-05T16:28:29+00:00",
-    "raw_text": "Genesys Embeds FDEs to Push Agentic CX Into Production CMSWire",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "genesys"
-      ]
-    },
-    "summary": "Genesys Embeds FDEs to Push Agentic CX Into Production CMSWire"
+    "summary": "Extell, Hyatt team to bring StandardX Hotel brand to North America Retail Customer Experience"
   },
   {
     "title": "Stanley Black & Decker integrates Anchanto OMS to drive omnichannel sales across South Korea - marketech apac",
@@ -4218,22 +4088,6 @@
       ]
     },
     "summary": "Stanley Black & Decker integrates Anchanto OMS to drive omnichannel sales across South Korea marketech apac"
-  },
-  {
-    "title": "Extell, Hyatt team to bring StandardX Hotel brand to North America - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNM0tEMXR2SENqZ1VHOFBaR3lTejcxSEp2aXdiZVBPd0ctTXBtQjZHb0NHZG0xR2V5THVDV09saFR1S2JHaUotQjNqWjBxTnQwVFhQbjlPeTlsbS1uNEk0Z2V6bV9rd0FUYmt1M1dwYW40NWV3V3dEUVdVQnVJU0xXUlVONDVXM0tQcFlZeGxqUWVraW9EaXZHUWRkNUg2TThKT1pzYkdRMDNBZHgtcmVPMjFR?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-06T11:00:00+00:00",
-    "raw_text": "Extell, Hyatt team to bring StandardX Hotel brand to North America Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Extell, Hyatt team to bring StandardX Hotel brand to North America Retail Customer Experience"
   },
   {
     "title": "Form 4 MSC Industrial Direct Company Inc: Kimberly Shacklett (SVP, Customer Experience) For: 4 November - Investing.com India",
@@ -4268,18 +4122,6 @@
     "summary": "Form 4 MSC Industrial Direct Company Inc: Kimberly Shacklett (SVP, Customer Experience) For: 3 November Investing.com Canada"
   },
   {
-    "title": "IntouchCX Recognized for Operations led AI and End to End CX Transformation by HFS Research - Via TT",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQM01GZkxRY2NLOV9neUEtLTk1VTJvRjU0NlVOaTc3WVJidlpFQzJfdTE1NDZ6UC1RR1F6Q2wzQVZoZEFxQ1NNZjVlaEtIcTl6NGtXZkktTWFvZHFkWUZKZ1U2QlFic2hQWmxFVWxPaWFxVVE4cGhxVFdTcXJka3pidFZFWERnVzVBYmg1SnpXV0ZxWEZjMFVEejRHNjdNUTExaDEwakRSeW5xWkdiSDc1S0NDc25xVHlNYVM0THRrcTNoQUkyRGtUM2Q2U0ZjNjlIVGlPeWJpOXJ6NlJoTmNicUJJdFN2WW8zUkpIbk10Qi1nQQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-06T14:00:00+00:00",
-    "raw_text": "IntouchCX Recognized for Operations led AI and End to End CX Transformation by HFS Research Via TT",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "IntouchCX Recognized for Operations led AI and End to End CX Transformation by HFS Research Via TT"
-  },
-  {
     "title": "Screwfix ranks fourth among 100 UK brands for customer experience - InteriorDaily",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaTBtbmFpUVZvV2Viakp3cUd2aEZNdS1HcUVpcndSQU5zZVoyUTExTXhIeHBwRF8zNngyd05VT0RybmdOb0d5NHotZUxxOVhsS1hBZy1zTzBPUGM0N213Y0RnNGFJcV9rSDRjN2pNZmxjdDV0UjgtSThnSkEwU1Z5WHRHOEM4cDVaeFVrZ29Ya1ZHX1lDbTZKODBCRENWdmxRUFJ4YXpOTmZsR2RZM2hkYUdB?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4296,56 +4138,16 @@
     "summary": "Screwfix ranks fourth among 100 UK brands for customer experience InteriorDaily"
   },
   {
-    "title": "McDonald's U.S. Marketing and Customer Experience Chief Alyssa Buetikofer Steps Down - VZ VermögensZentrum",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRzUweEhpN2dDYmZ2TnNIR1A0M2lQeUZGMkJROGtjWlh3UXNyZjNmNG0teGtJbUpMVGV6N1N1ZjhtMHRMNWRGb3RVOFNCMEozZ0VqTmNLdUdCbnp4b2VwaEJjVEpQTjlrb04tNEZPTTctQVdreFN6Wi1QZmtxelhXV1pZSUZFSVdkYndsZHZidVBSZ2lJWW9vdkcwdkJ4OHMzMXVkVk4tNjZBSVZrVENzYkJsQU0yc3g3WERDSEZQX3hzb1ZDakE?oc=5",
+    "title": "IntouchCX Recognized for Operations led AI and End to End CX Transformation by HFS Research - Via TT",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQM01GZkxRY2NLOV9neUEtLTk1VTJvRjU0NlVOaTc3WVJidlpFQzJfdTE1NDZ6UC1RR1F6Q2wzQVZoZEFxQ1NNZjVlaEtIcTl6NGtXZkktTWFvZHFkWUZKZ1U2QlFic2hQWmxFVWxPaWFxVVE4cGhxVFdTcXJka3pidFZFWERnVzVBYmg1SnpXV0ZxWEZjMFVEejRHNjdNUTExaDEwakRSeW5xWkdiSDc1S0NDc25xVHlNYVM0THRrcTNoQUkyRGtUM2Q2U0ZjNjlIVGlPeWJpOXJ6NlJoTmNicUJJdFN2WW8zUkpIbk10Qi1nQQ?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-05T19:22:00+00:00",
-    "raw_text": "McDonald's U.S. Marketing and Customer Experience Chief Alyssa Buetikofer Steps Down VZ VermögensZentrum",
+    "published": "2026-11-06T14:00:00+00:00",
+    "raw_text": "IntouchCX Recognized for Operations led AI and End to End CX Transformation by HFS Research Via TT",
     "categories": [
-      "Digital Customer Experience"
+      "Uncategorised"
     ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "McDonald's U.S. Marketing and Customer Experience Chief Alyssa Buetikofer Steps Down VZ VermögensZentrum"
-  },
-  {
-    "title": "Pypestream Adds Voice AI Handoff to Contact Center - ACCESS Newswire",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOUkdRUHZnemdJYU4ySGtkdzBkM3J3ZE1rWk1lRXItSXJqeVJja1FMMGlYWHNHYkhuejAzT09aY0EzU3NSOFkzWnRPam93Q0ROSkxwenBDaFhWNzFDTkRlLUlTbEUwZ1NpUU5PeGN1VF9rYTExdFE2eU5MYWduYzFXRnk3YWVST0lWNWNYMm5EY1g1Wkg3c3VPVUlndGFFamlZNWtnWFoxYUFOUUxKUGlCZXdVVWFZaEdHOHI3SEhrNHJRZTczV2FmdU93YUpFbTV1V1ZhOW9aNTY5R2w2TFVHTU1BNUQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-05T12:00:00+00:00",
-    "raw_text": "Pypestream Adds Voice AI Handoff to Contact Center ACCESS Newswire",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "contact center"
-      ]
-    },
-    "summary": "Pypestream Adds Voice AI Handoff to Contact Center ACCESS Newswire"
-  },
-  {
-    "title": "Salmon underscores reliability, 24/7 support and multi-layered security in customer experience - Unbox PH",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40d0cwVk9DcXViZXViSEdEcWtQNlNwSlpuZnplenhULWpNa2hkWXFoMlJMVjQ5dDljQk40R1FvZ09hbjhKNEtpUXQ0UmprSmhYeWlnaGg1VmUzRldrNWV6ekcybzRmY3RsQWc?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-05T11:40:57+00:00",
-    "raw_text": "Salmon underscores reliability, 24/7 support and multi-layered security in customer experience Unbox PH",
-    "categories": [
-      "Cybersecurity",
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ],
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Salmon underscores reliability, 24/7 support and multi-layered security in customer experience Unbox PH"
+    "matched_keywords": {},
+    "summary": "IntouchCX Recognized for Operations led AI and End to End CX Transformation by HFS Research Via TT"
   },
   {
     "title": "Salmon underscores reliable app, 24/7 support and multi-layered security in customer experience - Manila Bulletin",
@@ -4366,5 +4168,41 @@
       ]
     },
     "summary": "Salmon underscores reliable app, 24/7 support and multi-layered security in customer experience Manila Bulletin"
+  },
+  {
+    "title": "Salesforce stock: Cresta deal expands its AI service push - ad-hoc-news.de",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUzRQQkFkNUlfaE52aEhmODQ0Z0tKWDJoc3VsTTJhM0VmeGViUDdUbmhOb3dkNG5OLUs2SmtvVzlRSlUyNzVTRjF5b2x6T1lEZjg3TFVfMkNjVEtxRDhSX3Y0QXZXUUlmcVpISWpVUkRJSkw5Y0NCU2JCMHJPdDNWeV96d1R4dk9ZMTJhbnRVQmxpekR3ZFFtbl9ac3ptVVpwNE9obUE3QUdkdldKY0VBT2VhcEtXNWFhcGpj?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-07T10:27:21+00:00",
+    "raw_text": "Salesforce stock: Cresta deal expands its AI service push ad-hoc-news.de",
+    "categories": [
+      "Industry & Market",
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands"
+      ],
+      "Digital Customer Experience": [
+        "salesforce"
+      ]
+    },
+    "summary": "Salesforce stock: Cresta deal expands its AI service push ad-hoc-news.de"
+  },
+  {
+    "title": "TUI stock: ROBINSON plans second Soma Bay resort by 2029 - ad-hoc-news.de",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcUJPX1FqaEFDVElWUVhQaTh2UHZuR2puNmdhaVhVU0hXRnNROE9WRHViU2tta2lBMVVhUGZqVGZnQ09DU2FpVHJ6NTFQNENIb1plWWpOcUx1SFRBQW1HV2htOFNweEdwQ19EREpfQUQyMEZKaWpFclBvREVQZDlBbmtGeEd3cXgwS1huRk82SmpXT3h4d2FFdTdZWDk4WEhtNGJxNnc1UzZDdVhHaG1uWlJGeWJXaUxCanc?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-07T11:34:19+00:00",
+    "raw_text": "TUI stock: ROBINSON plans second Soma Bay resort by 2029 ad-hoc-news.de",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "TUI stock: ROBINSON plans second Soma Bay resort by 2029 ad-hoc-news.de"
   }
 ]
