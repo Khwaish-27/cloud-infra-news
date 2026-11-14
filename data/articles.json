@@ -1,5 +1,29 @@
 [
   {
+    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "source": "The Hacker News",
+    "published": "2026-11-14T12:38:35+00:00",
+    "raw_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+    "categories": [
+      "Cybersecurity",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "vulnerability",
+        "cve",
+        "exploit",
+        "security",
+        "cyber"
+      ],
+      "Data Centres": [
+        "rack"
+      ]
+    },
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters"
+  },
+  {
     "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
     "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
     "source": "The Hacker News",
@@ -310,84 +334,6 @@
       ]
     },
     "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches. This delivery pattern has been codenamed TypoPrompting by Island. \"AI-app lookalikes that turn an attempt to reach a familiar tool into a prompt to verify,"
-  },
-  {
-    "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
-    "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
-    "source": "The Hacker News",
-    "published": "2026-11-12T13:08:28+00:00",
-    "raw_text": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "vulnerability",
-        "cve",
-        "exploit",
-        "hacker",
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged. Blackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacker News, said the recovered attacker toolkit exploits CVE-2026-84869 (CVSS score: 9.9), an"
-  },
-  {
-    "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-    "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-    "source": "The Hacker News",
-    "published": "2026-11-12T12:09:14+00:00",
-    "raw_text": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "aws",
-        "google cloud"
-      ]
-    },
-    "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week. The company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker with code on the same processor core infer data from other processes or the kernel. The affected"
-  },
-  {
-    "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-    "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-    "source": "The Hacker News",
-    "published": "2026-11-12T11:51:43+00:00",
-    "raw_text": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "exploit"
-      ]
-    },
-    "summary": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2. \"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is"
-  },
-  {
-    "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-    "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-    "source": "The Hacker News",
-    "published": "2026-11-12T11:51:31+00:00",
-    "raw_text": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
-    "categories": [
-      "Cybersecurity",
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud"
-      ],
-      "Cybersecurity": [
-        "phishing",
-        "threat",
-        "security"
-      ]
-    },
-    "summary": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose. The Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire."
   },
   {
     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
@@ -1359,7 +1305,7 @@
     "url": "https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb/",
     "source": "Google Cloud Blog",
     "published": "2026-11-13T17:00:00+00:00",
-    "raw_text": "Bridging the gap between analytical systems (OLAP) and transactional databases (OLTP) is notoriously complex. Synchronizing data between the two systems, often called Reverse ETL (Extract, Transform, Load), traditionally requires heavy middleware, staging buckets, and complex orchestration, especially at enterprise scale. We’re announcing the general availability (GA) of BigQuery exports to AlloyDB , allowing data engineering teams to use a single, declarative SQL statement to export data from BigQuery to AlloyDB. This approach completely removes the need for complex ETL middleware. To demonstrate the benefits of this feature, we are sharing how Copel , a Brazilian electric power provider, eliminated a massive orchestration bottleneck and scaled their smart meter telemetry by migrating to high-performance, built-in Reverse ETL. The challenge of scaling smart meter telemetry At Copel, managing telemetry data from millions of smart electricity meters is a mission-critical operation. This data is streamed continuously and consolidated in an analytical Gold layer in BigQuery. However, to power Copel's \"Systems of Action\" — low-latency customer support dashboards, mobile applications, and operational billing systems — this rich dataset must be constantly synced back into its high-performance transactional database, AlloyDB for PostgreSQL. Until recently, Copel orchestrated this Reverse ETL architecture with a complex DAG in Google’s Managed Service for Apache Airflow. However, there were multiple brittle, intermediate stages in the process of enriching and exporting hundreds of millions of records from BigQuery to AlloyDB: Figure 1: Copel’s legacy multi-stage architecture requiring Cloud Storage file dumps and sequential gCloud scripts. BigQuery ran enrichment and extraction queries, dumping SQL results into dozens of fragmented CSV files inside a Google Cloud Storage bucket. Apache Airflow executed SQL to create temp tables in AlloyDB to prevent write locking or data corruption for production tables. Sequential gCloud scripts combed through the Cloud Storage CSVs to load data into a respective AlloyDB cluster and shards. Finally, a SQL transaction block safely dropped the production table and renamed the temporary table to production. To run this legacy architecture, Copel’s team needed to maintain the pipeline, carefully manage file staging, perform complex IAM impersonation across multiple services, and constantly monitor end-to-end system health. The breakthrough: Built-in Reverse ETL With BigQuery's EXPORT DATA to AlloyDB , Copel was able to replace this entire multi-step pipeline infrastructure with a single, elegant SQL statement. Now, BigQuery exports communicate directly with AlloyDB instances over highly optimized, parallelized connections — no staging files in Cloud Storage, gCloud scripts, or managing temporary tables required! Figure 2: New architecture showing direct parallel Reverse ETL connection between BigQuery and AlloyDB. Here is how simple the new Reverse ETL process looks in code: code_block <ListValue: [StructValue([('code', 'EXPORT DATA\\r\\n WITH CONNECTION `project_id.location.connection_id`\\r\\n OPTIONS(\\r\\n format=\\'ALLOYDB\\',\\r\\n uri=\"https://alloydb.googleapis.com/v1/projects/my-project/locations/my-location/clusters/my-cluster/instances/my-instance\",\\r\\n alloydb_options=\"\"\"{\\r\\n \"table\": \"operational_telemetry\"\\r\\n }\"\"\"\\r\\n )\\r\\nAS SELECT \\r\\n meter_id,\\r\\n reading_timestamp,\\r\\n -- On-the-fly serialization to JSONB\\r\\n TO_JSON(hourly_metrics) AS hourly_metrics_jsonb\\r\\nFROM \\r\\n `project_id.dataset_id.smart_meter_telemetry`;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc25d97c610>)])]> The resulting BigQuery values map perfectly to AlloyDB's columns during the export, leaving the nested structures fully queryable and indexable on the PostgreSQL side. Evaluating performance and scalability To validate this new architecture, Copel executed two large-scale Reverse ETL benchmarks: comparing the performance and scalability of a smaller incremental Reverse ETL export against a much larger full-table Reverse ETL export. The performance results exceeded all initial expectations: Metric Test 1: Incremental Export Test 2: Full-Table Export Total Rows Exported 18,145,589 rows 207,484,577 rows Logical Data Size 2.32 GB 188.87 GB Export Throughput ~3.1 Million rows / minute ~4.2 Million rows / minute AlloyDB Specs N2 (16 vCPUs, 128 GB RAM) N2 (16 vCPUs, 128 GB RAM) CPU Utilization Hovered stably at ~85% Hovered stably at ~85% Pro-tip on ingestion : Sustaining an export throughput of ~4.2 million rows/minute on complex JSONB telemetry fields is an outstanding technical achievement. It highlights the low-level optimizations between BigQuery's distributed processing engine and AlloyDB's advanced storage layer. Key takeaways and benefits By adopting this declarative SQL approach, Copel successfully deleted dozens of lines of complex scripting and custom error-handling blocks. Their Airflow DAG now contains a single, simplified BigQueryInsertJobOperator task that executes the export query. This built-in approach unlocks several core business benefits: Direct cost reduction: By bypassing Cloud Storage entirely, there are no staging storage costs and associated API read/write operation fees. Enhanced data security: Data moves directly from BigQuery to AlloyDB inside Google's secure internal network without ever being dumped into readable CSV files. Near-zero maintenance: Pipeline errors are now contained within a single SQL statement, making troubleshooting and logging drastically simpler. Massive distributed writing : The direct export achieved write speeds exceeding 4 million records per minute by leveraging BigQuery's massive parallelism combined with AlloyDB's optimized PostgreSQL write performance. Now, rather than spending valuable engineering hours monitoring pipeline failures and intermediate storage buffers, data engineering teams can focus on what matters: delivering smart analytics and premium experiences to customers. Get started today: Modernize your Reverse ETL Now that BigQuery exports to AlloyDB are generally available, there has never been a better time to simplify your data architecture. If your team is struggling with complex, multi-stage pipelines to push BigQuery data into downstream OLTP databases, we invite you to try built-in export functionality for AlloyDB , Bigtable , Spanner , or Pub/Sub today.",
+    "raw_text": "Bridging the gap between analytical systems (OLAP) and transactional databases (OLTP) is notoriously complex. Synchronizing data between the two systems, often called Reverse ETL (Extract, Transform, Load), traditionally requires heavy middleware, staging buckets, and complex orchestration, especially at enterprise scale. We’re announcing the general availability (GA) of BigQuery exports to AlloyDB , allowing data engineering teams to use a single, declarative SQL statement to export data from BigQuery to AlloyDB. This approach completely removes the need for complex ETL middleware. To demonstrate the benefits of this feature, we are sharing how Copel , a Brazilian electric power provider, eliminated a massive orchestration bottleneck and scaled their smart meter telemetry by migrating to high-performance, built-in Reverse ETL. The challenge of scaling smart meter telemetry At Copel, managing telemetry data from millions of smart electricity meters is a mission-critical operation. This data is streamed continuously and consolidated in an analytical Gold layer in BigQuery. However, to power Copel's \"Systems of Action\" — low-latency customer support dashboards, mobile applications, and operational billing systems — this rich dataset must be constantly synced back into its high-performance transactional database, AlloyDB for PostgreSQL. Until recently, Copel orchestrated this Reverse ETL architecture with a complex DAG in Google’s Managed Service for Apache Airflow. However, there were multiple brittle, intermediate stages in the process of enriching and exporting hundreds of millions of records from BigQuery to AlloyDB: Figure 1: Copel’s legacy multi-stage architecture requiring Cloud Storage file dumps and sequential gCloud scripts. BigQuery ran enrichment and extraction queries, dumping SQL results into dozens of fragmented CSV files inside a Google Cloud Storage bucket. Apache Airflow executed SQL to create temp tables in AlloyDB to prevent write locking or data corruption for production tables. Sequential gCloud scripts combed through the Cloud Storage CSVs to load data into a respective AlloyDB cluster and shards. Finally, a SQL transaction block safely dropped the production table and renamed the temporary table to production. To run this legacy architecture, Copel’s team needed to maintain the pipeline, carefully manage file staging, perform complex IAM impersonation across multiple services, and constantly monitor end-to-end system health. The breakthrough: Built-in Reverse ETL With BigQuery's EXPORT DATA to AlloyDB , Copel was able to replace this entire multi-step pipeline infrastructure with a single, elegant SQL statement. Now, BigQuery exports communicate directly with AlloyDB instances over highly optimized, parallelized connections — no staging files in Cloud Storage, gCloud scripts, or managing temporary tables required! Figure 2: New architecture showing direct parallel Reverse ETL connection between BigQuery and AlloyDB. Here is how simple the new Reverse ETL process looks in code: code_block <ListValue: [StructValue([('code', 'EXPORT DATA\\r\\n WITH CONNECTION `project_id.location.connection_id`\\r\\n OPTIONS(\\r\\n format=\\'ALLOYDB\\',\\r\\n uri=\"https://alloydb.googleapis.com/v1/projects/my-project/locations/my-location/clusters/my-cluster/instances/my-instance\",\\r\\n alloydb_options=\"\"\"{\\r\\n \"table\": \"operational_telemetry\"\\r\\n }\"\"\"\\r\\n )\\r\\nAS SELECT \\r\\n meter_id,\\r\\n reading_timestamp,\\r\\n -- On-the-fly serialization to JSONB\\r\\n TO_JSON(hourly_metrics) AS hourly_metrics_jsonb\\r\\nFROM \\r\\n `project_id.dataset_id.smart_meter_telemetry`;'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f537d3b48d0>)])]> The resulting BigQuery values map perfectly to AlloyDB's columns during the export, leaving the nested structures fully queryable and indexable on the PostgreSQL side. Evaluating performance and scalability To validate this new architecture, Copel executed two large-scale Reverse ETL benchmarks: comparing the performance and scalability of a smaller incremental Reverse ETL export against a much larger full-table Reverse ETL export. The performance results exceeded all initial expectations: Metric Test 1: Incremental Export Test 2: Full-Table Export Total Rows Exported 18,145,589 rows 207,484,577 rows Logical Data Size 2.32 GB 188.87 GB Export Throughput ~3.1 Million rows / minute ~4.2 Million rows / minute AlloyDB Specs N2 (16 vCPUs, 128 GB RAM) N2 (16 vCPUs, 128 GB RAM) CPU Utilization Hovered stably at ~85% Hovered stably at ~85% Pro-tip on ingestion : Sustaining an export throughput of ~4.2 million rows/minute on complex JSONB telemetry fields is an outstanding technical achievement. It highlights the low-level optimizations between BigQuery's distributed processing engine and AlloyDB's advanced storage layer. Key takeaways and benefits By adopting this declarative SQL approach, Copel successfully deleted dozens of lines of complex scripting and custom error-handling blocks. Their Airflow DAG now contains a single, simplified BigQueryInsertJobOperator task that executes the export query. This built-in approach unlocks several core business benefits: Direct cost reduction: By bypassing Cloud Storage entirely, there are no staging storage costs and associated API read/write operation fees. Enhanced data security: Data moves directly from BigQuery to AlloyDB inside Google's secure internal network without ever being dumped into readable CSV files. Near-zero maintenance: Pipeline errors are now contained within a single SQL statement, making troubleshooting and logging drastically simpler. Massive distributed writing : The direct export achieved write speeds exceeding 4 million records per minute by leveraging BigQuery's massive parallelism combined with AlloyDB's optimized PostgreSQL write performance. Now, rather than spending valuable engineering hours monitoring pipeline failures and intermediate storage buffers, data engineering teams can focus on what matters: delivering smart analytics and premium experiences to customers. Get started today: Modernize your Reverse ETL Now that BigQuery exports to AlloyDB are generally available, there has never been a better time to simplify your data architecture. If your team is struggling with complex, multi-stage pipelines to push BigQuery data into downstream OLTP databases, we invite you to try built-in export functionality for AlloyDB , Bigtable , Spanner , or Pub/Sub today.",
     "categories": [
       "Networks",
       "Cloud Infrastructure",
@@ -2048,41 +1994,6 @@
       ]
     },
     "summary": "An active threat campaign is combining port scanning, password guessing, and Transact-SQL (T-SQL) commands to compromise exposed Microsoft SQL servers and deliver malware. The attackers are using predefined username and password lists to brute-force into these servers and exploit their administrative capabilities to execute commands on the underlying Windows systems. The activity highlights the persistent challenge of securing privileged access across complex and often legacy infrastructure, said Shane Barney , chief information security officer at Keeper Security. “While internet-facing databases are sometimes the unintended result of technical debt or misconfigurations, relying on static, standing credentials is what turns that exposure into a critical vulnerability,” he said."
-  },
-  {
-    "title": "AI found Linux kernel bugs that remained undetected for decades",
-    "url": "https://www.csoonline.com/article/4247815/ai-found-linux-kernel-bugs-that-remained-undetected-for-decades.html",
-    "source": "CSO Online",
-    "published": "2026-11-12T12:09:51+00:00",
-    "raw_text": "A Microsoft research project combining AI agents with human security researchers uncovered 59 Linux kernel vulnerabilities, including bugs that had survived in production code for more than 20 years. While AI dramatically accelerated the discovery process, the researchers found that validating flaws, developing patches, and working with maintainers remained overwhelmingly human-intensive. The research, conducted by Microsoft’s FORGE Lab under the codename MDASH, generated 26,502 potential findings in approximately two weeks of scanning selected Linux kernel subsystems. Automated screening, proof-of-concept testing, and human validation narrowed these down to 59 public upstream reports, Microsoft said in a blog post. “We developed working root privilege-escalation exploits for eight of those CVEs, and fixes for 38 of our reports have been merged into mainline,” the researchers said in the blog post. From thousands of findings to 59 reports Microsoft said it scanned selected kernel components covering networking, filesystems, and security modules. The initial findings were reduced to 11,769 candidates through automated screening. AI agents then attempted to reproduce potential vulnerabilities using QEMU, an open-source machine emulator. This produced 621 cases with proof-of-concept evidence. Human researchers reviewed these cases to identify root causes, merge duplicates, and prepare upstream submissions, the blog post added. Of the 621 cases, 59 resulted in public upstream reports. Microsoft said another 266 shared root causes with other findings and could be addressed through the same patch. A further 163 were not reported following review, mostly because of limited security impact, while 133 had already been reported or fixed upstream. Microsoft said its first public report was submitted on June 27, 2026. By September 1, 55 of the 59 reports had been posted to public mailing lists. The remaining four were reported privately during the same period and routed to public lists by mid-October. Of the 33 CVEs assigned to the findings, 24 carry a High or higher severity rating, based on CVSS v3.1 scores of at least 7.0, according to Microsoft. Eight vulnerabilities had working exploits The eight vulnerabilities for which Microsoft developed working local privilege-escalation exploits affect several kernel components, including IPv4 and IPv6 networking, IPsec routing, encrypted-key handling and the resizable hash-table implementation. Some demonstrations required non-default settings or disabled exploit mitigations, the researchers said. One finding, CVE-2026-64563, involves the kernel’s rhashtable implementation, a shared resizable hash-table library used by different kernel subsystems. Microsoft traced the flaw to a 2018 code change that allowed a table-walk operation to retain a pointer when paused. Under specific conditions involving table resizing and the removal of an entry, the kernel could subsequently access freed memory through that stale pointer. The researchers identified an exploitable path through Netlink socket diagnostics, which are accessible to unprivileged users. By manipulating memory, an attacker could turn the flaw into a constrained kernel memory-write primitive that, combined with other exploitation techniques, could enable local privilege escalation, Microsoft explained. The company said this vulnerability was exploitable on standard Linux configurations without requiring special kernel configurations or user namespaces. It also affected Android devices with SELinux enforcing. Across the 59 reports, the average age of a bug was 8.1 years when Microsoft first reported it publicly. One vulnerability, CVE-2026-74544, had been present in the kernel for at least 21 years, the researchers said. Patching remains a lengthy process While AI agents helped identify potential vulnerabilities, generate proof-of-concept demonstrations and draft initial patches, Microsoft said human investigation remained necessary to validate findings and work with Linux kernel maintainers. “Upstream Linux typically requires vulnerability reports to come with a working patch. Agents helped draft initial fixes, but human validation, subsystem understanding, and iterating with maintainers during review remained essential,” the researchers wrote. Fixes for 38 of the 59 reports had been merged into the upstream Linux mainline at the time of publication. Half were accepted with the initial submission, while the others required between one and four revisions. The median time from the first public patch submission to a mainline release was 41 days, with the longest taking 108 days, Microsoft said. Work with maintainers on the remaining reports was continuing. Microsoft said the initial scans took about two weeks, but converting the findings into validated reports and patches required more than four person-months of work. “Finding bugs and fixing them are drastically out of balance,” the researchers wrote. “For complex infrastructure like the Linux kernel, keeping humans in the loop is still necessary, making human effort the bottleneck.” The researchers said the project covered only a small fraction of the Linux kernel and that further tuning of the AI-assisted approach could uncover additional bugs. However, they cautioned that finding more vulnerabilities would not necessarily make systems more secure. “More tokens may yield more bugs, but not a secure system,” the blog post concluded.",
-    "categories": [
-      "Cybersecurity",
-      "Networks",
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Networks": [
-        "network",
-        "networking",
-        "routing",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "vulnerability",
-        "cve",
-        "exploit",
-        "security",
-        "soc"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "A Microsoft research project combining AI agents with human security researchers uncovered 59 Linux kernel vulnerabilities, including bugs that had survived in production code for more than 20 years. While AI dramatically accelerated the discovery process, the researchers found that validating flaws, developing patches, and working with maintainers remained overwhelmingly human-intensive. The research, conducted by Microsoft’s FORGE Lab under the codename MDASH, generated 26,502 potential findings in approximately two weeks of scanning selected Linux kernel subsystems. Automated screening, proof-of-concept testing, and human validation narrowed these down to 59 public upstream reports, Microsoft said in a blog post."
   },
   {
     "title": "AirTrunk signs MoU for 1.8GW of data center capacity in Andhra Pradesh, India",
@@ -2975,73 +2886,6 @@
     "summary": "'Next week’s earnings call just became the most important in the company’s history'"
   },
   {
-    "title": "Quantum leap: IBM plans to scale beyond 1,000 qubits in 2027 with Nighthawk r3 processor",
-    "url": "https://www.theregister.com/systems/2026/11/12/quantum-leap-ibm-plans-to-scale-beyond-1000-qubits-in-2027-with-nighthawk-r3-processor/5309357",
-    "source": "The Register",
-    "published": "2026-11-12T13:37:02+00:00",
-    "raw_text": "New unit sports more qubits and is planned to be part of future fault-tolerant rig",
-    "categories": [
-      "Industry & Market",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Industry & Market": [
-        "ey",
-        "ibm"
-      ]
-    },
-    "summary": "New unit sports more qubits and is planned to be part of future fault-tolerant rig"
-  },
-  {
-    "title": "Hackers exploiting ScreenConnect plugin flaw to spread malware across hundreds of PCs",
-    "url": "https://www.theregister.com/security/2026/11/12/hackers-exploiting-screenconnect-plugin-flaw-to-spread-malware-across-hundreds-of-pcs/5309361",
-    "source": "The Register",
-    "published": "2026-11-12T13:02:00+00:00",
-    "raw_text": "ConnectWise disables third-party extensions in 400 environments as bughunters uncover auth hole may let crims bypass MFA",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "malware",
-        "exploit",
-        "hacker"
-      ]
-    },
-    "summary": "ConnectWise disables third-party extensions in 400 environments as bughunters uncover auth hole may let crims bypass MFA"
-  },
-  {
-    "title": "The latest FreeBSD report is here, and the AI debate is ongoing",
-    "url": "https://www.theregister.com/os-platforms/2026/11/12/the-latest-freebsd-report-is-here-and-the-ai-debate-is-ongoing/5309206",
-    "source": "The Register",
-    "published": "2026-11-12T12:32:18+00:00",
-    "raw_text": "Only a minority want to ban it. Plus plenty of updates on 16 projects",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ]
-    },
-    "summary": "Only a minority want to ban it. Plus plenty of updates on 16 projects"
-  },
-  {
-    "title": "Microsoft admits SQL Servers might wobble after October update",
-    "url": "https://www.theregister.com/databases/2026/11/12/microsoft-admits-sql-servers-might-wobble-after-october-update/5309349",
-    "source": "The Register",
-    "published": "2026-11-12T12:06:04+00:00",
-    "raw_text": "Linked server connections can linger long past their welcome",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Linked server connections can linger long past their welcome"
-  },
-  {
     "title": "Mid-sized businesses can't leave quantum readiness to their suppliers",
     "url": "https://www.computerweekly.com/opinion/Mid-sized-businesses-cant-leave-quantum-readiness-to-their-suppliers",
     "source": "ComputerWeekly",
@@ -3320,40 +3164,6 @@
     "summary": "<p>Microsoft users globally have been unable to <a href=\"https://status.cloud.microsoft/\">access services</a> such as Outlook and Teams due to technical issues, which the company has described as “service degradation”.</p> <p>The Microsoft Cloud status portal says users may be unable to connect to multiple Microsoft 365 services. The degradation of service impacts Exchange Online, Microsoft 365 Admin Center, Microsoft 365 applications, CoPilot 365, Microsoft Fabric, Defender, and <a href=\"https://www.techtarget.com/healthtechsecurity/news/366640347/CISA-urges-companies-to-bolster-Microsoft-Intune-systems-after-Stryker-cyberattack\">Defender XDR and Microsoft Intune</a>.</p> <p>While most of the core functionality in Teams is unaffected, Microsoft warned that anything that relies on features like the Exchange Online calendar to schedule meetings is potentially impacted.&nbsp;</p> <p>For applications such as Power Apps, Microsoft said affected users may be able to use Power Apps or Field Service on the web as a way to circumvent impact. It also stated that users who are already signed in can potentially avoid impact by not signing out, clearing app data or reinstalling the software.</p> <p>While there are plenty of reports that people have been unable to access their email, the degradation in service poses a big security risk for organisations that rely on Microsoft technology. For instance, the ability for organisations to manage device access is hampered due to the impact on Intune’s ability to handle device enrolment, device check-in and device compliance policies.</p> <p>The fact that the usual channels of digital communications are affected means there is a window of opportunity for hackers to exploit the situation to gain unauthorised access to internal systems."
   },
   {
-    "title": "Nvidia CEO Jensen Huang resigns amid suspected spy affair scandal",
-    "url": "https://www.computerweekly.com/news/366654644/Nvidia-CEO-Jensen-Huang-resigns-amid-suspected-spy-affair-scandal",
-    "source": "ComputerWeekly",
-    "published": "2026-11-12T12:00:00+00:00",
-    "raw_text": "<p><a href=\"https://www.nvidia.com/en-us/\" target=\"_blank\" rel=\"noopener\">Nvidia</a> CEO <a href=\"https://www.computerweekly.com/news/366640515/Nvidia-workforce-to-be-dominated-by-AI-agents-in-a-decade\">Jensen Huang</a> has resigned from his post after coming under fire over a series of extramarital affairs, with the company’s stock tanking when the US markets opened on Thursday morning.</p> <p>One of the women in question, <a href=\"https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1\" target=\"_blank\" rel=\"noopener\">named as Alice Huang</a>, was linked to Singapore-based Nvidia customer Megaspeed, but the US government has said she may have been in the pay of China’s Ministry of State Security intelligence agency, allegedly tasked with helping Chinese organisations obtain advanced Nvidia chipsets in defiance of <a href=\"https://www.computerweekly.com/news/366625005/Nvidia-takes-45bn-hit-due-export-restrictions\" target=\"_blank\" rel=\"noopener\">US export controls</a>.</p> <p>Huang had been vocal in his desire to export artificial intelligence (AI) chips to China more broadly, and had been lobbying US president Donald Trump extensively – he notably committed $25m to Trump’s controversial ballroom project, alongside other tech firms including Apple, Google and Meta.</p> <p>In an email to staff <a href=\"https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html\" target=\"_blank\" rel=\"noopener\">obtained by CNBC</a>, Huang said: “I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.</p> <p>“Regarding the national security concerns raised in news reports, Nvidia’s board of directors has initiated an independent investigation,” he added. “I support the investigation and will cooperate fully.”</p> <p>In a statement, Nvidia said Huang’s impact had been profound, making it one of the “most consequential” tech companies in the world, and thanked him for his “immeasurable contributions” to Nvidia and the industry.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Interim CEO\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Interim CEO</h2> <p>The organisation moved swiftly to name executive vice-president and chief financial officer Colette Kress as interim CEO until the appointment of a permanent successor.</p> <p>Kress joined Nvidia in 2013, prior to which she worked in finance roles at Cisco and Microsoft, among others.</p> <p>“Colette has helped lead Nvidia through a period of extraordinary growth and has a deep understanding of our business, customers, operations and financial position,” said Harvey Jones, newly appointed chair of the Nvidia board of directors.</p> <p>“She is supported by an experienced leadership team that has been instrumental in executing Nvidia’s strategy and advancing its technology roadmap,” he continued. “The board has full confidence in Colette and the leadership team, and we expect the company’s operations, customer commitments and product roadmap to continue without interruption.”&nbsp;&nbsp;</p> <p>Kress added: “Nvidia’s strength has always come from its people, and together with our leadership team, I am committed to building on the extraordinary foundation Jensen created over the last 33 years.</p> <p>“We will continue advancing the work that has made Nvidia a leader in accelerated computing and AI and execute on the opportunities ahead,” she said. “Our focus remains on serving our customers, partners, developers and shareholders.”</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Nvidia and the AI boom</h3> <ul class=\"default-list\"> <li>Nvidia's greatest invention may be building a business that continuously manufactures demand <a href=\"https://www.computerweekly.com/opinion/Nvidia-Doesnt-Sell-Chips-It-Sells-a-Flywheel\" target=\"_blank\" rel=\"noopener\">for its own products</a>.</li> <li>Nvidia hails Kazakhstan's plans to become a global physical AI hub, tapping vast natural energy resources, heavy industry and a <a href=\"https://www.computerweekly.com/news/366652916/Kazakhstan-NVIDIA-look-to-open-new-chapter-in-physical-AI\" target=\"_blank\" rel=\"noopener\">fast-growing AI ecosystem</a>.</li> <li>AI acceleration hardware provider Nvidia announces the acquisition of the open model platform <a href=\"https://www.computerweekly.com/news/366650116/Nvidia-acquires-Hugging-Face-and-becomes-open-platform-provider\" target=\"_blank\" rel=\"noopener\">Hugging Face</a>.</li> </ul> </div> </div> <p>Famed for his trademark leather jackets, Huang was born in Taiwan but was sent to live in the US in 1973 as a child, where he became involved in his high school computer club and learned to code on an Apple II.</p> <p>He went on to study electrical engineering, and after graduating, later worked for companies including AMD and LSI Logic, where alongside engineers Chris Malachowsky and Curtis Priem, he designed the GX graphics engine for Sun Microsystems.</p> <p>After leaving LSI in the early 1990s, Huang established Nvidia – supposedly while sitting in a booth at a San Jose branch of the Denny’s diner chain – with Malachowsky and Priem.</p> <p>Initially focused on 3D graphics processing, the company has grown into a multi-trillion dollar company on the back of the 2020s AI boom, making Huang one of the richest men on the planet.</p> <p><a href=\"https://www.bbc.com/news/live/c6zjry11v8w1t\" target=\"_blank\" rel=\"noopener\">Speaking to the BBC</a>, Huang’s biographer, Stephen Witt, described his downfall as a classic tale of “masculine hubris and overconfidence”, and said that although Huang’s technical brilliance was clear, the executive had been prone to arrogance and self-deception.</p> <p>It would be hard, added Witt, to imagine Nividia without its founder. President Trump, meanwhile, used his Truth Social platform to propose former Apple boss Tim Cook as a replacement.</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Tech execs a focus for espionage\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Tech execs a focus for espionage</h2> <p>Echoing historic spy scandals, such as the Profumo Affair of the 1960s, Adam Irwin, managing partner for strategic advisory at <a href=\"https://heligangroup.com/\" target=\"_blank\" rel=\"noopener\">Heligan Group</a>, an investment bank, said that high-profile AI executives with influence over export and licensing decisions were becoming valuable targets for spies.</p> <p>“Advanced AI chips are the bottleneck in the race between Washington and Beijing, and very few facilities can make them,” he said. “Intelligence services once pointed their best efforts at nuclear weapons, and AI now gets the same priority.</p> <p>“[Although] Britain has no advanced chip fabrication plants of its own … it is exposed through research collaborations and the supply chains that feed the Dutch lithography firm, ASML,” said Irwin. “MI5’s recent public alert to universities shows the security services take that seriously. Protecting the UK from hostile intelligence is a responsibility the state and businesses share.”</p> </section>",
-    "categories": [
-      "Industry & Market",
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan",
-        "lan"
-      ],
-      "Cybersecurity": [
-        "security",
-        "soc"
-      ],
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "acquisition",
-        "acquires",
-        "announces",
-        "investment",
-        "ey"
-      ]
-    },
-    "summary": "<p><a href=\"https://www.nvidia.com/en-us/\" target=\"_blank\" rel=\"noopener\">Nvidia</a> CEO <a href=\"https://www.computerweekly.com/news/366640515/Nvidia-workforce-to-be-dominated-by-AI-agents-in-a-decade\">Jensen Huang</a> has resigned from his post after coming under fire over a series of extramarital affairs, with the company’s stock tanking when the US markets opened on Thursday morning.</p> <p>One of the women in question, <a href=\"https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1\" target=\"_blank\" rel=\"noopener\">named as Alice Huang</a>, was linked to Singapore-based Nvidia customer Megaspeed, but the US government has said she may have been in the pay of China’s Ministry of State Security intelligence agency, allegedly tasked with helping Chinese organisations obtain advanced Nvidia chipsets in defiance of <a href=\"https://www.computerweekly.com/news/366625005/Nvidia-takes-45bn-hit-due-export-restrictions\" target=\"_blank\" rel=\"noopener\">US export controls</a>.</p> <p>Huang had been vocal in his desire to export artificial intelligence (AI) chips to China more broadly, and had been lobbying US president Donald Trump extensively – he notably committed $25m to Trump’s controversial ballroom project, alongside other tech firms including Apple, Google and Meta.</p> <p>In an email to staff <a href=\"https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-email-board-of-directors-statement.html\" target=\"_blank\" rel=\"noopener\">obtained by CNBC</a>, Huang said: “I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did."
-  },
-  {
     "title": "‘We need more reviewers’: Finding Linux bugs is easy now – fixing them is another story",
     "url": "https://www.zdnet.com/innovation/ai-bug-reports-linux-windows/",
     "source": "ZDNet",
@@ -3472,6 +3282,59 @@
       ]
     },
     "summary": "This month’s security update is failing on some systems already running the preview update released in October. But there is a fix afoot."
+  },
+  {
+    "title": "61% of Older Workers Already Tapping Retirement Savings to Cover Expenses",
+    "url": "https://www.prnewswire.com/news-releases/61-of-older-workers-already-tapping-retirement-savings-to-cover-expenses-302939396.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-14T13:30:00+00:00",
+    "raw_text": "LiveCareer survey reveals deep unease among over-50 workers facing inflation, healthcare costs, and volatile markets. GUAYNABO, Puerto Rico, Nov. 14, 2026 /PRNewswire/ -- LiveCareer®, a trusted online resume builder, reveals that retirement may be further out of reach than ever for older...",
+    "categories": [
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "pue"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "LiveCareer survey reveals deep unease among over-50 workers facing inflation, healthcare costs, and volatile markets. GUAYNABO, Puerto Rico, Nov. 14, 2026 /PRNewswire/ -- LiveCareer®, a trusted online resume builder, reveals that retirement may be further out of reach than ever for older..."
+  },
+  {
+    "title": "Employment Law Attorneys, at Blumenthal Nordrehaug Bhowmik De Blouw LLP, File Suit Against El Pollo Loco, Inc., for Alleged Failure to Reimburse Employees' Business Expenses",
+    "url": "https://www.prnewswire.com/news-releases/employment-law-attorneys-at-blumenthal-nordrehaug-bhowmik-de-blouw-llp-file-suit-against-el-pollo-loco-inc-for-alleged-failure-to-reimburse-employees-business-expenses-302939423.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-14T13:00:00+00:00",
+    "raw_text": "El Pollo Loco, Inc. restaurant operator and food service provider, allegedly failed to reimburse employees for their business expenses incurred while performing the job as instructed by Defendant. This resulted in inaccurate wage statements, amongst other allegations. **THIS IS AN...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey",
+        "service provider"
+      ]
+    },
+    "summary": "El Pollo Loco, Inc. restaurant operator and food service provider, allegedly failed to reimburse employees for their business expenses incurred while performing the job as instructed by Defendant. This resulted in inaccurate wage statements, amongst other allegations. **THIS IS AN..."
+  },
+  {
+    "title": "Luvme Hair Highlights Long Wig Hairstyles for Winter 2026",
+    "url": "https://www.prnewswire.com/news-releases/luvme-hair-highlights-long-wig-hairstyles-for-winter-2026-302939012.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-14T12:00:00+00:00",
+    "raw_text": "From sleek straight styles and voluminous waves to long knotless braids, Luvme Hair highlights versatile winter looks. NEW YORK, Nov. 14, 2026 /PRNewswire/ -- Luvme Hair is showcasing a selection of long wig hairstyles for Winter 2026, featuring different textures, colors, and...",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "colo"
+      ]
+    },
+    "summary": "From sleek straight styles and voluminous waves to long knotless braids, Luvme Hair highlights versatile winter looks. NEW YORK, Nov. 14, 2026 /PRNewswire/ -- Luvme Hair is showcasing a selection of long wig hairstyles for Winter 2026, featuring different textures, colors, and..."
   },
   {
     "title": "Advanta To Strengthen Market Presence in Africa with Strategic Acquisition of Hytech",
@@ -3631,6 +3494,18 @@
     "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Chemours Company (\"Chemours\" or the \"Company\")..."
   },
   {
+    "title": "LaserAway, Nation's Largest Aesthetic Dermatology Brand, Opens Its 244th Clinic",
+    "url": "https://www.prnewswire.com/news-releases/laseraway-nations-largest-aesthetic-dermatology-brand-opens-its-244th-clinic-302936320.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-14T03:00:00+00:00",
+    "raw_text": "LOCATED AT 6300 KINGERY HWY, SUITE 112, WILLOWBROOK, IL, this clinic opening marks 20 years of uninterrupted growth for the founder-led, Los Angeles–based company. LOS ANGELES, Nov. 13, 2026 /PRNewswire/ -- LaserAway, the nation's leader in aesthetic dermatology today announced the...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "LOCATED AT 6300 KINGERY HWY, SUITE 112, WILLOWBROOK, IL, this clinic opening marks 20 years of uninterrupted growth for the founder-led, Los Angeles–based company. LOS ANGELES, Nov. 13, 2026 /PRNewswire/ -- LaserAway, the nation's leader in aesthetic dermatology today announced the..."
+  },
+  {
     "title": "Duolingo Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Duolingo, Inc. - DUOL",
     "url": "https://www.prnewswire.com/news-releases/duolingo-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-duolingo-inc---duol-302939411.html",
     "source": "PR Newswire - Technology",
@@ -3711,47 +3586,6 @@
     "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until October 30, 2026 to file lead plaintiff applications in a securities class action lawsuit against Honeywell Aerospace, Inc. (\"Honeywell Aerospace\" or the..."
   },
   {
-    "title": "Ensign Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Ensign Group, Inc. - ENSG",
-    "url": "https://www.prnewswire.com/news-releases/ensign-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-ensign-group-inc---ensg-302939414.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-14T03:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")...",
-    "categories": [
-      "Cloud Infrastructure",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")..."
-  },
-  {
-    "title": "Manhattan Associates Investigation Initiated: Kahn Swick & Foti, LLC Investigates the Officers and Directors of Manhattan Associates, Inc. - MANH",
-    "url": "https://www.prnewswire.com/news-releases/manhattan-associates-investigation-initiated-kahn-swick--foti-llc-investigates-the-officers-and-directors-of-manhattan-associates-inc---manh-302939420.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-14T03:00:00+00:00",
-    "raw_text": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- Former Attorney General of Louisiana, Charles C. Foti, Jr., Esq., a partner at the law firm of Kahn Swick & Foti, LLC (\"KSF\"), announces that KSF has commenced an investigation into Manhattan Associates, Inc. (\"Manhattan\") (NasdaqGS: MANH)....",
-    "categories": [
-      "Industry & Market",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Industry & Market": [
-        "announces",
-        "ey"
-      ]
-    },
-    "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- Former Attorney General of Louisiana, Charles C. Foti, Jr., Esq., a partner at the law firm of Kahn Swick & Foti, LLC (\"KSF\"), announces that KSF has commenced an investigation into Manhattan Associates, Inc. (\"Manhattan\") (NasdaqGS: MANH)...."
-  },
-  {
     "title": "Millrose Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against Millrose Properties, Inc. - MRP",
     "url": "https://www.prnewswire.com/news-releases/millrose-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-millrose-properties-inc---mrp-302939424.html",
     "source": "PR Newswire - Technology",
@@ -3772,40 +3606,24 @@
     "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 8, 2026 to file lead plaintiff applications in a securities class action lawsuit against Millrose Properties, Inc. (\"Millrose\" or the \"Company\")..."
   },
   {
-    "title": "LaserAway, Nation's Largest Aesthetic Dermatology Brand, Opens Its 244th Clinic",
-    "url": "https://www.prnewswire.com/news-releases/laseraway-nations-largest-aesthetic-dermatology-brand-opens-its-244th-clinic-302936320.html",
+    "title": "Ensign Shareholder Alert: ClaimsFiler Reminds Investors With Losses In Excess Of $100,000 Of Lead Plaintiff Deadline In Class Action Lawsuit Against The Ensign Group, Inc. - ENSG",
+    "url": "https://www.prnewswire.com/news-releases/ensign-shareholder-alert-claimsfiler-reminds-investors-with-losses-in-excess-of-100-000-of-lead-plaintiff-deadline-in-class-action-lawsuit-against-the-ensign-group-inc---ensg-302939414.html",
     "source": "PR Newswire - Technology",
     "published": "2026-11-14T03:00:00+00:00",
-    "raw_text": "LOCATED AT 6300 KINGERY HWY, SUITE 112, WILLOWBROOK, IL, this clinic opening marks 20 years of uninterrupted growth for the founder-led, Los Angeles–based company. LOS ANGELES, Nov. 13, 2026 /PRNewswire/ -- LaserAway, the nation's leader in aesthetic dermatology today announced the...",
+    "raw_text": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")...",
     "categories": [
-      "Uncategorised"
+      "Cloud Infrastructure",
+      "Industry & Market"
     ],
-    "matched_keywords": {},
-    "summary": "LOCATED AT 6300 KINGERY HWY, SUITE 112, WILLOWBROOK, IL, this clinic opening marks 20 years of uninterrupted growth for the founder-led, Los Angeles–based company. LOS ANGELES, Nov. 13, 2026 /PRNewswire/ -- LaserAway, the nation's leader in aesthetic dermatology today announced the..."
-  },
-  {
-    "title": "Greenberg Traurig's Brad Kaufman Named Best Mentor by The American Lawyer",
-    "url": "https://www.prnewswire.com/news-releases/greenberg-traurigs-brad-kaufman-named-best-mentor-by-the-american-lawyer-302939453.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-14T02:50:00+00:00",
-    "raw_text": "WEST PALM BEACH, Fla., Nov. 13, 2026 /PRNewswire/ -- Global law firm Greenberg Traurig, P.A. Senior Chairman and Global Chairman of Professional Development and Integration Brad Kaufman received The American Lawyer Industry Awards' Best Mentor recognition. The award honors lawyers and...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "WEST PALM BEACH, Fla., Nov. 13, 2026 /PRNewswire/ -- Global law firm Greenberg Traurig, P.A. Senior Chairman and Global Chairman of Professional Development and Integration Brad Kaufman received The American Lawyer Industry Awards' Best Mentor recognition. The award honors lawyers and..."
-  },
-  {
-    "title": "Daniel Wellington celebra a quienes más importan en esta temporada festiva",
-    "url": "https://www.prnewswire.com/news-releases/daniel-wellington-celebra-a-quienes-mas-importan-en-esta-temporada-festiva-302939473.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-14T02:29:00+00:00",
-    "raw_text": "Desde los favoritos para el día a día hasta piezas que destacan, la Guía de Regalos para las Fiestas 2026 reúne relojes y joyas seleccionados pensando en ellos. ESTOCOLMO, 14 de noviembre de 2026 /PRNewswire/ -- Un regalo resulta personal cuando refleja a la persona que lo recibe. En esta...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Desde los favoritos para el día a día hasta piezas que destacan, la Guía de Regalos para las Fiestas 2026 reúne relojes y joyas seleccionados pensando en ellos. ESTOCOLMO, 14 de noviembre de 2026 /PRNewswire/ -- Un regalo resulta personal cuando refleja a la persona que lo recibe. En esta..."
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "NEW ORLEANS, Nov. 13, 2026 /PRNewswire/ -- ClaimsFiler, a FREE shareholder information service, reminds investors that they have until December 7, 2026 to file lead plaintiff applications in a securities class action lawsuit against The Ensign Group, Inc. (\"Ensign\" or the \"Company\")..."
   },
   {
     "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams - SecurityWeek",
@@ -3845,20 +3663,20 @@
     "summary": "A $1,000-a-Month Malware Tool Claims It Can Keep Access to Gmail. Google Says Gmail Isn't the Vulnerability Inc.com"
   },
   {
-    "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign - SecurityWeek",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc2VGMGJJMUJMV1hxX1RjMkFLUE9UN0ZuNUhHUDQ5QVE4OHZQbzE1b255S1EzekNGWXFHX0hRd2hocUZEdWxpX3lJSzktZGtjNlg5U2x5dFJGWWRQWEJHN0tKcTY0eVYyMmdOX19PTGxKSTRtQ01uZm4yZXdHVlU1WVl2cUFRbExickVhMy1xZlRGd0dPdDBCRHlydmFsZWEyM1pr?oc=5",
-    "source": "Google News: Cybersecurity",
-    "published": "2026-11-12T13:39:03+00:00",
-    "raw_text": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign SecurityWeek",
+    "title": "Clark conference helps answer the question, ‘What is the future of work?’ - Clark University",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQenhRcEFIM2JnM1d0cGdONmNnaEhLSnliQ0gtRW84ZnJxMk9TdnF3QW5oaUhyUHB5YWJaQVVuOTk2cDgtOUZ1RXoyUHBvLXBLMEdqU2FDV0RKR1I0YTJIWEEyMjYyTXYwQVFEM2hKd2oyWldOSFYxdDUyVXUtNzAwOENWVEN6SHc0XzZzVGNBV1k2aTh1cXlaekhpcVNKYTN6aGhkVzRvZ01kRXVOV3c?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-12T18:54:49+00:00",
+    "raw_text": "Clark conference helps answer the question, ‘What is the future of work?’ Clark University",
     "categories": [
-      "Cybersecurity"
+      "Digital Workplace"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "security"
+      "Digital Workplace": [
+        "future of work"
       ]
     },
-    "summary": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign SecurityWeek"
+    "summary": "Clark conference helps answer the question, ‘What is the future of work?’ Clark University"
   },
   {
     "title": "Microsoft 365 Copilot turns on Claude for UK tenants on December 9 - Notebookcheck",
@@ -3876,22 +3694,6 @@
       ]
     },
     "summary": "Microsoft 365 Copilot turns on Claude for UK tenants on December 9 Notebookcheck"
-  },
-  {
-    "title": "Clark conference helps answer the question, ‘What is the future of work?’ - Clark University",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQenhRcEFIM2JnM1d0cGdONmNnaEhLSnliQ0gtRW84ZnJxMk9TdnF3QW5oaUhyUHB5YWJaQVVuOTk2cDgtOUZ1RXoyUHBvLXBLMEdqU2FDV0RKR1I0YTJIWEEyMjYyTXYwQVFEM2hKd2oyWldOSFYxdDUyVXUtNzAwOENWVEN6SHc0XzZzVGNBV1k2aTh1cXlaekhpcVNKYTN6aGhkVzRvZ01kRXVOV3c?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-12T18:54:49+00:00",
-    "raw_text": "Clark conference helps answer the question, ‘What is the future of work?’ Clark University",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "Clark conference helps answer the question, ‘What is the future of work?’ Clark University"
   },
   {
     "title": "Audiovisual Equipment Market Forecast to 2035: Hybrid Work and Live Events Fuel Growth - News and Statistics - IndexBox",
@@ -3926,6 +3728,34 @@
     "summary": "What Changing College Enrollment Trends Reveal About the Future of Work Entrepreneur"
   },
   {
+    "title": "Bloomberg Beta continues backing early-stage companies across future of work - Traders Union",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPajdkd1pVdXBPb0pSTkp3ZUY3aDVvZ01hSVljbDJZemlDemUtWDI5TTYwVlZOWE1vZkRZc0kyY3pYMi1velRaOC04NndoNEdZbFpMNl9CTGxhOGNwRnRoRjZfTHVoc1ozTjlBaVE5Mlc4M1VzZ3gwN1dzUmdQLVIzSzJ3anNsSDFNbXNnYnZkcVBrQnU1NkhZ?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-14T06:55:24+00:00",
+    "raw_text": "Bloomberg Beta continues backing early-stage companies across future of work Traders Union",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "Bloomberg Beta continues backing early-stage companies across future of work Traders Union"
+  },
+  {
+    "title": "Andy Spence (@workforcefuturist) - Substack",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBib1ZlRUdLcDR0Y2U1UGwtYWpMOUVtc0ZXRUZaa09Sd3hXd1NIY2JSSXNuWnJ5Z0NRUmFHY1Vwdy1zUmE1Y3I4Z3JDTnhJRmlGSndxWndfZS1uM0czTXRjaGZCZ29pMlU?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-13T12:08:37+00:00",
+    "raw_text": "Andy Spence (@workforcefuturist) Substack",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Andy Spence (@workforcefuturist) Substack"
+  },
+  {
     "title": "Young Workers Conference 2026 Recap – Digital Activism: Artificial Intelligence and the Future of Work - Opseu",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KZmR5WmRDcmRwbVBCYkVfaUMtWUZrVkU2Uk9pZlZtYWtjY2J2M2xSaHo4dUNSaTFSWUN3U202ZkZwSW82R3ozZzhqSTh4VmNhYVE?oc=5",
     "source": "Google News: Digital Workplace",
@@ -3956,26 +3786,6 @@
       ]
     },
     "summary": "Desk Organizer for Office Market To 2035: Hybrid Work and Modular Systems Fuel Growth - News and Statistics IndexBox"
-  },
-  {
-    "title": "Preparing societies for the future of work - Oxford Martin School",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRklYd2hVN093Y0hvby1nVFhRSl95andpYVBmNWI2X1A2NHBocS1rOXNOX25FX2dLNW04cXg2S0t0bVJwX3B6MTBleng5ckgwRU00LUZCem9OUGs1WEVQcEN2UUNPWFVkQWUzdkhYeG5EMDBDcEtaeEtmNmRxQWkwMEE0R1FyTzRGR2t0WUhBMktCTm1qZDAyS2NSMWlIMFU?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-12T16:23:50+00:00",
-    "raw_text": "Preparing societies for the future of work Oxford Martin School",
-    "categories": [
-      "Cybersecurity",
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "Preparing societies for the future of work Oxford Martin School"
   },
   {
     "title": "Gaming Desk Set Market To 2035: Premiumization and Hybrid Work Drive Forward Growth - News and Statistics - IndexBox",
@@ -4064,6 +3874,26 @@
       ]
     },
     "summary": "Portable Monitor Stand Market To 2035: Hybrid Work and E-Commerce Fuel Demand - News and Statistics IndexBox"
+  },
+  {
+    "title": "Preparing societies for the future of work - Oxford Martin School",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRklYd2hVN093Y0hvby1nVFhRSl95andpYVBmNWI2X1A2NHBocS1rOXNOX25FX2dLNW04cXg2S0t0bVJwX3B6MTBleng5ckgwRU00LUZCem9OUGs1WEVQcEN2UUNPWFVkQWUzdkhYeG5EMDBDcEtaeEtmNmRxQWkwMEE0R1FyTzRGR2t0WUhBMktCTm1qZDAyS2NSMWlIMFU?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-12T16:23:50+00:00",
+    "raw_text": "Preparing societies for the future of work Oxford Martin School",
+    "categories": [
+      "Cybersecurity",
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "soc"
+      ],
+      "Digital Workplace": [
+        "future of work"
+      ]
+    },
+    "summary": "Preparing societies for the future of work Oxford Martin School"
   },
   {
     "title": "Is Copilot down in the Microsoft outage? Microsoft 365 Copilot for work is affected - Nacionale",
@@ -4184,20 +4014,24 @@
     "summary": "Microsoft Outage: Outlook, Teams, Microsoft 365, Copilot Are Not Working; Latest Update Goodreturns"
   },
   {
-    "title": "Moody’s Insights on AI’s Impact on Indian IT Jobs and the Future of Work - Observer Voice",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVZIRUl6Sl8zLVI2Y1pqN1VLVmNpVm1USlY3X3Vfb2NiWmNaRkxBVEdxQUZ4Tm9hRzR1djdfTDQzRExLMkFpT3plaHJfMFVCTEVqdk52bjRlNkllMEVpaEF2dXVSdjB5S0dMTkdoRVEyRlhuR1MtYi1mQ0I5Q00zV0tfQTY1U0FOTG5xSlNiS3FOLWtad3ZPVEVrdEQyVWtOekJHVHJTZw?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-12T13:00:51+00:00",
-    "raw_text": "Moody’s Insights on AI’s Impact on Indian IT Jobs and the Future of Work Observer Voice",
+    "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk - BleepingComputer",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdG1TNXNEOEJ6WmdZZUZzcFdlY21Semt2eWNkY0VvczNyUzBkME1sNzhTY0ZoUG9BZG5NQ2xTSElWcDNETjktZkRzU0VxQ3M5NFhYY3RDMC1lVEdja1gtdnhZTXRNUzBmNmZuZXFKdW9fclg5OWgzbWY0NjU0Q3hlNFhDUG1PekJuQko1SEdLMUl2aWlVZ2RISzdjQktDWG5QQlBuZTVXWVdtc1J1aWp1d3YwWkVUUFFh?oc=5",
+    "source": "Google News: End User Computing",
+    "published": "2026-11-12T15:00:00+00:00",
+    "raw_text": "Your Endpoint Management Platform Could Be Your Biggest Security Risk BleepingComputer",
     "categories": [
-      "Digital Workplace"
+      "Cybersecurity",
+      "End User Computing"
     ],
     "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
+      "Cybersecurity": [
+        "security"
+      ],
+      "End User Computing": [
+        "endpoint management"
       ]
     },
-    "summary": "Moody’s Insights on AI’s Impact on Indian IT Jobs and the Future of Work Observer Voice"
+    "summary": "Your Endpoint Management Platform Could Be Your Biggest Security Risk BleepingComputer"
   },
   {
     "title": "HP 14 AI PC Laptop – 43,990 discount with Core Ultra 7 Processor, 1TB SSD - Times Bull",
@@ -4233,20 +4067,21 @@
     "summary": "How a healthcare clinic chain uses conversational AI to improve patient experience CX Dive"
   },
   {
-    "title": "Is Your Contact Center Ready for AI Without the Hype? - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONG9WLTZIbHV3eHVXTC1teGxLRGcybjRjR0pZWjF0UDZUYUh4UEtVSHJkQTNpdGxvejdQTUVVUnVXMjB2UUliRFRvbEswQzAzMTNoNms2aE13cWI2S1BiTkRtcExtV2JDeVRaS3lSVVBNTURhQUU4dTZOejF6YlEyaEZXcUVHcXo5X3hTcVFjd2xreVE?oc=5",
+    "title": "Fireworks AI Breach Exposes Wider Risks in Enterprise Security - CX Today",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZHp5b24zWjczTTRfOXl4ZVRRNm80QTJDaFdPRVVPTFB0RUE2cDJEbnk0Mng3VzVNSU1NOGpQcFJWZjBPdmdIY1pqTXFONERvQ0thQkVjOGdlZkNjSy1tRlVScXh6cVZlTkVMVVFteGRjYWNrbHQ3TG1ZMlB5S1FSb2RJcGZrQUJiaDdpaFdGRQ?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-13T13:57:31+00:00",
-    "raw_text": "Is Your Contact Center Ready for AI Without the Hype? CX Today",
+    "published": "2026-11-14T12:01:21+00:00",
+    "raw_text": "Fireworks AI Breach Exposes Wider Risks in Enterprise Security CX Today",
     "categories": [
-      "Digital Customer Experience"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Digital Customer Experience": [
-        "contact center"
+      "Cybersecurity": [
+        "breach",
+        "security"
       ]
     },
-    "summary": "Is Your Contact Center Ready for AI Without the Hype? CX Today"
+    "summary": "Fireworks AI Breach Exposes Wider Risks in Enterprise Security CX Today"
   },
   {
     "title": "How Proactive AI Is Changing the Airline Customer Experience - Skift",
@@ -4263,23 +4098,6 @@
       ]
     },
     "summary": "How Proactive AI Is Changing the Airline Customer Experience Skift"
-  },
-  {
-    "title": "Omnichannel AI, Urban Logistics: The Week in E-Commerce & Retail - Mexico Business News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU1dIdHhmSHU1SkVwbUlybllVY1Naa285d3daZDBPa05INTNHbUVBQ04tbHFxLTJuMGR0NnlJZndvTHJJUEQ3bjNpOENXUkIxZlBmZkw1dWtUWHhsRm56RTdEZ0N5cExCS1E4Vkx2bmIyZlhucXh5cmUzR05STGtKN25BSmREdUEtMjdKU3lvellUM0lGUGxXbTFDNlM?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-12T22:14:34+00:00",
-    "raw_text": "Omnichannel AI, Urban Logistics: The Week in E-Commerce & Retail Mexico Business News",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "omnichannel",
-        "e-commerce"
-      ]
-    },
-    "summary": "Omnichannel AI, Urban Logistics: The Week in E-Commerce & Retail Mexico Business News"
   },
   {
     "title": "Causal Multimodal Reinforcement Learning Model Optimizes Omnichannel Retail Promotional Pricing Decisions - Bioengineer.org",
@@ -4340,6 +4158,63 @@
     "summary": "Telcos race ahead on AI-managed customer experience plans Telecoms Tech News"
   },
   {
+    "title": "How Signage Can Improve Ridership and Customer Experience - Passenger Transport",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMVJiOXNqdXVlSGFuYnlTRjZjQjBUY2ZlNS1uZ29yMGhZZzNEVzB3Y2lBdnVZYjU4MXVKTDZvcnliYXhmSjZTaGRJZGZFUW1oY1M3OWhrNlV2Tk9QQ1VraVJvM1JCSm5GU2ViczBuRGdadFhzNUkyTnRrR2ZtNTBUV0dUU2tDblJYYm9Td2xPYjFYRWdVbWpmRw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-12T16:25:19+00:00",
+    "raw_text": "How Signage Can Improve Ridership and Customer Experience Passenger Transport",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "How Signage Can Improve Ridership and Customer Experience Passenger Transport"
+  },
+  {
+    "title": "Should customer experience guide network investment? - Telecoms",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYnFEaXhQUXhNMks0YWptdEl2azBFeXVmQktsQVNSZUg5M1lndnVYcEo4alM3Z1BEY1RmV1NSV2FUdnZBcDJPNVphV3hCNFNUZVJKV1VmWTUtZjFIbXp5WWIwSHo2dEtKVzhObDN4OGhyRUN5a3d2UkpYREFldXE2VGY0bjlQRkR3SHBfQ0hIY3pGMDVFR1BmQVgtZU1Rbkd2MXow?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-12T15:02:21+00:00",
+    "raw_text": "Should customer experience guide network investment? Telecoms",
+    "categories": [
+      "Networks",
+      "Industry & Market",
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "telecom"
+      ],
+      "Industry & Market": [
+        "investment"
+      ],
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Should customer experience guide network investment? Telecoms"
+  },
+  {
+    "title": "The Children’s Place files for bankruptcy protection - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOby1XS2pfdVFLbWhmMVFxNHV4SFExSENTM0lsUXBRRTkwTTNfclAxMHoycmRncUpRcFRYZDFGSGh0Z2paV2hia25ZRFZ0a0RDZXVIZDRSNlZGMFZhVHlna3A2WGo0dUJtZ0JrT0hFQzktNTdQV3Vfa0dGZ3dta3FadkY3WXFWM3pjS3pzanNrbTBPbjByZnNhYWZMNF84Ujg?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-13T11:00:00+00:00",
+    "raw_text": "The Children’s Place files for bankruptcy protection Retail Customer Experience",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "The Children’s Place files for bankruptcy protection Retail Customer Experience"
+  },
+  {
     "title": "Focus on Everi FinTech: Flexible payment solutions offer a seamless customer experience - CDC Gaming",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOG9PWERxN2Rua3RJTlhicFpPYkNBYk5xLVBwYTd2RnlfTWxWOFU5ZXNjUXFYMG1lWXp4YV8wZHhzLWNFU1FpWTN0MjdhNnh4VzZnazlIZm9FWkNyVk5CSEhEaXFXZlJ4N3hvWHplZVpoM3YwenlOMTdkSW5WY3QxVzlMaVUzeExPMHphU1ZtQ05CMDZNcWxwVjdIbXdEdWhkM2h4UkgwVE5SVlhta2c?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4356,6 +4231,22 @@
     "summary": "Focus on Everi FinTech: Flexible payment solutions offer a seamless customer experience CDC Gaming"
   },
   {
+    "title": "Is Your Contact Center Ready for AI Without the Hype? - CX Today",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONG9WLTZIbHV3eHVXTC1teGxLRGcybjRjR0pZWjF0UDZUYUh4UEtVSHJkQTNpdGxvejdQTUVVUnVXMjB2UUliRFRvbEswQzAzMTNoNms2aE13cWI2S1BiTkRtcExtV2JDeVRaS3lSVVBNTURhQUU4dTZOejF6YlEyaEZXcUVHcXo5X3hTcVFjd2xreVE?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-13T13:57:31+00:00",
+    "raw_text": "Is Your Contact Center Ready for AI Without the Hype? CX Today",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "contact center"
+      ]
+    },
+    "summary": "Is Your Contact Center Ready for AI Without the Hype? CX Today"
+  },
+  {
     "title": "Microsoft’s outage wasn’t in any brand’s control. Handling the CX aftermath is. - CX Dive",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaUZ3ODJjVmxsYU5Ra2g2YjdEMTBSNEpvOVpMeVpmTU9ueWVBSS1XZy1jbHZPNElrc0IzYzlyT2d1el9iVTB6eDMzaVVfV25oOFZ6SWZ4Zkp3dldhVjRiSlo5WjZyU1A3M1BfeXFWUFA4UlFsYjEwSm1GeXdaQ01EQmUxMXhIUlhCWDlLb3BmN0E0eHIxTjZWbWZkYmQ2QUtrbEdnb19HYlNoQmNRZDNJRWQxdlhZRk9sdlREY0xEdXc?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4368,47 +4259,10 @@
     "summary": "Microsoft’s outage wasn’t in any brand’s control. Handling the CX aftermath is. CX Dive"
   },
   {
-    "title": "Walmex Accelerates Omnichannel to Capture E-Commerce Market - Mexico Business News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOE1zRy02dzk1aHM0bDd2eGdmUjB5WmZlZXJOS3loYkNlZDRreHQ3T29qRzhoOHNrT0VnYm5ILUIzZV9qNWJGb0RoUDRpSnBBdUxjTDFEU1F4UE4xMTM1ZTM1V0hxRVN0aW15NF9EVjJFbXZoejRDN3ZzNG5tazRxZkM1VDEtQVZjQ3hGZkZHQ0FZSUs4OUdJWmNPeklFSk9F?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-12T16:06:16+00:00",
-    "raw_text": "Walmex Accelerates Omnichannel to Capture E-Commerce Market Mexico Business News",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "omnichannel",
-        "e-commerce"
-      ]
-    },
-    "summary": "Walmex Accelerates Omnichannel to Capture E-Commerce Market Mexico Business News"
-  },
-  {
-    "title": "Balancing Brick-and-Mortar Expansion and Omnichannel Fulfillment - Mexico Business News",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS3FIbmtJU0dpX29CUWhsdGU2emRCZ0tOZUdOMlJ5VXF1eDBOZkVxd2hGUlE5SFlOdW9GcVphcnVCME9UVUlxa2RTaG1rcTVablVDdXdSVHRRbW5WeHptODV6VnljVjl0RU1YZTBVZEtYY1ZWVWtqbU9UR2hHeWplb1FpbzI5OW55cWVTb3Y3b3Z5amcwdTlPNTdCdHpoZXd4aEkwN0plaDNqUjA?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-12T23:52:25+00:00",
-    "raw_text": "Balancing Brick-and-Mortar Expansion and Omnichannel Fulfillment Mexico Business News",
-    "categories": [
-      "Networks",
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Digital Customer Experience": [
-        "omnichannel"
-      ]
-    },
-    "summary": "Balancing Brick-and-Mortar Expansion and Omnichannel Fulfillment Mexico Business News"
-  },
-  {
     "title": "Microsoft Outage Cut Agents Off From the Contact Center - CX Today",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUkFlM1ViMExWMjJJN3pWa2tTUUU4SkJ2UWpzazF4SEsxSDhhWW9saEdBajJESkUzSjBMX0R6ZGFJZmFDYmxzaTd6eXVsTEZhbG56ekh3cko3X2hJNmRmZmcxalJOS2hCLWdKMFZFaFdiZTFRbUtEZHM1cVUyNlZodQ?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-13T12:45:12+00:00",
+    "published": "2026-11-13T11:10:00+00:00",
     "raw_text": "Microsoft Outage Cut Agents Off From the Contact Center CX Today",
     "categories": [
       "Digital Customer Experience"
@@ -4433,34 +4287,6 @@
     "summary": "Technically Correct Service Can Still Fail the Customer CX Today"
   },
   {
-    "title": "The CX Technology ROI Blueprint: Building the Business Case and Provin - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmxDRjVXQkEtNFN5Y2EwMi0zS3JzM2J3Q2NjTGMtbmNnZnJiVjcxR3VmeUNCNzcxR054LUczeEN1UVNXMkhhei1rdkZiMzBpQ1RNM2Vib21rVnpVM09Sb0w4UnA4YzU2VUJWWm9sRE1lMkpxR2d4djlnLXZSSGhrekhtQy10NmdLVV9RSFVzcGg1TEk?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-13T17:43:32+00:00",
-    "raw_text": "The CX Technology ROI Blueprint: Building the Business Case and Provin CX Today",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The CX Technology ROI Blueprint: Building the Business Case and Provin CX Today"
-  },
-  {
-    "title": "The Children’s Place files for bankruptcy protection - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOby1XS2pfdVFLbWhmMVFxNHV4SFExSENTM0lsUXBRRTkwTTNfclAxMHoycmRncUpRcFRYZDFGSGh0Z2paV2hia25ZRFZ0a0RDZXVIZDRSNlZGMFZhVHlna3A2WGo0dUJtZ0JrT0hFQzktNTdQV3Vfa0dGZ3dta3FadkY3WXFWM3pjS3pzanNrbTBPbjByZnNhYWZMNF84Ujg?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-13T11:00:00+00:00",
-    "raw_text": "The Children’s Place files for bankruptcy protection Retail Customer Experience",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "The Children’s Place files for bankruptcy protection Retail Customer Experience"
-  },
-  {
     "title": "South Carolina moves closer to having its 1st Wawa - Retail Customer Experience",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMEtoNWtPaUtTQlN0WkVsM0UwQmM3TWY2em9QQVNVUlJqMTZUZEhFbnNwem5RQTFzVzhlQWdRVHNwdjZEUHVPS2F6VmdmUUJxa2tTdEpXSktDbTMzSURPYTRlZWREemVzR09aSFh5YU5xdzljWGt4bTNrNFY4dzJfbjI5SEJwZEc0WjF6cjAxZ21TbkZUSjhoNUlXVTEzQQ?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4475,38 +4301,6 @@
       ]
     },
     "summary": "South Carolina moves closer to having its 1st Wawa Retail Customer Experience"
-  },
-  {
-    "title": "Cresta Journey Intelligence Predicts Next Customer Contact - CMSWire",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcWJvX2Rab1JRMXhIakhGc05GUUQzRmR0NDNOVEFSM0xQbTlVMXpZRld3c2Y4aXdIb0FVSkpJdnFlNy1kVnFOeld5VGRadzRMbzR4TnJIS0VxTmkyVnN4a1FiQkljdWU2MHZTcU93a2hyTkRNc2RHRWI4TkhGQVBscTFUMDBHYzNTNWRkcS1GQkNKanNnaVpUcDBwQVRRUmRueVdYOVlJbG4?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-12T13:14:54+00:00",
-    "raw_text": "Cresta Journey Intelligence Predicts Next Customer Contact CMSWire",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Cresta Journey Intelligence Predicts Next Customer Contact CMSWire"
-  },
-  {
-    "title": "Omnichannel Growth Supported - Logistics Business",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlBOOXZFY1NtWFQxX1k2RE9NdlVyb2JxYXdJZENVTUplM3lkSUI5WjU0aHpMb0haSlNRejNnM2tYenNQZERJamJLUHIteFhGWk1LYjFheEx1Y3liMjA3ZnNmUTBTY1hFTjFvNFN2QTFvSGxtYURlWTFUcFNEb3NJdTZRY2pUaXZzWjdocm9YY2pqTEw5dW5j?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-13T13:13:48+00:00",
-    "raw_text": "Omnichannel Growth Supported Logistics Business",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "omnichannel"
-      ]
-    },
-    "summary": "Omnichannel Growth Supported Logistics Business"
   },
   {
     "title": "American shoppers culling back but not cutting out holiday purchases - Retail Customer Experience",
@@ -4525,22 +4319,6 @@
     "summary": "American shoppers culling back but not cutting out holiday purchases Retail Customer Experience"
   },
   {
-    "title": "Swami Mehra quits as chief customer experience officer at Dish TV - Indian Television Dot Com",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONHNYMWhIMmd4UGRaTXNhUGJwQkp1b2Z0NVNNejQyYVUxaGw3VGpxd3dVYVMza3pTS2YzZG5mbnB1Mjg5NHpyTXR0NldsNFctRUhpOUlqSG5pQy1wclRwbTV2c3hOYS1mYkpRT3B2aGxKV3I3RHlWRnhlQmZiX0lTWVE1eWdrZ3l4TkJGTUNmTGFQYml2bkM4a2ViS2NmRXRB?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-14T05:48:52+00:00",
-    "raw_text": "Swami Mehra quits as chief customer experience officer at Dish TV Indian Television Dot Com",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Swami Mehra quits as chief customer experience officer at Dish TV Indian Television Dot Com"
-  },
-  {
     "title": "PartnerOne buys voice AI contact center platform 3CLogic - Outsource Accelerator",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hbVFnUFF0TXVzOEtwVXkxMERrMTFMM3M2cm5FQmt5a1JBZTVLdF94TFJjeGlyWl8yck44bmx0ZlhpVE9naUJzUWs3RC1pQ2ZxVzFoUUUtcV9FVVh3Z1FXVVpyQk5DdmpiQlRhTmtzWGtEVlpXNTN6UQ?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4557,11 +4335,11 @@
     "summary": "PartnerOne buys voice AI contact center platform 3CLogic Outsource Accelerator"
   },
   {
-    "title": "SAP and VF Corporation are Turning Insights into Action with AI-enabled End-to-End Retail to Enhance the Customer Experience - EME Outlook Magazine",
-    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQUmpVcHV6dU5jLTVxdTh0Vnc0dUZhZmdGdTNmZFcwV3pHWFZDWWw0c0JsN18zT1c1YjVGVFU0WjRkaTdkMk1XQU5PUlV2dXJjS2dVbkNKdkVid0RYay15M0FEdlRRNmE0NlNERXJMQndiVTJQNngzUEZxUnZfZjItWS13YkVhZFBYNWh1b01CVU5kTk8yOHYwM1FTLURKV3FYU0N4czdhaDhDRm5lTjA1Q1hEVUVKVXY0YjdvczQ0eWlzdXptVTVFb1hLRW9zOFBIM0VWWE56Z3I4Q3FTN2JtU1RTZUd0ckRhOVN0Z2JpWHQ1SmpJdVJrY0hqRW5oUVVWUWc?oc=5",
+    "title": "Swami Mehra quits as chief customer experience officer at Dish TV - Indian Television Dot Com",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONHNYMWhIMmd4UGRaTXNhUGJwQkp1b2Z0NVNNejQyYVUxaGw3VGpxd3dVYVMza3pTS2YzZG5mbnB1Mjg5NHpyTXR0NldsNFctRUhpOUlqSG5pQy1wclRwbTV2c3hOYS1mYkpRT3B2aGxKV3I3RHlWRnhlQmZiX0lTWVE1eWdrZ3l4TkJGTUNmTGFQYml2bkM4a2ViS2NmRXRB?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-12T11:53:32+00:00",
-    "raw_text": "SAP and VF Corporation are Turning Insights into Action with AI-enabled End-to-End Retail to Enhance the Customer Experience EME Outlook Magazine",
+    "published": "2026-11-14T05:48:52+00:00",
+    "raw_text": "Swami Mehra quits as chief customer experience officer at Dish TV Indian Television Dot Com",
     "categories": [
       "Digital Customer Experience"
     ],
@@ -4570,7 +4348,23 @@
         "customer experience"
       ]
     },
-    "summary": "SAP and VF Corporation are Turning Insights into Action with AI-enabled End-to-End Retail to Enhance the Customer Experience EME Outlook Magazine"
+    "summary": "Swami Mehra quits as chief customer experience officer at Dish TV Indian Television Dot Com"
+  },
+  {
+    "title": "Omnichannel Growth Supported - Logistics Business",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlBOOXZFY1NtWFQxX1k2RE9NdlVyb2JxYXdJZENVTUplM3lkSUI5WjU0aHpMb0haSlNRejNnM2tYenNQZERJamJLUHIteFhGWk1LYjFheEx1Y3liMjA3ZnNmUTBTY1hFTjFvNFN2QTFvSGxtYURlWTFUcFNEb3NJdTZRY2pUaXZzWjdocm9YY2pqTEw5dW5j?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-13T13:13:48+00:00",
+    "raw_text": "Omnichannel Growth Supported Logistics Business",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "omnichannel"
+      ]
+    },
+    "summary": "Omnichannel Growth Supported Logistics Business"
   },
   {
     "title": "Dish TV's Chief Customer Experience Officer Swami Mehra resigns - Storyboard18",
@@ -4589,6 +4383,22 @@
     "summary": "Dish TV's Chief Customer Experience Officer Swami Mehra resigns Storyboard18"
   },
   {
+    "title": "Exide redefines customer experience with AI and tech - News Today | First with the news - News Today",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNW1RVFJxUjNVVnpocS03cHQ3OER6aWdmUGJsLVNTcXVYVk12a1JpcUcwQ2JpRmM0Y0NMbUNFbVdmd01qa1h2N1FMdlpzcGZ6akJqcjAyQl91VmZOSFl4YmZXWU5TekNtQVMzdDh2UXpYTTRTZi1UZmNHaE5LYzlWM3NNaHl4N2pxQk9xbDJUdFR3bGM?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-14T06:58:02+00:00",
+    "raw_text": "Exide redefines customer experience with AI and tech - News Today | First with the news News Today",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Exide redefines customer experience with AI and tech - News Today | First with the news News Today"
+  },
+  {
     "title": "Dish TV's chief customer experience officer Swami Mehra quits - ET BrandEquity",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON0Jfa1FpX1JZUFBBMzFMcUpMeExNdk9Fakt6OXZNVDJZWGsyUjlLbVZ4MEpRaVlpRXNJd05HVHNVYnhRVDhKRVREU3pRamZwY0RVVmRtSkRNdWdNdGk3anZ4aGNkc3pOak5tNzJ3RGQxMFRGaFFoLXVPQ1I5SFpRYTdnTG54LVdwOUxqT09PZl9sUUpzdW5hUFgxd0NJYlFtNTdvaUNpQWIyclBna1Q2N3pBdWpERUxLZi1neDJqTGwtaEZCWUNrNUtReDNMalNhMVFZbUJaOENXQdIB3wFBVV95cUxPSXZtOFk0MkYyc3pzVHkzZzc0Z3dVT20tbzBkcThqYjhFRERxQXJQV0pESDB4eG92TGo0TFdMQ1ZlbC10bFVtZEtHeUF0ZUF6N0Q5aFVJWWJfWE1TeHRXakFpV1RHX28taWZLeEdwWVExVUdCWEhWend4TzNaV0tkdnNOQ2hZWGE2R2N3cko3OWY5UTBMN3RySkVkT3lMSkdyVWtwYnVoWkpNVkxFM2ZCTWlTUnZJWU1wNmZDT3BDY21mT2J5OW03ZXUweTJFZWJvTzRvVkZlYnF1d01MU2dB?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -4603,22 +4413,6 @@
       ]
     },
     "summary": "Dish TV's chief customer experience officer Swami Mehra quits ET BrandEquity"
-  },
-  {
-    "title": "Quiq Voice AI is now available in the Zoom App Marketplace with integration into Zoom Contact Center - PR Newswire",
-    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWnBpTy15UGdwZEktZnFuelNEd3lyTHQ5WURzVFh6S096d1NQUy1oTy0zNXBLUVhoNURDd3paODg1blNIUzNMOGRCTUdMX3Y1Wmh6elVDNlU1VEMyQ2xiZHBTTHlSZy11aUlkWmtqUDdYdjRUaDNMX3k5SEN4andwTjRaSlE0dVhNWVdzTjBIYUxjYm1ONnFnSzZOekJ2SDBmNjVKTVdQSW5McDVpOVE1U0k2M1Ffc0JNWDFudy14QlhEemxwN2lMNkxTamM1SGNFUU5oS1ZGd3hBNXBmMkhXR3EtRVlSSXhvXzZzVw?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-12T15:15:00+00:00",
-    "raw_text": "Quiq Voice AI is now available in the Zoom App Marketplace with integration into Zoom Contact Center PR Newswire",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "contact center"
-      ]
-    },
-    "summary": "Quiq Voice AI is now available in the Zoom App Marketplace with integration into Zoom Contact Center PR Newswire"
   },
   {
     "title": "Customer experience solutions provider Fusion CX acquires German co. impacx for 2-M euros - Venture Intelligence News",
@@ -4687,6 +4481,22 @@
       ]
     },
     "summary": "Is IBEX (NASDAQ:IBEX) Gaining An Edge In Customer Experience? Kalkine Media"
+  },
+  {
+    "title": "EVNCPC diversifies access channels, improves customer experience using electricity - Laodong.vn",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZmZ0MEcweVJVdzNSNTVwcnc5QmNlS2tNcEx1cFZQdFVRSXUxWjRLMm10N0N5N3FvNll5dzZlaDd0VnU2SEhpU2M3dVF3Q3pvWkltbHVVc1N6cTFjTVBEeS1iX01zWFQwR3dPNWFXSWhmanF6VjZGVlIwNWhNWlI0QkU2WmZuVXhYanI0V2JmYVZfcjhHSTVtTE1nZy1uWkstNFBQSGZObTZlenV3SFNzX0VzYlZZUFVLQ2xpT0ZFVjM2YnBURXhMMQ?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-14T05:05:30+00:00",
+    "raw_text": "EVNCPC diversifies access channels, improves customer experience using electricity Laodong.vn",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "EVNCPC diversifies access channels, improves customer experience using electricity Laodong.vn"
   },
   {
     "title": "Festive Beauty Trends Shift from Makeup Staples to Skin Prep, Premium Kits and Omnichannel Shopping - Indian Retailer",
