@@ -348,28 +348,6 @@
     "summary": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]"
   },
   {
-    "title": "N-able says recent security breach led to major service outage",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-    "source": "BleepingComputer",
-    "published": "2026-11-20T13:18:36+00:00",
-    "raw_text": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
-    "categories": [
-      "Cloud Infrastructure",
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "cloud",
-        "cloud services"
-      ],
-      "Cybersecurity": [
-        "breach",
-        "security"
-      ]
-    },
-    "summary": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]"
-  },
-  {
     "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
     "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
     "source": "Krebs on Security",
@@ -591,27 +569,11 @@
     "summary": "Ransomware actor N0n has claimed attacks on JPMorgan, Visa and Mastercard, reportedly leaking customer data on its dark web site"
   },
   {
-    "title": "Ransomware Recovery Takes 20 Days for the Typical Victim, Report Finds",
-    "url": "https://www.infosecurity-magazine.com/news/ransomware-recovery-20-days/",
-    "source": "InfoSecurity Magazine",
-    "published": "2026-11-20T14:15:00+00:00",
-    "raw_text": "A new Rubrik report has shown that ransomware victims face 20-day median recovery time, with 28% of recovery cases taking longer than six weeks",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "ransomware"
-      ]
-    },
-    "summary": "A new Rubrik report has shown that ransomware victims face 20-day median recovery time, with 28% of recovery cases taking longer than six weeks"
-  },
-  {
     "title": "Ultimate guide for fixing your team’s API keys",
     "url": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
     "source": "Google Cloud Blog",
     "published": "2026-11-20T17:00:00+00:00",
-    "raw_text": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio , then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and the key comes along unchanged. By then it usually isn't one key. Every developer has their own, often several, sitting in .env files, shell profiles and chat threads. The app has one more, baked into its config. For example, imagine an account that normally spends $180 a month. One of those keys ends up in a public repo, a Slack channel or a mobile app bundle. Automated scrapers find it within minutes and use it to run large workloads. By the time the first billing alert arrives, the bill is in the tens of thousands. Under the shared responsibility model , the customer pays for usage made with their own valid credentials. For a seed-stage company, that’s runway gone in a weekend. In our recent post, 10 questions every startup should answer before moving to production with their AI prototype , we covered the whole path from prototype to production. This post goes deeper on one part of it: getting off raw API keys entirely. Here is what this guide covers: Authorize your people. Give everyone on the team one login with Application Default Credentials and use it to call Gemini, Claude and open models. Steps 1 and 2 take about five minutes. Authorize your application. Run your app under its own service account with only the access it needs. Steps 3 and 4. Lock down what's left. Move the remaining keys into Secret Manager, then add spend caps, guardrails and monitoring. Step 5 and the closing sections. The code for every step is in a companion repo with runnable samples and offline tests. Why a raw key is different An AI Studio key is a bearer token. Whoever holds it can use it. It doesn't expire on its own. It isn't tied to a machine, a person or a workload. It has no spending limit unless you add one. When someone leaves the company, nobody knows which keys to revoke. That is fine on your laptop while you are the only user. It stops being fine when any of these is true: A key has left your laptop. It was shared in chat, committed to a repo or deployed to a server. More than one person on the team needs to call the API. You are spending more than a few hundred dollars a month, or you are about to onboard paying customers. If one of those describes you, do the switch this week. Before changing anything, find out where your keys are. The repo includes a small scanner that looks for strings shaped like Google API keys and for api_key= set to a literal value. It reports the file and line but never the key itself. It also exits with an error, so you can drop it into CI: code_block <ListValue: [StructValue([('code', 'python -m step1_keyless_auth.scan_for_keys .'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168efd0>)])]> Step one: Give each person one login Each person on the team runs one command: code_block <ListValue: [StructValue([('code', 'gcloud auth application-default login'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168e690>)])]> A browser window opens, you sign in with your work account and gcloud stores a short-lived credential on your machine. Every Google Cloud SDK finds it automatically. There is no key to copy, paste or leak. Then point your tools at the team project: code_block <ListValue: [StructValue([('code', 'export GOOGLE_CLOUD_PROJECT=my-startup-dev'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168e190>)])]> Someone has to grant you access to the project first. Step four shows how. Step two: Call any model with that login That single credential works for every model in Model Garden , not only Gemini. You don't need new accounts, new keys or separate invoices. Within each SDK, switching models means changing one string. Gemini , with the Google Gen AI SDK . If your prototype builds the client with api_key=... , this is the only change: code_block <ListValue: [StructValue([('code', 'from google import genai\\r\\n\\r\\nclient = genai.Client(enterprise=True, project=\"my-startup-dev\", location=\"global\")\\r\\nresp = client.models.generate_content(model=\"gemini-4-hydrogen\", contents=\"Hi\")\\r\\nprint(resp.text)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168dcd0>)])]> enterprise=True sends the call to Gemini Platform instead of AI Studio. Older samples call the same flag vertexai=True , and current SDK versions accept both. Claude , with Anthropic's SDK and the same login: code_block <ListValue: [StructValue([('code', 'from anthropic import AnthropicVertex\\r\\n\\r\\nclient = AnthropicVertex(project_id=\"my-startup-dev\", region=\"global\")\\r\\nmsg = client.messages.create(\\r\\n model=\"claude-sonnet-5-5\",\\r\\n max_tokens=512,\\r\\n messages=[{\"role\": \"user\", \"content\": \"Hi\"}],\\r\\n)\\r\\nprint(msg.content[0].text)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168c650>)])]> Open models such as OpenAI's gpt-oss , with the OpenAI SDK pointed at Google Cloud: code_block <ListValue: [StructValue([('code', 'import google.auth, google.auth.transport.requests\\r\\nfrom openai import OpenAI\\r\\n\\r\\ncreds, _ = google.auth.default(scopes=[\"https://www.googleapis.com/auth/cloud-platform\"])\\r\\ncreds.refresh(google.auth.transport.requests.Request())\\r\\n\\r\\nclient = OpenAI(\\r\\n base_url=\"https://aiplatform.googleapis.com/v1/projects/my-startup-dev/locations/global/endpoints/openapi\",\\r\\n api_key=creds.token, # a one-hour token from your login, not a stored key\\r\\n)\\r\\nresp = client.chat.completions.create(\\r\\n model=\"openai/gpt-oss-120b-maas\",\\r\\n messages=[{\"role\": \"user\", \"content\": \"Hi\"}],\\r\\n)\\r\\nprint(resp.choices[0].message.content)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168e810>)])]> Two things to know: Partner models like Claude need a one-time Enable on their Model Garden card in each project. After that, everyone with access can call them. OpenAI's GPT-6 models arrived in Model Garden on October 21 in private preview for select enterprise customers. When they open up, the same login will work for them too. Every call lands on one Google Cloud bill, which makes it easier to compare models on cost and quality. Step three: Give your app its own identity Your app needs the same thing your developers just got: an identity instead of a key. For a workload, that identity is a service account. The good news is that the code from Step 2 doesn't change. On your laptop, ADC picks up your own login. On Cloud Run, GKE or Compute Engine, it picks up a short-lived token for the service account attached to the workload, refreshed automatically. So there is nothing in your codebase to leak. A token that escapes is short-lived, usually about an hour, and it only carries the permissions of one service account. Create the service account and deploy with it: code_block <ListValue: [StructValue([('code', 'gcloud iam service-accounts create agent-runtime \\\\\\r\\n --display-name=\"Runtime identity for the app\"\\r\\n\\r\\ngcloud run deploy my-agent \\\\\\r\\n --image=us-docker.pkg.dev/my-startup-prod/agents/api:v1 \\\\\\r\\n --service-account=agent-runtime@my-startup-prod.iam.gserviceaccount.com \\\\\\r\\n --region=us-central1'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168f510>)])]> Keep people and production apart. Developers work in my-startup-dev under their own logins, and the app runs in my-startup-prod under its service account. A mistake in one doesn't spend the other's budget. Step four: Give each identity only what it needs Removing keys solves the leak problem. The next question is what each identity is allowed to do. If a person or a service account holds the Editor or Owner role, a stolen login or token can still delete resources, change permissions or read data it never needed. Calling models takes one role, roles/aiplatform.user . The grant looks the same for both kinds of identity. For people, grant it to a Google group, not to individuals. Onboarding and offboarding then become a group membership change: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding my-startup-dev \\\\\\r\\n --member=\"group:ai-builders@my-startup.com\" \\\\\\r\\n --role=\"roles/aiplatform.user\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168ef90>)])]> For the app, grant it to the service account: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding my-startup-prod \\\\\\r\\n --member=\"serviceAccount:agent-runtime@my-startup-prod.iam.gserviceaccount.com\" \\\\\\r\\n --role=\"roles/aiplatform.user\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168c210>)])]> It takes about 30 seconds longer than granting Editor. If anything is compromised later, the attacker gets one narrow role instead of the whole project. When someone leaves, remove them from the group and their access ends everywhere at once. In the Cloud Console, the Grant access dialog has a Help me choose roles button. You describe the task in plain English and Gemini suggests predefined roles . By default the suggestions cover common tasks, which usually means a service's broad Admin, Editor or Viewer role. To get the narrow roles, say so: What is the narrowest access a service account needs to call Gemini models on Agent Platform? Three more controls are worth knowing: If your project sits in an organization, the vertexai.allowedModels policy limits which models anyone can call. You list values such as publishers/google/models/gemini-4-hydrogen:predict , and everything else is blocked. The repo includes a one-line audit that lists every service account holding Owner or Editor on a project. Run it now and again before each launch. To stop new keys from being created, enforce Org Policies denying CREATE on apikeys.googleapis.com/Key for API keys and iam.managed.disableServiceAccountKeyCreation for service account keys. Step 5: Put the remaining keys in Secret Manager Some keys won't go away, like Stripe, Slack or your email provider. They belong in Secret Manager , not in .env files, chat threads or the repo. Access works the way it did in Step 4: grant read access on each secret to the identity that needs it. Test keys go to the developer group: code_block <ListValue: [StructValue([('code', 'gcloud secrets create stripe-test-key --data-file=-\\r\\ngcloud secrets add-iam-policy-binding stripe-test-key \\\\\\r\\n --member=\"group:ai-builders@my-startup.com\" \\\\\\r\\n --role=\"roles/secretmanager.secretAccessor\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168f9d0>)])]> Anyone in the group can then fetch the key with their own login: code_block <ListValue: [StructValue([('code', 'gcloud secrets versions access latest --secret=stripe-test-key'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168d810>)])]> Live keys stay in the production project, readable only by the app's service account. The app reads them at startup: code_block <ListValue: [StructValue([('code', 'from google.cloud import secretmanager\\r\\n\\r\\nsm = secretmanager.SecretManagerServiceClient()\\r\\nresp = sm.access_secret_version(\\r\\n name=\"projects/my-startup-prod/secrets/stripe-live-key/versions/latest\"\\r\\n)\\r\\nstripe_key = resp.payload.data.decode(\"utf-8\")'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168e410>)])]> Reading --data-file=- from standard input keeps the value out of your shell history. Every read is tied to a named person or service account, and rotating a key means adding one new version. Nothing is redeployed and no file is copied between laptops. Then finish the job. Go to the AI Studio API keys page and delete every key, personal or shared, that ever left a laptop. A key you have moved away from is still live until you delete it. What the new setup gives you Once your people and your app run on identities in a Google Cloud project, several protections become available that a bare key can't offer. You don't need all of them on day one. They are worth knowing about before your first launch. A spend cap that pauses the service Standard budget alerts send email while the bill keeps climbing. A spend cap budget , currently in Preview, does more. When estimated spend for one service in one project passes the amount you set, new requests to that service are paused until you lift the cap or the next month starts. Alerts go to billing admins and project owners at 50%, 80% and 100%. You can create one in the console under Budgets & alerts by choosing Spend cap enforcement , or through the Budget API. The repo wraps the API call and has a dry-run flag so you can inspect the request first: code_block <ListValue: [StructValue([('code', 'python -m bonus_spend_cap.create_spend_cap \\\\\\r\\n --billing-account 012345-6789AB-CDEF01 --amount 500 --dry-run'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168c2d0>)])]> Know the limits before relying on it. Each cap covers a single project and a single service. Agent Platform, the Gemini API, Cloud Run and Cloud Run functions are eligible today. Enforcement runs on estimated cost and is not instant. Any overage is billed as normal, so set the number below the amount you can actually afford to lose. A cap also pauses usage covered by commitments, and after you lift it the service can take up to an hour to recover. Set one cap on the dev project and another on prod. An experiment then can't drain the budget your customers depend on. For a second layer, lower your Agent Platform quotas to what you really need, so a bug or an agent stuck in a loop runs into a ceiling instead of your card limit. Guardrails on prompts and responses As soon as real users can type into your app, someone will try to make it ignore its instructions. Model Armor screens prompts and responses for prompt injection, jailbreak attempts, malicious URLs and sensitive data. You create a template once, check each prompt against it and only call the model when it comes back clean. The repo has both halves. A sandbox for model-written code If your product lets the model write and run code, for example to analyze a customer's spreadsheet, that code should not run inside your application process. With code execution , the model runs Python in a Google-managed sandbox and hands back the result: code_block <ListValue: [StructValue([('code', 'config=types.GenerateContentConfig(\\r\\n tools=[types.Tool(code_execution=types.ToolCodeExecution())],\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c168fe90>)])]> The generated code never sees your environment variables, your files or your database. Someone watching for unusual behavior Security Command Center surfaces threats and misconfigurations across the project, such as a service account suddenly calling an API it has never used or a workload contacting an unfamiliar host. Together with Cloud Audit Logs, which record who changed what and when, it also gives you the answers your first enterprise customer's security review will ask for. Because every call now comes from a named person or service account, those logs mean something. Your 20-minute checklist For your team: Everyone runs gcloud auth application-default login . Grant roles/aiplatform.user to one Google group, and enable the partner models you want. Move shared test keys into Secret Manager, readable by the group. For your app: Deploy with a service account that holds roles/aiplatform.user and nothing broader. Move live third-party keys into Secret Manager, readable only by that service account. Set a spend cap on each project below the amount you can afford to lose. For both: Run the key scanner, then delete every AI Studio key at aistudio.google.com/apikey . None of this slows down building. You keep the speed of the prototype and every model in Model Garden stays one string away. Nobody on the team has to guard a key again. The full code, with a sample for every step and bonus above, is in the companion repo . Have a scenario you'd like us to cover next? Reach us at Google Cloud for Startups .",
+    "raw_text": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio , then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and the key comes along unchanged. By then it usually isn't one key. Every developer has their own, often several, sitting in .env files, shell profiles and chat threads. The app has one more, baked into its config. For example, imagine an account that normally spends $180 a month. One of those keys ends up in a public repo, a Slack channel or a mobile app bundle. Automated scrapers find it within minutes and use it to run large workloads. By the time the first billing alert arrives, the bill is in the tens of thousands. Under the shared responsibility model , the customer pays for usage made with their own valid credentials. For a seed-stage company, that’s runway gone in a weekend. In our recent post, 10 questions every startup should answer before moving to production with their AI prototype , we covered the whole path from prototype to production. This post goes deeper on one part of it: getting off raw API keys entirely. Here is what this guide covers: Authorize your people. Give everyone on the team one login with Application Default Credentials and use it to call Gemini, Claude and open models. Steps 1 and 2 take about five minutes. Authorize your application. Run your app under its own service account with only the access it needs. Steps 3 and 4. Lock down what's left. Move the remaining keys into Secret Manager, then add spend caps, guardrails and monitoring. Step 5 and the closing sections. The code for every step is in a companion repo with runnable samples and offline tests. Why a raw key is different An AI Studio key is a bearer token. Whoever holds it can use it. It doesn't expire on its own. It isn't tied to a machine, a person or a workload. It has no spending limit unless you add one. When someone leaves the company, nobody knows which keys to revoke. That is fine on your laptop while you are the only user. It stops being fine when any of these is true: A key has left your laptop. It was shared in chat, committed to a repo or deployed to a server. More than one person on the team needs to call the API. You are spending more than a few hundred dollars a month, or you are about to onboard paying customers. If one of those describes you, do the switch this week. Before changing anything, find out where your keys are. The repo includes a small scanner that looks for strings shaped like Google API keys and for api_key= set to a literal value. It reports the file and line but never the key itself. It also exits with an error, so you can drop it into CI: code_block <ListValue: [StructValue([('code', 'python -m step1_keyless_auth.scan_for_keys .'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff2eed21d90>)])]> Step one: Give each person one login Each person on the team runs one command: code_block <ListValue: [StructValue([('code', 'gcloud auth application-default login'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c658890>)])]> A browser window opens, you sign in with your work account and gcloud stores a short-lived credential on your machine. Every Google Cloud SDK finds it automatically. There is no key to copy, paste or leak. Then point your tools at the team project: code_block <ListValue: [StructValue([('code', 'export GOOGLE_CLOUD_PROJECT=my-startup-dev'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c659b90>)])]> Someone has to grant you access to the project first. Step four shows how. Step two: Call any model with that login That single credential works for every model in Model Garden , not only Gemini. You don't need new accounts, new keys or separate invoices. Within each SDK, switching models means changing one string. Gemini , with the Google Gen AI SDK . If your prototype builds the client with api_key=... , this is the only change: code_block <ListValue: [StructValue([('code', 'from google import genai\\r\\n\\r\\nclient = genai.Client(enterprise=True, project=\"my-startup-dev\", location=\"global\")\\r\\nresp = client.models.generate_content(model=\"gemini-4-hydrogen\", contents=\"Hi\")\\r\\nprint(resp.text)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c65a550>)])]> enterprise=True sends the call to Gemini Platform instead of AI Studio. Older samples call the same flag vertexai=True , and current SDK versions accept both. Claude , with Anthropic's SDK and the same login: code_block <ListValue: [StructValue([('code', 'from anthropic import AnthropicVertex\\r\\n\\r\\nclient = AnthropicVertex(project_id=\"my-startup-dev\", region=\"global\")\\r\\nmsg = client.messages.create(\\r\\n model=\"claude-sonnet-5-5\",\\r\\n max_tokens=512,\\r\\n messages=[{\"role\": \"user\", \"content\": \"Hi\"}],\\r\\n)\\r\\nprint(msg.content[0].text)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c65a3d0>)])]> Open models such as OpenAI's gpt-oss , with the OpenAI SDK pointed at Google Cloud: code_block <ListValue: [StructValue([('code', 'import google.auth, google.auth.transport.requests\\r\\nfrom openai import OpenAI\\r\\n\\r\\ncreds, _ = google.auth.default(scopes=[\"https://www.googleapis.com/auth/cloud-platform\"])\\r\\ncreds.refresh(google.auth.transport.requests.Request())\\r\\n\\r\\nclient = OpenAI(\\r\\n base_url=\"https://aiplatform.googleapis.com/v1/projects/my-startup-dev/locations/global/endpoints/openapi\",\\r\\n api_key=creds.token, # a one-hour token from your login, not a stored key\\r\\n)\\r\\nresp = client.chat.completions.create(\\r\\n model=\"openai/gpt-oss-120b-maas\",\\r\\n messages=[{\"role\": \"user\", \"content\": \"Hi\"}],\\r\\n)\\r\\nprint(resp.choices[0].message.content)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c65a5d0>)])]> Two things to know: Partner models like Claude need a one-time Enable on their Model Garden card in each project. After that, everyone with access can call them. OpenAI's GPT-6 models arrived in Model Garden on October 21 in private preview for select enterprise customers. When they open up, the same login will work for them too. Every call lands on one Google Cloud bill, which makes it easier to compare models on cost and quality. Step three: Give your app its own identity Your app needs the same thing your developers just got: an identity instead of a key. For a workload, that identity is a service account. The good news is that the code from Step 2 doesn't change. On your laptop, ADC picks up your own login. On Cloud Run, GKE or Compute Engine, it picks up a short-lived token for the service account attached to the workload, refreshed automatically. So there is nothing in your codebase to leak. A token that escapes is short-lived, usually about an hour, and it only carries the permissions of one service account. Create the service account and deploy with it: code_block <ListValue: [StructValue([('code', 'gcloud iam service-accounts create agent-runtime \\\\\\r\\n --display-name=\"Runtime identity for the app\"\\r\\n\\r\\ngcloud run deploy my-agent \\\\\\r\\n --image=us-docker.pkg.dev/my-startup-prod/agents/api:v1 \\\\\\r\\n --service-account=agent-runtime@my-startup-prod.iam.gserviceaccount.com \\\\\\r\\n --region=us-central1'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c65abd0>)])]> Keep people and production apart. Developers work in my-startup-dev under their own logins, and the app runs in my-startup-prod under its service account. A mistake in one doesn't spend the other's budget. Step four: Give each identity only what it needs Removing keys solves the leak problem. The next question is what each identity is allowed to do. If a person or a service account holds the Editor or Owner role, a stolen login or token can still delete resources, change permissions or read data it never needed. Calling models takes one role, roles/aiplatform.user . The grant looks the same for both kinds of identity. For people, grant it to a Google group, not to individuals. Onboarding and offboarding then become a group membership change: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding my-startup-dev \\\\\\r\\n --member=\"group:ai-builders@my-startup.com\" \\\\\\r\\n --role=\"roles/aiplatform.user\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c658050>)])]> For the app, grant it to the service account: code_block <ListValue: [StructValue([('code', 'gcloud projects add-iam-policy-binding my-startup-prod \\\\\\r\\n --member=\"serviceAccount:agent-runtime@my-startup-prod.iam.gserviceaccount.com\" \\\\\\r\\n --role=\"roles/aiplatform.user\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c65a950>)])]> It takes about 30 seconds longer than granting Editor. If anything is compromised later, the attacker gets one narrow role instead of the whole project. When someone leaves, remove them from the group and their access ends everywhere at once. In the Cloud Console, the Grant access dialog has a Help me choose roles button. You describe the task in plain English and Gemini suggests predefined roles . By default the suggestions cover common tasks, which usually means a service's broad Admin, Editor or Viewer role. To get the narrow roles, say so: What is the narrowest access a service account needs to call Gemini models on Agent Platform? Three more controls are worth knowing: If your project sits in an organization, the vertexai.allowedModels policy limits which models anyone can call. You list values such as publishers/google/models/gemini-4-hydrogen:predict , and everything else is blocked. The repo includes a one-line audit that lists every service account holding Owner or Editor on a project. Run it now and again before each launch. To stop new keys from being created, enforce Org Policies denying CREATE on apikeys.googleapis.com/Key for API keys and iam.managed.disableServiceAccountKeyCreation for service account keys. Step 5: Put the remaining keys in Secret Manager Some keys won't go away, like Stripe, Slack or your email provider. They belong in Secret Manager , not in .env files, chat threads or the repo. Access works the way it did in Step 4: grant read access on each secret to the identity that needs it. Test keys go to the developer group: code_block <ListValue: [StructValue([('code', 'gcloud secrets create stripe-test-key --data-file=-\\r\\ngcloud secrets add-iam-policy-binding stripe-test-key \\\\\\r\\n --member=\"group:ai-builders@my-startup.com\" \\\\\\r\\n --role=\"roles/secretmanager.secretAccessor\"'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c658610>)])]> Anyone in the group can then fetch the key with their own login: code_block <ListValue: [StructValue([('code', 'gcloud secrets versions access latest --secret=stripe-test-key'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c65bdd0>)])]> Live keys stay in the production project, readable only by the app's service account. The app reads them at startup: code_block <ListValue: [StructValue([('code', 'from google.cloud import secretmanager\\r\\n\\r\\nsm = secretmanager.SecretManagerServiceClient()\\r\\nresp = sm.access_secret_version(\\r\\n name=\"projects/my-startup-prod/secrets/stripe-live-key/versions/latest\"\\r\\n)\\r\\nstripe_key = resp.payload.data.decode(\"utf-8\")'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c65b790>)])]> Reading --data-file=- from standard input keeps the value out of your shell history. Every read is tied to a named person or service account, and rotating a key means adding one new version. Nothing is redeployed and no file is copied between laptops. Then finish the job. Go to the AI Studio API keys page and delete every key, personal or shared, that ever left a laptop. A key you have moved away from is still live until you delete it. What the new setup gives you Once your people and your app run on identities in a Google Cloud project, several protections become available that a bare key can't offer. You don't need all of them on day one. They are worth knowing about before your first launch. A spend cap that pauses the service Standard budget alerts send email while the bill keeps climbing. A spend cap budget , currently in Preview, does more. When estimated spend for one service in one project passes the amount you set, new requests to that service are paused until you lift the cap or the next month starts. Alerts go to billing admins and project owners at 50%, 80% and 100%. You can create one in the console under Budgets & alerts by choosing Spend cap enforcement , or through the Budget API. The repo wraps the API call and has a dry-run flag so you can inspect the request first: code_block <ListValue: [StructValue([('code', 'python -m bonus_spend_cap.create_spend_cap \\\\\\r\\n --billing-account 012345-6789AB-CDEF01 --amount 500 --dry-run'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c659850>)])]> Know the limits before relying on it. Each cap covers a single project and a single service. Agent Platform, the Gemini API, Cloud Run and Cloud Run functions are eligible today. Enforcement runs on estimated cost and is not instant. Any overage is billed as normal, so set the number below the amount you can actually afford to lose. A cap also pauses usage covered by commitments, and after you lift it the service can take up to an hour to recover. Set one cap on the dev project and another on prod. An experiment then can't drain the budget your customers depend on. For a second layer, lower your Agent Platform quotas to what you really need, so a bug or an agent stuck in a loop runs into a ceiling instead of your card limit. Guardrails on prompts and responses As soon as real users can type into your app, someone will try to make it ignore its instructions. Model Armor screens prompts and responses for prompt injection, jailbreak attempts, malicious URLs and sensitive data. You create a template once, check each prompt against it and only call the model when it comes back clean. The repo has both halves. A sandbox for model-written code If your product lets the model write and run code, for example to analyze a customer's spreadsheet, that code should not run inside your application process. With code execution , the model runs Python in a Google-managed sandbox and hands back the result: code_block <ListValue: [StructValue([('code', 'config=types.GenerateContentConfig(\\r\\n tools=[types.Tool(code_execution=types.ToolCodeExecution())],\\r\\n)'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff31c659f50>)])]> The generated code never sees your environment variables, your files or your database. Someone watching for unusual behavior Security Command Center surfaces threats and misconfigurations across the project, such as a service account suddenly calling an API it has never used or a workload contacting an unfamiliar host. Together with Cloud Audit Logs, which record who changed what and when, it also gives you the answers your first enterprise customer's security review will ask for. Because every call now comes from a named person or service account, those logs mean something. Your 20-minute checklist For your team: Everyone runs gcloud auth application-default login . Grant roles/aiplatform.user to one Google group, and enable the partner models you want. Move shared test keys into Secret Manager, readable by the group. For your app: Deploy with a service account that holds roles/aiplatform.user and nothing broader. Move live third-party keys into Secret Manager, readable only by that service account. Set a spend cap on each project below the amount you can afford to lose. For both: Run the key scanner, then delete every AI Studio key at aistudio.google.com/apikey . None of this slows down building. You keep the speed of the prototype and every model in Model Garden stays one string away. Nobody on the team has to guard a key again. The full code, with a sample for every step and bonus above, is in the companion repo . Have a scenario you'd like us to cover next? Reach us at Google Cloud for Startups .",
     "categories": [
       "Cybersecurity",
       "Cloud Infrastructure",
@@ -800,7 +762,7 @@
     "url": "https://cloud.google.com/blog/products/databases/how-spanner-graph-detects-google-ads-fraud-and-abuse/",
     "source": "Google Cloud Blog",
     "published": "2026-11-20T17:00:00+00:00",
-    "raw_text": "Ever wonder how the Google Ads team keeps the massive system stable and online, despite continuous attempts by hackers to take it down? Part of the answer is using Spanner as its core operational and graph database. The Google Ads team uses a central graph-based platform to fight fraud and abuse with batch and real-time signals. Built to protect the Google Ads ecosystem and now used by multiple teams across Google, the platform organizes anti-abuse intelligence into a single, interconnected view. Its core mission is simple but critical: uncover hidden connections between malicious assets in real time before they can harm users or advertisers. This blog talks about the challenging modern fraud and abuse landscape, and how Spanner, specifically Spanner Graph, helps Google successfully detect those threats. The rising cost and sophistication of modern fraud The need for a graph-based abuse detection platform stems from how the global threat landscape has evolved. Digital advertising fraud and online scams are no longer minor operational nuisances, they are a massive drain on the global economy. According to the NASDAQ Global Financial Crime Report , total global fraud losses are estimated at nearly $580 billion for 2025. Furthermore, global surveys indicate that approximately one in five adults fall victim to scams. In digital ads , fraud and abuse waste marketing spend, corrupt attribution data, and expose everyday users to financial scams, identity theft, and malware. Bad actors are increasingly leveraging automation and AI to scale deceptive campaigns more efficiently. In 2025 alone, Google blocked or removed more than 8.3 billion policy-violating ads and suspended 24.9 million advertiser accounts. As these tactics evolve, real-time detection becomes more important for protecting businesses and users. Why stopping modern abuse is so complex Defending applications from fraud and abuse requires continuously advancing threat detection beyond traditional, point-in-time checks. To do that, modern security systems must address two compounding challenges simultaneously: Fraud and abuse operate as networks: Bad actors hide behind residential proxies and synthetic identities to create deceptive ad campaigns. Each of the attributes like location proxies, account, and identity parameters appear benign in isolation. But behind the scenes, bad actors share payment methods, domains, and accounts, requiring security systems to target entire coordinated clusters of fraud rather than isolated indicators. This is hard to capture with traditional approaches that do not understand the relationship between attributes and evaluates each signal separately. Detection must scale dynamically: As the graph-based abuse detection platform grew, the previous system, based on offline MapReduce batch processing, became bottlenecked. Tracing multi-hop relationships in batch MapReduce required repeated, expensive joins across distributed stages, triggering massive intermediate data expansions, heavy shuffle overhead, and network bottlenecks that caused hours-long latencies and combinatorial fanouts during multi-hop traversals. In critical scenarios like halting live malware campaigns, multi-hour latency gaps leave room for a lot of damage. To block sophisticated fraud rings, Google needed to evaluate multi-hop relationship risks in real time at the time of serving these ads, before malicious content reaches users. Why Spanner Graph To overcome the limits of processing at inference time, the engineering team needed a database that could ingest live signals from a large number of sources via pub/sub streams, all while delivering horizontal elasticity, global transactional consistency, and sub-second multi-hop traversals. The solution was to modernize Google's graph-based abuse detection platform for Ads onto Spanner Graph . Because Ads’ core transactional and entity data already lived in Spanner, they didn’t need to migrate any data in order to adopt Spanner Graph. Rather than standing up a separate, specialized graph database, the team simply defined property graphs directly on top of their existing relational tables. This delivered several benefits: From hour-long batch jobs to sub-second queries: Spanner Graph co-locates graph traversal computations directly with the underlying distributed data splits to minimize join overhead. Multi-hop traversals that previously took an hour in offline Apache Flume MapReduce jobs now execute on live production data with sub-second to single-digit millisecond latency. Zero-ETL adoption in weeks, not months: Because there was no data to move, most graph-based abuse detection use cases transitioned to Spanner Graph within weeks. Layering a graph directly onto existing Spanner tables eliminated fragile synchronization pipelines and redundant storage costs. Expressive pattern matching with native ISO GQL: Instead of writing and maintaining complex custom traversal code, engineers now query the exact same tables using standard ISO Graph Query Language (GQL), significantly accelerating feature velocity. How a graph-based abuse detection platform detects fraud With Spanner Graph, Google's graph-based abuse detection platform for ads performs multi-hop pattern matching directly against operational relational data using ISO GQL. For instance, when an account is flagged for suspicious activity, the platform does real-time traversals to uncover all connected signals across the graph. This allows security systems to identify and disable entire coordinated fraud rings quickly rather than handling individual accounts sequentially. Here’s how it works. The following query uses full-text keyword search and vector similarity search to traverse connected entities across multiple hops to identify a target entity linked to known suspicious activity. Note that the query is illustrative and the field names have been anonymized. code_block <ListValue: [StructValue([('code', \"GRAPH CentralGraph (Illustrative Query)\\r\\n-- 1. Multi-hop Graph Traversal: Trace relationship paths between entities\\r\\nMATCH (n1:Entity_1 {id: $seed_entity_id})-[r1:Relationship_1]->(n2:Entity_2)<-[r2:Relationship_2]-(n3:Entity_3)\\r\\nMATCH (n3)-[r3:Relationship_3]->(n4:Entity_4)<-[r4:Relationship_3]-(n5:Entity_1)-[r5:Relationship_4]->(n6:Entity_5)\\r\\nWHERE n5.status = 'FLAGGED'\\r\\n-- 2. Full-Text Search: Filter entities by text description keywords\\r\\n AND SEARCH(n3.description_text, 'suspicious activity')\\r\\n-- 3. Vector Search: Match similar entity embeddings for behavioral anomaly detection\\r\\n AND VECTOR_SEARCH(n6.embedding, $target_embedding, top_k => 5) > 0.85\\r\\nRETURN n1.id AS TargetEntity, n3.id AS LinkedEntity, n5.id AS FlaggedEntity, n6.id AS SimilarEntity\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7fc1c1760e10>)])]> Impact of adding real-time graph intelligence Today, the graph-based abuse detection platform operates as a unified, Google-wide defense platform across a live graph of over 500 billion nodes and 1 trillion edges. Further, bringing ability to do multi-hop graph queries to real-time enforcement has fundamentally changed how Google stops abuse, delivering big wins for customers and end users: Safeguarding advertiser budgets: The graph-based abuse detection platform is a primary source of detection signals for ad policy enforcement across Google's ad products. By uncovering the coordinated networks behind click fraud, click farms, and invalid traffic in real time, it stops bad actors, so advertisers don’t waste budget on invalid interactions. Defending users against emerging threats: Real-time relationship analysis helps Google catch public-figure impersonation, account takeovers, cloaking, and landing-page malware before campaigns start to scale. During any incident, the graph-based abuse detection platform plays a vital role in tracing the connected assets and rapidly shutting down the attack. Stopping repeat financial offenders: By correlating billing, financial, and identity information the platform identifies repeat bad actors and prevents banned offenders from simply spinning up new accounts to evade enforcement. Graph capabilities for every industry Google's graph-based abuse detection platform for ads shows what Spanner Graph can deliver under the world’s most demanding scale and latency requirements. Because this unified relational and graph architecture is built directly into Spanner, enterprises across a variety of industries can use the same foundation to solve their own complex pattern-matching and fraud challenges: Advertising and digital media: Ad platforms link cookies, device fingerprints, and click behavior to block coordinated fraud rings in real time. For instance, Google Ads leverages Spanner Graph to analyze relationship risk across a 500-billion-node graph, while Yahoo uses Spanner for their monetization use case. Retail and e-commerce: Retailers connect customer accounts, payments, and shipping data to stop promo abuse and bot networks at checkout. For instance, Target rebuilt its Gift Finder using Spanner Graph and vector search (GraphRAG), cutting maintenance by 50% with sub-10ms latency. Additionally, PayPal uses Spanner Graph for its Customer Graph to unify customer identities across brands. Cybersecurity and threat intelligence: Security teams map network assets, login origins, and access permissions to uncover attack paths and isolate compromised infrastructure during live incidents. Unifying graph queries with relational telemetry in Spanner helps expose proxy networks and automated impersonators before lateral movement occurs. Financial services and payments: Risk teams correlate billing data and payment instruments to stop synthetic identity rings and fraud. Equifax uses Spanner Graph to map ownership hierarchies across 30 million businesses. Get started Ready to bring real-time graph intelligence to your operational data at scale? Learn more about Spanner and explore Spanner Graph . Get hands-on experience with codelabs here and here .",
+    "raw_text": "Ever wonder how the Google Ads team keeps the massive system stable and online, despite continuous attempts by hackers to take it down? Part of the answer is using Spanner as its core operational and graph database. The Google Ads team uses a central graph-based platform to fight fraud and abuse with batch and real-time signals. Built to protect the Google Ads ecosystem and now used by multiple teams across Google, the platform organizes anti-abuse intelligence into a single, interconnected view. Its core mission is simple but critical: uncover hidden connections between malicious assets in real time before they can harm users or advertisers. This blog talks about the challenging modern fraud and abuse landscape, and how Spanner, specifically Spanner Graph, helps Google successfully detect those threats. The rising cost and sophistication of modern fraud The need for a graph-based abuse detection platform stems from how the global threat landscape has evolved. Digital advertising fraud and online scams are no longer minor operational nuisances, they are a massive drain on the global economy. According to the NASDAQ Global Financial Crime Report , total global fraud losses are estimated at nearly $580 billion for 2025. Furthermore, global surveys indicate that approximately one in five adults fall victim to scams. In digital ads , fraud and abuse waste marketing spend, corrupt attribution data, and expose everyday users to financial scams, identity theft, and malware. Bad actors are increasingly leveraging automation and AI to scale deceptive campaigns more efficiently. In 2025 alone, Google blocked or removed more than 8.3 billion policy-violating ads and suspended 24.9 million advertiser accounts. As these tactics evolve, real-time detection becomes more important for protecting businesses and users. Why stopping modern abuse is so complex Defending applications from fraud and abuse requires continuously advancing threat detection beyond traditional, point-in-time checks. To do that, modern security systems must address two compounding challenges simultaneously: Fraud and abuse operate as networks: Bad actors hide behind residential proxies and synthetic identities to create deceptive ad campaigns. Each of the attributes like location proxies, account, and identity parameters appear benign in isolation. But behind the scenes, bad actors share payment methods, domains, and accounts, requiring security systems to target entire coordinated clusters of fraud rather than isolated indicators. This is hard to capture with traditional approaches that do not understand the relationship between attributes and evaluates each signal separately. Detection must scale dynamically: As the graph-based abuse detection platform grew, the previous system, based on offline MapReduce batch processing, became bottlenecked. Tracing multi-hop relationships in batch MapReduce required repeated, expensive joins across distributed stages, triggering massive intermediate data expansions, heavy shuffle overhead, and network bottlenecks that caused hours-long latencies and combinatorial fanouts during multi-hop traversals. In critical scenarios like halting live malware campaigns, multi-hour latency gaps leave room for a lot of damage. To block sophisticated fraud rings, Google needed to evaluate multi-hop relationship risks in real time at the time of serving these ads, before malicious content reaches users. Why Spanner Graph To overcome the limits of processing at inference time, the engineering team needed a database that could ingest live signals from a large number of sources via pub/sub streams, all while delivering horizontal elasticity, global transactional consistency, and sub-second multi-hop traversals. The solution was to modernize Google's graph-based abuse detection platform for Ads onto Spanner Graph . Because Ads’ core transactional and entity data already lived in Spanner, they didn’t need to migrate any data in order to adopt Spanner Graph. Rather than standing up a separate, specialized graph database, the team simply defined property graphs directly on top of their existing relational tables. This delivered several benefits: From hour-long batch jobs to sub-second queries: Spanner Graph co-locates graph traversal computations directly with the underlying distributed data splits to minimize join overhead. Multi-hop traversals that previously took an hour in offline Apache Flume MapReduce jobs now execute on live production data with sub-second to single-digit millisecond latency. Zero-ETL adoption in weeks, not months: Because there was no data to move, most graph-based abuse detection use cases transitioned to Spanner Graph within weeks. Layering a graph directly onto existing Spanner tables eliminated fragile synchronization pipelines and redundant storage costs. Expressive pattern matching with native ISO GQL: Instead of writing and maintaining complex custom traversal code, engineers now query the exact same tables using standard ISO Graph Query Language (GQL), significantly accelerating feature velocity. How a graph-based abuse detection platform detects fraud With Spanner Graph, Google's graph-based abuse detection platform for ads performs multi-hop pattern matching directly against operational relational data using ISO GQL. For instance, when an account is flagged for suspicious activity, the platform does real-time traversals to uncover all connected signals across the graph. This allows security systems to identify and disable entire coordinated fraud rings quickly rather than handling individual accounts sequentially. Here’s how it works. The following query uses full-text keyword search and vector similarity search to traverse connected entities across multiple hops to identify a target entity linked to known suspicious activity. Note that the query is illustrative and the field names have been anonymized. code_block <ListValue: [StructValue([('code', \"GRAPH CentralGraph (Illustrative Query)\\r\\n-- 1. Multi-hop Graph Traversal: Trace relationship paths between entities\\r\\nMATCH (n1:Entity_1 {id: $seed_entity_id})-[r1:Relationship_1]->(n2:Entity_2)<-[r2:Relationship_2]-(n3:Entity_3)\\r\\nMATCH (n3)-[r3:Relationship_3]->(n4:Entity_4)<-[r4:Relationship_3]-(n5:Entity_1)-[r5:Relationship_4]->(n6:Entity_5)\\r\\nWHERE n5.status = 'FLAGGED'\\r\\n-- 2. Full-Text Search: Filter entities by text description keywords\\r\\n AND SEARCH(n3.description_text, 'suspicious activity')\\r\\n-- 3. Vector Search: Match similar entity embeddings for behavioral anomaly detection\\r\\n AND VECTOR_SEARCH(n6.embedding, $target_embedding, top_k => 5) > 0.85\\r\\nRETURN n1.id AS TargetEntity, n3.id AS LinkedEntity, n5.id AS FlaggedEntity, n6.id AS SimilarEntity\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7ff2eec1bfd0>)])]> Impact of adding real-time graph intelligence Today, the graph-based abuse detection platform operates as a unified, Google-wide defense platform across a live graph of over 500 billion nodes and 1 trillion edges. Further, bringing ability to do multi-hop graph queries to real-time enforcement has fundamentally changed how Google stops abuse, delivering big wins for customers and end users: Safeguarding advertiser budgets: The graph-based abuse detection platform is a primary source of detection signals for ad policy enforcement across Google's ad products. By uncovering the coordinated networks behind click fraud, click farms, and invalid traffic in real time, it stops bad actors, so advertisers don’t waste budget on invalid interactions. Defending users against emerging threats: Real-time relationship analysis helps Google catch public-figure impersonation, account takeovers, cloaking, and landing-page malware before campaigns start to scale. During any incident, the graph-based abuse detection platform plays a vital role in tracing the connected assets and rapidly shutting down the attack. Stopping repeat financial offenders: By correlating billing, financial, and identity information the platform identifies repeat bad actors and prevents banned offenders from simply spinning up new accounts to evade enforcement. Graph capabilities for every industry Google's graph-based abuse detection platform for ads shows what Spanner Graph can deliver under the world’s most demanding scale and latency requirements. Because this unified relational and graph architecture is built directly into Spanner, enterprises across a variety of industries can use the same foundation to solve their own complex pattern-matching and fraud challenges: Advertising and digital media: Ad platforms link cookies, device fingerprints, and click behavior to block coordinated fraud rings in real time. For instance, Google Ads leverages Spanner Graph to analyze relationship risk across a 500-billion-node graph, while Yahoo uses Spanner for their monetization use case. Retail and e-commerce: Retailers connect customer accounts, payments, and shipping data to stop promo abuse and bot networks at checkout. For instance, Target rebuilt its Gift Finder using Spanner Graph and vector search (GraphRAG), cutting maintenance by 50% with sub-10ms latency. Additionally, PayPal uses Spanner Graph for its Customer Graph to unify customer identities across brands. Cybersecurity and threat intelligence: Security teams map network assets, login origins, and access permissions to uncover attack paths and isolate compromised infrastructure during live incidents. Unifying graph queries with relational telemetry in Spanner helps expose proxy networks and automated impersonators before lateral movement occurs. Financial services and payments: Risk teams correlate billing data and payment instruments to stop synthetic identity rings and fraud. Equifax uses Spanner Graph to map ownership hierarchies across 30 million businesses. Get started Ready to bring real-time graph intelligence to your operational data at scale? Learn more about Spanner and explore Spanner Graph . Get hands-on experience with codelabs here and here .",
     "categories": [
       "Cybersecurity",
       "Networks",
@@ -1373,54 +1335,6 @@
     "summary": "Now heads to the House"
   },
   {
-    "title": "Microsoft becomes first company to use Intel’s EMIB packaging technology for Azure hardware",
-    "url": "https://www.datacenterdynamics.com/en/news/microsoft-becomes-first-company-to-use-intels-emib-packaging-technology-for-azure-hardware/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-20T14:07:17+00:00",
-    "raw_text": "Agreement also confirms long-term supply of Xeon processors to Microsoft, companies said",
-    "categories": [
-      "Cloud Infrastructure"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "azure"
-      ]
-    },
-    "summary": "Agreement also confirms long-term supply of Xeon processors to Microsoft, companies said"
-  },
-  {
-    "title": "Nebius expands Israel data center lease with Mega Or by 134MW",
-    "url": "https://www.datacenterdynamics.com/en/news/nebius-expands-israel-data-center-lease-with-mega-or-by-134mw/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-20T13:07:03+00:00",
-    "raw_text": "Facilities set to be completed by Q2 2028",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center"
-      ],
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "Facilities set to be completed by Q2 2028"
-  },
-  {
-    "title": "Florida man sentenced to 51 months for stealing $800,000 from victims through cell tower fraud plot",
-    "url": "https://www.datacenterdynamics.com/en/news/florida-man-sentenced-to-51-months-for-stealing-800000-from-victims-through-cell-tower-fraud-plot/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-20T13:04:31+00:00",
-    "raw_text": "The scheme ran for six years",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "The scheme ran for six years"
-  },
-  {
     "title": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
     "url": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
     "source": "The Register",
@@ -1613,50 +1527,6 @@
     "summary": "Trade body warns automotive, medical, and defense orders are being crowded out, with relief unlikely before mid-2028"
   },
   {
-    "title": "Microsoft's last non-security preview of 2026 packs a punch",
-    "url": "https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300",
-    "source": "The Register",
-    "published": "2026-11-20T14:28:00+00:00",
-    "raw_text": "Windows Search gets a makeover, while Hello lights up dim rooms",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security"
-      ]
-    },
-    "summary": "Windows Search gets a makeover, while Hello lights up dim rooms"
-  },
-  {
-    "title": "Microsoft suggests Registry hack to work around hotpatch woes",
-    "url": "https://www.theregister.com/os-platforms/2026/11/20/microsoft-suggests-registry-hack-to-work-around-hotpatch-woes/5311279",
-    "source": "The Register",
-    "published": "2026-11-20T13:39:00+00:00",
-    "raw_text": "App problems in Windows after default hotpatching? Who could have foreseen that?",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "App problems in Windows after default hotpatching? Who could have foreseen that?"
-  },
-  {
-    "title": "AI could open wallets where ERP upgrade pitches can't, says PwC",
-    "url": "https://www.theregister.com/ai-and-ml/2026/11/20/ai-could-open-wallets-where-erp-upgrade-pitches-cant-says-pwc/5311221",
-    "source": "The Register",
-    "published": "2026-11-20T12:47:00+00:00",
-    "raw_text": "Consultancy argues a 'clean core' makes agents easier to deploy – but Kingfisher is taking a different route",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "pwc"
-      ]
-    },
-    "summary": "Consultancy argues a 'clean core' makes agents easier to deploy – but Kingfisher is taking a different route"
-  },
-  {
     "title": "Signal to restrict screenshots over AI agent concerns – again",
     "url": "https://www.zdnet.com/innovation/signal-restricts-screenshots-over-ai-agent-concerns/",
     "source": "ZDNet",
@@ -1667,6 +1537,42 @@
     ],
     "matched_keywords": {},
     "summary": "The messaging app similarly limited screenshots because of Microsoft Recall last year."
+  },
+  {
+    "title": "Global Child \"Travel & Purpose\" celebra una nueva temporada con Andrea Bocelli, Isabela Merced y John Malkovich, filma en Miami Beach y lanza el Club de Viajes y Propósito.",
+    "url": "https://www.prnewswire.com/news-releases/global-child-travel-amp-purpose-celebra-una-nueva-temporada-con-andrea-bocelli-isabela-merced-y-john-malkovich-filma-en-miami-beach-y-lanza-el-club-de-viajes-y-proposito--845913662.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-22T14:00:00+00:00",
+    "raw_text": "Los nuevos episodios, realizados en colaboración con PROMPERÚ, la Oficina Nacional de Turismo de Croacia y VidantaWorld, se están transmitiendo en Tubi, Pluto TV, Rakuten TV y en las pantallas de ReachTV en los principales aeropuertos de Estados Unidos. MIAMI, 22 de noviembre de 2026...",
+    "categories": [
+      "Networks",
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Data Centres": [
+        "pue"
+      ]
+    },
+    "summary": "Los nuevos episodios, realizados en colaboración con PROMPERÚ, la Oficina Nacional de Turismo de Croacia y VidantaWorld, se están transmitiendo en Tubi, Pluto TV, Rakuten TV y en las pantallas de ReachTV en los principales aeropuertos de Estados Unidos. MIAMI, 22 de noviembre de 2026..."
+  },
+  {
+    "title": "Global Child \"Travel & Purpose\" Celebrates a New Season with Andrea Bocelli, Isabela Merced and John Malkovich, Films Miami Beach and Launches the Travel and Purpose Club",
+    "url": "https://www.prnewswire.com/news-releases/global-child-travel--purpose-celebrates-a-new-season-with-andrea-bocelli-isabela-merced-and-john-malkovich-films-miami-beach-and-launches-the-travel-and-purpose-club-302947618.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-22T14:00:00+00:00",
+    "raw_text": "New episodes made with PROMPERÚ, the Croatian National Tourist Board and VidantaWorld are streaming on Tubi, Pluto TV, Rakuten TV and ReachTV screens in major U.S. airports MIAMI, Nov. 22, 2026 /PRNewswire/ -- Global Child \"Travel & Purpose,\" the purpose-driven travel series created and...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "launches"
+      ]
+    },
+    "summary": "New episodes made with PROMPERÚ, the Croatian National Tourist Board and VidantaWorld are streaming on Tubi, Pluto TV, Rakuten TV and ReachTV screens in major U.S. airports MIAMI, Nov. 22, 2026 /PRNewswire/ -- Global Child \"Travel & Purpose,\" the purpose-driven travel series created and..."
   },
   {
     "title": "CARsgen Presents First Clinical Data on Its In Vivo CAR-T Product Candidate CT1182",
@@ -1894,48 +1800,6 @@
     "summary": "GUANGZHOU, Chine, 22 novembre 2026 /PRNewswire/ -- Un reportage diffusé par South. La 33e réunion des dirigeants économiques de la Coopération économique Asie-Pacifique (APEC) à Shenzhen devrait offrir de nouvelles opportunités à la région de la Grande Baie Guangdong-Hong Kong-Macao (GBA)..."
   },
   {
-    "title": "Наньша в Гуанчжоу -- стратегический центр GBA для торговли в Азиатско-Тихоокеанском регионе",
-    "url": "https://www.prnewswire.com/news-releases/------gba-------302947609.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-22T04:54:00+00:00",
-    "raw_text": "ГУАНЧЖОУ, Китай, 22 ноября 2026 г. /PRNewswire/ -- Это новостной репортаж South. Ожидается, что 33-я встреча экономических лидеров Азиатско-Тихоокеанского экономического сотрудничества (АТЭС) в Шэньчжэне принесет новые возможности для региона Большого залива Гуандун-Гонконг-Макао (GBA) и...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ГУАНЧЖОУ, Китай, 22 ноября 2026 г. /PRNewswire/ -- Это новостной репортаж South. Ожидается, что 33-я встреча экономических лидеров Азиатско-Тихоокеанского экономического сотрудничества (АТЭС) в Шэньчжэне принесет новые возможности для региона Большого залива Гуандун-Гонконг-Макао (GBA) и..."
-  },
-  {
-    "title": "Die Sailun Group nimmt an der COP31 teil und präsentiert umweltfreundliche Praktiken, vorangetrieben durch technologische Innovationen",
-    "url": "https://www.prnewswire.com/news-releases/die-sailun-group-nimmt-an-der-cop31-teil-und-prasentiert-umweltfreundliche-praktiken-vorangetrieben-durch-technologische-innovationen-302947608.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-22T04:39:00+00:00",
-    "raw_text": "ANTALYA, Türkei, 22. November 2026 /PRNewswire/ -- Die 31. Konferenz der Vertragsparteien des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen (COP31) fand vom 9. bis 20. November in Antalya, Türkei, statt. Als Vertreter der grünen Transformation der Gummi- und...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "ANTALYA, Türkei, 22. November 2026 /PRNewswire/ -- Die 31. Konferenz der Vertragsparteien des Rahmenübereinkommens der Vereinten Nationen über Klimaänderungen (COP31) fand vom 9. bis 20."
-  },
-  {
-    "title": "Hackers use AI tool Cairn for zero-day exploit, server takeover - TechGig",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFVaZG5oakdRRzVCc25aY09ONUR4dERGNVVQVEFsMlY5dU1EcGlFbnU5eS1HcDZFU0Y1TXdsTXZkUFFZR0l6SkQtWUxHSk5BaUtuMEdseU1ZRjJEQ3FFcGQzR3BxSEduV3FaekxiNGVxZlJjbFVqRFBCRV9yaHcxQ19sVWVhNUFpVXNaWVAwdDBDYXZ2NHp0MUduUkxaR3ZhQlllb1EzdTVtcWZQSkoxWg?oc=5",
-    "source": "Google News: Cybersecurity",
-    "published": "2026-11-21T01:37:28+00:00",
-    "raw_text": "Hackers use AI tool Cairn for zero-day exploit, server takeover TechGig",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "zero-day",
-        "exploit",
-        "hacker"
-      ]
-    },
-    "summary": "Hackers use AI tool Cairn for zero-day exploit, server takeover TechGig"
-  },
-  {
     "title": "CrowdStrike reportedly in talks to buy Zscaler, valued at $32 billion - Pasquale Pillitteri",
     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY3c5Ml91cDFCOWlTdDQzWUI3NGd6Szh0c3lacHhIWTllX0lDNXBXSHdpZ040OEN0b1VyS2oxOWFSTW1zb3pnZTUyZmk0VFJ6YXVJdzJVT3VDMGdWM1psYy1DaXRyUzlhNkphLVVMSlpiaDVwaEdOcG82dWg0cjVtcVdoWHJlazg4X0RHT29jQ2k2ZmRtaUJOcExtb1JJcWFDS2c?oc=5",
     "source": "Google News: Market & Industry News",
@@ -1996,22 +1860,6 @@
     "summary": "Adjustable Standing Desk Market Forecast to 2035: Hybrid Work and Health-Tech Integration Drive Forward Growth IndexBox"
   },
   {
-    "title": "Editor's Notebook: AI is transforming the way we work, but people still matter (Future of Work) - The Business Journals",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX2pRUjhYV0U5VmVBMk9lZkJzWVBtcV96b2NRcW5jaDBLRWdoWHRCajE0eTBxVndHV0RQTFl4NUZ1RGxoTmJXckJYSmZwUXNQWjdlbzh1MDR0dmRMQ29IY3RrZjJ3eUJQYVJmUkYyS2c1QklaMGdESXp5UTNvV0tkamp3X1A0M0lxRnZMSXVEQmRuVHZyVmhV?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-20T13:15:00+00:00",
-    "raw_text": "Editor's Notebook: AI is transforming the way we work, but people still matter (Future of Work) The Business Journals",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "Editor's Notebook: AI is transforming the way we work, but people still matter (Future of Work) The Business Journals"
-  },
-  {
     "title": "Numeric Keypad Market To 2035: Premiumization and Hybrid Work Fuel Growth - News and Statistics - IndexBox",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQTFHUGY5ZDVWcDVrSG5DOEhEdGNFa1gyblVhSHJSY0lfS1ZVRU4zX2VFTWJnVkJxcVhacVBFaGtpYzJWNF9Jd09uWmkxSUJyM3NDV0dNU0YwTlFVejllMFRNdUJLSnhaUU5mVV9wTm1OdDExaXA1QnlENDNJSE1iUzZIak43NWY2QXJobnkyNmxMc3ZfV01FbzFiNms2ZC1yT2tyRER2UFQwOU45cFo0bEZtcDd6WWluZG5VYURQVDBxZUE?oc=5",
     "source": "Google News: Digital Workplace",
@@ -2032,20 +1880,20 @@
     "summary": "Numeric Keypad Market To 2035: Premiumization and Hybrid Work Fuel Growth - News and Statistics IndexBox"
   },
   {
-    "title": "The Gen Z AI crisis is in full swing. It's going to get worse. (Future of Work) - The Business Journals",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRWJTNHdnVWZ1R3Z0NlltYUV1NGRmYW9ld1BLSkdEeWdrTXVtM1F2dUFCd0szcnU5dzhFcVZieFdBcmpULTJXRk1yMmhaTHU4UVhPU2dfajVpenhTLUh0X3F1dG1KaUlkSm9ScEpHaU12UHNOOWtNY19PQU14bndmdGhzMmduOWRub0dZ?oc=5",
+    "title": "Next champions of well-rounded employee experience - BusinessWorld Online",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFRNVXEySXJvRWVIREpiRUJlYTZNZGJ1TFZtdGZYWWN2SXcwemNiSWRWdWhHWG16UWlCeWdiNlYtS053ZmlGR0R3Mmw0QTZEa2g1ZVZwQ0ZlOF9OYzE5UGpmSk5OTS1xYUUtY1ZNcE1PYWZ5M2xvY1g2S0FoSW44OU1FZ1gzZmxseGwzdmhVTlkzdTRyV3FxZFExYWpUclg0bUFwYWh1OA?oc=5",
     "source": "Google News: Digital Workplace",
-    "published": "2026-11-20T13:10:00+00:00",
-    "raw_text": "The Gen Z AI crisis is in full swing. It's going to get worse. (Future of Work) The Business Journals",
+    "published": "2026-11-21T15:25:09+00:00",
+    "raw_text": "Next champions of well-rounded employee experience BusinessWorld Online",
     "categories": [
       "Digital Workplace"
     ],
     "matched_keywords": {
       "Digital Workplace": [
-        "future of work"
+        "employee experience"
       ]
     },
-    "summary": "The Gen Z AI crisis is in full swing. It's going to get worse. (Future of Work) The Business Journals"
+    "summary": "Next champions of well-rounded employee experience BusinessWorld Online"
   },
   {
     "title": "Modern Ergonomic Chair Market To 2035: Hybrid Work and Wellness Drive Growth - News and Statistics - IndexBox",
@@ -2116,22 +1964,6 @@
     "summary": "Adjustable Office Desk Market To 2035: Hybrid Work and Ergonomics Fuel Growth - News and Statistics IndexBox"
   },
   {
-    "title": "Next champions of well-rounded employee experience - BusinessWorld Online",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSFRNVXEySXJvRWVIREpiRUJlYTZNZGJ1TFZtdGZYWWN2SXcwemNiSWRWdWhHWG16UWlCeWdiNlYtS053ZmlGR0R3Mmw0QTZEa2g1ZVZwQ0ZlOF9OYzE5UGpmSk5OTS1xYUUtY1ZNcE1PYWZ5M2xvY1g2S0FoSW44OU1FZ1gzZmxseGwzdmhVTlkzdTRyV3FxZFExYWpUclg0bUFwYWh1OA?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-21T15:25:09+00:00",
-    "raw_text": "Next champions of well-rounded employee experience BusinessWorld Online",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "employee experience"
-      ]
-    },
-    "summary": "Next champions of well-rounded employee experience BusinessWorld Online"
-  },
-  {
     "title": "The Future of Work: AI x Careers Mixer - Superpower Daily",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdk5obkxlQ2JNRUF4R183ZDRwdDZLUnFYSGN6ZGIwRHFXSW9hQmJaWmpvLVB1ZWR5Y2o1aWpTZXdKc1Z0VkhQdC1ISEpJWTlaQkhodHJUdktQcHhmRjlBMHJBUEhCajBySUVtLTR0QVZTVW5Qc3RQOTYyZW41NGtURklJdE5jUWZiZndTQm9WdEdXeGJ6Mk8xTVI1VzVSTXBXT0NQS0dtVXRKNkJZUnc?oc=5",
     "source": "Google News: Digital Workplace",
@@ -2168,22 +2000,6 @@
     "summary": "India's Labour Codes turn one: Compliance simplified, but has employee experience improved? SME Futures"
   },
   {
-    "title": "OnlyFans and the Future of Work Visas - The Daily Signal",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hMURrQjJrM0lvMUpselFYS1B4cFpfU1JNREM5eGFKNi0ta3dDQy12N1ZDSl9meFQtQm0yOHFleEotWnBuZVN2Vi1GYS1lRmZGTkpXdjNabGhJVExfdkUtSHVZbEVoS05wSENVa0ltVkJrbS1VendaMw?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-20T13:32:18+00:00",
-    "raw_text": "OnlyFans and the Future of Work Visas The Daily Signal",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "future of work"
-      ]
-    },
-    "summary": "OnlyFans and the Future of Work Visas The Daily Signal"
-  },
-  {
     "title": "Why an Intel-Powered AI PC Should Be On Your Holiday Shopping List - NewsBreak: Local News & Alerts",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdTc4VmtfRk1SY2VRMHdqSGVIdnRGWUNrWWlqUTQydmpUM2x6OWIyd0NpRUtxRXdEbnBUUXo2djl1V2lPNGdjSUNxLXlEREN1WG1oRjVKcXNLcW1VX0I4VmlzdHJjbDRMbzNvUWVETnJHMDJOcVlHSUowNEtzd3k0TDNneWs5MThvVE9TMk5mWVdDUmUzOWMyclZNVEpYcFVPSDBfNVpLQ2dwczlBX05lQTVxbHVucWhKUW40SzZnWHZlaWc?oc=5",
     "source": "Google News: End User Computing",
@@ -2200,6 +2016,22 @@
     "summary": "Why an Intel-Powered AI PC Should Be On Your Holiday Shopping List NewsBreak: Local News & Alerts"
   },
   {
+    "title": "Jodi’s Journal: Air service employee creates first-class customer experience - SiouxFalls.Business",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ0FrRG85MEtuRjJUZmFuTVoxUlMzZDB2b2lYRDBfNzJTWWlkXzdTSXZkVHA1YW5XMkxSVGdGalJBM0lCOUs2Nk8yeXhjZl9jdzBFLWhiaFZPRWxlYXhNeVNHQUI2SmdrOWhfVktXSGdzN2NuR1hBVmFfLXpKcXdKYk5GZUExTTFFTUwyM1VReUZqcU50a0dMcWRhdVNocVE1RjR1OW93?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-22T13:21:40+00:00",
+    "raw_text": "Jodi’s Journal: Air service employee creates first-class customer experience SiouxFalls.Business",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Jodi’s Journal: Air service employee creates first-class customer experience SiouxFalls.Business"
+  },
+  {
     "title": "Datatel Highlights Why Conversational AI Payment Architecture Deserves Greater Executive Attention - lincolnjournal.com",
     "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPenZwN2JIWFNBQXJlUjVvLXlKOU9IMWFxZFFhQ24yR1dLQzlQUmZpM3owNmJOMWEyNURQMWJEWjUxTnRqUkU3bVBTZ1FpV1lPMnVpTlUyRkMxN3l1Uzg0clludEEtakk5SE1lQWxPaHkwRjV2WTdzbDRJbmRyUFFWSDdja0FVV21aUFRZN3VMal92T3plQnlmOG5RZUdIcUd1QUVGbWFiTkM2dHdNbENLNDNrVHZMa24zX3huU0RFVmtJNGNxZTk4dURpbDg0dElteE5RWENPY1l2d1ozWVFUVEZXVEYyVEFCY2dvOGtDSWhkVXBUS0dHMU84Q2xvWW0wczAzQ2ZqWm16dS1PTjhvbXRUT18tU0RGQXpma1oxNXdra0dwT05CZkppek5iSnM5bUxBag?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -2214,22 +2046,6 @@
       ]
     },
     "summary": "Datatel Highlights Why Conversational AI Payment Architecture Deserves Greater Executive Attention lincolnjournal.com"
-  },
-  {
-    "title": "AI Will Not Shrink the Contact Center. It Will Change What Agents Do. - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcVcyaEJGSjFSNWZGTjI3bE5odklCdFJvNkJESW1qM3RQNjhTNFIzV015LTBWWGFwczkyd0dBR1NKVGZ3SUxlNkwwSUFUaUZyMEZPRW9hZk5YSVlDTDNtY3JUR3VvY2M0M1VDUk44SjM2dl9xTHZ3Y3E2blpjVEZjeHlwSTMzSG1SM2NEajRLa3B5NUo2aVBWNlJjRQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-20T13:33:54+00:00",
-    "raw_text": "AI Will Not Shrink the Contact Center. It Will Change What Agents Do. CX Today",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "contact center"
-      ]
-    },
-    "summary": "AI Will Not Shrink the Contact Center. It Will Change What Agents Do. CX Today"
   },
   {
     "title": "Navigating automation and interoperability to enhance customer experience and drive dental practice growth - Dental Economics",
