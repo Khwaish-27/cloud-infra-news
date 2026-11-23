@@ -1,5 +1,48 @@
 [
   {
+    "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+    "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+    "source": "The Hacker News",
+    "published": "2026-11-23T17:45:15+00:00",
+    "raw_text": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The modified variant \"implements various tricks to hide itself from security tools,\"",
+    "categories": [
+      "Networks",
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "vpn"
+      ],
+      "Cybersecurity": [
+        "threat",
+        "security"
+      ]
+    },
+    "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised networks. The modified variant \"implements various tricks to hide itself from security tools,\""
+  },
+  {
+    "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+    "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+    "source": "The Hacker News",
+    "published": "2026-11-23T15:10:48+00:00",
+    "raw_text": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "breach",
+        "security"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem."
+  },
+  {
     "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
     "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
     "source": "The Hacker News",
@@ -187,6 +230,24 @@
     "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,"
   },
   {
+    "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+    "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+    "source": "BleepingComputer",
+    "published": "2026-11-23T16:50:01+00:00",
+    "raw_text": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "hacker",
+        "cyberattack",
+        "cyber"
+      ]
+    },
+    "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000. [...]"
+  },
+  {
     "title": "AI Agents Are Creating a Shared Responsibility Gap",
     "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
     "source": "BleepingComputer",
@@ -362,42 +423,34 @@
     "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]"
   },
   {
-    "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-    "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-    "source": "BleepingComputer",
-    "published": "2026-11-21T18:01:58+00:00",
-    "raw_text": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
+    "title": "GL.iNet cloud compromise hits routers and KVMs, older backdoors also found",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/",
+    "source": "Help Net Security",
+    "published": "2026-11-23T15:05:50+00:00",
+    "raw_text": "Attackers compromised GoodCloud, GL.iNet’s cloud remote management service, and used it to install malware on routers and KVM (keyboard, video and mouse) devices connected to it. The Chinese company, best known for its small travel routers, is still investigating, and it’s not yet known how many devices have been affected. The incident has also sparked additional research by RemoteToHome Consulting (RTH), a GL.iNet Services Partner, and a number of users, some of whom reported finding … More → The post GL.iNet cloud compromise hits routers and KVMs, older backdoors also found appeared first on Help Net Security .",
     "categories": [
       "Cybersecurity",
-      "GRC"
+      "Industry & Market",
+      "Cloud Infrastructure",
+      "Networks"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "breach",
-        "vulnerability",
-        "exploit"
+      "Cloud Infrastructure": [
+        "cloud"
       ],
-      "GRC": [
-        "nist"
-      ]
-    },
-    "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]"
-  },
-  {
-    "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-    "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-    "source": "BleepingComputer",
-    "published": "2026-11-21T15:17:27+00:00",
-    "raw_text": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
+      "Networks": [
+        "router"
+      ],
       "Cybersecurity": [
-        "malware"
+        "malware",
+        "security"
+      ],
+      "Industry & Market": [
+        "ey",
+        "consulting"
       ]
     },
-    "summary": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]"
+    "summary": "Attackers compromised GoodCloud, GL.iNet’s cloud remote management service, and used it to install malware on routers and KVM (keyboard, video and mouse) devices connected to it. The Chinese company, best known for its small travel routers, is still investigating, and it’s not yet known how many devices have been affected. The incident has also sparked additional research by RemoteToHome Consulting (RTH), a GL.iNet Services Partner, and a number of users, some of whom reported finding … More → The post GL.iNet cloud compromise hits routers and KVMs, older backdoors also found appeared first on Help Net Security ."
   },
   {
     "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
@@ -598,24 +651,78 @@
     "summary": "Xalgorix, an open-source AI penetration testing tool, checks its work before it reports anything. When its main agent finds a bug, a second agent has to exploit that bug again. If the second agent can’t prove the bug is real or rule it out, Xalgorix keeps the finding and flags it for a person to review. The check targets false positives, findings that look like vulnerabilities and turn out to be harmless."
   },
   {
-    "title": "Black Friday scams started earlier this year without the usual red flags",
-    "url": "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/",
-    "source": "Help Net Security",
-    "published": "2026-11-23T06:00:16+00:00",
-    "raw_text": "This year’s fake Black Friday deals started appearing on September 1, more than a month earlier than last year, and most of them don’t mention the holiday or use a lookalike address, according to Doppel. The company describes the lure most shoppers are likely to meet this season as “a post in a Facebook group or a page on Google Sites, carrying a retailer’s sale language on behalf of a software, payment, travel, or crypto … More → The post Black Friday scams started earlier this year without the usual red flags appeared first on Help Net Security .",
+    "title": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+    "url": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+    "source": "Dark Reading",
+    "published": "2026-11-23T17:45:52+00:00",
+    "raw_text": "Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source.",
     "categories": [
-      "Networks",
       "Cybersecurity"
     ],
     "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
       "Cybersecurity": [
+        "ransomware",
         "security"
       ]
     },
-    "summary": "This year’s fake Black Friday deals started appearing on September 1, more than a month earlier than last year, and most of them don’t mention the holiday or use a lookalike address, according to Doppel. The company describes the lure most shoppers are likely to meet this season as “a post in a Facebook group or a page on Google Sites, carrying a retailer’s sale language on behalf of a software, payment, travel, or crypto … More → The post Black Friday scams started earlier this year without the usual red flags appeared first on Help Net Security ."
+    "summary": "Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source."
+  },
+  {
+    "title": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+    "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+    "source": "Dark Reading",
+    "published": "2026-11-23T16:17:21+00:00",
+    "raw_text": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "zero-day",
+        "exploit",
+        "penetration testing"
+      ]
+    },
+    "summary": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app."
+  },
+  {
+    "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+    "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+    "source": "SecurityWeek",
+    "published": "2026-11-23T15:47:40+00:00",
+    "raw_text": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity",
+      "Cloud Infrastructure"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "azure"
+      ],
+      "Cybersecurity": [
+        "exploit",
+        "security"
+      ]
+    },
+    "summary": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek ."
+  },
+  {
+    "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+    "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+    "source": "SecurityWeek",
+    "published": "2026-11-23T15:06:49+00:00",
+    "raw_text": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek .",
+    "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "cyberattack",
+        "security",
+        "cyber"
+      ]
+    },
+    "summary": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek ."
   },
   {
     "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
@@ -750,6 +857,44 @@
     "summary": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek ."
   },
   {
+    "title": "Bots Hide Behind AI Agent Names to Hunt for Secrets",
+    "url": "https://www.infosecurity-magazine.com/news/secrethunting-trafficai-agent/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-11-23T16:00:00+00:00",
+    "raw_text": "Cequence found bots using AI agent names to probe for secrets as agents moved from reading to acting",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Cequence found bots using AI agent names to probe for secrets as agents moved from reading to acting"
+  },
+  {
+    "title": "CrowdStrike to Acquire Zscaler in Record $44 Billion Deal",
+    "url": "https://www.infosecurity-magazine.com/news/crowdstrike-to-acquire-zscaler/",
+    "source": "InfoSecurity Magazine",
+    "published": "2026-11-23T15:15:00+00:00",
+    "raw_text": "CrowdStrike's proposed $43.9bn acquisition of Zscaler would add network security capabilities to its portfolio and bring together two major cybersecurity platforms",
+    "categories": [
+      "Networks",
+      "Cybersecurity",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "network",
+        "network security"
+      ],
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "Industry & Market": [
+        "acquisition"
+      ]
+    },
+    "summary": "CrowdStrike's proposed $43.9bn acquisition of Zscaler would add network security capabilities to its portfolio and bring together two major cybersecurity platforms"
+  },
+  {
     "title": "Signal Moves to Block iOS and Android AI Agents From Reading Chats",
     "url": "https://www.infosecurity-magazine.com/news/signal-blocks-ai-agents-reading/",
     "source": "InfoSecurity Magazine",
@@ -823,6 +968,97 @@
     ],
     "matched_keywords": {},
     "summary": "Human Satori researchers claim Badbox 3.0 is responsible for 40 billion bid requests a day"
+  },
+  {
+    "title": "Data + AI Anywhere: AlloyDB Omni integration with local models",
+    "url": "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/",
+    "source": "Google Cloud Blog",
+    "published": "2026-11-23T17:00:00+00:00",
+    "raw_text": "Open models like Gemma 4 from Google DeepMind are a great option to keep your data local. But how can a local AI model integrate with on-premises data? AlloyDB Omni , Google’s 100% PostgreSQL-compatible database that runs anywhere, now integrates with locally hosted large language models (LLMs). With AlloyDB Omni, you can build agentic experiences on your own infrastructure and on your own terms. Whether it’s in the cloud, in your datacenter, or even on your laptop, you can have data plus AI anywhere. Built-in AI for your local environment AlloyDB Omni is a downloadable, run-anywhere edition of AlloyDB that easily deploys to your own infrastructure, including on-premises. AlloyDB Omni packs powerful, built-in AI, including the same ScaNN indexing technology powering Google Search. When you pair AlloyDB Omni with a model, you can store vector embeddings at scale; search them semantically; and even query the database using natural language. You can use virtually any model you like, whether that’s a frontier Cloud-hosted model like Gemini or a local model. And with locally hosted models you maintain complete control over your data environment. Connecting to Gemma 4, Qwen3.8, and other local models You can now connect AlloyDB Omni to local models like Gemma 4 and Qwen3.8 . No matter which model you choose, the architecture remains the same. AlloyDB Omni calls a local model server directly from SQL — keeping prompts, data, and responses inside your environment. This setup enables entirely new use cases for environments that were previously blocked from adopting agentic capabilities. If you operate an air-gapped network or have data locality requirements, you can still build intelligent applications. You can analyze local logs, generate summaries of proprietary internal documents, and power localized chatbots—all while maintaining strict data governance. Keep data on-premises: Because the database and the model sit in the same local environment, your data never crosses the public internet. Reduce latency: Processing inference requests locally minimizes network transit time. Query directly via SQL: Your standard database queries can invoke machine learning functions that process data locally. Like this: code_block <ListValue: [StructValue([('code', \"SELECT customer_name,\\r\\n ai.generate('Summarize in 1 short sentence: ' || comment,\\r\\n model_id => 'gemma4_llm') AS summary\\r\\nFROM customer_feedback;\\r\\n\\r\\n customer_name | summary \\r\\n---------------+-----------------------------------------------------------------------\\r\\n Alice | The customer demands a refund for a double charge or they will cancel\\r\\n Bob | The user likes the product but requests dark mode support.\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f50fec759d0>)])]> Next, you’ll see how to run queries like this yourself, step by step. Get started You can test this integration on your own machines today. Using a Kubernetes environment we will show you how to deploy and integrate AlloyDB Omni and a local open model. Step 0: Before you begin In this example, we will use Google Kubernetes Engine (GKE) to host the AlloyDB Omni database and local model. GKE gives us a standardized, reproducible environment but you can use the same setup on-prem or almost anywhere. We will assume you have already setup: A GKE cluster , and Kubernetes tools kubectl and Helm Step 1: Deploy the AlloyDB Omni Kubernetes Operator We will use the AlloyDB Omni Kubernetes operator to set up our AlloyDB Omni database. The Operator makes deploying and maintaining AlloyDB Omni a breeze. code_block <ListValue: [StructValue([('code', \"helm install \\\\\\r\\n cert-manager oci://quay.io/jetstack/charts/cert-manager \\\\\\r\\n --version v1.21.3 \\\\\\r\\n --namespace cert-manager \\\\\\r\\n --create-namespace \\\\\\r\\n --set crds.enabled=true \\\\\\r\\n --set global.leaderElection.namespace=cert-manager\\r\\n\\r\\nhelm install alloydbomni-operator oci://gcr.io/alloydb-omni/alloydbomni-operator \\\\\\r\\n--version 1.9.0 \\\\\\r\\n--create-namespace \\\\\\r\\n--namespace alloydb-omni-system \\\\\\r\\n$(helm install --help | grep -q -- '--rollback-on-failure' && echo '--rollback-on-failure' || echo '--atomic') \\\\\\r\\n--timeout 5m\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f50fec75350>)])]> Step 2: Create your AlloyDB Omni database Don’t forget to enable the googleMLExtension . code_block <ListValue: [StructValue([('code', 'kubectl create namespace ai-demo\\r\\n\\r\\ncat << \\'EOF\\' | kubectl apply -f -\\r\\napiVersion: v1\\r\\nkind: Secret\\r\\nmetadata:\\r\\n name: db-pw-my-omni\\r\\n namespace: ai-demo\\r\\ntype: Opaque\\r\\ndata:\\r\\n my-omni: \"VmVyeVN0cm9uZ1Bhc3N3b3Jk\" # password \"VeryStrongPassword\"\\r\\n---\\r\\napiVersion: alloydbomni.dbadmin.goog/v1\\r\\nkind: DBCluster\\r\\nmetadata:\\r\\n name: my-omni\\r\\n namespace: ai-demo\\r\\nspec:\\r\\n databaseVersion: \"18.4.0\"\\r\\n primarySpec:\\r\\n adminUser:\\r\\n passwordRef:\\r\\n name: db-pw-my-omni\\r\\n features:\\r\\n googleMLExtension:\\r\\n enabled: true\\r\\n resources:\\r\\n cpu: 2\\r\\n memory: 4Gi\\r\\n disks:\\r\\n - name: DataDisk\\r\\n size: 20Gi\\r\\n storageClass: standard\\r\\n dbLoadBalancerOptions:\\r\\n annotations:\\r\\n networking.gke.io/load-balancer-type: \"internal\"\\r\\n allowExternalIncomingTraffic: true\\r\\nEOF'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f50fec77c10>)])]> Step 3: Deploy your AI model We will use Ollama to help us deploy our model. In this example we deploy Gemma 4 from Google DeepMind. Or, you can modify this command to deploy Qwen3.8 – just change a few lines as noted in the comments. code_block <ListValue: [StructValue([('code', 'cat << \\'EOF\\' | kubectl apply -f -\\r\\napiVersion: apps/v1\\r\\nkind: Deployment\\r\\nmetadata:\\r\\n name: ollama\\r\\n namespace: ai-demo\\r\\nspec:\\r\\n replicas: 1\\r\\n selector:\\r\\n matchLabels:\\r\\n app: ollama\\r\\n template:\\r\\n metadata:\\r\\n labels:\\r\\n app: ollama\\r\\n spec:\\r\\n containers:\\r\\n - name: ollama\\r\\n image: ollama/ollama:latest\\r\\n ports:\\r\\n - containerPort: 11434\\r\\n env:\\r\\n - name: OLLAMA_KEEP_ALIVE\\r\\n value: \"-1\" # keep the model in RAM\\r\\n - name: OLLAMA_LOAD_TIMEOUT\\r\\n value: \"20m\"\\r\\n resources:\\r\\n requests:\\r\\n cpu: \"4\"\\r\\n memory: \"16Gi\" # for Qwen 3.8: 24Gi\\r\\n volumeMounts:\\r\\n - name: models\\r\\n mountPath: /root/.ollama\\r\\n lifecycle:\\r\\n postStart:\\r\\n exec:\\r\\n command: [\"/bin/sh\", \"-c\", \"(sleep 5 && ollama pull gemma4:12b) >/dev/null 2>&1 &\"]\\r\\n # For Qwen 3.8, comment out the line above and use this one:\\r\\n # command: [\"/bin/sh\", \"-c\", \"(sleep 5 && ollama pull qwen3.8) >/dev/null 2>&1 &\"]\\r\\n volumes:\\r\\n - name: models\\r\\n ephemeral:\\r\\n volumeClaimTemplate:\\r\\n spec:\\r\\n accessModes: [\"ReadWriteOnce\"]\\r\\n resources:\\r\\n requests:\\r\\n storage: 30Gi\\r\\n---\\r\\napiVersion: v1\\r\\nkind: Service\\r\\nmetadata:\\r\\n name: ollama-service\\r\\n namespace: ai-demo\\r\\nspec:\\r\\n type: ClusterIP\\r\\n ports:\\r\\n - port: 11434\\r\\n targetPort: 11434\\r\\n selector:\\r\\n app: ollama\\r\\nEOF'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f50fec74450>)])]> Step 4: Register the model with AlloyDB Omni Connect to your database. code_block <ListValue: [StructValue([('code', 'kubectl exec -it -n ai-demo $(kubectl get pod -n ai-demo -l alloydbomni.internal.dbadmin.goog/task-type=database -o jsonpath=\\'{.items[0].metadata.name}\\') -c database -- env PGPASSWORD=\"VeryStrongPassword\" psql -h 127.0.0.1 -U postgres'), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f50fec74510>)])]> Note: If you receive a connection error, you might need to wait a moment for your database to provision. Now you should be connected to your AlloyDB Omni database with the psql client. Next, run the following SQL script to register your local model. code_block <ListValue: [StructValue([('code', \"CREATE EXTENSION IF NOT EXISTS google_ml_integration;\\r\\nALTER SYSTEM SET google_ml_integration.request_timeout_in_seconds = 600;\\r\\nSELECT pg_reload_conf();\\r\\nCREATE OR REPLACE FUNCTION google_ml.ollama_llm_input_transform(\\r\\n model_id character varying, prompt text,\\r\\n generation_config json, system_instructions json\\r\\n) RETURNS json AS $$\\r\\n SELECT json_build_object(\\r\\n 'model', CASE model_id\\r\\n WHEN 'gemma4_llm' THEN 'gemma4:12b'\\r\\n WHEN 'qwen3_8_llm' THEN 'qwen3.8'\\r\\n END,\\r\\n 'messages', json_build_array(\\r\\n json_build_object('role', 'system', 'content',\\r\\n COALESCE(system_instructions->'systemInstruction'->'parts'->0->>'text',\\r\\n 'You are a helpful assistant.')),\\r\\n json_build_object('role', 'user', 'content', prompt)\\r\\n )\\r\\n );\\r\\n$$ LANGUAGE sql;\\r\\n\\r\\nCREATE OR REPLACE FUNCTION google_ml.ollama_llm_output_transform(\\r\\n model_id character varying, response json\\r\\n) RETURNS text AS $$\\r\\n SELECT trim(regexp_replace(\\r\\n response->'choices'->0->'message'->>'content',\\r\\n '<think>.*?</think>', '', 's'));\\r\\n$$ LANGUAGE sql;\\r\\n\\r\\nCALL google_ml.create_model(\\r\\n model_id => 'gemma4_llm', -- and/or 'qwen3_8_llm',\\r\\n model_request_url => 'http://ollama-service.ai-demo.svc.cluster.local:11434/v1/chat/completions',\\r\\n model_provider => 'custom',\\r\\n model_type => 'llm',\\r\\n model_in_transform_fn => 'google_ml.ollama_llm_input_transform',\\r\\n model_out_transform_fn => 'google_ml.ollama_llm_output_transform'\\r\\n);\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f50fe6a0d90>)])]> Note: If you receive a Resource not found error, wait a moment for the model to load. In addition to registering your model, the above script tells AlloyDB Omni how to interpret the model’s raw output. In this example chain-of-thought (CoT) reasoning is part of the response inside <think></think> tags. We don’t want the CoT, so our output transform function removes it. Step 5: Try it out! You can use functions like ai.generate built-in to AlloyDB Omni to connect to your local model – without ever leaving the SQL client! code_block <ListValue: [StructValue([('code', \"CREATE TABLE customer_feedback (\\r\\n id SERIAL PRIMARY KEY,\\r\\n customer_name TEXT,\\r\\n comment TEXT\\r\\n);\\r\\nINSERT INTO customer_feedback (customer_name, comment) VALUES\\r\\n('Alice', 'I was charged twice on my credit card! Please refund $49 immediately or I will cancel.'),\\r\\n('Bob', 'Great product, but can you please add dark mode support?');\\r\\n\\r\\nSELECT customer_name,\\r\\n ai.generate('Summarize in 1 short sentence: ' || comment,\\r\\n model_id => 'gemma4_llm' /* or 'qwen3_8_llm' */) AS summary\\r\\nFROM customer_feedback;\"), ('language', ''), ('caption', <wagtail.rich_text.RichText object at 0x7f50fea03dd0>)])]> Make it your own Try out all the AI features that AlloyDB Omni has to offer! AlloyDB Omni supports fast vector search, built-in AI functions, and more. Give them a try and build something great.",
+    "categories": [
+      "Networks",
+      "Cloud Infrastructure",
+      "GRC",
+      "Data Centres",
+      "Industry & Market",
+      "End User Computing",
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "kubernetes",
+        "containers"
+      ],
+      "Networks": [
+        "network",
+        "networking",
+        "latency",
+        "wan",
+        "lan"
+      ],
+      "GRC": [
+        "governance"
+      ],
+      "Data Centres": [
+        "datacenter"
+      ],
+      "Industry & Market": [
+        "ey"
+      ],
+      "End User Computing": [
+        "laptop"
+      ],
+      "Digital Customer Experience": [
+        "chatbot"
+      ]
+    },
+    "summary": "Open models like Gemma 4 from Google DeepMind are a great option to keep your data local. But how can a local AI model integrate with on-premises data? AlloyDB Omni , Google’s 100% PostgreSQL-compatible database that runs anywhere, now integrates with locally hosted large language models (LLMs). With AlloyDB Omni, you can build agentic experiences on your own infrastructure and on your own terms."
+  },
+  {
+    "title": "How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI",
+    "url": "https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai/",
+    "source": "Google Cloud Blog",
+    "published": "2026-11-23T17:00:00+00:00",
+    "raw_text": "As the scale of global communications grows larger and larger, enterprise platforms must process billions of interactions with customers across a complex network of touchpoints without breaking them. A prime example is Sinch , one of the world’s leading cloud communications and customer engagement (CPaaS) companies, which processes billions of customer interactions, SMS routing events, voice calls, and transactional messages. Managing massive international messaging traffic brings significant architectural challenges, so Sinch built a distributed, multi-cloud data footprint across AWS and GCP, with separate Snowflake instances running in the EU, US, and Australia. To eliminate data silos, curb monthly billing spikes, establish a single governed source of truth, and unlock the next generation of predictive AI capabilities, Sinch partnered with Google Cloud Professional Services to migrate its enterprise data warehouse to Google BigQuery . Here’s how we engineered Sinch’s new, modern, cost-efficient, and AI-ready platform architecture The challenge: untangling distributed warehouses and escalating spikes Before it embarked on this modernization journey, Sinch faced several architectural and operational friction points: Cross-regional data sprawl: The company’s separate Snowflake instances in the EU, US, and Australia required intricate inter-region replication, which caused multi-directional dependencies and complex cross-warehouse data management. Resource spikes and commercial inefficiencies: Heavy monthly billing runs drove severe compute spikes in the US, even as other regions had underutilized capacity. High-volume scanning vs. dialect disparities: A single US email event table could generate up to 100 TB of daily scans. Meanwhile, mission-critical SQL relied on Snowflake-specific concurrency and table-swapping paradigms for concurrency validation, which lacked 1:1 equivalents in cloud-native SQL. “Google Cloud's engineering expertise helped us overcome several technical challenges during our migration, particularly around optimising Spark partitioning and restructuring incremental data loads. This allowed us to identify more efficient approaches, improve performance and ensure we built a scalable, reliable solution for the future.” Dan Peters, senior manager, Data Delivery, Sinch Phase 1: validating architecture with a target MVP To mitigate operational risk and prevent downtime for Sinch’s critical enterprise workloads (including ERP and NetSuite integrations), we initiated a phased migration framework: A use case pilot validation: The migration kicked off with a dedicated use case MVP that spanned 20 tables and 125 GB of refined data and automatically validated end-to-end data fidelity. Layered strategy for coupled pipelines: Rather than attempting to cleanly slice interconnected business domains in the EU, the team adopted a layered approach — migrating raw and base (bronze and silver) layers, establishing automated data ingestion, and stabilizing core entities before repointing consumption marts. Orchestration consolidation: Sinch consolidated 36 independent ETL workflows into a single parameterized orchestrator by using Google Cloud Workflows , which streamlined CI/CD deployment logic, and reduced operational overhead. Re-engineering for scale: key architectural pillars 1. Decoupled storage and optimized ingestion Sinch transitioned its data ingestion pipelines to Dataproc Serverless (running Apache Spark 3.5), which directly pulled refined data into native BigQuery tables from S3 and Databricks Unity Catalog. And to overcome batch quota limits and resource exhaustion on billion-row datasets, Sitch optimized jobs by increasing Spark repartitioning factors to 50. For its incremental pipelines, the team eliminated data duplication while minimizing query read costs by replacing slow, keyless merge statements with an optimized insert-and-overwrite windowing strategy. 2. AI-assisted SQL and macro translation In order to accelerate the translation of more than 1,200 dbt models across global projects, Sinch utilized Google Cloud BigQuery Migration Service alongside a set of custom AI translation skills. Here’s how: The team refactored Snowflake-specific table versioning and concurrency management paradigms into deterministic transaction blocks and view abstraction pointers. This ensured atomic updates and consistent data access. Sinch leveraged specialized Google skills for other regional migration — specifically the dbt-sf-to-bq-translator skill powered by the underlying BigQuery Translation API — to automate the conversion of dbt models from Snowflake to BigQuery SQL syntax. This significantly reduced manual refactoring effort and error rates. Concurrency checks that relied on row-level locking were redesigned into serialized batch validations. Integer overflow risks in massive calculation tables were solved by adopting a tiered precision strategy (favoring NUMERIC over BIGNUMERIC ), which cut storage costs and preserved absolute precision. “Migrating over a thousand complex dbt models and translating legacy SQL required a robust, automated approach. Google Cloud's guidance on query restructuring helped us streamline pipeline development and remove compilation blockers. The team shared best practices for migrating code from Snowflake to BigQuery, such as replacing Snowflake SWAP WITH and hybrid-table patterns with BigQuery time travel. They also helped us build workflows that copy data from Snowflake to BigQuery and run our dbt jobs along the way, which sped up our move to BigQuery.” Varun Gupta, Senior Data Engineer, Sinch Real-world business impact By completing the migration, Sinch successfully transformed the operational bottleneck of its global data footprint into a driver of enterprise growth: Metric / capability Before (Snowflake) After (BigQuery) Pipeline performance High data churn; lengthy multi-hour batch runs Significantly faster query and pipeline processing speeds across billions of records Compute and billing efficiency Unpredictable month-end billing spikes Predictable capacity management with BigQuery reservations and slot autoscaling AI readiness Segmented data warehouses requiring external pipelines Native BQML and Vertex AI decision intelligence platform Looking ahead With its core European warehouse workloads stabilized on BigQuery and data validation consistently outperforming legacy benchmarks, Sinch is now expanding this modern blueprint across its Australian (SMB) and US analytics. The SMB instance migration is already in progress and is utilizing Antigravity skills for the Snowflake to BigQuery translation. By unifying data storage, operational governance, and serverless compute, Sinch has built a resilient platform that delivers real-time messaging reliability today while positioning the company to capture the full potential of enterprise AI tomorrow.",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks",
+      "GRC",
+      "Data Centres",
+      "Industry & Market",
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "aws",
+        "gcp",
+        "google cloud",
+        "serverless",
+        "paas",
+        "multi-cloud",
+        "cloud-native"
+      ],
+      "Networks": [
+        "network",
+        "routing"
+      ],
+      "GRC": [
+        "governance",
+        "nist"
+      ],
+      "Data Centres": [
+        "capacity"
+      ],
+      "Industry & Market": [
+        "ey"
+      ],
+      "Digital Customer Experience": [
+        "customer engagement"
+      ]
+    },
+    "summary": "As the scale of global communications grows larger and larger, enterprise platforms must process billions of interactions with customers across a complex network of touchpoints without breaking them. A prime example is Sinch , one of the world’s leading cloud communications and customer engagement (CPaaS) companies, which processes billions of customer interactions, SMS routing events, voice calls, and transactional messages. Managing massive international messaging traffic brings significant architectural challenges, so Sinch built a distributed, multi-cloud data footprint across AWS and GCP, with separate Snowflake instances running in the EU, US, and Australia. To eliminate data silos, curb monthly billing spikes, establish a single governed source of truth, and unlock the next generation of predictive AI capabilities, Sinch partnered with Google Cloud Professional Services to migrate its enterprise data warehouse to Google BigQuery ."
   },
   {
     "title": "Probing DNS at Cloudflare",
@@ -940,6 +1176,158 @@
     "summary": "For all the talk of AI use by attackers and defenders, little attention is paid to ways CISOs and their security pros can leverage AI uniquely to expediate tasks, cut through the noise, facilitate decision-making, and potentially save big on auditing. Several specific AI prompts can help security leaders and staff handle multiple critical tasks not typically associated with AI for cyber defense, such as risk management, compliance, policy development, and critical thinking. Developing truly useful prompts isn’t particularly easy, however, because it often requires a significant amount of research and effort, not to mention lots of fine-tuning, which can take security teams away from other critical tasks. Fortunately, the security community is here to help, with advice on unique prompt ideas that have greatly aided them in strengthening security, facilitating decision-making, and saving time for hands-on defense."
   },
   {
+    "title": "Apollo and Goldman Sachs lead $44bn SpaceX GPU financing deal",
+    "url": "https://www.datacenterdynamics.com/en/news/apollo-and-goldman-sachs-lead-44bn-spacex-gpu-financing-deal/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T17:14:29+00:00",
+    "raw_text": "Funds will be used to purchase Nvidia Vera Rubin chips",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Funds will be used to purchase Nvidia Vera Rubin chips"
+  },
+  {
+    "title": "Cogent sells three data centers to I Squared Capital's Saragon",
+    "url": "https://www.datacenterdynamics.com/en/news/cogent-sells-three-data-centers-to-i-squared-capitals-saragon/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T17:09:13+00:00",
+    "raw_text": "Fiber firm sells facilities in Omaha, Tacoma, and Cheyenne for $35 million",
+    "categories": [
+      "Networks",
+      "Data Centres",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "fiber"
+      ],
+      "Data Centres": [
+        "data center"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Fiber firm sells facilities in Omaha, Tacoma, and Cheyenne for $35 million"
+  },
+  {
+    "title": "AI server OEMs hiking prices by 45% as memory shortage bites - report",
+    "url": "https://www.datacenterdynamics.com/en/news/ai-server-oems-hiking-prices-by-45-as-memory-shortage-bites-report/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T17:08:00+00:00",
+    "raw_text": "Hardware supply constraint pain passed onto customers",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Hardware supply constraint pain passed onto customers"
+  },
+  {
+    "title": "Former telephone exchange in Eastbourne, UK, eyed for residential development, again",
+    "url": "https://www.datacenterdynamics.com/en/news/former-telephone-exchange-in-eastbourne-uk-eyed-for-residential-development-again/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T17:04:41+00:00",
+    "raw_text": "Latest attempt to redevelop “vacant and deteriorating\" building",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Latest attempt to redevelop “vacant and deteriorating\" building"
+  },
+  {
+    "title": "The coming wave: Is compute at sea ready to sink or swim?",
+    "url": "https://www.datacenterdynamics.com/en/analysis/underwater-data-centers-floating-compute-at-sea-us-china/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T17:00:41+00:00",
+    "raw_text": "Exploring the world of underwater and floating data centers",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Exploring the world of underwater and floating data centers"
+  },
+  {
+    "title": "Sponsored: Solving cabling challenges behind AI data center growth",
+    "url": "https://www.datacenterdynamics.com/en/marketwatch/solving-cabling-challenges-behind-ai-data-center-growth/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T17:00:00+00:00",
+    "raw_text": "As data centers grow larger and denser, operators need cabling infrastructure designed to overcome the constraints of rapid expansion",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "As data centers grow larger and denser, operators need cabling infrastructure designed to overcome the constraints of rapid expansion"
+  },
+  {
+    "title": "Spain approves decree on data centers to curb electricity costs",
+    "url": "https://www.datacenterdynamics.com/en/news/spain-approves-decree-on-data-centers-to-curb-electricity-costs/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T16:00:00+00:00",
+    "raw_text": "The approval comes after several months of debate between the government and companies in the sector",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "The approval comes after several months of debate between the government and companies in the sector"
+  },
+  {
+    "title": "CtrlS moves forward with 150MW data center project in Bihar, India",
+    "url": "https://www.datacenterdynamics.com/en/news/ctrls-moves-forward-with-150mw-data-center-project-in-bihar-india/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T15:49:53+00:00",
+    "raw_text": "Company signs MoU for $1 billion project",
+    "categories": [
+      "Data Centres"
+    ],
+    "matched_keywords": {
+      "Data Centres": [
+        "data center"
+      ]
+    },
+    "summary": "Company signs MoU for $1 billion project"
+  },
+  {
+    "title": "Germany's 1&1 turns to European Commission following low-band spectrum snub",
+    "url": "https://www.datacenterdynamics.com/en/news/germanys-11-turns-to-european-commission-following-low-band-spectrum-snub/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T15:41:37+00:00",
+    "raw_text": "The carrier feels left out",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The carrier feels left out"
+  },
+  {
+    "title": "Three water numbers, none of them comparable",
+    "url": "https://www.datacenterdynamics.com/en/opinions/three-water-numbers-none-of-them-comparable/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T15:30:36+00:00",
+    "raw_text": "The importance of standardization in WUE",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The importance of standardization in WUE"
+  },
+  {
     "title": "Edge to core: Fiber infrastructure for distributed AI growth and the retrofit challenge",
     "url": "https://www.datacenterdynamics.com/en/whitepapers/edge-to-core-fiber-infrastructure-for-distributed-ai-growth-and-the-retrofit-challenge/",
     "source": "DataCenterDynamics",
@@ -982,18 +1370,6 @@
     "summary": "In partnership with Energie 360°"
   },
   {
-    "title": "Arm CEO extends contract to 2033 amid reports Nvidia had approached him for vacant CEO role",
-    "url": "https://www.datacenterdynamics.com/en/news/arm-ceo-extends-contract-to-2033-amid-reports-nvidia-had-approached-him-for-vacant-ceo-role/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T14:21:15+00:00",
-    "raw_text": "Haas will also assume role of vice chairman at SoftBank on December 1",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Haas will also assume role of vice chairman at SoftBank on December 1"
-  },
-  {
     "title": "Nvidia board reinstates Jensen Huang as CEO",
     "url": "https://www.datacenterdynamics.com/en/news/nvidia-board-reinstates-jensen-huang-as-ceo/",
     "source": "DataCenterDynamics",
@@ -1009,7 +1385,7 @@
     "title": "EU backs Medusa subsea cable with €11.1m grant and €60m loan",
     "url": "https://www.datacenterdynamics.com/en/news/eu-backs-medusa-subsea-cable-with-111m-grant-and-60m-loan/",
     "source": "DataCenterDynamics",
-    "published": "2026-11-23T14:00:55+00:00",
+    "published": "2026-11-23T14:00:00+00:00",
     "raw_text": "Funds to fuel cable extension to Jordan",
     "categories": [
       "Uncategorised"
@@ -1098,6 +1474,18 @@
     "summary": "National HyperAI will serve government and enterprise customers in the UAE"
   },
   {
+    "title": "Arm CEO extends contract to 2033 amid reports Nvidia had approached him for vacant CEO role",
+    "url": "https://www.datacenterdynamics.com/en/news/arm-ceo-extends-contract-to-2033-amid-reports-nvidia-had-approached-him-for-vacant-ceo-role/",
+    "source": "DataCenterDynamics",
+    "published": "2026-11-23T13:01:00+00:00",
+    "raw_text": "Haas will also assume role of vice chairman at SoftBank on December 1",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Haas will also assume role of vice chairman at SoftBank on December 1"
+  },
+  {
     "title": "Firmus seeks $1.5bn bond offering - report",
     "url": "https://www.datacenterdynamics.com/en/news/firmus-seeks-15bn-bond-offering-report/",
     "source": "DataCenterDynamics",
@@ -1110,188 +1498,74 @@
     "summary": "Would be part of a larger debt financing deal"
   },
   {
-    "title": "Mattel launches 5G network in Mauritania",
-    "url": "https://www.datacenterdynamics.com/en/news/mattel-launches-5g-network-in-mauritania/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T12:50:45+00:00",
-    "raw_text": "Kicks off launch of 5G in Nouakchott and Nouadhibou",
+    "title": "Critical Cisco remote code execution bug under attack",
+    "url": "https://www.theregister.com/security/2026/11/23/critical-cisco-remote-code-execution-bug-under-attack/5311722",
+    "source": "The Register",
+    "published": "2026-11-23T17:56:56+00:00",
+    "raw_text": "CISA, F6 sound the alarm after PoC exploit made public",
     "categories": [
+      "Cybersecurity"
+    ],
+    "matched_keywords": {
+      "Cybersecurity": [
+        "exploit"
+      ]
+    },
+    "summary": "CISA, F6 sound the alarm after PoC exploit made public"
+  },
+  {
+    "title": "Bulgaria evicts cyber snoops who lurked inside government networks for 5 years",
+    "url": "https://www.theregister.com/security/2026/11/23/bulgaria-evicts-cyber-snoops-who-lurked-inside-government-networks-for-5-years/5311629",
+    "source": "The Register",
+    "published": "2026-11-23T17:01:00+00:00",
+    "raw_text": "Minister says intruders downloaded more than 130 GB of data as political churn left security neglected",
+    "categories": [
+      "Cybersecurity",
       "Networks",
-      "Industry & Market"
+      "GRC"
     ],
     "matched_keywords": {
       "Networks": [
-        "network",
-        "5g"
+        "network"
       ],
-      "Industry & Market": [
-        "launches"
+      "Cybersecurity": [
+        "security",
+        "cyber"
+      ],
+      "GRC": [
+        "nist"
       ]
     },
-    "summary": "Kicks off launch of 5G in Nouakchott and Nouadhibou"
+    "summary": "Minister says intruders downloaded more than 130 GB of data as political churn left security neglected"
   },
   {
-    "title": "Details shared of AWS' 300MW data center in Kozani, Greece",
-    "url": "https://www.datacenterdynamics.com/en/news/details-shared-of-aws-300mw-data-center-in-kozani-greece/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T12:30:37+00:00",
-    "raw_text": "Environmental Impact Assessment reveals information about planned campus",
-    "categories": [
-      "Cloud Infrastructure",
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Cloud Infrastructure": [
-        "aws"
-      ],
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Environmental Impact Assessment reveals information about planned campus"
-  },
-  {
-    "title": "DOE’s Argonne National Laboratory expands its Inference Service compute capacity with two new supercomputers",
-    "url": "https://www.datacenterdynamics.com/en/news/does-argonne-national-laboratory-expands-its-inference-service-compute-capacity-with-two-new-supercomputers/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T12:09:04+00:00",
-    "raw_text": "Tara and Minerva systems will support Genesis Mission projects",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "capacity"
-      ],
-      "Industry & Market": [
-        "expands"
-      ]
-    },
-    "summary": "Tara and Minerva systems will support Genesis Mission projects"
-  },
-  {
-    "title": "KKR could acquire majority stake in EdgeCore for up to $10bn - report",
-    "url": "https://www.datacenterdynamics.com/en/news/kkr-could-acquire-majority-stake-in-edgecore-for-up-to-10bn-report/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T12:00:00+00:00",
-    "raw_text": "Negotiations still taking place",
+    "title": "Microsoft mega outage: Report reveals testing gaps and emails that never arrived",
+    "url": "https://www.theregister.com/saas/2026/11/23/microsoft-mega-outage-report-reveals-testing-gaps-and-emails-that-never-arrived/5311656",
+    "source": "The Register",
+    "published": "2026-11-23T16:16:00+00:00",
+    "raw_text": "July bug overwhelmed newer servers, prompting promises of stronger safeguards and faster recovery",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Negotiations still taking place"
+    "summary": "July bug overwhelmed newer servers, prompting promises of stronger safeguards and faster recovery"
   },
   {
-    "title": "Oracle secures funding needed for OpenAI buildout",
-    "url": "https://www.datacenterdynamics.com/en/news/oracle-secures-funding-needed-for-openai-buildout/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T11:40:40+00:00",
-    "raw_text": "Company states that November capital raise has a funny funded investment cycle",
+    "title": "British retailer Next downplays data breach at tech supplier",
+    "url": "https://www.theregister.com/cyber-crime/2026/11/23/british-retailer-next-downplays-data-breach-at-tech-supplier/5311684",
+    "source": "The Register",
+    "published": "2026-11-23T15:09:00+00:00",
+    "raw_text": "Retailer insists customer details are safe and the data accessed is 'benign,' but won't say exactly what hackers got their hands on",
     "categories": [
-      "Industry & Market"
+      "Cybersecurity"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "funding",
-        "investment"
+      "Cybersecurity": [
+        "breach",
+        "hacker"
       ]
     },
-    "summary": "Company states that November capital raise has a funny funded investment cycle"
-  },
-  {
-    "title": "Texas Advanced Computing Center builds AI inference service",
-    "url": "https://www.datacenterdynamics.com/en/news/texas-advanced-computing-center-builds-ai-inference-service/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T11:20:40+00:00",
-    "raw_text": "Dubbed Sagebrush and running on SambaNova AI chips",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Dubbed Sagebrush and running on SambaNova AI chips"
-  },
-  {
-    "title": "Ecoasis AgTech Park plans data center with up to 160 acres of greenhouses in Colorado",
-    "url": "https://www.datacenterdynamics.com/en/news/ecoasis-agtech-park-plans-data-center-with-up-to-160-acres-of-greenhouses-in-colorado/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T11:12:29+00:00",
-    "raw_text": "Data center would be capped at 10 percent of the property",
-    "categories": [
-      "Data Centres",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "data center",
-        "colo"
-      ]
-    },
-    "summary": "Data center would be capped at 10 percent of the property"
-  },
-  {
-    "title": "UK business park seeks developer for 12MW data center project in Newcastle",
-    "url": "https://www.datacenterdynamics.com/en/news/uk-business-park-seeks-developer-for-12mw-data-center-project-in-newcastle/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T11:08:48+00:00",
-    "raw_text": "Follingsby Park in Gateshead wants you to develop a data center",
-    "categories": [
-      "Networks",
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "wan"
-      ],
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Follingsby Park in Gateshead wants you to develop a data center"
-  },
-  {
-    "title": "Retelit secures €50m extra for data center expansion",
-    "url": "https://www.datacenterdynamics.com/en/news/retelit-secures-50m-extra-for-data-center-expansion/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T11:07:37+00:00",
-    "raw_text": "The company is planning an additional capacity of 27MW",
-    "categories": [
-      "Data Centres",
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Data Centres": [
-        "data center",
-        "capacity"
-      ]
-    },
-    "summary": "The company is planning an additional capacity of 27MW"
-  },
-  {
-    "title": "Alberta gov't proposes new rules for large load data centers",
-    "url": "https://www.datacenterdynamics.com/en/news/alberta-govt-proposes-new-rules-for-large-load-data-centers/",
-    "source": "DataCenterDynamics",
-    "published": "2026-11-23T11:00:54+00:00",
-    "raw_text": "Would require them to cover the costs of power infrastructure needed to serve their facilities",
-    "categories": [
-      "Data Centres"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "data center"
-      ]
-    },
-    "summary": "Would require them to cover the costs of power infrastructure needed to serve their facilities"
+    "summary": "Retailer insists customer details are safe and the data accessed is 'benign,' but won't say exactly what hackers got their hands on"
   },
   {
     "title": "Nvidia board puts Jensen Huang back as boss",
@@ -1559,6 +1833,120 @@
     "summary": "From the dotcom bubble to 200,00 cores of raw power"
   },
   {
+    "title": "Digital sovereignty not smart, says The Hague CIO",
+    "url": "https://www.computerweekly.com/feature/Digital-sovereignty-not-smart-says-The-Hague-CIO",
+    "source": "ComputerWeekly",
+    "published": "2026-11-23T12:02:00+00:00",
+    "raw_text": "<p>Policymakers calling for Europe to be as independent of US technology as possible are unrealistic, says the chief information officer of The Hague, the Netherlands’ seat of government.</p> <p>The Hague, host of the International Criminal Court (ICC), has become a flashpoint for European alarm about US domination of the software, cloud and AI services on which the continent depends.</p> <p>Speaking in his municipal office four days before the US imposes sanctions on the ICC, Dennis Ravensbergen faces the practical consequences of that alarm. Earlier US sanctions on court officials and judges, in retaliation for investigations of alleged crimes in Afghanistan and Palestine, had already helped rally Europe to the cause of digital sovereignty. The court was forced to take emergency measures to keep operations running if sanctions obliged its predominantly American IT suppliers to pull the plug.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Trump effect\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Trump effect</h2> <p>The Trump administration has stoked European indignation and fear with a succession of goading and threats in retaliation for European regulation and taxation of US technology firms.</p> <p>That indignation and fear landed on Ravensbergen’s desk in January when The Hague’s councillors voted unanimously <a href=\"https://denhaag.raadsinformatie.nl/document/16568550/1/R_1%2BHvDH%2Bmotie%2BDigitale%2Bonafhankelijkheid%2Bis%2Been%2Bprioriteit%2Bvoor%2BDen%2BHaag?connection_id=12944427&amp;connection_type=17\">to make</a> it a priority to establish digital independence “from countries that are partners but may become threats”. A 10-year digital transformation strategy that Ravensbergen had helped architect and <a href=\"https://denhaag.raadsinformatie.nl/document/16034869/1/RIS323155%2BBijlage%2BSamen%2Bdigitaal%2Bvooruit%2B-%2Bi-Visie%2Bgemeente%2BDen%2BHaag%2B2025-2035\">put before the council</a> in 2025 gave it insufficient attention, councillors decreed.</p> <p>They demanded a plan to get “the greatest possible degree of digital independence” from countries on which the city no longer wished to depend. That effectively means the US suppliers on whose systems the city runs.</p> <p>Ravensbergen already had an extensive transformation programme under way. The i-Visie 2035 strategy that councillors voted on in January envisages digitising public services, re-engineering them around AI and replacing fragmented bespoke systems with standard cloud software. It promises to make The Hague a smart city: a nervous system of sensors on buildings, roads and utilities, with drones and robots doing maintenance and a central system to control it all.</p> <p>Residents will contribute to urban works and spaces through an interactive digital twin. There will be wholesale process re-engineering and retraining for 13,000 staff. Cyber security found wanting by independent audits is to be repaired, data standardised and integrated, and systems joined with those of the other three largest Dutch cities, the G4. Microsoft is a supplier of choice.</p> <p>The sovereignty mandate complicated that transformation. Requiring independence from foreign suppliers was like “changing the course of an oil tanker before the harbour is built”, Ravensbergen and the municipal executive <a href=\"https://denhaag.raadsinformatie.nl/document/17127559/2/RIS324583%2BAfdoening%2Bmotie%2B‘Digitale%2Bonafhankelijkheid%2Bis%2Been%2Bprioriteit%2Bvoor%2BDen%2BHaag?connection_id=13519282&amp;connection_type=17\">wrote in June</a>. They argued that European alternatives were unavailable because the EU had been more concerned with regulating technology than building it. Change would take years and the alternatives would not be equivalent. Still, the executive agreed to pursue it.</p> <p>“That’s not really <em>Smart</em>, is it?” Ravensbergen says of the “as sovereign as possible” mandate. “That’s not specific, measurable, acceptable, realistic, time-bound [Smart]. Because how sovereign is sovereign? When is it sovereign enough? Do you only want to have products from Europe? But we don’t have all products from Europe yet.”</p> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Working it out\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Working it out</h2> <p>Policymakers and executives are still working those questions out, he says, even nationally. The G4 were doing studies ahead of another debate at the end of the year. Politicians, he says, are struggling with the question too.</p> <p>Why, then, had sovereignty not been a priority when i-Visie appeared in September 2025, just four months before the January vote?</p> <p>“Because the world has changed,” says Ravensbergen. Two or three years ago, replacing on-premise systems with US cloud services had seemed logical. Now, concern about autonomy is growing exponentially.</p> <p>Pressed on what has changed, he says it is not for the better. Pressed again, he adds that it was Donald Trump’s return to the US presidency in January 2025, which caused pressure for digital sovereignty to grow.</p> <p>“From that moment on, I was getting more questions about this. From my organisation, from people on the street, at birthday parties, from people [when] you go to a seminar or an event.”</p> <p>Where once much that came from the US was trusted, now people discuss it – the US had stoked concerns people had already about other countries. “Unfortunately, you cannot trust anybody in the world nowadays,” says Ravensbergen.</p> <p>He nevertheless agrees that digital independence is a distraction from the things he would rather be doing: delivering useful IT services to the citizens of the city, and especially those who really need municipal help.</p> <p>Asked why the US cannot be trusted, Ravensbergen laughs. A long, searching pause follows. His PR assistant mumbles something. “It’s, it’s, it’s, it’s, it’s, erm ...” says Ravensbergen.</p> <p>He then states that the municipality has never had an issue with a US company “or whatever”, but sovereignty is a public discussion and very much in the news. Then there is the ICC – a rare example, but something the municipality must consider. What other examples show that the US cannot be trusted? “I don’t know them,” Ravensbergen says as he laughs. “That’s the most funny thing, isn’t it?”</p> <p>He adds that risk is an equation: probability times impact. The odds of US sanctions against The Hague are not very big, but the impact would be.</p> <p>The Hague, a self-styled “international city of peace and justice”, hosts numerous other courts and tribunals besides the ICC, as well as the Organisation for the Prohibition of Chemical Weapons, a clutch of NATO agencies, and Europol.</p> <p>Just as Ravensbergen has been trying, “with great difficulty”, he says, to keep Chinese hardware out of the component supply chains of the municipality’s datacentres, councillors want the same for US systems. The US has meanwhile appeared to be trying to drive its suppliers out of the ICC’s technology supply chain, using dependence on its technology as a geopolitical weapon.</p> <p>The ICC consolidated its systems on US suppliers after a major cyber security breach in 2023. The US sanctions on its staff later showed how technological dependence made the court vulnerable to political interference. US cloud providers gave the court three days’ notice that services would stop, Giler tells the conference, with Microsoft its primary supplier at the time.</p> <blockquote class=\"main-article-pullquote\"> <div class=\"main-article-pullquote-inner\"> <figure> It’s not that we want to get rid of the American suppliers, but we want to think about what kind of products we want to use for what kind of data </figure> <figcaption> <strong>Dennis Ravensbergen, The Hague</strong> </figcaption> <i class=\"icon\" data-icon=\"z\"></i> </div> </blockquote> <p>The ICC subsequently cut dependence on US and affiliated suppliers almost in half. A cessation of IT services would halt court proceedings, witness protection schemes and field operations investigating war crimes. Alternatives were limited because the sanctions had a “chilling effect” on other suppliers.</p> <p>The Council of Europe <a href=\"https://pace.coe.int/en/files/36283/html#_TOC_d19e298\">reported that</a> suppliers “over-complying” with sanctions and over-reliance on Microsoft were the ICC’s problems. For Ravensbergen, the municipality’s dependence on US suppliers remains an operational necessity. The Hague is “very much dependent” on them. It needs them to keep services running.</p> <p>“It’s part of the job of a CIO to find a balance. Those are my suppliers, and I have good relations with most of them. On average, they’re delivering quite good products that we are very happy to use, that help us deliver good services to the citizens of the municipality of The Hague.”</p> <p>He has no plans to abandon Microsoft Azure or 365, although the G4 has agreed to test whether Amsterdam municipality’s home-grown AI assistant can replace Copilot. His department <a href=\"https://denhaag.raadsinformatie.nl/document/17127527/1/RIS324587%2BAfdoening%2Bmotie%2BLaat%2Bonze%2Bdata%2Bgeen%2Bgeopolitiek%2Bspeelstuk%2Bworden?connection_id=13519266&amp;connection_type=17\">mapped 29 major US suppliers</a> and possible substitutes.</p> <p>“Not that many things are being produced in and by European countries. So, there’s no alternative, both in quantity and quality, to a lot of products that come from outside Europe. What you want is one thing, but what is available is another,” says Ravensbergen.</p> <p>For now, The Hague is classifying processes, data and systems to determine which are sensitive enough to require a more autonomous platform, using a methodology the G4 developed. It is looking for European alternatives that might become viable in years to come, if not now. Plans to migrate services to US clouds are meanwhile proceeding.</p> <p>“The discussion we’re having internally is about what kind of data do [we] want to keep in what place,” Ravensbergen says. “Financial or medical data or more sensitive data, we want to have preferably on a European platform. It’s not that we want to get rid of the American suppliers, but we want to think about what kind of products we want to use for what kind of data.</p> <p>“And that’s going to result in, hopefully, in the next couple of years, the development of a more European market where more IT products and services come available so that we can choose [and so] that we can switch,” he says.</p> <p>Dutch national policy and the European Commission’s technology sovereignty package take a similar approach. The European Commission <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1187\">proposed</a> building European alternatives, rather than purging foreign suppliers. Sovereignty means the option to choose – it starts with mapping dependencies and risks. Ravensbergen is particularly worried about technology from states running offensive cyber programmes.</p> <p>EU tech sovereignty chief Henna Virkkunen <a href=\"https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1244\">insisted</a> before the European Parliament that the sovereignty package was not protectionist, but Dutch technology companies have called for it to be so. The package itself offered patches for a failed single market that has left the European tech industry weak. Meanwhile, the European Commission’s programme of single market repair is ongoing.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about reducing US supplier dependence in the Netherlands</h3> <ul class=\"default-list\"> <li><a href=\"https://www.computerweekly.com/news/366645979/Dutch-SURF-tests-practical-route-out-of-Big-Tech-dependency\">Dutch Surf tests practical route out of Big Tech dependency</a>.</li> <li><a href=\"https://www.computerweekly.com/news/366651113/Netherlands-designs-sovereign-cloud-but-concedes-hardware-dependency\">Netherlands designs sovereign cloud but concedes hardware dependency</a>.</li> <li><a href=\"https://www.computerweekly.com/news/366623843/Dutch-universities-call-for-reduced-dependence-on-Big-Tech\">Dutch universities call for reduced dependence on Big Tech</a>.</li> </ul> </div> </div> </section>",
+    "categories": [
+      "Cloud Infrastructure",
+      "Cybersecurity",
+      "GRC",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "cloud",
+        "azure",
+        "digital transformation",
+        "cloud services"
+      ],
+      "Networks": [
+        "wan",
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "threat",
+        "security",
+        "cyber"
+      ],
+      "GRC": [
+        "regulation",
+        "audit",
+        "policy",
+        "nist"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<p>Policymakers calling for Europe to be as independent of US technology as possible are unrealistic, says the chief information officer of The Hague, the Netherlands’ seat of government.</p> <p>The Hague, host of the International Criminal Court (ICC), has become a flashpoint for European alarm about US domination of the software, cloud and AI services on which the continent depends.</p> <p>Speaking in his municipal office four days before the US imposes sanctions on the ICC, Dennis Ravensbergen faces the practical consequences of that alarm. Earlier US sanctions on court officials and judges, in retaliation for investigations of alleged crimes in Afghanistan and Palestine, had already helped rally Europe to the cause of digital sovereignty. The court was forced to take emergency measures to keep operations running if sanctions obliged its predominantly American IT suppliers to pull the plug.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Trump effect\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Trump effect</h2> <p>The Trump administration has stoked European indignation and fear with a succession of goading and threats in retaliation for European regulation and taxation of US technology firms.</p> <p>That indignation and fear landed on Ravensbergen’s desk in January when The Hague’s councillors voted unanimously <a href=\"https://denhaag.raadsinformatie.nl/document/16568550/1/R_1%2BHvDH%2Bmotie%2BDigitale%2Bonafhankelijkheid%2Bis%2Been%2Bprioriteit%2Bvoor%2BDen%2BHaag?connection_id=12944427&amp;connection_type=17\">to make</a> it a priority to establish digital independence “from countries that are partners but may become threats”. A 10-year digital transformation strategy that Ravensbergen had helped architect and <a href=\"https://denhaag.raadsinformatie.nl/document/16034869/1/RIS323155%2BBijlage%2BSamen%2Bdigitaal%2Bvooruit%2B-%2Bi-Visie%2Bgemeente%2BDen%2BHaag%2B2025-2035\">put before the council</a> in 2025 gave it insufficient attention, councillors decreed.</p> <p>They demanded a plan to get “the greatest possible degree of digital independence” from countries on which the city no longer wished to depend."
+  },
+  {
+    "title": "Nation-state APTs don't need new tricks; the old ones still work",
+    "url": "https://www.computerweekly.com/opinion/Nation-state-APTs-dont-need-new-tricks-the-old-ones-still-work",
+    "source": "ComputerWeekly",
+    "published": "2026-11-23T11:51:00+00:00",
+    "raw_text": "<p>Nation-state <a href=\"https://www.computerweekly.com/opinion/Countering-nation-state-cyber-espionage-A-CISO-field-guide\" target=\"_blank\" rel=\"noopener\">cyber espionage</a> is a persistent challenge for businesses, particularly as geopolitical tensions grow and new technologies create opportunities for attackers. However, while nation-state groups have demonstrated an ability to exploit technological innovation, this does not mean they are abandoning established intrusion techniques.</p> <p>Instead, these actors repeatedly demonstrate their sophistication by adapting individual stages of the attack lifecycle to take advantage of new technologies and practices as they become widely adopted and trusted. We've seen this through the abuse of remote working practices, QR codes, device-code authentication, encrypted messaging platforms, legitimate remote-access technologies and, more recently, generative artificial intelligence.</p> <p>The significance lies less in the novelty of the technology and more in how quickly attackers identify its operational value. As organisations adopt new technologies and processes, nation-state actors assess them in parallel for opportunities to improve initial access, persistence, concealment, social engineering or intelligence collection.</p> <p>Meanwhile, established techniques such as phishing, credential theft, exploitation of internet-facing vulnerabilities and trusted relationships remain effective and commonplace. What distinguishes nation-state groups is their ability to combine proven attack methods with the resources, time and funding to experiment with emerging technologies.</p> <section class=\"section main-article-chapter\" data-menu-title=\"Treating espionage as a business risk\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Treating espionage as a business risk</h2> <p>Cyber espionage conducted or enabled by nation-state actors is as much a business risk as any technical security problem. Organisations must identify which data, systems, relationships and capabilities might hold strategic value to a foreign state, understand the consequences of their compromise and prioritise mitigation accordingly. This is similar to a crown jewels assessment, but framed around what might be valuable to a foreign government rather than simply what is most critical to the organisation.</p> <p>The C-suite and board don't necessarily need to understand individual threat groups or their techniques. Their responsibility is to ensure ownership, decision-making authority, escalation routes and external relationships are established before an incident occurs. This includes knowing which government departments or law enforcement agencies to contact, understanding regulatory obligations, maintaining reliable records of critical decisions and establishing secure, out-of-band communications.</p> <p>These arrangements should be tested regularly. Incidents involving Medibank, Optus, <a href=\"https://www.computerweekly.com/news/366644037/Scale-of-Synnovis-breach-widens-as-Essex-NHS-Trust-comes-forward\" target=\"_blank\" rel=\"noopener\">Synnovis</a> and <a href=\"https://www.computerweekly.com/news/252459707/Norsk-Hydro-confirms-ransomware-attack\" target=\"_blank\" rel=\"noopener\">Norsk Hydro</a> demonstrate why seemingly mundane preparations around escalation, communications and manual procedures can prove critical during a crisis.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">The Computer Weekly Security Think Tank on nation state threats</h3> <ul class=\"default-list\"> <li>Ellie Hurst and Mike Gillespie, Advent IM: <a rel=\"noopener\" target=\"_blank\" href=\"https://www.computerweekly.com/opinion/Who-controls-the-technology-we-depend-on\">Who controls the technology we depend on?</a></li> <li>Rik Ferguson, Rapid7: <a href=\"https://www.computerweekly.com/opinion/Exposing-state-threats-still-matters-resilience-matters-more\" target=\"_blank\" rel=\"noopener\">Exposing state threats still matters: resilience matters more.</a></li> </ul> </div> </div> </section> <section class=\"section main-article-chapter\" data-menu-title=\"Navigating geopolitical uncertainty\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Navigating geopolitical uncertainty</h2> <p>Prolonged geopolitical tensions create another challenge for businesses. Governments can simultaneously pursue economic engagement, diplomatic relations and national security competition with the same state, leaving private organisations to navigate the implications themselves. Businesses may interpret diplomatic or commercial engagement as evidence of reduced security risk, while security warnings suggest they should exercise greater caution.</p> <p>This creates uncertainty around espionage exposure, supply-chain disruption, regulatory change and political intervention, often driven by circumstances beyond an organisation's control. Relationships that remain commercially attractive and legally valid may still carry strategic risk as the geopolitical environment changes.</p> <p>Ultimately, boards must translate these competing considerations into their organisation's risk appetite, determining where foreign relationships create tolerable dependencies and where exposure becomes disproportionate.</p> <p>Nation-state actors have the time, resources and motivation to pursue their objectives persistently. For businesses, the priority must therefore be understanding what makes them strategically valuable targets, preparing for potential compromise and ensuring geopolitical risk is treated as an ongoing board-level responsibility.</p> <p><em>Darrel Lang, is senior cyber threat intelligence analyst at <a href=\"https://www.bridewell.com/\" target=\"_blank\" rel=\"noopener\">Bridewell </a></em></p> </section>",
+    "categories": [
+      "Cybersecurity",
+      "Industry & Market",
+      "Networks",
+      "GRC",
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "breach",
+        "ransomware",
+        "phishing",
+        "exploit",
+        "threat",
+        "security",
+        "cyber",
+        "soc",
+        "threat intelligence"
+      ],
+      "GRC": [
+        "regulatory"
+      ],
+      "Industry & Market": [
+        "funding",
+        "ey"
+      ],
+      "Digital Workplace": [
+        "remote work"
+      ]
+    },
+    "summary": "<p>Nation-state <a href=\"https://www.computerweekly.com/opinion/Countering-nation-state-cyber-espionage-A-CISO-field-guide\" target=\"_blank\" rel=\"noopener\">cyber espionage</a> is a persistent challenge for businesses, particularly as geopolitical tensions grow and new technologies create opportunities for attackers. However, while nation-state groups have demonstrated an ability to exploit technological innovation, this does not mean they are abandoning established intrusion techniques.</p> <p>Instead, these actors repeatedly demonstrate their sophistication by adapting individual stages of the attack lifecycle to take advantage of new technologies and practices as they become widely adopted and trusted. We've seen this through the abuse of remote working practices, QR codes, device-code authentication, encrypted messaging platforms, legitimate remote-access technologies and, more recently, generative artificial intelligence.</p> <p>The significance lies less in the novelty of the technology and more in how quickly attackers identify its operational value. As organisations adopt new technologies and processes, nation-state actors assess them in parallel for opportunities to improve initial access, persistence, concealment, social engineering or intelligence collection.</p> <p>Meanwhile, established techniques such as phishing, credential theft, exploitation of internet-facing vulnerabilities and trusted relationships remain effective and commonplace."
+  },
+  {
+    "title": "Jensen Huang reinstated as CEO of Nvidia with backing from Trump",
+    "url": "https://www.computerweekly.com/news/366655121/Jensen-Huang-reinstated-as-CEO-of-Nvidia-with-backing-from-Trump",
+    "source": "ComputerWeekly",
+    "published": "2026-11-23T11:30:00+00:00",
+    "raw_text": "<p>Jensen Huang has been reinstated as CEO of AI chip maker Nvidia in a surprise move following his resignation over a series of extramarital affairs, including with a woman believed by US intelligence officers to be a Chinese spy.</p> <p>The move follows discussions with senior members of the US government, and a series of meetings with Huang following his resignation on 12 November, that have persuaded Nvidia’s board that Huang’s reinstatement poses no national security risk.</p> <p>US president Donald Trump said in a <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117666141823845971\">social media post</a> that reappointing Huang was the correct and proper decision. “The Country needs Jensen’s leadership at Nvidia in order to ensure the Success and Prosperity of not only the Company, but the American Economy,” he wrote.</p> <p>Nvidia said in a statement that it believed Huang was the right person to lead the company and that his reinstatement was in the best interest of shareholders, employees, partners and customers, following a unanimous vote by Nvidia’s board.</p> <p>Harvey Jones, who was appointed chair of Nvidia’s board after Jensen’s resignation said: “We have every confidence in Jensen and look forward to working with him as he resumes his leadership of the company.”</p> <p>Huang stood down after it emerged that he had an extramarital affair with Alice Huang, an executive linked to the Singapore-based Nvidia customer, Megaspeed, which came under investigation by the US commerce department last year following claims of suspicious activity and the potential diversion of high-end chips in violation of US export law.</p> <p>US intelligence officials believed that Alice Huang had been recruited as a Chinese spy by China’s Ministry of State Security.</p> <p>Huang, who has provided $25m of financial support to Trump’s controversial White House ballroom project, has been a vocal campaigner for the US to allow more exports of advanced AI chips produced by Nvidia to China.</p> <p>The CEO is known for his hands-on approach to running Nvidia, managing 60 direct reports, and intervening in every aspect of the company’s strategy and technology development.</p> <p>Nvidia said it had formed a committee of independent directors and independent legal counsel to investigate reports that Jensen Huang has been targeted by Chinese intelligence. Jensen Huang supported the investigation and was co-operating with it.</p> <p>The company has set up a national security and export control committee, made up of independent directors to oversee trade, compliance and national security risks, and plans to appoint advisers with expertise in national security. The company also plans to appoint a chief compliance officer in a move to improve corporate governance.</p> <p>Jensen Huang said: “I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.”</p> <p>He expressed his gratitude to Nvidia chair Jones, interim CEO Colette Kress, and Nvidia’s executive team for leading the company.</p> <p>“I am also deeply thankful to our employees, shareholders, leaders across the industry and partners around the world for their extraordinary support. Above all, I am grateful for the love and support of my family. I can’t wait to get back to work,” he added.</p> <p>Jones, who will remain as chair of the board, said he was grateful to Kress, who returns to being Nvidia’s chief financial officer, after she stood in as interim CEO following Huang’s initial departure.</p> <div class=\"extra-info\"> <div class=\"extra-info-inner\"> <h3 class=\"splash-heading\">Read more about Nvidia</h3> <ul class=\"default-list\"> <li>CFO Colette Kress leads Nvidia Q3 with GPU commitment – <a href=\"https://www.computerweekly.com/news/366654840/CFO-Colette-Kress-leads-Nvidia-Q3-with-GPU-commitment\">The company’s interim CEO fields questions on how the company can continue its growth path following the US midterms</a>.</li> <li>Nvidia CEO Jensen Huang resigns amid suspected spy affair scandal – <a href=\"https://www.computerweekly.com/news/366654644/Nvidia-CEO-Jensen-Huang-resigns-amid-suspected-spy-affair-scandal\">Embattled Nvidia CEO and founder Jensen Huang has resigned amid a sex scandal involving an alleged Chinese spy</a>.</li> </ul> </div> </div>",
+    "categories": [
+      "GRC",
+      "Cybersecurity",
+      "Networks",
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Cybersecurity": [
+        "security",
+        "soc"
+      ],
+      "GRC": [
+        "governance",
+        "compliance",
+        "nist"
+      ],
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "<p>Jensen Huang has been reinstated as CEO of AI chip maker Nvidia in a surprise move following his resignation over a series of extramarital affairs, including with a woman believed by US intelligence officers to be a Chinese spy.</p> <p>The move follows discussions with senior members of the US government, and a series of meetings with Huang following his resignation on 12 November, that have persuaded Nvidia’s board that Huang’s reinstatement poses no national security risk.</p> <p>US president Donald Trump said in a <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117666141823845971\">social media post</a> that reappointing Huang was the correct and proper decision. “The Country needs Jensen’s leadership at Nvidia in order to ensure the Success and Prosperity of not only the Company, but the American Economy,” he wrote.</p> <p>Nvidia said in a statement that it believed Huang was the right person to lead the company and that his reinstatement was in the best interest of shareholders, employees, partners and customers, following a unanimous vote by Nvidia’s board.</p> <p>Harvey Jones, who was appointed chair of Nvidia’s board after Jensen’s resignation said: “We have every confidence in Jensen and look forward to working with him as he resumes his leadership of the company.”</p> <p>Huang stood down after it emerged that he had an extramarital affair with Alice Huang, an executive linked to the Singapore-based Nvidia customer, Megaspeed, which came under investigation by the US commerce department last year following claims of suspicious activity and the potential diversion of high-end chips in violation of US export law.</p> <p>US intelligence officials believed that Alice Huang had been recruited as a Chinese spy by China’s Ministry of State Security.</p> <p>Huang, who has provided $25m of financial support to Trump’s controversial White House ballroom project, has been a vocal campaigner for the US to allow more exports of advanced AI chips produced by Nvidia to China.</p> <p>The CEO is known for his hands-on approach to running Nvidia, managing 60 direct reports, and intervening in every aspect of the company’s strategy and technology development.</p> <p>Nvidia said it had formed a committee of independent directors and independent legal counsel to investigate reports that Jensen Huang has been targeted by Chinese intelligence. Jensen Huang supported the investigation and was co-operating with it.</p> <p>The company has set up a national security and export control committee, made up of independent directors to oversee trade, compliance and national security risks, and plans to appoint advisers with expertise in national security. The company also plans to appoint a chief compliance officer in a move to improve corporate governance.</p> <p>Jensen Huang said: “I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution.”</p> <p>He expressed his gratitude to Nvidia chair Jones, interim CEO Colette Kress, and Nvidia’s executive team for leading the company.</p> <p>“I am also deeply thankful to our employees, shareholders, leaders across the industry and partners around the world for their extraordinary support."
+  },
+  {
     "title": "Britain’s data sharing plans should be judged by who they help",
     "url": "https://www.computerweekly.com/opinion/Britains-data-sharing-plans-should-be-judged-by-who-they-help",
     "source": "ComputerWeekly",
@@ -1684,6 +2072,54 @@
     "summary": "<p>Capita’s CEO will not get to fix the company’s <a href=\"https://www.computerweekly.com/news/366641895/Capita-lacked-detail-and-thoroughness-in-planning-botched-Civil-service-pension-scheme-takeover\">Civil Service Pension Scheme</a> (CSPS) work as he steps down as a consequence of the botched contract.</p> <p>The company’s share price tanked on news of profits falling by over 50% on Monday 23 November. Extra Capita spending related to trying to fix the CSPS&nbsp;will see profits reduced by over £90m, the firm said.</p> <p>Capita’s heavy reliance on the UK public sector, combined with its mistakes on the CSPS and the current government’s policy to insource more business, will put the company under pressure.</p> <p>Adolfo Hernandez, who has had to face public scrutiny as a result of Capita’s disastrous running of the CSPS, will be replaced by chief financial officer Pablo Andres.</p> <p>Hernandez <a href=\"https://www.computerweekly.com/news/366650555/Capita-boss-gets-obscene-pay-packet-while-retired-civil-servants-need-emergency-loans\">earned £1.6m in his last pay packet</a>, while thousands of retired civil servants on a pension scheme run by Capita were, as a result of its mistakes, forced to apply for emergency loans.</p> <p>Capita said in a statement: “The board and Adolfo Hernandez have agreed that Adolfo will step down as CEO and as a member of the board with immediate effect.”</p> <p>One CSPS member said: “There are interesting reactions on Facebook. Most are elated [that Hernandez is going] but a few are concerned about the risks if Capita collapses completely.”</p> <section class=\"section main-article-chapter\" data-menu-title=\"Hernandez criticised internally\"> <h2 class=\"section-title\"><i class=\"icon\" data-icon=\"1\"></i>Hernandez criticised internally</h2> <p>In August, as revealed by Computer Weekly, Hernandez was <a href=\"https://www.computerweekly.com/news/366648014/Capita-CEO-receives-scathing-rebuttal-from-employee-over-botched-contract\">slammed via an internal message board</a> after making claims that the “right” things are in place to turn the CSPS administration around. The comments from a staff member cast doubt on Capita’s ability to fix the problems being experienced by members of the pension scheme.</p> <p>In a response to a Hernandez statement, copied to all Capita staff, a member of the pensions team said: “The service provided by Capita surpasses your assertion of ‘not good enough’, it has been abysmal for members."
   },
   {
+    "title": "How to save your Google Nest app videos before the January shutdown",
+    "url": "https://www.zdnet.com/home-and-office/how-to-save-your-google-nest-app-videos-switch-to-google-home/",
+    "source": "ZDNet",
+    "published": "2026-11-23T17:52:52+00:00",
+    "raw_text": "Google is retiring the Nest app in favor of the Google Home app. Here’s how to transfer your data.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Google is retiring the Nest app in favor of the Google Home app. Here’s how to transfer your data."
+  },
+  {
+    "title": "You won’t see a Galaxy Watch 10 until 2028 – here’s why",
+    "url": "https://www.zdnet.com/tech/samsung-galaxy-watch-10-biannual-release-2028/",
+    "source": "ZDNet",
+    "published": "2026-11-23T17:25:59+00:00",
+    "raw_text": "In an effort to cut costs, Samsung is postponing the launch of the Galaxy Watch 10, according to reports. Here’s what to know.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "In an effort to cut costs, Samsung is postponing the launch of the Galaxy Watch 10, according to reports. Here’s what to know."
+  },
+  {
+    "title": "Pixel Weather’s new feature lets you report your local conditions now",
+    "url": "https://www.zdnet.com/tech/pixel-weather-feature-local-weather-reports/",
+    "source": "ZDNet",
+    "published": "2026-11-23T17:22:27+00:00",
+    "raw_text": "Weather apps are notoriously inaccurate. Google’s new feature can help.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Weather apps are notoriously inaccurate. Google’s new feature can help."
+  },
+  {
+    "title": "Nvidia CEO Jensen Huang is back after a stunning reversal",
+    "url": "https://www.zdnet.com/innovation/jensen-huang-is-back-as-nvidia-ceo-after-a-stunning-reversal/",
+    "source": "ZDNet",
+    "published": "2026-11-23T14:51:37+00:00",
+    "raw_text": "Nvidia’s board unanimously reinstated Huang 11 days after his removal, but his troubles may not be over.",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Nvidia’s board unanimously reinstated Huang 11 days after his removal, but his troubles may not be over."
+  },
+  {
     "title": "Can AI plan terrorist attacks? The US tested ChatGPT, Claude, Gemini, and Grok",
     "url": "https://www.zdnet.com/innovation/ai-chatbots-terrorist-attack-plans-us-government-test/",
     "source": "ZDNet",
@@ -1704,31 +2140,71 @@
     "summary": "Investigators tried to bypass AI safeguards to generate plans. The results exposed security gaps and raised questions about preventing misuse."
   },
   {
-    "title": "Recording Available: State Health Officials Discuss Impact of Losing Measles Elimination Status",
-    "url": "https://www.prnewswire.com/news-releases/recording-available-state-health-officials-discuss-impact-of-losing-measles-elimination-status-302948336.html",
+    "title": "Lark Health Appoints Gil Addo as CEO, Marking a New Chapter in AI-Powered Digital Healthcare",
+    "url": "https://www.prnewswire.com/news-releases/lark-health-appoints-gil-addo-as-ceo-marking-a-new-chapter-in-ai-powered-digital-healthcare-302948531.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:03:00+00:00",
-    "raw_text": "ARLINGTON, Va., Nov. 23, 2026 /PRNewswire/ -- the Association of State and Territorial Health Officials (ASTHO) convened state health officials to discuss the impact of losing measles elimination status in the U.S. Officials discussed funding, federal support, implications for public...",
+    "published": "2026-11-23T18:28:00+00:00",
+    "raw_text": "MOUNTAIN VIEW, Calif., Nov. 23, 2026 /PRNewswire/ -- Lark Health, a national leader in digital healthcare, is pleased to announce the appointment of Gil Addo as its new Chief Executive Officer. Julia Hu, who co-founded Lark Health in 2011 and has served as CEO since its inception, will...",
     "categories": [
-      "Cybersecurity",
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "MOUNTAIN VIEW, Calif., Nov. 23, 2026 /PRNewswire/ -- Lark Health, a national leader in digital healthcare, is pleased to announce the appointment of Gil Addo as its new Chief Executive Officer. Julia Hu, who co-founded Lark Health in 2011 and has served as CEO since its inception, will..."
+  },
+  {
+    "title": "What's Next for Alphabet Inc. Shareholders After 7.13% Stock Drop? Glancy Prongay Wolke & Rotter LLP Explains Securities Fraud Class Action Lead Plaintiff Deadline",
+    "url": "https://www.prnewswire.com/news-releases/whats-next-for-alphabet-inc-shareholders-after-7-13-stock-drop-glancy-prongay-wolke--rotter-llp-explains-securities-fraud-class-action-lead-plaintiff-deadline-302947428.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:20:00+00:00",
+    "raw_text": "Complaint alleges Alphabet Inc. misled investors between May 19, 2026 and October 28, 2026; investors may seek lead plaintiff role by December 1, 2026 LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- Glancy Prongay Wolke & Rotter LLP (\"Glancy\") announced today that the class action lawsuit...",
+    "categories": [
+      "Cloud Infrastructure",
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Cloud Infrastructure": [
+        "aws"
+      ],
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "Complaint alleges Alphabet Inc. misled investors between May 19, 2026 and October 28, 2026; investors may seek lead plaintiff role by December 1, 2026 LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- Glancy Prongay Wolke & Rotter LLP (\"Glancy\") announced today that the class action lawsuit..."
+  },
+  {
+    "title": "Gatorade \"Body of Science\" Highlights Women's Research Gap with F1 ACADEMY at Las Vegas Grand Prix",
+    "url": "https://www.prnewswire.com/news-releases/gatorade-body-of-science-highlights-womens-research-gap-with-f1-academy-at-las-vegas-grand-prix-302948522.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:20:00+00:00",
+    "raw_text": "Gatorade Sports Science Institute advances women's research with F1 ACADEMY drivers, including Lisa Billard, while Venus Williams and Kristin Juszczyk spotlight the gap through custom designs Key Takeaways: \"Body of Science\" at the F1 Las Vegas Grand Prix: Gatorade brought its \"Body of...",
+    "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ],
       "Industry & Market": [
-        "funding"
+        "ey"
       ]
     },
-    "summary": "ARLINGTON, Va., Nov. 23, 2026 /PRNewswire/ -- the Association of State and Territorial Health Officials (ASTHO) convened state health officials to discuss the impact of losing measles elimination status in the U.S. Officials discussed funding, federal support, implications for public..."
+    "summary": "Gatorade Sports Science Institute advances women's research with F1 ACADEMY drivers, including Lisa Billard, while Venus Williams and Kristin Juszczyk spotlight the gap through custom designs Key Takeaways: \"Body of Science\" at the F1 Las Vegas Grand Prix: Gatorade brought its \"Body of..."
   },
   {
-    "title": "Lifetime Achievement Honors for Ronnie Specter and Lola Kemp at The MUAHS Awards",
-    "url": "https://www.prnewswire.com/news-releases/lifetime-achievement-honors-for-ronnie-specter-and-lola-kemp-at-the-muahs-awards-302948254.html",
+    "title": "Your customers don't need you to look like a CEO",
+    "url": "https://www.prnewswire.com/news-releases/your-customers-dont-need-you-to-look-like-a-ceo-302948520.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:02:00+00:00",
-    "raw_text": "LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- The Make-Up Artists & Hair Stylists Guild (MUAHS, IATSE Local 706) announces that Ronnie Specter, an Oscar®-nominated and Emmy®-winning make-up artist, and Lola Kemp, an Emmy®-nominated hair stylist, will be honored with Lifetime Achievement...",
+    "published": "2026-11-23T18:16:00+00:00",
+    "raw_text": "SAN MATEO, Calif., Nov. 23, 2026 /PRNewswire/ -- Trying to look like a CEO is funny business. Depending on whose example you follow, you need either a better suit or the appearance of having forgotten suits exist. The conventional executive looks responsible. The shaggy founder looks too...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "SAN MATEO, Calif., Nov. 23, 2026 /PRNewswire/ -- Trying to look like a CEO is funny business. Depending on whose example you follow, you need either a better suit or the appearance of having forgotten suits exist. The conventional executive looks responsible."
+  },
+  {
+    "title": "ATLAS OCEAN VOYAGES ANNOUNCES BEST OFFER OF THE YEAR WITH BLACK FRIDAY SALE",
+    "url": "https://www.prnewswire.com/news-releases/atlas-ocean-voyages-announces-best-offer-of-the-year-with-black-friday-sale-302948518.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:13:00+00:00",
+    "raw_text": "Five-day event features savings of up to 55% on select luxury expeditions, plus up to $2,000 in Air Credit Savings per suite FORT LAUDERDALE, Fla., Nov. 23, 2026 /PRNewswire/ -- Atlas Ocean Voyages, the leader in luxury expedition cruising, announces its highly anticipated Black Friday...",
     "categories": [
       "Industry & Market"
     ],
@@ -1737,168 +2213,213 @@
         "announces"
       ]
     },
-    "summary": "LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- The Make-Up Artists & Hair Stylists Guild (MUAHS, IATSE Local 706) announces that Ronnie Specter, an Oscar®-nominated and Emmy®-winning make-up artist, and Lola Kemp, an Emmy®-nominated hair stylist, will be honored with Lifetime Achievement..."
+    "summary": "Five-day event features savings of up to 55% on select luxury expeditions, plus up to $2,000 in Air Credit Savings per suite FORT LAUDERDALE, Fla., Nov. 23, 2026 /PRNewswire/ -- Atlas Ocean Voyages, the leader in luxury expedition cruising, announces its highly anticipated Black Friday..."
   },
   {
-    "title": "Candel Therapeutics (CADL) Securities Investigation Notice - Levi & Korsinsky",
-    "url": "https://www.prnewswire.com/news-releases/candel-therapeutics-cadl-securities-investigation-notice---levi--korsinsky-302947266.html",
+    "title": "Boca Pointe Center for Rehabilitation and Healing Named to U.S. News & World Report's 2027 List of America's Best Nursing Homes",
+    "url": "https://www.prnewswire.com/news-releases/boca-pointe-center-for-rehabilitation-and-healing-named-to-us-news--world-reports-2027-list-of-americas-best-nursing-homes-302948519.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:01:00+00:00",
-    "raw_text": "Candel Therapeutics (CADL) shares fell by more than 26% after the aglatimagene BLA submission moved from the fourth quarter of 2026 to mid-2027. Levi & Korsinsky is investigating potential securities law violations tied to the timeline shift that drove the selloff. NEW YORK, Nov. 23, 2026...",
+    "published": "2026-11-23T18:13:00+00:00",
+    "raw_text": "Prestigious recognition for Sabal Health Boca Pointe Center for Rehabilitation and Healing highlights commitment to clinical excellence, high-quality resident care, and outstanding healthcare outcomes BOCA RATON, Fla., Nov. 23, 2026 /PRNewswire/ -- U.S. News & World Report's list of the...",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "Candel Therapeutics (CADL) shares fell by more than 26% after the aglatimagene BLA submission moved from the fourth quarter of 2026 to mid-2027. Levi & Korsinsky is investigating potential securities law violations tied to the timeline shift that drove the selloff. NEW YORK, Nov. 23, 2026..."
+    "summary": "Prestigious recognition for Sabal Health Boca Pointe Center for Rehabilitation and Healing highlights commitment to clinical excellence, high-quality resident care, and outstanding healthcare outcomes BOCA RATON, Fla., Nov. 23, 2026 /PRNewswire/ -- U.S. News & World Report's list of the..."
   },
   {
-    "title": "Wireless Broadband in Public Safety Market worth $241.16 billion by 2032 - Report by MarketsandMarkets™",
-    "url": "https://www.prnewswire.com/news-releases/wireless-broadband-in-public-safety-market-worth-241-16-billion-by-2032--report-by-marketsandmarkets-302948005.html",
+    "title": "Four Summit Care Healthcare Facilities On U.S. News & World Report's 2027 List of America's Best Nursing Homes",
+    "url": "https://www.prnewswire.com/news-releases/four-summit-care-healthcare-facilities-on-us-news--world-reports-2027-list-of-americas-best-nursing-homes-302948517.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:01:00+00:00",
-    "raw_text": "DELRAY BEACH, Fla., Nov. 23, 2026 /PRNewswire/ -- According to MarketsandMarkets™, the Wireless Broadband in Public Safety Market is expected to grow from USD 64.40 billion in 2026 to USD 241.16 billion by 2032, registering a CAGR of 24.6%, from 2026 to 2032. Browse 300 market data Tables...",
+    "published": "2026-11-23T18:12:00+00:00",
+    "raw_text": "Prestigious recognition of Diamond Ridge Health & Rehabilitation Center, Surrey Place Healthcare & Rehabilitation, Blountstown Center for Rehabilitation and Healing, and Hawthorne Rehab of Brandon underscores their commitment to clinical excellence, high-quality resident care, and...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "ey"
+      ]
+    },
+    "summary": "Prestigious recognition of Diamond Ridge Health & Rehabilitation Center, Surrey Place Healthcare & Rehabilitation, Blountstown Center for Rehabilitation and Healing, and Hawthorne Rehab of Brandon underscores their commitment to clinical excellence, high-quality resident care, and..."
+  },
+  {
+    "title": "What's Next for Anavex Life Sciences Corp. Shareholders After 6.35% Stock Drop? Glancy Prongay Wolke & Rotter LLP Explains Securities Fraud Class Action Lead Plaintiff Deadline",
+    "url": "https://www.prnewswire.com/news-releases/whats-next-for-anavex-life-sciences-corp-shareholders-after-6-35-stock-drop-glancy-prongay-wolke--rotter-llp-explains-securities-fraud-class-action-lead-plaintiff-deadline-302947424.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:10:00+00:00",
+    "raw_text": "Complaint alleges Anavex Life Sciences Corp. misled investors between November 26, 2025 and August 28, 2026; investors may seek lead plaintiff role by November 30, 2026 LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- Glancy Prongay Wolke & Rotter LLP (\"Glancy\") announced today that the class...",
     "categories": [
       "Networks"
     ],
     "matched_keywords": {
       "Networks": [
-        "wireless",
-        "broadband"
+        "lan"
       ]
     },
-    "summary": "DELRAY BEACH, Fla., Nov. 23, 2026 /PRNewswire/ -- According to MarketsandMarkets™, the Wireless Broadband in Public Safety Market is expected to grow from USD 64.40 billion in 2026 to USD 241.16 billion by 2032, registering a CAGR of 24.6%, from 2026 to 2032. Browse 300 market data Tables..."
+    "summary": "Complaint alleges Anavex Life Sciences Corp. misled investors between November 26, 2025 and August 28, 2026; investors may seek lead plaintiff role by November 30, 2026 LOS ANGELES, Nov. 23, 2026 /PRNewswire/ -- Glancy Prongay Wolke & Rotter LLP (\"Glancy\") announced today that the class..."
   },
   {
-    "title": "NeuroPace (NPCE) Securities Investigation Notice - Levi & Korsinsky",
-    "url": "https://www.prnewswire.com/news-releases/neuropace-npce-securities-investigation-notice---levi--korsinsky-302947293.html",
+    "title": "Five Solaris Healthcare Facilities On U.S. News & World Report's 2027 List of America's Best Nursing Homes",
+    "url": "https://www.prnewswire.com/news-releases/five-solaris-healthcare-facilities-on-us-news--world-reports-2027-list-of-americas-best-nursing-homes-302948514.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:01:00+00:00",
-    "raw_text": "Analysts expected roughly $27.1 million in third-quarter revenue from NeuroPace. The Company reported $23.1 million, and downgrades from Leerink Partners, Wells Fargo, and JPMorgan followed. The investigation concerns potential securities law violations tied to the shortfall. NEW YORK,...",
+    "published": "2026-11-23T18:04:00+00:00",
+    "raw_text": "Prestigious recognition for Solaris Healthcare Celebration; Solaris Healthcare East Orlando; Solaris Healthcare Waterman; Solaris Healthcare Forest Lake; and Solaris Healthcare Zephyrhills highlights commitment to clinical excellence, high-quality resident care, and outstanding healthcare...",
     "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Analysts expected roughly $27.1 million in third-quarter revenue from NeuroPace. The Company reported $23.1 million, and downgrades from Leerink Partners, Wells Fargo, and JPMorgan followed. The investigation concerns potential securities law violations tied to the shortfall. NEW YORK,..."
-  },
-  {
-    "title": "FirstService Residential Illinois President Brian Butler Receives CAI Illinois Andrea Sorgani President's Award",
-    "url": "https://www.prnewswire.com/news-releases/firstservice-residential-illinois-president-brian-butler-receives-cai-illinois-andrea-sorgani-presidents-award-302947685.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Recognition honors Butler's longstanding leadership, service and commitment to the community association industry CHICAGO, Nov. 23, 2026 /PRNewswire/ -- FirstService Residential North America's leading property management company, is proud to announce that Illinois President Brian Butler...",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "soc"
-      ]
-    },
-    "summary": "Recognition honors Butler's longstanding leadership, service and commitment to the community association industry CHICAGO, Nov. 23, 2026 /PRNewswire/ -- FirstService Residential North America's leading property management company, is proud to announce that Illinois President Brian Butler..."
-  },
-  {
-    "title": "Nearly 9 in 10 Workers Have Job Hugged, and 48% Are Doing It Now",
-    "url": "https://www.prnewswire.com/news-releases/nearly-9-in-10-workers-have-job-hugged-and-48-are-doing-it-now-302947113.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Share of workers currently job hugging remains unchanged from 2025, but more say staying put is limiting their satisfaction and career growth. GUAYNABO, Puerto Rico, Nov. 23, 2026 /PRNewswire/ -- The majority (87%) of U.S. workers have \"job hugged,\" or stayed in a role longer than they...",
-    "categories": [
-      "Data Centres",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Data Centres": [
-        "pue"
-      ],
-      "Industry & Market": [
-        "ey"
-      ]
-    },
-    "summary": "Share of workers currently job hugging remains unchanged from 2025, but more say staying put is limiting their satisfaction and career growth. GUAYNABO, Puerto Rico, Nov. 23, 2026 /PRNewswire/ -- The majority (87%) of U.S. workers have \"job hugged,\" or stayed in a role longer than they..."
-  },
-  {
-    "title": "Employment BOOST Opens Premium Leadership Development Center in Birmingham",
-    "url": "https://www.prnewswire.com/news-releases/employment-boost-opens-premium-leadership-development-center-in-birmingham-302948303.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Employment BOOST opened its 3,500-square-foot Leadership Center at 2254 Cole St. in Birmingham, Michigan's Triangle District. Employment BOOST's leadership coaches lead customized programs at the center, which also hosts executive offsites, team retreats and in-person workforce training....",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Employment BOOST opened its 3,500-square-foot Leadership Center at 2254 Cole St. in Birmingham, Michigan's Triangle District. Employment BOOST's leadership coaches lead customized programs at the center, which also hosts executive offsites, team retreats and in-person workforce training...."
-  },
-  {
-    "title": "F&C Engineers and Collide Partner on NAVI AI to Modernize Engineering Document Review",
-    "url": "https://www.prnewswire.com/news-releases/fc-engineers-and-collide-partner-on-navi-ai-to-modernize-engineering-document-review-302948295.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Proven on live projects, NAVI AI, powered by Collide, helps engineers review P&IDs and vendor equipment packages, flag items for expert judgment and carry approved changes through verification. HOUSTON, Nov. 23, 2026 /PRNewswire/ -- F&C Engineers, a Houston-based turnkey EPC firm serving...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "ey",
-        "vendor"
-      ]
-    },
-    "summary": "Proven on live projects, NAVI AI, powered by Collide, helps engineers review P&IDs and vendor equipment packages, flag items for expert judgment and carry approved changes through verification. HOUSTON, Nov. 23, 2026 /PRNewswire/ -- F&C Engineers, a Houston-based turnkey EPC firm serving..."
-  },
-  {
-    "title": "Nordstrom Rack to Open New Location in Crestview Hills, Kentucky",
-    "url": "https://www.prnewswire.com/news-releases/nordstrom-rack-to-open-new-location-in-crestview-hills-kentucky-302947325.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "SEATTLE, Nov. 23, 2026 /PRNewswire/ -- Seattle-based fashion retailer Nordstrom, Inc. announced plans to open a new Nordstrom Rack in Crestview Hills, Ky. in fall 2027. \"We look forward to being a part of the Crestview Hills community and serving our customers with an amazing offering of...",
-    "categories": [
-      "Networks",
-      "Data Centres"
+      "Networks"
     ],
     "matched_keywords": {
       "Networks": [
         "lan"
-      ],
-      "Data Centres": [
-        "rack"
       ]
     },
-    "summary": "SEATTLE, Nov. 23, 2026 /PRNewswire/ -- Seattle-based fashion retailer Nordstrom, Inc. announced plans to open a new Nordstrom Rack in Crestview Hills, Ky. in fall 2027."
+    "summary": "Prestigious recognition for Solaris Healthcare Celebration; Solaris Healthcare East Orlando; Solaris Healthcare Waterman; Solaris Healthcare Forest Lake; and Solaris Healthcare Zephyrhills highlights commitment to clinical excellence, high-quality resident care, and outstanding healthcare..."
   },
   {
-    "title": "Lilly to host Innovation Day 2026",
-    "url": "https://www.prnewswire.com/news-releases/lilly-to-host-innovation-day-2026-302948315.html",
+    "title": "MadeInUSA.com Launches Lucrative Affiliate Program Offering Influencers 10% Commissions and Their Followers 10% Discounts on 180,000 American-Made Products",
+    "url": "https://www.prnewswire.com/news-releases/madeinusacom-launches-lucrative-affiliate-program-offering-influencers-10-commissions-and-their-followers-10-discounts-on-180-000-american-made-products-302948393.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "INDIANAPOLIS, Nov. 23, 2026 /PRNewswire/ -- Eli Lilly and Company (NYSE: LLY) announced today that it will host Lilly Innovation Day, a meeting for the investment community on Monday, December 7, 2026 from 9 a.m. to 1 p.m., Eastern time. At the event, executive and scientific leaders will...",
+    "published": "2026-11-23T18:03:00+00:00",
+    "raw_text": "New national program features 30-day referral commissions, weekly payouts, and access to more than 1,000 brands from 600 American manufacturers. WILMINGTON, Del., Nov. 23, 2026 /PRNewswire/ -- MadeInUSA.com, a national online marketplace dedicated exclusively to American-made products,...",
     "categories": [
       "Industry & Market"
     ],
     "matched_keywords": {
       "Industry & Market": [
-        "investment"
+        "launches"
       ]
     },
-    "summary": "INDIANAPOLIS, Nov. 23, 2026 /PRNewswire/ -- Eli Lilly and Company (NYSE: LLY) announced today that it will host Lilly Innovation Day, a meeting for the investment community on Monday, December 7, 2026 from 9 a.m. to 1 p.m., Eastern time. At the event, executive and scientific leaders will..."
+    "summary": "New national program features 30-day referral commissions, weekly payouts, and access to more than 1,000 brands from 600 American manufacturers. WILMINGTON, Del., Nov. 23, 2026 /PRNewswire/ -- MadeInUSA.com, a national online marketplace dedicated exclusively to American-made products,..."
   },
   {
-    "title": "RingConn Brings Its Smart Ring to Walmart Stores Nationwide",
-    "url": "https://www.prnewswire.com/news-releases/ringconn-brings-its-smart-ring-to-walmart-stores-nationwide-302947871.html",
+    "title": "TransPerfect Expands Corporate Development Team with Appointment of Luise Kremer",
+    "url": "https://www.prnewswire.com/news-releases/transperfect-expands-corporate-development-team-with-appointment-of-luise-kremer-302948512.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "RingConn's full lineup is available on Walmart.com, with sizing kits at nearly 1,500 stores and Gen 3 and Gen 2 Air displays rolling out to approximately 100 locations. NEW YORK, Nov. 23, 2026 /PRNewswire/ -- RingConn, the innovative smart ring brand, is bringing its smart rings* to...",
+    "published": "2026-11-23T18:01:00+00:00",
+    "raw_text": "EY Veteran Brings 15+ Years of Cross-Border M&A Experience Key Takeaways Luise Kremer joins TransPerfect as Vice President of Corporate Development, expanding the company's global M&A team. Kremer brings more than 15 years of experience at EY, having completed more than 100 cross-border...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "expands",
+        "ey"
+      ]
+    },
+    "summary": "EY Veteran Brings 15+ Years of Cross-Border M&A Experience Key Takeaways Luise Kremer joins TransPerfect as Vice President of Corporate Development, expanding the company's global M&A team. Kremer brings more than 15 years of experience at EY, having completed more than 100 cross-border..."
+  },
+  {
+    "title": "Leopard Imaging to Showcase Advanced Intelligent Perception and Spatial Intelligence Solutions at CES 2027",
+    "url": "https://www.prnewswire.com/news-releases/leopard-imaging-to-showcase-advanced-intelligent-perception-and-spatial-intelligence-solutions-at-ces-2027-302947928.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:00:00+00:00",
+    "raw_text": "FREMONT, Calif., Nov. 23, 2026 /PRNewswire/ -- Leopard Imaging Inc., a global leader in intelligent perception system design, manufacturing, and spatial intelligence solutions, is pleased to announce its participation in CES 2027, taking place January 6–9, 2027, in Las Vegas, Nevada....",
     "categories": [
       "Uncategorised"
     ],
     "matched_keywords": {},
-    "summary": "RingConn's full lineup is available on Walmart.com, with sizing kits at nearly 1,500 stores and Gen 3 and Gen 2 Air displays rolling out to approximately 100 locations. NEW YORK, Nov. 23, 2026 /PRNewswire/ -- RingConn, the innovative smart ring brand, is bringing its smart rings* to..."
+    "summary": "FREMONT, Calif., Nov. 23, 2026 /PRNewswire/ -- Leopard Imaging Inc., a global leader in intelligent perception system design, manufacturing, and spatial intelligence solutions, is pleased to announce its participation in CES 2027, taking place January 6–9, 2027, in Las Vegas, Nevada...."
   },
   {
-    "title": "Take Profit Trader Launches End-of-Day Drawdown in Funded Accounts, With True Daily Payouts: Now Offers Three Plan Options",
-    "url": "https://www.prnewswire.com/news-releases/take-profit-trader-launches-end-of-day-drawdown-in-funded-accounts-with-true-daily-payouts-now-offers-three-plan-options-302945604.html",
+    "title": "Festo and NOCTI Announce New Cleanroom Certification for Semiconductor Manufacturing Training",
+    "url": "https://www.prnewswire.com/news-releases/festo-and-nocti-announce-new-cleanroom-certification-for-semiconductor-manufacturing-training-302948344.html",
     "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "With the new EOD plan, traders get end-of-day drawdown from eval, to funded, to live, plus 40% off and no activation fee for life with promo code NOFEE40. ORLANDO, Fla., Nov. 23, 2026 /PRNewswire/ -- Take Profit Trader (TPT), a futures trading prop firm known for day-one and daily payouts...",
+    "published": "2026-11-23T18:00:00+00:00",
+    "raw_text": "Visit Booth #925, December 3-4 | Ernest N. Morial Convention Center ACTE's CareerTech Vision 2026 NEW ORLEANS, Nov. 23, 2026 /PRNewswire/ -- Festo Didactic, a global leader in technical education and industrial training, and NOCTI, a leading third-party provider of industry credentials...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Visit Booth #925, December 3-4 | Ernest N. Morial Convention Center ACTE's CareerTech Vision 2026 NEW ORLEANS, Nov. 23, 2026 /PRNewswire/ -- Festo Didactic, a global leader in technical education and industrial training, and NOCTI, a leading third-party provider of industry credentials..."
+  },
+  {
+    "title": "Mercedes-Benz and Arena Physica Scale Deployment of AI Agents for Electrical Quality in Vehicle Production Globally",
+    "url": "https://www.prnewswire.com/news-releases/mercedes-benz-and-arena-physica-scale-deployment-of-ai-agents-for-electrical-quality-in-vehicle-production-globally-302948494.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:00:00+00:00",
+    "raw_text": "Mercedes-Benz partners with Arena Physica to give Mercedes-Benz technicians AI-powered support for electrical and electronic (E/E) diagnostics Arena Physica's Atlas helps factory technicians pinpoint the most likely root causes in complex E/E systems with greater speed and confidence...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Mercedes-Benz partners with Arena Physica to give Mercedes-Benz technicians AI-powered support for electrical and electronic (E/E) diagnostics Arena Physica's Atlas helps factory technicians pinpoint the most likely root causes in complex E/E systems with greater speed and confidence..."
+  },
+  {
+    "title": "WuXi Biologics Receives Frost & Sullivan's 2026 Global Customer Value Leadership Recognition for Excellence in Biologics CRDMO Services",
+    "url": "https://www.prnewswire.com/news-releases/wuxi-biologics-receives-frost--sullivans-2026-global-customer-value-leadership-recognition-for-excellence-in-biologics-crdmo-services-302948370.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:00:00+00:00",
+    "raw_text": "Recognized for integrated CRDMO capabilities, technological innovation, and commitment to delivering long-term customer value across the global biologics industry. SAN ANTONIO, Nov. 23, 2026 /PRNewswire/ -- As biologic medicines become increasingly complex and pharmaceutical companies...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "Recognized for integrated CRDMO capabilities, technological innovation, and commitment to delivering long-term customer value across the global biologics industry. SAN ANTONIO, Nov. 23, 2026 /PRNewswire/ -- As biologic medicines become increasingly complex and pharmaceutical companies..."
+  },
+  {
+    "title": "Harvest Group Acquires Good Peeps, Accelerating Growth Toward $10 Billion in Retail Sales and $2 Billion in Media Under Management",
+    "url": "https://www.prnewswire.com/news-releases/harvest-group-acquires-good-peeps-accelerating-growth-toward-10-billion-in-retail-sales-and-2-billion-in-media-under-management-302948447.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T18:00:00+00:00",
+    "raw_text": "From shelf to screen, the acquisition deepens Harvest Group's retail media expertise and expands its relationships with high-growth consumer brands ROGERS, Ark., Nov. 23, 2026 /PRNewswire/ -- Harvest Group, a leading integrated commerce agency for high-growth consumer brands, today...",
+    "categories": [
+      "Industry & Market"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "acquisition",
+        "acquires",
+        "expands"
+      ]
+    },
+    "summary": "From shelf to screen, the acquisition deepens Harvest Group's retail media expertise and expands its relationships with high-growth consumer brands ROGERS, Ark., Nov. 23, 2026 /PRNewswire/ -- Harvest Group, a leading integrated commerce agency for high-growth consumer brands, today..."
+  },
+  {
+    "title": "HelloNation Article Featuring Cosmetic Dental Expert Charles Basso, DDS Examines Whether Porcelain Veneers Are Worth It for Patients",
+    "url": "https://www.prnewswire.com/news-releases/hellonation-article-featuring-cosmetic-dental-expert-charles-basso-dds-examines-whether-porcelain-veneers-are-worth-it-for-patients-302858293.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T17:57:00+00:00",
+    "raw_text": "The article explains how veneers compare with teeth whitening and what Escondido patients should know before treatment. ESCONDIDO, Calif., Nov. 23, 2026 /PRNewswire/ -- What makes porcelain veneers one of the most discussed options in cosmetic dentistry today? HelloNation answers that...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The article explains how veneers compare with teeth whitening and what Escondido patients should know before treatment. ESCONDIDO, Calif., Nov. 23, 2026 /PRNewswire/ -- What makes porcelain veneers one of the most discussed options in cosmetic dentistry today? HelloNation answers that..."
+  },
+  {
+    "title": "QuEra Computing Joins Harvard-Led, $12 Million DOE Project to Design AI-Driven Error Correction for Fault-Tolerant Quantum Computing",
+    "url": "https://www.prnewswire.com/news-releases/quera-computing-joins-harvard-led-12-million-doe-project-to-design-ai-driven-error-correction-for-fault-tolerant-quantum-computing-302948510.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T17:57:00+00:00",
+    "raw_text": "The ASQC project, one of 12 Phase II awards under the Department of Energy's Genesis Mission, will test AI-designed codes and decoders on hardware at QuEra, Harvard, and MIT. BOSTON, Nov. 23, 2026 /PRNewswire/ -- QuEra Computing, the leader in fault-tolerant quantum computing, today...",
+    "categories": [
+      "Uncategorised"
+    ],
+    "matched_keywords": {},
+    "summary": "The ASQC project, one of 12 Phase II awards under the Department of Energy's Genesis Mission, will test AI-designed codes and decoders on hardware at QuEra, Harvard, and MIT. BOSTON, Nov. 23, 2026 /PRNewswire/ -- QuEra Computing, the leader in fault-tolerant quantum computing, today..."
+  },
+  {
+    "title": "Tides, Rain and Wind Across Northern and Central California",
+    "url": "https://www.prnewswire.com/news-releases/tides-rain-and-wind-across-northern-and-central-california-302948509.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T17:55:00+00:00",
+    "raw_text": "OAKLAND, Calif., Nov. 23, 2026 /PRNewswire/ -- Pacific Gas and Electric Company (PG&E) is preparing for exceptionally high king tides this week that, combined with rain and wind, could create localized flooding and other weather-related impacts across Northern and Central California. PG&E...",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ]
+    },
+    "summary": "OAKLAND, Calif., Nov. 23, 2026 /PRNewswire/ -- Pacific Gas and Electric Company (PG&E) is preparing for exceptionally high king tides this week that, combined with rain and wind, could create localized flooding and other weather-related impacts across Northern and Central California. PG&E..."
+  },
+  {
+    "title": "Mielle Launches First- Ever Body Care Collection Formulated for Melanin-Rich Skin",
+    "url": "https://www.prnewswire.com/news-releases/mielle-launches-first--ever-body-care-collection-formulated-for-melanin-rich-skin-302948508.html",
+    "source": "PR Newswire - Technology",
+    "published": "2026-11-23T17:53:00+00:00",
+    "raw_text": "Mielle's new \"Daily Glow\" collection includes seven dermatologist-tested products that reveal skin's natural glow in just one use, including a hero body lotion clinically proven to visibly even skin tone in four weeks. CINCINNATI, Nov. 23, 2026 /PRNewswire/ -- Nearly three in four women...",
     "categories": [
       "Networks",
       "Industry & Market"
@@ -1911,175 +2432,41 @@
         "launches"
       ]
     },
-    "summary": "With the new EOD plan, traders get end-of-day drawdown from eval, to funded, to live, plus 40% off and no activation fee for life with promo code NOFEE40. ORLANDO, Fla., Nov. 23, 2026 /PRNewswire/ -- Take Profit Trader (TPT), a futures trading prop firm known for day-one and daily payouts..."
+    "summary": "Mielle's new \"Daily Glow\" collection includes seven dermatologist-tested products that reveal skin's natural glow in just one use, including a hero body lotion clinically proven to visibly even skin tone in four weeks. CINCINNATI, Nov. 23, 2026 /PRNewswire/ -- Nearly three in four women..."
   },
   {
-    "title": "Global Battery Materials Hosts Battery-Electric Haul Truck Test at Kearney Graphite Mine",
-    "url": "https://www.prnewswire.com/news-releases/global-battery-materials-hosts-battery-electric-haul-truck-test-at-kearney-graphite-mine-302947599.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Federally funded trial with MEDATech puts electrification to work at an Ontario critical minerals site as GBM advances toward a full mine restart by 2028 TORONTO, Nov. 23, 2026 /PRNewswire/ -- Global Battery Materials (\"GBM\" or \"the Company\") announced today the launch of a...",
+    "title": "UK regulator examines Kubernetes and IAM cloud switching barriers - Cloud Computing News",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0pJNjNOOVQ0UXB6VU9PX1RxUkNYcWRKRGZJTFhSRUhFb2ZWYkRKZ1NhY1lDcVBFdTM3c3NrSmR3U0l5NGg3dENYeDBTa0s4SUl3Rk91eGFmT2xBU2swWk9wQnYzeThWSVFFck5lRnFnZzdfUFB6ODNLTFB4bFNfN25qeGJmUTZScjhnZg?oc=5",
+    "source": "Google News: Cloud Infrastructure",
+    "published": "2026-11-23T10:11:22+00:00",
+    "raw_text": "UK regulator examines Kubernetes and IAM cloud switching barriers Cloud Computing News",
     "categories": [
-      "Industry & Market"
+      "Cloud Infrastructure"
     ],
     "matched_keywords": {
-      "Industry & Market": [
-        "ey"
+      "Cloud Infrastructure": [
+        "cloud",
+        "kubernetes",
+        "cloud computing"
       ]
     },
-    "summary": "Federally funded trial with MEDATech puts electrification to work at an Ontario critical minerals site as GBM advances toward a full mine restart by 2028 TORONTO, Nov. 23, 2026 /PRNewswire/ -- Global Battery Materials (\"GBM\" or \"the Company\") announced today the launch of a..."
+    "summary": "UK regulator examines Kubernetes and IAM cloud switching barriers Cloud Computing News"
   },
   {
-    "title": "Roofing Expert Travis Cornolo Highlights How Roof Ventilation Affects Home Comfort and Efficiency",
-    "url": "https://www.prnewswire.com/news-releases/roofing-expert-travis-cornolo-highlights-how-roof-ventilation-affects-home-comfort-and-efficiency-302948334.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Travis Cornolo explores how attic airflow supports energy efficiency, reduces moisture buildup, and contributes to long-term roof health. OVERLAND PARK, Kan., Nov. 23, 2026 /PRNewswire/ -- How does roof ventilation affect home comfort? The answer is provided in a HelloNation article...",
-    "categories": [
-      "Networks"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ]
-    },
-    "summary": "Travis Cornolo explores how attic airflow supports energy efficiency, reduces moisture buildup, and contributes to long-term roof health. OVERLAND PARK, Kan., Nov. 23, 2026 /PRNewswire/ -- How does roof ventilation affect home comfort? The answer is provided in a HelloNation article..."
-  },
-  {
-    "title": "Sharp Takes Home Four 2026 Frank Awards Including Best Manufacturer and Best Diversification Partner",
-    "url": "https://www.prnewswire.com/news-releases/sharp-takes-home-four-2026-frank-awards-including-best-manufacturer-and-best-diversification-partner-302947119.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "MONTVALE, N.J., Nov. 23, 2026 /PRNewswire/ -- Sharp Imaging and Information Company of America (SIICA), a division of Sharp Electronics Corporation, announces it received four Frank Awards at The Cannata Report's 41st Annual Awards & Charities Gala on November 19, 2026, at The Madison...",
-    "categories": [
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "Industry & Market": [
-        "announces"
-      ]
-    },
-    "summary": "MONTVALE, N.J., Nov. 23, 2026 /PRNewswire/ -- Sharp Imaging and Information Company of America (SIICA), a division of Sharp Electronics Corporation, announces it received four Frank Awards at The Cannata Report's 41st Annual Awards & Charities Gala on November 19, 2026, at The Madison..."
-  },
-  {
-    "title": "The Highlight Reel Is Over: Wishew Debuts the Social Network of Becoming",
-    "url": "https://www.prnewswire.com/news-releases/the-highlight-reel-is-over-wishew-debuts-the-social-network-of-becoming-302947812.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Users are making Moves: 100,000 progress updates in the first weeks on the platform that rewards the grind, not the glow-up NEW YORK, Nov. 23, 2026 /PRNewswire/ -- Somewhere in the world right now, a waiter is rehearsing for an audition, a nurse is training for their first marathon and a...",
-    "categories": [
-      "Networks",
-      "Cybersecurity",
-      "GRC"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "network"
-      ],
-      "Cybersecurity": [
-        "soc"
-      ],
-      "GRC": [
-        "audit"
-      ]
-    },
-    "summary": "Users are making Moves: 100,000 progress updates in the first weeks on the platform that rewards the grind, not the glow-up NEW YORK, Nov. 23, 2026 /PRNewswire/ -- Somewhere in the world right now, a waiter is rehearsing for an audition, a nurse is training for their first marathon and a..."
-  },
-  {
-    "title": "LifeSecure Launches Starscape Administrators, an End-to-End TPA Solution for the Insurance Industry",
-    "url": "https://www.prnewswire.com/news-releases/lifesecure-launches-starscape-administrators-an-end-to-end-tpa-solution-for-the-insurance-industry-302947359.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "BRIGHTON, Mich., Nov. 23, 2026 /PRNewswire/ -- LifeSecure Holdings Corporation continues to grow in the insurance sector by establishing Starscape Administrators, a comprehensive third-party administrator (TPA) service that aims to provide personal, strategic end-to-end solutions to the...",
-    "categories": [
-      "GRC",
-      "Industry & Market"
-    ],
-    "matched_keywords": {
-      "GRC": [
-        "nist"
-      ],
-      "Industry & Market": [
-        "launches"
-      ]
-    },
-    "summary": "BRIGHTON, Mich., Nov. 23, 2026 /PRNewswire/ -- LifeSecure Holdings Corporation continues to grow in the insurance sector by establishing Starscape Administrators, a comprehensive third-party administrator (TPA) service that aims to provide personal, strategic end-to-end solutions to the..."
-  },
-  {
-    "title": "Rooms To Go® Goes Big this Black Friday with First-Ever Black Friday Sweepstakes",
-    "url": "https://www.prnewswire.com/news-releases/rooms-to-go-goes-big-this-black-friday-with-first-ever-black-friday-sweepstakes-302947625.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Enter in Person Only in Stores, One Day Only, for a Chance to Win One of Ten $5,000 Rooms To Go Shopping Sprees! SEFFNER, Fla., Nov. 23, 2026 /PRNewswire/ -- Rooms To Go® is celebrating Black Friday with its first-ever Black Friday Sweepstakes, giving eligible entrants a chance to win one...",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Enter in Person Only in Stores, One Day Only, for a Chance to Win One of Ten $5,000 Rooms To Go Shopping Sprees! SEFFNER, Fla., Nov. 23, 2026 /PRNewswire/ -- Rooms To Go® is celebrating Black Friday with its first-ever Black Friday Sweepstakes, giving eligible entrants a chance to win one..."
-  },
-  {
-    "title": "AI Agents Are Taking Orders From Strangers, OX Security Research Finds",
-    "url": "https://www.prnewswire.com/news-releases/ai-agents-are-taking-orders-from-strangers-ox-security-research-finds-302948335.html",
-    "source": "PR Newswire - Technology",
-    "published": "2026-11-23T15:00:00+00:00",
-    "raw_text": "Research finds prompt injection and tool poisoning in 22% of flagged MCP servers, while 83% have code that cannot be independently verified NEW YORK, Nov. 23, 2026 /PRNewswire/ -- Software supply chain attacks are evolving to exploit the access AI agents already have. Instead of running...",
+    "title": "CrowdStrike Buys Zscaler for US$43.9bn in Largest Cyber Deal - Cyber Magazine",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMnE3RHJNOTRkbkFuWUJ1M3F2ME9jOEVYRnI1Rmk5cXBKRllqR2w0WnJnVVFmQ1hBVzZvOVN1aDNKcXduQ0lJRVFRcFF5QVZjMDk1cFI4MTZwWWh4VVlrMEpTYVBDaVVCbzRNdkhONmpNOXBhQmdkM0Rhbnc5cE9OaVdsa0ptdDQwMlZFNFMzQmFGUQ?oc=5",
+    "source": "Google News: Market & Industry News",
+    "published": "2026-11-23T13:45:35+00:00",
+    "raw_text": "CrowdStrike Buys Zscaler for US$43.9bn in Largest Cyber Deal Cyber Magazine",
     "categories": [
       "Cybersecurity"
     ],
     "matched_keywords": {
       "Cybersecurity": [
-        "exploit",
-        "security"
-      ]
-    },
-    "summary": "Research finds prompt injection and tool poisoning in 22% of flagged MCP servers, while 83% have code that cannot be independently verified NEW YORK, Nov. 23, 2026 /PRNewswire/ -- Software supply chain attacks are evolving to exploit the access AI agents already have. Instead of running..."
-  },
-  {
-    "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week - GBHackers News",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mNnNnOWJrUzBYaHQ0ZlE0LUtCbGY3a2libUZqMFp4cEg1LVNjYVg0MXFLcmpCSlRTXzJvbW05eHZhR29Xb1dNSTBoN2VNNncyN1FreDZYWmFDZi1LdGN4UHUyM0FBSlhpX2FueFYxM19GSzMzMnNwT0dDWnloWWvSAYQBQVVfeXFMTkQxcmFDR25vNlpZTko2UFV2VURsaU5kVFdOekFEUXZNcmkxQXBKSzVyZ3dfS2s4ejc4MEpQb2l5alJlNnR6NDNKcEtxblR5M2dmYWtneXJxMkdId0t4ZWZXNFlkMzBSdmhPbXNFdVlBaEt1NkVrRVhaTDBFWTY2MnotX0dw?oc=5",
-    "source": "Google News: Cybersecurity",
-    "published": "2026-11-23T13:29:34+00:00",
-    "raw_text": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week GBHackers News",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "hacker",
-        "security",
         "cyber"
       ]
     },
-    "summary": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week GBHackers News"
-  },
-  {
-    "title": "Can AI Be Used To Make Online Platforms Hack Proof? - CyberSecurityNews",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOHd0VlpGYWpBNzRVY1JYZmxxeW1ON0hRMlBPOUFLRHpkNUwwUXhpWmlHUzBfcE5XVHBwS21PUGc2SEdsUnhNZEd1R2gzX044ZmxERllBWnpVRWQxWlZoYkFPUmMtcUh1WVFhZUFJaEhCQ1VhSmlMazlxZ3d0VVZoYkNTT3Q2TFl4?oc=5",
-    "source": "Google News: Cybersecurity",
-    "published": "2026-11-21T20:29:53+00:00",
-    "raw_text": "Can AI Be Used To Make Online Platforms Hack Proof? CyberSecurityNews",
-    "categories": [
-      "Cybersecurity"
-    ],
-    "matched_keywords": {
-      "Cybersecurity": [
-        "security",
-        "cyber"
-      ]
-    },
-    "summary": "Can AI Be Used To Make Online Platforms Hack Proof? CyberSecurityNews"
-  },
-  {
-    "title": "Indian-Origin Founder, 23, Sells AI Startup for $4.5 Billion - varindia",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOFJXLXM2U1pZellnRDNadzBrb0NkdElhNGNQeG4xV25zcWhKQkNtVVNONjlxTE5RSWtFOHdhX3NlLUtRWG40ejVsRzQwQTJiNTdvSXpRZW16bmdoRWphSlRPdnFqRmZ0Z1JfZ25iYXktWnUwTEpSZWxKMGhmVTlmTi1sVndQd0lBUUFEelNBdC0?oc=5",
-    "source": "Google News: Vendor Press Releases",
-    "published": "2026-11-23T06:29:36+00:00",
-    "raw_text": "Indian-Origin Founder, 23, Sells AI Startup for $4.5 Billion varindia",
-    "categories": [
-      "Uncategorised"
-    ],
-    "matched_keywords": {},
-    "summary": "Indian-Origin Founder, 23, Sells AI Startup for $4.5 Billion varindia"
+    "summary": "CrowdStrike Buys Zscaler for US$43.9bn in Largest Cyber Deal Cyber Magazine"
   },
   {
     "title": "CrowdStrike to acquire Zscaler with $44B bid to rival Palo Alto Networks - SDxCentral",
@@ -2098,20 +2485,44 @@
     "summary": "CrowdStrike to acquire Zscaler with $44B bid to rival Palo Alto Networks SDxCentral"
   },
   {
-    "title": "CrowdStrike Buys Zscaler for US$43.9bn in Largest Cyber Deal - Cyber Magazine",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMnE3RHJNOTRkbkFuWUJ1M3F2ME9jOEVYRnI1Rmk5cXBKRllqR2w0WnJnVVFmQ1hBVzZvOVN1aDNKcXduQ0lJRVFRcFF5QVZjMDk1cFI4MTZwWWh4VVlrMEpTYVBDaVVCbzRNdkhONmpNOXBhQmdkM0Rhbnc5cE9OaVdsa0ptdDQwMlZFNFMzQmFGUQ?oc=5",
+    "title": "Why CrowdStrike's Zscaler Acquisition Affects Data Centres - Data Centre Magazine",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ2phR19JRU5rTnFnVWxTLTF3TnhKdHlzdkdSbTZJckJmamwxdHAzVXAzX0Z4c2szNlBIZVdxeS1MeV9udHV4Y1U5RHdHRkQwUDVOOGNKRFdRNk5EQXhtSG5URTJCaHB3cXZqV052LVI2WjZwVmtaUktjanpJZ191LWc3ZHBHeVRVdUVTNC1US3FBTXMxVGFJUg?oc=5",
     "source": "Google News: Market & Industry News",
-    "published": "2026-11-23T13:45:35+00:00",
-    "raw_text": "CrowdStrike Buys Zscaler for US$43.9bn in Largest Cyber Deal Cyber Magazine",
+    "published": "2026-11-23T16:52:50+00:00",
+    "raw_text": "Why CrowdStrike's Zscaler Acquisition Affects Data Centres Data Centre Magazine",
     "categories": [
-      "Cybersecurity"
+      "Data Centres",
+      "Industry & Market"
     ],
     "matched_keywords": {
-      "Cybersecurity": [
-        "cyber"
+      "Data Centres": [
+        "data centre"
+      ],
+      "Industry & Market": [
+        "acquisition"
       ]
     },
-    "summary": "CrowdStrike Buys Zscaler for US$43.9bn in Largest Cyber Deal Cyber Magazine"
+    "summary": "Why CrowdStrike's Zscaler Acquisition Affects Data Centres Data Centre Magazine"
+  },
+  {
+    "title": "Lenovo Named Leader in IDC MarketScape 2026 Digital Workplace Services Assessment - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbjBnYTZkbS1ETDVwTnVtdlZKczRKWEdGRy1kdXFaZ0V6c2Y3WFJxM1JEeEdfa1o5R0c2Mk9yWHFtcS1iY2RIT1ZYVHdKZmJEZXNWbE5OWDR3THk2cUR4dkVvelVfQnFxNkJVMmN5ektwa2JsUFBaUVZDTHhKUnZpY0RPeUtzQ3NzbjJYTHU1dm02aDg2RW9WaTVLc2pHZDlp?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-23T15:38:35+00:00",
+    "raw_text": "Lenovo Named Leader in IDC MarketScape 2026 Digital Workplace Services Assessment Yahoo Finance",
+    "categories": [
+      "Industry & Market",
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Industry & Market": [
+        "idc"
+      ],
+      "Digital Workplace": [
+        "digital workplace"
+      ]
+    },
+    "summary": "Lenovo Named Leader in IDC MarketScape 2026 Digital Workplace Services Assessment Yahoo Finance"
   },
   {
     "title": "Lenovo Named a Leader in the 2026 IDC MarketScape for Worldwide Digital Workplace Services - AiThority",
@@ -2134,11 +2545,11 @@
     "summary": "Lenovo Named a Leader in the 2026 IDC MarketScape for Worldwide Digital Workplace Services AiThority"
   },
   {
-    "title": "AI and the Future of Work: Navigating a Job Market in Transition - orfonline.org",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZHVDNU5oM21WLWlrOGdCQmowMk5LbWVXMG5JTmhacG1rT0NMVE9ZQmtrQURyWm93c0lYOXJwRmctN054UDJsZ3g0X1N6bWJyTU1IOHNIcFM5WEJvQ1l3Q3RUREhOLVg2anNwcWhNM2NtR3BvZklqNmRPeG1nVFNvZlo3aVdLRFRQNGU4U3g2YzdpMjJkenlabWRtcw?oc=5",
+    "title": "New Research: Fewer Than Half of Washington State's Young Adults Feel Prepared for the Future of Work - FinancialContent",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOXlIVWsyU01kcGNiaTNzUXMzMXMyRFliVDk4REoxRzdzMUNja1lKWFZ1dWs4cDhfNHY3Qm1ySV9EVUtyUGVuSVFMTVRheTJuRWtjRGtLalotcF9MU1ZQdmtTYkxBRlJQOURtbVV5cGF3d2VtNE9oNm40TEtOM1ppcTZMZm53aWFUelR6NklpanVUZk4tQmVuaURabC02Q25qWFdJdHRnQ3NmSGpRS0gwbm92eE1vV2F2QjU3SkdBQmxQTkJwbHpYdXdtaVVad2Y0cmFsOHNzZEh4QjZJaXpNVEN0MHZlYWQ1eGRwblQtanZIRDBsMjhsc19yTjJhSG8?oc=5",
     "source": "Google News: Digital Workplace",
-    "published": "2026-11-23T12:12:50+00:00",
-    "raw_text": "AI and the Future of Work: Navigating a Job Market in Transition orfonline.org",
+    "published": "2026-11-23T15:00:00+00:00",
+    "raw_text": "New Research: Fewer Than Half of Washington State's Young Adults Feel Prepared for the Future of Work FinancialContent",
     "categories": [
       "Digital Workplace"
     ],
@@ -2147,13 +2558,13 @@
         "future of work"
       ]
     },
-    "summary": "AI and the Future of Work: Navigating a Job Market in Transition orfonline.org"
+    "summary": "New Research: Fewer Than Half of Washington State's Young Adults Feel Prepared for the Future of Work FinancialContent"
   },
   {
     "title": "How flexibility, services, and employee experience are driving IndiQube’s growth - YourStory.com",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTUlVQ2o4d29tOTNvUlhnZzVRU2gzTGxicER4ZU43Uk9pelo5M3VYanM5UUFpbVhYYmhuRWNQVVBTZ3lZYkNpdVVtUy1OUWRtb0RuUWpuT1JHSG00ZWpXU0VBSkpBbGItU3dVeG5mQnNmZFE5N2dnZVVLTmZOc0d1dVlza0d0dGNUbnJjZDNVSTlfemFGR3JCemEtaw?oc=5",
     "source": "Google News: Digital Workplace",
-    "published": "2026-11-23T14:40:41+00:00",
+    "published": "2026-11-23T15:00:00+00:00",
     "raw_text": "How flexibility, services, and employee experience are driving IndiQube’s growth YourStory.com",
     "categories": [
       "Digital Workplace"
@@ -2180,6 +2591,38 @@
       ]
     },
     "summary": "Winning Secrets: Building One UOB through culture, leadership and employee experience Human Resources Online"
+  },
+  {
+    "title": "Why Miami’s entrepreneurs are embracing hybrid work and premium coworking - The Jerusalem Post",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuSTAtdzhNakl1dUVyTXR0SXVzOFl3Z0gydUZRRXd0V3pZajJ5U3ZiTVlSNXdjOEVHZFdxVjhKUkt0ek5pZ0Z6VUlnLUxXUEpTTzFjQTBPZ1JGbHp3TGstNm9jVXY5eEY5UW9kSGtIcEUxWmRsb3EzWA?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-22T09:08:24+00:00",
+    "raw_text": "Why Miami’s entrepreneurs are embracing hybrid work and premium coworking The Jerusalem Post",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "hybrid work"
+      ]
+    },
+    "summary": "Why Miami’s entrepreneurs are embracing hybrid work and premium coworking The Jerusalem Post"
+  },
+  {
+    "title": "Adjustable Standing Desk Market Forecast to 2035: Hybrid Work and Health-Tech Integration Drive Forward Growth - IndexBox",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVGZBcURLX0pkOGF0UGk3RFpBVnYwUlJ1OXRhWlotWVZONHdmcm9tbzF2MzBzc05odzh6SjJTQU1YMGRZTkhVRTUxV1pYZ3Y1SWJ5STBoQ1FscWdLTEUzanZWNURib3Z5LUp3amtOYi04YTR1bHVhWm5vbl9DQ2xhaXBLdHpkS3Z1ejAxSXRyM2t2X0lMVUZXT0xBZHZXb3V6UzJFT25GZk5nNnIxS05tUTc3WVNQSWVJYnFoWkpPdVBDQkJTNlNXRUF2dDY0Y0dzaE1ERy1n?oc=5",
+    "source": "Google News: Digital Workplace",
+    "published": "2026-11-22T04:11:05+00:00",
+    "raw_text": "Adjustable Standing Desk Market Forecast to 2035: Hybrid Work and Health-Tech Integration Drive Forward Growth IndexBox",
+    "categories": [
+      "Digital Workplace"
+    ],
+    "matched_keywords": {
+      "Digital Workplace": [
+        "hybrid work"
+      ]
+    },
+    "summary": "Adjustable Standing Desk Market Forecast to 2035: Hybrid Work and Health-Tech Integration Drive Forward Growth IndexBox"
   },
   {
     "title": "Unisys Named a Leader in the 2026 Gartner® Magic Quadrant™ for Outsourced Digital Workplace Services Report - WebWire",
@@ -2218,22 +2661,6 @@
     "summary": "Modern Ergonomic Chair Market To 2035: Hybrid Work and Wellness Drive Growth - News and Statistics IndexBox"
   },
   {
-    "title": "Why Miami’s entrepreneurs are embracing hybrid work and premium coworking - The Jerusalem Post",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuSTAtdzhNakl1dUVyTXR0SXVzOFl3Z0gydUZRRXd0V3pZajJ5U3ZiTVlSNXdjOEVHZFdxVjhKUkt0ek5pZ0Z6VUlnLUxXUEpTTzFjQTBPZ1JGbHp3TGstNm9jVXY5eEY5UW9kSGtIcEUxWmRsb3EzWA?oc=5",
-    "source": "Google News: Digital Workplace",
-    "published": "2026-11-22T09:08:24+00:00",
-    "raw_text": "Why Miami’s entrepreneurs are embracing hybrid work and premium coworking The Jerusalem Post",
-    "categories": [
-      "Digital Workplace"
-    ],
-    "matched_keywords": {
-      "Digital Workplace": [
-        "hybrid work"
-      ]
-    },
-    "summary": "Why Miami’s entrepreneurs are embracing hybrid work and premium coworking The Jerusalem Post"
-  },
-  {
     "title": "Small Desk Chair Market To 2035: Hybrid Work and Compact Living Drive Growth - News and Statistics - IndexBox",
     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdVNOWHgtZldUSVEweTNyRWJLemtnQWM1S0thbHp0dFhIRHRBODdrdXhrS0pITWhxRklfU1lxVHMxcXRpVnFtMk9PZS0tWFdCcGEybThZai02V1FSMmZUamQyUExLSnlpMGlkTGk5ZlZhZXRmMzZldzRjQkVheVpKQzJGbUZfMHhvSVNOaGstOTUxQWRWR2FkMUlfcU5sanI3VDFpdC1Oa0dvbUhIWnRfVEJVTmozSEU?oc=5",
     "source": "Google News: Digital Workplace",
@@ -2270,20 +2697,20 @@
     "summary": "Innovation from within: Asia Asset Finance redefines employee experience through HR legend Ceylon Daily News"
   },
   {
-    "title": "AI is moving from something we use, to acting on our behalf: Omnissa’s Amit Singh | India News - Hindustan Times",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNc3JES0dCNmNrbFF4TFZXejhDajBCeUo4UUpZcGl6NjRQUEp4UWgyaGp1MGRLVGpaZFdkS1BzZFNSeEIwTDY1UnRvUzBzb08yUzBsRjR0ZkVJMWVveExVaERKM1dvWHRiYm42T1BEdTkydEt4RDdldUxycGhhUWpZZlpXZG1JRWJkTlNxa0ZHU2NNdGxkRThCSTRxbHdxNlVjYVFfRjMtY3UyaUx0dndDd3VrZUhJck9DWTBTa0dsTVdadl9sUEFZYmF0TXE4NFdFbDdvS0x0ajBXd9IB3wFBVV95cUxQZktJVDJrQUJzYzRXV09VTVhjQVQtN01ENU5yNC1xd3RoQ0VMZUNUVkFQenVPRXVfNEJXQU5CMmhvQzNMVkRmZUxubTJCdjZhWUF6T2w0T0NTQWlrQWk5WFJ5SE0xTklMNl92bG90bjdhcV9sdGdhZ1F3TkpkUDR6bWpWN0Q1djI4ZzhpVlJYVUxOQnFDR3d0NFd0UGp5LUs2ZzFCeWsyNkY2UG5nMGR3dW0xeFhvOFgxOHVjTmNISmg3SHNtcmlTZmtPbEwxSE8tRHBiNVRPbmJfdmdpN2RN?oc=5",
-    "source": "Google News: End User Computing",
-    "published": "2026-11-23T05:50:16+00:00",
-    "raw_text": "AI is moving from something we use, to acting on our behalf: Omnissa’s Amit Singh | India News Hindustan Times",
+    "title": "Is Voice The New Front Door? How AI Is Transforming Customer Experience - Forbes",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNmY1Z20tWm1CQVdDaEN3b3Q1MGg5SUFneUVHVW8tYnRoUXhTem1lZGFhSVZoeFVsaWNrNnBUUzQ0LWthVEtFVkMwN3F4LV9scWd3RmNlRjQ0OUFHNGNaVGxKN1dZb1VfbC1QbGRfVzhBMnU0QU5hUjBhOUQyM0xUZHlzU0UyRnZxQW4wRkdMdG9lNjAxT2pkU19QTzRoaUdDNlFtR1dybHB1X0FhQVJUYmhMdUpmcUdMemktMVExQnk0dw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-23T15:23:18+00:00",
+    "raw_text": "Is Voice The New Front Door? How AI Is Transforming Customer Experience Forbes",
     "categories": [
-      "End User Computing"
+      "Digital Customer Experience"
     ],
     "matched_keywords": {
-      "End User Computing": [
-        "omnissa"
+      "Digital Customer Experience": [
+        "customer experience"
       ]
     },
-    "summary": "AI is moving from something we use, to acting on our behalf: Omnissa’s Amit Singh | India News Hindustan Times"
+    "summary": "Is Voice The New Front Door? How AI Is Transforming Customer Experience Forbes"
   },
   {
     "title": "Jodi’s Journal: Air service employee creates first-class customer experience - SiouxFalls.Business",
@@ -2303,7 +2730,7 @@
   },
   {
     "title": "Omnichannel Messaging Needs a Plan B for Missed Messages - CX Today",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdjFnSDZLZE8tYWpHRng0Y3FCQWZkT3pvbl9TT2JJUWNxc0QtcndpZnUxazE5WGh3UFZBaTdpT1kzeVd0ek1iZ21iN1dLWlBSeTdPaVpmUnJvYVY2V0otbUpxbFRIU2JETGN0YUxZNnpuQXJfRVNQcEFOMFVhNmFMSU5sWXl2N2c?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSXRGb3p1bEMtemhvbDVaUUh3TGZKaDR3cGtEWHI5emNxa2U4NnNQcndrdXhpWlN1YmMtSXQtRk9QWjZDS1MtbXZwY1g2R18xV3ZWb1NSamR1SzJkMTF6MW55a29OYnlsWUttSmcydzlzSDlxWDJ3NHpEQkhvQ0hSN3JR?oc=5",
     "source": "Google News: Digital Customer Experience",
     "published": "2026-11-23T15:01:00+00:00",
     "raw_text": "Omnichannel Messaging Needs a Plan B for Missed Messages CX Today",
@@ -2320,6 +2747,22 @@
       ]
     },
     "summary": "Omnichannel Messaging Needs a Plan B for Missed Messages CX Today"
+  },
+  {
+    "title": "Walmart capitalizes on tech-powered, omnichannel approach - Baking Business",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaWp2emF2UXJyd2pwVnl1bV81dVBYTU94VU9hdm4waVIzTGVJOXQwXzBZVlBUd3JxZkVGdFJQdW1WT1F0SFQxQS1UOHVQa20wYlZ0dHEzVkZkRC1FX1g3TDNZdHd2ZUROVUFSZ3pwbTdBQWNncGY3emppcEVpVUZBMkJjcGhleXBuWEZXYU9WU2lfckk2M3BmbDY5aElqV05aTDZrMw?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-23T16:11:35+00:00",
+    "raw_text": "Walmart capitalizes on tech-powered, omnichannel approach Baking Business",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "omnichannel"
+      ]
+    },
+    "summary": "Walmart capitalizes on tech-powered, omnichannel approach Baking Business"
   },
   {
     "title": "Target enjoys robust quarterly sales - Retail Customer Experience",
@@ -2386,6 +2829,22 @@
     "summary": "Weekly Recap: 30% organic growth and Athena conversational AI launch TradingView"
   },
   {
+    "title": "Are we letting technology tunnel vision undermine customer experience? - marketech apac",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOURZMUQ3bHRlZnJpdkFWYkFmRW9ZRFVwTUsxeW5fNmJLYXRUSFlHbW01VmdVUkVPR0hGWnVxQlpGb0ZFbUc4SDNCM1lscm5pSkloVnk0YjhHcWtpRTYxOFNmX3Q3UjhaXzNaRVpxUTgwdVN4dzVPaUxISDUycm1Wd2V1RHhyTlVIQURVWkdqZE9ia0lXM0lPMmF3anMzQQ?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-23T14:54:23+00:00",
+    "raw_text": "Are we letting technology tunnel vision undermine customer experience? marketech apac",
+    "categories": [
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Digital Customer Experience": [
+        "customer experience"
+      ]
+    },
+    "summary": "Are we letting technology tunnel vision undermine customer experience? marketech apac"
+  },
+  {
     "title": "Case study: Dow pioneers a customer experience program - EY",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdFBnY2RwQi1UeFFleTNlQ1dHb01GdlpLaWxKdDBBSlhqREdqdFpmS09OZDhWQUhjeWg4MEU3UWhabkVtVGJ6MDl1Ym1KUFhqMEdtc3p5Z2JXNlFiX09Nc0FuOGFVOXRTaFBmRUxhajZDQnVWcmk2S3lGeXNJYkg5SXZKN0ZXNERxSmJoVkR3?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -2406,38 +2865,6 @@
     "summary": "Case study: Dow pioneers a customer experience program EY"
   },
   {
-    "title": "Are we letting technology tunnel vision undermine customer experience? - marketech apac",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOURZMUQ3bHRlZnJpdkFWYkFmRW9ZRFVwTUsxeW5fNmJLYXRUSFlHbW01VmdVUkVPR0hGWnVxQlpGb0ZFbUc4SDNCM1lscm5pSkloVnk0YjhHcWtpRTYxOFNmX3Q3UjhaXzNaRVpxUTgwdVN4dzVPaUxISDUycm1Wd2V1RHhyTlVIQURVWkdqZE9ia0lXM0lPMmF3anMzQQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-23T04:07:17+00:00",
-    "raw_text": "Are we letting technology tunnel vision undermine customer experience? marketech apac",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Are we letting technology tunnel vision undermine customer experience? marketech apac"
-  },
-  {
-    "title": "Hotel Chocolat taps conversational AI ahead of Christmas rush: last week’s biggest retail technology plays - Retail Technology Innovation Hub",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZER3eE0wQnAxcElNUkFGcXBPSGhfaFU1dVZCemZ4b25taF9UeVZRaTBZd3Z2N1Zzc01Vc1NGam1DakxCNXZCdWdaSFNsMGE3NWRGZEc5UmtJR2gtdnRfZERFeGpkVFhzM0ctTm9iZHhWM0hBTlU4STlEMXNEZkhXS1VzeXg1dTQwU2prc2xiRHRTZFg5TmxGTEo1Z2RzR2d4Y0NvVUlQQkl1Y2tYTzZ5OVpSYzVBVUc4V2FUN1BIaGRTejMtcHcta3VWd1dLN3g3UFpjMG1IWGtvMU1jVVFNSW43a0twNTNFWS05eTliVmZQQQ?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-23T06:16:53+00:00",
-    "raw_text": "Hotel Chocolat taps conversational AI ahead of Christmas rush: last week’s biggest retail technology plays Retail Technology Innovation Hub",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "conversational ai"
-      ]
-    },
-    "summary": "Hotel Chocolat taps conversational AI ahead of Christmas rush: last week’s biggest retail technology plays Retail Technology Innovation Hub"
-  },
-  {
     "title": "How two Aussie fashion veterans built an omnichannel model for US growth - Inside Retail Asia",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVTZSUXRyZXVIY3FLTWlXN0xoYWZrQzh6ZFFiNUZGWjJzR3piMFhvSE90SkZwa2RDdjVubmNhWEMybUFHQlVBZE01R1dqb0pzRVc1SXFZeWtMdURsZlQ3OXJkNUk5TVR2dDdfbDVsUTBOeU5OUXY4Tm9ObkdTYURKeF83ZDRNcmh0cWpicVY1Ykh2OV9VY3EzV3hRSV9xM3JFOHRqUTdIRElRZ3dTMTVRMUtzcw?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -2454,20 +2881,36 @@
     "summary": "How two Aussie fashion veterans built an omnichannel model for US growth Inside Retail Asia"
   },
   {
-    "title": "Frost & Sullivan Names RingCentral a Visionary Leader in 2026 Frost Radar™ for Conversational AI in Patient Engagement - Business Wire",
-    "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxOcGZuU0VrRDYzX0dWaHh5UkVKNGNzNXA3R0lWOXA3RTRZTzNOb0pMamxwZk9COVRySWFKMURFM2ZJeThsZTJEMTVzbFVkVERSdjVILVFIY0RZMGZnVGNCRTdpYW9DVjctYUl5TEptZ0dxQ0NKVFFTY2c5R0JUTWNXbmY2TVU5ZnNQSkxOdXhNbEZMYnJDZTRCVURSakZmcWtEcWl6SlNpY2lNVkFKVlhqTWJxaEtPY0tCcS1CSVd0WjROQjl1YWFLT0xJUGRidE5PcFI1YUd0M2d2U293cU9OS0x5U0ZXQ3pDWEh6dDcwTm53cUFoNmhHQnoxVkJZYWpYRnROZGZTY0pCaWswSHNQdnYzbzNPUHRYNlFWR3M4R3ZqSzJGcU1TTDBHSmRnNHpEU2xVaURrT0hmdVBKMHhOUGlaOGRlamRfMS1WQmFaRXljUTFORmdNMGY1dVY3MDBGVERVcGJnbEF2UGE5ZkNRQTN1b1E1TjVUT1pCUElvSVE2WmpfZExFbm1oa0N3S2R2azVjVEtHTHdXTU5mNloxUmxPS2tiN1FJZk50RlZIbUtGMXBOc1R6S2VlSDN1cXZpQWt0SQ?oc=5",
+    "title": "Microsoft Ignite 2026: Both Sides of the Call Are Going Agentic. Microsoft Wants the Middle - CX Today",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX0xrNkhYdl81NjJDX0NKSG51WnVaZ3IyVDdnYXVZZlAyNzB3bmRobTl6b0hNRmQxTEdKWUI5RnRpUXRKc0JabGR0ckpxd1lmRjIyMlNuR3libGVvY0p0eE9BVXV4MGxRVld2QVplSFZ0T3c3RHdEMVZiX3daZ3A0ZUtjM25kb3ZMS3NIN2VUNWw?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-23T13:00:00+00:00",
-    "raw_text": "Frost & Sullivan Names RingCentral a Visionary Leader in 2026 Frost Radar™ for Conversational AI in Patient Engagement Business Wire",
+    "published": "2026-11-23T15:31:43+00:00",
+    "raw_text": "Microsoft Ignite 2026: Both Sides of the Call Are Going Agentic. Microsoft Wants the Middle CX Today",
+    "categories": [
+      "Networks"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "wan"
+      ]
+    },
+    "summary": "Microsoft Ignite 2026: Both Sides of the Call Are Going Agentic. Microsoft Wants the Middle CX Today"
+  },
+  {
+    "title": "Thanksgiving weekend will draw 183M shoppers - Retail Customer Experience",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdklmc2F6R1lJT3ZUWkJ0MnRCSG9IelA0UUZJTDhWdW5DMHVpTWZxeWZQd3k5blVUSTcyWFQ3MU90TUtNdmd0R2VmY29MMDNaVGtUTEVwOS1YVEhfZnV3OFlBaC0zUmtSbG1Bb0FSdHVjWWdaY0g1Q1dSOFMxSWpTcnZPNWs5RWt4NHNEeVZocWE0MzdzT2c?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-23T13:11:32+00:00",
+    "raw_text": "Thanksgiving weekend will draw 183M shoppers Retail Customer Experience",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "conversational ai"
+        "customer experience"
       ]
     },
-    "summary": "Frost & Sullivan Names RingCentral a Visionary Leader in 2026 Frost Radar™ for Conversational AI in Patient Engagement Business Wire"
+    "summary": "Thanksgiving weekend will draw 183M shoppers Retail Customer Experience"
   },
   {
     "title": "Home Depot Q3 earnings exceed expectations - Retail Customer Experience",
@@ -2486,20 +2929,40 @@
     "summary": "Home Depot Q3 earnings exceed expectations Retail Customer Experience"
   },
   {
-    "title": "Thanksgiving weekend will draw 183M shoppers - Retail Customer Experience",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdklmc2F6R1lJT3ZUWkJ0MnRCSG9IelA0UUZJTDhWdW5DMHVpTWZxeWZQd3k5blVUSTcyWFQ3MU90TUtNdmd0R2VmY29MMDNaVGtUTEVwOS1YVEhfZnV3OFlBaC0zUmtSbG1Bb0FSdHVjWWdaY0g1Q1dSOFMxSWpTcnZPNWs5RWt4NHNEeVZocWE0MzdzT2c?oc=5",
+    "title": "Marks & Spencer stages Philippine comeback with new retail partner, omnichannel plans - marketech apac",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTk0M1FONlcxSWNaQUlnbUdiNl8ydEFyd2RwWHJsV0MwMWdaSHd6RFhPUFVpVk5qOFFxdktWUC1YemVpcHQ1c2dYVnpnZFlyNDNReGNQUVNDVTlhdnYwYmUtQm5EVXJ0eVZVUEEyUVhfMVVldjRNaWt6ZkFVaG1vZXVPcFkySWZ5Z2o4WjV6OWFuV1JwNEFqelJwWmRvUTFpMXhpd2RMenZOLWpZMGlJ?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-23T13:11:32+00:00",
-    "raw_text": "Thanksgiving weekend will draw 183M shoppers Retail Customer Experience",
+    "published": "2026-11-23T14:55:45+00:00",
+    "raw_text": "Marks & Spencer stages Philippine comeback with new retail partner, omnichannel plans marketech apac",
+    "categories": [
+      "Networks",
+      "Digital Customer Experience"
+    ],
+    "matched_keywords": {
+      "Networks": [
+        "lan"
+      ],
+      "Digital Customer Experience": [
+        "omnichannel"
+      ]
+    },
+    "summary": "Marks & Spencer stages Philippine comeback with new retail partner, omnichannel plans marketech apac"
+  },
+  {
+    "title": "Frost & Sullivan Names RingCentral a Visionary Leader in 2026 Frost Radar™ for Conversational AI in Patient Engagement - Business Wire",
+    "url": "https://news.google.com/rss/articles/CBMixANBVV95cUxOcGZuU0VrRDYzX0dWaHh5UkVKNGNzNXA3R0lWOXA3RTRZTzNOb0pMamxwZk9COVRySWFKMURFM2ZJeThsZTJEMTVzbFVkVERSdjVILVFIY0RZMGZnVGNCRTdpYW9DVjctYUl5TEptZ0dxQ0NKVFFTY2c5R0JUTWNXbmY2TVU5ZnNQSkxOdXhNbEZMYnJDZTRCVURSakZmcWtEcWl6SlNpY2lNVkFKVlhqTWJxaEtPY0tCcS1CSVd0WjROQjl1YWFLT0xJUGRidE5PcFI1YUd0M2d2U293cU9OS0x5U0ZXQ3pDWEh6dDcwTm53cUFoNmhHQnoxVkJZYWpYRnROZGZTY0pCaWswSHNQdnYzbzNPUHRYNlFWR3M4R3ZqSzJGcU1TTDBHSmRnNHpEU2xVaURrT0hmdVBKMHhOUGlaOGRlamRfMS1WQmFaRXljUTFORmdNMGY1dVY3MDBGVERVcGJnbEF2UGE5ZkNRQTN1b1E1TjVUT1pCUElvSVE2WmpfZExFbm1oa0N3S2R2azVjVEtHTHdXTU5mNloxUmxPS2tiN1FJZk50RlZIbUtGMXBOc1R6S2VlSDN1cXZpQWt0SQ?oc=5",
+    "source": "Google News: Digital Customer Experience",
+    "published": "2026-11-23T13:00:00+00:00",
+    "raw_text": "Frost & Sullivan Names RingCentral a Visionary Leader in 2026 Frost Radar™ for Conversational AI in Patient Engagement Business Wire",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "customer experience"
+        "conversational ai"
       ]
     },
-    "summary": "Thanksgiving weekend will draw 183M shoppers Retail Customer Experience"
+    "summary": "Frost & Sullivan Names RingCentral a Visionary Leader in 2026 Frost Radar™ for Conversational AI in Patient Engagement Business Wire"
   },
   {
     "title": "Mplus wins Gold for AI operational performance as businesses focus on measurable returns in 2027 - CAJ News Africa",
@@ -2547,22 +3010,6 @@
     "summary": "DAVIDsTEA Inc. (TSXV:DTEA) Edges Up as Omnichannel Tea Brand Leans on Online and Grocery Distribution kalkine.ca"
   },
   {
-    "title": "Observe.AI Introduces Agent Overwatch, Bringing Real-Time Supervision to Any AI Agent and Human Contact Center Team - CustomerThink",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX0d2OHQzaTUzSXRaTmZBRXNKeE9xVlkwdWMxYXhVcFRrU1lWN3JEYXM5ZXhHVE5VOGo0SDlSa19uYURWQkM3azVkMHNscW1YQktnM0hTa1htOTk0bmJ3dTN0UUZLU1Z1RllnQW5tYnFaVkZYZ2tpOFpBaTliMmZMVUJQblBwbFlYUFBzUFFPS2ZYdWZzMmlpMU55aldYVlFtQmtoc3Vyal93a1Z1ZzQ5YjFnYUFWeHZ5VGlaNEJfSzg1bGdYOVVPU0stODg1QjdVTzdGdVllQ1A?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-21T17:40:59+00:00",
-    "raw_text": "Observe.AI Introduces Agent Overwatch, Bringing Real-Time Supervision to Any AI Agent and Human Contact Center Team CustomerThink",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "contact center"
-      ]
-    },
-    "summary": "Observe.AI Introduces Agent Overwatch, Bringing Real-Time Supervision to Any AI Agent and Human Contact Center Team CustomerThink"
-  },
-  {
     "title": "DEWA leverages behavioural insights to drive service innovation, enhance customer experience and boost efficiency - Zawya",
     "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNcTkxU0g3WnZLVmN2U05BU2VMNmd6cmZGYnozQ3BDSl9jelRscHBCdXRWUjZIa0dFN011ams0Qkh0WU1kVGFCOWpZOVpCYnVyRV9RTHhjUTZyamI5QWR1QWRsOW9XV2ZpcVdhU202OVR3T0UzM2NtUm1LamxGS2szRXlsUmlwYzA4NmNLd3VYQVFvd3hVTFk4NXhLTFRqYUZjOXpCSDVUZ2NTMXlqellHU2k5THZJcXI2VGc1WVViaF9iSW4zeDhHNFBrYWFzaGlPTktSaF9aMktrcjM0R0lmWk1TY256S2FNSWZjdF9vb3k?oc=5",
     "source": "Google News: Digital Customer Experience",
@@ -2579,40 +3026,20 @@
     "summary": "DEWA leverages behavioural insights to drive service innovation, enhance customer experience and boost efficiency Zawya"
   },
   {
-    "title": "Marks & Spencer stages Philippine comeback with new retail partner, omnichannel plans - marketech apac",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTk0M1FONlcxSWNaQUlnbUdiNl8ydEFyd2RwWHJsV0MwMWdaSHd6RFhPUFVpVk5qOFFxdktWUC1YemVpcHQ1c2dYVnpnZFlyNDNReGNQUVNDVTlhdnYwYmUtQm5EVXJ0eVZVUEEyUVhfMVVldjRNaWt6ZkFVaG1vZXVPcFkySWZ5Z2o4WjV6OWFuV1JwNEFqelJwWmRvUTFpMXhpd2RMenZOLWpZMGlJ?oc=5",
+    "title": "Greene King App Scoops Two Lovie Awards as Pub Company Continues to Invest in Customer Experience - British Guild of Beer Writers",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOXJISWJMc0VQTlhOQTFqQkJONlBRdFM3d1RsNk1GUDlNRGpjZFZHNWgzYV93T1Y3TEh0a3hZZ1VlcFd3Q2lKWnRuV2owRldydTExbWp2akM0Q25FS1lyTWhKUzd2ZThldlZuZUNVUVJ3dVREenE3MEVNd3o0bnJaalY3Tm16TFpVWlI0emxhYVpSVmlJTFZNOFBfYWo2Q0hyZjU2bWhwc0FkZUU5WEp6VlNyMlNCeVBSVng1SG1vakdpc2FFcDByWUZR?oc=5",
     "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-23T03:46:16+00:00",
-    "raw_text": "Marks & Spencer stages Philippine comeback with new retail partner, omnichannel plans marketech apac",
-    "categories": [
-      "Networks",
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Networks": [
-        "lan"
-      ],
-      "Digital Customer Experience": [
-        "omnichannel"
-      ]
-    },
-    "summary": "Marks & Spencer stages Philippine comeback with new retail partner, omnichannel plans marketech apac"
-  },
-  {
-    "title": "Datatel Highlights Why Conversational AI Payment Architecture Deserves Greater Executive Attention - lincolnjournal.com",
-    "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPenZwN2JIWFNBQXJlUjVvLXlKOU9IMWFxZFFhQ24yR1dLQzlQUmZpM3owNmJOMWEyNURQMWJEWjUxTnRqUkU3bVBTZ1FpV1lPMnVpTlUyRkMxN3l1Uzg0clludEEtakk5SE1lQWxPaHkwRjV2WTdzbDRJbmRyUFFWSDdja0FVV21aUFRZN3VMal92T3plQnlmOG5RZUdIcUd1QUVGbWFiTkM2dHdNbENLNDNrVHZMa24zX3huU0RFVmtJNGNxZTk4dURpbDg0dElteE5RWENPY1l2d1ozWVFUVEZXVEYyVEFCY2dvOGtDSWhkVXBUS0dHMU84Q2xvWW0wczAzQ2ZqWm16dS1PTjhvbXRUT18tU0RGQXpma1oxNXdra0dwT05CZkppek5iSnM5bUxBag?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-22T10:08:01+00:00",
-    "raw_text": "Datatel Highlights Why Conversational AI Payment Architecture Deserves Greater Executive Attention lincolnjournal.com",
+    "published": "2026-11-23T07:01:13+00:00",
+    "raw_text": "Greene King App Scoops Two Lovie Awards as Pub Company Continues to Invest in Customer Experience British Guild of Beer Writers",
     "categories": [
       "Digital Customer Experience"
     ],
     "matched_keywords": {
       "Digital Customer Experience": [
-        "conversational ai"
+        "customer experience"
       ]
     },
-    "summary": "Datatel Highlights Why Conversational AI Payment Architecture Deserves Greater Executive Attention lincolnjournal.com"
+    "summary": "Greene King App Scoops Two Lovie Awards as Pub Company Continues to Invest in Customer Experience British Guild of Beer Writers"
   },
   {
     "title": "Why Malabar Gold’s customer experience strategy is betting on relationships and AI - SME Futures",
@@ -2629,22 +3056,6 @@
       ]
     },
     "summary": "Why Malabar Gold’s customer experience strategy is betting on relationships and AI SME Futures"
-  },
-  {
-    "title": "Greene King App Scoops Two Lovie Awards as Pub Company Continues to Invest in Customer Experience - British Guild of Beer Writers",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOXJISWJMc0VQTlhOQTFqQkJONlBRdFM3d1RsNk1GUDlNRGpjZFZHNWgzYV93T1Y3TEh0a3hZZ1VlcFd3Q2lKWnRuV2owRldydTExbWp2akM0Q25FS1lyTWhKUzd2ZThldlZuZUNVUVJ3dVREenE3MEVNd3o0bnJaalY3Tm16TFpVWlI0emxhYVpSVmlJTFZNOFBfYWo2Q0hyZjU2bWhwc0FkZUU5WEp6VlNyMlNCeVBSVng1SG1vakdpc2FFcDByWUZR?oc=5",
-    "source": "Google News: Digital Customer Experience",
-    "published": "2026-11-23T07:01:13+00:00",
-    "raw_text": "Greene King App Scoops Two Lovie Awards as Pub Company Continues to Invest in Customer Experience British Guild of Beer Writers",
-    "categories": [
-      "Digital Customer Experience"
-    ],
-    "matched_keywords": {
-      "Digital Customer Experience": [
-        "customer experience"
-      ]
-    },
-    "summary": "Greene King App Scoops Two Lovie Awards as Pub Company Continues to Invest in Customer Experience British Guild of Beer Writers"
   },
   {
     "title": "InMobi launches Accelerate to automate omnichannel advertising with AI - Campaign India",
